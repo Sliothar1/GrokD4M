@@ -220,61 +220,6 @@
     "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
   },
   {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "type",
-    "val": "match"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "name",
-    "val": "Fohenagh (old club) vs Castlegar (1959 Galway SHC final)"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "competition",
-    "val": "Galway Senior Hurling Championship"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "year",
-    "val": 1959
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "home",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "away",
-    "val": "club:castlegar"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "winner",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "score_note",
-    "val": "Fohenagh 3-9 double-sourced (galwaygaa.ie + Wikipedia replay line). Castlegar total omitted: sources conflict (2-5 vs 4-5). Pending Irish Newspaper Archives / Steve Dolan."
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "note",
-    "val": "Fohenagh (old club) won Galway in 1959 after a replay vs Castlegar at Kenny Park. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Castlegar score not stored (conflict)."
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
-  },
-  {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "type",
     "val": "match"
@@ -2747,7 +2692,7 @@
   {
     "row": "club:loughrea",
     "col": "notable",
-    "val": "Johnny Coen and Brian Concannon's club."
+    "val": "2024 Galway SHC winners (third title; previous 1941, 2006)."
   },
   {
     "row": "club:loughrea",
@@ -5275,36 +5220,6 @@
     "val": "community submission (illustrative)"
   },
   {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "score",
-    "val": "Fohenagh 3-9"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "result",
-    "val": "win after a replay"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "venue",
-    "val": "Kenny Park"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "venue_confidence",
-    "val": "board"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "tag",
-    "val": "historic-predecessor"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final",
-    "col": "opponent",
-    "val": "Castlegar"
-  },
-  {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "tag",
     "val": "historic-predecessor"
@@ -5393,66 +5308,6 @@
     "row": "club:killimor",
     "col": "confidence",
     "val": "medium"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "type",
-    "val": "match"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "name",
-    "val": "Ahascragh-Fohenagh vs Abbeyknockmoy (Relegation final)"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "competition",
-    "val": "Galway Senior Hurling Championship"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "round",
-    "val": "Relegation final"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "home",
-    "val": "club:ahascragh-fohenagh"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "away",
-    "val": "club:abbeyknockmoy"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "date",
-    "val": "2019-10-19"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "score",
-    "val": "Ahascragh-Fohenagh 1-17, Abbeyknockmoy 1-12"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "winner",
-    "val": "club:ahascragh-fohenagh"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=TTH20191023.1.61"
-  },
-  {
-    "row": "match:fohenagh-2019-10-19-relegation-final",
-    "col": "note",
-    "val": "INA report says match was at Duggan Park; Cathal Mannion scored 1-13."
   },
   {
     "row": "match:fohenagh-2020-08-08-group-3",
@@ -5723,5 +5578,1220 @@
     "row": "match:fohenagh-2025-10-12-final",
     "col": "note",
     "val": "Report says Darragh Gavin’s last-minute free rescued the draw; match was Saturday before Oct 15 publication."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "name",
+    "val": "Fohenagh (old club) vs Castlegar (1959 Galway SHC final — draw)"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "date",
+    "val": "1959-08-30"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "score",
+    "val": "Fohenagh 2-8, Castlegar 1-11"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "winner",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "tag",
+    "val": "historic-predecessor"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "opponent",
+    "val": "Castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "note",
+    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Drawn final; replay followed. Date: contemporary papers report the Sunday game; Irish Independent printed the score on Mon 31 Aug 1959."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19590905.1.8"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "name",
+    "val": "Fohenagh (old club) vs Castlegar (1959 Galway SHC final — replay)"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "round",
+    "val": "Final replay"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "date",
+    "val": "1959-09-13"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "score",
+    "val": "Fohenagh 3-9, Castlegar 4-5"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "venue",
+    "val": "Kenny Memorial Park, Athenry"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "tag",
+    "val": "historic-predecessor"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "opponent",
+    "val": "Castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "note",
+    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Replay after Pearse Stadium draw. Tuam Herald prints Fohenagh 3-9, Castlegar 4-5 (one-point win)."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19590919.1.8"
+  },
+  {
+    "row": "club:tynagh-abbey-duniry",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry"
+  },
+  {
+    "row": "club:tynagh-abbey-duniry",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Abbeyknockmoy (Relegation final)"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "round",
+    "val": "Relegation final"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "date",
+    "val": "2019-10-19"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 1-17, Abbeyknockmoy 1-12"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH20191023.1.61"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "note",
+    "val": "Tuam Herald INA: Cathal Mannion scored 1-13 (man of the match). Amalgam club match."
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Kilnadeema-Leitrim (Senior B Group 3)"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "round",
+    "val": "Group 3"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "date",
+    "val": "2020-08-08"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "year",
+    "val": 2020
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-20, Kilnadeema-Leitrim 1-19"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH20200812.1.55"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-senior-b-group-3",
+    "col": "note",
+    "val": "Tuam Herald INA: eight different Ahascragh-Fohenagh scorers; Cathal Mannion 1-4. Amalgam club match."
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Micheál Breathnach (Minor U-17 B1 Final)"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "competition",
+    "val": "Galway Minor U-17 B1 Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "date",
+    "val": "2025-10-12"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "away",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 0-14, Micheál Breathnach 1-11"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "winner",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH20251015.1.56"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-minor-u17-b1-final",
+    "col": "note",
+    "val": "Tuam Herald INA: Darragh Gavin late free earned the draw. Amalgam club match (juvenile)."
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "name",
+    "val": "Portumna vs Ahascragh-Fohenagh (Senior B Group 2 Round 1)"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "round",
+    "val": "Group 2 Round 1"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "date",
+    "val": "2024-08-10"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "away",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "score",
+    "val": "Portumna 1-32, Ahascragh-Fohenagh 2-26"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "venue",
+    "val": "Duggan Park"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-08-10-senior-b-group-2-round-1",
+    "col": "note",
+    "val": "Amalgam club. Wikipedia match table (Joe Canning 1-15 for Portumna)."
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "name",
+    "val": "Liam Mellows vs Ahascragh-Fohenagh (Senior B Group 2 Round 2)"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "round",
+    "val": "Group 2 Round 2"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "date",
+    "val": "2024-08-25"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "away",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "score",
+    "val": "Liam Mellows 2-20, Ahascragh-Fohenagh 2-13"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "venue",
+    "val": "Kenny Park, Athenry"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2024-08-25-senior-b-group-2-round-2",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Athenry (Senior B Group 2 Round 3)"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "round",
+    "val": "Group 2 Round 3"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "date",
+    "val": "2024-09-07"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-20, Athenry 1-23"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "winner",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-09-07-senior-b-group-2-round-3",
+    "col": "note",
+    "val": "Points equal (26 each). Amalgam club."
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "name",
+    "val": "Beagh vs Ahascragh-Fohenagh (Senior B Relegation)"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "round",
+    "val": "Relegation"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "date",
+    "val": "2024-09-21"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "away",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "score",
+    "val": "Beagh 1-19, Ahascragh-Fohenagh 1-19"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "winner",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "venue",
+    "val": "Duggan Park"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2024-09-21-senior-b-relegation",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Beagh (Senior B Relegation Replay)"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "round",
+    "val": "Relegation replay"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "date",
+    "val": "2024-10-05"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 0-11, Beagh 0-10"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "venue",
+    "val": "Carnmore"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2024-10-05-senior-b-relegation-replay",
+    "col": "note",
+    "val": "Amalgam club retained Senior B status."
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "type",
+    "val": "season"
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "name",
+    "val": "2024 Galway Senior Hurling Championship"
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "runner_up",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "season:2024-galway-shc",
+    "col": "note",
+    "val": "Loughrea won third title (previous 1941, 2006). Cappataggle first final. St Thomas six-in-a-row ended in semi-final."
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "name",
+    "val": "Loughrea vs Cappataggle (2024 Galway SHC Final)"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "date",
+    "val": "2024-11-10"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "score",
+    "val": "Loughrea 1-15, Cappataggle 0-16"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "venue",
+    "val": "Kenny Park, Athenry"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "season",
+    "val": "season:2024-galway-shc"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-final",
+    "col": "note",
+    "val": "Also reported Irish Times / RTÉ: Anthony Burns 1-3; Loughrea third title."
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "name",
+    "val": "Cappataggle vs St Thomas' (2024 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "date",
+    "val": "2024-10-26"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "score",
+    "val": "Cappataggle 1-15, St Thomas' 0-15"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "venue",
+    "val": "Kenny Park, Athenry"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "season",
+    "val": "season:2024-galway-shc"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-cappataggle-st-thomas",
+    "col": "note",
+    "val": "Ended St Thomas' bid for a seventh consecutive Galway title."
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "name",
+    "val": "Loughrea vs Clarinbridge (2024 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "date",
+    "val": "2024-10-26"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "score",
+    "val": "Loughrea 3-16, Clarinbridge 1-16"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "venue",
+    "val": "Kenny Park, Athenry"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "season",
+    "val": "season:2024-galway-shc"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2024-galway-shc-semi-loughrea-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "name",
+    "val": "Loughrea vs Castlegar (2024 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "date",
+    "val": "2024-10-06"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "score",
+    "val": "Loughrea 1-17, Castlegar 0-16"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "venue",
+    "val": "Kenny Park, Athenry"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "season",
+    "val": "season:2024-galway-shc"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-loughrea-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "name",
+    "val": "Cappataggle vs Sarsfields (2024 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "date",
+    "val": "2024-10-05"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "score",
+    "val": "Cappataggle 0-22, Sarsfields 1-17"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "venue",
+    "val": "Kenny Park, Athenry"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "season",
+    "val": "season:2024-galway-shc"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2024-galway-shc-qf-cappataggle-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "name",
+    "val": "Athenry vs Portumna (2024 Galway Senior B Final)"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "date",
+    "val": "2024-10-19"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "score",
+    "val": "Athenry 1-21, Portumna 3-13"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "venue",
+    "val": "Duggan Park"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:2024-galway-shc-senior-b-final",
+    "col": "note",
+    "val": "Athenry promoted to Senior A for 2025."
   }
 ]

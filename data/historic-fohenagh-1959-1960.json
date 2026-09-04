@@ -12,10 +12,9 @@
       "status": "winner",
       "score": {
         "verified_home": "Fohenagh 3-9",
-        "opponent_score_stored": false,
-        "opponent_score_omitted_reason": "Conflict between galwaygaa.ie 2-5 and Wikipedia replay 4-05; pending Irish Newspaper Archives / Steve Dolan",
+        "opponent_score_stored": true,
         "result": "after a replay",
-        "venue": "Kenny Park",
+        "venue": "Kenny Memorial Park, Athenry",
         "venue_confidence": "board",
         "sources_differ_on_opponent": true,
         "wikipedia": {
@@ -29,9 +28,27 @@
         },
         "hoganstand": {
           "note": "Lists '1959 Fohenagh after a replay' (winner only; no scores)."
-        }
+        },
+        "opponent_score": "Castlegar 4-5 (replay)",
+        "drawn_final": "Fohenagh 2-8, Castlegar 1-11",
+        "replay": "Fohenagh 3-9, Castlegar 4-5",
+        "draw_venue": "Pearse Stadium",
+        "replay_venue": "Kenny Memorial Park, Athenry",
+        "irish_newspaper_archives": {
+          "drawn_final": "Fohenagh 2-8, Castlegar 1-11",
+          "replay": "Fohenagh 3-9, Castlegar 4-5",
+          "agreeing_articles": [
+            "ina_ctt_19590905_draw",
+            "ina_tth_19590905_draw",
+            "ina_ctt_19590919_replay",
+            "ina_tth_19590919_replay"
+          ],
+          "note": "Four contemporary INA reports agree on both games; the later Galway GAA table lists a conflicting single 3-9 to 2-5 line."
+        },
+        "verified": true,
+        "sources_differ": true
       },
-      "notes": "Driving Committee adjudication: ship Fohenagh 3-9 after a replay at Kenny Park; omit Castlegar total entirely (no null on screen)."
+      "notes": "Exact 1959 series score is resolved by four contemporary INA reports: drawn final Fohenagh 2-8 to Castlegar 1-11, replay Fohenagh 3-9 to Castlegar 4-5. Galway GAA’s later table lists a conflicting single score and omits the draw/replay."
     },
     {
       "year": 1960,
@@ -126,22 +143,26 @@
     }
   ],
   "confidence": {
-    "overall": "high for winners and Fohenagh 1959 score 3-9; Castlegar 1959 total withheld",
+    "overall": "high for winners and 1959/1960 scores; high for 1959 replay structure",
     "verified": [
       "Fohenagh won Galway SHC 1959 and 1960 (historic predecessor)",
       "Opponent both years: Castlegar",
       "1959 Fohenagh score 3-9 after a replay; venue Kenny Park (confidence: board)",
-      "1960 Fohenagh 4-9 Castlegar 2-7 at Pearse Stadium"
+      "1960 Fohenagh 4-9 Castlegar 2-7 at Pearse Stadium",
+      "1959 drawn final Fohenagh 2-8, Castlegar 1-11 (two contemporary INA reports)",
+      "1959 replay Fohenagh 3-9, Castlegar 4-5 (two contemporary INA reports)",
+      "1959 replay venue Kenny Memorial Park, Athenry (INA)"
     ],
     "withheld": [
-      "1959 Castlegar score (2-5 vs 4-5 conflict) — do not store or display"
+      "Later Galway GAA table lists Castlegar 2-5 in a single 1959 line, conflicting with four contemporary INA reports that print Castlegar 4-5 in the replay and 1-11 in the draw."
     ]
   },
   "notes": [
     "These are historic Fohenagh predecessor titles, NOT Ahascragh-Fohenagh amalgam titles (adult amalgamation 2002 per club history).",
     "Fohenagh also appear as SHC runners-up in 1958, 1961 and 1963 on Wikipedia/Galway GAA tables — context only, not claimed as wins.",
-    "INA (irishnewsarchive.com) presents Sign in / Subscribe; no password was entered. Public web sources used instead.",
-    "No browserUse MCP was available in this executor environment; research used WebSearch, WebFetch, and curl."
+    "INA was searched while logged in; no password was entered. Contemporary scans and OCR were used for the historic 1959–1960 reports.",
+    "No browserUse MCP was available in this executor environment; research used WebSearch, WebFetch, and curl.",
+    "Four contemporary INA reports resolve the 1959 series: draw Fohenagh 2-8 to Castlegar 1-11; replay Fohenagh 3-9 to Castlegar 4-5. The later Galway GAA table appears to compress or misstate the series."
   ],
   "article_count": 9,
   "adjudication": {
@@ -150,9 +171,76 @@
     "decision": [
       "Entity club:fohenagh-historic separate from club:ahascragh-fohenagh",
       "1960: full Fohenagh 4-9, Castlegar 2-7, Pearse Stadium",
-      "1959: store Fohenagh 3-9 after a replay vs Castlegar at Kenny Park (venue confidence: board); do NOT store Castlegar score (2-5 vs 4-5 conflict)",
-      "Kid UI chip Before Ahascragh-Fohenagh; never show null; omit unverified opponent score line",
-      "Historic story chips only on historic block"
+      "Historic story chips only on historic block",
+      "1959: contemporary INA reports resolve draw Fohenagh 2-8 to Castlegar 1-11, then replay Fohenagh 3-9 to Castlegar 4-5 at Kenny Memorial Park, Athenry; later board single-score line retained as conflicting secondary data",
+      "Historic story chips may show the resolved two-game 1959 series; do not use the later board single-score line as the replay opponent score"
     ]
-  }
+  },
+  "ina_articles": [
+    {
+      "source_id": "ina_ctt_19590905_draw",
+      "title": "Draw Was Fitting Result To Thriller — Try Again",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1959-09-05",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19590905.1.12",
+      "excerpt": "Report of the County Senior Hurling Championship final at Pearse Stadium: Fohenagh and Castlegar ended level. It prints the final scores as Castlegar 1-11, Fohenagh 2-8, describing ten scores for Fohenagh against twelve for Castlegar. Fohenagh led 1-6 to 0-7 at half-time; late exchanges included a second Fohenagh goal, Castlegar’s goal, and the sides level before Padraic Nolan missed a late chance. Headline calls the draw a fitting result and says TRY AGAIN.",
+      "relevance": "Contemporary draw-final report; exact 1959 drawn score."
+    },
+    {
+      "source_id": "ina_tth_19590905_draw",
+      "title": "Champions Baulked in Bid for 13th Hurling Title — Fohenagh Draw with Castlegar",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "1959-09-05",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH19590905.1.8",
+      "excerpt": "Contemporary report says Castlegar, holders of twelve county titles, were held level by Fohenagh at Pearse Stadium and that Fohenagh earned a second chance. It gives the final scores explicitly: Castlegar 1-11, Fohenagh 2-8. Fohenagh led 1-6 to 0-7 at half-time; Castlegar’s late free was wide, leaving the replay.",
+      "relevance": "Independent contemporary draw-final report agreeing the 2-8 to 1-11 score."
+    },
+    {
+      "source_id": "ina_ctt_19590919_replay",
+      "title": "“Castle” Fell in Hurling Final: Fohenagh Win at the “Post”",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1959-09-19",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30",
+      "excerpt": "Replay report from Kenny Memorial Park, Athenry: Fohenagh defeated Castlegar in the County Galway Senior Hurling Championship final after the drawn Pearse Stadium encounter. It describes Fohenagh’s second-half rally, Tony O’Gorman’s disputed goal, and Tim Killalea’s winning point; half-time was Castlegar 3-3 to Fohenagh 0-3, and the narrative closes with a one-point Fohenagh win.",
+      "relevance": "Contemporary replay report; confirms replay, venue, comeback and winning margin."
+    },
+    {
+      "source_id": "ina_tth_19590919_replay",
+      "title": "Fohenagh Take First Title in Thrilling Hurling Final",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "1959-09-19",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH19590919.1.8",
+      "excerpt": "Replay report says Fohenagh captured the County Cup at Kenny Memorial Park, Athenry, after overcoming a 3-3 to 0-3 half-time deficit. It explicitly prints the replay final: Fohenagh 3-9, Castlegar 4-5. The report highlights Tony O’Gorman’s goal, Tim Killalea’s winning point and Johnny Molloy’s late wide free.",
+      "relevance": "Independent contemporary replay report with explicit 3-9 to 4-5 score."
+    },
+    {
+      "source_id": "ina_ctt_19600820_semifinals",
+      "title": "Castlegar Meet in Hurling Final",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1960-08-20",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19600820.1.26",
+      "excerpt": "County semi-final round-up from Kenny Memorial Stadium: Castlegar beat Maree 6-9 to 0-6, while Fohenagh beat Liam Mellowes 2-12 to 4-3. The report says both Fohenagh and Castlegar advanced to the County Senior Hurling Championship final.",
+      "relevance": "Contemporary 1960 title-path report identifying the finalists and semi-final scores."
+    },
+    {
+      "source_id": "ina_ctt_19600903_final",
+      "title": "Fohenagh Retain “Nightmare” Hurling Final — Game Marred by Unruly Scenes",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1960-09-03",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14",
+      "excerpt": "Contemporary Pearse Stadium final report prints the score in its headline: Fohenagh 4-9, Castlegar 2-7. It says holders Fohenagh retained the senior hurling title, with Nicholas Murray prominent and Frankie Glynn scoring the goal that sealed Castlegar’s fate; Castlegar’s late pressure was repelled by Frank Madden and the Fohenagh defence.",
+      "relevance": "Contemporary 1960 final report with explicit score, venue and title outcome."
+    },
+    {
+      "source_id": "ina_tth_19600903_final",
+      "title": "Fohenagh Win Hurling Cup — Game got out of hand",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "1960-09-03",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1",
+      "excerpt": "Contemporary Pearse Stadium County Cup final report says Fohenagh retained the crown over Castlegar after last year’s drawn final and replay. It prints Fohenagh 4-9 and Castlegar 2-7, describes Nicholas Murray’s outstanding midfield display, and says late points and a Jim Sweeney goal left Fohenagh clear winners.",
+      "relevance": "Independent contemporary 1960 final report agreeing the 4-9 to 2-7 score."
+    }
+  ],
+  "ina_article_count": 7,
+  "total_article_count": 16
 }

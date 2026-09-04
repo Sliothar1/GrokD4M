@@ -766,6 +766,55 @@
       "url": "https://irishnewsarchive.com/?a=d&d=TTH20251015.1.56",
       "type": "INA newspaper scan",
       "excerpt": "Galway Minor U-17 B1 final: Ahascragh-Fohenagh 0-14, Micheál Breathnach 1-11; Darragh Gavin rescued the draw with a late free."
+    },
+    "ina_ctt_19590905_draw": {
+      "title": "Draw Was Fitting Result To Thriller — Try Again",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1959-09-05",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19590905.1.12",
+      "type": "INA newspaper scan"
+    },
+    "ina_tth_19590905_draw": {
+      "title": "Champions Baulked in Bid for 13th Hurling Title — Fohenagh Draw with Castlegar",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "1959-09-05",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH19590905.1.8",
+      "type": "INA newspaper scan"
+    },
+    "ina_ctt_19590919_replay": {
+      "title": "Castle Fell in Hurling Final: Fohenagh Win at the Post",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1959-09-19",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30",
+      "type": "INA newspaper scan"
+    },
+    "ina_tth_19590919_replay": {
+      "title": "Fohenagh Take First Title in Thrilling Hurling Final",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "1959-09-19",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH19590919.1.8",
+      "type": "INA newspaper scan"
+    },
+    "ina_ctt_19600820_semifinals": {
+      "title": "Castlegar Meet in Hurling Final",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1960-08-20",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19600820.1.26",
+      "type": "INA newspaper scan"
+    },
+    "ina_ctt_19600903_final": {
+      "title": "Fohenagh Retain Nightmare Hurling Final",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "1960-09-03",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14",
+      "type": "INA newspaper scan"
+    },
+    "ina_tth_19600903_final": {
+      "title": "Fohenagh Win Hurling Cup — Game got out of hand",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "1960-09-03",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1",
+      "type": "INA newspaper scan"
     }
   },
   "research_notes": {
@@ -779,19 +828,24 @@
     ],
     "method": "INA OCR excerpts and public sources were used. Scores are included only when clearly printed; unclear OCR is explicitly marked.",
     "historic_1959_1960": {
-      "archive_login_confirmed": false,
-      "archive_status": "Irish Newspaper Archives homepage shows Sign in / Subscribe; no credentials entered; internal archive search not used.",
-      "method": "Public Galway GAA, HoganStand, Wikipedia, Galway Bay FM, Galway Advertiser, and Pádraig Pearses club pages; NLI catalog for Dolan 2022 booklet.",
+      "archive_login_confirmed": true,
+      "archive_status": "INA searched while logged in with 1959–1961 date filter; contemporary 1959 draw/replay and 1960 final reports captured; no password entered.",
+      "method": "INA OCR and page scans plus public Galway GAA, HoganStand, Wikipedia, local histories and NLI catalogue; contemporary INA reports resolve the 1959 draw/replay and confirm the 1960 final.",
       "detail_file": "data/historic-fohenagh-1959-1960.json",
-      "articles_stored": 9
+      "articles_stored": 7,
+      "score_resolution": "1959 resolved from contemporary INA: draw Fohenagh 2-8 Castlegar 1-11 (Pearse Stadium); replay Fohenagh 3-9 Castlegar 4-5 (Kenny Memorial Park, Athenry). Also Irish Independent 31 Aug 1959 prints draw score."
     },
     "searches_completed": [
       "Ahascragh-Fohenagh",
       "Fohenagh",
       "Ahascragh Fohenagh (hurling GAA)"
     ],
-    "ina_items_added": 10,
-    "third_query_results": 3020
+    "ina_items_added": 17,
+    "third_query_results": 3020,
+    "seed_sync": {
+      "date": "2026-09-04",
+      "note": "Missing amalgam matches with verified scores synced into seed; historic 1959 split into draw+replay match rows."
+    }
   },
   "historic_predecessor": {
     "name": "Fohenagh",
@@ -802,8 +856,8 @@
         "competition": "Galway Senior Hurling Championship",
         "opponent": "Castlegar",
         "status": "winner",
-        "score": "Fohenagh 3-9",
-        "score_note": "Fohenagh 3-9 double-sourced. Castlegar score omitted (conflict 2-5 vs 4-5). Do not store opponent total.",
+        "score": "1959 drawn final: Fohenagh 2-8, Castlegar 1-11; replay: Fohenagh 3-9, Castlegar 4-5",
+        "score_note": "Exact series score resolved by four contemporary INA reports: Connacht Tribune and Tuam Herald agree on the draw and replay. Later Galway GAA table lists a conflicting single score.",
         "source_ids": [
           "galwaygaa_shc_finals_stats",
           "wiki_galway_shc",
@@ -813,7 +867,11 @@
           "pearses_history",
           "pearses_murray_rip",
           "advertiser_murray",
-          "nli_dolan_fohenagh_1959_1960"
+          "nli_dolan_fohenagh_1959_1960",
+          "ina_ctt_19590905_draw",
+          "ina_tth_19590905_draw",
+          "ina_ctt_19590919_replay",
+          "ina_tth_19590919_replay"
         ],
         "result": "win after a replay",
         "venue": "Kenny Park",
@@ -835,7 +893,9 @@
           "pearses_history",
           "pearses_murray_rip",
           "advertiser_murray",
-          "nli_dolan_fohenagh_1959_1960"
+          "nli_dolan_fohenagh_1959_1960",
+          "ina_ctt_19600903_final",
+          "ina_tth_19600903_final"
         ]
       }
     ],
