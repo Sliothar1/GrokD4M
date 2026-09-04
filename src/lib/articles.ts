@@ -8,7 +8,7 @@ import {
 import path from "path";
 import { execFile } from "child_process";
 import { promisify } from "util";
-import { list, put } from "@vercel/blob";
+import { list, put, type PutCommandOptions } from "@vercel/blob";
 import {
   loadAssocFromJson,
   type Triple,
@@ -121,10 +121,10 @@ function syncBlobEnvAliases(): void {
 }
 
 function blobPutOptions(
-  extra: Record<string, unknown> = {}
-): Record<string, unknown> {
+  extra: Partial<PutCommandOptions> = {}
+): PutCommandOptions {
   syncBlobEnvAliases();
-  const opts: Record<string, unknown> = {
+  const opts: PutCommandOptions = {
     access: "public",
     addRandomSuffix: false,
     allowOverwrite: true,
@@ -262,7 +262,7 @@ async function putArticleMetaBlob(article: ArticleUpload): Promise<void> {
   await put(
     `${BLOB_META_PREFIX}${article.id}.json`,
     JSON.stringify(article, null, 2),
-    blobPutOptions({ contentType: "application/json" }) as Parameters<typeof put>[2]
+    blobPutOptions({ contentType: "application/json" })
   );
   invalidateBlobMetaCache();
 }
@@ -275,7 +275,7 @@ async function putPublicMediaBlob(
   const result = await put(
     `${BLOB_MEDIA_PREFIX}${filename}`,
     body,
-    blobPutOptions({ contentType }) as Parameters<typeof put>[2]
+    blobPutOptions({ contentType })
   );
   return result.url;
 }
@@ -299,7 +299,7 @@ async function storePrivateTextBlob(
     cleaned,
     blobPutOptions({
       contentType: "text/plain; charset=utf-8",
-    }) as Parameters<typeof put>[2]
+    })
   );
   return { privateTextUrl: result.url };
 }
