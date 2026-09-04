@@ -90,6 +90,29 @@ export function AhascraghTitleChips({ compact = false }: { compact?: boolean }) 
   );
 }
 
+const FOHENAGH_FINAL_CHIPS = [
+  {
+    year: "1958",
+    href: "/match/fohenagh-historic-1958-galway-shc-final",
+  },
+  {
+    year: "1959",
+    href: "/match/fohenagh-historic-1959-galway-shc-final-replay",
+  },
+  {
+    year: "1960",
+    href: "/match/fohenagh-historic-1960-galway-shc-final",
+  },
+  {
+    year: "1961",
+    href: "/match/fohenagh-historic-1961-galway-shc-final",
+  },
+  {
+    year: "1963",
+    href: "/match/fohenagh-historic-1963-galway-shc-final",
+  },
+];
+
 export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
   return (
     <div className={compact ? "mt-3 space-y-2" : "space-y-3"}>
@@ -100,15 +123,18 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
             : "text-base font-semibold text-galway-ink"
         }
       >
-        Fohenagh · Galway SHC · vs Castlegar
+        Fohenagh · six Galway SHC final appearances
       </p>
       <div className="flex flex-wrap gap-2">
-        <span className="rounded-full border-2 border-galway-maroon/25 bg-white px-3 py-1 text-sm font-bold text-galway-maroon">
-          1959
-        </span>
-        <span className="rounded-full border-2 border-galway-maroon/25 bg-white px-3 py-1 text-sm font-bold text-galway-maroon">
-          1960
-        </span>
+        {FOHENAGH_FINAL_CHIPS.map((chip) => (
+          <Link
+            key={chip.year + chip.href}
+            href={chip.href}
+            className="rounded-full border-2 border-galway-maroon/25 bg-white px-3 py-1 text-sm font-bold text-galway-maroon hover:border-galway-maroon"
+          >
+            {chip.year}
+          </Link>
+        ))}
       </div>
       <ul
         className={
@@ -119,12 +145,30 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
       >
         <li>
           <Link
+            href="/match/fohenagh-historic-1958-galway-shc-final"
+            className="font-semibold text-galway-maroon underline"
+          >
+            1958
+          </Link>
+          : runners-up · Castlegar 5-9, Fohenagh 2-4 · Duggan Park
+        </li>
+        <li>
+          <Link
+            href="/match/fohenagh-historic-1959-galway-shc-final-draw"
+            className="font-semibold text-galway-maroon underline"
+          >
+            1959 draw
+          </Link>
+          : Fohenagh 2-8, Castlegar 1-11 · Pearse Stadium
+        </li>
+        <li>
+          <Link
             href="/match/fohenagh-historic-1959-galway-shc-final-replay"
             className="font-semibold text-galway-maroon underline"
           >
-            1959
+            1959 replay
           </Link>
-          : Fohenagh 3-9 · Castlegar 4-5 · after a replay
+          : winners · Fohenagh 3-9, Castlegar 4-5 · Kenny Park
         </li>
         <li>
           <Link
@@ -133,9 +177,31 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
           >
             1960
           </Link>
-          : 4-9 to 2-7 · Pearse Stadium
+          : winners · 4-9 to 2-7 · Pearse Stadium
+        </li>
+        <li>
+          <Link
+            href="/match/fohenagh-historic-1961-galway-shc-final"
+            className="font-semibold text-galway-maroon underline"
+          >
+            1961
+          </Link>
+          : runners-up · Turloughmore 3-6, Fohenagh 3-4
+        </li>
+        <li>
+          <Link
+            href="/match/fohenagh-historic-1963-galway-shc-final"
+            className="font-semibold text-galway-maroon underline"
+          >
+            1963
+          </Link>
+          : runners-up · Turloughmore 5-13, Fohenagh 2-4 · Pearse Stadium
         </li>
       </ul>
+      <p className="text-xs text-galway-ink/55">
+        Six final games across five seasons (1958–61, 1963). Tag:
+        fohenagh-historic. Not amalgam titles.
+      </p>
     </div>
   );
 }
@@ -155,6 +221,21 @@ const HISTORIC_STORY_CHIPS = [
     label: "When Fohenagh won the county before the amalgam",
     id: "club:fohenagh-historic",
     hint: "club edge only",
+  },
+  {
+    label: "Near miss in 1958 — Castlegar final",
+    id: "match:fohenagh-historic-1958-galway-shc-final",
+    hint: "runners-up 1958",
+  },
+  {
+    label: "1961 final vs Turloughmore",
+    id: "match:fohenagh-historic-1961-galway-shc-final",
+    hint: "runners-up 1961",
+  },
+  {
+    label: "1963 county final day",
+    id: "match:fohenagh-historic-1963-galway-shc-final",
+    hint: "runners-up 1963",
   },
 ];
 

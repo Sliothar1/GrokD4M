@@ -815,6 +815,37 @@
       "date": "1960-09-03",
       "url": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1",
       "type": "INA newspaper scan"
+    },
+    "examiner_macdonncha_2017": {
+      "title": "Savage loves his native shore, just ask MacDara",
+      "publisher": "Irish Examiner",
+      "url": "https://www.irishexaminer.com/sport/gaa/arid-20443152.html",
+      "type": "newspaper feature",
+      "excerpt": "Between 1958 and 1963 Foghenagh contested five of the six Galway senior hurling finals, winning two."
+    },
+    "wiki_1961_galway_shc": {
+      "title": "1961 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1961_Galway_Senior_Hurling_Championship",
+      "type": "secondary"
+    },
+    "wiki_1963_galway_shc": {
+      "title": "1963 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1963_Galway_Senior_Hurling_Championship",
+      "type": "secondary"
+    },
+    "turloughmore_1961": {
+      "title": "County Final 1961",
+      "publisher": "Turloughmore GAA",
+      "url": "https://turloughmoregaa.ie/1961/10/08/county-final-1961/",
+      "type": "club archive"
+    },
+    "turloughmore_1963": {
+      "title": "County Final 1963",
+      "publisher": "Turloughmore GAA",
+      "url": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/",
+      "type": "club archive"
     }
   },
   "research_notes": {
@@ -851,6 +882,18 @@
     "name": "Fohenagh",
     "relationship": "Predecessor parish club whose senior hurling identity preceded the Ahascragh-Fohenagh amalgamation (juvenile 1999 / adult 2002). Titles below are historic Fohenagh SHC wins, not amalgam titles.",
     "titles": [
+      {
+        "year": 1958,
+        "competition": "Galway Senior Hurling Championship",
+        "opponent": "Castlegar",
+        "status": "runner-up",
+        "score": "Castlegar 5-9, Fohenagh 2-4",
+        "venue": "Duggan Park",
+        "source_ids": [
+          "galwaygaa_shc_finals_stats",
+          "wiki_galway_shc"
+        ]
+      },
       {
         "year": 1959,
         "competition": "Galway Senior Hurling Championship",
@@ -897,10 +940,36 @@
           "ina_ctt_19600903_final",
           "ina_tth_19600903_final"
         ]
+      },
+      {
+        "year": 1961,
+        "competition": "Galway Senior Hurling Championship",
+        "opponent": "Turloughmore",
+        "status": "runner-up",
+        "score": "Turloughmore 3-6, Fohenagh 3-4",
+        "venue": null,
+        "venue_note": "Conflicting: galwaygaa Pearse Stadium vs Wikipedia 1961 Kenny Park — withheld",
+        "source_ids": [
+          "galwaygaa_shc_finals_stats",
+          "wiki_galway_shc"
+        ]
+      },
+      {
+        "year": 1963,
+        "competition": "Galway Senior Hurling Championship",
+        "opponent": "Turloughmore",
+        "status": "runner-up",
+        "score": "Turloughmore 5-13, Fohenagh 2-4",
+        "venue": "Pearse Stadium",
+        "source_ids": [
+          "galwaygaa_shc_finals_stats",
+          "wiki_galway_shc"
+        ]
       }
     ],
     "detail_file": "data/historic-fohenagh-1959-1960.json",
-    "sibling_predecessor": "club:ahascragh-historic"
+    "sibling_predecessor": "club:ahascragh-historic",
+    "final_appearances_note": "Six final appearances (1958; 1959 draw; 1959 replay; 1960; 1961; 1963). Tag: fohenagh-historic. See data/historic-fohenagh-1959-1960.json."
   },
   "history_notes": [
     "Sibling historic predecessor Ahascragh (club:ahascragh-historic) amalgamated with Fohenagh in 2002 (juvenile 1999). See data/club-ahascragh.json."

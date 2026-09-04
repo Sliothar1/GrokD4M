@@ -1,0 +1,250 @@
+{
+  "club": {
+    "id": "club:padraig-pearses",
+    "canonical_name": "Pádraig Pearses",
+    "aliases": [
+      "Pádraig Pearse's",
+      "Pádraig Pearses GAA",
+      "Pearses",
+      "Pearse's",
+      "Ballymacward",
+      "Ballymacward-Gurteen",
+      "Pádraig Mac Piarais"
+    ],
+    "county": "Galway",
+    "province": "Connacht",
+    "sport": "Hurling",
+    "founded": 1966,
+    "founded_note": "Formed 23 February 1966 by amalgamation of Ballymacward and Gurteen Junior Hurling clubs (club history; Wikipedia).",
+    "colours": [
+      "black",
+      "white"
+    ],
+    "grounds": [
+      "Páirc na nGael, Ballymacward (main grounds & clubhouse)",
+      "Gurteen / St Kerrill's GAA Park"
+    ],
+    "history_notes": [
+      "Parish club of Ballymacward-Gurteen in East Galway.",
+      "Won the Galway Junior Championship in 1967 (first season after amalgamation), keeping the Pádraig Pearses name after both finalists had chosen it for the 50th anniversary of 1916.",
+      "Predecessor parish clubs: Gurteen Junior champions 1919; Ballymacward Junior champions 1940 (final played 1941 vs Loughrea) — per club history; Wikipedia lists Junior years as 1919 (Gurteen), 1941 (Ballymacward), 1967.",
+      "Fr Nicholas Murray of the parish transferred to neighbouring Fohenagh and won Galway SHC medals in 1959 and 1960 (club history; Galway Advertiser).",
+      "Do not confuse with Pádraig Pearses GAA (Roscommon)."
+    ]
+  },
+  "titles": [
+    {
+      "title": "Galway Intermediate Hurling Championship",
+      "seasons": [
+        1979,
+        1991,
+        1995,
+        2010
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "club_history",
+        "wiki_pearses"
+      ],
+      "score_notes": {
+        "1979": "Club history: beat Killimor 2-6 to 2-5 at Duggan Park.",
+        "1991": "Club history: beat Killimor 2-6 to 1-5 at Duggan Park after three games.",
+        "1995": "Club history: beat Meelick-Eyrecourt 0-14 to 1-8 at Kenny Park.",
+        "2010": "Club history: beat Killimor 1-10 to 1-8 at Kenny Park."
+      }
+    },
+    {
+      "title": "Connacht Intermediate Club Hurling Championship",
+      "seasons": [
+        2010
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "club_history",
+        "wiki_pearses"
+      ],
+      "score_notes": {
+        "2010": "Club history: beat Ballyhaunis 1-14 to 1-10 at Athleague."
+      }
+    },
+    {
+      "title": "Galway Junior Hurling Championship",
+      "seasons": [
+        1967
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "club_history",
+        "wiki_pearses"
+      ],
+      "notes": "First amalgam season; beat Oranmore-Maree (also newly named Pádraig Pearses). Wikipedia also lists predecessor Junior titles 1919 Gurteen and 1941 Ballymacward under the club honours roll."
+    },
+    {
+      "title": "Galway Senior East Board Hurling Championship",
+      "seasons": [
+        1969
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "club_history",
+        "wiki_pearses"
+      ],
+      "notes": "Club history: defeated neighbours Fohenagh; first Senior title for the club. Not the county SHC."
+    },
+    {
+      "title": "Galway Senior Hurling League",
+      "seasons": [
+        2018
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "club_history",
+        "wiki_pearses"
+      ],
+      "notes": "Club history: delayed 2018 Senior League final vs Cappataggle after extra time at Duggan Park, decided in 2019."
+    },
+    {
+      "title": "Galway Minor A Hurling Championship",
+      "seasons": [
+        1977
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "club_history",
+        "wiki_pearses"
+      ],
+      "notes": "Club history: beat Gort at Duggan Park; Fr Michael Griffin Cup."
+    }
+  ],
+  "player_links": [
+    {
+      "name": "Cyril Donnellan",
+      "id": "player:cyril-donnellan",
+      "role_or_link": "Galway senior; 2017 All-Ireland SHC panel; NHL 2010 and 2017",
+      "source_ids": [
+        "wiki_pearses"
+      ]
+    },
+    {
+      "name": "Fearghal Flannery",
+      "role_or_link": "Goalkeeper; Galway senior substitute; club player",
+      "source_ids": [
+        "wiki_flannery"
+      ]
+    },
+    {
+      "name": "Marty Barrett",
+      "role_or_link": "Forward; Galway U-21 1972 and NHL 1975; also lined out with Pádraig Pearse's",
+      "source_ids": [
+        "wiki_pearses",
+        "wiki_marty_barrett"
+      ]
+    },
+    {
+      "name": "Fr Nicholas Murray",
+      "role_or_link": "Parish player who transferred to neighbouring Fohenagh; Galway SHC midfielder medals 1959 and 1960",
+      "source_ids": [
+        "club_history",
+        "pearses_murray_rip",
+        "advertiser_murray"
+      ]
+    },
+    {
+      "name": "Tom Cogavin",
+      "role_or_link": "Gurteen 1919 Junior panel; Galway 1923 All-Ireland panel",
+      "source_ids": [
+        "club_history",
+        "wiki_pearses"
+      ]
+    },
+    {
+      "name": "Noel Treacy",
+      "role_or_link": "Long-serving Pearses administrator/player; Galway County Board chair; black-and-white clubman",
+      "source_ids": [
+        "galway_bayfm_treacy",
+        "galway_daily_treacy"
+      ]
+    }
+  ],
+  "sources": {
+    "club_history": {
+      "title": "History – Pádraig Pearses GAA",
+      "publisher": "Pádraig Pearses GAA",
+      "url": "http://www.padraigpearsesgalway.com/history/",
+      "type": "official club history"
+    },
+    "club_home": {
+      "title": "Pádraig Pearses GAA – Ballymacward-Gurteen, Galway",
+      "publisher": "Pádraig Pearses GAA",
+      "url": "http://www.padraigpearsesgalway.com/",
+      "type": "official club site"
+    },
+    "galwaygaa_club_profile": {
+      "title": "Club Profile – Pádraig Pearses",
+      "publisher": "Galway GAA",
+      "url": "https://www.galwaygaa.ie/clubprofile/33899/",
+      "type": "official county club profile",
+      "notes": "Lists Páirc na nGael, Ballymacward; colours Black & White; Irish name Pádraig Mac Piarais."
+    },
+    "wiki_pearses": {
+      "title": "Pádraig Pearse's GAA",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/P%C3%A1draig_Pearse's_GAA",
+      "type": "secondary"
+    },
+    "wiki_flannery": {
+      "title": "Fearghal Flannery",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fearghal_Flannery",
+      "type": "player biography"
+    },
+    "wiki_marty_barrett": {
+      "title": "Marty Barrett (hurler)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marty_Barrett_(hurler)",
+      "type": "player biography"
+    },
+    "pearses_murray_rip": {
+      "title": "Fr. Nicholas Murray RIP",
+      "publisher": "Pádraig Pearses GAA",
+      "url": "http://www.padraigpearsesgalway.com/fr-nicholas-murray-rip/",
+      "type": "club obituary"
+    },
+    "advertiser_murray": {
+      "title": "Pearses mourn passing of a great Galway sportsman",
+      "publisher": "Galway Advertiser",
+      "url": "https://www.advertiser.ie/galway/article/39176/pearses-mourn-passing-of-a-great-galway-sportsman",
+      "type": "newspaper obituary"
+    },
+    "galway_bayfm_treacy": {
+      "title": "Noel Treacy RIP (Tribute from Padraig Pearses GAA)",
+      "publisher": "Galway Bay FM",
+      "url": "https://www.galwaybayfm.ie/sports/noel-treacy-rip-tribute-from-padraig-pearses-gaa-107832",
+      "type": "club tribute"
+    },
+    "galway_daily_treacy": {
+      "title": "Taoiseach and Galway GAA lead tributes to late Noel Treacy",
+      "publisher": "Galway Daily",
+      "url": "https://www.galwaydaily.com/news/taoiseach-and-galway-gaa-lead-tributes-to-late-noel-treacy/",
+      "type": "news"
+    }
+  },
+  "research_notes": {
+    "date": "2026-09-04",
+    "method": "WebSearch/WebFetch of club history, Galway GAA club profile, Wikipedia Pearses page, and published obituaries.",
+    "note": "Entity id club:padraig-pearses (already referenced in seed matches). File named club-ballymacward.json per Driving Committee request. No invented scores; Intermediate final scores taken from official club history where stated.",
+    "adjacent_facts_added": [
+      "Black and white colours (Galway GAA profile + Wikipedia)",
+      "Páirc na nGael Ballymacward + Gurteen grounds",
+      "Connacht Intermediate 2010",
+      "East Board Senior 1969 vs Fohenagh",
+      "Fr Nicholas Murray Fohenagh SHC link"
+    ]
+  }
+}

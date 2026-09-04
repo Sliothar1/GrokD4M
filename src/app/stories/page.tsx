@@ -154,6 +154,18 @@ export default async function StoriesPage({
                   id: "club:fohenagh-historic",
                 },
                 {
+                  label: "Near miss in 1958 — Castlegar final",
+                  id: "match:fohenagh-historic-1958-galway-shc-final",
+                },
+                {
+                  label: "1961 final vs Turloughmore",
+                  id: "match:fohenagh-historic-1961-galway-shc-final",
+                },
+                {
+                  label: "1963 county final day",
+                  id: "match:fohenagh-historic-1963-galway-shc-final",
+                },
+                {
                   label: "Ahascragh before the amalgam",
                   id: "club:ahascragh-historic",
                 },

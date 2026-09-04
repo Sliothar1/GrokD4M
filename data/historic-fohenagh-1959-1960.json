@@ -1,7 +1,7 @@
 {
   "club": "Fohenagh",
   "county": "Galway",
-  "tag": "historic Fohenagh predecessor",
+  "tag": "fohenagh-historic",
   "not": "Ahascragh-Fohenagh amalgam titles",
   "research_date": "2026-09-04",
   "titles": [
@@ -66,6 +66,59 @@
         ]
       },
       "notes": "1960 final score and venue agree across Galway GAA official finals table and Wikipedia."
+    },
+    {
+      "year": 1958,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Castlegar",
+      "status": "runner-up",
+      "score": {
+        "verified": true,
+        "winner": "Castlegar 5-9",
+        "runner_up": "Fohenagh 2-4",
+        "venue": "Duggan Park",
+        "agreeing_sources": [
+          "galwaygaa.ie",
+          "Wikipedia Galway Senior Hurling Championship"
+        ]
+      },
+      "notes": "Verified runners-up; score double-sourced."
+    },
+    {
+      "year": 1961,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Turloughmore",
+      "status": "runner-up",
+      "score": {
+        "verified": true,
+        "winner": "Turloughmore 3-6",
+        "runner_up": "Fohenagh 3-4",
+        "agreeing_sources": [
+          "galwaygaa.ie",
+          "Wikipedia",
+          "Turloughmore GAA"
+        ],
+        "venue_conflict": "galwaygaa Pearse Stadium vs Wikipedia 1961 page Kenny Park"
+      },
+      "notes": "Verified runners-up; score double-sourced; venue withheld."
+    },
+    {
+      "year": 1963,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Turloughmore",
+      "status": "runner-up",
+      "score": {
+        "verified": true,
+        "winner": "Turloughmore 5-13",
+        "runner_up": "Fohenagh 2-4",
+        "venue": "Pearse Stadium",
+        "agreeing_sources": [
+          "galwaygaa.ie",
+          "Wikipedia",
+          "Turloughmore GAA"
+        ]
+      },
+      "notes": "Verified runners-up; score double-sourced."
     }
   ],
   "articles": [
@@ -140,6 +193,42 @@
       "url": "http://catalogue.nli.ie/Record/vtls000912307",
       "excerpt": "Bibliographic record: Fohenagh 1959-1960 : The Match Reports From the County Championship Winning Sides of 1959 and 1960 / Steve Dolan. Published [Ireland] : Galway Heritage, 2022. Series: 2022 Heritage Week Charity Publications ; [4]. Subject: Hurling — Galway (County) — History.",
       "relevance": "NLI catalog confirms a dedicated 2022 compilation of match reports for Fohenagh’s 1959 and 1960 county championship winning sides (book not fully read; title/metadata only)."
+    },
+    {
+      "title": "1961 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1961_Galway_Senior_Hurling_Championship",
+      "excerpt": "Final 8 October 1961: Turloughmore 3-06 Fohenagh 3-04. (Venue on this page: Kenny Park; Galway GAA table lists Pearse Stadium.)",
+      "relevance": "Secondary confirmation of 1961 score and date."
+    },
+    {
+      "title": "1963 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1963_Galway_Senior_Hurling_Championship",
+      "excerpt": "Final 11 August 1963 at Pearse Stadium: Turloughmore 5-13 Fohenagh 2-04.",
+      "relevance": "Secondary confirmation of 1963 score and venue."
+    },
+    {
+      "title": "County Final 1961",
+      "publisher": "Turloughmore GAA",
+      "date": "1961-10-08",
+      "url": "https://turloughmoregaa.ie/1961/10/08/county-final-1961/",
+      "excerpt": "Turloughmore 3-6 Fohenagh 3-4. Contemporary club archive report of the final.",
+      "relevance": "Independent club archive agreeing the 1961 score."
+    },
+    {
+      "title": "County Final 1963",
+      "publisher": "Turloughmore GAA",
+      "url": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/",
+      "excerpt": "Turloughmore 5-13 Fohenagh 2-4. Lists both teams; Tim Sweeney named for Fohenagh.",
+      "relevance": "Independent club archive agreeing the 1963 score; names Tim Sweeney on Fohenagh."
+    },
+    {
+      "title": "Savage loves his native shore, just ask MacDara",
+      "publisher": "Irish Examiner",
+      "url": "https://www.irishexaminer.com/sport/gaa/arid-20443152.html",
+      "excerpt": "Between 1958 and 1963 Foghenagh contested five of the six Galway senior hurling finals, winning two.",
+      "relevance": "Contemporary local context for the five-of-six finals stretch."
     }
   ],
   "confidence": {
@@ -151,18 +240,22 @@
       "1960 Fohenagh 4-9 Castlegar 2-7 at Pearse Stadium",
       "1959 drawn final Fohenagh 2-8, Castlegar 1-11 (two contemporary INA reports)",
       "1959 replay Fohenagh 3-9, Castlegar 4-5 (two contemporary INA reports)",
-      "1959 replay venue Kenny Memorial Park, Athenry (INA)"
+      "1959 replay venue Kenny Memorial Park, Athenry (INA)",
+      "Fohenagh SHC runners-up 1958 vs Castlegar 5-9 to 2-4 (galwaygaa + Wikipedia)",
+      "Fohenagh SHC runners-up 1961 vs Turloughmore 3-6 to 3-4 (galwaygaa + Wikipedia + Turloughmore GAA)",
+      "Fohenagh SHC runners-up 1963 vs Turloughmore 5-13 to 2-4 (galwaygaa + Wikipedia + Turloughmore GAA)",
+      "Six final appearances = 1958, 1959 draw, 1959 replay, 1960, 1961, 1963"
     ],
     "withheld": [
-      "Later Galway GAA table lists Castlegar 2-5 in a single 1959 line, conflicting with four contemporary INA reports that print Castlegar 4-5 in the replay and 1-11 in the draw."
+      "Later Galway GAA table lists Castlegar 2-5 in a single 1959 line, conflicting with four contemporary INA reports that print Castlegar 4-5 in the replay and 1-11 in the draw.",
+      "1961 venue: Galway GAA table says Pearse Stadium; Wikipedia 1961 season page says Kenny Park — not asserted."
     ]
   },
   "notes": [
-    "These are historic Fohenagh predecessor titles, NOT Ahascragh-Fohenagh amalgam titles (adult amalgamation 2002 per club history).",
-    "Fohenagh also appear as SHC runners-up in 1958, 1961 and 1963 on Wikipedia/Galway GAA tables — context only, not claimed as wins.",
-    "INA was searched while logged in; no password was entered. Contemporary scans and OCR were used for the historic 1959–1960 reports.",
-    "No browserUse MCP was available in this executor environment; research used WebSearch, WebFetch, and curl.",
-    "Four contemporary INA reports resolve the 1959 series: draw Fohenagh 2-8 to Castlegar 1-11; replay Fohenagh 3-9 to Castlegar 4-5. The later Galway GAA table appears to compress or misstate the series."
+    "These are historic Fohenagh predecessor titles/appearances, NOT Ahascragh-Fohenagh amalgam titles (adult amalgamation 2002).",
+    "Six final appearances (games): 1958 loss, 1959 draw, 1959 replay win, 1960 win, 1961 loss, 1963 loss — tagged fohenagh-historic.",
+    "Five championship seasons: 1958, 1959, 1960, 1961, 1963 (missed 1962 in that stretch).",
+    "No invented scores; scores included only when double-sourced."
   ],
   "article_count": 9,
   "adjudication": {
@@ -242,5 +335,124 @@
     }
   ],
   "ina_article_count": 7,
-  "total_article_count": 16
+  "total_article_count": 16,
+  "note_on_count": "Public rolls list five Galway SHC championship seasons for Fohenagh (1958, 1959, 1960, 1961, 1963). Counting the 1959 drawn final and replay as separate final appearances yields six final games. Irish Examiner (Mac Donncha, 2017) notes they contested five of the six finals between 1958 and 1963 (missing 1962).",
+  "final_appearances": [
+    {
+      "year": 1958,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Castlegar",
+      "status": "runner-up",
+      "result": "loss",
+      "score": "Castlegar 5-9, Fohenagh 2-4",
+      "venue": "Duggan Park",
+      "venue_confidence": "board",
+      "verified": true,
+      "double_sourced_score": true,
+      "source_ids": [
+        "galwaygaa_shc_finals_stats",
+        "wiki_galway_shc"
+      ],
+      "notes": "Score agrees Galway GAA finals table and Wikipedia list of finals. Venue from Galway GAA table."
+    },
+    {
+      "year": 1959,
+      "game": "drawn final",
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Castlegar",
+      "status": "draw",
+      "result": "draw",
+      "score": "Fohenagh 2-8, Castlegar 1-11",
+      "venue": "Pearse Stadium",
+      "verified": true,
+      "double_sourced_score": true,
+      "source_ids": [
+        "ina_ctt_19590905_draw",
+        "ina_tth_19590905_draw"
+      ],
+      "notes": "First of two 1959 final appearances; replay followed."
+    },
+    {
+      "year": 1959,
+      "game": "replay",
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Castlegar",
+      "status": "winner",
+      "result": "win",
+      "score": "Fohenagh 3-9, Castlegar 4-5",
+      "venue": "Kenny Memorial Park, Athenry",
+      "verified": true,
+      "double_sourced_score": true,
+      "source_ids": [
+        "ina_ctt_19590919_replay",
+        "ina_tth_19590919_replay"
+      ],
+      "notes": "Second 1959 final appearance; Fohenagh's first SHC title."
+    },
+    {
+      "year": 1960,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Castlegar",
+      "status": "winner",
+      "result": "win",
+      "score": "Fohenagh 4-9, Castlegar 2-7",
+      "venue": "Pearse Stadium",
+      "verified": true,
+      "double_sourced_score": true,
+      "source_ids": [
+        "galwaygaa_shc_finals_stats",
+        "wiki_galway_shc",
+        "ina_ctt_19600903_final",
+        "ina_tth_19600903_final"
+      ],
+      "notes": "Retained title."
+    },
+    {
+      "year": 1961,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Turloughmore",
+      "status": "runner-up",
+      "result": "loss",
+      "score": "Turloughmore 3-6, Fohenagh 3-4",
+      "date": "1961-10-08",
+      "venue": null,
+      "venue_note": "Galway GAA finals table lists Pearse Stadium; Wikipedia 1961 season page lists Kenny Park. Venue withheld as conflicting. Score agrees Galway GAA, Wikipedia, and Turloughmore GAA county-final page.",
+      "verified": true,
+      "double_sourced_score": true,
+      "source_ids": [
+        "galwaygaa_shc_finals_stats",
+        "wiki_galway_shc",
+        "wiki_1961_galway_shc",
+        "turloughmore_1961"
+      ],
+      "notes": "Defending champions; lost by two points."
+    },
+    {
+      "year": 1963,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Turloughmore",
+      "status": "runner-up",
+      "result": "loss",
+      "score": "Turloughmore 5-13, Fohenagh 2-4",
+      "venue": "Pearse Stadium",
+      "venue_confidence": "board+wikipedia",
+      "verified": true,
+      "double_sourced_score": true,
+      "source_ids": [
+        "galwaygaa_shc_finals_stats",
+        "wiki_galway_shc",
+        "wiki_1963_galway_shc",
+        "turloughmore_1963"
+      ],
+      "notes": "Score agrees Galway GAA, Wikipedia, and Turloughmore GAA. Venue Pearse Stadium on Galway GAA and Wikipedia 1963 season page."
+    }
+  ],
+  "championship_seasons": [
+    1958,
+    1959,
+    1960,
+    1961,
+    1963
+  ],
+  "final_games_count": 6
 }

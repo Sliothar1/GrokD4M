@@ -152,7 +152,7 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "historic_note",
-    "val": "Predecessors: Fohenagh (Galway SHC 1959, 1960) and Ahascragh (Junior 1981; Junior A 1989; Minor C 1989). Juvenile amalgamation 1999; adult amalgamation 2002. Predecessor titles are not amalgam titles."
+    "val": "Predecessor Fohenagh (club:fohenagh-historic) — six Galway SHC final appearances: 1958 runners-up; 1959 winners after a replay; 1960 winners; 1961 and 1963 runners-up. Not amalgam titles."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -592,12 +592,12 @@
   {
     "row": "club:fohenagh-historic",
     "col": "summary",
-    "val": "Fohenagh won Galway senior hurling in 1959 and 1960. Later the parish joined with Ahascragh to form Ahascragh-Fohenagh (juvenile 1999, adult 2002)."
+    "val": "Historic Fohenagh contested six Galway SHC final appearances — 1958 (loss), 1959 draw, 1959 replay (win), 1960 (win), 1961 (loss), 1963 (loss). Later the parish joined Ahascragh (juvenile 1999, adult 2002)."
   },
   {
     "row": "club:fohenagh-historic",
     "col": "notable",
-    "val": "Historic parish club before the Ahascragh-Fohenagh amalgamation. Won the Galway Senior Hurling Championship in 1959 and 1960, both finals against Castlegar. These are historic Fohenagh predecessor titles — not amalgam club titles."
+    "val": "Historic parish club before the Ahascragh-Fohenagh amalgamation. Six Galway SHC final appearances (fohenagh-historic): runners-up 1958 vs Castlegar; winners 1959 (after a replay) and 1960 vs Castlegar; runners-up 1961 and 1963 vs Turloughmore. These are predecessor titles — not amalgam club titles."
   },
   {
     "row": "club:fohenagh-historic",
@@ -3297,17 +3297,17 @@
   {
     "row": "club:padraig-pearses",
     "col": "notable",
-    "val": "Cyril Donnellan's club."
+    "val": "Black-and-white Ballymacward-Gurteen club. Galway Intermediate champions 1979, 1991, 1995, 2010; Connacht Intermediate Club champions 2010; Junior champions 1967; East Board Senior 1969 (beat neighbours Fohenagh); Senior League 2018. Home club of Cyril Donnellan. Parish link: Fr Nicholas Murray won Galway SHC with neighbouring Fohenagh in 1959–60."
   },
   {
     "row": "club:padraig-pearses",
     "col": "confidence",
-    "val": "medium"
+    "val": "high"
   },
   {
     "row": "club:padraig-pearses",
     "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Cyril_Donnellan"
+    "val": "http://www.padraigpearsesgalway.com/history/"
   },
   {
     "row": "club:beagh",
@@ -5617,7 +5617,7 @@
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "tag",
-    "val": "historic-predecessor"
+    "val": "fohenagh-historic"
   },
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
@@ -6037,7 +6037,7 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
     "col": "tag",
-    "val": "historic-predecessor"
+    "val": "fohenagh-historic"
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
@@ -6122,7 +6122,7 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "tag",
-    "val": "historic-predecessor"
+    "val": "fohenagh-historic"
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
@@ -7793,5 +7793,465 @@
     "row": "club:loughrea",
     "col": "latest_shc_final",
     "val": "match:galway-shc-2025-final"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "alias",
+    "val": "Pádraig Pearse's, Pearses, Pearse's, Ballymacward, Ballymacward-Gurteen, Pádraig Mac Piarais, Pádraig Pearses GAA"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "province",
+    "val": "Connacht"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "colours",
+    "val": "Black and white"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "ground",
+    "val": "Páirc na nGael, Ballymacward; Gurteen"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "founded",
+    "val": 1966
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "summary",
+    "val": "East Galway hurling club of the Ballymacward-Gurteen parish; formed 1966 when Ballymacward and Gurteen Junior clubs amalgamated. Also known as Pearses / Ballymacward."
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "Galway Intermediate Hurling Championship",
+    "val": "1979, 1991, 1995, 2010"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "Connacht Intermediate Club Hurling Championship",
+    "val": 2010
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "Galway Junior Hurling Championship",
+    "val": 1967
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "Galway Senior East Board Hurling Championship",
+    "val": 1969
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "Galway Senior Hurling League",
+    "val": 2018
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "Galway Minor A Hurling Championship",
+    "val": 1977
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "pack",
+    "val": "data/club-ballymacward.json"
+  },
+  {
+    "row": "player:fearghal-flannery",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fearghal-flannery",
+    "col": "name",
+    "val": "Fearghal Flannery"
+  },
+  {
+    "row": "player:fearghal-flannery",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:fearghal-flannery",
+    "col": "notable",
+    "val": "Pádraig Pearses goalkeeper; Galway senior substitute."
+  },
+  {
+    "row": "player:fearghal-flannery",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:fearghal-flannery",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Fearghal_Flannery"
+  },
+  {
+    "row": "player:marty-barrett",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:marty-barrett",
+    "col": "name",
+    "val": "Marty Barrett"
+  },
+  {
+    "row": "player:marty-barrett",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:marty-barrett",
+    "col": "notable",
+    "val": "Forward; Galway NHL 1974-75; lined out with Pádraig Pearse's."
+  },
+  {
+    "row": "player:marty-barrett",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:marty-barrett",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Marty_Barrett_(hurler)"
+  },
+  {
+    "row": "player:fr-nicholas-murray",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fr-nicholas-murray",
+    "col": "name",
+    "val": "Fr Nicholas Murray"
+  },
+  {
+    "row": "player:fr-nicholas-murray",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:fr-nicholas-murray",
+    "col": "notable",
+    "val": "Ballymacward-Gurteen parish; transferred to Fohenagh; Galway SHC midfielder medals 1959 and 1960."
+  },
+  {
+    "row": "player:fr-nicholas-murray",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:fr-nicholas-murray",
+    "col": "source",
+    "val": "http://www.padraigpearsesgalway.com/fr-nicholas-murray-rip/"
+  },
+  {
+    "row": "player:fr-nicholas-murray",
+    "col": "also_played",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "Galway Senior Hurling Championship runners-up",
+    "val": "1958, 1961, 1963"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "shc_final_appearances",
+    "val": "1958, 1959, 1960, 1961, 1963"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "shc_final_games",
+    "val": "6"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "pack",
+    "val": "data/historic-fohenagh-1959-1960.json"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "name",
+    "val": "Castlegar vs Fohenagh (1958 Galway SHC final)"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "year",
+    "val": 1958
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "away",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "score",
+    "val": "Castlegar 5-9, Fohenagh 2-4"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "opponent",
+    "val": "Castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "note",
+    "val": "Historic Fohenagh predecessor — runners-up. Score agrees Galway GAA finals table and Wikipedia. Venue from Galway GAA table. Tag: fohenagh-historic."
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "venue",
+    "val": "Duggan Park"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "name",
+    "val": "Turloughmore vs Fohenagh (1961 Galway SHC final)"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "year",
+    "val": 1961
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "away",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "score",
+    "val": "Turloughmore 3-6, Fohenagh 3-4"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "opponent",
+    "val": "Turloughmore"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "note",
+    "val": "Historic Fohenagh predecessor — runners-up (defending champions). Score agrees Galway GAA, Wikipedia, and Turloughmore GAA. Venue withheld (galwaygaa lists Pearse Stadium; Wikipedia 1961 page lists Kenny Park). Tag: fohenagh-historic."
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "date",
+    "val": "1961-10-08"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "name",
+    "val": "Turloughmore vs Fohenagh (1963 Galway SHC final)"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "year",
+    "val": 1963
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "away",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "score",
+    "val": "Turloughmore 5-13, Fohenagh 2-4"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "opponent",
+    "val": "Turloughmore"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "note",
+    "val": "Historic Fohenagh predecessor — runners-up. Score agrees Galway GAA, Wikipedia, and Turloughmore GAA. Venue Pearse Stadium (galwaygaa + Wikipedia 1963). Tag: fohenagh-historic."
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "venue",
+    "val": "Pearse Stadium"
   }
 ]

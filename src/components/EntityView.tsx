@@ -61,7 +61,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   const isHistoricMatch =
     id.startsWith("match:fohenagh-historic-") ||
     id.startsWith("match:ahascragh-historic-") ||
-    String(attrs.tag ?? "") === "historic-predecessor";
+    String(attrs.tag ?? "") === "historic-predecessor" ||
+    String(attrs.tag ?? "") === "fohenagh-historic";
 
   return (
     <article className="space-y-8">
