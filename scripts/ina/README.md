@@ -22,6 +22,8 @@ Private full-text cuttings (if any) belong under `data/private/` (gitignored / n
 | `pending-triples.schema.json` | JSON Schema for one pending JSONL record |
 | `extract_triples.py` | Sample extractor: pasted OCR/excerpt → proposed triples (no invented scores) |
 | `../../data/ina-queue/pending.jsonl` | Queue of proposed triples awaiting review |
+| `../../data/ina-queue/archivist-packets.jsonl` | Archivist-ruled packets (CLEAR / HOLD) |
+| `apply_fohenagh_batch1.py` | Promote batch-1 Fohenagh rulings into seed (no score overwrite) |
 | `../../data/ina-queue/.gitkeep` | Keeps the queue folder in git |
 
 ## Widened search queries

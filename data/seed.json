@@ -30038,5 +30038,560 @@
     "row": "win:galway-jhc-2023",
     "col": "venue",
     "val": "Duggan Park"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "secondary_cite",
+    "val": "1959-09-05 · Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "secondary_cite_date",
+    "val": "1959-09-05"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590905.1.12"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "pack_id",
+    "val": "galway-shc-1959-final"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "season_chip",
+    "val": "Fohenagh · 1959"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "same_as",
+    "val": "match:fohenagh-historic-1959-galway-shc-final-draw"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "secondary_cite",
+    "val": "1959-09-05 · Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "secondary_cite_date",
+    "val": "1959-09-05"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590905.1.12"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "season_chip",
+    "val": "Fohenagh · 1959"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite",
+    "val": "1959-09-19 · Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite_date",
+    "val": "1959-09-19"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "pack_id",
+    "val": "galway-shc-1959-final-replay"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "season_chip",
+    "val": "Fohenagh · 1959"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "same_as",
+    "val": "match:fohenagh-historic-1959-galway-shc-final-replay"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "secondary_cite",
+    "val": "1959-09-19 · Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "secondary_cite_date",
+    "val": "1959-09-19"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "season_chip",
+    "val": "Fohenagh · 1959"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "secondary_cite",
+    "val": "1960-09-03 · Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "secondary_cite_date",
+    "val": "1960-09-03"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "pack_id",
+    "val": "galway-shc-1960-final"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
+    "col": "same_as",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
+    "col": "secondary_cite",
+    "val": "1960-09-03 · Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
+    "col": "secondary_cite_date",
+    "val": "1960-09-03"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "secondary_cite",
+    "val": "1963-08-17 · Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "secondary_cite_date",
+    "val": "1963-08-17"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "pack_id",
+    "val": "galway-shc-1963-final"
+  },
+  {
+    "row": "match:fohenagh-historic-1963-galway-shc-final",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "match:galway-shc-1963-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1963-final",
+    "col": "same_as",
+    "val": "match:fohenagh-historic-1963-galway-shc-final"
+  },
+  {
+    "row": "match:galway-shc-1963-final",
+    "col": "secondary_cite",
+    "val": "1963-08-17 · Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1963-final",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:galway-shc-1963-final",
+    "col": "secondary_cite_date",
+    "val": "1963-08-17"
+  },
+  {
+    "row": "match:galway-shc-1963-final",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "type",
+    "val": "article_upload"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "kind",
+    "val": "url"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "title",
+    "val": "County Junior A Hurling Championship final"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "name",
+    "val": "County Junior A Hurling Championship final"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "cite",
+    "val": "1981-11-20 · Connacht Tribune"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "badge",
+    "val": "from link"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "verification",
+    "val": "hold"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "ingest_triage",
+    "val": "hold_secondary_cite"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "archivist_ruling",
+    "val": "HOLD"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "date",
+    "val": "1981-11-20"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "year",
+    "val": "1981"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19811120.1.15"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "excerpt",
+    "val": "County Junior A Hurling Championship final — Ahascragh beat Fohenagh that year. Printed tallies held for a second cite."
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "summary",
+    "val": "County Junior A Hurling Championship final — Ahascragh beat Fohenagh that year. Printed tallies held for a second cite."
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "hide_score",
+    "val": true
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "article:ina-fohenagh-1981-junior-a",
+    "col": "linked_entity",
+    "val": "win:ahascragh-historic-1981-junior"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "type",
+    "val": "article_upload"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "kind",
+    "val": "url"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "title",
+    "val": "AIB Connacht Club Intermediate Hurling Championship final replay"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "name",
+    "val": "AIB Connacht Club Intermediate Hurling Championship final replay"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "cite",
+    "val": "2016-11-15 · Connaught Telegraph"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "badge",
+    "val": "from link"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "verification",
+    "val": "hold"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "ingest_triage",
+    "val": "hold_disputed_score"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "archivist_ruling",
+    "val": "HOLD"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "paper",
+    "val": "Connaught Telegraph"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "date",
+    "val": "2016-11-15"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "year",
+    "val": "2016"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "url",
+    "val": "https://irishnewsarchive.com/?a=d&d=TCT20161115.1.88"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "excerpt",
+    "val": "AIB Connacht Club IHC final replay (Athleague). INA cutting held — score disputed pending an agreeing re-cite."
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "summary",
+    "val": "AIB Connacht Club IHC final replay (Athleague). INA cutting held — score disputed pending an agreeing re-cite."
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "hide_score",
+    "val": true
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "score_disputed",
+    "val": true
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "article:ina-fohenagh-2016-connacht-ihc",
+    "col": "linked_entity",
+    "val": "match:fohenagh-2016-11-13-final-replay"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "type",
+    "val": "article_upload"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "kind",
+    "val": "url"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "title",
+    "val": "Fohenagh vs Oranmore-Maree"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "name",
+    "val": "Fohenagh vs Oranmore-Maree"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "cite",
+    "val": "2000-07-11 · Irish Examiner"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "badge",
+    "val": "from link"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "verification",
+    "val": "hold"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "ingest_triage",
+    "val": "hold"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "archivist_ruling",
+    "val": "HOLD"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "paper",
+    "val": "Irish Examiner"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "date",
+    "val": "2000-07-11"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "year",
+    "val": "2000"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "url",
+    "val": "https://irishnewsarchive.com/?a=d&d=IEX20000711.1.110"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "excerpt",
+    "val": "Printed scoreline Fohenagh 1-7, Oranmore-Maree 2-3 — competition/grade not stated in pending extract."
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "summary",
+    "val": "Printed scoreline Fohenagh 1-7, Oranmore-Maree 2-3 — competition/grade not stated in pending extract."
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "hide_score",
+    "val": true
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "article:ina-fohenagh-2000-oranmore-maree",
+    "col": "club_1",
+    "val": "club:oranmore-maree"
   }
 ]

@@ -27,3 +27,11 @@
 2. IHC/JHC **match** shells with scores only where a second public source agrees.
 3. Portumna / St Thomas' / Athenry deep packs (players, All-Ireland club ties).
 4. Automate `scripts/ingest_galway_shc_1887_2021.py`-style merge in CI against `ingest-log.jsonl` URLs.
+
+## Fohenagh INA batch-1 (Archivist)
+
+Ruled 2026-09-04. Script: `scripts/ina/apply_fohenagh_batch1.py`.
+
+- **CLEAR secondary_cite only** on existing historic seed matches (pack ids `galway-shc-1959-final`, `galway-shc-1959-final-replay`, `galway-shc-1960-final`, `galway-shc-1963-final`). Never overwrite scores.
+- Search: cite chips on those match cards; 1959 draw+replay grouped under **Fohenagh · 1959**.
+- **HOLD** cuttings (unverified, not tier-1): 1981 Junior A (dated cite, no score line); 2016 Connacht IHC (excerpt + score disputed, tallies hidden); 2000 Oranmore-Maree (excerpt only).

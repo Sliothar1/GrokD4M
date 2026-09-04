@@ -41,10 +41,14 @@ export interface EntitySummary {
   badge?: string;
   /** Public path to an uploaded image when kind is article_upload */
   imagePath?: string;
-  /** Cite chip for cuttings, e.g. "1960 · Paper" */
+  /** Cite chip for cuttings / secondary newspaper cites, e.g. "1959-09-05 · Connacht Tribune" */
   citeChip?: string;
   /** Short public excerpt for cuttings search cards */
   excerpt?: string;
+  /** Group 1959 draw+replay (and similar) under one season chip in search */
+  seasonChip?: string;
+  /** HOLD disputed-score cuttings: show chip, hide tallies */
+  scoreDisputed?: boolean;
 }
 
 export interface PendingStory {
@@ -192,6 +196,18 @@ export function friendlyAttrLabel(key: string): string {
     excerpt: "Excerpt",
     cite: "Cite",
     verification: "Verification",
+    secondary_cite: "Secondary cite",
+    secondary_cite_paper: "Cite paper",
+    secondary_cite_date: "Cite date",
+    secondary_cite_url: "Cite link",
+    paper: "Paper",
+    pack_id: "Pack id",
+    ingest_triage: "Ingest triage",
+    same_as: "Same as",
+    season_chip: "Season",
+    hide_score: "Hide score",
+    score_disputed: "Score disputed",
+    archivist_ruling: "Archivist",
   };
   if (labels[key]) return labels[key];
   // Player × Season → Club cols look like "season:2016"
@@ -246,7 +262,10 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
       subtitle = [attrs.title, attrs.year].filter((v) => v != null && String(v)).map(String).join(" · ");
     }
   } else if (kind === "match") {
-    const bits = [attrs.score, attrs.result, attrs.date, attrs.venue]
+    const hideScore =
+      attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
+    const scoreBits = hideScore ? [] : [attrs.score];
+    const bits = [...scoreBits, attrs.result, attrs.date, attrs.venue]
       .filter((v) => v != null && String(v).trim() && String(v).toLowerCase() !== "null")
       .map(String);
     subtitle = bits.slice(0, 2).join(" · ");
@@ -280,9 +299,17 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     trustLabel: friendlyTrustLabel(confidence),
   };
   if (kind === "article_upload") {
-    summary.badge = "From cutting";
+    summary.badge = String(attrs.badge ?? "From cutting");
     if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);
     if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.score_disputed === true || String(attrs.score_disputed ?? "") === "true") {
+      summary.scoreDisputed = true;
+    }
+  }
+  if (kind === "match") {
+    if (attrs.secondary_cite) summary.citeChip = String(attrs.secondary_cite);
+    else if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.season_chip) summary.seasonChip = String(attrs.season_chip);
   }
   return summary;
 }
@@ -290,8 +317,36 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
 export async function listEntitiesByType(typePrefix: string): Promise<EntitySummary[]> {
   const A = await getAssoc();
   return A.entitiesOfType(typePrefix)
+    .filter((id) => !A.entityAttrs(id).same_as)
     .map((id) => summarizeEntity(id, A))
     .filter((e): e is EntitySummary => e !== null);
+}
+
+export interface SearchGroup {
+  key: string;
+  seasonChip?: string;
+  items: EntitySummary[];
+}
+
+/** Group 1959 draw+replay (shared seasonChip) under one search chip. */
+export function groupSearchResults(results: EntitySummary[]): SearchGroup[] {
+  const groups: SearchGroup[] = [];
+  const seasonIndex = new Map<string, number>();
+  for (const item of results) {
+    const chip = item.seasonChip;
+    if (chip) {
+      const existing = seasonIndex.get(chip);
+      if (existing != null) {
+        groups[existing].items.push(item);
+        continue;
+      }
+      seasonIndex.set(chip, groups.length);
+      groups.push({ key: `season:${chip}`, seasonChip: chip, items: [item] });
+      continue;
+    }
+    groups.push({ key: item.id, items: [item] });
+  }
+  return groups;
 }
 
 export async function searchEntities(query: string): Promise<EntitySummary[]> {
@@ -312,6 +367,9 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
 
   const consider = (id: string) => {
     if (seen.has(id) || !id.includes(":")) return;
+    const attrs = A.entityAttrs(id);
+    // Alias rows (Lab pack ids) collapse onto the canonical seed match.
+    if (attrs.same_as) return;
     const summary = summarizeEntity(id, A);
     if (!summary) return;
     seen.add(id);
@@ -325,6 +383,7 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     for (const id of A.rows()) {
       if (seen.has(id) || !id.includes(":")) continue;
       const attrs = A.entityAttrs(id);
+      if (attrs.same_as) continue;
       if (!attrs.type && !id.includes(":")) continue;
       const summary = summarizeEntity(id, A);
       if (!summary) continue;
@@ -343,10 +402,11 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     }
   }
 
-  // Rank: verified facts first, Fohenagh-family next, cuttings last
+  // Rank: verified facts first (tier 1), Fohenagh-family next, HOLD cuttings last
   const rankOf = (e: EntitySummary): number => {
     if (e.kind === "article_upload") return 80;
     const conf = (e.confidence ?? "").toLowerCase();
+    if (conf === "unverified" || conf === "low") return 80;
     if (conf === "high" || conf === "verified") return 0;
     const blob = `${e.id} ${e.title} ${e.subtitle ?? ""}`.toLowerCase();
     if (blob.includes("fohenagh") || blob.includes("ahascragh")) return 5;
@@ -358,6 +418,15 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
   return out;
 }
 
+const CITE_OVERLAY_COLS = [
+  "secondary_cite",
+  "secondary_cite_paper",
+  "secondary_cite_date",
+  "secondary_cite_url",
+  "season_chip",
+  "pack_id",
+] as const;
+
 export async function getEntity(id: string): Promise<{
   id: string;
   attrs: Record<string, TripleVal>;
@@ -366,10 +435,27 @@ export async function getEntity(id: string): Promise<{
   related: EntitySummary[];
 } | null> {
   const A = await getAssoc();
-  const attrs = A.entityAttrs(id);
+  let attrs = A.entityAttrs(id);
   if (Object.keys(attrs).length === 0) return null;
-  const summary = summarizeEntity(id, A);
+  let canonicalId = id;
+  const sameAs = attrs.same_as ? String(attrs.same_as) : "";
+  if (sameAs) {
+    const canonical = A.entityAttrs(sameAs);
+    if (Object.keys(canonical).length > 0) {
+      const overlay: Record<string, TripleVal> = { ...canonical };
+      for (const col of CITE_OVERLAY_COLS) {
+        if (overlay[col] == null && attrs[col] != null) overlay[col] = attrs[col];
+      }
+      // Alias must never supply a score onto the canonical match.
+      attrs = overlay;
+      canonicalId = sameAs;
+    }
+  }
+  const summary = summarizeEntity(canonicalId, A);
   if (!summary) return null;
+  if (attrs.secondary_cite) summary.citeChip = String(attrs.secondary_cite);
+  if (attrs.season_chip) summary.seasonChip = String(attrs.season_chip);
+  id = canonicalId;
   const relatedIds = new Set<string>();
   for (const [col, val] of Object.entries(attrs)) {
     if (col === "type" || col === "source") continue;
@@ -395,6 +481,7 @@ export async function getEntity(id: string): Promise<{
         continue;
       }
     }
+    if (A.entityAttrs(rid).same_as) continue;
     const s = summarizeEntity(rid, A);
     if (!s) continue;
     relatedSeen.add(rid);

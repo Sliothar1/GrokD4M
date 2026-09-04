@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { EntityView } from "@/components/EntityView";
 import { articleMediaUrl, getArticleUpload } from "@/lib/articles";
-import { displayNameForRef, getAssoc, isEntityRef } from "@/lib/data";
+import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -13,12 +14,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const a = await getArticleUpload(id);
-  return {
-    title:
-      a?.caption?.slice(0, 60) ||
-      a?.fetchedTitle?.slice(0, 60) ||
-      "Cutting",
-  };
+  if (a) {
+    return {
+      title:
+        a.caption?.slice(0, 60) ||
+        a.fetchedTitle?.slice(0, 60) ||
+        "Cutting",
+    };
+  }
+  const seeded = await getEntity(`article:${id}`);
+  return { title: seeded?.summary.title ?? "Cutting" };
 }
 
 export default async function ArticlePage({
@@ -28,7 +33,11 @@ export default async function ArticlePage({
 }) {
   const { id } = await params;
   const a = await getArticleUpload(id);
-  if (!a) notFound();
+  if (!a) {
+    const seeded = await getEntity(`article:${id}`);
+    if (!seeded) notFound();
+    return <EntityView data={seeded} />;
+  }
   const A = await getAssoc();
 
   const title =

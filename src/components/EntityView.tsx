@@ -34,6 +34,14 @@ const HIDDEN_ATTRS = new Set([
   "cite",
   "verification",
   "kind",
+  "same_as",
+  "season_chip",
+  "pack_id",
+  "hide_score",
+  "score_disputed",
+  "ingest_triage",
+  "archivist_ruling",
+  "badge",
 ]);
 
 function isHiddenFactKey(k: string): boolean {
@@ -74,6 +82,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
     id.startsWith("match:ahascragh-historic-") ||
     String(attrs.tag ?? "") === "historic-predecessor" ||
     String(attrs.tag ?? "") === "fohenagh-historic";
+  const hideScore =
+    attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
 
   return (
     <article className="space-y-8">
@@ -87,21 +97,38 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         {summary.subtitle && (
           <p className="text-xl text-galway-ink/70">{summary.subtitle}</p>
         )}
-        {trust && (
-          <p className="text-sm text-galway-ink/60">
+        <div className="flex flex-wrap items-center gap-2 pt-1">
+          {trust && (
             <span
               className={
                 trust === "Verified"
-                  ? "rounded-full bg-green-100 px-2 py-0.5 font-semibold text-green-800"
+                  ? "rounded-full bg-green-100 px-2 py-0.5 text-sm font-semibold text-green-800"
                   : trust === "Fan story"
-                    ? "rounded-full bg-galway-gold/30 px-2 py-0.5 font-semibold text-galway-ink"
-                    : "rounded-full bg-amber-100 px-2 py-0.5 font-semibold text-amber-900"
+                    ? "rounded-full bg-galway-gold/30 px-2 py-0.5 text-sm font-semibold text-galway-ink"
+                    : "rounded-full bg-amber-100 px-2 py-0.5 text-sm font-semibold text-amber-900"
               }
             >
               {trust}
             </span>
-          </p>
-        )}
+          )}
+          {summary.citeChip && (
+            <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-sm font-bold text-galway-maroon">
+              {summary.citeChip}
+            </span>
+          )}
+          {(summary.scoreDisputed ||
+            attrs.score_disputed === true ||
+            String(attrs.score_disputed ?? "") === "true") && (
+            <span className="rounded-full bg-amber-100 px-2 py-0.5 text-sm font-bold uppercase text-amber-900">
+              score disputed
+            </span>
+          )}
+          {summary.seasonChip && (
+            <span className="rounded-full bg-galway-maroon px-2 py-0.5 text-sm font-bold text-white">
+              {summary.seasonChip}
+            </span>
+          )}
+        </div>
         {isHistoric && (
           <div className="pt-1">
             <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
@@ -111,9 +138,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         )}
       </header>
 
-      {attrs.notable || attrs.note || attrs.body || attrs.summary ? (
+      {attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt ? (
         <p className="text-lg leading-relaxed text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary)}
+          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
         </p>
       ) : null}
 
@@ -170,7 +197,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Facts</h2>
         <dl className="grid gap-3 sm:grid-cols-2">
           {Object.entries(attrs)
-            .filter(([k, v]) => !isHiddenFactKey(k) && isDisplayableVal(v))
+            .filter(([k, v]) => !isHiddenFactKey(k) && isDisplayableVal(v) && !(hideScore && k === "score"))
             .map(([k, v]) => (
               <div
                 key={k}
@@ -299,7 +326,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         </p>
         <ul className="space-y-2 font-mono text-sm">
           {triples
-            .filter((t) => t.col !== "confidence" && isDisplayableVal(t.val))
+            .filter((t) => t.col !== "confidence" && isDisplayableVal(t.val) && !(hideScore && t.col === "score"))
             .map((t) => (
               <li
                 key={`${t.row}-${t.col}`}
