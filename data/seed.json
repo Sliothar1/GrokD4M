@@ -2847,7 +2847,7 @@
   {
     "row": "club:sarsfields",
     "col": "notable",
-    "val": "East Galway club; Cooney family stronghold."
+    "val": "East Galway green-and-white club at Bullaun/New Inn (founded 1966). All-Ireland Senior Club champions 1993 and 1994; Galway SHC 1980, 1989, 1992, 1993, 1995, 1997, 2015; Connacht Club SHC 1989, 1992, 1993, 1995, 1997 (6th held). Cooney family / Michael McGrath stronghold."
   },
   {
     "row": "club:sarsfields",
@@ -8253,5 +8253,845 @@
     "row": "match:fohenagh-historic-1963-galway-shc-final",
     "col": "venue",
     "val": "Pearse Stadium"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "province",
+    "val": "Connacht"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "founded",
+    "val": 1966
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "colours",
+    "val": "Green and white"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "ground",
+    "val": "Bullaun/New Inn"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "alias",
+    "val": "Sarsfields, Sars, Sarsfields Galway"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "summary",
+    "val": "Sarsfields (Galway) — green and white; grounds Bullaun/New Inn; founded 1966. Back-to-back All-Ireland club titles 1993–94."
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "All-Ireland Senior Club Hurling Championship",
+    "val": "1993, 1994"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "Galway Senior Hurling Championship",
+    "val": "1980, 1989, 1992, 1993, 1995, 1997, 2015"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "Connacht Senior Club Hurling Championship",
+    "val": "1989, 1992, 1993, 1995, 1997"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "connacht_note",
+    "val": "Archivist hold on a 6th Connacht Club SHC — only five seasons seeded."
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "tag",
+    "val": "sarsfields"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "name",
+    "val": "Sarsfields — All-Ireland Senior Club Hurling Championship 1993"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "title",
+    "val": "All-Ireland Senior Club Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-club-1993",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "name",
+    "val": "Sarsfields — All-Ireland Senior Club Hurling Championship 1994"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "title",
+    "val": "All-Ireland Senior Club Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "year",
+    "val": 1994
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-club-1994",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "name",
+    "val": "Sarsfields — Galway Senior Hurling Championship 1980"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "title",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "year",
+    "val": 1980
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1980",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "name",
+    "val": "Sarsfields — Galway Senior Hurling Championship 1989"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "title",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "year",
+    "val": 1989
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1989",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "name",
+    "val": "Sarsfields — Galway Senior Hurling Championship 1992"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "title",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "year",
+    "val": 1992
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1992",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "name",
+    "val": "Sarsfields — Galway Senior Hurling Championship 1993"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "title",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1993",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "name",
+    "val": "Sarsfields — Galway Senior Hurling Championship 1995"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "title",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "year",
+    "val": 1995
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1995",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "name",
+    "val": "Sarsfields — Galway Senior Hurling Championship 1997"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "title",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "year",
+    "val": 1997
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-1997",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "name",
+    "val": "Sarsfields — Galway Senior Hurling Championship 2015"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "title",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "year",
+    "val": 2015
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-galway-shc-2015",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "name",
+    "val": "Sarsfields — Connacht Senior Club Hurling Championship 1989"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "title",
+    "val": "Connacht Senior Club Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "year",
+    "val": 1989
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1989",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "name",
+    "val": "Sarsfields — Connacht Senior Club Hurling Championship 1992"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "title",
+    "val": "Connacht Senior Club Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "year",
+    "val": 1992
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1992",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "name",
+    "val": "Sarsfields — Connacht Senior Club Hurling Championship 1993"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "title",
+    "val": "Connacht Senior Club Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1993",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "name",
+    "val": "Sarsfields — Connacht Senior Club Hurling Championship 1995"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "title",
+    "val": "Connacht Senior Club Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "year",
+    "val": 1995
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1995",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "name",
+    "val": "Sarsfields — Connacht Senior Club Hurling Championship 1997"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "title",
+    "val": "Connacht Senior Club Hurling Championship"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "year",
+    "val": 1997
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "win:sarsfields-connacht-club-1997",
+    "col": "pack",
+    "val": "data/club-sarsfields.json"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "season:1980",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "season:1989",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "season:1992",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "season:1993",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "season:1994",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "season:1995",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "season:1997",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "name",
+    "val": "Michael McGrath"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "note",
+    "val": "Linked to Sarsfields via Player×Season→Club only (Archivist pack)."
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "season:1989",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "season:1992",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "season:1993",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "season:1994",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "season:1995",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:michael-mcgrath",
+    "col": "season:1997",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "name",
+    "val": "Pakie Cooney"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "note",
+    "val": "Linked to Sarsfields via Player×Season→Club only (Archivist pack)."
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "season:1989",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "season:1992",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "season:1993",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "season:1994",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "season:1995",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:pakie-cooney",
+    "col": "season:1997",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "season:2015",
+    "val": "club:sarsfields"
   }
 ]

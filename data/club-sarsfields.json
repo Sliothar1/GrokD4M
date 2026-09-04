@@ -1,0 +1,155 @@
+{
+  "club": {
+    "id": "club:sarsfields",
+    "canonical_name": "Sarsfields",
+    "aliases": [
+      "Sarsfields",
+      "Sars",
+      "Sarsfields Galway",
+      "Sarsfields GAA"
+    ],
+    "county": "Galway",
+    "province": "Connacht",
+    "sport": "Hurling",
+    "founded": 1966,
+    "colours": [
+      "green",
+      "white"
+    ],
+    "grounds": [
+      "Bullaun/New Inn"
+    ],
+    "history_notes": [
+      "East Galway club based at Bullaun/New Inn; green and white.",
+      "Cooney family stronghold (Joe Cooney, Pakie Cooney, Joseph Cooney) and Michael McGrath.",
+      "All-Ireland Senior Club Hurling Champions 1993 and 1994.",
+      "Connacht Club SHC: Archivist holds a claimed 6th — seed only 1989, 1992, 1993, 1995, 1997."
+    ]
+  },
+  "titles": [
+    {
+      "title": "All-Ireland Senior Club Hurling Championship",
+      "seasons": [
+        1993,
+        1994
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "wiki_sarsfields",
+        "archivist_pack"
+      ]
+    },
+    {
+      "title": "Galway Senior Hurling Championship",
+      "seasons": [
+        1980,
+        1989,
+        1992,
+        1993,
+        1995,
+        1997,
+        2015
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "wiki_sarsfields",
+        "wiki_galway_shc",
+        "archivist_pack"
+      ]
+    },
+    {
+      "title": "Connacht Senior Club Hurling Championship",
+      "seasons": [
+        1989,
+        1992,
+        1993,
+        1995,
+        1997
+      ],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": [
+        "wiki_sarsfields",
+        "archivist_pack"
+      ],
+      "notes": "Archivist: hold 6th Connacht Club SHC claim — only these five seasons seeded."
+    }
+  ],
+  "player_season_club": [
+    {
+      "name": "Joe Cooney",
+      "id": "player:joe-cooney",
+      "seasons": [
+        1980,
+        1989,
+        1992,
+        1993,
+        1994,
+        1995,
+        1997
+      ],
+      "note": "Player×Season→Club only (Archivist)."
+    },
+    {
+      "name": "Michael McGrath",
+      "id": "player:michael-mcgrath",
+      "seasons": [
+        1989,
+        1992,
+        1993,
+        1994,
+        1995,
+        1997
+      ],
+      "note": "Player×Season→Club only (Archivist)."
+    },
+    {
+      "name": "Pakie Cooney",
+      "id": "player:pakie-cooney",
+      "seasons": [
+        1989,
+        1992,
+        1993,
+        1994,
+        1995,
+        1997
+      ],
+      "note": "Player×Season→Club only (Archivist)."
+    },
+    {
+      "name": "Joseph Cooney",
+      "id": "player:joseph-cooney",
+      "seasons": [
+        2015
+      ],
+      "note": "Player×Season→Club only (Archivist)."
+    }
+  ],
+  "sources": {
+    "wiki_sarsfields": {
+      "title": "Sarsfields GAA (Galway)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)",
+      "type": "secondary"
+    },
+    "wiki_galway_shc": {
+      "title": "Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
+      "type": "secondary"
+    },
+    "archivist_pack": {
+      "title": "Sarsfields club pack",
+      "publisher": "Tribes Archivist",
+      "type": "archivist adjudication",
+      "excerpt": "id sarsfields; founded 1966; green and white; ground Bullaun/New Inn; AI Club SHC 1993–94; Galway SHC 1980, 1989, 1992, 1993, 1995, 1997, 2015; Connacht Club SHC 1989, 1992, 1993, 1995, 1997 only (hold 6th); famous players as Player×Season→Club only."
+    }
+  },
+  "research_notes": {
+    "date": "2026-09-04",
+    "method": "Ingest Archivist Sarsfields club pack into D4M seed.",
+    "note": "Connacht 6th held. Famous players linked Player×Season→Club only — no invented career graphs."
+  }
+}
