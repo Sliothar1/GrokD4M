@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
-import { demoStats, getEntity, listEntitiesByType } from "@/lib/data";
+import { demoStats, getEntity, listAllIrelandWins, listEntitiesByType } from "@/lib/data";
 
 export default async function HomePage() {
   const stats = await demoStats();
-  const wins = await listEntitiesByType("win");
+  const wins = await listAllIrelandWins();
   const players = (await listEntitiesByType("player")).slice(0, 4);
   const fohenagh = await getEntity("club:ahascragh-fohenagh");
 

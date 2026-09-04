@@ -6,7 +6,7 @@ const kindLabel: Record<string, string> = {
   team: "Team",
   match: "Match",
   club: "Club",
-  win: "All-Ireland",
+  win: "Title",
   season: "Season",
   source: "Source",
   community_story: "Story",
@@ -34,7 +34,7 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
       <div className="p-4">
         <div className="mb-1 flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
-            {kindLabel[entity.kind] ?? entity.kind}
+            {entity.kindLabel ?? kindLabel[entity.kind] ?? entity.kind}
           </span>
           {badge && (
             <span className="rounded-full bg-galway-gold/25 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-ink">

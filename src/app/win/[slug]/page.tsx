@@ -16,7 +16,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const data = await getEntity(resolveId("win", slug));
-  return { title: data?.summary.title ?? "All-Ireland win" };
+  return { title: data?.summary.title ?? "Title" };
 }
 
 export default async function Page({

@@ -37,6 +37,8 @@ export interface EntitySummary {
   confidence?: string;
   /** Kid-friendly label derived from confidence, e.g. Verified / Needs check */
   trustLabel?: string;
+  /** Override chip on cards (e.g. Title vs All-Ireland for win entities) */
+  kindLabel?: string;
   /** Optional badge, e.g. "From cutting" */
   badge?: string;
   /** Public path to an uploaded image when kind is article_upload */
@@ -131,6 +133,16 @@ export function friendlyTrustLabel(confidence?: string | null): string | undefin
   if (c === "community") return "Fan story";
   if (c === "unverified") return "Needs check";
   return "Needs check";
+}
+
+/** True for county All-Ireland SHC or All-Ireland Club titles — not county grades. */
+export function isAllIrelandWin(attrs: Record<string, TripleVal>): boolean {
+  if (String(attrs.type ?? "") === "all_ireland_win") return true;
+  const blob = [attrs.competition, attrs.title, attrs.name]
+    .filter((v) => v != null && String(v).trim())
+    .map(String)
+    .join(" ");
+  return /all-?ireland/i.test(blob);
 }
 
 /** Human label for an attribute key shown in Facts. */
@@ -253,9 +265,7 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     const clubName = clubId ? displayNameForRef(clubId, A) : "";
     subtitle = [attrs.position, clubName].filter(Boolean).map(String).join(" · ");
   } else if (kind === "win") {
-    const isAI =
-      String(attrs.type ?? "") === "all_ireland_win" ||
-      /all-?ireland/i.test(String(attrs.name ?? attrs.title ?? ""));
+    const isAI = isAllIrelandWin(attrs);
     if (isAI) {
       subtitle = `All-Ireland ${attrs.year}${attrs.opponent ? ` vs ${attrs.opponent}` : ""}`;
     } else {
@@ -297,6 +307,8 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     href: entityHref(id, kind),
     confidence,
     trustLabel: friendlyTrustLabel(confidence),
+    kindLabel:
+      kind === "win" ? (isAllIrelandWin(attrs) ? "All-Ireland" : "Title") : undefined,
   };
   if (kind === "article_upload") {
     summary.badge = String(attrs.badge ?? "From cutting");
@@ -320,6 +332,23 @@ export async function listEntitiesByType(typePrefix: string): Promise<EntitySumm
     .filter((id) => !A.entityAttrs(id).same_as)
     .map((id) => summarizeEntity(id, A))
     .filter((e): e is EntitySummary => e !== null);
+}
+
+/** Homepage / stats: county All-Ireland + All-Ireland Club only (excludes county grades). */
+export async function listAllIrelandWins(): Promise<EntitySummary[]> {
+  const A = await getAssoc();
+  return A.entitiesOfType("win")
+    .filter((id) => {
+      const attrs = A.entityAttrs(id);
+      return !attrs.same_as && isAllIrelandWin(attrs);
+    })
+    .map((id) => summarizeEntity(id, A))
+    .filter((e): e is EntitySummary => e !== null)
+    .sort((a, b) => {
+      const ya = Number(A.entityAttrs(a.id).year ?? 0);
+      const yb = Number(A.entityAttrs(b.id).year ?? 0);
+      return yb - ya;
+    });
 }
 
 export interface SearchGroup {
@@ -541,12 +570,16 @@ export async function officialStories(): Promise<EntitySummary[]> {
 
 export async function demoStats() {
   const A = await getAssoc();
+  const allIrelandWins = A.entitiesOfType("win").filter((id) => {
+    const attrs = A.entityAttrs(id);
+    return !attrs.same_as && isAllIrelandWin(attrs);
+  });
   return {
     nnz: A.nnz(),
     rows: A.rows().length,
     cols: A.cols().length,
     players: A.entitiesOfType("player").length,
-    wins: A.entitiesOfType("win").length,
+    wins: allIrelandWins.length,
     clubs: A.entitiesOfType("club").length,
     stories: A.entitiesOfType("story").length,
   };
