@@ -92,9 +92,26 @@ export function StoryForm() {
           id="story-link"
           value={linkedEntity}
           onChange={(e) => setLinkedEntity(e.target.value)}
-          placeholder="e.g. player:joe-canning or win:2017"
+          placeholder="e.g. player:joe-canning or club:ahascragh-fohenagh"
           className="w-full rounded-xl border-2 border-galway-maroon/20 px-3 py-2 text-lg"
         />
+        <div className="mt-2 flex flex-wrap gap-2">
+          <span className="self-center text-sm text-galway-ink/60">Quick link:</span>
+          {[
+            { label: "Fohenagh", id: "club:ahascragh-fohenagh" },
+            { label: "Cathal Mannion", id: "player:cathal-mannion" },
+            { label: "Pádraic Mannion", id: "player:padraic-mannion" },
+          ].map((chip) => (
+            <button
+              key={chip.id}
+              type="button"
+              onClick={() => setLinkedEntity(chip.id)}
+              className="rounded-full border-2 border-galway-maroon/30 bg-galway-cream/50 px-3 py-1 text-sm font-semibold text-galway-maroon hover:border-galway-maroon"
+            >
+              {chip.label}
+            </button>
+          ))}
+        </div>
       </div>
       <button
         type="submit"

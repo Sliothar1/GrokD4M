@@ -45,6 +45,1141 @@
     "val": "https://en.wikipedia.org/wiki/Galway_county_hurling_team"
   },
   {
+    "row": "club:ahascragh-fohenagh",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "alias",
+    "val": "Fohenagh, Ahascragh-Fohenagh, Ahascragh, Ahascragh/Fohenagh, Ahascragh Fohenagh"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "province",
+    "val": "Connacht"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "colours",
+    "val": "Blue, white and red"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "ground",
+    "val": "Fohenagh Sportsfield; Ahascragh GAA grounds"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "amalgamated_juvenile",
+    "val": 1999
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "amalgamated_adult",
+    "val": 2002
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "notable",
+    "val": "Amalgamation of Ahascragh and Fohenagh (juvenile 1999, adult 2002). Home club of Cathal and Pádraic Mannion. First adult title since amalgamation: Galway Junior C 2009-10. Galway and Connacht Intermediate champions 2016; All-Ireland Intermediate Club runners-up 2016-17."
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "summary",
+    "val": "East Galway hurling club formed by amalgamation of Ahascragh and Fohenagh. Also searched as Fohenagh or Ahascragh."
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "Galway Junior C Hurling Championship",
+    "val": "2009-10"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "Galway Under-21 C Hurling Championship",
+    "val": 2011
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "Galway Under-21 B Hurling Championship",
+    "val": 2012
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "St Judes All-Ireland Hurling Sevens",
+    "val": 2013
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "Galway Under-16 C Hurling Championship",
+    "val": 2014
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "Galway Intermediate Hurling Championship",
+    "val": 2016
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "Connacht Intermediate Club Hurling Championship",
+    "val": 2016
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "All-Ireland Intermediate Club Hurling Championship runners-up",
+    "val": "2016-17"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://ahascraghfohenaghhc.wordpress.com/about/"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Killimor (Round 1)"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship 2015"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "away",
+    "val": "Killimor"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "source",
+    "val": "https://ahascraghfohenaghhc.wordpress.com/match-reports/intermediate-results/"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "score",
+    "val": "Ahascragh Fohenagh 2-14, Killimor 2-16"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "winner",
+    "val": "Killimor"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
+    "col": "note",
+    "val": "Official club results page gives round and score but no date."
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Clarinbridge (Round 2)"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship 2015"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "source",
+    "val": "https://ahascraghfohenaghhc.wordpress.com/match-reports/intermediate-results/"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "score",
+    "val": "Ahascragh Fohenagh 0-18, Clarinbridge 2-10"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-intermediate-hurling-ch-round-2",
+    "col": "note",
+    "val": "Official club results page gives round and score but no date."
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Ballinderreen (Round 1)"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "competition",
+    "val": "Junior Championship"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "source",
+    "val": "https://ahascraghfohenaghhc.wordpress.com/match-reports/junior-c-results/"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "score",
+    "val": "Ahascragh Fohenagh 6-25, Ballinderreen 0-6"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-1",
+    "col": "note",
+    "val": "Official club page does not state the season or date."
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Kinvara (Round 2)"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "competition",
+    "val": "Junior Championship"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "source",
+    "val": "https://ahascraghfohenaghhc.wordpress.com/match-reports/junior-c-results/"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "score",
+    "val": "Ahascragh Fohenagh 3-10, Kinvara 0-6"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-junior-championship-round-2",
+    "col": "note",
+    "val": "Official club page does not state the season or date."
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Ballinderreen (County final)"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/ahascraghfohenagh-finally-make-the-breakthrough-5564462"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "date",
+    "val": "2016-10-23"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "score",
+    "val": "Ahascragh/Fohenagh 2-15, Ballinderreen 0-8"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2016-10-23-county-final",
+    "col": "note",
+    "val": "Report published 27 Oct says the final was on Sunday; match date is 23 Oct 2016."
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Ballyhaunis (Final)"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "competition",
+    "val": "Connacht Intermediate Club Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "away",
+    "val": "Ballyhaunis"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "source",
+    "val": "https://www.the42.ie/ballyhaunis-ahascraghfohenagh-munster-final-3066968-Nov2016/"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "date",
+    "val": "2016-11-06"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "score",
+    "val": "Ballyhaunis 2-13, Ahascragh/Fohenagh 0-19"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "winner",
+    "val": "draw (after extra time)"
+  },
+  {
+    "row": "match:fohenagh-2016-11-06-final",
+    "col": "note",
+    "val": "The 42 says extra time was played and the sides remained level."
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Ballyhaunis (Final replay)"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "competition",
+    "val": "Connacht Intermediate Club Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "away",
+    "val": "Ballyhaunis"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "source",
+    "val": "https://www.the42.ie/cathal-mannion-galway-3080267-Nov2016/"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "date",
+    "val": "2016-11-13"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-20, Ballyhaunis 0-13"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "note",
+    "val": "Replay at Athleague; Cathal Mannion scored 2-11 according to Galway Advertiser."
+  },
+  {
+    "row": "match:fohenagh-2016-11-13-final-replay",
+    "col": "venue",
+    "val": "Athleague"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Lismore (Semi-final)"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "competition",
+    "val": "All-Ireland Intermediate Club Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "away",
+    "val": "Lismore"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "source",
+    "val": "https://www.irishtimes.com/sport/gaelic-games/hurling/mannions-to-the-fore-for-ahascragh-in-intermediate-hurling-semi-final-1.2956054"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "date",
+    "val": "2017-01-29"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 1-17, Lismore 0-13"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "note",
+    "val": "Played at O'Connor Park, Tullamore."
+  },
+  {
+    "row": "match:fohenagh-2017-01-29-semi-final",
+    "col": "venue",
+    "val": "O'Connor Park, Tullamore"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Carrickshock (Final)"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "competition",
+    "val": "All-Ireland Intermediate Club Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "away",
+    "val": "Carrickshock"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "source",
+    "val": "https://www.the42.ie/carrickshock-ahascragh-fohenagh-report-3247016-Feb2017/"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "date",
+    "val": "2017-02-18"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "score",
+    "val": "Carrickshock 2-15, Ahascragh-Fohenagh 0-6"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "winner",
+    "val": "Carrickshock"
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "note",
+    "val": "Played at Croke Park."
+  },
+  {
+    "row": "match:fohenagh-2017-02-18-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Portumna (Senior B Group 2, Round 1)"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "date",
+    "val": "2022-07-30"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "score",
+    "val": "Portumna 0-23, Ahascragh-Fohenagh 0-13"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:fohenagh-2022-07-30-senior-b-group-2-round-1",
+    "col": "note",
+    "val": "Senior B Group 2, Round 1"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Pádraig Pearse's (Senior B Group 2, Round 2)"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "date",
+    "val": "2022-08-20"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "score",
+    "val": "Pádraig Pearse's 0-18, Ahascragh-Fohenagh 0-13"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:fohenagh-2022-08-20-senior-b-group-2-round-2",
+    "col": "note",
+    "val": "Senior B Group 2, Round 2"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Liam Mellows (Senior B Group 2, Round 3)"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "date",
+    "val": "2022-09-04"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "score",
+    "val": "Liam Mellows 1-24, Ahascragh-Fohenagh 2-9"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:fohenagh-2022-09-04-senior-b-group-2-round-3",
+    "col": "note",
+    "val": "Senior B Group 2, Round 3"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Ardrahan (Senior B Group 2, Round 4)"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "date",
+    "val": "2022-09-17"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "score",
+    "val": "Ardrahan 2-19, Ahascragh-Fohenagh 1-18"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:fohenagh-2022-09-17-senior-b-group-2-round-4",
+    "col": "note",
+    "val": "Senior B Group 2, Round 4"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Mullagh (Senior B Group 2, Round 5)"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "date",
+    "val": "2022-10-01"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 0-25, Mullagh 2-15"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-10-01-senior-b-group-2-round-5",
+    "col": "note",
+    "val": "Senior B Group 2, Round 5"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Tynagh-Abbey/Duniry (Senior relegation playoff)"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "away",
+    "val": "Tynagh-Abbey/Duniry"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "date",
+    "val": "2022-10-15"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 1-13, Tynagh-Abbey/Duniry 1-12"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2022-10-15-senior-relegation-playoff",
+    "col": "note",
+    "val": "Senior relegation playoff"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Liam Mellows (Final)"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/senior-b-championship-hurling-final-report-reaction-205389"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "date",
+    "val": "2025-10-19"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "score",
+    "val": "Liam Mellows 2-16, Ahascragh-Fohenagh 0-19"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "note",
+    "val": "Kenny Park, Athenry; half-time score was 0-9 each."
+  },
+  {
+    "row": "match:fohenagh-2025-10-19-final",
+    "col": "venue",
+    "val": "Kenny Park, Athenry"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Kinvara (Round 1)"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "competition",
+    "val": "Galway Premier Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "note",
+    "val": "Tuam Herald report published 13 Aug 2026 says the match was Friday evening and confirms a win, goals by Luke Kennedy and Andrew Fitzgerald, but does not print the final score in the accessible text."
+  },
+  {
+    "row": "player:eoghain-delaney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eoghain-delaney",
+    "col": "name",
+    "val": "Eoghain Delaney"
+  },
+  {
+    "row": "player:eoghain-delaney",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:eoghain-delaney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eoghain-delaney",
+    "col": "notable",
+    "val": "Scored in 2016 Galway Intermediate final; listed in 2017 All-Ireland Intermediate semi-final team."
+  },
+  {
+    "row": "player:eoghain-delaney",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:eoghain-delaney",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/ahascraghfohenagh-finally-make-the-breakthrough-5564462"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "name",
+    "val": "Luke Kennedy"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "notable",
+    "val": "Galway U-20 forward; scored opening goal for Ahascragh-Fohenagh in 2026 Premier Intermediate opener."
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+  },
+  {
+    "row": "player:darragh-gavin",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:darragh-gavin",
+    "col": "name",
+    "val": "Darragh Gavin"
+  },
+  {
+    "row": "player:darragh-gavin",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:darragh-gavin",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:darragh-gavin",
+    "col": "notable",
+    "val": "Man of the match for Ahascragh-Fohenagh in 2026 Premier Intermediate opener vs Kinvara."
+  },
+  {
+    "row": "player:darragh-gavin",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:darragh-gavin",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+  },
+  {
     "row": "win:1923",
     "col": "type",
     "val": "all_ireland_win"
@@ -1230,36 +2365,6 @@
     "val": "https://en.wikipedia.org/wiki/Kinvara_GAA"
   },
   {
-    "row": "club:ahascragh-fohenagh",
-    "col": "type",
-    "val": "club"
-  },
-  {
-    "row": "club:ahascragh-fohenagh",
-    "col": "name",
-    "val": "Ahascragh-Fohenagh"
-  },
-  {
-    "row": "club:ahascragh-fohenagh",
-    "col": "county",
-    "val": "Galway"
-  },
-  {
-    "row": "club:ahascragh-fohenagh",
-    "col": "notable",
-    "val": "Mannion brothers' club (Cathal and Pádraic)."
-  },
-  {
-    "row": "club:ahascragh-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "club:ahascragh-fohenagh",
-    "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Cathal_Mannion"
-  },
-  {
     "row": "club:athenry",
     "col": "type",
     "val": "club"
@@ -2195,6 +3300,16 @@
     "val": "https://en.wikipedia.org/wiki/Cathal_Mannion"
   },
   {
+    "row": "player:cathal-mannion",
+    "col": "season:2016",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "season:2017",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
     "row": "player:padraic-mannion",
     "col": "type",
     "val": "player"
@@ -2238,6 +3353,16 @@
     "row": "player:padraic-mannion",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/P%C3%A1draic_Mannion"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "season:2016",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "season:2017",
+    "val": "club:ahascragh-fohenagh"
   },
   {
     "row": "player:joe-connolly",

@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 
-const CHIPS = ["Joe Canning", "Galway All-Irelands", "2017", "Portumna", "David Burke"];
+const CHIPS = ["Joe Canning", "Fohenagh", "Cathal Mannion", "2017", "Portumna", "David Burke"];
 
 export function SearchBox({
   large = false,

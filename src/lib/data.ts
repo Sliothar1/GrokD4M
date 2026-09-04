@@ -142,8 +142,14 @@ export function friendlyAttrLabel(key: string): string {
     title: "Title",
     url: "Link",
     kind: "Kind",
+    alias: "Also known as",
+    amalgamated_juvenile: "Juvenile amalgamation",
+    amalgamated_adult: "Adult amalgamation",
   };
-  return labels[key] ?? key.replace(/_/g, " ");
+  if (labels[key]) return labels[key];
+  // Player × Season → Club cols look like "season:2016"
+  if (/^season:\d{4}$/.test(key)) return `Club in ${key.slice(7)}`;
+  return key.replace(/_/g, " ");
 }
 
 /**

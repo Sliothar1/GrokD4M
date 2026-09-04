@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
-import { demoStats, listEntitiesByType } from "@/lib/data";
+import { demoStats, getEntity, listEntitiesByType } from "@/lib/data";
 
 export default function HomePage() {
   const stats = demoStats();
   const wins = listEntitiesByType("win");
   const players = listEntitiesByType("player").slice(0, 4);
+  const fohenagh = getEntity("club:ahascragh-fohenagh");
 
   return (
     <div className="space-y-12">
@@ -42,6 +43,30 @@ export default function HomePage() {
           {wins.map((w) => (
             <EntityCard key={w.id} entity={w} />
           ))}
+        </div>
+      </section>
+
+
+      <section className="space-y-4">
+        <div className="flex items-end justify-between gap-3">
+          <h2 className="text-3xl font-bold text-galway-maroon">Featured club · Fohenagh</h2>
+          <Link href="/club/ahascragh-fohenagh" className="font-semibold text-galway-maroon underline">
+            Open club
+          </Link>
+        </div>
+        <p className="text-lg text-galway-ink/75">
+          Ahascragh-Fohenagh (also Fohenagh / Ahascragh) — Mannion brothers&apos; club, 2016 Intermediate champions,
+          All-Ireland Intermediate Club runners-up 2016-17.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {fohenagh && <EntityCard entity={fohenagh.summary} />}
+          <Link
+            href="/search?q=Fohenagh"
+            className="rounded-2xl border-2 border-galway-maroon/20 bg-white p-5 hover:border-galway-maroon"
+          >
+            <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">Explore</p>
+            <p className="mt-1 text-xl font-bold text-galway-ink">Search Fohenagh matches &amp; titles</p>
+          </Link>
         </div>
       </section>
 
