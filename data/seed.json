@@ -92,12 +92,12 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "notable",
-    "val": "Amalgamation of Ahascragh and Fohenagh (juvenile 1999, adult 2002). Home club of Cathal and Pádraic Mannion. First adult title since amalgamation: Galway Junior C 2009-10. Galway and Connacht Intermediate champions 2016; All-Ireland Intermediate Club runners-up 2016-17. Historic note: Fohenagh (old club) won Galway senior hurling in 1959 and 1960 — those are predecessor titles, not amalgam titles."
+    "val": "Amalgamation of Ahascragh and Fohenagh (juvenile 1999, adult 2002). Home club of Cathal and Pádraic Mannion. First adult title since amalgamation: Galway Junior C 2009-10. Galway and Connacht Intermediate champions 2016; All-Ireland Intermediate Club runners-up 2016-17. Historic note: Fohenagh won Galway senior hurling in 1959 and 1960 — predecessor titles, not amalgam titles. Historic Ahascragh was the other pre-2002 junior parish club."
   },
   {
     "row": "club:ahascragh-fohenagh",
     "col": "summary",
-    "val": "East Galway hurling club formed by amalgamation of Ahascragh and Fohenagh. Also searched as Fohenagh or Ahascragh. Fohenagh (old club) won Galway in 1959 and 1960 (see historic predecessor)."
+    "val": "East Galway hurling club formed by amalgamation of Ahascragh and Fohenagh (juvenile 1999, adult 2002). Historic predecessors: club:ahascragh-historic and club:fohenagh-historic."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -146,8 +146,13 @@
   },
   {
     "row": "club:ahascragh-fohenagh",
+    "col": "historic_predecessor_ahascragh",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
     "col": "historic_note",
-    "val": "Fohenagh (old club) won Galway in 1959 and 1960 — predecessor titles, not Ahascragh-Fohenagh amalgam titles."
+    "val": "Predecessors: Fohenagh (Galway SHC 1959, 1960) and Ahascragh (Junior 1981; Junior A 1989; Minor C 1989). Juvenile amalgamation 1999; adult amalgamation 2002. Predecessor titles are not amalgam titles."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -160,6 +165,396 @@
     "val": "https://ahascraghfohenaghhc.wordpress.com/about/"
   },
   {
+    "row": "club:ahascragh-historic",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "name",
+    "val": "Ahascragh"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "alias",
+    "val": "Historic Ahascragh, Ahascragh historic, Ahascragh Hurling Club, Áth Eascrach"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "province",
+    "val": "Connacht"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "status",
+    "val": "historic predecessor"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "successor",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "ground",
+    "val": "Ahascragh GAA grounds"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "kid_chip",
+    "val": "Before Ahascragh-Fohenagh"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "summary",
+    "val": "Pre-2002 junior parish hurling club in east Galway. Amalgamated with Fohenagh (juvenile club 1999; full adult amalgamation 2002) to form Ahascragh-Fohenagh."
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "notable",
+    "val": "Historic Ahascragh competed as a junior club before joining Fohenagh. Galway GAA roll of honour records Junior champions 1981, Junior A champions 1989, and Minor C champions 1989. Pre-amalgam colours not confirmed in public sources reviewed; do not invent. Ground: Ahascragh GAA grounds (still listed for the amalgam club)."
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "Galway Junior Hurling Championship",
+    "val": "1981"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "Galway Junior A Hurling Championship",
+    "val": "1989"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "Galway Minor C Hurling Championship",
+    "val": "1989"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "amalgamated_juvenile",
+    "val": "1999"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "amalgamated_adult",
+    "val": "2002"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "source_club_history",
+    "val": "https://ahascraghfohenaghhc.wordpress.com/about/"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "source_wiki",
+    "val": "https://en.wikipedia.org/wiki/Ahascragh%E2%80%93Fohenagh_GAA"
+  },
+  {
+    "row": "club:ahascragh-historic",
+    "col": "source_grounds",
+    "val": "https://www.galwaygaa.ie/clubprofile/3/"
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "name",
+    "val": "Ahascragh — Galway Junior Hurling Championship 1981"
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "title",
+    "val": "Galway Junior Hurling Championship"
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "year",
+    "val": 1981
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "note",
+    "val": "Listed on Galway GAA roll of honour as Ahascragh Junior Champions 1981. Final score not printed on that page — not invented here."
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:ahascragh-historic-1981-junior",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "name",
+    "val": "Ahascragh — Galway Junior A Hurling Championship 1989"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "title",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "year",
+    "val": 1989
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "note",
+    "val": "Listed on Galway GAA roll of honour as Ahascragh Junior A Hurling Champions 1989. Final score not printed on that page — not invented here."
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-junior-a",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "type",
+    "val": "win"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "name",
+    "val": "Ahascragh — Galway Minor C Hurling Championship 1989"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "title",
+    "val": "Galway Minor C Hurling Championship"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "year",
+    "val": 1989
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "status",
+    "val": "winner"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "note",
+    "val": "Listed on Galway GAA roll of honour as Ahascragh Minor C Hurling Champions 1989. Final score not printed on that page — not invented here."
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:ahascragh-historic-1989-minor-c",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:billy-lyons",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:billy-lyons",
+    "col": "name",
+    "val": "Billy Lyons"
+  },
+  {
+    "row": "player:billy-lyons",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:billy-lyons",
+    "col": "note",
+    "val": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989."
+  },
+  {
+    "row": "player:billy-lyons",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:billy-lyons",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:john-egan-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-egan-ahascragh",
+    "col": "name",
+    "val": "John Egan"
+  },
+  {
+    "row": "player:john-egan-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:john-egan-ahascragh",
+    "col": "note",
+    "val": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989."
+  },
+  {
+    "row": "player:john-egan-ahascragh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:john-egan-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:anto-smyth",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:anto-smyth",
+    "col": "name",
+    "val": "Anto Smyth"
+  },
+  {
+    "row": "player:anto-smyth",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:anto-smyth",
+    "col": "note",
+    "val": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989."
+  },
+  {
+    "row": "player:anto-smyth",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:anto-smyth",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:gerry-smyth-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-smyth-ahascragh",
+    "col": "name",
+    "val": "Gerry Smyth"
+  },
+  {
+    "row": "player:gerry-smyth-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:gerry-smyth-ahascragh",
+    "col": "note",
+    "val": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989."
+  },
+  {
+    "row": "player:gerry-smyth-ahascragh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:gerry-smyth-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:johnny-mcdermott",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:johnny-mcdermott",
+    "col": "name",
+    "val": "Johnny McDermott"
+  },
+  {
+    "row": "player:johnny-mcdermott",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:johnny-mcdermott",
+    "col": "note",
+    "val": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989."
+  },
+  {
+    "row": "player:johnny-mcdermott",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:johnny-mcdermott",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
     "row": "club:fohenagh-historic",
     "col": "type",
     "val": "club"
@@ -167,12 +562,12 @@
   {
     "row": "club:fohenagh-historic",
     "col": "name",
-    "val": "Fohenagh (old club)"
+    "val": "Fohenagh"
   },
   {
     "row": "club:fohenagh-historic",
     "col": "alias",
-    "val": "Historic Fohenagh, Fohenagh historic, Old Fohenagh, Fohenagh (historic predecessor)"
+    "val": "Historic Fohenagh, Fohenagh historic, Fohenagh (historic predecessor), Old Fohenagh"
   },
   {
     "row": "club:fohenagh-historic",
@@ -197,7 +592,7 @@
   {
     "row": "club:fohenagh-historic",
     "col": "summary",
-    "val": "Fohenagh (old club) won Galway senior hurling in 1959 and 1960. Later the parish joined with Ahascragh to form Ahascragh-Fohenagh (juvenile 1999, adult 2002)."
+    "val": "Fohenagh won Galway senior hurling in 1959 and 1960. Later the parish joined with Ahascragh to form Ahascragh-Fohenagh (juvenile 1999, adult 2002)."
   },
   {
     "row": "club:fohenagh-historic",
@@ -227,7 +622,7 @@
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "name",
-    "val": "Fohenagh (old club) vs Castlegar (1960 Galway SHC final)"
+    "val": "Fohenagh vs Castlegar (1960 Galway SHC final)"
   },
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
@@ -267,7 +662,7 @@
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "note",
-    "val": "Fohenagh (old club) won Galway in 1960. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Opponent: Castlegar."
+    "val": "Fohenagh won Galway in 1960. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Opponent: Castlegar."
   },
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
@@ -5587,7 +5982,7 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
     "col": "name",
-    "val": "Fohenagh (old club) vs Castlegar (1959 Galway SHC final — draw)"
+    "val": "Fohenagh vs Castlegar (1959 Galway SHC final — draw)"
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
@@ -5672,7 +6067,7 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "name",
-    "val": "Fohenagh (old club) vs Castlegar (1959 Galway SHC final — replay)"
+    "val": "Fohenagh vs Castlegar (1959 Galway SHC final — replay)"
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",

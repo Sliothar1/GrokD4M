@@ -43,3 +43,7 @@ next-env.d.ts
 # Article upload binaries (metadata stays in data/article-uploads.json)
 /public/uploads/articles/*
 !/public/uploads/articles/.gitkeep
+
+# Private OCR / PDF text (never public; metadata stays in article-uploads.json)
+/data/private/article-text/*
+!/data/private/article-text/.gitkeep

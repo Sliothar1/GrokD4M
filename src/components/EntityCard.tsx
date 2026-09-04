@@ -41,8 +41,15 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
               {badge}
             </span>
           )}
+          {entity.citeChip && (
+            <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-xs font-bold text-galway-maroon">
+              {entity.citeChip}
+            </span>
+          )}
           {trust && !badge && (
-            <span className="text-xs font-semibold text-galway-ink/55">{trust}</span>
+            <span className="text-xs font-semibold text-galway-ink/55">
+              {trust}
+            </span>
           )}
           {entity.subtitle === "Before Ahascragh-Fohenagh" && (
             <span className="rounded-full bg-galway-maroon px-2 py-0.5 text-xs font-bold text-white">
@@ -51,11 +58,17 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
           )}
         </div>
         <h3 className="text-xl font-bold text-galway-ink">{entity.title}</h3>
-        {entity.subtitle && (
-          <p className="mt-1 text-base text-galway-ink/70">{entity.subtitle}</p>
+        {entity.excerpt && entity.kind === "article_upload" ? (
+          <p className="mt-1 text-base text-galway-ink/70">{entity.excerpt}</p>
+        ) : (
+          entity.subtitle && (
+            <p className="mt-1 text-base text-galway-ink/70">{entity.subtitle}</p>
+          )
         )}
         {entity.kind === "article_upload" && (
-          <p className="mt-2 text-sm font-semibold text-galway-maroon">View image →</p>
+          <p className="mt-2 text-sm font-semibold text-galway-maroon">
+            View cutting →
+          </p>
         )}
       </div>
     </Link>
@@ -74,8 +87,8 @@ export function EmptyTeach({
       <p className="text-2xl font-bold text-galway-maroon">{title}</p>
       <p className="mt-3 text-lg text-galway-ink/80">{hint}</p>
       <p className="mt-4 text-base text-galway-ink/60">
-        Tip: associative arrays store facts as tiny triples — row, column, value — like
-        sticky notes on a giant board.
+        Tip: associative arrays store facts as tiny triples — row, column, value
+        — like sticky notes on a giant board.
       </p>
     </div>
   );

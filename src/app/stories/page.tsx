@@ -4,6 +4,7 @@ import { StoryForm } from "@/components/StoryForm";
 import { ArticleUploadForm } from "@/components/ArticleUploadForm";
 import Link from "next/link";
 import { officialStories, readPendingStories } from "@/lib/data";
+import { articleToSummary, readArticleUploads } from "@/lib/articles";
 
 export const metadata: Metadata = {
   title: "Stories",
@@ -18,24 +19,69 @@ export default async function StoriesPage({
 }) {
   const seeded = officialStories();
   const pending = readPendingStories();
+  const uploads = readArticleUploads().slice(0, 6);
   const sp = await searchParams;
   const initialLink = typeof sp.link === "string" ? sp.link : "";
   const initialPrompt = typeof sp.prompt === "string" ? sp.prompt : "";
   const isHistoric =
     initialLink === "club:fohenagh-historic" ||
-    /fohenagh vs castlegar|1959 replay|old fohenagh|before the amalgam/i.test(
+    initialLink === "club:ahascragh-historic" ||
+    /fohenagh vs castlegar|1959 replay|old fohenagh|before the amalgam|ahascragh/i.test(
       initialPrompt
     );
 
   return (
     <div className="space-y-10">
       <header className="space-y-2">
-        <h1 className="text-4xl font-black text-galway-ink">Community stories</h1>
+        <h1 className="text-4xl font-black text-galway-ink">
+          Stories &amp; cuttings
+        </h1>
         <p className="text-lg text-galway-ink/75">
-          Memories linked to players, finals, and clubs. Seeded stories are illustrative;
-          new submissions stay in a pending file — never blended into official stats.
+          Share a memory, or upload a newspaper cutting (image, PDF, or URL).
+          Cuttings go into the Ingest Lab queue — excerpt +{" "}
+          <strong>YYYY · Paper</strong> cite on the public card; full text stays
+          private; triples stay unverified until the Archivist.
         </p>
       </header>
+
+      <section className="space-y-3" id="upload">
+        <h2 className="text-2xl font-bold text-galway-maroon">
+          Upload a cutting
+        </h2>
+        <p className="text-base text-galway-ink/70">
+          Main entry for article photos, PDFs, and paper links. Written anecdotes
+          are below.
+        </p>
+        <ArticleUploadForm />
+      </section>
+
+      {uploads.length > 0 && (
+        <section className="space-y-3">
+          <h2 className="text-2xl font-bold text-galway-maroon">
+            Recent cuttings
+          </h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {uploads.map((u) => {
+              const s = articleToSummary(u);
+              return (
+                <li key={u.id}>
+                  <EntityCard entity={s} />
+                </li>
+              );
+            })}
+          </ul>
+          <p className="text-sm text-galway-ink/60">
+            Browse older uploads on{" "}
+            <Link
+              href="/contribute"
+              className="font-semibold text-galway-maroon underline"
+            >
+              Contribute
+            </Link>
+            .
+          </p>
+        </section>
+      )}
 
       <section className="space-y-3">
         <h2 className="text-2xl font-bold text-galway-maroon">In the seed</h2>
@@ -54,7 +100,9 @@ export default async function StoriesPage({
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-2xl font-bold text-galway-maroon">Pending (local queue)</h2>
+        <h2 className="text-2xl font-bold text-galway-maroon">
+          Pending (local queue)
+        </h2>
         {pending.length === 0 ? (
           <EmptyTeach
             title="Queue is empty"
@@ -67,7 +115,9 @@ export default async function StoriesPage({
                 key={p.id}
                 className="rounded-2xl border-2 border-dashed border-galway-gold bg-white p-4"
               >
-                <p className="text-xs font-bold uppercase text-galway-gold">Pending</p>
+                <p className="text-xs font-bold uppercase text-galway-gold">
+                  Pending
+                </p>
                 <h3 className="text-xl font-bold">{p.title}</h3>
                 <p className="text-sm text-galway-ink/60">
                   by {p.author}
@@ -80,24 +130,12 @@ export default async function StoriesPage({
         )}
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-2xl font-bold text-galway-maroon">Article photo</h2>
-        <p className="text-base text-galway-ink/70">
-          Got a newspaper cutting?{" "}
-          <Link href="/contribute" className="font-semibold text-galway-maroon underline">
-            Open the full upload page
-          </Link>{" "}
-          or use the form below.
-        </p>
-        <ArticleUploadForm />
-      </section>
-
       <StoryForm
         initialLink={initialLink}
         initialPrompt={initialPrompt}
         emptyCta={
           isHistoric
-            ? "Got a story from the old Fohenagh days? Anecdotes only — do not invent Castlegar’s 1959 score."
+            ? "Got a story from Fohenagh or Ahascragh days? Anecdotes only — do not invent Castlegar’s 1959 score."
             : undefined
         }
         chips={
@@ -114,6 +152,10 @@ export default async function StoriesPage({
                 {
                   label: "When Fohenagh won the county before the amalgam",
                   id: "club:fohenagh-historic",
+                },
+                {
+                  label: "Ahascragh before the amalgam",
+                  id: "club:ahascragh-historic",
                 },
               ]
             : undefined

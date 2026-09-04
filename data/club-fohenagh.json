@@ -899,6 +899,10 @@
         ]
       }
     ],
-    "detail_file": "data/historic-fohenagh-1959-1960.json"
-  }
+    "detail_file": "data/historic-fohenagh-1959-1960.json",
+    "sibling_predecessor": "club:ahascragh-historic"
+  },
+  "history_notes": [
+    "Sibling historic predecessor Ahascragh (club:ahascragh-historic) amalgamated with Fohenagh in 2002 (juvenile 1999). See data/club-ahascragh.json."
+  ]
 }

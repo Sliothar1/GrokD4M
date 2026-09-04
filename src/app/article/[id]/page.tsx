@@ -13,7 +13,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const a = getArticleUpload(id);
-  return { title: a?.caption?.slice(0, 60) || "Article photo" };
+  return {
+    title:
+      a?.caption?.slice(0, 60) ||
+      a?.fetchedTitle?.slice(0, 60) ||
+      "Cutting",
+  };
 }
 
 export default async function ArticlePage({
@@ -25,37 +30,103 @@ export default async function ArticlePage({
   const a = getArticleUpload(id);
   if (!a) notFound();
 
+  const title =
+    a.caption ||
+    a.fetchedTitle ||
+    (a.kind === "url" ? "Linked article" : "Article cutting");
+  const cite = a.citeChip || (a.year ? `${a.year} · Paper` : "Paper");
+  const isPdf = a.kind === "pdf" || a.path?.toLowerCase().endsWith(".pdf");
+  const showImage = a.path && !isPdf;
+
   return (
     <article className="space-y-6">
       <header className="space-y-2">
-        <p className="text-sm font-bold uppercase tracking-wide text-galway-gold">
-          From your upload
-        </p>
+        <div className="flex flex-wrap items-center gap-2">
+          <p className="text-sm font-bold uppercase tracking-wide text-galway-gold">
+            From cutting
+          </p>
+          <span className="rounded-full bg-galway-maroon/10 px-3 py-0.5 text-sm font-bold text-galway-maroon">
+            {cite}
+          </span>
+          <span className="rounded-full bg-galway-cream px-3 py-0.5 text-xs font-semibold uppercase text-galway-ink/70">
+            Unverified
+          </span>
+        </div>
         <h1 className="text-3xl font-black text-galway-ink sm:text-4xl">
-          {a.caption || "Article photo"}
+          {title}
         </h1>
         <p className="text-base text-galway-ink/65">
-          {[a.year, a.status === "pending" ? "Awaiting text check" : "Indexed for search"]
+          {[
+            a.kind === "url" ? "URL source" : a.kind === "pdf" ? "PDF" : "Image",
+            a.status === "pending"
+              ? "Awaiting Archivist"
+              : "Indexed · triples unverified",
+          ]
             .filter(Boolean)
             .join(" · ")}
         </p>
       </header>
 
-      <div className="overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white shadow-sm">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={a.path}
-          alt={a.caption || "Uploaded newspaper or article photo"}
-          className="mx-auto max-h-[70vh] w-full object-contain bg-galway-cream"
-        />
-      </div>
+      {showImage && (
+        <div className="overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white shadow-sm">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={a.path}
+            alt={title}
+            className="mx-auto max-h-[70vh] w-full object-contain bg-galway-cream"
+          />
+        </div>
+      )}
+
+      {isPdf && a.path && (
+        <div className="rounded-2xl border-2 border-galway-maroon/15 bg-white p-5 shadow-sm">
+          <p className="text-lg font-bold text-galway-maroon">PDF cutting</p>
+          <a
+            href={a.path}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-block font-semibold text-galway-maroon underline"
+          >
+            Open PDF
+          </a>
+        </div>
+      )}
+
+      {a.kind === "url" && a.sourceUrl && (
+        <div className="rounded-2xl border-2 border-galway-maroon/15 bg-white p-5 shadow-sm">
+          <p className="text-sm font-bold uppercase text-galway-gold">Source URL</p>
+          <a
+            href={a.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-1 break-all text-lg font-semibold text-galway-maroon underline"
+          >
+            {a.sourceUrl}
+          </a>
+        </div>
+      )}
+
+      {a.excerpt && (
+        <section className="space-y-2 rounded-2xl border-2 border-galway-maroon/15 bg-white p-4">
+          <h2 className="text-xl font-bold text-galway-maroon">Excerpt</h2>
+          <p className="text-base text-galway-ink/85">{a.excerpt}</p>
+          <p className="text-sm text-galway-ink/55">
+            Full OCR / page text stays private. Public cards show only this
+            excerpt, the cite chip, and linked clubs — never invented scores.
+          </p>
+        </section>
+      )}
 
       {(a.clubTags.length > 0 || a.tags.length > 0) && (
         <div className="flex flex-wrap gap-2">
           {a.clubTags.map((c) => (
             <Link
               key={c}
-              href={isEntityRef(c) ? `/${c.replace(":", "/")}` : `/search?q=${encodeURIComponent(c)}`}
+              href={
+                isEntityRef(c)
+                  ? `/${c.replace(":", "/")}`
+                  : `/search?q=${encodeURIComponent(c)}`
+              }
               className="rounded-full bg-galway-maroon/10 px-3 py-1 text-sm font-semibold text-galway-maroon"
             >
               {isEntityRef(c) ? displayNameForRef(c) : c}
@@ -72,28 +143,16 @@ export default async function ArticlePage({
         </div>
       )}
 
-      {a.ocrText ? (
-        <section className="space-y-2 rounded-2xl border-2 border-dashed border-galway-maroon/25 bg-white p-4">
-          <h2 className="text-xl font-bold text-galway-maroon">Text we could read</h2>
-          <p className="whitespace-pre-wrap text-base text-galway-ink/80">{a.ocrText}</p>
-          <p className="text-sm text-galway-ink/55">
-            Automatic reading can misread blurry print — we only keep clear years and
-            clubs, never made-up scores.
-          </p>
-        </section>
-      ) : (
-        <p className="rounded-2xl border-2 border-dashed border-galway-maroon/25 bg-galway-cream/50 p-4 text-base text-galway-ink/70">
-          No automatic text yet — caption and tags still make this searchable.
-        </p>
-      )}
-
       <p>
-        <Link href="/contribute" className="font-semibold text-galway-maroon underline">
-          ← Upload another
+        <Link
+          href="/stories#upload"
+          className="font-semibold text-galway-maroon underline"
+        >
+          ← Upload another on Stories
         </Link>
         {" · "}
         <Link
-          href={`/search?q=${encodeURIComponent(a.caption || a.year || "article")}`}
+          href={`/search?q=${encodeURIComponent(a.caption || a.year || "paper")}`}
           className="font-semibold text-galway-maroon underline"
         >
           Search related

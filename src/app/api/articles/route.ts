@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import {
   readArticleUploads,
   saveArticleUpload,
+  saveUrlUpload,
+  toPublicArticle,
 } from "@/lib/articles";
 import { invalidateAssocCache } from "@/lib/data";
 
@@ -9,24 +11,19 @@ export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
 export async function GET() {
-  return NextResponse.json({ articles: readArticleUploads() });
+  return NextResponse.json({
+    articles: readArticleUploads().map(toPublicArticle),
+  });
 }
 
 export async function POST(request: Request) {
   try {
     const form = await request.formData();
-    const file = form.get("image");
-    if (!file || !(file instanceof File)) {
-      return NextResponse.json(
-        { error: "Please choose an article photo to upload." },
-        { status: 400 }
-      );
-    }
-
     const caption = String(form.get("caption") ?? "").trim();
     const year = String(form.get("year") ?? "").trim();
     const tagsRaw = String(form.get("tags") ?? "").trim();
     const clubTagsRaw = String(form.get("clubTags") ?? "").trim();
+    const urlRaw = String(form.get("url") ?? "").trim();
 
     const tags = tagsRaw
       ? tagsRaw.split(/[,#]+/).map((t) => t.trim()).filter(Boolean)
@@ -35,23 +32,52 @@ export async function POST(request: Request) {
       ? clubTagsRaw.split(/[,]+/).map((t) => t.trim()).filter(Boolean)
       : [];
 
-    const buffer = Buffer.from(await file.arrayBuffer());
-    const article = await saveArticleUpload({
-      buffer,
-      mimeType: file.type || "image/jpeg",
-      originalName: file.name || "article.jpg",
-      caption: caption || undefined,
-      year: year || undefined,
-      tags,
-      clubTags,
-    });
+    const file =
+      form.get("file") instanceof File
+        ? (form.get("file") as File)
+        : form.get("image") instanceof File
+          ? (form.get("image") as File)
+          : null;
+
+    let article;
+    if (urlRaw && (!file || file.size === 0)) {
+      article = await saveUrlUpload({
+        url: urlRaw,
+        caption: caption || undefined,
+        year: year || undefined,
+        tags,
+        clubTags,
+      });
+    } else if (file && file.size > 0) {
+      const buffer = Buffer.from(await file.arrayBuffer());
+      article = await saveArticleUpload({
+        buffer,
+        mimeType: file.type || "application/octet-stream",
+        originalName: file.name || "article.bin",
+        caption: caption || undefined,
+        year: year || undefined,
+        tags,
+        clubTags,
+      });
+    } else {
+      return NextResponse.json(
+        {
+          error:
+            "Add an image, PDF, or paste a URL — drop a cutting or link a paper page.",
+        },
+        { status: 400 }
+      );
+    }
 
     invalidateAssocCache();
 
-    return NextResponse.json({ ok: true, article });
+    return NextResponse.json({
+      ok: true,
+      article: toPublicArticle(article),
+    });
   } catch (err) {
     const message =
-      err instanceof Error ? err.message : "Could not save article image.";
+      err instanceof Error ? err.message : "Could not save article upload.";
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }

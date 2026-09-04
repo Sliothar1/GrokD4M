@@ -1,0 +1,153 @@
+{
+  "club": {
+    "id": "club:ahascragh-historic",
+    "canonical_name": "Ahascragh",
+    "aliases": [
+      "Historic Ahascragh",
+      "Ahascragh Hurling Club",
+      "Áth Eascrach"
+    ],
+    "county": "Galway",
+    "province": "Connacht",
+    "sport": "Hurling",
+    "status": "historic predecessor",
+    "successor": "club:ahascragh-fohenagh",
+    "founded_or_amalgamated": {
+      "juvenile_amalgamation_with_fohenagh": 1999,
+      "adult_amalgamation_with_fohenagh": 2002,
+      "wikipedia_underage_note": "Wikipedia says underage amalgamation initially in 1998; official club history says Juvenile club founded 1999."
+    },
+    "colours": {
+      "pre_amalgam": null,
+      "note": "Public sources reviewed do not clearly state historic Ahascragh-only jersey colours. Amalgam club Ahascragh-Fohenagh uses blue, white and red — do not back-apply that as verified pre-2002 Ahascragh colours."
+    },
+    "grounds": [
+      "Ahascragh GAA grounds"
+    ],
+    "history_notes": [
+      "Neighbouring junior club of Fohenagh before amalgamation (official club history).",
+      "Officers from both clubs began juvenile amalgamation talks in the 1990s due to falling numbers; Juvenile club founded 1999; full adult amalgamation 2002.",
+      "Mattie Kilroy published a local history booklet 'Ahascragh Hurling Club' (1984; cited in GAA bibliography lists)."
+    ]
+  },
+  "titles": [
+    {
+      "title": "Galway Junior Hurling Championship",
+      "season": 1981,
+      "status": "winner",
+      "score": null,
+      "score_note": "Galway GAA roll of honour lists the title and panel photo caption; final numerical score not printed on that page — not invented.",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "title": "Galway Junior A Hurling Championship",
+      "season": 1989,
+      "status": "winner",
+      "score": null,
+      "score_note": "Galway GAA roll of honour lists Ahascragh Junior A Hurling Champions 1989; final score not on that page — not invented.",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "title": "Galway Minor C Hurling Championship",
+      "season": 1989,
+      "status": "winner",
+      "score": null,
+      "score_note": "Galway GAA roll of honour lists Ahascragh Minor C Hurling Champions 1989; final score not on that page — not invented.",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    }
+  ],
+  "player_links": [
+    {
+      "name": "Billy Lyons",
+      "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "name": "John Egan",
+      "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "name": "Anto Smyth",
+      "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "name": "Gerry Smyth",
+      "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "name": "Johnny McDermott",
+      "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "name": "Frank Nolan / Frankie Nolan",
+      "role_or_link": "Named on 1981 Junior and 1989 Junior A panels",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    },
+    {
+      "name": "Michael Healy",
+      "role_or_link": "Named on 1981 Junior and 1989 Junior A panels",
+      "source_ids": ["galwaygaa_roll_1980_1999"]
+    }
+  ],
+  "amalgam_note": {
+    "partners": ["Ahascragh", "Fohenagh"],
+    "juvenile": 1999,
+    "adult": 2002,
+    "wikipedia_underage": 1998,
+    "text": "Fohenagh + Ahascragh amalgamated: juvenile club 1999 (Wikipedia notes underage join in 1998); full adult amalgamation 2002 per official club history."
+  },
+  "sources": {
+    "galwaygaa_roll_1980_1999": {
+      "title": "Roll of Honour 1980-1999 Hurling – Football",
+      "publisher": "Galway GAA",
+      "url": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "type": "official county roll of honour",
+      "excerpt": "Captions: Ahascragh Junior Champions 1981; Ahascragh Minor C Hurling Champions 1989; Ahascragh Junior A Hurling Champions 1989 — with named panels."
+    },
+    "club_history": {
+      "title": "Club History",
+      "publisher": "Ahascragh Fohenagh GAA Club",
+      "url": "https://ahascraghfohenaghhc.wordpress.com/about/",
+      "type": "official club history",
+      "excerpt": "Amalgamation of neighbouring junior clubs Ahascragh & Fohenagh; Juvenile club founded 1999; fully amalgamated 2002."
+    },
+    "wiki_amalgam": {
+      "title": "Ahascragh–Fohenagh GAA",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ahascragh%E2%80%93Fohenagh_GAA",
+      "type": "secondary",
+      "excerpt": "Underage amalgamation 1998; adult join 2002; grounds include Ahascragh GAA grounds; amalgam colours blue, white and red."
+    },
+    "galwaygaa_club_profile": {
+      "title": "Club Profile – Ahascragh Fohenagh",
+      "publisher": "Galway GAA",
+      "url": "https://www.galwaygaa.ie/clubprofile/3/",
+      "type": "official club directory",
+      "excerpt": "Lists Ahascragh GAA grounds & Fohenagh Sportsfield; Irish name Áth Eascrach Fothaine."
+    },
+    "kilroy_1984": {
+      "title": "Ahascragh Hurling Club",
+      "publisher": "Caltra G.A.A. Football Club / Mattie Kilroy",
+      "date": "1984",
+      "type": "bibliographic citation",
+      "notes": "Cited in GAA bibliography lists (e.g. Croke Park GAA General History bibliography). Book not fully retrieved; metadata only."
+    },
+    "afgaa_home": {
+      "title": "Ahascragh Fohenagh GAA",
+      "publisher": "afgaa.ie",
+      "url": "https://www.afgaa.ie/",
+      "type": "club site",
+      "excerpt": "Juvenile club founded 1999; fully amalgamated 2002."
+    }
+  },
+  "research_notes": {
+    "date": "2026-09-04",
+    "method": "WebSearch/WebFetch of Galway GAA roll of honour, official club history, Wikipedia, Galway GAA club profile. No invented scores.",
+    "colours": "Withheld — historic Ahascragh-only colours not confirmed in public sources reviewed.",
+    "scores": "Withheld for 1981/1989 titles — roll of honour confirms winners and panels, not final scorelines."
+  }
+}

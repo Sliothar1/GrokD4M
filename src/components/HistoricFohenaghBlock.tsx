@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-/** Driving Committee kid UX for historic Fohenagh predecessor (never amalgam titles). */
+/** Driving Committee kid UX for historic predecessors (never amalgam titles). */
 export function HistoricPredecessorChip() {
   return (
     <section className="rounded-2xl border-2 border-galway-maroon/20 bg-galway-cream/40 p-5">
@@ -16,11 +16,21 @@ export function HistoricPredecessorChip() {
           href="/club/fohenagh-historic"
           className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white hover:bg-galway-maroon-dark"
         >
-          Before Ahascragh-Fohenagh
+          Fohenagh
         </Link>
+        <Link
+          href="/club/ahascragh-historic"
+          className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white hover:bg-galway-maroon-dark"
+        >
+          Ahascragh
+        </Link>
+        <span className="rounded-full border-2 border-galway-maroon/25 bg-white px-3 py-1 text-xs font-bold text-galway-ink/60">
+          → Ahascragh-Fohenagh (2002)
+        </span>
       </div>
       <p className="mt-3 text-sm text-galway-ink/70">
-        Old parish club Fohenagh won Galway senior hurling before Ahascragh and Fohenagh joined.
+        Parish clubs Fohenagh and Ahascragh joined to form Ahascragh-Fohenagh
+        (juvenile 1999, adult 2002).
       </p>
       <HistoricYearChips compact />
     </section>
@@ -37,7 +47,7 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
             : "text-base font-semibold text-galway-ink"
         }
       >
-        Galway SHC · vs Castlegar
+        Fohenagh · Galway SHC · vs Castlegar
       </p>
       <div className="flex flex-wrap gap-2">
         <span className="rounded-full border-2 border-galway-maroon/25 bg-white px-3 py-1 text-sm font-bold text-galway-maroon">
@@ -56,13 +66,12 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
       >
         <li>
           <Link
-            href="/match/fohenagh-historic-1959-galway-shc-final"
+            href="/match/fohenagh-historic-1959-galway-shc-final-replay"
             className="font-semibold text-galway-maroon underline"
           >
             1959
           </Link>
-          : Fohenagh 3-9 · after a replay
-          {/* Castlegar total omitted — sources conflict; never show null */}
+          : Fohenagh 3-9 · Castlegar 4-5 · after a replay
         </li>
         <li>
           <Link
@@ -87,12 +96,17 @@ const HISTORIC_STORY_CHIPS = [
   {
     label: "The 1959 replay at Kenny Park",
     id: "club:fohenagh-historic",
-    hint: "season 1959 — anecdote OK, no Castlegar score",
+    hint: "season 1959",
   },
   {
     label: "When Fohenagh won the county before the amalgam",
     id: "club:fohenagh-historic",
     hint: "club edge only",
+  },
+  {
+    label: "Ahascragh junior days before 2002",
+    id: "club:ahascragh-historic",
+    hint: "pre-amalgam Ahascragh",
   },
 ];
 
@@ -113,11 +127,10 @@ export function HistoricStoryChips() {
   return (
     <section className="rounded-2xl border-2 border-dashed border-galway-gold bg-white p-5">
       <h2 className="text-xl font-bold text-galway-maroon">
-        Got a story from the old Fohenagh days?
+        Got a story from before the amalgam?
       </h2>
       <p className="mt-1 text-sm text-galway-ink/70">
-        Anecdotes welcome. Please do not invent scores — especially not Castlegar&apos;s 1959
-        total.
+        Anecdotes welcome. Please do not invent scores.
       </p>
       <div className="mt-3 flex flex-wrap gap-2">
         {HISTORIC_STORY_CHIPS.map((chip) => (
@@ -148,6 +161,12 @@ export function HistoricClubPanel() {
         <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
           Before Ahascragh-Fohenagh
         </span>
+        <Link
+          href="/club/ahascragh-historic"
+          className="rounded-full border-2 border-galway-maroon/30 bg-white px-3 py-1 text-sm font-bold text-galway-maroon"
+        >
+          Ahascragh
+        </Link>
         <Link
           href="/club/ahascragh-fohenagh"
           className="text-sm font-semibold text-galway-maroon underline"

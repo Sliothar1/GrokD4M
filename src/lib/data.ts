@@ -33,10 +33,14 @@ export interface EntitySummary {
   confidence?: string;
   /** Kid-friendly label derived from confidence, e.g. Verified / Needs check */
   trustLabel?: string;
-  /** Optional badge, e.g. "From your upload" */
+  /** Optional badge, e.g. "From cutting" */
   badge?: string;
   /** Public path to an uploaded image when kind is article_upload */
   imagePath?: string;
+  /** Cite chip for cuttings, e.g. "1960 · Paper" */
+  citeChip?: string;
+  /** Short public excerpt for cuttings search cards */
+  excerpt?: string;
 }
 
 export interface PendingStory {
@@ -116,6 +120,7 @@ export function friendlyTrustLabel(confidence?: string | null): string | undefin
   if (c === "medium") return "Needs check";
   if (c === "low") return "Needs check";
   if (c === "community") return "Fan story";
+  if (c === "unverified") return "Needs check";
   return "Needs check";
 }
 
@@ -164,7 +169,12 @@ export function friendlyAttrLabel(key: string): string {
     amalgamated_juvenile: "Juvenile amalgamation",
     amalgamated_adult: "Adult amalgamation",
     historic_predecessor: "Historic predecessor club",
+    historic_predecessor_ahascragh: "Historic predecessor (Ahascragh)",
     historic_note: "Historic note",
+    cuttings: "Article cuttings",
+    source_club_history: "Club history source",
+    source_wiki: "Wikipedia source",
+    source_grounds: "Grounds source",
     successor: "Later became",
     status: "Status",
     score_note: "Score note",
@@ -221,14 +231,25 @@ export function summarizeEntity(id: string, A: AssocArray = getAssoc()): EntityS
     const clubName = clubId ? displayNameForRef(clubId, A) : "";
     subtitle = [attrs.position, clubName].filter(Boolean).map(String).join(" · ");
   } else if (kind === "win") {
-    subtitle = `All-Ireland ${attrs.year}${attrs.opponent ? ` vs ${attrs.opponent}` : ""}`;
+    const isAI =
+      String(attrs.type ?? "") === "all_ireland_win" ||
+      /all-?ireland/i.test(String(attrs.name ?? attrs.title ?? ""));
+    if (isAI) {
+      subtitle = `All-Ireland ${attrs.year}${attrs.opponent ? ` vs ${attrs.opponent}` : ""}`;
+    } else {
+      subtitle = [attrs.title, attrs.year].filter((v) => v != null && String(v)).map(String).join(" · ");
+    }
   } else if (kind === "match") {
     const bits = [attrs.score, attrs.result, attrs.date, attrs.venue]
       .filter((v) => v != null && String(v).trim() && String(v).toLowerCase() !== "null")
       .map(String);
     subtitle = bits.slice(0, 2).join(" · ");
   } else if (kind === "club") {
-    if (String(attrs.kid_chip ?? "") === "Before Ahascragh-Fohenagh" || id === "club:fohenagh-historic") {
+    if (
+      String(attrs.kid_chip ?? "") === "Before Ahascragh-Fohenagh" ||
+      id === "club:fohenagh-historic" ||
+      id === "club:ahascragh-historic"
+    ) {
       subtitle = "Before Ahascragh-Fohenagh";
     } else {
       subtitle = String(attrs.county ?? "Galway club");

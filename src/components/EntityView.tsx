@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { EntityCard } from "@/components/EntityCard";
+import { ArticleClipSection } from "@/components/ArticleClip";
 import {
   HistoricClubPanel,
   HistoricPredecessorChip,
@@ -25,6 +26,7 @@ const HIDDEN_ATTRS = new Set([
   "summary",
   "confidence", // shown as friendly trust badge in header
   "kid_chip", // rendered as dedicated kid UI chip
+  "cuttings", // rendered as ArticleClipSection
 ]);
 
 /** Never show null / empty / literal "null" on kid Facts cards. */
@@ -49,8 +51,14 @@ export function EntityView({ data }: { data: EntityPayload }) {
     (attrs.confidence ? friendlyTrustLabel(String(attrs.confidence)) : undefined);
 
   const isAmalgam = id === "club:ahascragh-fohenagh";
-  const isHistoric = id === "club:fohenagh-historic";
-  const isHistoric1959 = id === "match:fohenagh-historic-1959-galway-shc-final";
+  const isHistoric =
+    id === "club:fohenagh-historic" || id === "club:ahascragh-historic";
+  const isHistoricFohenagh = id === "club:fohenagh-historic";
+  const isHistoricAhascragh = id === "club:ahascragh-historic";
+  const isHistoricMatch =
+    id.startsWith("match:fohenagh-historic-") ||
+    id.startsWith("match:ahascragh-historic-") ||
+    String(attrs.tag ?? "") === "historic-predecessor";
 
   return (
     <article className="space-y-8">
@@ -94,16 +102,44 @@ export function EntityView({ data }: { data: EntityPayload }) {
         </p>
       ) : null}
 
-      {isHistoric && <HistoricClubPanel />}
+      {isHistoricFohenagh && <HistoricClubPanel />}
+
+      {isHistoricAhascragh && (
+        <section className="rounded-2xl border-2 border-galway-maroon/20 bg-galway-cream/40 p-5">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
+              Before Ahascragh-Fohenagh
+            </span>
+            <Link
+              href="/club/fohenagh-historic"
+              className="rounded-full border-2 border-galway-maroon/30 bg-white px-3 py-1 text-sm font-bold text-galway-maroon"
+            >
+              Fohenagh
+            </Link>
+            <Link
+              href="/club/ahascragh-fohenagh"
+              className="text-sm font-semibold text-galway-maroon underline"
+            >
+              See today&apos;s club
+            </Link>
+          </div>
+          <p className="mt-3 text-sm text-galway-ink/70">
+            Junior parish club that amalgamated with Fohenagh (juvenile 1999, adult 2002).
+            Titles below are historic Ahascragh wins — not amalgam titles.
+          </p>
+        </section>
+      )}
+
 
       {isAmalgam && <HistoricPredecessorChip />}
 
-      {isHistoric1959 && (
-        <p className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
-          Fohenagh scored <strong>3-9</strong> after a replay at Kenny Park. Castlegar&apos;s
-          total is not shown here — sources disagree (2-5 vs 4-5), so we leave it off the
-          board until archives settle it.
-        </p>
+      {isHistoricMatch && (
+        <ArticleClipSection
+          matchId={id}
+          cuttingsJson={
+            attrs.cuttings != null ? String(attrs.cuttings) : null
+          }
+        />
       )}
 
       <section>

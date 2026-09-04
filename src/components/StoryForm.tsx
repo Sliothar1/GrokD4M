@@ -6,11 +6,11 @@ type Chip = { label: string; id: string };
 
 /** Amalgam / Mannion chips — never put historic Fohenagh chips here. */
 const AMALGAM_CHIPS: Chip[] = [
-  { label: "Fohenagh", id: "club:ahascragh-fohenagh" },
+  { label: "Ahascragh-Fohenagh", id: "club:ahascragh-fohenagh" },
   { label: "Cathal Mannion", id: "player:cathal-mannion" },
   { label: "Pádraic Mannion", id: "player:padraic-mannion" },
   { label: "A day at Fohenagh Sportsfield", id: "club:ahascragh-fohenagh" },
-  { label: "When Fohenagh went blue-white-red mad in 2016", id: "club:ahascragh-fohenagh" },
+  { label: "When Ahascragh-Fohenagh went blue-white-red mad in 2016", id: "club:ahascragh-fohenagh" },
 ];
 
 export function StoryForm({
