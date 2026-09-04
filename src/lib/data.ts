@@ -303,7 +303,16 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
   } else if (kind === "article_upload") {
     subtitle = [attrs.cite, attrs.year].filter(Boolean).map(String).join(" · ");
   } else if (kind === "appearance") {
-    subtitle = [attrs.competition, attrs.year]
+    const hold =
+      attrs.hold === true ||
+      String(attrs.hold ?? "") === "true" ||
+      String(attrs.status ?? "") === "hold";
+    const bits: Array<string | number | boolean> = [attrs.competition, attrs.year];
+    // Club chip only when not HOLD (Archivist: Healy = name+years+cite only)
+    if (!hold && attrs.club) {
+      bits.push(displayNameForRef(String(attrs.club), A));
+    }
+    subtitle = bits
       .filter((v) => v != null && String(v).trim())
       .map(String)
       .join(" · ");
@@ -488,7 +497,18 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     const blob = `${e.id} ${e.title} ${e.subtitle ?? ""} ${e.citeChip ?? ""} ${e.excerpt ?? ""} ${clubRef}`.toLowerCase();
     const fohenagh = blob.includes("fohenagh") || blob.includes("ahascragh");
     if (e.kind === "appearance") {
-      // Prefer Fohenagh-linked panel appearances among unverified panel hits
+      const conf = (e.confidence ?? "").toLowerCase();
+      const tier = Number(attrs.tier ?? 0);
+      const hold =
+        attrs.hold === true ||
+        String(attrs.hold ?? "") === "true" ||
+        String(attrs.status ?? "") === "hold" ||
+        conf === "hold";
+      // HOLD last among panel hits (name+years+cite only, no club)
+      if (hold) return 90;
+      // Archivist CLEAR / tier (1) — verified panel appearances first
+      if (conf === "verified" || tier === 1) return fohenagh ? 0 : 1;
+      // Provisional: Fohenagh first among unverified
       return fohenagh ? 12 : 45;
     }
     if (e.kind === "article_upload") return 80;

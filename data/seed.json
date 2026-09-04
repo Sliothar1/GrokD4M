@@ -3817,7 +3817,7 @@
   {
     "row": "player:cathal-mannion",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:cathal-mannion",
@@ -3872,7 +3872,7 @@
   {
     "row": "player:padraic-mannion",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:padraic-mannion",
@@ -34592,7 +34592,7 @@
   {
     "row": "player:donal-mannion",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:donal-mannion",
@@ -39682,12 +39682,7 @@
   {
     "row": "player:michael-healy",
     "col": "note",
-    "val": "Named on 1981 Junior and 1989 Junior A panels (Ahascragh historic club pack). Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1996 panel (Galway GAA)."
-  },
-  {
-    "row": "player:michael-healy",
-    "col": "club",
-    "val": "club:ahascragh-historic"
+    "val": "HOLD: club era unconfirmed (possible Castlegar collision). No club chip."
   },
   {
     "row": "player:michael-helebert",
@@ -40517,7 +40512,7 @@
   {
     "row": "player:niall-glynn",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:niall-glynn",
@@ -43122,7 +43117,7 @@
   {
     "row": "player:sean-bleahene",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:sean-bleahene",
@@ -43792,7 +43787,7 @@
   {
     "row": "player:thomas-mannion",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:thomas-mannion",
@@ -49862,12 +49857,12 @@
   {
     "row": "appearance:cathal-mannion-shc-2017",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:cathal-mannion-shc-2017",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:john-hanbury-shc-2017",
@@ -50037,12 +50032,12 @@
   {
     "row": "appearance:padraic-mannion-shc-2017",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:padraic-mannion-shc-2017",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:johnny-coen-shc-2017",
@@ -52487,7 +52482,7 @@
   {
     "row": "appearance:michael-healy-minor-1994",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "appearance:michael-healy-minor-1994",
@@ -58027,12 +58022,12 @@
   {
     "row": "appearance:cathal-mannion-minor-2011",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:cathal-mannion-minor-2011",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:sean-sweeney-minor-2011",
@@ -58377,12 +58372,12 @@
   {
     "row": "appearance:padraic-mannion-minor-2011",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:padraic-mannion-minor-2011",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:jack-carr-minor-2011",
@@ -59447,12 +59442,12 @@
   {
     "row": "appearance:sean-bleahene-minor-2015",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:sean-bleahene-minor-2015",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:enda-fahey-minor-2015",
@@ -59562,12 +59557,12 @@
   {
     "row": "appearance:donal-mannion-minor-2015",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:donal-mannion-minor-2015",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:donal-mannion-minor-2015",
@@ -61422,12 +61417,12 @@
   {
     "row": "appearance:sean-bleahene-minor-2017",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:sean-bleahene-minor-2017",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:enda-fahey-minor-2017",
@@ -61537,12 +61532,12 @@
   {
     "row": "appearance:donal-mannion-minor-2017",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:donal-mannion-minor-2017",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:donal-mannion-minor-2017",
@@ -65647,12 +65642,12 @@
   {
     "row": "appearance:niall-glynn-minor-2019",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:niall-glynn-minor-2019",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:niall-glynn-minor-2019",
@@ -75277,7 +75272,7 @@
   {
     "row": "appearance:michael-healy-u-21-1996",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "appearance:michael-healy-u-21-1996",
@@ -76292,12 +76287,12 @@
   {
     "row": "appearance:thomas-mannion-u-21-2005",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "appearance:thomas-mannion-u-21-2005",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "appearance:thomas-mannion-u-21-2005",
@@ -86037,7 +86032,7 @@
   {
     "row": "player:donal-mannion",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "player:donal-moran",
@@ -86842,7 +86837,7 @@
   {
     "row": "player:michael-healy",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:michael-helebert",
@@ -86982,7 +86977,7 @@
   {
     "row": "player:niall-glynn",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "player:niall-healy",
@@ -87497,7 +87492,7 @@
   {
     "row": "player:thomas-mannion",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "player:thomas-monaghan",
@@ -87812,7 +87807,7 @@
   {
     "row": "appearance:cathal-mannion-minor-2011",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:cathal-mannion-shc-2017",
@@ -87827,7 +87822,7 @@
   {
     "row": "appearance:cathal-mannion-shc-2017",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:padraic-mannion-minor-2011",
@@ -87842,7 +87837,7 @@
   {
     "row": "appearance:padraic-mannion-minor-2011",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:padraic-mannion-shc-2017",
@@ -87857,7 +87852,7 @@
   {
     "row": "appearance:padraic-mannion-shc-2017",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:sean-bleahene-minor-2015",
@@ -87872,7 +87867,7 @@
   {
     "row": "appearance:sean-bleahene-minor-2015",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:sean-bleahene-minor-2017",
@@ -87887,7 +87882,7 @@
   {
     "row": "appearance:sean-bleahene-minor-2017",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:donal-mannion-minor-2015",
@@ -87897,7 +87892,7 @@
   {
     "row": "appearance:donal-mannion-minor-2015",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:donal-mannion-minor-2017",
@@ -87907,7 +87902,7 @@
   {
     "row": "appearance:donal-mannion-minor-2017",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:thomas-mannion-u-21-2005",
@@ -87917,31 +87912,166 @@
   {
     "row": "appearance:thomas-mannion-u-21-2005",
     "col": "note",
-    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
   },
   {
     "row": "appearance:michael-healy-minor-1994",
     "col": "note",
-    "val": "HOLD: ahascragh-historic on player — confirm club era vs amalgam before CLEAR."
+    "val": "HOLD: do not stamp Ahascragh — possible Castlegar Michael Healy collision; name+years+cite only."
   },
   {
     "row": "appearance:michael-healy-u-21-1996",
     "col": "note",
-    "val": "HOLD: ahascragh-historic on player — confirm club era vs amalgam before CLEAR."
+    "val": "HOLD: do not stamp Ahascragh — possible Castlegar Michael Healy collision; name+years+cite only."
   },
   {
     "row": "player:cathal-mannion",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "player:padraic-mannion",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "player:sean-bleahene",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
+  },
+  {
+    "row": "appearance:cathal-mannion-minor-2011",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:cathal-mannion-minor-2011",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:cathal-mannion-shc-2017",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:cathal-mannion-shc-2017",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:padraic-mannion-minor-2011",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:padraic-mannion-minor-2011",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:padraic-mannion-shc-2017",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:padraic-mannion-shc-2017",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2015",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2015",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2017",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2017",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2015",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2015",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2017",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2017",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:niall-glynn-minor-2019",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:niall-glynn-minor-2019",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "appearance:niall-glynn-minor-2019",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:niall-glynn-minor-2019",
+    "col": "note",
+    "val": "Archivist CLEAR: panel cite + club:ahascragh-fohenagh. Appearance only — no caps/tallies."
+  },
+  {
+    "row": "appearance:thomas-mannion-u-21-2005",
+    "col": "tier",
+    "val": 1
+  },
+  {
+    "row": "appearance:thomas-mannion-u-21-2005",
+    "col": "archivist_ruling",
+    "val": "CLEAR"
+  },
+  {
+    "row": "appearance:michael-healy-minor-1994",
+    "col": "tier",
+    "val": 0
+  },
+  {
+    "row": "appearance:michael-healy-minor-1994",
+    "col": "archivist_ruling",
+    "val": "HOLD"
+  },
+  {
+    "row": "appearance:michael-healy-u-21-1996",
+    "col": "tier",
+    "val": 0
+  },
+  {
+    "row": "appearance:michael-healy-u-21-1996",
+    "col": "archivist_ruling",
+    "val": "HOLD"
+  },
+  {
+    "row": "player:michael-healy",
+    "col": "hold",
+    "val": true
   }
 ]
