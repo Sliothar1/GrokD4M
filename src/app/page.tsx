@@ -12,11 +12,8 @@ export default async function HomePage() {
   return (
     <div className="space-y-12">
       <section className="space-y-6 text-center sm:text-left">
-        <p className="inline-block rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold uppercase tracking-wide text-white">
-          Phase 1 · Galway senior hurling
-        </p>
         <h1 className="text-4xl font-black leading-tight text-galway-ink sm:text-6xl">
-          Look up Galway hurling like a giant sticky-note board
+          Look up Galway Hurling Stats
         </h1>
         <p className="max-w-2xl text-xl text-galway-ink/80">
           HurlingWiki stores facts as D4M-style associative arrays — sparse{" "}
