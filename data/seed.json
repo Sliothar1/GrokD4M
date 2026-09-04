@@ -3817,7 +3817,7 @@
   {
     "row": "player:cathal-mannion",
     "col": "confidence",
-    "val": "high"
+    "val": "unverified"
   },
   {
     "row": "player:cathal-mannion",
@@ -3872,7 +3872,7 @@
   {
     "row": "player:padraic-mannion",
     "col": "confidence",
-    "val": "high"
+    "val": "unverified"
   },
   {
     "row": "player:padraic-mannion",
@@ -43122,7 +43122,7 @@
   {
     "row": "player:sean-bleahene",
     "col": "confidence",
-    "val": "high"
+    "val": "unverified"
   },
   {
     "row": "player:sean-bleahene",
@@ -59572,7 +59572,7 @@
   {
     "row": "appearance:donal-mannion-minor-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:dylan-shaughnessy-minor-2015",
@@ -61547,7 +61547,7 @@
   {
     "row": "appearance:donal-mannion-minor-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:dylan-shaughnessy-minor-2017",
@@ -76302,7 +76302,7 @@
   {
     "row": "appearance:thomas-mannion-u-21-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:joe-gantley-u-21-2005",
@@ -87798,5 +87798,150 @@
     "row": "player:thomas-mannion",
     "col": "club",
     "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:cathal-mannion-minor-2011",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:cathal-mannion-minor-2011",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "appearance:cathal-mannion-minor-2011",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:cathal-mannion-shc-2017",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:cathal-mannion-shc-2017",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "appearance:cathal-mannion-shc-2017",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:padraic-mannion-minor-2011",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:padraic-mannion-minor-2011",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "appearance:padraic-mannion-minor-2011",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:padraic-mannion-shc-2017",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:padraic-mannion-shc-2017",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "appearance:padraic-mannion-shc-2017",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2015",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2015",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2015",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2017",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2017",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "appearance:sean-bleahene-minor-2017",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2015",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2015",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2017",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:donal-mannion-minor-2017",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:thomas-mannion-u-21-2005",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:thomas-mannion-u-21-2005",
+    "col": "note",
+    "val": "Club stamped from player row (ahascragh-fohenagh) pending Archivist CLEAR."
+  },
+  {
+    "row": "appearance:michael-healy-minor-1994",
+    "col": "note",
+    "val": "HOLD: ahascragh-historic on player — confirm club era vs amalgam before CLEAR."
+  },
+  {
+    "row": "appearance:michael-healy-u-21-1996",
+    "col": "note",
+    "val": "HOLD: ahascragh-historic on player — confirm club era vs amalgam before CLEAR."
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-bleahene",
+    "col": "status",
+    "val": "pending_archivist"
   }
 ]
