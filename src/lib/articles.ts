@@ -92,8 +92,26 @@ const PDF_MIME = "application/pdf";
 const MISSING_BLOB_MSG =
   "Uploads need Vercel Blob — connect Blob store to this project.";
 
+/**
+ * Alias custom Blob env prefixes (e.g. Hurling_*) onto the standard BLOB_*
+ * names the @vercel/blob SDK expects.
+ */
+function syncBlobEnvAliases(): void {
+  if (!process.env.BLOB_READ_WRITE_TOKEN) {
+    const alt =
+      process.env.Hurling_READ_WRITE_TOKEN ||
+      process.env.HURLING_READ_WRITE_TOKEN;
+    if (alt) process.env.BLOB_READ_WRITE_TOKEN = alt;
+  }
+  if (!process.env.BLOB_STORE_ID) {
+    const alt = process.env.Hurling_STORE_ID || process.env.HURLING_STORE_ID;
+    if (alt) process.env.BLOB_STORE_ID = alt;
+  }
+}
+
 /** True when Vercel Blob credentials are present (token and/or connected store). */
 export function isBlobStorageEnabled(): boolean {
+  syncBlobEnvAliases();
   return Boolean(
     process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID
   );
