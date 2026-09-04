@@ -86,6 +86,8 @@ TOKEN_ALIASES = {
     "tuohy": "tuohy",
     "seán": "sean",
     "sean": "sean",
+    "connaire": "conaire",
+    "conaire": "conaire",
 }
 
 SKIP_NAME_PATTERNS = [
@@ -384,7 +386,7 @@ PANELS: list[dict] = [
             p("Ian McGlynn", "Kilconieron"), p("Michael Egan", "Cappataggle"),
             p("Colm Cunningham", "Moycullen"), p("Oisín Slevin", "Ardrahan"),
             p("Luke Prendergast", "Ballinderreen"), p("Matthew Rosengrave", "Michael Cusacks"),
-            p("Sean McDonagh", "Mountbellew-Moylough"), p("Alex Connaire", "Sarsfields"),
+            p("Sean McDonagh", "Mountbellew-Moylough"), p("Alex Conaire", "Sarsfields"),
             p("John Cooney", "Sarsfields"),
         ],
     },
@@ -859,11 +861,15 @@ def main() -> None:
         pid = rec["id"]
         nn = rec["norm"]
 
-        # Idempotent: existing slug OR normalized name
+        # Idempotent: existing slug always skips. Normalized-name skip applies
+        # only when this row is NOT club-disambiguated (same-panel names with
+        # different clubs keep distinct ids).
         if pid in existing_ids:
             skipped_existing.append(pid)
             continue
-        if nn in norm_to_id:
+        club_suffix = (rec.get("club") or "").split(":", 1)[-1]
+        is_club_disambiguated = bool(club_suffix) and pid.endswith("-" + club_suffix)
+        if (not is_club_disambiguated) and nn in norm_to_id:
             skipped_existing.append(norm_to_id[nn])
             continue
 
