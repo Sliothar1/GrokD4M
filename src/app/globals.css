@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --galway-maroon: #7a0c2e;
+  --galway-maroon-dark: #5c0922;
+  --galway-gold: #c9a227;
+  --galway-cream: #f7f1e8;
+  --galway-ink: #1a1215;
+  --background: var(--galway-cream);
+  --foreground: var(--galway-ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-galway-maroon: var(--galway-maroon);
+  --color-galway-maroon-dark: var(--galway-maroon-dark);
+  --color-galway-gold: var(--galway-gold);
+  --color-galway-cream: var(--galway-cream);
+  --color-galway-ink: var(--galway-ink);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
