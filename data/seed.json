@@ -58500,66 +58500,6 @@
     "val": "pending_archivist"
   },
   {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "type",
-    "val": "appearance"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "player",
-    "val": "player:padraig-brehony"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "name",
-    "val": "Padraic Brehony"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "competition",
-    "val": "All-Ireland Minor Hurling Championship"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "grade",
-    "val": "Minor"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "year",
-    "val": 2011
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "cite_chip",
-    "val": "2011 · Galway GAA"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "excerpt",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel."
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "appearance:padraig-brehony-minor-2011",
-    "col": "hold",
-    "val": true
-  },
-  {
     "row": "appearance:keelan-cullinane-minor-2011",
     "col": "type",
     "val": "appearance"
@@ -64682,7 +64622,7 @@
   {
     "row": "player:oisin-flannery-padraig-pearses",
     "col": "confidence",
-    "val": "high"
+    "val": "unverified"
   },
   {
     "row": "player:oisin-flannery-padraig-pearses",
@@ -67338,66 +67278,6 @@
     "row": "appearance:sean-mcdonagh-minor-2019",
     "col": "club",
     "val": "club:mountbellew-moylough"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "type",
-    "val": "appearance"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "player",
-    "val": "player:alex-connaire"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "name",
-    "val": "Alex Connaire"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "competition",
-    "val": "All-Ireland Minor Hurling Championship"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "grade",
-    "val": "Minor"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "year",
-    "val": 2019
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "cite_chip",
-    "val": "2019 · Galway GAA"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "excerpt",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2019 panel."
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "appearance:alex-connaire-minor-2019",
-    "col": "club",
-    "val": "club:sarsfields"
   },
   {
     "row": "appearance:john-cooney-minor-2019",
@@ -87767,7 +87647,7 @@
   {
     "row": "player:padraic-brehony",
     "col": "confidence",
-    "val": "high"
+    "val": "unverified"
   },
   {
     "row": "player:padraic-brehony",
@@ -87848,5 +87728,75 @@
     "row": "player:padraic-brehony",
     "col": "status",
     "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "player",
+    "val": "player:alex-conaire"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "name",
+    "val": "Alex Conaire"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "competition",
+    "val": "All-Ireland Minor Hurling Championship"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "grade",
+    "val": "Minor"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "cite_chip",
+    "val": "2019 · Galway GAA"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "excerpt",
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2019 panel."
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:alex-conaire-minor-2019",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:donal-mannion",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:thomas-mannion",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
   }
 ]

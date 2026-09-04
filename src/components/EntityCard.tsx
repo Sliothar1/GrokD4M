@@ -11,6 +11,7 @@ const kindLabel: Record<string, string> = {
   source: "Source",
   community_story: "Story",
   article_upload: "Article",
+  appearance: "Panel",
   unknown: "Thing",
 };
 
@@ -27,7 +28,9 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
   const typeBadge =
     entity.kind === "win"
       ? winKindBadge(entity)
-      : (entity.kindLabel ?? kindLabel[entity.kind] ?? entity.kind);
+      : entity.kind === "appearance"
+        ? (entity.kindLabel || entity.badge || "Panel")
+        : (entity.kindLabel ?? kindLabel[entity.kind] ?? entity.kind);
 
   return (
     <Link
@@ -47,7 +50,7 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
           <span className="rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
             {typeBadge}
           </span>
-          {badge && (
+          {badge && entity.kind !== "appearance" && (
             <span className="rounded-full bg-galway-gold/25 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-ink">
               {badge}
             </span>
@@ -74,7 +77,8 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
           )}
         </div>
         <h3 className="text-xl font-bold text-galway-ink">{entity.title}</h3>
-        {entity.excerpt && entity.kind === "article_upload" ? (
+        {entity.excerpt &&
+        (entity.kind === "article_upload" || entity.kind === "appearance") ? (
           <p className="mt-1 text-base text-galway-ink/70">{entity.excerpt}</p>
         ) : (
           entity.subtitle && (

@@ -45,14 +45,28 @@ export default async function SearchPage({
           </h2>
           <div className="grid gap-3 sm:grid-cols-2">
             {groupSearchResults(results).map((group) =>
-              group.seasonChip ? (
+              group.seasonChip && (group.items.length > 1 || group.key.startsWith("season:")) ? (
                 <div
                   key={group.key}
                   className="space-y-3 sm:col-span-2 rounded-2xl border-2 border-galway-maroon/15 bg-galway-cream/40 p-3"
                 >
-                  <span className="inline-flex rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
-                    {group.seasonChip}
-                  </span>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="inline-flex rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
+                      {group.seasonChip}
+                    </span>
+                    {group.items
+                      .map((r) => r.seasonChip)
+                      .filter((y): y is string => Boolean(y))
+                      .filter((y, i, arr) => arr.indexOf(y) === i)
+                      .map((y) => (
+                        <span
+                          key={y}
+                          className="inline-flex rounded-full border border-galway-maroon/30 bg-white px-2 py-0.5 text-xs font-bold text-galway-maroon"
+                        >
+                          {y}
+                        </span>
+                      ))}
+                  </div>
                   <div className="grid gap-3 sm:grid-cols-2">
                     {group.items.map((r) => (
                       <EntityCard key={r.id} entity={r} />

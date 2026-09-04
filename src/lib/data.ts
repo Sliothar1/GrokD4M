@@ -26,6 +26,7 @@ export type EntityKind =
   | "source"
   | "community_story"
   | "article_upload"
+  | "appearance"
   | "unknown";
 
 export interface EntitySummary {
@@ -51,6 +52,8 @@ export interface EntitySummary {
   seasonChip?: string;
   /** HOLD disputed-score cuttings: show chip, hide tallies */
   scoreDisputed?: boolean;
+  /** Search grouping key (e.g. player id for appearances) */
+  groupKey?: string;
 }
 
 export interface PendingStory {
@@ -93,7 +96,8 @@ export function entityKind(id: string, attrs?: Record<string, TripleVal>): Entit
     t === "season" ||
     t === "source" ||
     t === "community_story" ||
-    t === "article_upload"
+    t === "article_upload" ||
+    t === "appearance"
   ) {
     return t;
   }
@@ -132,6 +136,7 @@ export function friendlyTrustLabel(confidence?: string | null): string | undefin
   if (c === "low") return "Needs check";
   if (c === "community") return "Fan story";
   if (c === "unverified") return "Needs check";
+  if (c === "hold") return "Needs check";
   return "Needs check";
 }
 
@@ -217,6 +222,9 @@ export function friendlyAttrLabel(key: string): string {
     hide_score: "Hide score",
     score_disputed: "Score disputed",
     archivist_ruling: "Archivist",
+    cite_chip: "Cite",
+    grade: "Grade",
+    hold: "Hold",
   };
   if (labels[key]) return labels[key];
   // Player × Season → Club cols look like "season:2016"
@@ -294,18 +302,33 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     subtitle = String(attrs.outcome ?? attrs.year ?? "");
   } else if (kind === "article_upload") {
     subtitle = [attrs.cite, attrs.year].filter(Boolean).map(String).join(" · ");
+  } else if (kind === "appearance") {
+    subtitle = [attrs.competition, attrs.year]
+      .filter((v) => v != null && String(v).trim())
+      .map(String)
+      .join(" · ");
   }
   const confidence = attrs.confidence ? String(attrs.confidence) : undefined;
+  let kindLabel: string | undefined;
+  if (kind === "win") {
+    kindLabel = isAllIrelandWinAttrs(attrs) ? "All-Ireland" : "County title";
+  } else if (kind === "appearance") {
+    kindLabel = attrs.grade ? String(attrs.grade) : "Panel";
+  }
   const summary: EntitySummary = {
     id,
     kind,
     title,
     subtitle: subtitle || undefined,
-    href: entityHref(id, kind),
+    href:
+      kind === "appearance"
+        ? attrs.player
+          ? entityHref(String(attrs.player), "player")
+          : `/search?q=${encodeURIComponent(title)}`
+        : entityHref(id, kind),
     confidence,
     trustLabel: friendlyTrustLabel(confidence),
-    kindLabel:
-      kind === "win" ? (isAllIrelandWinAttrs(attrs) ? "All-Ireland" : "County title") : undefined,
+    kindLabel,
   };
   if (kind === "article_upload") {
     summary.badge = String(attrs.badge ?? "From cutting");
@@ -314,6 +337,15 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     if (attrs.score_disputed === true || String(attrs.score_disputed ?? "") === "true") {
       summary.scoreDisputed = true;
     }
+  }
+  if (kind === "appearance") {
+    summary.badge = attrs.grade ? String(attrs.grade) : "Panel";
+    if (attrs.cite_chip) summary.citeChip = String(attrs.cite_chip);
+    else if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);
+    if (attrs.year != null) summary.seasonChip = String(attrs.year);
+    if (attrs.player) summary.groupKey = String(attrs.player);
+    else summary.groupKey = `appearance-name:${title.toLowerCase()}`;
   }
   if (kind === "match") {
     if (attrs.secondary_cite) summary.citeChip = String(attrs.secondary_cite);
@@ -354,20 +386,39 @@ export interface SearchGroup {
   items: EntitySummary[];
 }
 
-/** Group 1959 draw+replay (shared seasonChip) under one search chip. */
+/** Group appearances by player; also 1959 draw+replay (shared seasonChip). */
 export function groupSearchResults(results: EntitySummary[]): SearchGroup[] {
   const groups: SearchGroup[] = [];
-  const seasonIndex = new Map<string, number>();
+  const groupIndex = new Map<string, number>();
   for (const item of results) {
-    const chip = item.seasonChip;
-    if (chip) {
-      const existing = seasonIndex.get(chip);
+    if (item.groupKey) {
+      const existing = groupIndex.get(item.groupKey);
       if (existing != null) {
         groups[existing].items.push(item);
         continue;
       }
-      seasonIndex.set(chip, groups.length);
-      groups.push({ key: `season:${chip}`, seasonChip: chip, items: [item] });
+      groupIndex.set(item.groupKey, groups.length);
+      const label =
+        item.kind === "appearance"
+          ? item.title
+          : item.seasonChip;
+      groups.push({
+        key: item.groupKey,
+        seasonChip: label,
+        items: [item],
+      });
+      continue;
+    }
+    const chip = item.seasonChip;
+    if (chip) {
+      const sk = `season:${chip}`;
+      const existing = groupIndex.get(sk);
+      if (existing != null) {
+        groups[existing].items.push(item);
+        continue;
+      }
+      groupIndex.set(sk, groups.length);
+      groups.push({ key: sk, seasonChip: chip, items: [item] });
       continue;
     }
     groups.push({ key: item.id, items: [item] });
@@ -428,14 +479,25 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     }
   }
 
-  // Rank: verified facts first (tier 1), Fohenagh-family next, HOLD cuttings last
+  // Rank: verified facts first; Fohenagh appearances before other unverified
   const rankOf = (e: EntitySummary): number => {
+    const attrs = A.entityAttrs(e.id);
+    const playerId = attrs.player ? String(attrs.player) : "";
+    const playerClub = playerId ? String(A.entityAttrs(playerId).club ?? "") : "";
+    const clubRef = `${attrs.club ?? ""} ${playerClub}`;
+    const blob = `${e.id} ${e.title} ${e.subtitle ?? ""} ${e.citeChip ?? ""} ${e.excerpt ?? ""} ${clubRef}`.toLowerCase();
+    const fohenagh = blob.includes("fohenagh") || blob.includes("ahascragh");
+    if (e.kind === "appearance") {
+      // Prefer Fohenagh-linked panel appearances among unverified panel hits
+      return fohenagh ? 12 : 45;
+    }
     if (e.kind === "article_upload") return 80;
     const conf = (e.confidence ?? "").toLowerCase();
-    if (conf === "unverified" || conf === "low") return 80;
+    if (conf === "unverified" || conf === "low" || conf === "hold") {
+      return fohenagh ? 15 : 80;
+    }
     if (conf === "high" || conf === "verified") return 0;
-    const blob = `${e.id} ${e.title} ${e.subtitle ?? ""}`.toLowerCase();
-    if (blob.includes("fohenagh") || blob.includes("ahascragh")) return 5;
+    if (fohenagh) return 5;
     if (e.trustLabel === "Verified") return 0;
     return 20;
   };
