@@ -1,0 +1,219 @@
+{
+  "pack": "galway-players-expand",
+  "source": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/",
+  "generated_at": "2026-09-04T18:22:46.247033+00:00",
+  "before_players": 502,
+  "after_players": 511,
+  "players_added": [
+    "player:alex-connaire",
+    "player:bernard-forde",
+    "player:declan-jennings",
+    "player:finnian-coone",
+    "player:gordan-glynn",
+    "player:kerrill-wade",
+    "player:padraig-brehony",
+    "player:shane-maloney",
+    "player:eoghan-delaney"
+  ],
+  "players_added_count": 9,
+  "skipped_existing_count": 499,
+  "clubs_created": [],
+  "fohenagh_related_new": [
+    "player:eoghan-delaney"
+  ],
+  "panels_curated": [
+    {
+      "year": 1923,
+      "grade": "Senior",
+      "label": "All-Ireland Senior Hurling Champions 1923",
+      "n": 19
+    },
+    {
+      "year": 1980,
+      "grade": "Senior",
+      "label": "All-Ireland Senior Hurling Champions 1980",
+      "n": 15
+    },
+    {
+      "year": 1987,
+      "grade": "Senior",
+      "label": "All-Ireland Senior Hurling Champions 1987",
+      "n": 15
+    },
+    {
+      "year": 1988,
+      "grade": "Senior",
+      "label": "All-Ireland Senior Hurling Champions 1988",
+      "n": 15
+    },
+    {
+      "year": 2017,
+      "grade": "Senior",
+      "label": "All-Ireland Senior Hurling Champions 2017",
+      "n": 34
+    },
+    {
+      "year": 1983,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 1983",
+      "n": 15
+    },
+    {
+      "year": 1992,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 1992",
+      "n": 16
+    },
+    {
+      "year": 1994,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 1994",
+      "n": 15
+    },
+    {
+      "year": 1999,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 1999",
+      "n": 15
+    },
+    {
+      "year": 2000,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2000",
+      "n": 15
+    },
+    {
+      "year": 2004,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2004",
+      "n": 15
+    },
+    {
+      "year": 2005,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2005",
+      "n": 15
+    },
+    {
+      "year": 2009,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2009",
+      "n": 15
+    },
+    {
+      "year": 2011,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2011",
+      "n": 31
+    },
+    {
+      "year": 2015,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2015",
+      "n": 33
+    },
+    {
+      "year": 2017,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2017",
+      "n": 33
+    },
+    {
+      "year": 2018,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2018",
+      "n": 36
+    },
+    {
+      "year": 2019,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2019",
+      "n": 32
+    },
+    {
+      "year": 2020,
+      "grade": "Minor",
+      "label": "All-Ireland Minor Hurling Champions 2020",
+      "n": 31
+    },
+    {
+      "year": 1972,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 1972",
+      "n": 15
+    },
+    {
+      "year": 1978,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 1978",
+      "n": 15
+    },
+    {
+      "year": 1983,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 1983",
+      "n": 15
+    },
+    {
+      "year": 1986,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 1986",
+      "n": 15
+    },
+    {
+      "year": 1991,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 1991",
+      "n": 15
+    },
+    {
+      "year": 1993,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 1993",
+      "n": 15
+    },
+    {
+      "year": 1996,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 1996",
+      "n": 15
+    },
+    {
+      "year": 2005,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 2005",
+      "n": 30
+    },
+    {
+      "year": 2007,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 2007",
+      "n": 31
+    },
+    {
+      "year": 2011,
+      "grade": "U-21",
+      "label": "All-Ireland U-21 Hurling Champions 2011",
+      "n": 31
+    },
+    {
+      "year": 1999,
+      "grade": "Intermediate",
+      "label": "All-Ireland Intermediate Hurling Champions 1999",
+      "n": 15
+    },
+    {
+      "year": 2002,
+      "grade": "Intermediate",
+      "label": "All-Ireland Intermediate Hurling Champions 2002",
+      "n": 32
+    },
+    {
+      "year": 2015,
+      "grade": "Intermediate",
+      "label": "All-Ireland Intermediate Hurling Champions 2015",
+      "n": 27
+    }
+  ],
+  "triples_added": 47
+}
