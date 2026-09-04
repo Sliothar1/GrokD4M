@@ -19,7 +19,7 @@ export default async function SearchPage({
       <header className="space-y-3">
         <h1 className="text-4xl font-black text-galway-ink">Search</h1>
         <p className="text-lg text-galway-ink/70">
-          Queries scan every triple — names, years, clubs, and citations.
+          Queries scan every triple — names, years, clubs, citations, and your article uploads.
         </p>
         <SearchBox initialQuery={q} />
       </header>
@@ -34,7 +34,7 @@ export default async function SearchPage({
       {q.trim() && results.length === 0 && (
         <EmptyTeach
           title={`No hits for “${q.trim()}”`}
-          hint="Check spelling, try a year (1980, 2017), a club (Portumna), or a player surname. Community stories live under Stories."
+          hint="Check spelling, try a year (1980, 2017), a club (Portumna), or a player surname. Article photos live under Upload / Contribute."
         />
       )}
 
