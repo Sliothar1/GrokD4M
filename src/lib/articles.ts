@@ -97,16 +97,44 @@ const MISSING_BLOB_MSG =
  * names the @vercel/blob SDK expects.
  */
 function syncBlobEnvAliases(): void {
+  // Prefer exact names, then any *READ_WRITE_TOKEN / *STORE_ID (dashboard custom prefixes).
   if (!process.env.BLOB_READ_WRITE_TOKEN) {
-    const alt =
-      process.env.Hurling_READ_WRITE_TOKEN ||
-      process.env.HURLING_READ_WRITE_TOKEN;
-    if (alt) process.env.BLOB_READ_WRITE_TOKEN = alt;
+    for (const [k, v] of Object.entries(process.env)) {
+      if (!v) continue;
+      if (/READ_WRITE_TOKEN$/i.test(k) || /^BLOB.*TOKEN$/i.test(k)) {
+        process.env.BLOB_READ_WRITE_TOKEN = v;
+        break;
+      }
+    }
   }
   if (!process.env.BLOB_STORE_ID) {
-    const alt = process.env.Hurling_STORE_ID || process.env.HURLING_STORE_ID;
-    if (alt) process.env.BLOB_STORE_ID = alt;
+    for (const [k, v] of Object.entries(process.env)) {
+      if (!v) continue;
+      if (/STORE_ID$/i.test(k)) {
+        process.env.BLOB_STORE_ID = v;
+        break;
+      }
+    }
   }
+}
+
+function blobPutOptions(
+  extra: Record<string, unknown> = {}
+): Record<string, unknown> {
+  syncBlobEnvAliases();
+  const opts: Record<string, unknown> = {
+    access: "public",
+    addRandomSuffix: false,
+    allowOverwrite: true,
+    ...extra,
+  };
+  if (process.env.BLOB_READ_WRITE_TOKEN) {
+    opts.token = process.env.BLOB_READ_WRITE_TOKEN;
+  }
+  if (process.env.BLOB_STORE_ID) {
+    opts.storeId = process.env.BLOB_STORE_ID;
+  }
+  return opts;
 }
 
 /** True when Vercel Blob credentials are present (token and/or connected store). */
@@ -130,6 +158,10 @@ export function articleMediaUrl(a: ArticleUpload): string | undefined {
 }
 
 export function ensureUploadDir(): void {
+  if (process.env.VERCEL) {
+    assertWritableStorage();
+    return;
+  }
   if (isBlobStorageEnabled()) return;
   if (!existsSync(UPLOAD_DIR)) {
     mkdirSync(UPLOAD_DIR, { recursive: true });
@@ -151,6 +183,9 @@ function readArticleUploadsFromFs(): ArticleUpload[] {
 }
 
 function writeArticleUploadsToFs(list: ArticleUpload[]): void {
+  if (process.env.VERCEL) {
+    throw new Error(MISSING_BLOB_MSG);
+  }
   writeFileSync(META_PATH, JSON.stringify(list, null, 2), "utf8");
 }
 
@@ -220,12 +255,7 @@ async function putArticleMetaBlob(article: ArticleUpload): Promise<void> {
   await put(
     `${BLOB_META_PREFIX}${article.id}.json`,
     JSON.stringify(article, null, 2),
-    {
-      access: "public",
-      contentType: "application/json",
-      allowOverwrite: true,
-      addRandomSuffix: false,
-    }
+    blobPutOptions({ contentType: "application/json" }) as Parameters<typeof put>[2]
   );
   invalidateBlobMetaCache();
 }
@@ -235,12 +265,11 @@ async function putPublicMediaBlob(
   body: Buffer,
   contentType: string
 ): Promise<string> {
-  const result = await put(`${BLOB_MEDIA_PREFIX}${filename}`, body, {
-    access: "public",
-    contentType,
-    addRandomSuffix: false,
-    allowOverwrite: true,
-  });
+  const result = await put(
+    `${BLOB_MEDIA_PREFIX}${filename}`,
+    body,
+    blobPutOptions({ contentType }) as Parameters<typeof put>[2]
+  );
   return result.url;
 }
 
@@ -261,12 +290,9 @@ async function storePrivateTextBlob(
   const result = await put(
     `${BLOB_PRIVATE_PREFIX}${id}.txt`,
     cleaned,
-    {
-      access: "public",
+    blobPutOptions({
       contentType: "text/plain; charset=utf-8",
-      addRandomSuffix: false,
-      allowOverwrite: true,
-    }
+    }) as Parameters<typeof put>[2]
   );
   return { privateTextUrl: result.url };
 }
@@ -656,7 +682,8 @@ export async function saveArticleUpload(input: {
   let mediaUrl: string;
   let privateText = "";
 
-  if (isBlobStorageEnabled()) {
+  if (process.env.VERCEL || isBlobStorageEnabled()) {
+    assertWritableStorage();
     mediaUrl = await putPublicMediaBlob(filename, input.buffer, contentType);
     privateText = await extractTextFromBuffer(input.buffer, filename, isPdf);
   } else {
@@ -763,7 +790,8 @@ async function tryFetchPreviewImage(
     const buf = Buffer.from(await res.arrayBuffer());
     if (buf.length < 100 || buf.length > 8 * 1024 * 1024) return undefined;
     const filename = `${id}-preview${ext}`;
-    if (isBlobStorageEnabled()) {
+    if (process.env.VERCEL || isBlobStorageEnabled()) {
+      assertWritableStorage();
       return putPublicMediaBlob(filename, buf, ctype.split(";")[0].trim());
     }
     ensureUploadDir();
