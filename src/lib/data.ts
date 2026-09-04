@@ -220,30 +220,46 @@ export function listEntitiesByType(typePrefix: string): EntitySummary[] {
 
 export function searchEntities(query: string): EntitySummary[] {
   const A = getAssoc();
+  const normalized = query
+    .trim()
+    .toLowerCase()
+    .replace(/[-_/]+/g, " ")
+    .replace(/\s+/g, " ");
+  const tokens = normalized
+    .split(" ")
+    .filter(Boolean)
+    .map((tok) => (tok.length > 3 && tok.endsWith("s") ? tok.slice(0, -1) : tok));
+
   const { rows } = A.search(query);
-  const entityRows = rows.filter((r) => r.includes(":"));
   const seen = new Set<string>();
   const out: EntitySummary[] = [];
-  for (const id of entityRows) {
-    if (seen.has(id)) continue;
-    const attrs = A.entityAttrs(id);
-    if (!attrs.type && !id.includes(":")) continue;
+
+  const consider = (id: string) => {
+    if (seen.has(id) || !id.includes(":")) return;
     const summary = summarizeEntity(id, A);
-    if (summary) {
-      seen.add(id);
-      out.push(summary);
-    }
-  }
-  // Also surface entities whose display name matches even if tokens split oddly
-  if (out.length === 0 && query.trim()) {
+    if (!summary) return;
+    seen.add(id);
+    out.push(summary);
+  };
+
+  for (const id of rows) consider(id);
+
+  // Entity-level match: all tokens appear across the entity attrs (not just one triple)
+  if (tokens.length > 0) {
     for (const id of A.rows()) {
-      if (!id.includes(":")) continue;
-      const s = summarizeEntity(id, A);
-      if (!s) continue;
-      const blob = `${s.title} ${s.subtitle ?? ""} ${s.id}`.toLowerCase();
-      if (blob.includes(query.trim().toLowerCase())) out.push(s);
+      if (seen.has(id) || !id.includes(":")) continue;
+      const attrs = A.entityAttrs(id);
+      if (!attrs.type && !id.includes(":")) continue;
+      const summary = summarizeEntity(id, A);
+      if (!summary) continue;
+      const blob = `${summary.title} ${summary.subtitle ?? ""} ${summary.id} ${Object.values(attrs).join(" ")}`.toLowerCase();
+      if (tokens.every((tok) => blob.includes(tok))) {
+        seen.add(id);
+        out.push(summary);
+      }
     }
   }
+
   return out;
 }
 
