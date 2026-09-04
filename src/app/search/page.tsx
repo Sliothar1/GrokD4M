@@ -12,7 +12,7 @@ export default async function SearchPage({
   searchParams: Promise<{ q?: string }>;
 }) {
   const { q = "" } = await searchParams;
-  const results = q.trim() ? searchEntities(q) : [];
+  const results = q.trim() ? await searchEntities(q) : [];
 
   return (
     <div className="space-y-8">

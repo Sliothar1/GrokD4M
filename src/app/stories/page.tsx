@@ -17,9 +17,9 @@ export default async function StoriesPage({
 }: {
   searchParams: Promise<{ link?: string; prompt?: string }>;
 }) {
-  const seeded = officialStories();
+  const seeded = await officialStories();
   const pending = readPendingStories();
-  const uploads = readArticleUploads().slice(0, 6);
+  const uploads = (await readArticleUploads()).slice(0, 6);
   const sp = await searchParams;
   const initialLink = typeof sp.link === "string" ? sp.link : "";
   const initialPrompt = typeof sp.prompt === "string" ? sp.prompt : "";

@@ -9,6 +9,7 @@ import {
 import seed from "../../data/seed.json";
 import {
   allDerivedUploadTriples,
+  invalidateBlobMetaCache,
   searchArticleUploads,
 } from "@/lib/articles";
 
@@ -58,12 +59,13 @@ let cached: AssocArray | null = null;
 
 export function invalidateAssocCache(): void {
   cached = null;
+  invalidateBlobMetaCache();
 }
 
-export function getAssoc(): AssocArray {
+export async function getAssoc(): Promise<AssocArray> {
   if (!cached) {
     const seedList = Array.isArray(seed) ? seed : [];
-    const derived = allDerivedUploadTriples();
+    const derived = await allDerivedUploadTriples();
     cached = loadAssocFromJson([...seedList, ...derived]);
   }
   return cached;
@@ -194,10 +196,7 @@ export function friendlyAttrLabel(key: string): string {
  * Resolve an entity ref like "club:portumna" or "team:galway" to a display name
  * via AssocArray name/title/year attrs. Falls back to a cleaned slug.
  */
-export function displayNameForRef(
-  ref: string,
-  A: AssocArray = getAssoc()
-): string {
+export function displayNameForRef(ref: string, A: AssocArray): string {
   if (!ref.includes(":")) return ref;
   const attrs = A.entityAttrs(ref);
   if (attrs.name) return String(attrs.name);
@@ -219,7 +218,7 @@ export function isEntityRef(val: unknown): val is `${string}:${string}` {
   );
 }
 
-export function summarizeEntity(id: string, A: AssocArray = getAssoc()): EntitySummary | null {
+export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null {
   const attrs = A.entityAttrs(id);
   if (Object.keys(attrs).length === 0) return null;
   const kind = entityKind(id, attrs);
@@ -273,15 +272,15 @@ export function summarizeEntity(id: string, A: AssocArray = getAssoc()): EntityS
   };
 }
 
-export function listEntitiesByType(typePrefix: string): EntitySummary[] {
-  const A = getAssoc();
+export async function listEntitiesByType(typePrefix: string): Promise<EntitySummary[]> {
+  const A = await getAssoc();
   return A.entitiesOfType(typePrefix)
     .map((id) => summarizeEntity(id, A))
     .filter((e): e is EntitySummary => e !== null);
 }
 
-export function searchEntities(query: string): EntitySummary[] {
-  const A = getAssoc();
+export async function searchEntities(query: string): Promise<EntitySummary[]> {
+  const A = await getAssoc();
   const normalized = query
     .trim()
     .toLowerCase()
@@ -322,7 +321,7 @@ export function searchEntities(query: string): EntitySummary[] {
     }
   }
 
-  for (const hit of searchArticleUploads(query)) {
+  for (const hit of await searchArticleUploads(query)) {
     if (!seen.has(hit.id)) {
       seen.add(hit.id);
       out.push(hit);
@@ -332,14 +331,14 @@ export function searchEntities(query: string): EntitySummary[] {
   return out;
 }
 
-export function getEntity(id: string): {
+export async function getEntity(id: string): Promise<{
   id: string;
   attrs: Record<string, TripleVal>;
   triples: Triple[];
   summary: EntitySummary;
   related: EntitySummary[];
-} | null {
-  const A = getAssoc();
+} | null> {
+  const A = await getAssoc();
   const attrs = A.entityAttrs(id);
   if (Object.keys(attrs).length === 0) return null;
   const summary = summarizeEntity(id, A);
@@ -397,12 +396,12 @@ export function appendPendingStory(
   return story;
 }
 
-export function officialStories(): EntitySummary[] {
+export async function officialStories(): Promise<EntitySummary[]> {
   return listEntitiesByType("story");
 }
 
-export function demoStats() {
-  const A = getAssoc();
+export async function demoStats() {
+  const A = await getAssoc();
   return {
     nnz: A.nnz(),
     rows: A.rows().length,

@@ -11,8 +11,9 @@ export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
 export async function GET() {
+  const articles = await readArticleUploads();
   return NextResponse.json({
-    articles: readArticleUploads().map(toPublicArticle),
+    articles: articles.map(toPublicArticle),
   });
 }
 
@@ -76,8 +77,19 @@ export async function POST(request: Request) {
       article: toPublicArticle(article),
     });
   } catch (err) {
-    const message =
+    let message =
       err instanceof Error ? err.message : "Could not save article upload.";
+    const lower = message.toLowerCase();
+    if (
+      lower.includes("erofs") ||
+      lower.includes("read-only file system") ||
+      (process.env.VERCEL &&
+        !process.env.BLOB_READ_WRITE_TOKEN &&
+        !process.env.BLOB_STORE_ID)
+    ) {
+      message =
+        "Uploads need Vercel Blob — connect Blob store to this project.";
+    }
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }

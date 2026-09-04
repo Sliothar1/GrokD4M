@@ -5,8 +5,8 @@ export const metadata: Metadata = {
   title: "About",
 };
 
-export default function AboutPage() {
-  const stats = demoStats();
+export default async function AboutPage() {
+  const stats = await demoStats();
 
   return (
     <div className="prose-like max-w-3xl space-y-6">

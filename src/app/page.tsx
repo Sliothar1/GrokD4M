@@ -3,11 +3,11 @@ import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
 import { demoStats, getEntity, listEntitiesByType } from "@/lib/data";
 
-export default function HomePage() {
-  const stats = demoStats();
-  const wins = listEntitiesByType("win");
-  const players = listEntitiesByType("player").slice(0, 4);
-  const fohenagh = getEntity("club:ahascragh-fohenagh");
+export default async function HomePage() {
+  const stats = await demoStats();
+  const wins = await listEntitiesByType("win");
+  const players = (await listEntitiesByType("player")).slice(0, 4);
+  const fohenagh = await getEntity("club:ahascragh-fohenagh");
 
   return (
     <div className="space-y-12">

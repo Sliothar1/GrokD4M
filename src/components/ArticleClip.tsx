@@ -5,7 +5,7 @@ import {
 } from "@/lib/articles";
 
 /** Newspaper / article snapshot on historic match pages. */
-export function ArticleClipSection({
+export async function ArticleClipSection({
   matchId,
   cuttingsJson,
 }: {
@@ -13,7 +13,7 @@ export function ArticleClipSection({
   /** Optional JSON string of {imageUrl, caption?, cite?}[] from match attrs */
   cuttingsJson?: string | null;
 }) {
-  const clips = getMatchArticleClips(matchId, cuttingsJson);
+  const clips = await getMatchArticleClips(matchId, cuttingsJson);
 
   return (
     <section className="space-y-3">

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getArticleUpload } from "@/lib/articles";
-import { displayNameForRef, isEntityRef } from "@/lib/data";
+import { articleMediaUrl, getArticleUpload } from "@/lib/articles";
+import { displayNameForRef, getAssoc, isEntityRef } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -12,7 +12,7 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const a = getArticleUpload(id);
+  const a = await getArticleUpload(id);
   return {
     title:
       a?.caption?.slice(0, 60) ||
@@ -27,16 +27,18 @@ export default async function ArticlePage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const a = getArticleUpload(id);
+  const a = await getArticleUpload(id);
   if (!a) notFound();
+  const A = await getAssoc();
 
   const title =
     a.caption ||
     a.fetchedTitle ||
     (a.kind === "url" ? "Linked article" : "Article cutting");
   const cite = a.citeChip || (a.year ? `${a.year} · Paper` : "Paper");
-  const isPdf = a.kind === "pdf" || a.path?.toLowerCase().endsWith(".pdf");
-  const showImage = a.path && !isPdf;
+  const media = articleMediaUrl(a);
+  const isPdf = a.kind === "pdf" || media?.toLowerCase().endsWith(".pdf");
+  const showImage = Boolean(media && !isPdf);
 
   return (
     <article className="space-y-6">
@@ -71,18 +73,18 @@ export default async function ArticlePage({
         <div className="overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white shadow-sm">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={a.path}
+            src={media}
             alt={title}
             className="mx-auto max-h-[70vh] w-full object-contain bg-galway-cream"
           />
         </div>
       )}
 
-      {isPdf && a.path && (
+      {isPdf && media && (
         <div className="rounded-2xl border-2 border-galway-maroon/15 bg-white p-5 shadow-sm">
           <p className="text-lg font-bold text-galway-maroon">PDF cutting</p>
           <a
-            href={a.path}
+            href={media}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 inline-block font-semibold text-galway-maroon underline"
@@ -129,7 +131,7 @@ export default async function ArticlePage({
               }
               className="rounded-full bg-galway-maroon/10 px-3 py-1 text-sm font-semibold text-galway-maroon"
             >
-              {isEntityRef(c) ? displayNameForRef(c) : c}
+              {isEntityRef(c) ? displayNameForRef(c, A) : c}
             </Link>
           ))}
           {a.tags.map((t) => (

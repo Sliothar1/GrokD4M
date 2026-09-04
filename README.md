@@ -59,6 +59,39 @@ A.search("2017");
 
 > Built HurlingWiki: Galway hurling facts as MIT D4M-style associative arrays (row/col/val). Galway first, Ireland next. https://d4m.mit.edu/
 
+
+
+## Cuttings uploads (Vercel Blob)
+
+On Vercel the filesystem is read-only (`/var/task`), so cuttings cannot be written under `public/uploads` or `data/`. Production uploads use **Vercel Blob**.
+
+### Garry setup (required for production uploads)
+
+1. Open the Vercel project **`hurlingwiki`**.
+2. Go to **Storage → Blob → Create** (choose **Public** access so cutting thumbnails can render on search/article pages).
+3. Connect the Blob store to this project (Production + Preview). Vercel sets `BLOB_READ_WRITE_TOKEN` (and may also set `BLOB_STORE_ID` / OIDC).
+4. Redeploy after connecting so the env vars are live.
+5. Confirm uploads on **Stories → Upload a cutting**.
+
+Without Blob connected, the API returns:  
+`Uploads need Vercel Blob — connect Blob store to this project.`
+
+### Local / dev
+
+Without `BLOB_READ_WRITE_TOKEN`, the app keeps writing to:
+
+- `public/uploads/articles/` (media)
+- `data/article-uploads.json` (metadata)
+- `data/private/article-text/` (OCR / PDF text)
+
+### Blob layout
+
+When Blob is configured, each cutting is stored as:
+
+- `cuttings/media/…` — public image/PDF (URL saved as `path` / `publicUrl` / `imageUrl`)
+- `cuttings/meta/{id}.json` — article metadata (listed via prefix `cuttings/meta/`)
+- Private OCR text stays in the metadata JSON when small (never written under `/var/task`)
+
 ## GitHub
 
 Local path is the source of truth for Phase 1. Later remote target: `github.com/Sliothar1/GrokD4M`. Initialise git here when ready, then add the remote and push — do not commit `node_modules/` or `.next/`.

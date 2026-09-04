@@ -3,10 +3,12 @@ import {
   mkdirSync,
   readFileSync,
   writeFileSync,
+  unlinkSync,
 } from "fs";
 import path from "path";
 import { execFile } from "child_process";
 import { promisify } from "util";
+import { list, put } from "@vercel/blob";
 import {
   loadAssocFromJson,
   type Triple,
@@ -29,8 +31,12 @@ export interface ArticleUpload {
   id: string;
   kind: ArticleKind;
   filename?: string;
-  /** Public asset path (image, PDF, or optional URL preview image) */
+  /** Public asset path or Blob URL (image, PDF, or optional URL preview image) */
   path?: string;
+  /** Blob CDN URL when stored on Vercel Blob (alias of path for media) */
+  publicUrl?: string;
+  /** Alias for public thumb / media URL (search + match clips) */
+  imageUrl?: string;
   /** Original source URL when kind=url */
   sourceUrl?: string;
   uploadedAt: string;
@@ -42,10 +48,17 @@ export interface ArticleUpload {
   excerpt?: string;
   /** Cite chip, e.g. "1960 · Paper" */
   citeChip?: string;
-  /** @deprecated kept for old rows; prefer privateTextPath */
+  /** @deprecated kept for old rows; prefer privateTextPath / privateText */
   ocrText?: string;
-  /** Absolute-relative path under data/private/article-text/ */
+  /** Absolute-relative path under data/private/article-text/ (local only) */
   privateTextPath?: string;
+  /**
+   * Private OCR / PDF text kept in Blob metadata JSON when small
+   * (stripped from public API responses).
+   */
+  privateText?: string;
+  /** Optional private Blob URL/pathname for larger OCR text */
+  privateTextUrl?: string;
   status: ArticleUploadStatus;
   derivedTriples?: Triple[];
   /** Page title fetched from URL when available */
@@ -61,6 +74,10 @@ const PRIVATE_TEXT_DIR = path.join(
   "article-text"
 );
 const PUBLIC_PREFIX = "/uploads/articles";
+const BLOB_META_PREFIX = "cuttings/meta/";
+const BLOB_MEDIA_PREFIX = "cuttings/media/";
+const BLOB_PRIVATE_PREFIX = "cuttings/private/";
+const PRIVATE_TEXT_INLINE_MAX = 180_000;
 
 const IMAGE_MIME: Record<string, string> = {
   "image/jpeg": ".jpg",
@@ -72,7 +89,30 @@ const IMAGE_MIME: Record<string, string> = {
 
 const PDF_MIME = "application/pdf";
 
+const MISSING_BLOB_MSG =
+  "Uploads need Vercel Blob — connect Blob store to this project.";
+
+/** True when Vercel Blob credentials are present (token and/or connected store). */
+export function isBlobStorageEnabled(): boolean {
+  return Boolean(
+    process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID
+  );
+}
+
+function assertWritableStorage(): void {
+  if (isBlobStorageEnabled()) return;
+  if (process.env.VERCEL) {
+    throw new Error(MISSING_BLOB_MSG);
+  }
+}
+
+/** Public media URL for cards / match clips / article page. */
+export function articleMediaUrl(a: ArticleUpload): string | undefined {
+  return a.publicUrl || a.imageUrl || a.path;
+}
+
 export function ensureUploadDir(): void {
+  if (isBlobStorageEnabled()) return;
   if (!existsSync(UPLOAD_DIR)) {
     mkdirSync(UPLOAD_DIR, { recursive: true });
   }
@@ -81,7 +121,7 @@ export function ensureUploadDir(): void {
   }
 }
 
-export function readArticleUploads(): ArticleUpload[] {
+function readArticleUploadsFromFs(): ArticleUpload[] {
   try {
     if (!existsSync(META_PATH)) return [];
     const raw = readFileSync(META_PATH, "utf8");
@@ -92,23 +132,156 @@ export function readArticleUploads(): ArticleUpload[] {
   }
 }
 
-function writeArticleUploads(list: ArticleUpload[]): void {
+function writeArticleUploadsToFs(list: ArticleUpload[]): void {
   writeFileSync(META_PATH, JSON.stringify(list, null, 2), "utf8");
 }
 
-export function getArticleUpload(id: string): ArticleUpload | null {
-  return readArticleUploads().find((a) => a.id === id) ?? null;
+let blobMetaCache: { at: number; list: ArticleUpload[] } | null = null;
+const BLOB_CACHE_MS = 8_000;
+
+export function invalidateBlobMetaCache(): void {
+  blobMetaCache = null;
+}
+
+async function listArticleUploadsFromBlob(): Promise<ArticleUpload[]> {
+  if (
+    blobMetaCache &&
+    Date.now() - blobMetaCache.at < BLOB_CACHE_MS
+  ) {
+    return blobMetaCache.list;
+  }
+
+  const articles: ArticleUpload[] = [];
+  let cursor: string | undefined;
+  do {
+    const page = await list({
+      prefix: BLOB_META_PREFIX,
+      cursor,
+      limit: 1000,
+    });
+    for (const blob of page.blobs) {
+      if (!blob.pathname.endsWith(".json")) continue;
+      try {
+        const res = await fetch(blob.url, {
+          signal: AbortSignal.timeout(12000),
+        });
+        if (!res.ok) continue;
+        const parsed = (await res.json()) as ArticleUpload;
+        if (parsed && typeof parsed.id === "string") {
+          articles.push(normalizeStoredArticle(parsed));
+        }
+      } catch {
+        /* skip bad meta blob */
+      }
+    }
+    cursor = page.hasMore ? page.cursor : undefined;
+  } while (cursor);
+
+  articles.sort((a, b) =>
+    String(b.uploadedAt).localeCompare(String(a.uploadedAt))
+  );
+  blobMetaCache = { at: Date.now(), list: articles };
+  return articles;
+}
+
+function normalizeStoredArticle(a: ArticleUpload): ArticleUpload {
+  const media = a.publicUrl || a.imageUrl || a.path;
+  if (media) {
+    a.path = a.path || media;
+    a.publicUrl = a.publicUrl || media;
+    if (a.kind !== "pdf" && !media.toLowerCase().endsWith(".pdf")) {
+      a.imageUrl = a.imageUrl || media;
+    }
+  }
+  a.tags = Array.isArray(a.tags) ? a.tags : [];
+  a.clubTags = Array.isArray(a.clubTags) ? a.clubTags : [];
+  return a;
+}
+
+async function putArticleMetaBlob(article: ArticleUpload): Promise<void> {
+  await put(
+    `${BLOB_META_PREFIX}${article.id}.json`,
+    JSON.stringify(article, null, 2),
+    {
+      access: "public",
+      contentType: "application/json",
+      allowOverwrite: true,
+      addRandomSuffix: false,
+    }
+  );
+  invalidateBlobMetaCache();
+}
+
+async function putPublicMediaBlob(
+  filename: string,
+  body: Buffer,
+  contentType: string
+): Promise<string> {
+  const result = await put(`${BLOB_MEDIA_PREFIX}${filename}`, body, {
+    access: "public",
+    contentType,
+    addRandomSuffix: false,
+    allowOverwrite: true,
+  });
+  return result.url;
+}
+
+/**
+ * Prefer embedding small OCR in metadata JSON (no /var/task write).
+ * Larger text goes to a separate public pathname under cuttings/private/
+ * (store is typically public so thumbs work; path is not linked on cards).
+ */
+async function storePrivateTextBlob(
+  id: string,
+  text: string
+): Promise<Pick<ArticleUpload, "privateText" | "privateTextUrl">> {
+  const cleaned = text.replace(/\r/g, "").trim();
+  if (!cleaned) return {};
+  if (cleaned.length <= PRIVATE_TEXT_INLINE_MAX) {
+    return { privateText: cleaned };
+  }
+  const result = await put(
+    `${BLOB_PRIVATE_PREFIX}${id}.txt`,
+    cleaned,
+    {
+      access: "public",
+      contentType: "text/plain; charset=utf-8",
+      addRandomSuffix: false,
+      allowOverwrite: true,
+    }
+  );
+  return { privateTextUrl: result.url };
+}
+
+export async function readArticleUploads(): Promise<ArticleUpload[]> {
+  if (isBlobStorageEnabled()) {
+    return listArticleUploadsFromBlob();
+  }
+  return readArticleUploadsFromFs();
+}
+
+export async function getArticleUpload(
+  id: string
+): Promise<ArticleUpload | null> {
+  const list = await readArticleUploads();
+  return list.find((a) => a.id === id) ?? null;
 }
 
 /** Public-safe view of an upload — strips private full text. */
 export function toPublicArticle(a: ArticleUpload): Omit<
   ArticleUpload,
-  "ocrText" | "privateTextPath"
+  "ocrText" | "privateTextPath" | "privateText" | "privateTextUrl"
 > & { hasPrivateText: boolean } {
-  const { ocrText: _o, privateTextPath: _p, ...rest } = a;
+  const {
+    ocrText: _o,
+    privateTextPath: _p,
+    privateText: _t,
+    privateTextUrl: _u,
+    ...rest
+  } = a;
   return {
     ...rest,
-    hasPrivateText: Boolean(_p || _o),
+    hasPrivateText: Boolean(_p || _o || _t || _u),
   };
 }
 
@@ -120,7 +293,7 @@ function slugify(s: string): string {
     .slice(0, 40);
 }
 
-function writePrivateText(id: string, text: string): string | undefined {
+function writePrivateTextLocal(id: string, text: string): string | undefined {
   const cleaned = text.replace(/\r/g, "").trim();
   if (!cleaned) return undefined;
   ensureUploadDir();
@@ -130,7 +303,18 @@ function writePrivateText(id: string, text: string): string | undefined {
 }
 
 /** Server-only: load private OCR / PDF text for search indexing. */
-export function readPrivateText(a: ArticleUpload): string {
+export async function readPrivateText(a: ArticleUpload): Promise<string> {
+  if (a.privateText?.trim()) return a.privateText.trim();
+  if (a.privateTextUrl) {
+    try {
+      const res = await fetch(a.privateTextUrl, {
+        signal: AbortSignal.timeout(12000),
+      });
+      if (res.ok) return (await res.text()).trim();
+    } catch {
+      /* ignore */
+    }
+  }
   if (a.privateTextPath) {
     try {
       const abs = path.join(PRIVATE_TEXT_DIR, a.privateTextPath);
@@ -171,6 +355,27 @@ export async function pdfToText(absPath: string): Promise<string> {
       .trim();
   } catch {
     return "";
+  }
+}
+
+/** OCR/PDF extract from buffer via /tmp (writable on Vercel); never /var/task. */
+async function extractTextFromBuffer(
+  buffer: Buffer,
+  filename: string,
+  isPdf: boolean
+): Promise<string> {
+  const tmp = path.join("/tmp", filename);
+  try {
+    writeFileSync(tmp, buffer);
+    return isPdf ? await pdfToText(tmp) : await ocrImage(tmp);
+  } catch {
+    return "";
+  } finally {
+    try {
+      if (existsSync(tmp)) unlinkSync(tmp);
+    } catch {
+      /* ignore */
+    }
   }
 }
 
@@ -344,10 +549,12 @@ export function decomposeConfidentFacts(
   return triples;
 }
 
-function finalizeUpload(
+async function finalizeUpload(
   draft: ArticleUpload,
   privateText: string
-): ArticleUpload {
+): Promise<ArticleUpload> {
+  assertWritableStorage();
+
   const year =
     draft.year ||
     inferYear(undefined, draft.caption ?? "", privateText);
@@ -361,10 +568,17 @@ function finalizeUpload(
     ]);
   }
 
-  const privatePath = writePrivateText(draft.id, privateText);
-  if (privatePath) draft.privateTextPath = privatePath;
-  // Never persist full OCR on the public metadata row
+  // Never persist full OCR on the public API surface
   delete draft.ocrText;
+
+  if (isBlobStorageEnabled()) {
+    const stored = await storePrivateTextBlob(draft.id, privateText);
+    if (stored.privateText) draft.privateText = stored.privateText;
+    if (stored.privateTextUrl) draft.privateTextUrl = stored.privateTextUrl;
+  } else {
+    const privatePath = writePrivateTextLocal(draft.id, privateText);
+    if (privatePath) draft.privateTextPath = privatePath;
+  }
 
   const derived = decomposeConfidentFacts({
     ...draft,
@@ -380,9 +594,15 @@ function finalizeUpload(
   draft.derivedTriples = derived;
   draft.status = hasFacts || privateText ? "decomposed" : "pending";
 
-  const list = readArticleUploads();
-  list.unshift(draft);
-  writeArticleUploads(list);
+  if (isBlobStorageEnabled()) {
+    // Persist meta without huge privateText duplication in list cache payload size checks —
+    // privateText stays on the meta blob for server search.
+    await putArticleMetaBlob(draft);
+  } else {
+    const list = readArticleUploadsFromFs();
+    list.unshift(draft);
+    writeArticleUploadsToFs(list);
+  }
   return draft;
 }
 
@@ -395,6 +615,8 @@ export async function saveArticleUpload(input: {
   tags?: string[];
   clubTags?: string[];
 }): Promise<ArticleUpload> {
+  assertWritableStorage();
+
   const mime = input.mimeType.toLowerCase();
   const isPdf =
     mime === PDF_MIME || input.originalName.toLowerCase().endsWith(".pdf");
@@ -407,13 +629,25 @@ export async function saveArticleUpload(input: {
     throw new Error("File must be under 12 MB.");
   }
 
-  ensureUploadDir();
   const id = `art-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
   const base = slugify(path.parse(input.originalName).name) || "article";
   const ext = isPdf ? ".pdf" : imageExt!;
   const filename = `${id}-${base}${ext}`;
-  const abs = path.join(UPLOAD_DIR, filename);
-  writeFileSync(abs, input.buffer);
+  const contentType = isPdf ? PDF_MIME : mime;
+
+  let mediaUrl: string;
+  let privateText = "";
+
+  if (isBlobStorageEnabled()) {
+    mediaUrl = await putPublicMediaBlob(filename, input.buffer, contentType);
+    privateText = await extractTextFromBuffer(input.buffer, filename, isPdf);
+  } else {
+    ensureUploadDir();
+    const abs = path.join(UPLOAD_DIR, filename);
+    writeFileSync(abs, input.buffer);
+    mediaUrl = `${PUBLIC_PREFIX}/${filename}`;
+    privateText = isPdf ? await pdfToText(abs) : await ocrImage(abs);
+  }
 
   const caption = (input.caption ?? "").trim().slice(0, 500) || undefined;
   const year = (input.year ?? "").trim().slice(0, 4) || undefined;
@@ -426,13 +660,13 @@ export async function saveArticleUpload(input: {
     .filter(Boolean)
     .slice(0, 8);
 
-  const privateText = isPdf ? await pdfToText(abs) : await ocrImage(abs);
-
   const draft: ArticleUpload = {
     id,
     kind: isPdf ? "pdf" : "image",
     filename,
-    path: `${PUBLIC_PREFIX}/${filename}`,
+    path: mediaUrl,
+    publicUrl: mediaUrl,
+    imageUrl: isPdf ? undefined : mediaUrl,
     uploadedAt: new Date().toISOString(),
     caption,
     year,
@@ -510,8 +744,11 @@ async function tryFetchPreviewImage(
     }
     const buf = Buffer.from(await res.arrayBuffer());
     if (buf.length < 100 || buf.length > 8 * 1024 * 1024) return undefined;
-    ensureUploadDir();
     const filename = `${id}-preview${ext}`;
+    if (isBlobStorageEnabled()) {
+      return putPublicMediaBlob(filename, buf, ctype.split(";")[0].trim());
+    }
+    ensureUploadDir();
     writeFileSync(path.join(UPLOAD_DIR, filename), buf);
     return `${PUBLIC_PREFIX}/${filename}`;
   } catch {
@@ -526,6 +763,8 @@ export async function saveUrlUpload(input: {
   tags?: string[];
   clubTags?: string[];
 }): Promise<ArticleUpload> {
+  assertWritableStorage();
+
   let raw = input.url.trim();
   if (!/^https?:\/\//i.test(raw)) raw = `https://${raw}`;
   let parsed: URL;
@@ -594,6 +833,8 @@ export async function saveUrlUpload(input: {
     kind: "url",
     sourceUrl: parsed.toString(),
     path: previewPath,
+    publicUrl: previewPath,
+    imageUrl: previewPath,
     uploadedAt: new Date().toISOString(),
     caption,
     year,
@@ -604,7 +845,10 @@ export async function saveUrlUpload(input: {
     status: "pending",
   };
 
-  return finalizeUpload(draft, privateBody || [fetchedTitle, fetchedDesc].filter(Boolean).join("\n"));
+  return finalizeUpload(
+    draft,
+    privateBody || [fetchedTitle, fetchedDesc].filter(Boolean).join("\n")
+  );
 }
 
 export function articleToSummary(a: ArticleUpload): EntitySummary {
@@ -622,6 +866,7 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
     makeExcerpt([a.caption, a.fetchedTitle]) ||
     "Newspaper / article cutting";
   const subtitle = [cite, a.clubTags[0]].filter(Boolean).join(" · ");
+  const media = articleMediaUrl(a);
   return {
     id: `article:${a.id}`,
     kind: "article_upload",
@@ -631,13 +876,16 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
     confidence: "unverified",
     trustLabel: "Needs check",
     badge: "From cutting",
-    imagePath: a.path && !a.path.toLowerCase().endsWith(".pdf") ? a.path : undefined,
+    imagePath:
+      media && !media.toLowerCase().endsWith(".pdf") ? media : undefined,
     citeChip: cite,
     excerpt,
   };
 }
 
-export function searchArticleUploads(query: string): EntitySummary[] {
+export async function searchArticleUploads(
+  query: string
+): Promise<EntitySummary[]> {
   const normalized = query
     .trim()
     .toLowerCase()
@@ -650,8 +898,8 @@ export function searchArticleUploads(query: string): EntitySummary[] {
   if (tokens.length === 0) return [];
 
   const out: EntitySummary[] = [];
-  for (const a of readArticleUploads()) {
-    const privateText = readPrivateText(a);
+  for (const a of await readArticleUploads()) {
+    const privateText = await readPrivateText(a);
     const blob = [
       a.caption,
       a.year,
@@ -677,9 +925,9 @@ export function searchArticleUploads(query: string): EntitySummary[] {
   return out;
 }
 
-export function allDerivedUploadTriples(): Triple[] {
+export async function allDerivedUploadTriples(): Promise<Triple[]> {
   const out: Triple[] = [];
-  for (const a of readArticleUploads()) {
+  for (const a of await readArticleUploads()) {
     if (a.derivedTriples?.length) out.push(...a.derivedTriples);
   }
   return out;
@@ -698,10 +946,10 @@ export interface MatchArticleClip {
  * 1) optional cuttings JSON on the match (`[{imageUrl, caption?, cite?}]`)
  * 2) article-uploads tagged with this match id, or club+year tags
  */
-export function getMatchArticleClips(
+export async function getMatchArticleClips(
   matchId: string,
   cuttingsJson?: string | null
-): MatchArticleClip[] {
+): Promise<MatchArticleClip[]> {
   const clips: MatchArticleClip[] = [];
   const seen = new Set<string>();
 
@@ -747,9 +995,10 @@ export function getMatchArticleClips(
       ? "club:ahascragh-historic"
       : "";
 
-  for (const a of readArticleUploads()) {
+  for (const a of await readArticleUploads()) {
     const tags = [...a.tags, ...a.clubTags].map((t) => t.toLowerCase());
-    const blob = `${a.caption ?? ""} ${a.excerpt ?? ""} ${a.tags.join(" ")} ${a.clubTags.join(" ")} ${readPrivateText(a)}`.toLowerCase();
+    const privateText = await readPrivateText(a);
+    const blob = `${a.caption ?? ""} ${a.excerpt ?? ""} ${a.tags.join(" ")} ${a.clubTags.join(" ")} ${privateText}`.toLowerCase();
     const matchHit =
       tags.includes(matchId.toLowerCase()) ||
       tags.includes(`match:${matchId}`.toLowerCase()) ||
@@ -765,10 +1014,11 @@ export function getMatchArticleClips(
     if (!matchHit && !yearClubHit) continue;
     // Image thumbnails only on match pages
     const kind = (a as { kind?: string }).kind;
-    if (!a.path || kind === "url" || kind === "pdf") continue;
+    const media = articleMediaUrl(a);
+    if (!media || kind === "url" || kind === "pdf") continue;
     push({
       key: a.id,
-      imageUrl: a.path,
+      imageUrl: media,
       caption: a.caption || a.excerpt,
       cite:
         a.citeChip ||

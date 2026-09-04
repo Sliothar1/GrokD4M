@@ -14,7 +14,7 @@ import {
   type getEntity,
 } from "@/lib/data";
 
-type EntityPayload = NonNullable<ReturnType<typeof getEntity>>;
+type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
 const HIDDEN_ATTRS = new Set([
   "type",
@@ -41,9 +41,9 @@ function isDisplayableVal(v: unknown): boolean {
   return true;
 }
 
-export function EntityView({ data }: { data: EntityPayload }) {
+export async function EntityView({ data }: { data: EntityPayload }) {
   const { attrs, summary, related, triples, id } = data;
-  const A = getAssoc();
+  const A = await getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
   const trust =
     summary.trustLabel ??

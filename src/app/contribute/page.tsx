@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 
 export const dynamic = "force-dynamic";
 
-export default function ContributePage() {
-  const uploads = readArticleUploads();
+export default async function ContributePage() {
+  const uploads = await readArticleUploads();
 
   return (
     <div className="space-y-10">
@@ -37,7 +37,7 @@ export default function ContributePage() {
         {uploads.length === 0 ? (
           <EmptyTeach
             title="No cuttings yet"
-            hint="Use Stories (or the form above). Images/PDFs land in public/uploads/articles/; private text in data/private/. Search cards show excerpt + YYYY · Paper + From cutting."
+            hint="Use Stories (or the form above). On Vercel, cuttings use Blob storage; locally they land under public/uploads/articles/. Search cards show excerpt + YYYY · Paper + From cutting."
           />
         ) : (
           <ul className="grid gap-3 sm:grid-cols-2">
