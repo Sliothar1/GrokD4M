@@ -36,8 +36,12 @@
       "season": 1981,
       "status": "winner",
       "score": null,
-      "score_note": "Galway GAA roll of honour lists the title and panel photo caption; final numerical score not printed on that page — not invented.",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "score_note": "Verified winner: Galway GAA roll of honour (Junior Champions 1981 panel) and Irish Examiner (Mac Donncha: Ahascragh beat Fohenagh for the 1981 junior title). Final numerical score not invented.",
+      "source_ids": [
+        "galwaygaa_roll_1980_1999",
+        "examiner_2016_macdonncha"
+      ],
+      "confidence": "verified"
     },
     {
       "title": "Galway Junior A Hurling Championship",
@@ -45,7 +49,11 @@
       "status": "winner",
       "score": null,
       "score_note": "Galway GAA roll of honour lists Ahascragh Junior A Hurling Champions 1989; final score not on that page — not invented.",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ],
+      "confidence": "verified",
+      "confidence_note": "Verified from Galway GAA roll of honour; final score not on that page — not invented."
     },
     {
       "title": "Galway Minor C Hurling Championship",
@@ -53,48 +61,69 @@
       "status": "winner",
       "score": null,
       "score_note": "Galway GAA roll of honour lists Ahascragh Minor C Hurling Champions 1989; final score not on that page — not invented.",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ],
+      "confidence": "verified",
+      "confidence_note": "Verified from Galway GAA roll of honour; final score not on that page — not invented."
     }
   ],
   "player_links": [
     {
       "name": "Billy Lyons",
       "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ]
     },
     {
       "name": "John Egan",
       "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ]
     },
     {
       "name": "Anto Smyth",
       "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ]
     },
     {
       "name": "Gerry Smyth",
       "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ]
     },
     {
       "name": "Johnny McDermott",
       "role_or_link": "Named on Galway GAA roll-of-honour panels for Ahascragh Junior 1981 and Junior A 1989",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ]
     },
     {
       "name": "Frank Nolan / Frankie Nolan",
       "role_or_link": "Named on 1981 Junior and 1989 Junior A panels",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ]
     },
     {
       "name": "Michael Healy",
       "role_or_link": "Named on 1981 Junior and 1989 Junior A panels",
-      "source_ids": ["galwaygaa_roll_1980_1999"]
+      "source_ids": [
+        "galwaygaa_roll_1980_1999"
+      ]
     }
   ],
   "amalgam_note": {
-    "partners": ["Ahascragh", "Fohenagh"],
+    "partners": [
+      "Ahascragh",
+      "Fohenagh"
+    ],
     "juvenile": 1999,
     "adult": 2002,
     "wikipedia_underage": 1998,
@@ -142,12 +171,42 @@
       "url": "https://www.afgaa.ie/",
       "type": "club site",
       "excerpt": "Juvenile club founded 1999; fully amalgamated 2002."
+    },
+    "examiner_2016_macdonncha": {
+      "title": "Savage loves his native shore, just ask MacDara",
+      "publisher": "Irish Examiner",
+      "url": "https://www.irishexaminer.com/sport/gaa/arid-20443152.html",
+      "type": "newspaper feature",
+      "excerpt": "Ahascragh won a junior title in 1981 when beating Foghenagh; Mac Donncha a sub on that '81 team."
     }
   },
   "research_notes": {
     "date": "2026-09-04",
     "method": "WebSearch/WebFetch of Galway GAA roll of honour, official club history, Wikipedia, Galway GAA club profile. No invented scores.",
     "colours": "Withheld — historic Ahascragh-only colours not confirmed in public sources reviewed.",
-    "scores": "Withheld for 1981/1989 titles — roll of honour confirms winners and panels, not final scorelines."
+    "scores": "Withheld for 1981/1989 titles — roll of honour confirms winners and panels, not final scorelines.",
+    "adjudication": {
+      "body": "HurlingWiki Driving Committee",
+      "date": "2026-09-04",
+      "decision": [
+        "Mark Junior 1981, Junior A 1989, Minor C 1989 confidence verified on club:ahascragh-historic only",
+        "Cite galwaygaa roll of honour; Examiner for 1981",
+        "Do not hang these titles on club:ahascragh-fohenagh amalgam main titles",
+        "Colours remain withheld"
+      ]
+    }
+  },
+  "confidence": {
+    "overall": "verified for the three historic Ahascragh titles (hang only on club:ahascragh-historic)",
+    "verified": [
+      "Junior Hurling Championship 1981 — Galway GAA roll of honour + Irish Examiner (vs Fohenagh)",
+      "Junior A Hurling Championship 1989 — Galway GAA roll of honour",
+      "Minor C Hurling Championship 1989 — Galway GAA roll of honour"
+    ],
+    "withheld": [
+      "Historic Ahascragh-only jersey colours (do not back-apply amalgam blue/white/red)",
+      "Final numerical scores for 1981 / 1989 titles (not printed on roll-of-honour page)"
+    ],
+    "not_amalgam_titles": true
   }
 }

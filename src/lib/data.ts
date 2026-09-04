@@ -118,7 +118,7 @@ export function entityHref(id: string, kind?: EntityKind): string {
 export function friendlyTrustLabel(confidence?: string | null): string | undefined {
   if (!confidence) return undefined;
   const c = confidence.toLowerCase();
-  if (c === "high") return "Verified";
+  if (c === "high" || c === "verified") return "Verified";
   if (c === "medium") return "Needs check";
   if (c === "low") return "Needs check";
   if (c === "community") return "Fan story";

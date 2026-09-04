@@ -1,0 +1,77 @@
+{
+  "club": {
+    "id": "club:portumna",
+    "canonical_name": "Portumna",
+    "aliases": ["Portumna GAA", "Port"],
+    "county": "Galway",
+    "province": "Connacht",
+    "sport": "Hurling",
+    "founded": 1888,
+    "grounds": ["Marian Park"],
+    "colours_note": "Standard club colours per Wikipedia kit template; not re-verified here beyond public club pages."
+  },
+  "titles": [
+    {
+      "title": "All-Ireland Senior Club Hurling Championship",
+      "seasons": [2006, 2008, 2009, 2014],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": ["wiki_portumna"]
+    },
+    {
+      "title": "Connacht Senior Club Hurling Championship",
+      "seasons": [2003, 2005, 2007],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": ["wiki_portumna", "club_honours"]
+    },
+    {
+      "title": "Galway Senior Hurling Championship",
+      "seasons": [2003, 2005, 2007, 2008, 2009, 2013],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": ["wiki_galway_shc", "wiki_portumna"]
+    },
+    {
+      "title": "Galway Intermediate Hurling Championship",
+      "seasons": [1992],
+      "status": "winner",
+      "confidence": "verified",
+      "source_ids": ["club_honours"]
+    }
+  ],
+  "player_links": [
+    {"name": "Joe Canning", "id": "player:joe-canning"},
+    {"name": "Damien Hayes", "id": "player:damien-hayes"},
+    {"name": "Andy Smith", "id": "player:andy-smith"}
+  ],
+  "related_matches": [
+    "match:2024-galway-shc-senior-b-final",
+    "match:galway-shc-2025-final"
+  ],
+  "sources": {
+    "wiki_portumna": {
+      "title": "Portumna GAA",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portumna_GAA",
+      "type": "secondary"
+    },
+    "wiki_galway_shc": {
+      "title": "Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
+      "type": "secondary"
+    },
+    "club_honours": {
+      "title": "Portumna GAA Club Honours",
+      "publisher": "Portumna GAA",
+      "url": "https://portumnagaa.clubifyapp.com/honours",
+      "type": "club roll of honour"
+    }
+  },
+  "research_notes": {
+    "date": "2026-09-04",
+    "method": "WebSearch of Wikipedia Portumna GAA / Galway SHC roll and club honours page.",
+    "note": "Pack for Driving Committee; All-Ireland / county years verified from public roll sources. Individual final scorelines not duplicated here except where already in seed."
+  }
+}

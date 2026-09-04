@@ -2,8 +2,11 @@ import Link from "next/link";
 import { EntityCard } from "@/components/EntityCard";
 import { ArticleClipSection } from "@/components/ArticleClip";
 import {
+  AhascraghStoryChips,
+  AhascraghTitleChips,
   HistoricClubPanel,
   HistoricPredecessorChip,
+  LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
 import {
   displayNameForRef,
@@ -105,29 +108,38 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       {isHistoricFohenagh && <HistoricClubPanel />}
 
       {isHistoricAhascragh && (
-        <section className="rounded-2xl border-2 border-galway-maroon/20 bg-galway-cream/40 p-5">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
-              Before Ahascragh-Fohenagh
-            </span>
-            <Link
-              href="/club/fohenagh-historic"
-              className="rounded-full border-2 border-galway-maroon/30 bg-white px-3 py-1 text-sm font-bold text-galway-maroon"
-            >
-              Fohenagh
-            </Link>
-            <Link
-              href="/club/ahascragh-fohenagh"
-              className="text-sm font-semibold text-galway-maroon underline"
-            >
-              See today&apos;s club
-            </Link>
+        <section className="space-y-4">
+          <div className="rounded-2xl border-2 border-galway-maroon/20 bg-galway-cream/40 p-5">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
+                Before Ahascragh-Fohenagh
+              </span>
+              <Link
+                href="/club/fohenagh-historic"
+                className="rounded-full border-2 border-galway-maroon/30 bg-white px-3 py-1 text-sm font-bold text-galway-maroon"
+              >
+                Fohenagh
+              </Link>
+              <Link
+                href="/club/ahascragh-fohenagh"
+                className="text-sm font-semibold text-galway-maroon underline"
+              >
+                See today&apos;s club
+              </Link>
+            </div>
+            <p className="mt-3 text-sm text-galway-ink/70">
+              Junior parish club that amalgamated with Fohenagh (juvenile 1999,
+              adult 2002). Titles below are historic Ahascragh wins — not amalgam
+              titles. Colours withheld.
+            </p>
+            <AhascraghTitleChips />
           </div>
-          <p className="mt-3 text-sm text-galway-ink/70">
-            Junior parish club that amalgamated with Fohenagh (juvenile 1999, adult 2002).
-            Titles below are historic Ahascragh wins — not amalgam titles.
-          </p>
+          <AhascraghStoryChips />
         </section>
+      )}
+
+      {(id === "match:galway-shc-2025-final" || id === "club:loughrea") && (
+        <LoughreaFinalStoryChips />
       )}
 
 
