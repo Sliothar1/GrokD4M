@@ -391,7 +391,7 @@ export function normalizeClubTags(tags: string[] | undefined): string[] {
   };
 
   for (const raw of tags ?? []) {
-    let t = raw.trim();
+    const t = raw.trim();
     if (!t) continue;
     const lower = t.toLowerCase().replace(/^#/, "");
     const bare = lower.replace(/^club:/, "");
