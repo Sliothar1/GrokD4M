@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hurlingwiki.local/schemas/ina-pending-triple.json",
+  "title": "INA pending Match/Club/Player triple",
+  "description": "One JSONL line in data/ina-queue/pending.jsonl. Cited facts only — never full article text. Scores require clear statement in the source excerpt; default verification_status is unverified until dual-source or Archivist approval.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "match_id",
+    "clubs",
+    "competition",
+    "season",
+    "paper",
+    "date",
+    "cite",
+    "verification_status",
+    "entity_kind"
+  ],
+  "properties": {
+    "entity_kind": {
+      "type": "string",
+      "enum": ["match", "club", "player"],
+      "description": "Primary entity this proposed triple describes."
+    },
+    "match_id": {
+      "type": "string",
+      "pattern": "^match:[a-z0-9][a-z0-9:-]*$",
+      "description": "Stable proposed match id, e.g. match:1959-galway-shc-final-fohenagh-castlegar"
+    },
+    "clubs": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^club:[a-z0-9][a-z0-9-]*$",
+            "description": "Seed club id when known; else provisional club:slug"
+          },
+          "name": { "type": "string", "minLength": 1 },
+          "role": {
+            "type": "string",
+            "enum": ["home", "away", "winner", "mentioned"],
+            "default": "mentioned"
+          }
+        }
+      }
+    },
+    "players": {
+      "type": "array",
+      "description": "Optional player mentions clearly named in the excerpt (no invented names).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^player:[a-z0-9][a-z0-9-]*$"
+          },
+          "name": { "type": "string", "minLength": 1 },
+          "club_id": { "type": "string", "pattern": "^club:[a-z0-9][a-z0-9-]*$" },
+          "note": { "type": "string", "maxLength": 240 }
+        }
+      }
+    },
+    "score": {
+      "description": "Only when clearly stated in the excerpt. Prefer goals-points strings like '2-8'. Omit or null if unclear.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["home", "away", "as_stated"],
+          "properties": {
+            "home": { "type": "string", "pattern": "^[0-9]+-[0-9]+$" },
+            "away": { "type": "string", "pattern": "^[0-9]+-[0-9]+$" },
+            "as_stated": {
+              "type": "string",
+              "maxLength": 120,
+              "description": "Short score line as printed, e.g. 'Fohenagh 2-8 Castlegar 1-11'"
+            },
+            "result": {
+              "type": "string",
+              "enum": ["home_win", "away_win", "draw", "unknown"]
+            }
+          }
+        }
+      ]
+    },
+    "competition": {
+      "type": "string",
+      "minLength": 1,
+      "description": "e.g. Galway Senior Hurling Championship"
+    },
+    "season": {
+      "oneOf": [
+        { "type": "integer", "minimum": 1880, "maximum": 2030 },
+        { "type": "string", "pattern": "^[0-9]{4}$" }
+      ]
+    },
+    "paper": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Newspaper title, e.g. Tuam Herald"
+    },
+    "date": {
+      "type": "string",
+      "description": "ISO date of the article when known (YYYY-MM-DD), else YYYY or YYYY-MM"
+    },
+    "cite": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "snippet_note"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "INA or other cite URL"
+        },
+        "snippet_note": {
+          "type": "string",
+          "maxLength": 280,
+          "description": "Short fair-use citation note / locator — NOT the full article body"
+        },
+        "ina_doc_id": {
+          "type": "string",
+          "description": "Optional INA document id fragment from the URL"
+        }
+      }
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["unverified", "single_source", "dual_source", "archivist_approved", "rejected"],
+      "default": "unverified",
+      "description": "Scores and winners stay unverified until dual-source or Archivist."
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Optional id from queries.json batches"
+    },
+    "extracted_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Operator notes; must not paste full copyrighted text"
+    }
+  }
+}
