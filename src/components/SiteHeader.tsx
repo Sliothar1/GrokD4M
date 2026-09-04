@@ -15,9 +15,6 @@ export function SiteHeader() {
           <span className="block text-2xl font-black tracking-tight sm:text-3xl">
             HurlingWiki
           </span>
-          <span className="text-sm text-galway-cream/90 group-hover:underline">
-            Galway first, Ireland next
-          </span>
         </Link>
         <nav aria-label="Main" className="flex flex-wrap gap-1">
           {links.map((l) => (

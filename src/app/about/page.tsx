@@ -12,9 +12,8 @@ export default async function AboutPage() {
     <div className="prose-like max-w-3xl space-y-6">
       <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">About HurlingWiki</h1>
       <p className="text-xl leading-relaxed text-galway-ink/85">
-        HurlingWiki is a kid-friendly knowledge site for <strong>Galway senior hurling</strong>.
-        Brand line: <em>Galway first, Ireland next</em>. Phase 1 shows how MIT&apos;s D4M
-        associative arrays can hold sports facts as sparse triples.
+        HurlingWiki is a Hurling Knowledge Site that shows how MIT&apos;s D4M associative
+        arrays can hold sports facts as sparse triples.
       </p>
 
       <section className="space-y-3 rounded-2xl border-2 border-galway-maroon/15 bg-white p-6">
@@ -24,7 +23,7 @@ export default async function AboutPage() {
           was developed at <strong>MIT Lincoln Laboratory</strong>, with foundational work by{" "}
           <strong>Jeremy Kepner</strong> and collaborators. Associative arrays let you store
           and query sparse multi-dimensional data using simple algebra-like operations —
-          perfect for linking players, clubs, matches, and sources without a heavy schema.
+          perfect for linking players, clubs, and matches without a heavy schema.
         </p>
         <p className="text-lg">
           Official site:{" "}
@@ -62,15 +61,6 @@ export default async function AboutPage() {
             never mix into official stats.
           </li>
         </ul>
-      </section>
-
-      <section className="space-y-3">
-        <h2 className="text-2xl font-bold text-galway-maroon">Sources</h2>
-        <p className="text-lg leading-relaxed">
-          Seed citations point at public Wikipedia and GAA-style pages. On the site we show
-          friendly trust labels (<em>Verified</em>, <em>Needs check</em>, <em>Fan story</em>)
-          instead of raw confidence jargon. No fake live APIs — what you see is the local seed.
-        </p>
       </section>
     </div>
   );

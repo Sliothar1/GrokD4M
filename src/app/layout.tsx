@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "HurlingWiki — Galway first, Ireland next",
+    default: "HurlingWiki",
     template: "%s · HurlingWiki",
   },
   description:
-    "Kid-friendly Galway senior hurling knowledge site showcasing MIT D4M associative arrays.",
+    "Hurling knowledge site showing how MIT's D4M associative arrays hold sports facts as sparse triples.",
 };
 
 export default function RootLayout({
