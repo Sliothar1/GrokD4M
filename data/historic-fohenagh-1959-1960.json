@@ -1,0 +1,146 @@
+{
+  "club": "Fohenagh",
+  "county": "Galway",
+  "tag": "historic Fohenagh predecessor",
+  "not": "Ahascragh-Fohenagh amalgam titles",
+  "research_date": "2026-09-04",
+  "titles": [
+    {
+      "year": 1959,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Castlegar",
+      "status": "winner",
+      "score": {
+        "verified": false,
+        "sources_differ": true,
+        "wikipedia": {
+          "drawn_final": "Fohenagh 2-08, Castlegar 1-11",
+          "replay": "Fohenagh 3-09, Castlegar 4-05"
+        },
+        "galwaygaa_ie": {
+          "final_as_listed": "Fohenagh 3-9, Castlegar 2-5",
+          "venue": "Kenny Park",
+          "note": "Official Galway GAA finals table lists a single scoreline and Kenny Park; does not note a replay."
+        },
+        "hoganstand": {
+          "note": "Lists '1959 Fohenagh after a replay' (winner only; no scores)."
+        }
+      },
+      "notes": "Winner status is well attested. Exact 1959 scoreline is uncertain because Wikipedia (draw + replay scores) and galwaygaa.ie (single 3-9 to 2-5) disagree; no invented reconciliation."
+    },
+    {
+      "year": 1960,
+      "competition": "Galway Senior Hurling Championship",
+      "opponent": "Castlegar",
+      "status": "winner",
+      "score": {
+        "verified": true,
+        "winner": "Fohenagh 4-09",
+        "runner_up": "Castlegar 2-07",
+        "venue": "Pearse Stadium",
+        "agreeing_sources": [
+          "galwaygaa.ie",
+          "Wikipedia Galway Senior Hurling Championship"
+        ]
+      },
+      "notes": "1960 final score and venue agree across Galway GAA official finals table and Wikipedia."
+    }
+  ],
+  "articles": [
+    {
+      "title": "Stats – Galway Senior Hurling Club Finals 1887-2021",
+      "publisher": "Galway GAA",
+      "date": null,
+      "url": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/",
+      "excerpt": "1959 | Fohenagh | 3-9 | Castlegar | 2-5 | Kenny Park. 1960 | Fohenagh | 4-9 | Castlegar | 2-7 | Pearse Stadium. (Also lists 1958 Castlegar 5-9 Fohenagh 2-4 Duggan Park; 1961 Turloughmore 3-6 Fohenagh 3-4 Pearse Stadium.)",
+      "relevance": "Official county board finals table; primary GAA source confirming Fohenagh as 1959 and 1960 SHC winners vs Castlegar."
+    },
+    {
+      "title": "Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "date": null,
+      "url": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
+      "excerpt": "Roll of honour: Fohenagh — 2 wins (1959, 1960); runners-up 1958, 1961, 1963. List of finals: 1959 Fohenagh 2-08, 3-09 (R) Castlegar 1-11, 4-05 (R); 1960 Fohenagh 4-09 Castlegar 2-07.",
+      "relevance": "Secondary compilation with detailed scorelines; agrees with Galway GAA on 1960; differs on 1959 (replay vs single listed score)."
+    },
+    {
+      "title": "Club Titles - Galway (Senior Hurling Championship)",
+      "publisher": "HoganStand",
+      "date": null,
+      "url": "https://www.hoganstand.com/Galway/ClubTitles",
+      "excerpt": "Senior Hurling Championship winners include: 1960 Fohenagh; 1959 Fohenagh after a replay; 1958 Castlegar.",
+      "relevance": "Independent GAA results listing confirming consecutive Fohenagh SHC titles and that 1959 was decided after a replay."
+    },
+    {
+      "title": "Galway hurling legend Tim Sweeney dies aged 88",
+      "publisher": "Galway Bay FM",
+      "date": "2018-01-02",
+      "url": "https://www.galwaybayfm.ie/sports/galway-hurling-legend-tim-sweeney-dies-aged-88-41054",
+      "excerpt": "One of the true legends of Galway hurling, Tim Sweeney of Fohenagh, has died aged 88. ... He won back to back county championships with Fohenagh in 1959 and 1960.",
+      "relevance": "Contemporary local sports obituary naming Fohenagh player and confirming back-to-back county championships 1959–1960."
+    },
+    {
+      "title": "Tim Sweeney (hurler)",
+      "publisher": "Wikipedia",
+      "date": null,
+      "url": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)",
+      "excerpt": "He played hurling with his local club Fohenagh and was a member of the Galway senior inter-county team between 1949 and 1963. Club: He won back-to-back county titles with Fohenagh in 1959 and 1960. He was on the Fohenagh team which lost the 1963 county final to Turloughmore.",
+      "relevance": "Player biography tying Fohenagh club to 1959 and 1960 county titles (historic predecessor club, not the later amalgam)."
+    },
+    {
+      "title": "History – Pádraig Pearses GAA",
+      "publisher": "Pádraig Pearses GAA (Ballymacward-Gurteen)",
+      "date": null,
+      "url": "http://www.padraigpearsesgalway.com/history/",
+      "excerpt": "One of the parish’s most famous sons, Fr Nicholas Murray was one player who transferred to play Senior hurling with neighbouring Fohenagh and he was a driving force in their County Senior winning campaigns in 1959 and 1960. ... In 1969 the club’s Senior hurlers defeated our neighbours and former Galway hurling kingpins, Fohenagh...",
+      "relevance": "Neighbouring club history identifying historic Fohenagh as 1959–1960 County Senior winners and later rival."
+    },
+    {
+      "title": "Fr. Nicholas Murray RIP",
+      "publisher": "Pádraig Pearses GAA",
+      "date": "2011-04-21",
+      "url": "http://www.padraigpearsesgalway.com/fr-nicholas-murray-rip/",
+      "excerpt": "He was granted special permission to play Senior hurling with Fohenagh (a neighbouring parish) winning Senior County medals at midfield in 1959 and 1960.",
+      "relevance": "Club obituary confirming Senior County medals with Fohenagh in 1959 and 1960."
+    },
+    {
+      "title": "Pearses mourn passing of a great Galway sportsman",
+      "publisher": "Galway Advertiser",
+      "date": null,
+      "url": "https://www.advertiser.ie/galway/article/39176/pearses-mourn-passing-of-a-great-galway-sportsman",
+      "excerpt": "Later in his career, he received special permission to play senior hurling with Fohenagh, an ajoining parish, winning senior county medals playing at midfield in 1959 and 1960.",
+      "relevance": "Local newspaper confirmation of Fr Nicholas Murray’s senior county medals with Fohenagh in 1959 and 1960."
+    },
+    {
+      "title": "Fohenagh 1959-1960 : The Match Reports From the County Championship Winning Sides of 1959 and 1960",
+      "publisher": "National Library of Ireland catalogue / Galway Heritage (Steve Dolan, 2022)",
+      "date": "2022",
+      "url": "http://catalogue.nli.ie/Record/vtls000912307",
+      "excerpt": "Bibliographic record: Fohenagh 1959-1960 : The Match Reports From the County Championship Winning Sides of 1959 and 1960 / Steve Dolan. Published [Ireland] : Galway Heritage, 2022. Series: 2022 Heritage Week Charity Publications ; [4]. Subject: Hurling — Galway (County) — History.",
+      "relevance": "NLI catalog confirms a dedicated 2022 compilation of match reports for Fohenagh’s 1959 and 1960 county championship winning sides (book not fully read; title/metadata only)."
+    }
+  ],
+  "confidence": {
+    "overall": "high for winners; medium for 1959 exact scoreline",
+    "verified": [
+      "Fohenagh won Galway Senior Hurling Championship in 1959 (historic predecessor club)",
+      "Fohenagh won Galway Senior Hurling Championship in 1960 (historic predecessor club)",
+      "Opponent both years: Castlegar",
+      "1960 score Fohenagh 4-09 Castlegar 2-07 (galwaygaa.ie + Wikipedia agree)",
+      "1960 venue Pearse Stadium (galwaygaa.ie)",
+      "1959 decided after a replay (HoganStand; Wikipedia)"
+    ],
+    "uncertain": [
+      "1959 exact scores: Wikipedia lists draw 2-08 to 1-11 and replay 3-09 to 4-05; galwaygaa.ie lists only Fohenagh 3-9 Castlegar 2-5 at Kenny Park without a replay note",
+      "Match dates for 1959/1960 finals not located in freely accessible contemporary newspaper text",
+      "Irish Newspaper Archives not searched internally (login wall; credentials not entered)"
+    ]
+  },
+  "notes": [
+    "These are historic Fohenagh predecessor titles, NOT Ahascragh-Fohenagh amalgam titles (adult amalgamation 2002 per club history).",
+    "Fohenagh also appear as SHC runners-up in 1958, 1961 and 1963 on Wikipedia/Galway GAA tables — context only, not claimed as wins.",
+    "INA (irishnewsarchive.com) presents Sign in / Subscribe; no password was entered. Public web sources used instead.",
+    "No browserUse MCP was available in this executor environment; research used WebSearch, WebFetch, and curl."
+  ],
+  "article_count": 9
+}

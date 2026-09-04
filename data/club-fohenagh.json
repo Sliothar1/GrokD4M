@@ -1,76 +1,840 @@
 {
   "club": {
     "canonical_name": "Ahascragh-Fohenagh GAA",
-    "aliases": ["Ahascragh/Fohenagh", "Ahascragh Fohenagh", "Fohenagh", "Ahascragh-Fohenagh"],
+    "aliases": [
+      "Ahascragh/Fohenagh",
+      "Ahascragh Fohenagh",
+      "Fohenagh",
+      "Ahascragh-Fohenagh"
+    ],
     "county": "Galway",
     "province": "Connacht",
     "sport": "Hurling",
-    "founded_or_amalgamated": {"juvenile": 1999, "adult": 2002},
-    "colours": ["blue", "white", "red"],
-    "grounds": ["Fohenagh Sportsfield", "Ahascragh GAA grounds"],
+    "founded_or_amalgamated": {
+      "juvenile": 1999,
+      "adult": 2002
+    },
+    "colours": [
+      "blue",
+      "white",
+      "red"
+    ],
+    "grounds": [
+      "Fohenagh Sportsfield",
+      "Ahascragh GAA grounds"
+    ],
     "history_notes": [
       "Formed by amalgamation of Ahascragh and Fohenagh; official club history says juvenile amalgamation in 1999 and full adult amalgamation in 2002.",
-      "The official history says the club won its first adult title since 1999 in the 2009-10 Galway Junior C championship."
+      "The official history says the club won its first adult title since 1999 in the 2009-10 Galway Junior C championship.",
+      "Historic predecessor club Fohenagh won Galway Senior Hurling Championship titles in 1959 and 1960 (vs Castlegar); these are not Ahascragh-Fohenagh amalgam titles. See historic_predecessor and data/historic-fohenagh-1959-1960.json."
     ]
   },
   "titles": [
-    {"title": "Galway Junior C Hurling Championship", "season": "2009-10", "status": "winner", "source_ids": ["club_history"]},
-    {"title": "Galway Under-21 C Hurling Championship", "season": 2011, "status": "winner", "source_ids": ["club_history"]},
-    {"title": "Galway Under-21 B Hurling Championship", "season": 2012, "status": "winner", "source_ids": ["club_history"]},
-    {"title": "St Judes All-Ireland Hurling Sevens", "season": 2013, "status": "winner", "source_ids": ["club_history"]},
-    {"title": "Galway Under-16 C Hurling Championship", "season": 2014, "status": "winner", "source_ids": ["club_history"]},
-    {"title": "Galway Intermediate Hurling Championship", "season": 2016, "status": "winner", "source_ids": ["connacht_tribune_2016_final", "advertiser_2016_connacht"]},
-    {"title": "Connacht Intermediate Club Hurling Championship", "season": 2016, "status": "winner", "source_ids": ["the42_2016_replay", "advertiser_2016_connacht"]},
-    {"title": "All-Ireland Intermediate Club Hurling Championship", "season": "2016-17", "status": "runner-up", "source_ids": ["the42_2017_final", "connacht_tribune_2017_preview"]}
+    {
+      "title": "Galway Junior C Hurling Championship",
+      "season": "2009-10",
+      "status": "winner",
+      "source_ids": [
+        "club_history"
+      ]
+    },
+    {
+      "title": "Galway Under-21 C Hurling Championship",
+      "season": 2011,
+      "status": "winner",
+      "source_ids": [
+        "club_history"
+      ]
+    },
+    {
+      "title": "Galway Under-21 B Hurling Championship",
+      "season": 2012,
+      "status": "winner",
+      "source_ids": [
+        "club_history"
+      ]
+    },
+    {
+      "title": "St Judes All-Ireland Hurling Sevens",
+      "season": 2013,
+      "status": "winner",
+      "source_ids": [
+        "club_history"
+      ]
+    },
+    {
+      "title": "Galway Under-16 C Hurling Championship",
+      "season": 2014,
+      "status": "winner",
+      "source_ids": [
+        "club_history"
+      ]
+    },
+    {
+      "title": "Galway Intermediate Hurling Championship",
+      "season": 2016,
+      "status": "winner",
+      "source_ids": [
+        "connacht_tribune_2016_final",
+        "advertiser_2016_connacht"
+      ]
+    },
+    {
+      "title": "Connacht Intermediate Club Hurling Championship",
+      "season": 2016,
+      "status": "winner",
+      "source_ids": [
+        "the42_2016_replay",
+        "advertiser_2016_connacht"
+      ]
+    },
+    {
+      "title": "All-Ireland Intermediate Club Hurling Championship",
+      "season": "2016-17",
+      "status": "runner-up",
+      "source_ids": [
+        "the42_2017_final",
+        "connacht_tribune_2017_preview"
+      ]
+    }
   ],
   "player_links": [
-    {"name": "Cathal Mannion", "role_or_link": "Galway senior hurler; Ahascragh-Fohenagh captain and key scorer; man of the match in 2016 Connacht final replay", "source_ids": ["the42_2016_replay", "irish_times_2017_semi", "advertiser_2016_connacht", "tuam_2026_opener"]},
-    {"name": "Pádraig Mannion", "role_or_link": "Ahascragh-Fohenagh player; listed alongside Cathal in 2017 semi-final report and described as brother in 2016 Connacht report", "source_ids": ["irish_times_2017_semi", "advertiser_2016_connacht"]},
-    {"name": "Eoghain Delaney", "role_or_link": "Ahascragh-Fohenagh player; scored in 2016 Galway Intermediate final and listed in 2017 semi-final team", "source_ids": ["connacht_tribune_2016_final", "irish_times_2017_semi"]},
-    {"name": "Luke Kennedy", "role_or_link": "Galway U-20 forward; scored opening goal for Ahascragh-Fohenagh in 2026 Premier Intermediate opener", "source_ids": ["tuam_2026_opener"]},
-    {"name": "Darragh Gavin", "role_or_link": "Ahascragh-Fohenagh man of the match in 2026 Premier Intermediate opener", "source_ids": ["tuam_2026_opener"]}
+    {
+      "name": "Cathal Mannion",
+      "role_or_link": "Galway senior hurler; Ahascragh-Fohenagh captain and key scorer; man of the match in 2016 Connacht final replay",
+      "source_ids": [
+        "the42_2016_replay",
+        "irish_times_2017_semi",
+        "advertiser_2016_connacht",
+        "tuam_2026_opener"
+      ]
+    },
+    {
+      "name": "Pádraig Mannion",
+      "role_or_link": "Ahascragh-Fohenagh player; listed alongside Cathal in 2017 semi-final report and described as brother in 2016 Connacht report",
+      "source_ids": [
+        "irish_times_2017_semi",
+        "advertiser_2016_connacht"
+      ]
+    },
+    {
+      "name": "Eoghain Delaney",
+      "role_or_link": "Ahascragh-Fohenagh player; scored in 2016 Galway Intermediate final and listed in 2017 semi-final team",
+      "source_ids": [
+        "connacht_tribune_2016_final",
+        "irish_times_2017_semi"
+      ]
+    },
+    {
+      "name": "Luke Kennedy",
+      "role_or_link": "Galway U-20 forward; scored opening goal for Ahascragh-Fohenagh in 2026 Premier Intermediate opener",
+      "source_ids": [
+        "tuam_2026_opener"
+      ]
+    },
+    {
+      "name": "Darragh Gavin",
+      "role_or_link": "Ahascragh-Fohenagh man of the match in 2026 Premier Intermediate opener",
+      "source_ids": [
+        "tuam_2026_opener"
+      ]
+    },
+    {
+      "name": "Mark Kelly",
+      "role_or_link": "Key scorer/defender; nine points in the 2023 Senior B quarter-final report and 0-6 in the 2023 final report.",
+      "source_ids": [
+        "ina_ctt_2023_qf",
+        "ina_ctt_2023_final",
+        "ina_tth_2025_final"
+      ]
+    },
+    {
+      "name": "Luke Murray",
+      "role_or_link": "Forward; scored the decisive goal in the 2023 Senior B quarter-final and appeared in the 2023 final.",
+      "source_ids": [
+        "ina_ctt_2023_qf",
+        "ina_ctt_2023_final"
+      ]
+    },
+    {
+      "name": "Robert Greene",
+      "role_or_link": "Forward/scorer in the 2023 Senior B campaign.",
+      "source_ids": [
+        "ina_ctt_2023_qf",
+        "ina_ctt_2023_sf",
+        "ina_ctt_2023_final"
+      ]
+    },
+    {
+      "name": "Eoghan Delaney",
+      "role_or_link": "Midfielder/defender listed in 2023 Senior B match teams.",
+      "source_ids": [
+        "ina_ctt_2023_qf",
+        "ina_ctt_2023_sf",
+        "ina_ctt_2023_final"
+      ]
+    },
+    {
+      "name": "Luke Cosgrove",
+      "role_or_link": "Defender; praised in 2023 Senior B coverage.",
+      "source_ids": [
+        "ina_ctt_2023_qf",
+        "ina_ctt_2023_sf",
+        "ina_ctt_2023_final"
+      ]
+    },
+    {
+      "name": "Seán Bleahene",
+      "role_or_link": "Midfielder/forward; scored the opening goal in the 2023 Senior B semi-final report.",
+      "source_ids": [
+        "ina_ctt_2023_sf",
+        "ina_ctt_2023_final"
+      ]
+    },
+    {
+      "name": "Colm Freyne",
+      "role_or_link": "Goalkeeper listed in 2023 and 2025 Senior B teams.",
+      "source_ids": [
+        "ina_ctt_2023_qf",
+        "ina_ctt_2023_sf",
+        "ina_ctt_2023_final",
+        "ina_tth_2025_final"
+      ]
+    },
+    {
+      "name": "Darragh Gavin",
+      "role_or_link": "Late-free scorer who rescued the 2025 Galway Minor B1 final draw.",
+      "source_ids": [
+        "ina_tth_2025_minor_b1"
+      ]
+    },
+    {
+      "name": "Laurence Tully",
+      "role_or_link": "Named on the 2015 Galway Club Intermediate Hurling All-Stars team.",
+      "source_ids": [
+        "ina_ctt_2015_allstars"
+      ]
+    },
+    {
+      "name": "Paul Gavin",
+      "role_or_link": "Named on the 2015 Galway Club Intermediate Hurling All-Stars team.",
+      "source_ids": [
+        "ina_ctt_2015_allstars"
+      ]
+    },
+    {
+      "name": "John Kelly",
+      "role_or_link": "Named on the 2015 Galway Club Intermediate Hurling All-Stars team.",
+      "source_ids": [
+        "ina_ctt_2015_allstars"
+      ]
+    }
   ],
   "matches": [
-    {"date": null, "competition": "Galway Intermediate Hurling Championship 2015", "round": "Round 1", "opponent": "Killimor", "score": "Ahascragh Fohenagh 2-14, Killimor 2-16", "result": "loss", "source_ids": ["club_intermediate_results"], "notes": "Official club results page gives round and score but no date."},
-    {"date": null, "competition": "Galway Intermediate Hurling Championship 2015", "round": "Round 2", "opponent": "Clarinbridge", "score": "Ahascragh Fohenagh 0-18, Clarinbridge 2-10", "result": "win", "source_ids": ["club_intermediate_results"], "notes": "Official club results page gives round and score but no date."},
-    {"date": null, "competition": "Junior Championship", "round": "Round 1", "opponent": "Ballinderreen", "score": "Ahascragh Fohenagh 6-25, Ballinderreen 0-6", "result": "win", "source_ids": ["club_junior_c_results"], "notes": "Official club page does not state the season or date."},
-    {"date": null, "competition": "Junior Championship", "round": "Round 2", "opponent": "Kinvara", "score": "Ahascragh Fohenagh 3-10, Kinvara 0-6", "result": "win", "source_ids": ["club_junior_c_results"], "notes": "Official club page does not state the season or date."},
-    {"date": "2016-10-23", "competition": "Galway Intermediate Hurling Championship", "round": "County final", "opponent": "Ballinderreen", "score": "Ahascragh/Fohenagh 2-15, Ballinderreen 0-8", "result": "win", "source_ids": ["connacht_tribune_2016_final"], "notes": "Report published 27 Oct says the final was on Sunday; match date is 23 Oct 2016."},
-    {"date": "2016-11-06", "competition": "Connacht Intermediate Club Hurling Championship", "round": "Final", "opponent": "Ballyhaunis", "score": "Ballyhaunis 2-13, Ahascragh/Fohenagh 0-19", "result": "draw_after_extra_time", "source_ids": ["the42_2016_draw"], "notes": "The 42 says extra time was played and the sides remained level."},
-    {"date": "2016-11-13", "competition": "Connacht Intermediate Club Hurling Championship", "round": "Final replay", "opponent": "Ballyhaunis", "score": "Ahascragh-Fohenagh 2-20, Ballyhaunis 0-13", "result": "win", "source_ids": ["the42_2016_replay", "advertiser_2016_connacht"], "notes": "Replay at Athleague; Cathal Mannion scored 2-11 according to Galway Advertiser."},
-    {"date": "2017-01-29", "competition": "All-Ireland Intermediate Club Hurling Championship", "round": "Semi-final", "opponent": "Lismore", "score": "Ahascragh-Fohenagh 1-17, Lismore 0-13", "result": "win", "source_ids": ["irish_times_2017_semi", "munster_gaa_2017_semi"], "notes": "Played at O'Connor Park, Tullamore."},
-    {"date": "2017-02-18", "competition": "All-Ireland Intermediate Club Hurling Championship", "round": "Final", "opponent": "Carrickshock", "score": "Carrickshock 2-15, Ahascragh-Fohenagh 0-6", "result": "loss", "source_ids": ["the42_2017_final", "gaa_2017_final"], "notes": "Played at Croke Park."},
-    {"date": "2022-07-30", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 1", "opponent": "Portumna", "score": "Portumna 0-23, Ahascragh-Fohenagh 0-13", "result": "loss", "source_ids": ["wiki_2022_galway"]},
-    {"date": "2022-08-20", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 2", "opponent": "Pádraig Pearse's", "score": "Pádraig Pearse's 0-18, Ahascragh-Fohenagh 0-13", "result": "loss", "source_ids": ["wiki_2022_galway"]},
-    {"date": "2022-09-04", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 3", "opponent": "Liam Mellows", "score": "Liam Mellows 1-24, Ahascragh-Fohenagh 2-9", "result": "loss", "source_ids": ["wiki_2022_galway"]},
-    {"date": "2022-09-17", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 4", "opponent": "Ardrahan", "score": "Ardrahan 2-19, Ahascragh-Fohenagh 1-18", "result": "loss", "source_ids": ["wiki_2022_galway"]},
-    {"date": "2022-10-01", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 5", "opponent": "Mullagh", "score": "Ahascragh-Fohenagh 0-25, Mullagh 2-15", "result": "win", "source_ids": ["wiki_2022_galway"]},
-    {"date": "2022-10-15", "competition": "Galway Senior Hurling Championship", "round": "Senior relegation playoff", "opponent": "Tynagh-Abbey/Duniry", "score": "Ahascragh-Fohenagh 1-13, Tynagh-Abbey/Duniry 1-12", "result": "win", "source_ids": ["wiki_2022_galway"]},
-    {"date": "2025-10-19", "competition": "Galway Senior B Hurling Championship", "round": "Final", "opponent": "Liam Mellows", "score": "Liam Mellows 2-16, Ahascragh-Fohenagh 0-19", "result": "loss", "source_ids": ["galway_bayfm_2025_final", "advertiser_2025_final"], "notes": "Kenny Park, Athenry; half-time score was 0-9 each."},
-    {"date": null, "competition": "Galway Premier Intermediate Hurling Championship", "round": "Round 1", "opponent": "Kinvara", "score": null, "result": "win", "source_ids": ["tuam_2026_opener"], "notes": "Tuam Herald report published 13 Aug 2026 says the match was Friday evening and confirms a win, goals by Luke Kennedy and Andrew Fitzgerald, but does not print the final score in the accessible text."}
+    {
+      "date": null,
+      "competition": "Galway Intermediate Hurling Championship 2015",
+      "round": "Round 1",
+      "opponent": "Killimor",
+      "score": "Ahascragh Fohenagh 2-14, Killimor 2-16",
+      "result": "loss",
+      "source_ids": [
+        "club_intermediate_results"
+      ],
+      "notes": "Official club results page gives round and score but no date."
+    },
+    {
+      "date": null,
+      "competition": "Galway Intermediate Hurling Championship 2015",
+      "round": "Round 2",
+      "opponent": "Clarinbridge",
+      "score": "Ahascragh Fohenagh 0-18, Clarinbridge 2-10",
+      "result": "win",
+      "source_ids": [
+        "club_intermediate_results"
+      ],
+      "notes": "Official club results page gives round and score but no date."
+    },
+    {
+      "date": null,
+      "competition": "Junior Championship",
+      "round": "Round 1",
+      "opponent": "Ballinderreen",
+      "score": "Ahascragh Fohenagh 6-25, Ballinderreen 0-6",
+      "result": "win",
+      "source_ids": [
+        "club_junior_c_results"
+      ],
+      "notes": "Official club page does not state the season or date."
+    },
+    {
+      "date": null,
+      "competition": "Junior Championship",
+      "round": "Round 2",
+      "opponent": "Kinvara",
+      "score": "Ahascragh Fohenagh 3-10, Kinvara 0-6",
+      "result": "win",
+      "source_ids": [
+        "club_junior_c_results"
+      ],
+      "notes": "Official club page does not state the season or date."
+    },
+    {
+      "date": "2016-10-23",
+      "competition": "Galway Intermediate Hurling Championship",
+      "round": "County final",
+      "opponent": "Ballinderreen",
+      "score": "Ahascragh/Fohenagh 2-15, Ballinderreen 0-8",
+      "result": "win",
+      "source_ids": [
+        "connacht_tribune_2016_final"
+      ],
+      "notes": "Report published 27 Oct says the final was on Sunday; match date is 23 Oct 2016."
+    },
+    {
+      "date": "2016-11-06",
+      "competition": "Connacht Intermediate Club Hurling Championship",
+      "round": "Final",
+      "opponent": "Ballyhaunis",
+      "score": "Ballyhaunis 2-13, Ahascragh/Fohenagh 0-19",
+      "result": "draw_after_extra_time",
+      "source_ids": [
+        "the42_2016_draw"
+      ],
+      "notes": "The 42 says extra time was played and the sides remained level."
+    },
+    {
+      "date": "2016-11-13",
+      "competition": "Connacht Intermediate Club Hurling Championship",
+      "round": "Final replay",
+      "opponent": "Ballyhaunis",
+      "score": "Ahascragh-Fohenagh 2-20, Ballyhaunis 0-13",
+      "result": "win",
+      "source_ids": [
+        "the42_2016_replay",
+        "advertiser_2016_connacht"
+      ],
+      "notes": "Replay at Athleague; Cathal Mannion scored 2-11 according to Galway Advertiser."
+    },
+    {
+      "date": "2017-01-29",
+      "competition": "All-Ireland Intermediate Club Hurling Championship",
+      "round": "Semi-final",
+      "opponent": "Lismore",
+      "score": "Ahascragh-Fohenagh 1-17, Lismore 0-13",
+      "result": "win",
+      "source_ids": [
+        "irish_times_2017_semi",
+        "munster_gaa_2017_semi"
+      ],
+      "notes": "Played at O'Connor Park, Tullamore."
+    },
+    {
+      "date": "2017-02-18",
+      "competition": "All-Ireland Intermediate Club Hurling Championship",
+      "round": "Final",
+      "opponent": "Carrickshock",
+      "score": "Carrickshock 2-15, Ahascragh-Fohenagh 0-6",
+      "result": "loss",
+      "source_ids": [
+        "the42_2017_final",
+        "gaa_2017_final"
+      ],
+      "notes": "Played at Croke Park."
+    },
+    {
+      "date": "2022-07-30",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 1",
+      "opponent": "Portumna",
+      "score": "Portumna 0-23, Ahascragh-Fohenagh 0-13",
+      "result": "loss",
+      "source_ids": [
+        "wiki_2022_galway"
+      ]
+    },
+    {
+      "date": "2022-08-20",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 2",
+      "opponent": "Pádraig Pearse's",
+      "score": "Pádraig Pearse's 0-18, Ahascragh-Fohenagh 0-13",
+      "result": "loss",
+      "source_ids": [
+        "wiki_2022_galway"
+      ]
+    },
+    {
+      "date": "2022-09-04",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 3",
+      "opponent": "Liam Mellows",
+      "score": "Liam Mellows 1-24, Ahascragh-Fohenagh 2-9",
+      "result": "loss",
+      "source_ids": [
+        "wiki_2022_galway"
+      ]
+    },
+    {
+      "date": "2022-09-17",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 4",
+      "opponent": "Ardrahan",
+      "score": "Ardrahan 2-19, Ahascragh-Fohenagh 1-18",
+      "result": "loss",
+      "source_ids": [
+        "wiki_2022_galway"
+      ]
+    },
+    {
+      "date": "2022-10-01",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 5",
+      "opponent": "Mullagh",
+      "score": "Ahascragh-Fohenagh 0-25, Mullagh 2-15",
+      "result": "win",
+      "source_ids": [
+        "wiki_2022_galway"
+      ]
+    },
+    {
+      "date": "2022-10-15",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior relegation playoff",
+      "opponent": "Tynagh-Abbey/Duniry",
+      "score": "Ahascragh-Fohenagh 1-13, Tynagh-Abbey/Duniry 1-12",
+      "result": "win",
+      "source_ids": [
+        "wiki_2022_galway"
+      ]
+    },
+    {
+      "date": "2025-10-19",
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Final",
+      "opponent": "Liam Mellows",
+      "score": "Liam Mellows 2-16, Ahascragh-Fohenagh 0-19",
+      "result": "loss",
+      "source_ids": [
+        "advertiser_2025_final",
+        "galway_bayfm_2025_final",
+        "ina_tth_2025_final"
+      ],
+      "notes": "Kenny Park, Athenry; half-time score was 0-9 each."
+    },
+    {
+      "date": null,
+      "competition": "Galway Premier Intermediate Hurling Championship",
+      "round": "Round 1",
+      "opponent": "Kinvara",
+      "score": null,
+      "result": "win",
+      "source_ids": [
+        "tuam_2026_opener"
+      ],
+      "notes": "Tuam Herald report published 13 Aug 2026 says the match was Friday evening and confirms a win, goals by Luke Kennedy and Andrew Fitzgerald, but does not print the final score in the accessible text."
+    },
+    {
+      "date": "2019-10-19",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Relegation final",
+      "opponent": "Abbeyknockmoy",
+      "score": "Ahascragh-Fohenagh 1-17, Abbeyknockmoy 1-12",
+      "result": "win",
+      "source_ids": [
+        "ina_tth_2019_relegation"
+      ],
+      "notes": "INA report says match was at Duggan Park; Cathal Mannion scored 1-13."
+    },
+    {
+      "date": "2020-08-08",
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Group 3",
+      "opponent": "Kilnadeema-Leitrim",
+      "score": "Ahascragh-Fohenagh 2-20, Kilnadeema-Leitrim 1-19",
+      "result": "win",
+      "source_ids": [
+        "ina_tth_2020_group3"
+      ],
+      "notes": "Match date is described as Saturday in the Aug 12 report."
+    },
+    {
+      "date": null,
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Quarter-final",
+      "opponent": "Beagh",
+      "score": null,
+      "result": "win",
+      "source_ids": [
+        "ina_ctt_2023_qf"
+      ],
+      "notes": "Report confirms a four-point win in Loughrea; final numerical score was not clear in OCR."
+    },
+    {
+      "date": null,
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Semi-final",
+      "opponent": "Kilnadeema-Leitrim",
+      "score": null,
+      "result": "win",
+      "source_ids": [
+        "ina_ctt_2023_sf"
+      ],
+      "notes": "Report confirms the comeback and qualification; final numerical score was not treated as clear from OCR."
+    },
+    {
+      "date": null,
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Final",
+      "opponent": "Mullagh",
+      "score": null,
+      "result": "draw",
+      "source_ids": [
+        "ina_ctt_2023_final"
+      ],
+      "notes": "Report explicitly says the final was a stalemate and would be replayed; it gives 1-15 to 0-17 at one minute of injury time, not a final score."
+    },
+    {
+      "date": "2025-10-12",
+      "competition": "Galway Minor U-17 B1 Hurling Championship",
+      "round": "Final",
+      "opponent": "Micheál Breathnach",
+      "score": "Ahascragh-Fohenagh 0-14, Micheál Breathnach 1-11",
+      "result": "draw",
+      "source_ids": [
+        "ina_tth_2025_minor_b1"
+      ],
+      "notes": "Report says Darragh Gavin’s last-minute free rescued the draw; match was Saturday before Oct 15 publication."
+    }
   ],
   "sources": {
-    "club_history": {"title": "Club History", "publisher": "Ahascragh Fohenagh GAA Club", "date": null, "url": "https://ahascraghfohenaghhc.wordpress.com/about/", "type": "official club history"},
-    "club_intermediate_results": {"title": "Intermediate Results", "publisher": "Ahascragh Fohenagh GAA Club", "date": null, "url": "https://ahascraghfohenaghhc.wordpress.com/match-reports/intermediate-results/", "type": "official club results"},
-    "club_junior_c_results": {"title": "Junior C Results", "publisher": "Ahascragh Fohenagh GAA Club", "date": null, "url": "https://ahascraghfohenaghhc.wordpress.com/match-reports/junior-c-results/", "type": "official club results"},
-    "connacht_tribune_2016_final": {"title": "Ahascragh/Fohenagh finally make the breakthrough", "publisher": "Connacht Tribune", "date": "2016-10-27", "url": "https://www.connachttribune.ie/sport/ahascraghfohenagh-finally-make-the-breakthrough-5564462", "type": "newspaper report"},
-    "the42_2016_draw": {"title": "Keith Higgins' Ballyhaunis side and Ahascragh Fohenagh finish all square", "publisher": "The 42", "date": "2016-11-06", "url": "https://www.the42.ie/ballyhaunis-ahascraghfohenagh-munster-final-3066968-Nov2016/", "type": "newspaper report"},
-    "the42_2016_replay": {"title": "Galway's Mannion delivers man-of-the-match display in Connacht club final win", "publisher": "The 42", "date": "2016-11-13", "url": "https://www.the42.ie/cathal-mannion-galway-3080267-Nov2016/", "type": "newspaper report"},
-    "advertiser_2016_connacht": {"title": "Title for Ahascragh/Fohenagh", "publisher": "Galway Advertiser", "date": "2016-11-17", "url": "https://www.advertiser.ie/galway/article/88712/title-for-ahascraghfohenagh", "type": "newspaper report"},
-    "irish_times_2017_semi": {"title": "Mannions to the fore for Ahascragh in Intermediate hurling semi-final", "publisher": "The Irish Times", "date": "2017-01-29", "url": "https://www.irishtimes.com/sport/gaelic-games/hurling/mannions-to-the-fore-for-ahascragh-in-intermediate-hurling-semi-final-1.2956054", "type": "newspaper report"},
-    "munster_gaa_2017_semi": {"title": "AIB All-Ireland Club Intermediate Hurling Championship Semi-Final", "publisher": "Munster GAA", "date": "2017-01-29", "url": "https://munster.gaa.ie/event/aib-all-ireland-club-intermediate-hurling-championship-semi-final/", "type": "official match listing"},
-    "connacht_tribune_2017_preview": {"title": "Ahascragh/Fohenagh ready to put best foot forward in club's biggest ever game", "publisher": "Connacht Tribune", "date": "2017-02-17", "url": "https://www.connachttribune.ie/news/galway-city/ahascraghfohenagh-ready-to-put-best-foot-forward-in-clubs-biggest-ever-game-5565326", "type": "newspaper preview"},
-    "the42_2017_final": {"title": "Richie Power hits 0-6 on happy return to Croker as Carrickshock avenge 2005 defeat", "publisher": "The 42", "date": "2017-02-18", "url": "https://www.the42.ie/carrickshock-ahascragh-fohenagh-report-3247016-Feb2017/", "type": "newspaper report"},
-    "gaa_2017_final": {"title": "Classy Carrickshock earn AIB All Ireland Intermediate Hurling title", "publisher": "GAA.ie", "date": "2017-02-18", "url": "https://www.gaa.ie/hurling/news/classy-carrickshock-earn-aib-all-ireland-intermediate-hurling-title/", "type": "official report"},
-    "wiki_2022_galway": {"title": "2022 Galway Senior Hurling Championship", "publisher": "Wikipedia", "date": null, "url": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship", "type": "secondary results table", "notes": "Used only for the explicit dated scores and fixtures in the page's Senior B Group 2 table."},
-    "galway_bayfm_2025_final": {"title": "Senior B Championship Hurling Final Report & Reaction", "publisher": "Galway Bay FM", "date": "2025-10-20", "url": "https://www.galwaybayfm.ie/sports/senior-b-championship-hurling-final-report-reaction-205389", "type": "sports report"},
-    "advertiser_2025_final": {"title": "Goals prove the difference as Mellows prevail in thriller", "publisher": "Galway Advertiser", "date": "2025-10-24", "url": "https://www.advertiser.ie/galway/article/148059/goals-prove-the-difference-as-mellows-prevail-in-thriller", "type": "newspaper report"},
-    "tuam_2026_opener": {"title": "Ahascragh-Fohenagh defeat Kinvara in opener", "publisher": "Tuam Herald", "date": "2026-08-13", "url": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/", "type": "newspaper report", "notes": "Accessible article text confirms a Premier Intermediate Championship win but omits the final score."}
+    "club_history": {
+      "title": "Club History",
+      "publisher": "Ahascragh Fohenagh GAA Club",
+      "date": null,
+      "url": "https://ahascraghfohenaghhc.wordpress.com/about/",
+      "type": "official club history"
+    },
+    "club_intermediate_results": {
+      "title": "Intermediate Results",
+      "publisher": "Ahascragh Fohenagh GAA Club",
+      "date": null,
+      "url": "https://ahascraghfohenaghhc.wordpress.com/match-reports/intermediate-results/",
+      "type": "official club results"
+    },
+    "club_junior_c_results": {
+      "title": "Junior C Results",
+      "publisher": "Ahascragh Fohenagh GAA Club",
+      "date": null,
+      "url": "https://ahascraghfohenaghhc.wordpress.com/match-reports/junior-c-results/",
+      "type": "official club results"
+    },
+    "connacht_tribune_2016_final": {
+      "title": "Ahascragh/Fohenagh finally make the breakthrough",
+      "publisher": "Connacht Tribune",
+      "date": "2016-10-27",
+      "url": "https://www.connachttribune.ie/sport/ahascraghfohenagh-finally-make-the-breakthrough-5564462",
+      "type": "newspaper report"
+    },
+    "the42_2016_draw": {
+      "title": "Keith Higgins' Ballyhaunis side and Ahascragh Fohenagh finish all square",
+      "publisher": "The 42",
+      "date": "2016-11-06",
+      "url": "https://www.the42.ie/ballyhaunis-ahascraghfohenagh-munster-final-3066968-Nov2016/",
+      "type": "newspaper report"
+    },
+    "the42_2016_replay": {
+      "title": "Galway's Mannion delivers man-of-the-match display in Connacht club final win",
+      "publisher": "The 42",
+      "date": "2016-11-13",
+      "url": "https://www.the42.ie/cathal-mannion-galway-3080267-Nov2016/",
+      "type": "newspaper report"
+    },
+    "advertiser_2016_connacht": {
+      "title": "Title for Ahascragh/Fohenagh",
+      "publisher": "Galway Advertiser",
+      "date": "2016-11-17",
+      "url": "https://www.advertiser.ie/galway/article/88712/title-for-ahascraghfohenagh",
+      "type": "newspaper report"
+    },
+    "irish_times_2017_semi": {
+      "title": "Mannions to the fore for Ahascragh in Intermediate hurling semi-final",
+      "publisher": "The Irish Times",
+      "date": "2017-01-29",
+      "url": "https://www.irishtimes.com/sport/gaelic-games/hurling/mannions-to-the-fore-for-ahascragh-in-intermediate-hurling-semi-final-1.2956054",
+      "type": "newspaper report"
+    },
+    "munster_gaa_2017_semi": {
+      "title": "AIB All-Ireland Club Intermediate Hurling Championship Semi-Final",
+      "publisher": "Munster GAA",
+      "date": "2017-01-29",
+      "url": "https://munster.gaa.ie/event/aib-all-ireland-club-intermediate-hurling-championship-semi-final/",
+      "type": "official match listing"
+    },
+    "connacht_tribune_2017_preview": {
+      "title": "Ahascragh/Fohenagh ready to put best foot forward in club's biggest ever game",
+      "publisher": "Connacht Tribune",
+      "date": "2017-02-17",
+      "url": "https://www.connachttribune.ie/news/galway-city/ahascraghfohenagh-ready-to-put-best-foot-forward-in-clubs-biggest-ever-game-5565326",
+      "type": "newspaper preview"
+    },
+    "the42_2017_final": {
+      "title": "Richie Power hits 0-6 on happy return to Croker as Carrickshock avenge 2005 defeat",
+      "publisher": "The 42",
+      "date": "2017-02-18",
+      "url": "https://www.the42.ie/carrickshock-ahascragh-fohenagh-report-3247016-Feb2017/",
+      "type": "newspaper report"
+    },
+    "gaa_2017_final": {
+      "title": "Classy Carrickshock earn AIB All Ireland Intermediate Hurling title",
+      "publisher": "GAA.ie",
+      "date": "2017-02-18",
+      "url": "https://www.gaa.ie/hurling/news/classy-carrickshock-earn-aib-all-ireland-intermediate-hurling-title/",
+      "type": "official report"
+    },
+    "wiki_2022_galway": {
+      "title": "2022 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "date": null,
+      "url": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "type": "secondary results table",
+      "notes": "Used only for the explicit dated scores and fixtures in the page's Senior B Group 2 table."
+    },
+    "galway_bayfm_2025_final": {
+      "title": "Senior B Championship Hurling Final Report & Reaction",
+      "publisher": "Galway Bay FM",
+      "date": "2025-10-20",
+      "url": "https://www.galwaybayfm.ie/sports/senior-b-championship-hurling-final-report-reaction-205389",
+      "type": "sports report"
+    },
+    "advertiser_2025_final": {
+      "title": "Goals prove the difference as Mellows prevail in thriller",
+      "publisher": "Galway Advertiser",
+      "date": "2025-10-24",
+      "url": "https://www.advertiser.ie/galway/article/148059/goals-prove-the-difference-as-mellows-prevail-in-thriller",
+      "type": "newspaper report"
+    },
+    "tuam_2026_opener": {
+      "title": "Ahascragh-Fohenagh defeat Kinvara in opener",
+      "publisher": "Tuam Herald",
+      "date": "2026-08-13",
+      "url": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/",
+      "type": "newspaper report",
+      "notes": "Accessible article text confirms a Premier Intermediate Championship win but omits the final score."
+    },
+    "galwaygaa_shc_finals_stats": {
+      "title": "Stats – Galway Senior Hurling Club Finals 1887-2021",
+      "publisher": "Galway GAA",
+      "date": null,
+      "url": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/",
+      "type": "official county finals table"
+    },
+    "wiki_galway_shc": {
+      "title": "Galway Senior Hurling Championship",
+      "publisher": "Wikipedia",
+      "date": null,
+      "url": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
+      "type": "secondary results table",
+      "notes": "Used for historic Fohenagh SHC roll and listed finals; 1959 scoreline conflicts with galwaygaa.ie."
+    },
+    "hoganstand_galway_club_titles": {
+      "title": "Club Titles - Galway",
+      "publisher": "HoganStand",
+      "date": null,
+      "url": "https://www.hoganstand.com/Galway/ClubTitles",
+      "type": "results listing"
+    },
+    "galway_bayfm_sweeney_2018": {
+      "title": "Galway hurling legend Tim Sweeney dies aged 88",
+      "publisher": "Galway Bay FM",
+      "date": "2018-01-02",
+      "url": "https://www.galwaybayfm.ie/sports/galway-hurling-legend-tim-sweeney-dies-aged-88-41054",
+      "type": "obituary / sports report"
+    },
+    "wiki_tim_sweeney": {
+      "title": "Tim Sweeney (hurler)",
+      "publisher": "Wikipedia",
+      "date": null,
+      "url": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)",
+      "type": "player biography"
+    },
+    "pearses_history": {
+      "title": "History – Pádraig Pearses GAA",
+      "publisher": "Pádraig Pearses GAA",
+      "date": null,
+      "url": "http://www.padraigpearsesgalway.com/history/",
+      "type": "neighbouring club history"
+    },
+    "pearses_murray_rip": {
+      "title": "Fr. Nicholas Murray RIP",
+      "publisher": "Pádraig Pearses GAA",
+      "date": "2011-04-21",
+      "url": "http://www.padraigpearsesgalway.com/fr-nicholas-murray-rip/",
+      "type": "club obituary"
+    },
+    "advertiser_murray": {
+      "title": "Pearses mourn passing of a great Galway sportsman",
+      "publisher": "Galway Advertiser",
+      "date": null,
+      "url": "https://www.advertiser.ie/galway/article/39176/pearses-mourn-passing-of-a-great-galway-sportsman",
+      "type": "newspaper obituary"
+    },
+    "nli_dolan_fohenagh_1959_1960": {
+      "title": "Fohenagh 1959-1960 : The Match Reports From the County Championship Winning Sides of 1959 and 1960",
+      "publisher": "National Library of Ireland catalogue (Steve Dolan / Galway Heritage)",
+      "date": "2022",
+      "url": "http://catalogue.nli.ie/Record/vtls000912307",
+      "type": "bibliographic record",
+      "notes": "Catalog metadata only; full match-report text not retrieved."
+    },
+    "ina_ctt_2015_allstars": {
+      "title": "Galway club hurling All-Stars",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "2015-02-06",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT20150206.1.128",
+      "type": "INA newspaper scan",
+      "excerpt": "Galway Club Hurling All-Stars page lists Cathal Mannion of Ahascragh-Fohenagh on the Senior team and Pádraig Mannion, Laurence Tully, Cathal Mannion, Paul Gavin and John Kelly on the Intermediate team."
+    },
+    "ina_ctt_2023_qf": {
+      "title": "Ahascragh-Fohenagh book spot in Senior B semi-finals",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "2023-09-22",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT20230922.1.107",
+      "type": "INA newspaper scan",
+      "excerpt": "Senior B quarter-final over Beagh in Loughrea; Mark Kelly scored nine points and Luke Murray the goal; report says Ahascragh-Fohenagh won by four points."
+    },
+    "ina_ctt_2023_sf": {
+      "title": "Ahascragh-Fohenagh rally to secure spot in B decider",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "2023-10-06",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT20231006.1.115",
+      "type": "INA newspaper scan",
+      "excerpt": "Senior B semi-final over Kilnadeema-Leitrim; Ahascragh-Fohenagh came back from 2-10 to 1-6 down at half-time; title line reports a spot in the final."
+    },
+    "ina_ctt_2023_final": {
+      "title": "Sensational climax results in Senior B final stalemate",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "date": "2023-10-20",
+      "url": "https://irishnewsarchive.com/?a=d&d=CTT20231020.1.117",
+      "type": "INA newspaper scan",
+      "excerpt": "County Senior B final with Mullagh at Duggan Park; report says the sides could not be separated and would replay; at one minute of injury time Ahascragh-Fohenagh trailed 1-15 to 0-17."
+    },
+    "ina_tth_2019_relegation": {
+      "title": "Mannion shoots down Abbey",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "2019-10-23",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH20191023.1.61",
+      "type": "INA newspaper scan",
+      "excerpt": "Galway Senior Hurling Championship relegation final: Ahascragh-Fohenagh 1-17, Abbeyknockmoy 1-12; Cathal Mannion scored 1-13 and was man of the match."
+    },
+    "ina_tth_2016_connacht_final": {
+      "title": "Ahascragh-Fohenagh reach stalemate with Ballyhaunis",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "2016-11-09",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH20161109.1.74",
+      "type": "INA newspaper scan",
+      "excerpt": "Connacht Intermediate final at Athleague went to extra time and was drawn 2-13 to 0-19; the report says 117 minutes could not separate the sides."
+    },
+    "ina_tth_2016_connacht_final_repeat": {
+      "title": "Ahascragh-Fohenagh reach stalemate with Ballyhaunis (repeat scan)",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "2016-11-16",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH20161116.1.74",
+      "type": "INA newspaper scan",
+      "excerpt": "Viewer OCR repeats the Nov 9 page/article; retained as a separate archive result but not counted as a new match."
+    },
+    "ina_tth_2020_group3": {
+      "title": "Ahascragh-Fohenagh claim the spoils after frantic finale",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "2020-08-12",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH20200812.1.55",
+      "type": "INA newspaper scan",
+      "excerpt": "Galway Senior B Group 3: Ahascragh-Fohenagh 2-20, Kilnadeema-Leitrim 1-19; eight different Ahascragh-Fohenagh scorers, with Cathal Mannion scoring 1-4."
+    },
+    "ina_tth_2025_final": {
+      "title": "Haran the hero for Mellows",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "2025-10-22",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH20251022.1.68",
+      "type": "INA newspaper scan",
+      "excerpt": "Galway Senior B final: Liam Mellows 2-16, Ahascragh-Fohenagh 0-19; Cathal Mannion scored 0-12 and finished the campaign on 0-75."
+    },
+    "ina_tth_2025_minor_b1": {
+      "title": "Ahascragh-Fohenagh earn draw",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)",
+      "date": "2025-10-15",
+      "url": "https://irishnewsarchive.com/?a=d&d=TTH20251015.1.56",
+      "type": "INA newspaper scan",
+      "excerpt": "Galway Minor U-17 B1 final: Ahascragh-Fohenagh 0-14, Micheál Breathnach 1-11; Darragh Gavin rescued the draw with a late free."
+    }
   },
   "research_notes": {
     "archive_login_confirmed": false,
-    "archive_status": "Irish Newspaper Archives redirected to its Log in page; no credentials were entered, so its internal search was not accessible.",
-    "searches_attempted": ["Ahascragh-Fohenagh", "Fohenagh", "Ahascragh Fohenagh", "Galway club championship involving Ahascragh-Fohenagh"],
-    "method": "Public newspaper, official club, GAA and results pages were used as a fallback. Scores are included only where explicitly printed by a source."
+    "archive_status": "INA Search UI was used successfully while logged in; query Ahascragh-Fohenagh returned 1,566 results and Fohenagh returned 9,179 results. OCR was extracted from promising scans; no password was entered.",
+    "searches_attempted": [
+      "Ahascragh-Fohenagh",
+      "Fohenagh",
+      "Ahascragh Fohenagh",
+      "Galway club championship involving Ahascragh-Fohenagh"
+    ],
+    "method": "INA OCR excerpts and public sources were used. Scores are included only when clearly printed; unclear OCR is explicitly marked.",
+    "historic_1959_1960": {
+      "archive_login_confirmed": false,
+      "archive_status": "Irish Newspaper Archives homepage shows Sign in / Subscribe; no credentials entered; internal archive search not used.",
+      "method": "Public Galway GAA, HoganStand, Wikipedia, Galway Bay FM, Galway Advertiser, and Pádraig Pearses club pages; NLI catalog for Dolan 2022 booklet.",
+      "detail_file": "data/historic-fohenagh-1959-1960.json",
+      "articles_stored": 9
+    },
+    "searches_completed": [
+      "Ahascragh-Fohenagh",
+      "Fohenagh",
+      "Ahascragh Fohenagh (via proper Search UI)"
+    ],
+    "ina_items_added": 10
+  },
+  "historic_predecessor": {
+    "name": "Fohenagh",
+    "relationship": "Predecessor parish club whose senior hurling identity preceded the Ahascragh-Fohenagh amalgamation (juvenile 1999 / adult 2002). Titles below are historic Fohenagh SHC wins, not amalgam titles.",
+    "titles": [
+      {
+        "year": 1959,
+        "competition": "Galway Senior Hurling Championship",
+        "opponent": "Castlegar",
+        "status": "winner",
+        "score": null,
+        "score_note": "Winner verified. Exact score contested across sources (see historic-fohenagh-1959-1960.json): Wikipedia draw+replay vs galwaygaa.ie single 3-9 to 2-5 at Kenny Park. Score omitted here to avoid inventing a reconciled line.",
+        "source_ids": [
+          "galwaygaa_shc_finals_stats",
+          "wiki_galway_shc",
+          "hoganstand_galway_club_titles",
+          "galway_bayfm_sweeney_2018",
+          "wiki_tim_sweeney",
+          "pearses_history",
+          "pearses_murray_rip",
+          "advertiser_murray",
+          "nli_dolan_fohenagh_1959_1960"
+        ]
+      },
+      {
+        "year": 1960,
+        "competition": "Galway Senior Hurling Championship",
+        "opponent": "Castlegar",
+        "status": "winner",
+        "score": "Fohenagh 4-09, Castlegar 2-07",
+        "venue": "Pearse Stadium",
+        "source_ids": [
+          "galwaygaa_shc_finals_stats",
+          "wiki_galway_shc",
+          "hoganstand_galway_club_titles",
+          "galway_bayfm_sweeney_2018",
+          "wiki_tim_sweeney",
+          "pearses_history",
+          "pearses_murray_rip",
+          "advertiser_murray",
+          "nli_dolan_fohenagh_1959_1960"
+        ]
+      }
+    ],
+    "detail_file": "data/historic-fohenagh-1959-1960.json"
   }
 }

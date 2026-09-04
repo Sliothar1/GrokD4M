@@ -145,6 +145,11 @@ export function friendlyAttrLabel(key: string): string {
     alias: "Also known as",
     amalgamated_juvenile: "Juvenile amalgamation",
     amalgamated_adult: "Adult amalgamation",
+    historic_predecessor: "Historic predecessor club",
+    historic_note: "Historic note",
+    successor: "Later became",
+    status: "Status",
+    score_note: "Score note",
   };
   if (labels[key]) return labels[key];
   // Player × Season → Club cols look like "season:2016"

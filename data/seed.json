@@ -92,12 +92,12 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "notable",
-    "val": "Amalgamation of Ahascragh and Fohenagh (juvenile 1999, adult 2002). Home club of Cathal and Pádraic Mannion. First adult title since amalgamation: Galway Junior C 2009-10. Galway and Connacht Intermediate champions 2016; All-Ireland Intermediate Club runners-up 2016-17."
+    "val": "Amalgamation of Ahascragh and Fohenagh (juvenile 1999, adult 2002). Home club of Cathal and Pádraic Mannion. First adult title since amalgamation: Galway Junior C 2009-10. Galway and Connacht Intermediate champions 2016; All-Ireland Intermediate Club runners-up 2016-17. Historic note: Fohenagh (old club) won Galway senior hurling in 1959 and 1960 — those are predecessor titles, not amalgam titles."
   },
   {
     "row": "club:ahascragh-fohenagh",
     "col": "summary",
-    "val": "East Galway hurling club formed by amalgamation of Ahascragh and Fohenagh. Also searched as Fohenagh or Ahascragh."
+    "val": "East Galway hurling club formed by amalgamation of Ahascragh and Fohenagh. Also searched as Fohenagh or Ahascragh. Fohenagh (old club) won Galway in 1959 and 1960 (see historic predecessor)."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -141,6 +141,16 @@
   },
   {
     "row": "club:ahascragh-fohenagh",
+    "col": "historic_predecessor",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "historic_note",
+    "val": "Fohenagh (old club) won Galway in 1959 and 1960 — predecessor titles, not Ahascragh-Fohenagh amalgam titles."
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
     "col": "confidence",
     "val": "high"
   },
@@ -148,6 +158,181 @@
     "row": "club:ahascragh-fohenagh",
     "col": "source",
     "val": "https://ahascraghfohenaghhc.wordpress.com/about/"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "name",
+    "val": "Fohenagh (old club)"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "alias",
+    "val": "Historic Fohenagh, Fohenagh historic, Old Fohenagh, Fohenagh (historic predecessor)"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "province",
+    "val": "Connacht"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "status",
+    "val": "historic predecessor"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "successor",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "summary",
+    "val": "Fohenagh (old club) won Galway senior hurling in 1959 and 1960. Later the parish joined with Ahascragh to form Ahascragh-Fohenagh (juvenile 1999, adult 2002)."
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "notable",
+    "val": "Historic parish club before the Ahascragh-Fohenagh amalgamation. Won the Galway Senior Hurling Championship in 1959 and 1960, both finals against Castlegar. These are historic Fohenagh predecessor titles — not amalgam club titles."
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "Galway Senior Hurling Championship",
+    "val": "1959, 1960"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "name",
+    "val": "Fohenagh (old club) vs Castlegar (1959 Galway SHC final)"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "score_note",
+    "val": "Exact 1959 score disputed (Wikipedia lists draw + replay; galwaygaa.ie lists a single scoreline). No single score recorded."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "note",
+    "val": "Fohenagh (old club) won Galway in 1959. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Opponent: Castlegar."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "Fohenagh (old club) vs Castlegar (1960 Galway SHC final)"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "score",
+    "val": "Fohenagh 4-9, Castlegar 2-7"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "note",
+    "val": "Fohenagh (old club) won Galway in 1960. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Opponent: Castlegar."
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
   },
   {
     "row": "match:fohenagh-galway-intermediate-hurling-ch-round-1",
