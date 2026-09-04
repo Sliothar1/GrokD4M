@@ -30,7 +30,18 @@ const HIDDEN_ATTRS = new Set([
   "confidence", // shown as friendly trust badge in header
   "kid_chip", // rendered as dedicated kid UI chip
   "cuttings", // rendered as ArticleClipSection
+  "excerpt",
+  "cite",
+  "verification",
+  "kind",
 ]);
+
+function isHiddenFactKey(k: string): boolean {
+  if (HIDDEN_ATTRS.has(k)) return true;
+  // player→cutting reverse edges (shown in Cuttings & stories)
+  if (k.startsWith("cutting:")) return true;
+  return false;
+}
 
 /** Never show null / empty / literal "null" on kid Facts cards. */
 function isDisplayableVal(v: unknown): boolean {
@@ -159,7 +170,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Facts</h2>
         <dl className="grid gap-3 sm:grid-cols-2">
           {Object.entries(attrs)
-            .filter(([k, v]) => !HIDDEN_ATTRS.has(k) && isDisplayableVal(v))
+            .filter(([k, v]) => !isHiddenFactKey(k) && isDisplayableVal(v))
             .map(([k, v]) => (
               <div
                 key={k}
@@ -221,16 +232,61 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         )}
       </section>
 
-      {related.length > 0 && (
-        <section>
-          <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Related</h2>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {related.map((r) => (
-              <EntityCard key={r.id} entity={r} />
-            ))}
-          </div>
-        </section>
-      )}
+      {(() => {
+        const cuttings = related.filter((r) => r.kind === "article_upload");
+        const otherRelated = related.filter((r) => r.kind !== "article_upload");
+        const showCuttings =
+          cuttings.length > 0 ||
+          summary.kind === "player" ||
+          summary.kind === "club";
+        return (
+          <>
+            {showCuttings && (
+              <section>
+                <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
+                  Cuttings &amp; stories
+                </h2>
+                {cuttings.length === 0 ? (
+                  <div className="rounded-2xl border-2 border-dashed border-galway-maroon/25 bg-galway-cream/50 px-4 py-6 text-center">
+                    <p className="text-base font-semibold text-galway-ink/70">
+                      No newspaper cuttings linked yet
+                    </p>
+                    <p className="mt-1 text-sm text-galway-ink/55">
+                      Tag a cutting with this{" "}
+                      {summary.kind === "player" ? "player" : "club"} on Stories
+                      to show thumb, excerpt, and cite here.
+                    </p>
+                    <Link
+                      href="/stories#upload"
+                      className="mt-2 inline-block text-sm font-semibold text-galway-maroon underline"
+                    >
+                      Upload on Stories
+                    </Link>
+                  </div>
+                ) : (
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {cuttings.map((r) => (
+                      <EntityCard key={r.id} entity={r} />
+                    ))}
+                  </div>
+                )}
+              </section>
+            )}
+            {otherRelated.length > 0 && (
+              <section>
+                <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
+                  Related
+                </h2>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {otherRelated.map((r) => (
+                    <EntityCard key={r.id} entity={r} />
+                  ))}
+                </div>
+              </section>
+            )}
+          </>
+        );
+      })()}
 
       <section>
         <h2 className="mb-3 text-2xl font-bold text-galway-maroon">

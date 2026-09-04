@@ -44,6 +44,8 @@ export interface ArticleUpload {
   year?: string;
   tags: string[];
   clubTags: string[];
+  /** Player entity ids (player:slug) linked to this cutting */
+  playerTags: string[];
   /** Short public excerpt for search cards — never the full private text */
   excerpt?: string;
   /** Cite chip, e.g. "1960 · Paper" */
@@ -247,7 +249,12 @@ function normalizeStoredArticle(a: ArticleUpload): ArticleUpload {
     }
   }
   a.tags = Array.isArray(a.tags) ? a.tags : [];
-  a.clubTags = Array.isArray(a.clubTags) ? a.clubTags : [];
+  a.clubTags = normalizeClubTags(
+    Array.isArray(a.clubTags) ? a.clubTags : []
+  );
+  a.playerTags = normalizePlayerTags(
+    Array.isArray(a.playerTags) ? a.playerTags : []
+  );
   return a;
 }
 
@@ -335,6 +342,95 @@ function slugify(s: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "")
     .slice(0, 40);
+}
+
+/** Normalize a player tag to player:slug (ids or display names). */
+export function normalizePlayerTag(raw: string): string | null {
+  const t = raw.trim();
+  if (!t) return null;
+  if (/^player:[a-z0-9][a-z0-9-]*$/i.test(t)) return t.toLowerCase();
+  const name = t.replace(/^player:/i, "").trim();
+  const slug = slugify(name);
+  if (!slug) return null;
+  return `player:${slug}`;
+}
+
+export function normalizePlayerTags(tags: string[] | undefined): string[] {
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const raw of tags ?? []) {
+    const id = normalizePlayerTag(raw);
+    if (!id || seen.has(id)) continue;
+    seen.add(id);
+    out.push(id);
+    if (out.length >= 12) break;
+  }
+  return out;
+}
+
+const FOHENAGH_CLUB_IDS = [
+  "club:fohenagh-historic",
+  "club:ahascragh-fohenagh",
+] as const;
+
+/**
+ * Normalize club tags and, when any Fohenagh-family label is present,
+ * ensure club:fohenagh-historic + club:ahascragh-fohenagh are included
+ * (aliases: fohenagh / fohenagh-historic / ahascragh-fohenagh).
+ */
+export function normalizeClubTags(tags: string[] | undefined): string[] {
+  const out: string[] = [];
+  const seen = new Set<string>();
+  let fohenaghFamily = false;
+
+  const push = (id: string) => {
+    const v = id.toLowerCase();
+    if (seen.has(v)) return;
+    seen.add(v);
+    out.push(v);
+  };
+
+  for (const raw of tags ?? []) {
+    let t = raw.trim();
+    if (!t) continue;
+    const lower = t.toLowerCase().replace(/^#/, "");
+    const bare = lower.replace(/^club:/, "");
+
+    if (
+      bare === "fohenagh" ||
+      bare === "fohenagh-historic" ||
+      bare === "old-fohenagh" ||
+      bare === "ahascragh-fohenagh" ||
+      bare === "ahascraghfohenagh"
+    ) {
+      fohenaghFamily = true;
+      if (bare === "ahascragh-fohenagh" || bare === "ahascraghfohenagh") {
+        push("club:ahascragh-fohenagh");
+      } else {
+        push("club:fohenagh-historic");
+      }
+      continue;
+    }
+
+    if (/^club:[a-z0-9-]+$/i.test(t)) {
+      push(t);
+      if (bare.includes("fohenagh")) fohenaghFamily = true;
+      continue;
+    }
+
+    // Loose club name → club:slug
+    const slug = slugify(bare);
+    if (slug) {
+      push(`club:${slug}`);
+      if (slug.includes("fohenagh")) fohenaghFamily = true;
+    }
+  }
+
+  if (fohenaghFamily) {
+    for (const id of FOHENAGH_CLUB_IDS) push(id);
+  }
+
+  return out.slice(0, 12);
 }
 
 function writePrivateTextLocal(id: string, text: string): string | undefined {
@@ -488,6 +584,7 @@ export function decomposeConfidentFacts(
     | "year"
     | "tags"
     | "clubTags"
+    | "playerTags"
     | "ocrText"
     | "excerpt"
     | "sourceUrl"
@@ -506,7 +603,9 @@ export function decomposeConfidentFacts(
     upload.ocrText ??
     ""
   ).trim();
-  const blob = `${caption} ${upload.tags.join(" ")} ${upload.clubTags.join(" ")}`.toLowerCase();
+  const playerTags = normalizePlayerTags(upload.playerTags);
+  const clubTags = normalizeClubTags(upload.clubTags);
+  const blob = `${caption} ${upload.tags.join(" ")} ${clubTags.join(" ")} ${playerTags.join(" ")}`.toLowerCase();
 
   triples.push({ row, col: "type", val: "article_upload" });
   triples.push({ row, col: "source", val: source });
@@ -541,7 +640,7 @@ export function decomposeConfidentFacts(
   }
 
   const linkedClubs = new Set<string>();
-  for (const tag of upload.clubTags) {
+  for (const tag of clubTags) {
     const t = tag.trim();
     if (/^club:[a-z0-9-]+$/i.test(t)) linkedClubs.add(t.toLowerCase());
   }
@@ -567,6 +666,19 @@ export function decomposeConfidentFacts(
     const col = clubIdx === 0 ? "club" : `club_${clubIdx}`;
     triples.push({ row, col, val: clubId });
     clubIdx += 1;
+  }
+
+  // article → player and player → related cutting (unique col per article)
+  let playerIdx = 0;
+  for (const playerId of playerTags) {
+    const col = playerIdx === 0 ? "player" : `player_${playerIdx}`;
+    triples.push({ row, col, val: playerId });
+    triples.push({
+      row: playerId,
+      col: `cutting:${upload.id}`,
+      val: row,
+    });
+    playerIdx += 1;
   }
 
   // Scores ONLY from human caption — never from OCR / PDF / URL body alone
@@ -632,8 +744,10 @@ async function finalizeUpload(
     (t) =>
       t.col === "year" ||
       t.col === "club" ||
+      t.col === "player" ||
       t.col === "score" ||
-      t.col.startsWith("club_")
+      t.col.startsWith("club_") ||
+      t.col.startsWith("player_")
   );
   draft.derivedTriples = derived;
   draft.status = hasFacts || privateText ? "decomposed" : "pending";
@@ -658,6 +772,7 @@ export async function saveArticleUpload(input: {
   year?: string;
   tags?: string[];
   clubTags?: string[];
+  playerTags?: string[];
 }): Promise<ArticleUpload> {
   assertWritableStorage();
 
@@ -700,10 +815,8 @@ export async function saveArticleUpload(input: {
     .map((t) => t.trim())
     .filter(Boolean)
     .slice(0, 12);
-  const clubTags = (input.clubTags ?? [])
-    .map((t) => t.trim())
-    .filter(Boolean)
-    .slice(0, 8);
+  const clubTags = normalizeClubTags(input.clubTags);
+  const playerTags = normalizePlayerTags(input.playerTags);
 
   const draft: ArticleUpload = {
     id,
@@ -717,6 +830,7 @@ export async function saveArticleUpload(input: {
     year,
     tags,
     clubTags,
+    playerTags,
     status: "pending",
   };
 
@@ -808,6 +922,7 @@ export async function saveUrlUpload(input: {
   year?: string;
   tags?: string[];
   clubTags?: string[];
+  playerTags?: string[];
 }): Promise<ArticleUpload> {
   assertWritableStorage();
 
@@ -830,10 +945,8 @@ export async function saveUrlUpload(input: {
     .map((t) => t.trim())
     .filter(Boolean)
     .slice(0, 12);
-  const clubTags = (input.clubTags ?? [])
-    .map((t) => t.trim())
-    .filter(Boolean)
-    .slice(0, 8);
+  const clubTags = normalizeClubTags(input.clubTags);
+  const playerTags = normalizePlayerTags(input.playerTags);
 
   let fetchedTitle: string | undefined;
   let fetchedDesc: string | undefined;
@@ -886,6 +999,7 @@ export async function saveUrlUpload(input: {
     year,
     tags,
     clubTags,
+    playerTags,
     fetchedTitle,
     excerpt: makeExcerpt([caption, fetchedTitle, fetchedDesc]),
     status: "pending",
@@ -911,7 +1025,9 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
     a.excerpt ||
     makeExcerpt([a.caption, a.fetchedTitle]) ||
     "Newspaper / article cutting";
-  const subtitle = [cite, a.clubTags[0]].filter(Boolean).join(" · ");
+  const subtitle = [cite, a.playerTags?.[0], a.clubTags[0]]
+    .filter(Boolean)
+    .join(" · ");
   const media = articleMediaUrl(a);
   return {
     id: `article:${a.id}`,
@@ -951,6 +1067,7 @@ export async function searchArticleUploads(
       a.year,
       a.tags.join(" "),
       a.clubTags.join(" "),
+      (a.playerTags ?? []).join(" "),
       a.excerpt,
       a.fetchedTitle,
       a.sourceUrl,
@@ -975,6 +1092,43 @@ export async function allDerivedUploadTriples(): Promise<Triple[]> {
   const out: Triple[] = [];
   for (const a of await readArticleUploads()) {
     if (a.derivedTriples?.length) out.push(...a.derivedTriples);
+  }
+  return out;
+}
+
+/**
+ * Public cutting cards linked to a player or club entity via playerTags / clubTags
+ * (and loose id matches in tags). Full OCR stays private — cards use articleToSummary.
+ */
+export async function getLinkedArticleSummaries(
+  entityId: string
+): Promise<EntitySummary[]> {
+  const id = entityId.trim().toLowerCase();
+  if (!id.includes(":")) return [];
+  const bare = id.slice(id.indexOf(":") + 1);
+  const out: EntitySummary[] = [];
+  const seen = new Set<string>();
+
+  for (const a of await readArticleUploads()) {
+    const players = normalizePlayerTags(a.playerTags);
+    const clubs = normalizeClubTags(a.clubTags);
+    const allTags = [...a.tags, ...clubs, ...players].map((t) =>
+      t.toLowerCase()
+    );
+    const hit =
+      players.includes(id) ||
+      clubs.includes(id) ||
+      allTags.includes(id) ||
+      allTags.includes(bare) ||
+      (id.startsWith("player:") &&
+        players.some((p) => p === id || p.endsWith(`:${bare}`))) ||
+      (id.startsWith("club:") &&
+        clubs.some((c) => c === id || c.includes(bare)));
+    if (!hit) continue;
+    const summary = articleToSummary(a);
+    if (seen.has(summary.id)) continue;
+    seen.add(summary.id);
+    out.push(summary);
   }
   return out;
 }
@@ -1042,9 +1196,11 @@ export async function getMatchArticleClips(
       : "";
 
   for (const a of await readArticleUploads()) {
-    const tags = [...a.tags, ...a.clubTags].map((t) => t.toLowerCase());
+    const tags = [...a.tags, ...a.clubTags, ...(a.playerTags ?? [])].map((t) =>
+      t.toLowerCase()
+    );
     const privateText = await readPrivateText(a);
-    const blob = `${a.caption ?? ""} ${a.excerpt ?? ""} ${a.tags.join(" ")} ${a.clubTags.join(" ")} ${privateText}`.toLowerCase();
+    const blob = `${a.caption ?? ""} ${a.excerpt ?? ""} ${a.tags.join(" ")} ${a.clubTags.join(" ")} ${(a.playerTags ?? []).join(" ")} ${privateText}`.toLowerCase();
     const matchHit =
       tags.includes(matchId.toLowerCase()) ||
       tags.includes(`match:${matchId}`.toLowerCase()) ||

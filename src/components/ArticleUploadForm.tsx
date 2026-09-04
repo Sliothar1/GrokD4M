@@ -29,6 +29,7 @@ export function ArticleUploadForm({
   const [year, setYear] = useState("");
   const [tags, setTags] = useState("");
   const [clubTags, setClubTags] = useState("");
+  const [playerTags, setPlayerTags] = useState("");
   const [url, setUrl] = useState("");
   const [fileName, setFileName] = useState("");
   const [preview, setPreview] = useState<string | null>(null);
@@ -89,6 +90,7 @@ export function ArticleUploadForm({
       body.append("year", year);
       body.append("tags", tags);
       body.append("clubTags", clubTags);
+      body.append("playerTags", playerTags);
       const res = await fetch("/api/articles", { method: "POST", body });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Could not upload");
@@ -106,6 +108,7 @@ export function ArticleUploadForm({
       setYear("");
       setTags("");
       setClubTags("");
+      setPlayerTags("");
       setUrl("");
       setFileName("");
       setPreview(null);
@@ -285,6 +288,23 @@ export function ArticleUploadForm({
             </button>
           ))}
         </div>
+      </div>
+
+      <div>
+        <label className="mb-1 block font-semibold" htmlFor="art-players">
+          Player tags (optional)
+        </label>
+        <input
+          id="art-players"
+          value={playerTags}
+          onChange={(e) => setPlayerTags(e.target.value)}
+          placeholder="player:joe-canning, Billy Lyons"
+          className="w-full rounded-xl border-2 border-galway-maroon/20 px-3 py-2 text-lg"
+        />
+        <p className="mt-1 text-sm text-galway-ink/55">
+          Entity ids or names → stored as player:slug so past-player search shows
+          this cutting.
+        </p>
       </div>
 
       <button

@@ -9,6 +9,9 @@ import {
 import seed from "../../data/seed.json";
 import {
   allDerivedUploadTriples,
+  articleToSummary,
+  getArticleUpload,
+  getLinkedArticleSummaries,
   invalidateBlobMetaCache,
   searchArticleUploads,
 } from "@/lib/articles";
@@ -185,6 +188,10 @@ export function friendlyAttrLabel(key: string): string {
     result: "Result",
     kid_chip: "Kid chip",
     round: "Round",
+    player: "Player",
+    excerpt: "Excerpt",
+    cite: "Cite",
+    verification: "Verification",
   };
   if (labels[key]) return labels[key];
   // Player × Season → Club cols look like "season:2016"
@@ -259,9 +266,11 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     subtitle = attrs.author ? `by ${attrs.author}` : "Community story";
   } else if (kind === "season") {
     subtitle = String(attrs.outcome ?? attrs.year ?? "");
+  } else if (kind === "article_upload") {
+    subtitle = [attrs.cite, attrs.year].filter(Boolean).map(String).join(" · ");
   }
   const confidence = attrs.confidence ? String(attrs.confidence) : undefined;
-  return {
+  const summary: EntitySummary = {
     id,
     kind,
     title,
@@ -270,6 +279,12 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     confidence,
     trustLabel: friendlyTrustLabel(confidence),
   };
+  if (kind === "article_upload") {
+    summary.badge = "From cutting";
+    if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);
+    if (attrs.cite) summary.citeChip = String(attrs.cite);
+  }
+  return summary;
 }
 
 export async function listEntitiesByType(typePrefix: string): Promise<EntitySummary[]> {
@@ -328,6 +343,18 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     }
   }
 
+  // Rank: verified facts first, Fohenagh-family next, cuttings last
+  const rankOf = (e: EntitySummary): number => {
+    if (e.kind === "article_upload") return 80;
+    const conf = (e.confidence ?? "").toLowerCase();
+    if (conf === "high" || conf === "verified") return 0;
+    const blob = `${e.id} ${e.title} ${e.subtitle ?? ""}`.toLowerCase();
+    if (blob.includes("fohenagh") || blob.includes("ahascragh")) return 5;
+    if (e.trustLabel === "Verified") return 0;
+    return 20;
+  };
+  out.sort((a, b) => rankOf(a) - rankOf(b));
+
   return out;
 }
 
@@ -355,9 +382,34 @@ export async function getEntity(id: string): Promise<{
   for (const t of A.toTriples()) {
     if (t.val === id && t.row !== id) relatedIds.add(t.row);
   }
-  const related = [...relatedIds]
-    .map((rid) => summarizeEntity(rid, A))
-    .filter((e): e is EntitySummary => e !== null && e.id !== id);
+  const related: EntitySummary[] = [];
+  const relatedSeen = new Set<string>();
+  for (const rid of relatedIds) {
+    if (rid === id || relatedSeen.has(rid)) continue;
+    if (rid.startsWith("article:")) {
+      const artId = rid.slice("article:".length);
+      const upload = await getArticleUpload(artId);
+      if (upload) {
+        relatedSeen.add(rid);
+        related.push(articleToSummary(upload));
+        continue;
+      }
+    }
+    const s = summarizeEntity(rid, A);
+    if (!s) continue;
+    relatedSeen.add(rid);
+    related.push(s);
+  }
+
+  // Explicit playerTags / clubTags cuttings (may not yet be in inverse triples)
+  if (id.startsWith("player:") || id.startsWith("club:")) {
+    for (const cutting of await getLinkedArticleSummaries(id)) {
+      if (relatedSeen.has(cutting.id)) continue;
+      relatedSeen.add(cutting.id);
+      related.push(cutting);
+    }
+  }
+
   return {
     id,
     attrs,

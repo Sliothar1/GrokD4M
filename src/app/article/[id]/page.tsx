@@ -119,8 +119,23 @@ export default async function ArticlePage({
         </section>
       )}
 
-      {(a.clubTags.length > 0 || a.tags.length > 0) && (
+      {(a.clubTags.length > 0 ||
+        (a.playerTags?.length ?? 0) > 0 ||
+        a.tags.length > 0) && (
         <div className="flex flex-wrap gap-2">
+          {(a.playerTags ?? []).map((p) => (
+            <Link
+              key={p}
+              href={
+                isEntityRef(p)
+                  ? `/${p.replace(":", "/")}`
+                  : `/search?q=${encodeURIComponent(p)}`
+              }
+              className="rounded-full bg-galway-gold/30 px-3 py-1 text-sm font-semibold text-galway-ink"
+            >
+              {isEntityRef(p) ? displayNameForRef(p, A) : p}
+            </Link>
+          ))}
           {a.clubTags.map((c) => (
             <Link
               key={c}

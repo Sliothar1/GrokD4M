@@ -25,6 +25,7 @@ export async function POST(request: Request) {
     const year = String(form.get("year") ?? "").trim();
     const tagsRaw = String(form.get("tags") ?? "").trim();
     const clubTagsRaw = String(form.get("clubTags") ?? "").trim();
+    const playerTagsRaw = String(form.get("playerTags") ?? "").trim();
     const urlRaw = String(form.get("url") ?? "").trim();
 
     const tags = tagsRaw
@@ -32,6 +33,9 @@ export async function POST(request: Request) {
       : [];
     const clubTags = clubTagsRaw
       ? clubTagsRaw.split(/[,]+/).map((t) => t.trim()).filter(Boolean)
+      : [];
+    const playerTags = playerTagsRaw
+      ? playerTagsRaw.split(/[,]+/).map((t) => t.trim()).filter(Boolean)
       : [];
 
     const file =
@@ -49,6 +53,7 @@ export async function POST(request: Request) {
         year: year || undefined,
         tags,
         clubTags,
+        playerTags,
       });
     } else if (file && file.size > 0) {
       const buffer = Buffer.from(await file.arrayBuffer());
@@ -60,6 +65,7 @@ export async function POST(request: Request) {
         year: year || undefined,
         tags,
         clubTags,
+        playerTags,
       });
     } else {
       return NextResponse.json(
