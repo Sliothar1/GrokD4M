@@ -135,13 +135,10 @@ export function friendlyTrustLabel(confidence?: string | null): string | undefin
   return "Needs check";
 }
 
-/** True for county All-Ireland SHC or All-Ireland Club titles — not county grades. */
-export function isAllIrelandWin(attrs: Record<string, TripleVal>): boolean {
+/** True for All-Ireland SHC / Club titles — not county Junior/Minor grades. */
+export function isAllIrelandWinAttrs(attrs: Record<string, TripleVal>): boolean {
   if (String(attrs.type ?? "") === "all_ireland_win") return true;
-  const blob = [attrs.competition, attrs.title, attrs.name]
-    .filter((v) => v != null && String(v).trim())
-    .map(String)
-    .join(" ");
+  const blob = `${attrs.name ?? ""} ${attrs.title ?? ""}`;
   return /all-?ireland/i.test(blob);
 }
 
@@ -265,7 +262,7 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     const clubName = clubId ? displayNameForRef(clubId, A) : "";
     subtitle = [attrs.position, clubName].filter(Boolean).map(String).join(" · ");
   } else if (kind === "win") {
-    const isAI = isAllIrelandWin(attrs);
+    const isAI = isAllIrelandWinAttrs(attrs);
     if (isAI) {
       subtitle = `All-Ireland ${attrs.year}${attrs.opponent ? ` vs ${attrs.opponent}` : ""}`;
     } else {
@@ -308,7 +305,7 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     confidence,
     trustLabel: friendlyTrustLabel(confidence),
     kindLabel:
-      kind === "win" ? (isAllIrelandWin(attrs) ? "All-Ireland" : "Title") : undefined,
+      kind === "win" ? (isAllIrelandWinAttrs(attrs) ? "All-Ireland" : "County title") : undefined,
   };
   if (kind === "article_upload") {
     summary.badge = String(attrs.badge ?? "From cutting");
@@ -340,7 +337,7 @@ export async function listAllIrelandWins(): Promise<EntitySummary[]> {
   return A.entitiesOfType("win")
     .filter((id) => {
       const attrs = A.entityAttrs(id);
-      return !attrs.same_as && isAllIrelandWin(attrs);
+      return !attrs.same_as && isAllIrelandWinAttrs(attrs);
     })
     .map((id) => summarizeEntity(id, A))
     .filter((e): e is EntitySummary => e !== null)
@@ -572,7 +569,7 @@ export async function demoStats() {
   const A = await getAssoc();
   const allIrelandWins = A.entitiesOfType("win").filter((id) => {
     const attrs = A.entityAttrs(id);
-    return !attrs.same_as && isAllIrelandWin(attrs);
+    return !attrs.same_as && isAllIrelandWinAttrs(attrs);
   });
   return {
     nnz: A.nnz(),

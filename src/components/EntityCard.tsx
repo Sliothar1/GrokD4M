@@ -6,7 +6,7 @@ const kindLabel: Record<string, string> = {
   team: "Team",
   match: "Match",
   club: "Club",
-  win: "Title",
+  win: "County title",
   season: "Season",
   source: "Source",
   community_story: "Story",
@@ -14,9 +14,20 @@ const kindLabel: Record<string, string> = {
   unknown: "Thing",
 };
 
+function winKindBadge(entity: EntitySummary): string {
+  if (/all-?ireland/i.test(`${entity.title} ${entity.subtitle ?? ""}`)) {
+    return "All-Ireland";
+  }
+  return "County title";
+}
+
 export function EntityCard({ entity }: { entity: EntitySummary }) {
   const trust = entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
   const badge = entity.badge;
+  const typeBadge =
+    entity.kind === "win"
+      ? winKindBadge(entity)
+      : (entity.kindLabel ?? kindLabel[entity.kind] ?? entity.kind);
 
   return (
     <Link
@@ -34,7 +45,7 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
       <div className="p-4">
         <div className="mb-1 flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
-            {entity.kindLabel ?? kindLabel[entity.kind] ?? entity.kind}
+            {typeBadge}
           </span>
           {badge && (
             <span className="rounded-full bg-galway-gold/25 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-ink">
