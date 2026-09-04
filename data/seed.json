@@ -257,12 +257,12 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final",
     "col": "score_note",
-    "val": "Exact 1959 score disputed (Wikipedia lists draw + replay; galwaygaa.ie lists a single scoreline). No single score recorded."
+    "val": "Fohenagh 3-9 double-sourced (galwaygaa.ie + Wikipedia replay line). Castlegar total omitted: sources conflict (2-5 vs 4-5). Pending Irish Newspaper Archives / Steve Dolan."
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final",
     "col": "note",
-    "val": "Fohenagh (old club) won Galway in 1959. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Opponent: Castlegar."
+    "val": "Fohenagh (old club) won Galway in 1959 after a replay vs Castlegar at Kenny Park. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Castlegar score not stored (conflict)."
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final",
@@ -5273,5 +5273,455 @@
     "row": "story:castlegar-green-white",
     "col": "source",
     "val": "community submission (illustrative)"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "score",
+    "val": "Fohenagh 3-9"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "result",
+    "val": "win after a replay"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "venue",
+    "val": "Kenny Park"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "venue_confidence",
+    "val": "board"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "tag",
+    "val": "historic-predecessor"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final",
+    "col": "opponent",
+    "val": "Castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "tag",
+    "val": "historic-predecessor"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "opponent",
+    "val": "Castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "kid_chip",
+    "val": "Before Ahascragh-Fohenagh"
+  },
+  {
+    "row": "club:abbeyknockmoy",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:abbeyknockmoy",
+    "col": "name",
+    "val": "Abbeyknockmoy"
+  },
+  {
+    "row": "club:abbeyknockmoy",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:abbeyknockmoy",
+    "col": "notable",
+    "val": "Galway club; 2019 SHC relegation final opponent of Ahascragh-Fohenagh."
+  },
+  {
+    "row": "club:abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:micheal-breathnach",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:micheal-breathnach",
+    "col": "name",
+    "val": "Micheál Breathnach"
+  },
+  {
+    "row": "club:micheal-breathnach",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:micheal-breathnach",
+    "col": "notable",
+    "val": "Galway club; 2025 Minor U-17 B1 final opponent of Ahascragh-Fohenagh."
+  },
+  {
+    "row": "club:micheal-breathnach",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:killimor",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:killimor",
+    "col": "name",
+    "val": "Killimor"
+  },
+  {
+    "row": "club:killimor",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Abbeyknockmoy (Relegation final)"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "round",
+    "val": "Relegation final"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "date",
+    "val": "2019-10-19"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 1-17, Abbeyknockmoy 1-12"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH20191023.1.61"
+  },
+  {
+    "row": "match:fohenagh-2019-10-19-relegation-final",
+    "col": "note",
+    "val": "INA report says match was at Duggan Park; Cathal Mannion scored 1-13."
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Kilnadeema-Leitrim (Group 3)"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "round",
+    "val": "Group 3"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "date",
+    "val": "2020-08-08"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-20, Kilnadeema-Leitrim 1-19"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH20200812.1.55"
+  },
+  {
+    "row": "match:fohenagh-2020-08-08-group-3",
+    "col": "note",
+    "val": "Match date is described as Saturday in the Aug 12 report."
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Beagh (Quarter-final)"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20230922.1.107"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "note",
+    "val": "Report confirms a four-point win in Loughrea; final numerical score was not clear in OCR."
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Kilnadeema-Leitrim (Semi-final)"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20231006.1.115"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "note",
+    "val": "Report confirms the comeback and qualification; final numerical score was not treated as clear from OCR."
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Mullagh (Final)"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20231020.1.117"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "note",
+    "val": "Report explicitly says the final was a stalemate and would be replayed; it gives 1-15 to 0-17 at one minute of injury time, not a final score."
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Micheál Breathnach (Final)"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "competition",
+    "val": "Galway Minor U-17 B1 Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "away",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "date",
+    "val": "2025-10-12"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 0-14, Micheál Breathnach 1-11"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH20251015.1.56"
+  },
+  {
+    "row": "match:fohenagh-2025-10-12-final",
+    "col": "note",
+    "val": "Report says Darragh Gavin’s last-minute free rescued the draw; match was Saturday before Oct 15 publication."
   }
 ]

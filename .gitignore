@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Article upload binaries (metadata stays in data/article-uploads.json)
+/public/uploads/articles/*
+!/public/uploads/articles/.gitkeep

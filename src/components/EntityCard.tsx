@@ -10,29 +10,54 @@ const kindLabel: Record<string, string> = {
   season: "Season",
   source: "Source",
   community_story: "Story",
+  article_upload: "Article",
   unknown: "Thing",
 };
 
 export function EntityCard({ entity }: { entity: EntitySummary }) {
   const trust = entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
+  const badge = entity.badge;
 
   return (
     <Link
       href={entity.href}
-      className="block rounded-2xl border-2 border-galway-maroon/15 bg-white p-4 shadow-sm transition hover:border-galway-maroon hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+      className="block overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white shadow-sm transition hover:border-galway-maroon hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
     >
-      <div className="mb-1 flex flex-wrap items-center gap-2">
-        <span className="rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
-          {kindLabel[entity.kind] ?? entity.kind}
-        </span>
-        {trust && (
-          <span className="text-xs font-semibold text-galway-ink/55">{trust}</span>
+      {entity.imagePath && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={entity.imagePath}
+          alt=""
+          className="h-36 w-full object-cover bg-galway-cream"
+        />
+      )}
+      <div className="p-4">
+        <div className="mb-1 flex flex-wrap items-center gap-2">
+          <span className="rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
+            {kindLabel[entity.kind] ?? entity.kind}
+          </span>
+          {badge && (
+            <span className="rounded-full bg-galway-gold/25 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-ink">
+              {badge}
+            </span>
+          )}
+          {trust && !badge && (
+            <span className="text-xs font-semibold text-galway-ink/55">{trust}</span>
+          )}
+          {entity.subtitle === "Before Ahascragh-Fohenagh" && (
+            <span className="rounded-full bg-galway-maroon px-2 py-0.5 text-xs font-bold text-white">
+              Before Ahascragh-Fohenagh
+            </span>
+          )}
+        </div>
+        <h3 className="text-xl font-bold text-galway-ink">{entity.title}</h3>
+        {entity.subtitle && (
+          <p className="mt-1 text-base text-galway-ink/70">{entity.subtitle}</p>
+        )}
+        {entity.kind === "article_upload" && (
+          <p className="mt-2 text-sm font-semibold text-galway-maroon">View image →</p>
         )}
       </div>
-      <h3 className="text-xl font-bold text-galway-ink">{entity.title}</h3>
-      {entity.subtitle && (
-        <p className="mt-1 text-base text-galway-ink/70">{entity.subtitle}</p>
-      )}
     </Link>
   );
 }

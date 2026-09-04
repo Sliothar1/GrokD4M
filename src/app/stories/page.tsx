@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { EntityCard, EmptyTeach } from "@/components/EntityCard";
 import { StoryForm } from "@/components/StoryForm";
+import { ArticleUploadForm } from "@/components/ArticleUploadForm";
+import Link from "next/link";
 import { officialStories, readPendingStories } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -9,9 +11,21 @@ export const metadata: Metadata = {
 
 export const dynamic = "force-dynamic";
 
-export default function StoriesPage() {
+export default async function StoriesPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ link?: string; prompt?: string }>;
+}) {
   const seeded = officialStories();
   const pending = readPendingStories();
+  const sp = await searchParams;
+  const initialLink = typeof sp.link === "string" ? sp.link : "";
+  const initialPrompt = typeof sp.prompt === "string" ? sp.prompt : "";
+  const isHistoric =
+    initialLink === "club:fohenagh-historic" ||
+    /fohenagh vs castlegar|1959 replay|old fohenagh|before the amalgam/i.test(
+      initialPrompt
+    );
 
   return (
     <div className="space-y-10">
@@ -66,7 +80,45 @@ export default function StoriesPage() {
         )}
       </section>
 
-      <StoryForm />
+      <section className="space-y-3">
+        <h2 className="text-2xl font-bold text-galway-maroon">Article photo</h2>
+        <p className="text-base text-galway-ink/70">
+          Got a newspaper cutting?{" "}
+          <Link href="/contribute" className="font-semibold text-galway-maroon underline">
+            Open the full upload page
+          </Link>{" "}
+          or use the form below.
+        </p>
+        <ArticleUploadForm />
+      </section>
+
+      <StoryForm
+        initialLink={initialLink}
+        initialPrompt={initialPrompt}
+        emptyCta={
+          isHistoric
+            ? "Got a story from the old Fohenagh days? Anecdotes only — do not invent Castlegar’s 1959 score."
+            : undefined
+        }
+        chips={
+          isHistoric
+            ? [
+                {
+                  label: "Fohenagh vs Castlegar, 1960",
+                  id: "club:fohenagh-historic",
+                },
+                {
+                  label: "The 1959 replay at Kenny Park",
+                  id: "club:fohenagh-historic",
+                },
+                {
+                  label: "When Fohenagh won the county before the amalgam",
+                  id: "club:fohenagh-historic",
+                },
+              ]
+            : undefined
+        }
+      />
     </div>
   );
 }

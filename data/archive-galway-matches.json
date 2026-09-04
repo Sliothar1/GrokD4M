@@ -1,18 +1,205 @@
 {
   "county": "Galway",
   "records": [
-    {"date": "2016-10-23", "competition": "Galway Intermediate Hurling Championship", "round": "County final", "team": "Ahascragh/Fohenagh", "opponent": "Ballinderreen", "score": "Ahascragh/Fohenagh 2-15, Ballinderreen 0-8", "source": "https://www.connachttribune.ie/sport/ahascraghfohenagh-finally-make-the-breakthrough-5564462", "source_title": "Ahascragh/Fohenagh finally make the breakthrough", "publisher": "Connacht Tribune"},
-    {"date": "2016-11-06", "competition": "Connacht Intermediate Club Hurling Championship", "round": "Final", "team": "Ahascragh/Fohenagh", "opponent": "Ballyhaunis", "score": "Ballyhaunis 2-13, Ahascragh/Fohenagh 0-19", "source": "https://www.the42.ie/ballyhaunis-ahascraghfohenagh-munster-final-3066968-Nov2016/", "source_title": "Keith Higgins' Ballyhaunis side and Ahascragh Fohenagh finish all square", "publisher": "The 42"},
-    {"date": "2016-11-13", "competition": "Connacht Intermediate Club Hurling Championship", "round": "Final replay", "team": "Ahascragh-Fohenagh", "opponent": "Ballyhaunis", "score": "Ahascragh-Fohenagh 2-20, Ballyhaunis 0-13", "source": "https://www.the42.ie/cathal-mannion-galway-3080267-Nov2016/", "source_title": "Galway's Mannion delivers man-of-the-match display in Connacht club final win", "publisher": "The 42"},
-    {"date": "2017-01-29", "competition": "All-Ireland Intermediate Club Hurling Championship", "round": "Semi-final", "team": "Ahascragh-Fohenagh", "opponent": "Lismore", "score": "Ahascragh-Fohenagh 1-17, Lismore 0-13", "source": "https://www.irishtimes.com/sport/gaelic-games/hurling/mannions-to-the-fore-for-ahascragh-in-intermediate-hurling-semi-final-1.2956054", "source_title": "Mannions to the fore for Ahascragh in Intermediate hurling semi-final", "publisher": "The Irish Times"},
-    {"date": "2017-02-18", "competition": "All-Ireland Intermediate Club Hurling Championship", "round": "Final", "team": "Ahascragh-Fohenagh", "opponent": "Carrickshock", "score": "Carrickshock 2-15, Ahascragh-Fohenagh 0-6", "source": "https://www.the42.ie/carrickshock-ahascragh-fohenagh-report-3247016-Feb2017/", "source_title": "Richie Power hits 0-6 on happy return to Croker as Carrickshock avenge 2005 defeat", "publisher": "The 42"},
-    {"date": "2022-07-30", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 1", "team": "Ahascragh-Fohenagh", "opponent": "Portumna", "score": "Portumna 0-23, Ahascragh-Fohenagh 0-13", "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship", "source_title": "2022 Galway Senior Hurling Championship", "publisher": "Wikipedia"},
-    {"date": "2022-08-20", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 2", "team": "Ahascragh-Fohenagh", "opponent": "Pádraig Pearse's", "score": "Pádraig Pearse's 0-18, Ahascragh-Fohenagh 0-13", "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship", "source_title": "2022 Galway Senior Hurling Championship", "publisher": "Wikipedia"},
-    {"date": "2022-09-04", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 3", "team": "Ahascragh-Fohenagh", "opponent": "Liam Mellows", "score": "Liam Mellows 1-24, Ahascragh-Fohenagh 2-9", "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship", "source_title": "2022 Galway Senior Hurling Championship", "publisher": "Wikipedia"},
-    {"date": "2022-09-17", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 4", "team": "Ahascragh-Fohenagh", "opponent": "Ardrahan", "score": "Ardrahan 2-19, Ahascragh-Fohenagh 1-18", "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship", "source_title": "2022 Galway Senior Hurling Championship", "publisher": "Wikipedia"},
-    {"date": "2022-10-01", "competition": "Galway Senior Hurling Championship", "round": "Senior B Group 2, Round 5", "team": "Ahascragh-Fohenagh", "opponent": "Mullagh", "score": "Ahascragh-Fohenagh 0-25, Mullagh 2-15", "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship", "source_title": "2022 Galway Senior Hurling Championship", "publisher": "Wikipedia"},
-    {"date": "2022-10-15", "competition": "Galway Senior Hurling Championship", "round": "Senior relegation playoff", "team": "Ahascragh-Fohenagh", "opponent": "Tynagh-Abbey/Duniry", "score": "Ahascragh-Fohenagh 1-13, Tynagh-Abbey/Duniry 1-12", "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship", "source_title": "2022 Galway Senior Hurling Championship", "publisher": "Wikipedia"},
-    {"date": "2025-10-19", "competition": "Galway Senior B Hurling Championship", "round": "Final", "team": "Ahascragh-Fohenagh", "opponent": "Liam Mellows", "score": "Liam Mellows 2-16, Ahascragh-Fohenagh 0-19", "source": "https://www.advertiser.ie/galway/article/148059/goals-prove-the-difference-as-mellows-prevail-in-thriller", "source_title": "Goals prove the difference as Mellows prevail in thriller", "publisher": "Galway Advertiser"}
+    {
+      "date": null,
+      "competition": "Galway Intermediate Hurling Championship 2015",
+      "round": "Round 1",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Killimor",
+      "score": "Ahascragh-Fohenagh 2-14, Killimor 2-16",
+      "source": "https://ahascraghfohenaghhc.wordpress.com/match-reports/intermediate-results/",
+      "source_title": "Intermediate Results",
+      "publisher": "Ahascragh Fohenagh GAA Club"
+    },
+    {
+      "date": null,
+      "competition": "Galway Intermediate Hurling Championship 2015",
+      "round": "Round 2",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Clarinbridge",
+      "score": "Ahascragh-Fohenagh 0-18, Clarinbridge 2-10",
+      "source": "https://ahascraghfohenaghhc.wordpress.com/match-reports/intermediate-results/",
+      "source_title": "Intermediate Results",
+      "publisher": "Ahascragh Fohenagh GAA Club"
+    },
+    {
+      "date": null,
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Quarter-final",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Beagh",
+      "score": null,
+      "source": "https://irishnewsarchive.com/?a=d&d=CTT20230922.1.107",
+      "source_title": "Ahascragh-Fohenagh book spot in Senior B semi-finals",
+      "publisher": "Connacht Tribune (Irish Newspaper Archives scan)",
+      "notes": "Report confirms Ahascragh-Fohenagh won by four points; exact score not clear in OCR."
+    },
+    {
+      "date": "2016-10-23",
+      "competition": "Galway Intermediate Hurling Championship",
+      "round": "County final",
+      "team": "Ahascragh/Fohenagh",
+      "opponent": "Ballinderreen",
+      "score": "Ahascragh/Fohenagh 2-15, Ballinderreen 0-8",
+      "source": "https://www.connachttribune.ie/sport/ahascraghfohenagh-finally-make-the-breakthrough-5564462",
+      "source_title": "Ahascragh/Fohenagh finally make the breakthrough",
+      "publisher": "Connacht Tribune"
+    },
+    {
+      "date": "2016-11-06",
+      "competition": "Connacht Intermediate Club Hurling Championship",
+      "round": "Final",
+      "team": "Ahascragh/Fohenagh",
+      "opponent": "Ballyhaunis",
+      "score": "Ballyhaunis 2-13, Ahascragh/Fohenagh 0-19",
+      "source": "https://www.the42.ie/ballyhaunis-ahascraghfohenagh-munster-final-3066968-Nov2016/",
+      "source_title": "Keith Higgins' Ballyhaunis side and Ahascragh Fohenagh finish all square",
+      "publisher": "The 42"
+    },
+    {
+      "date": "2016-11-13",
+      "competition": "Connacht Intermediate Club Hurling Championship",
+      "round": "Final replay",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Ballyhaunis",
+      "score": "Ahascragh-Fohenagh 2-20, Ballyhaunis 0-13",
+      "source": "https://www.the42.ie/cathal-mannion-galway-3080267-Nov2016/",
+      "source_title": "Galway's Mannion delivers man-of-the-match display in Connacht club final win",
+      "publisher": "The 42"
+    },
+    {
+      "date": "2017-01-29",
+      "competition": "All-Ireland Intermediate Club Hurling Championship",
+      "round": "Semi-final",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Lismore",
+      "score": "Ahascragh-Fohenagh 1-17, Lismore 0-13",
+      "source": "https://www.irishtimes.com/sport/gaelic-games/hurling/mannions-to-the-fore-for-ahascragh-in-intermediate-hurling-semi-final-1.2956054",
+      "source_title": "Mannions to the fore for Ahascragh in Intermediate hurling semi-final",
+      "publisher": "The Irish Times"
+    },
+    {
+      "date": "2017-02-18",
+      "competition": "All-Ireland Intermediate Club Hurling Championship",
+      "round": "Final",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Carrickshock",
+      "score": "Carrickshock 2-15, Ahascragh-Fohenagh 0-6",
+      "source": "https://www.the42.ie/carrickshock-ahascragh-fohenagh-report-3247016-Feb2017/",
+      "source_title": "Richie Power hits 0-6 on happy return to Croker as Carrickshock avenge 2005 defeat",
+      "publisher": "The 42"
+    },
+    {
+      "date": "2019-10-19",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Relegation final",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Abbeyknockmoy",
+      "score": "Ahascragh-Fohenagh 1-17, Abbeyknockmoy 1-12",
+      "source": "https://irishnewsarchive.com/?a=d&d=TTH20191023.1.61",
+      "source_title": "Mannion shoots down Abbey",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)"
+    },
+    {
+      "date": "2020-08-08",
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Group 3",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Kilnadeema-Leitrim",
+      "score": "Ahascragh-Fohenagh 2-20, Kilnadeema-Leitrim 1-19",
+      "source": "https://irishnewsarchive.com/?a=d&d=TTH20200812.1.55",
+      "source_title": "Ahascragh-Fohenagh claim the spoils after frantic finale",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)"
+    },
+    {
+      "date": "2022-07-30",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 1",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Portumna",
+      "score": "Portumna 0-23, Ahascragh-Fohenagh 0-13",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "source_title": "2022 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia"
+    },
+    {
+      "date": "2022-08-20",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 2",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Pádraig Pearse's",
+      "score": "Pádraig Pearse's 0-18, Ahascragh-Fohenagh 0-13",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "source_title": "2022 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia"
+    },
+    {
+      "date": "2022-09-04",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 3",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Liam Mellows",
+      "score": "Liam Mellows 1-24, Ahascragh-Fohenagh 2-9",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "source_title": "2022 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia"
+    },
+    {
+      "date": "2022-09-17",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 4",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Ardrahan",
+      "score": "Ardrahan 2-19, Ahascragh-Fohenagh 1-18",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "source_title": "2022 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia"
+    },
+    {
+      "date": "2022-10-01",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior B Group 2, Round 5",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Mullagh",
+      "score": "Ahascragh-Fohenagh 0-25, Mullagh 2-15",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "source_title": "2022 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia"
+    },
+    {
+      "date": "2022-10-15",
+      "competition": "Galway Senior Hurling Championship",
+      "round": "Senior relegation playoff",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Tynagh-Abbey/Duniry",
+      "score": "Ahascragh-Fohenagh 1-13, Tynagh-Abbey/Duniry 1-12",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "source_title": "2022 Galway Senior Hurling Championship",
+      "publisher": "Wikipedia"
+    },
+    {
+      "date": "2025-10-12",
+      "competition": "Galway Minor U-17 B1 Hurling Championship",
+      "round": "Final",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Micheál Breathnach",
+      "score": "Ahascragh-Fohenagh 0-14, Micheál Breathnach 1-11",
+      "source": "https://irishnewsarchive.com/?a=d&d=TTH20251015.1.56",
+      "source_title": "Ahascragh-Fohenagh earn draw",
+      "publisher": "Tuam Herald (Irish Newspaper Archives scan)"
+    },
+    {
+      "date": "2025-10-19",
+      "competition": "Galway Senior B Hurling Championship",
+      "round": "Final",
+      "team": "Ahascragh-Fohenagh",
+      "opponent": "Liam Mellows",
+      "score": "Liam Mellows 2-16, Ahascragh-Fohenagh 0-19",
+      "source": "https://www.advertiser.ie/galway/article/148059/goals-prove-the-difference-as-mellows-prevail-in-thriller",
+      "source_title": "Goals prove the difference as Mellows prevail in thriller",
+      "publisher": "Galway Advertiser"
+    }
   ],
-  "notes": "These are Galway-related finds made during the Fohenagh-first search. Archive account search was blocked by the Irish Newspaper Archives login page."
+  "notes": "Updated with INA Search UI/OCR finds plus official club results; unclear OCR scores remain null rather than inferred."
 }

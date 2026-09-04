@@ -7,6 +7,10 @@ import {
   type TripleVal,
 } from "@/lib/d4m/AssocArray";
 import seed from "../../data/seed.json";
+import {
+  allDerivedUploadTriples,
+  searchArticleUploads,
+} from "@/lib/articles";
 
 export type EntityKind =
   | "player"
@@ -17,6 +21,7 @@ export type EntityKind =
   | "season"
   | "source"
   | "community_story"
+  | "article_upload"
   | "unknown";
 
 export interface EntitySummary {
@@ -28,6 +33,10 @@ export interface EntitySummary {
   confidence?: string;
   /** Kid-friendly label derived from confidence, e.g. Verified / Needs check */
   trustLabel?: string;
+  /** Optional badge, e.g. "From your upload" */
+  badge?: string;
+  /** Public path to an uploaded image when kind is article_upload */
+  imagePath?: string;
 }
 
 export interface PendingStory {
@@ -43,9 +52,15 @@ const PENDING_PATH = path.join(process.cwd(), "data", "pending-stories.json");
 
 let cached: AssocArray | null = null;
 
+export function invalidateAssocCache(): void {
+  cached = null;
+}
+
 export function getAssoc(): AssocArray {
   if (!cached) {
-    cached = loadAssocFromJson(seed);
+    const seedList = Array.isArray(seed) ? seed : [];
+    const derived = allDerivedUploadTriples();
+    cached = loadAssocFromJson([...seedList, ...derived]);
   }
   return cached;
 }
@@ -62,7 +77,8 @@ export function entityKind(id: string, attrs?: Record<string, TripleVal>): Entit
     t === "win" ||
     t === "season" ||
     t === "source" ||
-    t === "community_story"
+    t === "community_story" ||
+    t === "article_upload"
   ) {
     return t;
   }
@@ -85,6 +101,8 @@ export function entityHref(id: string, kind?: EntityKind): string {
       return `/win/${slug}`;
     case "community_story":
       return `/story/${slug}`;
+    case "article_upload":
+      return `/article/${slug}`;
     default:
       return `/search?q=${encodeURIComponent(id)}`;
   }
@@ -150,6 +168,11 @@ export function friendlyAttrLabel(key: string): string {
     successor: "Later became",
     status: "Status",
     score_note: "Score note",
+    venue_confidence: "Venue trust",
+    tag: "Tag",
+    result: "Result",
+    kid_chip: "Kid chip",
+    round: "Round",
   };
   if (labels[key]) return labels[key];
   // Player × Season → Club cols look like "season:2016"
@@ -200,9 +223,16 @@ export function summarizeEntity(id: string, A: AssocArray = getAssoc()): EntityS
   } else if (kind === "win") {
     subtitle = `All-Ireland ${attrs.year}${attrs.opponent ? ` vs ${attrs.opponent}` : ""}`;
   } else if (kind === "match") {
-    subtitle = String(attrs.date ?? attrs.score ?? "");
+    const bits = [attrs.score, attrs.result, attrs.date, attrs.venue]
+      .filter((v) => v != null && String(v).trim() && String(v).toLowerCase() !== "null")
+      .map(String);
+    subtitle = bits.slice(0, 2).join(" · ");
   } else if (kind === "club") {
-    subtitle = String(attrs.county ?? "Galway club");
+    if (String(attrs.kid_chip ?? "") === "Before Ahascragh-Fohenagh" || id === "club:fohenagh-historic") {
+      subtitle = "Before Ahascragh-Fohenagh";
+    } else {
+      subtitle = String(attrs.county ?? "Galway club");
+    }
   } else if (kind === "team") {
     subtitle = String(attrs.nickname ?? attrs.colours ?? "");
   } else if (kind === "community_story") {
@@ -268,6 +298,13 @@ export function searchEntities(query: string): EntitySummary[] {
         seen.add(id);
         out.push(summary);
       }
+    }
+  }
+
+  for (const hit of searchArticleUploads(query)) {
+    if (!seen.has(hit.id)) {
+      seen.add(hit.id);
+      out.push(hit);
     }
   }
 

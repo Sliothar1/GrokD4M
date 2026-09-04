@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { EntityCard } from "@/components/EntityCard";
 import {
+  HistoricClubPanel,
+  HistoricPredecessorChip,
+} from "@/components/HistoricFohenaghBlock";
+import {
   displayNameForRef,
   friendlyAttrLabel,
   friendlyTrustLabel,
@@ -20,16 +24,33 @@ const HIDDEN_ATTRS = new Set([
   "body",
   "summary",
   "confidence", // shown as friendly trust badge in header
+  "kid_chip", // rendered as dedicated kid UI chip
 ]);
 
+/** Never show null / empty / literal "null" on kid Facts cards. */
+function isDisplayableVal(v: unknown): boolean {
+  if (v === null || v === undefined) return false;
+  if (typeof v === "string") {
+    const s = v.trim();
+    if (!s || s.toLowerCase() === "null" || s.toLowerCase() === "undefined") {
+      return false;
+    }
+  }
+  return true;
+}
+
 export function EntityView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples } = data;
+  const { attrs, summary, related, triples, id } = data;
   const A = getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
   const trust =
     summary.trustLabel ??
     friendlyTrustLabel(summary.confidence) ??
     (attrs.confidence ? friendlyTrustLabel(String(attrs.confidence)) : undefined);
+
+  const isAmalgam = id === "club:ahascragh-fohenagh";
+  const isHistoric = id === "club:fohenagh-historic";
+  const isHistoric1959 = id === "match:fohenagh-historic-1959-galway-shc-final";
 
   return (
     <article className="space-y-8">
@@ -58,6 +79,13 @@ export function EntityView({ data }: { data: EntityPayload }) {
             </span>
           </p>
         )}
+        {isHistoric && (
+          <div className="pt-1">
+            <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
+              Before Ahascragh-Fohenagh
+            </span>
+          </div>
+        )}
       </header>
 
       {attrs.notable || attrs.note || attrs.body || attrs.summary ? (
@@ -66,11 +94,23 @@ export function EntityView({ data }: { data: EntityPayload }) {
         </p>
       ) : null}
 
+      {isHistoric && <HistoricClubPanel />}
+
+      {isAmalgam && <HistoricPredecessorChip />}
+
+      {isHistoric1959 && (
+        <p className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+          Fohenagh scored <strong>3-9</strong> after a replay at Kenny Park. Castlegar&apos;s
+          total is not shown here — sources disagree (2-5 vs 4-5), so we leave it off the
+          board until archives settle it.
+        </p>
+      )}
+
       <section>
         <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Facts</h2>
         <dl className="grid gap-3 sm:grid-cols-2">
           {Object.entries(attrs)
-            .filter(([k]) => !HIDDEN_ATTRS.has(k))
+            .filter(([k, v]) => !HIDDEN_ATTRS.has(k) && isDisplayableVal(v))
             .map(([k, v]) => (
               <div
                 key={k}
@@ -154,7 +194,7 @@ export function EntityView({ data }: { data: EntityPayload }) {
         </p>
         <ul className="space-y-2 font-mono text-sm">
           {triples
-            .filter((t) => t.col !== "confidence")
+            .filter((t) => t.col !== "confidence" && isDisplayableVal(t.val))
             .map((t) => (
               <li
                 key={`${t.row}-${t.col}`}

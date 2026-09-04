@@ -1,14 +1,40 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 
-export function StoryForm() {
-  const [title, setTitle] = useState("");
+type Chip = { label: string; id: string };
+
+/** Amalgam / Mannion chips — never put historic Fohenagh chips here. */
+const AMALGAM_CHIPS: Chip[] = [
+  { label: "Fohenagh", id: "club:ahascragh-fohenagh" },
+  { label: "Cathal Mannion", id: "player:cathal-mannion" },
+  { label: "Pádraic Mannion", id: "player:padraic-mannion" },
+  { label: "A day at Fohenagh Sportsfield", id: "club:ahascragh-fohenagh" },
+  { label: "When Fohenagh went blue-white-red mad in 2016", id: "club:ahascragh-fohenagh" },
+];
+
+export function StoryForm({
+  initialLink = "",
+  initialPrompt = "",
+  chips = AMALGAM_CHIPS,
+  emptyCta,
+}: {
+  initialLink?: string;
+  initialPrompt?: string;
+  chips?: Chip[];
+  emptyCta?: string;
+}) {
+  const [title, setTitle] = useState(initialPrompt);
   const [author, setAuthor] = useState("");
   const [body, setBody] = useState("");
-  const [linkedEntity, setLinkedEntity] = useState("");
+  const [linkedEntity, setLinkedEntity] = useState(initialLink);
   const [status, setStatus] = useState<"idle" | "saving" | "ok" | "err">("idle");
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    if (initialLink) setLinkedEntity(initialLink);
+    if (initialPrompt) setTitle(initialPrompt);
+  }, [initialLink, initialPrompt]);
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
@@ -43,8 +69,8 @@ export function StoryForm() {
     >
       <h2 className="text-2xl font-bold text-galway-maroon">Share a story</h2>
       <p className="text-base text-galway-ink/70">
-        Family memories welcome. Pending stories stay separate from the official seed
-        facts.
+        {emptyCta ??
+          "Family memories welcome. Pending stories stay separate from the official seed facts."}
       </p>
       <div>
         <label className="mb-1 block font-semibold" htmlFor="story-title">
@@ -97,15 +123,14 @@ export function StoryForm() {
         />
         <div className="mt-2 flex flex-wrap gap-2">
           <span className="self-center text-sm text-galway-ink/60">Quick link:</span>
-          {[
-            { label: "Fohenagh", id: "club:ahascragh-fohenagh" },
-            { label: "Cathal Mannion", id: "player:cathal-mannion" },
-            { label: "Pádraic Mannion", id: "player:padraic-mannion" },
-          ].map((chip) => (
+          {chips.map((chip) => (
             <button
-              key={chip.id}
+              key={`${chip.id}-${chip.label}`}
               type="button"
-              onClick={() => setLinkedEntity(chip.id)}
+              onClick={() => {
+                setLinkedEntity(chip.id);
+                if (!title) setTitle(chip.label);
+              }}
               className="rounded-full border-2 border-galway-maroon/30 bg-galway-cream/50 px-3 py-1 text-sm font-semibold text-galway-maroon hover:border-galway-maroon"
             >
               {chip.label}

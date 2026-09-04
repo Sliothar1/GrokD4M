@@ -11,8 +11,13 @@
       "opponent": "Castlegar",
       "status": "winner",
       "score": {
-        "verified": false,
-        "sources_differ": true,
+        "verified_home": "Fohenagh 3-9",
+        "opponent_score_stored": false,
+        "opponent_score_omitted_reason": "Conflict between galwaygaa.ie 2-5 and Wikipedia replay 4-05; pending Irish Newspaper Archives / Steve Dolan",
+        "result": "after a replay",
+        "venue": "Kenny Park",
+        "venue_confidence": "board",
+        "sources_differ_on_opponent": true,
         "wikipedia": {
           "drawn_final": "Fohenagh 2-08, Castlegar 1-11",
           "replay": "Fohenagh 3-09, Castlegar 4-05"
@@ -26,7 +31,7 @@
           "note": "Lists '1959 Fohenagh after a replay' (winner only; no scores)."
         }
       },
-      "notes": "Winner status is well attested. Exact 1959 scoreline is uncertain because Wikipedia (draw + replay scores) and galwaygaa.ie (single 3-9 to 2-5) disagree; no invented reconciliation."
+      "notes": "Driving Committee adjudication: ship Fohenagh 3-9 after a replay at Kenny Park; omit Castlegar total entirely (no null on screen)."
     },
     {
       "year": 1960,
@@ -35,8 +40,8 @@
       "status": "winner",
       "score": {
         "verified": true,
-        "winner": "Fohenagh 4-09",
-        "runner_up": "Castlegar 2-07",
+        "winner": "Fohenagh 4-9",
+        "runner_up": "Castlegar 2-7",
         "venue": "Pearse Stadium",
         "agreeing_sources": [
           "galwaygaa.ie",
@@ -121,19 +126,15 @@
     }
   ],
   "confidence": {
-    "overall": "high for winners; medium for 1959 exact scoreline",
+    "overall": "high for winners and Fohenagh 1959 score 3-9; Castlegar 1959 total withheld",
     "verified": [
-      "Fohenagh won Galway Senior Hurling Championship in 1959 (historic predecessor club)",
-      "Fohenagh won Galway Senior Hurling Championship in 1960 (historic predecessor club)",
+      "Fohenagh won Galway SHC 1959 and 1960 (historic predecessor)",
       "Opponent both years: Castlegar",
-      "1960 score Fohenagh 4-09 Castlegar 2-07 (galwaygaa.ie + Wikipedia agree)",
-      "1960 venue Pearse Stadium (galwaygaa.ie)",
-      "1959 decided after a replay (HoganStand; Wikipedia)"
+      "1959 Fohenagh score 3-9 after a replay; venue Kenny Park (confidence: board)",
+      "1960 Fohenagh 4-9 Castlegar 2-7 at Pearse Stadium"
     ],
-    "uncertain": [
-      "1959 exact scores: Wikipedia lists draw 2-08 to 1-11 and replay 3-09 to 4-05; galwaygaa.ie lists only Fohenagh 3-9 Castlegar 2-5 at Kenny Park without a replay note",
-      "Match dates for 1959/1960 finals not located in freely accessible contemporary newspaper text",
-      "Irish Newspaper Archives not searched internally (login wall; credentials not entered)"
+    "withheld": [
+      "1959 Castlegar score (2-5 vs 4-5 conflict) — do not store or display"
     ]
   },
   "notes": [
@@ -142,5 +143,16 @@
     "INA (irishnewsarchive.com) presents Sign in / Subscribe; no password was entered. Public web sources used instead.",
     "No browserUse MCP was available in this executor environment; research used WebSearch, WebFetch, and curl."
   ],
-  "article_count": 9
+  "article_count": 9,
+  "adjudication": {
+    "body": "HurlingWiki Driving Committee",
+    "date": "2026-09-04",
+    "decision": [
+      "Entity club:fohenagh-historic separate from club:ahascragh-fohenagh",
+      "1960: full Fohenagh 4-9, Castlegar 2-7, Pearse Stadium",
+      "1959: store Fohenagh 3-9 after a replay vs Castlegar at Kenny Park (venue confidence: board); do NOT store Castlegar score (2-5 vs 4-5 conflict)",
+      "Kid UI chip Before Ahascragh-Fohenagh; never show null; omit unverified opponent score line",
+      "Historic story chips only on historic block"
+    ]
+  }
 }

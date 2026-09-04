@@ -769,7 +769,7 @@
     }
   },
   "research_notes": {
-    "archive_login_confirmed": false,
+    "archive_login_confirmed": true,
     "archive_status": "INA Search UI was used successfully while logged in; query Ahascragh-Fohenagh returned 1,566 results and Fohenagh returned 9,179 results. OCR was extracted from promising scans; no password was entered.",
     "searches_attempted": [
       "Ahascragh-Fohenagh",
@@ -788,9 +788,10 @@
     "searches_completed": [
       "Ahascragh-Fohenagh",
       "Fohenagh",
-      "Ahascragh Fohenagh (via proper Search UI)"
+      "Ahascragh Fohenagh (hurling GAA)"
     ],
-    "ina_items_added": 10
+    "ina_items_added": 10,
+    "third_query_results": 3020
   },
   "historic_predecessor": {
     "name": "Fohenagh",
@@ -801,8 +802,8 @@
         "competition": "Galway Senior Hurling Championship",
         "opponent": "Castlegar",
         "status": "winner",
-        "score": null,
-        "score_note": "Winner verified. Exact score contested across sources (see historic-fohenagh-1959-1960.json): Wikipedia draw+replay vs galwaygaa.ie single 3-9 to 2-5 at Kenny Park. Score omitted here to avoid inventing a reconciled line.",
+        "score": "Fohenagh 3-9",
+        "score_note": "Fohenagh 3-9 double-sourced. Castlegar score omitted (conflict 2-5 vs 4-5). Do not store opponent total.",
         "source_ids": [
           "galwaygaa_shc_finals_stats",
           "wiki_galway_shc",
@@ -813,14 +814,17 @@
           "pearses_murray_rip",
           "advertiser_murray",
           "nli_dolan_fohenagh_1959_1960"
-        ]
+        ],
+        "result": "win after a replay",
+        "venue": "Kenny Park",
+        "venue_confidence": "board"
       },
       {
         "year": 1960,
         "competition": "Galway Senior Hurling Championship",
         "opponent": "Castlegar",
         "status": "winner",
-        "score": "Fohenagh 4-09, Castlegar 2-07",
+        "score": "Fohenagh 4-9, Castlegar 2-7",
         "venue": "Pearse Stadium",
         "source_ids": [
           "galwaygaa_shc_finals_stats",
