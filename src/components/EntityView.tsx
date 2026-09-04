@@ -1,13 +1,35 @@
 import Link from "next/link";
 import { EntityCard } from "@/components/EntityCard";
-import type { getEntity } from "@/lib/data";
+import {
+  displayNameForRef,
+  friendlyAttrLabel,
+  friendlyTrustLabel,
+  getAssoc,
+  isEntityRef,
+  type getEntity,
+} from "@/lib/data";
 
 type EntityPayload = NonNullable<ReturnType<typeof getEntity>>;
 
+const HIDDEN_ATTRS = new Set([
+  "type",
+  "name",
+  "title",
+  "notable",
+  "note",
+  "body",
+  "summary",
+  "confidence", // shown as friendly trust badge in header
+]);
+
 export function EntityView({ data }: { data: EntityPayload }) {
   const { attrs, summary, related, triples } = data;
-  const skip = new Set(["type", "name", "title"]);
+  const A = getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
+  const trust =
+    summary.trustLabel ??
+    friendlyTrustLabel(summary.confidence) ??
+    (attrs.confidence ? friendlyTrustLabel(String(attrs.confidence)) : undefined);
 
   return (
     <article className="space-y-8">
@@ -21,9 +43,19 @@ export function EntityView({ data }: { data: EntityPayload }) {
         {summary.subtitle && (
           <p className="text-xl text-galway-ink/70">{summary.subtitle}</p>
         )}
-        {summary.confidence && (
-          <p className="text-sm text-galway-ink/50">
-            Confidence: <strong>{summary.confidence}</strong>
+        {trust && (
+          <p className="text-sm text-galway-ink/60">
+            <span
+              className={
+                trust === "Verified"
+                  ? "rounded-full bg-green-100 px-2 py-0.5 font-semibold text-green-800"
+                  : trust === "Fan story"
+                    ? "rounded-full bg-galway-gold/30 px-2 py-0.5 font-semibold text-galway-ink"
+                    : "rounded-full bg-amber-100 px-2 py-0.5 font-semibold text-amber-900"
+              }
+            >
+              {trust}
+            </span>
           </p>
         )}
       </header>
@@ -38,17 +70,17 @@ export function EntityView({ data }: { data: EntityPayload }) {
         <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Facts</h2>
         <dl className="grid gap-3 sm:grid-cols-2">
           {Object.entries(attrs)
-            .filter(([k]) => !skip.has(k) && k !== "notable" && k !== "note" && k !== "body" && k !== "summary")
+            .filter(([k]) => !HIDDEN_ATTRS.has(k))
             .map(([k, v]) => (
               <div
                 key={k}
                 className="rounded-xl border border-galway-maroon/10 bg-white px-4 py-3"
               >
                 <dt className="text-xs font-bold uppercase tracking-wide text-galway-ink/50">
-                  {k.replace(/_/g, " ")}
+                  {friendlyAttrLabel(k)}
                 </dt>
-                <dd className="mt-1 text-lg font-semibold text-galway-ink break-all">
-                  {typeof v === "string" && v.includes(":") ? (
+                <dd className="mt-1 text-lg font-semibold text-galway-ink break-words">
+                  {isEntityRef(v) ? (
                     <Link
                       href={
                         v.startsWith("player:")
@@ -61,11 +93,13 @@ export function EntityView({ data }: { data: EntityPayload }) {
                                 ? `/match/${v.slice(6)}`
                                 : v.startsWith("win:")
                                   ? `/win/${v.slice(4)}`
-                                  : `/search?q=${encodeURIComponent(v)}`
+                                  : v.startsWith("story:")
+                                    ? `/story/${v.slice(6)}`
+                                    : `/search?q=${encodeURIComponent(v)}`
                       }
                       className="text-galway-maroon underline"
                     >
-                      {v}
+                      {displayNameForRef(v, A)}
                     </Link>
                   ) : typeof v === "string" && v.startsWith("http") ? (
                     <a
@@ -84,15 +118,15 @@ export function EntityView({ data }: { data: EntityPayload }) {
             ))}
         </dl>
         {source && source.startsWith("http") && (
-          <p className="mt-4 text-sm">
-            Cite:{" "}
+          <p className="mt-4 text-sm text-galway-ink/70">
+            Source:{" "}
             <a
               href={source}
               className="font-semibold text-galway-maroon underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {source}
+              Open source
             </a>
           </p>
         )}
@@ -111,25 +145,32 @@ export function EntityView({ data }: { data: EntityPayload }) {
 
       <section>
         <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
-          D4M triples for this row
+          How the sticky-note board stores this
         </h2>
         <p className="mb-3 text-base text-galway-ink/70">
-          Each line is one associative-array edge: <code className="font-mono">row</code>{" "}
-          → <code className="font-mono">col</code> = value.
+          Grown-ups: each line is one associative-array edge (
+          <code className="font-mono">row → col = value</code>). Kids can skip this —
+          the Facts above are the friendly view.
         </p>
         <ul className="space-y-2 font-mono text-sm">
-          {triples.map((t) => (
-            <li
-              key={`${t.row}-${t.col}`}
-              className="rounded-lg bg-galway-ink px-3 py-2 text-galway-cream"
-            >
-              <span className="text-galway-gold">{t.row}</span>
-              {" · "}
-              <span className="text-white">{t.col}</span>
-              {" = "}
-              <span className="text-galway-cream">{String(t.val)}</span>
-            </li>
-          ))}
+          {triples
+            .filter((t) => t.col !== "confidence")
+            .map((t) => (
+              <li
+                key={`${t.row}-${t.col}`}
+                className="rounded-lg bg-galway-ink px-3 py-2 text-galway-cream"
+              >
+                <span className="text-galway-gold">{t.row}</span>
+                {" · "}
+                <span className="text-white">{t.col}</span>
+                {" = "}
+                <span className="text-galway-cream">
+                  {isEntityRef(t.val)
+                    ? `${displayNameForRef(String(t.val), A)} (${t.val})`
+                    : String(t.val)}
+                </span>
+              </li>
+            ))}
         </ul>
       </section>
     </article>

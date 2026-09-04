@@ -67,9 +67,9 @@ export default function AboutPage() {
       <section className="space-y-3">
         <h2 className="text-2xl font-bold text-galway-maroon">Sources</h2>
         <p className="text-lg leading-relaxed">
-          Seed citations point at public Wikipedia and GAA-style pages. Confidence tags (
-          <em>high</em>, <em>medium</em>, <em>community</em>) sit on each entity. No fake live
-          APIs — what you see is the local seed.
+          Seed citations point at public Wikipedia and GAA-style pages. On the site we show
+          friendly trust labels (<em>Verified</em>, <em>Needs check</em>, <em>Fan story</em>)
+          instead of raw confidence jargon. No fake live APIs — what you see is the local seed.
         </p>
       </section>
     </div>

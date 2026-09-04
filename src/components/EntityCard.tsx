@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { EntitySummary } from "@/lib/data";
+import { friendlyTrustLabel, type EntitySummary } from "@/lib/data";
 
 const kindLabel: Record<string, string> = {
   player: "Player",
@@ -14,6 +14,8 @@ const kindLabel: Record<string, string> = {
 };
 
 export function EntityCard({ entity }: { entity: EntitySummary }) {
+  const trust = entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
+
   return (
     <Link
       href={entity.href}
@@ -23,10 +25,8 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
         <span className="rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
           {kindLabel[entity.kind] ?? entity.kind}
         </span>
-        {entity.confidence && (
-          <span className="text-xs text-galway-ink/50">
-            confidence: {entity.confidence}
-          </span>
+        {trust && (
+          <span className="text-xs font-semibold text-galway-ink/55">{trust}</span>
         )}
       </div>
       <h3 className="text-xl font-bold text-galway-ink">{entity.title}</h3>

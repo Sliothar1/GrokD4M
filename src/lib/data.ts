@@ -26,6 +26,8 @@ export interface EntitySummary {
   subtitle?: string;
   href: string;
   confidence?: string;
+  /** Kid-friendly label derived from confidence, e.g. Verified / Needs check */
+  trustLabel?: string;
 }
 
 export interface PendingStory {
@@ -88,16 +90,101 @@ export function entityHref(id: string, kind?: EntityKind): string {
   }
 }
 
+/** Friendly trust badge for kids/adults — never show raw "confidence: medium". */
+export function friendlyTrustLabel(confidence?: string | null): string | undefined {
+  if (!confidence) return undefined;
+  const c = confidence.toLowerCase();
+  if (c === "high") return "Verified";
+  if (c === "medium") return "Needs check";
+  if (c === "low") return "Needs check";
+  if (c === "community") return "Fan story";
+  return "Needs check";
+}
+
+/** Human label for an attribute key shown in Facts. */
+export function friendlyAttrLabel(key: string): string {
+  const labels: Record<string, string> = {
+    all_ireland_medals: "All-Ireland medals",
+    all_stars: "All Stars",
+    linked_entity: "About",
+    win_ref: "All-Ireland link",
+    county: "County team",
+    club: "Club",
+    team: "Team",
+    position: "Position",
+    born: "Born",
+    notable: "Notable",
+    opponent: "Opponent",
+    score: "Score",
+    venue: "Venue",
+    year: "Year",
+    competition: "Competition",
+    manager: "Manager",
+    captain: "Captain",
+    outcome: "Outcome",
+    nickname: "Nickname",
+    colours: "Colours",
+    province: "Province",
+    ground: "Home ground",
+    author: "Author",
+    body: "Story",
+    summary: "Summary",
+    note: "Note",
+    date: "Date",
+    home: "Side",
+    away: "Opposition",
+    winner: "Winner",
+    season: "Season",
+    source: "Source",
+    confidence: "Trust",
+    type: "Type",
+    name: "Name",
+    title: "Title",
+    url: "Link",
+    kind: "Kind",
+  };
+  return labels[key] ?? key.replace(/_/g, " ");
+}
+
+/**
+ * Resolve an entity ref like "club:portumna" or "team:galway" to a display name
+ * via AssocArray name/title/year attrs. Falls back to a cleaned slug.
+ */
+export function displayNameForRef(
+  ref: string,
+  A: AssocArray = getAssoc()
+): string {
+  if (!ref.includes(":")) return ref;
+  const attrs = A.entityAttrs(ref);
+  if (attrs.name) return String(attrs.name);
+  if (attrs.title) return String(attrs.title);
+  if (attrs.year != null) return String(attrs.year);
+  const slug = ref.slice(ref.indexOf(":") + 1);
+  return slug
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+/** True if value looks like an entity id (player:, club:, …). */
+export function isEntityRef(val: unknown): val is `${string}:${string}` {
+  return (
+    typeof val === "string" &&
+    /^[a-z_]+:[a-z0-9][a-z0-9_-]*$/i.test(val) &&
+    !val.startsWith("http")
+  );
+}
+
 export function summarizeEntity(id: string, A: AssocArray = getAssoc()): EntitySummary | null {
   const attrs = A.entityAttrs(id);
   if (Object.keys(attrs).length === 0) return null;
   const kind = entityKind(id, attrs);
   const title =
-    String(attrs.name ?? attrs.title ?? attrs.year ?? id);
+    String(attrs.name ?? attrs.title ?? attrs.year ?? displayNameForRef(id, A));
   let subtitle: string | undefined;
   if (kind === "player") {
     const clubId = attrs.club ? String(attrs.club) : "";
-    const clubName = clubId ? String(A.get(clubId, "name") ?? clubId) : "";
+    const clubName = clubId ? displayNameForRef(clubId, A) : "";
     subtitle = [attrs.position, clubName].filter(Boolean).map(String).join(" · ");
   } else if (kind === "win") {
     subtitle = `All-Ireland ${attrs.year}${attrs.opponent ? ` vs ${attrs.opponent}` : ""}`;
@@ -109,14 +196,18 @@ export function summarizeEntity(id: string, A: AssocArray = getAssoc()): EntityS
     subtitle = String(attrs.nickname ?? attrs.colours ?? "");
   } else if (kind === "community_story") {
     subtitle = attrs.author ? `by ${attrs.author}` : "Community story";
+  } else if (kind === "season") {
+    subtitle = String(attrs.outcome ?? attrs.year ?? "");
   }
+  const confidence = attrs.confidence ? String(attrs.confidence) : undefined;
   return {
     id,
     kind,
     title,
     subtitle: subtitle || undefined,
     href: entityHref(id, kind),
-    confidence: attrs.confidence ? String(attrs.confidence) : undefined,
+    confidence,
+    trustLabel: friendlyTrustLabel(confidence),
   };
 }
 
@@ -233,5 +324,7 @@ export function demoStats() {
     cols: A.cols().length,
     players: A.entitiesOfType("player").length,
     wins: A.entitiesOfType("win").length,
+    clubs: A.entitiesOfType("club").length,
+    stories: A.entitiesOfType("story").length,
   };
 }

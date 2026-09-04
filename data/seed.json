@@ -1,290 +1,3967 @@
 [
-  {"row": "team:galway", "col": "type", "val": "team"},
-  {"row": "team:galway", "col": "name", "val": "Galway"},
-  {"row": "team:galway", "col": "nickname", "val": "The Tribesmen"},
-  {"row": "team:galway", "col": "colours", "val": "Maroon and white"},
-  {"row": "team:galway", "col": "province", "val": "Connacht"},
-  {"row": "team:galway", "col": "ground", "val": "Pearse Stadium, Salthill"},
-  {"row": "team:galway", "col": "summary", "val": "Galway senior hurling team — Galway first, Ireland next."},
-  {"row": "team:galway", "col": "confidence", "val": "high"},
-  {"row": "team:galway", "col": "source", "val": "https://en.wikipedia.org/wiki/Galway_county_hurling_team"},
-
-  {"row": "win:1923", "col": "type", "val": "all_ireland_win"},
-  {"row": "win:1923", "col": "year", "val": 1923},
-  {"row": "win:1923", "col": "competition", "val": "All-Ireland Senior Hurling Championship"},
-  {"row": "win:1923", "col": "team", "val": "team:galway"},
-  {"row": "win:1923", "col": "opponent", "val": "Limerick"},
-  {"row": "win:1923", "col": "score", "val": "Galway 7–3 Limerick 4–5"},
-  {"row": "win:1923", "col": "venue", "val": "Croke Park"},
-  {"row": "win:1923", "col": "note", "val": "Galway's first All-Ireland senior hurling title."},
-  {"row": "win:1923", "col": "confidence", "val": "high"},
-  {"row": "win:1923", "col": "source", "val": "https://en.wikipedia.org/wiki/1923_All-Ireland_Senior_Hurling_Championship"},
-
-  {"row": "win:1980", "col": "type", "val": "all_ireland_win"},
-  {"row": "win:1980", "col": "year", "val": 1980},
-  {"row": "win:1980", "col": "competition", "val": "All-Ireland Senior Hurling Championship"},
-  {"row": "win:1980", "col": "team", "val": "team:galway"},
-  {"row": "win:1980", "col": "opponent", "val": "Limerick"},
-  {"row": "win:1980", "col": "score", "val": "Galway 2–15 Limerick 3–9"},
-  {"row": "win:1980", "col": "venue", "val": "Croke Park"},
-  {"row": "win:1980", "col": "note", "val": "Ended a 57-year wait; Joe Connolly's famous speech."},
-  {"row": "win:1980", "col": "confidence", "val": "high"},
-  {"row": "win:1980", "col": "source", "val": "https://en.wikipedia.org/wiki/1980_All-Ireland_Senior_Hurling_Championship_Final"},
-
-  {"row": "win:1987", "col": "type", "val": "all_ireland_win"},
-  {"row": "win:1987", "col": "year", "val": 1987},
-  {"row": "win:1987", "col": "competition", "val": "All-Ireland Senior Hurling Championship"},
-  {"row": "win:1987", "col": "team", "val": "team:galway"},
-  {"row": "win:1987", "col": "opponent", "val": "Kilkenny"},
-  {"row": "win:1987", "col": "score", "val": "Galway 1–12 Kilkenny 0–9"},
-  {"row": "win:1987", "col": "venue", "val": "Croke Park"},
-  {"row": "win:1987", "col": "note", "val": "Back-to-back era begins under Cyril Farrell."},
-  {"row": "win:1987", "col": "confidence", "val": "high"},
-  {"row": "win:1987", "col": "source", "val": "https://en.wikipedia.org/wiki/1987_All-Ireland_Senior_Hurling_Championship_Final"},
-
-  {"row": "win:1988", "col": "type", "val": "all_ireland_win"},
-  {"row": "win:1988", "col": "year", "val": 1988},
-  {"row": "win:1988", "col": "competition", "val": "All-Ireland Senior Hurling Championship"},
-  {"row": "win:1988", "col": "team", "val": "team:galway"},
-  {"row": "win:1988", "col": "opponent", "val": "Tipperary"},
-  {"row": "win:1988", "col": "score", "val": "Galway 1–15 Tipperary 0–14"},
-  {"row": "win:1988", "col": "venue", "val": "Croke Park"},
-  {"row": "win:1988", "col": "note", "val": "Second consecutive title; Conor Hayes captain."},
-  {"row": "win:1988", "col": "confidence", "val": "high"},
-  {"row": "win:1988", "col": "source", "val": "https://en.wikipedia.org/wiki/1988_All-Ireland_Senior_Hurling_Championship_Final"},
-
-  {"row": "win:2017", "col": "type", "val": "all_ireland_win"},
-  {"row": "win:2017", "col": "year", "val": 2017},
-  {"row": "win:2017", "col": "competition", "val": "All-Ireland Senior Hurling Championship"},
-  {"row": "win:2017", "col": "team", "val": "team:galway"},
-  {"row": "win:2017", "col": "opponent", "val": "Waterford"},
-  {"row": "win:2017", "col": "score", "val": "Galway 0–26 Waterford 2–17"},
-  {"row": "win:2017", "col": "venue", "val": "Croke Park"},
-  {"row": "win:2017", "col": "note", "val": "First title since 1988; David Burke captain; Micheál Donoghue manager."},
-  {"row": "win:2017", "col": "confidence", "val": "high"},
-  {"row": "win:2017", "col": "source", "val": "https://en.wikipedia.org/wiki/2017_All-Ireland_Senior_Hurling_Championship_Final"},
-
-  {"row": "player:joe-canning", "col": "type", "val": "player"},
-  {"row": "player:joe-canning", "col": "name", "val": "Joe Canning"},
-  {"row": "player:joe-canning", "col": "club", "val": "club:portumna"},
-  {"row": "player:joe-canning", "col": "county", "val": "team:galway"},
-  {"row": "player:joe-canning", "col": "position", "val": "Forward"},
-  {"row": "player:joe-canning", "col": "born", "val": "1988"},
-  {"row": "player:joe-canning", "col": "all_stars", "val": 5},
-  {"row": "player:joe-canning", "col": "all_ireland_medals", "val": 1},
-  {"row": "player:joe-canning", "col": "notable", "val": "All-Ireland winner 2017; iconic free-taker and playmaker."},
-  {"row": "player:joe-canning", "col": "confidence", "val": "high"},
-  {"row": "player:joe-canning", "col": "source", "val": "https://en.wikipedia.org/wiki/Joe_Canning"},
-
-  {"row": "player:david-burke", "col": "type", "val": "player"},
-  {"row": "player:david-burke", "col": "name", "val": "David Burke"},
-  {"row": "player:david-burke", "col": "club", "val": "club:st-thomas"},
-  {"row": "player:david-burke", "col": "county", "val": "team:galway"},
-  {"row": "player:david-burke", "col": "position", "val": "Midfield"},
-  {"row": "player:david-burke", "col": "all_ireland_medals", "val": 1},
-  {"row": "player:david-burke", "col": "notable", "val": "Captain of the 2017 All-Ireland winning team."},
-  {"row": "player:david-burke", "col": "confidence", "val": "high"},
-  {"row": "player:david-burke", "col": "source", "val": "https://en.wikipedia.org/wiki/David_Burke_(Galway_hurler)"},
-
-  {"row": "player:damien-hayes", "col": "type", "val": "player"},
-  {"row": "player:damien-hayes", "col": "name", "val": "Damien Hayes"},
-  {"row": "player:damien-hayes", "col": "club", "val": "club:portumna"},
-  {"row": "player:damien-hayes", "col": "county", "val": "team:galway"},
-  {"row": "player:damien-hayes", "col": "position", "val": "Corner-forward"},
-  {"row": "player:damien-hayes", "col": "all_stars", "val": 3},
-  {"row": "player:damien-hayes", "col": "notable", "val": "Pacey Portumna and Galway forward of the 2000s."},
-  {"row": "player:damien-hayes", "col": "confidence", "val": "high"},
-  {"row": "player:damien-hayes", "col": "source", "val": "https://en.wikipedia.org/wiki/Damien_Hayes"},
-
-  {"row": "player:joe-cooney", "col": "type", "val": "player"},
-  {"row": "player:joe-cooney", "col": "name", "val": "Joe Cooney"},
-  {"row": "player:joe-cooney", "col": "club", "val": "club:sarsfields"},
-  {"row": "player:joe-cooney", "col": "county", "val": "team:galway"},
-  {"row": "player:joe-cooney", "col": "position", "val": "Centre-forward"},
-  {"row": "player:joe-cooney", "col": "all_ireland_medals", "val": 2},
-  {"row": "player:joe-cooney", "col": "notable", "val": "All-Ireland winner 1987 and 1988; multiple All-Star."},
-  {"row": "player:joe-cooney", "col": "confidence", "val": "high"},
-  {"row": "player:joe-cooney", "col": "source", "val": "https://en.wikipedia.org/wiki/Joe_Cooney"},
-
-  {"row": "player:conor-whelan", "col": "type", "val": "player"},
-  {"row": "player:conor-whelan", "col": "name", "val": "Conor Whelan"},
-  {"row": "player:conor-whelan", "col": "club", "val": "club:kinvara"},
-  {"row": "player:conor-whelan", "col": "county", "val": "team:galway"},
-  {"row": "player:conor-whelan", "col": "position", "val": "Corner-forward"},
-  {"row": "player:conor-whelan", "col": "all_ireland_medals", "val": 1},
-  {"row": "player:conor-whelan", "col": "notable", "val": "Key forward in 2017; known for pace and finishing."},
-  {"row": "player:conor-whelan", "col": "confidence", "val": "high"},
-  {"row": "player:conor-whelan", "col": "source", "val": "https://en.wikipedia.org/wiki/Conor_Whelan"},
-
-  {"row": "player:joseph-cooney", "col": "type", "val": "player"},
-  {"row": "player:joseph-cooney", "col": "name", "val": "Joseph Cooney"},
-  {"row": "player:joseph-cooney", "col": "club", "val": "club:sarsfields"},
-  {"row": "player:joseph-cooney", "col": "county", "val": "team:galway"},
-  {"row": "player:joseph-cooney", "col": "position", "val": "Half-back / Midfield"},
-  {"row": "player:joseph-cooney", "col": "all_ireland_medals", "val": 1},
-  {"row": "player:joseph-cooney", "col": "notable", "val": "Son of Joe Cooney; 2017 All-Ireland medallist."},
-  {"row": "player:joseph-cooney", "col": "confidence", "val": "medium"},
-  {"row": "player:joseph-cooney", "col": "source", "val": "https://en.wikipedia.org/wiki/Joseph_Cooney"},
-
-  {"row": "player:cathal-mannion", "col": "type", "val": "player"},
-  {"row": "player:cathal-mannion", "col": "name", "val": "Cathal Mannion"},
-  {"row": "player:cathal-mannion", "col": "club", "val": "club:athanry"},
-  {"row": "player:cathal-mannion", "col": "county", "val": "team:galway"},
-  {"row": "player:cathal-mannion", "col": "position", "val": "Forward"},
-  {"row": "player:cathal-mannion", "col": "all_ireland_medals", "val": 1},
-  {"row": "player:cathal-mannion", "col": "notable", "val": "Stylish Ahascragh-Fohenagh / Galway attacker; 2017 winner."},
-  {"row": "player:cathal-mannion", "col": "confidence", "val": "high"},
-  {"row": "player:cathal-mannion", "col": "source", "val": "https://en.wikipedia.org/wiki/Cathal_Mannion"},
-
-  {"row": "player:padraic-mannion", "col": "type", "val": "player"},
-  {"row": "player:padraic-mannion", "col": "name", "val": "Pádraic Mannion"},
-  {"row": "player:padraic-mannion", "col": "club", "val": "club:athanry"},
-  {"row": "player:padraic-mannion", "col": "county", "val": "team:galway"},
-  {"row": "player:padraic-mannion", "col": "position", "val": "Half-back"},
-  {"row": "player:padraic-mannion", "col": "all_ireland_medals", "val": 1},
-  {"row": "player:padraic-mannion", "col": "notable", "val": "Defensive leader; brother of Cathal; 2017 All-Ireland."},
-  {"row": "player:padraic-mannion", "col": "confidence", "val": "high"},
-  {"row": "player:padraic-mannion", "col": "source", "val": "https://en.wikipedia.org/wiki/P%C3%A1draic_Mannion"},
-
-  {"row": "club:portumna", "col": "type", "val": "club"},
-  {"row": "club:portumna", "col": "name", "val": "Portumna"},
-  {"row": "club:portumna", "col": "county", "val": "Galway"},
-  {"row": "club:portumna", "col": "notable", "val": "All-Ireland club champions; home of Joe Canning and Damien Hayes."},
-  {"row": "club:portumna", "col": "confidence", "val": "high"},
-  {"row": "club:portumna", "col": "source", "val": "https://en.wikipedia.org/wiki/Portumna_GAA"},
-
-  {"row": "club:st-thomas", "col": "type", "val": "club"},
-  {"row": "club:st-thomas", "col": "name", "val": "St Thomas'"},
-  {"row": "club:st-thomas", "col": "county", "val": "Galway"},
-  {"row": "club:st-thomas", "col": "notable", "val": "Multiple Galway SHC winners; David Burke's club."},
-  {"row": "club:st-thomas", "col": "confidence", "val": "high"},
-  {"row": "club:st-thomas", "col": "source", "val": "https://en.wikipedia.org/wiki/St_Thomas%27_GAA"},
-
-  {"row": "club:sarsfields", "col": "type", "val": "club"},
-  {"row": "club:sarsfields", "col": "name", "val": "Sarsfields"},
-  {"row": "club:sarsfields", "col": "county", "val": "Galway"},
-  {"row": "club:sarsfields", "col": "notable", "val": "East Galway club; Cooney family stronghold."},
-  {"row": "club:sarsfields", "col": "confidence", "val": "high"},
-  {"row": "club:sarsfields", "col": "source", "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"},
-
-  {"row": "club:kinvara", "col": "type", "val": "club"},
-  {"row": "club:kinvara", "col": "name", "val": "Kinvara"},
-  {"row": "club:kinvara", "col": "county", "val": "Galway"},
-  {"row": "club:kinvara", "col": "notable", "val": "South Galway club; Conor Whelan's club."},
-  {"row": "club:kinvara", "col": "confidence", "val": "medium"},
-  {"row": "club:kinvara", "col": "source", "val": "https://en.wikipedia.org/wiki/Kinvara_GAA"},
-
-  {"row": "club:athanry", "col": "type", "val": "club"},
-  {"row": "club:athanry", "col": "name", "val": "Ahascragh-Fohenagh"},
-  {"row": "club:athanry", "col": "county", "val": "Galway"},
-  {"row": "club:athanry", "col": "notable", "val": "Mannion brothers' club (seed key kept short as athanry)."},
-  {"row": "club:athanry", "col": "confidence", "val": "medium"},
-  {"row": "club:athanry", "col": "source", "val": "https://en.wikipedia.org/wiki/Cathal_Mannion"},
-
-  {"row": "season:2017", "col": "type", "val": "season"},
-  {"row": "season:2017", "col": "year", "val": 2017},
-  {"row": "season:2017", "col": "team", "val": "team:galway"},
-  {"row": "season:2017", "col": "manager", "val": "Micheál Donoghue"},
-  {"row": "season:2017", "col": "captain", "val": "player:david-burke"},
-  {"row": "season:2017", "col": "outcome", "val": "All-Ireland champions"},
-  {"row": "season:2017", "col": "confidence", "val": "high"},
-  {"row": "season:2017", "col": "source", "val": "https://en.wikipedia.org/wiki/2017_All-Ireland_Senior_Hurling_Championship"},
-
-  {"row": "season:1988", "col": "type", "val": "season"},
-  {"row": "season:1988", "col": "year", "val": 1988},
-  {"row": "season:1988", "col": "team", "val": "team:galway"},
-  {"row": "season:1988", "col": "manager", "val": "Cyril Farrell"},
-  {"row": "season:1988", "col": "outcome", "val": "All-Ireland champions"},
-  {"row": "season:1988", "col": "confidence", "val": "high"},
-  {"row": "season:1988", "col": "source", "val": "https://en.wikipedia.org/wiki/1988_All-Ireland_Senior_Hurling_Championship"},
-
-  {"row": "match:2017-final", "col": "type", "val": "match"},
-  {"row": "match:2017-final", "col": "name", "val": "2017 All-Ireland SHC Final"},
-  {"row": "match:2017-final", "col": "date", "val": "2017-09-03"},
-  {"row": "match:2017-final", "col": "home", "val": "team:galway"},
-  {"row": "match:2017-final", "col": "away", "val": "Waterford"},
-  {"row": "match:2017-final", "col": "score", "val": "0–26 to 2–17"},
-  {"row": "match:2017-final", "col": "venue", "val": "Croke Park"},
-  {"row": "match:2017-final", "col": "winner", "val": "team:galway"},
-  {"row": "match:2017-final", "col": "win_ref", "val": "win:2017"},
-  {"row": "match:2017-final", "col": "season", "val": "season:2017"},
-  {"row": "match:2017-final", "col": "confidence", "val": "high"},
-  {"row": "match:2017-final", "col": "source", "val": "https://en.wikipedia.org/wiki/2017_All-Ireland_Senior_Hurling_Championship_Final"},
-
-  {"row": "match:1980-final", "col": "type", "val": "match"},
-  {"row": "match:1980-final", "col": "name", "val": "1980 All-Ireland SHC Final"},
-  {"row": "match:1980-final", "col": "date", "val": "1980-09-07"},
-  {"row": "match:1980-final", "col": "home", "val": "team:galway"},
-  {"row": "match:1980-final", "col": "away", "val": "Limerick"},
-  {"row": "match:1980-final", "col": "score", "val": "2–15 to 3–9"},
-  {"row": "match:1980-final", "col": "venue", "val": "Croke Park"},
-  {"row": "match:1980-final", "col": "winner", "val": "team:galway"},
-  {"row": "match:1980-final", "col": "win_ref", "val": "win:1980"},
-  {"row": "match:1980-final", "col": "confidence", "val": "high"},
-  {"row": "match:1980-final", "col": "source", "val": "https://en.wikipedia.org/wiki/1980_All-Ireland_Senior_Hurling_Championship_Final"},
-
-  {"row": "match:1988-final", "col": "type", "val": "match"},
-  {"row": "match:1988-final", "col": "name", "val": "1988 All-Ireland SHC Final"},
-  {"row": "match:1988-final", "col": "date", "val": "1988-09-04"},
-  {"row": "match:1988-final", "col": "home", "val": "team:galway"},
-  {"row": "match:1988-final", "col": "away", "val": "Tipperary"},
-  {"row": "match:1988-final", "col": "score", "val": "1–15 to 0–14"},
-  {"row": "match:1988-final", "col": "venue", "val": "Croke Park"},
-  {"row": "match:1988-final", "col": "winner", "val": "team:galway"},
-  {"row": "match:1988-final", "col": "win_ref", "val": "win:1988"},
-  {"row": "match:1988-final", "col": "season", "val": "season:1988"},
-  {"row": "match:1988-final", "col": "confidence", "val": "high"},
-  {"row": "match:1988-final", "col": "source", "val": "https://en.wikipedia.org/wiki/1988_All-Ireland_Senior_Hurling_Championship_Final"},
-
-  {"row": "source:wikipedia-galway", "col": "type", "val": "source"},
-  {"row": "source:wikipedia-galway", "col": "title", "val": "Galway county hurling team (Wikipedia)"},
-  {"row": "source:wikipedia-galway", "col": "url", "val": "https://en.wikipedia.org/wiki/Galway_county_hurling_team"},
-  {"row": "source:wikipedia-galway", "col": "kind", "val": "encyclopedia"},
-  {"row": "source:wikipedia-galway", "col": "confidence", "val": "high"},
-
-  {"row": "source:gaa-results", "col": "type", "val": "source"},
-  {"row": "source:gaa-results", "col": "title", "val": "GAA — public championship records"},
-  {"row": "source:gaa-results", "col": "url", "val": "https://www.gaa.ie/"},
-  {"row": "source:gaa-results", "col": "kind", "val": "governing_body"},
-  {"row": "source:gaa-results", "col": "confidence", "val": "high"},
-
-  {"row": "story:salthill-2017", "col": "type", "val": "community_story"},
-  {"row": "story:salthill-2017", "col": "title", "val": "Flags on the Prom after 2017"},
-  {"row": "story:salthill-2017", "col": "author", "val": "Máire Ní Bhriain"},
-  {"row": "story:salthill-2017", "col": "linked_entity", "val": "win:2017"},
-  {"row": "story:salthill-2017", "col": "body", "val": "We brought the kids to Salthill the night Galway won. Maroon everywhere. Someone started singing 'The West's Awake' near the diving boards. The little ones still talk about the fireworks."},
-  {"row": "story:salthill-2017", "col": "confidence", "val": "community"},
-  {"row": "story:salthill-2017", "col": "source", "val": "community submission (illustrative)"},
-
-  {"row": "story:portumna-joe", "col": "type", "val": "community_story"},
-  {"row": "story:portumna-joe", "col": "title", "val": "Watching Joe from the terrace"},
-  {"row": "story:portumna-joe", "col": "author", "val": "Seán Ó Conghaile"},
-  {"row": "story:portumna-joe", "col": "linked_entity", "val": "player:joe-canning"},
-  {"row": "story:portumna-joe", "col": "body", "val": "First time I saw Joe Canning for Portumna I was still in primary school. Sideline cut from halfway — silence, then the net shook. Portumna kids still practice that strike."},
-  {"row": "story:portumna-joe", "col": "confidence", "val": "community"},
-  {"row": "story:portumna-joe", "col": "source", "val": "community submission (illustrative)"},
-
-  {"row": "story:1980-speech", "col": "type", "val": "community_story"},
-  {"row": "story:1980-speech", "col": "title", "val": "Granny and the 1980 speech"},
-  {"row": "story:1980-speech", "col": "author", "val": "Aoife Kelly"},
-  {"row": "story:1980-speech", "col": "linked_entity", "val": "win:1980"},
-  {"row": "story:1980-speech", "col": "body", "val": "Granny still cries when Joe Connolly's speech comes on. She was in a neighbour's house in Ballinasloe — no big screen, just the radio and tea going cold."},
-  {"row": "story:1980-speech", "col": "confidence", "val": "community"},
-  {"row": "story:1980-speech", "col": "source", "val": "community submission (illustrative)"},
-
-  {"row": "story:pearse-stadium", "col": "type", "val": "community_story"},
-  {"row": "story:pearse-stadium", "col": "title", "val": "First championship day at Pearse Stadium"},
-  {"row": "story:pearse-stadium", "col": "author", "val": "Tomás Faherty"},
-  {"row": "story:pearse-stadium", "col": "linked_entity", "val": "team:galway"},
-  {"row": "story:pearse-stadium", "col": "body", "val": "My dad brought me to Pearse Stadium with a paper flag and a bag of crisps. I didn't understand scores yet — only that Galway in maroon meant roar."},
-  {"row": "story:pearse-stadium", "col": "confidence", "val": "community"},
-  {"row": "story:pearse-stadium", "col": "source", "val": "community submission (illustrative)"},
-
-  {"row": "story:school-yard-2017", "col": "type", "val": "community_story"},
-  {"row": "story:school-yard-2017", "col": "title", "val": "School yard the Monday after"},
-  {"row": "story:school-yard-2017", "col": "author", "val": "Niamh Conneely"},
-  {"row": "story:school-yard-2017", "col": "linked_entity", "val": "match:2017-final"},
-  {"row": "story:school-yard-2017", "col": "body", "val": "Every child had a jersey on. We replayed the final with plastic hurleys at little break. Conor Whelan was the most popular name to be."},
-  {"row": "story:school-yard-2017", "col": "confidence", "val": "community"},
-  {"row": "story:school-yard-2017", "col": "source", "val": "community submission (illustrative)"}
+  {
+    "row": "team:galway",
+    "col": "type",
+    "val": "team"
+  },
+  {
+    "row": "team:galway",
+    "col": "name",
+    "val": "Galway"
+  },
+  {
+    "row": "team:galway",
+    "col": "nickname",
+    "val": "The Tribesmen"
+  },
+  {
+    "row": "team:galway",
+    "col": "colours",
+    "val": "Maroon and white"
+  },
+  {
+    "row": "team:galway",
+    "col": "province",
+    "val": "Connacht"
+  },
+  {
+    "row": "team:galway",
+    "col": "ground",
+    "val": "Pearse Stadium, Salthill"
+  },
+  {
+    "row": "team:galway",
+    "col": "summary",
+    "val": "Galway senior hurling team — Galway first, Ireland next."
+  },
+  {
+    "row": "team:galway",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "team:galway",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Galway_county_hurling_team"
+  },
+  {
+    "row": "win:1923",
+    "col": "type",
+    "val": "all_ireland_win"
+  },
+  {
+    "row": "win:1923",
+    "col": "name",
+    "val": "1923 All-Ireland"
+  },
+  {
+    "row": "win:1923",
+    "col": "year",
+    "val": 1923
+  },
+  {
+    "row": "win:1923",
+    "col": "competition",
+    "val": "All-Ireland Senior Hurling Championship"
+  },
+  {
+    "row": "win:1923",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "win:1923",
+    "col": "opponent",
+    "val": "Limerick"
+  },
+  {
+    "row": "win:1923",
+    "col": "score",
+    "val": "Galway 7–3 Limerick 4–5"
+  },
+  {
+    "row": "win:1923",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "win:1923",
+    "col": "note",
+    "val": "Galway's first All-Ireland senior hurling title."
+  },
+  {
+    "row": "win:1923",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:1923",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1923_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "win:1980",
+    "col": "type",
+    "val": "all_ireland_win"
+  },
+  {
+    "row": "win:1980",
+    "col": "name",
+    "val": "1980 All-Ireland"
+  },
+  {
+    "row": "win:1980",
+    "col": "year",
+    "val": 1980
+  },
+  {
+    "row": "win:1980",
+    "col": "competition",
+    "val": "All-Ireland Senior Hurling Championship"
+  },
+  {
+    "row": "win:1980",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "win:1980",
+    "col": "opponent",
+    "val": "Limerick"
+  },
+  {
+    "row": "win:1980",
+    "col": "score",
+    "val": "Galway 2–15 Limerick 3–9"
+  },
+  {
+    "row": "win:1980",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "win:1980",
+    "col": "note",
+    "val": "Ended a 57-year wait; Joe Connolly's famous speech."
+  },
+  {
+    "row": "win:1980",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:1980",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1980_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "win:1987",
+    "col": "type",
+    "val": "all_ireland_win"
+  },
+  {
+    "row": "win:1987",
+    "col": "name",
+    "val": "1987 All-Ireland"
+  },
+  {
+    "row": "win:1987",
+    "col": "year",
+    "val": 1987
+  },
+  {
+    "row": "win:1987",
+    "col": "competition",
+    "val": "All-Ireland Senior Hurling Championship"
+  },
+  {
+    "row": "win:1987",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "win:1987",
+    "col": "opponent",
+    "val": "Kilkenny"
+  },
+  {
+    "row": "win:1987",
+    "col": "score",
+    "val": "Galway 1–12 Kilkenny 0–9"
+  },
+  {
+    "row": "win:1987",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "win:1987",
+    "col": "note",
+    "val": "Back-to-back era begins under Cyril Farrell; Conor Hayes captain."
+  },
+  {
+    "row": "win:1987",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:1987",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1987_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "win:1988",
+    "col": "type",
+    "val": "all_ireland_win"
+  },
+  {
+    "row": "win:1988",
+    "col": "name",
+    "val": "1988 All-Ireland"
+  },
+  {
+    "row": "win:1988",
+    "col": "year",
+    "val": 1988
+  },
+  {
+    "row": "win:1988",
+    "col": "competition",
+    "val": "All-Ireland Senior Hurling Championship"
+  },
+  {
+    "row": "win:1988",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "win:1988",
+    "col": "opponent",
+    "val": "Tipperary"
+  },
+  {
+    "row": "win:1988",
+    "col": "score",
+    "val": "Galway 1–15 Tipperary 0–14"
+  },
+  {
+    "row": "win:1988",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "win:1988",
+    "col": "note",
+    "val": "Second consecutive title; Conor Hayes captain."
+  },
+  {
+    "row": "win:1988",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:1988",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1988_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "win:2017",
+    "col": "type",
+    "val": "all_ireland_win"
+  },
+  {
+    "row": "win:2017",
+    "col": "name",
+    "val": "2017 All-Ireland"
+  },
+  {
+    "row": "win:2017",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "win:2017",
+    "col": "competition",
+    "val": "All-Ireland Senior Hurling Championship"
+  },
+  {
+    "row": "win:2017",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "win:2017",
+    "col": "opponent",
+    "val": "Waterford"
+  },
+  {
+    "row": "win:2017",
+    "col": "score",
+    "val": "Galway 0–26 Waterford 2–17"
+  },
+  {
+    "row": "win:2017",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "win:2017",
+    "col": "note",
+    "val": "First title since 1988; David Burke captain; Micheál Donoghue manager."
+  },
+  {
+    "row": "win:2017",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "win:2017",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "name",
+    "val": "2017 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "date",
+    "val": "2017-09-03"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "away",
+    "val": "Waterford"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "score",
+    "val": "0–26 to 2–17"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "winner",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "win_ref",
+    "val": "win:2017"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "season",
+    "val": "season:2017"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2017-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "name",
+    "val": "1980 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "date",
+    "val": "1980-09-07"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "away",
+    "val": "Limerick"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "score",
+    "val": "2–15 to 3–9"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "winner",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "win_ref",
+    "val": "win:1980"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:1980-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1980_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "name",
+    "val": "1987 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "date",
+    "val": "1987-09-06"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "away",
+    "val": "Kilkenny"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "score",
+    "val": "1–12 to 0–9"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "winner",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "win_ref",
+    "val": "win:1987"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "season",
+    "val": "season:1987"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:1987-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1987_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "name",
+    "val": "1988 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "date",
+    "val": "1988-09-04"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "away",
+    "val": "Tipperary"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "score",
+    "val": "1–15 to 0–14"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "winner",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "win_ref",
+    "val": "win:1988"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "season",
+    "val": "season:1988"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:1988-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1988_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "name",
+    "val": "1923 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "date",
+    "val": "1924-09-14"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "away",
+    "val": "Limerick"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "score",
+    "val": "7–3 to 4–5"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "winner",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "win_ref",
+    "val": "win:1923"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "note",
+    "val": "Final for the 1923 championship (played in 1924)."
+  },
+  {
+    "row": "match:1923-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:1923-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1923_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "name",
+    "val": "2012 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "date",
+    "val": "2012-09-09"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "away",
+    "val": "Kilkenny"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "score",
+    "val": "Kilkenny 3–22 Galway 3–11"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "winner",
+    "val": "Kilkenny"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "note",
+    "val": "Replay year heartbreak; Kilkenny retained the title."
+  },
+  {
+    "row": "match:2012-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2012-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "name",
+    "val": "2015 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "date",
+    "val": "2015-09-06"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "away",
+    "val": "Kilkenny"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "score",
+    "val": "Kilkenny 1–22 Galway 1–18"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "winner",
+    "val": "Kilkenny"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "note",
+    "val": "Narrow loss to Kilkenny in the final."
+  },
+  {
+    "row": "match:2015-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2015-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2015_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "name",
+    "val": "2018 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "date",
+    "val": "2018-08-19"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "away",
+    "val": "Limerick"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "score",
+    "val": "Limerick 3–16 Galway 2–18"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "winner",
+    "val": "Limerick"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "note",
+    "val": "One-point heartbreak for the defending champions; Limerick's breakthrough."
+  },
+  {
+    "row": "match:2018-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:2018-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2018_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "name",
+    "val": "2005 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "date",
+    "val": "2005-09-11"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "away",
+    "val": "Cork"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "score",
+    "val": "Cork 1–21 Galway 1–16"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "winner",
+    "val": "Cork"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "note",
+    "val": "Key modern-era final loss to Cork."
+  },
+  {
+    "row": "match:2005-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:2005-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2005_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "name",
+    "val": "1990 All-Ireland SHC Final"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "date",
+    "val": "1990-09-02"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "home",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "away",
+    "val": "Cork"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "score",
+    "val": "Cork 4–15 Galway 2–21"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "venue",
+    "val": "Croke Park"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "winner",
+    "val": "Cork"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "note",
+    "val": "Often linked with the Tony Keady suspension saga that year."
+  },
+  {
+    "row": "match:1990-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:1990-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1990_All-Ireland_Senior_Hurling_Championship_Final"
+  },
+  {
+    "row": "season:2017",
+    "col": "type",
+    "val": "season"
+  },
+  {
+    "row": "season:2017",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "season:2017",
+    "col": "name",
+    "val": "2017 season"
+  },
+  {
+    "row": "season:2017",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "season:2017",
+    "col": "manager",
+    "val": "Micheál Donoghue"
+  },
+  {
+    "row": "season:2017",
+    "col": "captain",
+    "val": "player:david-burke"
+  },
+  {
+    "row": "season:2017",
+    "col": "outcome",
+    "val": "All-Ireland champions"
+  },
+  {
+    "row": "season:2017",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "season:2017",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "season:1988",
+    "col": "type",
+    "val": "season"
+  },
+  {
+    "row": "season:1988",
+    "col": "year",
+    "val": 1988
+  },
+  {
+    "row": "season:1988",
+    "col": "name",
+    "val": "1988 season"
+  },
+  {
+    "row": "season:1988",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "season:1988",
+    "col": "manager",
+    "val": "Cyril Farrell"
+  },
+  {
+    "row": "season:1988",
+    "col": "captain",
+    "val": "player:conor-hayes"
+  },
+  {
+    "row": "season:1988",
+    "col": "outcome",
+    "val": "All-Ireland champions"
+  },
+  {
+    "row": "season:1988",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "season:1988",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1988_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "season:1980",
+    "col": "type",
+    "val": "season"
+  },
+  {
+    "row": "season:1980",
+    "col": "year",
+    "val": 1980
+  },
+  {
+    "row": "season:1980",
+    "col": "name",
+    "val": "1980 season"
+  },
+  {
+    "row": "season:1980",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "season:1980",
+    "col": "manager",
+    "val": "Cyril Farrell"
+  },
+  {
+    "row": "season:1980",
+    "col": "captain",
+    "val": "player:joe-connolly"
+  },
+  {
+    "row": "season:1980",
+    "col": "outcome",
+    "val": "All-Ireland champions"
+  },
+  {
+    "row": "season:1980",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "season:1980",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1980_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "season:1987",
+    "col": "type",
+    "val": "season"
+  },
+  {
+    "row": "season:1987",
+    "col": "year",
+    "val": 1987
+  },
+  {
+    "row": "season:1987",
+    "col": "name",
+    "val": "1987 season"
+  },
+  {
+    "row": "season:1987",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "season:1987",
+    "col": "manager",
+    "val": "Cyril Farrell"
+  },
+  {
+    "row": "season:1987",
+    "col": "captain",
+    "val": "player:conor-hayes"
+  },
+  {
+    "row": "season:1987",
+    "col": "outcome",
+    "val": "All-Ireland champions"
+  },
+  {
+    "row": "season:1987",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "season:1987",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1987_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "season:2018",
+    "col": "type",
+    "val": "season"
+  },
+  {
+    "row": "season:2018",
+    "col": "year",
+    "val": 2018
+  },
+  {
+    "row": "season:2018",
+    "col": "name",
+    "val": "2018 season"
+  },
+  {
+    "row": "season:2018",
+    "col": "team",
+    "val": "team:galway"
+  },
+  {
+    "row": "season:2018",
+    "col": "manager",
+    "val": "Micheál Donoghue"
+  },
+  {
+    "row": "season:2018",
+    "col": "outcome",
+    "val": "All-Ireland finalists (lost to Limerick)"
+  },
+  {
+    "row": "season:2018",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "season:2018",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2018_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "club:portumna",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:portumna",
+    "col": "name",
+    "val": "Portumna"
+  },
+  {
+    "row": "club:portumna",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:portumna",
+    "col": "notable",
+    "val": "All-Ireland club champions; home of Joe Canning and Damien Hayes."
+  },
+  {
+    "row": "club:portumna",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Portumna_GAA"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "name",
+    "val": "St Thomas'"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "notable",
+    "val": "Multiple Galway SHC winners; David Burke's club."
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/St_Thomas%27_GAA"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "name",
+    "val": "Sarsfields"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "notable",
+    "val": "East Galway club; Cooney family stronghold."
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
+  },
+  {
+    "row": "club:kinvara",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:kinvara",
+    "col": "name",
+    "val": "Kinvara"
+  },
+  {
+    "row": "club:kinvara",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:kinvara",
+    "col": "notable",
+    "val": "South Galway club; Conor Whelan's club."
+  },
+  {
+    "row": "club:kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:kinvara",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Kinvara_GAA"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "notable",
+    "val": "Mannion brothers' club (Cathal and Pádraic)."
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Cathal_Mannion"
+  },
+  {
+    "row": "club:athenry",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:athenry",
+    "col": "name",
+    "val": "Athenry"
+  },
+  {
+    "row": "club:athenry",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:athenry",
+    "col": "notable",
+    "val": "Famous for 1990s/2000s club success; Eugene Cloonan, Joe Rabbitte."
+  },
+  {
+    "row": "club:athenry",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Athenry_GAA"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "name",
+    "val": "Castlegar"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "notable",
+    "val": "Historic Galway club; Connolly brothers; 1980 captain Joe Connolly."
+  },
+  {
+    "row": "club:castlegar",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Castlegar_GAA"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "name",
+    "val": "Clarinbridge"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "notable",
+    "val": "All-Ireland club winners 2011; Alan Kerins, Tony Óg Regan."
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Clarinbridge_GAA"
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "name",
+    "val": "Turloughmore"
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "notable",
+    "val": "Home of Daithí Burke; strong north Galway club."
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Turloughmore_GAA"
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "name",
+    "val": "Oranmore-Maree"
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "notable",
+    "val": "Gearóid McInerney and Niall Burke's club."
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Oranmore-Maree_GAA"
+  },
+  {
+    "row": "club:gort",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:gort",
+    "col": "name",
+    "val": "Gort"
+  },
+  {
+    "row": "club:gort",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:gort",
+    "col": "notable",
+    "val": "South Galway club; Sylvie Linnane and Aidan Harte."
+  },
+  {
+    "row": "club:gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Gort_GAA"
+  },
+  {
+    "row": "club:loughrea",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:loughrea",
+    "col": "name",
+    "val": "Loughrea"
+  },
+  {
+    "row": "club:loughrea",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:loughrea",
+    "col": "notable",
+    "val": "Johnny Coen and Brian Concannon's club."
+  },
+  {
+    "row": "club:loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Loughrea_GAA"
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "name",
+    "val": "Ardrahan"
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "notable",
+    "val": "Bernie Forde and Jonathan Glynn's club."
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Ardrahan_GAA"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "name",
+    "val": "Mullagh"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "notable",
+    "val": "Pete Finnerty's club."
+  },
+  {
+    "row": "club:mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Mullagh_GAA_(Galway)"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "name",
+    "val": "Killimordaly"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "notable",
+    "val": "Tony Keady's club."
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tony_Keady"
+  },
+  {
+    "row": "club:kiltormer",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:kiltormer",
+    "col": "name",
+    "val": "Kiltormer"
+  },
+  {
+    "row": "club:kiltormer",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:kiltormer",
+    "col": "notable",
+    "val": "Conor Hayes's club; All-Ireland club winners 1992."
+  },
+  {
+    "row": "club:kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:kiltormer",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Kiltormer_GAA"
+  },
+  {
+    "row": "club:ballinderreen",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:ballinderreen",
+    "col": "name",
+    "val": "Ballinderreen"
+  },
+  {
+    "row": "club:ballinderreen",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:ballinderreen",
+    "col": "notable",
+    "val": "Noel Lane's club."
+  },
+  {
+    "row": "club:ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:ballinderreen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Noel_Lane_(Galway_hurler)"
+  },
+  {
+    "row": "club:tommy-larkins",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:tommy-larkins",
+    "col": "name",
+    "val": "Tommy Larkins"
+  },
+  {
+    "row": "club:tommy-larkins",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:tommy-larkins",
+    "col": "notable",
+    "val": "Jason Flynn's club (Woodford/Ballinakill area)."
+  },
+  {
+    "row": "club:tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Jason_Flynn"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "name",
+    "val": "Pádraig Pearses"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "notable",
+    "val": "Cyril Donnellan's club."
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Cyril_Donnellan"
+  },
+  {
+    "row": "club:beagh",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:beagh",
+    "col": "name",
+    "val": "Beagh"
+  },
+  {
+    "row": "club:beagh",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:beagh",
+    "col": "notable",
+    "val": "Iarla Tannian's club."
+  },
+  {
+    "row": "club:beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Iarla_Tannian"
+  },
+  {
+    "row": "club:meelick-eyrecourt",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:meelick-eyrecourt",
+    "col": "name",
+    "val": "Meelick-Eyrecourt"
+  },
+  {
+    "row": "club:meelick-eyrecourt",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:meelick-eyrecourt",
+    "col": "notable",
+    "val": "Historic Meelick links; Seán Silke's club."
+  },
+  {
+    "row": "club:meelick-eyrecourt",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:meelick-eyrecourt",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Meelick%E2%80%93Eyrecourt_GAA"
+  },
+  {
+    "row": "club:liam-mellows",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:liam-mellows",
+    "col": "name",
+    "val": "Liam Mellows"
+  },
+  {
+    "row": "club:liam-mellows",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:liam-mellows",
+    "col": "notable",
+    "val": "City club; produced many Galway seniors."
+  },
+  {
+    "row": "club:liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Liam_Mellows_GAA"
+  },
+  {
+    "row": "club:craughwell",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:craughwell",
+    "col": "name",
+    "val": "Craughwell"
+  },
+  {
+    "row": "club:craughwell",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:craughwell",
+    "col": "notable",
+    "val": "East Galway club; Micheál Donoghue links."
+  },
+  {
+    "row": "club:craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Miche%C3%A1l_Donoghue"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "name",
+    "val": "Cappataggle"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "notable",
+    "val": "East Galway club with senior history."
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Cappataggle_GAA"
+  },
+  {
+    "row": "club:kilnadeema-leitrim",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:kilnadeema-leitrim",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim"
+  },
+  {
+    "row": "club:kilnadeema-leitrim",
+    "col": "county",
+    "val": "Galway"
+  },
+  {
+    "row": "club:kilnadeema-leitrim",
+    "col": "notable",
+    "val": "South-east Galway club."
+  },
+  {
+    "row": "club:kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "club:kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Kilnadeema%E2%80%93Leitrim_GAA"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "name",
+    "val": "Joe Canning"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "born",
+    "val": "1988"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "all_stars",
+    "val": 5
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "notable",
+    "val": "All-Ireland winner 2017; iconic free-taker and playmaker."
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Joe_Canning"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "name",
+    "val": "David Burke"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "position",
+    "val": "Midfield"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:david-burke",
+    "col": "notable",
+    "val": "Captain of the 2017 All-Ireland winning team."
+  },
+  {
+    "row": "player:david-burke",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/David_Burke_(Galway_hurler)"
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "name",
+    "val": "Damien Hayes"
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "position",
+    "val": "Corner-forward"
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "all_stars",
+    "val": 3
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "notable",
+    "val": "Pacey Portumna and Galway forward of the 2000s."
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:damien-hayes",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Damien_Hayes"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "name",
+    "val": "Joe Cooney"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "position",
+    "val": "Centre-forward"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "all_ireland_medals",
+    "val": 2
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "notable",
+    "val": "All-Ireland winner 1987 and 1988; multiple All-Star."
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Joe_Cooney"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "name",
+    "val": "Conor Whelan"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "position",
+    "val": "Corner-forward"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "notable",
+    "val": "Key forward in 2017; known for pace and finishing."
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Conor_Whelan"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "name",
+    "val": "Joseph Cooney"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "position",
+    "val": "Half-back / Midfield"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "notable",
+    "val": "Son of Joe Cooney; 2017 All-Ireland medallist."
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Joseph_Cooney"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "name",
+    "val": "Cathal Mannion"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "position",
+    "val": "Corner-forward"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "born",
+    "val": "1994"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "all_stars",
+    "val": 2
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "notable",
+    "val": "Stylish Ahascragh-Fohenagh / Galway attacker; 2017 winner."
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Cathal_Mannion"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "name",
+    "val": "Pádraic Mannion"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "position",
+    "val": "Half-back"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "notable",
+    "val": "Defensive leader; brother of Cathal; 2017 All-Ireland."
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/P%C3%A1draic_Mannion"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "name",
+    "val": "Joe Connolly"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "club",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "position",
+    "val": "Centre-forward"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "born",
+    "val": "1956"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "all_stars",
+    "val": 1
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "notable",
+    "val": "1980 All-Ireland captain; famous Croke Park speech."
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:joe-connolly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Joe_Connolly_(hurler)"
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "name",
+    "val": "John Connolly"
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "club",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "notable",
+    "val": "Elder Connolly brother; 1980 All-Ireland medallist."
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:john-connolly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/John_Connolly_(hurler)"
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "name",
+    "val": "Conor Hayes"
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "position",
+    "val": "Full-back"
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "all_ireland_medals",
+    "val": 2
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "notable",
+    "val": "Captain for 1987 and 1988 All-Ireland wins."
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:conor-hayes",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Conor_Hayes"
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "name",
+    "val": "Sylvie Linnane"
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "position",
+    "val": "Corner-back"
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "all_ireland_medals",
+    "val": 2
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "notable",
+    "val": "Tough defender; All-Ireland winner 1987 and 1988."
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:sylvie-linnane",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Sylvie_Linnane"
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "name",
+    "val": "Noel Lane"
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "all_ireland_medals",
+    "val": 2
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "notable",
+    "val": "Goal-scorer in All-Ireland finals; 1987 and 1988 winner."
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:noel-lane",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Noel_Lane_(Galway_hurler)"
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "name",
+    "val": "Pete Finnerty"
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "position",
+    "val": "Wing-back"
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "all_ireland_medals",
+    "val": 2
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "notable",
+    "val": "All-Star wing-back; 1987 and 1988 All-Ireland winner."
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:pete-finnerty",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Pete_Finnerty"
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "name",
+    "val": "Tony Keady"
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "club",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "position",
+    "val": "Centre-back"
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "all_ireland_medals",
+    "val": 2
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "notable",
+    "val": "Iconic centre-back; 1987–88 winner; 1989 suspension saga."
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tony-keady",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tony_Keady"
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "name",
+    "val": "Seán Silke"
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "position",
+    "val": "Centre-back"
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "notable",
+    "val": "1980 All-Ireland winner; stylish centre-back."
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:sean-silke",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Se%C3%A1n_Silke"
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "name",
+    "val": "Iggy Clarke"
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "club",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "position",
+    "val": "Back"
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "notable",
+    "val": "Castlegar and Galway defender of the Connolly era."
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:iggy-clarke",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Iggy_Clarke"
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "name",
+    "val": "Bernie Forde"
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "club",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "notable",
+    "val": "1980 All-Ireland medallist from Ardrahan."
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:bernie-forde",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Bernie_Forde"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "name",
+    "val": "Eugene Cloonan"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "position",
+    "val": "Full-forward"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "notable",
+    "val": "Prolific Athenry and Galway full-forward of the 1990s–2000s."
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Eugene_Cloonan"
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "name",
+    "val": "Joe Rabbitte"
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "position",
+    "val": "Midfield / Forward"
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "notable",
+    "val": "Athenry star; All-Star midfielder for Galway."
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:joe-rabbitte",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Joe_Rabbitte"
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "name",
+    "val": "Brian Feeney"
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "position",
+    "val": "Back"
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "notable",
+    "val": "Athenry defender; Galway senior in the club golden era."
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:brian-feeney",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Brian_Feeney_(hurler)"
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "name",
+    "val": "Alan Kerins"
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "notable",
+    "val": "Clarinbridge forward; charity and community figure."
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:alan-kerins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Alan_Kerins"
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "name",
+    "val": "Tony Óg Regan"
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "position",
+    "val": "Centre-back"
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "notable",
+    "val": "Clarinbridge and Galway centre-back."
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:tony-og-regan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tony_%C3%93g_Regan"
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "name",
+    "val": "Daithí Burke"
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "position",
+    "val": "Full-back"
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "all_stars",
+    "val": 5
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "notable",
+    "val": "Dual star; All-Ireland hurling 2017; multiple All-Stars."
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:daithi-burke",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Daith%C3%AD_Burke"
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "name",
+    "val": "Gearóid McInerney"
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "position",
+    "val": "Centre-back"
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "all_stars",
+    "val": 1
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "notable",
+    "val": "2017 All-Ireland; All-Star centre-back."
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:gearoid-mcinerney",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Gear%C3%B3id_McInerney"
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "name",
+    "val": "Jason Flynn"
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "notable",
+    "val": "2017 All-Ireland medallist; Tommy Larkins club."
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:jason-flynn",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Jason_Flynn"
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "name",
+    "val": "Jonathan Glynn"
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "club",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "notable",
+    "val": "Tall Ardrahan forward; 2017 All-Ireland winner."
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:jonathan-glynn",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Jonathan_Glynn"
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "name",
+    "val": "Johnny Coen"
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "position",
+    "val": "Midfield"
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "notable",
+    "val": "Loughrea midfielder; 2017 All-Ireland winner."
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:johnny-coen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Johnny_Coen"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "name",
+    "val": "Niall Burke"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "notable",
+    "val": "Oranmore-Maree forward; 2017 panel."
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Niall_Burke"
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "name",
+    "val": "Cyril Donnellan"
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "notable",
+    "val": "Pádraig Pearses forward; 2017 All-Ireland medallist."
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:cyril-donnellan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Cyril_Donnellan"
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "name",
+    "val": "Aidan Harte"
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "position",
+    "val": "Half-back"
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "notable",
+    "val": "Gort half-back; 2017 All-Ireland winner."
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:aidan-harte",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Aidan_Harte"
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "name",
+    "val": "Colm Callanan"
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "position",
+    "val": "Goalkeeper"
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "notable",
+    "val": "Kinvara goalkeeper; 2017 All-Ireland winner."
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:colm-callanan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Colm_Callanan"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "name",
+    "val": "Conor Cooney"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "position",
+    "val": "Full-forward"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "all_ireland_medals",
+    "val": 1
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "notable",
+    "val": "St Thomas' full-forward; 2017 All-Ireland winner."
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Conor_Cooney"
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "name",
+    "val": "Iarla Tannian"
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "position",
+    "val": "Midfield"
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "all_stars",
+    "val": 1
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "notable",
+    "val": "All-Star midfielder; Beagh / Galway."
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:iarla-tannian",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Iarla_Tannian"
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "name",
+    "val": "Andy Smith"
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "position",
+    "val": "Midfield"
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "notable",
+    "val": "Portumna midfielder; Galway senior in the 2000s–2010s."
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:andy-smith",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Andy_Smith_(hurler)"
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "name",
+    "val": "Kevin Hynes"
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "position",
+    "val": "Back"
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "notable",
+    "val": "Turloughmore defender; Galway senior."
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:kevin-hynes",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Kevin_Hynes"
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "name",
+    "val": "Fergal Moore"
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "position",
+    "val": "Corner-back"
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "notable",
+    "val": "Turloughmore corner-back; long-serving Galway defender."
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:fergal-moore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Fergal_Moore"
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "name",
+    "val": "Evan Niland"
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "notable",
+    "val": "Clarinbridge free-taker; Galway senior attacker."
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:evan-niland",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Evan_Niland"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "name",
+    "val": "Brian Concannon"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "position",
+    "val": "Forward"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "notable",
+    "val": "Loughrea forward; Galway senior."
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Brian_Concannon"
+  },
+  {
+    "row": "source:wikipedia-galway",
+    "col": "type",
+    "val": "source"
+  },
+  {
+    "row": "source:wikipedia-galway",
+    "col": "title",
+    "val": "Galway county hurling team (Wikipedia)"
+  },
+  {
+    "row": "source:wikipedia-galway",
+    "col": "url",
+    "val": "https://en.wikipedia.org/wiki/Galway_county_hurling_team"
+  },
+  {
+    "row": "source:wikipedia-galway",
+    "col": "kind",
+    "val": "encyclopedia"
+  },
+  {
+    "row": "source:wikipedia-galway",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "source:gaa-results",
+    "col": "type",
+    "val": "source"
+  },
+  {
+    "row": "source:gaa-results",
+    "col": "title",
+    "val": "GAA — public championship records"
+  },
+  {
+    "row": "source:gaa-results",
+    "col": "url",
+    "val": "https://www.gaa.ie/"
+  },
+  {
+    "row": "source:gaa-results",
+    "col": "kind",
+    "val": "governing_body"
+  },
+  {
+    "row": "source:gaa-results",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "story:salthill-2017",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:salthill-2017",
+    "col": "title",
+    "val": "Flags on the Prom after 2017"
+  },
+  {
+    "row": "story:salthill-2017",
+    "col": "author",
+    "val": "Máire Ní Bhriain"
+  },
+  {
+    "row": "story:salthill-2017",
+    "col": "linked_entity",
+    "val": "win:2017"
+  },
+  {
+    "row": "story:salthill-2017",
+    "col": "body",
+    "val": "We brought the kids to Salthill the night Galway won. Maroon everywhere. Someone started singing 'The West's Awake' near the diving boards. The little ones still talk about the fireworks."
+  },
+  {
+    "row": "story:salthill-2017",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:salthill-2017",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:portumna-joe",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:portumna-joe",
+    "col": "title",
+    "val": "Watching Joe from the terrace"
+  },
+  {
+    "row": "story:portumna-joe",
+    "col": "author",
+    "val": "Seán Ó Conghaile"
+  },
+  {
+    "row": "story:portumna-joe",
+    "col": "linked_entity",
+    "val": "player:joe-canning"
+  },
+  {
+    "row": "story:portumna-joe",
+    "col": "body",
+    "val": "First time I saw Joe Canning for Portumna I was still in primary school. Sideline cut from halfway — silence, then the net shook. Portumna kids still practice that strike."
+  },
+  {
+    "row": "story:portumna-joe",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:portumna-joe",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:1980-speech",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:1980-speech",
+    "col": "title",
+    "val": "Granny and the 1980 speech"
+  },
+  {
+    "row": "story:1980-speech",
+    "col": "author",
+    "val": "Aoife Kelly"
+  },
+  {
+    "row": "story:1980-speech",
+    "col": "linked_entity",
+    "val": "win:1980"
+  },
+  {
+    "row": "story:1980-speech",
+    "col": "body",
+    "val": "Granny still cries when Joe Connolly's speech comes on. She was in a neighbour's house in Ballinasloe — no big screen, just the radio and tea going cold."
+  },
+  {
+    "row": "story:1980-speech",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:1980-speech",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:pearse-stadium",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:pearse-stadium",
+    "col": "title",
+    "val": "First championship day at Pearse Stadium"
+  },
+  {
+    "row": "story:pearse-stadium",
+    "col": "author",
+    "val": "Tomás Faherty"
+  },
+  {
+    "row": "story:pearse-stadium",
+    "col": "linked_entity",
+    "val": "team:galway"
+  },
+  {
+    "row": "story:pearse-stadium",
+    "col": "body",
+    "val": "My dad brought me to Pearse Stadium with a paper flag and a bag of crisps. I didn't understand scores yet — only that Galway in maroon meant roar."
+  },
+  {
+    "row": "story:pearse-stadium",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:pearse-stadium",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:school-yard-2017",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:school-yard-2017",
+    "col": "title",
+    "val": "School yard the Monday after"
+  },
+  {
+    "row": "story:school-yard-2017",
+    "col": "author",
+    "val": "Niamh Conneely"
+  },
+  {
+    "row": "story:school-yard-2017",
+    "col": "linked_entity",
+    "val": "match:2017-final"
+  },
+  {
+    "row": "story:school-yard-2017",
+    "col": "body",
+    "val": "Every child had a jersey on. We replayed the final with plastic hurleys at little break. Conor Whelan was the most popular name to be."
+  },
+  {
+    "row": "story:school-yard-2017",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:school-yard-2017",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:mannion-ahascragh",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:mannion-ahascragh",
+    "col": "title",
+    "val": "Mannion magic in Ahascragh"
+  },
+  {
+    "row": "story:mannion-ahascragh",
+    "col": "author",
+    "val": "Eoin Kelly"
+  },
+  {
+    "row": "story:mannion-ahascragh",
+    "col": "linked_entity",
+    "val": "player:cathal-mannion"
+  },
+  {
+    "row": "story:mannion-ahascragh",
+    "col": "body",
+    "val": "When Cathal and Pádraic lined out for Ahascragh-Fohenagh, the whole parish followed. Intermediate glory felt like an All-Ireland on our own pitch."
+  },
+  {
+    "row": "story:mannion-ahascragh",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:mannion-ahascragh",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:keady-stories",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:keady-stories",
+    "col": "title",
+    "val": "Tony Keady stories on the bus"
+  },
+  {
+    "row": "story:keady-stories",
+    "col": "author",
+    "val": "Bríd Nic Dhonncha"
+  },
+  {
+    "row": "story:keady-stories",
+    "col": "linked_entity",
+    "val": "player:tony-keady"
+  },
+  {
+    "row": "story:keady-stories",
+    "col": "body",
+    "val": "On the way to underage matches the older lads told Tony Keady stories. We didn't know the politics yet — only that he was the best centre-back anyone had seen."
+  },
+  {
+    "row": "story:keady-stories",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:keady-stories",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:st-thomas-parade",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:st-thomas-parade",
+    "col": "title",
+    "val": "St Thomas' homecoming parade"
+  },
+  {
+    "row": "story:st-thomas-parade",
+    "col": "author",
+    "val": "Ciarán Ó Murchú"
+  },
+  {
+    "row": "story:st-thomas-parade",
+    "col": "linked_entity",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "story:st-thomas-parade",
+    "col": "body",
+    "val": "After another county final the cars crawled through Kilchreest with horns going. David Burke waved like it was Croke Park all over again."
+  },
+  {
+    "row": "story:st-thomas-parade",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:st-thomas-parade",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  },
+  {
+    "row": "story:castlegar-green-white",
+    "col": "type",
+    "val": "community_story"
+  },
+  {
+    "row": "story:castlegar-green-white",
+    "col": "title",
+    "val": "Green and white in Castlegar"
+  },
+  {
+    "row": "story:castlegar-green-white",
+    "col": "author",
+    "val": "Méabh Connolly"
+  },
+  {
+    "row": "story:castlegar-green-white",
+    "col": "linked_entity",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "story:castlegar-green-white",
+    "col": "body",
+    "val": "Our street still talks about the Connollys. Joe's speech is on a fridge magnet. Hurling here is family history."
+  },
+  {
+    "row": "story:castlegar-green-white",
+    "col": "confidence",
+    "val": "community"
+  },
+  {
+    "row": "story:castlegar-green-white",
+    "col": "source",
+    "val": "community submission (illustrative)"
+  }
 ]
