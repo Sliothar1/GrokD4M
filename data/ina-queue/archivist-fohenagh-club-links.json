@@ -119,5 +119,15 @@
       "player:mark-kelly-jr-ahascragh-fohenagh"
     ],
     "note": "AF r13: 2023 Senior B scored group+final draw/replay; Mark Kelly Jr unverified (disambiguated). Bare Kelly/Brehony/Maloney collisions HOLD. Skip HOLD orphans."
+  },
+  {
+    "batch": "fohenagh-club-links-r14",
+    "ruled_at": "2026-09-06T20:35:05.556076+00:00",
+    "clear_links": [],
+    "unverified_new": [
+      "player:tim-sweeney-fohenagh",
+      "player:craig-naughton-ahascragh-fohenagh"
+    ],
+    "note": "AF r14: Tim Sweeney historic Fohenagh + Craig Naughton unverified AF. Donal Mannion Cappataggle disambiguated (HOLD AF Donal Mannion overwrite). Bare Coen/Regan/Fahey/Kelly/Thomas collisions HOLD. Skip HOLD orphans."
   }
 ]
