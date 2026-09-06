@@ -1,37 +1,22 @@
 {
   "pack": "galway-club-player-links",
-  "round": "37",
-  "generated_at": "2026-09-06T22:28:50.124513+00:00",
+  "round": "38",
+  "generated_at": "2026-09-06T22:36:18.203892+00:00",
   "sources": [
-    "https://en.wikipedia.org/wiki/2011_Galway_Senior_Hurling_Championship",
-    "https://en.wikipedia.org/wiki/Mark_Kerins",
-    "https://www.irishexaminer.com/sport/gaa/arid-20170143.html",
-    "https://www.irishexaminer.com/sport/gaa/arid-20170895.html",
-    "https://www.irishexaminer.com/sport/gaa/arid-20172312.html",
-    "https://www.irishtimes.com/sport/late-cummins-goal-proves-decisive-1.630761",
-    "https://www.advertiser.ie/galway/article/45052/clarinbridge-still-favourites-to-advance",
-    "https://www.advertiser.ie/galway/article/45053/healy-points-the-way-for-craughwell",
-    "https://www.advertiser.ie/galway/article/45948/clarinbridge-ease-past-craughwell-to-reach-another-county-final",
-    "https://www.advertiser.ie/galway/article/46194/gort-crowned-county-senior-hurling-champions-for-2011",
-    "https://www.advertiser.ie/Galway/article/94396/minor-hurlers-pip-kilkenny-for-all-ireland-final-spot",
-    "https://www.the42.ie/galway-hurling-evan-niland-nuig-fitzgibbon-cup-ul-4456745-Jan2019/"
+    "https://www.irishtimes.com/sport/portumna-progress-1.656139",
+    "https://www.irishexaminer.com/sport/gaa/arid-20133170.html",
+    "https://www.irishexaminer.com/sport/gaa/arid-20131263.html",
+    "https://www.irishexaminer.com/sport/gaa/arid-20103626.html",
+    "https://www.irishexaminer.com/sport/gaa/arid-30479897.html",
+    "https://www.advertiser.ie/galway/article/31817/can-portumna-be-stopped",
+    "https://www.advertiser.ie/Galway/article/32417/impressive-loughrea-will-face-clarinbridge-in-hurling-final",
+    "https://www.advertiser.ie/galway/article/32087/loughrea-and-portumna-return-to-kenny-park-for-replay",
+    "https://www.advertiser.ie/Galway/article/17948/gorts-late-flurry-fails-to-stop-portumna",
+    "https://en.wikipedia.org/wiki/2010_Galway_Senior_Hurling_Championship",
+    "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+    "http://www.padraigpearsesgalway.com/history/"
   ],
   "before": {
-    "players": 1513,
-    "players_with_club": 1430,
-    "players_without_club": 83,
-    "orphan_clubs": 5,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1063,
-    "appearances": 686
-  },
-  "after": {
     "players": 1523,
     "players_with_club": 1441,
     "players_without_club": 82,
@@ -46,54 +31,74 @@
     "matches": 1070,
     "appearances": 686
   },
+  "after": {
+    "players": 1536,
+    "players_with_club": 1454,
+    "players_without_club": 82,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1080,
+    "appearances": 686
+  },
   "delta": {
-    "players_linked": 1,
-    "players_created": 10,
+    "players_linked": 0,
+    "players_created": 13,
     "clubs_created": 0,
-    "appearances_clubbed": 2,
-    "matches_added": 7,
-    "players_with_club": 11,
+    "appearances_clubbed": 0,
+    "matches_added": 10,
+    "players_with_club": 13,
     "orphan_clubs": 0
   },
-  "sample_linked_ids": [
-    "player:enda-fahey"
-  ],
+  "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:mark-kerins",
-    "player:peter-cummins-gort",
-    "player:sylvie-og-linnane-gort",
-    "player:sean-forde-gort",
-    "player:shane-mannion-clarinbridge",
-    "player:shane-burke-clarinbridge",
-    "player:jamie-cannon-clarinbridge",
-    "player:james-barrett-st-thomas",
-    "player:robert-murray-st-thomas",
-    "player:conor-forde-clarinbridge"
+    "player:kevin-conlon-clarinbridge",
+    "player:ronan-geraghty-clarinbridge",
+    "player:brendan-neylon-clarinbridge",
+    "player:noel-conlon-clarinbridge",
+    "player:thomas-callanan-clarinbridge",
+    "player:brendan-ryder-clarinbridge",
+    "player:derek-forde-clarinbridge",
+    "player:cathal-obrien-clarinbridge",
+    "player:eanna-murphy-clarinbridge",
+    "player:gavin-keary-loughrea",
+    "player:nigel-murray-loughrea",
+    "player:vincent-maher-loughrea",
+    "player:tom-hoban-loughrea"
   ],
-  "all_linked_ids": [
-    "player:enda-fahey"
-  ],
+  "all_linked_ids": [],
   "all_created_ids": [
-    "player:mark-kerins",
-    "player:peter-cummins-gort",
-    "player:sylvie-og-linnane-gort",
-    "player:sean-forde-gort",
-    "player:shane-mannion-clarinbridge",
-    "player:shane-burke-clarinbridge",
-    "player:jamie-cannon-clarinbridge",
-    "player:james-barrett-st-thomas",
-    "player:robert-murray-st-thomas",
-    "player:conor-forde-clarinbridge"
+    "player:kevin-conlon-clarinbridge",
+    "player:ronan-geraghty-clarinbridge",
+    "player:brendan-neylon-clarinbridge",
+    "player:noel-conlon-clarinbridge",
+    "player:thomas-callanan-clarinbridge",
+    "player:brendan-ryder-clarinbridge",
+    "player:derek-forde-clarinbridge",
+    "player:cathal-obrien-clarinbridge",
+    "player:eanna-murphy-clarinbridge",
+    "player:gavin-keary-loughrea",
+    "player:nigel-murray-loughrea",
+    "player:vincent-maher-loughrea",
+    "player:tom-hoban-loughrea"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-shc-2011-qf-st-thomas-portumna",
-    "match:galway-shc-2011-qf-clarinbridge-mullagh",
-    "match:galway-shc-2011-qf-replay-clarinbridge-mullagh",
-    "match:galway-shc-2011-qf-gort-loughrea",
-    "match:galway-shc-2011-qf-craughwell-carnmore",
-    "match:galway-shc-2011-sf-gort-st-thomas",
-    "match:galway-shc-2011-sf-replay-clarinbridge-craughwell"
+    "match:galway-shc-2010-qf-portumna-mullagh",
+    "match:galway-shc-2010-qf-tynagh-abbey-duniry-liam-mellows",
+    "match:galway-shc-2010-qf-loughrea-craughwell",
+    "match:galway-shc-2010-qf-clarinbridge-tommy-larkins",
+    "match:galway-shc-2010-pqf-clarinbridge-st-thomas",
+    "match:galway-shc-2010-sf-portumna-loughrea",
+    "match:galway-shc-2010-sf-replay-loughrea-portumna",
+    "match:galway-shc-2009-sf-portumna-gort",
+    "match:galway-shc-2009-sf-loughrea-mullagh",
+    "match:connacht-ihc-2010-final-padraig-pearses-ballyhaunis"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -182,14 +187,14 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 185,
-    "updated": 8,
-    "players_linked": 1,
-    "appearances_clubbed": 2,
-    "players_created": 10,
-    "matches_added": 7,
-    "matches_updated": 1,
-    "clubs_created": 0
+    "added": 251,
+    "players_created": 13,
+    "matches_added": 10,
+    "updated": 5,
+    "matches_updated": 2,
+    "players_linked": 0,
+    "clubs_created": 0,
+    "appearances_clubbed": 0
   },
   "priority_club_counts_after": {
     "club:fohenagh-historic": 44,
@@ -208,7 +213,7 @@
     "club:moycullen": 46,
     "club:turloughmore": 39,
     "club:castlegar": 21,
-    "club:loughrea": 32,
+    "club:loughrea": 36,
     "club:st-thomas": 26,
     "club:meelick-eyrecourt": 35,
     "club:michael-cusacks": 4,
@@ -218,7 +223,7 @@
     "club:cussane-historic": 16,
     "club:kilconieron": 27,
     "club:annaghdown": 20,
-    "club:clarinbridge": 45,
+    "club:clarinbridge": 54,
     "club:sarsfields": 29,
     "club:ballinasloe": 19,
     "club:ballygar": 12,
@@ -248,5 +253,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r37: 2011 Galway SHC knockout scored Match pack (thin 2011); Enda Fahey→Michael Cusacks linked (Advertiser/The42); AF/Fohenagh dense — Clarinbridge/Gort/St Thomas thin fills from 2011 teamsheets; Mark Kerins Wikipedia Clarinbridge; new HOLDs for spelling/id collisions."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r38: 2009/2010 Galway SHC knockout scored Match pack (thin pre-2013) + Connacht IHC 2010 Pearses–Ballyhaunis; club-less ~82 stay HOLD (Alan Leech Kinvara/Athenry collision unresolved; spelling twins Tadgh/Kerrill/Shane Maloney); AF/Fohenagh dense — Clarinbridge 2010 RoH + Loughrea 2010 SF thin fills; new HOLDs for Donal Fox/Eanna Murphy/Breheny collisions."
 }

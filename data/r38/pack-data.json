@@ -1,0 +1,416 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Kevin Conlon",
+      "id": "player:kevin-conlon-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Kevin Conlon. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ronan Geraghty",
+      "id": "player:ronan-geraghty-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Ronan Geraghty. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brendan Neylon",
+      "id": "player:brendan-neylon-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Brendan Neylon. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Noel Conlon",
+      "id": "player:noel-conlon-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Noel Conlon. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Thomas Callanan",
+      "id": "player:thomas-callanan-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Thomas Callanan (distinct from captain Paul Callanan). Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brendan Ryder",
+      "id": "player:brendan-ryder-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Brendan Ryder. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Derek Forde",
+      "id": "player:derek-forde-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Derek Forde. Club-scoped thin fill (distinct from David/Stephen/Eoin/Conor Forde Clarinbridge).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal O'Brien",
+      "id": "player:cathal-obrien-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel lists Cathal O'Brien. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eanna Murphy",
+      "id": "player:eanna-murphy-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA 2010 RoH Clarinbridge SHC champions panel + Wikipedia 2010 final replay scorers list Eanna Murphy / E Murphy for Clarinbridge. Club-scoped thin fill (distinct from bare player:eanna-murphy Tommy Larkins).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gavin Keary",
+      "id": "player:gavin-keary-loughrea",
+      "club": "club:loughrea",
+      "source": "https://www.advertiser.ie/Galway/article/32417/impressive-loughrea-will-face-clarinbridge-in-hurling-final",
+      "note": "Galway Advertiser 2010 SHC SF replay teamsheet: G Keary started midfield for Loughrea vs Portumna. Club-scoped thin fill (distinct from Greg Keary Loughrea).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Nigel Murray",
+      "id": "player:nigel-murray-loughrea",
+      "club": "club:loughrea",
+      "source": "https://www.advertiser.ie/Galway/article/32417/impressive-loughrea-will-face-clarinbridge-in-hurling-final",
+      "note": "Galway Advertiser 2010 SHC SF draw+replay teamsheets: N Murray / Nigel Murray in goal for Loughrea. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Vincent Maher",
+      "id": "player:vincent-maher-loughrea",
+      "club": "club:loughrea",
+      "source": "https://www.advertiser.ie/Galway/article/32417/impressive-loughrea-will-face-clarinbridge-in-hurling-final",
+      "note": "Galway Advertiser 2010 SHC SF replay: V Maher / Vincent Maher started in Loughrea defence vs Portumna. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tom Hoban",
+      "id": "player:tom-hoban-loughrea",
+      "club": "club:loughrea",
+      "source": "https://www.advertiser.ie/galway/article/32087/loughrea-and-portumna-return-to-kenny-park-for-replay",
+      "note": "Galway Advertiser 2010 SHC SF teamsheet: T Hoban / Tom Hoban started for Loughrea vs Portumna. Club-scoped thin fill (distinct from Paul Hoban Loughrea).",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-kelly",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2010-qf-portumna-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Mullagh (2010 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2010,
+        "home": "club:portumna",
+        "away": "club:mullagh",
+        "score": "Portumna 3-12, Mullagh 0-11",
+        "note": "Irish Times published 2010 SHC quarter-final scoreline (Kevin Hayes 2 goals + Conor O'Hare goal; Portumna led 3-3 to 0-6 at half-time).",
+        "confidence": "medium",
+        "source": "https://www.irishtimes.com/sport/portumna-progress-1.656139",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2010-qf-tynagh-abbey-duniry-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Liam Mellows (2010 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2010,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:liam-mellows",
+        "score": "Tynagh-Abbey/Duniry 1-12, Liam Mellows 0-11",
+        "note": "Irish Times published 2010 SHC quarter-final scoreline (Shane Moloney decisive goal; Pádraig Breheny 0-2).",
+        "confidence": "medium",
+        "source": "https://www.irishtimes.com/sport/portumna-progress-1.656139",
+        "winner": "club:tynagh-abbey-duniry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2010-qf-loughrea-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Craughwell (2010 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2010,
+        "home": "club:loughrea",
+        "away": "club:craughwell",
+        "score": "Loughrea 1-12, Craughwell 0-12",
+        "note": "Irish Times published 2010 SHC quarter-final scoreline (Johnny Maher stoppage-time goal; Niall Healy 0-8 for Craughwell).",
+        "confidence": "medium",
+        "source": "https://www.irishtimes.com/sport/portumna-progress-1.656139",
+        "winner": "club:loughrea",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2010-qf-clarinbridge-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Tommy Larkins (2010 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2010,
+        "home": "club:clarinbridge",
+        "away": "club:tommy-larkins",
+        "score": "Clarinbridge 2-19, Tommy Larkins 1-13",
+        "note": "Galway Advertiser published 2010 SHC quarter-final scoreline (Alan Kerins + Eoin Forde goals; Clarinbridge led 0-10 to 0-6 at half-time per Irish Times).",
+        "confidence": "medium",
+        "source": "https://www.advertiser.ie/galway/article/31817/can-portumna-be-stopped",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2010-pqf-clarinbridge-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs St Thomas' (2010 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2010,
+        "home": "club:clarinbridge",
+        "away": "club:st-thomas",
+        "score": "Clarinbridge 2-15, St Thomas' 1-8",
+        "note": "Irish Examiner published 2010 SHC preliminary quarter-final scoreline (Mark Kerins key; Clarinbridge 2-15 St Thomas 1-8).",
+        "confidence": "medium",
+        "source": "https://www.irishexaminer.com/sport/gaa/arid-20131263.html",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2010-sf-portumna-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Loughrea (2010 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2010,
+        "home": "club:portumna",
+        "away": "club:loughrea",
+        "score": "Portumna 1-14, Loughrea 2-11",
+        "note": "Irish Examiner / Galway Advertiser published 2010 SHC semi-final draw scoreline (Joe Canning late free forced replay; scorers Portumna 1-14 Loughrea 2-11).",
+        "confidence": "medium",
+        "source": "https://www.irishexaminer.com/sport/gaa/arid-20133170.html",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2010-sf-replay-loughrea-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Portumna (2010 Galway SHC Semi-final Replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final Replay",
+        "year": 2010,
+        "home": "club:loughrea",
+        "away": "club:portumna",
+        "score": "Loughrea 1-16, Portumna 1-14",
+        "note": "Galway Advertiser published 2010 SHC semi-final replay scorers: Loughrea N Keary 0-11, J O'Loughlin 1-2 (=1-16); Portumna J Canning 0-10, A Smith 1-1 (=1-14). Loughrea advanced to final.",
+        "confidence": "medium",
+        "source": "https://www.advertiser.ie/Galway/article/32417/impressive-loughrea-will-face-clarinbridge-in-hurling-final",
+        "winner": "club:loughrea",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-2009-sf-portumna-gort",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Gort (2009 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2009,
+        "home": "club:portumna",
+        "away": "club:gort",
+        "score": "Portumna 4-14, Gort 6-5",
+        "note": "Galway Advertiser published 2009 SHC semi-final scoreline (Portumna survived late Gort goal flurry).",
+        "confidence": "medium",
+        "source": "https://www.advertiser.ie/Galway/article/17948/gorts-late-flurry-fails-to-stop-portumna",
+        "winner": "club:portumna",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-2009-sf-loughrea-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Mullagh (2009 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2009,
+        "home": "club:loughrea",
+        "away": "club:mullagh",
+        "score": "Loughrea 0-16, Mullagh 0-15",
+        "note": "Irish Examiner published 2009 SHC semi-final scoreline (Neil Keary late free; Kenny Park Athenry).",
+        "confidence": "medium",
+        "source": "https://www.irishexaminer.com/sport/gaa/arid-20103626.html",
+        "winner": "club:loughrea",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2010-final-padraig-pearses-ballyhaunis",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Ballyhaunis (2010 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2010,
+        "home": "club:padraig-pearses",
+        "away": "Ballyhaunis",
+        "score": "Pádraig Pearses 1-14, Ballyhaunis 1-10",
+        "note": "Pádraig Pearses club history / Wikipedia Connacht IHC roll: Pearses beat Ballyhaunis 1-14 to 1-10 in Athleague for first Connacht IHC title (IHC gap fill).",
+        "confidence": "medium",
+        "source": "http://www.padraigpearsesgalway.com/history/",
+        "winner": "club:padraig-pearses",
+        "result": "win",
+        "venue": "Athleague"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:mike-egan": "HOLD r38: spelling/form twin of player:michael-egan already club:cappataggle; do not dual-stamp.",
+    "player:shane-maloney": "HOLD r38: spelling twin of player:shane-moloney already club:tynagh-abbey-duniry (Wikipedia Shane Moloney); MHC bare Maloney remains collision HOLD.",
+    "player:finnian-coone": "HOLD r38: spelling twin of player:finian-coone already club:mullagh; do not dual-stamp.",
+    "player:tadgh-haran": "HOLD r38: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp.",
+    "player:kerrill-wade": "HOLD r38: spelling twin of player:kerril-wade already club:sarsfields (Wikipedia Kerril Wade); do not dual-stamp.",
+    "player:alan-leech": "HOLD r38: keep Kinvara U-21 2004 vs Athenry U-21 2007 collision — 2007 Independent Kinvara XV A Leech + 2013 Wiki Kinvara scorers not enough to clear dual-club risk vs Athenry gallery.",
+    "player:conor-flaherty": "HOLD r38: Galway U-20 football Claregalway cite is football not hurling; Claregalway remains HOLD orphan; MHC 2018 bare stays HOLD.",
+    "player:michael-donoghue": "HOLD r38: keep Micheál/Michael Donoghue Clarinbridge id collision; 2010 RoH lists Michael Donoghue Clarinbridge but bare MHC 1992 row not stamped.",
+    "player:donal-fox": "HOLD r38: likely twin of player:donie-fox already club:carnmore (Wikipedia 2013 SHC Donie Fox Carnmore); do not dual-stamp.",
+    "player:padraig-breheny": "HOLD r38: spelling/id collision with player:padraig-breheny-tynagh-abbey-duniry / padraig-brehony already clubbed Tynagh-Abbey/Duniry; bare AIHC 2017 row stays HOLD.",
+    "player:john-brehony": "HOLD r38: Brehony/Breheny family collision; Advertiser 2010 names John Breheny Tynagh midfield but bare U-21 2011 id stays HOLD without unique first+last resolution."
+  },
+  "match_updates": [
+    {
+      "id": "match:galway-shc-2010-final",
+      "cols": {
+        "venue": "Pearse Stadium",
+        "note": "Irish Examiner / Wikipedia published 2010 Galway SHC final draw: Clarinbridge 2-11 Loughrea 1-14 (31 Oct 2010).",
+        "source": "https://www.irishexaminer.com/sport/gaa/arid-30479897.html",
+        "confidence": "high",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2010-final-replay",
+      "cols": {
+        "venue": "Athenry Grounds",
+        "note": "Wikipedia / Hogan Stand published 2010 Galway SHC final replay: Clarinbridge 0-18 Loughrea 0-15 a.e.t. (21 Nov 2010).",
+        "source": "https://en.wikipedia.org/wiki/2010_Galway_Senior_Hurling_Championship",
+        "confidence": "high",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    }
+  ]
+}
