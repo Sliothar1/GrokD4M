@@ -32007,17 +32007,17 @@
   {
     "row": "player:brian-holland",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:brian-holland",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:brian-holland",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD r16: Brian Holland IHC 2002 bare id — skip club stamp without first+last club cite."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD r16: Brian Holland IHC 2002 bare id — skip club stamp without first+last club cite. Wikipedia 2013 Galway SHC scorers repeatedly list Brian Holland for Turloughmore (vs Carnmore Round 1; vs Gort Group B). Clears prior HOLD r16 — strong first+last Turloughmore hurling cite (later joint-manager career consistent with club)."
   },
   {
     "row": "player:brian-mahoney",
@@ -33207,17 +33207,17 @@
   {
     "row": "player:damien-fahy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:damien-fahy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://archive.connachttribune.ie/dervan-and-coone-goals-steer-mullagh-to-success-556/"
   },
   {
     "row": "player:damien-fahy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). HOLD r7: 1994 minor panel — no clear club hurling cite this run."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). HOLD r7: 1994 minor panel — no clear club hurling cite this run. Connacht Tribune Senior B: Damien Fahy scored for Athenry (black and white) vs Mullagh alongside Ronan Hardiman. Clears prior HOLD r7 — strong first+last Athenry hurling cite."
   },
   {
     "row": "player:damien-joyce",
@@ -52967,7 +52967,7 @@
   {
     "row": "appearance:damien-fahy-minor-1994",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:liam-madden-minor-1994",
@@ -83647,7 +83647,7 @@
   {
     "row": "appearance:brian-holland-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:cathal-dervan-ihc-2002",
@@ -85612,7 +85612,7 @@
   {
     "row": "player:brian-holland",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:brian-mahoney",
@@ -85802,7 +85802,7 @@
   {
     "row": "player:damien-fahy",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:damien-joyce",
@@ -98142,7 +98142,7 @@
   {
     "row": "player:damien-fahy",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "club:salthill-knocknacarra",
@@ -122522,7 +122522,7 @@
   {
     "row": "player:brian-holland",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:jason-lohan",
@@ -185191,6 +185191,4166 @@
   },
   {
     "row": "player:niall-kelly-tommy-larkins",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:brian-holland",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "appearance:brian-holland-ihc-2002",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:damien-fahy",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:damien-fahy-minor-1994",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "name",
+    "val": "Paul Coen"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC scorers repeatedly list Paul Coen for Clarinbridge (Round 1 vs Tommy Larkin's; Group A free-taker including 1-12 vs Portumna). Club-scoped thin fill."
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "name",
+    "val": "Tomás Flannery"
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "source",
+    "val": "http://www.padraigpearsesgalway.com/intermediate-final-2010/"
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "note",
+    "val": "Pádraig Pearses club report + Irish Independent: Tomás/Thomas Flannery captained 2010 IHC winners and was top free-taker; Wikipedia 2013 SHC scorers list Tómas Flannery for Pearses. Club-scoped thin fill (Padraig Pearses thin)."
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "name",
+    "val": "Niall Hayes"
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "source",
+    "val": "https://www.irishtimes.com/sport/gaelic-games/hurling/portumna-lift-galway-shc-title-with-victory-over-loughrea-on-poignant-day-1.1576061"
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "note",
+    "val": "Irish Times 2013 Galway SHC final XV: Niall Hayes started for Portumna; Wikipedia 2013 scorers list Niall Hayes throughout. Club-scoped thin fill."
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "name",
+    "val": "Kevin Hayes"
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "source",
+    "val": "https://www.irishtimes.com/sport/gaelic-games/hurling/portumna-lift-galway-shc-title-with-victory-over-loughrea-on-poignant-day-1.1576061"
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "note",
+    "val": "Irish Times 2013 Galway SHC final XV: Kevin Hayes started for Portumna; Wikipedia 2013 scorers list Kevin Hayes. Club-scoped thin fill; distinct from Damien Hayes."
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "name",
+    "val": "Michael Dolphin"
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "source",
+    "val": "https://www.irishtimes.com/sport/gaelic-games/hurling/portumna-lift-galway-shc-title-with-victory-over-loughrea-on-poignant-day-1.1576061"
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "note",
+    "val": "Irish Times 2013 Galway SHC final XV: M Dolphin started in Portumna defence. Club-scoped thin fill; distinct from Martin Dolphin."
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "name",
+    "val": "Éanna McEntee"
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "source",
+    "val": "https://www.irishtimes.com/sport/gaelic-games/hurling/portumna-lift-galway-shc-title-with-victory-over-loughrea-on-poignant-day-1.1576061"
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "note",
+    "val": "Irish Times 2013 Galway SHC final XV: E McEntee started for Portumna. Club-scoped thin fill."
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "name",
+    "val": "Gary Burke"
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC scorers repeatedly list Gary Burke for Turloughmore (Round 1 vs Carnmore; Group B). Club-scoped thin fill."
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "name",
+    "val": "Donal Reilly"
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2003-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "note",
+    "val": "Galway GAA RoH 2003 Mullagh Intermediate champions panel names Donal Reilly; Wikipedia 2013 SHC scorers list Donal Reilly for Mullagh. Club-scoped thin fill; bare player:don-reilly remains HOLD spelling/form collision."
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "name",
+    "val": "Michael Ryan"
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "source",
+    "val": "https://www.irishtimes.com/sport/gaelic-games/hurling/portumna-lift-galway-shc-title-with-victory-over-loughrea-on-poignant-day-1.1576061"
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "note",
+    "val": "Irish Times 2013 Galway SHC final XV: M Ryan started for Portumna (subbed for Owen Treacy). Club-scoped thin fill."
+  },
+  {
+    "row": "player:michael-ryan-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "name",
+    "val": "Loughrea vs Liam Mellows (2013 Galway SHC Preliminary to Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "round",
+    "val": "Preliminary to Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "score",
+    "val": "Loughrea 1-13, Liam Mellows 0-9"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r1-loughrea-liam-mellows",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "name",
+    "val": "Portumna vs Kinvara (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "score",
+    "val": "Portumna 2-17, Kinvara 0-12"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-portumna-kinvara",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "name",
+    "val": "Gort vs Athenry (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "score",
+    "val": "Gort 0-13, Athenry 0-9"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-gort-athenry",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "name",
+    "val": "Castlegar vs Sarsfields (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "score",
+    "val": "Castlegar 4-18, Sarsfields 2-14"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-castlegar-sarsfields",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Kiltormer vs Tynagh-Abbey/Duniry (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Kiltormer 2-12, Tynagh-Abbey/Duniry 1-14"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-kiltormer-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "name",
+    "val": "Clarinbridge vs Tommy Larkin's (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "score",
+    "val": "Clarinbridge 0-15, Tommy Larkin's 0-13"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-clarinbridge-tommy-larkins",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "name",
+    "val": "St. Thomas' vs Ardrahan (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "score",
+    "val": "St. Thomas' 1-15, Ardrahan 0-12"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-st-thomas-ardrahan",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "name",
+    "val": "Mullagh vs Beagh (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "score",
+    "val": "Mullagh 1-17, Beagh 1-11"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-mullagh-beagh",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "name",
+    "val": "Padraig Pearse's vs Moycullen (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "score",
+    "val": "Padraig Pearse's 2-18, Moycullen 1-15"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-padraig-pearses-moycullen",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "name",
+    "val": "Loughrea vs Craughwell (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "score",
+    "val": "Loughrea 0-18, Craughwell 0-14"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-loughrea-craughwell",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "name",
+    "val": "Turloughmore vs Carnmore (2013 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "score",
+    "val": "Turloughmore 2-17, Carnmore 1-10"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r1-turloughmore-carnmore",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "name",
+    "val": "Ardrahan vs Moycullen (2013 Galway SHC Preliminary to Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "round",
+    "val": "Preliminary to Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "score",
+    "val": "Ardrahan 2-22, Moycullen 2-12"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-prelim-r2-ardrahan-moycullen",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "name",
+    "val": "Kinvara vs Sarsfields (2013 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "home",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "score",
+    "val": "Kinvara 2-13, Sarsfields 1-15"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-kinvara-sarsfields",
+    "col": "winner",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "name",
+    "val": "Craughwell vs Athenry (2013 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "score",
+    "val": "Craughwell 3-10, Athenry 0-10"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-craughwell-athenry",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "name",
+    "val": "Liam Mellows vs Beagh (2013 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "score",
+    "val": "Liam Mellows 1-11, Beagh 0-14"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-liam-mellows-beagh",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "name",
+    "val": "Tommy Larkin's vs Carnmore (2013 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "score",
+    "val": "Tommy Larkin's 0-15, Carnmore 0-10"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-tommy-larkins-carnmore",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Ardrahan vs Tynagh-Abbey/Duniry (2013 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Ardrahan 1-18, Tynagh-Abbey/Duniry 2-13"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-ardrahan-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "name",
+    "val": "Beagh vs Liam Mellows (2013 Galway SHC Round 2 replay)"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "round",
+    "val": "Round 2 replay"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "score",
+    "val": "Beagh 1-17, Liam Mellows 3-8"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-r2-replay-beagh-liam-mellows",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "name",
+    "val": "Portumna vs St. Thomas' (2013 Galway SHC Group A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "round",
+    "val": "Group A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "score",
+    "val": "Portumna 1-16, St. Thomas' 2-11"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-portumna-st-thomas",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "name",
+    "val": "Killimordaly vs Clarinbridge (2013 Galway SHC Group A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "round",
+    "val": "Group A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "score",
+    "val": "Killimordaly 1-13, Clarinbridge 1-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-1-killimordaly-clarinbridge",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "name",
+    "val": "Clarinbridge vs Portumna (2013 Galway SHC Group A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "round",
+    "val": "Group A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "score",
+    "val": "Clarinbridge 1-14, Portumna 0-14"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-clarinbridge-portumna",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "name",
+    "val": "St. Thomas' vs Killimordaly (2013 Galway SHC Group A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "round",
+    "val": "Group A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "score",
+    "val": "St. Thomas' 3-17, Killimordaly 0-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-2-st-thomas-killimordaly",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "name",
+    "val": "Portumna vs Killimordaly (2013 Galway SHC Group A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "round",
+    "val": "Group A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "score",
+    "val": "Portumna 2-27, Killimordaly 1-10"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-portumna-killimordaly",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "name",
+    "val": "St. Thomas' vs Clarinbridge (2013 Galway SHC Group A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "round",
+    "val": "Group A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "score",
+    "val": "St. Thomas' 2-16, Clarinbridge 0-10"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-a-round-3-st-thomas-clarinbridge",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "name",
+    "val": "Ardrahan vs Mullagh (2013 Galway SHC Group B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "round",
+    "val": "Group B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "score",
+    "val": "Ardrahan 0-23, Mullagh 0-19"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-ardrahan-mullagh",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "name",
+    "val": "Turloughmore vs Gort (2013 Galway SHC Group B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "round",
+    "val": "Group B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "score",
+    "val": "Turloughmore 1-16, Gort 1-16"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-1-turloughmore-gort",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "name",
+    "val": "Ardrahan vs Gort (2013 Galway SHC Group B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "round",
+    "val": "Group B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "score",
+    "val": "Ardrahan 2-10, Gort 2-9"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-ardrahan-gort",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "name",
+    "val": "Turloughmore vs Mullagh (2013 Galway SHC Group B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "round",
+    "val": "Group B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "score",
+    "val": "Turloughmore 2-18, Mullagh 0-17"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-2-turloughmore-mullagh",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "name",
+    "val": "Turloughmore vs Ardrahan (2013 Galway SHC Group B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "round",
+    "val": "Group B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "score",
+    "val": "Turloughmore 2-21, Ardrahan 2-15"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-turloughmore-ardrahan",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "name",
+    "val": "Gort vs Mullagh (2013 Galway SHC Group B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "round",
+    "val": "Group B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "score",
+    "val": "Gort 1-26, Mullagh 2-12"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-b-round-3-gort-mullagh",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "name",
+    "val": "Loughrea vs Kinvara (2013 Galway SHC Group C Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "round",
+    "val": "Group C Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "score",
+    "val": "Loughrea 0-17, Kinvara 0-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-loughrea-kinvara",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "name",
+    "val": "Castlegar vs Craughwell (2013 Galway SHC Group C Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "round",
+    "val": "Group C Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "score",
+    "val": "Castlegar 1-17, Craughwell 1-14"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-1-castlegar-craughwell",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "name",
+    "val": "Kinvara vs Craughwell (2013 Galway SHC Group C Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "round",
+    "val": "Group C Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "home",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "score",
+    "val": "Kinvara 1-18, Craughwell 2-12"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-kinvara-craughwell",
+    "col": "winner",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "name",
+    "val": "Loughrea vs Castlegar (2013 Galway SHC Group C Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "round",
+    "val": "Group C Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "score",
+    "val": "Loughrea 2-13, Castlegar 2-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-2-loughrea-castlegar",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "name",
+    "val": "Castlegar vs Kinvara (2013 Galway SHC Group C Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "round",
+    "val": "Group C Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "score",
+    "val": "Castlegar 1-17, Kinvara 2-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-castlegar-kinvara",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "name",
+    "val": "Loughrea vs Craughwell (2013 Galway SHC Group C Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "round",
+    "val": "Group C Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "score",
+    "val": "Loughrea 1-16, Craughwell 0-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-c-round-3-loughrea-craughwell",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "name",
+    "val": "Padraig Pearse's vs Kiltormer (2013 Galway SHC Group D Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "round",
+    "val": "Group D Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "away",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "score",
+    "val": "Padraig Pearse's 0-16, Kiltormer 0-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-padraig-pearses-kiltormer",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "name",
+    "val": "Beagh vs Tommy Larkin's (2013 Galway SHC Group D Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "round",
+    "val": "Group D Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "score",
+    "val": "Beagh 1-17, Tommy Larkin's 0-13"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-1-beagh-tommy-larkins",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "name",
+    "val": "Padraig Pearse's vs Beagh (2013 Galway SHC Group D Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "round",
+    "val": "Group D Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "score",
+    "val": "Padraig Pearse's 2-11, Beagh 0-14"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-padraig-pearses-beagh",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "name",
+    "val": "Kiltormer vs Tommy Larkin's (2013 Galway SHC Group D Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "round",
+    "val": "Group D Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "home",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "score",
+    "val": "Kiltormer 1-17, Tommy Larkin's 1-12"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-2-kiltormer-tommy-larkins",
+    "col": "winner",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "name",
+    "val": "Padraig Pearse's vs Tommy Larkin's (2013 Galway SHC Group D Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "round",
+    "val": "Group D Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "score",
+    "val": "Padraig Pearse's 1-15, Tommy Larkin's 0-11"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-padraig-pearses-tommy-larkins",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "name",
+    "val": "Beagh vs Kiltormer (2013 Galway SHC Group D Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "round",
+    "val": "Group D Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "away",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "score",
+    "val": "Beagh 0-17, Kiltormer 0-15"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-group-d-round-3-beagh-kiltormer",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "name",
+    "val": "Athenry vs Liam Mellows (2013 Galway SHC Relegation Group 1 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "round",
+    "val": "Relegation Group 1 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "score",
+    "val": "Athenry 1-18, Liam Mellows 1-18"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r1-athenry-liam-mellows",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "name",
+    "val": "Liam Mellows vs Moycullen (2013 Galway SHC Relegation Group 1 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "round",
+    "val": "Relegation Group 1 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "score",
+    "val": "Liam Mellows 5-16, Moycullen 0-12"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r2-liam-mellows-moycullen",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "name",
+    "val": "Athenry vs Moycullen (2013 Galway SHC Relegation Group 1 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "round",
+    "val": "Relegation Group 1 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "score",
+    "val": "Athenry 4-11, Moycullen 2-13"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g1-r3-athenry-moycullen",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "name",
+    "val": "Sarsfields vs Moycullen (2013 Galway SHC Relegation Group 2 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "round",
+    "val": "Relegation Group 2 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "score",
+    "val": "Sarsfields 1-13, Moycullen 1-9"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r1-sarsfields-moycullen",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Carnmore (2013 Galway SHC Relegation Group 2 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "round",
+    "val": "Relegation Group 2 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 1-19, Carnmore 0-13"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r2-tynagh-abbey-duniry-carnmore",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "name",
+    "val": "Sarsfields vs Carnmore (2013 Galway SHC Relegation Group 2 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "round",
+    "val": "Relegation Group 2 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "score",
+    "val": "Sarsfields 0-12, Carnmore 0-12"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-g2-r3-sarsfields-carnmore",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Moycullen (2013 Galway SHC Relegation semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "round",
+    "val": "Relegation semi-final"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 1-27, Moycullen 1-10"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-tynagh-abbey-duniry-moycullen",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "name",
+    "val": "Athenry vs Carnmore (2013 Galway SHC Relegation semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "round",
+    "val": "Relegation semi-final"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "score",
+    "val": "Athenry 0-15, Carnmore 0-11"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-sf-athenry-carnmore",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "name",
+    "val": "Carnmore vs Moycullen (2013 Galway SHC Relegation final)"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "round",
+    "val": "Relegation final"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "home",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "score",
+    "val": "Carnmore 1-15, Moycullen 1-13"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-rel-final-carnmore-moycullen",
+    "col": "winner",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "name",
+    "val": "Beagh vs Turloughmore (2013 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "score",
+    "val": "Beagh 2-12, Turloughmore 1-13"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-beagh-turloughmore",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "name",
+    "val": "St. Thomas's vs Castlegar (2013 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "score",
+    "val": "St. Thomas's 2-19, Castlegar 0-21"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-st-thomass-castlegar",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "name",
+    "val": "Portumna vs Ardrahan (2013 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "score",
+    "val": "Portumna 1-15, Ardrahan 1-14"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-portumna-ardrahan",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "name",
+    "val": "Loughrea vs Pádraig Pearses (2013 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "score",
+    "val": "Loughrea 0-14, Pádraig Pearses 1-10"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-qf-loughrea-padraig-pearses",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "name",
+    "val": "Loughrea vs Beagh (2013 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "score",
+    "val": "Loughrea 2-18, Beagh 1-11"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-loughrea-beagh",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "name",
+    "val": "Portumna vs St. Thomas's (2013 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "score",
+    "val": "Portumna 0-22, St. Thomas's 1-19"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-portumna-st-thomass",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "name",
+    "val": "Portumna vs St. Thomas's (2013 Galway SHC Semi-final replay)"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "round",
+    "val": "Semi-final replay"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "score",
+    "val": "Portumna 0-18, St. Thomas's 2-11"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "note",
+    "val": "Wikipedia 2013 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2013-sf-replay-portumna-st-thomass",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:paul-coen-clarinbridge",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:tomas-flannery-padraig-pearses",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:niall-hayes-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:kevin-hayes-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:michael-dolphin-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:eanna-mcentee-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:gary-burke-turloughmore",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:donal-reilly-mullagh",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:michael-ryan-portumna",
     "col": "hold",
     "val": false
   }
