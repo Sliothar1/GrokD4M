@@ -1,0 +1,957 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:donie-fox",
+      "club": "club:carnmore",
+      "source": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2013 Galway SHC scoresheet: Donie Fox scored 1-2 for Carnmore vs Turloughmore; MHC 2009 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:rory-foy",
+      "club": "club:ballinderreen",
+      "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2021 Galway SHC scoresheets: Rory Foy scored for Ballinderreen (0-1 vs Portumna; 1-0 vs Kilconieron). U-21 2011 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:john-hughes",
+      "club": "club:liam-mellows",
+      "source": "https://www.advertiser.ie/galway/article/1756/clarenbridge-can-push-portumna-all-the-way",
+      "note": "Galway Advertiser SHC preview: John Hughes named among Liam Mellows scorers (with Shane Minton/Aonghus Callanan) in 1-19 to 0-9 win over Kiltormer; MHC 2004/2005 inter-county age-match. First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:p-j-burke",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: P J Burke named on Abbeyknockmoy Intermediate Hurling Champions panel; U-21 1978 inter-county age-match. First+last published club cite.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Ross Hannon",
+      "id": "player:ross-hannon-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2020 Galway SHC scoresheets: Ross Hannon scored for Ahascragh–Fohenagh (0-2 vs Pádraig Pearses; 0-2 vs Kilnadeema–Leitrim; 0-1 vs Craughwell PQF).",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Ger Kirwan",
+      "id": "player:ger-kirwan-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Ger Kirwan named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Noel Brady",
+      "id": "player:noel-brady-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Noel Brady named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Vincent Brien",
+      "id": "player:vincent-brien-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Vincent Brien named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Matthew Donoghue",
+      "id": "player:matthew-donoghue-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Matthew Donoghue named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eamon Hanney",
+      "id": "player:eamon-hanney-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Eamon Hanney named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin Kelly",
+      "id": "player:martin-kelly-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Martin Kelly named on Killimor Intermediate Hurling Champions panel. Club-scoped id; generic player:martin-kelly remains HOLD collision.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Padraic Blaney",
+      "id": "player:padraic-blaney-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Padraic Blaney named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Kevin Muldoon",
+      "id": "player:kevin-muldoon-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Kevin Muldoon named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Murray",
+      "id": "player:michael-murray-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Michael Murray named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Enda McLennon",
+      "id": "player:enda-mclennon-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Enda McLennon named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Pakie Starr",
+      "id": "player:pakie-starr-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Pakie Starr named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Seamus Grady",
+      "id": "player:seamus-grady-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Seamus Grady named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ian Barrett",
+      "id": "player:ian-barrett-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Ian Barrett named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Shane Brody",
+      "id": "player:shane-brody-killimor",
+      "club": "club:killimor",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1984: Shane Brody named on Killimor Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "John Ruane",
+      "id": "player:john-ruane-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: John Ruane named on Abbeyknockmoy Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tom Divilly",
+      "id": "player:tom-divilly-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: Tom Divilly named on Abbeyknockmoy Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Johnny Blade",
+      "id": "player:johnny-blade-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: Johnny Blade named on Abbeyknockmoy Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jody Farragher",
+      "id": "player:jody-farragher-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: Jody Farragher named on Abbeyknockmoy Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Matt Ruane",
+      "id": "player:matt-ruane-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: Matt Ruane named on Abbeyknockmoy Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Pat Blade",
+      "id": "player:pat-blade-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: Pat Blade named on Abbeyknockmoy Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean Murphy",
+      "id": "player:sean-murphy-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1985: Sean Murphy named on Abbeyknockmoy Intermediate Hurling Champions panel. Club-scoped id; modern player:sean-murphy (Clarinbridge) is a separate identity.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tommy Devane",
+      "id": "player:tommy-devane-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: Tommy Devane named on Abbeyknockmoy Senior Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "John Blade",
+      "id": "player:john-blade-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: John Blade named on Abbeyknockmoy Senior Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gerry McHugh",
+      "id": "player:gerry-mchugh-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: Gerry McHugh named on Abbeyknockmoy Senior Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jody Flaherty",
+      "id": "player:jody-flaherty-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: Jody Flaherty named on Abbeyknockmoy Senior Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gerry Daly",
+      "id": "player:gerry-daly-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: Gerry Daly named on Abbeyknockmoy Senior Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mattie Coleman",
+      "id": "player:mattie-coleman-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: Mattie Coleman named on Abbeyknockmoy Senior Hurling Champions panel. Club-scoped id; player:mattie-coleman-annaghdown remains separate.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Thomas Mannion",
+      "id": "player:thomas-mannion-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: Thomas Mannion named on Abbeyknockmoy Senior Hurling Champions panel. Club-scoped id; player:thomas-mannion (Ahascragh-Fohenagh) remains separate era/identity.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eugene Maher",
+      "id": "player:eugene-maher-abbeyknockmoy",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1988: Eugene Maher named on Abbeyknockmoy Senior Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Liam Burke",
+      "id": "player:liam-burke-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Liam Burke named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tom Coyne",
+      "id": "player:tom-coyne-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Tom Coyne named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Declan Martyn",
+      "id": "player:declan-martyn-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Declan Martyn named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Barry McGlynn",
+      "id": "player:barry-mcglynn-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Barry McGlynn named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Noel McNamara",
+      "id": "player:noel-mcnamara-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Noel McNamara named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Enda Connaughton",
+      "id": "player:enda-connaughton-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Enda Connaughton named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "James Burke",
+      "id": "player:james-burke-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: James Burke named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eamon Connaughton",
+      "id": "player:eamon-connaughton-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Eamon Connaughton named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Maurice Murray",
+      "id": "player:maurice-murray-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Maurice Murray named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Joe Dolan",
+      "id": "player:joe-dolan-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Joe Dolan named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Aidan Spellman",
+      "id": "player:aidan-spellman-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Aidan Spellman named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "John McGlynn",
+      "id": "player:john-mcglynn-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: John McGlynn named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Alan Curley",
+      "id": "player:alan-curley-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1993: Alan Curley named on Kilconieron Intermediate Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Niall Rodgers",
+      "id": "player:niall-rodgers-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Niall Rodgers named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Bernie O'Connor",
+      "id": "player:bernie-oconnor-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Bernie O'Connor named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin Grealish",
+      "id": "player:martin-grealish-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Martin Grealish named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eamon Grealish",
+      "id": "player:eamon-grealish-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Eamon Grealish named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Kelly",
+      "id": "player:michael-kelly-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Michael Kelly named on Oranmore Maree Junior A Hurling Champions panel. Club-scoped id; generic player:michael-kelly remains HOLD collision.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin Carr",
+      "id": "player:martin-carr-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Martin Carr named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Johnny Fahy",
+      "id": "player:johnny-fahy-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Johnny Fahy named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paddy Reilly",
+      "id": "player:paddy-reilly-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Paddy Reilly named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "John Furey",
+      "id": "player:john-furey-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: John Furey named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Andy Furey",
+      "id": "player:andy-furey-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Andy Furey named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Hanniffy",
+      "id": "player:michael-hanniffy-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Michael Hanniffy named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tom Greally",
+      "id": "player:tom-greally-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Tom Greally named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mossy Fahy",
+      "id": "player:mossy-fahy-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Mossy Fahy named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jimmy Reilly",
+      "id": "player:jimmy-reilly-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Jimmy Reilly named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gerry Finn",
+      "id": "player:gerry-finn-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Gerry Finn named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mike Melville",
+      "id": "player:mike-melville-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Mike Melville named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Pat Greally",
+      "id": "player:pat-greally-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Pat Greally named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Pat Sheridan",
+      "id": "player:pat-sheridan-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Pat Sheridan named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Billy McGrath",
+      "id": "player:billy-mcgrath-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Billy McGrath named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jim Bishop",
+      "id": "player:jim-bishop-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1980: Jim Bishop named on Oranmore Maree Junior A Hurling Champions panel.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:albert-moylan",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:brendan-keogh",
+    "player:brendan-lynch",
+    "player:brian-concannon",
+    "player:brian-cunningham",
+    "player:brian-holland",
+    "player:brian-mahoney",
+    "player:brian-murphy",
+    "player:brian-omahony",
+    "player:cathal-coen",
+    "player:christy-helebert",
+    "player:cian-regan",
+    "player:conor-burke",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:cormac-diviney",
+    "player:damien-fahy",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:don-reilly",
+    "player:donal-mannion",
+    "player:enda-fahey",
+    "player:finnian-coone",
+    "player:gerry-kelly",
+    "player:gordan-glynn",
+    "player:gordon-glynn",
+    "player:greg-kennedy",
+    "player:greg-thomas",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:kerrill-wade",
+    "player:kevin-broderick",
+    "player:kieran-finnerty",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-conneely",
+    "player:michael-donoghue",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:micheal-donoghue",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:murty-killilea",
+    "player:niall-kelly",
+    "player:noel-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:sean-glynn",
+    "player:shane-maloney",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:tom-monaghan",
+    "player:tony-og-regan",
+    "player:ciaran-oconnor",
+    "player:michael-lynskey",
+    "player:donal-fox"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2020-pqf-ahascragh-fohenagh-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Ahascragh-Fohenagh vs Craughwell (2020 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2020,
+        "home": "club:ahascragh-fohenagh",
+        "away": "club:craughwell",
+        "score": "Ahascragh-Fohenagh 2-18, Craughwell 2-17",
+        "note": "Wikipedia 2020 Galway SHC Preliminary Quarter-final at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:ahascragh-fohenagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-pqf-killimordaly-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Mullagh (2020 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2020,
+        "home": "club:killimordaly",
+        "away": "club:mullagh",
+        "score": "Killimordaly 0-25, Mullagh 1-18",
+        "note": "Wikipedia 2020 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-pqf-sarsfields-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Ardrahan (2020 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2020,
+        "home": "club:sarsfields",
+        "away": "club:ardrahan",
+        "score": "Sarsfields 4-17, Ardrahan 0-19",
+        "note": "Wikipedia 2020 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-pqf-liam-mellows-gort",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Gort (2020 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2020,
+        "home": "club:liam-mellows",
+        "away": "club:gort",
+        "score": "Liam Mellows 2-19, Gort 1-21",
+        "note": "Wikipedia 2020 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-qf-st-thomas-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Killimordaly (2020 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2020,
+        "home": "club:st-thomas",
+        "away": "club:killimordaly",
+        "score": "St Thomas' 1-23, Killimordaly 2-16",
+        "note": "Wikipedia 2020 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-qf-cappataggle-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Ahascragh-Fohenagh (2020 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2020,
+        "home": "club:cappataggle",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Cappataggle 0-20, Ahascragh-Fohenagh 0-13",
+        "note": "Wikipedia 2020 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-qf-loughrea-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Liam Mellows (2020 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2020,
+        "home": "club:loughrea",
+        "away": "club:liam-mellows",
+        "score": "Loughrea 0-22, Liam Mellows 1-13",
+        "note": "Wikipedia 2020 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-qf-turloughmore-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Sarsfields (2020 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2020,
+        "home": "club:turloughmore",
+        "away": "club:sarsfields",
+        "score": "Turloughmore 2-25, Sarsfields 2-19",
+        "note": "Wikipedia 2020 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-sf-turloughmore-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Loughrea (2020 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2020,
+        "home": "club:turloughmore",
+        "away": "club:loughrea",
+        "score": "Turloughmore 2-17, Loughrea 1-17",
+        "note": "Wikipedia 2020 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2020-sf-st-thomas-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Cappataggle (2020 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2020,
+        "home": "club:st-thomas",
+        "away": "club:cappataggle",
+        "score": "St Thomas' 1-15, Cappataggle 0-17",
+        "note": "Wikipedia 2020 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-pqf-clarinbridge-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Loughrea (2021 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2021,
+        "home": "club:clarinbridge",
+        "away": "club:loughrea",
+        "score": "Clarinbridge 1-10, Loughrea 1-7",
+        "note": "Wikipedia 2021 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-pqf-kilnadeema-leitrim-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Turloughmore (2021 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2021,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:turloughmore",
+        "score": "Kilnadeema-Leitrim 2-17, Turloughmore 1-17",
+        "note": "Wikipedia 2021 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:kilnadeema-leitrim"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-pqf-gort-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Portumna (2021 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2021,
+        "home": "club:gort",
+        "away": "club:portumna",
+        "score": "Gort 1-22, Portumna 2-18",
+        "note": "Wikipedia 2021 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-pqf-kilconieron-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Pádraig Pearses (2021 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2021,
+        "home": "club:kilconieron",
+        "away": "club:padraig-pearses",
+        "score": "Kilconieron 2-19, Pádraig Pearses 0-18 (a.e.t.)",
+        "note": "Wikipedia 2021 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:kilconieron"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-qf-gort-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Cappataggle (2021 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2021,
+        "home": "club:gort",
+        "away": "club:cappataggle",
+        "score": "Gort 0-19, Cappataggle 0-18",
+        "note": "Wikipedia 2021 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-qf-clarinbridge-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Tommy Larkin's (2021 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2021,
+        "home": "club:clarinbridge",
+        "away": "club:tommy-larkins",
+        "score": "Clarinbridge 1-17, Tommy Larkin's 1-12",
+        "note": "Wikipedia 2021 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-qf-st-thomas-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Kilconieron (2021 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2021,
+        "home": "club:st-thomas",
+        "away": "club:kilconieron",
+        "score": "St Thomas' 3-29, Kilconieron 1-9",
+        "note": "Wikipedia 2021 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-qf-craughwell-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Kilnadeema-Leitrim (2021 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2021,
+        "home": "club:craughwell",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Craughwell 0-27, Kilnadeema-Leitrim 0-9",
+        "note": "Wikipedia 2021 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-sf-clarinbridge-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Craughwell (2021 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:clarinbridge",
+        "away": "club:craughwell",
+        "score": "Clarinbridge 3-18, Craughwell 1-14",
+        "note": "Wikipedia 2021 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-sf-st-thomas-gort",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Gort (2021 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:st-thomas",
+        "away": "club:gort",
+        "score": "St Thomas' 4-20, Gort 0-9",
+        "note": "Wikipedia 2021 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:st-thomas"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:donal-fox": "HOLD r22: Donal Fox U-21 2011 vs Wikipedia 2013 Carnmore SHC Donie Fox (MHC 2009) — likely same identity (Donie/Donal); club link applied to player:donie-fox only; do not auto-link Donal Fox without archivist confirm.",
+    "player:martin-kelly": "HOLD r22: Martin Kelly U-21 1986 / IHC 2002 collision risk vs RoH 1984 Killimor Intermediate Martin Kelly — club-scoped player:martin-kelly-killimor created; do not auto-link generic id.",
+    "player:michael-kelly": "HOLD r22: Michael Kelly MHC/panel collision risk vs RoH 1980 Oranmore Maree Junior A Michael Kelly — club-scoped player:michael-kelly-oranmore-maree created; do not auto-link generic id."
+  }
+}
