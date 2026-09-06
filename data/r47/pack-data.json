@@ -1,0 +1,697 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Ryan Mannion",
+      "id": "player:ryan-mannion-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Ballygar goalkeeper Ryan Mannion; saved Emmet Ward's late second penalty in Tuam Herald 12 Aug 2026 PIHC R1 vs Pádraig Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Enda Naughton",
+      "id": "player:enda-naughton-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: Enda Naughton started for Ballygar vs Pádraig Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Joey Wallace",
+      "id": "player:joey-wallace-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Joey Wallace opened Ballygar scoring (0-1) and named leading player vs Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eoghan Naughton",
+      "id": "player:eoghan-naughton-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Eoghan Naughton 0-1 for Ballygar in early surge vs Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ryan Duffy",
+      "id": "player:ryan-duffy-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Ryan Duffy long drive for Ballygar goal (1-0) vs Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Harry Holmes",
+      "id": "player:harry-holmes-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Harry Holmes 1-1 for Ballygar (third-time goal after two Mitchell saves). Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal Maloney",
+      "id": "player:cathal-maloney-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: C. Maloney 0-1 / Cathal Maloney for Ballygar vs Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Karl Healy",
+      "id": "player:karl-healy-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Karl Healy 0-2 (frees) for Ballygar before half-time injury sub. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eamonn Trayers",
+      "id": "player:eamonn-trayers-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Eamonn Trayers 0-2 for Ballygar vs Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paddy Downey",
+      "id": "player:paddy-downey-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: P. Downey 0-1 captain for Ballygar vs Pearses. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Diarmuid O'Brien",
+      "id": "player:diarmuid-obrien-ballygar",
+      "club": "club:ballygar",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: D. O'Brien 0-1 for Ballygar vs Pearses. Club-scoped thin fill — distinct from clubbed player:diarmuid-obrien (Ahascragh-Fohenagh).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Emmet Ward",
+      "id": "player:emmet-ward-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Emmet Ward 1-3 (penalty) for Pádraig Pearses vs Ballygar. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Harry Mitchell",
+      "id": "player:harry-mitchell-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: H. Mitchell in goal for Pádraig Pearses; two big saves from Holmes. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ronan Flannery",
+      "id": "player:ronan-flannery-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Ronan Flannery 0-2 and won late second penalty for Pearses vs Ballygar. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Diarmuid Fahey",
+      "id": "player:diarmuid-fahey-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: D. Fahey 0-1 for Pádraig Pearses vs Ballygar. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cillian Fahey",
+      "id": "player:cillian-fahey-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: Cillian Fahey 0-2 (incl. placed ball) for Pearses vs Ballygar. Club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2026-r3-loughrea-gort",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Gort (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:loughrea",
+        "away": "club:gort",
+        "score": "Loughrea 3-26, Gort 3-21",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Loughrea 3-26 - Gort 3-21 (2026-09-05). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "win",
+        "winner": "club:loughrea",
+        "venue": "Kenny Park",
+        "runner_up": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r3-moycullen-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Tommy Larkin's (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:moycullen",
+        "away": "club:tommy-larkins",
+        "score": "Moycullen 0-20, Tommy Larkin's 1-17",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Moycullen 0-20 - Tommy Larkin's 1-17 (2026-09-05). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "draw",
+        "venue": "Pearse Stadium"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r3-craughwell-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Cappataggle (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:craughwell",
+        "away": "club:cappataggle",
+        "score": "Craughwell 2-25, Cappataggle 2-15",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Craughwell 2-25 - Cappataggle 2-15 (2026-09-05). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "win",
+        "winner": "club:craughwell",
+        "venue": "Kenny Park",
+        "runner_up": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r3-liam-mellows-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Clarinbridge (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:liam-mellows",
+        "away": "club:clarinbridge",
+        "score": "Liam Mellows 0-15, Clarinbridge 2-22",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Liam Mellows 0-15 - Clarinbridge 2-22 (2026-09-05). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "win",
+        "winner": "club:clarinbridge",
+        "venue": "Pearse Stadium",
+        "runner_up": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r3-killimordaly-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Athenry (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:killimordaly",
+        "away": "club:athenry",
+        "score": "Killimordaly 0-12, Athenry 4-22",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Killimordaly 0-12 - Athenry 4-22 (2026-09-05). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Duggan Park",
+        "runner_up": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r3-turloughmore-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Ardrahan (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:turloughmore",
+        "away": "club:ardrahan",
+        "score": "Turloughmore 0-20, Ardrahan 0-13",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Turloughmore 0-20 - Ardrahan 0-13 (2026-09-06). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "win",
+        "winner": "club:turloughmore",
+        "venue": "Kenny Park",
+        "runner_up": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r3-oranmore-maree-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore–Maree vs Castlegar (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:oranmore-maree",
+        "away": "club:castlegar",
+        "score": "Oranmore–Maree 3-15, Castlegar 2-21",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Oranmore–Maree 3-15 - Castlegar 2-21 (2026-09-06). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "win",
+        "winner": "club:castlegar",
+        "venue": "Kenny Park",
+        "runner_up": "club:oranmore-maree"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r3-sarsfields-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs St Thomas' (2026 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2026,
+        "home": "club:sarsfields",
+        "away": "club:st-thomas",
+        "score": "Sarsfields 3-15, St Thomas' 1-17",
+        "note": "Final Whistle Galway SHC results page: Round 3 full-time Sarsfields 3-15 - St Thomas' 1-17 (2026-09-06). Remaining 2026 group round after R1/R2 pack.",
+        "confidence": "medium",
+        "source": "https://www.finalwhistle.ie/hurling/galway-shc/",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "venue": "Duggan Park",
+        "runner_up": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-jhc-1957-north-final-athenry-annaghdown",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Annaghdown (1957 Galway JHC North Final)",
+        "competition": "Galway Junior Hurling Championship",
+        "round": "North Final",
+        "year": 1957,
+        "home": "club:athenry",
+        "away": "club:annaghdown",
+        "score": "Athenry 6-06, Annaghdown 4-05",
+        "note": "Athenry GAA 1957–1959 history: North Board Junior final at Tuam Stadium Athenry 6-6 Annaghdown 4-5 (held Annaghdown scoreless in second half). Pre-1966 JHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Tuam Stadium",
+        "runner_up": "club:annaghdown"
+      }
+    },
+    {
+      "id": "match:galway-jhc-1957-sf-athenry-killimor",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Killimor (1957 Galway JHC Semi-final)",
+        "competition": "Galway Junior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1957,
+        "home": "club:athenry",
+        "away": "club:killimor",
+        "score": "Athenry 2-05, Killimor 2-03",
+        "note": "Athenry GAA 1957–1959 history: County Junior semi-final at Gort Athenry 2-5 Killimor 2-3 (late Frank Healy goal). Pre-1966 JHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Gort",
+        "runner_up": "club:killimor"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1957-north-final-athenry-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Turloughmore (1957 Galway MHC North Final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "North Final",
+        "year": 1957,
+        "home": "club:athenry",
+        "away": "club:turloughmore",
+        "score": "Athenry 5-06, Turloughmore 0-02",
+        "note": "Athenry GAA 1957–1959 history: North Board Minor final Athenry 5-6 Turloughmore 0-2. Pre-1966 MHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-1958-r1-athenry-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Ardrahan (1958 Galway SHC)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Championship",
+        "year": 1958,
+        "home": "club:athenry",
+        "away": "club:ardrahan",
+        "score": "Athenry 3-08, Ardrahan 4-03",
+        "note": "Athenry GAA 1957–1959 history: Athenry senior debut at Kenny Park Athenry 3-8 Ardrahan 4-3 (Bobby Gardner late 21-yard free goal). Pre-1966 SHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Kenny Park",
+        "runner_up": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-shc-1958-athenry-gort",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Gort (1958 Galway SHC)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Championship",
+        "year": 1958,
+        "home": "club:athenry",
+        "away": "club:gort",
+        "score": "Athenry 6-05, Gort 1-11",
+        "note": "Athenry GAA 1957–1959 history: Athenry beat Gort 6-5 to 1-11 at Pearse Stadium en route to County SF. Pre-1966 SHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Pearse Stadium",
+        "runner_up": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-1958-sf-castlegar-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Athenry (1958 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1958,
+        "home": "club:castlegar",
+        "away": "club:athenry",
+        "score": "Castlegar 1-09, Athenry 1-03",
+        "note": "Athenry GAA 1957–1959 history: County SF at Clarinbridge Castlegar 1-9 Athenry 1-3. Pre-1966 SHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:castlegar",
+        "venue": "Clarinbridge",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-1959-r1-athenry-castlegar-draw",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Castlegar (1959 Galway SHC Round 1 draw)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "First Round",
+        "year": 1959,
+        "home": "club:athenry",
+        "away": "club:castlegar",
+        "score": "Athenry 3-06, Castlegar 3-06",
+        "note": "Athenry GAA 1957–1959 history: first-round draw at Gort 3-6 each vs reigning champions Castlegar. Pre-1966 SHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "draw",
+        "venue": "Gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-1959-r1-replay-castlegar-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Athenry (1959 Galway SHC Round 1 replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "First Round Replay",
+        "year": 1959,
+        "home": "club:castlegar",
+        "away": "club:athenry",
+        "score": "Castlegar 3-14, Athenry 2-07",
+        "note": "Athenry GAA 1957–1959 history: replay Castlegar 3-14 Athenry 2-7. Pre-1966 SHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:castlegar",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1959-sf-newcastle-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Newcastle vs Carnmore (1959 Galway IHC Semi-final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Semi-final",
+        "year": 1959,
+        "home": "club:newcastle-galway",
+        "away": "club:carnmore",
+        "score": "Newcastle 6-08, Carnmore 4-02",
+        "note": "Athenry GAA 1957–1959 history: North champions Newcastle won County IHC SF by twelve points 6-8 to 4-2 vs Carnmore at Clarinbridge. IHC scored path gap (final already seeded Eyrecourt 1-5 Newcastle 0-4).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:newcastle-galway",
+        "venue": "Clarinbridge",
+        "runner_up": "club:carnmore"
+      }
+    },
+    {
+      "id": "match:galway-jbhc-1958-final-beagh-cussane",
+      "cols": {
+        "type": "match",
+        "name": "Beagh vs Cussane (1958 Galway Junior B HC Final)",
+        "competition": "Galway Junior B Hurling Championship",
+        "round": "Final",
+        "year": 1958,
+        "home": "club:beagh",
+        "away": "club:cussane-historic",
+        "score": "Beagh 5-06, Cussane 3-00",
+        "note": "Athenry GAA 1957–1959 history: County Junior B final Beagh 5-6 Cussane 3-0 (Joe Coen scored Cussane's three goals). Pre-1966 JHC/JBHC scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1957-1959",
+        "result": "win",
+        "winner": "club:beagh",
+        "runner_up": "club:cussane-historic"
+      }
+    },
+    {
+      "id": "match:galway-reeves-cup-1967-final-athenry-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Fohenagh (1967 Reeves Cup Final)",
+        "competition": "Reeves Cup",
+        "round": "Final",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:fohenagh-historic",
+        "score": "Athenry 5-02, Fohenagh 3-05",
+        "note": "Athenry GAA 1967 history: gale-swept Reeves Cup final at Duggan Park Athenry 5-2 Fohenagh 3-5 (club's first major senior title). Pre-1970 scored gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Duggan Park",
+        "runner_up": "club:fohenagh-historic"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1967-final-athenry-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Mullagh (1967 Galway MHC Final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "Final",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:mullagh",
+        "score": "Athenry 5-02, Mullagh 3-03",
+        "note": "Athenry GAA 1967 history: County MHC final at Pearse Stadium Athenry 5-2 Mullagh 3-3 (retained title; Vincent Madden clinching goal).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Pearse Stadium",
+        "runner_up": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1967-sf-athenry-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Liam Mellows (1967 Galway MHC Semi-final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "Semi-final",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:liam-mellows",
+        "score": "Athenry 10-05, Liam Mellows 1-06",
+        "note": "Athenry GAA 1967 history: County MHC SF at Kenny Park Athenry 10-5 Liam Mellows 1-6.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Kenny Park",
+        "runner_up": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1967-north-final-athenry-skehana",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Skehana (1967 Galway MHC North Final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "North Final",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:skehana",
+        "score": "Athenry 6-11, Skehana 0-04",
+        "note": "Athenry GAA 1967 history: North Board MHC final Athenry 6-11 Skehana 0-4.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:skehana"
+      }
+    },
+    {
+      "id": "match:galway-u21hc-1967-sf-castlegar-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Athenry (1967 Galway U-21 HC Semi-final)",
+        "competition": "Galway Under-21 Hurling Championship",
+        "round": "Semi-final",
+        "year": 1967,
+        "home": "club:castlegar",
+        "away": "club:athenry",
+        "score": "Castlegar 5-06, Athenry 4-02",
+        "note": "Athenry GAA 1967 history: County U-21 SF Castlegar 5-6 Athenry 4-2 (Athenry missing Gerry Donoghue/Willie Cummins/Michael Mullins).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:castlegar",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-u21hc-1967-north-final-athenry-abbeyknockmoy",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Abbeyknockmoy (1967 Galway U-21 HC North Final)",
+        "competition": "Galway Under-21 Hurling Championship",
+        "round": "North Final",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:abbeyknockmoy",
+        "score": "Athenry 3-05, Abbeyknockmoy 2-05",
+        "note": "Athenry GAA 1967 history: North Board U-21 final Athenry 3-5 Abbeyknockmoy 2-5.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:abbeyknockmoy"
+      }
+    }
+  ],
+  "match_updates": [],
+  "hold_notes": {
+    "player:gordon-glynn": "HOLD r47: Irish Examiner 20 Mar 2003 reports Gordon Glynn quit Galway senior panel (work commitments) but gives no club; LinkedIn Kiltormer Nursing Home is not a first+last published hurling cite — stays HOLD (do not merge to player:gordan-glynn Kiltormer without twin-safe hurling source).",
+    "player:aonghus-dervan": "HOLD r47: still no first+last published Galway club hurling cite for Aonghus Dervan (U-21 2005); Mullagh Dervan family not a direct clear — keep HOLD.",
+    "player:sean-glynn": "HOLD r47: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear without twin this round.",
+    "player:padraig-breheny": "HOLD r47: spelling twin of clubbed player:padraig-breheny-tynagh-abbey-duniry — bare 2017 AI panel row stays HOLD.",
+    "player:declan-jennings": "HOLD r47: Declan Jennings/Jenning twin cluster still unresolved — no new first+last multi-source clear; stay HOLD.",
+    "player:joe-keane": "HOLD r47: continue r46 collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 row stays HOLD."
+  }
+}
