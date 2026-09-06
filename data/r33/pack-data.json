@@ -1,0 +1,1289 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:brendan-keogh",
+      "club": "club:athenry",
+      "source": "https://en.wikipedia.org/wiki/Brendan_Keogh_(hurler)",
+      "note": "Wikipedia Brendan Keogh (hurler): Galway senior 1991–1998; club Athenry (7 county + All-Ireland club). Clears prior HOLD — strong first+last cite for U-21 1991 panel Brendan Keogh.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:cormac-diviney",
+      "club": "club:ardrahan",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC scorers repeatedly list Cormac Diviney for Ardrahan (e.g. Group B R1 goal vs Gort); Irish Examiner 2013 Portumna team sheet also places C Diviney in Ardrahan defence. Clears prior HOLD — strong first+last club hurling cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:micheal-donoghue",
+      "club": "club:clarinbridge",
+      "source": "https://en.wikipedia.org/wiki/Miche%C3%A1l_Donoghue",
+      "note": "Wikipedia Micheál Donoghue: Clarinbridge club (captained 2001 Galway SHC); Galway MHC 1992 / U-21 1993. Clears prior HOLD on player:micheal-donoghue — twin of Liam Donoghue (already Clarinbridge). Bare player:michael-donoghue remains HOLD spelling/id collision.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Ciaran Dolan",
+      "id": "player:ciaran-dolan-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV: Ciaran Dolan started in goal for Sarsfields vs Craughwell (draw + replay). Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal Murray",
+      "id": "player:cathal-murray-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV: Cathal Murray started (and managed) Sarsfields vs Craughwell. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darren Skehill",
+      "id": "player:darren-skehill-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV: Darren Skehill started at full-back for Sarsfields. Club-scoped thin fill; distinct from Ian Skehill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Diarmuid Murray",
+      "id": "player:diarmuid-murray-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV: Diarmuid Murray started for Sarsfields vs Craughwell. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ronan Quinn",
+      "id": "player:ronan-quinn-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV: Ronan Quinn started for Sarsfields vs Craughwell. Club-scoped thin fill; distinct from Niall Quinn.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eamon Cleary",
+      "id": "player:eamon-cleary-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV / scorers: Eamon Cleary started and scored for Sarsfields. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ian Fox",
+      "id": "player:ian-fox-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV / QF scorers: Ian Fox started and scored for Sarsfields. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Niall Morrissey",
+      "id": "player:niall-morrissey-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final / SF top scorer line: Niall Morrissey started and scored heavily for Sarsfields. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ian Skehill",
+      "id": "player:ian-skehill-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV: Ian Skehill started for Sarsfields. Club-scoped thin fill; distinct from Darren Skehill / James Skehill Cappataggle.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Alan Ward",
+      "id": "player:alan-ward-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC final XV / group scorers: Alan Ward started and scored for Sarsfields (incl. 2-7 vs Beagh). Club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-holland",
+    "player:brian-murphy",
+    "player:brian-omahony",
+    "player:cathal-coen",
+    "player:christy-helebert",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:damien-fahy",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:enda-fahey",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-kelly",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:murty-killilea",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2015-ga-r1-kilnadeema-leitrim-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Liam Mellows (2015 Galway SHC Group A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 1",
+        "year": 2015,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:liam-mellows",
+        "score": "Kilnadeema-Leitrim 1-16, Liam Mellows 2-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r2-tommy-larkins-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Carnmore (2015 Galway SHC Group A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 2",
+        "year": 2015,
+        "home": "club:tommy-larkins",
+        "away": "club:carnmore",
+        "score": "Tommy Larkin's 2-22, Carnmore 1-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r2-castlegar-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Kilnadeema-Leitrim (2015 Galway SHC Group A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 2",
+        "year": 2015,
+        "home": "club:castlegar",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Castlegar 1-12, Kilnadeema-Leitrim 1-11",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r2-craughwell-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Liam Mellows (2015 Galway SHC Group A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 2",
+        "year": 2015,
+        "home": "club:craughwell",
+        "away": "club:liam-mellows",
+        "score": "Craughwell 2-17, Liam Mellows 2-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r3-craughwell-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Carnmore (2015 Galway SHC Group A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 3",
+        "year": 2015,
+        "home": "club:craughwell",
+        "away": "club:carnmore",
+        "score": "Craughwell 2-26, Carnmore 1-15",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r3-tommy-larkins-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Kilnadeema-Leitrim (2015 Galway SHC Group A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 3",
+        "year": 2015,
+        "home": "club:tommy-larkins",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Tommy Larkin's 3-17, Kilnadeema-Leitrim 1-08",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r3-liam-mellows-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Castlegar (2015 Galway SHC Group A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 3",
+        "year": 2015,
+        "home": "club:liam-mellows",
+        "away": "club:castlegar",
+        "score": "Liam Mellows 2-16, Castlegar 2-14",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r4-kilnadeema-leitrim-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Carnmore (2015 Galway SHC Group A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 4",
+        "year": 2015,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:carnmore",
+        "score": "Kilnadeema-Leitrim 1-23, Carnmore 1-15",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:kilnadeema-leitrim"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r4-liam-mellows-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Tommy Larkin's (2015 Galway SHC Group A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 4",
+        "year": 2015,
+        "home": "club:liam-mellows",
+        "away": "club:tommy-larkins",
+        "score": "Liam Mellows 1-15, Tommy Larkin's 0-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r4-craughwell-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Castlegar (2015 Galway SHC Group A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 4",
+        "year": 2015,
+        "home": "club:craughwell",
+        "away": "club:castlegar",
+        "score": "Craughwell 2-16, Castlegar 2-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r5-craughwell-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Kilnadeema-Leitrim (2015 Galway SHC Group A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 5",
+        "year": 2015,
+        "home": "club:craughwell",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Craughwell 2-22, Kilnadeema-Leitrim 0-11",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r5-castlegar-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Tommy Larkin's (2015 Galway SHC Group A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 5",
+        "year": 2015,
+        "home": "club:castlegar",
+        "away": "club:tommy-larkins",
+        "score": "Castlegar 5-14, Tommy Larkin's 2-15",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-ga-r5-liam-mellows-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Carnmore (2015 Galway SHC Group A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group A Round 5",
+        "year": 2015,
+        "home": "club:liam-mellows",
+        "away": "club:carnmore",
+        "score": "Liam Mellows 7-26, Carnmore 0-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r1-padraig-pearses-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearse's vs Clarinbridge (2015 Galway SHC Group B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 1",
+        "year": 2015,
+        "home": "club:padraig-pearses",
+        "away": "club:clarinbridge",
+        "score": "Pádraig Pearse's 1-13, Clarinbridge 0-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r1-athenry-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Kiltormer (2015 Galway SHC Group B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 1",
+        "year": 2015,
+        "home": "club:athenry",
+        "away": "club:kiltormer",
+        "score": "Athenry 0-14, Kiltormer 1-4",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r1-gort-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Ardrahan (2015 Galway SHC Group B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 1",
+        "year": 2015,
+        "home": "club:gort",
+        "away": "club:ardrahan",
+        "score": "Gort 0-16, Ardrahan 1-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r2-padraig-pearses-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearse's vs Ardrahan (2015 Galway SHC Group B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 2",
+        "year": 2015,
+        "home": "club:padraig-pearses",
+        "away": "club:ardrahan",
+        "score": "Pádraig Pearse's 2-20, Ardrahan 1-17",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r2-gort-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Kiltormer (2015 Galway SHC Group B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 2",
+        "year": 2015,
+        "home": "club:gort",
+        "away": "club:kiltormer",
+        "score": "Gort 2-11, Kiltormer 1-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r2-clarinbridge-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Athenry (2015 Galway SHC Group B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 2",
+        "year": 2015,
+        "home": "club:clarinbridge",
+        "away": "club:athenry",
+        "score": "Clarinbridge 0-17, Athenry 0-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r3-gort-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Pádraig Pearse's (2015 Galway SHC Group B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 3",
+        "year": 2015,
+        "home": "club:gort",
+        "away": "club:padraig-pearses",
+        "score": "Gort 4-19, Pádraig Pearse's 0-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r3-clarinbridge-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Kiltormer (2015 Galway SHC Group B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 3",
+        "year": 2015,
+        "home": "club:clarinbridge",
+        "away": "club:kiltormer",
+        "score": "Clarinbridge 2-21, Kiltormer 1-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r3-athenry-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Ardrahan (2015 Galway SHC Group B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 3",
+        "year": 2015,
+        "home": "club:athenry",
+        "away": "club:ardrahan",
+        "score": "Athenry 1-16, Ardrahan 0-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r4-gort-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Clarinbridge (2015 Galway SHC Group B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 4",
+        "year": 2015,
+        "home": "club:gort",
+        "away": "club:clarinbridge",
+        "score": "Gort 1-15, Clarinbridge 1-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r4-ardrahan-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Ardrahan vs Kiltormer (2015 Galway SHC Group B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 4",
+        "year": 2015,
+        "home": "club:ardrahan",
+        "away": "club:kiltormer",
+        "score": "Ardrahan 2-19, Kiltormer 3-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gb-r4-padraig-pearses-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearse's vs Athenry (2015 Galway SHC Group B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group B Round 4",
+        "year": 2015,
+        "home": "club:padraig-pearses",
+        "away": "club:athenry",
+        "score": "Pádraig Pearse's 1-19, Athenry 0-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r1-portumna-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Turloughmore (2015 Galway SHC Group C Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 1",
+        "year": 2015,
+        "home": "club:portumna",
+        "away": "club:turloughmore",
+        "score": "Portumna 2-18, Turloughmore 0-6",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r1-killimordaly-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Mullagh (2015 Galway SHC Group C Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 1",
+        "year": 2015,
+        "home": "club:killimordaly",
+        "away": "club:mullagh",
+        "score": "Killimordaly 0-15, Mullagh 1-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r2-st-thomas-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Turloughmore (2015 Galway SHC Group C Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 2",
+        "year": 2015,
+        "home": "club:st-thomas",
+        "away": "club:turloughmore",
+        "score": "St. Thomas' 0-19, Turloughmore 0-17",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r2-portumna-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Killimordaly (2015 Galway SHC Group C Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 2",
+        "year": 2015,
+        "home": "club:portumna",
+        "away": "club:killimordaly",
+        "score": "Portumna 1-19, Killimordaly 2-14",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r3-portumna-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Mullagh (2015 Galway SHC Group C Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 3",
+        "year": 2015,
+        "home": "club:portumna",
+        "away": "club:mullagh",
+        "score": "Portumna 2-19, Mullagh 2-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r3-killimordaly-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs St. Thomas' (2015 Galway SHC Group C Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 3",
+        "year": 2015,
+        "home": "club:killimordaly",
+        "away": "club:st-thomas",
+        "score": "Killimordaly 2-7, St. Thomas' 0-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r4-st-thomas-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Mullagh (2015 Galway SHC Group C Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 4",
+        "year": 2015,
+        "home": "club:st-thomas",
+        "away": "club:mullagh",
+        "score": "St. Thomas' 1-16, Mullagh 0-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r4-turloughmore-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Killimordaly (2015 Galway SHC Group C Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 4",
+        "year": 2015,
+        "home": "club:turloughmore",
+        "away": "club:killimordaly",
+        "score": "Turloughmore 2-15, Killimordaly 0-11",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r5-turloughmore-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Mullagh (2015 Galway SHC Group C Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 5",
+        "year": 2015,
+        "home": "club:turloughmore",
+        "away": "club:mullagh",
+        "score": "Turloughmore 2-22, Mullagh 1-20",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gc-r5-portumna-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs St. Thomas' (2015 Galway SHC Group C Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group C Round 5",
+        "year": 2015,
+        "home": "club:portumna",
+        "away": "club:st-thomas",
+        "score": "Portumna 3-15, St. Thomas' 0-23",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r1-tynagh-abbey-duniry-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Loughrea (2015 Galway SHC Group D Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 1",
+        "year": 2015,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:loughrea",
+        "score": "Tynagh-Abbey/Duniry 0-14, Loughrea 1-11",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r1-sarsfields-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Beagh (2015 Galway SHC Group D Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 1",
+        "year": 2015,
+        "home": "club:sarsfields",
+        "away": "club:beagh",
+        "score": "Sarsfields 3-11, Beagh 0-7",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r2-sarsfields-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Cappataggle (2015 Galway SHC Group D Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 2",
+        "year": 2015,
+        "home": "club:sarsfields",
+        "away": "club:cappataggle",
+        "score": "Sarsfields 0-16, Cappataggle 0-11",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r2-beagh-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Beagh vs Tynagh-Abbey/Duniry (2015 Galway SHC Group D Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 2",
+        "year": 2015,
+        "home": "club:beagh",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Beagh 1-16, Tynagh-Abbey/Duniry 0-17",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:beagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r3-loughrea-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Beagh (2015 Galway SHC Group D Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 3",
+        "year": 2015,
+        "home": "club:loughrea",
+        "away": "club:beagh",
+        "score": "Loughrea 1-10, Beagh 0-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r3-tynagh-abbey-duniry-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Cappataggle (2015 Galway SHC Group D Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 3",
+        "year": 2015,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:cappataggle",
+        "score": "Tynagh-Abbey/Duniry 1-14, Cappataggle 0-16",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tynagh-abbey-duniry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r4-sarsfields-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Tynagh-Abbey/Duniry (2015 Galway SHC Group D Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 4",
+        "year": 2015,
+        "home": "club:sarsfields",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Sarsfields 4-14, Tynagh-Abbey/Duniry 3-16",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r4-loughrea-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Cappataggle (2015 Galway SHC Group D Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 4",
+        "year": 2015,
+        "home": "club:loughrea",
+        "away": "club:cappataggle",
+        "score": "Loughrea 1-19, Cappataggle 2-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r5-loughrea-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Sarsfields (2015 Galway SHC Group D Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 5",
+        "year": 2015,
+        "home": "club:loughrea",
+        "away": "club:sarsfields",
+        "score": "Loughrea 2-22, Sarsfields 0-14",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-gd-r5-cappataggle-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Beagh (2015 Galway SHC Group D Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Group D Round 5",
+        "year": 2015,
+        "home": "club:cappataggle",
+        "away": "club:beagh",
+        "score": "Cappataggle 0-17, Beagh 0-17",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-a-r1-beagh-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Beagh vs Tommy Larkin's (2015 Galway SHC Senior A Qualifier Group A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group A Round 1",
+        "year": 2015,
+        "home": "club:beagh",
+        "away": "club:tommy-larkins",
+        "score": "Beagh 0-16, Tommy Larkin's 0-15",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:beagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-a-r1-killimordaly-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Cappataggle (2015 Galway SHC Senior A Qualifier Group A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group A Round 1",
+        "year": 2015,
+        "home": "club:killimordaly",
+        "away": "club:cappataggle",
+        "score": "Killimordaly 0-12, Cappataggle 0-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-a-r2-cappataggle-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Tommy Larkin's (2015 Galway SHC Senior A Qualifier Group A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group A Round 2",
+        "year": 2015,
+        "home": "club:cappataggle",
+        "away": "club:tommy-larkins",
+        "score": "Cappataggle 1-20, Tommy Larkin's 1-14",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-a-r2-beagh-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Beagh vs Killimordaly (2015 Galway SHC Senior A Qualifier Group A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group A Round 2",
+        "year": 2015,
+        "home": "club:beagh",
+        "away": "club:killimordaly",
+        "score": "Beagh 1-17, Killimordaly 1-15",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:beagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-a-r3-cappataggle-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Beagh (2015 Galway SHC Senior A Qualifier Group A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group A Round 3",
+        "year": 2015,
+        "home": "club:cappataggle",
+        "away": "club:beagh",
+        "score": "Cappataggle 1-16, Beagh 1-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-b-r1-kilnadeema-leitrim-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Kiltormer (2015 Galway SHC Senior A Qualifier Group B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group B Round 1",
+        "year": 2015,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:kiltormer",
+        "score": "Kilnadeema-Leitrim 0-27, Kiltormer 0-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:kilnadeema-leitrim"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-b-r1-castlegar-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Mullagh (2015 Galway SHC Senior A Qualifier Group B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group B Round 1",
+        "year": 2015,
+        "home": "club:castlegar",
+        "away": "club:mullagh",
+        "score": "Castlegar 0-19, Mullagh 1-12",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-b-r2-castlegar-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Kilnadeema-Leitrim (2015 Galway SHC Senior A Qualifier Group B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group B Round 2",
+        "year": 2015,
+        "home": "club:castlegar",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Castlegar 1-19, Kilnadeema-Leitrim 1-14",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-b-r2-mullagh-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Kiltormer (2015 Galway SHC Senior A Qualifier Group B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group B Round 2",
+        "year": 2015,
+        "home": "club:mullagh",
+        "away": "club:kiltormer",
+        "score": "Mullagh 3-15, Kiltormer 0-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-c-r1-ardrahan-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Ardrahan vs Clarinbridge (2015 Galway SHC Senior A Qualifier Group C Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group C Round 1",
+        "year": 2015,
+        "home": "club:ardrahan",
+        "away": "club:clarinbridge",
+        "score": "Ardrahan 3-12, Clarinbridge 0-9",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-c-r2-clarinbridge-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Tynagh-Abbey/Duniry (2015 Galway SHC Senior A Qualifier Group C Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group C Round 2",
+        "year": 2015,
+        "home": "club:clarinbridge",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Clarinbridge 1-15, Tynagh-Abbey/Duniry 1-13",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-c-r3-ardrahan-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Ardrahan vs Tynagh-Abbey/Duniry (2015 Galway SHC Senior A Qualifier Group C Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group C Round 3",
+        "year": 2015,
+        "home": "club:ardrahan",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Ardrahan 2-14, Tynagh-Abbey/Duniry 1-16",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-d-r1-turloughmore-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Carnmore (2015 Galway SHC Senior A Qualifier Group D Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group D Round 1",
+        "year": 2015,
+        "home": "club:turloughmore",
+        "away": "club:carnmore",
+        "score": "Turloughmore 1-23, Carnmore 2-11",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-d-r2-athenry-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Carnmore (2015 Galway SHC Senior A Qualifier Group D Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group D Round 2",
+        "year": 2015,
+        "home": "club:athenry",
+        "away": "club:carnmore",
+        "score": "Athenry 0-20, Carnmore 0-10",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qual-d-r3-turloughmore-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Athenry (2015 Galway SHC Senior A Qualifier Group D Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Qualifier Group D Round 3",
+        "year": 2015,
+        "home": "club:turloughmore",
+        "away": "club:athenry",
+        "score": "Turloughmore 2-20, Athenry 0-15",
+        "note": "Wikipedia 2015 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:berne-gibbs": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:dick-morrissey": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:fr-larkin": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:jack-berry": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:jim-morris": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:junior-mahoney": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:leonard-martin": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:n-gilmartin": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:staff-garvey": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:tom-flemming": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite.",
+    "player:tom-kenny": "HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite."
+  }
+}
