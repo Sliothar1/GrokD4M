@@ -1,32 +1,18 @@
 {
   "pack": "galway-club-player-links",
-  "round": "42",
-  "generated_at": "2026-09-06T22:53:08.559757+00:00",
+  "round": "43",
+  "generated_at": "2026-09-06T22:57:36.379352+00:00",
   "sources": [
-    "https://en.wikipedia.org/wiki/1990_Galway_Senior_Hurling_Championship",
-    "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
-    "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
-    "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
-    "https://www.connachttribune.ie/sport/hurling/tynaghabbey-duniry-men-secure-provincial-title-glory-5589137",
-    "https://www.galwaybayfm.ie/sports/tynagh-abbey-duniry-wins-connacht-intermediate-club-hurling-final-commentary-and-reaction-182531",
-    "https://www.westernpeople.ie/sport/gaa/five-in-a-row-is-too-good-to-be-true_arid-39202.html"
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1987",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1988",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1989",
+    "https://en.wikipedia.org/wiki/1988_Galway_Senior_Hurling_Championship",
+    "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
+    "https://www.galwaybayfm.ie/sports/skehana-mountbellew-moylough-win-historic-minor-hurling-title-72420",
+    "https://www.irishexaminer.com/sport/gaa/arid-10123082.html",
+    "https://www.hoganstand.com/Article/Index/305723"
   ],
   "before": {
-    "players": 1568,
-    "players_with_club": 1486,
-    "players_without_club": 82,
-    "orphan_clubs": 5,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1153,
-    "appearances": 686
-  },
-  "after": {
     "players": 1570,
     "players_with_club": 1488,
     "players_without_club": 82,
@@ -41,56 +27,64 @@
     "matches": 1182,
     "appearances": 686
   },
+  "after": {
+    "players": 1572,
+    "players_with_club": 1491,
+    "players_without_club": 81,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1200,
+    "appearances": 686
+  },
   "delta": {
-    "players_linked": 0,
+    "players_linked": 1,
     "players_created": 2,
     "clubs_created": 0,
-    "appearances_clubbed": 0,
-    "matches_added": 29,
-    "players_with_club": 2,
+    "appearances_clubbed": 1,
+    "matches_added": 18,
+    "players_with_club": 3,
     "orphan_clubs": 0
   },
-  "sample_linked_ids": [],
-  "sample_created_ids": [
-    "player:shane-fitzpatrick-tynagh-abbey-duniry",
-    "player:thomas-murphy-tynagh-abbey-duniry"
+  "sample_linked_ids": [
+    "player:michael-helebert"
   ],
-  "all_linked_ids": [],
+  "sample_created_ids": [
+    "player:harry-oleary-skehana-mountbellew-moylough",
+    "player:james-fahy-hansberry-skehana-mountbellew-moylough"
+  ],
+  "all_linked_ids": [
+    "player:michael-helebert"
+  ],
   "all_created_ids": [
-    "player:shane-fitzpatrick-tynagh-abbey-duniry",
-    "player:thomas-murphy-tynagh-abbey-duniry"
+    "player:harry-oleary-skehana-mountbellew-moylough",
+    "player:james-fahy-hansberry-skehana-mountbellew-moylough"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-shc-1990-sf-kiltormer-sarsfields",
-    "match:galway-shc-1990-sf-turloughmore-meelick-eyrecourt",
-    "match:galway-shc-1991-qf-turloughmore-castlegar",
-    "match:galway-shc-1991-qf-sarsfields-kinvara",
-    "match:galway-shc-1991-qf-kiltormer-killimordaly",
-    "match:galway-shc-1991-qf-athenry-meelick-eyrecourt",
-    "match:galway-shc-1991-sf-athenry-sarsfields",
-    "match:galway-shc-1991-sf-kiltormer-turloughmore",
-    "match:galway-shc-1991-sf-replay-kiltormer-turloughmore",
-    "match:galway-shc-1995-qf-portumna-castlegar",
-    "match:galway-shc-1995-qf-abbey-duniry-carnmore",
-    "match:galway-shc-1995-qf-sarsfields-athenry",
-    "match:galway-shc-1995-qf-gort-kiltormer",
-    "match:galway-shc-1995-qf-replay-gort-kiltormer",
-    "match:galway-shc-1995-sf-portumna-abbey-duniry",
-    "match:galway-shc-1995-sf-sarsfields-gort",
-    "match:connacht-ihc-2011-final-moycullen-four-roads",
-    "match:connacht-ihc-2012-final-killimordaly-four-roads",
-    "match:connacht-ihc-2013-final-kilnadeema-leitrim-tooreen",
-    "match:connacht-ihc-2014-final-cappataggle-ballyhaunis",
-    "match:connacht-ihc-2015-final-abbeyknockmoy-four-roads",
-    "match:connacht-ihc-2017-final-tooreen-ballinderreen",
-    "match:connacht-ihc-2018-final-oranmore-maree-tooreen",
-    "match:connacht-ihc-2019-final-tooreen-kinvara",
-    "match:connacht-ihc-2021-final-tooreen-moycullen",
-    "match:connacht-ihc-2022-final-tooreen-killimor",
-    "match:connacht-ihc-2023-final-tooreen-ballinderreen",
-    "match:connacht-ihc-2024-final-tynagh-abbey-duniry-tooreen",
-    "match:connacht-ihc-2025-final-tooreen-meelick-eyrecourt"
+    "match:galway-shc-1987-qf-athenry-kiltormer",
+    "match:galway-shc-1988-qf-athenry-kiltormer",
+    "match:galway-shc-1988-sf-athenry-turloughmore",
+    "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "match:galway-shc-1989-sf-athenry-st-thomas",
+    "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -144,7 +138,6 @@
     "player:michael-flaherty",
     "player:michael-headd",
     "player:michael-healy",
-    "player:michael-helebert",
     "player:michael-kelly",
     "player:michael-kerins",
     "player:michael-lynskey",
@@ -179,13 +172,14 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 412,
+    "added": 260,
+    "updated": 15,
+    "players_linked": 1,
+    "appearances_clubbed": 1,
     "players_created": 2,
-    "matches_added": 29,
-    "updated": 6,
-    "players_linked": 0,
-    "clubs_created": 0,
-    "appearances_clubbed": 0
+    "matches_added": 18,
+    "matches_updated": 1,
+    "clubs_created": 0
   },
   "priority_club_counts_after": {
     "club:fohenagh-historic": 44,
@@ -220,7 +214,7 @@
     "club:ballygar": 12,
     "club:carnmore": 25,
     "club:padraig-pearses": 19,
-    "club:gort": 38,
+    "club:gort": 39,
     "club:killimordaly": 25,
     "club:portumna": 29,
     "club:rahoon": 19,
@@ -244,5 +238,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r42: pre-2000 Galway SHC knockout scored Match pack (1990 SF + 1991 QF/SF + 1995 QF/SF from Wikipedia year pages) + Connacht Intermediate Club HC finals 2011–2015/2017–2019/2021–2025 (IHC gaps); club-less ~82 stay HOLD (no new strong multi-source clears); AF/Fohenagh dense — skipped; Tynagh-Abbey/Duniry dual-cite thin fills (Shane Fitzpatrick / Thomas Murphy); new HOLD collision notes for Conroy/Keane/Lynch/Glynn/Coone."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r43: pre-1995 Galway SHC knockout scored Matches (1987 QF + 1988 QF/SF/drawn final + 1989 QF/SF from Athenry GAA / Connacht Tribune / Wikipedia) + Connacht Junior Club HC finals gap pack (2004/2009/2012–2013/2016–2019/2022–2025) + Bearna 2010 year correction; club-less: Michael Helebert multi-source clear to Gort (Keady affair); remaining ~81 stay HOLD; AF/Fohenagh dense — skipped; Skehana/MM thin fills (Harry O'Leary / James Fahy-Hansberry); new HOLD collision notes for Headd/Kelly/Fahy/Hayes/Finnerty/Kenny."
 }

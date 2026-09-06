@@ -38017,7 +38017,7 @@
   {
     "row": "player:kieran-finnerty",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD: club-less panel Kieran Finnerty — Abbey-Duniry 1999 K Finnerty uses distinct id player:kieran-finnerty-abbey-duniry."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD: club-less panel Kieran Finnerty — Abbey-Duniry 1999 K Finnerty uses distinct id player:kieran-finnerty-abbey-duniry. HOLD r43: Finnerty collision with clubbed Abbey/Duniry Kieran Finnerty (player:kieran-finnerty-abbey-duniry); bare Intermediate 2002 row stays HOLD."
   },
   {
     "row": "player:kieran-hanrahan",
@@ -39652,7 +39652,7 @@
   {
     "row": "player:michael-headd",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r18: Michael Headd U-21 1978 without first+last club cite vs later St Thomas’ Headd family (Maurice/Tony) — era/club collision."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r18: Michael Headd U-21 1978 without first+last club cite vs later St Thomas’ Headd family (Maurice/Tony) — era/club collision. HOLD r43: Headd surname collision with clubbed St Thomas' Headds (Maurice/Tony/Conor); bare U-21 1978 panel lacks first+last multi-source club clear — stays HOLD."
   },
   {
     "row": "player:michael-healy",
@@ -39702,17 +39702,17 @@
   {
     "row": "player:michael-helebert",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:michael-helebert",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1989"
   },
   {
     "row": "player:michael-helebert",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD r16: Michael Helebert vs Christy Helebert / Kinvara Helebert family collision."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD r16: Michael Helebert vs Christy Helebert / Kinvara Helebert family collision. Athenry GAA 1989: Gort's Michael Helebert suspended 12 months with Tony Keady (Killimordaly) and Aidan Staunton (Kiltormer) for illegal NY game. Irish Examiner / Independent Keady-affair reports name Michael Helebert as Galway panellist. Strong first+last multi-source club clear (distinct from Ballinderreen/Kinvara Heleberts)."
   },
   {
     "row": "player:michael-john-quinn",
@@ -39772,7 +39772,7 @@
   {
     "row": "player:michael-kelly",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD. HOLD r43: Kelly surname extremely common across Galway clubs; bare Minor 2011 panel lacks first+last multi-source club clear — stays HOLD."
   },
   {
     "row": "player:michael-kerins",
@@ -42267,7 +42267,7 @@
   {
     "row": "player:roger-fahy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD r31 NEW: club-less Roger Fahy (IHC 2002); public hits include Clare dairy farmer Roger Fahy and multiple Galway Fahy club lines (Frank Fahy Tommy Larkins / Eoin Fahy HOLD) — identity collision; do not auto-stamp."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD r31 NEW: club-less Roger Fahy (IHC 2002); public hits include Clare dairy farmer Roger Fahy and multiple Galway Fahy club lines (Frank Fahy Tommy Larkins / Eoin Fahy HOLD) — identity collision; do not auto-stamp. HOLD r43: Fahy surname collision across Athenry/Ardrahan/Pearses rows; bare Intermediate 2002 panel lacks first+last multi-source club clear — stays HOLD."
   },
   {
     "row": "player:ronal-killilea",
@@ -43767,7 +43767,7 @@
   {
     "row": "player:thomas-hayes",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2018 panel (Galway GAA). HOLD r31 NEW: club-less Thomas Hayes (MHC 2018 panel); no club listed on Galway GAA RoH photo; Damien Hayes Portumna is different player — do not auto-stamp."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2018 panel (Galway GAA). HOLD r31 NEW: club-less Thomas Hayes (MHC 2018 panel); no club listed on Galway GAA RoH photo; Damien Hayes Portumna is different player — do not auto-stamp. HOLD r43: Hayes surname collision with clubbed Portumna/Kiltormer Hayes rows; bare panel lacks first+last multi-source club clear — stays HOLD."
   },
   {
     "row": "player:thomas-mannion",
@@ -44047,7 +44047,7 @@
   {
     "row": "player:tom-kenny",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA). HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA). HOLD r33 NEW: club-less 1923 All-Ireland SHC panel name without strong first+last published Galway club hurling cite — skip until Archivist cite. HOLD r43: Kenny surname collision with Tynagh/Sarsfields/Abbey-Duniry Kennys; bare 1923 SHC panel lacks first+last multi-source club clear — stays HOLD."
   },
   {
     "row": "player:tom-maloney",
@@ -71992,7 +71992,7 @@
   {
     "row": "appearance:michael-helebert-u-21-1986",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:patrick-dervan-u-21-1986",
@@ -86842,7 +86842,7 @@
   {
     "row": "player:michael-helebert",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:michael-john-quinn",
@@ -105262,7 +105262,7 @@
   {
     "row": "match:connacht-junior-club-hc-2011-final",
     "col": "name",
-    "val": "Bearna/Na Forbacha vs Carrick (2011 Connacht Junior Club HC Final)"
+    "val": "Bearna/Na Forbacha vs Carrick (2010 Connacht Junior Club HC Final)"
   },
   {
     "row": "match:connacht-junior-club-hc-2011-final",
@@ -105277,7 +105277,7 @@
   {
     "row": "match:connacht-junior-club-hc-2011-final",
     "col": "year",
-    "val": 2011
+    "val": 2010
   },
   {
     "row": "match:connacht-junior-club-hc-2011-final",
@@ -105307,7 +105307,7 @@
   {
     "row": "match:connacht-junior-club-hc-2011-final",
     "col": "note",
-    "val": "Wikipedia 2010–11 All-Ireland Junior Club HC: Connacht final Bearna/Na Forbacha 1-12 Carrick 1-09 (23 Jan 2011)."
+    "val": "Wikipedia 2010–11 All-Ireland Junior Club HC: Connacht final Bearna/Na Forbacha 1-12 Carrick 1-09 (23 Jan 2011). Wikipedia Connacht Junior Club HC roll lists 2010 Bearna/Na Forbacha champions (1-12 Carrick 1-09); prior seed year 2011 reflected Jan 2011 All-Ireland path date — corrected to championship year 2010 (r43)."
   },
   {
     "row": "match:connacht-junior-club-hc-2011-final",
@@ -122512,7 +122512,7 @@
   {
     "row": "player:michael-helebert",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:brian-cunningham",
@@ -202708,5 +202708,1305 @@
     "row": "player:thomas-murphy-tynagh-abbey-duniry",
     "col": "hold",
     "val": false
+  },
+  {
+    "row": "player:michael-helebert",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:michael-helebert-u-21-1986",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Harry O'Leary"
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/skehana-mountbellew-moylough-win-historic-minor-hurling-title-72420"
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Galway Bay FM Brooks Minor B1 final team sheet / match report: Harry O'Leary 1-0 stoppage-time winner for Skehana/Mountbellew-Moylough vs Craughwell. Club-scoped thin fill (no bare O'Leary row)."
+  },
+  {
+    "row": "player:harry-oleary-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "James Fahy-Hansberry"
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/skehana-mountbellew-moylough-win-historic-minor-hurling-title-72420"
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Galway Bay FM Brooks Minor B1 final team sheet lists J. Fahy-Hansberry (Capt) for Skehana/Mountbellew-Moylough. Club-scoped thin fill (distinct from Sean Hansberry)."
+  },
+  {
+    "row": "player:james-fahy-hansberry-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "name",
+    "val": "Athenry vs Kiltormer (1987 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "year",
+    "val": 1987
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "away",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "score",
+    "val": "Athenry 2-12, Kiltormer 0-17"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "note",
+    "val": "Athenry GAA 1987 history + Connacht Tribune (J.B. Donoghue): quarter-final Athenry 2-12 Kiltormer 0-17 at Loughrea (pre-1995 knockout gap)."
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1987"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1987-qf-athenry-kiltormer",
+    "col": "venue",
+    "val": "St Brendan's Park, Loughrea"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "name",
+    "val": "Athenry vs Kiltormer (1988 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "year",
+    "val": 1988
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "away",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "score",
+    "val": "Athenry 2-09, Kiltormer 0-12"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "note",
+    "val": "Athenry GAA 1988 history: quarter-final Athenry 2-09 Kiltormer 0-12 (pre-1995 knockout gap; Connacht Tribune open-draw debate cited)."
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1988"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1988-qf-athenry-kiltormer",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "name",
+    "val": "Athenry vs Turloughmore (1988 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "year",
+    "val": 1988
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "score",
+    "val": "Athenry 1-13, Turloughmore 1-11"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "note",
+    "val": "Athenry GAA 1988 history + Connacht Tribune (John McIntyre): semi-final Athenry 1-13 Turloughmore 1-11 at Pearse Stadium (pre-1995 knockout gap)."
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1988"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1988-sf-athenry-turloughmore",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "name",
+    "val": "Abbeyknockmoy vs Athenry (1988 Galway SHC Final — draw)"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "year",
+    "val": 1988
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "home",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "score",
+    "val": "Abbeyknockmoy 2-08, Athenry 2-08"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "note",
+    "val": "Athenry GAA 1988 / Wikipedia 1988 Galway SHC: drawn final Abbeyknockmoy 2-08 Athenry 2-08 at Duggan Park (replay already seeded)."
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1988_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
+    "col": "venue",
+    "val": "Duggan Park"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "name",
+    "val": "Athenry vs Abbeyknockmoy (1989 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "year",
+    "val": 1989
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "score",
+    "val": "Athenry 2-11, Abbeyknockmoy 1-08"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "note",
+    "val": "Athenry GAA 1989 history + Connacht Tribune Hurricane Hugo report: quarter-final Athenry 2-11 Abbeyknockmoy 1-08 at Kenny Park (pre-1995 knockout gap)."
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1989"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
+    "col": "venue",
+    "val": "Kenny Park"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "name",
+    "val": "Athenry vs St Thomas' (1989 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "year",
+    "val": 1989
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "score",
+    "val": "Athenry 3-18, St Thomas' 1-03"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "note",
+    "val": "Athenry GAA 1989 history: semi-final Athenry 3-18 St Thomas' 1-03 at Kenny Park before ~10,000 (pre-1995 knockout gap)."
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1989"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1989-sf-athenry-st-thomas",
+    "col": "venue",
+    "val": "Kenny Park"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "name",
+    "val": "Oran vs Skehana (2004 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "year",
+    "val": 2004
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "home",
+    "val": "Oran"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "away",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "score",
+    "val": "Oran 1-08, Skehana 1-06"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll: Oran 1-08 Skehana 1-06 (JHC gap fill via provincial final)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2004-final-oran-skehana",
+    "col": "winner",
+    "val": "Oran"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "name",
+    "val": "Calry-St Joseph's vs Skehana (2009 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "year",
+    "val": 2009
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "home",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "away",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "score",
+    "val": "Calry-St Joseph's 1-09, Skehana 0-10"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll: Calry-St Joseph's 1-09 Skehana 0-10 (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2009-final-calry-skehana",
+    "col": "winner",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "name",
+    "val": "Calry-St Joseph's vs Skehana (2012 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "home",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "away",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "score",
+    "val": "Calry-St Joseph's 1-12, Skehana 1-11"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll: Calry-St Joseph's 1-12 Skehana 1-11 (JHC gap fill; Irish Independent referee incident cite)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2012-final-calry-skehana",
+    "col": "winner",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "name",
+    "val": "Calry-St Joseph's vs An Spidéal (2013 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "year",
+    "val": 2013
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "home",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "away",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "score",
+    "val": "Calry-St Joseph's 2-12, An Spidéal 2-10"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll / Hogan Stand: Calry-St Joseph's 2-12 An Spidéal 2-10 (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
+    "col": "winner",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "name",
+    "val": "Calry-St Joseph's vs Míchael Breathnach (2016 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "home",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "away",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "score",
+    "val": "Calry-St Joseph's 3-09, Míchael Breathnach 2-10"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll: Calry-St Joseph's 3-09 Míchael Breathnach 2-10 (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
+    "col": "winner",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "name",
+    "val": "Sylane vs Calry-St Joseph's (2017 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "home",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "away",
+    "val": "Calry-St Joseph's"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "score",
+    "val": "Sylane 0-21, Calry-St Joseph's 0-05"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll / Irish Independent: Sylane 0-21 Calry-St Joseph's 0-05 (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2017-final-sylane-calry",
+    "col": "winner",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "name",
+    "val": "Carrick Hurling vs Ballygar (2018 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "year",
+    "val": 2018
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "home",
+    "val": "Carrick Hurling"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "away",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "score",
+    "val": "Carrick Hurling 2-11, Ballygar 2-09"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll / Hogan Stand: Carrick Hurling 2-11 Ballygar 2-09 (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
+    "col": "winner",
+    "val": "Carrick Hurling"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "name",
+    "val": "Míchael Breathnach vs Naomh Eoin (2019 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "home",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "away",
+    "val": "Naomh Eoin"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "score",
+    "val": "Míchael Breathnach 1-12, Naomh Eoin 0-08"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll / Hogan Stand 10 Nov 2019: Míchael Breathnach 1-12 Naomh Eoin 0-08 at Connacht GAA Centre (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "winner",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
+    "col": "venue",
+    "val": "Connacht GAA Centre"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "name",
+    "val": "Easkey vs Ballygar (2022 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "home",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "away",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "score",
+    "val": "Easkey 0-05, Ballygar 0-04"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll: Easkey 0-05 Ballygar 0-04 (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
+    "col": "winner",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "name",
+    "val": "Easkey vs Ballinasloe (2023 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "home",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "away",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "score",
+    "val": "Easkey 1-18, Ballinasloe 2-12"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll / GAA.ie / Irish Independent: Easkey 1-18 Ballinasloe 2-12 at Bekan (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "winner",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
+    "col": "venue",
+    "val": "Connacht GAA Centre"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "name",
+    "val": "Easkey vs Ballinasloe (2024 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "home",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "away",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "score",
+    "val": "Easkey 0-18, Ballinasloe 1-11"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll / Galway Bay FM: Easkey 0-18 Ballinasloe 1-11 at Bekan (JHC gap fill)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "winner",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
+    "col": "venue",
+    "val": "Connacht GAA Centre"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "name",
+    "val": "Easkey vs Ballinasloe (2025 Connacht Junior Club HC Final)"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "competition",
+    "val": "Connacht Junior Club Hurling Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "home",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "away",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "score",
+    "val": "Easkey 2-17, Ballinasloe 2-15"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "note",
+    "val": "Wikipedia Connacht Junior Club HC roll / Hogan Stand 22 Nov 2025: Easkey 2-17 Ballinasloe 2-15 (JHC gap fill; four-in-a-row)."
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "winner",
+    "val": "Easkey"
+  },
+  {
+    "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
+    "col": "venue",
+    "val": "Connacht GAA Centre"
   }
 ]
