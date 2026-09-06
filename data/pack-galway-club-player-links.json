@@ -1,33 +1,21 @@
 {
   "pack": "galway-club-player-links",
-  "round": "43",
-  "generated_at": "2026-09-06T22:57:36.379352+00:00",
+  "round": "44",
+  "generated_at": "2026-09-06T23:03:46.570285+00:00",
   "sources": [
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1987",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1988",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1989",
-    "https://en.wikipedia.org/wiki/1988_Galway_Senior_Hurling_Championship",
-    "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
-    "https://www.galwaybayfm.ie/sports/skehana-mountbellew-moylough-win-historic-minor-hurling-title-72420",
-    "https://www.irishexaminer.com/sport/gaa/arid-10123082.html",
-    "https://www.hoganstand.com/Article/Index/305723"
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1977",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1979",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1980",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1986",
+    "https://en.wikipedia.org/wiki/1978_Galway_Senior_Hurling_Championship",
+    "https://www.independent.ie/sport/gaelic-games/hurling/goals-give-portumna-closure-out-of-storm/26326590.html",
+    "https://www.galwaybayfm.ie/sports/success-for-corofin-and-kinvara-in-county-finals-commentary-and-reaction-71575",
+    "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
+    "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487",
+    "https://www.galwaybayfm.ie/sports/michael-cusacks-wins-county-u20-b-hurling-title-commentary-and-reaction-202531",
+    "https://www.galwaybayfm.ie/sports/michael-cusacks-3-10-loughrea-1-14-toddie-byrne-cup-final-report-and-reaction-with-finbarr-gantley-219404"
   ],
   "before": {
-    "players": 1570,
-    "players_with_club": 1488,
-    "players_without_club": 82,
-    "orphan_clubs": 5,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1182,
-    "appearances": 686
-  },
-  "after": {
     "players": 1572,
     "players_with_club": 1491,
     "players_without_club": 81,
@@ -42,54 +30,71 @@
     "matches": 1200,
     "appearances": 686
   },
+  "after": {
+    "players": 1580,
+    "players_with_club": 1500,
+    "players_without_club": 80,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1209,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 1,
-    "players_created": 2,
+    "players_created": 8,
     "clubs_created": 0,
-    "appearances_clubbed": 1,
-    "matches_added": 18,
-    "players_with_club": 3,
+    "appearances_clubbed": 2,
+    "matches_added": 9,
+    "players_with_club": 9,
     "orphan_clubs": 0
   },
   "sample_linked_ids": [
-    "player:michael-helebert"
+    "player:alan-leech"
   ],
   "sample_created_ids": [
-    "player:harry-oleary-skehana-mountbellew-moylough",
-    "player:james-fahy-hansberry-skehana-mountbellew-moylough"
+    "player:ben-murphy-skehana-mountbellew-moylough",
+    "player:brian-horgan-skehana-mountbellew-moylough",
+    "player:micheal-lyons-skehana-mountbellew-moylough",
+    "player:cillian-roche-skehana-mountbellew-moylough",
+    "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "player:dara-newell-skehana-mountbellew-moylough",
+    "player:ger-flahive-skehana-mountbellew-moylough",
+    "player:sean-oloughlin-michael-cusacks"
   ],
   "all_linked_ids": [
-    "player:michael-helebert"
+    "player:alan-leech"
   ],
   "all_created_ids": [
-    "player:harry-oleary-skehana-mountbellew-moylough",
-    "player:james-fahy-hansberry-skehana-mountbellew-moylough"
+    "player:ben-murphy-skehana-mountbellew-moylough",
+    "player:brian-horgan-skehana-mountbellew-moylough",
+    "player:micheal-lyons-skehana-mountbellew-moylough",
+    "player:cillian-roche-skehana-mountbellew-moylough",
+    "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "player:dara-newell-skehana-mountbellew-moylough",
+    "player:ger-flahive-skehana-mountbellew-moylough",
+    "player:sean-oloughlin-michael-cusacks"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-shc-1987-qf-athenry-kiltormer",
-    "match:galway-shc-1988-qf-athenry-kiltormer",
-    "match:galway-shc-1988-sf-athenry-turloughmore",
-    "match:galway-shc-1988-final-draw-abbeyknockmoy-athenry",
-    "match:galway-shc-1989-qf-athenry-abbeyknockmoy",
-    "match:galway-shc-1989-sf-athenry-st-thomas",
-    "match:connacht-junior-club-hc-2004-final-oran-skehana",
-    "match:connacht-junior-club-hc-2009-final-calry-skehana",
-    "match:connacht-junior-club-hc-2012-final-calry-skehana",
-    "match:connacht-junior-club-hc-2013-final-calry-an-spideal",
-    "match:connacht-junior-club-hc-2016-final-calry-micheal-breathnach",
-    "match:connacht-junior-club-hc-2017-final-sylane-calry",
-    "match:connacht-junior-club-hc-2018-final-carrick-ballygar",
-    "match:connacht-junior-club-hc-2019-final-micheal-breathnach-naomh-eoin",
-    "match:connacht-junior-club-hc-2022-final-easkey-ballygar",
-    "match:connacht-junior-club-hc-2023-final-easkey-ballinasloe",
-    "match:connacht-junior-club-hc-2024-final-easkey-ballinasloe",
-    "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe"
+    "match:galway-shc-1977-r1-athenry-mullagh",
+    "match:galway-shc-1979-r1-athenry-carnmore",
+    "match:galway-shc-1979-qf-castlegar-athenry",
+    "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "match:galway-shc-1986-qf-athenry-gort",
+    "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
   "holds": [
-    "player:alan-leech",
     "player:aodh-davoren",
     "player:aonghus-dervan",
     "player:benny-lawless",
@@ -172,12 +177,12 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 260,
-    "updated": 15,
+    "added": 194,
+    "updated": 14,
     "players_linked": 1,
-    "appearances_clubbed": 1,
-    "players_created": 2,
-    "matches_added": 18,
+    "appearances_clubbed": 2,
+    "players_created": 8,
+    "matches_added": 9,
     "matches_updated": 1,
     "clubs_created": 0
   },
@@ -201,7 +206,7 @@
     "club:loughrea": 36,
     "club:st-thomas": 26,
     "club:meelick-eyrecourt": 35,
-    "club:michael-cusacks": 9,
+    "club:michael-cusacks": 10,
     "club:tommy-larkins": 53,
     "club:salthill-knocknacarra": 19,
     "club:bearna-na-forbacha": 15,
@@ -226,7 +231,7 @@
     "club:an-spideal": 17,
     "club:micheal-breathnach": 26,
     "club:oranmore-maree": 34,
-    "club:kinvara": 44,
+    "club:kinvara": 45,
     "club:mountbellew-moylough": 22,
     "club:leitrim-galway-historic": 29,
     "club:ahascragh-historic": 49
@@ -238,5 +243,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r43: pre-1995 Galway SHC knockout scored Matches (1987 QF + 1988 QF/SF/drawn final + 1989 QF/SF from Athenry GAA / Connacht Tribune / Wikipedia) + Connacht Junior Club HC finals gap pack (2004/2009/2012–2013/2016–2019/2022–2025) + Bearna 2010 year correction; club-less: Michael Helebert multi-source clear to Gort (Keady affair); remaining ~81 stay HOLD; AF/Fohenagh dense — skipped; Skehana/MM thin fills (Harry O'Leary / James Fahy-Hansberry); new HOLD collision notes for Headd/Kelly/Fahy/Hayes/Finnerty/Kenny."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r44: pre-1987 Galway SHC knockout scored Matches (1977 R1 + 1979 R1/QF + 1980 QF + 1986 play-off/QF from Athenry GAA) + 1978 SHC final score/replay + Michael Cusacks U20B/Toddie Byrne finals; club-less: Alan Leech multi-source clear to Kinvara; remaining ~80 stay HOLD; AF/Fohenagh dense - skipped; Skehana/MM thin fills (Murphy/Horgan/Lyons/Roche/Lohan/Newell/Flahive) + Sean O'Loughlin Michael Cusacks; new HOLD collision notes for Kerrill Wade/Tadgh Haran/Tom Monaghan/Gordon Glynn/Aodh Davoren/Conor Burke."
 }

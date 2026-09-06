@@ -20062,7 +20062,7 @@
   {
     "row": "match:galway-shc-1978-final",
     "col": "note",
-    "val": "Runner-up name differs across sources: Galway GAA 'Ballindereen' vs Wikipedia 'Ballinderreen' — seeded GAA name. Score not present on both Galway GAA and Wikipedia — omitted."
+    "val": "Runner-up name differs across sources: Galway GAA 'Ballindereen' vs Wikipedia 'Ballinderreen' — seeded GAA name. Score not present on both Galway GAA and Wikipedia — omitted. r44 score fill: Wikipedia 1978 Galway SHC + Galway GAA finals table + Ballinderreen GAA/ClubInfo agree drawn final Ardrahan 2-10 Ballinderreen 0-16 at Duggan Park (15 Oct 1978); replay seeded separately."
   },
   {
     "row": "match:galway-shc-1978-final",
@@ -31067,17 +31067,17 @@
   {
     "row": "player:alan-leech",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:alan-leech",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/goals-give-portumna-closure-out-of-storm/26326590.html"
   },
   {
     "row": "player:alan-leech",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD r8 collision: Galway GAA 2004 Kinvara U-21 A roll names Alan Leech; Athenry GAA 2007 U-21 gallery also names Alan Leech — do not stamp. HOLD r39: Hogan Stand 2007 SF MotM Alan Leech Kinvara still insufficient to clear dual-club risk vs Athenry U-21 gallery; keep Kinvara/Athenry collision HOLD. HOLD r40: still dual-club Kinvara MotM 2007 vs Athenry U-21 gallery risk; no new multi-source clear."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD r8 collision: Galway GAA 2004 Kinvara U-21 A roll names Alan Leech; Athenry GAA 2007 U-21 gallery also names Alan Leech — do not stamp. HOLD r39: Hogan Stand 2007 SF MotM Alan Leech Kinvara still insufficient to clear dual-club risk vs Athenry U-21 gallery; keep Kinvara/Athenry collision HOLD. HOLD r40: still dual-club Kinvara MotM 2007 vs Athenry U-21 gallery risk; no new multi-source clear. Irish Independent 2007 Galway SHC final team sheet lists A Leech for Kinvara vs Portumna. Galway Bay FM 4 Nov 2019 interviewed Alan Leech after Kinvara's IHC final win vs Kilconieron. Strong first+last multi-source club clear (MHC 2005 panel row)."
   },
   {
     "row": "player:albert-moylan",
@@ -31292,7 +31292,7 @@
   {
     "row": "player:aodh-davoren",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD r32 NEW: club-less Aodh Davoren (U-21 1986 panel); no first+last published Galway club hurling cite found — keep HOLD."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD r32 NEW: club-less Aodh Davoren (U-21 1986 panel); no first+last published Galway club hurling cite found — keep HOLD. HOLD r44: Davoren family collision with clubbed Moycullen Davorens; Athenry GAA 1986 U-21 photo captions 'Aodh Daveron' without club stamp — stays HOLD."
   },
   {
     "row": "player:aonghus-dervan",
@@ -32702,7 +32702,7 @@
   {
     "row": "player:conor-burke",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). HOLD r17: Conor Burke multi-club collision (St Thomas/Athenry/Oranmore eras)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). HOLD r17: Conor Burke multi-club collision (St Thomas/Athenry/Oranmore eras). HOLD r44: Burke surname extremely common (St Thomas'/Turloughmore/Kilconieron); bare MHC 2009 panel lacks first+last multi-source club clear — stays HOLD."
   },
   {
     "row": "player:conor-caulfield",
@@ -36102,7 +36102,7 @@
   {
     "row": "player:gordon-glynn",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1996 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). HOLD r8: spelling twin of gordan-glynn; no clear single-club cite this run. HOLD r39: Advertiser 2008 SHC QF names Gordon Glynn goal for Loughrea but bare MHC/U21 id stays HOLD vs twin player:gordan-glynn already club:kiltormer; do not dual-stamp. HOLD r40: Loughrea 2008 goal name remains twin of clubbed Gordan Glynn Kiltormer; do not dual-stamp. HOLD r42: spelling twin of player:gordan-glynn already club:kiltormer; bare Minor 1994 / U-21 1996 collision — do not dual-stamp."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1996 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). HOLD r8: spelling twin of gordan-glynn; no clear single-club cite this run. HOLD r39: Advertiser 2008 SHC QF names Gordon Glynn goal for Loughrea but bare MHC/U21 id stays HOLD vs twin player:gordan-glynn already club:kiltormer; do not dual-stamp. HOLD r40: Loughrea 2008 goal name remains twin of clubbed Gordan Glynn Kiltormer; do not dual-stamp. HOLD r42: spelling twin of player:gordan-glynn already club:kiltormer; bare Minor 1994 / U-21 1996 collision — do not dual-stamp. HOLD r44: Glynn spelling/club collision with clubbed Gordan Glynn (Kiltormer) and other Glynn rows; bare MHC/U-21 panel lacks first+last multi-source clear — stays HOLD."
   },
   {
     "row": "player:greg-lally",
@@ -43707,7 +43707,7 @@
   {
     "row": "player:tadgh-haran",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran + RTE/Connacht Tribune). Bare MHC panel row stays HOLD — do not dual-club."
   },
   {
     "row": "player:tadhg-haran",
@@ -44107,7 +44107,7 @@
   {
     "row": "player:tom-monaghan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD: 1983 minor / 1986 U-21 panel id — not the modern Craughwell Thomas Monaghan (player:thomas-monaghan). No club stamp."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD: 1983 minor / 1986 U-21 panel id — not the modern Craughwell Thomas Monaghan (player:thomas-monaghan). No club stamp. HOLD r44: Monaghan surname collision with clubbed Craughwell Thomas Monaghan and Mullagh Damien Monaghan; bare U-21 1986 panel lacks first+last multi-source club clear — stays HOLD."
   },
   {
     "row": "player:tommy-coen",
@@ -44492,7 +44492,7 @@
   {
     "row": "player:kerrill-wade",
     "col": "note",
-    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp."
+    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + Irish Examiner). Bare U-21 panel row stays HOLD — do not dual-club."
   },
   {
     "row": "player:kerrill-wade",
@@ -56487,7 +56487,7 @@
   {
     "row": "appearance:alan-leech-minor-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:paul-callanan-minor-2005",
@@ -78752,7 +78752,7 @@
   {
     "row": "appearance:alan-leech-u-21-2007",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:barry-hanley-u-21-2007",
@@ -85457,7 +85457,7 @@
   {
     "row": "player:alan-leech",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:albert-moylan",
@@ -101957,7 +101957,7 @@
   {
     "row": "player:alan-leech",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:brendan-lynch",
@@ -204008,5 +204008,975 @@
     "row": "match:connacht-junior-club-hc-2025-final-easkey-ballinasloe",
     "col": "venue",
     "val": "Connacht GAA Centre"
+  },
+  {
+    "row": "player:alan-leech",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:alan-leech-minor-2005",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:alan-leech-u-21-2007",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Ben Murphy"
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Tuam Herald 12 Aug 2026 IHC team sheet: B. Murphy in goals for Skehana/Mountbellew-Moylough vs Mullagh. Galway Bay FM Junior panel (Jan 2024) lists Ben Murphy (Skehana Mountbellew Moylough). Club-scoped thin fill."
+  },
+  {
+    "row": "player:ben-murphy-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Brian Horgan"
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Tuam Herald 12 Aug 2026 IHC team sheet lists B. Horgan for Skehana/Mountbellew-Moylough. Galway Bay FM Junior panel lists Brian Horgan (Skehana Mountbellew Moylough). Club-scoped thin fill."
+  },
+  {
+    "row": "player:brian-horgan-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Micheal Lyons"
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Tuam Herald 12 Aug 2026 IHC team sheet: M. Lyons (0-1) for Skehana/Mountbellew-Moylough. Galway Bay FM Junior panel lists Micheal Lyons (Skehana Mountbellew Moylough). Club-scoped thin fill."
+  },
+  {
+    "row": "player:micheal-lyons-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Cillian Roche"
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Tuam Herald 12 Aug 2026 IHC: C. Roche 0-10 (0-6f) man-of-the-match for Skehana/Mountbellew-Moylough vs Mullagh. Club-scoped thin fill."
+  },
+  {
+    "row": "player:cillian-roche-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Tiernan Lohan"
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Tuam Herald 12 Aug 2026 IHC team sheet: T. Lohan 0-4 for Skehana/Mountbellew-Moylough (distinct from Oisín Lohan). Club-scoped thin fill."
+  },
+  {
+    "row": "player:tiernan-lohan-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Dara Newell"
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Tuam Herald 12 Aug 2026 IHC team sheet lists D. Newell (Darragh Newell in match narrative) for Skehana/Mountbellew-Moylough. Galway Bay FM Junior panel lists Dara Newell Skehana (Mountbellew Moylough). Club-scoped thin fill."
+  },
+  {
+    "row": "player:dara-newell-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "name",
+    "val": "Ger Flahive"
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "club",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487"
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "note",
+    "val": "Galway Bay FM Junior panel lists Ger Flahive (Skehana Mountbellew Moylough). Galway Bay FM 27 Jun 2025 Division 3 final reaction: Ger Flahive's ninth point winner for Skehana/MM vs Kinvara. Club-scoped thin fill."
+  },
+  {
+    "row": "player:ger-flahive-skehana-mountbellew-moylough",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "name",
+    "val": "Sean O'Loughlin"
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "club",
+    "val": "club:michael-cusacks"
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-minor-hurling-panel-named-for-leinster-championship-160797"
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "note",
+    "val": "Galway Bay FM Galway Minor panel lists Sean O'Loughlin (Michael Cusacks) alongside Cian O'Loughlin. Also named on AIQ panel listing. Club-scoped thin fill for Michael Cusacks."
+  },
+  {
+    "row": "player:sean-oloughlin-michael-cusacks",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "name",
+    "val": "Athenry vs Mullagh (1977 Galway SHC First Round)"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "round",
+    "val": "First Round"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "year",
+    "val": 1977
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "score",
+    "val": "Athenry 2-10, Mullagh 1-09"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "note",
+    "val": "Athenry GAA 1977 history: opening championship game at St Brendan's Park Loughrea Athenry 2-10 Mullagh 1-9 (pre-1987 knockout gap)."
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1977"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1977-r1-athenry-mullagh",
+    "col": "venue",
+    "val": "St Brendan's Park, Loughrea"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "name",
+    "val": "Athenry vs Carnmore (1979 Galway SHC First Round)"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "round",
+    "val": "First Round"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "year",
+    "val": 1979
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "score",
+    "val": "Athenry 1-15, Carnmore 3-08"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "note",
+    "val": "Athenry GAA 1979 history + Connacht Tribune: first-round Athenry 1-15 Carnmore 3-8 at Ballinderreen (pre-1987 knockout gap; later eligibility objection overturned on County Board appeal)."
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1979"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1979-r1-athenry-carnmore",
+    "col": "venue",
+    "val": "Ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "name",
+    "val": "Castlegar vs Athenry (1979 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "year",
+    "val": 1979
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "score",
+    "val": "Castlegar 2-05, Athenry 0-07"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "note",
+    "val": "Athenry GAA 1979 history: quarter-final at Pearse Stadium Castlegar 2-5 Athenry 0-7 (pre-1987 knockout gap; Castlegar went on to county and All-Ireland club titles)."
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1979"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-1979-qf-castlegar-athenry",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "name",
+    "val": "Meelick-Eyrecourt vs Athenry (1980 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "year",
+    "val": 1980
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "home",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "score",
+    "val": "Meelick-Eyrecourt 4-09, Athenry 1-11"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "note",
+    "val": "Athenry GAA 1980 history: quarter-final at Loughrea Meelick/Eyrecourt 4-9 Athenry 1-11 (pre-1987 knockout gap; Noel 'Pop' Ryan 2-7 for winners)."
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1980"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "winner",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
+    "col": "venue",
+    "val": "St Brendan's Park, Loughrea"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "name",
+    "val": "Athenry vs Gaeltacht (1986 Galway SHC Play-off)"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "round",
+    "val": "Play-off"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "year",
+    "val": 1986
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "away",
+    "val": "Gaeltacht"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "score",
+    "val": "Athenry 7-11, Gaeltacht 1-07"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "note",
+    "val": "Athenry GAA 1986 history + Connacht Tribune quote: play-off at Ballinderreen Athenry 7-11 Gaeltacht 1-7 securing knockout place (pre-1987/1986 knockout path gap)."
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1986"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1986-playoff-athenry-gaeltacht",
+    "col": "venue",
+    "val": "Ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "name",
+    "val": "Athenry vs Gort (1986 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "year",
+    "val": 1986
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "score",
+    "val": "Athenry 3-09, Gort 1-12"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "note",
+    "val": "Athenry GAA 1986 history: quarter-final Athenry 3-9 Gort 1-12 (pre-1987 knockout gap; late Gort penalty missed by John Commins)."
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1986"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1986-qf-athenry-gort",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "name",
+    "val": "Ardrahan vs Ballinderreen (1978 Galway SHC Final Replay)"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "round",
+    "val": "Final Replay"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "year",
+    "val": 1978
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "score",
+    "val": "Ardrahan 2-18, Ballinderreen 2-14 (aet)"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "note",
+    "val": "Wikipedia 1978 Galway SHC + ClubInfo/Ballinderreen GAA: replay at Duggan Park 19 Nov 1978 Ardrahan 2-18 Ballinderreen 2-14 after extra time (drawn final 2-10 to 0-16 already updated)."
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1978_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
+    "col": "venue",
+    "val": "Duggan Park"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "name",
+    "val": "Michael Cusacks vs Rahoon-Newcastle (2025 Galway U20 B Hurling Final)"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "competition",
+    "val": "Galway U20 B Hurling Championship"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "home",
+    "val": "club:michael-cusacks"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "away",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "score",
+    "val": "Michael Cusacks 1-19, Rahoon-Newcastle 1-12"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "note",
+    "val": "Galway Bay FM 11 Sep 2025: Castle Group U20 B final at Duggan Park Michael Cusacks 1-19 Rahoon-Newcastle 1-12 (thin-club / JHC pathway gap fill)."
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/michael-cusacks-wins-county-u20-b-hurling-title-commentary-and-reaction-202531"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "winner",
+    "val": "club:michael-cusacks"
+  },
+  {
+    "row": "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
+    "col": "venue",
+    "val": "Duggan Park"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "name",
+    "val": "Michael Cusacks vs Loughrea (2026 Toddie Byrne Cup Final)"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "competition",
+    "val": "Toddie Byrne Cup"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "year",
+    "val": 2026
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "home",
+    "val": "club:michael-cusacks"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "score",
+    "val": "Michael Cusacks 3-10, Loughrea 1-14"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "note",
+    "val": "Galway Bay FM 26 Apr 2026: Michael Cusacks 3-10 Loughrea 1-14 at Kenny Park to retain Toddie Byrne Cup (late 2-2; thin-club scored final)."
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/michael-cusacks-3-10-loughrea-1-14-toddie-byrne-cup-final-report-and-reaction-with-finbarr-gantley-219404"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "winner",
+    "val": "club:michael-cusacks"
+  },
+  {
+    "row": "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea",
+    "col": "venue",
+    "val": "Kenny Park"
+  },
+  {
+    "row": "match:galway-shc-1978-final",
+    "col": "score",
+    "val": "Ardrahan 2-10, Ballinderreen 0-16"
+  },
+  {
+    "row": "match:galway-shc-1978-final",
+    "col": "result",
+    "val": "draw"
   }
 ]
