@@ -1,15 +1,10 @@
 {
   "queue": "archivist-fohenagh-club-links",
-  "generated_at": "2026-09-04T19:02:59.504876+00:00",
-  "note": "New historic Fohenagh players from INA 1959\u201360 reports; review for CLEAR.",
+  "generated_at": "2026-09-06T19:31:54.792242+00:00",
+  "round": "2+2b",
+  "note": "Fohenagh/Ahascragh-Fohenagh links this run; review for CLEAR.",
   "fohenagh_new_player_ids": [
-    "player:tony-ogorman",
-    "player:tim-killalea",
-    "player:johnny-molloy",
-    "player:padraic-nolan",
-    "player:nicholas-murray",
-    "player:frank-madden",
-    "player:jim-sweeney"
+    "player:sean-glennon-fohenagh"
   ],
   "fohenagh_linked_existing_ids": [],
   "pack": "data/pack-galway-club-player-links.json"

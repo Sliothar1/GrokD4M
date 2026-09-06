@@ -24857,7 +24857,7 @@
   {
     "row": "match:galway-shc-2022-final",
     "col": "winner",
-    "val": "club:st-thomas"
+    "val": ""
   },
   {
     "row": "match:galway-shc-2022-final",
@@ -24872,17 +24872,17 @@
   {
     "row": "match:galway-shc-2022-final",
     "col": "note",
-    "val": "Score not double-sourced for this final (replay/partial) \u2014 omitted."
+    "val": "Drawn final (Wikipedia). Replay followed 27 Nov 2022."
   },
   {
     "row": "match:galway-shc-2022-final",
     "col": "confidence",
-    "val": "medium"
+    "val": "high"
   },
   {
     "row": "match:galway-shc-2022-final",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "match:galway-shc-2022-final",
@@ -24992,17 +24992,17 @@
   {
     "row": "match:galway-shc-2023-final",
     "col": "note",
-    "val": "Score not present on both Galway GAA and Wikipedia \u2014 omitted."
+    "val": "St Thomas' sixth consecutive Galway SHC title (Wikipedia; GAA.ie / RT\u00c9)."
   },
   {
     "row": "match:galway-shc-2023-final",
     "col": "confidence",
-    "val": "medium"
+    "val": "high"
   },
   {
     "row": "match:galway-shc-2023-final",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "match:galway-shc-2023-final",
@@ -30947,17 +30947,17 @@
   {
     "row": "player:alan-armstrong",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:alan-armstrong",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:alan-armstrong",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Named among Clarinbridge scorers vs Mullagh, 2014 Galway SHC (Wikipedia)."
   },
   {
     "row": "player:alan-callanan",
@@ -31162,17 +31162,17 @@
   {
     "row": "player:andrew-keary",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:andrew-keary",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Andrew_Keary"
   },
   {
     "row": "player:andrew-keary",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Wikipedia: plays for Galway Championship club Killimor."
   },
   {
     "row": "player:andy-fenton",
@@ -31322,7 +31322,7 @@
   {
     "row": "player:aonghus-dervan",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). HOLD: Dervan/Mullagh family likely but no direct public club cite this run \u2014 Michael Healy rule."
   },
   {
     "row": "player:barry-coen",
@@ -31402,17 +31402,17 @@
   {
     "row": "player:barry-daly",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:barry-daly",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Barry_Daly_(hurler)"
   },
   {
     "row": "player:barry-daly",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). Wikipedia infobox club Clarinbridge; All-Ireland club medal 2011."
   },
   {
     "row": "player:barry-hanley",
@@ -31707,17 +31707,17 @@
   {
     "row": "player:billy-lane",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:billy-lane",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:billy-lane",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Named among Clarinbridge scorers vs Mullagh, 2014 Galway SHC (Wikipedia)."
   },
   {
     "row": "player:brendan-dervan",
@@ -32067,17 +32067,17 @@
   {
     "row": "player:brian-molloy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:brian-molloy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Brian_Molloy_(hurler)"
   },
   {
     "row": "player:brian-molloy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). Wikipedia: plays with Kilnadeema\u2013Leitrim."
   },
   {
     "row": "player:brian-murphy",
@@ -32217,17 +32217,17 @@
   {
     "row": "player:cathal-dervan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:cathal-dervan",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://archive.connachttribune.ie/dervan-and-coone-goals-steer-mullagh-to-success-556/"
   },
   {
     "row": "player:cathal-dervan",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Connacht Tribune: Cathal Dervan scored for Mullagh in Senior B championship report."
   },
   {
     "row": "player:cathal-moore",
@@ -32782,17 +32782,17 @@
   {
     "row": "player:conor-dervan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:conor-dervan",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-30449568.html"
   },
   {
     "row": "player:conor-dervan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Irish Examiner: 'The Mullagh clubman' Conor Dervan; also Irish Examiner / High Court Mullagh trio reports."
   },
   {
     "row": "player:conor-elwood",
@@ -33237,17 +33237,17 @@
   {
     "row": "player:damien-joyce",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:damien-joyce",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Damien_Joyce"
   },
   {
     "row": "player:damien-joyce",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Wikipedia: plays for his local club Cappataggle."
   },
   {
     "row": "player:damien-kelly",
@@ -33927,17 +33927,17 @@
   {
     "row": "player:david-forde",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:david-forde",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:david-forde",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA). Named among Clarinbridge scorers vs Mullagh, 2014 Galway SHC (Wikipedia)."
   },
   {
     "row": "player:david-greene",
@@ -35392,17 +35392,17 @@
   {
     "row": "player:finian-coone",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:finian-coone",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://archive.connachttribune.ie/dervan-and-coone-goals-steer-mullagh-to-success-556/"
   },
   {
     "row": "player:finian-coone",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Connacht Tribune: Finian Coone scored goals/points for Mullagh; also named in Galway Daily Mullagh XV vs Loughrea."
   },
   {
     "row": "player:fr-larkin",
@@ -35637,17 +35637,17 @@
   {
     "row": "player:gavin-lally",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:gavin-lally",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:gavin-lally",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Named on Gort starting XV (goalkeeper), 2014 Galway SHC final (Wikipedia)."
   },
   {
     "row": "player:gavin-lee",
@@ -35762,17 +35762,17 @@
   {
     "row": "player:ger-mahon",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:ger-mahon",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Ger_Mahon"
   },
   {
     "row": "player:ger-mahon",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Wikipedia: club hurling with Kinvara."
   },
   {
     "row": "player:ger-ohalloran",
@@ -35822,17 +35822,17 @@
   {
     "row": "player:gerard-odonoghue",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:gerard-odonoghue",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:gerard-odonoghue",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Named on Gort starting XV, 2014 Galway SHC final (Wikipedia)."
   },
   {
     "row": "player:gerry-burke",
@@ -36122,17 +36122,17 @@
   {
     "row": "player:greg-lally",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:greg-lally",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Greg_Lally"
   },
   {
     "row": "player:greg-lally",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Wikipedia: club Gort; two-time Galway SHC medallist."
   },
   {
     "row": "player:greg-thomas",
@@ -36372,17 +36372,17 @@
   {
     "row": "player:jack-canning",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:jack-canning",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Jack_Canning"
   },
   {
     "row": "player:jack-canning",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2015 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2017 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2015 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2017 panel (Galway GAA). Wikipedia: at club level plays with Portumna."
   },
   {
     "row": "player:jack-carr",
@@ -36432,17 +36432,17 @@
   {
     "row": "player:jack-grealish",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:jack-grealish",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Gort_GAA"
   },
   {
     "row": "player:jack-grealish",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Listed under Gort GAA Notable players on Wikipedia."
   },
   {
     "row": "player:jack-linnane",
@@ -36527,17 +36527,17 @@
   {
     "row": "player:james-regan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:james-regan",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/James_Regan_(hurler)"
   },
   {
     "row": "player:james-regan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Wikipedia: plays club hurling with St Thomas'."
   },
   {
     "row": "player:james-skehill",
@@ -36617,17 +36617,17 @@
   {
     "row": "player:jason-grealish",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:jason-grealish",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:jason-grealish",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Named on Gort starting XV, 2014 Galway SHC final (Wikipedia)."
   },
   {
     "row": "player:jason-kennedy",
@@ -36797,17 +36797,17 @@
   {
     "row": "player:joe-gantley",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:joe-gantley",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Joe_Gantley"
   },
   {
     "row": "player:joe-gantley",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Wikipedia: club hurling for Beagh; also Beagh GAA Notable players."
   },
   {
     "row": "player:joe-greaney",
@@ -36947,17 +36947,17 @@
   {
     "row": "player:john-commins",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:john-commins",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/John_Commins_(hurler)"
   },
   {
     "row": "player:john-commins",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1987 panel (Galway GAA). Named on Galway All-Ireland Senior Hurling Champions 1988 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1987 panel (Galway GAA). Named on Galway All-Ireland Senior Hurling Champions 1988 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA). Wikipedia: club hurling with Gort; also Gort GAA Notable players."
   },
   {
     "row": "player:john-conroy",
@@ -37162,17 +37162,17 @@
   {
     "row": "player:john-hanbury",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:john-hanbury",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/John_Hanbury_(hurler)"
   },
   {
     "row": "player:john-hanbury",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Wikipedia: club side Rahoon\u2013Newcastle; stamped to club:rahoon (Rahoon\u2013Newcastle GAA)."
   },
   {
     "row": "player:john-hughes",
@@ -37677,17 +37677,17 @@
   {
     "row": "player:kerril-wade",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:kerril-wade",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Kerril_Wade"
   },
   {
     "row": "player:kerril-wade",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Wikipedia: Galway Senior Championship club Sarsfields."
   },
   {
     "row": "player:kevin-brady",
@@ -37737,17 +37737,17 @@
   {
     "row": "player:kevin-briscoe",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:kevin-briscoe",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaydaily.com/sport/galway-gaa-match-report-loughrea-0-15-mullagh-0-12/"
   },
   {
     "row": "player:kevin-briscoe",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Galway Daily match report Mullagh XV: Kevin Briscoe; also Galway GAA 2003 IHC champions photo."
   },
   {
     "row": "player:kevin-broderick",
@@ -39852,17 +39852,17 @@
   {
     "row": "player:michael-mullins",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:michael-mullins",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:michael-mullins",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Named on Gort starting XV, 2014 Galway SHC final (Wikipedia)."
   },
   {
     "row": "player:michael-spellman",
@@ -40392,17 +40392,17 @@
   {
     "row": "player:niall-donoghue",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:niall-donoghue",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Niall_Donohue"
   },
   {
     "row": "player:niall-donoghue",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Wikipedia Niall Donohue / Kilbeacanty GAA Notable players: club Kilbeacanty (seed spelling Donoghue)."
   },
   {
     "row": "player:niall-earls",
@@ -40482,17 +40482,17 @@
   {
     "row": "player:niall-forde",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:niall-forde",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:niall-forde",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Named as Gort substitute used, 2014 Galway SHC final (Wikipedia)."
   },
   {
     "row": "player:niall-glynn",
@@ -41297,7 +41297,7 @@
   {
     "row": "player:padraig-breheny",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). HOLD: spelling variant of P\u00e1draig Brehony \u2014 no club stamp."
   },
   {
     "row": "player:pakie-dervan",
@@ -41772,17 +41772,17 @@
   {
     "row": "player:paul-gordon",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:paul-gordon",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Paul_Gordon_(hurler)"
   },
   {
     "row": "player:paul-gordon",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Wikipedia: plays with Tynagh-Abbey/Duniry."
   },
   {
     "row": "player:paul-hardiman",
@@ -41832,17 +41832,17 @@
   {
     "row": "player:paul-killeen",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:paul-killeen",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Paul_Killeen_(hurler)"
   },
   {
     "row": "player:paul-killeen",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Wikipedia: club side Tynagh-Abbey/Duniry."
   },
   {
     "row": "player:paul-loughnane",
@@ -42102,17 +42102,17 @@
   {
     "row": "player:richie-cummins",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:richie-cummins",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Richie_Cummins"
   },
   {
     "row": "player:richie-cummins",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2009 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Wikipedia: plays hurling with local club Gort."
   },
   {
     "row": "player:richie-devaney",
@@ -42557,17 +42557,17 @@
   {
     "row": "player:rory-gantley",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:rory-gantley",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Beagh_GAA"
   },
   {
     "row": "player:rory-gantley",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). Beagh GAA Wikipedia Notable players: Rory Gantley (Galway panel 1999\u20132004)."
   },
   {
     "row": "player:ruben-davitt",
@@ -42657,17 +42657,17 @@
   {
     "row": "player:seamus-coen",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:seamus-coen",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/S%C3%A9amus_Coen"
   },
   {
     "row": "player:seamus-coen",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1980 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1980 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). Wikipedia: played with Mullagh; also Mullagh GAA Notable players."
   },
   {
     "row": "player:sean-collins",
@@ -43087,17 +43087,17 @@
   {
     "row": "player:sean-treacy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:sean-treacy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Se%C3%A1n_Treacy_(Galway_hurler)"
   },
   {
     "row": "player:sean-treacy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA). Wikipedia Se\u00e1n Treacy (Galway hurler): played with Portumna."
   },
   {
     "row": "player:sean-bleahene",
@@ -43182,17 +43182,17 @@
   {
     "row": "player:shane-cooney",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:shane-cooney",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Shane_Cooney"
   },
   {
     "row": "player:shane-cooney",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). Wikipedia: Galway Senior Championship club St Thomas'."
   },
   {
     "row": "player:shane-jennings",
@@ -43242,17 +43242,17 @@
   {
     "row": "player:shane-kavanagh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:shane-kavanagh",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Shane_Kavanagh"
   },
   {
     "row": "player:shane-kavanagh",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). Wikipedia infobox club Kinvara."
   },
   {
     "row": "player:shane-lawless",
@@ -44442,7 +44442,7 @@
   {
     "row": "player:finnian-coone",
     "col": "note",
-    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007)."
+    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:finian-coone (Mullagh) \u2014 no club stamp."
   },
   {
     "row": "player:finnian-coone",
@@ -44492,7 +44492,7 @@
   {
     "row": "player:kerrill-wade",
     "col": "note",
-    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007)."
+    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) \u2014 no club stamp."
   },
   {
     "row": "player:kerrill-wade",
@@ -44517,17 +44517,17 @@
   {
     "row": "player:padraig-brehony",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA). Wikipedia: plays with Tynagh-Abbey/Duniry."
   },
   {
     "row": "player:padraig-brehony",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:padraig-brehony",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/P%C3%A1draig_Brehony"
   },
   {
     "row": "player:shane-maloney",
@@ -46312,7 +46312,7 @@
   {
     "row": "appearance:seamus-coen-shc-1980",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:jimmy-cooney-shc-1980",
@@ -46837,7 +46837,7 @@
   {
     "row": "appearance:john-commins-shc-1987",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:tony-keady-shc-1987",
@@ -47772,7 +47772,7 @@
   {
     "row": "appearance:john-commins-shc-1988",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:tony-keady-shc-1988",
@@ -49167,7 +49167,7 @@
   {
     "row": "appearance:greg-lally-shc-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:gearoid-mcinerney-shc-2017",
@@ -49397,7 +49397,7 @@
   {
     "row": "appearance:brian-molloy-shc-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:gavin-lally-shc-2017",
@@ -49922,7 +49922,7 @@
   {
     "row": "appearance:john-hanbury-shc-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:adrian-tuohey-shc-2017",
@@ -50212,7 +50212,7 @@
   {
     "row": "appearance:jack-grealish-shc-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:brian-flaherty-shc-2017",
@@ -50572,7 +50572,7 @@
   {
     "row": "appearance:john-commins-minor-1983",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:tom-maloney-minor-1983",
@@ -50812,7 +50812,7 @@
   {
     "row": "appearance:sean-treacy-minor-1983",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:pat-higgins-minor-1983",
@@ -51172,7 +51172,7 @@
   {
     "row": "appearance:padraig-brehony-minor-1983",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:joe-cooney-minor-1983",
@@ -53087,7 +53087,7 @@
   {
     "row": "appearance:rory-gantley-minor-1994",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:brian-omahony-minor-1999",
@@ -53382,7 +53382,7 @@
   {
     "row": "appearance:conor-dervan-minor-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:michael-john-quinn-minor-1999",
@@ -54517,7 +54517,7 @@
   {
     "row": "appearance:shane-kavanagh-minor-2000",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:adrian-cullinane-minor-2000",
@@ -55057,7 +55057,7 @@
   {
     "row": "appearance:ger-mahon-minor-2004",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:mark-herlihy-minor-2004",
@@ -55352,7 +55352,7 @@
   {
     "row": "appearance:andrew-keary-minor-2004",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:john-hughes-minor-2004",
@@ -55532,7 +55532,7 @@
   {
     "row": "appearance:kerril-wade-minor-2004",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:david-kennedy-minor-2004",
@@ -56187,7 +56187,7 @@
   {
     "row": "appearance:andrew-keary-minor-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:john-hughes-minor-2005",
@@ -57372,7 +57372,7 @@
   {
     "row": "appearance:richie-cummins-minor-2009",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:jason-grealish-minor-2009",
@@ -57552,7 +57552,7 @@
   {
     "row": "appearance:james-regan-minor-2009",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:darragh-cooney-minor-2011",
@@ -58262,7 +58262,7 @@
   {
     "row": "appearance:john-hanbury-minor-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:shane-lawless-minor-2011",
@@ -59212,7 +59212,7 @@
   {
     "row": "appearance:paul-killeen-minor-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:cormac-diviney-minor-2011",
@@ -59332,7 +59332,7 @@
   {
     "row": "appearance:brian-molloy-minor-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:conor-walsh-minor-2015",
@@ -60287,7 +60287,7 @@
   {
     "row": "appearance:jack-canning-minor-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:conor-lee-minor-2015",
@@ -62262,7 +62262,7 @@
   {
     "row": "appearance:jack-canning-minor-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:conor-lee-minor-2017",
@@ -70562,7 +70562,7 @@
   {
     "row": "appearance:seamus-coen-u-21-1978",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:john-ryan-u-21-1978",
@@ -72172,7 +72172,7 @@
   {
     "row": "appearance:john-commins-u-21-1986",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:martin-kelly-u-21-1986",
@@ -76177,7 +76177,7 @@
   {
     "row": "appearance:cathal-dervan-u-21-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:aonghus-dervan-u-21-2005",
@@ -76357,7 +76357,7 @@
   {
     "row": "appearance:joe-gantley-u-21-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:david-collins-u-21-2005",
@@ -76537,7 +76537,7 @@
   {
     "row": "appearance:ger-mahon-u-21-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:barry-cullinane-u-21-2005",
@@ -77852,7 +77852,7 @@
   {
     "row": "appearance:ger-mahon-u-21-2007",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:andrew-keary-u-21-2007",
@@ -77912,7 +77912,7 @@
   {
     "row": "appearance:andrew-keary-u-21-2007",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:kevin-keane-u-21-2007",
@@ -79587,7 +79587,7 @@
   {
     "row": "appearance:niall-donoghue-u-21-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:niall-burke-u-21-2011",
@@ -79942,7 +79942,7 @@
   {
     "row": "appearance:paul-gordon-u-21-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:donal-fox-u-21-2011",
@@ -80242,7 +80242,7 @@
   {
     "row": "appearance:richie-cummins-u-21-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:alan-armstrong-u-21-2011",
@@ -80597,7 +80597,7 @@
   {
     "row": "appearance:barry-daly-u-21-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:johnny-coen-u-21-2011",
@@ -80767,7 +80767,7 @@
   {
     "row": "appearance:james-regan-u-21-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:ger-ohalloran-u-21-2011",
@@ -81727,7 +81727,7 @@
   {
     "row": "appearance:damien-joyce-ihc-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:niall-kelly-ihc-1999",
@@ -82147,7 +82147,7 @@
   {
     "row": "appearance:conor-dervan-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:david-hayes-ihc-2002",
@@ -82867,7 +82867,7 @@
   {
     "row": "appearance:joe-gantley-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:kenneth-burke-ihc-2002",
@@ -83707,7 +83707,7 @@
   {
     "row": "appearance:cathal-dervan-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:adrian-diviney-ihc-2002",
@@ -84127,7 +84127,7 @@
   {
     "row": "appearance:shane-cooney-ihc-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:darragh-odonoghue-ihc-2015",
@@ -84667,7 +84667,7 @@
   {
     "row": "appearance:brian-molloy-ihc-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:shane-caulfield-ihc-2015",
@@ -85387,7 +85387,7 @@
   {
     "row": "appearance:barry-daly-ihc-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:adam-brett",
@@ -85497,7 +85497,7 @@
   {
     "row": "player:aonghus-dervan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:barry-coen",
@@ -87097,7 +87097,7 @@
   {
     "row": "player:padraig-breheny",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:pakie-dervan",
@@ -87602,7 +87602,7 @@
   {
     "row": "player:finnian-coone",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:gordan-glynn",
@@ -87612,7 +87612,7 @@
   {
     "row": "player:kerrill-wade",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:padraig-brehony",
@@ -87637,7 +87637,7 @@
   {
     "row": "player:padraic-brehony",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD: spelling/id collision with player:padraig-brehony (Tynagh-Abbey/Duniry) \u2014 no club stamp."
   },
   {
     "row": "player:padraic-brehony",
@@ -87722,7 +87722,7 @@
   {
     "row": "player:padraic-brehony",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "appearance:alex-conaire-minor-2019",
@@ -90266,6 +90266,1401 @@
   },
   {
     "row": "player:michael-conneely",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:andrew-keary",
+    "col": "club",
+    "val": "club:killimor"
+  },
+  {
+    "row": "appearance:andrew-keary-minor-2004",
+    "col": "club",
+    "val": "club:killimor"
+  },
+  {
+    "row": "appearance:andrew-keary-minor-2005",
+    "col": "club",
+    "val": "club:killimor"
+  },
+  {
+    "row": "appearance:andrew-keary-u-21-2007",
+    "col": "club",
+    "val": "club:killimor"
+  },
+  {
+    "row": "player:damien-joyce",
+    "col": "club",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "appearance:damien-joyce-ihc-1999",
+    "col": "club",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "player:barry-daly",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:barry-daly-u-21-2011",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:barry-daly-ihc-2015",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:brian-molloy",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "appearance:brian-molloy-shc-2017",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "appearance:brian-molloy-minor-2011",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "appearance:brian-molloy-ihc-2015",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:paul-killeen",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "appearance:paul-killeen-minor-2011",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "player:paul-gordon",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "appearance:paul-gordon-u-21-2011",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "player:padraig-brehony",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "appearance:padraig-brehony-minor-1983",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "player:shane-cooney",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:shane-cooney-ihc-2015",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:james-regan",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:james-regan-minor-2009",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:james-regan-u-21-2011",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:niall-donoghue",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "appearance:niall-donoghue-u-21-2011",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:john-commins",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:john-commins-shc-1987",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:john-commins-shc-1988",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:john-commins-minor-1983",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:john-commins-u-21-1986",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:greg-lally",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:greg-lally-shc-2017",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:richie-cummins",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:richie-cummins-minor-2009",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:richie-cummins-u-21-2011",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:jack-grealish",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:jack-grealish-shc-2017",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:jack-canning",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "appearance:jack-canning-minor-2015",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "appearance:jack-canning-minor-2017",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:sean-treacy",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "appearance:sean-treacy-minor-1983",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:ger-mahon",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:ger-mahon-minor-2004",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:ger-mahon-u-21-2005",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:ger-mahon-u-21-2007",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "player:shane-kavanagh",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:shane-kavanagh-minor-2000",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "player:joe-gantley",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "appearance:joe-gantley-u-21-2005",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "appearance:joe-gantley-ihc-2002",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "player:rory-gantley",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "appearance:rory-gantley-minor-1994",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "player:kerril-wade",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "appearance:kerril-wade-minor-2004",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:john-hanbury",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "appearance:john-hanbury-shc-2017",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "appearance:john-hanbury-minor-2011",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "player:seamus-coen",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:seamus-coen-shc-1980",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:seamus-coen-u-21-1978",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:conor-dervan",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:conor-dervan-minor-1999",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:conor-dervan-ihc-2002",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:cathal-dervan",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:cathal-dervan-u-21-2005",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:cathal-dervan-ihc-2002",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "name",
+    "val": "Michael John Flaherty"
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Michael_John_Flaherty"
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "note",
+    "val": "M.J. 'Inky' Flaherty \u2014 Wikipedia: spent most inter-club days with Ballinasloe (also earlier Liam Mellows); Ballinasloe GAA Notable players. Primary club stamp Ballinasloe."
+  },
+  {
+    "row": "player:michael-john-flaherty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "name",
+    "val": "S\u00e9amus Shinnors"
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Ballinasloe_GAA"
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "note",
+    "val": "Listed under Ballinasloe GAA Notable players: 1979 All-Ireland SHC finalist with Galway."
+  },
+  {
+    "row": "player:seamus-shinnors",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "name",
+    "val": "Mick Deely"
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Beagh_GAA"
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "note",
+    "val": "Beagh GAA Wikipedia Notable players: Galway senior panel 1982\u20131983."
+  },
+  {
+    "row": "player:mick-deely",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "name",
+    "val": "John Moylan"
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Beagh_GAA"
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "note",
+    "val": "Beagh GAA Wikipedia Notable players: Galway senior panel 1984\u20131985."
+  },
+  {
+    "row": "player:john-moylan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "name",
+    "val": "Derek Hardiman"
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Derek_Hardiman"
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "note",
+    "val": "Wikipedia infobox club Mullagh; All-Star."
+  },
+  {
+    "row": "player:derek-hardiman",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "name",
+    "val": "Joe Clarke"
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Mullagh_GAA"
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "note",
+    "val": "Listed under Mullagh GAA Notable players on Wikipedia. Distinct id to avoid surname collisions."
+  },
+  {
+    "row": "player:joe-clarke-mullagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "name",
+    "val": "Gerry Coone"
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Mullagh_GAA"
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "note",
+    "val": "Listed under Mullagh GAA Notable players on Wikipedia."
+  },
+  {
+    "row": "player:gerry-coone",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "name",
+    "val": "Francis Lynch"
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "club",
+    "val": "club:killimor"
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "source",
+    "val": "https://www.rte.ie/sport/gaa/2019/0530/1052659-hurlings-history-the-killimor-rules-turn-150/"
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "note",
+    "val": "RT\u00c9: Killimor captain Francis Lynch agreed rules with Michael Cusack for 1884 Metropolitans challenge."
+  },
+  {
+    "row": "player:francis-lynch-killimor",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "name",
+    "val": "Sean Glennon"
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20100129.1.24"
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "note",
+    "val": "Connacht Tribune 2010: Sean Glennon from Fohenagh accepting Best Individual Award (amalgam-era parish cite \u2192 ahascragh-fohenagh)."
+  },
+  {
+    "row": "player:sean-glennon-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2022-final",
+    "col": "score",
+    "val": "St Thomas' 1-17, Loughrea 0-20"
+  },
+  {
+    "row": "match:galway-shc-2022-final",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2022-final",
+    "col": "date",
+    "val": "2022-11-20"
+  },
+  {
+    "row": "match:galway-shc-2022-final",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:galway-shc-2023-final",
+    "col": "score",
+    "val": "St Thomas' 2-12, Turloughmore 1-13"
+  },
+  {
+    "row": "match:galway-shc-2023-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-final",
+    "col": "date",
+    "val": "2023-10-29"
+  },
+  {
+    "row": "match:galway-shc-2023-final",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "name",
+    "val": "St Thomas' vs Loughrea (2022 Galway SHC Final Replay)"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "round",
+    "val": "Final replay"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "date",
+    "val": "2022-11-27"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "score",
+    "val": "St Thomas' 1-15, Loughrea 0-17"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "venue",
+    "val": "Pearse Stadium"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "season",
+    "val": "season:2022-galway-shc"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-final-replay",
+    "col": "note",
+    "val": "St Thomas' five-in-a-row; Mark Caulfield 1-3 (Wikipedia; RT\u00c9 Sport 27 Nov 2022)."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Beagh (2023 Galway Senior B Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "round",
+    "val": "Senior B Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "date",
+    "val": "2023-09-16"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 1-17, Beagh 0-16"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "venue",
+    "val": "Loughrea"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior B quarter-final line."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh",
+    "col": "tag",
+    "val": "ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Kilnadeema-Leitrim (2023 Galway Senior B Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Senior B Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "date",
+    "val": "2023-09-30"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-18, Kilnadeema-Leitrim 2-16"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "venue",
+    "val": "Loughrea"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior B semi-final line."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "tag",
+    "val": "ahascragh-fohenagh"
+  },
+  {
+    "row": "player:kerrill-wade",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:padraic-brehony",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:padraig-breheny",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:aonghus-dervan",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:finian-coone",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:finian-coone-minor-2004",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:finian-coone-u-21-2005",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:kevin-briscoe",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "appearance:kevin-briscoe-u-21-2005",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:jason-grealish",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:jason-grealish-minor-2009",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:jason-grealish-u-21-2011",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:niall-forde",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:niall-forde-u-21-2007",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:gavin-lally",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:gavin-lally-shc-2017",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:gerard-odonoghue",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:gerard-odonoghue-minor-2011",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:michael-mullins",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:michael-mullins-minor-2011",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:billy-lane",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:billy-lane-minor-2011",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:alan-armstrong",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:alan-armstrong-u-21-2011",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:david-forde",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:david-forde-minor-1999",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "name",
+    "val": "Wayne Walsh"
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "note",
+    "val": "Named as Gort substitute / scorer, 2014 Galway SHC final (Wikipedia)."
+  },
+  {
+    "row": "player:wayne-walsh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "name",
+    "val": "Paul Killilea"
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "note",
+    "val": "Named on Gort starting XV, 2014 Galway SHC final (Wikipedia)."
+  },
+  {
+    "row": "player:paul-killilea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "name",
+    "val": "Niall Cahalan"
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2003-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "note",
+    "val": "Named on Mullagh 2003 Intermediate hurling champions photo (Galway GAA); also Advertiser.ie Mullagh XV."
+  },
+  {
+    "row": "player:niall-cahalan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "name",
+    "val": "Francis Hardiman"
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "source",
+    "val": "http://www.advertiser.ie/galway/article/18190/fractious-semi-final-goes-loughreas-way"
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "note",
+    "val": "Named on Mullagh championship XV (Advertiser.ie / Galway Advertiser)."
+  },
+  {
+    "row": "player:francis-hardiman",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "name",
+    "val": "Tom Helebert"
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tom_Helebert"
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "note",
+    "val": "Wikipedia: played club with Ballinderreen, and later Gort. Primary stamp Ballinderreen (earlier club)."
+  },
+  {
+    "row": "player:tom-helebert",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "name",
+    "val": "Eoin Forde"
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "note",
+    "val": "Named among Clarinbridge scorers vs Mullagh, 2014 Galway SHC (Wikipedia)."
+  },
+  {
+    "row": "player:eoin-forde",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "name",
+    "val": "Stephen Forde"
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "note",
+    "val": "Named among Clarinbridge scorers vs Mullagh, 2014 Galway SHC (Wikipedia)."
+  },
+  {
+    "row": "player:stephen-forde",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:finnian-coone",
     "col": "hold",
     "val": true
   }
