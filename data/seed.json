@@ -37797,17 +37797,17 @@
   {
     "row": "player:kevin-coen",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:kevin-coen",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaydaily.com/sport/gaa-ballinderreen-end-22-year-wait/"
   },
   {
     "row": "player:kevin-coen",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Galway Daily Junior B final report: Kevin Coen named in Ballinderreen starting XV vs Killimor; MHC 2005 inter-county age-match. First+last published club cite."
   },
   {
     "row": "player:kevin-donoghue",
@@ -38507,7 +38507,7 @@
   {
     "row": "player:luke-cosgrove",
     "col": "note",
-    "val": "Defender; praised in 2023 Senior B coverage. (Ahascragh-Fohenagh club pack)."
+    "val": "Defender; praised in 2023 Senior B coverage. (Ahascragh-Fohenagh club pack). HOLD r23: Luke Cosgrove AF already clubbed; Irish Examiner 2017 All-Ireland Club IHC final lists L Cosgrove as starting scorer — club-scoped player:liam-cosgrove-ahascragh-fohenagh created for L Cosgrove lineout identity; do not auto-merge Luke/Liam without archivist confirm."
   },
   {
     "row": "player:luke-cosgrove",
@@ -38697,17 +38697,17 @@
   {
     "row": "player:mark-herlihy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:mark-herlihy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
   },
   {
     "row": "player:mark-herlihy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Galway GAA Roll of Honour 2013: Mark Herlihy named on Kilnadeema/Leitrim Intermediate Hurling Champions panel; MHC 2004 inter-county age-match. First+last published club cite."
   },
   {
     "row": "player:mark-kelly",
@@ -40062,17 +40062,17 @@
   {
     "row": "player:mick-gill",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:mick-gill",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Mick_Gill"
   },
   {
     "row": "player:mick-gill",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA). Wikipedia Mick Gill: club hurling with Ballinderreen 1918–1923 before Garda/Dublin; Galway All-Ireland SHC 1923 panel age-match. First+last published club cite."
   },
   {
     "row": "player:mick-kenny",
@@ -40667,17 +40667,17 @@
   {
     "row": "player:nigel-shaughnessy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:nigel-shaughnessy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-41777162.html"
   },
   {
     "row": "player:nigel-shaughnessy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). Irish Examiner: Nigel Shaughnessy missed Loughrea's 2009 county final after semi-final red card; Mayo News identifies him as Loughrea native/former Galway senior. MHC 1992 / U-21 1993 age-match. First+last published club cite."
   },
   {
     "row": "player:noel-kelly",
@@ -45662,7 +45662,7 @@
   {
     "row": "appearance:mick-gill-shc-1923",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:junior-mahoney-shc-1923",
@@ -51827,7 +51827,7 @@
   {
     "row": "appearance:nigel-shaughnessy-minor-1992",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:peter-kelly-minor-1992",
@@ -55117,7 +55117,7 @@
   {
     "row": "appearance:mark-herlihy-minor-2004",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:john-lee-minor-2004",
@@ -56667,7 +56667,7 @@
   {
     "row": "appearance:kevin-coen-minor-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:shane-maloney-minor-2009",
@@ -74442,7 +74442,7 @@
   {
     "row": "appearance:nigel-shaughnessy-u-21-1993",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:francis-forde-u-21-1993",
@@ -76057,7 +76057,7 @@
   {
     "row": "appearance:mark-herlihy-u-21-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:aidan-ryan-u-21-2005",
@@ -79052,7 +79052,7 @@
   {
     "row": "appearance:mark-herlihy-u-21-2007",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:vinny-faherty-u-21-2007",
@@ -97472,7 +97472,7 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "note",
-    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions."
+    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -146746,6 +146746,1931 @@
   },
   {
     "row": "player:donal-fox",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:mick-gill",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "appearance:mick-gill-shc-1923",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "player:kevin-coen",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "appearance:kevin-coen-minor-2005",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "player:nigel-shaughnessy",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "appearance:nigel-shaughnessy-minor-1992",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "appearance:nigel-shaughnessy-u-21-1993",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:mark-herlihy",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "appearance:mark-herlihy-minor-2004",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "appearance:mark-herlihy-u-21-2005",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "appearance:mark-herlihy-u-21-2007",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Liam Tully"
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-20443364.html"
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Examiner All-Ireland Club IHC final 2017: Liam Tully named in Ahascragh-Fohenagh starting XV vs Carrickshock."
+  },
+  {
+    "row": "player:liam-tully-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Liam Cosgrove"
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-20443364.html"
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Examiner All-Ireland Club IHC final 2017: L Cosgrove scored 0-1 and started for Ahascragh-Fohenagh vs Carrickshock. Club-scoped id; distinct from player:luke-cosgrove."
+  },
+  {
+    "row": "player:liam-cosgrove-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Ciaran Cosgrove"
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-20443364.html"
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Examiner All-Ireland Club IHC final 2017: C Cosgrove named among Ahascragh-Fohenagh substitutes vs Carrickshock."
+  },
+  {
+    "row": "player:ciaran-cosgrove-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Padraig Gavin"
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-20443364.html"
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Examiner All-Ireland Club IHC final 2017: P Gavin named in Ahascragh-Fohenagh starting XV vs Carrickshock."
+  },
+  {
+    "row": "player:padraig-gavin-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Dara Herlihy"
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Dara Herlihy named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:dara-herlihy-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Patrick Deely"
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Patrick Deely named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:patrick-deely-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Aiden Spaight"
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Aiden Spaight named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:aiden-spaight-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Garry Winters"
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Garry Winters named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:garry-winters-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Alvin Mitchell"
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Alvin Mitchell named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:alvin-mitchell-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Paul Howard"
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Paul Howard named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:paul-howard-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Padraig Stapleton"
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Padraig Stapleton named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:padraig-stapleton-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Tony Molloy"
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Tony Molloy named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:tony-molloy-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Michael Donohue"
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Michael Donohue named on Kilnadeema/Leitrim Intermediate Hurling Champions panel. Club-scoped id; HOLD generic Micheál/Michael Donoghue collisions."
+  },
+  {
+    "row": "player:michael-donohue-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Mark Kelly"
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Mark Kelly named on Kilnadeema/Leitrim Intermediate Hurling Champions panel. Club-scoped id; AF Mark Kelly remains separate."
+  },
+  {
+    "row": "player:mark-kelly-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Brian Gardiner"
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Brian Gardiner named on Kilnadeema/Leitrim Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:brian-gardiner-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "name",
+    "val": "Tomais Ó Fatharta"
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Tomais Ó Fatharta named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:tomais-o-fatharta-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "name",
+    "val": "Dara Flatharta"
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Dara Flatharta named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:dara-flatharta-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "name",
+    "val": "Liam Ó Conghaile"
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Liam Ó Conghaile named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:liam-o-conghaile-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "name",
+    "val": "Stiofán Ó Fátharta"
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Stiofán Ó Fátharta named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:stiofan-o-fatharta-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "name",
+    "val": "Cillín Ó hEochaidh"
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Cillín Ó hEochaidh named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:cillin-o-heochaidh-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "name",
+    "val": "Pádraig Ó Mainín"
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Pádraig Ó Mainín named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:padraig-o-mainin-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "name",
+    "val": "Aodán Ó Curraoin"
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Aodán Ó Curraoin named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:aodan-o-curraoin-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "name",
+    "val": "Oisín Ó Conghaile"
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Oisín Ó Conghaile named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:oisin-o-conghaile-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "name",
+    "val": "Macdara Ó Conaola"
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Macdara Ó Conaola named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:macdara-o-conaola-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "name",
+    "val": "Fergus Ó Tuathail"
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Fergus Ó Tuathail named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:fergus-o-tuathail-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "name",
+    "val": "Diarmuid Ó Duinn"
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Diarmuid Ó Duinn named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:diarmuid-o-duinn-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "name",
+    "val": "Naoise Ó Conaola"
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Naoise Ó Conaola named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:naoise-o-conaola-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "name",
+    "val": "Brian Mac Cathmhaoil"
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Brian Mac Cathmhaoil named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:brian-mac-cathmhaoil-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "name",
+    "val": "Cathal Ó Flatharta"
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Cathal Ó Flatharta named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:cathal-o-flatharta-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "name",
+    "val": "Micheál Ó Curraoin"
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "club",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/"
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2013: Micheál Ó Curraoin named on An Spidéal Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:micheal-o-curraoin-spideal",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:an-spideal",
+    "col": "note",
+    "val": "r23 thin-club fill from Galway GAA RoH 2013 Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "name",
+    "val": "Liam Mellows vs Oranmore-Maree (2019 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "away",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "score",
+    "val": "Liam Mellows 1-21, Oranmore-Maree 1-14"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "note",
+    "val": "Wikipedia 2019 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-liam-mellows-oranmore-maree",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "name",
+    "val": "Tommy Larkin's vs Athenry (2019 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "score",
+    "val": "Tommy Larkin's 1-19, Athenry 0-15"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "note",
+    "val": "Wikipedia 2019 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-tommy-larkins-athenry",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Craughwell vs Tynagh-Abbey/Duniry (2019 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Craughwell 1-17, Tynagh-Abbey/Duniry 0-16"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2019 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-craughwell-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "name",
+    "val": "Cappataggle vs Clarinbridge (2019 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "score",
+    "val": "Cappataggle 0-22, Clarinbridge 1-16"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2019 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-pqf-cappataggle-clarinbridge",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "name",
+    "val": "Castlegar vs Killimordaly (2018 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "year",
+    "val": 2018
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "score",
+    "val": "Castlegar 0-19, Killimordaly 0-16"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2018 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-castlegar-killimordaly",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "name",
+    "val": "Clarinbridge vs Gort (2018 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "year",
+    "val": 2018
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "score",
+    "val": "Clarinbridge 3-18, Gort 1-19"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "note",
+    "val": "Wikipedia 2018 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-clarinbridge-gort",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "name",
+    "val": "Cappataggle vs Turloughmore (2018 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "year",
+    "val": 2018
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "score",
+    "val": "Cappataggle 2-15, Turloughmore 0-19 (a.e.t.)"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2018 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-cappataggle-turloughmore",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Tommy Larkin's (2018 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "year",
+    "val": 2018
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 1-17, Tommy Larkin's 1-15"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2018 Galway SHC Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2018-pqf-tynagh-abbey-duniry-tommy-larkins",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "name",
+    "val": "Craughwell vs Gort (2017 Galway SHC Semi-final Replay)"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "round",
+    "val": "Semi-final Replay"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "score",
+    "val": "Craughwell 1-15, Gort 1-17"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC Semi-final Replay."
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sf-craughwell-gort-replay",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Castlegar vs Kilnadeema-Leitrim (2019 Galway SHC Senior A Relegation)"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Senior A Relegation"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Castlegar 3-13, Kilnadeema-Leitrim 2-13"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2019 Galway SHC Senior A Relegation."
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-castlegar-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "name",
+    "val": "Portumna vs Gort (2019 Galway SHC Senior A Relegation)"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "round",
+    "val": "Senior A Relegation"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "year",
+    "val": 2019
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "score",
+    "val": "Portumna 0-21, Gort 2-14"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "note",
+    "val": "Wikipedia 2019 Galway SHC Senior A Relegation."
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2019-relegation-portumna-gort",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:luke-cosgrove",
     "col": "hold",
     "val": true
   }
