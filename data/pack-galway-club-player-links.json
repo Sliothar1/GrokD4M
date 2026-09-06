@@ -1,36 +1,20 @@
 {
   "pack": "galway-club-player-links",
-  "round": "44",
-  "generated_at": "2026-09-06T23:03:46.570285+00:00",
+  "round": "45",
+  "generated_at": "2026-09-06T23:08:53.537012+00:00",
   "sources": [
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1977",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1979",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1980",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1986",
-    "https://en.wikipedia.org/wiki/1978_Galway_Senior_Hurling_Championship",
-    "https://www.independent.ie/sport/gaelic-games/hurling/goals-give-portumna-closure-out-of-storm/26326590.html",
-    "https://www.galwaybayfm.ie/sports/success-for-corofin-and-kinvara-in-county-finals-commentary-and-reaction-71575",
-    "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
-    "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487",
-    "https://www.galwaybayfm.ie/sports/michael-cusacks-wins-county-u20-b-hurling-title-commentary-and-reaction-202531",
-    "https://www.galwaybayfm.ie/sports/michael-cusacks-3-10-loughrea-1-14-toddie-byrne-cup-final-report-and-reaction-with-finbarr-gantley-219404"
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1968",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1971",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1974",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1975",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1976",
+    "https://www.galwaybayfm.ie/sports/junior-hurling-championship-finals-reports-204896",
+    "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+    "https://www.connachttribune.ie/sport/sylane-edge-past-padraig-pearses-in-thrilling-division-3-league-final-8791839"
   ],
   "before": {
-    "players": 1572,
-    "players_with_club": 1491,
-    "players_without_club": 81,
-    "orphan_clubs": 5,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1200,
-    "appearances": 686
-  },
-  "after": {
     "players": 1580,
     "players_with_club": 1500,
     "players_without_club": 80,
@@ -45,52 +29,70 @@
     "matches": 1209,
     "appearances": 686
   },
+  "after": {
+    "players": 1588,
+    "players_with_club": 1509,
+    "players_without_club": 79,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1221,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 1,
     "players_created": 8,
     "clubs_created": 0,
-    "appearances_clubbed": 2,
-    "matches_added": 9,
+    "appearances_clubbed": 1,
+    "matches_added": 12,
     "players_with_club": 9,
     "orphan_clubs": 0
   },
   "sample_linked_ids": [
-    "player:alan-leech"
+    "player:gerry-kelly"
   ],
   "sample_created_ids": [
-    "player:ben-murphy-skehana-mountbellew-moylough",
-    "player:brian-horgan-skehana-mountbellew-moylough",
-    "player:micheal-lyons-skehana-mountbellew-moylough",
-    "player:cillian-roche-skehana-mountbellew-moylough",
-    "player:tiernan-lohan-skehana-mountbellew-moylough",
-    "player:dara-newell-skehana-mountbellew-moylough",
-    "player:ger-flahive-skehana-mountbellew-moylough",
-    "player:sean-oloughlin-michael-cusacks"
+    "player:tomas-keane-sylane",
+    "player:ciaran-fleming-sylane",
+    "player:paul-ronan-sylane",
+    "player:adrian-lardner-sylane",
+    "player:brian-igoe-sylane",
+    "player:darragh-mahon-sylane",
+    "player:shane-furey-sylane",
+    "player:conor-newell-sylane"
   ],
   "all_linked_ids": [
-    "player:alan-leech"
+    "player:gerry-kelly"
   ],
   "all_created_ids": [
-    "player:ben-murphy-skehana-mountbellew-moylough",
-    "player:brian-horgan-skehana-mountbellew-moylough",
-    "player:micheal-lyons-skehana-mountbellew-moylough",
-    "player:cillian-roche-skehana-mountbellew-moylough",
-    "player:tiernan-lohan-skehana-mountbellew-moylough",
-    "player:dara-newell-skehana-mountbellew-moylough",
-    "player:ger-flahive-skehana-mountbellew-moylough",
-    "player:sean-oloughlin-michael-cusacks"
+    "player:tomas-keane-sylane",
+    "player:ciaran-fleming-sylane",
+    "player:paul-ronan-sylane",
+    "player:adrian-lardner-sylane",
+    "player:brian-igoe-sylane",
+    "player:darragh-mahon-sylane",
+    "player:shane-furey-sylane",
+    "player:conor-newell-sylane"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-shc-1977-r1-athenry-mullagh",
-    "match:galway-shc-1979-r1-athenry-carnmore",
-    "match:galway-shc-1979-qf-castlegar-athenry",
-    "match:galway-shc-1980-qf-meelick-eyrecourt-athenry",
-    "match:galway-shc-1986-playoff-athenry-gaeltacht",
-    "match:galway-shc-1986-qf-athenry-gort",
-    "match:galway-shc-1978-final-replay-ardrahan-ballinderreen",
-    "match:galway-u20b-hc-2025-final-michael-cusacks-rahoon-newcastle",
-    "match:toddie-byrne-cup-2026-final-michael-cusacks-loughrea"
+    "match:galway-shc-1967-r1-killimordaly-athenry",
+    "match:galway-shc-1968-r1-killimordaly-athenry",
+    "match:galway-shc-1971-r1-athenry-fohenagh",
+    "match:galway-shc-1972-r1-castlegar-athenry",
+    "match:galway-shc-1974-qf-athenry-turloughmore",
+    "match:galway-shc-1974-sf-castlegar-athenry",
+    "match:galway-shc-1975-r1-gort-athenry",
+    "match:galway-shc-1976-r1-carnmore-athenry",
+    "match:galway-junior-b-hc-2025-final-tommy-larkins-mullagh",
+    "match:galway-junior-c-hc-2025-final-craughwell-tommy-larkins",
+    "match:galway-junior-e-hc-2025-final-loughrea-kinvara",
+    "match:galway-div3-league-2026-final-sylane-padraig-pearses"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -120,7 +122,6 @@
     "player:finnian-coone",
     "player:fr-larkin",
     "player:fr-michael-kilkenny",
-    "player:gerry-kelly",
     "player:gerry-smith",
     "player:gordon-glynn",
     "player:jack-berry",
@@ -177,13 +178,12 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 194,
-    "updated": 14,
+    "added": 232,
+    "updated": 12,
     "players_linked": 1,
-    "appearances_clubbed": 2,
+    "appearances_clubbed": 1,
     "players_created": 8,
-    "matches_added": 9,
-    "matches_updated": 1,
+    "matches_added": 12,
     "clubs_created": 0
   },
   "priority_club_counts_after": {
@@ -198,7 +198,7 @@
     "club:st-colemans": 0,
     "club:tynagh-abbey-duniry": 17,
     "club:cappataggle": 30,
-    "club:athenry": 34,
+    "club:athenry": 35,
     "club:beagh": 34,
     "club:moycullen": 46,
     "club:turloughmore": 39,
@@ -243,5 +243,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r44: pre-1987 Galway SHC knockout scored Matches (1977 R1 + 1979 R1/QF + 1980 QF + 1986 play-off/QF from Athenry GAA) + 1978 SHC final score/replay + Michael Cusacks U20B/Toddie Byrne finals; club-less: Alan Leech multi-source clear to Kinvara; remaining ~80 stay HOLD; AF/Fohenagh dense - skipped; Skehana/MM thin fills (Murphy/Horgan/Lyons/Roche/Lohan/Newell/Flahive) + Sean O'Loughlin Michael Cusacks; new HOLD collision notes for Kerrill Wade/Tadgh Haran/Tom Monaghan/Gordon Glynn/Aodh Davoren/Conor Burke."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r45: pre-1977 Galway SHC knockout scored Matches (1967 R1 + 1968 + 1971 R1 + 1972 R1 + 1974 QF/SF + 1975 R1 + 1976 R1 from Athenry GAA) + 2025 Junior B/C/E finals + 2026 Div3 League final; club-less: Gerry Kelly multi-source clear to Athenry; remaining ~79 stay HOLD; AF/Fohenagh dense - skipped; Sylane thin fills (Keane/Fleming/Ronan/Lardner/Igoe/Mahon/Furey/Conor Newell); new HOLD collision notes for Padraig Breheny/Padraic Brehony/Shane Maloney/Liam Shiels/Ned Campbell/Tom Donohue."
 }

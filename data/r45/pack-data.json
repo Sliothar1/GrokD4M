@@ -1,0 +1,397 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:gerry-kelly",
+      "club": "club:athenry",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
+      "note": "Athenry GAA 1972 history: three Athenrymen on Galway All-Ireland U-21 winners — Gerry Kelly, Luke Glynn and P.J. Molloy. Athenry senior/U-21 team sheets 1971–1976 repeatedly list Gerry Kelly (full-back/captain). Distinct from Ger Kelly (Kiltormer 1990s). Strong first+last multi-source clear of bare U-21 1972 HOLD row.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Tomás Keane",
+      "id": "player:tomas-keane-sylane",
+      "club": "club:sylane",
+      "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+      "note": "Tuam Herald 16 Jul 2026 Division 3 League final team sheet: T. Keane 0-4 for Sylane vs Pádraig Pearses (aet); Connacht Tribune match report names Tomás Keane Player of the Match. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ciaran Fleming",
+      "id": "player:ciaran-fleming-sylane",
+      "club": "club:sylane",
+      "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+      "note": "Tuam Herald 16 Jul 2026 Division 3 League final team sheet lists C. Fleming for Sylane. Tuam Herald 24 Sep 2025 IHC photo caption names Ciaran Fleming (Sylane) vs Killimor. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paul Ronan",
+      "id": "player:paul-ronan-sylane",
+      "club": "club:sylane",
+      "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+      "note": "Tuam Herald 16 Jul 2026 Division 3 League final: P. Ronan 1-0 for Sylane vs Pádraig Pearses. Connacht Tribune team sheet lists Paul Ronan. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adrian Lardner",
+      "id": "player:adrian-lardner-sylane",
+      "club": "club:sylane",
+      "source": "https://www.connachttribune.ie/sport/sylane-edge-past-padraig-pearses-in-thrilling-division-3-league-final-8791839",
+      "note": "Connacht Tribune + Tuam Herald 16 Jul 2026 Division 3 League final team sheets list Adrian Lardner / A. Lardner in Sylane full-back line. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brian Igoe",
+      "id": "player:brian-igoe-sylane",
+      "club": "club:sylane",
+      "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+      "note": "Tuam Herald 16 Jul 2026 Division 3 League final team sheet lists B. Igoe for Sylane (distinct from John Igoe). Connacht Tribune lists Brian Igoe. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darragh Mahon",
+      "id": "player:darragh-mahon-sylane",
+      "club": "club:sylane",
+      "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+      "note": "Tuam Herald 16 Jul 2026 Division 3 League final team sheet: D. Mahon 0-1 for Sylane. Connacht Tribune lists Darragh Mahon. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Shane Furey",
+      "id": "player:shane-furey-sylane",
+      "club": "club:sylane",
+      "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+      "note": "Tuam Herald 16 Jul 2026 Division 3 League final: S. Furey 0-1 sub for Sylane in late surge forcing extra time. Connacht Tribune lists Shane Furey. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Newell",
+      "id": "player:conor-newell-sylane",
+      "club": "club:sylane",
+      "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+      "note": "Tuam Herald 16 Jul 2026 Division 3 League final: substitute Conor Newell 0-1 winning point in extra time for Sylane vs Pádraig Pearses (distinct from Sean Newell). Club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-1967-r1-killimordaly-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Athenry (1967 Galway SHC First Round)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "First Round",
+        "year": 1967,
+        "home": "club:killimordaly",
+        "away": "club:athenry",
+        "score": "Killimordaly 6-11, Athenry 5-01",
+        "note": "Athenry GAA 1967 history: opening SHC game at Loughrea Killimordaly 6-11 Athenry 5-1 (pre-1977 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:killimordaly",
+        "venue": "St Brendan's Park, Loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-1968-r1-killimordaly-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Athenry (1968 Galway SHC)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Championship",
+        "year": 1968,
+        "home": "club:killimordaly",
+        "away": "club:athenry",
+        "score": "Killimordaly 7-05, Athenry 6-06",
+        "note": "Athenry GAA 1968 history: senior championship Killimordaly 7-5 Athenry 6-6 (thirteen-goal thriller; pre-1977 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1968",
+        "result": "win",
+        "winner": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-shc-1971-r1-athenry-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Fohenagh (1971 Galway SHC First Round)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "First Round",
+        "year": 1971,
+        "home": "club:athenry",
+        "away": "club:fohenagh-historic",
+        "score": "Athenry 4-13, Fohenagh 3-03",
+        "note": "Athenry GAA 1971 history: first-round at Portumna Athenry 4-13 Fohenagh 3-3 (pre-1977 SHC knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1971",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-1972-r1-castlegar-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Athenry (1972 Galway SHC First Round)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "First Round",
+        "year": 1972,
+        "home": "club:castlegar",
+        "away": "club:athenry",
+        "score": "Castlegar 2-10, Athenry 2-05",
+        "note": "Athenry GAA 1972 history: first-round Castlegar 2-10 Athenry 2-5 (HT 1-6 to 1-2; pre-1977 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-1974-qf-athenry-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Turloughmore (1974 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1974,
+        "home": "club:athenry",
+        "away": "club:turloughmore",
+        "score": "Athenry 2-12, Turloughmore 1-10",
+        "note": "Athenry GAA 1974 history: quarter-final at Athenry (Lady's Day) Athenry 2-12 Turloughmore 1-10 (pre-1977 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1974",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-1974-sf-castlegar-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Athenry (1974 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1974,
+        "home": "club:castlegar",
+        "away": "club:athenry",
+        "score": "Castlegar 3-12, Athenry 0-09",
+        "note": "Athenry GAA 1974 history: semi-final at Kenny Park Castlegar 3-12 Athenry 0-9 (pre-1977 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1974",
+        "result": "win",
+        "winner": "club:castlegar",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1975-r1-gort-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Athenry (1975 Galway SHC First Round)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "First Round",
+        "year": 1975,
+        "home": "club:gort",
+        "away": "club:athenry",
+        "score": "Gort 0-13, Athenry 0-05",
+        "note": "Athenry GAA 1975 history: first-round at Pearse Stadium Gort 0-13 Athenry 0-5 (Sylvie Linnane 7 points; pre-1977 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1975",
+        "result": "win",
+        "winner": "club:gort",
+        "venue": "Pearse Stadium"
+      }
+    },
+    {
+      "id": "match:galway-shc-1976-r1-carnmore-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Carnmore vs Athenry (1976 Galway SHC First Round)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "First Round",
+        "year": 1976,
+        "home": "club:carnmore",
+        "away": "club:athenry",
+        "score": "Carnmore 1-14, Athenry 2-09",
+        "note": "Athenry GAA 1976 history: first-round at Pearse Stadium Carnmore 1-14 Athenry 2-9 (pre-1977 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1976",
+        "result": "win",
+        "winner": "club:carnmore",
+        "venue": "Pearse Stadium"
+      }
+    },
+    {
+      "id": "match:galway-junior-b-hc-2025-final-tommy-larkins-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkins vs Mullagh (2025 Galway Junior B Hurling Final)",
+        "competition": "Galway Junior B Hurling Championship",
+        "round": "Final",
+        "year": 2025,
+        "home": "club:tommy-larkins",
+        "away": "club:mullagh",
+        "score": "Tommy Larkins 1-14, Mullagh 1-12",
+        "note": "Galway Bay FM 13 Oct 2025 Junior B/C/E finals reports: stoppage-time goal; Tommy Larkins 1-14 Mullagh 1-12 at Duggan Park (JHC pathway gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/junior-hurling-championship-finals-reports-204896",
+        "result": "win",
+        "winner": "club:tommy-larkins",
+        "venue": "Duggan Park"
+      }
+    },
+    {
+      "id": "match:galway-junior-c-hc-2025-final-craughwell-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Tommy Larkins (2025 Galway Junior C Hurling Final)",
+        "competition": "Galway Junior C Hurling Championship",
+        "round": "Final",
+        "year": 2025,
+        "home": "club:craughwell",
+        "away": "club:tommy-larkins",
+        "score": "Craughwell 0-22, Tommy Larkins 0-16",
+        "note": "Galway Bay FM 13 Oct 2025 Junior finals reports: Craughwell 0-22 Tommy Larkins 0-16 at Kenny Park (JHC pathway gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/junior-hurling-championship-finals-reports-204896",
+        "result": "win",
+        "winner": "club:craughwell",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-junior-e-hc-2025-final-loughrea-kinvara",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Kinvara (2025 Galway Junior E Hurling Final)",
+        "competition": "Galway Junior E Hurling Championship",
+        "round": "Final",
+        "year": 2025,
+        "home": "club:loughrea",
+        "away": "club:kinvara",
+        "score": "Loughrea 0-19, Kinvara 0-17",
+        "note": "Galway Bay FM 13 Oct 2025 Junior finals reports: Loughrea 0-19 Kinvara 0-17 at Ballinasloe (JHC pathway gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/junior-hurling-championship-finals-reports-204896",
+        "result": "win",
+        "winner": "club:loughrea",
+        "venue": "Ballinasloe"
+      }
+    },
+    {
+      "id": "match:galway-div3-league-2026-final-sylane-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Sylane vs Pádraig Pearses (2026 Galway Division 3 Hurling League Final)",
+        "competition": "Galway Division 3 Hurling League",
+        "round": "Final",
+        "year": 2026,
+        "home": "club:sylane",
+        "away": "club:padraig-pearses",
+        "score": "Sylane 4-20, Pádraig Pearses 2-25 (aet)",
+        "note": "Tuam Herald 16 Jul 2026 + Connacht Tribune: Division 3 League final at Duggan Park Sylane 4-20 Pádraig Pearses 2-25 after extra time (Conor Newell winning point; JHC/Premier Junior pathway gap).",
+        "confidence": "medium",
+        "source": "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+        "result": "win",
+        "winner": "club:sylane",
+        "venue": "Duggan Park"
+      }
+    }
+  ],
+  "match_updates": [],
+  "hold_notes": {
+    "player:padraig-breheny": "HOLD r45: spelling/id collision with clubbed player:padraig-breheny-tynagh-abbey-duniry and Wikipedia Pádraig Brehony (Tynagh-Abbey/Duniry; Balls.ie/DCU 2017). Bare SHC 2017 panel row stays HOLD — do not dual-club.",
+    "player:padraic-brehony": "HOLD r45: spelling/id collision with clubbed player:padraig-brehony (Tynagh-Abbey/Duniry) and Wikipedia Pádraig Brehony. Bare MHC 2011 panel row stays HOLD — do not dual-club.",
+    "player:shane-maloney": "HOLD r45: spelling duplicate of clubbed player:shane-moloney (Tynagh-Abbey/Duniry; Wikipedia/Balls.ie). Bare MHC panel row stays HOLD — do not dual-club.",
+    "player:liam-shiels": "HOLD r45: 1972 U-21 panel photo (Athenry GAA) captions Liam Shiel (RIP) without club stamp; no first+last multi-source club clear — stays HOLD.",
+    "player:ned-campbell": "HOLD r45: 1972 U-21 panel (Galway GAA/Athenry GAA photo) lacks first+last multi-source club clear — stays HOLD.",
+    "player:tom-donohue": "HOLD r45: 1972 U-21 panel spelling variants (Donohue/Donoghoe) without first+last multi-source club clear — stays HOLD."
+  }
+}
