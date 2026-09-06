@@ -9662,7 +9662,7 @@
   {
     "row": "club:eyrecourt-historic",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
   },
   {
     "row": "club:eyrecourt-historic",
@@ -9847,7 +9847,7 @@
   {
     "row": "club:kilrickle",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
   },
   {
     "row": "club:kilrickle",
@@ -10152,7 +10152,7 @@
   {
     "row": "club:oranmore-historic",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
   },
   {
     "row": "club:oranmore-historic",
@@ -10287,7 +10287,7 @@
   {
     "row": "club:skehana",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
   },
   {
     "row": "club:skehana",
@@ -10597,7 +10597,7 @@
   {
     "row": "match:galway-shc-1887-final",
     "col": "note",
-    "val": "Score not present on both Galway GAA and Wikipedia — omitted."
+    "val": "Score not present on both Galway GAA and Wikipedia — omitted. Galway SHC 1887 champions Meelick (seed). Score from Seamus J King talk (Meelick beat Ardrahan 2-6 to 2-3 in county final). Distinct from All-Ireland final match:all-ireland-shc-1887-final."
   },
   {
     "row": "match:galway-shc-1887-final",
@@ -13112,7 +13112,7 @@
   {
     "row": "match:galway-shc-1911-final",
     "col": "note",
-    "val": "Score not present on both Galway GAA and Wikipedia — omitted."
+    "val": "Score not present on both Galway GAA and Wikipedia — omitted. Derrydonnell beat Claregalway in Tuam (26 Nov 1911 per Athenry GAA centenary). Final score line not double-sourced this run — omitted. Captain Patrick Keane."
   },
   {
     "row": "match:galway-shc-1911-final",
@@ -30797,17 +30797,17 @@
   {
     "row": "player:adrian-diviney",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:adrian-diviney",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-10096043.html"
   },
   {
     "row": "player:adrian-diviney",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Irish Examiner Galway U-21 team sheet: Adrian Diviney (Oranmore-Maree). Distinct from Aidan Diviney (Beagh)."
   },
   {
     "row": "player:adrian-tuohey",
@@ -30857,17 +30857,17 @@
   {
     "row": "player:aidan-diviney",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:aidan-diviney",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-10096043.html"
   },
   {
     "row": "player:aidan-diviney",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Irish Examiner Galway U-21 team sheet: Aidan Diviney (Beagh). HOLD Wikipedia Oranmore 'Aidan Divney' spelling collision — Examiner Beagh stamp retained. HOLD collision note: Wikipedia Oranmore lists Aidan Divney; Examiner U-21 sheet stamps Aidan Diviney Beagh — Beagh retained."
   },
   {
     "row": "player:aidan-ryan",
@@ -33507,17 +33507,17 @@
   {
     "row": "player:darragh-burke",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:darragh-burke",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.gaa.ie/hurling/news/galway-shc-final-six-in-a-row-for-st-thomas"
   },
   {
     "row": "player:darragh-burke",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). GAA.ie Galway SHC final report/photo: Darragh Burke, St Thomas'; also RTE 2018 final scorer line."
   },
   {
     "row": "player:darragh-coen",
@@ -40362,17 +40362,17 @@
   {
     "row": "player:niall-corcoran",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:niall-corcoran",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Niall_Corcoran"
   },
   {
     "row": "player:niall-corcoran",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). Wikipedia: clubs Meelick–Eyrecourt and Kilmacud Crokes; Galway MHC 2000; later Dublin senior."
   },
   {
     "row": "player:niall-donoghue",
@@ -42042,17 +42042,17 @@
   {
     "row": "player:richard-burke",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:richard-burke",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Oranmore%E2%80%93Maree_GAA"
   },
   {
     "row": "player:richard-burke",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Wikipedia Oranmore–Maree: Richard Burke among clubmen who lined out for Galway senior; club-less U-21 1991 panel id."
   },
   {
     "row": "player:richard-murray",
@@ -42897,17 +42897,17 @@
   {
     "row": "player:sean-loftus",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:sean-loftus",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Se%C3%A1n_Loftus_(hurler)"
   },
   {
     "row": "player:sean-loftus",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Wikipedia: Galway SHC club Turloughmore; 2017 All-Ireland SHC panel."
   },
   {
     "row": "player:sean-mcardle",
@@ -44367,17 +44367,17 @@
   {
     "row": "player:william-burke",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:william-burke",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Oranmore%E2%80%93Maree_GAA"
   },
   {
     "row": "player:william-burke",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Wikipedia Oranmore–Maree: William Burke among clubmen who lined out for Galway senior; club-less U-21/IHC panel id."
   },
   {
     "row": "player:bernard-forde",
@@ -49752,7 +49752,7 @@
   {
     "row": "appearance:sean-loftus-shc-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:david-burke-shc-2017",
@@ -54157,7 +54157,7 @@
   {
     "row": "appearance:niall-corcoran-minor-2000",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:aidan-diviney-minor-2000",
@@ -54217,7 +54217,7 @@
   {
     "row": "appearance:aidan-diviney-minor-2000",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:adrian-diviney-minor-2000",
@@ -54277,7 +54277,7 @@
   {
     "row": "appearance:adrian-diviney-minor-2000",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:barry-coen-minor-2000",
@@ -58612,7 +58612,7 @@
   {
     "row": "appearance:darragh-burke-minor-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:sean-hickey-minor-2011",
@@ -73007,7 +73007,7 @@
   {
     "row": "appearance:richard-burke-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:joe-rabbitte-u-21-1991",
@@ -73722,7 +73722,7 @@
   {
     "row": "appearance:william-burke-u-21-1993",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:david-canning-u-21-1993",
@@ -81187,7 +81187,7 @@
   {
     "row": "appearance:william-burke-ihc-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:michael-connolly-ihc-1999",
@@ -82807,7 +82807,7 @@
   {
     "row": "appearance:aidan-diviney-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:joe-gantley-ihc-2002",
@@ -83767,7 +83767,7 @@
   {
     "row": "appearance:adrian-diviney-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:tadhg-haran-ihc-2015",
@@ -84907,7 +84907,7 @@
   {
     "row": "appearance:darragh-burke-ihc-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:kevin-mchugo-ihc-2015",
@@ -92962,7 +92962,7 @@
   {
     "row": "club:claregalway",
     "col": "note",
-    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested. HOLD orphan for hurling players: modern Claregalway CLG is primarily football; parish hurling is Carnmore (Carnmore GAA about + Claregalway further-history). No named Claregalway-only hurling player cite this run — do not invent links. Carnmore thin fill separate."
+    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested. HOLD orphan for hurling players: modern Claregalway CLG is primarily football; parish hurling is Carnmore (Carnmore GAA about + Claregalway further-history). No named Claregalway-only hurling player cite this run — do not invent links. Carnmore thin fill separate. HOLD orphan r5: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. 1911 SHC finalist vs Derrydonnell noted on Derrydonnell pack only."
   },
   {
     "row": "player:tom-monaghan",
@@ -94403,5 +94403,1790 @@
     "row": "player:kieran-finnerty",
     "col": "hold",
     "val": true
+  },
+  {
+    "row": "player:sean-loftus",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "appearance:sean-loftus-shc-2017",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:niall-corcoran",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "appearance:niall-corcoran-minor-2000",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "player:darragh-burke",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:darragh-burke-minor-2011",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:darragh-burke-ihc-2015",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:adrian-diviney",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "appearance:adrian-diviney-minor-2000",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "appearance:adrian-diviney-ihc-2002",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "player:aidan-diviney",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "appearance:aidan-diviney-minor-2000",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "appearance:aidan-diviney-ihc-2002",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "player:richard-burke",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "appearance:richard-burke-u-21-1991",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "player:william-burke",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "appearance:william-burke-u-21-1993",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "appearance:william-burke-ihc-1999",
+    "col": "club",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "name",
+    "val": "John Finnerty"
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.advertiser.ie/galway/article/88712/title-for-ahascraghfohenagh"
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway Advertiser: named scorer for Ahascragh/Fohenagh in 2016 Connacht Intermediate club final replay vs Ballyhaunis. Distinct id — Finnerty surname common."
+  },
+  {
+    "row": "player:john-finnerty-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "name",
+    "val": "Pat Madden"
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1887_All-Ireland_Senior_Hurling_Championship_final"
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "note",
+    "val": "Wikipedia 1887 AI final + Seamus J King: Pat Madden captained Meelick/Galway; hurley in GAA Museum. Meelick contingent (not Killimor)."
+  },
+  {
+    "row": "player:pat-madden-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "name",
+    "val": "Patrick Cullen"
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:patrick-cullen-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "name",
+    "val": "Mike Manning"
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:mike-manning-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "name",
+    "val": "John Colohan"
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:john-colohan-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "name",
+    "val": "John Scally"
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:john-scally-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "name",
+    "val": "Willie Madden"
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:willie-madden-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "name",
+    "val": "Tom Hanley"
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:tom-hanley-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "name",
+    "val": "James Kelly"
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side. Distinct id — Kelly surname common."
+  },
+  {
+    "row": "player:james-kelly-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "name",
+    "val": "Pat Manning"
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:pat-manning-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "name",
+    "val": "Jim Connolly"
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:jim-connolly-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "name",
+    "val": "John Cosgrove"
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:john-cosgrove-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "name",
+    "val": "Arthur Cosgrove"
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "note",
+    "val": "Seamus J King: named among Meelick twelve on 1887 All-Ireland final side."
+  },
+  {
+    "row": "player:arthur-cosgrove-meelick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "name",
+    "val": "John Lowry"
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "club",
+    "val": "club:killimor"
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "source",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "note",
+    "val": "Seamus J King: Killimor contingent on 1887 Meelick/Galway All-Ireland final side; walked Killimor to Birr."
+  },
+  {
+    "row": "player:john-lowry-killimor",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "name",
+    "val": "Patrick Keane"
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage / Connacht Tribune: team captain Patrick Keane of Derrydonnell 1911 Galway SHC champions."
+  },
+  {
+    "row": "player:patrick-keane-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "name",
+    "val": "Jack Ruane"
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage: Jack Ruane named on Derrydonnell 1911 SHC champions (injured early in final)."
+  },
+  {
+    "row": "player:jack-ruane-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "name",
+    "val": "Andy Keane"
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-athenry-gaa-story-1885-1987/"
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "note",
+    "val": "Athenry GAA Story: Andy Keane on Derrydonnell 1911 SHC champions; drowned Titanic 1912 with county medal aboard."
+  },
+  {
+    "row": "player:andy-keane-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "name",
+    "val": "Mike Keane"
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage (Tom Keane): Mike Keane Tobberoe named on Derrydonnell 1911 XV."
+  },
+  {
+    "row": "player:mike-keane-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "name",
+    "val": "Mike Freeney"
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage: Mike Freeney Derrydonnell named on 1911 SHC champions."
+  },
+  {
+    "row": "player:mike-freeney-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "name",
+    "val": "Pat Heneghan"
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage: Pat Heneghan Derrydonnell More named on 1911 SHC champions."
+  },
+  {
+    "row": "player:pat-heneghan-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "name",
+    "val": "Willie Higgins"
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage: Willie Higgins Coshla named on Derrydonnell 1911 SHC champions."
+  },
+  {
+    "row": "player:willie-higgins-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "name",
+    "val": "Martin Kennedy"
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage: Martin Kennedy Carnaun named on Derrydonnell 1911 SHC champions."
+  },
+  {
+    "row": "player:martin-kennedy-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "name",
+    "val": "Mick Fahy"
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage: Mick Fahy named on Derrydonnell 1911 SHC champions."
+  },
+  {
+    "row": "player:mick-fahy-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "name",
+    "val": "Jack Costello"
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "club",
+    "val": "club:derrydonnell"
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "source",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "note",
+    "val": "Athenry Parish Heritage: Jack Costello Gortroe named on Derrydonnell 1911 SHC champions."
+  },
+  {
+    "row": "player:jack-costello-derrydonnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "name",
+    "val": "Joe Hanniffy"
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "club",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1930-1943"
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "note",
+    "val": "Athenry GAA history photo caption: Joe Hanniffy (Maree) on Galway All-Ireland Junior Hurling Champions 1939. Historic Maree stamp (pre Oranmore–Maree 1967)."
+  },
+  {
+    "row": "player:joe-hanniffy-maree",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "name",
+    "val": "Malachy Donnellan"
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "club",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1930-1943"
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "note",
+    "val": "Athenry GAA history: Malachy Donnellan (Maree) on Galway AJHC champions 1939."
+  },
+  {
+    "row": "player:malachy-donnellan-maree",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "name",
+    "val": "Willie Donnellan"
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "club",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1930-1943"
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "note",
+    "val": "Athenry GAA history: Willie Donnellan (Maree) on Galway AJHC champions 1939."
+  },
+  {
+    "row": "player:willie-donnellan-maree",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "name",
+    "val": "Joe Salmon"
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Joe_Salmon"
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "note",
+    "val": "Wikipedia: club Meelick-Eyrecourt (also brief Liam Mellows / Glen Rovers); Galway senior 1949–1964; Galway Team of the Millennium midfield. HOLD stamp onto club:eyrecourt-historic alone."
+  },
+  {
+    "row": "player:joe-salmon",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:meelick-historic",
+    "col": "note",
+    "val": "1887 All-Ireland final Meelick XV cited Seamus J King (Meelick twelve) + Wikipedia (captain Pat Madden). Killimor nine stamped on club:killimor. Successor club:meelick-eyrecourt."
+  },
+  {
+    "row": "club:meelick-historic",
+    "col": "source_king",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "club:meelick-historic",
+    "col": "source_wiki_1887",
+    "val": "https://en.wikipedia.org/wiki/1887_All-Ireland_Senior_Hurling_Championship_final"
+  },
+  {
+    "row": "club:derrydonnell",
+    "col": "note",
+    "val": "1911 Galway SHC champions XV cited Athenry Parish Heritage (Tom Keane / Connacht Tribune) and Athenry GAA Story. Final vs Claregalway (parish hurling now Carnmore — HOLD Claregalway player invent)."
+  },
+  {
+    "row": "club:derrydonnell",
+    "col": "Galway Senior Hurling Championship",
+    "val": "1911"
+  },
+  {
+    "row": "club:derrydonnell",
+    "col": "source_heritage",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "club:derrydonnell",
+    "col": "source_story",
+    "val": "https://athenryparishheritage.com/the-athenry-gaa-story-1885-1987/"
+  },
+  {
+    "row": "club:maree-historic",
+    "col": "note",
+    "val": "Joe / Malachy / Willie Donnellan–Hanniffy cited Athenry GAA 1939 Junior caption as Maree. 1933 SHC win vs Castlegar already on match:galway-shc-1933-final. Successor club:oranmore-maree (1967)."
+  },
+  {
+    "row": "club:maree-historic",
+    "col": "source_caption",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1930-1943"
+  },
+  {
+    "row": "club:eyrecourt-historic",
+    "col": "note",
+    "val": "HOLD orphan r5: 1959 Galway IHC winners (Wikipedia roll) but no named Eyrecourt-only XV cite harvested. Joe Salmon stamped club:meelick-eyrecourt (Wikipedia), not this historic stamp."
+  },
+  {
+    "row": "club:eyrecourt-historic",
+    "col": "Galway Intermediate Hurling Championship",
+    "val": "1959"
+  },
+  {
+    "row": "club:oranmore-historic",
+    "col": "note",
+    "val": "HOLD orphan r5: 1950 Galway IHC winners (Wikipedia roll) — no named Oranmore-only adult XV cite. 1963 MHC listed as Oranmore on Oranmore–Maree wiki. Modern players on club:oranmore-maree."
+  },
+  {
+    "row": "club:oranmore-historic",
+    "col": "Galway Intermediate Hurling Championship",
+    "val": "1950"
+  },
+  {
+    "row": "club:college-road",
+    "col": "note",
+    "val": "HOLD orphan r5: 1892–1893 SHC winners; Duggan family grand-uncles cited without first+last names (Advertiser / Hogan Stand). Do not invent College Road XV; modern Duggans are Liam Mellows."
+  },
+  {
+    "row": "club:college-road",
+    "col": "source_advertiser",
+    "val": "https://www.advertiser.ie/Galway/article/138445/club-pays-tribute-to-best-pound-for-pound-hurler-in-ireland"
+  },
+  {
+    "row": "club:galway-city-historic",
+    "col": "note",
+    "val": "HOLD orphan r5: early SHC finalist/city selection — no clear first+last player cite harvested this run."
+  },
+  {
+    "row": "club:kilrickle",
+    "col": "note",
+    "val": "HOLD orphan r5: first Galway IHC champions 1949 (Wikipedia roll) — no named Kilrickle XV cite. Modern Kilrickle NS linked to Cappataggle juveniles (not a player stamp)."
+  },
+  {
+    "row": "club:kilrickle",
+    "col": "Galway Intermediate Hurling Championship",
+    "val": "1949"
+  },
+  {
+    "row": "club:leitrim-galway-historic",
+    "col": "note",
+    "val": "HOLD orphan r5: 1930 SHC finalist — no named Leitrim (Galway) XV cite. Modern lineage club:kilnadeema-leitrim."
+  },
+  {
+    "row": "club:skehana",
+    "col": "note",
+    "val": "HOLD orphan r5: 1952 Galway IHC winners (Wikipedia roll) — no named historic Skehana XV. Modern amalgam club:skehana-mountbellew-moylough (Oisín Lohan etc.)."
+  },
+  {
+    "row": "club:skehana",
+    "col": "Galway Intermediate Hurling Championship",
+    "val": "1952"
+  },
+  {
+    "row": "club:st-colemans",
+    "col": "note",
+    "val": "HOLD orphan r5: 1948 SHC finalist — no named St Coleman's hurling XV cite. Name today mainly camogie / Gort St Colman's Park — do not invent."
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "name",
+    "val": "Tipperary (Thurles) vs Galway (Meelick) (1887 All-Ireland SHC Final)"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "competition",
+    "val": "All-Ireland Senior Hurling Championship"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "year",
+    "val": 1887
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "date",
+    "val": "1888-04-01"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "home",
+    "val": "Tipperary (Thurles Blues)"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "away",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "winner",
+    "val": "Tipperary (Thurles Blues)"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "runner_up",
+    "val": "team:galway"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "club_representative_home",
+    "val": "Thurles Blues"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "club_representative_away",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "venue",
+    "val": "Birr Sportsfield, Birr"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "score",
+    "val": "Tipperary 1-1, Galway 0-0"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "note",
+    "val": "First All-Ireland SHC final. Wikipedia score Tipperary 1–1 (and a forfeit point) to Galway 0–00. Meelick represented Galway (captain Pat Madden)."
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/1887_All-Ireland_Senior_Hurling_Championship_final"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "source_wiki_championship",
+    "val": "https://en.wikipedia.org/wiki/1887_All-Ireland_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:all-ireland-shc-1887-final",
+    "col": "historic_club",
+    "val": "club:meelick-historic"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "name",
+    "val": "Eyrecourt vs Newcastle (1959 Galway IHC Final)"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "home",
+    "val": "club:eyrecourt-historic"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "away",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "winner",
+    "val": "club:eyrecourt-historic"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "runner_up",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "score",
+    "val": "Eyrecourt 1-05, Newcastle 0-04"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "note",
+    "val": "Wikipedia Galway Intermediate Hurling Championship roll: Eyrecourt 1-05 Newcastle 0-04. Athenry GAA Story confirms Newcastle lost that final by the same margin. Scores cited public roll + parish history."
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "source_athenry",
+    "val": "https://athenryparishheritage.com/the-athenry-gaa-story-1885-1987/"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-ihc-1959-final",
+    "col": "historic_club",
+    "val": "club:eyrecourt-historic"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "name",
+    "val": "Skehana vs Craughwell (1952 Galway IHC Final)"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "year",
+    "val": 1952
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "home",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "winner",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "runner_up",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "score",
+    "val": "Skehana 3-05, Craughwell 3-03"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "note",
+    "val": "Wikipedia Intermediate championship finals table: Skehana 3-05 Craughwell 3-03. No named Skehana XV this run — club remains orphan for players."
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-ihc-1952-final",
+    "col": "historic_club",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "name",
+    "val": "Oranmore vs Killimor (1950 Galway IHC Final)"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "year",
+    "val": 1950
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "home",
+    "val": "club:oranmore-historic"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "winner",
+    "val": "club:oranmore-historic"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "runner_up",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "score",
+    "val": "Oranmore 3-05, Killimor 3-01"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "note",
+    "val": "Wikipedia Intermediate finals table: Oranmore 3-05 Killimor 3-01. ClubInfo Oranmore–Maree history echoes same margin (after a replay noted on club pages — score line from Wiki roll)."
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "source_clubinfo",
+    "val": "https://www.clubinfo.ie/club/oranmore-maree-hc/"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-ihc-1950-final",
+    "col": "historic_club",
+    "val": "club:oranmore-historic"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "name",
+    "val": "Maree vs Craughwell (1953 Galway IHC Final)"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "home",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "winner",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "runner_up",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "score",
+    "val": "Maree 6-01, Craughwell 4-01"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "note",
+    "val": "Wikipedia Intermediate finals table: Maree 6-01 Craughwell 4-01. ClubInfo Oranmore–Maree history agrees."
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "source_clubinfo",
+    "val": "https://www.clubinfo.ie/club/oranmore-maree-hc/"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-ihc-1953-final",
+    "col": "historic_club",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "match:galway-shc-1887-final",
+    "col": "secondary_cite",
+    "val": "Seamus J King · Galway SHC final Meelick beat Ardrahan 2-6 to 2-3"
+  },
+  {
+    "row": "match:galway-shc-1887-final",
+    "col": "secondary_cite_paper",
+    "val": "Seamus J King (Eyrecourt History Society talk)"
+  },
+  {
+    "row": "match:galway-shc-1887-final",
+    "col": "secondary_cite_url",
+    "val": "https://www.seamusjking.com/sjk-articles/2014/11/1/span-classposttitlehurling-south-east-galway-and-the-first-all-irelandspan-talk-given-to-history-society-eyrecourt-circa-1991"
+  },
+  {
+    "row": "match:galway-shc-1887-final",
+    "col": "score",
+    "val": "Meelick 2-6, Ardrahan 2-3"
+  },
+  {
+    "row": "match:galway-shc-1887-final",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-1887-final",
+    "col": "runner_up",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-1887-final",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "match:galway-shc-1911-final",
+    "col": "secondary_cite",
+    "val": "Athenry Parish Heritage / Connacht Tribune · Derrydonnell beat Claregalway"
+  },
+  {
+    "row": "match:galway-shc-1911-final",
+    "col": "secondary_cite_url",
+    "val": "https://athenryparishheritage.com/the-county-hurling-final-of-1911/"
+  },
+  {
+    "row": "match:galway-shc-1911-final",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
   }
 ]
