@@ -1,0 +1,555 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:justin-donnelly",
+      "club": "club:kiltormer",
+      "source": "https://www.galwaygaa.ie/history/2001-roll-of-honour-football-hurling/",
+      "note": "Galway GAA RoH 2001: Justin Donnelly named on Kiltormer Intermediate Hurling Champions panel; Galway Advertiser Kiltormer senior lineout also lists Justin Donnelly; Galway IHC All-Ireland 1999 panel age-match. First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:shane-tierney",
+      "club": "club:kiltormer",
+      "source": "https://www.galwaygaa.ie/history/2001-roll-of-honour-football-hurling/",
+      "note": "Galway GAA RoH 2001: Shane Tierney named on Kiltormer Intermediate Hurling Champions panel; Galway Advertiser Kiltormer senior lineout also lists Shane Tierney; Galway IHC All-Ireland 2002 panel age-match. First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:ronan-farrell",
+      "club": "club:kiltormer",
+      "source": "https://www.galwaygaa.ie/history/2001-roll-of-honour-football-hurling/",
+      "note": "Galway GAA RoH 2001: Ronan Farrell named on Kiltormer Intermediate Hurling Champions panel; Galway MHC All-Ireland 1994 panel age-match. First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:david-greene",
+      "club": "club:ardrahan",
+      "source": "https://www.galwaygaa.ie/history/2001-roll-of-honour-football-hurling/",
+      "note": "Galway GAA RoH 2001: David Greene named on Ardrahan U-21 B Hurling Champions panel; Galway MHC All-Ireland 2000 panel age-match. First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:michael-john-quinn",
+      "club": "club:athenry",
+      "source": "https://www.galwaygaa.ie/history/2004-roll-of-honour-football-hurling/",
+      "note": "Galway GAA RoH 2004: Michael John Quinn named on Athenry Senior Hurling Champions panel; Galway MHC All-Ireland 1999 panel age-match. First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:paddy-cormican",
+      "club": "club:kiltormer",
+      "source": "https://www.galwaygaa.ie/history/2004-roll-of-honour-football-hurling/",
+      "note": "Galway GAA RoH 2004: Patrick Cormican named on Kiltormer Minor A Hurling Champions panel; Galway Advertiser Kiltormer senior lineout lists Patrick Cormican; Galway U-21 All-Ireland 2007 panel age-match (Paddy/Patrick). First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:gordan-glynn",
+      "club": "club:kiltormer",
+      "source": "https://www.galwaygaa.ie/history/2001-roll-of-honour-football-hurling/",
+      "note": "Galway GAA RoH 2001: Gordan Glynn named on Kiltormer Intermediate Hurling Champions panel; U-21 All-Ireland 1996 age-match. Clears prior spelling HOLD vs Gordon Glynn with first+last Kiltormer cite (exact RoH spelling Gordan).",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Emmet Brennan",
+      "id": "player:emmet-brennan-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2017 Galway SHC Senior B Round 2: Emmet Brennan scored 1-0 for Ahascragh-Fohenagh vs Kilnadeema-Leitrim. Club-scoped AF-first fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Brendan Madden",
+      "id": "player:brendan-madden-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Brendan Madden named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Larkin",
+      "id": "player:conor-larkin-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Conor Larkin named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "James Lyons",
+      "id": "player:james-lyons-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: James Lyons named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Matthew Martin",
+      "id": "player:matthew-martin-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Matthew Martin named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jason Leonard",
+      "id": "player:jason-leonard-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Jason Leonard named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Niall Fleming",
+      "id": "player:niall-fleming-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Niall Fleming named on Meelick/Eyrecourt Minor B Hurling Champions panel. Club-scoped; distinct from club-less player:niall-flemming (MHC 2018 spelling).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Lee Dermot",
+      "id": "player:lee-dermot-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Lee Dermot named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Evan McCormack",
+      "id": "player:evan-mccormack-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Evan McCormack named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Colin Downey",
+      "id": "player:colin-downey-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Colin Downey named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Bernard McDermott",
+      "id": "player:bernard-mcdermott-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Bernard McDermott named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tomas Flynn",
+      "id": "player:tomas-flynn-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Tomas Flynn named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jake Spain",
+      "id": "player:jake-spain-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Jake Spain named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darragh Dolan",
+      "id": "player:darragh-dolan-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Darragh Dolan named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gary Connaughton",
+      "id": "player:gary-connaughton-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Gary Connaughton named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Grahame Mullery",
+      "id": "player:grahame-mullery-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Grahame Mullery named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paul O'Brien",
+      "id": "player:paul-obrien-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Paul O'Brien named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Daragh Mills",
+      "id": "player:daragh-mills-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Daragh Mills named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Nathan Earner",
+      "id": "player:nathan-earner-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Nathan Earner named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Dolan",
+      "id": "player:conor-dolan-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Conor Dolan named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Stephen Coughlan",
+      "id": "player:stephen-coughlan-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Stephen Coughlan named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Evan Turley",
+      "id": "player:evan-turley-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Evan Turley named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Seamus Cahill",
+      "id": "player:seamus-cahill-meelick",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Seamus Cahill named on Meelick/Eyrecourt Minor B Hurling Champions panel.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:albert-moylan",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:brendan-keogh",
+    "player:brendan-lynch",
+    "player:brian-concannon",
+    "player:brian-cunningham",
+    "player:brian-holland",
+    "player:brian-murphy",
+    "player:brian-omahony",
+    "player:cathal-coen",
+    "player:christy-helebert",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:conor-burke",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:cormac-diviney",
+    "player:damien-fahy",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:donal-mannion",
+    "player:enda-fahey",
+    "player:finnian-coone",
+    "player:gerry-kelly",
+    "player:gordon-glynn",
+    "player:greg-kennedy",
+    "player:greg-thomas",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:kerrill-wade",
+    "player:kevin-broderick",
+    "player:kieran-finnerty",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-conneely",
+    "player:michael-donoghue",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-lynskey",
+    "player:micheal-donoghue",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:murty-killilea",
+    "player:niall-kelly",
+    "player:noel-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:sean-glynn",
+    "player:shane-maloney",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:tom-monaghan",
+    "player:tony-og-regan",
+    "player:luke-cosgrove",
+    "player:niall-burke",
+    "player:niall-flemming"
+  ],
+  "new_clubs": [],
+  "club_meta": [
+    {
+      "id": "club:ahascragh-fohenagh",
+      "cols": {
+        "note": "r25 AF-first: Emmet Brennan from Wikipedia 2017 SHC Senior B Round 2 scoresheet vs Kilnadeema-Leitrim."
+      }
+    },
+    {
+      "id": "club:meelick-eyrecourt",
+      "cols": {
+        "note": "r25 thin-club fill from Galway GAA RoH 2016 Meelick/Eyrecourt Minor B Hurling Champions panel."
+      }
+    },
+    {
+      "id": "club:kiltormer",
+      "cols": {
+        "note": "r25 club-less links: Justin Donnelly, Shane Tierney, Ronan Farrell, Paddy Cormican, Gordan Glynn from RoH 2001/2004 + Advertiser."
+      }
+    },
+    {
+      "id": "club:ardrahan",
+      "cols": {
+        "note": "r25 club-less link: David Greene from RoH 2001 Ardrahan U-21 B champions."
+      }
+    },
+    {
+      "id": "club:athenry",
+      "cols": {
+        "note": "r25 club-less link: Michael John Quinn from RoH 2004 Athenry Senior Hurling Champions."
+      }
+    }
+  ],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2017-sb-r1-ahascragh-fohenagh-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Ahascragh-Fohenagh vs Killimordaly (2017 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2017,
+        "home": "club:ahascragh-fohenagh",
+        "away": "club:killimordaly",
+        "score": "Ahascragh-Fohenagh 2-15, Killimordaly 0-11",
+        "note": "Wikipedia 2017 Galway SHC Senior B Round 1.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:ahascragh-fohenagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-sb-r2-kilnadeema-leitrim-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Ahascragh-Fohenagh (2017 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2017,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Kilnadeema-Leitrim 2-16, Ahascragh-Fohenagh 1-12",
+        "note": "Wikipedia 2017 Galway SHC Senior B Round 2.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:kilnadeema-leitrim"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-sb-r3-ahascragh-fohenagh-abbeyknockmoy",
+      "cols": {
+        "type": "match",
+        "name": "Ahascragh-Fohenagh vs Abbeyknockmoy (2017 Galway SHC Senior B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 3",
+        "year": 2017,
+        "home": "club:ahascragh-fohenagh",
+        "away": "club:abbeyknockmoy",
+        "score": "Ahascragh-Fohenagh 2-16, Abbeyknockmoy 4-5",
+        "note": "Wikipedia 2017 Galway SHC Senior B Round 3.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:ahascragh-fohenagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-sb-r4-moycullen-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Ahascragh-Fohenagh (2017 Galway SHC Senior B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 4",
+        "year": 2017,
+        "home": "club:moycullen",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Moycullen 3-15, Ahascragh-Fohenagh 1-10",
+        "note": "Wikipedia 2017 Galway SHC Senior B Round 4.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:moycullen"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-sb-r5-athenry-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Ahascragh-Fohenagh (2017 Galway SHC Senior B Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 5",
+        "year": 2017,
+        "home": "club:athenry",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Athenry 3-20, Ahascragh-Fohenagh 0-9",
+        "note": "Wikipedia 2017 Galway SHC Senior B Round 5.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-relegation-loughrea-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Turloughmore (2017 Galway SHC Senior A Relegation)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Relegation",
+        "year": 2017,
+        "home": "club:loughrea",
+        "away": "club:turloughmore",
+        "score": "Loughrea 1-19, Turloughmore 1-16",
+        "note": "Wikipedia 2017 Galway SHC Senior A Relegation.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-relegation-mullagh-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Pádraig Pearses (2017 Galway SHC Senior A Relegation)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Relegation",
+        "year": 2017,
+        "home": "club:mullagh",
+        "away": "club:padraig-pearses",
+        "score": "Mullagh 1-17, Pádraig Pearses 0-8",
+        "note": "Wikipedia 2017 Galway SHC Senior A Relegation.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-sb-playoff-clarinbridge-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Athenry (2017 Galway SHC Senior B Playoff)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Playoff",
+        "year": 2017,
+        "home": "club:clarinbridge",
+        "away": "club:athenry",
+        "score": "Clarinbridge 1-18, Athenry 1-8",
+        "note": "Wikipedia 2017 Galway SHC Senior B Playoff.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-sb-playoff-killimordaly-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Tynagh-Abbey/Duniry (2017 Galway SHC Senior B Playoff)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Playoff",
+        "year": 2017,
+        "home": "club:killimordaly",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Killimordaly 2-18, Tynagh-Abbey/Duniry 0-23",
+        "note": "Wikipedia 2017 Galway SHC Senior B Playoff.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-sb-relegation-abbeyknockmoy-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Abbeyknockmoy vs Carnmore (2017 Galway SHC Senior B Relegation)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Relegation",
+        "year": 2017,
+        "home": "club:abbeyknockmoy",
+        "away": "club:carnmore",
+        "score": "Abbeyknockmoy 0-17, Carnmore 0-11",
+        "note": "Wikipedia 2017 Galway SHC Senior B Relegation.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:abbeyknockmoy"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-pqf-killimordaly-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs St Thomas' (2017 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2017,
+        "home": "club:killimordaly",
+        "away": "club:st-thomas",
+        "score": "Killimordaly 1-19, St Thomas' 2-15",
+        "note": "Wikipedia 2017 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-shc-2017-pqf-portumna-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Castlegar (2017 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2017,
+        "home": "club:portumna",
+        "away": "club:castlegar",
+        "score": "Portumna 4-21, Castlegar 2-19",
+        "note": "Wikipedia 2017 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship",
+        "winner": "club:portumna"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:niall-flemming": "HOLD r25: club-less MHC 2018 Niall Flemming (double-m spelling); Galway GAA RoH 2016 Meelick/Eyrecourt Minor B lists Niall Fleming — club-scoped player:niall-fleming-meelick created; do not auto-merge without archivist confirm.",
+    "player:gordon-glynn": "HOLD r25 refresh: Gordan Glynn linked to Kiltormer via RoH 2001 IHC champions (exact spelling Gordan); keep Gordon Glynn MHC 1994 / U-21 1996 / IHC 1999 on HOLD as separate spelling/identity.",
+    "player:luke-cosgrove": "HOLD r23/r25: Luke Cosgrove AF already clubbed; L Cosgrove Examiner lineout remains club-scoped as Liam Cosgrove AF.",
+    "player:niall-burke": "HOLD r24/r25: Oranmore-Maree Niall Burke already clubbed; AF club-scoped player:niall-burke-ahascragh-fohenagh distinct."
+  }
+}
