@@ -1,0 +1,1848 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Brendan Lynch",
+      "id": "player:brendan-lynch-tynagh-abbey-duniry",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2018 Galway SHC Senior B Round 1: Brendan Lynch scored 1-0 for Tynagh-Abbey/Duniry vs Athenry. Club-scoped thin fill; bare player:brendan-lynch remains HOLD (Meelick Junior C / Tynagh collision).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paul Dullaghan",
+      "id": "player:paul-dullaghan-turloughmore",
+      "club": "club:turloughmore",
+      "source": "https://en.wikipedia.org/wiki/Paul_Dullaghan",
+      "note": "Wikipedia Paul Dullaghan: Turloughmore club hurler and Galway minor/U-21/senior panel goalkeeper (NHL 2004). Club-scoped; bare Paul Douraghan (IHC 2002 panel spelling) on HOLD as likely identity/spelling collision.",
+      "confidence": "high"
+    },
+    {
+      "name": "Ger Linnane",
+      "id": "player:ger-linnane-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Ger Linnane named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gerry Huban",
+      "id": "player:gerry-huban-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Gerry Huban named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Niall Curtin",
+      "id": "player:niall-curtin-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Niall Curtin named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paul O'Sullivan",
+      "id": "player:paul-osullivan-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Paul O'Sullivan named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dara Smith",
+      "id": "player:dara-smith-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Dara Smith named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Neassan O'Hanrahan",
+      "id": "player:neassan-ohanrahan-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Neassan O'Hanrahan named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mark Kavanagh",
+      "id": "player:mark-kavanagh-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Mark Kavanagh named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ian Bermingham",
+      "id": "player:ian-bermingham-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Ian Bermingham named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tommie Kavanagh",
+      "id": "player:tommie-kavanagh-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Tommie Kavanagh named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Steve Moylan",
+      "id": "player:steve-moylan-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Steve Moylan named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Caolan McMahon",
+      "id": "player:caolan-mcmahon-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Caolan McMahon named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Liam Kavanagh",
+      "id": "player:liam-kavanagh-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Liam Kavanagh named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "David Huban",
+      "id": "player:david-huban-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: David Huban named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eric Keane",
+      "id": "player:eric-keane-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Eric Keane named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mark Deegan",
+      "id": "player:mark-deegan-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Mark Deegan named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Keelan O'Rourke",
+      "id": "player:keelan-orourke-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Keelan O'Rourke named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Damien Huban",
+      "id": "player:damien-huban-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Damien Huban named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brian Carroll",
+      "id": "player:brian-carroll-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Brian Carroll named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Smith",
+      "id": "player:michael-smith-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Michael Smith named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Patrick Gallagher",
+      "id": "player:patrick-gallagher-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Patrick Gallagher named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor O'Shea",
+      "id": "player:conor-oshea-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Conor O'Shea named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jonathan Kavanagh",
+      "id": "player:jonathan-kavanagh-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2016: Jonathan Kavanagh named on Kinvara Junior B Hurling Champions panel. Club-scoped thin fill with first+last published cite.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:brendan-keogh",
+    "player:brendan-lynch",
+    "player:brian-concannon",
+    "player:brian-cunningham",
+    "player:brian-holland",
+    "player:brian-murphy",
+    "player:brian-omahony",
+    "player:cathal-coen",
+    "player:christy-helebert",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:cormac-diviney",
+    "player:damien-fahy",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:donal-mannion",
+    "player:enda-fahey",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:gerry-kelly",
+    "player:gordon-glynn",
+    "player:greg-kennedy",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:kerrill-wade",
+    "player:kevin-broderick",
+    "player:kieran-finnerty",
+    "player:luke-cosgrove",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-conneely",
+    "player:michael-donoghue",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-lynskey",
+    "player:micheal-donoghue",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:murty-killilea",
+    "player:niall-burke",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:ronal-killilea",
+    "player:robert-mitchell",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:tom-donohue",
+    "player:tom-monaghan",
+    "player:tony-og-regan",
+    "player:trevor-kavanagh",
+    "player:roger-fahy",
+    "player:mark-lane",
+    "player:killian-howe",
+    "player:thomas-hayes",
+    "player:peter-garvey",
+    "player:tom-maloney"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2018-sa-g1-r1-st-thomas-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Kilnadeema-Leitrim (2018 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2018,
+        "home": "club:st-thomas",
+        "away": "club:kilnadeema-leitrim",
+        "score": "St. Thomas' 1-17, Kilnadeema-Leitrim 0-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r1-castlegar-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Tommy Larkin's (2018 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2018,
+        "home": "club:castlegar",
+        "away": "club:tommy-larkins",
+        "score": "Tommy Larkin's 0-15, Castlegar 1-12",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r1-liam-mellows-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Craughwell (2018 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2018,
+        "home": "club:liam-mellows",
+        "away": "club:craughwell",
+        "score": "Liam Mellows 0-17, Craughwell 0-11",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r2-craughwell-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Kilnadeema-Leitrim (2018 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2018,
+        "home": "club:craughwell",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Craughwell 2-16, Kilnadeema-Leitrim 0-19",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r2-st-thomas-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Tommy Larkin's (2018 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2018,
+        "home": "club:st-thomas",
+        "away": "club:tommy-larkins",
+        "score": "St. Thomas' 0-17, Tommy Larkin's 2-11",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r2-liam-mellows-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Castlegar (2018 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2018,
+        "home": "club:liam-mellows",
+        "away": "club:castlegar",
+        "score": "Liam Mellows 3-15, Castlegar 2-13",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r3-st-thomas-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Craughwell (2018 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2018,
+        "home": "club:st-thomas",
+        "away": "club:craughwell",
+        "score": "St. Thomas' 2-21, Craughwell 3-13",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r3-liam-mellows-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Tommy Larkin's (2018 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2018,
+        "home": "club:liam-mellows",
+        "away": "club:tommy-larkins",
+        "score": "Liam Mellows 0-19, Tommy Larkin's 0-19",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r3-castlegar-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Kilnadeema-Leitrim (2018 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2018,
+        "home": "club:castlegar",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Castlegar 3-22, Kilnadeema-Leitrim 0-11",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r4-castlegar-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Craughwell (2018 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2018,
+        "home": "club:castlegar",
+        "away": "club:craughwell",
+        "score": "Craughwell 0-14, Castlegar 2-10",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r4-st-thomas-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Liam Mellows (2018 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2018,
+        "home": "club:st-thomas",
+        "away": "club:liam-mellows",
+        "score": "St. Thomas' 0-23, Liam Mellows 0-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r4-tommy-larkins-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Kilnadeema-Leitrim (2018 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2018,
+        "home": "club:tommy-larkins",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Tommy Larkin's 0-20, Kilnadeema-Leitrim 2-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r5-liam-mellows-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Kilnadeema-Leitrim (2018 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2018,
+        "home": "club:liam-mellows",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Liam Mellows 2-18, Kilnadeema-Leitrim 1-16",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r5-st-thomas-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Castlegar (2018 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2018,
+        "home": "club:st-thomas",
+        "away": "club:castlegar",
+        "score": "St. Thomas' 1-19, Castlegar 0-13",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g1-r5-tommy-larkins-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Craughwell (2018 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2018,
+        "home": "club:tommy-larkins",
+        "away": "club:craughwell",
+        "score": "Tommy Larkin's 2-16, Craughwell 2-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r1-loughrea-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Mullagh (2018 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2018,
+        "home": "club:loughrea",
+        "away": "club:mullagh",
+        "score": "Loughrea 0-15, Mullagh 0-12",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r1-sarsfields-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Portumna (2018 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2018,
+        "home": "club:sarsfields",
+        "away": "club:portumna",
+        "score": "Sarsfields 1-15, Portumna 2-9",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r1-gort-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Cappataggle (2018 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2018,
+        "home": "club:gort",
+        "away": "club:cappataggle",
+        "score": "Gort 0-18, Cappataggle 0-15",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r2-portumna-gort",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Gort (2018 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2018,
+        "home": "club:portumna",
+        "away": "club:gort",
+        "score": "Portumna 0-21, Gort 0-17",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r2-cappataggle-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Loughrea (2018 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2018,
+        "home": "club:cappataggle",
+        "away": "club:loughrea",
+        "score": "Cappataggle 2-14, Loughrea 1-15",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r2-sarsfields-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Mullagh (2018 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2018,
+        "home": "club:sarsfields",
+        "away": "club:mullagh",
+        "score": "Sarsfields 0-15, Mullagh 1-7",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r3-mullagh-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Cappataggle (2018 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2018,
+        "home": "club:mullagh",
+        "away": "club:cappataggle",
+        "score": "Mullagh 2-16, Cappataggle 0-20",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r3-gort-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Sarsfields (2018 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2018,
+        "home": "club:gort",
+        "away": "club:sarsfields",
+        "score": "Gort 1-24, Sarsfields 0-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r3-loughrea-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Portumna (2018 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2018,
+        "home": "club:loughrea",
+        "away": "club:portumna",
+        "score": "Loughrea 0-20, Portumna 0-17",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r4-cappataggle-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Portumna (2018 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2018,
+        "home": "club:cappataggle",
+        "away": "club:portumna",
+        "score": "Cappataggle 0-18, Portumna 0-11",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r4-gort-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Mullagh (2018 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2018,
+        "home": "club:gort",
+        "away": "club:mullagh",
+        "score": "Gort 1-20, Mullagh 1-15",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r4-sarsfields-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Loughrea (2018 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2018,
+        "home": "club:sarsfields",
+        "away": "club:loughrea",
+        "score": "Sarsfields 1-17, Loughrea 2-12",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r5-loughrea-gort",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Gort (2018 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2018,
+        "home": "club:loughrea",
+        "away": "club:gort",
+        "score": "Loughrea 2-14, Gort 1-16",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r5-cappataggle-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Sarsfields (2018 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2018,
+        "home": "club:cappataggle",
+        "away": "club:sarsfields",
+        "score": "Sarsfields 1-13, Cappataggle 0-16",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-g2-r5-mullagh-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Portumna (2018 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2018,
+        "home": "club:mullagh",
+        "away": "club:portumna",
+        "score": "Mullagh 1-21, Portumna 1-20",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-relegation-portumna-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Craughwell (2018 Galway SHC Senior A Relegation)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Relegation",
+        "year": 2018,
+        "home": "club:portumna",
+        "away": "club:craughwell",
+        "score": "Portumna 0-24, Craughwell 1-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sa-relegation-kilnadeema-leitrim-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Mullagh (2018 Galway SHC Senior A Relegation)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Relegation",
+        "year": 2018,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:mullagh",
+        "score": "Kilnadeema-Leitrim 0-14, Mullagh 0-12",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:kilnadeema-leitrim"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r1-turloughmore-ballinderreen",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Ballinderreen (2018 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2018,
+        "home": "club:turloughmore",
+        "away": "club:ballinderreen",
+        "score": "Turloughmore 0-15, Ballinderreen 1-8",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r1-clarinbridge-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Killimordaly (2018 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2018,
+        "home": "club:clarinbridge",
+        "away": "club:killimordaly",
+        "score": "Clarinbridge 1-20, Killimordaly 0-21",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r2-clarinbridge-ballinderreen",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Ballinderreen (2018 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2018,
+        "home": "club:clarinbridge",
+        "away": "club:ballinderreen",
+        "score": "Clarinbridge 1-17, Ballinderreen 1-8",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r2-turloughmore-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Beagh (2018 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2018,
+        "home": "club:turloughmore",
+        "away": "club:beagh",
+        "score": "Turloughmore 2-25, Beagh 2-13",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r3-clarinbridge-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Turloughmore (2018 Galway SHC Senior B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 3",
+        "year": 2018,
+        "home": "club:clarinbridge",
+        "away": "club:turloughmore",
+        "score": "Turloughmore 0-21, Clarinbridge 0-17",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r3-killimordaly-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Beagh (2018 Galway SHC Senior B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 3",
+        "year": 2018,
+        "home": "club:killimordaly",
+        "away": "club:beagh",
+        "score": "Beagh 0-22, Killimordaly 2-16",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:beagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r4-ballinderreen-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Ballinderreen vs Beagh (2018 Galway SHC Senior B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 4",
+        "year": 2018,
+        "home": "club:ballinderreen",
+        "away": "club:beagh",
+        "score": "Ballinderreen 2-14, Beagh 1-16",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:ballinderreen"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r4-turloughmore-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Killimordaly (2018 Galway SHC Senior B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 4",
+        "year": 2018,
+        "home": "club:turloughmore",
+        "away": "club:killimordaly",
+        "score": "Turloughmore 1-14, Killimordaly 1-8",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r5-ballinderreen-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Ballinderreen vs Killimordaly (2018 Galway SHC Senior B Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 5",
+        "year": 2018,
+        "home": "club:ballinderreen",
+        "away": "club:killimordaly",
+        "score": "Killimordaly 1-17, Ballinderreen 1-12",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g1-r5-clarinbridge-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Beagh (2018 Galway SHC Senior B Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 5",
+        "year": 2018,
+        "home": "club:clarinbridge",
+        "away": "club:beagh",
+        "score": "Clarinbridge 4-13, Beagh 1-16",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r1-tynagh-abbey-duniry-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Athenry (2018 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2018,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:athenry",
+        "score": "Tynagh-Abbey/Duniry 2-14, Athenry 1-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline; Brendan Lynch scored 1-0 for Tynagh-Abbey/Duniry.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tynagh-abbey-duniry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r1-padraig-pearses-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Ardrahan (2018 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2018,
+        "home": "club:padraig-pearses",
+        "away": "club:ardrahan",
+        "score": "Pádraig Pearses 0-20, Ardrahan 0-16",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r1-abbeyknockmoy-moycullen",
+      "cols": {
+        "type": "match",
+        "name": "Abbeyknockmoy vs Moycullen (2018 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2018,
+        "home": "club:abbeyknockmoy",
+        "away": "club:moycullen",
+        "score": "Abbeyknockmoy 2-14, Moycullen 2-14",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r2-moycullen-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Ardrahan (2018 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2018,
+        "home": "club:moycullen",
+        "away": "club:ardrahan",
+        "score": "Ardrahan 2-12, Moycullen 1-15",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r2-tynagh-abbey-duniry-abbeyknockmoy",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Abbeyknockmoy (2018 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2018,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:abbeyknockmoy",
+        "score": "Tynagh-Abbey/Duniry 0-21, Abbeyknockmoy 3-12",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tynagh-abbey-duniry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r2-athenry-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Pádraig Pearses (2018 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2018,
+        "home": "club:athenry",
+        "away": "club:padraig-pearses",
+        "score": "Athenry 0-15, Pádraig Pearses 0-8",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r3-tynagh-abbey-duniry-moycullen",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Moycullen (2018 Galway SHC Senior B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 3",
+        "year": 2018,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:moycullen",
+        "score": "Tynagh-Abbey/Duniry 4-21, Moycullen 0-13",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tynagh-abbey-duniry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2018-sb-g2-r5-tynagh-abbey-duniry-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Pádraig Pearses (2018 Galway SHC Senior B Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 5",
+        "year": 2018,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:padraig-pearses",
+        "score": "Tynagh-Abbey/Duniry 0-15, Pádraig Pearses 0-11",
+        "note": "Wikipedia 2018 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2018_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tynagh-abbey-duniry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r1-turloughmore-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Portumna (2019 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2019,
+        "home": "club:turloughmore",
+        "away": "club:portumna",
+        "score": "Turloughmore 4-18, Portumna 1-12",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r1-tommy-larkins-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Castlegar (2019 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2019,
+        "home": "club:tommy-larkins",
+        "away": "club:castlegar",
+        "score": "Tommy Larkin's 2-15, Castlegar 0-16",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r1-liam-mellows-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs St. Thomas' (2019 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2019,
+        "home": "club:liam-mellows",
+        "away": "club:st-thomas",
+        "score": "Liam Mellows 1-17, St. Thomas' 0-14",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r2-turloughmore-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Liam Mellows (2019 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2019,
+        "home": "club:turloughmore",
+        "away": "club:liam-mellows",
+        "score": "Turloughmore 1-20, Liam Mellows 2-11",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r2-st-thomas-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Tommy Larkin's (2019 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2019,
+        "home": "club:st-thomas",
+        "away": "club:tommy-larkins",
+        "score": "St. Thomas' 2-15, Tommy Larkin's 1-8",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r2-castlegar-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Portumna (2019 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2019,
+        "home": "club:castlegar",
+        "away": "club:portumna",
+        "score": "Castlegar 2-25, Portumna 1-16",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r3-st-thomas-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Castlegar (2019 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2019,
+        "home": "club:st-thomas",
+        "away": "club:castlegar",
+        "score": "St. Thomas' 1-16, Castlegar 0-12",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r3-liam-mellows-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Portumna (2019 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2019,
+        "home": "club:liam-mellows",
+        "away": "club:portumna",
+        "score": "Liam Mellows 1-16, Portumna 0-10",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r3-turloughmore-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Tommy Larkin's (2019 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2019,
+        "home": "club:turloughmore",
+        "away": "club:tommy-larkins",
+        "score": "Turloughmore 2-17, Tommy Larkin's 2-14",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r4-turloughmore-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Castlegar (2019 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2019,
+        "home": "club:turloughmore",
+        "away": "club:castlegar",
+        "score": "Turloughmore 1-18, Castlegar 0-15",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r4-st-thomas-portumna",
+      "cols": {
+        "type": "match",
+        "name": "St. Thomas' vs Portumna (2019 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2019,
+        "home": "club:st-thomas",
+        "away": "club:portumna",
+        "score": "St. Thomas' 6-26, Portumna 0-19",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r4-liam-mellows-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Tommy Larkin's (2019 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2019,
+        "home": "club:liam-mellows",
+        "away": "club:tommy-larkins",
+        "score": "Liam Mellows 1-18, Tommy Larkin's 3-8",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r5-turloughmore-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs St. Thomas' (2019 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2019,
+        "home": "club:turloughmore",
+        "away": "club:st-thomas",
+        "score": "Turloughmore 0-8, St. Thomas' 0-8",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r5-castlegar-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Liam Mellows (2019 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2019,
+        "home": "club:castlegar",
+        "away": "club:liam-mellows",
+        "score": "Castlegar 1-15, Liam Mellows 1-13",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g1-r5-tommy-larkins-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Portumna (2019 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2019,
+        "home": "club:tommy-larkins",
+        "away": "club:portumna",
+        "score": "Tommy Larkin's 2-25, Portumna 1-14",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r1-gort-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Kilnadeema-Leitrim (2019 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2019,
+        "home": "club:gort",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Gort 3-12, Kilnadeema-Leitrim 0-15",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r1-loughrea-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Tynagh-Abbey/Duniry (2019 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2019,
+        "home": "club:loughrea",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Loughrea 3-17, Tynagh-Abbey/Duniry 0-16",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r1-sarsfields-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Cappataggle (2019 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2019,
+        "home": "club:sarsfields",
+        "away": "club:cappataggle",
+        "score": "Sarsfields 1-17, Cappataggle 1-14",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r2-gort-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Loughrea (2019 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2019,
+        "home": "club:gort",
+        "away": "club:loughrea",
+        "score": "Gort 2-14, Loughrea 2-14",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r2-cappataggle-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Tynagh-Abbey/Duniry (2019 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2019,
+        "home": "club:cappataggle",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Cappataggle 3-17, Tynagh-Abbey/Duniry 2-13",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r3-loughrea-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Kilnadeema-Leitrim (2019 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2019,
+        "home": "club:loughrea",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Loughrea 1-22, Kilnadeema-Leitrim 2-10",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r4-loughrea-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Cappataggle (2019 Galway SHC Senior A Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 4",
+        "year": 2019,
+        "home": "club:loughrea",
+        "away": "club:cappataggle",
+        "score": "Loughrea 1-18, Cappataggle 1-15",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r5-loughrea-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Sarsfields (2019 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2019,
+        "home": "club:loughrea",
+        "away": "club:sarsfields",
+        "score": "Loughrea 0-21, Sarsfields 0-11",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r5-cappataggle-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Kilnadeema-Leitrim (2019 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2019,
+        "home": "club:cappataggle",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Cappataggle 4-13, Kilnadeema-Leitrim 1-15",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sa-g2-r5-tynagh-abbey-duniry-gort",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Gort (2019 Galway SHC Senior A Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 5",
+        "year": 2019,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:gort",
+        "score": "Tynagh-Abbey/Duniry 1-19, Gort 0-19",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tynagh-abbey-duniry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g1-r1-athenry-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Beagh (2019 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2019,
+        "home": "club:athenry",
+        "away": "club:beagh",
+        "score": "Athenry 1-19, Beagh 0-18",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g1-r1-oranmore-maree-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore-Maree vs Craughwell (2019 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2019,
+        "home": "club:oranmore-maree",
+        "away": "club:craughwell",
+        "score": "Oranmore-Maree 1-19, Craughwell 1-17",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:oranmore-maree"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g1-r2-craughwell-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Beagh (2019 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2019,
+        "home": "club:craughwell",
+        "away": "club:beagh",
+        "score": "Craughwell 1-19, Beagh 0-14",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g1-r3-padraig-pearses-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Beagh (2019 Galway SHC Senior B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 3",
+        "year": 2019,
+        "home": "club:padraig-pearses",
+        "away": "club:beagh",
+        "score": "Pádraig Pearses 0-14, Beagh 2-5",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g1-r4-oranmore-maree-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore-Maree vs Beagh (2019 Galway SHC Senior B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 4",
+        "year": 2019,
+        "home": "club:oranmore-maree",
+        "away": "club:beagh",
+        "score": "Oranmore-Maree 3-16, Beagh 0-20",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:oranmore-maree"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g1-r5-craughwell-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Athenry (2019 Galway SHC Senior B Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 5",
+        "year": 2019,
+        "home": "club:craughwell",
+        "away": "club:athenry",
+        "score": "Craughwell 3-19, Athenry 0-13",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-playoff-craughwell-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Mullagh (2019 Galway SHC Senior B Playoff)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Playoff",
+        "year": 2019,
+        "home": "club:craughwell",
+        "away": "club:mullagh",
+        "score": "Craughwell 0-25, Mullagh 0-20",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-playoff-athenry-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Killimordaly (2019 Galway SHC Senior B Playoff)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Playoff",
+        "year": 2019,
+        "home": "club:athenry",
+        "away": "club:killimordaly",
+        "score": "Athenry 2-20, Killimordaly 1-13",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g2-r1-clarinbridge-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Mullagh (2019 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2019,
+        "home": "club:clarinbridge",
+        "away": "club:mullagh",
+        "score": "Clarinbridge 0-20, Mullagh 1-12",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g2-r1-killimordaly-ballinderreen",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Ballinderreen (2019 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2019,
+        "home": "club:killimordaly",
+        "away": "club:ballinderreen",
+        "score": "Killimordaly 2-22, Ballinderreen 2-15",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-shc-2019-sb-g2-r5-clarinbridge-abbeyknockmoy",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Abbeyknockmoy (2019 Galway SHC Senior B Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 5",
+        "year": 2019,
+        "home": "club:clarinbridge",
+        "away": "club:abbeyknockmoy",
+        "score": "Clarinbridge 1-17, Abbeyknockmoy 0-15",
+        "note": "Wikipedia 2019 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:paul-douraghan": "HOLD r31 NEW: club-less Paul Douraghan (IHC 2002 panel spelling); Wikipedia Paul Dullaghan is Turloughmore club-scoped as player:paul-dullaghan-turloughmore — spelling/identity collision; do not auto-merge.",
+    "player:brendan-lynch": "HOLD r31 refresh: bare Brendan Lynch MHC 2015/2017; Wikipedia 2018 Tynagh-Abbey/Duniry scorer club-scoped as player:brendan-lynch-tynagh-abbey-duniry; prior Meelick Junior C collision remains — do not auto-merge bare id.",
+    "player:robert-mitchell": "HOLD r31 NEW: club-less Robert Mitchell (U-21 2011 panel); AF Francis/Garry/Karl Mitchell club-scoped lines — surname collision risk; do not auto-stamp bare Robert.",
+    "player:roger-fahy": "HOLD r31 NEW: club-less Roger Fahy (IHC 2002); public hits include Clare dairy farmer Roger Fahy and multiple Galway Fahy club lines (Frank Fahy Tommy Larkins / Eoin Fahy HOLD) — identity collision; do not auto-stamp.",
+    "player:mark-lane": "HOLD r31 NEW: club-less Mark Lane (U-21 2005 panel); no first+last published Galway club hurling cite found — keep HOLD.",
+    "player:killian-howe": "HOLD r31 NEW: club-less Killian Howe (MHC 2011); no first+last published Galway club hurling cite; Damien Howe is Meelick-Eyrecourt — different forename; do not auto-stamp.",
+    "player:thomas-hayes": "HOLD r31 NEW: club-less Thomas Hayes (MHC 2018 panel); no club listed on Galway GAA RoH photo; Damien Hayes Portumna is different player — do not auto-stamp.",
+    "player:peter-garvey": "HOLD r31 NEW: club-less Peter Garvey (MHC 2000 starter); no first+last published Galway club hurling cite found among Cappataggle Garvey / AF lines — do not auto-stamp.",
+    "player:tom-maloney": "HOLD r31 NEW: club-less Tom Maloney (MHC 1983 scorer); Shane Moloney/Maloney Tynagh club-scoped spelling family — do not auto-stamp bare Tom without club cite.",
+    "player:padraig-breheny": "HOLD r30/r31 refresh: bare Padraig Breheny; club-scoped Tynagh line exists — spelling/id collision with Padraic Brehony; do not auto-merge.",
+    "player:aonghus-dervan": "HOLD r30/r31 refresh: club-less Aonghus Dervan; Gavin Dervan Tommy Larkins club-scoped — Dervan family collision; do not auto-merge.",
+    "player:cormac-diviney": "HOLD r7/r31 refresh: club-less Cormac Diviney; Kilbeacanty/Beagh Diviney club-scoped — do not auto-merge.",
+    "player:eoin-fahy": "HOLD r30/r31 refresh: club-less Eoin Fahy; Tommy Larkins Fahy club-scoped lines — surname collision; do not auto-stamp.",
+    "player:shane-maloney": "HOLD r30/r31 refresh: club-less Shane Maloney; Shane Moloney clubbed Tynagh — spelling collision; do not auto-merge.",
+    "player:tadgh-haran": "HOLD r9/r31 refresh: Tadgh Haran misspelling; Tadhg Haran Liam Mellows — do not dual-stamp.",
+    "player:finnian-coone": "HOLD refresh r31: Finnian Coone likely duplicate of Finian Coone (Mullagh); do not auto-merge.",
+    "player:tom-donohue": "HOLD r29/r31 refresh: club-less Tom Donohue; Frank Donohue Tommy Larkins — possible collision; do not auto-merge.",
+    "player:niall-kelly": "HOLD r15/r31 refresh: bare Niall Kelly; Tommy Larkins RoH Niall Kelly Intermediate — identity collision; do not auto-stamp.",
+    "player:noel-kelly": "HOLD r15/r31 refresh: bare Noel Kelly; Craughwell/Sarsfields Noel Kelly hits — identity collision; do not auto-stamp."
+  }
+}
