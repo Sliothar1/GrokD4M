@@ -129,5 +129,27 @@
       "player:craig-naughton-ahascragh-fohenagh"
     ],
     "note": "AF r14: Tim Sweeney historic Fohenagh + Craig Naughton unverified AF. Donal Mannion Cappataggle disambiguated (HOLD AF Donal Mannion overwrite). Bare Coen/Regan/Fahey/Kelly/Thomas collisions HOLD. Skip HOLD orphans."
+  },
+  {
+    "batch": "fohenagh-club-links-r15",
+    "ruled_at": "2026-09-06T20:39:55.754015+00:00",
+    "clear_links": [],
+    "unverified_new": [
+      "player:sean-kelly-ahascragh-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:paddy-killilea-fohenagh",
+      "player:mick-moylette-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:james-murray-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:jimmy-corry-fohenagh",
+      "player:albie-glynn-fohenagh",
+      "player:liam-murray-fohenagh",
+      "player:sean-carrig-fohenagh"
+    ],
+    "note": "AF/Fohenagh r15: Turloughmore 1963 Fohenagh team sheet (12 new historic) + Tuam Herald 2026 AF Sean Kelly/Alan Moclair unverified. Linked Darragh Coen Clarinbridge (HOLD bare Dara Coen). HOLD Noel/Niall Kelly and Murty Killilea. Skip HOLD orphans."
   }
 ]

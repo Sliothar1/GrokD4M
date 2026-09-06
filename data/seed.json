@@ -33427,7 +33427,7 @@
   {
     "row": "player:dara-coen",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). HOLD r15: bare Dara Coen MHC 1992 vs Clarinbridge Darragh Coen (Wikipedia) collision — no overwrite; linked player:darragh-coen only."
   },
   {
     "row": "player:darach-fahy",
@@ -33537,17 +33537,17 @@
   {
     "row": "player:darragh-coen",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:darragh-coen",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Darragh_Coen"
   },
   {
     "row": "player:darragh-coen",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1996 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1996 panel (Galway GAA). Wikipedia: Darragh Coen (b.1975) Clarinbridge club; Galway senior 1997–1998; U-21 1996 panel age-match."
   },
   {
     "row": "player:darragh-cooney",
@@ -40192,7 +40192,7 @@
   {
     "row": "player:murty-killilea",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r15: bare Murty Killilea U-21 panel vs historic Fohenagh Paddy Killilea (1963 team sheet) — distinct first names; no merge; skip orphan fills."
   },
   {
     "row": "player:n-gilmartin",
@@ -40587,7 +40587,7 @@
   {
     "row": "player:niall-kelly",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). HOLD r15: bare Niall Kelly IHC 1999 without first+last club cite — skip orphan fills."
   },
   {
     "row": "player:niall-mcinerney",
@@ -40637,17 +40637,17 @@
   {
     "row": "player:niall-quinn",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:niall-quinn",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:niall-quinn",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). Wikipedia 2024 Galway SHC QF: Niall Quinn scored for Sarsfields vs Cappataggle; Sarsfields GAA senior panel listing; U-21 2011 panel age-plausible."
   },
   {
     "row": "player:nigel-shaughnessy",
@@ -40707,7 +40707,7 @@
   {
     "row": "player:noel-kelly",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD r15: bare Noel Kelly U-21 2007 vs Sarsfields panel Noel Kelly / AF Kelly family collision — skip unless first+last disambiguated cite."
   },
   {
     "row": "player:noel-larkin",
@@ -41227,17 +41227,17 @@
   {
     "row": "player:paddy-hannon",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:paddy-hannon",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:paddy-hannon",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). Wikipedia 2022–2025 Galway SHC/Senior B: Paddy/Patrick Hannon scored for Athenry (multiple rounds); Athenry GAA 2024 Senior B champions panel; IHC 2015 panel age-plausible."
   },
   {
     "row": "player:paddy-hurney",
@@ -41617,17 +41617,17 @@
   {
     "row": "player:paul-callanan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:paul-callanan",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaybayfm.ie/sports/brooks-county-senior-hurling-final-preview-clarinbridge-aiming-to-win-first-title-in-eleven-years-104368"
   },
   {
     "row": "player:paul-callanan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Galway Bay FM 2021 SHC final preview: Clarinbridge 2010 county champions captained by Paul Callanan; MHC 2005 panel age-plausible."
   },
   {
     "row": "player:paul-douraghan",
@@ -56547,7 +56547,7 @@
   {
     "row": "appearance:paul-callanan-minor-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:paul-loughnane-minor-2005",
@@ -75457,7 +75457,7 @@
   {
     "row": "appearance:darragh-coen-u-21-1996",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:kevin-hynes-u-21-2005",
@@ -77377,7 +77377,7 @@
   {
     "row": "appearance:paul-callanan-u-21-2007",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:enda-collins-u-21-2007",
@@ -79407,7 +79407,7 @@
   {
     "row": "appearance:niall-quinn-u-21-2011",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:colm-flynn-u-21-2011",
@@ -83887,7 +83887,7 @@
   {
     "row": "appearance:paddy-hannon-ihc-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:paul-flaherty-ihc-2015",
@@ -85837,7 +85837,7 @@
   {
     "row": "player:dara-coen",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:darach-fahy",
@@ -86922,7 +86922,7 @@
   {
     "row": "player:murty-killilea",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:n-gilmartin",
@@ -86987,7 +86987,7 @@
   {
     "row": "player:niall-kelly",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:niall-mcinerney",
@@ -87007,7 +87007,7 @@
   {
     "row": "player:noel-kelly",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:noel-larkin",
@@ -116916,6 +116916,2681 @@
   },
   {
     "row": "player:enda-fahey",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:paddy-hannon",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:paddy-hannon-ihc-2015",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:niall-quinn",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "appearance:niall-quinn-u-21-2011",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:darragh-coen",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:darragh-coen-u-21-1996",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:paul-callanan",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:paul-callanan-minor-2005",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:paul-callanan-u-21-2007",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Sean Kelly"
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Tuam Herald 2026 PIC opener: S. Kelly started full-back for Ahascragh-Fohenagh vs Kinvara."
+  },
+  {
+    "row": "player:sean-kelly-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Alan Moclair"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Tuam Herald 2026 PIC opener: A. Moclair started half-back for Ahascragh-Fohenagh vs Kinvara."
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "name",
+    "val": "Jim Moclair"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Jim Moclair started for Fohenagh."
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "name",
+    "val": "Paddy Killilea"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Paddy Killilea started for Fohenagh."
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "name",
+    "val": "Mick Moylette"
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Mick Moylette started for Fohenagh."
+  },
+  {
+    "row": "player:mick-moylette-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "name",
+    "val": "Gerry Sweeney"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Gerry Sweeney started for Fohenagh (point scorer first half)."
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "name",
+    "val": "Tom Moylette"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tom Moylette started for Fohenagh."
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "name",
+    "val": "Tommy Glynn"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tommy Glynn started for Fohenagh."
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "name",
+    "val": "James Murray"
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: James/Jimmy Murray midfield for Fohenagh (point scorer)."
+  },
+  {
+    "row": "player:james-murray-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "name",
+    "val": "Frank Glynn"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: Frank/Frankie Glynn goal for Fohenagh."
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "name",
+    "val": "Jimmy Corry"
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Jimmy Corry started/scored for Fohenagh."
+  },
+  {
+    "row": "player:jimmy-corry-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "name",
+    "val": "Albie Glynn"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: Albie/Abie Glynn started/scored for Fohenagh."
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "name",
+    "val": "Liam Murray"
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Liam Murray started for Fohenagh."
+  },
+  {
+    "row": "player:liam-murray-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "name",
+    "val": "Sean Carrig"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: Sean Carrig named Fohenagh substitute."
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "name",
+    "val": "David Lee"
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway SHC: David Lee scored for Clarinbridge (goals/points multiple rounds)."
+  },
+  {
+    "row": "player:david-lee-clarinbridge",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "name",
+    "val": "Sean Kilduff"
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC: Sean Kilduff scored for Clarinbridge; Galway Bay FM 2021 Clarinbridge scorer."
+  },
+  {
+    "row": "player:sean-kilduff-clarinbridge",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "name",
+    "val": "Mikey Fallon"
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC: Mikey Fallon scored a goal for Clarinbridge vs Turloughmore."
+  },
+  {
+    "row": "player:mikey-fallon-clarinbridge",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "name",
+    "val": "Ronan Bellew"
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway Senior B: Ronan Bellew free-taker/scorer for Pádraig Pearses."
+  },
+  {
+    "row": "player:ronan-bellew-padraig-pearses",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "name",
+    "val": "Emmett Ward"
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway Senior B: Emmett/Emmet Ward scored for Pádraig Pearses (incl. penalties)."
+  },
+  {
+    "row": "player:emmett-ward-padraig-pearses",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "name",
+    "val": "Bobby Feeney"
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC: Bobby Feeney scored for Loughrea (group rounds)."
+  },
+  {
+    "row": "player:bobby-feeney-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "name",
+    "val": "Ciaran Leen"
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "club",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC: Ciaran Leen free-taker/lead scorer for Craughwell."
+  },
+  {
+    "row": "player:ciaran-leen-craughwell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "name",
+    "val": "Adrian Prendergast"
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "club",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway SHC: Adrian Prendergast scored for Craughwell."
+  },
+  {
+    "row": "player:adrian-prendergast-craughwell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "name",
+    "val": "Jack Coyne"
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "club",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway SHC: Jack Coyne scored for Castlegar (multiple rounds)."
+  },
+  {
+    "row": "player:jack-coyne-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "name",
+    "val": "Tom Quirke"
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway SHC: Tom Quirke scored for Turloughmore (incl. goals)."
+  },
+  {
+    "row": "player:tom-quirke-turloughmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "name",
+    "val": "Victor Manso"
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway SHC: Victor Manso scored for St Thomas' (incl. goals)."
+  },
+  {
+    "row": "player:victor-manso-st-thomas",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "name",
+    "val": "Noel Keogh"
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "note",
+    "val": "Wikipedia 2024 Senior B / Athenry GAA panel: Noel Keogh scored for Athenry."
+  },
+  {
+    "row": "player:noel-keogh-athenry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Jack Kenny"
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "club",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway Senior B: Jack Kenny free-taker/scorer for Kilnadeema–Leitrim."
+  },
+  {
+    "row": "player:jack-kenny-kilnadeema-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Niall Moloney"
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway Senior B: Niall Moloney scored for Tynagh-Abbey/Duniry."
+  },
+  {
+    "row": "player:niall-moloney-tynagh-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "name",
+    "val": "Dean Finnerty"
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "club",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway Senior B: Dean Finnerty scored for Mullagh."
+  },
+  {
+    "row": "player:dean-finnerty-mullagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "name",
+    "val": "Donnacha Ganly"
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway Senior B: Donnacha Ganly scored for Ballinderreen."
+  },
+  {
+    "row": "player:donnacha-ganly-ballinderreen",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "name",
+    "val": "Jack Walsh"
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "club",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway SHC: Jack Walsh scored for Kilconieron (incl. goals)."
+  },
+  {
+    "row": "player:jack-walsh-kilconieron",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "name",
+    "val": "Lorcan Walsh"
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "note",
+    "val": "Wikipedia 2024/2025 Galway SHC: Lorcan Walsh scored for Gort."
+  },
+  {
+    "row": "player:lorcan-walsh-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "name",
+    "val": "Loughrea vs Moycullen (2024 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "runner_up",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "score",
+    "val": "Loughrea 1-24, Moycullen 1-17"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Group 2 Round 2 at Pearse Stadium."
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-loughrea-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "name",
+    "val": "Clarinbridge vs Craughwell (2024 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "runner_up",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "score",
+    "val": "Clarinbridge 2-23, Craughwell 0-14"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Group 2 Round 2 at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r2-clarinbridge-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "name",
+    "val": "Craughwell vs Moycullen (2024 Galway SHC Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "runner_up",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "score",
+    "val": "Craughwell 0-25, Moycullen 1-15"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Group 2 Round 3 at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-craughwell-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "name",
+    "val": "Loughrea vs Clarinbridge (2024 Galway SHC Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "runner_up",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "score",
+    "val": "Loughrea 3-18, Clarinbridge 1-18"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Group 2 Round 3 at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-r3-loughrea-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "name",
+    "val": "Oranmore-Maree vs Gort (2024 Galway SHC Relegation Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "round",
+    "val": "Relegation Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "home",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "winner",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "runner_up",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "score",
+    "val": "Oranmore-Maree 3-25, Gort 0-14"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Relegation Semi-final at Duggan Park."
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-oranmore-maree-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "name",
+    "val": "Moycullen vs Mullagh (2024 Galway SHC Relegation Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "round",
+    "val": "Relegation Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "home",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "winner",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "runner_up",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "score",
+    "val": "Moycullen 0-23, Mullagh 2-16"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Relegation Semi-final at Gort."
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-relegation-sf-moycullen-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "name",
+    "val": "Castlegar vs Kilconieron (2024 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "runner_up",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "score",
+    "val": "Castlegar 2-25, Kilconieron 0-13"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Preliminary Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-castlegar-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "name",
+    "val": "Cappataggle vs Killimordaly (2024 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "runner_up",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "score",
+    "val": "Cappataggle 3-27, Killimordaly 2-15"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Preliminary Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-pqf-cappataggle-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "name",
+    "val": "Clarinbridge vs Tommy Larkin's (2024 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "runner_up",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "score",
+    "val": "Clarinbridge 0-15, Tommy Larkin's 0-10"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-clarinbridge-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "name",
+    "val": "St Thomas' vs Turloughmore (2024 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "runner_up",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "score",
+    "val": "St Thomas' 0-19, Turloughmore 1-15"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-st-thomas-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "name",
+    "val": "Cappataggle vs Kilconieron (2025 Galway SHC Relegation Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "round",
+    "val": "Relegation Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "runner_up",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "score",
+    "val": "Cappataggle 2-15, Kilconieron 0-16"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC Senior A Relegation Semi-final at Loughrea."
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-cappataggle-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "name",
+    "val": "Gort vs Ardrahan (2025 Galway SHC Relegation Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "round",
+    "val": "Relegation Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "runner_up",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "score",
+    "val": "Gort 2-11, Ardrahan 0-15"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC Senior A Relegation Semi-final at Kilbacanty."
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-relegation-sf-gort-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "name",
+    "val": "Sarsfields vs Castlegar (2025 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "score",
+    "val": "Sarsfields 1-31, Castlegar 2-24"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC Preliminary Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-sarsfields-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "name",
+    "val": "Tommy Larkin's vs Athenry (2025 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "runner_up",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "score",
+    "val": "Tommy Larkin's 2-22, Athenry 2-11"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC Preliminary Quarter-final at Duggan Park."
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-pqf-tommy-larkins-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "name",
+    "val": "Oranmore-Maree vs Turloughmore (2025 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "home",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "runner_up",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "score",
+    "val": "Oranmore-Maree 0-21, Turloughmore 5-16"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-oranmore-maree-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "name",
+    "val": "St Thomas' vs Tommy Larkin's (2025 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "runner_up",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "score",
+    "val": "St Thomas' 1-18, Tommy Larkin's 0-19"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-st-thomas-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "name",
+    "val": "Clarinbridge vs Loughrea (2025 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "runner_up",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "score",
+    "val": "Clarinbridge 2-24, Loughrea 3-19"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway SHC Quarter-final at Kenny Park."
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-qf-clarinbridge-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Ballinderreen vs Tynagh-Abbey/Duniry (2025 Galway Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "runner_up",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Ballinderreen 1-23, Tynagh-Abbey/Duniry 1-17"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway Senior B Group A Round 3 at Loughrea."
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-ballinderreen-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "name",
+    "val": "Kilnadeema–Leitrim vs Liam Mellows (2025 Galway Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "runner_up",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "score",
+    "val": "Kilnadeema–Leitrim 1-19, Liam Mellows 0-16"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2025 Galway Senior B Group A Round 3 at Kilbacanty."
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2025-senior-b-r3-kilnadeema-leitrim-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "player:dara-coen",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:noel-kelly",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:niall-kelly",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:murty-killilea",
     "col": "hold",
     "val": true
   }
