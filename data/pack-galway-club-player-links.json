@@ -1,33 +1,17 @@
 {
   "pack": "galway-club-player-links",
-  "round": "48",
-  "generated_at": "2026-09-06T23:28:57.196473+00:00",
+  "round": "49",
+  "generated_at": "2026-09-06T23:35:45.089602+00:00",
   "sources": [
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1971",
     "https://www.kilconierongaaclub.ie/",
-    "https://mullaghgaa.clubzap.com/results",
-    "https://ballinderreengaa.clubzap.com/results",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1968",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1969",
-    "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876",
-    "https://www.tuamherald.ie/2026/08/12/pearses-get-better-of-ballygar/",
-    "https://www.galwaybayfm.ie/sports/draws-announced-for-county-senior-and-intermediate-hurling-preliminary-quarter-finals-229399"
+    "https://www.galwaybayfm.ie/sports/2026-kilbeacanty-7s-interviews-222518",
+    "https://www.connachttribune.ie/sport/clarinbridge-maintain-winning-start-to-galway-shc-with-victory-over-cappataggle-8936474",
+    "https://www.connachttribune.ie/sport/craughwell-edge-past-liam-mellows-in-tight-galway-shc-group-two-clash-8939262",
+    "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
   ],
   "before": {
-    "players": 1609,
-    "players_with_club": 1530,
-    "players_without_club": 79,
-    "orphan_clubs": 5,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1269,
-    "appearances": 686
-  },
-  "after": {
     "players": 1614,
     "players_with_club": 1535,
     "players_without_club": 79,
@@ -42,45 +26,64 @@
     "matches": 1281,
     "appearances": 686
   },
+  "after": {
+    "players": 1622,
+    "players_with_club": 1543,
+    "players_without_club": 79,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1291,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 0,
-    "players_created": 5,
+    "players_created": 8,
     "clubs_created": 0,
     "appearances_clubbed": 0,
-    "matches_added": 12,
-    "players_with_club": 5,
+    "matches_added": 10,
+    "players_with_club": 8,
     "orphan_clubs": 0
   },
   "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:cathal-keane-rahoon",
-    "player:niall-martin-kilconieron",
-    "player:pierce-mcdonagh-ballygar",
-    "player:gerry-mcguinness-ballygar",
-    "player:david-oconnor-ballinderreen"
+    "player:kevin-molloy-craughwell",
+    "player:dara-zimmer-craughwell",
+    "player:darragh-mccartin-craughwell",
+    "player:conor-gilligan-craughwell",
+    "player:michael-burke-skehana-mountbellew-moylough",
+    "player:padraig-glynn-skehana-mountbellew-moylough",
+    "player:liam-tully-skehana-mountbellew-moylough",
+    "player:adam-cummins-skehana-mountbellew-moylough"
   ],
   "all_linked_ids": [],
   "all_created_ids": [
-    "player:cathal-keane-rahoon",
-    "player:niall-martin-kilconieron",
-    "player:pierce-mcdonagh-ballygar",
-    "player:gerry-mcguinness-ballygar",
-    "player:david-oconnor-ballinderreen"
+    "player:kevin-molloy-craughwell",
+    "player:dara-zimmer-craughwell",
+    "player:darragh-mccartin-craughwell",
+    "player:conor-gilligan-craughwell",
+    "player:michael-burke-skehana-mountbellew-moylough",
+    "player:padraig-glynn-skehana-mountbellew-moylough",
+    "player:liam-tully-skehana-mountbellew-moylough",
+    "player:adam-cummins-skehana-mountbellew-moylough"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-pihc-2026-r2-kilconieron-skehana-mm",
-    "match:galway-pihc-2026-r2-mullagh-beagh",
-    "match:galway-pihc-2026-r2-ballinderreen-padraig-pearses",
-    "match:galway-pihc-2026-r3-mullagh-kilconieron",
-    "match:galway-pihc-2026-r3-ballygar-ballinderreen",
-    "match:galway-u21hc-1968-north-final-athenry-turloughmore",
-    "match:galway-mhc-1968-sf-athenry-oranmore-maree",
-    "match:galway-mhc-1968-final-craughwell-athenry",
-    "match:galway-u16hc-1968-sf-athenry-loughrea",
-    "match:galway-u16hc-1968-final-athenry-oranmore-maree",
-    "match:galway-mhc-1969-north-final-athenry-turloughmore",
-    "match:galway-u21hc-1969-north-final-turloughmore-athenry"
+    "match:galway-u21hc-1971-north-final-athenry-turloughmore",
+    "match:galway-u21hc-1971-final-mullagh-athenry",
+    "match:galway-u16hc-1967-sf-athenry-castlegar",
+    "match:galway-u16hc-1967-final-ballinakill-athenry",
+    "match:galway-mhc-1967-athenry-abbeyknockmoy",
+    "match:galway-mhc-1967-athenry-turloughmore",
+    "match:kilbeacanty-7s-2026-final-tommy-larkins-gort",
+    "match:galway-junior-b-hc-2026-castlegar-kilconieron",
+    "match:galway-junior-b-hc-2026-craughwell-kilconieron",
+    "match:galway-junior-d-hc-2026-kilconieron-castlegar"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -166,10 +169,11 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 216,
-    "players_created": 5,
-    "matches_added": 12,
-    "updated": 6,
+    "added": 208,
+    "players_created": 8,
+    "matches_added": 10,
+    "updated": 14,
+    "matches_updated": 1,
     "players_linked": 0,
     "clubs_created": 0,
     "appearances_clubbed": 0
@@ -231,5 +235,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r48: 2026 PIHC Round 2+3 scored Matches (Kilconieron GAA; Mullagh+Ballinderreen ClubZap); Athenry 1968–1969 MHC/U-21/U-16 scored gaps; Rahoon/Kilconieron/Ballygar thin fills (CT/Tuam Herald); club-less ~79 stay HOLD; AF/Fohenagh dense skipped; HOLD orphans skipped; new HOLD notes Enda Lawless Carnmore↔ME keeper collision + Joe Keane/Gordon Glynn/Declan Jennings/Aonghus Dervan/Sean Glynn."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r49: Athenry 1967 U-16 + MHC scored path + 1971 U-21 North/Final gaps; Kilbeacanty 7s + Junior B/D scored Matches (Kilconieron GAA); Clarinbridge R2 score correction (CT 2-19); Craughwell+Skehana-MM thin fills; club-less ~79 stay HOLD (collision notes); AF/Fohenagh dense skipped; HOLD orphans skipped."
 }

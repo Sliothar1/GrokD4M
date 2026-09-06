@@ -1,0 +1,371 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Kevin Molloy",
+      "id": "player:kevin-molloy-craughwell",
+      "club": "club:craughwell",
+      "source": "https://www.connachttribune.ie/sport/craughwell-edge-past-liam-mellows-in-tight-galway-shc-group-two-clash-8939262",
+      "note": "Connacht Tribune 2026 SHC R2 team sheet: Kevin Molloy 0-1 in Craughwell half-back line vs Liam Mellows (thin-club fill; Craughwell ~17).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dara Zimmer",
+      "id": "player:dara-zimmer-craughwell",
+      "club": "club:craughwell",
+      "source": "https://www.connachttribune.ie/sport/craughwell-edge-past-liam-mellows-in-tight-galway-shc-group-two-clash-8939262",
+      "note": "Connacht Tribune 2026 SHC R2 team sheet: Dara Zimmer 0-1 started in Craughwell attack vs Liam Mellows. Thin-club fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darragh McCartin",
+      "id": "player:darragh-mccartin-craughwell",
+      "club": "club:craughwell",
+      "source": "https://www.connachttribune.ie/sport/craughwell-edge-past-liam-mellows-in-tight-galway-shc-group-two-clash-8939262",
+      "note": "Connacht Tribune 2026 SHC R2 team sheet: Darragh McCartin 0-1 for Craughwell vs Liam Mellows. Thin-club fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Gilligan",
+      "id": "player:conor-gilligan-craughwell",
+      "club": "club:craughwell",
+      "source": "https://www.connachttribune.ie/sport/craughwell-edge-past-liam-mellows-in-tight-galway-shc-group-two-clash-8939262",
+      "note": "Connacht Tribune 2026 SHC R2 team sheet: Conor Gilligan 0-1 for Craughwell vs Liam Mellows. Thin-club fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Burke",
+      "id": "player:michael-burke-skehana-mountbellew-moylough",
+      "club": "club:skehana-mountbellew-moylough",
+      "source": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1: substitute Michael Burke 0-1 for Skehana-Mountbellew-Moylough vs Mullagh (came on for A. Cummins). Club-scoped thin fill (Skehana-MM ~12); do not merge to other Michael Burke rows.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Padraig Glynn",
+      "id": "player:padraig-glynn-skehana-mountbellew-moylough",
+      "club": "club:skehana-mountbellew-moylough",
+      "source": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: P. Glynn started in Skehana-Mountbellew-Moylough defence vs Mullagh. Club-scoped thin fill (expanded from sheet initial with first+last club-scoped id).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Liam Tully",
+      "id": "player:liam-tully-skehana-mountbellew-moylough",
+      "club": "club:skehana-mountbellew-moylough",
+      "source": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: L. Tully started for Skehana-Mountbellew-Moylough vs Mullagh. Club-scoped thin fill — HOLD collision note vs player:liam-tully-ahascragh-fohenagh (different club; do not merge).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adam Cummins",
+      "id": "player:adam-cummins-skehana-mountbellew-moylough",
+      "club": "club:skehana-mountbellew-moylough",
+      "source": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 team sheet: A. Cummins started for Skehana-Mountbellew-Moylough vs Mullagh (replaced by Michael Burke 43'). Club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-u21hc-1971-north-final-athenry-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Turloughmore (1971 Galway U-21 North Board Final)",
+        "competition": "Galway Under-21 Hurling Championship",
+        "round": "North Board Final",
+        "year": 1971,
+        "home": "club:athenry",
+        "away": "club:turloughmore",
+        "score": "Athenry 5-05, Turloughmore 4-07",
+        "note": "Athenry GAA history 1971: U-21 North Board Final Athenry 5-5 to 4-7 over Turloughmore (revenge after SHC controversy). Historic scored path gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1971",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-u21hc-1971-final-mullagh-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Athenry (1971 Galway U-21 HC Final)",
+        "competition": "Galway Under-21 Hurling Championship",
+        "round": "Final",
+        "year": 1971,
+        "home": "club:mullagh",
+        "away": "club:athenry",
+        "score": "Mullagh 3-12, Athenry 0-02",
+        "note": "Athenry GAA history 1971: after U-21 SF win over Craughwell, Mullagh proved far too good in a one-sided county final 3-12 to 0-2. Historic scored path gap / IHC-age pathway.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1971",
+        "result": "win",
+        "winner": "club:mullagh",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-u16hc-1967-sf-athenry-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Castlegar (1967 Galway U-16 HC Semi-final)",
+        "competition": "Galway Under-16 Hurling Championship",
+        "round": "Semi-final",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:castlegar",
+        "score": "Athenry 3-03, Castlegar 1-03",
+        "note": "Athenry GAA history 1967: U-16 county SF at Craughwell Athenry 3-3 to 1-3 Castlegar. Historic scored path gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:castlegar",
+        "venue": "Craughwell"
+      }
+    },
+    {
+      "id": "match:galway-u16hc-1967-final-ballinakill-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Ballinakill (Tommy Larkin's) vs Athenry (1967 Galway U-16 HC Final)",
+        "competition": "Galway Under-16 Hurling Championship",
+        "round": "Final",
+        "year": 1967,
+        "home": "club:tommy-larkins",
+        "away": "club:athenry",
+        "score": "Ballinakill 5-02, Athenry 3-03",
+        "note": "Athenry GAA history 1967: U-16 county final at Craughwell Ballinakill 5-2, Athenry 3-3. Historic scored path gap; mapped to club:tommy-larkins (Woodford-Ballinakill successor identity) rather than orphan historic shell.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:tommy-larkins",
+        "runner_up": "club:athenry",
+        "venue": "Craughwell",
+        "historic_club": "Ballinakill (historic; Woodford-Ballinakill / Tommy Larkins parish predecessor)"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1967-athenry-abbeyknockmoy",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Abbeyknockmoy (1967 Galway MHC North Board)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "North Board",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:abbeyknockmoy",
+        "score": "Athenry 4-07, Abbeyknockmoy 1-05",
+        "note": "Athenry GAA history 1967: MHC North Board opener Athenry 4-7 to 1-5 Abbeyknockmoy (later awarded after Abbey objection/no-show replay). Historic scored path gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:abbeyknockmoy"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1967-athenry-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Turloughmore (1967 Galway MHC)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "North Board",
+        "year": 1967,
+        "home": "club:athenry",
+        "away": "club:turloughmore",
+        "score": "Athenry 6-06, Turloughmore 3-02",
+        "note": "Athenry GAA history 1967: MHC path Athenry 6-6 to 3-2 over Turloughmore en route to North Board Final vs Skehana. Historic scored path gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:kilbeacanty-7s-2026-final-tommy-larkins-gort",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Gort (2026 Kilbeacanty 7s Senior Final)",
+        "competition": "Kilbeacanty 7s Senior Hurling",
+        "round": "Final",
+        "year": 2026,
+        "home": "club:tommy-larkins",
+        "away": "club:gort",
+        "score": "Tommy Larkin's 4-09, Gort 3-07",
+        "note": "Galway Bay FM 2 Jun 2026: Kilbeacanty 7s senior hurling final Tommie Larkins beat Gort 4-9 to 3-7. Published scored invitational final (remaining 2026 scored path).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/2026-kilbeacanty-7s-interviews-222518",
+        "result": "win",
+        "winner": "club:tommy-larkins",
+        "runner_up": "club:gort",
+        "venue": "Kilbeacanty"
+      }
+    },
+    {
+      "id": "match:galway-junior-b-hc-2026-castlegar-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Kilconieron (2026 Galway Junior B HC Group 2)",
+        "competition": "Galway Junior B Hurling Championship",
+        "round": "Group 2",
+        "year": 2026,
+        "home": "club:castlegar",
+        "away": "club:kilconieron",
+        "score": "Castlegar 0-19, Kilconieron 1-09",
+        "note": "Kilconieron GAA club results: Junior B HC Group 2 full-time Castlegar 0-19 - Kilconieron 1-9 (2026-09-05). JHC scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:castlegar",
+        "runner_up": "club:kilconieron"
+      }
+    },
+    {
+      "id": "match:galway-junior-b-hc-2026-craughwell-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Kilconieron (2026 Galway Junior B HC Group 2)",
+        "competition": "Galway Junior B Hurling Championship",
+        "round": "Group 2",
+        "year": 2026,
+        "home": "club:craughwell",
+        "away": "club:kilconieron",
+        "score": "Craughwell 0-16, Kilconieron 0-21",
+        "note": "Kilconieron GAA club results: Junior B HC Group 2 full-time Craughwell 0-16 - Kilconieron 0-21 (2026-08-09). JHC scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:kilconieron",
+        "runner_up": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-junior-d-hc-2026-kilconieron-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Castlegar (2026 Galway Junior D HC Group 2)",
+        "competition": "Galway Junior D Hurling Championship",
+        "round": "Group 2",
+        "year": 2026,
+        "home": "club:kilconieron",
+        "away": "club:castlegar",
+        "score": "Kilconieron 2-09, Castlegar 1-15",
+        "note": "Kilconieron GAA club results: Junior D HC Group 2 full-time Kilconieron 2-9 - Castlegar 1-15 (2026-09-05). JHC scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:castlegar",
+        "runner_up": "club:kilconieron"
+      }
+    }
+  ],
+  "match_updates": [
+    {
+      "id": "match:galway-shc-2026-r2-clarinbridge-cappataggle",
+      "cols": {
+        "score": "Clarinbridge 2-19, Cappataggle 0-17",
+        "source": "https://www.connachttribune.ie/sport/clarinbridge-maintain-winning-start-to-galway-shc-with-victory-over-cappataggle-8936474",
+        "note": "r49 score correction: Connacht Tribune match report Clarinbridge 2-19 Cappataggle 0-17 (Wikipedia had 2-18); Dylan Dunne 2-1 decisive. Prefer published CT report over Wiki table."
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:tadgh-haran": "HOLD r49 collision: Wikipedia + Connacht Tribune 2026 SHC name Tadhg/Tadgh Haran for Liam Mellows, but seed already has clubbed player:tadhg-haran → club:liam-mellows — bare U-21 2011 panel spelling twin stays HOLD; do not double-stamp.",
+    "player:mike-egan": "HOLD r49 collision: Connacht Tribune 2026 SHC R2 team sheet names Cappataggle GK Michael Egan; seed already has player:michael-egan → club:cappataggle — bare MHC 2018 Mike Egan stays HOLD pending twin-safe clear.",
+    "player:brendan-lynch": "HOLD r49 collision: Galway GAA / Abbey heritage name Brendan Lynch (Tynagh-Abbey/Duniry GK); seed already has player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 panel row stays HOLD.",
+    "player:padraig-breheny": "HOLD r49: continue spelling/id collision — club-scoped player:padraig-breheny-tynagh-abbey-duniry + Wikipedia Pádraig Brehony exist; bare AIHC 2017 panel stays HOLD.",
+    "player:shane-maloney": "HOLD r49 collision: Wikipedia/Irish Times Shane Moloney → Tynagh-Abbey/Duniry already clubbed as player:shane-moloney — bare MHC spelling twin stays HOLD.",
+    "player:tom-monaghan": "HOLD r49: MHC 1983 bare Tom Monaghan stays HOLD — Connacht Tribune 2026 SHC Tom Monaghan is clubbed as player:thomas-monaghan (Craughwell); different era/panel; do not merge.",
+    "player:aonghus-dervan": "HOLD r49: still no first+last published Galway club hurling cite for Aonghus Dervan (U-21 2005) — keep HOLD.",
+    "player:gordon-glynn": "HOLD r49: still no first+last published Galway club hurling cite for bare Gordon Glynn — stay HOLD (do not merge to player:gordan-glynn Kiltormer).",
+    "player:sean-glynn": "HOLD r49: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear.",
+    "player:joe-keane": "HOLD r49: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD.",
+    "player:declan-jennings": "HOLD r49: Declan Jennings/Jenning twin cluster still unresolved — no new first+last multi-source clear; stay HOLD."
+  }
+}
