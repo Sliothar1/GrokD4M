@@ -31292,7 +31292,7 @@
   {
     "row": "player:aodh-davoren",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD r32 NEW: club-less Aodh Davoren (U-21 1986 panel); no first+last published Galway club hurling cite found — keep HOLD."
   },
   {
     "row": "player:aonghus-dervan",
@@ -32642,7 +32642,7 @@
   {
     "row": "player:colm-odoherty",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). HOLD r32 NEW: club-less Colm O'Doherty (MHC 1992 panel); no first+last published Galway club hurling cite found — keep HOLD."
   },
   {
     "row": "player:connell-keane",
@@ -33032,7 +33032,7 @@
   {
     "row": "player:conor-odonovan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). HOLD r32 NEW: club-less Conor O'Donovan (MHC 1992 panel); Wikipedia Conor O'Donovan is Tipperary/Nenagh Éire Óg — identity collision risk; do not auto-stamp Galway club."
   },
   {
     "row": "player:conor-ryan",
@@ -35462,7 +35462,7 @@
   {
     "row": "player:fr-michael-kilkenny",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Fr Michael Kilkenny (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD."
   },
   {
     "row": "player:francis-forde",
@@ -36072,7 +36072,7 @@
   {
     "row": "player:gerry-smith",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Gerry Smith (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD."
   },
   {
     "row": "player:gordon-glynn",
@@ -38477,7 +38477,7 @@
   {
     "row": "player:liam-shiels",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA). HOLD r32 NEW: club-less Liam Shiels (U-21 1972 panel; Athenry photo caption Liam Shiel RIP without club chip on panel page) — keep HOLD pending club cite."
   },
   {
     "row": "player:luke-cosgrove",
@@ -39307,17 +39307,17 @@
   {
     "row": "player:michael-coen",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:michael-coen",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://hoganstand.com/county/galway/article/index/88771"
   },
   {
     "row": "player:michael-coen",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA). HoganStand Noel Lane profile: Michael Coen named as Ballinderreen club colleague / county senior with Joe McDonagh in mid-1970s; first+last published Galway club hurling cite for U-21 1972 panel Michael Coen."
   },
   {
     "row": "player:michael-coleman",
@@ -39367,17 +39367,17 @@
   {
     "row": "player:michael-conneely",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:michael-conneely",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Michael_Conneely"
   },
   {
     "row": "player:michael-conneely",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1980 panel (Galway GAA). HOLD: possible 2017 Liam Mellows Michael Conneely collision — no club stamp; see player:michael-conneely-liam-mellows."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1980 panel (Galway GAA). HOLD: possible 2017 Liam Mellows Michael Conneely collision — no club stamp; see player:michael-conneely-liam-mellows. Wikipedia Michael Conneely: Galway 1980 All-Ireland goalkeeper; club Sarsfields (1980 county + Connacht medals). Clears prior HOLD — distinct from club-scoped player:michael-conneely-liam-mellows (2017 final XV)."
   },
   {
     "row": "player:michael-connolly",
@@ -39592,7 +39592,7 @@
   {
     "row": "player:michael-flaherty",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). HOLD r32 NEW: club-less Michael Flaherty (U-21 1986 panel); multiple Galway Flaherty club lines — identity collision; do not auto-stamp."
   },
   {
     "row": "player:michael-flynn",
@@ -39802,7 +39802,7 @@
   {
     "row": "player:michael-kerins",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). HOLD r32 NEW: club-less Michael Kerins (U-21 1993 panel); Alan Kerins Clarinbridge is different forename — do not auto-stamp."
   },
   {
     "row": "player:michael-lynskey",
@@ -40282,7 +40282,7 @@
   {
     "row": "player:ned-campbell",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA). HOLD r32 NEW: club-less Ned Campbell (U-21 1972 panel); Irish World lists E Campbell (Kiltormer) in a later panel context — spelling/era collision risk; do not auto-stamp bare Ned."
   },
   {
     "row": "player:niall-coen",
@@ -44017,7 +44017,7 @@
   {
     "row": "player:tom-healy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). HOLD r32 NEW: club-less Tom Healy (MHC 1992 panel); multiple Galway Tom Healy hits (football Corofin / dual-name panels) — identity collision; do not auto-stamp without club cite."
   },
   {
     "row": "player:tom-kenny",
@@ -46017,7 +46017,7 @@
   {
     "row": "appearance:michael-conneely-shc-1980",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:frank-burke-shc-1980",
@@ -69852,7 +69852,7 @@
   {
     "row": "appearance:michael-coen-u-21-1972",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:iggy-clarke-u-21-1972",
@@ -85492,7 +85492,7 @@
   {
     "row": "player:aodh-davoren",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:aonghus-dervan",
@@ -85707,7 +85707,7 @@
   {
     "row": "player:colm-odoherty",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:connell-keane",
@@ -85772,7 +85772,7 @@
   {
     "row": "player:conor-odonovan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:conor-ryan",
@@ -86172,7 +86172,7 @@
   {
     "row": "player:fr-michael-kilkenny",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:francis-forde",
@@ -86272,7 +86272,7 @@
   {
     "row": "player:gerry-smith",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:gordon-glynn",
@@ -86657,7 +86657,7 @@
   {
     "row": "player:liam-shiels",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:luke-glynn",
@@ -86787,7 +86787,7 @@
   {
     "row": "player:michael-conneely",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:michael-connolly",
@@ -86822,7 +86822,7 @@
   {
     "row": "player:michael-flaherty",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:michael-flynn",
@@ -86857,7 +86857,7 @@
   {
     "row": "player:michael-kerins",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:michael-lynskey",
@@ -86937,7 +86937,7 @@
   {
     "row": "player:ned-campbell",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:niall-coen",
@@ -87527,7 +87527,7 @@
   {
     "row": "player:tom-healy",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:tom-kenny",
@@ -90267,7 +90267,7 @@
   {
     "row": "player:michael-conneely",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:andrew-keary",
@@ -171631,6 +171631,5616 @@
   },
   {
     "row": "player:brendan-lynch-tynagh-abbey-duniry",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:michael-conneely",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "appearance:michael-conneely-shc-1980",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:michael-coen",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "appearance:michael-coen-u-21-1972",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "name",
+    "val": "Mark McMahon"
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC final XV: Mark McMahon started at full-back for Gort vs Liam Mellows. Club-scoped thin fill."
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "name",
+    "val": "Andy Coen"
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC final XV: Andy Coen started for Gort vs Liam Mellows. Club-scoped thin fill; distinct from Ballinderreen/Loughrea Coen lines."
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "name",
+    "val": "Kaelen Higgins"
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC final XV / scorers: Kaelen/Kealen Higgins lined out and scored for Gort. Club-scoped thin fill."
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "name",
+    "val": "Albert Mullins"
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC final XV / scorers: Albert Mullins started and scored for Gort vs Liam Mellows. Club-scoped thin fill; distinct from Michael Mullins Gort."
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "name",
+    "val": "Pakie Lally"
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC final XV: Pakie Lally started for Gort vs Liam Mellows. Club-scoped thin fill; distinct from Gavin/Greg Lally."
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "name",
+    "val": "Michael Cummins"
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC final XV: Michael Cummins started for Gort vs Liam Mellows. Club-scoped thin fill; distinct from Richie Cummins."
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "name",
+    "val": "Jack Commins"
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC final / group scorers: Jack Commins used as sub and scored for Gort. Club-scoped thin fill; distinct from player:john-commins."
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "name",
+    "val": "Joe Keane"
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC Senior A Round 4: Joe Keane scored for Portumna vs St. Thomas'. Club-scoped thin fill; bare player:joe-keane remains HOLD (multi-club collision)."
+  },
+  {
+    "row": "player:joe-keane-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "name",
+    "val": "Craughwell vs Loughrea (2017 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "score",
+    "val": "Craughwell 2-14, Loughrea 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-craughwell-loughrea",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "name",
+    "val": "Liam Mellows vs Tommy Larkin's (2017 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "score",
+    "val": "Liam Mellows 1-22, Tommy Larkin's 3-12"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-liam-mellows-tommy-larkins",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "name",
+    "val": "Cappataggle vs Mullagh (2017 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "score",
+    "val": "Cappataggle 0-16, Mullagh 0-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r1-cappataggle-mullagh",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "name",
+    "val": "Cappataggle vs Tommy Larkin's (2017 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "score",
+    "val": "Cappataggle 2-9, Tommy Larkin's 1-9"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-cappataggle-tommy-larkins",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "name",
+    "val": "Liam Mellows vs Loughrea (2017 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "score",
+    "val": "Liam Mellows 6-13, Loughrea 3-8"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-liam-mellows-loughrea",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "name",
+    "val": "Mullagh vs Craughwell (2017 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "score",
+    "val": "Mullagh 1-15, Craughwell 0-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r2-mullagh-craughwell",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "name",
+    "val": "Craughwell vs Liam Mellows (2017 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "score",
+    "val": "Craughwell 2-12, Liam Mellows 0-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-craughwell-liam-mellows",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "name",
+    "val": "Cappataggle vs Loughrea (2017 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "score",
+    "val": "Cappataggle 1-18, Loughrea 0-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-cappataggle-loughrea",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "name",
+    "val": "Tommy Larkin's vs Mullagh (2017 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "score",
+    "val": "Tommy Larkin's 1-19, Mullagh 0-13"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r3-tommy-larkins-mullagh",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "name",
+    "val": "Loughrea vs Mullagh (2017 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "score",
+    "val": "Loughrea 0-21, Mullagh 0-20"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-loughrea-mullagh",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "name",
+    "val": "Liam Mellows vs Cappataggle (2017 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "score",
+    "val": "Liam Mellows 1-16, Cappataggle 0-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-liam-mellows-cappataggle",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "name",
+    "val": "Craughwell vs Tommy Larkin's (2017 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "score",
+    "val": "Craughwell 4-19, Tommy Larkin's 1-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r4-craughwell-tommy-larkins",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "name",
+    "val": "Craughwell vs Cappataggle (2017 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "round",
+    "val": "Senior A Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "score",
+    "val": "Craughwell 1-22, Cappataggle 5-10"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-craughwell-cappataggle",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "name",
+    "val": "Liam Mellows vs Mullagh (2017 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "round",
+    "val": "Senior A Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "score",
+    "val": "Liam Mellows 0-21, Mullagh 1-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-liam-mellows-mullagh",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "name",
+    "val": "Tommy Larkin's vs Loughrea (2017 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "round",
+    "val": "Senior A Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "score",
+    "val": "Tommy Larkin's 0-21, Loughrea 1-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g1-r5-tommy-larkins-loughrea",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "name",
+    "val": "Padraig Pearse's vs Portumna (2017 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "score",
+    "val": "Padraig Pearse's 2-13, Portumna 1-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-padraig-pearses-portumna",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "name",
+    "val": "Sarsfields vs Gort (2017 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "score",
+    "val": "Sarsfields 1-17, Gort 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-sarsfields-gort",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "name",
+    "val": "Turloughmore vs St. Thomas' (2017 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "score",
+    "val": "Turloughmore 1-13, St. Thomas' 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r1-turloughmore-st-thomas",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "name",
+    "val": "Gort vs Turloughmore (2017 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "score",
+    "val": "Gort 1-19, Turloughmore 0-13"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-gort-turloughmore",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "name",
+    "val": "Portumna vs Sarsfields (2017 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "score",
+    "val": "Portumna 3-17, Sarsfields 1-11"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-portumna-sarsfields",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "name",
+    "val": "St. Thomas' vs Padraig Pearse's (2017 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "score",
+    "val": "St. Thomas' 0-19, Padraig Pearse's 1-11"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r2-st-thomas-padraig-pearses",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "name",
+    "val": "Sarsfields vs Padraig Pearse's (2017 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "score",
+    "val": "Sarsfields 0-17, Padraig Pearse's 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-sarsfields-padraig-pearses",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "name",
+    "val": "Gort vs St. Thomas' (2017 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "score",
+    "val": "Gort 2-18, St. Thomas' 0-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r3-gort-st-thomas",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "name",
+    "val": "St. Thomas' vs Portumna (2017 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "score",
+    "val": "St. Thomas' 1-21, Portumna 1-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-st-thomas-portumna",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "name",
+    "val": "Sarsfields vs Turloughmore (2017 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "score",
+    "val": "Sarsfields 3-17, Turloughmore 0-11"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-sarsfields-turloughmore",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "name",
+    "val": "Gort vs Padraig Pearse's (2017 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "score",
+    "val": "Gort 2-11, Padraig Pearse's 2-10"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r4-gort-padraig-pearses",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "name",
+    "val": "Turloughmore vs Padraig Pearse's (2017 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "round",
+    "val": "Senior A Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "score",
+    "val": "Turloughmore 0-16, Padraig Pearse's 0-13"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-turloughmore-padraig-pearses",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "name",
+    "val": "St. Thomas' vs Sarsfields (2017 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "round",
+    "val": "Senior A Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "score",
+    "val": "St. Thomas' 0-20, Sarsfields 0-18"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-st-thomas-sarsfields",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "name",
+    "val": "Portumna vs Gort (2017 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "round",
+    "val": "Senior A Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "score",
+    "val": "Portumna 2-24, Gort 1-17"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sa-g2-r5-portumna-gort",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "name",
+    "val": "Beagh vs Carnmore (2017 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "score",
+    "val": "Beagh 4-22, Carnmore 0-6"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-beagh-carnmore",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Ardrahan vs Tynagh-Abbey/Duniry (2017 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Ardrahan 0-16, Tynagh-Abbey/Duniry 1-12"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-ardrahan-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "name",
+    "val": "Castlegar vs Clarinbridge (2017 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "score",
+    "val": "Castlegar 0-15, Clarinbridge 0-12"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r1-castlegar-clarinbridge",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "name",
+    "val": "Clarinbridge vs Carnmore (2017 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "score",
+    "val": "Clarinbridge 1-27, Carnmore 1-7"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-clarinbridge-carnmore",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Castlegar vs Tynagh-Abbey/Duniry (2017 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Castlegar 2-12, Tynagh-Abbey/Duniry 1-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-castlegar-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "name",
+    "val": "Beagh vs Ardrahan (2017 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "score",
+    "val": "Beagh 2-16, Ardrahan 2-10"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r2-beagh-ardrahan",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "name",
+    "val": "Castlegar vs Beagh (2017 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "score",
+    "val": "Castlegar 2-16, Beagh 1-17"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-castlegar-beagh",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Clarinbridge (2017 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 2-14, Clarinbridge 1-17"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-tynagh-abbey-duniry-clarinbridge",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "name",
+    "val": "Ardrahan vs Carnmore (2017 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "score",
+    "val": "Ardrahan 3-18, Carnmore 1-11"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r3-ardrahan-carnmore",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "name",
+    "val": "Clarinbridge vs Beagh (2017 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "score",
+    "val": "Clarinbridge 0-16, Beagh 0-11"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-clarinbridge-beagh",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "name",
+    "val": "Castlegar vs Ardrahan (2017 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "score",
+    "val": "Castlegar 1-21, Ardrahan 1-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-castlegar-ardrahan",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Carnmore (2017 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 3-26, Carnmore 0-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r4-tynagh-abbey-duniry-carnmore",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "name",
+    "val": "Castlegar vs Carnmore (2017 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "score",
+    "val": "Castlegar 5-17, Carnmore 0-10"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-castlegar-carnmore",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "name",
+    "val": "Clarinbridge vs Ardrahan (2017 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "score",
+    "val": "Clarinbridge 1-14, Ardrahan 2-10"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-clarinbridge-ardrahan",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Beagh (2017 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 2-13, Beagh 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g1-r5-tynagh-abbey-duniry-beagh",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "name",
+    "val": "Moycullen vs Athenry (2017 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "home",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "score",
+    "val": "Moycullen 0-13, Athenry 0-13"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-moycullen-athenry",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Abbeyknockmoy (2017 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 0-16, Abbeyknockmoy 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r1-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "name",
+    "val": "Athenry vs Killimordaly (2017 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "score",
+    "val": "Athenry 0-15, Killimordaly 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-athenry-killimordaly",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "name",
+    "val": "Moycullen vs Abbeyknockmoy (2017 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "home",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "score",
+    "val": "Moycullen 1-15, Abbeyknockmoy 0-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r2-moycullen-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Athenry (2017 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 1-24, Athenry 2-10"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-kilnadeema-leitrim-athenry",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "name",
+    "val": "Killimordaly vs Moycullen (2017 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "score",
+    "val": "Killimordaly 1-17, Moycullen 0-14"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r3-killimordaly-moycullen",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "name",
+    "val": "Athenry vs Abbeyknockmoy (2017 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "score",
+    "val": "Athenry 1-18, Abbeyknockmoy 0-15"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-athenry-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Killimordaly vs Kilnadeema-Leitrim (2017 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Killimordaly 2-25, Kilnadeema-Leitrim 3-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r4-killimordaly-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Moycullen (2017 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 2-21, Moycullen 1-17"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-kilnadeema-leitrim-moycullen",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "name",
+    "val": "Killimordaly vs Abbeyknockmoy (2017 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "score",
+    "val": "Killimordaly 0-20, Abbeyknockmoy 1-16"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-sb-g2-r5-killimordaly-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "name",
+    "val": "Clarinbridge vs Tommy Larkin's (2017 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "score",
+    "val": "Clarinbridge 2-14, Tommy Larkin's 1-13"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-clarinbridge-tommy-larkins",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Cappataggle vs Kilnadeema-Leitrim (2017 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2017
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Cappataggle 3-17, Kilnadeema-Leitrim 0-10"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2017 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2017_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2017-pqf-cappataggle-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "name",
+    "val": "Sarsfields vs St. Thomas' (2016 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "score",
+    "val": "Sarsfields 1-18, St. Thomas' 1-15"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-sarsfields-st-thomas",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "name",
+    "val": "Loughrea vs Turloughmore (2016 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "score",
+    "val": "Loughrea 1-17, Turloughmore 0-18"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-loughrea-turloughmore",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "name",
+    "val": "Castlegar vs Gort (2016 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "score",
+    "val": "Castlegar 2-22, Gort 4-12"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r1-castlegar-gort",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "name",
+    "val": "Gort vs Sarsfields (2016 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "score",
+    "val": "Gort 2-14, Sarsfields 1-14"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-gort-sarsfields",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "name",
+    "val": "Castlegar vs Turloughmore (2016 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "score",
+    "val": "Castlegar 2-15, Turloughmore 0-12"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-castlegar-turloughmore",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "name",
+    "val": "Loughrea vs St. Thomas' (2016 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "score",
+    "val": "Loughrea 0-14, St. Thomas' 1-10"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r2-loughrea-st-thomas",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "name",
+    "val": "Loughrea vs Sarsfields (2016 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "score",
+    "val": "Loughrea 0-15, Sarsfields 0-14"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-loughrea-sarsfields",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "name",
+    "val": "St. Thomas' vs Castlegar (2016 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "score",
+    "val": "St. Thomas' 1-19, Castlegar 4-9"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-st-thomas-castlegar",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "name",
+    "val": "Turloughmore vs Gort (2016 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "score",
+    "val": "Turloughmore 0-14, Gort 1-11"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r3-turloughmore-gort",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "name",
+    "val": "Sarsfields vs Turloughmore (2016 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "score",
+    "val": "Sarsfields 1-15, Turloughmore 0-18"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-sarsfields-turloughmore",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "name",
+    "val": "Loughrea vs Castlegar (2016 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "score",
+    "val": "Loughrea 4-19, Castlegar 1-16"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-loughrea-castlegar",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "name",
+    "val": "Gort vs St. Thomas' (2016 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "score",
+    "val": "Gort 1-20, St. Thomas' 1-14"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g1-r4-gort-st-thomas",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "name",
+    "val": "Padraig Pearses vs Ardrahan (2016 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "score",
+    "val": "Padraig Pearses 2-12, Ardrahan 0-16"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-padraig-pearses-ardrahan",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "name",
+    "val": "Cappataggle vs Liam Mellows (2016 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "score",
+    "val": "Cappataggle 2-15, Liam Mellows 1-12"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-cappataggle-liam-mellows",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "name",
+    "val": "Portumna vs Craughwell (2016 Galway SHC Senior A Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "round",
+    "val": "Senior A Round 1"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "score",
+    "val": "Portumna 2-13, Craughwell 0-16"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r1-portumna-craughwell",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "name",
+    "val": "Craughwell vs Padraig Pearses (2016 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "score",
+    "val": "Craughwell 1-21, Padraig Pearses 0-15"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-craughwell-padraig-pearses",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "name",
+    "val": "Cappataggle vs Ardrahan (2016 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "score",
+    "val": "Cappataggle 6-20, Ardrahan 1-11"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-cappataggle-ardrahan",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "name",
+    "val": "Portumna vs Liam Mellows (2016 Galway SHC Senior A Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "round",
+    "val": "Senior A Round 2"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "score",
+    "val": "Portumna 0-16, Liam Mellows 1-12"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r2-portumna-liam-mellows",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "name",
+    "val": "Portumna vs Cappataggle (2016 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "score",
+    "val": "Portumna 2-14, Cappataggle 0-20"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-portumna-cappataggle",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "name",
+    "val": "Liam Mellows vs Padraig Pearses (2016 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "score",
+    "val": "Liam Mellows 4-20, Padraig Pearses 2-14"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-liam-mellows-padraig-pearses",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "name",
+    "val": "Craughwell vs Ardrahan (2016 Galway SHC Senior A Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "round",
+    "val": "Senior A Round 3"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "score",
+    "val": "Craughwell 1-17, Ardrahan 1-13"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r3-craughwell-ardrahan",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "name",
+    "val": "Craughwell vs Cappataggle (2016 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "score",
+    "val": "Craughwell 1-13, Cappataggle 0-13"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-craughwell-cappataggle",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "name",
+    "val": "Ardrahan vs Liam Mellows (2016 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "score",
+    "val": "Ardrahan 1-13, Liam Mellows 0-10"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-ardrahan-liam-mellows",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "name",
+    "val": "Portumna vs Padraig Pearses (2016 Galway SHC Senior A Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "round",
+    "val": "Senior A Round 4"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "score",
+    "val": "Portumna 0-19, Padraig Pearses 2-10"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2016-sa-g2-r4-portumna-padraig-pearses",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:colm-odoherty",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:conor-odonovan",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:tom-healy",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:aodh-davoren",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:michael-kerins",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:gerry-smith",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:liam-shiels",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:ned-campbell",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:michael-flaherty",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:fr-michael-kilkenny",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:michael-coen",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:mark-mcmahon-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:andy-coen-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:kaelen-higgins-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:albert-mullins-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:pakie-lally-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:michael-cummins-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:jack-commins-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:joe-keane-portumna",
     "col": "hold",
     "val": false
   }
