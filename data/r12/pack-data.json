@@ -1,0 +1,769 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:paul-flaherty",
+      "club": "club:abbeyknockmoy",
+      "source": "https://www.tuamherald.ie/2011/09/07/mattie-murphys-marvellous-minors-brought-honour-and-glory-to-galway-hurling-again/",
+      "note": "Tuam Herald 2011 AI MHC final: Paul Flaherty (Abbeyknockmoy) sub used for Jack Carr.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:barry-keane",
+      "club": "club:clarinbridge",
+      "source": "https://www.tuamherald.ie/2011/09/07/mattie-murphys-marvellous-minors-brought-honour-and-glory-to-galway-hurling-again/",
+      "note": "Tuam Herald 2011 AI MHC final programme: Barry Keane (Clarinbridge) named among Galway subs.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:shane-lawless",
+      "club": "club:kilnadeema-leitrim",
+      "source": "https://www.tuamherald.ie/2011/09/07/mattie-murphys-marvellous-minors-brought-honour-and-glory-to-galway-hurling-again/",
+      "note": "Tuam Herald 2011 AI MHC: Shane Lawless (Kilnadeema-Leitrim) named among other panel players.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:sean-hickey",
+      "club": "club:kilconieron",
+      "source": "https://www.tuamherald.ie/2011/09/07/mattie-murphys-marvellous-minors-brought-honour-and-glory-to-galway-hurling-again/",
+      "note": "Tuam Herald 2011 AI MHC: Seán Hickey (Kilconieron) named among other panel players.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:sean-collins",
+      "club": "club:ballinderreen",
+      "source": "https://www.tuamherald.ie/2011/09/07/mattie-murphys-marvellous-minors-brought-honour-and-glory-to-galway-hurling-again/",
+      "note": "Tuam Herald 2011 AI MHC: Seán Collins (Ballinderreen) named among other panel players.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:sean-sweeney",
+      "club": "club:loughrea",
+      "source": "https://www.tuamherald.ie/2011/09/07/mattie-murphys-marvellous-minors-brought-honour-and-glory-to-galway-hurling-again/",
+      "note": "Tuam Herald 2011 AI MHC final XV: Seán Sweeney (Loughrea) centre-back.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:darragh-cooney",
+      "club": "club:killimordaly",
+      "source": "https://www.tuamherald.ie/2011/09/07/mattie-murphys-marvellous-minors-brought-honour-and-glory-to-galway-hurling-again/",
+      "note": "Tuam Herald 2011 AI MHC panel: Dara Cooney (Killimordaly); seed id Darragh Cooney — same 2011 minor panel.",
+      "confidence": "medium"
+    },
+    {
+      "player": "player:ronan-omeara",
+      "club": "club:portumna",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B: Ronan O'Meara 1-3 for Portumna vs Pádraig Pearses; Irish Examiner Portumna club All-Ireland 2014 scorer; Irish World Galway & Portumna.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:conor-molloy",
+      "club": "club:kilnadeema-leitrim",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway Senior B: Conor Molloy 0-6 for Kilnadeema–Leitrim vs Ballinderreen Round 2; 2015 MHC panel age-plausible.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Mark Kelly Sr",
+      "id": "player:mark-kelly-sr-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B R2: Mark Kelly Sr 0-3 for Ahascragh–Fohenagh vs Mullagh. Disambiguated Sr — HOLD bare Kelly collisions.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Brian Burke",
+      "id": "player:brian-burke-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway SHC: Brian Burke free-taker/scorer for Killimordaly (multiple rounds).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darren Daly",
+      "id": "player:darren-daly-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway SHC: Darren Daly scored for Killimordaly (incl. frees).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paul Creaven",
+      "id": "player:paul-creaven-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway SHC: Paul Creaven 1-1 for Killimordaly vs Craughwell Round 1.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Luke Lynskey",
+      "id": "player:luke-lynskey-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway SHC: Luke Lynskey scored for Killimordaly.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Andrew Lally",
+      "id": "player:andrew-lally-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Andrew Lally (Killimordaly).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Callum Keane",
+      "id": "player:callum-keane-portumna",
+      "club": "club:portumna",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B R1: Callum Keane 1-0 for Portumna vs Ahascragh–Fohenagh.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Andrew Canning",
+      "id": "player:andrew-canning-portumna",
+      "club": "club:portumna",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B: Andrew Canning scored for Portumna vs AF.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adam Fogarty",
+      "id": "player:adam-fogarty-portumna",
+      "club": "club:portumna",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B: Adam Fogarty scored for Portumna (vs AF and Pearses).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin Tuohy",
+      "id": "player:martin-tuohy-portumna",
+      "club": "club:portumna",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B R2: Martin Tuohy 0-2 for Portumna vs Pádraig Pearses.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Shane Fitzpatrick",
+      "id": "player:shane-fitzpatrick-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Shane Fitzpatrick (Ballinasloe).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Luc O'Connor",
+      "id": "player:luc-oconnor-carnmore",
+      "club": "club:carnmore",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Luc O'Connor (Carnmore).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Bertie Keane",
+      "id": "player:bertie-keane-rahoon",
+      "club": "club:rahoon",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Bertie Keane (Rahoon/Newcastle); seed club:rahoon holds modern Rahoon–Newcastle.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dylan Dunne",
+      "id": "player:dylan-dunne-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final XV: Dylan Dunne (Clarinbridge); Wikipedia 2025 SHC Clarinbridge scorer.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Lawless",
+      "id": "player:conor-lawless-athenry",
+      "club": "club:athenry",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final XV: Conor Lawless (Athenry); Wikipedia 2025 SHC Athenry scorer.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Donagh Fahy",
+      "id": "player:donagh-fahy-ardrahan",
+      "club": "club:ardrahan",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Donagh Fahy (Ardrahan).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Headd",
+      "id": "player:conor-headd-st-thomas",
+      "club": "club:st-thomas",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Conor Headd (St.Thomas').",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Anthony Keady",
+      "id": "player:anthony-keady-oranmore-maree",
+      "club": "club:oranmore-maree",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Anthony Keady (Oranmore/Maree).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tom Nolan",
+      "id": "player:tom-nolan-turloughmore",
+      "club": "club:turloughmore",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Tom Nolan (Turloughmore).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean Hansberry",
+      "id": "player:sean-hansberry-skehana-mountbellew-moylough",
+      "club": "club:skehana-mountbellew-moylough",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Sean Hansberry (Skehana-Mountbellew/Moylough).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cian Donoghue",
+      "id": "player:cian-donoghue-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Cian Donoghue (Clarinbridge). Disambiguated Clarinbridge — HOLD bare Donoghue collisions.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brian Noone",
+      "id": "player:brian-noone-skehana-mountbellew-moylough",
+      "club": "club:skehana-mountbellew-moylough",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Brian Noone (Skehana-Mountbellew/Moylough).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jack Lonergan",
+      "id": "player:jack-lonergan-turloughmore",
+      "club": "club:turloughmore",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Jack Lonergan (Turloughmore).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Nigel Kelly",
+      "id": "player:nigel-kelly-craughwell",
+      "club": "club:craughwell",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel / Wikipedia 2025 SHC: Nigel Kelly scored for Craughwell. Disambiguated Craughwell — HOLD bare Kelly collisions.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eanna O'Loingsigh",
+      "id": "player:eanna-oloingsigh-turloughmore",
+      "club": "club:turloughmore",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC panel: Eanna O'Loingsigh (Turloughmore); Wikipedia 2025 SHC Turloughmore scorer.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gearoid Fahy",
+      "id": "player:gearoid-fahy-turloughmore",
+      "club": "club:turloughmore",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final panel: Gearoid Fahy (Turloughmore).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "John Cosgrove",
+      "id": "player:john-cosgrove-sarsfields",
+      "club": "club:sarsfields",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-galway-vs-cork-all-ireland-minor-final-team-news-preview-with-brian-hanley-98349",
+      "note": "Galway Bay FM 2020 MHC AI final XV: John Cosgrove (Sarsfields); Wikipedia 2025 SHC Sarsfields scorer. Disambiguated from Meelick historic John Cosgrove.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cillian Fahy",
+      "id": "player:cillian-fahy-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B: Cillian Fahy/Fahey lead scorer for Pádraig Pearses (1-5 / 2-8).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jonah Donnellan",
+      "id": "player:jonah-donnellan-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Senior B: Jonah Donnellan scored for Pádraig Pearses.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:michael-healy",
+    "player:michael-conneely",
+    "player:kerrill-wade",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:aonghus-dervan",
+    "player:brendan-dervan",
+    "player:pakie-dervan",
+    "player:patrick-dervan",
+    "player:gordan-glynn",
+    "player:john-ryan",
+    "player:finnian-coone",
+    "player:tom-monaghan",
+    "player:tony-og-regan",
+    "player:greg-thomas",
+    "player:kevin-broderick",
+    "player:sean-glynn",
+    "player:brian-concannon",
+    "player:kieran-finnerty",
+    "player:albert-moylan",
+    "player:christy-helebert",
+    "player:brendan-keogh",
+    "player:conor-flaherty",
+    "player:cormac-diviney",
+    "player:benny-lawless",
+    "player:damien-fahy",
+    "player:alan-leech",
+    "player:brendan-lynch",
+    "player:greg-kennedy",
+    "player:gordon-glynn",
+    "player:michael-donoghue",
+    "player:micheal-donoghue",
+    "player:micheal-donohue",
+    "player:tadgh-haran",
+    "player:stephen-creaven",
+    "player:mike-egan",
+    "player:michael-kelly",
+    "player:shane-maloney"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2025-senior-b-final-ahascragh-fohenagh-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Ahascragh-Fohenagh vs Liam Mellows (2025 Galway Senior B Final)",
+        "competition": "Galway Senior B Hurling Championship",
+        "round": "Final",
+        "year": 2025,
+        "home": "club:ahascragh-fohenagh",
+        "away": "club:liam-mellows",
+        "winner": "club:liam-mellows",
+        "runner_up": "club:ahascragh-fohenagh",
+        "score": "Ahascragh-Fohenagh 0-19, Liam Mellows 2-16",
+        "note": "Wikipedia / Galway Advertiser 2025 Senior B Final at Kenny Park: Liam Mellows win; Tadhg Harron 1-12; Conor Kavanagh goal.",
+        "confidence": "medium",
+        "source": "https://www.advertiser.ie/Galway/article/148059/goals-prove-the-difference-as-mellows-prevail-in-thriller",
+        "result": "loss",
+        "historic_club": "club:ahascragh-fohenagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r1-st-thomas-gort",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Gort (2025 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2025,
+        "home": "club:st-thomas",
+        "away": "club:gort",
+        "winner": "club:st-thomas",
+        "runner_up": "club:gort",
+        "score": "St Thomas' 1-28, Gort 0-15",
+        "note": "Wikipedia 2025 Galway SHC Group A R1 at Kilbacanty.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r2-athenry-gort",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Gort (2025 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:athenry",
+        "away": "club:gort",
+        "winner": "club:athenry",
+        "runner_up": "club:gort",
+        "score": "Athenry 0-22, Gort 1-16",
+        "note": "Wikipedia 2025 Galway SHC Group A R2 at Loughrea.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r3-st-thomas-athenry",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Athenry (2025 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2025,
+        "home": "club:st-thomas",
+        "away": "club:athenry",
+        "winner": "club:st-thomas",
+        "runner_up": "club:athenry",
+        "score": "St Thomas' 1-23, Athenry 1-20",
+        "note": "Wikipedia 2025 Galway SHC Group A R3 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r1-craughwell-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Killimordaly (2025 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2025,
+        "home": "club:craughwell",
+        "away": "club:killimordaly",
+        "winner": "club:craughwell",
+        "runner_up": "club:killimordaly",
+        "score": "Craughwell 3-20, Killimordaly 2-17",
+        "note": "Wikipedia 2025 Galway SHC Group B R1 at Loughrea.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r2-craughwell-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Kilconieron (2025 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:craughwell",
+        "away": "club:kilconieron",
+        "winner": "club:craughwell",
+        "runner_up": "club:kilconieron",
+        "score": "Craughwell 1-24, Kilconieron 3-13",
+        "note": "Wikipedia 2025 Galway SHC Group B R2 at Kilbacanty.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r2-loughrea-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Killimordaly (2025 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:loughrea",
+        "away": "club:killimordaly",
+        "winner": "club:loughrea",
+        "runner_up": "club:killimordaly",
+        "score": "Loughrea 4-25, Killimordaly 3-8",
+        "note": "Wikipedia 2025 Galway SHC Group B R2 at Duggan Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r3-killimordaly-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Kilconieron (2025 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2025,
+        "home": "club:killimordaly",
+        "away": "club:kilconieron",
+        "winner": "club:killimordaly",
+        "runner_up": "club:kilconieron",
+        "score": "Killimordaly 1-17, Kilconieron 1-16",
+        "note": "Wikipedia 2025 Galway SHC Group B R3 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r3-craughwell-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Loughrea (2025 Galway SHC Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 3",
+        "year": 2025,
+        "home": "club:craughwell",
+        "away": "club:loughrea",
+        "winner": "club:craughwell",
+        "runner_up": "club:loughrea",
+        "score": "Craughwell 3-23, Loughrea 2-22",
+        "note": "Wikipedia 2025 Galway SHC Group B R3 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r1-castlegar-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Ardrahan (2025 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2025,
+        "home": "club:castlegar",
+        "away": "club:ardrahan",
+        "winner": "club:castlegar",
+        "runner_up": "club:ardrahan",
+        "score": "Castlegar 1-20, Ardrahan 0-22",
+        "note": "Wikipedia 2025 Galway SHC Group C R1 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r1-clarinbridge-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Turloughmore (2025 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2025,
+        "home": "club:clarinbridge",
+        "away": "club:turloughmore",
+        "winner": "club:clarinbridge",
+        "runner_up": "club:turloughmore",
+        "score": "Clarinbridge 5-21, Turloughmore 1-26",
+        "note": "Wikipedia 2025 Galway SHC Group C R1 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r2-turloughmore-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Castlegar (2025 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:turloughmore",
+        "away": "club:castlegar",
+        "winner": "club:turloughmore",
+        "runner_up": "club:castlegar",
+        "score": "Turloughmore 5-29, Castlegar 1-14",
+        "note": "Wikipedia 2025 Galway SHC Group C R2 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r2-clarinbridge-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Ardrahan (2025 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:clarinbridge",
+        "away": "club:ardrahan",
+        "winner": "club:clarinbridge",
+        "runner_up": "club:ardrahan",
+        "score": "Clarinbridge 6-28, Ardrahan 1-19",
+        "note": "Wikipedia 2025 Galway SHC Group C R2 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r1-oranmore-maree-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore–Maree vs Sarsfields (2025 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2025,
+        "home": "club:oranmore-maree",
+        "away": "club:sarsfields",
+        "winner": "club:oranmore-maree",
+        "runner_up": "club:sarsfields",
+        "score": "Oranmore–Maree 2-19, Sarsfields 1-21",
+        "note": "Wikipedia 2025 Galway SHC Group D R1 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r2-oranmore-maree-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore–Maree vs Cappataggle (2025 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:oranmore-maree",
+        "away": "club:cappataggle",
+        "winner": "club:oranmore-maree",
+        "runner_up": "club:cappataggle",
+        "score": "Oranmore–Maree 1-20, Cappataggle 0-16",
+        "note": "Wikipedia 2025 Galway SHC Group D R2 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-r2-sarsfields-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Tommy Larkin's (2025 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:sarsfields",
+        "away": "club:tommy-larkins",
+        "winner": "club:sarsfields",
+        "runner_up": "club:tommy-larkins",
+        "score": "Sarsfields 0-25, Tommy Larkin's 2-14",
+        "note": "Wikipedia 2025 Galway SHC Group D R2 at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-senior-b-r1-padraig-pearses-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Mullagh (2025 Galway Senior B Round 1)",
+        "competition": "Galway Senior B Hurling Championship",
+        "round": "Round 1",
+        "year": 2025,
+        "home": "club:padraig-pearses",
+        "away": "club:mullagh",
+        "winner": "club:padraig-pearses",
+        "runner_up": "club:mullagh",
+        "score": "Pádraig Pearses 3-16, Mullagh 1-19",
+        "note": "Wikipedia 2025 Galway Senior B Group B R1 at Loughrea.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-senior-b-r2-padraig-pearses-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Portumna (2025 Galway Senior B Round 2)",
+        "competition": "Galway Senior B Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:padraig-pearses",
+        "away": "club:portumna",
+        "winner": "club:padraig-pearses",
+        "runner_up": "club:portumna",
+        "score": "Pádraig Pearses 3-23, Portumna 2-14",
+        "note": "Wikipedia 2025 Galway Senior B Group B R2 at Duggan Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-senior-b-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema–Leitrim vs Tynagh-Abbey/Duniry (2025 Galway Senior B Round 1)",
+        "competition": "Galway Senior B Hurling Championship",
+        "round": "Round 1",
+        "year": 2025,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:tynagh-abbey-duniry",
+        "winner": "club:kilnadeema-leitrim",
+        "runner_up": "club:tynagh-abbey-duniry",
+        "score": "Kilnadeema–Leitrim 3-22, Tynagh-Abbey/Duniry 3-14",
+        "note": "Wikipedia 2025 Galway Senior B Group A R1 at Gort.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-senior-b-r2-liam-mellows-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Tynagh-Abbey/Duniry (2025 Galway Senior B Round 2)",
+        "competition": "Galway Senior B Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:liam-mellows",
+        "away": "club:tynagh-abbey-duniry",
+        "winner": "club:liam-mellows",
+        "runner_up": "club:tynagh-abbey-duniry",
+        "score": "Liam Mellows 0-24, Tynagh-Abbey/Duniry 0-17",
+        "note": "Wikipedia 2025 Galway Senior B Group A R2 at Loughrea.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-senior-b-r2-kilnadeema-leitrim-ballinderreen",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema–Leitrim vs Ballinderreen (2025 Galway Senior B Round 2)",
+        "competition": "Galway Senior B Hurling Championship",
+        "round": "Round 2",
+        "year": 2025,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:ballinderreen",
+        "winner": "club:kilnadeema-leitrim",
+        "runner_up": "club:ballinderreen",
+        "score": "Kilnadeema–Leitrim 2-22, Ballinderreen 1-24",
+        "note": "Wikipedia 2025 Galway Senior B Group A R2 at Loughrea.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2025-qf-craughwell-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Sarsfields (2025 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2025,
+        "home": "club:craughwell",
+        "away": "club:sarsfields",
+        "winner": "club:sarsfields",
+        "runner_up": "club:craughwell",
+        "score": "Craughwell 2-24, Sarsfields 3-19",
+        "note": "Wikipedia 2025 Galway SHC Quarter-final at Kenny Park: Sarsfields win.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+        "result": "loss"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:shane-maloney": "HOLD r12: Shane Maloney spelling collision with player:shane-moloney (already club:tynagh-abbey-duniry high). Tuam Herald 2011 uses Maloney; Wikipedia template uses Moloney — no overwrite.",
+    "player:michael-kelly": "HOLD r11/r12: bare Michael Kelly collisions (Ballinderreen 2011 programme vs other Kellys) — skip unless first+last disambiguated cite."
+  }
+}
