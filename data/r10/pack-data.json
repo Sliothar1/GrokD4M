@@ -1,0 +1,793 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:dean-reilly",
+      "club": "club:padraig-pearses",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Dean Reilly (Pádraig Pearses); RTE Minor Team of the Year 2018 (Pádraig Pearses); club SHC scorers.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:darren-shaughnessy",
+      "club": "club:loughrea",
+      "source": "https://www.connachttribune.ie/sport/county-champions-loughrea-pushed-all-the-way-by-moycullen-in-galway-shc-8945197",
+      "note": "Connacht Tribune 2026 Galway SHC: Darren Shaughnessy 1-2 for Loughrea vs Moycullen; named on 2020 Galway MHC AI panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:evan-duggan",
+      "club": "club:st-thomas",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Evan Duggan (St Thomas'); Connacht Tribune 2026 SHC Castlegar red-card report names him St Thomas defender.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:shane-jennings",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Shane Jennings (Ballinasloe); RTE/Independent note Ballinasloe native, MOTM AI minor final.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:patrick-rabbitte",
+      "club": "club:athenry",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Patrick Rabbitte (Athenry) goalkeeper.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:adam-brett",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Adam Brett (Killimordaly).",
+      "confidence": "high"
+    },
+    {
+      "player": "player:michael-flynn",
+      "club": "club:ballygar",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Michael Flynn (Ballygar).",
+      "confidence": "high"
+    },
+    {
+      "player": "player:oisin-salmon",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Oisin Salmon (Clarinbridge).",
+      "confidence": "high"
+    },
+    {
+      "player": "player:niall-collins",
+      "club": "club:cappataggle",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Niall Collins (Cappataggle).",
+      "confidence": "high"
+    },
+    {
+      "player": "player:shane-quirke",
+      "club": "club:athenry",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 All-Ireland MHC final team sheet: Shane Quirke (Athenry).",
+      "confidence": "high"
+    },
+    {
+      "player": "player:james-odonoghue",
+      "club": "club:gort",
+      "source": "https://www.galwaybayfm.ie/sports/galway-minor-team-announced-49173",
+      "note": "Galway Bay FM 2018 AI MHC final sheet lists Jason O'Donoghue (Gort); Galway GAA AI winning teams panel lists James O'Donoghue — linked to Gort as same panel seat.",
+      "confidence": "medium"
+    },
+    {
+      "player": "player:jack-barrett",
+      "club": "club:padraig-pearses",
+      "source": "https://www.connachttribune.ie/sport/sylane-edge-past-padraig-pearses-in-thrilling-division-3-league-final-8791839",
+      "note": "Connacht Tribune / Pádraig Pearses club reports: Jack Barrett in Pearses senior XV; also 2018 Galway MHC AI panel.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Ben Griffin",
+      "id": "player:ben-griffin-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021 team sheet: B Griffin starting for Salthill-Knocknacarra; also Galway Bay FM AI Junior SF 2022.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Greg Waldron",
+      "id": "player:greg-waldron-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021: G Waldron starting for Salthill-Knocknacarra; Galway Bay FM AI Junior SF 2022 G Waldron.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean Joyce",
+      "id": "player:sean-joyce-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021 team sheet: S Joyce starting for Salthill-Knocknacarra.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Barry Moran",
+      "id": "player:barry-moran-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021 team sheet: B Moran starting for Salthill-Knocknacarra.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean Piggott",
+      "id": "player:sean-piggott-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021: S Piggot/Piggott starting for Salthill-Knocknacarra; Galway Bay FM AI Junior SF 2022 S Piggott.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Rory McGuinness",
+      "id": "player:rory-mcguinness-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021 team sheet: R McGuinness in goals for Salthill-Knocknacarra.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eoin Gavin",
+      "id": "player:eoin-gavin-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021: E Gavin starting for Salthill-Knocknacarra; Galway Bay FM AI Junior SF 2022 sub.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ryan McDonnell",
+      "id": "player:ryan-mcdonnell-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021: R McDonnell starting for Salthill-Knocknacarra; Galway Bay FM AI Junior SF 2022.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jack Cullinane-Quinn",
+      "id": "player:jack-cullinane-quinn-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021: J Cullinane-Quinn starting for Salthill-Knocknacarra.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Fionn Hanney",
+      "id": "player:fionn-hanney-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+      "note": "Irish Independent Connacht Junior Club HC final 2021 sub F Hanney; Galway Bay FM AI Junior SF 2022 F Hanney started.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Patrick Rowesome",
+      "id": "player:patrick-rowesome-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-mooncoin-2-26-salthill-knocknacarra-0-11-all-ireland-junior-semi-final-report-and-reaction-107238",
+      "note": "Galway Bay FM AI Junior Club SF 2022: P Rowesome starting for Salthill-Knocknacarra vs Mooncoin.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brian Hyland",
+      "id": "player:brian-hyland-salthill-knocknacarra",
+      "club": "club:salthill-knocknacarra",
+      "source": "https://www.galwaybayfm.ie/sports/hurling-mooncoin-2-26-salthill-knocknacarra-0-11-all-ireland-junior-semi-final-report-and-reaction-107238",
+      "note": "Galway Bay FM AI Junior Club SF 2022: B Hyland in goals for Salthill-Knocknacarra vs Mooncoin.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ciarán Ó hAinlí",
+      "id": "player:ciaran-o-hainli-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_All-Ireland_Junior_Club_Hurling_Championship",
+      "note": "Wikipedia 2010–11 AI Junior Club HC Connacht final: C O hAinli 0-4 for Bearna/Na Forbacha.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Rónán Ó Curraoin",
+      "id": "player:ronan-o-curraoin-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_All-Ireland_Junior_Club_Hurling_Championship",
+      "note": "Wikipedia 2010–11 AI Junior Club HC Connacht final: R O Curraoin 0-2 for Bearna/Na Forbacha.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tomás Ó Fátharta",
+      "id": "player:tomas-o-fatharta-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_All-Ireland_Junior_Club_Hurling_Championship",
+      "note": "Wikipedia 2010–11 AI Junior Club HC Connacht final: T O Fatharta 0-1 for Bearna/Na Forbacha.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Colm Ó hOrgáin",
+      "id": "player:colm-o-horgain-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_All-Ireland_Junior_Club_Hurling_Championship",
+      "note": "Wikipedia 2010–11 AI Junior Club HC Connacht final: C O hOrgain 0-1 for Bearna/Na Forbacha.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Seán Mac Fhlannchadha",
+      "id": "player:sean-mac-fhlannchadha-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_All-Ireland_Junior_Club_Hurling_Championship",
+      "note": "Wikipedia 2010–11 AI Junior Club HC SF: S Mac Fhlannchadha 0-1 for Bearna/Na Forbacha vs Meelin.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eamonn Mullins",
+      "id": "player:eamonn-mullins-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA club history 1960–63: Eamonn Mullins goalkeeper on Cussane North Board Intermediate champions 1963 team sheet (first+last).",
+      "confidence": "unverified",
+      "fohenagh": false
+    },
+    {
+      "name": "Michael Mullins",
+      "id": "player:michael-mullins-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Michael Mullins man-of-the-match (4-1) for Cussane North Board Intermediate final 1963. Disambiguated from Gort Michael Mullins.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Joe Coen",
+      "id": "player:joe-coen-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Joe Coen 2-0 for Cussane in 1963 North Board Intermediate final team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Peter Feeney",
+      "id": "player:peter-feeney-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Peter/Pete Feeney 1-1 on Cussane 1963 North Board Intermediate champions XV.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eamonn Egan",
+      "id": "player:eamonn-egan-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Eamonn Egan defender on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Frank Coyne",
+      "id": "player:frank-coyne-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Frank Coyne on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Willie Cullinane",
+      "id": "player:willie-cullinane-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Willie Cullinane on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Pat Costello",
+      "id": "player:pat-costello-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Pat Costello on Cussane North Board Junior/Intermediate champion panels 1963.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Richie Williams",
+      "id": "player:richie-williams-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Richie Williams on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Cooley",
+      "id": "player:michael-cooley-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Michael Cooley on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Patrick Cooley",
+      "id": "player:patrick-cooley-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Patrick Cooley on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Robert Cooley",
+      "id": "player:robert-cooley-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Robert Cooley on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Peter Greaney",
+      "id": "player:peter-greaney-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Peter Greaney on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Richard Finn",
+      "id": "player:richard-finn-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Richard Finn on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Frank Coen",
+      "id": "player:frank-coen-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Frank Coen on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mattie Feeney",
+      "id": "player:mattie-feeney-cussane",
+      "club": "club:cussane-historic",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+      "note": "Athenry GAA 1960–63: Mattie Feeney on Cussane 1963 North Board Intermediate champions team sheet.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:michael-healy",
+    "player:michael-conneely",
+    "player:kerrill-wade",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:aonghus-dervan",
+    "player:brendan-dervan",
+    "player:pakie-dervan",
+    "player:patrick-dervan",
+    "player:gordan-glynn",
+    "player:john-ryan",
+    "player:finnian-coone",
+    "player:tom-monaghan",
+    "player:tony-og-regan",
+    "player:greg-thomas",
+    "player:kevin-broderick",
+    "player:sean-glynn",
+    "player:brian-concannon",
+    "player:kieran-finnerty",
+    "player:albert-moylan",
+    "player:christy-helebert",
+    "player:brendan-keogh",
+    "player:conor-flaherty",
+    "player:cormac-diviney",
+    "player:benny-lawless",
+    "player:damien-fahy",
+    "player:alan-leech",
+    "player:brendan-lynch",
+    "player:greg-kennedy",
+    "player:gordon-glynn",
+    "player:michael-donoghue",
+    "player:micheal-donoghue",
+    "player:micheal-donohue",
+    "player:tadgh-haran",
+    "player:stephen-creaven",
+    "player:mike-egan"
+  ],
+  "new_clubs": [],
+  "new_matches": [
+    {
+      "id": "match:galway-pihc-2026-r1-tynagh-abbey-duniry-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Carnmore (2026 Galway PIHC Round 1)",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:carnmore",
+        "winner": "club:tynagh-abbey-duniry",
+        "runner_up": "club:carnmore",
+        "score": "Tynagh-Abbey/Duniry 1-24, Carnmore 0-15",
+        "note": "Galway Bay FM / Connacht Tribune 2026 PIHC opener: Tynagh Abbey-Duniry 1-24 Carnmore 0-15.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-pihc-2026-r1-kilnadeema-leitrim-killimor",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Killimor (2026 Galway PIHC Round 1)",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:killimor",
+        "winner": "club:kilnadeema-leitrim",
+        "runner_up": "club:killimor",
+        "score": "Kilnadeema-Leitrim 3-25, Killimor 1-11",
+        "note": "Galway Bay FM 2026 PIHC opener: Kilnadeema-Leitrim 3-25 Killimor 1-11.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
+      "cols": {
+        "type": "match",
+        "name": "Ballinderreen vs Rahoon-Newcastle (2026 Galway PIHC Round 1)",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:ballinderreen",
+        "away": "club:rahoon",
+        "winner": "club:ballinderreen",
+        "runner_up": "club:rahoon",
+        "score": "Ballinderreen 4-22, Rahoon-Newcastle 1-17",
+        "note": "Galway Bay FM 2026 PIHC opener: Ballinderreen 4-22 Rahoon-Newcastle 1-17. Seed maps Rahoon-Newcastle to club:rahoon.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-pihc-2026-r1-meelick-eyrecourt-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Meelick-Eyrecourt vs Portumna (2026 Galway PIHC Round 1)",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:meelick-eyrecourt",
+        "away": "club:portumna",
+        "winner": "club:meelick-eyrecourt",
+        "runner_up": "club:portumna",
+        "score": "Meelick-Eyrecourt 2-29, Portumna 4-12",
+        "note": "Galway Bay FM / Connacht Tribune 2026 PIHC opener: Meelick-Eyrecourt 2-29 Portumna 4-12.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-pihc-2026-r1-padraig-pearses-ballygar",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Ballygar (2026 Galway PIHC Round 1)",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:padraig-pearses",
+        "away": "club:ballygar",
+        "winner": "club:padraig-pearses",
+        "runner_up": "club:ballygar",
+        "score": "Pádraig Pearses 1-19, Ballygar 2-14",
+        "note": "Galway Bay FM / Connacht Tribune 2026 PIHC opener: Pádraig Pearses 1-19 Ballygar 2-14.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-pihc-2026-r1-skehana-mm-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Skehana-Mountbellew-Moylough vs Mullagh (2026 Galway PIHC Round 1)",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:skehana-mountbellew-moylough",
+        "away": "club:mullagh",
+        "winner": "club:skehana-mountbellew-moylough",
+        "runner_up": "club:mullagh",
+        "score": "Skehana-Mountbellew-Moylough 2-20, Mullagh 2-18",
+        "note": "Galway Bay FM / Connacht Tribune 2026 PIHC opener: Skehana-MM 2-20 Mullagh 2-18.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-pihc-2026-r1-kilconieron-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Beagh (2026 Galway PIHC Round 1)",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:kilconieron",
+        "away": "club:beagh",
+        "winner": "club:kilconieron",
+        "runner_up": "club:beagh",
+        "score": "Kilconieron 2-19, Beagh 2-17",
+        "note": "Galway Bay FM / Connacht Tribune 2026 PIHC opener: Kilconieron 2-19 Beagh 2-17.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2019-qf-kinvara-meelick-eyrecourt",
+      "cols": {
+        "type": "match",
+        "name": "Kinvara vs Meelick-Eyrecourt (2019 Galway IHC Quarter-final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2019,
+        "home": "club:kinvara",
+        "away": "club:meelick-eyrecourt",
+        "winner": "club:kinvara",
+        "runner_up": "club:meelick-eyrecourt",
+        "score": "Kinvara 3-14, Meelick-Eyrecourt 0-17",
+        "note": "Wikipedia 2019 Galway IHC: Kinvara 3-14 Meelick-Eyrecourt 0-17 (13 Oct 2019, Kenny Park).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:kinvara"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2019-sf-kinvara-moycullen",
+      "cols": {
+        "type": "match",
+        "name": "Kinvara vs Moycullen (2019 Galway IHC Semi-final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Semi-final",
+        "year": 2019,
+        "home": "club:kinvara",
+        "away": "club:moycullen",
+        "winner": "club:kinvara",
+        "runner_up": "club:moycullen",
+        "score": "Kinvara 4-14, Moycullen 0-11",
+        "note": "Wikipedia 2019 Galway IHC: Kinvara 4-14 Moycullen 0-11 (20 Oct 2019, Kenny Park).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:kinvara"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2019-sf-kilconieron-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Turloughmore (2019 Galway IHC Semi-final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Semi-final",
+        "year": 2019,
+        "home": "club:kilconieron",
+        "away": "club:turloughmore",
+        "winner": "club:kilconieron",
+        "runner_up": "club:turloughmore",
+        "score": "Kilconieron 0-15, Turloughmore 0-13",
+        "note": "Wikipedia 2019 Galway IHC: Kilconieron 0-15 Turloughmore 0-13 (20 Oct 2019, Kenny Park).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:kilconieron"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2019-qf-moycullen-annaghdown",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Annaghdown (2019 Galway IHC Quarter-final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2019,
+        "home": "club:moycullen",
+        "away": "club:annaghdown",
+        "winner": "club:moycullen",
+        "runner_up": "club:annaghdown",
+        "score": "Moycullen 3-18, Annaghdown 1-17",
+        "note": "Wikipedia 2019 Galway IHC: Moycullen 3-18 Annaghdown 1-17 (12 Oct 2019, Pearse Stadium).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:moycullen"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2019-qf-kilconieron-killimor",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Killimor (2019 Galway IHC Quarter-final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2019,
+        "home": "club:kilconieron",
+        "away": "club:killimor",
+        "winner": "club:kilconieron",
+        "runner_up": "club:killimor",
+        "score": "Kilconieron 2-15, Killimor 2-08",
+        "note": "Wikipedia 2019 Galway IHC: Kilconieron 2-15 Killimor 2-08 (13 Oct 2019, Duggan Park).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:kilconieron"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2019-qf-turloughmore-rahoon",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Rahoon-Newcastle (2019 Galway IHC Quarter-final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2019,
+        "home": "club:turloughmore",
+        "away": "club:rahoon",
+        "winner": "club:turloughmore",
+        "runner_up": "club:rahoon",
+        "score": "Turloughmore 2-21, Rahoon-Newcastle 1-16",
+        "note": "Wikipedia 2019 Galway IHC: Turloughmore 2-21 Rahoon-Newcastle 1-16 (13 Oct 2019, Pearse Stadium).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2019_Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:all-ireland-junior-club-hc-2022-sf-mooncoin-salthill",
+      "cols": {
+        "type": "match",
+        "name": "Mooncoin vs Salthill-Knocknacarra (2022 All-Ireland Junior Club HC Semi-final)",
+        "competition": "All-Ireland Junior Club Hurling Championship",
+        "round": "Semi-final",
+        "year": 2022,
+        "home": "Mooncoin",
+        "away": "club:salthill-knocknacarra",
+        "winner": "Mooncoin",
+        "runner_up": "club:salthill-knocknacarra",
+        "score": "Mooncoin 2-26, Salthill-Knocknacarra 0-11",
+        "note": "Galway Bay FM 23 Jan 2022: Mooncoin 2-26 Salthill-Knocknacarra 0-11 (Donal O'Shea 0-6).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/hurling-mooncoin-2-26-salthill-knocknacarra-0-11-all-ireland-junior-semi-final-report-and-reaction-107238",
+        "result": "loss"
+      }
+    },
+    {
+      "id": "match:cussane-north-board-ihc-1963-final",
+      "cols": {
+        "type": "match",
+        "name": "Cussane vs Newcastle (1963 North Board Intermediate Final)",
+        "competition": "Galway North Board Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1963,
+        "home": "club:cussane-historic",
+        "away": "club:newcastle-galway",
+        "winner": "club:cussane-historic",
+        "runner_up": "club:newcastle-galway",
+        "score": "Cussane 8-06, Newcastle 5-04",
+        "note": "Athenry GAA club history 1960–63: Cussane defeated Newcastle 8-6 to 5-4 in North Board Intermediate Final at Athenry; path to Galway IHC final (lost to Killimordaly).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963",
+        "result": "win",
+        "historic_club": "club:cussane-historic"
+      }
+    }
+  ],
+  "club_meta": [
+    {
+      "id": "club:ahascragh-fohenagh",
+      "cols": {
+        "note": "r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions).",
+        "source_galwaybayfm_pihc_2026": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441"
+      }
+    },
+    {
+      "id": "club:salthill-knocknacarra",
+      "cols": {
+        "note": "r10: expanded unverified Connacht/AI Junior shell squad from Independent + Galway Bay FM team sheets; added AI Junior SF 2022 score vs Mooncoin.",
+        "source_independent_2021": "https://www.independent.ie/regionals/sligo/sport/gaa/connacht-journey-ends-for-sea-blues-as-plenty-of-positives-for-22/41146705.html",
+        "source_galwaybayfm_aijh_2022": "https://www.galwaybayfm.ie/sports/hurling-mooncoin-2-26-salthill-knocknacarra-0-11-all-ireland-junior-semi-final-report-and-reaction-107238"
+      }
+    },
+    {
+      "id": "club:bearna-na-forbacha",
+      "cols": {
+        "note": "r10: added five more unverified AIJH Connacht scorers (Ó hAinlí, Ó Curraoin, Ó Fátharta, Ó hOrgáin, Mac Fhlannchadha).",
+        "source_wikipedia_aijh": "https://en.wikipedia.org/wiki/2010%E2%80%9311_All-Ireland_Junior_Club_Hurling_Championship"
+      }
+    },
+    {
+      "id": "club:cussane-historic",
+      "cols": {
+        "note": "r10: CLEARED orphan — Athenry GAA 1960–63 publishes first+last Cussane XV for 1963 North Board Intermediate champions; unverified shell squad + scored final vs Newcastle.",
+        "source_athenrygaa_1960_1963": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+      }
+    },
+    {
+      "id": "club:padraig-pearses",
+      "cols": {
+        "note": "r10: linked Dean Reilly + Jack Barrett from Galway Bay FM / Connacht Tribune / club reports."
+      }
+    },
+    {
+      "id": "club:loughrea",
+      "cols": {
+        "note": "r10: linked Darren Shaughnessy (Connacht Tribune 2026 SHC)."
+      }
+    },
+    {
+      "id": "club:st-thomas",
+      "cols": {
+        "note": "r10: linked Evan Duggan (Galway Bay FM 2018 MHC + Connacht Tribune)."
+      }
+    },
+    {
+      "id": "club:ballinasloe",
+      "cols": {
+        "note": "r10: linked Shane Jennings (Galway Bay FM 2018 MHC team sheet)."
+      }
+    },
+    {
+      "id": "club:athenry",
+      "cols": {
+        "note": "r10: linked Patrick Rabbitte + Shane Quirke (Galway Bay FM 2018 MHC)."
+      }
+    },
+    {
+      "id": "club:claregalway",
+      "cols": {
+        "note": "r10: HOLD orphan unchanged — no new first+last hurling cite."
+      }
+    },
+    {
+      "id": "club:college-road",
+      "cols": {
+        "note": "r10: HOLD orphan unchanged — no new first+last hurling cite."
+      }
+    },
+    {
+      "id": "club:eyrecourt-historic",
+      "cols": {
+        "note": "r10: HOLD orphan unchanged — no new first+last hurling cite."
+      }
+    },
+    {
+      "id": "club:kilrickle",
+      "cols": {
+        "note": "r10: HOLD orphan unchanged — no new first+last hurling cite."
+      }
+    },
+    {
+      "id": "club:skehana",
+      "cols": {
+        "note": "r10: HOLD orphan unchanged — no new first+last hurling cite."
+      }
+    },
+    {
+      "id": "club:st-colemans",
+      "cols": {
+        "note": "r10: HOLD orphan unchanged — no new first+last hurling cite."
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:mike-egan": "HOLD r10: Mike Egan (2018 MHC panel) likely same person as Michael Egan (Cappataggle) — do not dual-stamp; collision HOLD.",
+    "player:michael-donoghue": "HOLD r9/r10: Michael/Micheál Donoghue spelling collision — no club stamp.",
+    "player:micheal-donoghue": "HOLD r9/r10: Micheál Donoghue spelling collision — no club stamp.",
+    "player:micheal-donohue": "HOLD r9/r10: spelling variant collision — no club stamp.",
+    "player:tadgh-haran": "HOLD r9/r10: misspelling of Tadhg Haran — no club stamp.",
+    "player:stephen-creaven": "HOLD r9/r10: bare Stephen Creaven Intermediate panel — club unconfirmed."
+  }
+}
