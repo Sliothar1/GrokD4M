@@ -32037,17 +32037,17 @@
   {
     "row": "player:brian-mahoney",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:brian-mahoney",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-79941"
   },
   {
     "row": "player:brian-mahoney",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). HOLD r18: Brian Mahoney MHC 2000 spelling collision with Brian Mahony / Brian O’Mahony (player:brian-omahony) — do not auto-link without disambiguating club cite."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). HOLD r18: Brian Mahoney MHC 2000 spelling collision with Brian Mahony / Brian O’Mahony (player:brian-omahony) — do not auto-link without disambiguating club cite. Galway Bay FM Club Teams of the 2000s: Brian Mahoney named for Loughrea; Galway GAA RoH 2006 Loughrea Senior Hurling Champions panel; MHC 2000 age-match. Clears prior spelling HOLD vs Brian O'Mahony with first+last Loughrea cite."
   },
   {
     "row": "player:brian-molloy",
@@ -37407,17 +37407,17 @@
   {
     "row": "player:johnny-oloughlin",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:johnny-oloughlin",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-79941"
   },
   {
     "row": "player:johnny-oloughlin",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA). Galway Bay FM Club Teams of the 2000s: Johnny O'Loughlin named for Loughrea; Galway GAA RoH 2006 Loughrea Senior Hurling Champions panel; MHC 1999 age-match. First+last published club cite."
   },
   {
     "row": "player:junior-mahoney",
@@ -41407,17 +41407,17 @@
   {
     "row": "player:pat-diviney",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:pat-diviney",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://web.archive.org/web/20030502010052/http:/www.skynet.ie/~beagh/history.htm"
   },
   {
     "row": "player:pat-diviney",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Beagh club history (archived): Pat Diviney on Beagh U21 B county champions 1993 panel and Fitzgibbon UL; Galway Intermediate All-Ireland 1999 panel age-match; also named on Beagh Junior C RoH 2016. First+last published club cite."
   },
   {
     "row": "player:pat-higgins",
@@ -41982,17 +41982,17 @@
   {
     "row": "player:peter-huban",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:peter-huban",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Peter_Huban"
   },
   {
     "row": "player:peter-huban",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1996 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1994 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1996 panel (Galway GAA). Wikipedia Peter Huban: lengthy club career with Kinvara; MHC 1994 / U-21 1996 (c) / senior 1999 age-match. First+last published club cite."
   },
   {
     "row": "player:peter-kelly",
@@ -52367,7 +52367,7 @@
   {
     "row": "appearance:peter-huban-minor-1994",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:liam-hogan-minor-1994",
@@ -53922,7 +53922,7 @@
   {
     "row": "appearance:johnny-oloughlin-minor-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:cathal-coen-minor-1999",
@@ -54042,7 +54042,7 @@
   {
     "row": "appearance:brian-mahoney-minor-2000",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:damien-hayes-minor-2000",
@@ -74917,7 +74917,7 @@
   {
     "row": "appearance:peter-huban-u-21-1996",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:liam-hodgins-u-21-1996",
@@ -81487,7 +81487,7 @@
   {
     "row": "appearance:pat-diviney-ihc-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:noel-power-ihc-1999",
@@ -85617,7 +85617,7 @@
   {
     "row": "player:brian-mahoney",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:brian-molloy",
@@ -97472,7 +97472,7 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "note",
-    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout."
+    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout. r24 AF-first: club-scoped Niall Burke from Galway GAA RoH 2016 IHC champions panel (distinct from Oranmore-Maree Niall Burke)."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -98877,7 +98877,7 @@
   {
     "row": "club:loughrea",
     "col": "note",
-    "val": "r8: Gregory Kennedy (Wikipedia Greg Kennedy) + Gearoid Loughnane (GAA.ie SHC final GK) linked. r9: linked Caimin Killeen, Dylan Shaughnessy, Jamie Ryan. r10: linked Darren Shaughnessy (Connacht Tribune 2026 SHC). r11: linked Martin McManus (Wikipedia 2025 SHC)."
+    "val": "r8: Gregory Kennedy (Wikipedia Greg Kennedy) + Gearoid Loughnane (GAA.ie SHC final GK) linked. r9: linked Caimin Killeen, Dylan Shaughnessy, Jamie Ryan. r10: linked Darren Shaughnessy (Connacht Tribune 2026 SHC). r11: linked Martin McManus (Wikipedia 2025 SHC). r24 club-less links: Johnny O'Loughlin + Brian Mahoney from Club Teams of the 2000s / RoH 2006."
   },
   {
     "row": "club:tynagh-abbey-duniry",
@@ -130602,7 +130602,7 @@
   {
     "row": "player:brian-mahoney",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:brian-omahony",
@@ -148673,5 +148673,1725 @@
     "row": "player:luke-cosgrove",
     "col": "hold",
     "val": true
+  },
+  {
+    "row": "player:peter-huban",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:peter-huban-minor-1994",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "appearance:peter-huban-u-21-1996",
+    "col": "club",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "player:johnny-oloughlin",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "appearance:johnny-oloughlin-minor-1999",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:pat-diviney",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "appearance:pat-diviney-ihc-1999",
+    "col": "club",
+    "val": "club:beagh"
+  },
+  {
+    "row": "player:brian-mahoney",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "appearance:brian-mahoney-minor-2000",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Niall Burke"
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Niall Burke named on Ahascragh-Fohenagh Intermediate Hurling Champions panel photo. Club-scoped id; distinct from Oranmore-Maree player:niall-burke."
+  },
+  {
+    "row": "player:niall-burke-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "name",
+    "val": "Dinny Ó hÉallaithe"
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Dinny Ó hÉallaithe named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:dinny-o-heallaithe-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "name",
+    "val": "Macdara Ó Béarra"
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Macdara Ó Béarra named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:macdara-o-bearra-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "name",
+    "val": "Ruairi Óg Ó Béarra"
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Ruairi Óg Ó Béarra named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:ruairi-og-o-bearra-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "name",
+    "val": "Carthach Breathnach"
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Carthach Breathnach named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:carthach-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "name",
+    "val": "Fionntán Ó Tuathail"
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Fionntán Ó Tuathail named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:fionntan-o-tuathail-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "name",
+    "val": "Maidhc Ó Conghaile"
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Maidhc Ó Conghaile named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:maidhc-o-conghaile-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "name",
+    "val": "Seán Chóil Ó Finneadha"
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Seán Chóil Ó Finneadha named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:sean-choil-o-finneadha-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "name",
+    "val": "Cian Griallais"
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Cian Griallais named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:cian-griallais-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "name",
+    "val": "Antaine Ó Finneadha"
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Antaine Ó Finneadha named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:antaine-o-finneadha-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "name",
+    "val": "Fiacha Ó Béarra"
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Fiacha Ó Béarra named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:fiacha-o-bearra-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "name",
+    "val": "Adrian Ó Tuathail"
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Adrian Ó Tuathail named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:adrian-o-tuathail-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "name",
+    "val": "Éinne Ó Conghaile"
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Éinne Ó Conghaile named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:einne-o-conghaile-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "name",
+    "val": "Séamus Ó Fátharta"
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Séamus Ó Fátharta named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:seamus-o-fatharta-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "name",
+    "val": "Gearóid Ó Conghaile"
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Gearóid Ó Conghaile named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:gearoid-o-conghaile-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "name",
+    "val": "Máirtín Ó Neachtain"
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Máirtín Ó Neachtain named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:mairtin-o-neachtain-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "name",
+    "val": "Marc Ó Duibhir"
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Marc Ó Duibhir named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:marc-o-duibhir-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "name",
+    "val": "Pádraic Mac Giolla Bhríde"
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Pádraic Mac Giolla Bhríde named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:padraic-mac-giolla-bhride-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "name",
+    "val": "Breandán Ó Conghaile"
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Breandán Ó Conghaile named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:breandan-o-conghaile-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "name",
+    "val": "Jack Mac Giolla Bhríde"
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Jack Mac Giolla Bhríde named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:jack-mac-giolla-bhride-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "name",
+    "val": "Cian Mac Giolla Bhríde"
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Cian Mac Giolla Bhríde named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:cian-mac-giolla-bhride-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "name",
+    "val": "Kevin Óg Ó Conghaile"
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Kevin Óg Ó Conghaile named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:kevin-og-o-conghaile-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "name",
+    "val": "Oisín Ó Ceallaigh"
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Oisín Ó Ceallaigh named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:oisin-o-ceallaigh-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "name",
+    "val": "Rónán Ó Maoláin"
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Rónán Ó Maoláin named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:ronan-o-maolain-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "name",
+    "val": "Ruadháin Ó Béarra"
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "club",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2016: Ruadháin Ó Béarra named on Michéal Breathnach Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "player:ruadhain-o-bearra-breathnach",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:micheal-breathnach",
+    "col": "note",
+    "val": "r24 thin-club fill from Galway GAA RoH 2016 Junior 1 Hurling Champions panel."
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "name",
+    "val": "Turloughmore vs Ardrahan (2016 Galway SHC Senior A Relegation)"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "round",
+    "val": "Senior A Relegation"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "score",
+    "val": "Turloughmore 1-20, Ardrahan 1-16"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Senior A Relegation."
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-turloughmore-ardrahan",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "name",
+    "val": "Liam Mellows vs Castlegar (2016 Galway SHC Senior A Relegation)"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "round",
+    "val": "Senior A Relegation"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "score",
+    "val": "Liam Mellows 1-20, Castlegar 0-15"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Senior A Relegation."
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-liam-mellows-castlegar",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "name",
+    "val": "Carnmore vs Kiltormer (2016 Galway SHC Relegation)"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "round",
+    "val": "Relegation"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "home",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "away",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "score",
+    "val": "Carnmore 3-9, Kiltormer 0-12"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Relegation."
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-relegation-carnmore-kiltormer",
+    "col": "winner",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Abbeyknockmoy (2016 Galway SHC Senior B Playoff)"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "round",
+    "val": "Senior B Playoff"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 5-21, Abbeyknockmoy 1-23 (a.e.t.)"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Senior B Playoff."
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-kilnadeema-leitrim-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Beagh vs Tynagh-Abbey/Duniry (2016 Galway SHC Senior B Playoff)"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Playoff"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Beagh 0-20, Tynagh-Abbey/Duniry 0-19 (a.e.t.)"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Senior B Playoff."
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-sb-playoff-beagh-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "name",
+    "val": "Gort vs Loughrea (2016 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "score",
+    "val": "Gort 1-19, Loughrea 0-21"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Round 5."
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-gort-loughrea",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "name",
+    "val": "St Thomas' vs Turloughmore (2016 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "score",
+    "val": "St Thomas' 1-23, Turloughmore 0-9"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Round 5."
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-st-thomas-turloughmore",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "name",
+    "val": "Sarsfields vs Castlegar (2016 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "score",
+    "val": "Sarsfields 0-19, Castlegar 0-17"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Round 5."
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-sarsfields-castlegar",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "name",
+    "val": "Craughwell vs Liam Mellows (2016 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "score",
+    "val": "Craughwell 5-17, Liam Mellows 1-18"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Round 5."
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-craughwell-liam-mellows",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "name",
+    "val": "Portumna vs Ardrahan (2016 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "score",
+    "val": "Portumna 2-23, Ardrahan 0-17"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Round 5."
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-portumna-ardrahan",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "name",
+    "val": "Pádraig Pearses vs Cappataggle (2016 Galway SHC Senior A Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "year",
+    "val": 2016
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "score",
+    "val": "Pádraig Pearses 1-21, Cappataggle 0-12"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Round 5."
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2016-r5-padraig-pearses-cappataggle",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:niall-burke",
+    "col": "note",
+    "val": "HOLD r24: Oranmore-Maree Niall Burke already clubbed; Galway GAA RoH 2016 AF IHC champions panel lists Niall Burke — club-scoped player:niall-burke-ahascragh-fohenagh created; do not auto-merge without archivist confirm."
   }
 ]
