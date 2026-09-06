@@ -9462,7 +9462,7 @@
   {
     "row": "club:claregalway",
     "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Claregalway_CLG"
+    "val": "https://www.claregalwaygaa.net/about-claregalway-gaa/club-history/further-history/"
   },
   {
     "row": "club:claregalway",
@@ -10097,7 +10097,7 @@
   {
     "row": "club:newcastle-galway",
     "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Rahoon-Newcastle_GAA"
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
   },
   {
     "row": "club:newcastle-galway",
@@ -10227,7 +10227,7 @@
   {
     "row": "club:rahoon",
     "col": "alias",
-    "val": "Rahoon GAA, Rahoon-Newcastle"
+    "val": "Rahoon GAA, Rahoon-Newcastle, Rahoon GAA, Rahoon-Newcastle, Rahoon/Newcastle"
   },
   {
     "row": "club:rahoon",
@@ -34742,17 +34742,17 @@
   {
     "row": "player:eamon-brannigan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:eamon-brannigan",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://rahoonnewcastle.ie/the-club/"
   },
   {
     "row": "player:eamon-brannigan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). Rahoon/Newcastle club history: Eamon Brannigan won All-Ireland Intermediate title with Galway (2015); club stamp Rahoon–Newcastle (seed club:rahoon)."
   },
   {
     "row": "player:eamon-hickey",
@@ -34802,17 +34802,17 @@
   {
     "row": "player:eanna-burke",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:eanna-burke",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/%C3%89anna_Burke"
   },
   {
     "row": "player:eanna-burke",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). Wikipedia: club St Thomas'; Galway SHC / All-Ireland club medallist; 2017 All-Ireland SHC panel."
   },
   {
     "row": "player:eanna-davoren",
@@ -38017,7 +38017,7 @@
   {
     "row": "player:kieran-finnerty",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD: club-less panel Kieran Finnerty — Abbey-Duniry 1999 K Finnerty uses distinct id player:kieran-finnerty-abbey-duniry."
   },
   {
     "row": "player:kieran-hanrahan",
@@ -42817,7 +42817,7 @@
   {
     "row": "player:sean-glynn",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD: modern 2005/2007 panel Sean Glynn — do not stamp onto 1960 Newcastle Christy/Sean Glynn caption ids."
   },
   {
     "row": "player:sean-hickey",
@@ -48762,7 +48762,7 @@
   {
     "row": "appearance:eanna-burke-shc-2017",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:conor-whelan-shc-2017",
@@ -84607,7 +84607,7 @@
   {
     "row": "appearance:eamon-brannigan-ihc-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:brian-molloy-ihc-2015",
@@ -85147,7 +85147,7 @@
   {
     "row": "appearance:eanna-burke-ihc-2015",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:kevin-lane-ihc-2015",
@@ -86587,7 +86587,7 @@
   {
     "row": "player:kieran-finnerty",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:kieran-hanrahan",
@@ -87337,7 +87337,7 @@
   {
     "row": "player:sean-glynn",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:sean-hickey",
@@ -92942,7 +92942,7 @@
   {
     "row": "club:woodford",
     "col": "note",
-    "val": "Amalgamated with Ballinakill (1968) to form Tommy Larkin's. Galway SHC titles 1913, 1917. Named 1914 poem surnames HOLD (incomplete first names)."
+    "val": "Amalgamated with Ballinakill (1968) to form Tommy Larkin's. Galway SHC titles 1913, 1917. Named 1914 poem surnames HOLD (incomplete first names). Jack Grady cited from 1914 Woodford poem (Tommy Larkin's club history). Remaining poem surnames (Fahys, Coens, Conroy, Burke, Kelly, Page, Gormans) HOLD — incomplete first names."
   },
   {
     "row": "club:army-galway",
@@ -92957,12 +92957,12 @@
   {
     "row": "club:newcastle-galway",
     "col": "note",
-    "val": "HOLD orphan: modern club is Rahoon–Newcastle (seed club:rahoon holds John Hanbury). No distinct Newcastle-only named-player cite this run — do not invent links."
+    "val": "HOLD orphan: modern club is Rahoon–Newcastle (seed club:rahoon holds John Hanbury). No distinct Newcastle-only named-player cite this run — do not invent links. Historic Newcastle won Galway IHC 1960 (Wikipedia roll). Amalgamated with Rahoon (1981) as Rahoon–Newcastle (seed club:rahoon). 1960 XV from Athenry GAA photo caption. Modern players (Hanbury, Brannigan) stamped on club:rahoon."
   },
   {
     "row": "club:claregalway",
     "col": "note",
-    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested."
+    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested. HOLD orphan for hurling players: modern Claregalway CLG is primarily football; parish hurling is Carnmore (Carnmore GAA about + Claregalway further-history). No named Claregalway-only hurling player cite this run — do not invent links. Carnmore thin fill separate."
   },
   {
     "row": "player:tom-monaghan",
@@ -92986,6 +92986,1421 @@
   },
   {
     "row": "player:kevin-broderick",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:eanna-burke",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:eanna-burke-shc-2017",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:eanna-burke-ihc-2015",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:eamon-brannigan",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "appearance:eamon-brannigan-ihc-2015",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Fintan Glynn"
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Named among Ahascragh–Fohenagh scorers (0-1), 2023 Galway SHC vs Liam Mellows (Wikipedia). Distinct id — Glynn surname common."
+  },
+  {
+    "row": "player:fintan-glynn-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Liam Warde"
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Named among Ahascragh–Fohenagh scorers (0-1), 2024 Galway SHC vs Athenry (Wikipedia). Distinct from Noel Warde."
+  },
+  {
+    "row": "player:liam-warde-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "name",
+    "val": "Mattie Kenny"
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Mattie_Kenny"
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "note",
+    "val": "Wikipedia: lined out with Galway SHC club Abbey/Duniry; top scorer 0-7 (frees) in 1999 Galway SHC final vs Athenry (Irish Independent). Later managed Dublin / Tynagh-Abbey/Duniry."
+  },
+  {
+    "row": "player:mattie-kenny",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "name",
+    "val": "P.J. Kenny"
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: P J Kenny named on Abbey-Duniry XV / scorer (0-1)."
+  },
+  {
+    "row": "player:pj-kenny-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "name",
+    "val": "Kevin Devine"
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: K Devine named Abbey-Duniry goalkeeper."
+  },
+  {
+    "row": "player:kevin-devine-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "name",
+    "val": "Kieran Finnerty"
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: K Finnerty named on Abbey-Duniry XV. Distinct id — do not collide with club-less panel Kieran Finnerty."
+  },
+  {
+    "row": "player:kieran-finnerty-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "name",
+    "val": "Noel Finnerty"
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: N Finnerty named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:noel-finnerty-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "name",
+    "val": "Vincent Kavanagh"
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: V Kavanagh named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:vincent-kavanagh-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "name",
+    "val": "Tom Kavanagh"
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: T Kavanagh named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:tom-kavanagh-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "name",
+    "val": "Frank Flynn"
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: F Flynn named on Abbey-Duniry XV. Distinct from historic Duniry Frank Flynn (NHL 1951) HOLD if other cites appear."
+  },
+  {
+    "row": "player:frank-flynn-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "name",
+    "val": "James Shiel"
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: J Shiel named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:james-shiel-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "name",
+    "val": "Michael Shiel"
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: M Shiel named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:michael-shiel-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "name",
+    "val": "Niall Shiel"
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent / Athenry GAA 1998: Niall Shiel named Abbey-Duniry sub / scorer who levelled 1998 final."
+  },
+  {
+    "row": "player:niall-shiel-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "name",
+    "val": "Ger Lynch"
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: G Lynch named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:ger-lynch-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "name",
+    "val": "Damien Donnelly"
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: D Donnelly named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:damien-donnelly-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "name",
+    "val": "Declan Power"
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "club",
+    "val": "club:abbey-duniry-historic"
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "note",
+    "val": "Irish Independent 1999 Galway SHC final: D Power (Red) named on Abbey-Duniry XV."
+  },
+  {
+    "row": "player:declan-power-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "name",
+    "val": "George Moran"
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history photo caption: George Moran named on Newcastle County Intermediate Hurling Champions 1960."
+  },
+  {
+    "row": "player:george-moran-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "name",
+    "val": "Bernie Rohan"
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Bernie Rohan named on Newcastle Intermediate champions 1960."
+  },
+  {
+    "row": "player:bernie-rohan-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "name",
+    "val": "Sean Connors"
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Sean Connors named on Newcastle Intermediate champions 1960."
+  },
+  {
+    "row": "player:sean-connors-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "name",
+    "val": "Bertie Burns"
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Bertie Burns named on Newcastle Intermediate champions 1960."
+  },
+  {
+    "row": "player:bertie-burns-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "name",
+    "val": "Frank Burke"
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Frank Burke named on Newcastle Intermediate champions 1960 (distinct id — Burke surname common)."
+  },
+  {
+    "row": "player:frank-burke-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "name",
+    "val": "Paddy Joe Rabbitte"
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Paddy Joe Rabbitte named on Newcastle Intermediate champions 1960."
+  },
+  {
+    "row": "player:paddy-joe-rabbitte-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "name",
+    "val": "Kerill Burke"
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Kerill Burke named on Newcastle Intermediate champions 1960."
+  },
+  {
+    "row": "player:kerill-burke-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "name",
+    "val": "Christy Glynn"
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Christy Glynn named on Newcastle Intermediate champions 1960. Distinct from modern panel Sean Glynn (HOLD)."
+  },
+  {
+    "row": "player:christy-glynn-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "name",
+    "val": "Tony Morris"
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Tony Morris named on Newcastle Intermediate champions 1960."
+  },
+  {
+    "row": "player:tony-morris-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "name",
+    "val": "Tommy Madden"
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "source",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "note",
+    "val": "Athenry GAA history: Tommy Madden named on Newcastle Intermediate champions 1960."
+  },
+  {
+    "row": "player:tommy-madden-newcastle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "name",
+    "val": "Jack Grady"
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "club",
+    "val": "club:woodford"
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "source",
+    "val": "https://www.tommylarkins.gaa.ie/history"
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "note",
+    "val": "Tommy Larkin's club history: 1914 Woodford poem by Michael Power names Jack Grady among Woodford fifteen. Other poem surnames HOLD (incomplete first names)."
+  },
+  {
+    "row": "player:jack-grady-woodford",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "name",
+    "val": "Tom Donoghue"
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "club",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tom_Donoghue"
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "note",
+    "val": "Wikipedia: began club career with Killimordaly; later Ballinamere / Offaly. Listed Killimordaly GAA Notable players / Category:Killimordaly hurlers."
+  },
+  {
+    "row": "player:tom-donoghue",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "name",
+    "val": "Jack Fitzpatrick"
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "club",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Jack_Fitzpatrick_(hurler)"
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "note",
+    "val": "Wikipedia: Galway Senior Championship club Killimordaly; All-Ireland MHC 2015."
+  },
+  {
+    "row": "player:jack-fitzpatrick",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "name",
+    "val": "Malachy Hanley"
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "source",
+    "val": "https://www.carnmoregaa.net/about"
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "note",
+    "val": "Carnmore GAA club history: Intermediate crown 1988 side captained by Malachy Hanley. Parish hurling club (Claregalway football club remains separate — HOLD Claregalway hurling player invent)."
+  },
+  {
+    "row": "player:malachy-hanley-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:abbey-duniry-historic",
+    "col": "note",
+    "val": "1999 Galway SHC final XV cited Irish Independent (scorers also on Wikipedia 1999 page). Kevin Broderick HOLD (seed Craughwell). Liam Hodgins already stamped club:tynagh-abbey-duniry — no overwrite."
+  },
+  {
+    "row": "club:abbey-duniry-historic",
+    "col": "source_independent",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "club:abbey-duniry-historic",
+    "col": "source_wiki_mattie",
+    "val": "https://en.wikipedia.org/wiki/Mattie_Kenny"
+  },
+  {
+    "row": "club:newcastle-galway",
+    "col": "status",
+    "val": "historic predecessor"
+  },
+  {
+    "row": "club:newcastle-galway",
+    "col": "successor",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "club:newcastle-galway",
+    "col": "Galway Intermediate Hurling Championship",
+    "val": "1960"
+  },
+  {
+    "row": "club:newcastle-galway",
+    "col": "source_caption",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "club:newcastle-galway",
+    "col": "source_club",
+    "val": "https://rahoonnewcastle.ie/the-club/"
+  },
+  {
+    "row": "club:woodford",
+    "col": "source_history",
+    "val": "https://www.tommylarkins.gaa.ie/history"
+  },
+  {
+    "row": "club:claregalway",
+    "col": "status",
+    "val": "football parish club; historic hurling predecessor"
+  },
+  {
+    "row": "club:claregalway",
+    "col": "hurling_successor",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "club:claregalway",
+    "col": "source_carnmore",
+    "val": "https://www.carnmoregaa.net/about"
+  },
+  {
+    "row": "club:rahoon",
+    "col": "note",
+    "val": "Modern amalgam includes historic Newcastle (club:newcastle-galway). John Hanbury + Eamon Brannigan stamped here."
+  },
+  {
+    "row": "club:rahoon",
+    "col": "source_club",
+    "val": "https://rahoonnewcastle.ie/the-club/"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "name",
+    "val": "Newcastle vs Ballinderreen (1960 Galway IHC Final)"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "home",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "winner",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "runner_up",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "note",
+    "val": "Newcastle won Galway Intermediate Hurling Championship 1960 (Wikipedia Intermediate championship roll; Athenry GAA history names the champion side). Score withheld pending second public source (Wiki alone lists 2-04 to 2-03)."
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "source_caption",
+    "val": "https://athenrygaa.ie/index.php/history-photo-gallery/1960-1963"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-ihc-1960-final",
+    "col": "historic_club",
+    "val": "club:newcastle-galway"
+  },
+  {
+    "row": "match:galway-shc-1999-final",
+    "col": "secondary_cite",
+    "val": "1999-10-25 · Irish Independent"
+  },
+  {
+    "row": "match:galway-shc-1999-final",
+    "col": "secondary_cite_paper",
+    "val": "Irish Independent"
+  },
+  {
+    "row": "match:galway-shc-1999-final",
+    "col": "secondary_cite_date",
+    "val": "1999-10-25"
+  },
+  {
+    "row": "match:galway-shc-1999-final",
+    "col": "secondary_cite_url",
+    "val": "https://www.independent.ie/sport/athenry-delight-as-abbey-fail-to-spark/26136359.html"
+  },
+  {
+    "row": "match:galway-shc-1999-final",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:brian-concannon",
+    "col": "note",
+    "val": "HOLD overwrite: seed Loughrea retained; Wikipedia Killimordaly cites conflict — no overwrite."
+  },
+  {
+    "row": "player:sean-glynn",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:kieran-finnerty",
     "col": "hold",
     "val": true
   }
