@@ -1,0 +1,443 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:liam-oreilly",
+      "club": "club:castlegar",
+      "source": "https://www.galwaygaa.ie/history/2017-club-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2017: Liam O'Reilly named on Castlegar County Minor A Hurling Champions panel (with Sean Neary/Cillian Callaghan); Galway MHC All-Ireland 2018 panel age-match. First+last published club cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:ronan-reilly",
+      "club": "club:kilbeacanty",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA RoH 2014: Ronan Reilly named on Kilbeacanty County Junior B Hurling Shield winners panel; Clare Champion Kilbeacanty history names Ronan Reilly as All-Ireland medal holder; Galway MHC 1999 / IHC 2002 panel age-match. First+last published club cite. Thin-club fill.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:kevin-joyce",
+      "club": "club:clarinbridge",
+      "source": "https://www.galwaygaa.ie/history/2013-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2013: Kevin Joyce named on Clarinbridge County Junior C Hurling Champions panel; Galway MHC All-Ireland 2004/2005 panel age-match. First+last published club cite.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Cian Freyne",
+      "id": "player:cian-freyne-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Cian Freyne named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Cormac Dervin",
+      "id": "player:cormac-dervin-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Cormac Dervin named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Aaron Kirwan",
+      "id": "player:aaron-kirwan-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Aaron Kirwan named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Dean Lawless",
+      "id": "player:dean-lawless-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Dean Lawless named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Mark Rainey",
+      "id": "player:mark-rainey-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Mark Rainey named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "John Sammon",
+      "id": "player:john-sammon-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: John Sammon named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Shane Pender",
+      "id": "player:shane-pender-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Shane Pender named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Michael Whyte",
+      "id": "player:michael-whyte-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Michael Whyte named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Mike Hennelly",
+      "id": "player:mike-hennelly-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Mike Hennelly named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Benny McLoughlin",
+      "id": "player:benny-mcloughlin-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Benny McLoughlin named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Michael Lyons",
+      "id": "player:michael-lyons-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Michael Lyons named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill (name collision risk with other Galway Michael Lyons / Liam O'Connor records).",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Aidan Kennedy",
+      "id": "player:aidan-kennedy-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: Aidan Kennedy named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "James Birch",
+      "id": "player:james-birch-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2010-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2010: James Birch named on Ahascragh/Fohenagh County Minor B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Liam O'Connor",
+      "id": "player:liam-oconnor-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2012-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2012: Liam O'Connor named on Ahascragh/Fohenagh County Under 21 B Hurling Champions panel (also age-cohort with RoH 2010 Minor B). Club-scoped AF-first thin fill (name collision risk with other Galway Michael Lyons / Liam O'Connor records).",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Daragh Butler",
+      "id": "player:daragh-butler-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.galwaygaa.ie/history/2012-hurling-football-roll-of-honour/",
+      "note": "Galway GAA RoH 2012: Daragh Butler named on Ahascragh/Fohenagh County Under 21 B Hurling Champions panel. Club-scoped AF-first thin fill.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Dylan O'Malley",
+      "id": "player:dylan-omalley-michael-cusacks",
+      "club": "club:michael-cusacks",
+      "source": "https://www.galwaybayfm.ie/sports/galway-get-celtic-challenge-under-17-hurling-campaign-off-to-a-winning-start-160691",
+      "note": "Galway Bay FM Celtic Challenge U17 2024: Dylan O'Malley listed as Michael Cusacks on Galway panel. Club-scoped thin-club fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:albert-moylan",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:brendan-keogh",
+    "player:brendan-lynch",
+    "player:brian-concannon",
+    "player:brian-cunningham",
+    "player:brian-holland",
+    "player:brian-murphy",
+    "player:brian-omahony",
+    "player:cathal-coen",
+    "player:christy-helebert",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:cormac-diviney",
+    "player:damien-fahy",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:donal-mannion",
+    "player:enda-fahey",
+    "player:finnian-coone",
+    "player:gerry-kelly",
+    "player:gordon-glynn",
+    "player:greg-kennedy",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:kerrill-wade",
+    "player:kevin-broderick",
+    "player:kieran-finnerty",
+    "player:luke-cosgrove",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-conneely",
+    "player:michael-donoghue",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-lynskey",
+    "player:micheal-donoghue",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:murty-killilea",
+    "player:niall-burke",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:sean-glynn",
+    "player:shane-maloney",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:tom-monaghan",
+    "player:tony-og-regan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [
+    {
+      "id": "club:ahascragh-fohenagh",
+      "cols": {
+        "note": "r27 AF-first: RoH 2010 Minor B thin squad fills; Wikipedia 2021 Senior A + 2022 Senior B AF scored Match triples + relegation win vs Tynagh-Abbey/Duniry."
+      }
+    },
+    {
+      "id": "club:castlegar",
+      "cols": {
+        "note": "r27: Liam O'Reilly linked via RoH 2017 Castlegar Minor A Hurling Champions panel (MHC 2018 age-match)."
+      }
+    },
+    {
+      "id": "club:kilbeacanty",
+      "cols": {
+        "note": "r27 thin-club: Ronan Reilly linked via RoH 2014 Junior B Shield + Clare Champion All-Ireland medal cite."
+      }
+    },
+    {
+      "id": "club:clarinbridge",
+      "cols": {
+        "note": "r27: Kevin Joyce linked via RoH 2013 Clarinbridge Junior C Hurling Champions panel."
+      }
+    },
+    {
+      "id": "club:michael-cusacks",
+      "cols": {
+        "note": "r27 thin-club: Dylan O'Malley added via Galway Bay FM Celtic Challenge U17 2024 panel (Michael Cusacks)."
+      }
+    },
+    {
+      "id": "club:ballygar",
+      "cols": {
+        "note": "r27: Greg Thomas HOLD cleared — Galway GAA All-Ireland winning teams 2019 MHC lists Greg Thomas (Ballygar)."
+      }
+    }
+  ],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2021-sa-r1-castlegar-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Ahascragh-Fohenagh (2021 Galway SHC Senior A Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 1",
+        "year": 2021,
+        "home": "club:castlegar",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Castlegar 3-17, Ahascragh-Fohenagh 0-17",
+        "note": "Wikipedia 2021 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-sa-r2-craughwell-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Ahascragh-Fohenagh (2021 Galway SHC Senior A Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 2",
+        "year": 2021,
+        "home": "club:craughwell",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Craughwell 1-23, Ahascragh-Fohenagh 0-14",
+        "note": "Wikipedia 2021 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-sa-r3-turloughmore-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Ahascragh-Fohenagh (2021 Galway SHC Senior A Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior A Round 3",
+        "year": 2021,
+        "home": "club:turloughmore",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Turloughmore 1-20, Ahascragh-Fohenagh 0-13",
+        "note": "Wikipedia 2021 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship",
+        "winner": "club:turloughmore"
+      }
+    },
+    {
+      "id": "match:galway-shc-2022-sb-r1-portumna-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Ahascragh-Fohenagh (2022 Galway SHC Senior B Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 1",
+        "year": 2022,
+        "home": "club:portumna",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Portumna 0-23, Ahascragh-Fohenagh 0-13",
+        "note": "Wikipedia 2022 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+        "winner": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2022-sb-r2-padraig-pearses-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Ahascragh-Fohenagh (2022 Galway SHC Senior B Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 2",
+        "year": 2022,
+        "home": "club:padraig-pearses",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Pádraig Pearses 0-18, Ahascragh-Fohenagh 0-13",
+        "note": "Wikipedia 2022 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+        "winner": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2022-sb-r3-liam-mellows-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Ahascragh-Fohenagh (2022 Galway SHC Senior B Round 3)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 3",
+        "year": 2022,
+        "home": "club:liam-mellows",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Liam Mellows 1-24, Ahascragh-Fohenagh 2-9",
+        "note": "Wikipedia 2022 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+        "winner": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2022-sb-r4-ardrahan-ahascragh-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Ardrahan vs Ahascragh-Fohenagh (2022 Galway SHC Senior B Round 4)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 4",
+        "year": 2022,
+        "home": "club:ardrahan",
+        "away": "club:ahascragh-fohenagh",
+        "score": "Ardrahan 2-19, Ahascragh-Fohenagh 1-18",
+        "note": "Wikipedia 2022 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+        "winner": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-shc-2022-sb-r5-ahascragh-fohenagh-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Ahascragh-Fohenagh vs Mullagh (2022 Galway SHC Senior B Round 5)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior B Round 5",
+        "year": 2022,
+        "home": "club:ahascragh-fohenagh",
+        "away": "club:mullagh",
+        "score": "Ahascragh-Fohenagh 0-25, Mullagh 2-15",
+        "note": "Wikipedia 2022 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+        "winner": "club:ahascragh-fohenagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2022-relegation-ahascragh-fohenagh-tynagh-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Ahascragh-Fohenagh vs Tynagh-Abbey/Duniry (2022 Galway SHC Relegation)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Senior Relegation",
+        "year": 2022,
+        "home": "club:ahascragh-fohenagh",
+        "away": "club:tynagh-abbey-duniry",
+        "score": "Ahascragh-Fohenagh 1-13, Tynagh-Abbey/Duniry 1-12",
+        "note": "Wikipedia 2022 Galway SHC published scoreline.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+        "winner": "club:ahascragh-fohenagh"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:conor-cunningham": "HOLD r27: club-less MHC 2018 Conor Cunningham; Athenry GAA 2019 medal-night caption lists Conor Cunningham (Moycullen) while Colm Cunningham already clubbed Moycullen — identity/spelling collision; do not auto-merge without archivist confirm.",
+    "player:niall-flemming": "HOLD r25/r26: club-less MHC 2018 Niall Flemming (double-m); Meelick Niall Fleming club-scoped — do not auto-merge.",
+    "player:gordon-glynn": "HOLD r25/r26 refresh: Gordan Glynn linked to Kiltormer via RoH 2001; keep Gordon Glynn MHC/U-21/IHC spelling on HOLD.",
+    "player:niall-burke": "HOLD r24/r26: Oranmore-Maree Niall Burke already clubbed; AF club-scoped player:niall-burke-ahascragh-fohenagh distinct.",
+    "player:luke-cosgrove": "HOLD r23/r26: Luke Cosgrove AF already clubbed; L Cosgrove Examiner lineout remains club-scoped as Liam Cosgrove AF.",
+    "player:trevor-kavanagh": "HOLD r26: club-less MHC 2000 Trevor Kavanagh; RoH 2007 Tommy Larkins lists Trevor Cavanagh (linked) — spelling/identity collision; do not auto-merge without archivist confirm."
+  }
+}
