@@ -151,5 +151,25 @@
       "player:sean-carrig-fohenagh"
     ],
     "note": "AF/Fohenagh r15: Turloughmore 1963 Fohenagh team sheet (12 new historic) + Tuam Herald 2026 AF Sean Kelly/Alan Moclair unverified. Linked Darragh Coen Clarinbridge (HOLD bare Dara Coen). HOLD Noel/Niall Kelly and Murty Killilea. Skip HOLD orphans."
+  },
+  {
+    "batch": "fohenagh-club-links-r17",
+    "ruled_at": "2026-09-06T20:52:17.972674+00:00",
+    "clear_links": [
+      "player:jason-lohan"
+    ],
+    "unverified_new": [
+      "player:colm-kirwan-fohenagh",
+      "player:niall-devine-fohenagh",
+      "player:brendan-noone-fohenagh",
+      "player:oliver-deeley-fohenagh",
+      "player:albie-deeley-fohenagh",
+      "player:cathal-lohan-fohenagh",
+      "player:kevin-murray-ahascragh",
+      "player:eugene-naughton-ahascragh",
+      "player:colm-colohan-ahascragh",
+      "player:ollie-nolan-ahascragh"
+    ],
+    "note": "AF/Fohenagh r17: Jason Lohan linked to AF from RoH 1999 Minor B; Fohenagh/Ahascragh historic Minor/Junior fills first. Wikipedia 2023 scored matches. HOLD Jenning(s)/Murphy/Burke/Keane/Conroy collisions. Skip HOLD orphans."
   }
 ]
