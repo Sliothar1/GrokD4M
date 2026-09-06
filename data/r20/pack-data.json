@@ -1,0 +1,1212 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:stephen-page",
+      "club": "club:tommy-larkins",
+      "source": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2013/2014/2015 Galway SHC scoresheets: Stephen Page scored for Tommy Larkin's (incl. 1-0 vs St Thomas' 2014; 0-1 vs Craughwell 2015). U-21 2011 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:kevin-huban",
+      "club": "club:tommy-larkins",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC scoresheet (also styled Kevin Hooban in 2014/2016 reports): Kevin Huban scored for Tommy Larkin's vs Liam Mellows. U-21 2005 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:kevin-brady",
+      "club": "club:castlegar",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC scoresheets: Kevin Brady scored for Castlegar (0-3 vs Carnmore; 1-1 vs Liam Mellows). MHC 1999 / U-21 2002 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:kevin-keane",
+      "club": "club:castlegar",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015/2016 Galway SHC scoresheets: Kevin Keane scored goals for Castlegar (1-1 vs Tommy Larkin's 2015; goals in 2016 Senior A). U-21 2007 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:keith-kilkenny",
+      "club": "club:kiltormer",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2013/2015 Galway SHC scoresheets: Keith Kilkenny scored for Kiltormer (0-7 frees vs Tommy Larkin's 2013; 1-5 vs Ardrahan 2015). MHC 2004 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:ronan-badger",
+      "club": "club:turloughmore",
+      "source": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2014/2015/2016 Galway SHC scoresheets: Ronan Badger scored for Turloughmore across multiple rounds (incl. 1-0 vs Tynagh-Abbey/Duniry 2014). MHC 2009 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:ger-ohalloran",
+      "club": "club:craughwell",
+      "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2015 Galway SHC Final (drawn game) scoresheet + starting XV: Ger O'Halloran scored 0-2 and started at midfield for Craughwell vs Sarsfields. U-21 2011 inter-county age-match. First+last published score/panel cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:eugene-gorman",
+      "club": "club:tommy-larkins",
+      "source": "https://en.wikipedia.org/wiki/2013_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2013/2016 Galway SHC scoresheets: Eugene Gorman scored for Tommy Larkin's (0-1 vs Clarinbridge 2013; 0-1 vs Killimordaly 2016). IHC 2002 inter-county age-match. First+last published score cite.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:darragh-odonoghue",
+      "club": "club:kilnadeema-leitrim",
+      "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2016 Galway SHC Preliminary Quarter-final scoresheet + Galway GAA RoH 2015 U-21 A: Darragh O'Donoghue scored for Kilnadeema–Leitrim vs Sarsfields and named on 2015 U-21 A Champions panel. IHC 2015 inter-county age-match. First+last cite.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Sean Lally",
+      "id": "player:sean-lally-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Sean Lally named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Tomas Rafftery",
+      "id": "player:tomas-rafftery-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Tomas Rafftery named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Michael Finnegan",
+      "id": "player:michael-finnegan-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Michael Finnegan named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Eamon Connor",
+      "id": "player:eamon-connor-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Eamon Connor named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Sean Grady",
+      "id": "player:sean-grady-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Sean Grady named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Michael Geraghty",
+      "id": "player:michael-geraghty-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Michael Geraghty named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Paul Colohan",
+      "id": "player:paul-colohan-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Paul Colohan named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Niall Cotton",
+      "id": "player:niall-cotton-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Niall Cotton named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Pat Gilmore",
+      "id": "player:pat-gilmore-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Pat Gilmore named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Eamon Grady",
+      "id": "player:eamon-grady-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Eamon Grady named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "David Leonard",
+      "id": "player:david-leonard-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: David Leonard named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Kevin Glynn",
+      "id": "player:kevin-glynn-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Kevin Glynn named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Gerard Fitzgerald",
+      "id": "player:gerard-fitzgerald-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Gerard Fitzgerald named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Seamus Meehan",
+      "id": "player:seamus-meehan-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Seamus Meehan named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Kevin Fitzgerald",
+      "id": "player:kevin-fitzgerald-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Kevin Fitzgerald named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Cathal Concannon",
+      "id": "player:cathal-concannon-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Cathal Concannon named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Noel Fitzgerald",
+      "id": "player:noel-fitzgerald-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Noel Fitzgerald named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "John Joe Smyth",
+      "id": "player:john-joe-smyth-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: John Joe Smyth named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Mike Monaghan",
+      "id": "player:mike-monaghan-ahascragh",
+      "club": "club:ahascragh-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Mike Monaghan named on Ahascragh Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Padraig Mannion",
+      "id": "player:padraig-mannion-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Padraig Mannion named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tomas Ryan",
+      "id": "player:tomas-ryan-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Tomas Ryan named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Derek Cummins",
+      "id": "player:derek-cummins-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Derek Cummins named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean O'Brien",
+      "id": "player:sean-obrien-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Sean O'Brien named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Thomas McHugh",
+      "id": "player:thomas-mchugh-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Thomas McHugh named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Pat Keating",
+      "id": "player:pat-keating-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Pat Keating named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eugene Burke",
+      "id": "player:eugene-burke-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Eugene Burke named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Pat Donnellan",
+      "id": "player:pat-donnellan-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Pat Donnellan named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Nee",
+      "id": "player:michael-nee-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Michael Nee named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paddy Healy",
+      "id": "player:paddy-healy-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Paddy Healy named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dara Concagh",
+      "id": "player:dara-concagh-mountbellew",
+      "club": "club:mountbellew-moylough",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1991: Dara Concagh named on Mountbellew-Moylough Junior ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Seamus McHugh",
+      "id": "player:seamus-mchugh-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Seamus McHugh named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jimmy Screene",
+      "id": "player:jimmy-screene-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Jimmy Screene named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brendan Cosgrove",
+      "id": "player:brendan-cosgrove-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Brendan Cosgrove named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tommy Screene",
+      "id": "player:tommy-screene-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Tommy Screene named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Brendan Quirke",
+      "id": "player:brendan-quirke-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Brendan Quirke named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin Hansberry",
+      "id": "player:martin-hansberry-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Martin Hansberry named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gerry Quirke",
+      "id": "player:gerry-quirke-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Gerry Quirke named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal Jordan",
+      "id": "player:cathal-jordan-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Cathal Jordan named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Kevin Collins",
+      "id": "player:kevin-collins-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Kevin Collins named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Hughes",
+      "id": "player:michael-hughes-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Michael Hughes named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Padraic Hughes",
+      "id": "player:padraic-hughes-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Padraic Hughes named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "John Hansberry",
+      "id": "player:john-hansberry-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: John Hansberry named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Damien Costello",
+      "id": "player:damien-costello-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Damien Costello named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Nicholas Hughes",
+      "id": "player:nicholas-hughes-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Nicholas Hughes named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "James Hoade",
+      "id": "player:james-hoade-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: James Hoade named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gerry Jordan",
+      "id": "player:gerry-jordan-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Gerry Jordan named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Seamus Hoade",
+      "id": "player:seamus-hoade-skehana",
+      "club": "club:skehana",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1989: Seamus Hoade named on Skehana U-21 Hurling Champions panel. First+last hurling cite for HOLD orphan club:skehana.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mark Duffy",
+      "id": "player:mark-duffy-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Mark Duffy named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cormac Nevin",
+      "id": "player:cormac-nevin-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Cormac Nevin named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gearoid Murphy",
+      "id": "player:gearoid-murphy-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Gearoid Murphy named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Noone",
+      "id": "player:conor-noone-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Conor Noone named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Barry Everett",
+      "id": "player:barry-everett-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Barry Everett named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Robert Everett",
+      "id": "player:robert-everett-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Robert Everett named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Alan Nevin",
+      "id": "player:alan-nevin-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Alan Nevin named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darren Smith",
+      "id": "player:darren-smith-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Darren Smith named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Patrick Kelly",
+      "id": "player:patrick-kelly-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Patrick Kelly named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Keelan Clarke",
+      "id": "player:keelan-clarke-ballinasloe",
+      "club": "club:ballinasloe",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Keelan Clarke named on Ballinasloe Minor ‘C’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gerry Donnellan",
+      "id": "player:gerry-donnellan-leitrim",
+      "club": "club:leitrim-galway-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1990: Gerry Donnellan named on Leitrim Junior ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Patrick Molloy",
+      "id": "player:patrick-molloy-leitrim",
+      "club": "club:leitrim-galway-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1990: Patrick Molloy named on Leitrim Junior ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Kevin Boyle",
+      "id": "player:kevin-boyle-leitrim",
+      "club": "club:leitrim-galway-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1990: Kevin Boyle named on Leitrim Junior ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Des Daniels",
+      "id": "player:des-daniels-leitrim",
+      "club": "club:leitrim-galway-historic",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1990: Des Daniels named on Leitrim Junior ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Seamus Fox",
+      "id": "player:seamus-fox-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Seamus Fox named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Fergal Clancy",
+      "id": "player:fergal-clancy-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Fergal Clancy named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Naughton",
+      "id": "player:michael-naughton-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Michael Naughton named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Walter McDonagh",
+      "id": "player:walter-mcdonagh-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Walter McDonagh named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Caoimhin Davoren",
+      "id": "player:caoimhin-davoren-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Caoimhin Davoren named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tommy Keady",
+      "id": "player:tommy-keady-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Tommy Keady named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Dunne",
+      "id": "player:michael-dunne-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Michael Dunne named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ronan Hanley",
+      "id": "player:ronan-hanley-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Ronan Hanley named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adrian McDonagh",
+      "id": "player:adrian-mcdonagh-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Adrian McDonagh named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean McLoughlin",
+      "id": "player:sean-mcloughlin-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Sean McLoughlin named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Vincent Fox",
+      "id": "player:vincent-fox-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Vincent Fox named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Hughie Molloy",
+      "id": "player:hughie-molloy-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Hughie Molloy named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tom Flaherty",
+      "id": "player:tom-flaherty-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Tom Flaherty named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Peter Hanley",
+      "id": "player:peter-hanley-moycullen",
+      "club": "club:moycullen",
+      "source": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/",
+      "note": "Galway GAA Roll of Honour 1992: Peter Hanley named on Moycullen U-21 ‘A’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Paul Creaven",
+      "id": "player:paul-creaven-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Paul Creaven named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "James Melia",
+      "id": "player:james-melia-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: James Melia named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin Hession",
+      "id": "player:martin-hession-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Martin Hession named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adrian Pearce",
+      "id": "player:adrian-pearce-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Adrian Pearce named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Michael Geoghegan",
+      "id": "player:michael-geoghegan-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Michael Geoghegan named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mattie Coleman",
+      "id": "player:mattie-coleman-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Mattie Coleman named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Derek O'Neill",
+      "id": "player:derek-oneill-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Derek O'Neill named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin O'Neill",
+      "id": "player:martin-oneill-annaghdown",
+      "club": "club:annaghdown",
+      "source": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/",
+      "note": "Galway GAA Roll of Honour 2000: Martin O'Neill named on Annaghdown Junior ‘B’ Hurling Champions panel.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:albert-moylan",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:brendan-keogh",
+    "player:brendan-lynch",
+    "player:brian-concannon",
+    "player:brian-cunningham",
+    "player:brian-holland",
+    "player:brian-mahoney",
+    "player:brian-murphy",
+    "player:brian-omahony",
+    "player:cathal-coen",
+    "player:christy-helebert",
+    "player:cian-regan",
+    "player:conor-burke",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:cormac-diviney",
+    "player:damien-fahy",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:don-reilly",
+    "player:donal-mannion",
+    "player:enda-fahey",
+    "player:finnian-coone",
+    "player:gerry-kelly",
+    "player:gordan-glynn",
+    "player:gordon-glynn",
+    "player:greg-kennedy",
+    "player:greg-thomas",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:kerrill-wade",
+    "player:kevin-broderick",
+    "player:kieran-finnerty",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-conneely",
+    "player:michael-donoghue",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:micheal-donoghue",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:murty-killilea",
+    "player:niall-kelly",
+    "player:noel-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:sean-glynn",
+    "player:shane-maloney",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:tom-monaghan",
+    "player:tony-og-regan"
+  ],
+  "new_clubs": [],
+  "club_meta": [
+    {
+      "id": "club:skehana",
+      "cols": {
+        "note": "r20: filled from Galway GAA RoH 1989 Skehana U-21 Hurling Champions panel (first+last hurling cite for former HOLD orphan)."
+      }
+    }
+  ],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2015-final-draw",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Craughwell (2015 Galway SHC Final — drawn game)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Final",
+        "year": 2015,
+        "home": "club:sarsfields",
+        "away": "club:craughwell",
+        "score": "Sarsfields 0-12, Craughwell 0-12",
+        "note": "Wikipedia 2015 Galway SHC Final drawn game at Kenny Park.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-sf-craughwell-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs St Thomas' (2015 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2015,
+        "home": "club:craughwell",
+        "away": "club:st-thomas",
+        "score": "Craughwell 1-20, St Thomas' 0-22",
+        "note": "Wikipedia 2015 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell",
+        "runner_up": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-sf-sarsfields-gort",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Gort (2015 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2015,
+        "home": "club:sarsfields",
+        "away": "club:gort",
+        "score": "Sarsfields 0-21, Gort 0-17",
+        "note": "Wikipedia 2015 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "runner_up": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qf-craughwell-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Liam Mellows (2015 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2015,
+        "home": "club:craughwell",
+        "away": "club:liam-mellows",
+        "score": "Craughwell 0-21, Liam Mellows 2-14",
+        "note": "Wikipedia 2015 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell",
+        "runner_up": "club:liam-mellows"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qf-st-thomas-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Loughrea (2015 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2015,
+        "home": "club:st-thomas",
+        "away": "club:loughrea",
+        "score": "St Thomas' 0-21, Loughrea 2-15",
+        "note": "Wikipedia 2015 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas",
+        "runner_up": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qf-replay-st-thomas-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Loughrea (2015 Galway SHC Quarter-final Replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final Replay",
+        "year": 2015,
+        "home": "club:st-thomas",
+        "away": "club:loughrea",
+        "score": "St Thomas' 3-15, Loughrea 0-12",
+        "note": "Wikipedia 2015 Galway SHC Quarter-final Replay.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas",
+        "runner_up": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qf-gort-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Portumna (2015 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2015,
+        "home": "club:gort",
+        "away": "club:portumna",
+        "score": "Gort 1-19, Portumna 0-19",
+        "note": "Wikipedia 2015 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort",
+        "runner_up": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-qf-sarsfields-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Pádraig Pearses (2015 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2015,
+        "home": "club:sarsfields",
+        "away": "club:padraig-pearses",
+        "score": "Sarsfields 2-14, Pádraig Pearses 0-12",
+        "note": "Wikipedia 2015 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "runner_up": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-sf-gort-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Craughwell (2016 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2016,
+        "home": "club:gort",
+        "away": "club:craughwell",
+        "score": "Gort 1-17, Craughwell 0-18",
+        "note": "Wikipedia 2016 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort",
+        "runner_up": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-sf-st-thomas-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Loughrea (2016 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2016,
+        "home": "club:st-thomas",
+        "away": "club:loughrea",
+        "score": "St Thomas' 1-15, Loughrea 1-10",
+        "note": "Wikipedia 2016 Galway SHC Semi-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas",
+        "runner_up": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-qf-craughwell-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Tommy Larkin's (2016 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2016,
+        "home": "club:craughwell",
+        "away": "club:tommy-larkins",
+        "score": "Craughwell 1-20, Tommy Larkin's 0-16",
+        "note": "Wikipedia 2016 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell",
+        "runner_up": "club:tommy-larkins"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-qf-loughrea-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Mullagh (2016 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2016,
+        "home": "club:loughrea",
+        "away": "club:mullagh",
+        "score": "Loughrea 0-16, Mullagh 0-15",
+        "note": "Wikipedia 2016 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea",
+        "runner_up": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-qf-st-thomas-portumna",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Portumna (2016 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2016,
+        "home": "club:st-thomas",
+        "away": "club:portumna",
+        "score": "St Thomas' 2-25, Portumna 4-15",
+        "note": "Wikipedia 2016 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas",
+        "runner_up": "club:portumna"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-qf-gort-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Sarsfields (2016 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2016,
+        "home": "club:gort",
+        "away": "club:sarsfields",
+        "score": "Gort 1-16, Sarsfields 1-12",
+        "note": "Wikipedia 2016 Galway SHC Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort",
+        "runner_up": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-pqf-mullagh-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Cappataggle (2016 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2016,
+        "home": "club:mullagh",
+        "away": "club:cappataggle",
+        "score": "Mullagh 1-19, Cappataggle 0-18",
+        "note": "Wikipedia 2016 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:mullagh",
+        "runner_up": "club:cappataggle"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-pqf-tommy-larkins-padraig-pearses",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Pádraig Pearses (2016 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2016,
+        "home": "club:tommy-larkins",
+        "away": "club:padraig-pearses",
+        "score": "Tommy Larkin's 0-21, Pádraig Pearses 1-14",
+        "note": "Wikipedia 2016 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins",
+        "runner_up": "club:padraig-pearses"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-pqf-sarsfields-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Kilnadeema–Leitrim (2016 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2016,
+        "home": "club:sarsfields",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Sarsfields 4-21, Kilnadeema–Leitrim 2-23",
+        "note": "Wikipedia 2016 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "runner_up": "club:kilnadeema-leitrim"
+      }
+    },
+    {
+      "id": "match:galway-shc-2016-pqf-st-thomas-beagh",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Beagh (2016 Galway SHC Preliminary Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Preliminary Quarter-final",
+        "year": 2016,
+        "home": "club:st-thomas",
+        "away": "club:beagh",
+        "score": "St Thomas' 0-19, Beagh 0-17",
+        "note": "Wikipedia 2016 Galway SHC Preliminary Quarter-final.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas",
+        "runner_up": "club:beagh"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-r1-tommy-larkins-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Craughwell (2015 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2015,
+        "home": "club:tommy-larkins",
+        "away": "club:craughwell",
+        "score": "Tommy Larkin's 1-14, Craughwell 1-9",
+        "note": "Wikipedia 2015 Galway SHC Group A Round 1.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins",
+        "runner_up": "club:craughwell"
+      }
+    },
+    {
+      "id": "match:galway-shc-2015-r1-castlegar-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Carnmore (2015 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2015,
+        "home": "club:castlegar",
+        "away": "club:carnmore",
+        "score": "Castlegar 1-18, Carnmore 0-13",
+        "note": "Wikipedia 2015 Galway SHC Group A Round 1.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2015_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:castlegar",
+        "runner_up": "club:carnmore"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:don-reilly": "HOLD r20: Don Reilly U-21 2005 vs Mullagh scoresheet ‘Donal Reilly’ (Wikipedia 2015/2016) — nickname/spelling collision; do not auto-link without first+last same-form cite.",
+    "player:noel-mcdonagh": "HOLD r20: Noel McDonagh IHC 2015 vs multiple Galway McDonagh club lines — insufficient first+last single-club cite; collision HOLD.",
+    "player:gordan-glynn": "HOLD r20: Gordan Glynn U-21 1996 spelling vs player:gordon-glynn (MHC 1994 / Loughrea Junior A RoH 2012 ‘Gordon’) — spelling collision HOLD; do not dual-link."
+  }
+}
