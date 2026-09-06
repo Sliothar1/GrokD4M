@@ -32432,17 +32432,17 @@
   {
     "row": "player:ciaran-odonovan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:ciaran-odonovan",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/2019-roll-of-honour-hurling-football/"
   },
   {
     "row": "player:ciaran-odonovan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Galway GAA RoH 2019: Ciaran O' Donovan named on Athenry County Junior A Hurling Champions panel; Galway MHC All-Ireland 2004/2005 panel age-match. First+last published club cite."
   },
   {
     "row": "player:cillian-callaghan",
@@ -34292,17 +34292,17 @@
   {
     "row": "player:declan-obrien",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:declan-obrien",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-10051530.html"
   },
   {
     "row": "player:declan-obrien",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Irish Examiner: Declan O'Brien described as Carnmore lad on Galway senior panel path; Advertiser Carnmore SHC preview names hugely experienced Declan O'Brien; Carnmore.net club history lists Declan O'Brien among county hurlers. Galway IHC All-Ireland 1999 panel age-match. First+last published club cite."
   },
   {
     "row": "player:declan-walsh",
@@ -42297,7 +42297,7 @@
   {
     "row": "player:ronal-killilea",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2020 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2020 panel (Galway GAA). HOLD r28: club-less MHC 2020 Ronal Killilea; RoH 2019 Carnmore Minor A lists Ronan Killilea (club-scoped player:ronan-killilea-carnmore) — spelling/identity collision; do not auto-merge without archivist confirm."
   },
   {
     "row": "player:ronan-badger",
@@ -42937,7 +42937,7 @@
   {
     "row": "player:sean-mcardle",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2015 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2017 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2015 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2017 panel (Galway GAA). HOLD r28: club-less MHC 2015/2017 Sean McArdle; RoH 2015 Clarinbridge Minor A / 2012 U14 lists Sam McArdle (club-scoped player:sam-mcardle-clarinbridge) — spelling/identity collision; do not auto-merge without archivist confirm."
   },
   {
     "row": "player:sean-mcdonagh",
@@ -55237,7 +55237,7 @@
   {
     "row": "appearance:ciaran-odonovan-minor-2004",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:joe-canning-minor-2004",
@@ -56007,7 +56007,7 @@
   {
     "row": "appearance:ciaran-odonovan-minor-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:james-skehill-minor-2005",
@@ -81427,7 +81427,7 @@
   {
     "row": "appearance:declan-obrien-ihc-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:pat-diviney-ihc-1999",
@@ -87252,7 +87252,7 @@
   {
     "row": "player:ronal-killilea",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:ronan-badger",
@@ -87357,7 +87357,7 @@
   {
     "row": "player:sean-mcardle",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:sean-mcdonagh",
@@ -97472,7 +97472,7 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "note",
-    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout. r24 AF-first: club-scoped Niall Burke from Galway GAA RoH 2016 IHC champions panel (distinct from Oranmore-Maree Niall Burke). r25 AF-first: Emmet Brennan from Wikipedia 2017 SHC Senior B Round 2 scoresheet vs Kilnadeema-Leitrim. r26 AF-first: Tony Kirwan linked via RoH 2009 Junior C (capt); thin Junior C 2009 squad fills; Wikipedia 2018/2019/2020 AF Senior B scored Match triples. r27 AF-first: RoH 2010 Minor B thin squad fills; Wikipedia 2021 Senior A + 2022 Senior B AF scored Match triples + relegation win vs Tynagh-Abbey/Duniry."
+    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout. r24 AF-first: club-scoped Niall Burke from Galway GAA RoH 2016 IHC champions panel (distinct from Oranmore-Maree Niall Burke). r25 AF-first: Emmet Brennan from Wikipedia 2017 SHC Senior B Round 2 scoresheet vs Kilnadeema-Leitrim. r26 AF-first: Tony Kirwan linked via RoH 2009 Junior C (capt); thin Junior C 2009 squad fills; Wikipedia 2018/2019/2020 AF Senior B scored Match triples. r27 AF-first: RoH 2010 Minor B thin squad fills; Wikipedia 2021 Senior A + 2022 Senior B AF scored Match triples + relegation win vs Tynagh-Abbey/Duniry. r28 AF-first: RoH 2009 Junior C Anthony Kelly thin fill; Wikipedia 2024 Senior B AF scored Match triples + relegation/replay; 2020 SB r2 vs Kilnadeema-Leitrim."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -98892,7 +98892,7 @@
   {
     "row": "club:athenry",
     "col": "note",
-    "val": "r8: Barry Hanley / David Kennedy / Enda Concannon / Danny Whyte / Donal Moran linked (Athenry GAA 2007 + Galway GAA 2004 rolls). Alan Leech HOLD (Kinvara/Athenry collision). r10: linked Patrick Rabbitte + Shane Quirke (Galway Bay FM 2018 MHC). r11: linked Jack Carr (Wikipedia 2025 SHC, medium). r25 club-less link: Michael John Quinn from RoH 2004 Athenry Senior Hurling Champions."
+    "val": "r8: Barry Hanley / David Kennedy / Enda Concannon / Danny Whyte / Donal Moran linked (Athenry GAA 2007 + Galway GAA 2004 rolls). Alan Leech HOLD (Kinvara/Athenry collision). r10: linked Patrick Rabbitte + Shane Quirke (Galway Bay FM 2018 MHC). r11: linked Jack Carr (Wikipedia 2025 SHC, medium). r25 club-less link: Michael John Quinn from RoH 2004 Athenry Senior Hurling Champions. r28: Ciaran O'Donovan linked via RoH 2019 Athenry Junior A Hurling Champions panel (MHC 2004/2005 age-match)."
   },
   {
     "row": "club:st-thomas",
@@ -102557,7 +102557,7 @@
   {
     "row": "club:clarinbridge",
     "col": "note",
-    "val": "r9: linked Shane Ryan, Mark Kennedy from U20/SHC cites. r11: linked Sean Fox (Clarinbridge Minor A captain 2021). r27: Kevin Joyce linked via RoH 2013 Clarinbridge Junior C Hurling Champions panel."
+    "val": "r9: linked Shane Ryan, Mark Kennedy from U20/SHC cites. r11: linked Sean Fox (Clarinbridge Minor A captain 2021). r27: Kevin Joyce linked via RoH 2013 Clarinbridge Junior C Hurling Champions panel. r28 thin-club: Sam McArdle added via RoH 2015 Minor A / 2012 U14; Sean McArdle MHC spelling on HOLD."
   },
   {
     "row": "club:sarsfields",
@@ -154277,7 +154277,7 @@
   {
     "row": "club:ballygar",
     "col": "note",
-    "val": "r27: Greg Thomas HOLD cleared — Galway GAA All-Ireland winning teams 2019 MHC lists Greg Thomas (Ballygar)."
+    "val": "r27: Greg Thomas HOLD cleared — Galway GAA All-Ireland winning teams 2019 MHC lists Greg Thomas (Ballygar). r28 thin-club: RoH 2018 Junior 1 panel fills (Mulrooney, Fitzmaurice, Grealy, McDonnagh, McConn)."
   },
   {
     "row": "match:galway-shc-2021-sa-r1-castlegar-ahascragh-fohenagh",
@@ -154836,6 +154836,931 @@
   },
   {
     "row": "player:kevin-joyce",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:declan-obrien",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "appearance:declan-obrien-ihc-1999",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:ciaran-odonovan",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:ciaran-odonovan-minor-2004",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:ciaran-odonovan-minor-2005",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Anthony Kelly"
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2009-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA RoH 2009: Anthony Kelly named on Ahascragh-Fohenagh County Junior C Hurling Champions panel. Club-scoped AF-first thin fill (common-name collision risk)."
+  },
+  {
+    "row": "player:anthony-kelly-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "name",
+    "val": "Ronan Killilea"
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2019-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "note",
+    "val": "Galway GAA RoH 2019: Ronan Killilea named on Carnmore County Minor A Hurling Champions panel (with Shaun Killilea). Club-scoped thin fill; MHC 2020 lists Ronal Killilea spelling on HOLD."
+  },
+  {
+    "row": "player:ronan-killilea-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "name",
+    "val": "Shaun Killilea"
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2019-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "note",
+    "val": "Galway GAA RoH 2019: Shaun Killilea named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill."
+  },
+  {
+    "row": "player:shaun-killilea-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "name",
+    "val": "Enda Lawless"
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2019-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "note",
+    "val": "Galway GAA RoH 2019: Enda Lawless named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill."
+  },
+  {
+    "row": "player:enda-lawless-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "name",
+    "val": "Torin Finnerty"
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2019-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "note",
+    "val": "Galway GAA RoH 2019: Torin Finnerty named on Carnmore County Minor A Hurling Champions panel; Connacht Tribune Carnmore Minor A SF report names goalkeeper Torin Finnerty. Club-scoped thin fill."
+  },
+  {
+    "row": "player:torin-finnerty-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "name",
+    "val": "Mark Slevin"
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2019-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "note",
+    "val": "Galway GAA RoH 2019: Mark Slevin named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill."
+  },
+  {
+    "row": "player:mark-slevin-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "name",
+    "val": "Aidan Grealish"
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2019-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "note",
+    "val": "Galway GAA RoH 2019: Aidan Grealish named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill."
+  },
+  {
+    "row": "player:aidan-grealish-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "name",
+    "val": "Sam McArdle"
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2015-club-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "note",
+    "val": "Galway GAA RoH 2015: Sam McArdle named on Clarinbridge County Minor A Hurling Champions panel (also RoH 2012 Clarinbridge U14). Club-scoped thin fill; MHC Sean McArdle spelling on HOLD."
+  },
+  {
+    "row": "player:sam-mcardle-clarinbridge",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "name",
+    "val": "James Mulrooney"
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: James Mulrooney named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:james-mulrooney-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "name",
+    "val": "Enda Fitzmaurice"
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Enda Fitzmaurice named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:enda-fitzmaurice-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "name",
+    "val": "Conal Grealy"
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Conal Grealy named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:conal-grealy-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "name",
+    "val": "Pierce McDonnagh"
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Pierce McDonnagh named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:pierce-mcdonnagh-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "name",
+    "val": "Oisin McConn"
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Oisin McConn named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:oisin-mcconn-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:carnmore",
+    "col": "note",
+    "val": "r28: Declan O'Brien linked via Examiner/Advertiser/Carnmore.net; RoH 2019 Minor A thin fills (Ronan/Shaun Killilea, Enda Lawless, Torin Finnerty, Mark Slevin, Aidan Grealish)."
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Portumna vs Ahascragh-Fohenagh (2024 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "away",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "score",
+    "val": "Portumna 1-32, Ahascragh-Fohenagh 2-26"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r1-portumna-ahascragh-fohenagh",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Liam Mellows vs Ahascragh-Fohenagh (2024 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "away",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "score",
+    "val": "Liam Mellows 2-20, Ahascragh-Fohenagh 2-13"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r2-liam-mellows-ahascragh-fohenagh",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Athenry (2024 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-20, Athenry 1-23"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-r3-ahascragh-fohenagh-athenry",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Beagh vs Ahascragh-Fohenagh (2024 Galway SHC Senior B Relegation)"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "round",
+    "val": "Senior B Relegation"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "away",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "score",
+    "val": "Beagh 1-19, Ahascragh-Fohenagh 1-19"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC published scoreline (draw; no winner)."
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-beagh-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Beagh (2024 Galway SHC Senior B Relegation Replay)"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "round",
+    "val": "Senior B Relegation Replay"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 0-11, Beagh 0-10"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-senior-b-relegation-replay-ahascragh-fohenagh-beagh",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Kilnadeema-Leitrim (2020 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2020
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-20, Kilnadeema-Leitrim 1-19"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2020 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2020_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2020-sb-r2-ahascragh-fohenagh-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:ronal-killilea",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:sean-mcardle",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:declan-obrien",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:ciaran-odonovan",
     "col": "hold",
     "val": false
   }
