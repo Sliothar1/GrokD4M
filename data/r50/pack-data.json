@@ -1,0 +1,383 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Conor Cosgrove",
+      "id": "player:conor-cosgrove-ardrahan",
+      "club": "club:ardrahan",
+      "source": "https://www.connachttribune.ie/sport/athenry-progress-into-galway-shc-quarter-finals-with-victory-over-ardrahan-8941217",
+      "note": "Connacht Tribune 2026 SHC R2 report/team sheet: Conor Cosgrove scored for Ardrahan vs Athenry (late rally). Thin-club fill (Ardrahan ~17); club-scoped id.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eoin Murphy",
+      "id": "player:eoin-murphy-ardrahan",
+      "club": "club:ardrahan",
+      "source": "https://www.connachttribune.ie/sport/athenry-progress-into-galway-shc-quarter-finals-with-victory-over-ardrahan-8941217",
+      "note": "Connacht Tribune 2026 SHC R2 team sheet: Eoin Murphy (0-1) started in Ardrahan defence vs Athenry. Thin-club fill; club-scoped id — do not merge to other Murphy rows.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-1992-final-draw",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Carnmore (1992 Galway SHC Final — drawn game)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Final",
+        "year": 1992,
+        "home": "club:sarsfields",
+        "away": "club:carnmore",
+        "score": "Sarsfields 0-14, Carnmore 1-11",
+        "note": "Wikipedia 1992 Galway SHC: drawn final 8 Nov 1992 at Kenny Park Sarsfields 0-14 Carnmore 1-11 before replay. Complements GAA single-line final row.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1992_Galway_Senior_Hurling_Championship",
+        "result": "draw",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1992-final-replay",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Carnmore (1992 Galway SHC Final replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Final replay",
+        "year": 1992,
+        "home": "club:sarsfields",
+        "away": "club:carnmore",
+        "score": "Sarsfields 1-14, Carnmore 1-05",
+        "note": "Wikipedia 1992 Galway SHC: final replay 15 Nov 1992 at Kenny Park Sarsfields 1-14 Carnmore 1-5 (Sarsfields 3rd title). Published scored path beside GAA table row.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1992_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "runner_up": "club:carnmore",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-u21hc-1972-north-final-athenry-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Turloughmore (1972 Galway U-21 North Board Final)",
+        "competition": "Galway Under-21 Hurling Championship",
+        "round": "North Board Final",
+        "year": 1972,
+        "home": "club:athenry",
+        "away": "club:turloughmore",
+        "score": "Athenry 5-12, Turloughmore 1-12",
+        "note": "Athenry GAA history 1972: U-21 North Board Final at Tuam Stadium Athenry 5-12 to 1-12 over Turloughmore (P.J. Molloy 1-6). Historic scored path gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:turloughmore",
+        "venue": "Tuam Stadium"
+      }
+    },
+    {
+      "id": "match:galway-u21hc-1972-sf-oranmore-maree-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore/Maree vs Athenry (1972 Galway U-21 HC Semi-final)",
+        "competition": "Galway Under-21 Hurling Championship",
+        "round": "Semi-final",
+        "year": 1972,
+        "home": "club:oranmore-maree",
+        "away": "club:athenry",
+        "score": "Oranmore/Maree 4-09, Athenry 1-06",
+        "note": "Athenry GAA history 1972: Oranmore/Maree defeated Athenry in county U-21 SF 4-9 to 1-6 at Ballinderreen. Historic scored path gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
+        "result": "win",
+        "winner": "club:oranmore-maree",
+        "runner_up": "club:athenry",
+        "venue": "Ballinderreen"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1972-north-sf-athenry-skehana",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Skehana (1972 Galway MHC North Board Semi-final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "North Board Semi-final",
+        "year": 1972,
+        "home": "club:athenry",
+        "away": "club:skehana",
+        "score": "Athenry 2-16, Skehana 2-08",
+        "note": "Athenry GAA history 1972: MHC North Board SF Athenry 2-16 to 2-8 Skehana (later lost North Final to Turloughmore). Historic scored path gap; maps to club:skehana (not Skehana-MM amalgamation).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:skehana"
+      }
+    },
+    {
+      "id": "match:galway-u14hc-1972-sf-killimordaly-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Athenry (1972 Galway U-14 HC Semi-final)",
+        "competition": "Galway Under-14 Hurling Championship",
+        "round": "Semi-final",
+        "year": 1972,
+        "home": "club:killimordaly",
+        "away": "club:athenry",
+        "score": "Killimordaly 6-02, Athenry 2-05",
+        "note": "Athenry GAA history 1972: after North Board U-14 title (vs Abbeyknockmoy), Killimordaly defeated Athenry in county SF 6-2 to 2-5. Historic scored path gap.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
+        "result": "win",
+        "winner": "club:killimordaly",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-junior-d-hc-2026-tynagh-abbey-duniry-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Kilconieron (2026 Galway Junior D HC Group 2)",
+        "competition": "Galway Junior D Hurling Championship",
+        "round": "Group 2",
+        "year": 2026,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:kilconieron",
+        "score": "Tynagh-Abbey/Duniry 1-15, Kilconieron 0-17",
+        "note": "Kilconieron GAA club results: Junior D HC Group 2 full-time Tynagh Abbey Duniry 1-15 - Kilconieron 0-17 (2026-08-24). JHC scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:tynagh-abbey-duniry",
+        "runner_up": "club:kilconieron"
+      }
+    },
+    {
+      "id": "match:galway-junior-d-hc-2026-kilconieron-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Kilnadeema-Leitrim (2026 Galway Junior D HC Group 2)",
+        "competition": "Galway Junior D Hurling Championship",
+        "round": "Group 2",
+        "year": 2026,
+        "home": "club:kilconieron",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Kilconieron 1-16, Kilnadeema-Leitrim 2-16",
+        "note": "Kilconieron GAA club results: Junior D HC Group 2 full-time Kilconieron 1-16 - Kilnadeema/Leitrim 2-16 (2026-08-10). JHC scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:kilnadeema-leitrim",
+        "runner_up": "club:kilconieron"
+      }
+    },
+    {
+      "id": "match:galway-u16-roinn-a1-2026-kilconieron-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Athenry (2026 Galway U-16 Roinn A1 Group 2)",
+        "competition": "Galway Under-16 Hurling Championship",
+        "round": "Roinn A1 Group 2",
+        "year": 2026,
+        "home": "club:kilconieron",
+        "away": "club:athenry",
+        "score": "Kilconieron 0-23, Athenry 1-10",
+        "note": "Kilconieron GAA club results: U16 Roinn A1 Group 2 full-time Kilconieron 0-23 - Athenry 1-10 (2026-09-03). Youth scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:kilconieron",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-u17b-hc-2026-michael-cusacks-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "Michael Cusacks vs Kilconieron (2026 Galway U-17B HC Group 1)",
+        "competition": "Galway Under-17B Hurling Championship",
+        "round": "Group 1",
+        "year": 2026,
+        "home": "club:michael-cusacks",
+        "away": "club:kilconieron",
+        "score": "Michael Cusacks 3-17, Kilconieron 1-18",
+        "note": "Kilconieron GAA club results: U17B HC Group 1 full-time Michael Cusacks 3-17 - Kilconieron 1-18 (2026-08-30). Youth scored path; also touches thin Michael Cusacks club (~10).",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:michael-cusacks",
+        "runner_up": "club:kilconieron"
+      }
+    },
+    {
+      "id": "match:galway-u20a1-hc-2026-kilconieron-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Ardrahan (2026 Galway U-20A1 HC Knockout)",
+        "competition": "Galway Under-20A1 Hurling Championship",
+        "round": "Knockout",
+        "year": 2026,
+        "home": "club:kilconieron",
+        "away": "club:ardrahan",
+        "score": "Kilconieron 2-34, Ardrahan 3-29",
+        "note": "Kilconieron GAA club results: U20A1 HC Knockout full-time Kilconieron 2-34 - Ardrahan 3-29 (2026-08-26). Youth scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:kilconieron",
+        "runner_up": "club:ardrahan"
+      }
+    },
+    {
+      "id": "match:galway-u14-roinn-a1-shield-2026-castlegar-kilconieron",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Kilconieron (2026 Galway U-14 Roinn A1 Shield)",
+        "competition": "Galway Under-14 Hurling Championship",
+        "round": "Roinn A1 Shield",
+        "year": 2026,
+        "home": "club:castlegar",
+        "away": "club:kilconieron",
+        "score": "Castlegar 2-14, Kilconieron 6-12",
+        "note": "Kilconieron GAA club results: U14 Roinn A1 Shield full-time Castlegar 2-14 - Kilconieron 6-12 (2026-08-31). Youth scored path where published.",
+        "confidence": "medium",
+        "source": "https://www.kilconierongaaclub.ie/",
+        "result": "win",
+        "winner": "club:kilconieron",
+        "runner_up": "club:castlegar"
+      }
+    }
+  ],
+  "match_updates": [
+    {
+      "id": "match:galway-shc-1970-final",
+      "cols": {
+        "score": "Liam Mellows 5-02, Killimordaly 1-11",
+        "result": "win",
+        "source": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/",
+        "note": "r50 score fill: prefer Galway GAA county finals table Liam Mellows 5-2 Killimordaly 1-11 (prior omit: Wiki lists 5-11; county board table preferred for published score gap)."
+      }
+    },
+    {
+      "id": "match:galway-shc-1971-final",
+      "cols": {
+        "score": "Tommy Larkin's 5-02, Carnmore 0-08",
+        "result": "win",
+        "source": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/",
+        "note": "r50 score fill: prefer Galway GAA county finals table Tommy Larkins 5-2 Carnmore 0-8 (prior omit: Wiki lists Carnmore 1-12; county board table preferred)."
+      }
+    },
+    {
+      "id": "match:galway-shc-1992-final",
+      "cols": {
+        "score": "Sarsfields 1-14, Carnmore 1-11",
+        "result": "win",
+        "round": "Final",
+        "source": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/",
+        "note": "r50 score fill: Galway GAA county finals table lists Sarsfields 1-14 Carnmore 1-11 at Athenry (Wiki has draw 0-14–1-11 then replay 1-14–1-5 — see separate draw/replay rows; GAA single-line table preferred for this seed row)."
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:kerrill-wade": "HOLD r50 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp.",
+    "player:finnian-coone": "HOLD r50: continue spelling/id collision with Finian Coone / Finnian Coone panel variants — no new first+last multi-source club clear; stay HOLD.",
+    "player:tadgh-haran": "HOLD r50: continue spelling twin vs player:tadhg-haran (Liam Mellows) — bare U-21 2011 stays HOLD.",
+    "player:mike-egan": "HOLD r50: continue collision vs player:michael-egan (Cappataggle) — bare MHC 2018 Mike Egan stays HOLD.",
+    "player:brendan-lynch": "HOLD r50: continue collision vs player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 stays HOLD.",
+    "player:padraig-breheny": "HOLD r50: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD.",
+    "player:shane-maloney": "HOLD r50: continue spelling twin vs player:shane-moloney (Tynagh-Abbey/Duniry) — bare MHC stays HOLD.",
+    "player:tom-monaghan": "HOLD r50: MHC 1983 bare Tom Monaghan stays HOLD vs clubbed player:thomas-monaghan (Craughwell); different era.",
+    "player:aonghus-dervan": "HOLD r50: still no first+last published Galway club hurling cite for Aonghus Dervan (U-21 2005) — keep HOLD.",
+    "player:gordon-glynn": "HOLD r50: still no first+last published Galway club hurling cite for bare Gordon Glynn — stay HOLD (do not merge to player:gordan-glynn Kiltormer).",
+    "player:sean-glynn": "HOLD r50: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear.",
+    "player:joe-keane": "HOLD r50: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD.",
+    "player:declan-jennings": "HOLD r50: Declan Jennings/Jenning twin cluster still unresolved — no new first+last multi-source clear; stay HOLD.",
+    "player:michael-lynskey": "HOLD r50: bare MHC 1992 Michael Lynskey stays HOLD — CT 2026 Ardrahan sheet I. Lynskey is initial-only (not a clear first+last multi-source link to this panel row).",
+    "player:aodh-davoren": "HOLD r50: bare U-21 1986 Aodh Davoren stays HOLD — Moycullen Davoren cluster already clubbed under different given names; no multi-source clear for Aodh."
+  }
+}

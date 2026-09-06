@@ -1,32 +1,17 @@
 {
   "pack": "galway-club-player-links",
-  "round": "49",
-  "generated_at": "2026-09-06T23:35:45.089602+00:00",
+  "round": "50",
+  "generated_at": "2026-09-06T23:39:28.341085+00:00",
   "sources": [
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1971",
+    "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/",
+    "https://en.wikipedia.org/wiki/1992_Galway_Senior_Hurling_Championship",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
     "https://www.kilconierongaaclub.ie/",
-    "https://www.galwaybayfm.ie/sports/2026-kilbeacanty-7s-interviews-222518",
-    "https://www.connachttribune.ie/sport/clarinbridge-maintain-winning-start-to-galway-shc-with-victory-over-cappataggle-8936474",
-    "https://www.connachttribune.ie/sport/craughwell-edge-past-liam-mellows-in-tight-galway-shc-group-two-clash-8939262",
-    "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/"
+    "https://www.connachttribune.ie/sport/athenry-progress-into-galway-shc-quarter-finals-with-victory-over-ardrahan-8941217",
+    "https://en.wikipedia.org/wiki/Kerril_Wade",
+    "https://www.irishexaminer.com/sport/gaa/arid-30504495.html"
   ],
   "before": {
-    "players": 1614,
-    "players_with_club": 1535,
-    "players_without_club": 79,
-    "orphan_clubs": 5,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1281,
-    "appearances": 686
-  },
-  "after": {
     "players": 1622,
     "players_with_club": 1543,
     "players_without_club": 79,
@@ -41,49 +26,54 @@
     "matches": 1291,
     "appearances": 686
   },
+  "after": {
+    "players": 1624,
+    "players_with_club": 1545,
+    "players_without_club": 79,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1303,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 0,
-    "players_created": 8,
+    "players_created": 2,
     "clubs_created": 0,
     "appearances_clubbed": 0,
-    "matches_added": 10,
-    "players_with_club": 8,
+    "matches_added": 12,
+    "players_with_club": 2,
     "orphan_clubs": 0
   },
   "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:kevin-molloy-craughwell",
-    "player:dara-zimmer-craughwell",
-    "player:darragh-mccartin-craughwell",
-    "player:conor-gilligan-craughwell",
-    "player:michael-burke-skehana-mountbellew-moylough",
-    "player:padraig-glynn-skehana-mountbellew-moylough",
-    "player:liam-tully-skehana-mountbellew-moylough",
-    "player:adam-cummins-skehana-mountbellew-moylough"
+    "player:conor-cosgrove-ardrahan",
+    "player:eoin-murphy-ardrahan"
   ],
   "all_linked_ids": [],
   "all_created_ids": [
-    "player:kevin-molloy-craughwell",
-    "player:dara-zimmer-craughwell",
-    "player:darragh-mccartin-craughwell",
-    "player:conor-gilligan-craughwell",
-    "player:michael-burke-skehana-mountbellew-moylough",
-    "player:padraig-glynn-skehana-mountbellew-moylough",
-    "player:liam-tully-skehana-mountbellew-moylough",
-    "player:adam-cummins-skehana-mountbellew-moylough"
+    "player:conor-cosgrove-ardrahan",
+    "player:eoin-murphy-ardrahan"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-u21hc-1971-north-final-athenry-turloughmore",
-    "match:galway-u21hc-1971-final-mullagh-athenry",
-    "match:galway-u16hc-1967-sf-athenry-castlegar",
-    "match:galway-u16hc-1967-final-ballinakill-athenry",
-    "match:galway-mhc-1967-athenry-abbeyknockmoy",
-    "match:galway-mhc-1967-athenry-turloughmore",
-    "match:kilbeacanty-7s-2026-final-tommy-larkins-gort",
-    "match:galway-junior-b-hc-2026-castlegar-kilconieron",
-    "match:galway-junior-b-hc-2026-craughwell-kilconieron",
-    "match:galway-junior-d-hc-2026-kilconieron-castlegar"
+    "match:galway-shc-1992-final-draw",
+    "match:galway-shc-1992-final-replay",
+    "match:galway-u21hc-1972-north-final-athenry-turloughmore",
+    "match:galway-u21hc-1972-sf-oranmore-maree-athenry",
+    "match:galway-mhc-1972-north-sf-athenry-skehana",
+    "match:galway-u14hc-1972-sf-killimordaly-athenry",
+    "match:galway-junior-d-hc-2026-tynagh-abbey-duniry-kilconieron",
+    "match:galway-junior-d-hc-2026-kilconieron-kilnadeema-leitrim",
+    "match:galway-u16-roinn-a1-2026-kilconieron-athenry",
+    "match:galway-u17b-hc-2026-michael-cusacks-kilconieron",
+    "match:galway-u20a1-hc-2026-kilconieron-ardrahan",
+    "match:galway-u14-roinn-a1-shield-2026-castlegar-kilconieron"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -169,11 +159,11 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 208,
-    "players_created": 8,
-    "matches_added": 10,
-    "updated": 14,
-    "matches_updated": 1,
+    "added": 192,
+    "players_created": 2,
+    "matches_added": 12,
+    "updated": 18,
+    "matches_updated": 3,
     "players_linked": 0,
     "clubs_created": 0,
     "appearances_clubbed": 0
@@ -235,5 +225,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r49: Athenry 1967 U-16 + MHC scored path + 1971 U-21 North/Final gaps; Kilbeacanty 7s + Junior B/D scored Matches (Kilconieron GAA); Clarinbridge R2 score correction (CT 2-19); Craughwell+Skehana-MM thin fills; club-less ~79 stay HOLD (collision notes); AF/Fohenagh dense skipped; HOLD orphans skipped."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r50: Galway GAA SHC final score fills 1970/1971/1992 + Wiki 1992 draw/replay; Athenry 1972 U-21/MHC/U-14 scored gaps; Kilconieron Junior D + U14/U16/U17B/U20 scored Matches; Ardrahan thin fills (Conor Cosgrove, Eoin Murphy); club-less ~79 stay HOLD (collision notes incl. Kerrill/Kerril Wade); AF/Fohenagh dense skipped; HOLD orphans skipped."
 }
