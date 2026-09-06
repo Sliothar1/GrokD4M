@@ -1,0 +1,522 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Cian O'Loughlin",
+      "id": "player:cian-oloughlin-michael-cusacks",
+      "club": "club:michael-cusacks",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune / Galway Bay FM: Galway minor Cian O'Loughlin top-scored 1-9 for Michael Cusacks in 2025 U-20B county final vs Rahoon-Newcastle; BayFM minor panel lists Cian O'Loughlin (Michael Cusacks). Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Calum Prendergast",
+      "id": "player:calum-prendergast-michael-cusacks",
+      "club": "club:michael-cusacks",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 2025 U-20B final report: Calum Prendergast pointed for Michael Cusacks vs Rahoon-Newcastle. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eoin Fahey",
+      "id": "player:eoin-fahey-michael-cusacks",
+      "club": "club:michael-cusacks",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 2025 U-20B final scorers path: Eoin Fahey named for Michael Cusacks (distinct from bare HOLD player:eoin-fahy U-21 2011). Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean McLoughlin",
+      "id": "player:sean-mcloughlin-michael-cusacks",
+      "club": "club:michael-cusacks",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 2025 U-20B final photo/caption: Michael Cusacks defender Sean McLoughlin (distinct from clubbed Sean McLoughlin Moycullen). Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darren Hynes",
+      "id": "player:darren-hynes-michael-cusacks",
+      "club": "club:michael-cusacks",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 2025 U-20B final photo/caption: Michael Cusacks defender Darren Hynes. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Clement Earls",
+      "id": "player:clement-earls-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Clement Earls; Wikipedia/Independent AIHC scorers list C Earls for Killimordaly. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Johnny Duane",
+      "id": "player:johnny-duane-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Johnny Duane; Wikipedia Connacht IHC 2006 final scorers list J Duane goal. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Fergal Duane",
+      "id": "player:fergal-duane-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Fergal Duane; Independent AIHC final teamsheet lists F Duane. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Gary Earls",
+      "id": "player:gary-earls-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Gary Earls; Wikipedia AIHC SF scorers list G Earls. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adrian Lawless",
+      "id": "player:adrian-lawless-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Adrian Lawless; Independent AIHC final teamsheet lists A Lawless. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Martin Corcoran",
+      "id": "player:martin-corcoran-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Martin Corcoran; Wikipedia Connacht IHC 2006 scorers list M Corcoran. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal Daly",
+      "id": "player:cathal-daly-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Cathal Daly; Wikipedia Connacht IHC 2006 scorers list Cathal Daly. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Iomar Creaven",
+      "id": "player:iomar-creaven-killimordaly",
+      "club": "club:killimordaly",
+      "source": "https://www.galwaygaa.ie/history/2006-roll-of-honour-hurling-football/",
+      "note": "Galway GAA 2006 RoH Killimordaly IHC champions panel lists Iomar Creaven; Independent AIHC final teamsheet lists I Creaven. Club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-kelly",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2006-qf-portumna-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Clarinbridge (2006 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2006,
+        "home": "club:portumna",
+        "away": "club:clarinbridge",
+        "score": "Portumna 3-13, Clarinbridge 1-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2006 quarter-final Portumna 3-13 Clarinbridge 1-12 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2006-qf-loughrea-gort",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Gort (2006 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2006,
+        "home": "club:loughrea",
+        "away": "club:gort",
+        "score": "Loughrea 3-09, Gort 0-08",
+        "note": "Galway Bay FM published 2000s SHC roll: 2006 quarter-final Loughrea 3-9 Gort 0-8 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:loughrea",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2006-qf-mullagh-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Athenry (2006 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2006,
+        "home": "club:mullagh",
+        "away": "club:athenry",
+        "score": "Mullagh 4-12, Athenry 1-16",
+        "note": "Galway Bay FM published 2000s SHC roll: 2006 quarter-final Mullagh 4-12 Athenry 1-16 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:mullagh",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2006-qf-craughwell-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Castlegar (2006 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2006,
+        "home": "club:craughwell",
+        "away": "club:castlegar",
+        "score": "Craughwell 2-23, Castlegar 1-18",
+        "note": "Galway Bay FM published 2000s SHC roll: 2006 quarter-final Craughwell 2-23 Castlegar 1-18 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:craughwell",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2006-sf-portumna-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Craughwell (2006 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2006,
+        "home": "club:portumna",
+        "away": "club:craughwell",
+        "score": "Portumna 2-15, Craughwell 1-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2006 semi-final Portumna 2-15 Craughwell 1-12 (pre-2008 knockout gap; other SF Loughrea–Mullagh score not published in roll).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2005-sf-portumna-gort",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Gort (2005 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2005,
+        "home": "club:portumna",
+        "away": "club:gort",
+        "score": "Portumna 0-18, Gort 1-12",
+        "note": "Galway Bay FM 2000s SHC roll + Irish Examiner (Joe Canning 0-12) published 2005 SHC semi-final Portumna 0-18 Gort 1-12.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2005-sf-loughrea-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Athenry (2005 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2005,
+        "home": "club:loughrea",
+        "away": "club:athenry",
+        "score": "Loughrea 1-06, Athenry 1-05",
+        "note": "Irish Independent published 2005 SHC semi-final Loughrea 1-6 Athenry 1-5 (Gavin Keary goal; Eugene Cloonan sent off; Kenny Park); BayFM roll agrees.",
+        "confidence": "medium",
+        "source": "https://www.independent.ie/sport/gaelic-games/hurling/galway-loughrea-lay-low-champions-athenry-as-cloonan-sees-red/25962891.html",
+        "winner": "club:loughrea",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-2005-qf-portumna-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Carnmore (2005 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2005,
+        "home": "club:portumna",
+        "away": "club:carnmore",
+        "score": "Portumna 2-19, Carnmore 0-09",
+        "note": "Galway Bay FM 2000s SHC roll + Irish Examiner (Canning 2-9) published 2005 SHC quarter-final Portumna 2-19 Carnmore 0-9.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2004-sf-athenry-gort",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Gort (2004 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2004,
+        "home": "club:athenry",
+        "away": "club:gort",
+        "score": "Athenry 0-18, Gort 2-08",
+        "note": "Galway Bay FM published 2000s SHC roll: 2004 semi-final Athenry 0-18 Gort 2-8 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2004-sf-portumna-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Turloughmore (2004 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2004,
+        "home": "club:portumna",
+        "away": "club:turloughmore",
+        "score": "Portumna 2-14, Turloughmore 2-08",
+        "note": "Galway Bay FM published 2000s SHC roll: 2004 semi-final Portumna 2-14 Turloughmore 2-8 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2003-sf-loughrea-kilnadeema-leitrim",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Kilnadeema-Leitrim (2003 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2003,
+        "home": "club:loughrea",
+        "away": "club:kilnadeema-leitrim",
+        "score": "Loughrea 1-16, Kilnadeema-Leitrim 1-08",
+        "note": "Galway Bay FM published 2000s SHC roll: 2003 semi-final Loughrea 1-16 Kilnadeema-Leitrim 1-8 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:loughrea",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2003-sf-portumna-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Clarinbridge (2003 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2003,
+        "home": "club:portumna",
+        "away": "club:clarinbridge",
+        "score": "Portumna 1-17, Clarinbridge 0-10",
+        "note": "Galway Bay FM published 2000s SHC roll: 2003 semi-final Portumna 1-17 Clarinbridge 0-10 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2007-qf-castlegar-gort",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Gort (2007 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2007,
+        "home": "club:castlegar",
+        "away": "club:gort",
+        "score": "Castlegar 1-17, Gort 2-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2007 quarter-final Castlegar 1-17 Gort 2-12 (pre-2008 knockout gap; completes 2007 QF set with r39 Athenry–Loughrea).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:castlegar",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2007-qf-kinvara-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Kinvara vs Mullagh (2007 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2007,
+        "home": "club:kinvara",
+        "away": "club:mullagh",
+        "score": "Kinvara 0-14, Mullagh 0-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2007 quarter-final Kinvara 0-14 Mullagh 0-12 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:kinvara",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2005-final-tommy-larkins-four-roads",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkins vs Four Roads (2005 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2005,
+        "home": "club:tommy-larkins",
+        "away": "Four Roads",
+        "score": "Tommy Larkins 2-21, Four Roads 0-14",
+        "note": "Wikipedia Connacht IHC roll: Tommy Larkin's beat Four Roads 2-21 to 0-14 (IHC gap fill after Galway IHC 2005).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:tommy-larkins",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2006-final-killimordaly-athleague",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Athleague (2006 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2006,
+        "home": "club:killimordaly",
+        "away": "Athleague",
+        "score": "Killimordaly 3-14, Athleague 1-07",
+        "note": "Wikipedia 2006–07 All-Ireland Intermediate Club HC / Connacht IHC: Killimordaly beat Athleague 3-14 to 1-07 at Duggan Park (IHC gap fill).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_All-Ireland_Intermediate_Club_Hurling_Championship",
+        "winner": "club:killimordaly",
+        "result": "win",
+        "venue": "Duggan Park"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2007-final-tommy-larkins-ballina",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkins vs Ballina (2007 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2007,
+        "home": "club:tommy-larkins",
+        "away": "Ballina",
+        "score": "Tommy Larkins 0-12, Ballina 1-01",
+        "note": "Wikipedia Connacht IHC roll: Tommy Larkin's beat Ballina 0-12 to 1-01 (IHC gap fill after Galway IHC 2007).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:tommy-larkins",
+        "result": "win"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:eoin-fahy": "HOLD r40: bare U-21 2011 row stays HOLD — club-scoped player:eoin-fahey-michael-cusacks created from Tribune U-20B; do not dual-stamp Fahy/Fahey.",
+    "player:benny-lawless": "HOLD r40: Galway GAA 2006 RoH Menlo Emmetts Junior B lists Benny Lawless but single RoH cut insufficient vs AIHC 2002 bare collision / no second hurling club cite; keep HOLD.",
+    "player:joe-keane": "HOLD r40: Portumna All-Ireland club 2006 RoH lists Joe Keane but bare AIHC 2015 id stays HOLD vs Portumna-era twin risk; do not dual-stamp.",
+    "player:alan-leech": "HOLD r40: still dual-club Kinvara MotM 2007 vs Athenry U-21 gallery risk; no new multi-source clear.",
+    "player:gordon-glynn": "HOLD r40: Loughrea 2008 goal name remains twin of clubbed Gordan Glynn Kiltormer; do not dual-stamp.",
+    "player:stephen-creaven": "HOLD r40: bare AIHC 2002 vs club-scoped Cappataggle Creaven; do not dual-stamp.",
+    "player:mike-egan": "HOLD r40: spelling twin of Michael Egan Cappataggle; do not dual-stamp.",
+    "player:shane-maloney": "HOLD r40: spelling twin of Shane Moloney Tynagh-Abbey/Duniry; do not dual-stamp.",
+    "player:finnian-coone": "HOLD r40: spelling twin of Finian Coone Mullagh; do not dual-stamp.",
+    "player:tadgh-haran": "HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp.",
+    "player:kerrill-wade": "HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp.",
+    "player:donal-fox": "HOLD r40: likely twin of Donie Fox Carnmore; do not dual-stamp.",
+    "player:padraig-breheny": "HOLD r40: Breheny/Brehony family collision; bare AIHC stays HOLD.",
+    "player:john-brehony": "HOLD r40: Brehony/Breheny family collision; bare U-21 2011 stays HOLD."
+  },
+  "match_updates": []
+}
