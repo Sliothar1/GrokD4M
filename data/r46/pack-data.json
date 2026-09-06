@@ -1,0 +1,592 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Daithí Carr",
+      "id": "player:daithi-carr-rahoon",
+      "club": "club:rahoon",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 18 Sep 2025 U-20B HC final report: Daithí Carr led Rahoon-Newcastle charge and equalised vs Michael Cusacks. Club-scoped thin fill (Rahoon–Newcastle).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Luke Carroll",
+      "id": "player:luke-carroll-rahoon",
+      "club": "club:rahoon",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 18 Sep 2025 U-20B HC final: Luke Carroll assist for Rahoon-Newcastle equaliser and later attempt vs Michael Cusacks. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dylan Carr",
+      "id": "player:dylan-carr-rahoon",
+      "club": "club:rahoon",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 18 Sep 2025 U-20B HC final photo caption: Rahoon-Newcastle's Dylan Carr in possession vs Michael Cusacks. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Matthew Murphy",
+      "id": "player:matthew-murphy-rahoon",
+      "club": "club:rahoon",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 18 Sep 2025 U-20B HC final: Matthew Murphy blocked down a clearance in Rahoon-Newcastle's golden chance vs Michael Cusacks. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ciaran Mullins",
+      "id": "player:ciaran-mullins-rahoon",
+      "club": "club:rahoon",
+      "source": "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/",
+      "note": "Connacht Tribune 18 Sep 2025 U-20B HC final: Ciaran Mullins clearance blocked in Rahoon-Newcastle vs Michael Cusacks passage. Club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-1966-mullagh-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Athenry (1966 Galway SHC)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Championship",
+        "year": 1966,
+        "home": "club:mullagh",
+        "away": "club:athenry",
+        "score": "Mullagh 5-11, Athenry 1-08",
+        "note": "Athenry GAA 1966 history: lifeless County SHC game at Loughrea Mullagh 5-11 Athenry 1-8 (pre-1970 knockout gap; later objection/replay drama — this row is the published first meeting score).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1966",
+        "result": "win",
+        "winner": "club:mullagh",
+        "venue": "Loughrea"
+      }
+    },
+    {
+      "id": "match:galway-shc-1969-moycullen-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Athenry (1969 Galway SHC)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Championship",
+        "year": 1969,
+        "home": "club:moycullen",
+        "away": "club:athenry",
+        "score": "Moycullen 7-13, Athenry 2-04",
+        "note": "Athenry GAA 1969 history: Senior Hurling Championship at Pearse Stadium Moycullen 7-13 Athenry 2-4 after Athenry led early (pre-1970 SHC knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1969",
+        "result": "win",
+        "winner": "club:moycullen",
+        "venue": "Pearse Stadium"
+      }
+    },
+    {
+      "id": "match:galway-u21hc-1968-sf-moycullen-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Athenry (1968 Galway U-21 HC Semi-final)",
+        "competition": "Galway Under-21 Hurling Championship",
+        "round": "Semi-final",
+        "year": 1968,
+        "home": "club:moycullen",
+        "away": "club:athenry",
+        "score": "Moycullen 6-07, Athenry 5-05",
+        "note": "Athenry GAA 1968 history: County U-21 semi-final at Kenny Park Moycullen 6-7 Athenry 5-5 (West Board champions).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1968",
+        "result": "win",
+        "winner": "club:moycullen",
+        "venue": "Kenny Park, Athenry"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1966-final-athenry-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Castlegar (1966 Galway MHC Final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "Final",
+        "year": 1966,
+        "home": "club:athenry",
+        "away": "club:castlegar",
+        "score": "Athenry 6-05, Castlegar 3-03",
+        "note": "Athenry GAA 1966 history: first County Minor title at Kenny Park Athenry 6-5 Castlegar 3-3 (Connacht Tribune contemporaneous report cited on club page).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1966",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Kenny Park, Athenry"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1966-sf-athenry-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Portumna (1966 Galway MHC Semi-final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "Semi-final",
+        "year": 1966,
+        "home": "club:athenry",
+        "away": "club:portumna",
+        "score": "Athenry 7-05, Portumna 6-07",
+        "note": "Athenry GAA 1966 history: County MHC semi-final Athenry 7-5 Portumna 6-7 (major surprise en route to first minor title).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1966",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1969-final-athenry-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Craughwell (1969 Galway MHC Final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "Final",
+        "year": 1969,
+        "home": "club:athenry",
+        "away": "club:craughwell",
+        "score": "Athenry 5-11, Craughwell 4-08",
+        "note": "Athenry GAA 1969 history: Connacht Tribune 'thrill-a-minute minor final' at Pearse Stadium Athenry 5-11 Craughwell 4-8; captain Gerry Kelly.",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1969",
+        "result": "win",
+        "winner": "club:athenry",
+        "venue": "Pearse Stadium"
+      }
+    },
+    {
+      "id": "match:galway-mhc-1969-sf-athenry-oranmore-maree",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Oranmore/Maree (1969 Galway MHC Semi-final)",
+        "competition": "Galway Minor Hurling Championship",
+        "round": "Semi-final",
+        "year": 1969,
+        "home": "club:athenry",
+        "away": "club:oranmore-maree",
+        "score": "Athenry 1-08, Oranmore/Maree 0-06",
+        "note": "Athenry GAA 1969 history: County MHC semi-final Athenry 1-8 Oranmore/Maree 0-6 (fourth successive minor final).",
+        "confidence": "medium",
+        "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1969",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-reeves-cup-1966-final-athenry-fohenagh",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Fohenagh (1966 Reeves Cup Final)",
+        "competition": "Reeves Cup",
+        "round": "Final",
+        "year": 1966,
+        "home": "club:athenry",
+        "away": "club:fohenagh-historic",
+        "score": "Athenry 5-02, Fohenagh 3-03",
+        "note": "Athenry Parish Heritage / Athenry GAA Story: Athenry senior hurlers won Reeves Cup final Athenry 5-2 Fohenagh 3-3 (pre-1970 league/cup gap; published score).",
+        "confidence": "medium",
+        "source": "https://athenryparishheritage.com/the-athenry-gaa-story-1885-1987/",
+        "result": "win",
+        "winner": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-moycullen-gort",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Gort (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:moycullen",
+        "away": "club:gort",
+        "score": "Moycullen 2-18, Gort 1-24",
+        "note": "Wikipedia 2026 Galway SHC Group 1 Round 1 (9 Aug): Gort 1-24 Moycullen 2-18.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:gort",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-tommy-larkins-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkin's vs Loughrea (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:tommy-larkins",
+        "away": "club:loughrea",
+        "score": "Tommy Larkin's 3-16, Loughrea 1-17",
+        "note": "Wikipedia 2026 Galway SHC + Connacht Tribune 9 Aug 2026 Duggan Park: Tommy Larkins 3-16 Loughrea 1-17 (five-point win; Flynn 2-7, Daniels 1-1). Double-sourced with Wikipedia 2026 Galway SHC.",
+        "confidence": "high",
+        "source": "https://www.connachttribune.ie/sport/tommy-larkins-stun-loughrea-in-galway-senior-hurling-championship-8847539",
+        "result": "win",
+        "winner": "club:tommy-larkins",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-cappataggle-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Liam Mellows (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:cappataggle",
+        "away": "club:liam-mellows",
+        "score": "Cappataggle 2-13, Liam Mellows 2-20",
+        "note": "Wikipedia 2026 Galway SHC Group 2 Round 1 (9 Aug): Liam Mellows 2-20 Cappataggle 2-13.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:liam-mellows",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-craughwell-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Clarinbridge (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:craughwell",
+        "away": "club:clarinbridge",
+        "score": "Craughwell 2-17, Clarinbridge 1-22",
+        "note": "Wikipedia 2026 Galway SHC Group 2 Round 1 (9 Aug): Clarinbridge 1-22 Craughwell 2-17.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-sarsfields-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Castlegar (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:sarsfields",
+        "away": "club:castlegar",
+        "score": "Sarsfields 2-21, Castlegar 1-24",
+        "note": "Wikipedia 2026 Galway SHC Group 3 Round 1 (9 Aug): Sarsfields 2-21 Castlegar 1-24.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-st-thomas-oranmore-maree",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Oranmore–Maree (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:st-thomas",
+        "away": "club:oranmore-maree",
+        "score": "St Thomas' 0-23, Oranmore–Maree 0-19",
+        "note": "Wikipedia 2026 Galway SHC Group 3 Round 1 (9 Aug): St Thomas' 0-23 Oranmore–Maree 0-19.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-ardrahan-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Ardrahan vs Killimordaly (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:ardrahan",
+        "away": "club:killimordaly",
+        "score": "Ardrahan 1-22, Killimordaly 1-21",
+        "note": "Wikipedia 2026 Galway SHC Group 4 Round 1 (9 Aug): Ardrahan 1-22 Killimordaly 1-21.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:ardrahan",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r1-turloughmore-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Athenry (2026 Galway SHC Round 1)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 1",
+        "year": 2026,
+        "home": "club:turloughmore",
+        "away": "club:athenry",
+        "score": "Turloughmore 2-20, Athenry 2-22",
+        "note": "Wikipedia 2026 Galway SHC Group 4 Round 1 (9 Aug): Athenry 2-22 Turloughmore 2-20.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-gort-tommy-larkins",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Tommy Larkin's (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:gort",
+        "away": "club:tommy-larkins",
+        "score": "Gort 1-19, Tommy Larkin's 1-27",
+        "note": "Wikipedia 2026 Galway SHC Group 1 Round 2 (23 Aug): Tommy Larkin's 1-27 Gort 1-19.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:tommy-larkins",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-loughrea-moycullen",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Moycullen (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:loughrea",
+        "away": "club:moycullen",
+        "score": "Loughrea 1-17, Moycullen 1-14",
+        "note": "Wikipedia 2026 Galway SHC Group 1 Round 2 (23 Aug): Loughrea 1-17 Moycullen 1-14.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:loughrea",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-clarinbridge-cappataggle",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Cappataggle (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:clarinbridge",
+        "away": "club:cappataggle",
+        "score": "Clarinbridge 2-18, Cappataggle 0-17",
+        "note": "Wikipedia 2026 Galway SHC Group 2 Round 2 (23 Aug): Clarinbridge 2-18 Cappataggle 0-17.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:clarinbridge",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-liam-mellows-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Craughwell (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:liam-mellows",
+        "away": "club:craughwell",
+        "score": "Liam Mellows 1-18, Craughwell 0-23",
+        "note": "Wikipedia 2026 Galway SHC Group 2 Round 2 (23 Aug): Craughwell 0-23 Liam Mellows 1-18.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:craughwell",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-castlegar-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs St Thomas' (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:castlegar",
+        "away": "club:st-thomas",
+        "score": "Castlegar 1-25, St Thomas' 6-14",
+        "note": "Wikipedia 2026 Galway SHC Group 3 Round 2 (23 Aug): St Thomas' 6-14 Castlegar 1-25.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:st-thomas",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-oranmore-maree-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore–Maree vs Sarsfields (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:oranmore-maree",
+        "away": "club:sarsfields",
+        "score": "Oranmore–Maree 1-18, Sarsfields 2-19",
+        "note": "Wikipedia 2026 Galway SHC Group 3 Round 2 (23 Aug): Sarsfields 2-19 Oranmore–Maree 1-18.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-athenry-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Ardrahan (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:athenry",
+        "away": "club:ardrahan",
+        "score": "Athenry 1-21, Ardrahan 1-18",
+        "note": "Wikipedia 2026 Galway SHC Group 4 Round 2 (23 Aug): Athenry 1-21 Ardrahan 1-18.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:athenry",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "match:galway-shc-2026-r2-killimordaly-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Turloughmore (2026 Galway SHC Round 2)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Round 2",
+        "year": 2026,
+        "home": "club:killimordaly",
+        "away": "club:turloughmore",
+        "score": "Killimordaly 3-20, Turloughmore 0-39",
+        "note": "Wikipedia 2026 Galway SHC Group 4 Round 2 (23 Aug): Turloughmore 0-39 Killimordaly 3-20.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+        "result": "win",
+        "winner": "club:turloughmore",
+        "source_wiki": "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship"
+      }
+    }
+  ],
+  "match_updates": [],
+  "hold_notes": {
+    "player:finnian-coone": "HOLD r46: Wikipedia 2020 Galway SHC Senior B R1 lists Finnian Coone 1-0 for Mullagh — spelling twin of clubbed player:finian-coone (Mullagh); bare U-21 2007 row stays HOLD — do not dual-club.",
+    "player:stephen-creaven": "HOLD r46: Wikipedia 2017/2020 Galway SHC scorelines list Stephen/Steven Creaven for Cappataggle — twin of clubbed player:stephen-creaven-cappataggle; bare AIHC 2002 row stays HOLD — do not dual-stamp.",
+    "player:joe-keane": "HOLD r46: Portumna All-Ireland club 2006 RoH + Connacht Tribune 2026 'former Portumna goalkeeper Joe Keane' collide with bare AIHC 2015 panel row; club-scoped player:joe-keane-portumna already exists — bare stays HOLD.",
+    "player:aonghus-dervan": "HOLD r46: still no first+last published Galway club hurling cite for Aonghus Dervan (U-21 2005); Mullagh Dervan family (Conor/Cathal) is not a direct clear — keep HOLD.",
+    "player:tadgh-haran": "HOLD r46: spelling twin of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran) — bare MHC/U-21 row stays HOLD.",
+    "player:kerrill-wade": "HOLD r46: spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade) — bare U-21 panel row stays HOLD."
+  }
+}

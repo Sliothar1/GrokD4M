@@ -1,35 +1,17 @@
 {
   "pack": "galway-club-player-links",
-  "round": "45",
-  "generated_at": "2026-09-06T23:08:53.537012+00:00",
+  "round": "46",
+  "generated_at": "2026-09-06T23:15:09.525316+00:00",
   "sources": [
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1967",
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1966",
     "https://www.athenrygaa.ie/index.php/history-photo-gallery/1968",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1971",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1972",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1974",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1975",
-    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1976",
-    "https://www.galwaybayfm.ie/sports/junior-hurling-championship-finals-reports-204896",
-    "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
-    "https://www.connachttribune.ie/sport/sylane-edge-past-padraig-pearses-in-thrilling-division-3-league-final-8791839"
+    "https://www.athenrygaa.ie/index.php/history-photo-gallery/1969",
+    "https://athenryparishheritage.com/the-athenry-gaa-story-1885-1987/",
+    "https://en.wikipedia.org/wiki/2026_Galway_Senior_Hurling_Championship",
+    "https://www.connachttribune.ie/sport/tommy-larkins-stun-loughrea-in-galway-senior-hurling-championship-8847539",
+    "https://connachttribune.ie/michael-cusacks-claim-county-crown-with-impressive-display/"
   ],
   "before": {
-    "players": 1580,
-    "players_with_club": 1500,
-    "players_without_club": 80,
-    "orphan_clubs": 5,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1209,
-    "appearances": 686
-  },
-  "after": {
     "players": 1588,
     "players_with_club": 1509,
     "players_without_club": 79,
@@ -44,55 +26,72 @@
     "matches": 1221,
     "appearances": 686
   },
+  "after": {
+    "players": 1593,
+    "players_with_club": 1514,
+    "players_without_club": 79,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1245,
+    "appearances": 686
+  },
   "delta": {
-    "players_linked": 1,
-    "players_created": 8,
+    "players_linked": 0,
+    "players_created": 5,
     "clubs_created": 0,
-    "appearances_clubbed": 1,
-    "matches_added": 12,
-    "players_with_club": 9,
+    "appearances_clubbed": 0,
+    "matches_added": 24,
+    "players_with_club": 5,
     "orphan_clubs": 0
   },
-  "sample_linked_ids": [
-    "player:gerry-kelly"
-  ],
+  "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:tomas-keane-sylane",
-    "player:ciaran-fleming-sylane",
-    "player:paul-ronan-sylane",
-    "player:adrian-lardner-sylane",
-    "player:brian-igoe-sylane",
-    "player:darragh-mahon-sylane",
-    "player:shane-furey-sylane",
-    "player:conor-newell-sylane"
+    "player:daithi-carr-rahoon",
+    "player:luke-carroll-rahoon",
+    "player:dylan-carr-rahoon",
+    "player:matthew-murphy-rahoon",
+    "player:ciaran-mullins-rahoon"
   ],
-  "all_linked_ids": [
-    "player:gerry-kelly"
-  ],
+  "all_linked_ids": [],
   "all_created_ids": [
-    "player:tomas-keane-sylane",
-    "player:ciaran-fleming-sylane",
-    "player:paul-ronan-sylane",
-    "player:adrian-lardner-sylane",
-    "player:brian-igoe-sylane",
-    "player:darragh-mahon-sylane",
-    "player:shane-furey-sylane",
-    "player:conor-newell-sylane"
+    "player:daithi-carr-rahoon",
+    "player:luke-carroll-rahoon",
+    "player:dylan-carr-rahoon",
+    "player:matthew-murphy-rahoon",
+    "player:ciaran-mullins-rahoon"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-shc-1967-r1-killimordaly-athenry",
-    "match:galway-shc-1968-r1-killimordaly-athenry",
-    "match:galway-shc-1971-r1-athenry-fohenagh",
-    "match:galway-shc-1972-r1-castlegar-athenry",
-    "match:galway-shc-1974-qf-athenry-turloughmore",
-    "match:galway-shc-1974-sf-castlegar-athenry",
-    "match:galway-shc-1975-r1-gort-athenry",
-    "match:galway-shc-1976-r1-carnmore-athenry",
-    "match:galway-junior-b-hc-2025-final-tommy-larkins-mullagh",
-    "match:galway-junior-c-hc-2025-final-craughwell-tommy-larkins",
-    "match:galway-junior-e-hc-2025-final-loughrea-kinvara",
-    "match:galway-div3-league-2026-final-sylane-padraig-pearses"
+    "match:galway-shc-1966-mullagh-athenry",
+    "match:galway-shc-1969-moycullen-athenry",
+    "match:galway-u21hc-1968-sf-moycullen-athenry",
+    "match:galway-mhc-1966-final-athenry-castlegar",
+    "match:galway-mhc-1966-sf-athenry-portumna",
+    "match:galway-mhc-1969-final-athenry-craughwell",
+    "match:galway-mhc-1969-sf-athenry-oranmore-maree",
+    "match:galway-reeves-cup-1966-final-athenry-fohenagh",
+    "match:galway-shc-2026-r1-moycullen-gort",
+    "match:galway-shc-2026-r1-tommy-larkins-loughrea",
+    "match:galway-shc-2026-r1-cappataggle-liam-mellows",
+    "match:galway-shc-2026-r1-craughwell-clarinbridge",
+    "match:galway-shc-2026-r1-sarsfields-castlegar",
+    "match:galway-shc-2026-r1-st-thomas-oranmore-maree",
+    "match:galway-shc-2026-r1-ardrahan-killimordaly",
+    "match:galway-shc-2026-r1-turloughmore-athenry",
+    "match:galway-shc-2026-r2-gort-tommy-larkins",
+    "match:galway-shc-2026-r2-loughrea-moycullen",
+    "match:galway-shc-2026-r2-clarinbridge-cappataggle",
+    "match:galway-shc-2026-r2-liam-mellows-craughwell",
+    "match:galway-shc-2026-r2-castlegar-st-thomas",
+    "match:galway-shc-2026-r2-oranmore-maree-sarsfields",
+    "match:galway-shc-2026-r2-athenry-ardrahan",
+    "match:galway-shc-2026-r2-killimordaly-turloughmore"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -178,13 +177,13 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 232,
-    "updated": 12,
-    "players_linked": 1,
-    "appearances_clubbed": 1,
-    "players_created": 8,
-    "matches_added": 12,
-    "clubs_created": 0
+    "added": 373,
+    "players_created": 5,
+    "matches_added": 24,
+    "updated": 6,
+    "players_linked": 0,
+    "clubs_created": 0,
+    "appearances_clubbed": 0
   },
   "priority_club_counts_after": {
     "club:fohenagh-historic": 44,
@@ -222,7 +221,7 @@
     "club:gort": 39,
     "club:killimordaly": 25,
     "club:portumna": 29,
-    "club:rahoon": 19,
+    "club:rahoon": 24,
     "club:abbeyknockmoy": 29,
     "club:kilnadeema-leitrim": 30,
     "club:ballinderreen": 36,
@@ -243,5 +242,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r45: pre-1977 Galway SHC knockout scored Matches (1967 R1 + 1968 + 1971 R1 + 1972 R1 + 1974 QF/SF + 1975 R1 + 1976 R1 from Athenry GAA) + 2025 Junior B/C/E finals + 2026 Div3 League final; club-less: Gerry Kelly multi-source clear to Athenry; remaining ~79 stay HOLD; AF/Fohenagh dense - skipped; Sylane thin fills (Keane/Fleming/Ronan/Lardner/Igoe/Mahon/Furey/Conor Newell); new HOLD collision notes for Padraig Breheny/Padraic Brehony/Shane Maloney/Liam Shiels/Ned Campbell/Tom Donohue."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). r46: pre-1970 SHC (1966 Mullagh-Athenry, 1969 Moycullen-Athenry) + 1968 U-21 SF + 1966/1969 MHC SF/Final + 1966 Reeves Cup final from Athenry GAA/heritage; 2026 SHC R1+R2 scored Matches (Wikipedia; TL-Loughrea also Connacht Tribune); club-less ~79 stay HOLD (no new strong first+last multi-source clear without twin); AF/Fohenagh dense - skipped; Tommy Larkins dense - skipped player fills; Rahoon-Newcastle thin fills (Daithi Carr/Luke Carroll/Dylan Carr/Matthew Murphy/Ciaran Mullins from U-20B final); new HOLD collision notes for Finnian Coone/Stephen Creaven/Joe Keane/Aonghus Dervan/Tadgh Haran/Kerrill Wade."
 }
