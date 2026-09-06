@@ -1,11 +1,29 @@
-{
-  "queue": "archivist-fohenagh-club-links",
-  "generated_at": "2026-09-06T19:31:54.792242+00:00",
-  "round": "2+2b",
-  "note": "Fohenagh/Ahascragh-Fohenagh links this run; review for CLEAR.",
-  "fohenagh_new_player_ids": [
-    "player:sean-glennon-fohenagh"
-  ],
-  "fohenagh_linked_existing_ids": [],
-  "pack": "data/pack-galway-club-player-links.json"
-}
+[
+  {
+    "queue": "archivist-fohenagh-club-links",
+    "generated_at": "2026-09-06T19:31:54.792242+00:00",
+    "round": "2+2b",
+    "note": "Fohenagh/Ahascragh-Fohenagh links this run; review for CLEAR.",
+    "fohenagh_new_player_ids": [
+      "player:sean-glennon-fohenagh"
+    ],
+    "fohenagh_linked_existing_ids": [],
+    "pack": "data/pack-galway-club-player-links.json"
+  },
+  {
+    "batch": "fohenagh-club-links-r3",
+    "ruled_at": "2026-09-06T19:36:04.477437+00:00",
+    "clear_links": [
+      "player:diarmuid-obrien"
+    ],
+    "unverified_new": [
+      "player:owen-naughton",
+      "player:ronan-kelly-ahascragh-fohenagh",
+      "player:cian-kelly-ahascragh-fohenagh",
+      "player:andrew-fitzgerald-ahascragh-fohenagh",
+      "player:darragh-glynn-ahascragh-fohenagh",
+      "player:noel-warde"
+    ],
+    "note": "AF 2024/2025 Wikipedia SHC scorer names — confidence unverified pending Archivist dual-source."
+  }
+]
