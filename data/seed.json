@@ -32187,17 +32187,17 @@
   {
     "row": "player:cathal-coen",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:cathal-coen",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/clarinbridge-now-rule-in-connacht/26068228.html"
   },
   {
     "row": "player:cathal-coen",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA). HOLD r14: bare Cathal Coen 1999 MHC panel vs Clarinbridge manager cite (ireland-live 2026) — skip unless first+last disambiguated hurling cite."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA). HOLD r14: bare Cathal Coen 1999 MHC panel vs Clarinbridge manager cite (ireland-live 2026) — skip unless first+last disambiguated hurling cite. Irish Independent Clarinbridge Connacht club final lineup/scorers name Cathal Coen; Wikipedia 2014 Galway SHC Group B scorers list Cathal Coen for Clarinbridge. Clears prior HOLD r14 — strong first+last Clarinbridge hurling cite (distinct from manager-only ambiguity)."
   },
   {
     "row": "player:cathal-dervan",
@@ -32342,17 +32342,17 @@
   {
     "row": "player:christy-helebert",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:christy-helebert",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaybayfm.ie/sports/galway-and-offaly-in-rare-u21-hurling-championship-clash-47033"
   },
   {
     "row": "player:christy-helebert",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r6: former Galway senior / referee — no clear playing-club cite this run."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r6: former Galway senior / referee — no clear playing-club cite this run. GalwayBayFM Galway U-21 team sheets list Christy Helebert (Ballinderreen); Clubforce Kinvara archives also place him as Kinvara centre-back later — U-21 panel cite is Ballinderreen. Clears prior HOLD r6 — strong first+last hurling cite for 1991 U-21 panel Christy Helebert."
   },
   {
     "row": "player:cian-regan",
@@ -40182,17 +40182,17 @@
   {
     "row": "player:murty-killilea",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:murty-killilea",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:murty-killilea",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r15: bare Murty Killilea U-21 panel vs historic Fohenagh Paddy Killilea (1963 team sheet) — distinct first names; no merge; skip orphan fills."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r15: bare Murty Killilea U-21 panel vs historic Fohenagh Paddy Killilea (1963 team sheet) — distinct first names; no merge; skip orphan fills. Galway GAA Roll of Honour: Murty Killilea named on Carnmore 1988 Intermediate champions team photo; Carnmore club history lists Murty Killilea among county seniors; GalwayBayFM U-21 sheets list Murt Killilea (Carnmore). Clears prior HOLD — strong first+last Carnmore cite."
   },
   {
     "row": "player:n-gilmartin",
@@ -40697,17 +40697,17 @@
   {
     "row": "player:noel-kelly",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:noel-kelly",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:noel-kelly",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD r15: bare Noel Kelly U-21 2007 vs Sarsfields panel Noel Kelly / AF Kelly family collision — skip unless first+last disambiguated cite."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD r15: bare Noel Kelly U-21 2007 vs Sarsfields panel Noel Kelly / AF Kelly family collision — skip unless first+last disambiguated cite. Wikipedia 2014 Galway SHC scorers repeatedly list Noel Kelly for Sarsfields (Round 1 replay + Group A); Sarsfields club senior roster also names Noel Kelly. Clears prior HOLD r15 AF Kelly collision concern — published Sarsfields first+last cite."
   },
   {
     "row": "player:noel-larkin",
@@ -53982,7 +53982,7 @@
   {
     "row": "appearance:cathal-coen-minor-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:brian-mahoney-minor-2000",
@@ -72947,7 +72947,7 @@
   {
     "row": "appearance:christy-helebert-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:richard-burke-u-21-1991",
@@ -73362,7 +73362,7 @@
   {
     "row": "appearance:murty-killilea-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:noel-larkin-u-21-1991",
@@ -78872,7 +78872,7 @@
   {
     "row": "appearance:noel-kelly-u-21-2007",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:danny-whyte-u-21-2007",
@@ -85642,7 +85642,7 @@
   {
     "row": "player:cathal-coen",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:cathal-dervan",
@@ -85667,7 +85667,7 @@
   {
     "row": "player:christy-helebert",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:cian-regan",
@@ -86922,7 +86922,7 @@
   {
     "row": "player:murty-killilea",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:n-gilmartin",
@@ -87007,7 +87007,7 @@
   {
     "row": "player:noel-kelly",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:noel-larkin",
@@ -97647,7 +97647,7 @@
   {
     "row": "player:christy-helebert",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:brendan-keogh",
@@ -116902,7 +116902,7 @@
   {
     "row": "player:cathal-coen",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:donal-mannion",
@@ -119582,7 +119582,7 @@
   {
     "row": "player:noel-kelly",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:niall-kelly",
@@ -119592,7 +119592,7 @@
   {
     "row": "player:murty-killilea",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:aidan-staunton",
@@ -181641,6 +181641,3556 @@
   },
   {
     "row": "player:alan-ward-sarsfields",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:christy-helebert",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "appearance:christy-helebert-u-21-1991",
+    "col": "club",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "player:murty-killilea",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "appearance:murty-killilea-u-21-1991",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:cathal-coen",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:cathal-coen-minor-1999",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:noel-kelly",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "appearance:noel-kelly-u-21-2007",
+    "col": "club",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "name",
+    "val": "Gerry Quinn"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC final XV / scorers: Gerry Quinn started and scored (0-7 frees) for Gort vs Portumna. Club-scoped thin fill."
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "name",
+    "val": "Kevin Killilea"
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC top scorers: Kevin Killilea (Carnmore) 2-42; repeatedly listed as Carnmore free-taker. Club-scoped thin fill; distinct from Murty Killilea."
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "name",
+    "val": "Gareth Heagney"
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC final XV: Gareth Heagney started in Portumna defence vs Gort. Club-scoped thin fill."
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "name",
+    "val": "Conor O'Hare"
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC final XV: Conor O'Hare started at full-back for Portumna. Club-scoped thin fill."
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "name",
+    "val": "Peter Smith"
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC final XV: Peter Smith started for Portumna vs Gort. Club-scoped thin fill; distinct from Andy/Leo Smith."
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "name",
+    "val": "Owen Treacy"
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC final XV: Owen Treacy started for Portumna vs Gort. Club-scoped thin fill."
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "name",
+    "val": "Eoin Lynch"
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC final XV: Eoin Lynch started for Portumna vs Gort. Club-scoped thin fill."
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "name",
+    "val": "Leo Smith"
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC final XV: Leo Smith started at midfield for Portumna. Club-scoped thin fill; distinct from Andy/Peter Smith."
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "name",
+    "val": "Niall Kelly"
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC Group B scorers: Niall Kelly scored a goal for Tommy Larkin's vs Gort. Club-scoped thin fill; bare player:niall-kelly remains HOLD collision."
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "name",
+    "val": "Beagh vs Craughwell (2014 Galway SHC Preliminary to Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "round",
+    "val": "Preliminary to Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "score",
+    "val": "Beagh 2-18, Craughwell 1-14"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r1-beagh-craughwell",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "name",
+    "val": "Mullagh vs Clarinbridge (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "score",
+    "val": "Mullagh 1-18, Clarinbridge 0-19"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-mullagh-clarinbridge",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "name",
+    "val": "Carnmore vs Sarsfields (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "home",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "score",
+    "val": "Carnmore 1-10, Sarsfields 0-13"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-carnmore-sarsfields",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "name",
+    "val": "Athenry vs Liam Mellows (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "score",
+    "val": "Athenry 2-20, Liam Mellows 0-15"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-athenry-liam-mellows",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Turloughmore (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 2-15, Turloughmore 0-15"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tynagh-abbey-duniry-turloughmore",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "name",
+    "val": "Ardrahan vs Pádraig Pearse's (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "score",
+    "val": "Ardrahan 2-10, Pádraig Pearse's 0-9"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-ardrahan-padraig-pearses",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "name",
+    "val": "Killimordaly vs Kiltormer (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "away",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "score",
+    "val": "Killimordaly 1-15, Kiltormer 0-14"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-killimordaly-kiltormer",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "name",
+    "val": "Tommy Larkin's vs St. Thomas's (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "score",
+    "val": "Tommy Larkin's 2-15, St. Thomas's 0-19"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-tommy-larkins-st-thomas",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "name",
+    "val": "Loughrea vs Gort (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "score",
+    "val": "Loughrea 1-15, Gort 0-12"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-loughrea-gort",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "name",
+    "val": "Portumna vs Castlegar (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "score",
+    "val": "Portumna 1-29, Castlegar 1-19"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-portumna-castlegar",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "name",
+    "val": "Sarsfields vs Carnmore (2014 Galway SHC Round 1 Replay)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "round",
+    "val": "Round 1 Replay"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "score",
+    "val": "Sarsfields 1-14, Carnmore 1-12"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-replay-sarsfields-carnmore",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "name",
+    "val": "Beagh vs Kinvara (2014 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "score",
+    "val": "Beagh 1-18, Kinvara 1-13"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r1-beagh-kinvara",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "name",
+    "val": "St. Thomas's vs Castlegar (2014 Galway SHC Preliminary to Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "round",
+    "val": "Preliminary to Round 2"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "score",
+    "val": "St. Thomas's 0-17, Castlegar 0-11"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-prelim-r2-st-thomas-castlegar",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "name",
+    "val": "Gort vs Liam Mellows (2014 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "score",
+    "val": "Gort 4-13, Liam Mellows 4-11"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-gort-liam-mellows",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "name",
+    "val": "Clarinbridge vs Kiltormer (2014 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "away",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "score",
+    "val": "Clarinbridge 0-13, Kiltormer 1-9"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-clarinbridge-kiltormer",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "name",
+    "val": "Turloughmore vs Kinvara (2014 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "score",
+    "val": "Turloughmore 1-12, Kinvara 2-8"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-turloughmore-kinvara",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "name",
+    "val": "Carnmore vs Pádraig Pearse's (2014 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "home",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "score",
+    "val": "Carnmore 0-16, Pádraig Pearse's 2-9"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-carnmore-padraig-pearses",
+    "col": "winner",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "name",
+    "val": "Craughwell vs St. Thomas's (2014 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "score",
+    "val": "Craughwell 0-22, St. Thomas's 1-17"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-r2-craughwell-st-thomas",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "name",
+    "val": "Loughrea vs Sarsfields (2014 Galway SHC Group A)"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "round",
+    "val": "Group A"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "score",
+    "val": "Loughrea 0-15, Sarsfields 0-13"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-sarsfields",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "name",
+    "val": "Killimordaly vs Mullagh (2014 Galway SHC Group A)"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "round",
+    "val": "Group A"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "score",
+    "val": "Killimordaly 1-19, Mullagh 0-20"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-mullagh",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "name",
+    "val": "Sarsfields vs Mullagh (2014 Galway SHC Group A)"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "round",
+    "val": "Group A"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "score",
+    "val": "Sarsfields 0-20, Mullagh 2-12"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-sarsfields-mullagh",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "name",
+    "val": "Loughrea vs Killimordaly (2014 Galway SHC Group A)"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "round",
+    "val": "Group A"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "score",
+    "val": "Loughrea 0-19, Killimordaly 1-16"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-killimordaly",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "name",
+    "val": "Killimordaly vs Sarsfields (2014 Galway SHC Group A)"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "round",
+    "val": "Group A"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "score",
+    "val": "Killimordaly 0-22, Sarsfields 1-16"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-killimordaly-sarsfields",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "name",
+    "val": "Loughrea vs Mullagh (2014 Galway SHC Group A)"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "round",
+    "val": "Group A"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "score",
+    "val": "Loughrea 0-24, Mullagh 1-10"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-ga-loughrea-mullagh",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Clarinbridge vs Kilnadeema-Leitrim (2014 Galway SHC Group B)"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Group B"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Clarinbridge 1-15, Kilnadeema-Leitrim 0-13"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-clarinbridge-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "name",
+    "val": "Gort vs Tommy Larkin's (2014 Galway SHC Group B)"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "round",
+    "val": "Group B"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "score",
+    "val": "Gort 4-14, Tommy Larkin's 2-13"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-tommy-larkins",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Tommy Larkin's vs Kilnadeema-Leitrim (2014 Galway SHC Group B)"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Group B"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Tommy Larkin's 0-16, Kilnadeema-Leitrim 0-12"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "name",
+    "val": "Gort vs Clarinbridge (2014 Galway SHC Group B)"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "round",
+    "val": "Group B"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "score",
+    "val": "Gort 4-10, Clarinbridge 1-9"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-clarinbridge",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Gort vs Kilnadeema-Leitrim (2014 Galway SHC Group B)"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Group B"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Gort 0-25, Kilnadeema-Leitrim 1-8"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-gort-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "name",
+    "val": "Tommy Larkin's vs Clarinbridge (2014 Galway SHC Group B)"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "round",
+    "val": "Group B"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "score",
+    "val": "Tommy Larkin's 0-22, Clarinbridge 0-20"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gb-tommy-larkins-clarinbridge",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "name",
+    "val": "Craughwell vs Turloughmore (2014 Galway SHC Group C)"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "round",
+    "val": "Group C"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "score",
+    "val": "Craughwell 0-12, Turloughmore 0-10"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-turloughmore",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Beagh (2014 Galway SHC Group C)"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "round",
+    "val": "Group C"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 1-16, Beagh 1-16"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-tynagh-abbey-duniry-beagh",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Turloughmore vs Tynagh-Abbey/Duniry (2014 Galway SHC Group C)"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Group C"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Turloughmore 2-12, Tynagh-Abbey/Duniry 2-10"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-turloughmore-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "name",
+    "val": "Beagh vs Craughwell (2014 Galway SHC Group C)"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "round",
+    "val": "Group C"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "score",
+    "val": "Beagh 2-11, Craughwell 1-08"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-beagh-craughwell",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Craughwell vs Tynagh-Abbey/Duniry (2014 Galway SHC Group C)"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Group C"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Craughwell 3-18, Tynagh-Abbey/Duniry 0-19"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gc-craughwell-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "name",
+    "val": "Ardrahan vs Athenry (2014 Galway SHC Group D)"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "round",
+    "val": "Group D"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "score",
+    "val": "Ardrahan 1-13, Athenry 1-11"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-athenry",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "name",
+    "val": "Portumna vs Carnmore (2014 Galway SHC Group D)"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "round",
+    "val": "Group D"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "score",
+    "val": "Portumna 2-28, Carnmore 2-14"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-carnmore",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "name",
+    "val": "Portumna vs Ardrahan (2014 Galway SHC Group D)"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "round",
+    "val": "Group D"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "score",
+    "val": "Portumna 1-17, Ardrahan 1-14"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-ardrahan",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "name",
+    "val": "Athenry vs Carnmore (2014 Galway SHC Group D)"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "round",
+    "val": "Group D"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "score",
+    "val": "Athenry 9-16, Carnmore 1-11"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-athenry-carnmore",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "name",
+    "val": "Portumna vs Athenry (2014 Galway SHC Group D)"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "round",
+    "val": "Group D"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "score",
+    "val": "Portumna 2-17, Athenry 1-13"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-portumna-athenry",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "name",
+    "val": "Ardrahan vs Carnmore (2014 Galway SHC Group D)"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "round",
+    "val": "Group D"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "score",
+    "val": "Ardrahan 4-20, Carnmore 0-9"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-gd-ardrahan-carnmore",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "name",
+    "val": "Craughwell vs Tommy Larkin's (2014 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "score",
+    "val": "Craughwell 0-19, Tommy Larkin's 1-13"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-craughwell-tommy-larkins",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "name",
+    "val": "Gort vs Killimordaly (2014 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "score",
+    "val": "Gort 3-11, Killimordaly 0-11"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-gort-killimordaly",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "name",
+    "val": "Portumna vs Loughrea (2014 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "score",
+    "val": "Portumna 2-15, Loughrea 1-17"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-portumna-loughrea",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "name",
+    "val": "Beagh vs Ardrahan (2014 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "score",
+    "val": "Beagh 0-13, Ardrahan 0-9"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-qf-beagh-ardrahan",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "name",
+    "val": "Portumna vs Craughwell (2014 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "score",
+    "val": "Portumna 1-15, Craughwell 0-15"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-portumna-craughwell",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "name",
+    "val": "Gort vs Beagh (2014 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "score",
+    "val": "Gort 1-15, Beagh 0-10"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-sf-gort-beagh",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "name",
+    "val": "Pádraig Pearse's vs Kinvara (2014 Galway SHC Relegation Final)"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "round",
+    "val": "Relegation Final"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "year",
+    "val": 2014
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "score",
+    "val": "Pádraig Pearse's 0-14, Kinvara 1-9"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "note",
+    "val": "Wikipedia 2014 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2014-rel-final-padraig-pearses-kinvara",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:gerry-quinn-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:kevin-killilea-carnmore",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:gareth-heagney-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:conor-ohare-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:peter-smith-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:owen-treacy-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:eoin-lynch-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:leo-smith-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:niall-kelly-tommy-larkins",
     "col": "hold",
     "val": false
   }
