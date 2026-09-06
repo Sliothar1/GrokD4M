@@ -1,0 +1,949 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Tommy Halliday",
+      "id": "player:tommy-halliday-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487",
+      "note": "Galway Bay FM Jan 2024 Junior hurling team sheet lists Tommy Halliday (Bearna na Forbacha); BayFM Jan 2023 Development panel lists Tom Halliday (Barna-Na Forbacha). Dual-panel thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Donal Folan",
+      "id": "player:donal-folan-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487",
+      "note": "Galway Bay FM Jan 2024 Junior hurling team sheet lists Donal Folan (Bearna na Forbacha); BayFM Jan 2023 Development panel lists Donal Folan (Barna-Na Forbacha). Dual-panel thin fill (distinct from Cian Folan Moycullen).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ryan Folan",
+      "id": "player:ryan-folan-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487",
+      "note": "Galway Bay FM Jan 2024 Junior hurling team sheet lists Ryan Folan (Bearna na Forbacha); BayFM Jan 2023 Development panel lists Ryan Folan (Barna-Na Forbacha). Dual-panel thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Charlie Friel",
+      "id": "player:charlie-friel-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487",
+      "note": "Galway Bay FM Jan 2024 Junior hurling team sheet lists Charlie Friel (Bearna na Forbacha); club-scoped thin fill (no bare Friel row).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Ryan O'Toole",
+      "id": "player:ryan-otoole-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://www.galwaybayfm.ie/sports/galway-junior-hurling-team-named-for-new-york-semi-final-152487",
+      "note": "Galway Bay FM Jan 2024 Junior hurling team sheet lists Ryan O'Toole (Bearna an Forbacha); club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal Folan",
+      "id": "player:cathal-folan-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://www.galwaybayfm.ie/sports/galway-development-hurling-squad-face-new-york-this-evening-in-connacht-league-semi-final-128496",
+      "note": "Galway Bay FM Jan 2023 Development hurling panel lists Cathal Folan (Barna-Na Forbacha); club-scoped thin fill alongside dual-cited Folan brothers.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Niall Cox",
+      "id": "player:niall-cox-bearna-na-forbacha",
+      "club": "club:bearna-na-forbacha",
+      "source": "https://www.galwaybayfm.ie/sports/galway-development-hurling-squad-face-new-york-this-evening-in-connacht-league-semi-final-128496",
+      "note": "Galway Bay FM Jan 2023 Development hurling panel lists Niall Cox (Barna-Na Forbacha); club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-kelly",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2000-qf-portumna-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Sarsfields (2000 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2000,
+        "home": "club:portumna",
+        "away": "club:sarsfields",
+        "score": "Portumna 3-08, Sarsfields 0-10",
+        "note": "Galway Bay FM published 2000s SHC roll: 2000 quarter-final Portumna 3-8 Sarsfields 0-10 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2000-qf-carnmore-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Carnmore vs Castlegar (2000 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2000,
+        "home": "club:carnmore",
+        "away": "club:castlegar",
+        "score": "Carnmore 3-12, Castlegar 1-13",
+        "note": "Galway Bay FM published 2000s SHC roll: 2000 quarter-final Carnmore 3-12 Castlegar 1-13 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:carnmore",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2000-qf-athenry-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Abbey-Duniry (2000 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2000,
+        "home": "club:athenry",
+        "away": "club:abbey-duniry-historic",
+        "score": "Athenry 2-14, Abbey-Duniry 3-10",
+        "note": "Galway Bay FM published 2000s SHC roll: 2000 quarter-final Athenry 2-14 Abbey Duniry 3-10 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2000-qf-abbeyknockmoy-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Abbeyknockmoy vs Killimordaly (2000 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2000,
+        "home": "club:abbeyknockmoy",
+        "away": "club:killimordaly",
+        "score": "Abbeyknockmoy 1-06, Killimordaly 0-10",
+        "note": "Galway Bay FM published 2000s SHC roll: 2000 quarter-final Abbeyknockmoy 1-6 Killimordaly 0-10 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:abbeyknockmoy",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2000-sf-athenry-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Carnmore (2000 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2000,
+        "home": "club:athenry",
+        "away": "club:carnmore",
+        "score": "Athenry 0-18, Carnmore 1-07",
+        "note": "Galway Bay FM published 2000s SHC roll: 2000 semi-final Athenry 0-18 Carnmore 1-7 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2000-sf-sarsfields-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Killimordaly (2000 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2000,
+        "home": "club:sarsfields",
+        "away": "club:killimordaly",
+        "score": "Sarsfields 1-12, Killimordaly 2-09",
+        "note": "Galway Bay FM published 2000s SHC roll: 2000 semi-final Killimordaly 2-9 Sarsfields 1-12 (replay followed; pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:killimordaly",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2000-sf-replay-sarsfields-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Killimordaly (2000 Galway SHC Semi-final replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final replay",
+        "year": 2000,
+        "home": "club:sarsfields",
+        "away": "club:killimordaly",
+        "score": "Sarsfields 4-12, Killimordaly 0-09",
+        "note": "Galway Bay FM published 2000s SHC roll: 2000 semi-final replay Sarsfields 4-12 Killimordaly 0-9 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:sarsfields",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2001-qf-athenry-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Carnmore (2001 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2001,
+        "home": "club:athenry",
+        "away": "club:carnmore",
+        "score": "Athenry 3-13, Carnmore 0-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2001 quarter-final Athenry 3-13 Carnmore 0-12 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2001-qf-portumna-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Turloughmore (2001 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2001,
+        "home": "club:portumna",
+        "away": "club:turloughmore",
+        "score": "Portumna 0-13, Turloughmore 1-07",
+        "note": "Galway Bay FM published 2000s SHC roll: 2001 quarter-final Portumna 0-13 Turloughmore 1-7 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2001-qf-clarinbridge-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Loughrea (2001 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2001,
+        "home": "club:clarinbridge",
+        "away": "club:loughrea",
+        "score": "Clarinbridge 3-10, Loughrea 2-04",
+        "note": "Galway Bay FM published 2000s SHC roll: 2001 quarter-final Clarinbridge 3-10 Loughrea 2-4 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2001-qf-gort-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Sarsfields (2001 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2001,
+        "home": "club:gort",
+        "away": "club:sarsfields",
+        "score": "Gort 1-15, Sarsfields 0-17",
+        "note": "Galway Bay FM published 2000s SHC roll: 2001 quarter-final Gort 1-15 Sarsfields 0-17 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2001-sf-clarinbridge-gort",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Gort (2001 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2001,
+        "home": "club:clarinbridge",
+        "away": "club:gort",
+        "score": "Clarinbridge 1-19, Gort 0-14",
+        "note": "Galway Bay FM published 2000s SHC roll: 2001 semi-final Clarinbridge 1-19 Gort 0-14 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2001-sf-athenry-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Portumna (2001 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2001,
+        "home": "club:athenry",
+        "away": "club:portumna",
+        "score": "Athenry 2-14, Portumna 0-15",
+        "note": "Galway Bay FM published 2000s SHC roll: 2001 semi-final Athenry 2-14 Portumna 0-15 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2002-qf-sarsfields-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Turloughmore (2002 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2002,
+        "home": "club:sarsfields",
+        "away": "club:turloughmore",
+        "score": "Sarsfields 4-12, Turloughmore 0-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2002 quarter-final Sarsfields 4-12 Turloughmore 0-12 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:sarsfields",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2002-qf-portumna-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Clarinbridge (2002 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2002,
+        "home": "club:portumna",
+        "away": "club:clarinbridge",
+        "score": "Portumna 1-13, Clarinbridge 0-15",
+        "note": "Galway Bay FM published 2000s SHC roll: 2002 quarter-final Portumna 1-13 Clarinbridge 0-15 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2002-qf-carnmore-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Carnmore vs Craughwell (2002 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2002,
+        "home": "club:carnmore",
+        "away": "club:craughwell",
+        "score": "Carnmore 1-17, Craughwell 0-09",
+        "note": "Galway Bay FM published 2000s SHC roll: 2002 quarter-final Carnmore 1-17 Craughwell 0-9 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:carnmore",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2002-qf-athenry-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Loughrea (2002 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2002,
+        "home": "club:athenry",
+        "away": "club:loughrea",
+        "score": "Athenry 1-19, Loughrea 1-10",
+        "note": "Galway Bay FM published 2000s SHC roll: 2002 quarter-final Athenry 1-19 Loughrea 1-10 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2002-sf-athenry-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Carnmore (2002 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2002,
+        "home": "club:athenry",
+        "away": "club:carnmore",
+        "score": "Athenry 0-15, Carnmore 0-08",
+        "note": "Galway Bay FM published 2000s SHC roll: 2002 semi-final Athenry 0-15 Carnmore 0-8 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2002-sf-sarsfields-portumna",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Portumna (2002 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2002,
+        "home": "club:sarsfields",
+        "away": "club:portumna",
+        "score": "Sarsfields 3-13, Portumna 3-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2002 semi-final Sarsfields 3-13 Portumna 3-12 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:sarsfields",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2003-qf-kilnadeema-leitrim-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Sarsfields (2003 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2003,
+        "home": "club:kilnadeema-leitrim",
+        "away": "club:sarsfields",
+        "score": "Kilnadeema-Leitrim 1-10, Sarsfields 0-10",
+        "note": "Galway Bay FM published 2000s SHC roll: 2003 quarter-final Kilnadeema Leitrim 1-10 Sarsfields 0-10 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:kilnadeema-leitrim",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2003-qf-loughrea-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Castlegar (2003 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2003,
+        "home": "club:loughrea",
+        "away": "club:castlegar",
+        "score": "Loughrea 3-08, Castlegar 1-11",
+        "note": "Galway Bay FM published 2000s SHC roll: 2003 quarter-final Loughrea 3-8 Castlegar 1-11 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:loughrea",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2003-qf-clarinbridge-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Turloughmore (2003 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2003,
+        "home": "club:clarinbridge",
+        "away": "club:turloughmore",
+        "score": "Clarinbridge 1-14, Turloughmore 2-09",
+        "note": "Galway Bay FM published 2000s SHC roll: 2003 quarter-final Clarinbridge 1-14 Turloughmore 2-9 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2003-qf-portumna-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Athenry (2003 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2003,
+        "home": "club:portumna",
+        "away": "club:athenry",
+        "score": "Portumna 2-09, Athenry 0-14",
+        "note": "Galway Bay FM published 2000s SHC roll: 2003 quarter-final Portumna 2-9 Athenry 0-14 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2004-qf-gort-ballinderreen",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Ballinderreen (2004 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2004,
+        "home": "club:gort",
+        "away": "club:ballinderreen",
+        "score": "Gort 3-11, Ballinderreen 0-13",
+        "note": "Galway Bay FM published 2000s SHC roll: 2004 quarter-final Gort 3-11 Ballinderreen 0-13 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2004-qf-turloughmore-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Sarsfields (2004 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2004,
+        "home": "club:turloughmore",
+        "away": "club:sarsfields",
+        "score": "Turloughmore 2-14, Sarsfields 1-09",
+        "note": "Galway Bay FM published 2000s SHC roll: 2004 quarter-final Turloughmore 2-14 Sarsfields 1-9 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:turloughmore",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2004-qf-athenry-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Loughrea (2004 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2004,
+        "home": "club:athenry",
+        "away": "club:loughrea",
+        "score": "Athenry 0-15, Loughrea 2-08",
+        "note": "Galway Bay FM published 2000s SHC roll: 2004 quarter-final Athenry 0-15 Loughrea 2-8 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2004-qf-portumna-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Castlegar (2004 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2004,
+        "home": "club:portumna",
+        "away": "club:castlegar",
+        "score": "Portumna 3-18, Castlegar 3-09",
+        "note": "Galway Bay FM published 2000s SHC roll: 2004 quarter-final Portumna 3-18 Castlegar 3-9 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2005-qf-gort-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Mullagh (2005 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2005,
+        "home": "club:gort",
+        "away": "club:mullagh",
+        "score": "Gort 0-17, Mullagh 1-09",
+        "note": "Galway Bay FM published 2000s SHC roll: 2005 quarter-final Gort 0-17 Mullagh 1-9 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2005-qf-athenry-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Sarsfields (2005 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2005,
+        "home": "club:athenry",
+        "away": "club:sarsfields",
+        "score": "Athenry 2-14, Sarsfields 0-13",
+        "note": "Galway Bay FM published 2000s SHC roll: 2005 quarter-final Athenry 2-14 Sarsfields 0-13 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:athenry",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2005-qf-loughrea-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Clarinbridge (2005 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2005,
+        "home": "club:loughrea",
+        "away": "club:clarinbridge",
+        "score": "Loughrea 2-14, Clarinbridge 2-14",
+        "note": "Galway Bay FM published 2000s SHC roll: 2005 quarter-final Loughrea 2-14 Clarinbridge 2-14 (draw; replay followed; pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2005-qf-replay-loughrea-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Clarinbridge (2005 Galway SHC Quarter-final replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final replay",
+        "year": 2005,
+        "home": "club:loughrea",
+        "away": "club:clarinbridge",
+        "score": "Loughrea 3-16, Clarinbridge 2-10",
+        "note": "Galway Bay FM published 2000s SHC roll: 2005 quarter-final replay Loughrea 3-16 Clarinbridge 2-10 (pre-2008 knockout gap).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:loughrea",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2007-qf-portumna-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Clarinbridge (2007 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2007,
+        "home": "club:portumna",
+        "away": "club:clarinbridge",
+        "score": "Portumna 1-18, Clarinbridge 1-13",
+        "note": "Galway Bay FM published 2000s SHC roll: 2007 quarter-final Portumna 1-18 Clarinbridge 1-13 (pre-2008 knockout gap; completes 2007 QF set).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2008-sf-gort-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Loughrea (2008 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2008,
+        "home": "club:gort",
+        "away": "club:loughrea",
+        "score": "Gort 2-11, Loughrea 0-11",
+        "note": "Galway Bay FM published 2000s SHC roll: 2008 semi-final Gort 2-11 Loughrea 0-11 (completes 2008 SF pair with Portumna–Liam Mellows).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2009-qf-portumna-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Castlegar (2009 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2009,
+        "home": "club:portumna",
+        "away": "club:castlegar",
+        "score": "Portumna 3-18, Castlegar 1-11",
+        "note": "Galway Bay FM published 2000s SHC roll: 2009 quarter-final Portumna 3-18 Castlegar 1-11 (knockout gap fill).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:portumna",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2009-qf-mullagh-clarinbridge",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Clarinbridge (2009 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2009,
+        "home": "club:mullagh",
+        "away": "club:clarinbridge",
+        "score": "Mullagh 3-17, Clarinbridge 1-12",
+        "note": "Galway Bay FM published 2000s SHC roll: 2009 quarter-final Mullagh 3-17 Clarinbridge 1-12 (knockout gap fill).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:mullagh",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2009-qf-loughrea-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Beagh (2009 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2009,
+        "home": "club:loughrea",
+        "away": "club:beagh",
+        "score": "Loughrea 0-13, Beagh 0-13",
+        "note": "Galway Bay FM published 2000s SHC roll: 2009 quarter-final Loughrea 0-13 Beagh 0-13 (draw; AET replay followed).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2009-qf-replay-loughrea-beagh",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Beagh (2009 Galway SHC Quarter-final replay AET)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final replay",
+        "year": 2009,
+        "home": "club:loughrea",
+        "away": "club:beagh",
+        "score": "Loughrea 2-12, Beagh 1-14",
+        "note": "Galway Bay FM published 2000s SHC roll: 2009 quarter-final replay AET Loughrea 2-12 Beagh 1-14 (knockout gap fill).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:loughrea",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2009-qf-gort-liam-mellows",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Liam Mellows (2009 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2009,
+        "home": "club:gort",
+        "away": "club:liam-mellows",
+        "score": "Gort 4-15, Liam Mellows 4-11",
+        "note": "Galway Bay FM published 2000s SHC roll: 2009 quarter-final Gort 4-15 Liam Mellows 4-11 (knockout gap fill).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-club-teams-of-the-2000s-announced-next-monday-79842",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-junior-club-hc-2006-final-skehana-carrick",
+      "cols": {
+        "type": "match",
+        "name": "Skehana vs Carrick Hurling (2006 Connacht Junior Club HC Final)",
+        "competition": "Connacht Junior Club Hurling Championship",
+        "round": "Final",
+        "year": 2006,
+        "home": "club:skehana",
+        "away": "Carrick Hurling",
+        "score": "Skehana 1-10, Carrick Hurling 0-06",
+        "note": "Wikipedia Connacht Junior Club HC roll: Skehana beat Carrick 1-10 to 0-06 (JHC gap fill after Galway JHC era).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
+        "winner": "club:skehana",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-junior-club-hc-2007-final-sylane-athleague",
+      "cols": {
+        "type": "match",
+        "name": "Sylane vs Athleague (2007 Connacht Junior Club HC Final)",
+        "competition": "Connacht Junior Club Hurling Championship",
+        "round": "Final",
+        "year": 2007,
+        "home": "club:sylane",
+        "away": "Athleague",
+        "score": "Sylane 0-12, Athleague 1-05",
+        "note": "Wikipedia Connacht Junior Club HC roll: Sylane beat Athleague 0-12 to 1-05 (JHC gap fill).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
+        "winner": "club:sylane",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-junior-club-hc-2008-final-skehana-calry",
+      "cols": {
+        "type": "match",
+        "name": "Skehana vs Calry-St Joseph's (2008 Connacht Junior Club HC Final)",
+        "competition": "Connacht Junior Club Hurling Championship",
+        "round": "Final",
+        "year": 2008,
+        "home": "club:skehana",
+        "away": "Calry-St Joseph's",
+        "score": "Skehana 3-12, Calry-St Joseph's 2-11",
+        "note": "Wikipedia Connacht Junior Club HC roll: Skehana beat Calry-St Joseph's 3-12 to 2-11 (JHC gap fill).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
+        "winner": "club:skehana",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-junior-club-hc-2011-final-ballygar-calry",
+      "cols": {
+        "type": "match",
+        "name": "Ballygar vs Calry-St Joseph's (2011 Connacht Junior Club HC Final)",
+        "competition": "Connacht Junior Club Hurling Championship",
+        "round": "Final",
+        "year": 2011,
+        "home": "club:ballygar",
+        "away": "Calry-St Joseph's",
+        "score": "Ballygar 2-13, Calry-St Joseph's 1-06",
+        "note": "Wikipedia Connacht Junior Club HC roll: Ballygar beat Calry-St Joseph's 2-13 to 1-06 (JHC gap fill; distinct from existing Bearna–Carrick final row).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
+        "winner": "club:ballygar",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-junior-club-hc-2014-final-annaghdown-calry",
+      "cols": {
+        "type": "match",
+        "name": "Annaghdown vs Calry-St Joseph's (2014 Connacht Junior Club HC Final)",
+        "competition": "Connacht Junior Club Hurling Championship",
+        "round": "Final",
+        "year": 2014,
+        "home": "club:annaghdown",
+        "away": "Calry-St Joseph's",
+        "score": "Annaghdown 2-11, Calry-St Joseph's 0-06",
+        "note": "Wikipedia Connacht Junior Club HC + Hogan Stand/Independent: Annaghdown beat Calry-St Joseph's 2-11 to 0-06 (JHC gap fill).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
+        "winner": "club:annaghdown",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-junior-club-hc-2015-final-sylane-calry",
+      "cols": {
+        "type": "match",
+        "name": "Sylane vs Calry-St Joseph's (2015 Connacht Junior Club HC Final)",
+        "competition": "Connacht Junior Club Hurling Championship",
+        "round": "Final",
+        "year": 2015,
+        "home": "club:sylane",
+        "away": "Calry-St Joseph's",
+        "score": "Sylane 1-18, Calry-St Joseph's 2-07",
+        "note": "Wikipedia Connacht Junior Club HC roll: Sylane beat Calry-St Joseph's 1-18 to 2-07 (JHC gap fill).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Junior_Club_Hurling_Championship",
+        "winner": "club:sylane",
+        "result": "win"
+      }
+    }
+  ],
+  "match_updates": [],
+  "hold_notes": {
+    "player:padraig-breheny": "HOLD r41: Breheny/Brehony family collision — clubbed Tynagh-Abbey/Duniry rows exist (player:padraig-brehony / player:padraig-breheny-tynagh-abbey-duniry); bare AIHC 2017 row stays HOLD.",
+    "player:padraic-brehony": "HOLD r41: spelling/id collision with clubbed Pádraig Brehony Tynagh-Abbey/Duniry; bare Minor 2011 row stays HOLD.",
+    "player:john-brehony": "HOLD r41: Brehony family name collision risk with Tynagh-Abbey/Duniry Breheny/Brehony rows; bare U-21 2011 row stays HOLD.",
+    "player:tadgh-haran": "HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp.",
+    "player:kerrill-wade": "HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp.",
+    "player:eoin-fahy": "HOLD r41: Fahy/Fahey dual-stamp collision with club-scoped Michael Cusacks Eoin Fahey; bare U-21 2011 row stays HOLD.",
+    "player:benny-lawless": "HOLD r41: Menlo Emmetts 2006 RoH single-cut still insufficient for multi-source clear; stays HOLD."
+  }
+}
