@@ -23482,7 +23482,7 @@
   {
     "row": "match:galway-shc-2010-final",
     "col": "note",
-    "val": "Score not present on both Galway GAA and Wikipedia — omitted."
+    "val": "Score not present on both Galway GAA and Wikipedia — omitted. Wikipedia 2010 Galway SHC published first-final scoreline (previously omitted)."
   },
   {
     "row": "match:galway-shc-2010-final",
@@ -23492,7 +23492,7 @@
   {
     "row": "match:galway-shc-2010-final",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+    "val": "https://en.wikipedia.org/wiki/2010_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "match:galway-shc-2010-final",
@@ -32097,17 +32097,17 @@
   {
     "row": "player:brian-murphy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:brian-murphy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/2014_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "player:brian-murphy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). HOLD r17: Brian Murphy bare surname multi-club collision."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). HOLD r17: Brian Murphy bare surname multi-club collision. Wikipedia 2014 Galway SHC scorers repeatedly list Brian Murphy for Turloughmore (Round 1 vs Tynagh-Abbey/Duniry; Round 2 vs Kinvara; Group C). Galway Advertiser also names Brian Murphy in Turloughmore ranks vs Clarinbridge; Irish Examiner 2013 Beagh game lists B Murphy sub/scorer for Turloughmore. Clears prior HOLD r17/r35 — strong first+last Turloughmore hurling cites across 2012–2014."
   },
   {
     "row": "player:brian-omahony",
@@ -56367,7 +56367,7 @@
   {
     "row": "appearance:brian-murphy-minor-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:alan-callanan-minor-2005",
@@ -85627,7 +85627,7 @@
   {
     "row": "player:brian-murphy",
     "col": "status",
-    "val": "hold"
+    "val": "pending_archivist"
   },
   {
     "row": "player:brian-omahony",
@@ -126237,7 +126237,7 @@
   {
     "row": "player:brian-murphy",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "player:conor-burke",
@@ -189351,6 +189351,2911 @@
   },
   {
     "row": "player:michael-ryan-portumna",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:brian-murphy",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "appearance:brian-murphy-minor-2005",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "name",
+    "val": "Patrick Skehill"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV: P Skehill started in goal for St Thomas'. Club-scoped thin fill."
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "name",
+    "val": "Shane Skehill"
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV: S Skehill started for St Thomas'. Club-scoped thin fill."
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "name",
+    "val": "Sean Burke"
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV: S Burke started for St Thomas'; Irish Times 2011 SF also lists S Burke for St Thomas. Club-scoped thin fill (distinct from Sean Burke Salthill-Knocknacarra)."
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "name",
+    "val": "Ger Murray"
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV: G Murray started for St Thomas'; Irish Times 2011 SF lists G Murray. Club-scoped thin fill."
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "name",
+    "val": "Anthony Kelly"
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV + Irish Examiner QF: Anthony Kelly started/scored goal for St Thomas' vs Castlegar. Club-scoped thin fill (distinct from Anthony Kelly Ahascragh-Fohenagh)."
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "name",
+    "val": "Johnny Maher"
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV/scorers: J Maher started and scored 2-2 for Loughrea; Advertiser replay names Johnny Maher goal. Club-scoped thin fill."
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "name",
+    "val": "Kenneth Colleran"
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "source",
+    "val": "https://www.advertiser.ie/galway/article/56075/two-early-goals-stun-mullagh"
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "note",
+    "val": "Galway Advertiser 2012 QF replay: Kenneth Colleran scored early goal for Loughrea; Wikipedia 2012 final XV lists K Colleran. Club-scoped thin fill."
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "name",
+    "val": "Greg Keary"
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV/scorers: G Keary started and scored 0-2 for Loughrea. Club-scoped thin fill."
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "name",
+    "val": "Damien McClearn"
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV: D McClearn started in Loughrea defence. Club-scoped thin fill."
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "name",
+    "val": "Eoin Mahony"
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV: Eoin Mahony started for Loughrea. Club-scoped thin fill; bare Brian O'Mahony remains HOLD spelling/form collision."
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "name",
+    "val": "Emmett Mahony"
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV: Emmett Mahony started for Loughrea. Club-scoped thin fill."
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "name",
+    "val": "James Dooley"
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "club",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC final XV substitutes: J Dooley came on for Loughrea. Club-scoped thin fill."
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "name",
+    "val": "Darren O'Shaughnessy"
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "source",
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-20210871.html"
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "note",
+    "val": "Irish Examiner / Galway Advertiser 2012 QF: late point from Darren O'Shaughnessy sealed Turloughmore win over Portumna; Irish Examiner 2013 lists D O'Shaughnessy for Turloughmore. Club-scoped thin fill (distinct from Darren Shaughnessy Loughrea MHC 2020)."
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "name",
+    "val": "Conor Burke"
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC SF scorers list C Burke for Turloughmore; Irish Examiner 2013 Beagh game lists C Burke starting for Turloughmore. Club-scoped thin fill; bare player:conor-burke remains HOLD multi-club collision."
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "name",
+    "val": "Jimmy Gelston"
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B scorers list Jimmy Gelston for Pádraig Pearses (vs Tynagh; vs Kilconieron PQF). Club-scoped thin fill (Pearses thin)."
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "name",
+    "val": "Cormac Ward"
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B: Cormac Ward scored goal for Pádraig Pearses vs Tynagh-Abbey/Duniry. Club-scoped thin fill (Pearses thin)."
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "name",
+    "val": "Gareth Lally"
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC PQF scorers list Gareth Lally for Pádraig Pearses vs Kilconieron. Club-scoped thin fill (Pearses thin)."
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Padraig Robinson"
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "club",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B: Padraig Robinson scored 2-0 for Tynagh-Abbey/Duniry vs Athenry. Club-scoped thin fill."
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "name",
+    "val": "Brian Regan"
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "source",
+    "val": "https://www.irishtimes.com/sport/late-cummins-goal-proves-decisive-1.630761"
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "note",
+    "val": "Irish Times 2011 Galway SHC SF lineup: Brian Regan started and scored for Gort vs St Thomas'. Club-scoped thin fill."
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "name",
+    "val": "Keith Killilea"
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "source",
+    "val": "https://www.advertiser.ie/galway/article/45053/healy-points-the-way-for-craughwell"
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "note",
+    "val": "Galway Advertiser / Irish Examiner 2011 QF: Keith Killilea goal sealed Gort win over Loughrea (2-10 to 1-8). Club-scoped thin fill (distinct from Paul Killilea)."
+  },
+  {
+    "row": "player:keith-killilea-gort",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "name",
+    "val": "Pádraig Pearses vs Athenry (2021 Galway SHC Senior B Group 1 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "round",
+    "val": "Senior B Group 1 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "score",
+    "val": "Pádraig Pearses 1-16, Athenry 1-16"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-padraig-pearses-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Gort vs Tynagh-Abbey/Duniry (2021 Galway SHC Senior B Group 1 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Group 1 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Gort 1-29, Tynagh-Abbey/Duniry 1-13"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r1-gort-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Athenry vs Tynagh-Abbey/Duniry (2021 Galway SHC Senior B Group 1 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Group 1 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Athenry 2-18, Tynagh-Abbey/Duniry 3-15"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-athenry-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "name",
+    "val": "Gort vs Pádraig Pearses (2021 Galway SHC Senior B Group 1 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "round",
+    "val": "Senior B Group 1 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "score",
+    "val": "Gort 0-19, Pádraig Pearses 3-6"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r2-gort-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "name",
+    "val": "Gort vs Athenry (2021 Galway SHC Senior B Group 1 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "round",
+    "val": "Senior B Group 1 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "score",
+    "val": "Gort 0-23, Athenry 2-16"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-gort-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Pádraig Pearses vs Tynagh-Abbey/Duniry (2021 Galway SHC Senior B Group 1 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Group 1 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Pádraig Pearses 3-14, Tynagh-Abbey/Duniry 0-13"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g1-r3-padraig-pearses-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Mullagh (2021 Galway SHC Senior B Group 2 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "round",
+    "val": "Senior B Group 2 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 1-20, Mullagh 2-16"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-kilnadeema-leitrim-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "name",
+    "val": "Clarinbridge vs Ardrahan (2021 Galway SHC Senior B Group 2 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "round",
+    "val": "Senior B Group 2 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "score",
+    "val": "Clarinbridge 1-23, Ardrahan 0-12"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r1-clarinbridge-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Clarinbridge vs Kilnadeema-Leitrim (2021 Galway SHC Senior B Group 2 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Senior B Group 2 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Clarinbridge 0-28, Kilnadeema-Leitrim 1-16"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-clarinbridge-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "name",
+    "val": "Ardrahan vs Mullagh (2021 Galway SHC Senior B Group 2 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "round",
+    "val": "Senior B Group 2 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "score",
+    "val": "Ardrahan 3-15, Mullagh 0-14"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r2-ardrahan-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Ardrahan (2021 Galway SHC Senior B Group 2 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "round",
+    "val": "Senior B Group 2 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 1-20, Ardrahan 1-17"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-kilnadeema-leitrim-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "name",
+    "val": "Clarinbridge vs Mullagh (2021 Galway SHC Senior B Group 2 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "round",
+    "val": "Senior B Group 2 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "score",
+    "val": "Clarinbridge 0-24, Mullagh 1-11"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g2-r3-clarinbridge-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "name",
+    "val": "Kilconieron vs Beagh (2021 Galway SHC Senior B Group 3 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "round",
+    "val": "Senior B Group 3 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "home",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "score",
+    "val": "Kilconieron 0-21, Beagh 0-18"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "winner",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-kilconieron-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "name",
+    "val": "Ballinderreen vs Portumna (2021 Galway SHC Senior B Group 3 Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "round",
+    "val": "Senior B Group 3 Round 1"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "home",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "score",
+    "val": "Ballinderreen 4-15, Portumna 1-19"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "winner",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r1-ballinderreen-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "name",
+    "val": "Portumna vs Kilconieron (2021 Galway SHC Senior B Group 3 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "round",
+    "val": "Senior B Group 3 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "score",
+    "val": "Portumna 2-17, Kilconieron 1-20"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-portumna-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "name",
+    "val": "Beagh vs Ballinderreen (2021 Galway SHC Senior B Group 3 Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "round",
+    "val": "Senior B Group 3 Round 2"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "score",
+    "val": "Beagh 2-21, Ballinderreen 2-18"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r2-beagh-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "name",
+    "val": "Portumna vs Beagh (2021 Galway SHC Senior B Group 3 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "round",
+    "val": "Senior B Group 3 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "score",
+    "val": "Portumna 0-18, Beagh 0-16"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-portumna-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "name",
+    "val": "Kilconieron vs Ballinderreen (2021 Galway SHC Senior B Group 3 Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "round",
+    "val": "Senior B Group 3 Round 3"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "home",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "score",
+    "val": "Kilconieron 1-21, Ballinderreen 3-10"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC Senior B published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "winner",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2021-sb-g3-r3-kilconieron-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Ballinderreen vs Tynagh-Abbey/Duniry (2021 Galway SHC Relegation Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Relegation Round 1"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Ballinderreen 2-7, Tynagh-Abbey/Duniry 1-7"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC relegation published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r1-ballinderreen-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "name",
+    "val": "Mullagh vs Ballinderreen (2021 Galway SHC Relegation Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "round",
+    "val": "Relegation Round 2"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "score",
+    "val": "Mullagh 1-12, Ballinderreen 1-11"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC relegation published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r2-mullagh-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Mullagh vs Tynagh-Abbey/Duniry (2021 Galway SHC Relegation Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Relegation Round 3"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Mullagh 2-17, Tynagh-Abbey/Duniry 1-12"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC relegation published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-r3-mullagh-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Ballinderreen (2021 Galway SHC Relegation Play-off)"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "round",
+    "val": "Relegation Play-off"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "year",
+    "val": 2021
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "score",
+    "val": "Tynagh-Abbey/Duniry 0-12, Ballinderreen 0-11"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "note",
+    "val": "Wikipedia 2021 Galway SHC relegation published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2021_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2021-relegation-playoff-tynagh-abbey-duniry-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "name",
+    "val": "Loughrea vs Mullagh (2012 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "score",
+    "val": "Loughrea 0-16, Mullagh 1-13"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "note",
+    "val": "Galway Advertiser published 2012 SHC quarter-final scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-loughrea-mullagh",
+    "col": "source",
+    "val": "https://www.advertiser.ie/galway/article/55866/mullagh-and-loughrea-replay-this-sunday-in-kenny-park"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "name",
+    "val": "Loughrea vs Mullagh (2012 Galway SHC Quarter-final Replay)"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "round",
+    "val": "Quarter-final Replay"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "score",
+    "val": "Loughrea 2-10, Mullagh 0-13"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "note",
+    "val": "Galway Advertiser published 2012 SHC quarter-final replay scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "source",
+    "val": "https://www.advertiser.ie/galway/article/56075/two-early-goals-stun-mullagh"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-replay-loughrea-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "name",
+    "val": "Gort vs Pádraig Pearses (2012 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "score",
+    "val": "Gort 3-13, Pádraig Pearses 2-14"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "note",
+    "val": "Galway Advertiser / Irish Examiner published 2012 SHC quarter-final scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "source",
+    "val": "https://www.advertiser.ie/galway/article/55866/mullagh-and-loughrea-replay-this-sunday-in-kenny-park"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-gort-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "name",
+    "val": "St Thomas' vs Castlegar (2012 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "score",
+    "val": "St Thomas' 2-20, Castlegar 0-10"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "note",
+    "val": "Galway Advertiser / Irish Examiner published 2012 SHC quarter-final scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "source",
+    "val": "https://www.advertiser.ie/galway/article/55866/mullagh-and-loughrea-replay-this-sunday-in-kenny-park"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-st-thomas-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "name",
+    "val": "Turloughmore vs Portumna (2012 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "score",
+    "val": "Turloughmore 0-17, Portumna 0-15"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "note",
+    "val": "Irish Examiner / Galway Advertiser published 2012 SHC quarter-final scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "source",
+    "val": "https://www.irishexaminer.com/sport/gaa/arid-20210871.html"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2012-qf-turloughmore-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "name",
+    "val": "Loughrea vs Turloughmore (2012 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "score",
+    "val": "Loughrea 1-12, Turloughmore 0-7"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC published semi-final scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-loughrea-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "name",
+    "val": "Gort vs St Thomas' (2012 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "score",
+    "val": "Gort 0-9, St Thomas' 0-9"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC published semi-final scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-gort-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "name",
+    "val": "St Thomas' vs Gort (2012 Galway SHC Semi-final Replay)"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "round",
+    "val": "Semi-final Replay"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "year",
+    "val": 2012
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "score",
+    "val": "St Thomas' 1-16, Gort 1-15"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "note",
+    "val": "Wikipedia 2012 Galway SHC published semi-final replay scoreline."
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2012_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2012-sf-replay-st-thomas-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "name",
+    "val": "Clarinbridge vs Loughrea (2010 Galway SHC Final Replay)"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "round",
+    "val": "Final Replay"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "year",
+    "val": 2010
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "score",
+    "val": "Clarinbridge 0-18, Loughrea 0-15 (a.e.t.)"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "note",
+    "val": "Wikipedia 2010 Galway SHC published final replay scoreline (AET)."
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2010_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2010-final-replay",
+    "col": "venue",
+    "val": "Athenry Grounds"
+  },
+  {
+    "row": "match:galway-shc-2010-final",
+    "col": "score",
+    "val": "Clarinbridge 2-11, Loughrea 1-14"
+  },
+  {
+    "row": "player:patrick-skehill-st-thomas",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:shane-skehill-st-thomas",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:sean-burke-st-thomas",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:ger-murray-st-thomas",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:anthony-kelly-st-thomas",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:johnny-maher-loughrea",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:kenneth-colleran-loughrea",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:greg-keary-loughrea",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:damien-mcclearn-loughrea",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:eoin-mahony-loughrea",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:emmett-mahony-loughrea",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:james-dooley-loughrea",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:darren-oshaughnessy-turloughmore",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:conor-burke-turloughmore",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:jimmy-gelston-padraig-pearses",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:cormac-ward-padraig-pearses",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:gareth-lally-padraig-pearses",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:padraig-robinson-tynagh-abbey-duniry",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:brian-regan-gort",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:keith-killilea-gort",
     "col": "hold",
     "val": false
   }
