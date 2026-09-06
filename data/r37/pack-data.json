@@ -1,0 +1,328 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:enda-fahey",
+      "club": "club:michael-cusacks",
+      "source": "https://www.advertiser.ie/Galway/article/94396/minor-hurlers-pip-kilkenny-for-all-ireland-final-spot",
+      "note": "Galway Advertiser 2017 All-Ireland MHC SF: Substitute Enda Fahy from the Michael Cusack's club; lineup lists E. Fahy (Michael Cusacks). The42 Fitzgibbon 2019 also lists Enda Fahy (Michael Cusack's, Galway). Galway GAA RoH MHC 2015/2017 panels spell Enda Fahey — same first+last hurling identity. Clears prior HOLD r14 Ardrahan-family collision risk; thin Michael Cusacks fill.",
+      "confidence": "high"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Mark Kerins",
+      "id": "player:mark-kerins",
+      "club": "club:clarinbridge",
+      "source": "https://en.wikipedia.org/wiki/Mark_Kerins",
+      "note": "Wikipedia Mark Kerins: lifelong Clarinbridge; Galway SHC titles 2001/2010 + All-Ireland club 2011. Advertiser/Irish Examiner 2011 final+QF scorers repeatedly list Mark Kerins for Clarinbridge. Strong thin fill.",
+      "confidence": "high"
+    },
+    {
+      "name": "Peter Cummins",
+      "id": "player:peter-cummins-gort",
+      "club": "club:gort",
+      "source": "https://www.advertiser.ie/galway/article/46194/gort-crowned-county-senior-hurling-champions-for-2011",
+      "note": "Galway Advertiser 2011 Galway SHC final teamsheet: P Cummins / Peter Cummins in goal for Gort; Irish Times 2011 SF also lists P Cummins. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sylvie Óg Linnane",
+      "id": "player:sylvie-og-linnane-gort",
+      "club": "club:gort",
+      "source": "https://www.irishtimes.com/sport/late-cummins-goal-proves-decisive-1.630761",
+      "note": "Irish Times / Galway Advertiser 2011 Galway SHC SF+final XV: S Óg Linnane / Sylvie Óg Linnane started midfield for Gort. Club-scoped thin fill (distinct from father Sylvie Linnane already club:gort).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean Forde",
+      "id": "player:sean-forde-gort",
+      "club": "club:gort",
+      "source": "https://www.advertiser.ie/galway/article/46194/gort-crowned-county-senior-hurling-champions-for-2011",
+      "note": "Galway Advertiser 2011 Galway SHC final XV/scorers: S Forde / Sean Forde started and scored for Gort; Irish Times SF lists S Forde. Club-scoped thin fill (distinct from Stephen Forde Clarinbridge).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Shane Mannion",
+      "id": "player:shane-mannion-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.irishexaminer.com/sport/gaa/arid-20170895.html",
+      "note": "Irish Examiner 2011 Galway SHC QF replay: Galway minor goalkeeper Shane Mannion denied Francis Hardiman for Clarinbridge vs Mullagh. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Shane Burke",
+      "id": "player:shane-burke-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.advertiser.ie/galway/article/46194/gort-crowned-county-senior-hurling-champions-for-2011",
+      "note": "Galway Advertiser / Irish Examiner 2011 Galway SHC final+SF scorers list Shane Burke / S Burke for Clarinbridge. Club-scoped thin fill (distinct from Sean Burke St Thomas').",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jamie Cannon",
+      "id": "player:jamie-cannon-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.advertiser.ie/galway/article/45948/clarinbridge-ease-past-craughwell-to-reach-another-county-final",
+      "note": "Galway Advertiser 2011 Galway SHC SF replay teamsheet: Jamie Cannon started for Clarinbridge vs Craughwell. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "James Barrett",
+      "id": "player:james-barrett-st-thomas",
+      "club": "club:st-thomas",
+      "source": "https://www.irishtimes.com/sport/late-cummins-goal-proves-decisive-1.630761",
+      "note": "Irish Times 2011 Galway SHC SF lineup: J Barrett started in goal for St Thomas' vs Gort. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Robert Murray",
+      "id": "player:robert-murray-st-thomas",
+      "club": "club:st-thomas",
+      "source": "https://www.irishtimes.com/sport/late-cummins-goal-proves-decisive-1.630761",
+      "note": "Irish Times 2011 Galway SHC SF lineup: Robert Murray started for St Thomas' vs Gort. Club-scoped thin fill.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Forde",
+      "id": "player:conor-forde-clarinbridge",
+      "club": "club:clarinbridge",
+      "source": "https://www.advertiser.ie/galway/article/46194/gort-crowned-county-senior-hurling-champions-for-2011",
+      "note": "Galway Advertiser 2011 Galway SHC final teamsheet: C Forde / Conor Forde started in Clarinbridge defence. Club-scoped thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-kelly",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-2011-qf-st-thomas-portumna",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Portumna (2011 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2011,
+        "home": "club:st-thomas",
+        "away": "club:portumna",
+        "score": "St Thomas' 1-10, Portumna 0-12",
+        "note": "Irish Examiner published 2011 SHC quarter-final scoreline (David Burke goal; James Regan 0-5).",
+        "confidence": "medium",
+        "source": "https://www.irishexaminer.com/sport/gaa/arid-20170143.html",
+        "winner": "club:st-thomas",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2011-qf-clarinbridge-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Mullagh (2011 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2011,
+        "home": "club:clarinbridge",
+        "away": "club:mullagh",
+        "score": "Clarinbridge 1-11, Mullagh 0-14",
+        "note": "Galway Advertiser / Irish Examiner published 2011 SHC quarter-final draw scoreline.",
+        "confidence": "medium",
+        "source": "https://www.advertiser.ie/galway/article/45052/clarinbridge-still-favourites-to-advance",
+        "result": "draw"
+      }
+    },
+    {
+      "id": "match:galway-shc-2011-qf-replay-clarinbridge-mullagh",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Mullagh (2011 Galway SHC Quarter-final Replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final Replay",
+        "year": 2011,
+        "home": "club:clarinbridge",
+        "away": "club:mullagh",
+        "score": "Clarinbridge 2-14, Mullagh 0-10",
+        "note": "Irish Examiner published 2011 SHC quarter-final replay scoreline (Alan Kerins 1-1, Mark Kerins 0-9).",
+        "confidence": "medium",
+        "source": "https://www.irishexaminer.com/sport/gaa/arid-20170895.html",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2011-qf-gort-loughrea",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Loughrea (2011 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2011,
+        "home": "club:gort",
+        "away": "club:loughrea",
+        "score": "Gort 2-10, Loughrea 1-8",
+        "note": "Galway Advertiser / Irish Examiner published 2011 SHC quarter-final scoreline (Ollie Fahy + Keith Killilea goals).",
+        "confidence": "medium",
+        "source": "https://www.advertiser.ie/galway/article/45053/healy-points-the-way-for-craughwell",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2011-qf-craughwell-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Carnmore (2011 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 2011,
+        "home": "club:craughwell",
+        "away": "club:carnmore",
+        "score": "Craughwell 0-19, Carnmore 0-11",
+        "note": "Galway Advertiser published 2011 SHC quarter-final scoreline (Niall Healy 0-9).",
+        "confidence": "medium",
+        "source": "https://www.advertiser.ie/galway/article/45053/healy-points-the-way-for-craughwell",
+        "winner": "club:craughwell",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2011-sf-gort-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs St Thomas' (2011 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 2011,
+        "home": "club:gort",
+        "away": "club:st-thomas",
+        "score": "Gort 1-11, St Thomas' 0-10",
+        "note": "Irish Times / Galway Advertiser published 2011 SHC semi-final scoreline (Richie Cummins late goal).",
+        "confidence": "medium",
+        "source": "https://www.irishtimes.com/sport/late-cummins-goal-proves-decisive-1.630761",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-shc-2011-sf-replay-clarinbridge-craughwell",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Craughwell (2011 Galway SHC Semi-final Replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final Replay",
+        "year": 2011,
+        "home": "club:clarinbridge",
+        "away": "club:craughwell",
+        "score": "Clarinbridge 0-18, Craughwell 0-13",
+        "note": "Irish Examiner / Galway Advertiser published 2011 SHC semi-final replay scoreline (original SF abandoned weather).",
+        "confidence": "medium",
+        "source": "https://www.irishexaminer.com/sport/gaa/arid-20172312.html",
+        "winner": "club:clarinbridge",
+        "result": "win"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:mike-egan": "HOLD r37: spelling/form twin of player:michael-egan already club:cappataggle (Galway Bay FM 2019 MHC lists Mike Egan Cappataggle); do not dual-stamp.",
+    "player:shane-maloney": "HOLD r37: spelling twin of player:shane-moloney already club:tynagh-abbey-duniry (Wikipedia Shane Moloney); MHC 2009 bare Shane Maloney remains collision HOLD.",
+    "player:finnian-coone": "HOLD r37: spelling twin of player:finian-coone already club:mullagh (Irish Examiner 2011 QF Finian Coone Mullagh); do not dual-stamp.",
+    "player:tadgh-haran": "HOLD r37: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp.",
+    "player:alan-leech": "HOLD r37: keep prior Kinvara U-21 2004 vs Athenry U-21 2007 collision — RoH 2019 Loughrea JB Alan Leech not enough to clear dual-club risk.",
+    "player:conor-flaherty": "HOLD r37: Galway U-20 football 2020 lists Conor Flaherty (Claregalway) — football not hurling cite; Claregalway remains HOLD orphan; MHC 2018 bare stays HOLD.",
+    "player:michael-donoghue": "HOLD r37: keep prior Micheál/Michael Donoghue Clarinbridge id collision; Advertiser 2011 final lists M Donoghue for Clarinbridge but bare MHC 1992 row not stamped."
+  },
+  "match_updates": [
+    {
+      "id": "match:galway-shc-2011-final",
+      "cols": {
+        "venue": "Pearse Stadium",
+        "note": "Wikipedia / Galway Advertiser / Irish Examiner published 2011 Galway SHC final: Gort 0-17 Clarinbridge 1-12 (6 Nov 2011).",
+        "source": "https://www.advertiser.ie/galway/article/46194/gort-crowned-county-senior-hurling-champions-for-2011",
+        "confidence": "high",
+        "winner": "club:gort",
+        "result": "win"
+      }
+    }
+  ]
+}
