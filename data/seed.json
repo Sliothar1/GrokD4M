@@ -14912,7 +14912,7 @@
   {
     "row": "match:galway-shc-1930-final",
     "col": "note",
-    "val": "Score not present on both Galway GAA and Wikipedia — omitted."
+    "val": "Score not present on both Galway GAA and Wikipedia — omitted. Score from Kilnadeema/Leitrim club history (Craughwell 7-4 to 1-5). Galway GAA / Wikipedia SHC pages omit score — secondary cite only; not double-sourced board/wiki."
   },
   {
     "row": "match:galway-shc-1930-final",
@@ -31107,7 +31107,7 @@
   {
     "row": "player:albert-moylan",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1983 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1983 panel (Galway GAA). HOLD r6: panel Albert Moylan — London St Gabriel's / Gort-region death notices; no clear Galway club stamp this run."
   },
   {
     "row": "player:alex-conaire",
@@ -31502,7 +31502,7 @@
   {
     "row": "player:basil-larkin",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r6: no clear club cite harvested."
   },
   {
     "row": "player:ben-moran",
@@ -31777,7 +31777,7 @@
   {
     "row": "player:brendan-keogh",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r6: Athenry club photos exist but defer distinct stamp pending Archivist (common surname)."
   },
   {
     "row": "player:brendan-lucas",
@@ -32277,17 +32277,17 @@
   {
     "row": "player:cathal-moran",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:cathal-moran",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.irishtimes.com/news/ireland/irish-news/kate-moran-was-endearing-and-very-easy-to-love-father-tells-funeral-1.4859246"
   },
   {
     "row": "player:cathal-moran",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Irish Times: Cathal Moran former Athenry and Galway hurler; mainstay of Athenry three All-Ireland club titles."
   },
   {
     "row": "player:christy-brennan",
@@ -32352,7 +32352,7 @@
   {
     "row": "player:christy-helebert",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). HOLD r6: former Galway senior / referee — no clear playing-club cite this run."
   },
   {
     "row": "player:cian-regan",
@@ -33177,17 +33177,17 @@
   {
     "row": "player:damien-coleman",
     "col": "confidence",
-    "val": "unverified"
+    "val": "medium"
   },
   {
     "row": "player:damien-coleman",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://offaly.gaa.ie/damien-coleman-appointed-as-offaly-gaa-operations-manager/"
   },
   {
     "row": "player:damien-coleman",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). Offaly GAA / ATU / Midlands103: Damien Coleman member of Portumna GAA; played hurling for club and county at all age grades."
   },
   {
     "row": "player:damien-fahy",
@@ -37647,17 +37647,17 @@
   {
     "row": "player:kenneth-burke",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:kenneth-burke",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://en.wikipedia.org/wiki/Kenneth_Burke_(hurler)"
   },
   {
     "row": "player:kenneth-burke",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Wikipedia: club St Thomas'; Galway SHC titles as player; also Galway GAA 2016 SHC champions photo."
   },
   {
     "row": "player:kerril-wade",
@@ -38942,17 +38942,17 @@
   {
     "row": "player:martin-king",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:martin-king",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1920-1929"
   },
   {
     "row": "player:martin-king",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA). Athenry GAA 1923 All-Ireland caption: Martin King (Galway City)."
   },
   {
     "row": "player:martin-mcmanus",
@@ -40102,7 +40102,7 @@
   {
     "row": "player:mick-kenny",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA). Wikipedia Tynagh GAA Notable players: All-Ireland SHC-winner 1923."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA). Wikipedia Tynagh GAA Notable players: All-Ireland SHC-winner 1923. HOLD collision note: seed may have other Mick Kenny ids; Leitrim 1950s uses distinct player:mick-kenny-leitrim."
   },
   {
     "row": "player:mike-egan",
@@ -41257,17 +41257,17 @@
   {
     "row": "player:paddy-hurney",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:paddy-hurney",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1920-1929"
   },
   {
     "row": "player:paddy-hurney",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 1923 panel (Galway GAA). Athenry GAA 1923 All-Ireland caption: Paddy Hurney (Galway City)."
   },
   {
     "row": "player:padraig-breheny",
@@ -41802,17 +41802,17 @@
   {
     "row": "player:paul-hardiman",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:paul-hardiman",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://athenry.org/record/athenrys-hurling-day-of-glory-2767/"
   },
   {
     "row": "player:paul-hardiman",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Athenry club history: Paul Hardiman started every Athenry Galway SHC final from 1987; All-Ireland club titles with Athenry."
   },
   {
     "row": "player:paul-killeen",
@@ -44822,7 +44822,7 @@
   {
     "row": "appearance:paddy-hurney-shc-1923",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:berne-gibbs-shc-1923",
@@ -45362,7 +45362,7 @@
   {
     "row": "appearance:martin-king-shc-1923",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:tom-flemming-shc-1923",
@@ -73122,7 +73122,7 @@
   {
     "row": "appearance:paul-hardiman-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:francis-obrien-u-21-1991",
@@ -73662,7 +73662,7 @@
   {
     "row": "appearance:cathal-moran-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:william-burke-u-21-1993",
@@ -73962,7 +73962,7 @@
   {
     "row": "appearance:damien-coleman-u-21-1993",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:morgan-darcy-u-21-1993",
@@ -75877,7 +75877,7 @@
   {
     "row": "appearance:kenneth-burke-u-21-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:eanna-ryan-u-21-2005",
@@ -82927,7 +82927,7 @@
   {
     "row": "appearance:kenneth-burke-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:jason-lohan-ihc-2002",
@@ -85462,7 +85462,7 @@
   {
     "row": "player:albert-moylan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:alex-conaire",
@@ -85527,7 +85527,7 @@
   {
     "row": "player:basil-larkin",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:ben-moran",
@@ -85572,7 +85572,7 @@
   {
     "row": "player:brendan-keogh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:brendan-lucas",
@@ -85667,7 +85667,7 @@
   {
     "row": "player:christy-helebert",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:cian-regan",
@@ -92962,7 +92962,7 @@
   {
     "row": "club:claregalway",
     "col": "note",
-    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested. HOLD orphan for hurling players: modern Claregalway CLG is primarily football; parish hurling is Carnmore (Carnmore GAA about + Claregalway further-history). No named Claregalway-only hurling player cite this run — do not invent links. Carnmore thin fill separate. HOLD orphan r5: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. 1911 SHC finalist vs Derrydonnell noted on Derrydonnell pack only."
+    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested. HOLD orphan for hurling players: modern Claregalway CLG is primarily football; parish hurling is Carnmore (Carnmore GAA about + Claregalway further-history). No named Claregalway-only hurling player cite this run — do not invent links. Carnmore thin fill separate. HOLD orphan r5: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. 1911 SHC finalist vs Derrydonnell noted on Derrydonnell pack only. HOLD orphan r6: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore."
   },
   {
     "row": "player:tom-monaghan",
@@ -95662,7 +95662,7 @@
   {
     "row": "club:eyrecourt-historic",
     "col": "note",
-    "val": "HOLD orphan r5: 1959 Galway IHC winners (Wikipedia roll) but no named Eyrecourt-only XV cite harvested. Joe Salmon stamped club:meelick-eyrecourt (Wikipedia), not this historic stamp."
+    "val": "HOLD orphan r5: 1959 Galway IHC winners (Wikipedia roll) but no named Eyrecourt-only XV cite harvested. Joe Salmon stamped club:meelick-eyrecourt (Wikipedia), not this historic stamp. HOLD orphan r6: 1959 IHC winners (Wikipedia + Athenry story score) but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt."
   },
   {
     "row": "club:eyrecourt-historic",
@@ -95672,7 +95672,7 @@
   {
     "row": "club:oranmore-historic",
     "col": "note",
-    "val": "HOLD orphan r5: 1950 Galway IHC winners (Wikipedia roll) — no named Oranmore-only adult XV cite. 1963 MHC listed as Oranmore on Oranmore–Maree wiki. Modern players on club:oranmore-maree."
+    "val": "HOLD orphan r5: 1950 Galway IHC winners (Wikipedia roll) — no named Oranmore-only adult XV cite. 1963 MHC listed as Oranmore on Oranmore–Maree wiki. Modern players on club:oranmore-maree. HOLD orphan r6: 1950 IHC winners — no clear first+last Oranmore-only adult XV cite (Joe Glynn county caption lacks Oranmore stamp on live Athenry page). Modern players on club:oranmore-maree."
   },
   {
     "row": "club:oranmore-historic",
@@ -95682,7 +95682,7 @@
   {
     "row": "club:college-road",
     "col": "note",
-    "val": "HOLD orphan r5: 1892–1893 SHC winners; Duggan family grand-uncles cited without first+last names (Advertiser / Hogan Stand). Do not invent College Road XV; modern Duggans are Liam Mellows."
+    "val": "HOLD orphan r5: 1892–1893 SHC winners; Duggan family grand-uncles cited without first+last names (Advertiser / Hogan Stand). Do not invent College Road XV; modern Duggans are Liam Mellows. HOLD orphan r6: 1892–1893 SHC winners; Duggan grand-uncles cited without first+last names. Do not invent College Road XV."
   },
   {
     "row": "club:college-road",
@@ -95692,12 +95692,12 @@
   {
     "row": "club:galway-city-historic",
     "col": "note",
-    "val": "HOLD orphan r5: early SHC finalist/city selection — no clear first+last player cite harvested this run."
+    "val": "HOLD orphan r5: early SHC finalist/city selection — no clear first+last player cite harvested this run. r6 fill: Tom Fleming (Wikipedia + Athenry caption), Martin King / Paddy Hurney / Mick King / Michael King / Paddy O'Connor cited Athenry GAA 1923 All-Ireland captions as Galway City. 1922 SHC finalist vs Tynagh."
   },
   {
     "row": "club:kilrickle",
     "col": "note",
-    "val": "HOLD orphan r5: first Galway IHC champions 1949 (Wikipedia roll) — no named Kilrickle XV cite. Modern Kilrickle NS linked to Cappataggle juveniles (not a player stamp)."
+    "val": "HOLD orphan r5: first Galway IHC champions 1949 (Wikipedia roll) — no named Kilrickle XV cite. Modern Kilrickle NS linked to Cappataggle juveniles (not a player stamp). HOLD orphan r6: 1949 first IHC title on Wikipedia roll — St Enda's (Bullaun/Kilrickle) essay names Mick Cooney as manager only, not a Kilrickle player stamp. No invent."
   },
   {
     "row": "club:kilrickle",
@@ -95707,12 +95707,12 @@
   {
     "row": "club:leitrim-galway-historic",
     "col": "note",
-    "val": "HOLD orphan r5: 1930 SHC finalist — no named Leitrim (Galway) XV cite. Modern lineage club:kilnadeema-leitrim."
+    "val": "HOLD orphan r5: 1930 SHC finalist — no named Leitrim (Galway) XV cite. Modern lineage club:kilnadeema-leitrim. r6 fill: Jack Fallon, Tom (Cox) Tierney, J.J. Darcy + 1950s Junior caption names from Kilnadeema/Leitrim club history. 1930 SHC finalist vs Craughwell (score 7-4 to 1-5 on club history). Successor club:kilnadeema-leitrim."
   },
   {
     "row": "club:skehana",
     "col": "note",
-    "val": "HOLD orphan r5: 1952 Galway IHC winners (Wikipedia roll) — no named historic Skehana XV. Modern amalgam club:skehana-mountbellew-moylough (Oisín Lohan etc.)."
+    "val": "HOLD orphan r5: 1952 Galway IHC winners (Wikipedia roll) — no named historic Skehana XV. Modern amalgam club:skehana-mountbellew-moylough (Oisín Lohan etc.). HOLD orphan r6: 1952 IHC winners — no named historic Skehana XV. Modern amalgam club:skehana-mountbellew-moylough."
   },
   {
     "row": "club:skehana",
@@ -95722,7 +95722,7 @@
   {
     "row": "club:st-colemans",
     "col": "note",
-    "val": "HOLD orphan r5: 1948 SHC finalist — no named St Coleman's hurling XV cite. Name today mainly camogie / Gort St Colman's Park — do not invent."
+    "val": "HOLD orphan r5: 1948 SHC finalist — no named St Coleman's hurling XV cite. Name today mainly camogie / Gort St Colman's Park — do not invent. HOLD orphan r6: 1948 SHC finalist — Jim Brophy Wikipedia is Army captain who beat them, not St Coleman's. No named St Coleman's XV cite."
   },
   {
     "row": "match:all-ireland-shc-1887-final",
@@ -96188,5 +96188,1470 @@
     "row": "match:galway-shc-1911-final",
     "col": "ingest_triage",
     "val": "secondary_cite"
+  },
+  {
+    "row": "player:kenneth-burke",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:kenneth-burke-u-21-2005",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "appearance:kenneth-burke-ihc-2002",
+    "col": "club",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "player:paul-hardiman",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:paul-hardiman-u-21-1991",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:cathal-moran",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:cathal-moran-u-21-1991",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:paddy-hurney",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "appearance:paddy-hurney-shc-1923",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "player:martin-king",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "appearance:martin-king-shc-1923",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "player:damien-coleman",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "appearance:damien-coleman-u-21-1993",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Oisin Delaney"
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: named on Ahascragh-Fohenagh Intermediate Hurling Champions panel photo."
+  },
+  {
+    "row": "player:oisin-delaney-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Cathal Cosgrove"
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:cathal-cosgrove-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Stephen Kelly"
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll + Independent Connacht IHC replay team sheet: S Kelly for Ahascragh-Fohenagh. Distinct id — Kelly surname common."
+  },
+  {
+    "row": "player:stephen-kelly-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Stephen Smyth"
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay: S Smyth named scorer/team sheet for Ahascragh-Fohenagh; Galway GAA 2016 roll photo."
+  },
+  {
+    "row": "player:stephen-smyth-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "name",
+    "val": "David Harney"
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:david-harney-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Peter Birch"
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay sub: P Birch for Ahascragh-Fohenagh; Galway GAA 2016 roll."
+  },
+  {
+    "row": "player:peter-birch-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Eoin O'Ceallaigh"
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Eoin O 'Ceallaigh on Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:eoin-oceallaigh-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Brian Kilroy"
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay team sheet: B Kilroy; Galway GAA 2016 roll."
+  },
+  {
+    "row": "player:brian-kilroy-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Trevor Barrett"
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel; Independent draw team sheet sub T Barrett."
+  },
+  {
+    "row": "player:trevor-barrett-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Kevin Harney"
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:kevin-harney-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Donal Kelly"
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay: D Kelly in goals for Ahascragh-Fohenagh; Galway GAA 2016 roll. Distinct id."
+  },
+  {
+    "row": "player:donal-kelly-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Francis Mitchell"
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:francis-mitchell-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Alan Harney"
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:alan-harney-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Darren Smyth"
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay sub: D Smyth; Galway GAA 2016 roll."
+  },
+  {
+    "row": "player:darren-smyth-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "name",
+    "val": "JP Egan"
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay team sheet: JP Egan; Galway GAA 2016 roll."
+  },
+  {
+    "row": "player:jp-egan-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Shane Connelly"
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay: S. Conneely / S Connelly on team sheet; Galway GAA 2016 roll Shane Connelly."
+  },
+  {
+    "row": "player:shane-connelly-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Simon Doyle"
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:simon-doyle-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Finbarr Donnellan"
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay: F Donnellan scorer/team sheet; Galway GAA 2016 roll Finbarr Donnellan."
+  },
+  {
+    "row": "player:finbarr-donnellan-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Fergal Mulryan"
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Galway GAA 2016 roll: Ahascragh-Fohenagh IHC champions panel."
+  },
+  {
+    "row": "player:fergal-mulryan-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Cathal Delaney"
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "source",
+    "val": "https://www.independent.ie/sport/gaelic-games/hurling/mannion-helps-galway-champs-secure-crown/35212557.html"
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Irish Independent Connacht IHC replay sub: C Delaney; Galway GAA 2016 roll."
+  },
+  {
+    "row": "player:cathal-delaney-ahascragh-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "name",
+    "val": "Tom Fleming"
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tom_Fleming_(hurler)"
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "note",
+    "val": "Wikipedia: club Galway City; 1923 All-Ireland SHC medal; Athenry GAA caption Tom Fleming (Galway City). Also 1922 SHC finalist vs Tynagh."
+  },
+  {
+    "row": "player:tom-fleming-galway-city",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "name",
+    "val": "Mick King"
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1920-1929"
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "note",
+    "val": "Athenry GAA 1923 All-Ireland panel caption: Mick King (Galway City). Distinct from Martin King / Michael King."
+  },
+  {
+    "row": "player:mick-king-galway-city",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "name",
+    "val": "Michael King"
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1920-1929"
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "note",
+    "val": "Athenry GAA 1923 final-day caption: Michael King (Galway City). Distinct from Martin King / Mick King."
+  },
+  {
+    "row": "player:michael-king-galway-city",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "name",
+    "val": "Paddy O'Connor"
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "club",
+    "val": "club:galway-city-historic"
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "source",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1920-1929"
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "note",
+    "val": "Athenry GAA 1923 All-Ireland panel caption: Paddy O'Connor (Galway City)."
+  },
+  {
+    "row": "player:paddy-oconnor-galway-city",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "name",
+    "val": "Jack Fallon"
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "club",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "source",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "note",
+    "val": "Kilnadeema/Leitrim club history: Jack Fallon of Leitrim lined out in 1925 All-Ireland SHC final vs Tipperary alongside Mick Connaire (Kilnadeema)."
+  },
+  {
+    "row": "player:jack-fallon-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "name",
+    "val": "Tom Cox Tierney"
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "club",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "source",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "note",
+    "val": "Kilnadeema/Leitrim club history: Tom (Cox) Tierney — Leitrim's most famous player of the era; captained Galway Junior 1928; also named on Leitrim Junior champions 1954–56 photo."
+  },
+  {
+    "row": "player:tom-cox-tierney-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "name",
+    "val": "JJ Darcy"
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "club",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "source",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "note",
+    "val": "Kilnadeema/Leitrim club history: J.J. Darcy of Leitrim played in 1931 All-Ireland Minor final vs Kilkenny."
+  },
+  {
+    "row": "player:jj-darcy-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "name",
+    "val": "Patrick Lyons"
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "club",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "source",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "note",
+    "val": "Kilnadeema/Leitrim club history photo caption: Patrick Lyons on Leitrim Junior champions 1954/55/56."
+  },
+  {
+    "row": "player:patrick-lyons-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "name",
+    "val": "Mick Kenny"
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "club",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "source",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "note",
+    "val": "Kilnadeema/Leitrim club history: Mick Kenny on Leitrim Junior champions 1954/55/56 caption. Distinct id — Kenny surname / other Mick Kenny (Tynagh 1923) already stamped elsewhere."
+  },
+  {
+    "row": "player:mick-kenny-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "name",
+    "val": "Sean Flannery"
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "club",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "source",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "note",
+    "val": "Kilnadeema/Leitrim club history: Sean Flannery on Leitrim Junior champions 1954/55/56 caption."
+  },
+  {
+    "row": "player:sean-flannery-leitrim",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:galway-city-historic",
+    "col": "source_athenry_1923",
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1920-1929"
+  },
+  {
+    "row": "club:galway-city-historic",
+    "col": "source_wiki_fleming",
+    "val": "https://en.wikipedia.org/wiki/Tom_Fleming_(hurler)"
+  },
+  {
+    "row": "club:leitrim-galway-historic",
+    "col": "source_club",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "note",
+    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist)."
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "source_roll_2016",
+    "val": "https://www.galwaygaa.ie/history/2016-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "name",
+    "val": "Leitrim vs Kilmacdough (1923 Galway Junior Hurling Final)"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "competition",
+    "val": "Galway Junior Hurling Championship"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "year",
+    "val": 1923
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "home",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "away",
+    "val": "Kilmacdough"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "winner",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "runner_up",
+    "val": "Kilmacdough"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "score",
+    "val": "Leitrim 2-3, Kilmacdough 1-2"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "note",
+    "val": "Kilnadeema/Leitrim club history: Leitrim won the junior championship of 1923 defeating Kilmacdough 2-3 to 1-2 (recorded as 1924 success for 1923 championship)."
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "source",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-jhc-1923-leitrim-final",
+    "col": "historic_club",
+    "val": "club:leitrim-galway-historic"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "name",
+    "val": "Kilrickle Galway IHC Final (1949)"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "year",
+    "val": 1949
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "home",
+    "val": "club:kilrickle"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "winner",
+    "val": "club:kilrickle"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "note",
+    "val": "Wikipedia Galway Intermediate Hurling Championship: Kilrickle inaugural champions 1949. Final score line not listed on Wikipedia roll — omitted (no invent)."
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-ihc-1949-final",
+    "col": "historic_club",
+    "val": "club:kilrickle"
+  },
+  {
+    "row": "match:galway-shc-1930-final",
+    "col": "secondary_cite",
+    "val": "Kilnadeema/Leitrim club history · Craughwell beat Leitrim 7-4 to 1-5"
+  },
+  {
+    "row": "match:galway-shc-1930-final",
+    "col": "secondary_cite_url",
+    "val": "https://kilnadeemaleitrimgaa.com/about/"
+  },
+  {
+    "row": "match:galway-shc-1930-final",
+    "col": "score",
+    "val": "Craughwell 7-4, Leitrim 1-5"
+  },
+  {
+    "row": "match:galway-shc-1930-final",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "player:albert-moylan",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:basil-larkin",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:christy-helebert",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:brendan-keogh",
+    "col": "hold",
+    "val": true
   }
 ]
