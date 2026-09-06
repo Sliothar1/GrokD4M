@@ -1,0 +1,657 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Shane Fitzpatrick",
+      "id": "player:shane-fitzpatrick-tynagh-abbey-duniry",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://www.connachttribune.ie/sport/hurling/tynaghabbey-duniry-men-secure-provincial-title-glory-5589137",
+      "note": "Connacht Tribune 2024 Connacht IHC final scorers list Shane Fitzpatrick 0-1 for Tynagh-Abbey/Duniry; Western People same final scorers path. Club-scoped thin fill (distinct from Ballinasloe Shane Fitzpatrick).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Thomas Murphy",
+      "id": "player:thomas-murphy-tynagh-abbey-duniry",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://www.connachttribune.ie/sport/hurling/tynaghabbey-duniry-men-secure-provincial-title-glory-5589137",
+      "note": "Connacht Tribune / Western People 2024 Connacht IHC final scorers list Thomas Murphy 0-1 for Tynagh-Abbey/Duniry. Dual-source thin fill.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:alan-leech",
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-kelly",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-helebert",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-shc-1990-sf-kiltormer-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Kiltormer vs Sarsfields (1990 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1990,
+        "home": "club:kiltormer",
+        "away": "club:sarsfields",
+        "score": "Kiltormer 0-14, Sarsfields 0-12",
+        "note": "Wikipedia 1990 Galway SHC: semi-final Kiltormer 0-14 Sarsfields 0-12 at Kenny Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1990_Galway_Senior_Hurling_Championship",
+        "winner": "club:kiltormer",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1990-sf-turloughmore-meelick-eyrecourt",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Meelick-Eyrecourt (1990 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1990,
+        "home": "club:turloughmore",
+        "away": "club:meelick-eyrecourt",
+        "score": "Turloughmore 2-06, Meelick-Eyrecourt 1-06",
+        "note": "Wikipedia 1990 Galway SHC: semi-final Turloughmore 2-06 Meelick-Eyrecourt 1-06 at Duggan Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1990_Galway_Senior_Hurling_Championship",
+        "winner": "club:turloughmore",
+        "result": "win",
+        "venue": "Duggan Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1991-qf-turloughmore-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Turloughmore (1991 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1991,
+        "home": "club:castlegar",
+        "away": "club:turloughmore",
+        "score": "Castlegar 0-09, Turloughmore 1-12",
+        "note": "Wikipedia 1991 Galway SHC: quarter-final Castlegar 0-09 Turloughmore 1-12 at Pearse Stadium (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
+        "winner": "club:turloughmore",
+        "result": "win",
+        "venue": "Pearse Stadium"
+      }
+    },
+    {
+      "id": "match:galway-shc-1991-qf-sarsfields-kinvara",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Kinvara (1991 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1991,
+        "home": "club:sarsfields",
+        "away": "club:kinvara",
+        "score": "Sarsfields 2-14, Kinvara 1-03",
+        "note": "Wikipedia 1991 Galway SHC: quarter-final Sarsfields 2-14 Kinvara 1-03 at Kenny Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
+        "winner": "club:sarsfields",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1991-qf-kiltormer-killimordaly",
+      "cols": {
+        "type": "match",
+        "name": "Kiltormer vs Killimordaly (1991 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1991,
+        "home": "club:kiltormer",
+        "away": "club:killimordaly",
+        "score": "Kiltormer 2-14, Killimordaly 1-11",
+        "note": "Wikipedia 1991 Galway SHC: quarter-final Kiltormer 2-14 Killimordaly 1-11 at Duggan Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
+        "winner": "club:kiltormer",
+        "result": "win",
+        "venue": "Duggan Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1991-qf-athenry-meelick-eyrecourt",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Meelick-Eyrecourt (1991 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1991,
+        "home": "club:athenry",
+        "away": "club:meelick-eyrecourt",
+        "score": "Athenry 3-10, Meelick-Eyrecourt 1-09",
+        "note": "Wikipedia 1991 Galway SHC: quarter-final Athenry 3-10 Meelick-Eyrecourt 1-09 at Duggan Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
+        "winner": "club:athenry",
+        "result": "win",
+        "venue": "Duggan Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1991-sf-athenry-sarsfields",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Sarsfields (1991 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1991,
+        "home": "club:athenry",
+        "away": "club:sarsfields",
+        "score": "Athenry 2-12, Sarsfields 0-14",
+        "note": "Wikipedia 1991 Galway SHC: semi-final Athenry 2-12 Sarsfields 0-14 at St Brendan's Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
+        "winner": "club:athenry",
+        "result": "win",
+        "venue": "St Brendan's Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1991-sf-kiltormer-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Kiltormer vs Turloughmore (1991 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1991,
+        "home": "club:kiltormer",
+        "away": "club:turloughmore",
+        "score": "Kiltormer 0-18, Turloughmore 0-18",
+        "note": "Wikipedia 1991 Galway SHC: semi-final Kiltormer 0-18 Turloughmore 0-18 draw at St Brendan's Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
+        "winner": "draw",
+        "result": "draw",
+        "venue": "St Brendan's Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1991-sf-replay-kiltormer-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Kiltormer vs Turloughmore (1991 Galway SHC Semi-final replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final replay",
+        "year": 1991,
+        "home": "club:kiltormer",
+        "away": "club:turloughmore",
+        "score": "Kiltormer 2-13, Turloughmore 2-11",
+        "note": "Wikipedia 1991 Galway SHC: semi-final replay Kiltormer 2-13 Turloughmore 2-11 at St Brendan's Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1991_Galway_Senior_Hurling_Championship",
+        "winner": "club:kiltormer",
+        "result": "win",
+        "venue": "St Brendan's Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1995-qf-portumna-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Castlegar (1995 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1995,
+        "home": "club:portumna",
+        "away": "club:castlegar",
+        "score": "Portumna 0-13, Castlegar 0-11",
+        "note": "Wikipedia 1995 Galway SHC: quarter-final Portumna 0-13 Castlegar 0-11 at Kenny Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
+        "winner": "club:portumna",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1995-qf-abbey-duniry-carnmore",
+      "cols": {
+        "type": "match",
+        "name": "Abbey/Duniry vs Carnmore (1995 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1995,
+        "home": "club:abbey-duniry-historic",
+        "away": "club:carnmore",
+        "score": "Abbey/Duniry 0-13, Carnmore 2-05",
+        "note": "Wikipedia 1995 Galway SHC: quarter-final Abbey/Duniry 0-13 Carnmore 2-05 at Kenny Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
+        "winner": "club:abbey-duniry-historic",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1995-qf-sarsfields-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Athenry (1995 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1995,
+        "home": "club:sarsfields",
+        "away": "club:athenry",
+        "score": "Sarsfields 1-15, Athenry 0-12",
+        "note": "Wikipedia 1995 Galway SHC: quarter-final Sarsfields 1-15 Athenry 0-12 at Duggan Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
+        "winner": "club:sarsfields",
+        "result": "win",
+        "venue": "Duggan Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1995-qf-gort-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Kiltormer (1995 Galway SHC Quarter-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final",
+        "year": 1995,
+        "home": "club:gort",
+        "away": "club:kiltormer",
+        "score": "Gort 3-10, Kiltormer 2-13",
+        "note": "Wikipedia 1995 Galway SHC: quarter-final Gort 3-10 Kiltormer 2-13 draw at Duggan Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
+        "winner": "draw",
+        "result": "draw",
+        "venue": "Duggan Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1995-qf-replay-gort-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Kiltormer (1995 Galway SHC Quarter-final replay)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Quarter-final replay",
+        "year": 1995,
+        "home": "club:gort",
+        "away": "club:kiltormer",
+        "score": "Gort 0-13, Kiltormer 0-04",
+        "note": "Wikipedia 1995 Galway SHC: quarter-final replay Gort 0-13 Kiltormer 0-04 at St Brendan's Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
+        "winner": "club:gort",
+        "result": "win",
+        "venue": "St Brendan's Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1995-sf-portumna-abbey-duniry",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Abbey/Duniry (1995 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1995,
+        "home": "club:portumna",
+        "away": "club:abbey-duniry-historic",
+        "score": "Portumna 2-16, Abbey/Duniry 2-09",
+        "note": "Wikipedia 1995 Galway SHC: semi-final Portumna 2-16 Abbey/Duniry 2-09 at St Brendan's Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
+        "winner": "club:portumna",
+        "result": "win",
+        "venue": "St Brendan's Park"
+      }
+    },
+    {
+      "id": "match:galway-shc-1995-sf-sarsfields-gort",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Gort (1995 Galway SHC Semi-final)",
+        "competition": "Galway Senior Hurling Championship",
+        "round": "Semi-final",
+        "year": 1995,
+        "home": "club:sarsfields",
+        "away": "club:gort",
+        "score": "Sarsfields 2-12, Gort 1-10",
+        "note": "Wikipedia 1995 Galway SHC: semi-final Sarsfields 2-12 Gort 1-10 at Kenny Park (pre-2000 knockout gap).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/1995_Galway_Senior_Hurling_Championship",
+        "winner": "club:sarsfields",
+        "result": "win",
+        "venue": "Kenny Park"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2011-final-moycullen-four-roads",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Four Roads (2011 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2011,
+        "home": "club:moycullen",
+        "away": "Four Roads",
+        "score": "Moycullen 3-14, Four Roads 0-16",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Moycullen 3-14, Four Roads 0-16 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:moycullen",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2012-final-killimordaly-four-roads",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Four Roads (2012 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2012,
+        "home": "club:killimordaly",
+        "away": "Four Roads",
+        "score": "Killimordaly 0-16, Four Roads 0-10",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Killimordaly 0-16, Four Roads 0-10 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:killimordaly",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2013-final-kilnadeema-leitrim-tooreen",
+      "cols": {
+        "type": "match",
+        "name": "Kilnadeema-Leitrim vs Tooreen (2013 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2013,
+        "home": "club:kilnadeema-leitrim",
+        "away": "Tooreen",
+        "score": "Kilnadeema-Leitrim 1-14, Tooreen 2-09",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Kilnadeema-Leitrim 1-14, Tooreen 2-09 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:kilnadeema-leitrim",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2014-final-cappataggle-ballyhaunis",
+      "cols": {
+        "type": "match",
+        "name": "Cappataggle vs Ballyhaunis (2014 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2014,
+        "home": "club:cappataggle",
+        "away": "Ballyhaunis",
+        "score": "Cappataggle 0-15, Ballyhaunis 1-10",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Cappataggle 0-15, Ballyhaunis 1-10 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:cappataggle",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2015-final-abbeyknockmoy-four-roads",
+      "cols": {
+        "type": "match",
+        "name": "Abbeyknockmoy vs Four Roads (2015 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2015,
+        "home": "club:abbeyknockmoy",
+        "away": "Four Roads",
+        "score": "Abbeyknockmoy 1-11, Four Roads 0-11",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Abbeyknockmoy 1-11, Four Roads 0-11 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:abbeyknockmoy",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2017-final-tooreen-ballinderreen",
+      "cols": {
+        "type": "match",
+        "name": "Tooreen vs Ballinderreen (2017 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2017,
+        "home": "Tooreen",
+        "away": "club:ballinderreen",
+        "score": "Tooreen 1-15, Ballinderreen 1-11",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Tooreen 1-15, Ballinderreen 1-11 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "Tooreen",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2018-final-oranmore-maree-tooreen",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore-Maree vs Tooreen (2018 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2018,
+        "home": "club:oranmore-maree",
+        "away": "Tooreen",
+        "score": "Oranmore-Maree 1-20, Tooreen 1-15",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Oranmore-Maree 1-20, Tooreen 1-15 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "club:oranmore-maree",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2019-final-tooreen-kinvara",
+      "cols": {
+        "type": "match",
+        "name": "Tooreen vs Kinvara (2019 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2019,
+        "home": "Tooreen",
+        "away": "club:kinvara",
+        "score": "Tooreen 0-21, Kinvara 2-10",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Tooreen 0-21, Kinvara 2-10 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "Tooreen",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2021-final-tooreen-moycullen",
+      "cols": {
+        "type": "match",
+        "name": "Tooreen vs Moycullen (2021 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2021,
+        "home": "Tooreen",
+        "away": "club:moycullen",
+        "score": "Tooreen 1-15, Moycullen 0-14",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Tooreen 1-15, Moycullen 0-14 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "Tooreen",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2022-final-tooreen-killimor",
+      "cols": {
+        "type": "match",
+        "name": "Tooreen vs Killimor (2022 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2022,
+        "home": "Tooreen",
+        "away": "club:killimor",
+        "score": "Tooreen 0-21, Killimor 1-15",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Tooreen 0-21, Killimor 1-15 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "Tooreen",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2023-final-tooreen-ballinderreen",
+      "cols": {
+        "type": "match",
+        "name": "Tooreen vs Ballinderreen (2023 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2023,
+        "home": "Tooreen",
+        "away": "club:ballinderreen",
+        "score": "Tooreen 0-21, Ballinderreen 0-19",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Tooreen 0-21, Ballinderreen 0-19 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "Tooreen",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2024-final-tynagh-abbey-duniry-tooreen",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Tooreen (2024 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2024,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "Tooreen",
+        "score": "Tynagh-Abbey/Duniry 0-19, Tooreen 1-14",
+        "note": "Connacht Tribune / Galway Bay FM / Western People: Tynagh-Abbey/Duniry 0-19 Tooreen 1-14 in 2024 Connacht IHC final at Dr Hyde Park (IHC gap fill).",
+        "confidence": "medium",
+        "source": "https://www.connachttribune.ie/sport/hurling/tynaghabbey-duniry-men-secure-provincial-title-glory-5589137",
+        "winner": "club:tynagh-abbey-duniry",
+        "result": "win",
+        "venue": "Dr Hyde Park"
+      }
+    },
+    {
+      "id": "match:connacht-ihc-2025-final-tooreen-meelick-eyrecourt",
+      "cols": {
+        "type": "match",
+        "name": "Tooreen vs Meelick-Eyrecourt (2025 Connacht Intermediate Club HC Final)",
+        "competition": "Connacht Intermediate Club Hurling Championship",
+        "round": "Final",
+        "year": 2025,
+        "home": "Tooreen",
+        "away": "club:meelick-eyrecourt",
+        "score": "Tooreen 3-21, Meelick-Eyrecourt 2-12",
+        "note": "Wikipedia Connacht Intermediate Club HC roll: Tooreen 3-21, Meelick-Eyrecourt 2-12 (IHC gap fill via provincial final).",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Connacht_Intermediate_Club_Hurling_Championship",
+        "winner": "Tooreen",
+        "result": "win"
+      }
+    }
+  ],
+  "match_updates": [],
+  "hold_notes": {
+    "player:john-conroy": "HOLD r42: Conroy name collision with clubbed Johnny Conroy Tynagh-Abbey/Duniry (player:johnny-conroy-tynagh-abbey-duniry); bare Intermediate 2002 panel row stays HOLD.",
+    "player:joe-keane": "HOLD r42: Keane name collision with clubbed Joe Keane Portumna (player:joe-keane-portumna); bare Intermediate 2015 panel row stays HOLD.",
+    "player:brendan-lynch": "HOLD r42: Lynch name collision with clubbed Brendan Lynch Tynagh-Abbey/Duniry (player:brendan-lynch-tynagh-abbey-duniry); bare Minor 2015 panel row stays HOLD.",
+    "player:gordon-glynn": "HOLD r42: spelling twin of player:gordan-glynn already club:kiltormer; bare Minor 1994 / U-21 1996 collision — do not dual-stamp.",
+    "player:sean-glynn": "HOLD r42: Glynn surname common across clubs; bare Minor 2005 panel lacks first+last multi-source club clear — stays HOLD.",
+    "player:finnian-coone": "HOLD r42: Coone/Coen spelling collision risk with clubbed Mullagh Finnian Coone rows in SHC scorelines; bare U-21 2007 row stays HOLD."
+  }
+}
