@@ -35572,17 +35572,17 @@
   {
     "row": "player:frank-donohue",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:frank-donohue",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.tommylarkins.gaa.ie/roll-of-honour"
   },
   {
     "row": "player:frank-donohue",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA). Tommy Larkin's club RoH: Frank Donohue listed among county U-21 All-Ireland medalists for Tommy Larkins; age-matches Galway U-21 All-Ireland 1972 panel. First+last published club cite."
   },
   {
     "row": "player:frank-nolan",
@@ -35972,17 +35972,17 @@
   {
     "row": "player:gerry-kennedy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:gerry-kennedy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.tommylarkins.gaa.ie/roll-of-honour"
   },
   {
     "row": "player:gerry-kennedy",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). Tommy Larkin's club RoH: Gerry Kennedy listed among county U-21 All-Ireland medalists for Tommy Larkins; age-matches Galway U-21 All-Ireland 1978 panel. First+last published club cite."
   },
   {
     "row": "player:gerry-mcgrath",
@@ -40787,17 +40787,17 @@
   {
     "row": "player:noel-murphy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:noel-murphy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.tommylarkins.gaa.ie/roll-of-honour"
   },
   {
     "row": "player:noel-murphy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Tommy Larkin's club RoH: Noel Murphy listed among county players with All-Ireland Intermediate and Junior medals for Tommy Larkins; age-matches Galway IHC All-Ireland 1999/2002 panel. First+last published club cite."
   },
   {
     "row": "player:noel-power",
@@ -41862,17 +41862,17 @@
   {
     "row": "player:paul-loughnane",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:paul-loughnane",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.the42.ie/galway-hurling-james-skehill-5317542-Jan2021/"
   },
   {
     "row": "player:paul-loughnane",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2004 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). The42: James Skehill names Paul Loughnane as lifelong friend and Cappataggle club-mate on successful Galway underage teams; Seamus J King NY SHC final listing confirms Paul Loughnane (capt.) Cappataggle, Galway. First+last published club cite."
   },
   {
     "row": "player:paul-madden",
@@ -43957,7 +43957,7 @@
   {
     "row": "player:tom-donohue",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA). HOLD r29 NEW: club-less U-21 1972 Tom Donohue; Frank Donohue linked Tommy Larkins via club RoH — possible spelling/identity collision with Frank/Tom Donohue lines; do not auto-merge without archivist confirm."
   },
   {
     "row": "player:tom-flemming",
@@ -44157,17 +44157,17 @@
   {
     "row": "player:tony-brehony",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:tony-brehony",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.tommylarkins.gaa.ie/roll-of-honour"
   },
   {
     "row": "player:tony-brehony",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1972 panel (Galway GAA). Tommy Larkin's club RoH: Tony Brehony listed among county U-21 All-Ireland medalists for Tommy Larkins; age-matches Galway U-21 All-Ireland 1972 panel. First+last published club cite."
   },
   {
     "row": "player:tony-headd",
@@ -54997,7 +54997,7 @@
   {
     "row": "appearance:paul-loughnane-minor-2004",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:ger-mahon-minor-2004",
@@ -56607,7 +56607,7 @@
   {
     "row": "appearance:paul-loughnane-minor-2005",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:kevin-coen-minor-2005",
@@ -69432,7 +69432,7 @@
   {
     "row": "appearance:frank-donohue-u-21-1972",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:andy-fenton-u-21-1972",
@@ -70032,7 +70032,7 @@
   {
     "row": "appearance:tony-brehony-u-21-1972",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:marty-barrett-u-21-1972",
@@ -70322,7 +70322,7 @@
   {
     "row": "appearance:gerry-kennedy-u-21-1978",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:gerry-smith-u-21-1978",
@@ -77317,7 +77317,7 @@
   {
     "row": "appearance:paul-loughnane-u-21-2007",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:paul-callanan-u-21-2007",
@@ -81007,7 +81007,7 @@
   {
     "row": "appearance:noel-murphy-ihc-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:noel-larkin-ihc-1999",
@@ -82327,7 +82327,7 @@
   {
     "row": "appearance:noel-murphy-ihc-2002",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:gordon-glynn-ihc-2002",
@@ -87517,7 +87517,7 @@
   {
     "row": "player:tom-donohue",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:tom-flemming",
@@ -97472,7 +97472,7 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "note",
-    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout. r24 AF-first: club-scoped Niall Burke from Galway GAA RoH 2016 IHC champions panel (distinct from Oranmore-Maree Niall Burke). r25 AF-first: Emmet Brennan from Wikipedia 2017 SHC Senior B Round 2 scoresheet vs Kilnadeema-Leitrim. r26 AF-first: Tony Kirwan linked via RoH 2009 Junior C (capt); thin Junior C 2009 squad fills; Wikipedia 2018/2019/2020 AF Senior B scored Match triples. r27 AF-first: RoH 2010 Minor B thin squad fills; Wikipedia 2021 Senior A + 2022 Senior B AF scored Match triples + relegation win vs Tynagh-Abbey/Duniry. r28 AF-first: RoH 2009 Junior C Anthony Kelly thin fill; Wikipedia 2024 Senior B AF scored Match triples + relegation/replay; 2020 SB r2 vs Kilnadeema-Leitrim."
+    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout. r24 AF-first: club-scoped Niall Burke from Galway GAA RoH 2016 IHC champions panel (distinct from Oranmore-Maree Niall Burke). r25 AF-first: Emmet Brennan from Wikipedia 2017 SHC Senior B Round 2 scoresheet vs Kilnadeema-Leitrim. r26 AF-first: Tony Kirwan linked via RoH 2009 Junior C (capt); thin Junior C 2009 squad fills; Wikipedia 2018/2019/2020 AF Senior B scored Match triples. r27 AF-first: RoH 2010 Minor B thin squad fills; Wikipedia 2021 Senior A + 2022 Senior B AF scored Match triples + relegation win vs Tynagh-Abbey/Duniry. r28 AF-first: RoH 2009 Junior C Anthony Kelly thin fill; Wikipedia 2024 Senior B AF scored Match triples + relegation/replay; 2020 SB r2 vs Kilnadeema-Leitrim. r29: Wikipedia 2022 SHC Senior A/B scored Match pack (championship season thin); AF SB fixtures already seeded prior rounds. HOLD orphans skipped."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -97812,7 +97812,7 @@
   {
     "row": "club:tommy-larkins",
     "col": "note",
-    "val": "r7: Colm Flynn linked (GAA.ie Tommy Larkins SHC team sheet). r11: linked Kevin McHugo (Wikipedia 2025 SHC). r26: Trevor Cavanagh linked via RoH 2007 Intermediate Hurling Champions panel."
+    "val": "r7: Colm Flynn linked (GAA.ie Tommy Larkins SHC team sheet). r11: linked Kevin McHugo (Wikipedia 2025 SHC). r26: Trevor Cavanagh linked via RoH 2007 Intermediate Hurling Champions panel. r29: Noel Murphy, Tony Brehony, Frank Donohue, Gerry Kennedy linked via club RoH All-Ireland medalists list; Mickey Fahy Intermediate medalist thin fill. Wikipedia 2022 SHC Tommy Larkins scored Match triples."
   },
   {
     "row": "club:kiltormer",
@@ -98887,7 +98887,7 @@
   {
     "row": "club:cappataggle",
     "col": "note",
-    "val": "r8: Daniel Nevin / Declan Cronin / Darragh Dolan linked; Emmett Malone / Patrick Egan / Stephen Creaven added (Galway GAA 2014 IHC champions roll). r11: linked Liam Collins (2020 MOTY / Wikipedia 2025 SHC)."
+    "val": "r8: Daniel Nevin / Declan Cronin / Darragh Dolan linked; Emmett Malone / Patrick Egan / Stephen Creaven added (Galway GAA 2014 IHC champions roll). r11: linked Liam Collins (2020 MOTY / Wikipedia 2025 SHC). r29: Paul Loughnane linked via The42 (Skehill Cappataggle club-mate) + Seamus J King NY listing (Cappataggle, Galway)."
   },
   {
     "row": "club:athenry",
@@ -154272,12 +154272,12 @@
   {
     "row": "club:kilbeacanty",
     "col": "note",
-    "val": "r27 thin-club: Ronan Reilly linked via RoH 2014 Junior B Shield + Clare Champion All-Ireland medal cite."
+    "val": "r27 thin-club: Ronan Reilly linked via RoH 2014 Junior B Shield + Clare Champion All-Ireland medal cite. r29 thin-club: RoH 2014 Junior B Shield panel fills (Mulkerrins, Moylette, Hughes, O'Donnell, Declan Donohue, Conor Diviney, Corless, Broderick)."
   },
   {
     "row": "club:ballygar",
     "col": "note",
-    "val": "r27: Greg Thomas HOLD cleared — Galway GAA All-Ireland winning teams 2019 MHC lists Greg Thomas (Ballygar). r28 thin-club: RoH 2018 Junior 1 panel fills (Mulrooney, Fitzmaurice, Grealy, McDonnagh, McConn)."
+    "val": "r27: Greg Thomas HOLD cleared — Galway GAA All-Ireland winning teams 2019 MHC lists Greg Thomas (Ballygar). r28 thin-club: RoH 2018 Junior 1 panel fills (Mulrooney, Fitzmaurice, Grealy, McDonnagh, McConn). r29 thin-club: further RoH 2018 Junior 1 fills (Hannon, Zwierczyk, Robbie Daly, McGuinness, Charlie Daly). Skip Simon Thomas/Diarmuid O'Brien (already clubbed elsewhere)."
   },
   {
     "row": "match:galway-shc-2021-sa-r1-castlegar-ahascragh-fohenagh",
@@ -155761,6 +155761,3971 @@
   },
   {
     "row": "player:ciaran-odonovan",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:paul-loughnane",
+    "col": "club",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "appearance:paul-loughnane-minor-2004",
+    "col": "club",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "appearance:paul-loughnane-minor-2005",
+    "col": "club",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "appearance:paul-loughnane-u-21-2007",
+    "col": "club",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "player:noel-murphy",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "appearance:noel-murphy-ihc-1999",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "appearance:noel-murphy-ihc-2002",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "player:tony-brehony",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "appearance:tony-brehony-u-21-1972",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "player:frank-donohue",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "appearance:frank-donohue-u-21-1972",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "player:gerry-kennedy",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "appearance:gerry-kennedy-u-21-1978",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "name",
+    "val": "Mickey Fahy"
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "club",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "source",
+    "val": "https://www.tommylarkins.gaa.ie/roll-of-honour"
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "note",
+    "val": "Tommy Larkin's club RoH: Mickey Fahy listed among county Intermediate All-Ireland medalists for Tommy Larkins. Club-scoped thin fill."
+  },
+  {
+    "row": "player:mickey-fahy-tommy-larkins",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "name",
+    "val": "David Mulkerrins"
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: David Mulkerrins named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:david-mulkerrins-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "name",
+    "val": "Shane Moylette"
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: Shane Moylette named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:shane-moylette-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "name",
+    "val": "Adrian Hughes"
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: Adrian Hughes (Capt.) named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:adrian-hughes-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "name",
+    "val": "Oisin O'Donnell"
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: Oisin O'Donnell named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:oisin-odonnell-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "name",
+    "val": "Declan Donohue"
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: Declan Donohue named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill; distinct from Frank/Tom Donohue Tommy Larkins/U-21 lines."
+  },
+  {
+    "row": "player:declan-donohue-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "name",
+    "val": "Conor Diviney"
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: Conor Diviney named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill; MHC Cormac Diviney spelling remains on HOLD."
+  },
+  {
+    "row": "player:conor-diviney-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "name",
+    "val": "Kenny Corless"
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: Kenny Corless named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:kenny-corless-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "name",
+    "val": "Thomas Broderick"
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "club",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/"
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "note",
+    "val": "Galway GAA RoH 2014: Thomas Broderick named on Kilbeacanty County Junior B Hurling Shield winners panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:thomas-broderick-kilbeacanty",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "name",
+    "val": "James Hannon"
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: James Hannon named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:james-hannon-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "name",
+    "val": "Sylvester Zwierczyk"
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Sylvester Zwierczyk named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:sylvester-zwierczyk-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "name",
+    "val": "Robbie Daly"
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Robbie Daly named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:robbie-daly-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "name",
+    "val": "Gerard McGuinness"
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Gerard McGuinness named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:gerard-mcguinness-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "name",
+    "val": "Charlie Daly"
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "club",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2018-roll-of-honour-hurling-football/"
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "note",
+    "val": "Galway GAA RoH 2018: Charlie Daly named on Ballygar Junior 1 Hurling Champions panel. Club-scoped thin-club fill."
+  },
+  {
+    "row": "player:charlie-daly-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "name",
+    "val": "Beagh vs Pádraig Pearses (2023 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "score",
+    "val": "Beagh 0-21, Pádraig Pearses 1-14"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-beagh-padraig-pearses",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Killimor (2023 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 3-21, Killimor 0-17"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-kilnadeema-leitrim-killimor",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "name",
+    "val": "Pádraig Pearses vs Killimor (2023 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "score",
+    "val": "Pádraig Pearses 1-20, Killimor 1-13"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-padraig-pearses-killimor",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Beagh (2023 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 2-26, Beagh 0-15"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-kilnadeema-leitrim-beagh",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "name",
+    "val": "St Thomas' vs Killimordaly (2022 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "score",
+    "val": "St Thomas' 2-20, Killimordaly 1-14"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-st-thomas-killimordaly",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "name",
+    "val": "Sarsfields vs Castlegar (2022 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "score",
+    "val": "Sarsfields 2-19, Castlegar 1-13"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-sarsfields-castlegar",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "name",
+    "val": "St Thomas' vs Castlegar (2022 Galway SHC Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "score",
+    "val": "St Thomas' 2-19, Castlegar 0-19"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-st-thomas-castlegar",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "name",
+    "val": "Turloughmore vs Killimordaly (2022 Galway SHC Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "score",
+    "val": "Turloughmore 2-20, Killimordaly 0-12"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-turloughmore-killimordaly",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "name",
+    "val": "Turloughmore vs St Thomas' (2022 Galway SHC Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "round",
+    "val": "Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "score",
+    "val": "Turloughmore 2-23, St Thomas' 0-14"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-turloughmore-st-thomas",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "name",
+    "val": "Clarinbridge vs Castlegar (2022 Galway SHC Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "round",
+    "val": "Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "score",
+    "val": "Clarinbridge 1-24, Castlegar 1-24"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline (draw)."
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-clarinbridge-castlegar",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "name",
+    "val": "Sarsfields vs Killimordaly (2022 Galway SHC Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "round",
+    "val": "Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "score",
+    "val": "Sarsfields 3-17, Killimordaly 0-12"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-sarsfields-killimordaly",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "name",
+    "val": "Killimordaly vs Castlegar (2022 Galway SHC Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "score",
+    "val": "Killimordaly 2-17, Castlegar 0-22"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-killimordaly-castlegar",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "name",
+    "val": "Craughwell vs Kilconieron (2022 Galway SHC Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "score",
+    "val": "Craughwell 2-15, Kilconieron 0-9"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r1-craughwell-kilconieron",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "name",
+    "val": "Loughrea vs Craughwell (2022 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "score",
+    "val": "Loughrea 1-22, Craughwell 2-16"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-loughrea-craughwell",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "name",
+    "val": "Cappataggle vs Kilconieron (2022 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "score",
+    "val": "Cappataggle 4-26, Kilconieron 1-21"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-cappataggle-kilconieron",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "name",
+    "val": "Tommy Larkin's vs Gort (2022 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "score",
+    "val": "Tommy Larkin's 1-23, Gort 1-21"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r2-tommy-larkins-gort",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "name",
+    "val": "Cappataggle vs Craughwell (2022 Galway SHC Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "score",
+    "val": "Cappataggle 0-17, Craughwell 1-14"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-cappataggle-craughwell",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "name",
+    "val": "Loughrea vs Gort (2022 Galway SHC Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "score",
+    "val": "Loughrea 2-20, Gort 1-13"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-loughrea-gort",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "name",
+    "val": "Tommy Larkin's vs Kilconieron (2022 Galway SHC Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "round",
+    "val": "Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "score",
+    "val": "Tommy Larkin's 4-17, Kilconieron 0-17"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r3-tommy-larkins-kilconieron",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "name",
+    "val": "Loughrea vs Cappataggle (2022 Galway SHC Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "round",
+    "val": "Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "score",
+    "val": "Loughrea 1-23, Cappataggle 0-18"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-loughrea-cappataggle",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "name",
+    "val": "Gort vs Kilconieron (2022 Galway SHC Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "round",
+    "val": "Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "score",
+    "val": "Gort 2-29, Kilconieron 0-13"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-gort-kilconieron",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "name",
+    "val": "Tommy Larkin's vs Craughwell (2022 Galway SHC Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "round",
+    "val": "Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "score",
+    "val": "Tommy Larkin's 4-16, Craughwell 0-16"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r4-tommy-larkins-craughwell",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "name",
+    "val": "Loughrea vs Kilconieron (2022 Galway SHC Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "score",
+    "val": "Loughrea 2-22, Kilconieron 0-14"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-loughrea-kilconieron",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "name",
+    "val": "Tommy Larkin's vs Cappataggle (2022 Galway SHC Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "score",
+    "val": "Tommy Larkin's 1-18, Cappataggle 0-21"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-tommy-larkins-cappataggle",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "name",
+    "val": "Craughwell vs Gort (2022 Galway SHC Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "round",
+    "val": "Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "score",
+    "val": "Craughwell 4-16, Gort 1-15"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-r5-craughwell-gort",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "name",
+    "val": "Moycullen vs Athenry (2022 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "home",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "score",
+    "val": "Moycullen 2-14, Athenry 1-12"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-moycullen-athenry",
+    "col": "winner",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Tynagh-Abbey/Duniry (2022 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 2-30, Tynagh-Abbey/Duniry 2-18"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-kilnadeema-leitrim-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "name",
+    "val": "Oranmore-Maree vs Beagh (2022 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "home",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "score",
+    "val": "Oranmore-Maree 2-16, Beagh 1-9"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-oranmore-maree-beagh",
+    "col": "winner",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "name",
+    "val": "Moycullen vs Beagh (2022 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "home",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "score",
+    "val": "Moycullen 2-24, Beagh 3-15"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-moycullen-beagh",
+    "col": "winner",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Oranmore-Maree vs Tynagh-Abbey/Duniry (2022 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Oranmore-Maree 1-16, Tynagh-Abbey/Duniry 0-13"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-oranmore-maree-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Athenry vs Kilnadeema-Leitrim (2022 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Athenry 2-22, Kilnadeema-Leitrim 3-17"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-athenry-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Moycullen vs Tynagh-Abbey/Duniry (2022 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Moycullen 1-20, Tynagh-Abbey/Duniry 2-14"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-moycullen-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Oranmore-Maree (2022 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "away",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 1-25, Oranmore-Maree 2-17"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-kilnadeema-leitrim-oranmore-maree",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "name",
+    "val": "Athenry vs Beagh (2022 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "score",
+    "val": "Athenry 0-21, Beagh 0-17"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-athenry-beagh",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "name",
+    "val": "Oranmore-Maree vs Athenry (2022 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "home",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "score",
+    "val": "Oranmore-Maree 0-20, Athenry 0-12"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-oranmore-maree-athenry",
+    "col": "winner",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "name",
+    "val": "Moycullen vs Kilnadeema-Leitrim (2022 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "home",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "score",
+    "val": "Moycullen 3-20, Kilnadeema-Leitrim 2-22"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-moycullen-kilnadeema-leitrim",
+    "col": "winner",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Beagh vs Tynagh-Abbey/Duniry (2022 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Beagh 1-25, Tynagh-Abbey/Duniry 1-19"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-beagh-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "name",
+    "val": "Oranmore-Maree vs Moycullen (2022 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "home",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "score",
+    "val": "Oranmore-Maree 1-21, Moycullen 1-17"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-oranmore-maree-moycullen",
+    "col": "winner",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Beagh (2022 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 2-21, Beagh 0-17"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-kilnadeema-leitrim-beagh",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "name",
+    "val": "Athenry vs Tynagh-Abbey/Duniry (2022 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "score",
+    "val": "Athenry 0-23, Tynagh-Abbey/Duniry 0-16"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-athenry-tynagh-abbey-duniry",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "name",
+    "val": "Mullagh vs Pádraig Pearses (2022 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "score",
+    "val": "Mullagh 2-11, Pádraig Pearses 0-15"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-mullagh-padraig-pearses",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "name",
+    "val": "Ardrahan vs Liam Mellows (2022 Galway SHC Senior B Round 1)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "round",
+    "val": "Senior B Round 1"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "score",
+    "val": "Ardrahan 1-19, Liam Mellows 2-11"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r1-ardrahan-liam-mellows",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "name",
+    "val": "Liam Mellows vs Mullagh (2022 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "score",
+    "val": "Liam Mellows 2-20, Mullagh 0-20"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-liam-mellows-mullagh",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "name",
+    "val": "Portumna vs Ardrahan (2022 Galway SHC Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "score",
+    "val": "Portumna 0-19, Ardrahan 1-14"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r2-portumna-ardrahan",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "name",
+    "val": "Portumna vs Pádraig Pearses (2022 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "score",
+    "val": "Portumna 1-19, Pádraig Pearses 2-11"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-portumna-padraig-pearses",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "name",
+    "val": "Ardrahan vs Mullagh (2022 Galway SHC Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "score",
+    "val": "Ardrahan 2-14, Mullagh 1-15"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r3-ardrahan-mullagh",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "name",
+    "val": "Liam Mellows vs Pádraig Pearses (2022 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "score",
+    "val": "Liam Mellows 1-19, Pádraig Pearses 0-16"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-liam-mellows-padraig-pearses",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "name",
+    "val": "Portumna vs Mullagh (2022 Galway SHC Senior B Round 4)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "round",
+    "val": "Senior B Round 4"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "score",
+    "val": "Portumna 3-21, Mullagh 2-16"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r4-portumna-mullagh",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "name",
+    "val": "Ardrahan vs Pádraig Pearses (2022 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "score",
+    "val": "Ardrahan 1-19, Pádraig Pearses 1-17"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-ardrahan-padraig-pearses",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "name",
+    "val": "Portumna vs Liam Mellows (2022 Galway SHC Senior B Round 5)"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "round",
+    "val": "Senior B Round 5"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "score",
+    "val": "Portumna 2-21, Liam Mellows 1-20"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline."
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-sb-r5-portumna-liam-mellows",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "name",
+    "val": "Ardrahan vs Athenry (2022 Galway SHC Senior B Playoff)"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "round",
+    "val": "Senior B Playoff"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "year",
+    "val": 2022
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "score",
+    "val": "Ardrahan 0-23, Athenry 1-20 (AET; Ardrahan win 4-2 on penalties)"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "note",
+    "val": "Wikipedia 2022 Galway SHC published scoreline (AET + penalties)."
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2022-senior-b-playoff-ardrahan-athenry",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "player:tom-donohue",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:paul-loughnane",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:noel-murphy",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:tony-brehony",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:frank-donohue",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:gerry-kennedy",
     "col": "hold",
     "val": false
   }
