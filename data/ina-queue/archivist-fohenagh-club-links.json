@@ -110,5 +110,14 @@
       "player:mark-kelly-sr-ahascragh-fohenagh"
     ],
     "note": "AF r12: 2025 Senior B scored group+SF; Tuam Herald 2026 PIHC unverified Conor Kelly/Jack Finnerty/Aaron Moclair (disambiguated). Bare Kelly collisions HOLD."
+  },
+  {
+    "batch": "fohenagh-club-links-r13",
+    "ruled_at": "2026-09-06T20:28:50.970054+00:00",
+    "clear_links": [],
+    "unverified_new": [
+      "player:mark-kelly-jr-ahascragh-fohenagh"
+    ],
+    "note": "AF r13: 2023 Senior B scored group+final draw/replay; Mark Kelly Jr unverified (disambiguated). Bare Kelly/Brehony/Maloney collisions HOLD. Skip HOLD orphans."
   }
 ]
