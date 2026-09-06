@@ -1,0 +1,1251 @@
+{
+  "wiki_links": [
+    {
+      "player": "player:frank-burke",
+      "club": "club:turloughmore",
+      "source": "https://en.wikipedia.org/wiki/Frank_Burke_(hurler)",
+      "note": "Wikipedia Frank Burke (hurler): Turloughmore club; captained 1985 Galway SHC winners.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:francis-forde",
+      "club": "club:turloughmore",
+      "source": "https://www.irishmirror.ie/sport/gaa/hurling/hurling-news/michael-donoghue-set-become-new-7055962",
+      "note": "Irish Mirror: Turloughmore clubman Francis Forde; Galway minor 1992 panel / later Galway selector.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:gerry-glynn",
+      "club": "club:castlegar",
+      "source": "https://en.wikipedia.org/wiki/Castlegar_GAA",
+      "note": "Wikipedia Castlegar GAA 1979–80 All-Ireland club XV: Gerry Glynn right half-back; Galway GAA 1980 roll photo.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:gregory-kennedy",
+      "club": "club:loughrea",
+      "source": "https://en.wikipedia.org/wiki/Greg_Kennedy_(hurler)",
+      "note": "Wikipedia Greg Kennedy (hurler): Loughrea club; Galway senior 1996–2007. Panel id gregory-kennedy = Greg (born 1976; minor 1994 / U-21 era).",
+      "confidence": "high"
+    },
+    {
+      "player": "player:gerry-holland",
+      "club": "club:turloughmore",
+      "source": "https://www.theirishworld.com/the-game-of-their-lives/",
+      "note": "Irish World Galway vs London line-up cite: G Holland (Turloughmore); Galway U-21 1972 panel.",
+      "confidence": "medium"
+    },
+    {
+      "player": "player:ben-moran",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://www.gaa.ie/article/aib-all-ireland-club-ihc-impressive-tynagh-abbey-duniry-advance",
+      "note": "GAA.ie All-Ireland Club IHC team sheet: Ben Moran starting for Tynagh-Abbey/Duniry; also Galway minor 2015 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:david-jordan",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://www.gaa.ie/article/aib-all-ireland-club-ihc-impressive-tynagh-abbey-duniry-advance",
+      "note": "GAA.ie All-Ireland Club IHC team sheet: David Jordan half-back for Tynagh-Abbey/Duniry; Galway minor 2015 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:daniel-nevin",
+      "club": "club:cappataggle",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA 2014 roll: Daniel Nevin named on Cappataggle Intermediate Hurling Champions panel; Galway Intermediate All-Ireland 2015 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:declan-cronin",
+      "club": "club:cappataggle",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA 2014 roll: Declan Cronin named on Cappataggle Intermediate Hurling Champions panel; Galway Intermediate All-Ireland 2015 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:darragh-dolan",
+      "club": "club:cappataggle",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA 2014 roll: Darragh Dolan named on Cappataggle Intermediate Hurling Champions panel; Galway minor 2011 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:barry-hanley",
+      "club": "club:athenry",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/2007",
+      "note": "Athenry GAA 2007 gallery: Barry Hanley named on Athenry U-21 A / senior-era panels; Galway minor 2004 / U-21 2007 panels.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:david-kennedy",
+      "club": "club:athenry",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/2007",
+      "note": "Athenry GAA 2007 gallery: David Kennedy named on Athenry U-21 A champions panel; Galway minor 2004 / U-21 2007 panels.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:enda-concannon",
+      "club": "club:athenry",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/2007",
+      "note": "Athenry GAA 2007 gallery: Enda Concannon named on Athenry U-21 A champions panel; Galway U-21 All-Ireland 2007 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:danny-whyte",
+      "club": "club:athenry",
+      "source": "https://www.athenrygaa.ie/index.php/history-photo-gallery/2007",
+      "note": "Athenry GAA 2007 gallery: Danny White/Whyte named on Athenry U-21 A champions panel; Galway U-21 All-Ireland 2007 panel.",
+      "confidence": "medium"
+    },
+    {
+      "player": "player:donal-moran",
+      "club": "club:athenry",
+      "source": "https://www.galwaygaa.ie/history/2004-roll-of-honour-football-hurling/",
+      "note": "Galway GAA 2004 roll: Donal Moran named on Athenry Senior Hurling Champions panel; Galway U-21 1996 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:bernard-burke",
+      "club": "club:st-thomas",
+      "source": "https://www.galwaygaa.ie/history/2008-roll-of-honour/",
+      "note": "Galway GAA 2008 roll: Bernard Burke named on St Thomas' Minor A Hurling Champions panel; Galway U-21 2011 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:donal-cooney",
+      "club": "club:st-thomas",
+      "source": "https://www.galwaygaa.ie/history/2008-roll-of-honour/",
+      "note": "Galway GAA 2008 roll: Donal Cooney named on St Thomas' Minor A Hurling Champions panel; Galway U-21 2011 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:enda-tannian",
+      "club": "club:st-thomas",
+      "source": "https://www.galwaygaa.ie/history/2004-roll-of-honour-football-hurling/",
+      "note": "Galway GAA 2004 roll: Enda Tannion named on St Thomas' Intermediate Hurling Champions panel (spelling Tannion/Tannian); Galway Intermediate All-Ireland 2002 panel.",
+      "confidence": "medium"
+    },
+    {
+      "player": "player:evan-hunt",
+      "club": "club:beagh",
+      "source": "https://www.galwaydaily.com/sport/gaa-beaghs-magnificent-seven-shoots-down-moycullen/",
+      "note": "Galway Daily Beagh team sheet: Evan Hunt midfield; Wikipedia 2022 Galway SHC scorers list Evan Hunt for Beagh; Galway minor 2015 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:diarmuid-davoren",
+      "club": "club:moycullen",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2022 Galway SHC: Diarmuid Davoren named among Moycullen scorers; Galway minor 2020 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:gearoid-loughnane",
+      "club": "club:loughrea",
+      "source": "https://www.gaa.ie/article/galway-shc-final-loughrea-overcome-cappataggle",
+      "note": "GAA.ie Galway SHC final report: Gearoid Loughnane Loughrea goalkeeper (penalty save); Galway Intermediate All-Ireland 2015 panel.",
+      "confidence": "high"
+    },
+    {
+      "player": "player:basil-larkin",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA 2014 roll: Basil Larkin named on Meelick/Eyrecourt Junior C Hurling Champions panel; Galway U-21 1991 panel. Cleared from prior HOLD — named club cite now present.",
+      "confidence": "medium"
+    }
+  ],
+  "new_players": [
+    {
+      "name": "Padraic Gavin",
+      "id": "player:padraic-gavin-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876",
+      "note": "Connacht Tribune 2026 Premier Intermediate opener: late points from Padraic Gavin and Cathal Mannion for Ahascragh-Fohenagh vs Kinvara.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "John Whelan",
+      "id": "player:john-whelan-tynagh-abbey-duniry",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://www.gaa.ie/article/aib-all-ireland-club-ihc-impressive-tynagh-abbey-duniry-advance",
+      "note": "GAA.ie All-Ireland Club IHC team sheet: John Whelan starting corner-back for Tynagh-Abbey/Duniry.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Garry McHugo",
+      "id": "player:garry-mchugo-tynagh-abbey-duniry",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://www.gaa.ie/article/aib-all-ireland-club-ihc-impressive-tynagh-abbey-duniry-advance",
+      "note": "GAA.ie All-Ireland Club IHC team sheet: Garry McHugo starting full-back for Tynagh-Abbey/Duniry.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Johnny Conroy",
+      "id": "player:johnny-conroy-tynagh-abbey-duniry",
+      "club": "club:tynagh-abbey-duniry",
+      "source": "https://www.gaa.ie/article/aib-all-ireland-club-ihc-impressive-tynagh-abbey-duniry-advance",
+      "note": "GAA.ie All-Ireland Club IHC team sheet: Johnny Conroy starting forward for Tynagh-Abbey/Duniry.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Emmett Malone",
+      "id": "player:emmett-malone-cappataggle",
+      "club": "club:cappataggle",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA 2014 roll: Emmett Malone named on Cappataggle Intermediate Hurling Champions panel (also 2008 roll).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Patrick Egan",
+      "id": "player:patrick-egan-cappataggle",
+      "club": "club:cappataggle",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA 2014 roll: Patrick Egan named on Cappataggle Intermediate Hurling Champions panel (also 2008 roll).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Stephen Creaven",
+      "id": "player:stephen-creaven-cappataggle",
+      "club": "club:cappataggle",
+      "source": "https://www.galwaygaa.ie/history/2014-football-hurling-roll-of-honour/",
+      "note": "Galway GAA 2014 roll: Stephen Creaven named on Cappataggle Intermediate Hurling Champions panel (also 2008 roll).",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Rory Gantley",
+      "id": "player:rory-gantley-beagh",
+      "club": "club:beagh",
+      "source": "https://www.galwaydaily.com/sport/gaa-beaghs-magnificent-seven-shoots-down-moycullen/",
+      "note": "Galway Daily Beagh team sheet / scorers: Rory Gantley 0-11 for Beagh.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adrian Tuohey",
+      "id": "player:adrian-tuohey-beagh",
+      "club": "club:beagh",
+      "source": "https://en.wikipedia.org/wiki/2022_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2022 Galway SHC: Adrian Tuohey / Adrian Touhey named among Beagh scorers; Connacht Tribune AF/Beagh Senior B report.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:michael-healy",
+    "player:michael-conneely",
+    "player:kerrill-wade",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:aonghus-dervan",
+    "player:brendan-dervan",
+    "player:pakie-dervan",
+    "player:patrick-dervan",
+    "player:gordan-glynn",
+    "player:john-ryan",
+    "player:finnian-coone",
+    "player:tom-monaghan",
+    "player:tony-og-regan",
+    "player:greg-thomas",
+    "player:kevin-broderick",
+    "player:sean-glynn",
+    "player:brian-concannon",
+    "player:kieran-finnerty",
+    "player:albert-moylan",
+    "player:christy-helebert",
+    "player:brendan-keogh",
+    "player:conor-flaherty",
+    "player:cormac-diviney",
+    "player:benny-lawless",
+    "player:damien-fahy",
+    "player:alan-leech",
+    "player:brendan-lynch",
+    "player:greg-kennedy",
+    "player:gordon-glynn"
+  ],
+  "new_clubs": [
+    {
+      "id": "club:salthill-knocknacarra",
+      "cols": {
+        "type": "club",
+        "name": "Salthill-Knocknacarra",
+        "county": "team:galway",
+        "note": "r8: created for Galway JAHC finals (Wikipedia scores vs Clarinbridge 2020, Athenry 2019).",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "club:cussane-historic",
+      "cols": {
+        "type": "club",
+        "name": "Cussane",
+        "county": "team:galway",
+        "note": "r8 historic: 1963 Galway IHC finalists (Wikipedia Killimordaly 3-12 Cussane 4-07).",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "confidence": "medium",
+        "historic": true
+      }
+    },
+    {
+      "id": "club:bearna-na-forbacha",
+      "cols": {
+        "type": "club",
+        "name": "Bearna/Na Forbacha",
+        "county": "team:galway",
+        "note": "r8: created for 2012 Galway JAHC final (Wikipedia Loughrea 1-09 Bearna/Na Forbacha 1-07).",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "new_matches": [
+    {
+      "id": "match:galway-ihc-1963-final",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Cussane (1963 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1963,
+        "home": "club:killimordaly",
+        "away": "club:cussane-historic",
+        "winner": "club:killimordaly",
+        "runner_up": "club:cussane-historic",
+        "score": "Killimordaly 3-12, Cussane 4-07",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Killimordaly 3-12 Cussane 4-07.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:killimordaly"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1964-final",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Cappataggle (1964 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1964,
+        "home": "club:moycullen",
+        "away": "club:cappataggle",
+        "winner": "club:moycullen",
+        "runner_up": "club:cappataggle",
+        "score": "Moycullen 7-13, Cappataggle 5-02",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Moycullen 7-13 Cappataggle 5-02.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:moycullen"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1966-final",
+      "cols": {
+        "type": "match",
+        "name": "Kinvara vs Oranmore (1966 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1966,
+        "home": "club:kinvara",
+        "away": "club:oranmore-historic",
+        "winner": "club:kinvara",
+        "runner_up": "club:oranmore-historic",
+        "score": "Kinvara 1-09, Oranmore 2-00",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Kinvara 1-09 Oranmore 2-00.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:kinvara"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1972-final",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Ahascragh (1972 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1972,
+        "home": "club:mullagh",
+        "away": "club:ahascragh-historic",
+        "winner": "club:mullagh",
+        "runner_up": "club:ahascragh-historic",
+        "score": "Mullagh 1-10, Ahascragh 0-05",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Mullagh 1-10 Ahascragh 0-05.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1973-final",
+      "cols": {
+        "type": "match",
+        "name": "Meelick-Eyrecourt vs Craughwell (1973 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1973,
+        "home": "club:meelick-eyrecourt",
+        "away": "club:craughwell",
+        "winner": "club:meelick-eyrecourt",
+        "runner_up": "club:craughwell",
+        "score": "Meelick-Eyrecourt 3-08, Craughwell 4-03",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Meelick-Eyrecourt 3-08 Craughwell 4-03.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1974-final",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Kiltormer (1974 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1974,
+        "home": "club:mullagh",
+        "away": "club:kiltormer",
+        "winner": "club:mullagh",
+        "runner_up": "club:kiltormer",
+        "score": "Mullagh 3-07, Kiltormer 1-09",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Mullagh 3-07 Kiltormer 1-09.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1976-final",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Killimor (1976 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1976,
+        "home": "club:sarsfields",
+        "away": "club:killimor",
+        "winner": "club:sarsfields",
+        "runner_up": "club:killimor",
+        "score": "Sarsfields 3-04, Killimor 0-04",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Sarsfields 3-04 Killimor 0-04.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1977-final",
+      "cols": {
+        "type": "match",
+        "name": "Rahoon vs Pádraig Pearses (1977 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1977,
+        "home": "club:rahoon",
+        "away": "club:padraig-pearses",
+        "winner": "club:rahoon",
+        "runner_up": "club:padraig-pearses",
+        "score": "Rahoon 3-12, Pádraig Pearses 1-12",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Rahoon 3-12 Pádraig Pearses 1-12.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1978-final",
+      "cols": {
+        "type": "match",
+        "name": "Kilbeacanty vs St Thomas' (1978 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1978,
+        "home": "club:kilbeacanty",
+        "away": "club:st-thomas",
+        "winner": "club:kilbeacanty",
+        "runner_up": "club:st-thomas",
+        "score": "Kilbeacanty 0-17, St Thomas' 2-04",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Kilbeacanty 0-17 St Thomas' 2-04.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1979-final",
+      "cols": {
+        "type": "match",
+        "name": "Pádraig Pearses vs Killimor (1979 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1979,
+        "home": "club:padraig-pearses",
+        "away": "club:killimor",
+        "winner": "club:padraig-pearses",
+        "runner_up": "club:killimor",
+        "score": "Pádraig Pearses 2-07, Killimor 2-05",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Pádraig Pearses 2-07 Killimor 2-05.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1980-final",
+      "cols": {
+        "type": "match",
+        "name": "Beagh vs Mullagh (1980 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1980,
+        "home": "club:beagh",
+        "away": "club:mullagh",
+        "winner": "club:beagh",
+        "runner_up": "club:mullagh",
+        "score": "Beagh 4-13, Mullagh 3-11",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Beagh 4-13 Mullagh 3-11.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1981-final",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Killimor (1981 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1981,
+        "home": "club:loughrea",
+        "away": "club:killimor",
+        "winner": "club:loughrea",
+        "runner_up": "club:killimor",
+        "score": "Loughrea 3-08, Killimor 2-07",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Loughrea 3-08 Killimor 2-07.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1986-final",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Carnmore (1986 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1986,
+        "home": "club:craughwell",
+        "away": "club:carnmore",
+        "winner": "club:craughwell",
+        "runner_up": "club:carnmore",
+        "score": "Craughwell 1-09, Carnmore 0-06",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Craughwell 1-09 Carnmore 0-06.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-1988-final",
+      "cols": {
+        "type": "match",
+        "name": "Carnmore vs Pádraig Pearses (1988 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 1988,
+        "home": "club:carnmore",
+        "away": "club:padraig-pearses",
+        "winner": "club:carnmore",
+        "runner_up": "club:padraig-pearses",
+        "score": "Carnmore 1-09, Pádraig Pearses 0-04",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Carnmore 1-09 Pádraig Pearses 0-04.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win",
+        "historic_club": "club:carnmore"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2012-final",
+      "cols": {
+        "type": "match",
+        "name": "Killimordaly vs Ahascragh/Fohenagh (2012 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2012,
+        "home": "club:killimordaly",
+        "away": "club:ahascragh-fohenagh",
+        "winner": "club:killimordaly",
+        "runner_up": "club:ahascragh-fohenagh",
+        "score": "Killimordaly 0-17, Ahascragh/Fohenagh 0-14",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Killimordaly 0-17 Ahascragh/Fohenagh 0-14.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2015-final",
+      "cols": {
+        "type": "match",
+        "name": "Abbeyknockmoy vs Moycullen (2015 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2015,
+        "home": "club:abbeyknockmoy",
+        "away": "club:moycullen",
+        "winner": "club:abbeyknockmoy",
+        "runner_up": "club:moycullen",
+        "score": "Abbeyknockmoy 1-16, Moycullen 0-13",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Abbeyknockmoy 1-16 Moycullen 0-13.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2017-final",
+      "cols": {
+        "type": "match",
+        "name": "Ballinderreen vs Meelick-Eyrecourt (2017 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2017,
+        "home": "club:ballinderreen",
+        "away": "club:meelick-eyrecourt",
+        "winner": "club:ballinderreen",
+        "runner_up": "club:meelick-eyrecourt",
+        "score": "Ballinderreen 1-14, Meelick-Eyrecourt 0-13",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Ballinderreen 1-14 Meelick-Eyrecourt 0-13.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2019-final",
+      "cols": {
+        "type": "match",
+        "name": "Kinvara vs Kilconieron (2019 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2019,
+        "home": "club:kinvara",
+        "away": "club:kilconieron",
+        "winner": "club:kinvara",
+        "runner_up": "club:kilconieron",
+        "score": "Kinvara 1-10, Kilconieron 0-12",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Kinvara 1-10 Kilconieron 0-12.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2020-final",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Moycullen (2020 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2020,
+        "home": "club:kilconieron",
+        "away": "club:moycullen",
+        "winner": "club:kilconieron",
+        "runner_up": "club:moycullen",
+        "score": "Kilconieron 2-27, Moycullen 0-10",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Kilconieron 2-27 Moycullen 0-10.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2021-final",
+      "cols": {
+        "type": "match",
+        "name": "Moycullen vs Killimor (2021 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2021,
+        "home": "club:moycullen",
+        "away": "club:killimor",
+        "winner": "club:moycullen",
+        "runner_up": "club:killimor",
+        "score": "Moycullen 2-11, Killimor 1-12",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Moycullen 2-11 Killimor 1-12.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2022-final",
+      "cols": {
+        "type": "match",
+        "name": "Killimor vs Meelick-Eyrecourt (2022 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2022,
+        "home": "club:killimor",
+        "away": "club:meelick-eyrecourt",
+        "winner": "club:killimor",
+        "runner_up": "club:meelick-eyrecourt",
+        "score": "Killimor 0-13, Meelick-Eyrecourt 0-09",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Killimor 0-13 Meelick-Eyrecourt 0-09.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2023-final",
+      "cols": {
+        "type": "match",
+        "name": "Ballinderreen vs Tynagh-Abbey/Duniry (2023 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2023,
+        "home": "club:ballinderreen",
+        "away": "club:tynagh-abbey-duniry",
+        "winner": "club:ballinderreen",
+        "runner_up": "club:tynagh-abbey-duniry",
+        "score": "Ballinderreen 3-18, Tynagh-Abbey/Duniry 2-18",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Ballinderreen 3-18 Tynagh-Abbey/Duniry 2-18.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-ihc-2024-final",
+      "cols": {
+        "type": "match",
+        "name": "Tynagh-Abbey/Duniry vs Kinvara (2024 Galway IHC Final)",
+        "competition": "Galway Intermediate Hurling Championship",
+        "round": "Final",
+        "year": 2024,
+        "home": "club:tynagh-abbey-duniry",
+        "away": "club:kinvara",
+        "winner": "club:tynagh-abbey-duniry",
+        "runner_up": "club:kinvara",
+        "score": "Tynagh-Abbey/Duniry 2-16, Kinvara 0-17",
+        "note": "Wikipedia Galway Intermediate Hurling Championship list of finals: Tynagh-Abbey/Duniry 2-16 Kinvara 0-17.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Intermediate_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2006-final",
+      "cols": {
+        "type": "match",
+        "name": "Tommy Larkins vs Skehana (2006 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2006,
+        "home": "club:tommy-larkins",
+        "away": "club:skehana",
+        "winner": "club:tommy-larkins",
+        "runner_up": "club:skehana",
+        "score": "Tommy Larkins 2-06, Skehana 0-08",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Tommy Larkins 2-06 Skehana 0-08.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2007-final",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Meelick-Eyrecourt (2007 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2007,
+        "home": "club:castlegar",
+        "away": "club:meelick-eyrecourt",
+        "winner": "club:castlegar",
+        "runner_up": "club:meelick-eyrecourt",
+        "score": "Castlegar 0-14, Meelick-Eyrecourt 0-13",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Castlegar 0-14 Meelick-Eyrecourt 0-13.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2008-final",
+      "cols": {
+        "type": "match",
+        "name": "Mullagh vs Skehana (2008 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2008,
+        "home": "club:mullagh",
+        "away": "club:skehana",
+        "winner": "club:mullagh",
+        "runner_up": "club:skehana",
+        "score": "Mullagh 0-13, Skehana 0-07",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Mullagh 0-13 Skehana 0-07.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2009-final",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Sarsfields (2009 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2009,
+        "home": "club:loughrea",
+        "away": "club:sarsfields",
+        "winner": "club:loughrea",
+        "runner_up": "club:sarsfields",
+        "score": "Loughrea 1-10, Sarsfields 1-05",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Loughrea 1-10 Sarsfields 1-05.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2010-final",
+      "cols": {
+        "type": "match",
+        "name": "Gort vs Portumna (2010 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2010,
+        "home": "club:gort",
+        "away": "club:portumna",
+        "winner": "club:gort",
+        "runner_up": "club:portumna",
+        "score": "Gort 2-13, Portumna 1-10",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Gort 2-13 Portumna 1-10.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2011-final",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Ballygar (2011 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2011,
+        "home": "club:athenry",
+        "away": "club:ballygar",
+        "winner": "club:athenry",
+        "runner_up": "club:ballygar",
+        "score": "Athenry 2-08, Ballygar 0-07",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Athenry 2-08 Ballygar 0-07.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2012-final",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Bearna/Na Forbacha (2012 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2012,
+        "home": "club:loughrea",
+        "away": "club:bearna-na-forbacha",
+        "winner": "club:loughrea",
+        "runner_up": "club:bearna-na-forbacha",
+        "score": "Loughrea 1-09, Bearna/Na Forbacha 1-07",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Loughrea 1-09 Bearna/Na Forbacha 1-07.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2013-final",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Annaghdown (2013 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2013,
+        "home": "club:craughwell",
+        "away": "club:annaghdown",
+        "winner": "club:craughwell",
+        "runner_up": "club:annaghdown",
+        "score": "Craughwell 2-07, Annaghdown 1-09",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Craughwell 2-07 Annaghdown 1-09.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2014-final",
+      "cols": {
+        "type": "match",
+        "name": "Annaghdown vs An Spidéal (2014 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2014,
+        "home": "club:annaghdown",
+        "away": "club:an-spideal",
+        "winner": "club:annaghdown",
+        "runner_up": "club:an-spideal",
+        "score": "Annaghdown 1-08, An Spidéal 0-07",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Annaghdown 1-08 An Spidéal 0-07.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2015-final",
+      "cols": {
+        "type": "match",
+        "name": "An Spidéal vs Castlegar (2015 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2015,
+        "home": "club:an-spideal",
+        "away": "club:castlegar",
+        "winner": "club:an-spideal",
+        "runner_up": "club:castlegar",
+        "score": "An Spidéal 0-13, Castlegar 0-10",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: An Spidéal 0-13 Castlegar 0-10.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2016-final",
+      "cols": {
+        "type": "match",
+        "name": "Meelick-Eyrecourt vs Sarsfields (2016 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2016,
+        "home": "club:meelick-eyrecourt",
+        "away": "club:sarsfields",
+        "winner": "club:meelick-eyrecourt",
+        "runner_up": "club:sarsfields",
+        "score": "Meelick-Eyrecourt 2-12, Sarsfields 0-14",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Meelick-Eyrecourt 2-12 Sarsfields 0-14.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2017-final",
+      "cols": {
+        "type": "match",
+        "name": "Sylane vs Tommy Larkins (2017 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2017,
+        "home": "club:sylane",
+        "away": "club:tommy-larkins",
+        "winner": "club:sylane",
+        "runner_up": "club:tommy-larkins",
+        "score": "Sylane 3-18, Tommy Larkins 1-08",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Sylane 3-18 Tommy Larkins 1-08.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2018-final",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Sarsfields (2018 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2018,
+        "home": "club:turloughmore",
+        "away": "club:sarsfields",
+        "winner": "club:turloughmore",
+        "runner_up": "club:sarsfields",
+        "score": "Turloughmore 3-13, Sarsfields 1-16",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Turloughmore 3-13 Sarsfields 1-16.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2019-final",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Salthill-Knocknacarra (2019 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2019,
+        "home": "club:athenry",
+        "away": "club:salthill-knocknacarra",
+        "winner": "club:athenry",
+        "runner_up": "club:salthill-knocknacarra",
+        "score": "Athenry 3-21, Salthill-Knocknacarra 0-14",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Athenry 3-21 Salthill-Knocknacarra 0-14.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2020-final",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Salthill-Knocknacarra (2020 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2020,
+        "home": "club:clarinbridge",
+        "away": "club:salthill-knocknacarra",
+        "winner": "club:clarinbridge",
+        "runner_up": "club:salthill-knocknacarra",
+        "score": "Clarinbridge 3-12, Salthill-Knocknacarra 2-06",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Clarinbridge 3-12 Salthill-Knocknacarra 2-06.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2021-final",
+      "cols": {
+        "type": "match",
+        "name": "Craughwell vs Liam Mellows (2021 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2021,
+        "home": "club:craughwell",
+        "away": "club:liam-mellows",
+        "winner": "club:craughwell",
+        "runner_up": "club:liam-mellows",
+        "score": "Craughwell 1-19, Liam Mellows 2-09",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Craughwell 1-19 Liam Mellows 2-09.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2022-final",
+      "cols": {
+        "type": "match",
+        "name": "Ballygar vs Skehana/Mountbellew–Moylough (2022 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2022,
+        "home": "club:ballygar",
+        "away": "club:skehana-mountbellew-moylough",
+        "winner": "club:ballygar",
+        "runner_up": "club:skehana-mountbellew-moylough",
+        "score": "Ballygar 1-17, Skehana/Mountbellew–Moylough 1-16",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Ballygar 1-17 Skehana/Mountbellew–Moylough 1-16.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2023-final",
+      "cols": {
+        "type": "match",
+        "name": "Skehana/Mountbellew–Moylough vs Loughrea (2023 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2023,
+        "home": "club:skehana-mountbellew-moylough",
+        "away": "club:loughrea",
+        "winner": "club:skehana-mountbellew-moylough",
+        "runner_up": "club:loughrea",
+        "score": "Skehana/Mountbellew–Moylough 1-13, Loughrea 0-13",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Skehana/Mountbellew–Moylough 1-13 Loughrea 0-13.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2024-final",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Loughrea (2024 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2024,
+        "home": "club:athenry",
+        "away": "club:loughrea",
+        "winner": "club:athenry",
+        "runner_up": "club:loughrea",
+        "score": "Athenry 2-15, Loughrea 1-12",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: Athenry 2-15 Loughrea 1-12.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    },
+    {
+      "id": "match:galway-jhc-2025-final",
+      "cols": {
+        "type": "match",
+        "name": "St Thomas' vs Loughrea (2025 Galway JAHC Final)",
+        "competition": "Galway Junior A Hurling Championship",
+        "round": "Final",
+        "year": 2025,
+        "home": "club:st-thomas",
+        "away": "club:loughrea",
+        "winner": "club:st-thomas",
+        "runner_up": "club:loughrea",
+        "score": "St Thomas' 1-25, Loughrea 1-20",
+        "note": "Wikipedia Galway Junior A Hurling Championship list of finals: St Thomas' 1-25 Loughrea 1-20.",
+        "confidence": "medium",
+        "source": "https://en.wikipedia.org/wiki/Galway_Junior_A_Hurling_Championship",
+        "result": "win"
+      }
+    }
+  ],
+  "club_meta": [
+    {
+      "id": "club:ahascragh-fohenagh",
+      "cols": {
+        "note": "r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points).",
+        "source_connacht_tribune_2026": "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876"
+      }
+    },
+    {
+      "id": "club:turloughmore",
+      "cols": {
+        "note": "r8: Frank Burke + Francis Forde + Gerry Holland linked (Wikipedia / Irish Mirror / Irish World)."
+      }
+    },
+    {
+      "id": "club:castlegar",
+      "cols": {
+        "note": "r8: Gerry Glynn linked (Wikipedia Castlegar 1979–80 All-Ireland club XV)."
+      }
+    },
+    {
+      "id": "club:loughrea",
+      "cols": {
+        "note": "r8: Gregory Kennedy (Wikipedia Greg Kennedy) + Gearoid Loughnane (GAA.ie SHC final GK) linked."
+      }
+    },
+    {
+      "id": "club:tynagh-abbey-duniry",
+      "cols": {
+        "note": "r8: Ben Moran + David Jordan linked; thin fill John Whelan / Garry McHugo / Johnny Conroy from GAA.ie AI Club IHC sheet."
+      }
+    },
+    {
+      "id": "club:cappataggle",
+      "cols": {
+        "note": "r8: Daniel Nevin / Declan Cronin / Darragh Dolan linked; Emmett Malone / Patrick Egan / Stephen Creaven added (Galway GAA 2014 IHC champions roll)."
+      }
+    },
+    {
+      "id": "club:athenry",
+      "cols": {
+        "note": "r8: Barry Hanley / David Kennedy / Enda Concannon / Danny Whyte / Donal Moran linked (Athenry GAA 2007 + Galway GAA 2004 rolls). Alan Leech HOLD (Kinvara/Athenry collision)."
+      }
+    },
+    {
+      "id": "club:st-thomas",
+      "cols": {
+        "note": "r8: Bernard Burke / Donal Cooney / Enda Tannian linked (Galway GAA 2008 Minor A / 2004 Intermediate rolls)."
+      }
+    },
+    {
+      "id": "club:beagh",
+      "cols": {
+        "note": "r8: Evan Hunt linked; Rory Gantley / Adrian Tuohey added (Galway Daily / Wikipedia 2022 SHC)."
+      }
+    },
+    {
+      "id": "club:moycullen",
+      "cols": {
+        "note": "r8: Diarmuid Davoren linked (Wikipedia 2022 Galway SHC Moycullen scorers)."
+      }
+    },
+    {
+      "id": "club:meelick-eyrecourt",
+      "cols": {
+        "note": "r8: Basil Larkin linked (Galway GAA 2014 Junior C champions roll). Brendan Lynch HOLD (TAD/Meelick collision)."
+      }
+    },
+    {
+      "id": "club:claregalway",
+      "cols": {
+        "note": "HOLD orphan r8: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore."
+      }
+    },
+    {
+      "id": "club:college-road",
+      "cols": {
+        "note": "HOLD orphan r8: 1892–1893 SHC winners; no named first+last College Road XV cite."
+      }
+    },
+    {
+      "id": "club:eyrecourt-historic",
+      "cols": {
+        "note": "HOLD orphan r8: 1959 IHC winners but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt."
+      }
+    },
+    {
+      "id": "club:kilrickle",
+      "cols": {
+        "note": "HOLD orphan r8: 1949 IHC title — no named Kilrickle XV cite this run."
+      }
+    },
+    {
+      "id": "club:skehana",
+      "cols": {
+        "note": "HOLD orphan r8: 1952 IHC winners — no named historic Skehana XV. Modern amalgam club:skehana-mountbellew-moylough."
+      }
+    },
+    {
+      "id": "club:st-colemans",
+      "cols": {
+        "note": "HOLD orphan r8: 1948 SHC finalist — no named St Coleman's XV cite."
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:tom-monaghan": "HOLD: 1983 minor / 1986 U-21 panel id — not the modern Craughwell Thomas Monaghan. No club stamp.",
+    "player:tony-og-regan": "HOLD overwrite: Wikipedia/Rahoon-Newcastle but seed already Clarinbridge — do not overwrite.",
+    "player:greg-thomas": "HOLD overwrite: Wikipedia Castlegar but seed already Ballygar — do not overwrite.",
+    "player:kevin-broderick": "HOLD overwrite: seed Craughwell retained; Abbey-Duniry/TAD cites conflict — no overwrite.",
+    "player:brian-concannon": "HOLD overwrite: seed Loughrea retained; Wikipedia Killimordaly cites conflict — no overwrite.",
+    "player:sean-glynn": "HOLD: modern 2005/2007 panel Sean Glynn — do not stamp onto 1960 Newcastle Christy/Sean Glynn caption ids.",
+    "player:kieran-finnerty": "HOLD: club-less panel Kieran Finnerty — Abbey-Duniry 1999 K Finnerty uses distinct id player:kieran-finnerty-abbey-duniry.",
+    "player:albert-moylan": "HOLD r8: panel Albert Moylan — London St Gabriel's / Gort-region death notices; no clear Galway club stamp this run.",
+    "player:christy-helebert": "HOLD r8: former Galway senior / referee — no clear playing-club cite this run.",
+    "player:brendan-keogh": "HOLD r8: Athenry club photos exist but defer distinct stamp pending Archivist (common surname).",
+    "player:conor-flaherty": "HOLD r8: Claregalway football goalkeeper cites — not a Claregalway hurling club stamp.",
+    "player:cormac-diviney": "HOLD r8: 2011 minor panel — no clear public club cite (forum-only Cusacks mention ignored).",
+    "player:benny-lawless": "HOLD r8: public name hits are soccer (Athenry FC) — no clear hurling club stamp.",
+    "player:damien-fahy": "HOLD r8: 1994 minor panel — no clear club hurling cite this run.",
+    "player:alan-leech": "HOLD r8 collision: Galway GAA 2004 Kinvara U-21 A roll names Alan Leech; Athenry GAA 2007 U-21 gallery also names Alan Leech — do not stamp.",
+    "player:brendan-lynch": "HOLD r8 collision: GAA.ie Tynagh-Abbey/Duniry All-Ireland Club IHC GK sheet AND Galway GAA 2014 Meelick/Eyrecourt Junior C roll — do not stamp.",
+    "player:greg-kennedy": "HOLD r8: empty/alias id — club stamp applied to player:gregory-kennedy (Wikipedia Greg Kennedy / Loughrea).",
+    "player:gordon-glynn": "HOLD r8: spelling twin of gordan-glynn; no clear single-club cite this run."
+  }
+}
