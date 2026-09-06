@@ -32047,7 +32047,7 @@
   {
     "row": "player:brian-mahoney",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2000 panel (Galway GAA). HOLD r18: Brian Mahoney MHC 2000 spelling collision with Brian Mahony / Brian O’Mahony (player:brian-omahony) — do not auto-link without disambiguating club cite."
   },
   {
     "row": "player:brian-molloy",
@@ -32137,7 +32137,7 @@
   {
     "row": "player:brian-omahony",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1999 panel (Galway GAA). HOLD r18: Brian O’Mahony MHC 1999/2000 spelling collision with Brian Mahoney/Mahony — do not auto-link without disambiguating club cite."
   },
   {
     "row": "player:caimin-killeen",
@@ -33837,17 +33837,17 @@
   {
     "row": "player:david-canning",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:david-canning",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:david-canning",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). Galway GAA Roll of Honour 1990: David Canning named on Portumna Minor ‘A’ Hurling Champions panel; U-21 1993 inter-county panel age-match."
   },
   {
     "row": "player:david-collins",
@@ -34322,17 +34322,17 @@
   {
     "row": "player:declan-walsh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:declan-walsh",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:declan-walsh",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). Galway GAA Roll of Honour 1990: Declan Walsh named on Carnmore Minor ‘B’ Hurling Champions panel; MHC 1992 inter-county panel age-match."
   },
   {
     "row": "player:dermot-turley",
@@ -35082,17 +35082,17 @@
   {
     "row": "player:endas-linnane",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:endas-linnane",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "http://www.advertiser.ie/galway/article/74584/hurling-stars-to-fundraise-for-new-mental-health-awareness-group"
   },
   {
     "row": "player:endas-linnane",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Galway Advertiser: Enda Linnane cited as Gort hurler / former Galway inter-county; Galway GAA Roll of Honour 1998 lists Enda Linnane on Gort Junior ‘B’ and U-21 ‘B’ champions panels; IHC 1999 panel age-match (Endas/Enda spelling)."
   },
   {
     "row": "player:eoghan-geraghty",
@@ -35512,17 +35512,17 @@
   {
     "row": "player:francis-obrien",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:francis-obrien",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:francis-obrien",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Galway GAA Roll of Honour 1995: Francis O’Brien named on Pádraig Pearses Intermediate Hurling Champions panel; U-21 1991 inter-county age-plausible."
   },
   {
     "row": "player:frank-burke",
@@ -37387,7 +37387,7 @@
   {
     "row": "player:john-ryan",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r18: John Ryan U-21 1978 bare surname vs Killimordaly SHC 1986 John Ryan — common-name collision; do not auto-link."
   },
   {
     "row": "player:johnny-oloughlin",
@@ -38222,17 +38222,17 @@
   {
     "row": "player:liam-burke",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:liam-burke",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:liam-burke",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). Galway GAA Roll of Honour 1993: Liam Burke named on Kilconieron Intermediate and U-21 Hurling Champions panels; U-21 1991 inter-county age-plausible."
   },
   {
     "row": "player:liam-collins",
@@ -39652,7 +39652,7 @@
   {
     "row": "player:michael-headd",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r18: Michael Headd U-21 1978 without first+last club cite vs later St Thomas’ Headd family (Maurice/Tony) — era/club collision."
   },
   {
     "row": "player:michael-healy",
@@ -39882,17 +39882,17 @@
   {
     "row": "player:michael-spellman",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:michael-spellman",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:michael-spellman",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1992 panel (Galway GAA). Galway GAA Roll of Honour: Michael Spellman/Spelman named on Clarinbridge Minor 1992 and U-21 ‘A’ 1995 champions panels; MHC 1992 inter-county age-match."
   },
   {
     "row": "player:michael-walsh",
@@ -40152,17 +40152,17 @@
   {
     "row": "player:morgan-darcy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:morgan-darcy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:morgan-darcy",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1993 panel (Galway GAA). Galway GAA Roll of Honour 1992: Morgan Darcy named on Moycullen U-21 ‘A’ Hurling Champions panel; U-21 1993 inter-county panel age-match."
   },
   {
     "row": "player:murty-killilea",
@@ -40727,17 +40727,17 @@
   {
     "row": "player:noel-larkin",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:noel-larkin",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:noel-larkin",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1991 panel (Galway GAA). Named on Galway All-Ireland Intermediate Hurling Champions 1999 panel (Galway GAA). Galway GAA Roll of Honour 1997: Noel Larkin named on Meelick-Eyrecourt Intermediate Hurling Champions panel; U-21 1991 inter-county age-plausible."
   },
   {
     "row": "player:noel-mcdonagh",
@@ -41347,17 +41347,17 @@
   {
     "row": "player:pascal-healy",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:pascal-healy",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1994"
   },
   {
     "row": "player:pascal-healy",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1983 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1983 panel (Galway GAA). Athenry GAA / Galway GAA Roll of Honour: Pascal/Paschal Healy named on Athenry Senior Hurling Champions panels (1987–1990s incl. 1994 SHC); U-21 1983 inter-county age-match. Distinct first+last cite."
   },
   {
     "row": "player:pascal-ryan",
@@ -41437,17 +41437,17 @@
   {
     "row": "player:pat-higgins",
     "col": "confidence",
-    "val": "unverified"
+    "val": "high"
   },
   {
     "row": "player:pat-higgins",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+    "val": "https://www.athenrygaa.ie/index.php/history-photo-gallery/1994"
   },
   {
     "row": "player:pat-higgins",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA)."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 1983 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 1986 panel (Galway GAA). Athenry GAA / Galway GAA Roll of Honour: Pat Higgins captained Athenry Senior Hurling Champions 1994 and named on multiple Athenry SHC panels; Minor 1983 / U-21 panels age-match. First+last cite."
   },
   {
     "row": "player:pat-malone",
@@ -50872,7 +50872,7 @@
   {
     "row": "appearance:pat-higgins-minor-1983",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:gerry-mcinerney-minor-1983",
@@ -51407,7 +51407,7 @@
   {
     "row": "appearance:michael-spellman-minor-1992",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:liam-donoghue-minor-1992",
@@ -51707,7 +51707,7 @@
   {
     "row": "appearance:declan-walsh-minor-1992",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:michael-lynskey-minor-1992",
@@ -71102,7 +71102,7 @@
   {
     "row": "appearance:pascal-healy-u-21-1983",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:aidan-staunton-u-21-1983",
@@ -71932,7 +71932,7 @@
   {
     "row": "appearance:pat-higgins-u-21-1986",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:michael-helebert-u-21-1986",
@@ -72887,7 +72887,7 @@
   {
     "row": "appearance:liam-burke-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:christy-helebert-u-21-1991",
@@ -73182,7 +73182,7 @@
   {
     "row": "appearance:francis-obrien-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:noel-power-u-21-1991",
@@ -73422,7 +73422,7 @@
   {
     "row": "appearance:noel-larkin-u-21-1991",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:brendan-keogh-u-21-1991",
@@ -73782,7 +73782,7 @@
   {
     "row": "appearance:david-canning-u-21-1993",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:tony-headd-u-21-1993",
@@ -74022,7 +74022,7 @@
   {
     "row": "appearance:morgan-darcy-u-21-1993",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:michael-kerins-u-21-1993",
@@ -74382,7 +74382,7 @@
   {
     "row": "appearance:liam-burke-u-21-1993",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:nigel-shaughnessy-u-21-1993",
@@ -81067,7 +81067,7 @@
   {
     "row": "appearance:noel-larkin-ihc-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:dermot-turley-ihc-1999",
@@ -81667,7 +81667,7 @@
   {
     "row": "appearance:endas-linnane-ihc-1999",
     "col": "hold",
-    "val": true
+    "val": false
   },
   {
     "row": "appearance:damien-joyce-ihc-1999",
@@ -85617,7 +85617,7 @@
   {
     "row": "player:brian-mahoney",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:brian-molloy",
@@ -85632,7 +85632,7 @@
   {
     "row": "player:brian-omahony",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:caimin-killeen",
@@ -86482,7 +86482,7 @@
   {
     "row": "player:john-ryan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:johnny-oloughlin",
@@ -86832,7 +86832,7 @@
   {
     "row": "player:michael-headd",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "hold"
   },
   {
     "row": "player:michael-healy",
@@ -126251,6 +126251,4361 @@
   },
   {
     "row": "player:john-conroy",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:david-canning",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "appearance:david-canning-u-21-1993",
+    "col": "club",
+    "val": "club:portumna"
+  },
+  {
+    "row": "player:declan-walsh",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "appearance:declan-walsh-minor-1992",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:pascal-healy",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:pascal-healy-u-21-1983",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:michael-spellman",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "appearance:michael-spellman-minor-1992",
+    "col": "club",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "player:morgan-darcy",
+    "col": "club",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "appearance:morgan-darcy-u-21-1993",
+    "col": "club",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "player:francis-obrien",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "appearance:francis-obrien-u-21-1991",
+    "col": "club",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "player:pat-higgins",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:pat-higgins-minor-1983",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "appearance:pat-higgins-u-21-1986",
+    "col": "club",
+    "val": "club:athenry"
+  },
+  {
+    "row": "player:liam-burke",
+    "col": "club",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "appearance:liam-burke-u-21-1991",
+    "col": "club",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "appearance:liam-burke-u-21-1993",
+    "col": "club",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "player:noel-larkin",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "appearance:noel-larkin-u-21-1991",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "appearance:noel-larkin-ihc-1999",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "player:endas-linnane",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "appearance:endas-linnane-ihc-1999",
+    "col": "club",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "name",
+    "val": "Peter Lally"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Peter Lally named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "name",
+    "val": "Shane Glennon"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Shane Glennon named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "name",
+    "val": "Cyril Glennon"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Cyril Glennon named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "name",
+    "val": "Brendan Geraghty"
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Brendan Geraghty named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:brendan-geraghty-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "name",
+    "val": "Francis Devine"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Francis Devine named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "name",
+    "val": "Alan Mochlair"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Alan Mochlair named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "name",
+    "val": "Fergus Lyons"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Fergus Lyons named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "name",
+    "val": "Karl Mitchell"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Karl Mitchell named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "name",
+    "val": "Brian Lynskey"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Brian Lynskey named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "name",
+    "val": "Patrick Sweeney"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Patrick Sweeney named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "name",
+    "val": "Paddy Kennedy"
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Paddy Kennedy named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:paddy-kennedy-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "name",
+    "val": "Colm Kennedy"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Colm Kennedy named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "name",
+    "val": "Raymond Higgins"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Raymond Higgins named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "name",
+    "val": "Kieran Molloy"
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Kieran Molloy named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:kieran-molloy-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "name",
+    "val": "Martin Curley"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1996: Martin Curley named on Fohenagh Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "name",
+    "val": "Martin Healy"
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1981: Martin Healy named on Ahascragh Junior Hurling Champions panel."
+  },
+  {
+    "row": "player:martin-healy-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "name",
+    "val": "Johnny Costello"
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1981: Johnny Costello named on Ahascragh Junior Hurling Champions panel."
+  },
+  {
+    "row": "player:johnny-costello-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "name",
+    "val": "Nicholas Finnerty"
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1981: Nicholas Finnerty named on Ahascragh Junior Hurling Champions panel."
+  },
+  {
+    "row": "player:nicholas-finnerty-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "name",
+    "val": "Thomas Divilly"
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1981: Thomas Divilly named on Ahascragh Junior Hurling Champions panel."
+  },
+  {
+    "row": "player:thomas-divilly-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "name",
+    "val": "Bernard Donlon"
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1981: Bernard Donlon named on Ahascragh Junior Hurling Champions panel."
+  },
+  {
+    "row": "player:bernard-donlon-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "name",
+    "val": "Dermott Murphy"
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1981: Dermott Murphy named on Ahascragh Junior Hurling Champions panel."
+  },
+  {
+    "row": "player:dermott-murphy-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "name",
+    "val": "Marty Glynn"
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1981: Marty Glynn named on Ahascragh Junior Hurling Champions panel."
+  },
+  {
+    "row": "player:marty-glynn-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "name",
+    "val": "Gerry Cosgrave"
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Gerry Cosgrave named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:gerry-cosgrave-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "name",
+    "val": "Frankie Nolan"
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Frankie Nolan named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:frankie-nolan-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "name",
+    "val": "Frank Tully"
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Frank Tully named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:frank-tully-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "name",
+    "val": "Pat Delaney"
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Pat Delaney named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:pat-delaney-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "name",
+    "val": "Paddy Glynn"
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Paddy Glynn named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:paddy-glynn-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "name",
+    "val": "John Joe Grady"
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: John Joe Grady named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:john-joe-grady-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "name",
+    "val": "Martin Smyth"
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Martin Smyth named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:martin-smyth-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "name",
+    "val": "Mike Cloonan"
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Mike Cloonan named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:mike-cloonan-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "name",
+    "val": "Seamus Lawlor"
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1989: Seamus Lawlor named on Ahascragh Junior ‘A’ Hurling Champions panel."
+  },
+  {
+    "row": "player:seamus-lawlor-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "name",
+    "val": "Niall Canavan"
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Niall Canavan named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:niall-canavan-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "name",
+    "val": "Kenneth Leonard"
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Kenneth Leonard named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:kenneth-leonard-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "name",
+    "val": "Carl Leonard"
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Carl Leonard named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:carl-leonard-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "name",
+    "val": "Christy Burke"
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Christy Burke named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:christy-burke-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "name",
+    "val": "Ronan Leonard"
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Ronan Leonard named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:ronan-leonard-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "name",
+    "val": "Cathal Gaffney"
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Cathal Gaffney named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:cathal-gaffney-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "name",
+    "val": "Padraic Carr"
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Padraic Carr named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:padraic-carr-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "name",
+    "val": "Damien Burke"
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "club",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Damien Burke named on Annaghdown Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:damien-burke-annaghdown",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "name",
+    "val": "Paudi Kelly"
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Paudi Kelly named on Ballinasloe Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:paudi-kelly-ballinasloe",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "name",
+    "val": "Paul Desmond"
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Paul Desmond named on Ballinasloe Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:paul-desmond-ballinasloe",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "name",
+    "val": "Shane Kelly"
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Shane Kelly named on Ballinasloe Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:shane-kelly-ballinasloe",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "name",
+    "val": "Ronan Cogavin"
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Ronan Cogavin named on Ballinasloe Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:ronan-cogavin-ballinasloe",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "name",
+    "val": "Eoin Fenton"
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/2000-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 2000: Eoin Fenton named on Ballinasloe Minor ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:eoin-fenton-ballinasloe",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "name",
+    "val": "John Fox"
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1988: John Fox named on Carnmore Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:john-fox-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "name",
+    "val": "Thomas Grealish"
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1988: Thomás Grealish named on Carnmore Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:thomas-grealish-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "name",
+    "val": "Michael Killilea"
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1988: Michael Killilea named on Carnmore Intermediate Hurling Champions panel. Distinct from HOLD Murty Killilea."
+  },
+  {
+    "row": "player:michael-killilea-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "name",
+    "val": "Liam Fahy"
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1988: Liam Fahy named on Carnmore Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:liam-fahy-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "name",
+    "val": "Declan Collins"
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1988: Declan Collins named on Carnmore Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:declan-collins-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "name",
+    "val": "Fergus Madden"
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "club",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1988: Fergus Madden named on Carnmore Intermediate Hurling Champions panel."
+  },
+  {
+    "row": "player:fergus-madden-carnmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "name",
+    "val": "Des Rushe"
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1986: Des Rushe named on Rahoon–Newcastle U-21 ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:des-rushe-rahoon",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "name",
+    "val": "Gary Cloherty"
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1986: Gary Cloherty named on Rahoon–Newcastle U-21 ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:gary-cloherty-rahoon",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "name",
+    "val": "Liam Maloney"
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1986: Liam Maloney named on Rahoon–Newcastle U-21 ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:liam-maloney-rahoon",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "name",
+    "val": "John Feehan"
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "club",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1986: John Feehan named on Rahoon–Newcastle U-21 ‘C’ Hurling Champions panel."
+  },
+  {
+    "row": "player:john-feehan-rahoon",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "name",
+    "val": "Tommy Lynch"
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "club",
+    "val": "club:sylane"
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1991: Tommy Lynch named on Sylane Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:tommy-lynch-sylane",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "name",
+    "val": "Pat Lally"
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "club",
+    "val": "club:sylane"
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1991: Pat Lally named on Sylane Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:pat-lally-sylane",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "name",
+    "val": "Mattie Keane"
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "club",
+    "val": "club:sylane"
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1991: Mattie Keane named on Sylane Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:mattie-keane-sylane",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "name",
+    "val": "John Finnegan"
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "club",
+    "val": "club:sylane"
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1991: John Finnegan named on Sylane Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:john-finnegan-sylane",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "name",
+    "val": "Noel Tyrell"
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "club",
+    "val": "club:sylane"
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour 1991: Noel Tyrell named on Sylane Junior ‘B’ Hurling Champions panel."
+  },
+  {
+    "row": "player:noel-tyrell-sylane",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "name",
+    "val": "Martin Staunton"
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Martin Staunton named on Kiltormer Senior Hurling Champions panels 1982/1990/1991/All-Ireland Club 1992."
+  },
+  {
+    "row": "player:martin-staunton-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "name",
+    "val": "Tony Kilkenny"
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Tony Kilkenny named on Kiltormer Senior Hurling Champions panels 1982/1990/1991/All-Ireland Club 1992."
+  },
+  {
+    "row": "player:tony-kilkenny-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "name",
+    "val": "Sean Cormican"
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Seán Cormican named on Kiltormer Senior Hurling Champions 1982 and All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:sean-cormican-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "name",
+    "val": "Brian McManus"
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Brian McManus named on Kiltormer Senior Hurling Champions 1990/1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:brian-mcmanus-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "name",
+    "val": "Dermot Cox"
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Dermot Cox named on Kiltormer Senior Hurling Champions 1990/1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:dermot-cox-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "name",
+    "val": "Tony Larkin"
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Tony Larkin named on Kiltormer Senior Hurling Champions 1990/1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:tony-larkin-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "name",
+    "val": "Sean McKeigue"
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Sean McKeigue named on Kiltormer Senior Hurling Champions 1990/1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:sean-mckeigue-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "name",
+    "val": "Ger Kelly"
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Ger Kelly named on Kiltormer Senior Hurling Champions 1990/1991/All-Ireland Club 1992 panels. Distinct from HOLD Gerry Kelly."
+  },
+  {
+    "row": "player:ger-kelly-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "name",
+    "val": "Fionan Curley"
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Fionán Curley named on Kiltormer Senior Hurling Champions 1990/1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:fionan-curley-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "name",
+    "val": "Damian Curley"
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Damian Curley named on Kiltormer Senior Hurling Champions 1990/1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:damian-curley-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "name",
+    "val": "Enda Staunton"
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Enda Staunton named on Kiltormer Senior Hurling Champions 1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:enda-staunton-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "name",
+    "val": "Tommy Kilkenny"
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "note",
+    "val": "Galway GAA Roll of Honour: Tommy Kilkenny named on Kiltormer Senior Hurling Champions 1991/All-Ireland Club 1992 panels."
+  },
+  {
+    "row": "player:tommy-kilkenny-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "name",
+    "val": "Cappataggle vs St Thomas' (2024 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "runner_up",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "score",
+    "val": "Cappataggle 1-15, St Thomas' 0-15"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Semi-final."
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-cappataggle-st-thomas",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "name",
+    "val": "Clarinbridge vs Loughrea (2024 Galway SHC Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "round",
+    "val": "Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "runner_up",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "score",
+    "val": "Clarinbridge 1-16, Loughrea 3-16"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Semi-final."
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-sf-clarinbridge-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "name",
+    "val": "Cappataggle vs Sarsfields (2024 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "runner_up",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "score",
+    "val": "Cappataggle 0-22, Sarsfields 1-17"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-cappataggle-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "name",
+    "val": "Loughrea vs Castlegar (2024 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "score",
+    "val": "Loughrea 1-17, Castlegar 0-16"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Senior A Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2024-qf-loughrea-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "name",
+    "val": "Ardrahan vs Craughwell (2023 Galway SHC Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "round",
+    "val": "Round 2"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "score",
+    "val": "Ardrahan 0-22, Craughwell 1-19"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Group 4 Round 2 (draw 0-22 to 1-19)."
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-r2-ardrahan-craughwell",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "name",
+    "val": "Turloughmore vs Moycullen (2023 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "runner_up",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "score",
+    "val": "Turloughmore 0-22, Moycullen 0-14"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-turloughmore-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "name",
+    "val": "Clarinbridge vs Ardrahan (2023 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "runner_up",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "score",
+    "val": "Clarinbridge 2-20, Ardrahan 2-16"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-clarinbridge-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "name",
+    "val": "Cappataggle vs Gort (2023 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "runner_up",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "score",
+    "val": "Cappataggle 4-23, Gort 2-18"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-cappataggle-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "name",
+    "val": "Sarsfields vs Killimordaly (2023 Galway SHC Preliminary Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "round",
+    "val": "Preliminary Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "runner_up",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "score",
+    "val": "Sarsfields 3-27, Killimordaly 1-18"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Preliminary Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-pqf-sarsfields-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "name",
+    "val": "Turloughmore vs Castlegar (2023 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "score",
+    "val": "Turloughmore 2-20, Castlegar 1-14"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-turloughmore-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "name",
+    "val": "Sarsfields vs Oranmore-Maree (2023 Galway SHC Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "round",
+    "val": "Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "away",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "runner_up",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "score",
+    "val": "Sarsfields 3-24, Oranmore-Maree 0-12"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-qf-sarsfields-oranmore-maree",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "name",
+    "val": "Tommy Larkin's vs Portumna (2023 Galway SHC Relegation Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "round",
+    "val": "Relegation Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "runner_up",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "score",
+    "val": "Tommy Larkin's 2-21, Portumna 2-12"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Relegation Semi-final."
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-tommy-larkins-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "name",
+    "val": "Kilconieron vs Craughwell (2023 Galway SHC Relegation Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "round",
+    "val": "Relegation Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "home",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "away",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "score",
+    "val": "Kilconieron 2-17, Craughwell 1-20"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Relegation Semi-final (draw 2-17 to 1-20); Craughwell won replay."
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-kilconieron-craughwell",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "name",
+    "val": "Craughwell vs Kilconieron (2023 Galway SHC Relegation Semi-final Replay)"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "round",
+    "val": "Relegation Semi-final Replay"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "away",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "runner_up",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "score",
+    "val": "Craughwell 1-15, Kilconieron 0-14"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Relegation Semi-final Replay."
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-sf-replay-craughwell-kilconieron",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "name",
+    "val": "Kilconieron vs Portumna (2023 Galway SHC Relegation Final)"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "round",
+    "val": "Relegation Final"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "home",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "winner",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "runner_up",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "score",
+    "val": "Kilconieron 1-20, Portumna 0-13"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior A Relegation Final (Portumna relegated)."
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-relegation-final-kilconieron-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "name",
+    "val": "Mullagh vs Liam Mellows (2023 Galway Senior B Semi-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "round",
+    "val": "Senior B Semi-final"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "runner_up",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "score",
+    "val": "Mullagh 1-20, Liam Mellows 0-18"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior B Semi-final."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-sf-mullagh-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "name",
+    "val": "Liam Mellows vs Pádraig Pearses (2023 Galway Senior B Quarter-final)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "round",
+    "val": "Senior B Quarter-final"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "away",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "runner_up",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "score",
+    "val": "Liam Mellows 3-22, Pádraig Pearses 1-13"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior B Quarter-final."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-qf-liam-mellows-padraig-pearses",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "name",
+    "val": "Liam Mellows vs Athenry (2023 Galway Senior B Round 2)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "round",
+    "val": "Senior B Round 2"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "runner_up",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "score",
+    "val": "Liam Mellows 0-20, Athenry 0-17"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior B Group 1 Round 2."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r2-liam-mellows-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "name",
+    "val": "Mullagh vs Athenry (2023 Galway Senior B Round 3)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "round",
+    "val": "Senior B Round 3"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "runner_up",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "score",
+    "val": "Mullagh 3-15, Athenry 0-18"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior B Group 1 Round 3."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-r3-mullagh-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "name",
+    "val": "Athenry vs Killimor (2023 Galway Senior B Relegation)"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "round",
+    "val": "Senior B Relegation"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "runner_up",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "score",
+    "val": "Athenry 2-28, Killimor 1-12"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "note",
+    "val": "Wikipedia 2023 Galway SHC Senior B Relegation (Killimor relegated)."
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:galway-shc-2023-senior-b-relegation-athenry-killimor",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "player:john-ryan",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:michael-headd",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:brian-mahoney",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "player:brian-omahony",
     "col": "hold",
     "val": true
   }
