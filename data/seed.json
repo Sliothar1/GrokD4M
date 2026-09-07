@@ -6047,7 +6047,7 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
     "col": "note",
-    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Drawn final; replay followed. Date: contemporary papers report the Sunday game; Irish Independent printed the score on Mon 31 Aug 1959."
+    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Drawn final; replay followed. Date: contemporary papers report the Sunday game; Irish Independent printed the score on Mon 31 Aug 1959. PDF cutting art-fohenagh-clip6 attached (OCR confirms Castlegar 1-11, Fohenagh 2-8)."
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
@@ -6132,7 +6132,7 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "note",
-    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Replay after Pearse Stadium draw. Tuam Herald prints Fohenagh 3-9, Castlegar 4-5 (one-point win). INA catalog locator CSL19590915.1.4 — title: Castlegar have fallen and the new champions are Fohenagh. Extra contemporary cite beside existing Connacht Tribune secondary; excerpt locator only (no full text)."
+    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Replay after Pearse Stadium draw. Tuam Herald prints Fohenagh 3-9, Castlegar 4-5 (one-point win). INA catalog locator CSL19590915.1.4 — title: Castlegar have fallen and the new champions are Fohenagh. Extra contemporary cite beside existing Connacht Tribune secondary; excerpt locator only (no full text). PDF cutting art-fohenagh-clip5 attached (first senior title replay report; one-point win)."
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
@@ -244993,5 +244993,710 @@
     "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
     "col": "article_upload",
     "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "name",
+    "val": "P.J. Lally"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar (draw and replay cuttings); tireless midfielder/worker in Fohenagh’s first senior title campaign."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "name",
+    "val": "Mick Coen"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar and in the Maree championship advance (M. Coen on Fohenagh XV)."
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "name",
+    "val": "Marty Glynn"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh as Marty/M. Glynn in the 1959 Galway SHC final vs Castlegar; also named in Maree advance team list."
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "name",
+    "val": "Liam Manning"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours; 1-0 noted in report)."
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final draw · Castlegar 1-11 Fohenagh 2-8"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "name",
+    "val": "Frank Bleahan"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh on the XV that won the 1959 Galway SHC final replay vs Castlegar (first senior title)."
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final replay"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "name",
+    "val": "Aidan Murray"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours including a goal)."
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final draw · Castlegar 1-11 Fohenagh 2-8"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "name",
+    "val": "P.J. Killalea"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh on the 1959 Galway SHC final XV vs Castlegar (P.J. Killalea); distinct from Tim Killalea’s winning-point mention in the replay report."
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "name",
+    "val": "Paddy Fitzgerald"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the championship advance vs Maree (P. Fitzgerald on team list)."
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "cutting_cite",
+    "val": "Local paper · Fohenagh beat Maree · 1957"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final replay"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final replay"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final draw"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "name",
+    "val": "Fohenagh vs Cussaun — North Board Junior Final (1942)"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "competition",
+    "val": "North Board Junior Hurling Final"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "year",
+    "val": 1942
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "away",
+    "val": "club:cussane-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "opponent",
+    "val": "Cussaun"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "note",
+    "val": "Fohenagh emerged winners of the North Board Junior Final after an hour’s hard hurling with Cussaun (Tuam Herald cutting). Final score not clearly legible in OCR — omitted."
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "cite",
+    "val": "Tuam Herald cutting (1942)"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "secondary_cite",
+    "val": "Tuam Herald"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "article_upload",
+    "val": "art-fohenagh-clip1"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "name",
+    "val": "Fohenagh vs Loughrea (c.1957)"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "competition",
+    "val": "Galway hurling championship"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "year",
+    "val": 1957
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "opponent",
+    "val": "Loughrea"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "note",
+    "val": "Fohenagh defeated Loughrea with a late goal (report gives half-time Loughrea 2-3 Fohenagh 1-2 and Fohenagh 3-5 context; full final scoreline not clear enough to seed). Local paper cutting."
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "cite",
+    "val": "Local paper cutting (c.1957)"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "article_upload",
+    "val": "art-fohenagh-clip3"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-loughrea-c1957",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "name",
+    "val": "Fohenagh vs Maree (1957)"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "competition",
+    "val": "Galway hurling championship"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "year",
+    "val": 1957
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "away",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "score",
+    "val": "Fohenagh 3-11, Maree 2-7"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "opponent",
+    "val": "Maree"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "note",
+    "val": "Fohenagh advanced past Maree by 3-11 to 2-7; half-time Maree 2-6 Fohenagh 1-3 (local paper cutting)."
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "cite",
+    "val": "Local paper cutting (1957)"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "article_upload",
+    "val": "art-fohenagh-clip4"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-1957",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "article_upload",
+    "val": "art-fohenagh-clip6"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune cutting · Castlegar 1-11 Fohenagh 2-8"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "article_upload",
+    "val": "art-fohenagh-clip5"
   }
 ]

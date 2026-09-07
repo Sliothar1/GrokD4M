@@ -41,5 +41,228 @@
       "match:fohenagh-ahascragh-sadie-kilcommons-final"
     ],
     "privateTextPath": "data/private/article-text/art-ct-fohenagh-ahascragh-sadie-kilcommons.txt"
+  },
+  {
+    "id": "art-fohenagh-clip1",
+    "kind": "pdf",
+    "filename": "art-fohenagh-clip1.pdf",
+    "path": "/uploads/articles/art-fohenagh-clip1.pdf",
+    "publicUrl": "/uploads/articles/art-fohenagh-clip1.pdf",
+    "uploadedAt": "2026-09-07T15:44:45.702850+00:00",
+    "caption": "Tuam Herald cutting — Fohenagh win North Board Junior Final vs Cussaun (1942)",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "cussane",
+      "junior",
+      "north-board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:cussane-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fohenagh emerged winners of the North Board Junior Final after an hour's hard hurling with Cussaun.",
+    "citeChip": "Tuam Herald · North Board Junior Final · 1942",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-cussane-north-board-junior-final-1942"
+    ],
+    "privateTextPath": "data/private/article-text/art-fohenagh-clip1.txt"
+  },
+  {
+    "id": "art-fohenagh-clip2",
+    "kind": "pdf",
+    "filename": "art-fohenagh-clip2.pdf",
+    "path": "/uploads/articles/art-fohenagh-clip2.pdf",
+    "publicUrl": "/uploads/articles/art-fohenagh-clip2.pdf",
+    "uploadedAt": "2026-09-07T15:44:45.702850+00:00",
+    "caption": "Local paper cutting — Fohenagh–Tynagh junior board disciplinary report",
+    "year": "",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tynagh",
+      "junior",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:tynagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Galway junior board discussion of a Fohenagh–Tynagh match disturbance; club named in disciplinary debate.",
+    "citeChip": "Local paper · Fohenagh–Tynagh junior board",
+    "status": "pending",
+    "matchTags": [],
+    "privateTextPath": "data/private/article-text/art-fohenagh-clip2.txt"
+  },
+  {
+    "id": "art-fohenagh-clip3",
+    "kind": "pdf",
+    "filename": "art-fohenagh-clip3.pdf",
+    "path": "/uploads/articles/art-fohenagh-clip3.pdf",
+    "publicUrl": "/uploads/articles/art-fohenagh-clip3.pdf",
+    "uploadedAt": "2026-09-07T15:44:45.702850+00:00",
+    "caption": "Local paper cutting — Fohenagh edge Loughrea with a late winner",
+    "year": "1957",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "loughrea"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:loughrea"
+    ],
+    "playerTags": [
+      "player:frank-glynn-fohenagh"
+    ],
+    "excerpt": "Fohenagh came from behind against Loughrea; a late goal left Fohenagh winners (Fohenagh 3-5 context in report).",
+    "citeChip": "Local paper · Fohenagh vs Loughrea · c.1957",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-loughrea-c1957"
+    ],
+    "privateTextPath": "data/private/article-text/art-fohenagh-clip3.txt"
+  },
+  {
+    "id": "art-fohenagh-clip4",
+    "kind": "pdf",
+    "filename": "art-fohenagh-clip4.pdf",
+    "path": "/uploads/articles/art-fohenagh-clip4.pdf",
+    "publicUrl": "/uploads/articles/art-fohenagh-clip4.pdf",
+    "uploadedAt": "2026-09-07T15:44:45.702850+00:00",
+    "caption": "Local paper cutting — Fohenagh beat Maree 3-11 to 2-7",
+    "year": "1957",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "maree"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:maree-historic"
+    ],
+    "playerTags": [
+      "player:frank-madden",
+      "player:jim-moclair-fohenagh",
+      "player:marty-glynn-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:tony-ogorman",
+      "player:jim-sweeney",
+      "player:tommy-glynn-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tim-killalea",
+      "player:paddy-fitzgerald-fohenagh"
+    ],
+    "excerpt": "Fohenagh advanced past Maree by 3-11 to 2-7 after trailing at half-time (Maree 2-6, Fohenagh 1-3).",
+    "citeChip": "Local paper · Fohenagh beat Maree · 1957",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-maree-1957"
+    ],
+    "privateTextPath": "data/private/article-text/art-fohenagh-clip4.txt"
+  },
+  {
+    "id": "art-fohenagh-clip5",
+    "kind": "pdf",
+    "filename": "art-fohenagh-clip5.pdf",
+    "path": "/uploads/articles/art-fohenagh-clip5.pdf",
+    "publicUrl": "/uploads/articles/art-fohenagh-clip5.pdf",
+    "uploadedAt": "2026-09-07T15:44:45.702850+00:00",
+    "caption": "Connacht Tribune cutting — Fohenagh defeat Castlegar in 1959 SHC final replay (first senior title)",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "castlegar",
+      "shc",
+      "final",
+      "replay"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:castlegar"
+    ],
+    "playerTags": [
+      "player:frank-madden",
+      "player:jim-moclair-fohenagh",
+      "player:pj-killalea-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:marty-glynn-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tony-ogorman",
+      "player:liam-manning-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:jim-sweeney",
+      "player:frank-bleahan-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tim-killalea",
+      "player:nicholas-murray",
+      "player:aidan-murray-fohenagh",
+      "player:gerry-sweeney-fohenagh"
+    ],
+    "excerpt": "Fohenagh defeated Castlegar in the County Galway SHC final replay at Athenry — Fohenagh's first senior title after a thrill-packed one-point win.",
+    "citeChip": "Connacht Tribune · 1959 Galway SHC final replay",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ],
+    "privateTextPath": "data/private/article-text/art-fohenagh-clip5.txt"
+  },
+  {
+    "id": "art-fohenagh-clip6",
+    "kind": "pdf",
+    "filename": "art-fohenagh-clip6.pdf",
+    "path": "/uploads/articles/art-fohenagh-clip6.pdf",
+    "publicUrl": "/uploads/articles/art-fohenagh-clip6.pdf",
+    "uploadedAt": "2026-09-07T15:44:45.702850+00:00",
+    "caption": "Connacht Tribune cutting — Fohenagh draw with Castlegar in 1959 SHC final (Castlegar 1-11 Fohenagh 2-8)",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "castlegar",
+      "shc",
+      "final",
+      "draw"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:castlegar"
+    ],
+    "playerTags": [
+      "player:frank-madden",
+      "player:jim-moclair-fohenagh",
+      "player:pj-killalea-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:marty-glynn-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tony-ogorman",
+      "player:liam-manning-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:jim-sweeney",
+      "player:frank-bleahan-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tim-killalea",
+      "player:nicholas-murray",
+      "player:aidan-murray-fohenagh",
+      "player:gerry-sweeney-fohenagh"
+    ],
+    "excerpt": "Fohenagh held Castlegar to a draw in the Galway SHC final at Pearse Stadium: Castlegar 1-11, Fohenagh 2-8 — earning a replay.",
+    "citeChip": "Connacht Tribune · 1959 Galway SHC final draw · Castlegar 1-11 Fohenagh 2-8",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-draw"
+    ],
+    "privateTextPath": "data/private/article-text/art-fohenagh-clip6.txt"
   }
 ]
