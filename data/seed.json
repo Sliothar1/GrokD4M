@@ -1582,12 +1582,12 @@
   {
     "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
     "col": "confidence",
-    "val": "medium"
+    "val": "high"
   },
   {
     "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
     "col": "source",
-    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+    "val": "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876"
   },
   {
     "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
@@ -1597,7 +1597,7 @@
   {
     "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
     "col": "note",
-    "val": "Tuam Herald report published 13 Aug 2026 says the match was Friday evening and confirms a win, goals by Luke Kennedy and Andrew Fitzgerald, but does not print the final score in the accessible text."
+    "val": "Tuam Herald report published 13 Aug 2026 says the match was Friday evening and confirms a win, goals by Luke Kennedy and Andrew Fitzgerald, but does not print the final score in the accessible text. Score fill r64: Connacht Tribune PIHC opener round-up prints Ahascragh-Fohenagh 2-17 Kinvara 2-13 (Loughrea); same line on Tuam Herald report page context + Bay FM intermediate reports-227441. Mirrors already-scored match:galway-pihc-2026-r1-ahascragh-fohenagh-kinvara."
   },
   {
     "row": "player:eoghain-delaney",
@@ -5807,12 +5807,12 @@
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
     "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT20230922.1.107"
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
     "col": "note",
-    "val": "Report confirms a four-point win in Loughrea; final numerical score was not clear in OCR."
+    "val": "Report confirms a four-point win in Loughrea; final numerical score was not clear in OCR. Score fill r64: Wikipedia 2023 Galway SHC Senior B quarter-final line Ahascragh-Fohenagh 1-17 Beagh 0-16 (OCR gap on Irish News Archive CTT20230922). Aligns with match:galway-shc-2023-senior-b-qf-ahascragh-fohenagh-beagh."
   },
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
@@ -5857,12 +5857,12 @@
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
     "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT20231006.1.115"
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
   },
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
     "col": "note",
-    "val": "Report confirms the comeback and qualification; final numerical score was not treated as clear from OCR."
+    "val": "Report confirms the comeback and qualification; final numerical score was not treated as clear from OCR. Score fill r64: Wikipedia 2023 Galway SHC Senior B semi-final line Ahascragh-Fohenagh 2-18 Kilnadeema-Leitrim 2-16 (OCR gap on Irish News Archive CTT20231006). Aligns with match:galway-shc-2023-senior-b-sf-ahascragh-fohenagh-kilnadeema-leitrim."
   },
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
@@ -5902,17 +5902,17 @@
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
     "col": "confidence",
-    "val": "medium"
+    "val": "high"
   },
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
     "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT20231020.1.117"
+    "val": "https://www.galwaybayfm.ie/sports/ahascragh-fohenagh-1-18-mullagh-2-15-senior-b-hurling-final-report-reaction-146150"
   },
   {
     "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
     "col": "note",
-    "val": "Report explicitly says the final was a stalemate and would be replayed; it gives 1-15 to 0-17 at one minute of injury time, not a final score."
+    "val": "Report explicitly says the final was a stalemate and would be replayed; it gives 1-15 to 0-17 at one minute of injury time, not a final score. Score fill r64: Galway Bay FM Senior B Final report title/body Ahascragh/Fohenagh 1-18 Mullagh 2-15 (Duggan Park 14-Oct-2023 draw; replay ordered). Aligns with match:galway-shc-2023-senior-b-final-mullagh-ahascragh-fohenagh."
   },
   {
     "row": "match:fohenagh-2025-10-12-final",
@@ -35462,7 +35462,7 @@
   {
     "row": "player:fr-michael-kilkenny",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Fr Michael Kilkenny (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD. HOLD r62: Fr Michael Kilkenny county-panel row stays HOLD; distinct from new Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r63: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Fr Michael Kilkenny (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD. HOLD r62: Fr Michael Kilkenny county-panel row stays HOLD; distinct from new Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r63: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r64: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified."
   },
   {
     "row": "player:francis-forde",
@@ -39772,7 +39772,7 @@
   {
     "row": "player:michael-kelly",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD. HOLD r43: Kelly surname extremely common across Galway clubs; bare Minor 2011 panel lacks first+last multi-source club clear — stays HOLD. HOLD r56: bare Michael Kelly stays HOLD — Ballinderreen/other Kellys already clubbed; no new multi-source clear; stay HOLD. HOLD r61: bare Michael Kelly stays HOLD (Ahascragh-Fohenagh + Oranmore-Maree + Ballinderreen Senior B free-taker collision surface) — no first+last multi-source clear of bare MHC 2011 row. HOLD r62: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore); no clear first+last multi-source club link this round. HOLD r63: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD. HOLD r43: Kelly surname extremely common across Galway clubs; bare Minor 2011 panel lacks first+last multi-source club clear — stays HOLD. HOLD r56: bare Michael Kelly stays HOLD — Ballinderreen/other Kellys already clubbed; no new multi-source clear; stay HOLD. HOLD r61: bare Michael Kelly stays HOLD (Ahascragh-Fohenagh + Oranmore-Maree + Ballinderreen Senior B free-taker collision surface) — no first+last multi-source clear of bare MHC 2011 row. HOLD r62: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore); no clear first+last multi-source club link this round. HOLD r63: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round. HOLD r64: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round."
   },
   {
     "row": "player:michael-kerins",
@@ -41297,7 +41297,7 @@
   {
     "row": "player:padraig-breheny",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). HOLD: spelling variant of Pádraig Brehony — no club stamp. HOLD r39: spelling/id collision with clubbed Tynagh-Abbey/Duniry Breheny/Brehony rows; bare AIHC row stays HOLD. HOLD r40: Breheny/Brehony family collision; bare AIHC stays HOLD. HOLD r41: Breheny/Brehony family collision — clubbed Tynagh-Abbey/Duniry rows exist (player:padraig-brehony / player:padraig-breheny-tynagh-abbey-duniry); bare AIHC 2017 row stays HOLD. HOLD r45: spelling/id collision with clubbed player:padraig-breheny-tynagh-abbey-duniry and Wikipedia Pádraig Brehony (Tynagh-Abbey/Duniry; Balls.ie/DCU 2017). Bare SHC 2017 panel row stays HOLD — do not dual-club. HOLD r47: spelling twin of clubbed player:padraig-breheny-tynagh-abbey-duniry — bare 2017 AI panel row stays HOLD. HOLD r49: continue spelling/id collision — club-scoped player:padraig-breheny-tynagh-abbey-duniry + Wikipedia Pádraig Brehony exist; bare AIHC 2017 panel stays HOLD. HOLD r50: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r51: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r52: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r53: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r54: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r55: continue Padraig Breheny / Pádraig Brehony spelling twin — Wikipedia 2025 Tynagh-Abbey/Duniry Padraig Breheny scorers not enough to clear bare club-less twin; stay HOLD. HOLD r60: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row. HOLD r61: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). HOLD: spelling variant of Pádraig Brehony — no club stamp. HOLD r39: spelling/id collision with clubbed Tynagh-Abbey/Duniry Breheny/Brehony rows; bare AIHC row stays HOLD. HOLD r40: Breheny/Brehony family collision; bare AIHC stays HOLD. HOLD r41: Breheny/Brehony family collision — clubbed Tynagh-Abbey/Duniry rows exist (player:padraig-brehony / player:padraig-breheny-tynagh-abbey-duniry); bare AIHC 2017 row stays HOLD. HOLD r45: spelling/id collision with clubbed player:padraig-breheny-tynagh-abbey-duniry and Wikipedia Pádraig Brehony (Tynagh-Abbey/Duniry; Balls.ie/DCU 2017). Bare SHC 2017 panel row stays HOLD — do not dual-club. HOLD r47: spelling twin of clubbed player:padraig-breheny-tynagh-abbey-duniry — bare 2017 AI panel row stays HOLD. HOLD r49: continue spelling/id collision — club-scoped player:padraig-breheny-tynagh-abbey-duniry + Wikipedia Pádraig Brehony exist; bare AIHC 2017 panel stays HOLD. HOLD r50: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r51: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r52: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r53: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r54: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r55: continue Padraig Breheny / Pádraig Brehony spelling twin — Wikipedia 2025 Tynagh-Abbey/Duniry Padraig Breheny scorers not enough to clear bare club-less twin; stay HOLD. HOLD r60: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row. HOLD r61: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row. HOLD r64: bare Padraig Breheny stays HOLD; club-scoped player:padraig-breheny-tynagh-abbey-duniry already exists (CT 2026 PIHC scoring). Do not dual-stamp bare panel row."
   },
   {
     "row": "player:pakie-dervan",
@@ -43707,7 +43707,7 @@
   {
     "row": "player:tadgh-haran",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran + RTE/Connacht Tribune). Bare MHC panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran) — bare MHC/U-21 row stays HOLD. HOLD r49 collision: Wikipedia + Connacht Tribune 2026 SHC name Tadhg/Tadgh Haran for Liam Mellows, but seed already has clubbed player:tadhg-haran → club:liam-mellows — bare U-21 2011 panel spelling twin stays HOLD; do not double-stamp. HOLD r50: continue spelling twin vs player:tadhg-haran (Liam Mellows) — bare U-21 2011 stays HOLD. HOLD r51: continue spelling twin vs player:tadhg-haran (Liam Mellows; Wikipedia + Irish Times + Galway Bay FM Senior B sheets) — bare U-21 2011 Tadgh Haran stays HOLD. HOLD r52: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r53: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r54: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r55: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r56: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r57: bare Tadgh Haran stays HOLD (misspelling of Tadhg Haran Liam Mellows already clubbed) — 2024/2026 Mellows cites reinforce twin, not a clear. HOLD r59: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows already clubbed) — 2024 Senior B Mellows cites reinforce twin, not a clear. HOLD r60: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r61: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r63: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran + RTE/Connacht Tribune). Bare MHC panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran) — bare MHC/U-21 row stays HOLD. HOLD r49 collision: Wikipedia + Connacht Tribune 2026 SHC name Tadhg/Tadgh Haran for Liam Mellows, but seed already has clubbed player:tadhg-haran → club:liam-mellows — bare U-21 2011 panel spelling twin stays HOLD; do not double-stamp. HOLD r50: continue spelling twin vs player:tadhg-haran (Liam Mellows) — bare U-21 2011 stays HOLD. HOLD r51: continue spelling twin vs player:tadhg-haran (Liam Mellows; Wikipedia + Irish Times + Galway Bay FM Senior B sheets) — bare U-21 2011 Tadgh Haran stays HOLD. HOLD r52: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r53: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r54: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r55: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r56: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r57: bare Tadgh Haran stays HOLD (misspelling of Tadhg Haran Liam Mellows already clubbed) — 2024/2026 Mellows cites reinforce twin, not a clear. HOLD r59: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows already clubbed) — 2024 Senior B Mellows cites reinforce twin, not a clear. HOLD r60: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r61: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r63: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge. HOLD r64: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge."
   },
   {
     "row": "player:tadhg-haran",
@@ -44492,7 +44492,7 @@
   {
     "row": "player:kerrill-wade",
     "col": "note",
-    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + Irish Examiner). Bare U-21 panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade) — bare U-21 panel row stays HOLD. HOLD r50 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r51 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r52: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear for bare Kerrill Wade; stay HOLD. HOLD r53: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r54: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r55: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r58: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r59: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round."
+    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + Irish Examiner). Bare U-21 panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade) — bare U-21 panel row stays HOLD. HOLD r50 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r51 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r52: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear for bare Kerrill Wade; stay HOLD. HOLD r53: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r54: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r55: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r58: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r59: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r64: bare Kerrill Wade stays HOLD — spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + RTÉ 2015 SHC final team sheet). Do not dual-stamp."
   },
   {
     "row": "player:kerrill-wade",
@@ -107147,22 +107147,22 @@
   {
     "row": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
     "col": "score",
-    "val": "Ballinderreen 4-22, Rahoon-Newcastle 1-17"
+    "val": "Ballinderreen 4-22, Rahoon-Newcastle 1-18"
   },
   {
     "row": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
     "col": "note",
-    "val": "Galway Bay FM 2026 PIHC opener: Ballinderreen 4-22 Rahoon-Newcastle 1-17. Seed maps Rahoon-Newcastle to club:rahoon."
+    "val": "Galway Bay FM 2026 PIHC opener: Ballinderreen 4-22 Rahoon-Newcastle 1-17. Seed maps Rahoon-Newcastle to club:rahoon. Score correction r64: multi-source Rahoon-Newcastle total is 1-18 (Connacht Tribune PIHC opener; Ballinderreen ClubZap result 8-Aug-2026; Ballinderreen club blog), not Bay FM listing 1-17. 13-point winning margin matches CT narrative (4-22 vs 1-18)."
   },
   {
     "row": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
     "col": "confidence",
-    "val": "medium"
+    "val": "high"
   },
   {
     "row": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
     "col": "source",
-    "val": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441"
+    "val": "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876"
   },
   {
     "row": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
@@ -155017,7 +155017,7 @@
   {
     "row": "player:enda-lawless-carnmore",
     "col": "note",
-    "val": "Galway GAA RoH 2019: Enda Lawless named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill. HOLD r48 collision: Connacht Tribune 14 Aug 2026 PIHC R1 names Meelick-Eyrecourt keeper Enda Lawless, but seed player:enda-lawless-carnmore is clubbed to Carnmore from Galway GAA RoH 2019 Minor A — do not restamp to ME without twin-safe first+last multi-source clear; keep Carnmore club + HOLD note. HOLD r63: Connacht Tribune 2025 IHC final names Kinvara goalkeeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear."
+    "val": "Galway GAA RoH 2019: Enda Lawless named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill. HOLD r48 collision: Connacht Tribune 14 Aug 2026 PIHC R1 names Meelick-Eyrecourt keeper Enda Lawless, but seed player:enda-lawless-carnmore is clubbed to Carnmore from Galway GAA RoH 2019 Minor A — do not restamp to ME without twin-safe first+last multi-source clear; keep Carnmore club + HOLD note. HOLD r63: Connacht Tribune 2025 IHC final names Kinvara goalkeeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear. HOLD r64: Connacht Tribune 2026 PIHC opener again names Meelick-Eyrecourt keeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear."
   },
   {
     "row": "player:enda-lawless-carnmore",
@@ -242378,5 +242378,250 @@
     "row": "player:joe-young-army",
     "col": "hold",
     "val": false
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "name",
+    "val": "Clarinbridge vs Skehana-Mountbellew/Moylough (2025 U16 Roinn A1 Cup Final)"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "competition",
+    "val": "Ocean Hygiene and Packaging Ltd U16 Roinn A1 Cup"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "away",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "score",
+    "val": "Clarinbridge 1-14, Skehana-Mountbellew/Moylough 0-11"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "note",
+    "val": "Galway Bay FM results-95-205938 (27-Oct-2025): Ocean Hygiene U16 Roinn A1 Cup Final Clarinbridge 1-14 Skehana-Mountbellew/Moylough 0-11. Corroborated by Clarinbridge ClubZap result card (Carnmore, 26-Oct-2025)."
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-95-205938"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "source_clubzap",
+    "val": "https://clarinbridgegaa.clubifyapp.com/results/114222"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-u16-2025-a1-cup-final-clarinbridge-skehana",
+    "col": "runner_up",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "name",
+    "val": "Carnmore vs Castlegar (2025 Galway U20 A1 Hurling Final)"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "competition",
+    "val": "Ocean Group County U20 A1 Hurling Championship"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "home",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "score",
+    "val": "Carnmore 1-19, Castlegar 0-17"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "note",
+    "val": "Galway Bay FM 11-Sep-2025: Carnmore 1-19 Castlegar 0-17 in Ocean Group County U20 A1 Final (first of the U20 finals that evening). Cited scored gap."
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/carnmore-beat-castlegar-in-county-u20-a1-final-commentary-and-report-202539"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "winner",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-u20a1-hc-2025-final-carnmore-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-17, Kinvara 2-13"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "year",
+    "val": 2026
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "round",
+    "val": "Round 1"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "runner_up",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "source_tuam",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+  },
+  {
+    "row": "match:fohenagh-galway-premier-intermediate-hu-round-1",
+    "col": "source_bayfm",
+    "val": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "score",
+    "val": "Mullagh 2-15, Ahascragh-Fohenagh 1-18"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-final",
+    "col": "source_wiki",
+    "val": "https://en.wikipedia.org/wiki/2023_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 1-17, Beagh 0-16"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-quarter-final",
+    "col": "runner_up",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-18, Kilnadeema-Leitrim 2-16"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "year",
+    "val": 2023
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-galway-senior-b-hurling-championship-semi-final",
+    "col": "runner_up",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
+    "col": "source_clubzap",
+    "val": "https://ballinderreengaa.clubzap.com/results/132528"
+  },
+  {
+    "row": "match:galway-pihc-2026-r1-ballinderreen-rahoon",
+    "col": "source_bayfm_listing",
+    "val": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441"
   }
 ]
