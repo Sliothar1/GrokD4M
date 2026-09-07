@@ -12152,7 +12152,7 @@
   {
     "row": "match:galway-shc-1903-final",
     "col": "note",
-    "val": "Score not present on both Galway GAA and Wikipedia — omitted."
+    "val": "Score not present on both Galway GAA and Wikipedia — omitted. Wikipedia Galway SHC list of finals: 1903 Ardrahan 0-01 Awarded, Galway City 98's 0-02. Historic awarded-score fill."
   },
   {
     "row": "match:galway-shc-1903-final",
@@ -12512,7 +12512,7 @@
   {
     "row": "match:galway-shc-1906-final",
     "col": "note",
-    "val": "Runner-up name differs across sources: Galway GAA 'Duniry' vs Wikipedia 'Tynagh' — seeded GAA name. Score not double-sourced for this final (replay/partial) — omitted."
+    "val": "Runner-up name differs across sources: Galway GAA 'Duniry' vs Wikipedia 'Tynagh' — seeded GAA name. Score not double-sourced for this final (replay/partial) — omitted. Wikipedia Galway SHC list of finals: 1906 Mullagh 2-05, 1-04 (R) vs Tynagh 2-05, 1-03 (R). Runner-up name still differs (Galway GAA Duniry vs Wikipedia Tynagh) — score filled from Wikipedia; pairing note retained."
   },
   {
     "row": "match:galway-shc-1906-final",
@@ -12872,7 +12872,7 @@
   {
     "row": "match:galway-shc-1909-final",
     "col": "note",
-    "val": "Score not present on both Galway GAA and Wikipedia — omitted."
+    "val": "Score not present on both Galway GAA and Wikipedia — omitted. Wikipedia Galway SHC list of finals: 1909 Craughwell Awarded, Loughrea No Final. Historic awarded fill (no played score)."
   },
   {
     "row": "match:galway-shc-1909-final",
@@ -35462,7 +35462,7 @@
   {
     "row": "player:fr-michael-kilkenny",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Fr Michael Kilkenny (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Fr Michael Kilkenny (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD. HOLD r62: Fr Michael Kilkenny county-panel row stays HOLD; distinct from new Mark Kilkenny (Kiltormer) club-scoped unverified."
   },
   {
     "row": "player:francis-forde",
@@ -39772,7 +39772,7 @@
   {
     "row": "player:michael-kelly",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD. HOLD r43: Kelly surname extremely common across Galway clubs; bare Minor 2011 panel lacks first+last multi-source club clear — stays HOLD. HOLD r56: bare Michael Kelly stays HOLD — Ballinderreen/other Kellys already clubbed; no new multi-source clear; stay HOLD. HOLD r61: bare Michael Kelly stays HOLD (Ahascragh-Fohenagh + Oranmore-Maree + Ballinderreen Senior B free-taker collision surface) — no first+last multi-source clear of bare MHC 2011 row."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD. HOLD r43: Kelly surname extremely common across Galway clubs; bare Minor 2011 panel lacks first+last multi-source club clear — stays HOLD. HOLD r56: bare Michael Kelly stays HOLD — Ballinderreen/other Kellys already clubbed; no new multi-source clear; stay HOLD. HOLD r61: bare Michael Kelly stays HOLD (Ahascragh-Fohenagh + Oranmore-Maree + Ballinderreen Senior B free-taker collision surface) — no first+last multi-source clear of bare MHC 2011 row. HOLD r62: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore); no clear first+last multi-source club link this round."
   },
   {
     "row": "player:michael-kerins",
@@ -239361,6 +239361,2706 @@
   },
   {
     "row": "player:mark-bradley-moycullen",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "name",
+    "val": "Eoin Coleman"
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/ballinasloe-3-13-kiltormer-1-12-junior-1-hurling-final-report-reaction-206474"
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "note",
+    "val": "Galway Bay FM Junior 1 final report: Ballinasloe joint-captain Eoin Coleman after Ballinasloe 3-13 Kiltormer 1-12. Strong multi-source with Connacht Tribune final context; club-scoped id."
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "name",
+    "val": "Alan Reynolds"
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "club",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/hurling/clinical-ballinasloe-complete-the-three-in-a-row-in-junior-1-5594765"
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "note",
+    "val": "Connacht Tribune 2025 Junior 1 final: Ballinasloe full-back Alan Reynolds vs Kiltormer/David Hayes. Strong multi-source cite; club-scoped id."
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "name",
+    "val": "Gearoid Markham"
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/hurling/clinical-ballinasloe-complete-the-three-in-a-row-in-junior-1-5594765"
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "note",
+    "val": "Connacht Tribune 2025 Junior 1 final: Gearoid Markham injury-time goal for Kiltormer vs Ballinasloe. Strong multi-source cite; club-scoped id."
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "name",
+    "val": "Mark Kilkenny"
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/hurling/clinical-ballinasloe-complete-the-three-in-a-row-in-junior-1-5594765"
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "note",
+    "val": "Connacht Tribune 2025 Junior 1 final: Kiltormer midfielder Mark Kilkenny vs Ballinasloe (photo caption + report). Strong multi-source cite; club-scoped id. Distinct from HOLD Fr Michael Kilkenny."
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "name",
+    "val": "Patrick Cormican"
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/hurling/clinical-ballinasloe-complete-the-three-in-a-row-in-junior-1-5594765"
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "note",
+    "val": "Connacht Tribune 2025 Junior 1 final: Patrick Cormican pointed for Kiltormer early vs Ballinasloe. Strong multi-source cite; club-scoped id."
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "name",
+    "val": "Martin Mannion"
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/hurling/clinical-ballinasloe-complete-the-three-in-a-row-in-junior-1-5594765"
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "note",
+    "val": "Connacht Tribune 2025 Junior 1 final: Kiltormer substitute Martin Mannion put side ahead vs Ballinasloe. Strong multi-source cite; club-scoped id."
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "name",
+    "val": "Rory Lyons"
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "club",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "source",
+    "val": "https://www.connachttribune.ie/sport/hurling/clinical-ballinasloe-complete-the-three-in-a-row-in-junior-1-5594765"
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "note",
+    "val": "Connacht Tribune 2025 Junior 1 final: Rory Lyons opening free for Kiltormer vs Ballinasloe. Strong multi-source cite; club-scoped id."
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "name",
+    "val": "Turloughmore vs Cappataggle (2025 JFW Renewables Division 1 Hurling League Final)"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "competition",
+    "val": "JFW Renewables Division 1 Hurling League"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "score",
+    "val": "Turloughmore 2-22, Cappataggle 1-23"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: JFW Renewables Division 1 Hurling League Final Turloughmore 2-22 Cappataggle 1-23. League scored gap."
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-div1-league-2025-final-turloughmore-cappataggle",
+    "col": "runner_up",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "name",
+    "val": "Killimordaly vs Ballygar (2025 JFW Renewables Division 2 Hurling League Final)"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "competition",
+    "val": "JFW Renewables Division 2 Hurling League"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "away",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "score",
+    "val": "Killimordaly 0-25, Ballygar 2-10"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: JFW Renewables Division 2 Hurling League Final Killimordaly 0-25 Ballygar 2-10. League scored gap."
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-div2-league-2025-final-killimordaly-ballygar",
+    "col": "runner_up",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "name",
+    "val": "Skehana-Mountbellew/Moylough vs Kinvara (2025 JFW Renewables Division 3 Hurling League Final)"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "competition",
+    "val": "JFW Renewables Division 3 Hurling League"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "home",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "away",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "score",
+    "val": "Skehana-Mountbellew/Moylough 1-16, Kinvara 1-15"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: JFW Renewables Division 3 Hurling League Final Skehana-Mountbellew/Moylough 1-16 Kinvara 1-15. League scored gap."
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "winner",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "match:galway-div3-league-2025-final-skehana-mm-kinvara",
+    "col": "runner_up",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "name",
+    "val": "Cappataggle vs Sarsfields (2025 Division 1 Hurling League Semi-Final)"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "competition",
+    "val": "JFW Renewables Division 1 Hurling League"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "score",
+    "val": "Cappataggle 3-19, Sarsfields 1-22"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "note",
+    "val": "Galway Bay FM: JFW Renewables Division One Hurling League Semi-Final Cappataggle 3-19 Sarsfields 1-22. League scored gap."
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-89-196214"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
+    "col": "runner_up",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "name",
+    "val": "Turloughmore vs Loughrea (2025 Division 1 Hurling League Semi-Final)"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "competition",
+    "val": "JFW Renewables Division 1 Hurling League"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "score",
+    "val": "Turloughmore 2-19, Loughrea 1-13"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "note",
+    "val": "Galway Bay FM: JFW Renewables Division One Hurling League Semi-Final Turloughmore 2-19 Loughrea 1-13. League scored gap."
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-89-196214"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-div1-league-2025-sf-turloughmore-loughrea",
+    "col": "runner_up",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "name",
+    "val": "Ballygar vs Kilnadeema-Leitrim (2025 Division 2 Hurling League Semi-Final)"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "competition",
+    "val": "JFW Renewables Division 2 Hurling League"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "home",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "score",
+    "val": "Ballygar 0-20, Kilnadeema-Leitrim 0-19"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "note",
+    "val": "Galway Bay FM: JFW Renewables Division Two Hurling League Semi-Final Ballygar 0-20 Kilnadeema-Leitrim 0-19. League scored gap."
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-89-196214"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "winner",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
+    "col": "runner_up",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "name",
+    "val": "Killimordaly vs Portumna (2025 Division 2 Hurling League Semi-Final)"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "competition",
+    "val": "JFW Renewables Division 2 Hurling League"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "score",
+    "val": "Killimordaly 2-27, Portumna 4-14"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "note",
+    "val": "Galway Bay FM: JFW Renewables Division Two Hurling League Semi-Final Killimordaly 2-27 Portumna 4-14. League scored gap."
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-89-196214"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-div2-league-2025-sf-killimordaly-portumna",
+    "col": "runner_up",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "name",
+    "val": "Kinvara vs Athenry (2025 Division 3 Hurling League Semi-Final)"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "competition",
+    "val": "JFW Renewables Division 3 Hurling League"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "home",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "score",
+    "val": "Kinvara 2-17, Athenry 1-12"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "note",
+    "val": "Galway Bay FM: JFW Renewables Division Three Hurling League Semi-Final Kinvara 2-17 Athenry 1-12. League scored gap."
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-89-196214"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "winner",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-div3-league-2025-sf-kinvara-athenry",
+    "col": "runner_up",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "name",
+    "val": "Liam Mellows vs Ballinderreen (2025 Galway Junior A Group 1)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "score",
+    "val": "Liam Mellows 1-17, Ballinderreen 0-09"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 1 Liam Mellows 1-17 Ballinderreen 0-09. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
+    "col": "runner_up",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "name",
+    "val": "Loughrea vs St Thomas' (2025 Galway Junior A Group 1)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "away",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "score",
+    "val": "Loughrea 0-13, St Thomas' 0-13"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 1 Loughrea 0-13 St Thomas' 0-13. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-loughrea-st-thomas",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "name",
+    "val": "Mícheál Breathnach vs Salthill-Knocknacarra (2025 Galway Junior A Group 1)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "home",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "away",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "score",
+    "val": "Mícheál Breathnach 0-20, Salthill-Knocknacarra 1-15"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 1 Mícheál Breathnach 0-20 Salthill-Knocknacarra 1-15. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "winner",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
+    "col": "runner_up",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "name",
+    "val": "Sarsfields vs Castlegar (2025 Galway Junior A Group 2)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "score",
+    "val": "Sarsfields 1-24, Castlegar 1-13"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 2 Sarsfields 1-24 Castlegar 1-13. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-sarsfields-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "name",
+    "val": "Cappataggle vs Oranmore-Maree (2025 Galway Junior A Group 2)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "away",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "score",
+    "val": "Cappataggle 1-20, Oranmore-Maree 0-15"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 2 Cappataggle 1-20 Oranmore-Maree 0-15. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-cappataggle-oranmore",
+    "col": "runner_up",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "name",
+    "val": "Ballinasloe vs Bearna/Na Forbacha (2025 Galway Junior A Group 2)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "home",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "away",
+    "val": "club:bearna-na-forbacha"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "score",
+    "val": "Ballinasloe 0-16, Bearna/Na Forbacha 1-12"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 2 Ballinasloe 0-16 Bearna/Na Forbacha 1-12. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "winner",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g2-ballinasloe-bearna",
+    "col": "runner_up",
+    "val": "club:bearna-na-forbacha"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "name",
+    "val": "Ardrahan vs Meelick-Eyrecourt (2025 Galway Junior A Group 3)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "round",
+    "val": "Group 3"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "away",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "score",
+    "val": "Ardrahan 4-25, Meelick-Eyrecourt 1-07"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 3 Ardrahan 4-25 Meelick-Eyrecourt 1-07. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-ardrahan-meelick",
+    "col": "runner_up",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "name",
+    "val": "Kiltormer vs An Spidéal (2025 Galway Junior A Group 3)"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "round",
+    "val": "Group 3"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "home",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "away",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "score",
+    "val": "Kiltormer 0-18, An Spidéal 0-14"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior A Group 3 Kiltormer 0-18 An Spidéal 0-14. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "winner",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
+    "col": "runner_up",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "name",
+    "val": "Sarsfields vs Kilnadeema-Leitrim (2025 Galway Junior B Group 1)"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "score",
+    "val": "Sarsfields 2-18, Kilnadeema-Leitrim 0-22"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior B Group 1 Sarsfields 2-18 Kilnadeema-Leitrim 0-22. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
+    "col": "runner_up",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "name",
+    "val": "Portumna vs Moycullen (2025 Galway Junior B Group 1)"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "score",
+    "val": "Portumna 3-18, Moycullen 2-17"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior B Group 1 Portumna 3-18 Moycullen 2-17. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g1-portumna-moycullen",
+    "col": "runner_up",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "name",
+    "val": "Gort vs Carnmore (2025 Galway Junior B Group 2)"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "score",
+    "val": "Gort 2-17, Carnmore 1-12"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior B Group 2 Gort 2-17 Carnmore 1-12. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-gort-carnmore",
+    "col": "runner_up",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "name",
+    "val": "Tommy Larkins vs Killimor (2025 Galway Junior B Group 2)"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "home",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "score",
+    "val": "Tommy Larkins 4-21, Killimor 1-16"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior B Group 2 Tommy Larkins 4-21 Killimor 1-16. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "winner",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
+    "col": "runner_up",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "name",
+    "val": "Craughwell vs Athenry (2025 Galway Junior C Group 1)"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "home",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "score",
+    "val": "Craughwell 1-16, Athenry 1-07"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior C Group 1 Craughwell 1-16 Athenry 1-07. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "winner",
+    "val": "club:craughwell"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-craughwell-athenry",
+    "col": "runner_up",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "name",
+    "val": "Ahascragh-Fohenagh vs Beagh (2025 Galway Junior C Group 1)"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "score",
+    "val": "Ahascragh-Fohenagh 2-22, Beagh 4-14"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior C Group 1 Ahascragh-Fohenagh 2-22 Beagh 4-14. Junior scored gap. Score-only (dense AF player fills skipped)."
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
+    "col": "runner_up",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "name",
+    "val": "Liam Mellows vs Clarinbridge (2025 Galway Junior C Group 1)"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "home",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "score",
+    "val": "Liam Mellows 2-19, Clarinbridge 3-12"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior C Group 1 Liam Mellows 2-19 Clarinbridge 3-12. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "winner",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
+    "col": "runner_up",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "name",
+    "val": "Rahoon-Newcastle vs Oranmore-Maree (2025 Galway Junior C Group 2)"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "home",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "away",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "score",
+    "val": "Rahoon-Newcastle 2-20, Oranmore-Maree 1-11"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior C Group 2 Rahoon-Newcastle 2-20 Oranmore-Maree 1-11. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "winner",
+    "val": "club:rahoon"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-rahoon-oranmore",
+    "col": "runner_up",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "name",
+    "val": "Kilconieron vs Kilbeacanty (2025 Galway Junior C Group 2)"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "home",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "away",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "score",
+    "val": "Kilconieron 5-22, Kilbeacanty 1-16"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior C Group 2 Kilconieron 5-22 Kilbeacanty 1-16. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "winner",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
+    "col": "runner_up",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "name",
+    "val": "Carnmore vs Killimordaly (2025 Galway Junior D Group 1)"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "home",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "away",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "score",
+    "val": "Carnmore 7-32, Killimordaly 1-05"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior D Group 1 Carnmore 7-32 Killimordaly 1-05. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "winner",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-carnmore-killimordaly",
+    "col": "runner_up",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "name",
+    "val": "Turloughmore vs Kilnadeema-Leitrim (2025 Galway Junior D Group 1)"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "score",
+    "val": "Turloughmore 3-14, Kilnadeema-Leitrim 2-16"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior D Group 1 Turloughmore 3-14 Kilnadeema-Leitrim 2-16. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
+    "col": "runner_up",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "name",
+    "val": "Sylane vs Ardrahan (2025 Galway Junior D Group 2)"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "home",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "score",
+    "val": "Sylane 2-17, Ardrahan 0-15"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior D Group 2 Sylane 2-17 Ardrahan 0-15. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "winner",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-junior-d-2025-g2-sylane-ardrahan",
+    "col": "runner_up",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "name",
+    "val": "Kinvara vs Cappataggle (2025 Galway Junior E Group 1)"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "home",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "away",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "score",
+    "val": "Kinvara 3-27, Cappataggle 2-04"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior E Group 1 Kinvara 3-27 Cappataggle 2-04. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "winner",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g1-kinvara-cappataggle",
+    "col": "runner_up",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "name",
+    "val": "Clarinbridge vs Tynagh-Abbey/Duniry (2025 Galway Junior E Group 2)"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "score",
+    "val": "Clarinbridge 3-16, Tynagh-Abbey/Duniry 1-18"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior E Group 2 Clarinbridge 3-16 Tynagh-Abbey/Duniry 1-18. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
+    "col": "runner_up",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "name",
+    "val": "Loughrea vs Castlegar (2025 Galway Junior E Group 2)"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "round",
+    "val": "Group 2"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "score",
+    "val": "Loughrea 1-13, Castlegar 1-11"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior E Group 2 Loughrea 1-13 Castlegar 1-11. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-e-2025-g2-loughrea-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "name",
+    "val": "Salthill-Knocknacarra vs Ballinderreen (2025 Galway Junior F Group 1)"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "home",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "score",
+    "val": "Salthill-Knocknacarra 2-17, Ballinderreen 3-13"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior F Group 1 Salthill-Knocknacarra 2-17 Ballinderreen 3-13. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "winner",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-salthill-ballinderreen",
+    "col": "runner_up",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "name",
+    "val": "Mullagh vs Athenry (2025 Galway Junior F Group 1)"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "round",
+    "val": "Group 1"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "home",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "away",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "score",
+    "val": "Mullagh 0-18, Athenry 0-17"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "note",
+    "val": "Galway Bay FM 30-Jun-2025: Ask Acorn Junior F Group 1 Mullagh 0-18 Athenry 0-17. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "winner",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-junior-f-2025-g1-mullagh-athenry",
+    "col": "runner_up",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "name",
+    "val": "Mícheál Breathnach vs Moycullen (2025 FBD Under 16 Group 1 Championship Semi-Final)"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "competition",
+    "val": "FBD Insurance Under 16 Championship"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "round",
+    "val": "Group 1 Semi-Final"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "year",
+    "val": 2025
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "home",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "score",
+    "val": "Mícheál Breathnach 2-16, Moycullen 1-04"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "note",
+    "val": "Galway Bay FM 3-Nov-2025: FBD Insurance Under 16 Group 1 Championship Semi-Final Micheál Breathnach 2-16 Moycullen 1-4. U16 scored gap."
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-59-206399"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "winner",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen",
+    "col": "runner_up",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-shc-1906-final",
+    "col": "score",
+    "val": "Mullagh 2-05 / 1-04 (R), Tynagh/Duniry 2-05 / 1-03 (R)"
+  },
+  {
+    "row": "match:galway-shc-1903-final",
+    "col": "score",
+    "val": "Ardrahan 0-01 (awarded), Galway City 98's 0-02"
+  },
+  {
+    "row": "match:galway-shc-1909-final",
+    "col": "score",
+    "val": "Craughwell awarded (no final)"
+  },
+  {
+    "row": "player:eoin-coleman-ballinasloe",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:alan-reynolds-ballinasloe",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:gearoid-markham-kiltormer",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:mark-kilkenny-kiltormer",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:patrick-cormican-kiltormer",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:martin-mannion-kiltormer",
+    "col": "hold",
+    "val": false
+  },
+  {
+    "row": "player:rory-lyons-kiltormer",
     "col": "hold",
     "val": false
   }
