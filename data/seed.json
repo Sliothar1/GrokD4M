@@ -31837,7 +31837,7 @@
   {
     "row": "player:brendan-lynch",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2015 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2017 panel (Galway GAA). HOLD r8 collision: GAA.ie Tynagh-Abbey/Duniry All-Ireland Club IHC GK sheet AND Galway GAA 2014 Meelick/Eyrecourt Junior C roll — do not stamp. HOLD r42: Lynch name collision with clubbed Brendan Lynch Tynagh-Abbey/Duniry (player:brendan-lynch-tynagh-abbey-duniry); bare Minor 2015 panel row stays HOLD. HOLD r49 collision: Galway GAA / Abbey heritage name Brendan Lynch (Tynagh-Abbey/Duniry GK); seed already has player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 panel row stays HOLD. HOLD r50: continue collision vs player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 stays HOLD. HOLD r51: continue collision vs player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 stays HOLD. HOLD r58: bare Brendan Lynch stays HOLD vs new Mikey Lynch Kilnadeema-Leitrim club-scoped fill and Brendan Lynch Tynagh already clubbed — no first+last multi-source clear."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2015 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2017 panel (Galway GAA). HOLD r8 collision: GAA.ie Tynagh-Abbey/Duniry All-Ireland Club IHC GK sheet AND Galway GAA 2014 Meelick/Eyrecourt Junior C roll — do not stamp. HOLD r42: Lynch name collision with clubbed Brendan Lynch Tynagh-Abbey/Duniry (player:brendan-lynch-tynagh-abbey-duniry); bare Minor 2015 panel row stays HOLD. HOLD r49 collision: Galway GAA / Abbey heritage name Brendan Lynch (Tynagh-Abbey/Duniry GK); seed already has player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 panel row stays HOLD. HOLD r50: continue collision vs player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 stays HOLD. HOLD r51: continue collision vs player:brendan-lynch-tynagh-abbey-duniry — bare MHC 2015 stays HOLD. HOLD r58: bare Brendan Lynch stays HOLD vs new Mikey Lynch Kilnadeema-Leitrim club-scoped fill and Brendan Lynch Tynagh already clubbed — no first+last multi-source clear. HOLD r59: bare Brendan Lynch stays HOLD vs Mikey Lynch Kilnadeema-Leitrim / Brendan Lynch Tynagh already clubbed — no first+last multi-source clear."
   },
   {
     "row": "player:brendan-lynskey",
@@ -34972,7 +34972,7 @@
   {
     "row": "player:enda-concannon",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Athenry GAA 2007 gallery: Enda Concannon named on Athenry U-21 A champions panel; Galway U-21 All-Ireland 2007 panel."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). Athenry GAA 2007 gallery: Enda Concannon named on Athenry U-21 A champions panel; Galway U-21 All-Ireland 2007 panel. HOLD r59 collision note: Wikipedia 2024 Castlegar scorers name Enda Concannon while seed player:enda-concannon is club:athenry — Castlegar twin added as player:enda-concannon-castlegar; do not overwrite Athenry row."
   },
   {
     "row": "player:enda-egan",
@@ -36162,7 +36162,7 @@
   {
     "row": "player:greg-thomas",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2019 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2020 panel (Galway GAA). HOLD overwrite: Wikipedia club Castlegar but seed already Ballygar — do not overwrite. HOLD r52 collision: Wikipedia + Connacht Tribune confirm Greg Thomas → Castlegar as player:greg-thomas-castlegar; bare player:greg-thomas remains clubbed Ballygar from earlier pack — do not overwrite or merge without archivist clear. HOLD r58: Greg Thomas Ballygar HOLD overwrite retained vs Greg Thomas Castlegar club-scoped twin — do not overwrite Ballygar HOLD."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2019 panel (Galway GAA). Named on Galway All-Ireland Minor Hurling Champions 2020 panel (Galway GAA). HOLD overwrite: Wikipedia club Castlegar but seed already Ballygar — do not overwrite. HOLD r52 collision: Wikipedia + Connacht Tribune confirm Greg Thomas → Castlegar as player:greg-thomas-castlegar; bare player:greg-thomas remains clubbed Ballygar from earlier pack — do not overwrite or merge without archivist clear. HOLD r58: Greg Thomas Ballygar HOLD overwrite retained vs Greg Thomas Castlegar club-scoped twin — do not overwrite Ballygar HOLD. HOLD r59: Greg Thomas Ballygar HOLD overwrite retained vs Greg Thomas Castlegar club-scoped twin — do not overwrite Ballygar HOLD."
   },
   {
     "row": "player:greg-thomas",
@@ -36867,7 +36867,7 @@
   {
     "row": "player:joe-keane",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). HOLD r17: Joe Keane multi-club collision. HOLD r40: Portumna All-Ireland club 2006 RoH lists Joe Keane but bare AIHC 2015 id stays HOLD vs Portumna-era twin risk; do not dual-stamp. HOLD r42: Keane name collision with clubbed Joe Keane Portumna (player:joe-keane-portumna); bare Intermediate 2015 panel row stays HOLD. HOLD r46: Portumna All-Ireland club 2006 RoH + Connacht Tribune 2026 'former Portumna goalkeeper Joe Keane' collide with bare AIHC 2015 panel row; club-scoped player:joe-keane-portumna already exists — bare stays HOLD. HOLD r47: continue r46 collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 row stays HOLD. HOLD r48: continue r46/r47 collision — club-scoped player:joe-keane-portumna exists (Connacht Tribune PIHC photo caption Joe Keane); bare AIHC 2015 panel row stays HOLD. HOLD r49: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD. HOLD r50: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD. HOLD r51: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD. HOLD r56: bare Joe Keane stays HOLD vs Portumna club-scoped Joe Keane and new Jamie Hogan Portumna fill — no first+last multi-source club clear; stay HOLD. HOLD r57: bare Joe Keane stays HOLD — no new first+last multi-source club clear this round. HOLD r58: bare Joe Keane stays HOLD — no new first+last multi-source club clear this round (Joe Keane Portumna already club-scoped)."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2015 panel (Galway GAA). HOLD r17: Joe Keane multi-club collision. HOLD r40: Portumna All-Ireland club 2006 RoH lists Joe Keane but bare AIHC 2015 id stays HOLD vs Portumna-era twin risk; do not dual-stamp. HOLD r42: Keane name collision with clubbed Joe Keane Portumna (player:joe-keane-portumna); bare Intermediate 2015 panel row stays HOLD. HOLD r46: Portumna All-Ireland club 2006 RoH + Connacht Tribune 2026 'former Portumna goalkeeper Joe Keane' collide with bare AIHC 2015 panel row; club-scoped player:joe-keane-portumna already exists — bare stays HOLD. HOLD r47: continue r46 collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 row stays HOLD. HOLD r48: continue r46/r47 collision — club-scoped player:joe-keane-portumna exists (Connacht Tribune PIHC photo caption Joe Keane); bare AIHC 2015 panel row stays HOLD. HOLD r49: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD. HOLD r50: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD. HOLD r51: continue collision — club-scoped player:joe-keane-portumna exists; bare AIHC 2015 panel stays HOLD. HOLD r56: bare Joe Keane stays HOLD vs Portumna club-scoped Joe Keane and new Jamie Hogan Portumna fill — no first+last multi-source club clear; stay HOLD. HOLD r57: bare Joe Keane stays HOLD — no new first+last multi-source club clear this round. HOLD r58: bare Joe Keane stays HOLD — no new first+last multi-source club clear this round (Joe Keane Portumna already club-scoped). HOLD r59: bare Joe Keane stays HOLD — Joe Keane Portumna already club-scoped; no first+last multi-source clear of bare row."
   },
   {
     "row": "player:joe-mcgrath",
@@ -36987,7 +36987,7 @@
   {
     "row": "player:john-conroy",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD r17: John Conroy multi-club/era collision. HOLD r42: Conroy name collision with clubbed Johnny Conroy Tynagh-Abbey/Duniry (player:johnny-conroy-tynagh-abbey-duniry); bare Intermediate 2002 panel row stays HOLD. HOLD r58: bare John Conroy stays HOLD vs Johnny Conroy Tynagh-Abbey/Duniry already club-scoped and Conor Jordan Tynagh IHC final fill — no first+last multi-source clear of bare row."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). HOLD r17: John Conroy multi-club/era collision. HOLD r42: Conroy name collision with clubbed Johnny Conroy Tynagh-Abbey/Duniry (player:johnny-conroy-tynagh-abbey-duniry); bare Intermediate 2002 panel row stays HOLD. HOLD r58: bare John Conroy stays HOLD vs Johnny Conroy Tynagh-Abbey/Duniry already club-scoped and Conor Jordan Tynagh IHC final fill — no first+last multi-source clear of bare row. HOLD r59: bare John Conroy stays HOLD vs Johnny Conroy Tynagh-Abbey/Duniry already club-scoped — no first+last multi-source clear of bare row."
   },
   {
     "row": "player:john-cooney",
@@ -42817,7 +42817,7 @@
   {
     "row": "player:sean-glynn",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD: modern 2005/2007 panel Sean Glynn — do not stamp onto 1960 Newcastle Christy/Sean Glynn caption ids. HOLD r42: Glynn surname common across clubs; bare Minor 2005 panel lacks first+last multi-source club clear — stays HOLD. HOLD r47: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear without twin this round. HOLD r48: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r49: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r50: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r51: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r57: bare Sean Glynn stays HOLD — no new first+last multi-source club clear this round. HOLD r58: bare Sean Glynn stays HOLD — Jonathan Glynn Ardrahan already clubbed; no first+last multi-source clear of bare row."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2005 panel (Galway GAA). Named on Galway All-Ireland U-21 Hurling Champions 2007 panel (Galway GAA). HOLD: modern 2005/2007 panel Sean Glynn — do not stamp onto 1960 Newcastle Christy/Sean Glynn caption ids. HOLD r42: Glynn surname common across clubs; bare Minor 2005 panel lacks first+last multi-source club clear — stays HOLD. HOLD r47: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear without twin this round. HOLD r48: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r49: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r50: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r51: bare MHC/U-21 Sean Glynn remains HOLD — no new strong first+last multi-source club clear. HOLD r57: bare Sean Glynn stays HOLD — no new first+last multi-source club clear this round. HOLD r58: bare Sean Glynn stays HOLD — Jonathan Glynn Ardrahan already clubbed; no first+last multi-source clear of bare row. HOLD r59: bare Sean Glynn stays HOLD — Jonathan Glynn Ardrahan already clubbed; no first+last multi-source clear of bare row."
   },
   {
     "row": "player:sean-hickey",
@@ -43707,7 +43707,7 @@
   {
     "row": "player:tadgh-haran",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran + RTE/Connacht Tribune). Bare MHC panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran) — bare MHC/U-21 row stays HOLD. HOLD r49 collision: Wikipedia + Connacht Tribune 2026 SHC name Tadhg/Tadgh Haran for Liam Mellows, but seed already has clubbed player:tadhg-haran → club:liam-mellows — bare U-21 2011 panel spelling twin stays HOLD; do not double-stamp. HOLD r50: continue spelling twin vs player:tadhg-haran (Liam Mellows) — bare U-21 2011 stays HOLD. HOLD r51: continue spelling twin vs player:tadhg-haran (Liam Mellows; Wikipedia + Irish Times + Galway Bay FM Senior B sheets) — bare U-21 2011 Tadgh Haran stays HOLD. HOLD r52: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r53: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r54: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r55: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r56: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r57: bare Tadgh Haran stays HOLD (misspelling of Tadhg Haran Liam Mellows already clubbed) — 2024/2026 Mellows cites reinforce twin, not a clear."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran + RTE/Connacht Tribune). Bare MHC panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran) — bare MHC/U-21 row stays HOLD. HOLD r49 collision: Wikipedia + Connacht Tribune 2026 SHC name Tadhg/Tadgh Haran for Liam Mellows, but seed already has clubbed player:tadhg-haran → club:liam-mellows — bare U-21 2011 panel spelling twin stays HOLD; do not double-stamp. HOLD r50: continue spelling twin vs player:tadhg-haran (Liam Mellows) — bare U-21 2011 stays HOLD. HOLD r51: continue spelling twin vs player:tadhg-haran (Liam Mellows; Wikipedia + Irish Times + Galway Bay FM Senior B sheets) — bare U-21 2011 Tadgh Haran stays HOLD. HOLD r52: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r53: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r54: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r55: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r56: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r57: bare Tadgh Haran stays HOLD (misspelling of Tadhg Haran Liam Mellows already clubbed) — 2024/2026 Mellows cites reinforce twin, not a clear. HOLD r59: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows already clubbed) — 2024 Senior B Mellows cites reinforce twin, not a clear."
   },
   {
     "row": "player:tadhg-haran",
@@ -43767,7 +43767,7 @@
   {
     "row": "player:thomas-hayes",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2018 panel (Galway GAA). HOLD r31 NEW: club-less Thomas Hayes (MHC 2018 panel); no club listed on Galway GAA RoH photo; Damien Hayes Portumna is different player — do not auto-stamp. HOLD r43: Hayes surname collision with clubbed Portumna/Kiltormer Hayes rows; bare panel lacks first+last multi-source club clear — stays HOLD. HOLD r58: bare Thomas Hayes stays HOLD — no new first+last multi-source club clear this round."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2018 panel (Galway GAA). HOLD r31 NEW: club-less Thomas Hayes (MHC 2018 panel); no club listed on Galway GAA RoH photo; Damien Hayes Portumna is different player — do not auto-stamp. HOLD r43: Hayes surname collision with clubbed Portumna/Kiltormer Hayes rows; bare panel lacks first+last multi-source club clear — stays HOLD. HOLD r58: bare Thomas Hayes stays HOLD — no new first+last multi-source club clear this round. HOLD r59: bare Thomas Hayes stays HOLD — no new first+last multi-source club clear this round."
   },
   {
     "row": "player:thomas-mannion",
@@ -44442,7 +44442,7 @@
   {
     "row": "player:finnian-coone",
     "col": "note",
-    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:finian-coone (Mullagh) — no club stamp. HOLD r39: spelling twin of player:finian-coone already club:mullagh; do not dual-stamp. HOLD r40: spelling twin of Finian Coone Mullagh; do not dual-stamp. HOLD r42: Coone/Coen spelling collision risk with clubbed Mullagh Finnian Coone rows in SHC scorelines; bare U-21 2007 row stays HOLD. HOLD r46: Wikipedia 2020 Galway SHC Senior B R1 lists Finnian Coone 1-0 for Mullagh — spelling twin of clubbed player:finian-coone (Mullagh); bare U-21 2007 row stays HOLD — do not dual-club. HOLD r50: continue spelling/id collision with Finian Coone / Finnian Coone panel variants — no new first+last multi-source club clear; stay HOLD. HOLD r51: continue spelling/id collision with Finian Coone / Finnian Coone panel variants — no new first+last multi-source club clear; stay HOLD. HOLD r52: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r53: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r54: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r55: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r57: bare Finnian Coone stays HOLD (spelling twin of Finian Coone Mullagh already clubbed) — Wikipedia 2024 F Coone Mullagh scorers reinforce twin, not a clear of bare row."
+    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:finian-coone (Mullagh) — no club stamp. HOLD r39: spelling twin of player:finian-coone already club:mullagh; do not dual-stamp. HOLD r40: spelling twin of Finian Coone Mullagh; do not dual-stamp. HOLD r42: Coone/Coen spelling collision risk with clubbed Mullagh Finnian Coone rows in SHC scorelines; bare U-21 2007 row stays HOLD. HOLD r46: Wikipedia 2020 Galway SHC Senior B R1 lists Finnian Coone 1-0 for Mullagh — spelling twin of clubbed player:finian-coone (Mullagh); bare U-21 2007 row stays HOLD — do not dual-club. HOLD r50: continue spelling/id collision with Finian Coone / Finnian Coone panel variants — no new first+last multi-source club clear; stay HOLD. HOLD r51: continue spelling/id collision with Finian Coone / Finnian Coone panel variants — no new first+last multi-source club clear; stay HOLD. HOLD r52: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r53: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r54: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r55: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD. HOLD r57: bare Finnian Coone stays HOLD (spelling twin of Finian Coone Mullagh already clubbed) — Wikipedia 2024 F Coone Mullagh scorers reinforce twin, not a clear of bare row. HOLD r59: bare Finnian Coone stays HOLD (spelling twin of Finian Coone Mullagh already clubbed) — Wikipedia 2024 F Coone Mullagh / Connacht Tribune Finian Coone Mullagh reinforce twin, not a clear of bare U-21 row."
   },
   {
     "row": "player:finnian-coone",
@@ -44492,7 +44492,7 @@
   {
     "row": "player:kerrill-wade",
     "col": "note",
-    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + Irish Examiner). Bare U-21 panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade) — bare U-21 panel row stays HOLD. HOLD r50 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r51 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r52: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear for bare Kerrill Wade; stay HOLD. HOLD r53: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r54: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r55: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r58: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round."
+    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + Irish Examiner). Bare U-21 panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade) — bare U-21 panel row stays HOLD. HOLD r50 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r51 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r52: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear for bare Kerrill Wade; stay HOLD. HOLD r53: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r54: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r55: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r58: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r59: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round."
   },
   {
     "row": "player:kerrill-wade",
@@ -229533,5 +229533,3290 @@
     "row": "match:galway-ihc-2024-kinvara-turloughmore",
     "col": "secondary_cite_url",
     "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "name",
+    "val": "Cian Walsh"
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "club",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Ardrahan scorers: Cian Walsh 0-1 vs Oranmore-Maree R2; also Wikipedia 2016 SHC Ardrahan multi-round scorer path. Thin-club fill (Ardrahan ~24); club-scoped id."
+  },
+  {
+    "row": "player:cian-walsh-ardrahan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "name",
+    "val": "Gerry Hennelly"
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "club",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Ardrahan scorers path: Gerry Hennelly frees/penalty tallies vs Pearses/Cappataggle/Craughwell. Thin-club fill; club-scoped id."
+  },
+  {
+    "row": "player:gerry-hennelly-ardrahan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "name",
+    "val": "Pearse McCrann"
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "club",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2016_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "note",
+    "val": "Wikipedia 2016 Galway SHC Ardrahan scorers Pearse McCrann multi-round path (vs Pearses/Cappataggle/Craughwell/Mellows). Thin-club fill; club-scoped id."
+  },
+  {
+    "row": "player:pearse-mccrann-ardrahan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "name",
+    "val": "Enda Concannon"
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "club",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/2024_Galway_Senior_Hurling_Championship"
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "note",
+    "val": "Wikipedia 2024 Galway SHC Castlegar scorers Enda Concannon (R1 vs Oranmore-Maree; R3 vs Ardrahan; PQF goal vs Kilconieron). Thin-club fill; club-scoped id distinct from player:enda-concannon (Athenry)."
+  },
+  {
+    "row": "player:enda-concannon-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "name",
+    "val": "Rory Gorey"
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "club",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/hurling-mooncoin-2-26-salthill-knocknacarra-0-11-all-ireland-junior-semi-final-report-and-reaction-107238"
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "note",
+    "val": "Galway Bay FM 24-Jan-2022 All-Ireland Junior SF panel: R Gorey sub for Salthill/Knocknacarra vs Mooncoin. Thin-club fill (Salthill ~19); club-scoped id."
+  },
+  {
+    "row": "player:rory-gorey-salthill-knocknacarra",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "name",
+    "val": "Ballinderreen vs Ardrahan (2024 Galway Junior A Pre-Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "round",
+    "val": "Pre-Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "home",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "away",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "score",
+    "val": "Ballinderreen 0-20, Ardrahan 1-09"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior A PQF Ballinderreen 0-20 Ardrahan 1-9. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "winner",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-ballinderreen-ardrahan",
+    "col": "runner_up",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "name",
+    "val": "An Spidéal vs Castlegar (2024 Galway Junior A Pre-Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "round",
+    "val": "Pre-Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "home",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "score",
+    "val": "An Spidéal 0-21, Castlegar 2-13"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior A PQF An Spidéal 0-21 Castlegar 2-13. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "winner",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-an-spideal-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "name",
+    "val": "Tynagh-Abbey/Duniry vs Liam Mellows (2024 Galway Junior A Pre-Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "round",
+    "val": "Pre-Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "home",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "score",
+    "val": "Tynagh/Abbey-Duniry 2-19, Liam Mellows 0-21"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior A PQF Tynagh/Abbey-Duniry 2-19 Liam Mellows 0-21. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "winner",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-tynagh-liam-mellows",
+    "col": "runner_up",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "name",
+    "val": "Mícheál Breathnach vs Salthill-Knocknacarra (2024 Galway Junior A Pre-Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "round",
+    "val": "Pre-Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "home",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "away",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "score",
+    "val": "Mícheál Breathnach 0-22, Salthill-Knocknacarra 2-10"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior A PQF Michéal Breathnach 0-22 Salthill-Knocknacarra 2-10. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "winner",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-a-2024-pqf-micheal-breathnach-salthill",
+    "col": "runner_up",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "name",
+    "val": "Cappataggle vs Meelick-Eyrecourt (2024 Galway Junior A Relegation Round 1)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "round",
+    "val": "Relegation Round 1"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "home",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "away",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "score",
+    "val": "Cappataggle 2-18, Meelick-Eyrecourt 3-13"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior A Relegation Rd1 Cappataggle 2-18 Meelick-Eyrecourt 3-13. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "winner",
+    "val": "club:cappataggle"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-cappataggle-meelick-eyrecourt",
+    "col": "runner_up",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "name",
+    "val": "Castlegar vs Mullagh (2024 Galway Junior B Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "away",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "score",
+    "val": "Castlegar 1-16, Mullagh 2-12"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior B QF Castlegar 1-16 Mullagh 2-12. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-castlegar-mullagh",
+    "col": "runner_up",
+    "val": "club:mullagh"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "name",
+    "val": "Turloughmore vs Killimor (2024 Galway Junior B Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "home",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "score",
+    "val": "Turloughmore 3-25, Killimor 1-12"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior B QF Turloughmore 3-25 Killimor 1-12. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "winner",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-turloughmore-killimor",
+    "col": "runner_up",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "name",
+    "val": "Sarsfields vs Kilnadeema-Leitrim (2024 Galway Junior B Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "away",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "score",
+    "val": "Sarsfields 2-15, Kilnadeema-Leitrim 1-15"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "note",
+    "val": "Galway Bay FM 16-Sep-2024: Ask Acorn Junior B QF Sarsfields 2-15 Kilnadeema-Leitrim 1-15. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22-2-174687"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-b-2024-qf-sarsfields-kilnadeema",
+    "col": "runner_up",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "name",
+    "val": "Killimordaly vs Sarsfields (2024 Galway Junior B Semi-Final)"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "competition",
+    "val": "Galway Junior B Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "home",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "score",
+    "val": "Killimordaly 2-19, Sarsfields 1-18"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "note",
+    "val": "Galway Bay FM 30-Sep-2024: Ask Acorn Junior B SF Killimordaly 2-19 Sarsfields 1-18. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/weekend-galway-gaa-club-results-9-2-175223"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "winner",
+    "val": "club:killimordaly"
+  },
+  {
+    "row": "match:galway-junior-b-2024-sf-killimordaly-sarsfields",
+    "col": "runner_up",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "name",
+    "val": "Athenry vs Beagh (2024 Galway Junior C Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "away",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "score",
+    "val": "Athenry 2-17, Beagh 1-10"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior C QF Athenry 2-17 Beagh 1-10. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-athenry-beagh",
+    "col": "runner_up",
+    "val": "club:beagh"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "name",
+    "val": "Carnmore vs Tommy Larkins (2024 Galway Junior C Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "home",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "score",
+    "val": "Carnmore 1-24, Tommy Larkins 1-11"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior C QF Carnmore 1-24 Tommy Larkins 1-11. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "winner",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-carnmore-tommy-larkins",
+    "col": "runner_up",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "name",
+    "val": "Kilconieron vs Liam Mellows (2024 Galway Junior C Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "competition",
+    "val": "Galway Junior C Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "home",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "away",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "score",
+    "val": "Kilconieron 3-15, Liam Mellows 1-18"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior C QF Kilconieron 3-15 Liam Mellows 1-18. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "winner",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-junior-c-2024-qf-kilconieron-liam-mellows",
+    "col": "runner_up",
+    "val": "club:liam-mellows"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "name",
+    "val": "Skehana-Mountbellew/Moylough vs Meelick-Eyrecourt (2024 Galway Junior D Relegation)"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "round",
+    "val": "Relegation"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "home",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "away",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "score",
+    "val": "Skehana-Mountbellew/Moylough 1-16, Meelick-Eyrecourt 0-08"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior D Relegation Skehana-MM 1-16 Meelick-Eyrecourt 0-8. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "winner",
+    "val": "club:skehana-mountbellew-moylough"
+  },
+  {
+    "row": "match:galway-junior-d-2024-rel-skehana-meelick",
+    "col": "runner_up",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "name",
+    "val": "Kilbeacanty vs Abbeyknockmoy (2024 Galway Junior D Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "home",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "score",
+    "val": "Kilbeacanty 5-09, Abbeyknockmoy 4-10"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "note",
+    "val": "Galway Bay FM 16-Sep-2024: Ask Acorn Junior D QF Kilbeacanty 5-9 Abbeyknockmoy 4-10. Prefer thin Kilbeacanty scored path."
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22-2-174687"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:kilbeacanty"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilbeacanty-abbeyknockmoy",
+    "col": "runner_up",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "name",
+    "val": "Ardrahan vs Carnmore (2024 Galway Junior D Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "home",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "away",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "score",
+    "val": "Ardrahan 2-19, Carnmore 3-13"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "note",
+    "val": "Galway Bay FM 16-Sep-2024: Ask Acorn Junior D QF Ardrahan 2-19 Carnmore 3-13. Prefer thin Ardrahan scored path."
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22-2-174687"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "winner",
+    "val": "club:ardrahan"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-ardrahan-carnmore",
+    "col": "runner_up",
+    "val": "club:carnmore"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "name",
+    "val": "Kilnadeema-Leitrim vs Sylane (2024 Galway Junior D Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "home",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "away",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "score",
+    "val": "Kilnadeema-Leitrim 1-19, Sylane 1-16"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "note",
+    "val": "Galway Bay FM 16-Sep-2024: Ask Acorn Junior D QF Kilnadeema-Leitrim 1-19 Sylane 1-16. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22-2-174687"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "winner",
+    "val": "club:kilnadeema-leitrim"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kilnadeema-sylane",
+    "col": "runner_up",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "name",
+    "val": "Kiltormer vs Turloughmore (2024 Galway Junior D Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "competition",
+    "val": "Galway Junior D Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "home",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "score",
+    "val": "Kiltormer 3-15, Turloughmore 0-13"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior D QF Kiltormer 3-15 Turloughmore 0-13. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "winner",
+    "val": "club:kiltormer"
+  },
+  {
+    "row": "match:galway-junior-d-2024-qf-kiltormer-turloughmore",
+    "col": "runner_up",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "name",
+    "val": "Ballygar vs Killimor (2024 Galway Junior E Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "home",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "score",
+    "val": "Ballygar 3-16, Killimor 2-14"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior E QF Ballygar 3-16 Killimor 2-14. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "winner",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-ballygar-killimor",
+    "col": "runner_up",
+    "val": "club:killimor"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "name",
+    "val": "Loughrea vs Annaghdown (2024 Galway Junior E Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "away",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "score",
+    "val": "Loughrea 5-16, Annaghdown 1-17"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior E QF Loughrea 5-16 Annaghdown 1-17. Prefer thin Annaghdown scored path."
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-loughrea-annaghdown",
+    "col": "runner_up",
+    "val": "club:annaghdown"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "name",
+    "val": "Castlegar vs Moycullen (2024 Galway Junior E Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "home",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "away",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "score",
+    "val": "Castlegar 2-23, Moycullen 2-10"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior E QF Castlegar 2-23 Maigh Cuilinn 2-10. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "winner",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-castlegar-moycullen",
+    "col": "runner_up",
+    "val": "club:moycullen"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "name",
+    "val": "Clarinbridge vs Tynagh-Abbey/Duniry (2024 Galway Junior E Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "score",
+    "val": "Clarinbridge 1-15, Tynagh/Abbey-Duniry 0-09"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "note",
+    "val": "Galway Bay FM 16-Sep-2024: Ask Acorn Junior E QF Clarinbridge 1-15 Tynagh/Abbey-Duniry 0-9. Prefer thin Tynagh scored path."
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22-2-174687"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-e-2024-qf-clarinbridge-tynagh",
+    "col": "runner_up",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "name",
+    "val": "Ballygar vs Castlegar (2024 Galway Junior E Semi-Final)"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "home",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "score",
+    "val": "Ballygar 2-16, Castlegar 2-15"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior E SF Ballygar 2-16 Castlegar 2-15. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "winner",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-ballygar-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "name",
+    "val": "Clarinbridge vs Loughrea (2024 Galway Junior E Semi-Final)"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "home",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "away",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "score",
+    "val": "Clarinbridge 4-06, Loughrea 1-14"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "note",
+    "val": "Galway Bay FM 30-Sep-2024: Ask Acorn Junior E SF Clarinbridge 4-6 Loughrea 1-14. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/weekend-galway-gaa-club-results-9-2-175223"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "winner",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-e-2024-sf-clarinbridge-loughrea",
+    "col": "runner_up",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "name",
+    "val": "Ballygar vs Clarinbridge (2024 Galway Junior E Final)"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "competition",
+    "val": "Galway Junior E Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "home",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "away",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "score",
+    "val": "Ballygar 1-16, Clarinbridge 2-08"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "note",
+    "val": "Galway Bay FM 21-Apr-2025: Ask Acorn Junior E Final (2024 championship) Ballygar 1-16 Clarinbridge 2-8 at Kenny Park (played April 2025). Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-84-192310"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "winner",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:galway-junior-e-2024-final-ballygar-clarinbridge",
+    "col": "runner_up",
+    "val": "club:clarinbridge"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "name",
+    "val": "Gort vs Sylane (2024 Galway Junior F Pre-Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "round",
+    "val": "Pre-Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "home",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "away",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "score",
+    "val": "Gort 2-11, Sylane 0-09"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior F PQF Gort 2-11 Sylane 0-9. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "winner",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-gort-sylane",
+    "col": "runner_up",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "name",
+    "val": "Mícheál Breathnach vs Castlegar (2024 Galway Junior F Pre-Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "round",
+    "val": "Pre-Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "home",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "score",
+    "val": "Mícheál Breathnach 3-21, Castlegar 1-15"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior F PQF Michéal Breathnach 3-21 Castlegar 1-15. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "winner",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-micheal-breathnach-castlegar",
+    "col": "runner_up",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "name",
+    "val": "Sarsfields vs Ballinderreen (2024 Galway Junior F Pre-Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "round",
+    "val": "Pre-Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "score",
+    "val": "Sarsfields 0-22, Ballinderreen 1-18"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "note",
+    "val": "Galway Bay FM 9-Sep-2024: Ask Acorn Junior F PQF Sarsfields 0-22 Ballinderreen 1-18. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-21-2-174395"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-f-2024-pqf-sarsfields-ballinderreen",
+    "col": "runner_up",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "name",
+    "val": "Salthill-Knocknacarra vs Sarsfields (2024 Galway Junior F Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "home",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "away",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "score",
+    "val": "Salthill-Knocknacarra 1-19, Sarsfields 0-11"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior F QF Salthill-Knocknacarra 1-19 Sarsfields 0-11. Prefer thin Salthill scored path."
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "winner",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-salthill-sarsfields",
+    "col": "runner_up",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "name",
+    "val": "Ahascragh/Fohenagh vs Ballinasloe (2024 Galway Junior F Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "home",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "away",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "score",
+    "val": "Ahascragh/Fohenagh 1-14, Ballinasloe 1-12"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior F QF Ahascragh/Fohenagh 1-14 Ballinasloe 1-12. Score-only AF path (no dense AF player fill)."
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "winner",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-ahascragh-fohenagh-ballinasloe",
+    "col": "runner_up",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "name",
+    "val": "Kinvara vs Mícheál Breathnach (2024 Galway Junior F Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "home",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "away",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "score",
+    "val": "Kinvara 3-14, Mícheál Breathnach 2-07"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior F QF Kinvara 3-14 Michéal Breathnach 2-7. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "winner",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kinvara-micheal-breathnach",
+    "col": "runner_up",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "name",
+    "val": "Kilconieron vs Gort (2024 Galway Junior F Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "home",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "score",
+    "val": "Kilconieron 0-20, Gort 2-11"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "note",
+    "val": "Galway Bay FM 7-Oct-2024: Ask Acorn Junior F QF Kilconieron 0-20 Gort 2-11. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-43-178312"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "winner",
+    "val": "club:kilconieron"
+  },
+  {
+    "row": "match:galway-junior-f-2024-qf-kilconieron-gort",
+    "col": "runner_up",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "name",
+    "val": "Kinvara vs Salthill-Knocknacarra (2024 Galway Junior F Final Replay)"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "competition",
+    "val": "Galway Junior F Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "round",
+    "val": "Final Replay"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "home",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "away",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "score",
+    "val": "Kinvara 2-04, Salthill-Knocknacarra 0-08"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "note",
+    "val": "Galway Bay FM 17-Nov-2024: Junior F Final Replay Kinvara 2-4 Salthill/Knocknacarra 0-8; goals Ethan Sexton and Shane Kavanagh; MotM Neil Huban 0-3. Prefer thin Salthill scored path."
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/kinvara-2-4-salthill-knocknacarra-0-8-junior-f-hurling-final-replay-reaction-with-neil-huban-and-steve-moylan-181872"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "winner",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-junior-f-2024-final-replay-kinvara-salthill",
+    "col": "runner_up",
+    "val": "club:salthill-knocknacarra"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "name",
+    "val": "Athenry vs An Spidéal (2024 Galway Junior A Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "away",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "score",
+    "val": "Athenry 4-10, An Spidéal 0-14"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior A QF Athenry 4-10 An Spidéal 0-14. Prefer thin An Spidéal scored path."
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-athenry-an-spideal",
+    "col": "runner_up",
+    "val": "club:an-spideal"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "name",
+    "val": "Sarsfields vs Mícheál Breathnach (2024 Galway Junior A Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "home",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "away",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "score",
+    "val": "Sarsfields 4-24, Mícheál Breathnach 2-15"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior A QF Sarsfields 4-24 Michéal Breathnach 2-15. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "winner",
+    "val": "club:sarsfields"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-sarsfields-micheal-breathnach",
+    "col": "runner_up",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "name",
+    "val": "St Thomas' vs Tynagh-Abbey/Duniry (2024 Galway Junior A Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "home",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "away",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "score",
+    "val": "St Thomas' 0-21, Tynagh/Abbey-Duniry 3-09"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior A QF St Thomas 0-21 Tynagh/Abbey-Duniry 3-9. Prefer thin Tynagh scored path."
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "winner",
+    "val": "club:st-thomas"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-st-thomas-tynagh",
+    "col": "runner_up",
+    "val": "club:tynagh-abbey-duniry"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "name",
+    "val": "Meelick-Eyrecourt vs Tommy Larkins (2024 Galway Junior A Relegation)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "round",
+    "val": "Relegation"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "home",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "away",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "score",
+    "val": "Meelick-Eyrecourt 0-12, Tommy Larkins 1-07"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "note",
+    "val": "Galway Bay FM 23-Sep-2024: Ask Acorn Junior A Relegation Meelick-Eyrecourt 0-12 Tommy Larkins 1-7. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/galway-gaa-results-23-2-174972"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "winner",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "match:galway-junior-a-2024-rel-meelick-tommy-larkins",
+    "col": "runner_up",
+    "val": "club:tommy-larkins"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "name",
+    "val": "Loughrea vs Ballinderreen (2024 Galway Junior A Quarter-Final)"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "competition",
+    "val": "Galway Junior A Hurling Championship"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "round",
+    "val": "Quarter-Final"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "home",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "away",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "score",
+    "val": "Loughrea 2-16, Ballinderreen 0-20"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "note",
+    "val": "Galway Bay FM 30-Sep-2024: Ask Acorn Junior A QF Loughrea 2-16 Ballinderreen 0-20. Junior scored gap."
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/weekend-galway-gaa-club-results-9-2-175223"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "winner",
+    "val": "club:loughrea"
+  },
+  {
+    "row": "match:galway-junior-a-2024-qf-loughrea-ballinderreen",
+    "col": "runner_up",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "name",
+    "val": "Athenry vs Oranmore-Maree (2024 Galway Minor A Final)"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "competition",
+    "val": "Galway Minor A Hurling Championship"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "home",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "away",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "score",
+    "val": "Athenry 1-16, Oranmore-Maree 2-11"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "note",
+    "val": "Galway Bay FM 14-Oct-2024: Brooks Minor A Final Athenry 1-16 Oranmore-Maree 2-11. Minor scored gap."
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/galway-gaa-club-results-8-178936"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "winner",
+    "val": "club:athenry"
+  },
+  {
+    "row": "match:galway-minor-a-2024-final-athenry-oranmore-maree",
+    "col": "runner_up",
+    "val": "club:oranmore-maree"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "name",
+    "val": "Kinvara vs Portumna (2024 Galway Minor B Final)"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "competition",
+    "val": "Galway Minor B Hurling Championship"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "home",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "away",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "score",
+    "val": "Kinvara 0-15, Portumna 0-13"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "note",
+    "val": "Galway Bay FM 14-Oct-2024: Brooks Minor B Final Kinvara 0-15 Portumna 0-13. Minor scored gap."
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/galway-gaa-club-results-8-178936"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "winner",
+    "val": "club:kinvara"
+  },
+  {
+    "row": "match:galway-minor-b-2024-final-kinvara-portumna",
+    "col": "runner_up",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "name",
+    "val": "Pádraig Pearses vs Fr Joe Walsh's (2024 Galway Minor B1 Final)"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "competition",
+    "val": "Galway Minor B1 Hurling Championship"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "home",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "away",
+    "val": "club:fr-joe-walshs"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "score",
+    "val": "Pádraig Pearses 1-09, Fr Joe Walsh's 0-10"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "note",
+    "val": "Galway Bay FM 14-Oct-2024: Brooks Minor B1 Final Padraig Pearses 1-9 Fr Joe Walsh's 0-10. Score-only orphan path (no first+last named Fr Joe players)."
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/galway-gaa-club-results-8-178936"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "winner",
+    "val": "club:padraig-pearses"
+  },
+  {
+    "row": "match:galway-minor-b1-2024-final-padraig-pearses-fr-joe-walshs",
+    "col": "runner_up",
+    "val": "club:fr-joe-walshs"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "name",
+    "val": "Ballinderreen vs Abbeyknockmoy (2024 Galway Minor C Final)"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Minor C Hurling Championship"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "home",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "score",
+    "val": "Ballinderreen 1-13, Abbeyknockmoy 2-10"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "note",
+    "val": "Galway Bay FM 30-Sep-2024: Brooks Minor C Final Ballinderreen 1-13 Abbeyknockmoy 2-10 (published; replay followed)."
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/sports/weekend-galway-gaa-club-results-9-2-175223"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-ballinderreen-abbeyknockmoy",
+    "col": "runner_up",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "name",
+    "val": "Ballinderreen vs Abbeyknockmoy (2024 Galway Minor C Final Replay)"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "competition",
+    "val": "Galway Minor C Hurling Championship"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "round",
+    "val": "Final Replay"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "home",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "away",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "score",
+    "val": "Ballinderreen 5-18, Abbeyknockmoy 3-06"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "note",
+    "val": "Galway Bay FM 14-Oct-2024: Brooks Minor C Final Replay Ballinderreen 5-18 Abbeyknockmoy 3-6. Minor scored gap."
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/galway-gaa-club-results-8-178936"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "winner",
+    "val": "club:ballinderreen"
+  },
+  {
+    "row": "match:galway-minor-c-2024-final-replay-ballinderreen-abbeyknockmoy",
+    "col": "runner_up",
+    "val": "club:abbeyknockmoy"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "name",
+    "val": "Mícheál Breathnach vs Sylane (2024 Galway Minor C Shield Final)"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "competition",
+    "val": "Galway Minor C Hurling Championship"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "round",
+    "val": "Shield Final"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "home",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "away",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "score",
+    "val": "Mícheál Breathnach 1-21, Sylane 0-06"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "note",
+    "val": "Galway Bay FM 14-Oct-2024: Brooks Minor C Shield Final Michéal Breathnach 1-21 Sylane 0-6. Minor scored gap."
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/galway-gaa-club-results-8-178936"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "winner",
+    "val": "club:micheal-breathnach"
+  },
+  {
+    "row": "match:galway-minor-c-2024-shield-final-micheal-breathnach-sylane",
+    "col": "runner_up",
+    "val": "club:sylane"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "name",
+    "val": "Portumna vs Gort (2024 Galway Minor B Semi-Final)"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "competition",
+    "val": "Galway Minor B Hurling Championship"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "round",
+    "val": "Semi-Final"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "year",
+    "val": 2024
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "home",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "score",
+    "val": "Portumna 0-21, Gort 1-17"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "note",
+    "val": "Galway Bay FM 7-Oct-2024: Brooks Minor B SF Portumna 0-21 Gort 1-17. Minor scored gap."
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "source",
+    "val": "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-43-178312"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "winner",
+    "val": "club:portumna"
+  },
+  {
+    "row": "match:galway-minor-b-2024-sf-portumna-gort",
+    "col": "runner_up",
+    "val": "club:gort"
+  },
+  {
+    "row": "player:enda-concannon",
+    "col": "hold",
+    "val": true
   }
 ]
