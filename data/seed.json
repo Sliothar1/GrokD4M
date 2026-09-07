@@ -135297,7 +135297,7 @@
   {
     "row": "player:noel-fitzgerald-ahascragh",
     "col": "note",
-    "val": "Galway GAA Roll of Honour 1989: Noel Fitzgerald named on Ahascragh Minor ‘C’ Hurling Champions panel."
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best despite the 0-9 to 1-12 defeat (Connacht Tribune cutting)."
   },
   {
     "row": "player:noel-fitzgerald-ahascragh",
@@ -244052,7 +244052,7 @@
   {
     "row": "player:padraic-leonard",
     "col": "club",
-    "val": "club:ahascragh-fohenagh"
+    "val": "club:fohenagh-historic"
   },
   {
     "row": "player:padraic-leonard",
@@ -244062,12 +244062,12 @@
   {
     "row": "player:padraic-leonard",
     "col": "status",
-    "val": "pending_verification"
+    "val": "pending_archivist"
   },
   {
     "row": "player:padraic-leonard",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
   },
   {
     "row": "player:padraic-leonard",
@@ -244157,7 +244157,7 @@
   {
     "row": "player:seamus-moclair",
     "col": "club",
-    "val": "club:ahascragh-fohenagh"
+    "val": "club:fohenagh-historic"
   },
   {
     "row": "player:seamus-moclair",
@@ -244167,12 +244167,12 @@
   {
     "row": "player:seamus-moclair",
     "col": "status",
-    "val": "pending_verification"
+    "val": "pending_archivist"
   },
   {
     "row": "player:seamus-moclair",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
   },
   {
     "row": "player:seamus-moclair",
@@ -244192,7 +244192,7 @@
   {
     "row": "player:garry-lohan",
     "col": "club",
-    "val": "club:ahascragh-fohenagh"
+    "val": "club:fohenagh-historic"
   },
   {
     "row": "player:garry-lohan",
@@ -244202,12 +244202,12 @@
   {
     "row": "player:garry-lohan",
     "col": "status",
-    "val": "pending_verification"
+    "val": "pending_archivist"
   },
   {
     "row": "player:garry-lohan",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
   },
   {
     "row": "player:garry-lohan",
@@ -244523,5 +244523,475 @@
     "row": "player:gary-lohan",
     "col": "status",
     "val": "pending_verification"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "name",
+    "val": "John Devine"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:john-devine",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "name",
+    "val": "Alan Madden"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "name",
+    "val": "Ollie Deeley"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting). Club-scoped historic id (distinct from amalgam Tony Kirwan where needed)."
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "name",
+    "val": "Sean Morrissey"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting). Club-scoped Ahascragh id."
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "name",
+    "val": "David Costello"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "name",
+    "val": "Kevin Gavin"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "name",
+    "val": "Oliver Hennelly"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "name",
+    "val": "Patrick Hartigan"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "name",
+    "val": "Fohenagh vs Ahascragh — Sadie Kilcommons final"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "competition",
+    "val": "Sadie Kilcommons Trophy"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "away",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "score",
+    "val": "1-12 to 0-9"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "result",
+    "val": "Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "note",
+    "val": "Fohenagh recaptured the Sadie Kilcommons trophy. Adult hurling: Ahascragh and Fohenagh had earlier wins over Skehana and Mountbellew-Moylough (Connacht Tribune cutting)."
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "cite",
+    "val": "Connacht Tribune cutting (local pages; exact issue date TBD)"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "secondary_cite",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
+    "col": "article_upload",
+    "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
   }
 ]

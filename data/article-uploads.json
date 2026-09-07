@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "id": "art-ct-fohenagh-ahascragh-sadie-kilcommons",
+    "kind": "pdf",
+    "filename": "art-ct-fohenagh-ahascragh-sadie-kilcommons.pdf",
+    "path": "/uploads/articles/art-ct-fohenagh-ahascragh-sadie-kilcommons.pdf",
+    "publicUrl": "/uploads/articles/art-ct-fohenagh-ahascragh-sadie-kilcommons.pdf",
+    "uploadedAt": "2026-09-07T15:37:18.897759+00:00",
+    "caption": "Connacht Tribune cutting — Fohenagh win Sadie Kilcommons final vs Ahascragh",
+    "year": "",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ahascragh",
+      "sadie-kilcommons"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:ahascragh-historic",
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:seamus-moclair",
+      "player:padraic-leonard",
+      "player:garry-lohan",
+      "player:john-devine",
+      "player:alan-madden",
+      "player:ollie-deeley",
+      "player:tony-kirwan-fohenagh",
+      "player:noel-fitzgerald-ahascragh",
+      "player:sean-morrissey-ahascragh",
+      "player:david-costello-ahascragh",
+      "player:kevin-gavin-ahascragh",
+      "player:oliver-hennelly-ahascragh",
+      "player:patrick-hartigan-ahascragh"
+    ],
+    "excerpt": "Fohenagh recaptured the Sadie Kilcommons trophy after an impressive 1-12 to 0-9 victory over Ahascragh. Fohenagh were best served by Seamus Mockler, Padraic Leonard, Garry Lohan, John Devine, Alan Madden, Ollie Deeley and Tony Kirwan. Ahascragh were best served by Noel Fitzgerald, Sean Morrissey, David Costello, Kevin Gavin, Oliver Hennelly and Patrick Hartigan.",
+    "citeChip": "Connacht Tribune · Sadie Kilcommons final",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-ahascragh-sadie-kilcommons-final"
+    ],
+    "privateTextPath": "data/private/article-text/art-ct-fohenagh-ahascragh-sadie-kilcommons.txt"
+  }
+]
