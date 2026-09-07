@@ -36682,12 +36682,12 @@
   {
     "row": "player:jason-lohan",
     "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
   },
   {
     "row": "player:jason-lohan",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Also Ahascragh–Fohenagh Minor B 1999 roll of honour."
   },
   {
     "row": "player:jim-morris",
@@ -86372,7 +86372,7 @@
   {
     "row": "player:jason-lohan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "archivist_approved"
   },
   {
     "row": "player:jim-morris",
@@ -117032,12 +117032,12 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "https://www.tuamherald.ie/"
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+    "val": "Named in Tuam Herald 2026 coverage for Ahascragh-Fohenagh."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -122997,7 +122997,7 @@
   {
     "row": "player:cathal-lohan-fohenagh",
     "col": "note",
-    "val": "Historic Fohenagh Minor C 1996 RoH panel; same person as player:cathal-lohan for Stories cuttings."
+    "val": "Named on Fohenagh Minor C 1996 Galway GAA roll of honour panel."
   },
   {
     "row": "player:cathal-lohan-fohenagh",
@@ -244062,22 +244062,12 @@
   {
     "row": "player:padraic-leonard",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:padraic-leonard",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:padraic-leonard",
@@ -244107,27 +244097,12 @@
   {
     "row": "player:niall-leonard",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:niall-leonard",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "kid_chip",
-    "val": "Local profile"
-  },
-  {
-    "row": "player:alan-moclair-ahascragh-fohenagh",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -244157,22 +244132,12 @@
   {
     "row": "player:sean-moclair",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:sean-moclair",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:sean-moclair",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:sean-moclair",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:sean-moclair",
@@ -244202,22 +244167,12 @@
   {
     "row": "player:seamus-moclair",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:seamus-moclair",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:seamus-moclair",
@@ -244247,22 +244202,12 @@
   {
     "row": "player:garry-lohan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:garry-lohan",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:garry-lohan",
@@ -244292,22 +244237,12 @@
   {
     "row": "player:phillip-lohan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:phillip-lohan",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:phillip-lohan",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:phillip-lohan",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:phillip-lohan",
@@ -244337,27 +244272,12 @@
   {
     "row": "player:cathal-lohan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:cathal-lohan",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:cathal-lohan",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:cathal-lohan",
-    "col": "kid_chip",
-    "val": "Local profile"
-  },
-  {
-    "row": "player:jason-lohan",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:trevor-lohan",
@@ -244382,22 +244302,12 @@
   {
     "row": "player:trevor-lohan",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "pending_verification"
   },
   {
     "row": "player:trevor-lohan",
     "col": "note",
-    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
-  },
-  {
-    "row": "player:trevor-lohan",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
-  },
-  {
-    "row": "player:trevor-lohan",
-    "col": "kid_chip",
-    "val": "Local profile"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:padraig-leonard",
@@ -244427,12 +244337,7 @@
   {
     "row": "player:padraig-leonard",
     "col": "note",
-    "val": "Spelling alias → player:padraic-leonard. Community neighbour pack."
-  },
-  {
-    "row": "player:padraig-leonard",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:alan-mockler",
@@ -244462,12 +244367,7 @@
   {
     "row": "player:alan-mockler",
     "col": "note",
-    "val": "Spelling alias → player:alan-moclair-ahascragh-fohenagh. Community neighbour pack."
-  },
-  {
-    "row": "player:alan-mockler",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:sean-mockler",
@@ -244497,12 +244397,7 @@
   {
     "row": "player:sean-mockler",
     "col": "note",
-    "val": "Spelling alias → player:sean-moclair. Community neighbour pack."
-  },
-  {
-    "row": "player:sean-mockler",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:seamus-mockler",
@@ -244532,12 +244427,7 @@
   {
     "row": "player:seamus-mockler",
     "col": "note",
-    "val": "Spelling alias → player:seamus-moclair. Community neighbour pack."
-  },
-  {
-    "row": "player:seamus-mockler",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:philip-lohan",
@@ -244567,12 +244457,7 @@
   {
     "row": "player:philip-lohan",
     "col": "note",
-    "val": "Spelling alias → player:phillip-lohan. Community neighbour pack."
-  },
-  {
-    "row": "player:philip-lohan",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:gary-lohan",
@@ -244602,16 +244487,41 @@
   {
     "row": "player:gary-lohan",
     "col": "note",
-    "val": "Spelling alias → player:garry-lohan. Community neighbour pack."
-  },
-  {
-    "row": "player:gary-lohan",
-    "col": "source",
-    "val": "community:garry-lohan-neighbours-2026-09"
+    "val": "Ahascragh-Fohenagh hurler."
   },
   {
     "row": "player:cathal-lohan-fohenagh",
     "col": "same_as",
     "val": "player:cathal-lohan"
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "status",
+    "val": "pending_verification"
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "status",
+    "val": "pending_verification"
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "status",
+    "val": "pending_verification"
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "status",
+    "val": "pending_verification"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "status",
+    "val": "pending_verification"
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "status",
+    "val": "pending_verification"
   }
 ]
