@@ -36682,12 +36682,12 @@
   {
     "row": "player:jason-lohan",
     "col": "source",
-    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+    "val": "community:garry-lohan-neighbours-2026-09"
   },
   {
     "row": "player:jason-lohan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Galway GAA Roll of Honour 1999: Jason Lohan named on Ahascragh–Fohenagh Minor ‘B’ Hurling Champions panel; IHC 2002 panel age-plausible."
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
   },
   {
     "row": "player:jim-morris",
@@ -117032,12 +117032,12 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "source",
-    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+    "val": "community:garry-lohan-neighbours-2026-09"
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "note",
-    "val": "Tuam Herald 2026 PIC opener: A. Moclair started half-back for Ahascragh-Fohenagh vs Kinvara."
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -122997,7 +122997,7 @@
   {
     "row": "player:cathal-lohan-fohenagh",
     "col": "note",
-    "val": "Galway GAA Roll of Honour 1996: Cathal Lohan named on Fohenagh Minor ‘C’ Hurling Champions panel."
+    "val": "Historic Fohenagh Minor C 1996 RoH panel; same person as player:cathal-lohan for Stories cuttings."
   },
   {
     "row": "player:cathal-lohan-fohenagh",
@@ -244038,5 +244038,580 @@
     "row": "match:galway-pihc-2026-r1-kilnadeema-leitrim-killimor",
     "col": "source_bayfm_listing",
     "val": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "name",
+    "val": "Pádraic Leonard"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "also_known_as",
+    "val": "Padraig Leonard; Padraic Leonard"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "name",
+    "val": "Niall Leonard"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "also_known_as",
+    "val": "Alan Mockler; A. Moclair"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "name",
+    "val": "Seán Moclair"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "also_known_as",
+    "val": "Sean Moclair; Sean Mockler; Seán Mockler"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "also_known_as",
+    "val": "Seamus Moclair; Seamus Mockler; Séamus Mockler"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "name",
+    "val": "Garry Lohan"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "also_known_as",
+    "val": "Gary Lohan"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "name",
+    "val": "Phillip Lohan"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "also_known_as",
+    "val": "Philip Lohan"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "name",
+    "val": "Cathal Lohan"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "name",
+    "val": "Trevor Lohan"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "note",
+    "val": "Community seed: Ahascragh-Fohenagh neighbour/family profile for Stories cuttings. Unverified until Archivist CLEAR; no invented caps/scores."
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "kid_chip",
+    "val": "Local profile"
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "name",
+    "val": "Pádraig Leonard"
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "same_as",
+    "val": "player:padraic-leonard"
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "note",
+    "val": "Spelling alias → player:padraic-leonard. Community neighbour pack."
+  },
+  {
+    "row": "player:padraig-leonard",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "name",
+    "val": "Alan Mockler"
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "same_as",
+    "val": "player:alan-moclair-ahascragh-fohenagh"
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "note",
+    "val": "Spelling alias → player:alan-moclair-ahascragh-fohenagh. Community neighbour pack."
+  },
+  {
+    "row": "player:alan-mockler",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "name",
+    "val": "Sean Mockler"
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "same_as",
+    "val": "player:sean-moclair"
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "note",
+    "val": "Spelling alias → player:sean-moclair. Community neighbour pack."
+  },
+  {
+    "row": "player:sean-mockler",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "name",
+    "val": "Seamus Mockler"
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "same_as",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "note",
+    "val": "Spelling alias → player:seamus-moclair. Community neighbour pack."
+  },
+  {
+    "row": "player:seamus-mockler",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "name",
+    "val": "Philip Lohan"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "same_as",
+    "val": "player:phillip-lohan"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "note",
+    "val": "Spelling alias → player:phillip-lohan. Community neighbour pack."
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "name",
+    "val": "Gary Lohan"
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "same_as",
+    "val": "player:garry-lohan"
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "note",
+    "val": "Spelling alias → player:garry-lohan. Community neighbour pack."
+  },
+  {
+    "row": "player:gary-lohan",
+    "col": "source",
+    "val": "community:garry-lohan-neighbours-2026-09"
+  },
+  {
+    "row": "player:cathal-lohan-fohenagh",
+    "col": "same_as",
+    "val": "player:cathal-lohan"
   }
 ]

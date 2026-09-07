@@ -1,0 +1,27 @@
+{
+  "pack": "fohenagh-neighbours-lohan-leonard-moclair",
+  "at": "2026-09-07T15:09:46.290286+00:00",
+  "created": [
+    "player:padraic-leonard",
+    "player:niall-leonard",
+    "player:sean-moclair",
+    "player:seamus-moclair",
+    "player:garry-lohan",
+    "player:phillip-lohan",
+    "player:cathal-lohan",
+    "player:trevor-lohan"
+  ],
+  "updated": [
+    "player:alan-moclair-ahascragh-fohenagh",
+    "player:jason-lohan"
+  ],
+  "aliases": [
+    "player:padraig-leonard",
+    "player:alan-mockler",
+    "player:sean-mockler",
+    "player:seamus-mockler",
+    "player:philip-lohan",
+    "player:gary-lohan"
+  ],
+  "cutting_hint": "Stories upload \u2192 Player tags: player:garry-lohan, player:padraic-leonard, \u2026 or plain names"
+}
