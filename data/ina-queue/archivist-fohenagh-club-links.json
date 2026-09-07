@@ -373,5 +373,32 @@
       "player:anthony-kelly-ahascragh-fohenagh"
     ],
     "note": "AF/Fohenagh r28: Anthony Kelly RoH 2009 Junior C. Wikipedia 2024 AF SB group + relegation/replay + 2020 SB r2. Carnmore/Ballygar/Clarinbridge thin fills. HOLD Ronal/Ronan Killilea; Sean/Sam McArdle. HOLD orphans skipped."
+  },
+  {
+    "batch": "fohenagh-ina-catalog-r65",
+    "ruled_at": "2026-09-07T01:02:34.799198+00:00",
+    "ina_status": {
+      "login": "blocked",
+      "detail": "Chrome profile cookies present but VeridianSessionID empty; INA UI shows Sign in for garrylohan session. No live OCR. Used already-queued fohenagh-catalog.* title/URL locators only.",
+      "username_hint": "garrylohan_77"
+    },
+    "clear_links": [],
+    "unverified_new": [],
+    "cites_attached": [
+      "match:fohenagh-historic-1961-galway-shc-final",
+      "match:fohenagh-historic-1959-galway-shc-final-replay",
+      "match:fohenagh-historic-1960-galway-shc-final",
+      "match:fohenagh-2016-11-06-final",
+      "match:galway-shc-2021-sa-r1-castlegar-ahascragh-fohenagh",
+      "match:fohenagh-2016-11-13-final-replay"
+    ],
+    "articles_hold": [
+      "article:ina-fohenagh-2009-golden-era",
+      "article:ina-fohenagh-2017-ihc-year",
+      "article:ina-fohenagh-2018-heroes",
+      "article:ina-fohenagh-2012-cup",
+      "article:ina-castlegar-af-2021-09-17"
+    ],
+    "note": "INA login blocked; catalog title/URL cite chips only. No full text. No invented scores. New cuttings HOLD pending Archivist."
   }
 ]

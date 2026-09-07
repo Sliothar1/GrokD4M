@@ -1,0 +1,257 @@
+{
+  "round": "65",
+  "title": "INA Galway cuttings pack r65",
+  "ina_status": {
+    "login": "blocked",
+    "detail": "Chrome profile cookies present but VeridianSessionID empty; INA UI shows Sign in for garrylohan session. No live OCR. Used already-queued fohenagh-catalog.* title/URL locators only.",
+    "username_hint": "garrylohan_77"
+  },
+  "rules": [
+    "Never dump full copyrighted article text into seed",
+    "Excerpt + cite only (YYYY-MM-DD · Paper)",
+    "Never invent scores",
+    "New appearance/player facts = unverified pending Archivist",
+    "Fohenagh first"
+  ],
+  "match_cites": [
+    {
+      "id": "match:fohenagh-historic-1961-galway-shc-final",
+      "cols": {
+        "secondary_cite": "1961-09-16 · Connacht Tribune",
+        "secondary_cite_paper": "Connacht Tribune",
+        "secondary_cite_date": "1961-09-16",
+        "secondary_cite_url": "https://irishnewsarchive.com/?a=d&d=CTT19610916.1.30",
+        "pack_id": "galway-shc-1961-final",
+        "ingest_triage": "catalog_secondary_cite",
+        "note": "INA catalog locator CTT19610916.1.30 — title: Turloughmore dethroned Fohenagh in a dream finish. Cite chip only; score already dual-sourced (galwaygaa.ie + Wikipedia 3-6 to 3-4). No OCR body; login blocked r65."
+      },
+      "alias": {
+        "id": "match:galway-shc-1961-final",
+        "cols": {
+          "type": "match",
+          "same_as": "match:fohenagh-historic-1961-galway-shc-final",
+          "secondary_cite": "1961-09-16 · Connacht Tribune",
+          "secondary_cite_paper": "Connacht Tribune",
+          "secondary_cite_date": "1961-09-16",
+          "secondary_cite_url": "https://irishnewsarchive.com/?a=d&d=CTT19610916.1.30"
+        }
+      }
+    },
+    {
+      "id": "match:fohenagh-historic-1959-galway-shc-final-replay",
+      "cols": {
+        "catalog_cite": "1959-09-15 · Connacht Sentinel",
+        "catalog_cite_paper": "Connacht Sentinel",
+        "catalog_cite_date": "1959-09-15",
+        "catalog_cite_url": "https://irishnewsarchive.com/?a=d&d=CSL19590915.1.4",
+        "note": "INA catalog locator CSL19590915.1.4 — title: Castlegar have fallen and the new champions are Fohenagh. Extra contemporary cite beside existing Connacht Tribune secondary; excerpt locator only (no full text)."
+      }
+    },
+    {
+      "id": "match:fohenagh-historic-1960-galway-shc-final",
+      "cols": {
+        "catalog_cite": "2021-01-29 · Galway City Tribune",
+        "catalog_cite_paper": "Galway City Tribune",
+        "catalog_cite_date": "2021-01-29",
+        "catalog_cite_url": "https://irishnewsarchive.com/?a=d&d=CTB20210129.1.68",
+        "catalog_cite_2": "2021-01-29 · Connacht Tribune",
+        "catalog_cite_2_url": "https://irishnewsarchive.com/?a=d&d=CTT20210129.1.82",
+        "note": "INA catalog retrospective locators CTB20210129.1.68 / CTT20210129.1.82 — title: The 1960 Fohenagh team which claimed back-to-back Galway senior hurling titles. Cite chips only; score unchanged."
+      }
+    },
+    {
+      "id": "match:fohenagh-2016-11-06-final",
+      "cols": {
+        "secondary_cite": "2016-11-08 · Connaught Telegraph",
+        "secondary_cite_paper": "Connaught Telegraph",
+        "secondary_cite_date": "2016-11-08",
+        "secondary_cite_url": "https://irishnewsarchive.com/?a=d&d=TCT20161108.1.81",
+        "note": "INA catalog snippet locator TCT20161108.1.81 — title includes Ahascragh Fohenagh 0-19 (agrees existing verified draw line 0-19 vs Ballyhaunis 2-13 from The42). Catalog cite only; no full article text; no score invent/overwrite."
+      }
+    },
+    {
+      "id": "match:galway-shc-2021-sa-r1-castlegar-ahascragh-fohenagh",
+      "cols": {
+        "secondary_cite": "2021-09-17 · Galway City Tribune",
+        "secondary_cite_paper": "Galway City Tribune",
+        "secondary_cite_date": "2021-09-17",
+        "secondary_cite_url": "https://irishnewsarchive.com/?a=d&d=CTB20210917.1.78",
+        "note": "INA catalog locator CTB20210917.1.78 — title: Castlegar v Ahascragh/Fohenagh. Cite chip only; score already from Wikipedia 2021 Galway SHC (Castlegar 3-17, Ahascragh-Fohenagh 0-17)."
+      }
+    },
+    {
+      "id": "match:fohenagh-2016-11-13-final-replay",
+      "cols": {
+        "catalog_cite": "2016-11-15 · Connaught Telegraph",
+        "catalog_cite_paper": "Connaught Telegraph",
+        "catalog_cite_date": "2016-11-15",
+        "catalog_cite_url": "https://irishnewsarchive.com/?a=d&d=TCT20161115.1.88",
+        "note": "Points at existing HOLD article:ina-fohenagh-2016-connacht-ihc (packet away 0-7 disputed vs agreeing public 0-13). Seed match score stays 2-20 / 0-13 from The42/HoganStand; INA catalog locator attached as catalog_cite only — do not import disputed packet away tally."
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "article:ina-fohenagh-2009-golden-era",
+      "cols": {
+        "type": "article_upload",
+        "kind": "url",
+        "title": "A golden era in the history of Fohenagh Hurling Club",
+        "name": "A golden era in the history of Fohenagh Hurling Club",
+        "cite": "2009-11-27 · Connacht Tribune",
+        "badge": "from link",
+        "confidence": "unverified",
+        "verification": "hold",
+        "ingest_triage": "hold_catalog_cutting",
+        "archivist_ruling": "HOLD",
+        "paper": "Connacht Tribune",
+        "date": "2009-11-27",
+        "year": "2009",
+        "url": "https://irishnewsarchive.com/?a=d&d=CTT20091127.1.54",
+        "excerpt": "Catalog title locator — golden-era feature on Fohenagh Hurling Club. Excerpt+cite only; full text withheld; pending Archivist.",
+        "summary": "Catalog title locator — golden-era feature on Fohenagh Hurling Club. Excerpt+cite only; full text withheld; pending Archivist.",
+        "club": "club:fohenagh-historic",
+        "hide_score": true
+      }
+    },
+    {
+      "id": "article:ina-fohenagh-2017-ihc-year",
+      "cols": {
+        "type": "article_upload",
+        "kind": "url",
+        "title": "Year to remember; Ahascragh Fohenagh Galway & Connacht IHC Champions and All Ireland finalists",
+        "name": "Year to remember; Ahascragh Fohenagh Galway & Connacht IHC Champions",
+        "cite": "2017-04-21 · Connacht Tribune",
+        "badge": "from link",
+        "confidence": "unverified",
+        "verification": "hold",
+        "ingest_triage": "hold_catalog_cutting",
+        "archivist_ruling": "HOLD",
+        "paper": "Connacht Tribune",
+        "date": "2017-04-21",
+        "year": "2017",
+        "url": "https://irishnewsarchive.com/?a=d&d=CTT20170421.1.39",
+        "excerpt": "Catalog title locator — AF 2016 Galway & Connacht IHC season retrospective. Cite only; no invented scores; pending Archivist.",
+        "summary": "Catalog title locator — AF 2016 Galway & Connacht IHC season retrospective. Cite only; no invented scores; pending Archivist.",
+        "club": "club:ahascragh-fohenagh",
+        "linked_entity": "match:fohenagh-2016-11-13-final-replay",
+        "hide_score": true
+      }
+    },
+    {
+      "id": "article:ina-fohenagh-2018-heroes",
+      "cols": {
+        "type": "article_upload",
+        "kind": "url",
+        "title": "Hurling heroes of the past / former players including Fohenagh",
+        "name": "Hurling heroes of the past / former players including Fohenagh",
+        "cite": "2018-03-30 · Connacht Tribune",
+        "badge": "from link",
+        "confidence": "unverified",
+        "verification": "hold",
+        "ingest_triage": "hold_catalog_cutting",
+        "archivist_ruling": "HOLD",
+        "paper": "Connacht Tribune",
+        "date": "2018-03-30",
+        "year": "2018",
+        "url": "https://irishnewsarchive.com/?a=d&d=CTT20180330.1.17",
+        "excerpt": "Catalog title locator — former-player feature naming Fohenagh. Cite only; no new player rows until Archivist dual-source.",
+        "summary": "Catalog title locator — former-player feature naming Fohenagh. Cite only; no new player rows until Archivist dual-source.",
+        "club": "club:fohenagh-historic",
+        "hide_score": true
+      }
+    },
+    {
+      "id": "article:ina-fohenagh-2012-cup",
+      "cols": {
+        "type": "article_upload",
+        "kind": "url",
+        "title": "Fohenagh feast on fantastic cup success",
+        "name": "Fohenagh feast on fantastic cup success",
+        "cite": "2012-05-08 · Roscommon Herald",
+        "badge": "from link",
+        "confidence": "unverified",
+        "verification": "hold",
+        "ingest_triage": "hold_catalog_cutting",
+        "archivist_ruling": "HOLD",
+        "paper": "Roscommon Herald",
+        "date": "2012-05-08",
+        "year": "2012",
+        "url": "https://irishnewsarchive.com/?a=d&d=RCH20120508.1.91",
+        "excerpt": "Catalog title locator — Fohenagh cup success. Competition/grade/score not stated in catalog title; no score invented; pending Archivist OCR.",
+        "summary": "Catalog title locator — Fohenagh cup success. Competition/grade/score not stated in catalog title; no score invented; pending Archivist OCR.",
+        "club": "club:fohenagh-historic",
+        "hide_score": true
+      }
+    },
+    {
+      "id": "article:ina-castlegar-af-2021-09-17",
+      "cols": {
+        "type": "article_upload",
+        "kind": "url",
+        "title": "Castlegar v Ahascragh/Fohenagh",
+        "name": "Castlegar v Ahascragh/Fohenagh",
+        "cite": "2021-09-17 · Galway City Tribune",
+        "badge": "from link",
+        "confidence": "unverified",
+        "verification": "hold",
+        "ingest_triage": "hold_catalog_cutting",
+        "archivist_ruling": "HOLD",
+        "paper": "Galway City Tribune",
+        "date": "2021-09-17",
+        "year": "2021",
+        "url": "https://irishnewsarchive.com/?a=d&d=CTB20210917.1.78",
+        "excerpt": "Catalog title locator — Castlegar v Ahascragh/Fohenagh. Linked to scored Wikipedia R1; full INA body withheld pending login/Archivist.",
+        "summary": "Catalog title locator — Castlegar v Ahascragh/Fohenagh. Linked to scored Wikipedia R1; full INA body withheld pending login/Archivist.",
+        "club": "club:ahascragh-fohenagh",
+        "club_1": "club:castlegar",
+        "linked_entity": "match:galway-shc-2021-sa-r1-castlegar-ahascragh-fohenagh",
+        "hide_score": true
+      }
+    }
+  ],
+  "pending_records": [
+    {
+      "entity_kind": "match",
+      "match_id": "galway-shc-1961-final",
+      "clubs": [{"id": "club:turloughmore", "name": "Turloughmore", "role": "winner"}, {"id": "club:fohenagh-historic", "name": "Fohenagh", "role": "mentioned"}],
+      "score": null,
+      "competition": "Galway Senior Hurling Championship final",
+      "season": 1961,
+      "paper": "Connacht Tribune",
+      "date": "1961-09-16",
+      "cite_chip": "1961-09-16 · Connacht Tribune",
+      "excerpt": "Catalog title: Turloughmore dethroned Fohenagh in a dream finish. Score omitted from pending (already verified elsewhere); login blocked for OCR.",
+      "cite": {"url": "https://irishnewsarchive.com/?a=d&d=CTT19610916.1.30", "snippet_note": "CTT19610916.1.30 catalog title only", "ina_doc_id": "CTT19610916.1.30"},
+      "verification_status": "unverified",
+      "ingest_triage": "catalog_secondary_cite",
+      "notes": "Attach secondary_cite only; never invent/overwrite score.",
+      "source_kind": "url",
+      "badge": "from link",
+      "batch_id": "fohenagh-ina-catalog-r65"
+    },
+    {
+      "entity_kind": "match",
+      "match_id": "match:fohenagh-2016-11-06-final",
+      "clubs": [{"id": "club:ahascragh-fohenagh", "name": "Ahascragh/Fohenagh", "role": "mentioned"}, {"id": "club:ballyhaunis", "name": "Ballyhaunis", "role": "mentioned"}],
+      "score": {"home": "0-19", "away": null, "as_stated": "Ahascragh Fohenagh 0-19 (snippet; away not in catalog title)", "result": "unknown"},
+      "competition": "AIB Connacht Club Intermediate Hurling Championship final",
+      "season": 2016,
+      "paper": "Connaught Telegraph",
+      "date": "2016-11-08",
+      "cite_chip": "2016-11-08 · Connaught Telegraph",
+      "excerpt": "Catalog title/snippet shows Ahascragh Fohenagh 0-19 — agrees public draw line; away tally not in catalog title so not asserted from INA.",
+      "cite": {"url": "https://irishnewsarchive.com/?a=d&d=TCT20161108.1.81", "snippet_note": "TCT20161108.1.81 score_visible_in_snippet for AF 0-19 only", "ina_doc_id": "TCT20161108.1.81"},
+      "verification_status": "unverified",
+      "ingest_triage": "catalog_secondary_cite",
+      "notes": "Secondary cite to existing verified draw; do not invent away from title.",
+      "source_kind": "url",
+      "badge": "from link",
+      "batch_id": "fohenagh-ina-catalog-r65"
+    }
+  ],
+  "public_fallback_note": "Live INA login blocked. No new invented historic SHC scores (1892–1922 blanks remain blank on galwaygaa.ie/Wikipedia). Public corroboration used only where catalog cite attaches to already-scored seed matches (The42/Wikipedia/galwaygaa).",
+  "new_players": [],
+  "new_matches": [],
+  "hold_players": []
+}
