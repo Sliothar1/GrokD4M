@@ -1,0 +1,623 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Oscar O'Gorman",
+      "id": "player:oscar-ogorman-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://www.galwaydaily.com/sport/gaa-kilconieron-second-half-rally-secures-shield/",
+      "note": "Galway Daily 2018 U15B Shield Final Kilconieron panel names Oscar O'Gorman; 2024 Galway SHC Cappataggle vs Kilconieron scorers list Oscar O'Gorman 0-1 (championship report / wiki mirror). Thin-club fill (Kilconieron ~28); club-scoped id.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Peter Martin",
+      "id": "player:peter-martin-kilconieron",
+      "club": "club:kilconieron",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway SHC Craughwell vs Kilconieron scorers: Peter Martin 0-1; Connacht Tribune Craughwell report names Peter Martin among Kilconieron standouts; Galway GAA 2020 IHC champions roll of honour photo lists Peter Martin; The42 Fitzgibbon ATU Galway panel Peter Martin (Kilconieron). Thin-club fill; club-scoped id.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Liam Curley",
+      "id": "player:liam-curley-mullagh",
+      "club": "club:mullagh",
+      "source": "http://www.padraigpearsesgalway.com/2025-senior-cship-round-1/",
+      "note": "Pádraig Pearses 2025 SHC R1 report team sheet L Curley (0-2) + body 'Liam Curley... impressive championship debut'; Wikipedia 2025 SHC Pearses vs Mullagh scorers Liam Curley 0-2; Connacht Tribune 2026 PIHC Mullagh vs Skehana/MM names Liam Curley's goal. Thin-club fill (Mullagh ~22); club-scoped id.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Tony Clarke",
+      "id": "player:tony-clarke-mullagh",
+      "club": "club:mullagh",
+      "source": "http://www.padraigpearsesgalway.com/2025-senior-cship-round-1/",
+      "note": "Pádraig Pearses 2025 SHC R1 report: Mullagh net through Tony Clarke + team sheet T Clarke (1-0); Wikipedia 2025 SHC Pearses vs Mullagh scorers Tony Clarke 1-0. Thin-club fill; club-scoped id — distinct from clubbed player:joe-clarke-mullagh and player:adam-clarke-craughwell. HOLD collision: bare Clarke surname common — keep club-scoped.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eoghan Gaffney",
+      "id": "player:eoghan-gaffney-mullagh",
+      "club": "club:mullagh",
+      "source": "http://www.padraigpearsesgalway.com/2025-senior-cship-round-1/",
+      "note": "Pádraig Pearses 2025 SHC R1 Mullagh team sheet E Gaffney (0-1); Wikipedia 2025 SHC Pearses vs Mullagh scorers Eoghan Gaffney 0-1 (+ AF R2 also lists Eoghan Gaffney). Thin-club fill; club-scoped id.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal Kennedy",
+      "id": "player:cathal-kennedy-mullagh",
+      "club": "club:mullagh",
+      "source": "http://www.padraigpearsesgalway.com/2025-senior-cship-round-1/",
+      "note": "Pádraig Pearses 2025 SHC R1 Mullagh team sheet C Kennedy (0-1) midfield; Wikipedia 2025 SHC Pearses vs Mullagh scorers Cathal Kennedy 0-1; Irish Examiner 2017 Tommy Larkin's vs Mullagh notes Cathal Kennedy sending-off. Thin-club fill; club-scoped id — distinct from other clubbed Kennedys.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Eric Ward",
+      "id": "player:eric-ward-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway SHC Pearses vs Portumna scorers: Eric Ward 0-2; Tuam Herald 2026 Sylane vs Pearses PIHC team sheet/scorers E. Ward (1-1). Thin-club fill (Pearses ~28); club-scoped id — distinct from clubbed player:emmett-ward-padraig-pearses / player:emmet-ward-padraig-pearses. HOLD collision: Emmett/Emmet/Eric Ward Pearses spelling cluster — do not merge.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Oran Burke",
+      "id": "player:oran-burke-padraig-pearses",
+      "club": "club:padraig-pearses",
+      "source": "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
+      "note": "Wikipedia 2025 Galway SHC Pearses vs Portumna scorers: Oran Burke 0-1; Tuam Herald 2026 Sylane vs Pearses team sheet O. Burke in Pearses defence. Thin-club fill; club-scoped id — distinct from clubbed player:orin-burke-padraig-pearses (U16 spelling twin). HOLD collision: Orin/Oran Burke Pearses — keep both club-scoped; do not overwrite.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:justin-cheevers-cup-2019-sf-cois-fharraige-sylane",
+      "cols": {
+        "type": "match",
+        "name": "Cois Fharraige vs Sylane (2019 Justin Cheevers Cup Semi-final)",
+        "competition": "Justin Cheevers Cup (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2019,
+        "home": "club:cois-fharraige",
+        "away": "club:sylane",
+        "score": "Cois Fharraige 2-09, Sylane 3-05",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Justin Cheevers Cup SF 27-Apr Duggan Park, Cois Fharraige 2-09 v Sylane 3-05. Prefer Cois Fharraige (match-side; no first+last named players).",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:sylane",
+        "runner_up": "club:cois-fharraige"
+      }
+    },
+    {
+      "id": "match:justin-cheevers-cup-2019-final-cois-fharraige-mullagh-kiltormer",
+      "cols": {
+        "type": "match",
+        "name": "Cois Fharraige vs Mullagh-Kiltormer (2019 Justin Cheevers Cup Final)",
+        "competition": "Justin Cheevers Cup (Féile Gallimh)",
+        "round": "Final",
+        "year": 2019,
+        "home": "club:cois-fharraige",
+        "away": "club:mullagh",
+        "score": "Cois Fharraige 2-05, Mullagh-Kiltormer 1-02",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Justin Cheevers Cup Final 28-Apr Kenny Park, Cois Fharraige 2-05 v Mullagh-Kiltormer 1-02. Away side is Mullagh–Kiltormer Féile amalgam (seeded as club:mullagh). Prefer Cois Fharraige champions path (no first+last named players).",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:cois-fharraige",
+        "runner_up": "club:mullagh"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-sf-loughrea-turloughmore",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Turloughmore (2019 Toddie Byrne Cup Semi-final)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2019,
+        "home": "club:loughrea",
+        "away": "club:turloughmore",
+        "score": "Loughrea 1-06, Turloughmore 4-11",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Toddie Byrne Cup SF 27-Apr Kenny Park, Loughrea 1-06 v Turloughmore 4-11. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:turloughmore",
+        "runner_up": "club:loughrea"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-sf-sarsfields-oranmore-maree",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Oranmore-Maree (2019 Toddie Byrne Cup Semi-final)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2019,
+        "home": "club:sarsfields",
+        "away": "club:oranmore-maree",
+        "score": "Sarsfields 1-05, Oranmore-Maree 0-15",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Toddie Byrne Cup SF 27-Apr Kenny Park, Sarsfields 1-05 v Oranmore-Maree 0-15. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:oranmore-maree",
+        "runner_up": "club:sarsfields"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-final-turloughmore-oranmore-maree",
+      "cols": {
+        "type": "match",
+        "name": "Turloughmore vs Oranmore-Maree (2019 Toddie Byrne Cup Final)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Final",
+        "year": 2019,
+        "home": "club:turloughmore",
+        "away": "club:oranmore-maree",
+        "score": "Turloughmore 1-10, Oranmore-Maree 1-05",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Toddie Byrne Cup Final 28-Apr Kenny Park, Turloughmore 1-10 v Oranmore-Maree 1-05. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:turloughmore",
+        "runner_up": "club:oranmore-maree"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-shield-2019-final-liam-mellows-micheal-breathnach",
+      "cols": {
+        "type": "match",
+        "name": "Liam Mellows vs Mícheál Breathnach (2019 Toddie Byrne Shield Final)",
+        "competition": "Toddie Byrne Shield (Féile Gallimh)",
+        "round": "Final",
+        "year": 2019,
+        "home": "club:liam-mellows",
+        "away": "club:micheal-breathnach",
+        "score": "Liam Mellows 1-05, Mícheál Breathnach 0-06",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Toddie Byrne Shield Final 28-Apr Kenny Park, Liam Mellows 1-05 v Mícheál Breathnach 0-06. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:liam-mellows",
+        "runner_up": "club:micheal-breathnach"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-gb-r1-sarsfields-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Athenry (2019 Toddie Byrne Cup Group B Round 1)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Group B Round 1",
+        "year": 2019,
+        "home": "club:sarsfields",
+        "away": "club:athenry",
+        "score": "Sarsfields 3-07, Athenry 1-08",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Group B R1 24-Apr New Inn, Sarsfields 3-07 v Athenry 1-08. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-gb-r1-castlegar-meelick-eyrecourt",
+      "cols": {
+        "type": "match",
+        "name": "Castlegar vs Meelick-Eyrecourt (2019 Toddie Byrne Cup Group B Round 1)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Group B Round 1",
+        "year": 2019,
+        "home": "club:castlegar",
+        "away": "club:meelick-eyrecourt",
+        "score": "Castlegar 7-07, Meelick-Eyrecourt 1-06",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Group B R1 24-Apr Castlegar, Castlegar 7-07 v Meelick-Eyrecourt 1-06. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:castlegar",
+        "runner_up": "club:meelick-eyrecourt"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-gb-r2-sarsfields-meelick-eyrecourt",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Meelick-Eyrecourt (2019 Toddie Byrne Cup Group B Round 2)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Group B Round 2",
+        "year": 2019,
+        "home": "club:sarsfields",
+        "away": "club:meelick-eyrecourt",
+        "score": "Sarsfields 3-08, Meelick-Eyrecourt 1-03",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Group B R2 26-Apr Clonfert, Sarsfields 3-08 v Meelick-Eyrecourt 1-03. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "runner_up": "club:meelick-eyrecourt"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-gb-r2-athenry-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Athenry vs Castlegar (2019 Toddie Byrne Cup Group B Round 2)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Group B Round 2",
+        "year": 2019,
+        "home": "club:athenry",
+        "away": "club:castlegar",
+        "score": "Athenry 4-07, Castlegar 1-01",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Group B R2 26-Apr Athenry, Athenry 4-07 v Castlegar 1-01. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-gb-r3-sarsfields-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Sarsfields vs Castlegar (2019 Toddie Byrne Cup Group B Round 3)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Group B Round 3",
+        "year": 2019,
+        "home": "club:sarsfields",
+        "away": "club:castlegar",
+        "score": "Sarsfields 3-08, Castlegar 1-04",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Group B R3 27-Apr New Inn, Sarsfields 3-08 v Castlegar 1-04. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:sarsfields",
+        "runner_up": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2019-gb-r3-meelick-eyrecourt-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Meelick-Eyrecourt vs Athenry (2019 Toddie Byrne Cup Group B Round 3)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Group B Round 3",
+        "year": 2019,
+        "home": "club:meelick-eyrecourt",
+        "away": "club:athenry",
+        "score": "Meelick-Eyrecourt 1-07, Athenry 5-07",
+        "note": "Sarsfields GAA Féile Gallimh 2019 page: Group B R3 27-Apr New Inn, Meelick-Eyrecourt 1-07 v Athenry 5-07. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+        "result": "win",
+        "winner": "club:athenry",
+        "runner_up": "club:meelick-eyrecourt"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-shield-2021-g1-r1-micheal-breathnach-cois-fharraige",
+      "cols": {
+        "type": "match",
+        "name": "Mícheál Breathnach vs Cois Fharraige (2021 Toddie Byrne Shield Group 1 Round 1)",
+        "competition": "Toddie Byrne Shield (Féile Gallimh)",
+        "round": "Group 1 Round 1",
+        "year": 2021,
+        "home": "club:micheal-breathnach",
+        "away": "club:cois-fharraige",
+        "score": "Mícheál Breathnach 4-10, Cois Fharraige 1-03",
+        "note": "Galway Bay FM Féile R1 results 17 Aug 2021: Toddie Byrne Shield G1, Mícheál Breathnach 4-10 v Cois Fharraige 1-3. Prefer Cois Fharraige (match-side; no first+last named players).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-and-packaging-feile-round-one-results-98168",
+        "result": "win",
+        "winner": "club:micheal-breathnach",
+        "runner_up": "club:cois-fharraige"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-shield-2021-g2-r1-fr-joe-walshs-salthill",
+      "cols": {
+        "type": "match",
+        "name": "Fr Joe Walsh's vs Salthill-Knocknacarra (2021 Toddie Byrne Shield Group 2 Round 1)",
+        "competition": "Toddie Byrne Shield (Féile Gallimh)",
+        "round": "Group 2 Round 1",
+        "year": 2021,
+        "home": "club:fr-joe-walshs",
+        "away": "club:salthill-knocknacarra",
+        "score": "Fr Joe Walsh's 3-07, Salthill-Knocknacarra 2-05",
+        "note": "Galway Bay FM Féile R1 results 17 Aug 2021: Toddie Byrne Shield G2, Fr. Joe Walsh's 3-7 v Salthill-Knocknacarra 2-5. Prefer Fr Joe Walsh's (match-side; no first+last named players).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-and-packaging-feile-round-one-results-98168",
+        "result": "win",
+        "winner": "club:fr-joe-walshs",
+        "runner_up": "club:salthill-knocknacarra"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-shield-2021-g1-r3-cois-fharraige-sylane",
+      "cols": {
+        "type": "match",
+        "name": "Cois Fharraige vs Sylane (2021 Toddie Byrne Shield Group 1 Round 3)",
+        "competition": "Toddie Byrne Shield (Féile Gallimh)",
+        "round": "Group 1 Round 3",
+        "year": 2021,
+        "home": "club:cois-fharraige",
+        "away": "club:sylane",
+        "score": "Cois Fharraige 5-06, Sylane 1-03",
+        "note": "Galway Bay FM results 22 Aug 2021: Toddie Byrne Shield G1 R3, Cois Fharraige 5-6 v Sylane 1-3. Prefer Cois Fharraige (no first+last named players). Tuam W/O vs Breathnach skipped (no Tuam club row).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22nd-august-2021-98506",
+        "result": "win",
+        "winner": "club:cois-fharraige",
+        "runner_up": "club:sylane"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-shield-2021-g2-r3-fr-joe-walshs-abbeyknockmoy",
+      "cols": {
+        "type": "match",
+        "name": "Fr Joe Walsh's vs Abbeyknockmoy (2021 Toddie Byrne Shield Group 2 Round 3)",
+        "competition": "Toddie Byrne Shield (Féile Gallimh)",
+        "round": "Group 2 Round 3",
+        "year": 2021,
+        "home": "club:fr-joe-walshs",
+        "away": "club:abbeyknockmoy",
+        "score": "Fr Joe Walsh's 4-07, Abbeyknockmoy 0-03",
+        "note": "Galway Bay FM results 22 Aug 2021: Toddie Byrne Shield G2 R3 Abbeyknockmoy, Fr. Joe Walsh's 4-7 v Abbeyknockmoy 0-3. Prefer Fr Joe Walsh's (no first+last named players).",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22nd-august-2021-98506",
+        "result": "win",
+        "winner": "club:fr-joe-walshs",
+        "runner_up": "club:abbeyknockmoy"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-shield-2021-sf-micheal-breathnach-salthill",
+      "cols": {
+        "type": "match",
+        "name": "Mícheál Breathnach vs Salthill-Knocknacarra (2021 Toddie Byrne Shield Semi-final)",
+        "competition": "Toddie Byrne Shield (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:micheal-breathnach",
+        "away": "club:salthill-knocknacarra",
+        "score": "Mícheál Breathnach 1-08, Salthill-Knocknacarra 1-03",
+        "note": "Galway Bay FM Féile SF results 21 Aug 2021: Toddie Byrne Shield SF, Micheal Breathnach 1-8 v Salthill/Knocknacarra 1-3. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-packaging-hurling-feile-semi-final-results-98414",
+        "result": "win",
+        "winner": "club:micheal-breathnach",
+        "runner_up": "club:salthill-knocknacarra"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-shield-2021-sf-fr-joe-walshs-cois-fharraige",
+      "cols": {
+        "type": "match",
+        "name": "Fr Joe Walsh's vs Cois Fharraige (2021 Toddie Byrne Shield Semi-final)",
+        "competition": "Toddie Byrne Shield (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:fr-joe-walshs",
+        "away": "club:cois-fharraige",
+        "score": "Fr Joe Walsh's 3-10, Cois Fharraige 1-02",
+        "note": "Galway Bay FM Féile SF results 21 Aug 2021: Toddie Byrne Shield SF, Fr Joe Walsh's 3-10 v Cois Farraige 1-2. Prefer Fr Joe + Cois (match-sides; no first+last named players). Shield Final score not published on GB FM results page — skipped.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-packaging-hurling-feile-semi-final-results-98414",
+        "result": "win",
+        "winner": "club:fr-joe-walshs",
+        "runner_up": "club:cois-fharraige"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2021-sf-clarinbridge-castlegar",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Castlegar (2021 Toddie Byrne Cup Semi-final)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:clarinbridge",
+        "away": "club:castlegar",
+        "score": "Clarinbridge 3-15, Castlegar 1-05",
+        "note": "Galway Bay FM Féile SF results 21 Aug 2021: Toddie Byrne Cup SF, Clarinbridge 3-15 v Castlegar 1-5. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-packaging-hurling-feile-semi-final-results-98414",
+        "result": "win",
+        "winner": "club:clarinbridge",
+        "runner_up": "club:castlegar"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2021-sf-loughrea-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Loughrea vs Athenry (2021 Toddie Byrne Cup Semi-final)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:loughrea",
+        "away": "club:athenry",
+        "score": "Loughrea 2-14, Athenry 1-08",
+        "note": "Galway Bay FM Féile SF results 21 Aug 2021: Toddie Byrne Cup SF, Loughrea 2-14 v Athenry 1-8. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-packaging-hurling-feile-semi-final-results-98414",
+        "result": "win",
+        "winner": "club:loughrea",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:toddie-byrne-cup-2021-final-clarinbridge-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Clarinbridge vs Athenry (2021 Toddie Byrne Cup Final)",
+        "competition": "Toddie Byrne Cup (Féile Gallimh)",
+        "round": "Final",
+        "year": 2021,
+        "home": "club:clarinbridge",
+        "away": "club:athenry",
+        "score": "Clarinbridge 3-13, Athenry 1-05",
+        "note": "Galway Bay FM results 22 Aug 2021: Toddie Byrne Cup Final Kenny Park, Clarinbridge 3-13 v St Mary's GAA Athenry 1-5. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22nd-august-2021-98506",
+        "result": "win",
+        "winner": "club:clarinbridge",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:justin-cheevers-cup-2021-sf-skehana-mm-st-thomas",
+      "cols": {
+        "type": "match",
+        "name": "Skehana-Mountbellew/Moylough vs St Thomas' (2021 Justin Cheevers Cup Semi-final)",
+        "competition": "Justin Cheevers Cup (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:skehana-mountbellew-moylough",
+        "away": "club:st-thomas",
+        "score": "Skehana-Mountbellew/Moylough 4-12, St Thomas' 2-06",
+        "note": "Galway Bay FM Féile SF results 21 Aug 2021: Justin Cheevers Cup SF, Skehana-Mountbellew/Moylough 4-12 v St Thomas 2-6. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-packaging-hurling-feile-semi-final-results-98414",
+        "result": "win",
+        "winner": "club:skehana-mountbellew-moylough",
+        "runner_up": "club:st-thomas"
+      }
+    },
+    {
+      "id": "match:justin-cheevers-cup-2021-sf-ardrahan-ballygar",
+      "cols": {
+        "type": "match",
+        "name": "Ardrahan vs Ballygar (2021 Justin Cheevers Cup Semi-final)",
+        "competition": "Justin Cheevers Cup (Féile Gallimh)",
+        "round": "Semi-final",
+        "year": 2021,
+        "home": "club:ardrahan",
+        "away": "club:ballygar",
+        "score": "Ardrahan 2-09, Ballygar 2-06",
+        "note": "Galway Bay FM Féile SF results 21 Aug 2021: Justin Cheevers Cup SF, Ardrahan 2-9 v Ballygar 2-6. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-packaging-hurling-feile-semi-final-results-98414",
+        "result": "win",
+        "winner": "club:ardrahan",
+        "runner_up": "club:ballygar"
+      }
+    },
+    {
+      "id": "match:justin-cheevers-cup-2021-final-skehana-mm-ardrahan",
+      "cols": {
+        "type": "match",
+        "name": "Skehana-Mountbellew/Moylough vs Ardrahan (2021 Justin Cheevers Cup Final)",
+        "competition": "Justin Cheevers Cup (Féile Gallimh)",
+        "round": "Final",
+        "year": 2021,
+        "home": "club:skehana-mountbellew-moylough",
+        "away": "club:ardrahan",
+        "score": "Skehana-Mountbellew/Moylough 2-10, Ardrahan 1-04",
+        "note": "Galway Bay FM results 22 Aug 2021: Justin Cheevers Cup Final Kenny Park, Skehana-Mountbellew/Moylough 2-10 v Ardrahan 1-4. Juvenile scored path.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/sports/galway-gaa-results-22nd-august-2021-98506",
+        "result": "win",
+        "winner": "club:skehana-mountbellew-moylough",
+        "runner_up": "club:ardrahan"
+      }
+    }
+  ],
+  "match_updates": [],
+  "hold_notes": {
+    "player:robert-mitchell": "HOLD r55: bare Robert Mitchell stays HOLD vs new club-scoped Pearses Mitchells (Luke) and other Mitchells — no first+last multi-source club clear; stay HOLD.",
+    "player:finnian-coone": "HOLD r55: continue Finian/Finnian Coone spelling collision — no new multi-source club clear; stay HOLD.",
+    "player:tadgh-haran": "HOLD r55: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD.",
+    "player:gordon-glynn": "HOLD r55: continue Gordon/Gordan Glynn spelling twin (Gordan Glynn already Kiltormer) — bare Gordon stays HOLD.",
+    "player:kerrill-wade": "HOLD r55: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD.",
+    "player:mike-egan": "HOLD r55: continue Mike/Michael Egan collision — no new first+last multi-source clear; stay HOLD.",
+    "player:padraig-breheny": "HOLD r55: continue Padraig Breheny / Pádraig Brehony spelling twin — Wikipedia 2025 Tynagh-Abbey/Duniry Padraig Breheny scorers not enough to clear bare club-less twin; stay HOLD.",
+    "player:aonghus-dervan": "HOLD r55: Dervan/Mullagh family likely but no direct first+last multi-source club clear; stay HOLD.",
+    "player:killian-howe": "HOLD r55: club-less MHC Killian Howe — no first+last multi-source club cite found; stay HOLD.",
+    "player:michael-lynskey": "HOLD r55: continue MHC 1992 Michael Lynskey vs Ardrahan Iain Lynskey scoped fills — bare stays HOLD."
+  }
+}

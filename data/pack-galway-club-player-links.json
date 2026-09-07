@@ -1,33 +1,22 @@
 {
   "pack": "galway-club-player-links",
-  "round": "54",
-  "generated_at": "2026-09-06T23:58:36.294999+00:00",
+  "round": "55",
+  "generated_at": "2026-09-07T00:02:29.102683+00:00",
   "sources": [
-    "https://www.sarsfields-gaa.com/juvenile-hurling-club/2023-feile-na-ngael",
+    "https://www.sarsfields-gaa.com/juvenile-hurling-club/2019-feile-na-ngael",
+    "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-and-packaging-feile-round-one-results-98168",
+    "https://www.galwaybayfm.ie/sports/ocean-hygiene-supplies-packaging-hurling-feile-semi-final-results-98414",
+    "https://www.galwaybayfm.ie/sports/galway-gaa-results-22nd-august-2021-98506",
     "https://en.wikipedia.org/wiki/2025_Galway_Senior_Hurling_Championship",
-    "https://www.connachttribune.ie/sport/craughwell-edge-past-liam-mellows-in-tight-galway-shc-group-two-clash-8939262",
-    "https://connachttribune.ie/clarke-the-hero-as-craughwell-snatch-victory-in-marathon-tie/",
-    "https://www.connachttribune.ie/sport/evan-niland-leads-clarinbridge-to-victory-over-craughwell-in-galway-shc-8881964",
-    "http://www.padraigpearsesgalway.com/2022-senior-cship-round-4-2/",
-    "https://galwaypulse.com/2025/10/07/galway-senior-hurling-championship-recap/"
+    "http://www.padraigpearsesgalway.com/2025-senior-cship-round-1/",
+    "https://www.tuamherald.ie/2026/07/16/newell-gives-sylane-the-edge-in-extra-time-thriller-with-pearses/",
+    "https://www.galwaydaily.com/sport/gaa-kilconieron-second-half-rally-secures-shield/",
+    "https://www.connachttribune.ie/sport/hurling/craughwell-make-it-two-wins-on-the-bounce-in-gritty-affair-5593516",
+    "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876",
+    "https://www.galwaygaa.ie/history/2020-2021-roll-of-honour-hurling-football/",
+    "https://www.irishexaminer.com/sport/gaa/arid-20451713.html"
   ],
   "before": {
-    "players": 1638,
-    "players_with_club": 1559,
-    "players_without_club": 79,
-    "orphan_clubs": 6,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:fr-joe-walshs",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1337,
-    "appearances": 686
-  },
-  "after": {
     "players": 1642,
     "players_with_club": 1563,
     "players_without_club": 79,
@@ -44,47 +33,80 @@
     "matches": 1351,
     "appearances": 686
   },
+  "after": {
+    "players": 1650,
+    "players_with_club": 1571,
+    "players_without_club": 79,
+    "orphan_clubs": 7,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:cois-fharraige",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:fr-joe-walshs",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1375,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 0,
-    "players_created": 4,
-    "clubs_created": 1,
+    "players_created": 8,
+    "clubs_created": 0,
     "appearances_clubbed": 0,
-    "matches_added": 14,
-    "players_with_club": 4,
-    "orphan_clubs": 1
+    "matches_added": 24,
+    "players_with_club": 8,
+    "orphan_clubs": 0
   },
   "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:lucas-keane-craughwell",
-    "player:adam-clarke-craughwell",
-    "player:iarlaith-leen-craughwell",
-    "player:luke-mitchell-padraig-pearses"
+    "player:oscar-ogorman-kilconieron",
+    "player:peter-martin-kilconieron",
+    "player:liam-curley-mullagh",
+    "player:tony-clarke-mullagh",
+    "player:eoghan-gaffney-mullagh",
+    "player:cathal-kennedy-mullagh",
+    "player:eric-ward-padraig-pearses",
+    "player:oran-burke-padraig-pearses"
   ],
   "all_linked_ids": [],
   "all_created_ids": [
-    "player:lucas-keane-craughwell",
-    "player:adam-clarke-craughwell",
-    "player:iarlaith-leen-craughwell",
-    "player:luke-mitchell-padraig-pearses"
+    "player:oscar-ogorman-kilconieron",
+    "player:peter-martin-kilconieron",
+    "player:liam-curley-mullagh",
+    "player:tony-clarke-mullagh",
+    "player:eoghan-gaffney-mullagh",
+    "player:cathal-kennedy-mullagh",
+    "player:eric-ward-padraig-pearses",
+    "player:oran-burke-padraig-pearses"
   ],
-  "clubs_created_ids": [
-    "club:cois-fharraige"
-  ],
+  "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:toddie-byrne-cup-2023-g3-r1-sarsfields-ardrahan",
-    "match:toddie-byrne-cup-2023-g3-r1-carnmore-tynagh-abbey-duniry",
-    "match:toddie-byrne-cup-2023-g3-r2-tynagh-abbey-duniry-sarsfields",
-    "match:toddie-byrne-cup-2023-g3-r2-ardrahan-carnmore",
-    "match:toddie-byrne-cup-2023-g3-r3-carnmore-sarsfields",
-    "match:toddie-byrne-cup-2023-sf-athenry-castlegar",
-    "match:toddie-byrne-cup-2023-sf-sarsfields-oranmore-maree",
-    "match:justin-cheevers-cup-2023-sf-kinvara-killimordaly",
-    "match:justin-cheevers-cup-2023-sf-skehana-mm-st-thomas",
-    "match:toddie-byrne-shield-2023-sf-ahascragh-fohenagh-sylane",
-    "match:toddie-byrne-shield-2023-sf-abbeyknockmoy-cois-fharraige",
-    "match:toddie-byrne-shield-2023-final-abbeyknockmoy-ahascragh-fohenagh",
-    "match:justin-cheevers-cup-2023-final-kinvara-skehana-mm",
-    "match:toddie-byrne-cup-2023-final-athenry-oranmore-maree"
+    "match:justin-cheevers-cup-2019-sf-cois-fharraige-sylane",
+    "match:justin-cheevers-cup-2019-final-cois-fharraige-mullagh-kiltormer",
+    "match:toddie-byrne-cup-2019-sf-loughrea-turloughmore",
+    "match:toddie-byrne-cup-2019-sf-sarsfields-oranmore-maree",
+    "match:toddie-byrne-cup-2019-final-turloughmore-oranmore-maree",
+    "match:toddie-byrne-shield-2019-final-liam-mellows-micheal-breathnach",
+    "match:toddie-byrne-cup-2019-gb-r1-sarsfields-athenry",
+    "match:toddie-byrne-cup-2019-gb-r1-castlegar-meelick-eyrecourt",
+    "match:toddie-byrne-cup-2019-gb-r2-sarsfields-meelick-eyrecourt",
+    "match:toddie-byrne-cup-2019-gb-r2-athenry-castlegar",
+    "match:toddie-byrne-cup-2019-gb-r3-sarsfields-castlegar",
+    "match:toddie-byrne-cup-2019-gb-r3-meelick-eyrecourt-athenry",
+    "match:toddie-byrne-shield-2021-g1-r1-micheal-breathnach-cois-fharraige",
+    "match:toddie-byrne-shield-2021-g2-r1-fr-joe-walshs-salthill",
+    "match:toddie-byrne-shield-2021-g1-r3-cois-fharraige-sylane",
+    "match:toddie-byrne-shield-2021-g2-r3-fr-joe-walshs-abbeyknockmoy",
+    "match:toddie-byrne-shield-2021-sf-micheal-breathnach-salthill",
+    "match:toddie-byrne-shield-2021-sf-fr-joe-walshs-cois-fharraige",
+    "match:toddie-byrne-cup-2021-sf-clarinbridge-castlegar",
+    "match:toddie-byrne-cup-2021-sf-loughrea-athenry",
+    "match:toddie-byrne-cup-2021-final-clarinbridge-athenry",
+    "match:justin-cheevers-cup-2021-sf-skehana-mm-st-thomas",
+    "match:justin-cheevers-cup-2021-sf-ardrahan-ballygar",
+    "match:justin-cheevers-cup-2021-final-skehana-mm-ardrahan"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -170,12 +192,12 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 235,
-    "clubs_created": 1,
-    "players_created": 4,
-    "matches_added": 14,
+    "added": 400,
+    "players_created": 8,
+    "matches_added": 24,
     "updated": 10,
     "players_linked": 0,
+    "clubs_created": 0,
     "appearances_clubbed": 0
   },
   "priority_club_counts_after": {
@@ -203,14 +225,14 @@
     "club:salthill-knocknacarra": 19,
     "club:bearna-na-forbacha": 15,
     "club:cussane-historic": 16,
-    "club:kilconieron": 28,
+    "club:kilconieron": 30,
     "club:annaghdown": 20,
     "club:clarinbridge": 54,
     "club:sarsfields": 29,
     "club:ballinasloe": 19,
     "club:ballygar": 25,
     "club:carnmore": 25,
-    "club:padraig-pearses": 28,
+    "club:padraig-pearses": 30,
     "club:gort": 39,
     "club:killimordaly": 25,
     "club:portumna": 29,
@@ -219,7 +241,7 @@
     "club:kilnadeema-leitrim": 30,
     "club:ballinderreen": 37,
     "club:killimor": 28,
-    "club:mullagh": 22,
+    "club:mullagh": 26,
     "club:an-spideal": 17,
     "club:micheal-breathnach": 26,
     "club:oranmore-maree": 34,
@@ -238,5 +260,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). Fr Joe Walsh's still orphan — 2023 Justin Cheevers Group 2 included Fr Joe but no published group scores or first+last named players; Cois Fharraige created as match-side club (still may be orphan until named players). r54: 2023 Toddie/Cheevers/Shield scored Féile path; Craughwell+Pearses thin fills; club-less ~79 stay HOLD; AF/Fohenagh dense player fills skipped; HOLD orphans skipped."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). Fr Joe Walsh's + Cois Fharraige still orphan — 2019/2021 scored Féile paths added but no first+last named players published for either club. r55: 2019 Cois Cheevers path + 2021 Fr Joe/Cois Shield path; Mullagh+Kilconieron+Pearses thin fills; club-less ~79 stay HOLD; AF/Fohenagh dense player fills skipped; HOLD orphans skipped."
 }
