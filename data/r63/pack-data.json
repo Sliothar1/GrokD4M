@@ -1,0 +1,193 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Vin Baston",
+      "id": "player:vin-baston-army",
+      "club": "club:army-galway",
+      "source": "https://en.wikipedia.org/wiki/Vin_Baston",
+      "secondary_cite": "https://en.wikipedia.org/wiki/Jim_Brophy",
+      "note": "Wikipedia Vin Baston: two Galway SHC medals with Army (An Céad Cath) 1947 & 1948 (Waterford centre-back / army officer). Thin-club Army fill (was 1); club-scoped id. Corroborated by Jim Brophy Army captain context for same titles.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Joe Young",
+      "id": "player:joe-young-army",
+      "club": "club:army-galway",
+      "source": "https://en.wikipedia.org/wiki/Joe_Young_(dual_player)",
+      "secondary_cite": "https://www.galwaybayfm.ie/sports/galway-gaa-mourns-the-passing-of-1956-all-ireland-winner-colonel-joe-young-136261",
+      "note": "Wikipedia Joe Young (dual player): lined out with An Chéad Cath (Army) in Galway after Dublin St Vincent's; dual Galway inter-county hurler/footballer. Multi-source with Galway Bay FM obituary (Renmore / An Céad Cathlán). Thin-club Army fill; club-scoped id. Distinct era from 1947-48 title side (commissioned 1954).",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [],
+  "new_matches": [
+    {
+      "id": "match:galway-u16-2025-a1-cup-sf-skehana-gort",
+      "cols": {
+        "type": "match",
+        "name": "Skehana-Mountbellew/Moylough vs Gort (2025 U16 Roinn A1 Cup Semi-final)",
+        "competition": "Ocean Hygiene and Packaging Ltd U16 Roinn A1 Cup",
+        "round": "Semi-final",
+        "year": 2025,
+        "home": "club:skehana-mountbellew-moylough",
+        "away": "club:gort",
+        "score": "Skehana-Mountbellew/Moylough 2-15, Gort 3-11",
+        "note": "Galway Bay FM 20-Oct-2025 weekend results: Ocean Hygiene U16 Roinn A1 Cup Semi-Final Skehana-Mountbellew/Moylough 2-15 Gort 3-11. Cited scored gap.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/gaa/the-weekend-galway-gaa-club-results-205361",
+        "result": "win",
+        "winner": "club:skehana-mountbellew-moylough",
+        "runner_up": "club:gort"
+      }
+    },
+    {
+      "id": "match:galway-u16-2025-a1-shield-final-kilconieron-athenry",
+      "cols": {
+        "type": "match",
+        "name": "Kilconieron vs Athenry (2025 U16 Roinn A1 Shield Final)",
+        "competition": "Ocean Hygiene and Packaging Ltd U16 Roinn A1 Shield",
+        "round": "Final",
+        "year": 2025,
+        "home": "club:kilconieron",
+        "away": "club:athenry",
+        "score": "Kilconieron 2-22, Athenry 2-11",
+        "note": "Galway Bay FM 20-Oct-2025 weekend results: Ocean Hygiene U16 Roinn A1 Shield Final Kilconieron 2-22 Athenry 2-11. Cited scored gap.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/gaa/the-weekend-galway-gaa-club-results-205361",
+        "result": "win",
+        "winner": "club:kilconieron",
+        "runner_up": "club:athenry"
+      }
+    },
+    {
+      "id": "match:galway-u16-2025-g4-sf-oranmore-an-spideal",
+      "cols": {
+        "type": "match",
+        "name": "Oranmore-Maree vs An Spidéal (2025 FBD U16 Group 4 Championship Semi-final)",
+        "competition": "FBD Insurance Under 16 Championship",
+        "round": "Semi-final",
+        "year": 2025,
+        "home": "club:oranmore-maree",
+        "away": "club:an-spideal",
+        "score": "Oranmore-Maree 2-12, An Spidéal 2-8",
+        "note": "Galway Bay FM 20-Oct-2025 weekend results: FBD Insurance Under 16 Group 4 Championship Semi-Final Oranmore-Maree 2-12 An Spidéal 2-8. Cited scored gap.",
+        "confidence": "medium",
+        "source": "https://www.galwaybayfm.ie/gaa/the-weekend-galway-gaa-club-results-205361",
+        "result": "win",
+        "winner": "club:oranmore-maree",
+        "runner_up": "club:an-spideal"
+      }
+    }
+  ],
+  "match_updates": [
+    {
+      "id": "match:galway-shc-2025-sf-loughrea-turloughmore",
+      "cols": {
+        "score": "Loughrea 1-17, Turloughmore 0-15",
+        "note": "Score correction r63: Wikipedia 2025 Galway SHC page erroneously listed Loughrea SF as 4-18 to 0-19 (copy of St Thomas SF). Multi-source published score is Loughrea 1-17 Turloughmore 0-15 (The42 18-Oct-2025; HoganStand; Galway Bay FM weekend results-205361; Discover Loughrea).",
+        "source": "https://www.the42.ie/gaa-results-10-6847970-Oct2025/",
+        "source_bayfm": "https://www.galwaybayfm.ie/gaa/the-weekend-galway-gaa-club-results-205361",
+        "source_hoganstand": "https://www.hoganstand.com/Article/Index/338221",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "match:galway-shc-1899-final",
+      "cols": {
+        "score": "1899/1900 single season (no separate final score listed)",
+        "note": "Wikipedia Galway SHC list of finals: 1899 Peterswell vs Craughwell marked as 1899/1900 single season (no separate score line). Published status fill; numeric score still omitted.",
+        "source_wiki": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:michael-kelly": "HOLD r63: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round.",
+    "player:fr-michael-kilkenny": "HOLD r63: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified.",
+    "player:enda-lawless-carnmore": "HOLD r63: Connacht Tribune 2025 IHC final names Kinvara goalkeeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear.",
+    "player:tadgh-haran": "HOLD r63: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge."
+  }
+}

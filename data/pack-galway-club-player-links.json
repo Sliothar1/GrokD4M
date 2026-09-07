@@ -1,33 +1,17 @@
 {
   "pack": "galway-club-player-links",
-  "round": "62",
-  "generated_at": "2026-09-07T00:48:43.020713+00:00",
+  "round": "63",
+  "generated_at": "2026-09-07T00:54:04.027228+00:00",
   "sources": [
-    "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-50-197173",
-    "https://www.galwaybayfm.ie/sports/galway-gaa-results-89-196214",
-    "https://www.galwaybayfm.ie/gaa/weekend-galway-gaa-club-results-59-206399",
-    "https://www.galwaybayfm.ie/sports/ballinasloe-3-13-kiltormer-1-12-junior-1-hurling-final-report-reaction-206474",
-    "https://www.connachttribune.ie/sport/hurling/clinical-ballinasloe-complete-the-three-in-a-row-in-junior-1-5594765",
-    "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+    "https://www.the42.ie/gaa-results-10-6847970-Oct2025/",
+    "https://www.galwaybayfm.ie/gaa/the-weekend-galway-gaa-club-results-205361",
+    "https://www.hoganstand.com/Article/Index/338221",
+    "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
+    "https://en.wikipedia.org/wiki/Vin_Baston",
+    "https://en.wikipedia.org/wiki/Joe_Young_(dual_player)",
+    "https://www.galwaybayfm.ie/sports/galway-gaa-mourns-the-passing-of-1956-all-ireland-winner-colonel-joe-young-136261"
   ],
   "before": {
-    "players": 1700,
-    "players_with_club": 1621,
-    "players_without_club": 79,
-    "orphan_clubs": 7,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:cois-fharraige",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:fr-joe-walshs",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1625,
-    "appearances": 686
-  },
-  "after": {
     "players": 1707,
     "players_with_club": 1628,
     "players_without_club": 79,
@@ -44,71 +28,47 @@
     "matches": 1659,
     "appearances": 686
   },
+  "after": {
+    "players": 1709,
+    "players_with_club": 1630,
+    "players_without_club": 79,
+    "orphan_clubs": 7,
+    "orphan_club_ids": [
+      "club:claregalway",
+      "club:cois-fharraige",
+      "club:college-road",
+      "club:eyrecourt-historic",
+      "club:fr-joe-walshs",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1662,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 0,
-    "players_created": 7,
+    "players_created": 2,
     "clubs_created": 0,
     "appearances_clubbed": 0,
-    "matches_added": 34,
-    "players_with_club": 7,
+    "matches_added": 3,
+    "players_with_club": 2,
     "orphan_clubs": 0
   },
   "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:eoin-coleman-ballinasloe",
-    "player:alan-reynolds-ballinasloe",
-    "player:gearoid-markham-kiltormer",
-    "player:mark-kilkenny-kiltormer",
-    "player:patrick-cormican-kiltormer",
-    "player:martin-mannion-kiltormer",
-    "player:rory-lyons-kiltormer"
+    "player:vin-baston-army",
+    "player:joe-young-army"
   ],
   "all_linked_ids": [],
   "all_created_ids": [
-    "player:eoin-coleman-ballinasloe",
-    "player:alan-reynolds-ballinasloe",
-    "player:gearoid-markham-kiltormer",
-    "player:mark-kilkenny-kiltormer",
-    "player:patrick-cormican-kiltormer",
-    "player:martin-mannion-kiltormer",
-    "player:rory-lyons-kiltormer"
+    "player:vin-baston-army",
+    "player:joe-young-army"
   ],
   "clubs_created_ids": [],
   "matches_added_ids": [
-    "match:galway-div1-league-2025-final-turloughmore-cappataggle",
-    "match:galway-div2-league-2025-final-killimordaly-ballygar",
-    "match:galway-div3-league-2025-final-skehana-mm-kinvara",
-    "match:galway-div1-league-2025-sf-cappataggle-sarsfields",
-    "match:galway-div1-league-2025-sf-turloughmore-loughrea",
-    "match:galway-div2-league-2025-sf-ballygar-kilnadeema",
-    "match:galway-div2-league-2025-sf-killimordaly-portumna",
-    "match:galway-div3-league-2025-sf-kinvara-athenry",
-    "match:galway-junior-a-2025-g1-liam-mellows-ballinderreen",
-    "match:galway-junior-a-2025-g1-loughrea-st-thomas",
-    "match:galway-junior-a-2025-g1-micheal-breathnach-salthill",
-    "match:galway-junior-a-2025-g2-sarsfields-castlegar",
-    "match:galway-junior-a-2025-g2-cappataggle-oranmore",
-    "match:galway-junior-a-2025-g2-ballinasloe-bearna",
-    "match:galway-junior-a-2025-g3-ardrahan-meelick",
-    "match:galway-junior-a-2025-g3-kiltormer-an-spideal",
-    "match:galway-junior-b-2025-g1-sarsfields-kilnadeema",
-    "match:galway-junior-b-2025-g1-portumna-moycullen",
-    "match:galway-junior-b-2025-g2-gort-carnmore",
-    "match:galway-junior-b-2025-g2-tommy-larkins-killimor",
-    "match:galway-junior-c-2025-g1-craughwell-athenry",
-    "match:galway-junior-c-2025-g1-ahascragh-fohenagh-beagh",
-    "match:galway-junior-c-2025-g1-liam-mellows-clarinbridge",
-    "match:galway-junior-c-2025-g2-rahoon-oranmore",
-    "match:galway-junior-c-2025-g2-kilconieron-kilbeacanty",
-    "match:galway-junior-d-2025-g1-carnmore-killimordaly",
-    "match:galway-junior-d-2025-g1-turloughmore-kilnadeema",
-    "match:galway-junior-d-2025-g2-sylane-ardrahan",
-    "match:galway-junior-e-2025-g1-kinvara-cappataggle",
-    "match:galway-junior-e-2025-g2-clarinbridge-tynagh",
-    "match:galway-junior-e-2025-g2-loughrea-castlegar",
-    "match:galway-junior-f-2025-g1-salthill-ballinderreen",
-    "match:galway-junior-f-2025-g1-mullagh-athenry",
-    "match:galway-u16-2025-g1-sf-micheal-breathnach-moycullen"
+    "match:galway-u16-2025-a1-cup-sf-skehana-gort",
+    "match:galway-u16-2025-a1-shield-final-kilconieron-athenry",
+    "match:galway-u16-2025-g4-sf-oranmore-an-spideal"
   ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
@@ -194,11 +154,11 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 540,
-    "players_created": 7,
-    "matches_added": 34,
-    "updated": 5,
-    "matches_updated": 3,
+    "added": 63,
+    "players_created": 2,
+    "matches_added": 3,
+    "updated": 9,
+    "matches_updated": 2,
     "players_linked": 0,
     "clubs_created": 0,
     "appearances_clubbed": 0
@@ -263,5 +223,5 @@
     "club:kilrickle",
     "club:st-colemans"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). Fr Joe Walsh's + Cois Fharraige still orphan. r62: 2025 Div 1/2/3 league finals+SFs + Junior A-F group + U16 G1 SF; Wikipedia 1903/1906/1909 score fills; Ballinasloe/Kiltormer Junior 1 multi-source thin fills; club-less ~79 stay HOLD; AF dense player fills skipped (Junior C AF score-only); HOLD orphans skipped; Michael Kelly + Fr Michael Kilkenny HOLD collision notes."
+  "orphan_note": "Remaining HOLD orphans: Claregalway/College Road/Eyrecourt/Kilrickle/St Coleman's (skipped; no first+last hurling cite). Fr Joe Walsh's + Cois Fharraige still orphan. r63: Loughrea SF score correction 1-17/0-15; Wikipedia 1899/1900 single-season status; U16 A1 Cup SF + Shield Final + G4 SF; thin Army Vin Baston + Joe Young; club-less ~79 stay HOLD; AF dense fills skipped; HOLD orphans skipped; Michael Kelly / Fr Michael Kilkenny / Enda Lawless / Tadgh Haran HOLD collision notes."
 }
