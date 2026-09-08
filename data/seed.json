@@ -244075,36 +244075,6 @@
     "val": "Padraig Leonard; Padraic Leonard"
   },
   {
-    "row": "player:niall-leonard",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "name",
-    "val": "Niall Leonard"
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "club",
-    "val": "club:ahascragh-fohenagh"
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "status",
-    "val": "pending_verification"
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
-  },
-  {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "also_known_as",
     "val": "Alan Mockler; A. Moclair"
@@ -244338,6 +244308,51 @@
     "row": "player:padraig-leonard",
     "col": "note",
     "val": "Ahascragh-Fohenagh hurler."
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "name",
+    "val": "Niall Leonard"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "position",
+    "val": "Defender"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "notable",
+    "val": "A powerful and stylish defender"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "status",
+    "val": "archivist_approved"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "kid_chip",
+    "val": "Verified Fohenagh defender"
   },
   {
     "row": "player:alan-mockler",
