@@ -1,0 +1,291 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "John Walsh",
+      "id": "player:john-walsh-college-road",
+      "club": "club:college-road",
+      "source": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+      "secondary_cite": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
+      "note": "Galway GAA / Turloughmore county-final programme captain roll (readkong republication): John Walsh (College Road) listed as Galway SHC winning captain for 1892 and 1893. Wikipedia SHC roll confirms College Road titles those years (scores not listed — omitted). Club-scoped historic id; breaks College Road orphan.",
+      "confidence": "medium",
+      "fohenagh": false
+    },
+    {
+      "name": "Jack Muldowney",
+      "id": "player:jack-muldowney-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "secondary_cite": "https://www.galwaybayfm.ie/gaa/galway-gaa-minor-hurling-finals-reports-204877",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025 (Kenny Park): Jack Muldowney opened the scoring for Ahascragh-Fohenagh vs Mícheál Breathnach (draw 0-14 to 1-11). Club-scoped AF minor fill; unverified pending Archivist.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Matthew Cunniffe",
+      "id": "player:matthew-cunniffe-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Matthew Cunniffe pointed for Ahascragh-Fohenagh after intercepting a short Breathnach puckout. Club-scoped AF minor fill; unverified pending Archivist.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Ryan Kennedy",
+      "id": "player:ryan-kennedy-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Ryan Kennedy scored from midfield for Ahascragh-Fohenagh vs Mícheál Breathnach. Club-scoped id (common surname; distinct from Luke Kennedy AF senior). Unverified pending Archivist.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Fabian Carroll",
+      "id": "player:fabian-carroll-ahascragh-fohenagh",
+      "club": "club:ahascragh-fohenagh",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Fabian Carroll in goals for Ahascragh-Fohenagh; Breathnach penalty by Glaisne Mac Réamoinn beat him. Club-scoped AF minor GK fill; unverified pending Archivist.",
+      "confidence": "unverified",
+      "fohenagh": true
+    },
+    {
+      "name": "Michael Lyons",
+      "id": "player:michael-lyons-skehana-mountbellew-moylough",
+      "club": "club:skehana-mountbellew-moylough",
+      "source": "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
+      "note": "Tuam Herald 12 Aug 2026 PIHC R1 vs Mullagh: team sheet M. Lyons (0-1); narrative names Michael Lyons keeping the Skebellew scoreboard ticking with Cillian Roche. Club-scoped amalgam id (distinct from AF Michael Lyons). Unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Glaisne Mac Réamoinn",
+      "id": "player:glaisne-mac-reamoinn-micheal-breathnach",
+      "club": "club:micheal-breathnach",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Glaisne Mac Réamoinn converted a free and the penalty goal for Mícheál Breathnach vs Ahascragh-Fohenagh. Club-scoped id; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Oisín Ó Neachtain",
+      "id": "player:oisin-o-neachtain-micheal-breathnach",
+      "club": "club:micheal-breathnach",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Oisín Ó Neachtain scored two first-half points for Mícheál Breathnach (photo caption also names him). Club-scoped id; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dylan Ó Curraoin",
+      "id": "player:dylan-o-curraoin-micheal-breathnach",
+      "club": "club:micheal-breathnach",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Dylan Ó Curraoin supplied the crossfield assist for Oisín Ó Neachtain's first point. Club-scoped id; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Fionnán Ó Neachtain",
+      "id": "player:fionnan-o-neachtain-micheal-breathnach",
+      "club": "club:micheal-breathnach",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Fionnán Ó Neachtain pointed and was fouled for the Breathnach penalty. Club-scoped id; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Rónán Ó Neachtain",
+      "id": "player:ronan-o-neachtain-micheal-breathnach",
+      "club": "club:micheal-breathnach",
+      "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+      "note": "Connacht Tribune Minor B1 Hurling Final 2025: Rónán Ó Neachtain pointed from the left corner before half-time for Mícheál Breathnach. Club-scoped id; unverified pending Archivist.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [
+    {
+      "id": "club:college-road",
+      "cols": {
+        "note": "r67: orphan broken — John Walsh stamped as 1892/1893 Galway SHC winning captain from Galway GAA/Turloughmore programme captain roll (readkong) + Wikipedia College Road title years. Still no full XV; Duggan grand-uncles remain unnamed.",
+        "source_captain_roll": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "source_wikipedia_shc": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+      }
+    },
+    {
+      "id": "club:ahascragh-fohenagh",
+      "cols": {
+        "note": "r67 AF-first: Connacht Tribune Minor B1 Final 2025 named Jack Muldowney / Matthew Cunniffe / Ryan Kennedy / Fabian Carroll (draw 0-14 to 1-11 vs Mícheál Breathnach); Bay FM confirms replay fixture. HoganStand 7 Sep 2026 PIHC PQF draw: Kilconieron v Ahascragh-Fohenagh (score not yet in public text — no invent).",
+        "source_ct_minor_b1_2025": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+        "source_hoganstand_pqf_2026": "https://hoganstand.com/County/Clare/Article/Index/341673"
+      }
+    },
+    {
+      "id": "club:claregalway",
+      "cols": {
+        "note": "r67: still HOLD orphan for named first+last Claregalway hurlers — Wikipedia SHC runner-up years 1895/1901/1911 already seeded as Match triples; modern parish hurling remains Carnmore-linked; no new named XV cite."
+      }
+    },
+    {
+      "id": "club:kilrickle",
+      "cols": {
+        "note": "r67: still HOLD orphan — 1949 IHC title on Wikipedia without score line or named XV; school hurling cites only."
+      }
+    },
+    {
+      "id": "club:fr-joe-walshs",
+      "cols": {
+        "note": "r67: still HOLD orphan for named first+last Fr Joe XV — 2025 Justin Cheevers Cup final score already seeded (Sarsfields Feile + Bay FM); reports name opposition/path only."
+      }
+    },
+    {
+      "id": "club:eyrecourt-historic",
+      "cols": {
+        "note": "r67: still HOLD orphan for named Eyrecourt XV — 1959 IHC final score already seeded; Athenry GAA history names Newcastle absentees only."
+      }
+    },
+    {
+      "id": "club:cois-fharraige",
+      "cols": {
+        "note": "r67: still HOLD orphan — juvenile/camogie/Feile score paths exist; no first+last named Cois Fharraige hurling XV cite this round."
+      }
+    },
+    {
+      "id": "club:st-colemans",
+      "cols": {
+        "note": "r67: still HOLD orphan — public hits are St Colman's camogie (Gort area), not a men's hurling club panel."
+      }
+    },
+    {
+      "id": "club:skehana-mountbellew-moylough",
+      "cols": {
+        "note": "r67: Tuam Herald PIHC R1 2026 XV already largely seeded; added club-scoped Michael Lyons (0-1). Dara/Darragh Newell twin already noted on existing row."
+      }
+    }
+  ],
+  "new_matches": [
+    {
+      "id": "match:galway-minor-b1-2025-final-ahascragh-fohenagh-micheal-breathnach",
+      "cols": {
+        "type": "match",
+        "name": "Ahascragh-Fohenagh vs Mícheál Breathnach (2025 Galway Minor B1 Hurling Final)",
+        "competition": "Galway Minor B1 Hurling Championship",
+        "round": "Final",
+        "year": 2025,
+        "date": "2025-10-11",
+        "home": "club:ahascragh-fohenagh",
+        "away": "club:micheal-breathnach",
+        "score": "Ahascragh-Fohenagh 0-14, Mícheál Breathnach 1-11",
+        "note": "Connacht Tribune (Eanna O'Reilly, Kenny Park) + Galway Bay FM Minor Finals Reports: dramatic draw forced a replay. Late Darragh Gavin free rescued AF. Scorers/names in CT report only — no full-article dump.",
+        "confidence": "high",
+        "source": "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
+        "source_bayfm": "https://www.galwaybayfm.ie/gaa/galway-gaa-minor-hurling-finals-reports-204877",
+        "result": "draw"
+      }
+    }
+  ],
+  "match_updates": [
+    {
+      "id": "match:galway-shc-1892-final",
+      "cols": {
+        "captain": "player:john-walsh-college-road",
+        "note": "r67: captain stamped John Walsh (College Road) from Galway GAA/Turloughmore programme captain roll (readkong). Score line still absent on Wikipedia — not invented.",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "match:galway-shc-1893-final",
+      "cols": {
+        "captain": "player:john-walsh-college-road",
+        "note": "r67: captain stamped John Walsh (College Road) from Galway GAA/Turloughmore programme captain roll (readkong). Score line still absent on Wikipedia — not invented.",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:enda-lawless-carnmore": "HOLD r67: Carnmore-stamped Enda Lawless stays HOLD; Meelick twin already exists. Do not merge.",
+    "player:padraig-breheny": "HOLD r67: bare Padraig Breheny stays HOLD; club-scoped Tynagh-Abbey/Duniry row covers scoring cites.",
+    "player:kerrill-wade": "HOLD r67: bare Kerrill Wade stays HOLD — spelling twin of clubbed Kerril Wade (Sarsfields).",
+    "player:michael-kelly": "HOLD r67: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows.",
+    "player:tadgh-haran": "HOLD r67: bare Tadgh Haran stays HOLD; distinct from club-scoped Tadhg Haran (Liam Mellows).",
+    "player:fr-michael-kilkenny": "HOLD r67: Fr Michael Kilkenny county-panel row stays HOLD."
+  }
+}
