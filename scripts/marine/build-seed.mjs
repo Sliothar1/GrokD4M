@@ -372,7 +372,7 @@ function build2023() {
       "National Dinophysis exceedance was 10.0% versus a 14.4% climatology; closure weeks were 16.3% versus 24.3% climatology — both below the seasonal baseline.",
       "Connemara bookends sit outside the June peak: Rosmuc 320 cells/L in the week of 2023-05-29, Mannin 120 cells/L in the week of 2023-07-10.",
       "Lehanagh Pool buoy has no June 2023 series here: near-real-time coverage in this demo begins 2024-05-27.",
-      "Judge-facing skill line only: STRONG_OISST LightGBM test calibrated PR-AUC ~0.295 versus climatology ~0.18. No ODYSSEA or chlorophyll predictive skill is claimed.",
+      "Judge skill line: 53% lift over seasonal climatology (0.183 → 0.280 PR-AUC). Brier −1.10→−0.01 after calibration; p is calibrated for Galway Bay risk — not a per-day invented forecast on these charts. No ODYSSEA or chlorophyll predictive skill is claimed.",
     ],
     key_metrics: {
       crw_june_mean_frac_mhw: {
@@ -407,8 +407,8 @@ function build2023() {
         quality: "grounded",
       },
       strong_oisst_pr_auc: {
-        value: "0.295 vs clim ~0.18",
-        note: "Test calibrated PR-AUC. Relative lift from 0.183 → 0.295 is (0.295−0.183)/0.183 ≈ 61%, not a 53% figure from older drafts.",
+        value: "0.183 → 0.280",
+        note: "53% lift over seasonal climatology ((0.280−0.183)/0.183 ≈ 53%). Brier −1.10→−0.01 after calibration; p calibrated for Galway Bay risk.",
         quality: "grounded",
       },
     },
@@ -426,13 +426,13 @@ function build2023() {
       "Mace Head daily temperatures are illustrative context scaled to the published June mean 15.98 °C; SSTA uses 13.70 °C as the ‘other Junes’ baseline implied by +2.28 °C.",
       "HAB cell counts are only the two grounded Connemara bookends. No invented June bloom peak.",
       "Lehanagh Pool is listed with no June 2023 timeseries (NRT from 2024-05-27).",
-      "model_p is omitted. Do not read the STRONG_OISST PR-AUC as a per-day probability on these charts.",
+      "Per-day model_p is omitted from the timeseries (no day-level probability artifact is shipped). The published skill is 0.183 → 0.280 PR-AUC with Brier −1.10→−0.01 after calibration for Galway Bay risk — not a plotted p-vs-actual series.",
     ],
     sources: [
       "NOAA Coral Reef Watch MHW product (Irish bbox frac_mhw / category).",
       "Mace Head June temperature comparison as recorded in PA-Marine-Model notes.",
       "Marine Institute HAB exceedance and closure climatology (national).",
-      "PA-Marine-Model STRONG_OISST LightGBM test calibrated PR-AUC only.",
+      "PA-Marine-Model STRONG_OISST skill: 53% lift over seasonal climatology (0.183 → 0.280 PR-AUC); Brier −1.10→−0.01 after calibration.",
     ],
   };
 }

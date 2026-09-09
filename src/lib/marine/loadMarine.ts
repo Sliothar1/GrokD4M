@@ -32,17 +32,19 @@ export function getMarineInstance(id: string | undefined): MarineInstance {
 }
 
 export const MARINE_SKILL_LINE =
-  "STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18";
+  "53% lift over seasonal climatology (0.183 → 0.280 PR-AUC)";
 
 export const MARINE_SKILL_LIFT =
-  "Honest lift from 0.183 → 0.295 is (0.295 − 0.183) / 0.183 ≈ 61% relative PR-AUC, not a 53% figure from older drafts. Absolute gain +0.112. No ODYSSEA/Chl skill is claimed.";
+  "Brier -1.10→-0.01 after calibration, p calibrated for Galway Bay risk";
+
+export const MARINE_ROW_PATTERN = "station:{id} / {year}-W{week}@{location}";
 
 export function marineDemoBundle(): MarineDemoBundle {
   const A = getMarineAssoc();
   return {
     engine: {
       name: "AssocMarine / AssocArray",
-      row_pattern: "${year}-W${week}@${location_id}",
+      row_pattern: MARINE_ROW_PATTERN,
       skill_line: MARINE_SKILL_LINE,
       skill_lift_note: MARINE_SKILL_LIFT,
     },

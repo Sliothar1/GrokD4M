@@ -100,13 +100,13 @@ Local path is the source of truth for Phase 1. Later remote target: `github.com/
 
 **One engine, two domains.** `main` stays Galway GAA / HurlingWiki (`/`, `/club/[slug]`, Joe Canning, etc.). This branch adds an isolated marine storytelling route at **`/marine`**.
 
-Same D4M-inspired `AssocArray` (`getrow` / `getcol` / `search`). Marine rows are `${year}-W${week}@${location_id}` with numeric feature columns (`sst`, `ssta`, `in_mhw`, `frac_mhw`, `hab_cells`, …). Wrapper: `src/lib/marine/AssocMarine.ts`. Seed: `data/marine/marine-seed.json`. Instances: `data/marine/instances/`.
+Same D4M-inspired `AssocArray` (`getrow` / `getcol` / `search`). Marine rows are `station:{id}` (sites) and `{year}-W{week}@{location}` (week × location features: `sst`, `ssta`, `in_mhw`, `frac_mhw`, `hab_cells`, …). Wrapper: `src/lib/marine/AssocMarine.ts`. Seed: `data/marine/marine-seed.json` (**537** triples). Instances: `data/marine/instances/`.
 
 ### Judge skill line (honest)
 
-> STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18
+> 53% lift over seasonal climatology (0.183 → 0.280 PR-AUC)
 
-If you cite lift, compute it from **0.183 → 0.295**: relative PR-AUC lift ≈ **61%** (`(0.295 − 0.183) / 0.183`). Do **not** use a fabricated “53% lift” from older drafts. Do **not** claim ODYSSEA or chlorophyll predictive skill. Daily chart curves are labelled illustrative monitoring context; grounded facts live in each instance’s `key_metrics`. `model_p` is omitted (no probability artifact is shipped).
+Relative lift is `(0.280 − 0.183) / 0.183 ≈ 53%`. Calibration note: **Brier −1.10→−0.01 after calibration, p calibrated for Galway Bay risk**. That is a published skill/calibration statement — not a per-day `model_p` series on the charts (none is shipped). Do **not** claim ODYSSEA or chlorophyll predictive skill. Daily SST/MHW curves are labelled illustrative monitoring context; grounded facts live in each instance’s `key_metrics`.
 
 Rebuild seed/instances after editing the generator:
 

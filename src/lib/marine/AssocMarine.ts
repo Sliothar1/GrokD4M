@@ -2,12 +2,11 @@
  * Thin marine wrapper around the D4M-inspired AssocArray.
  *
  * Same engine as HurlingWiki: sparse (row, col, val) triples with getrow / getcol / search.
- * Marine observation rows use:
- *   row = `${year}-W${week}@${location_id}`  e.g. "2018-W25@gubbaros"
- *   col = feature name                         e.g. "sst", "in_mhw", "hab_cells"
- *   val = number
- *
- * Station / instance metadata may use string values (name, title, notes).
+ * Marine rows use two shapes:
+ *   station:{id}                  e.g. "station:gubbaros"
+ *   {year}-W{week}@{location}     e.g. "2018-W25@gubbaros"
+ *   col = feature name            e.g. "sst", "in_mhw", "hab_cells"
+ *   val = number (observations) or string (station metadata)
  */
 
 import {
@@ -19,6 +18,11 @@ import {
 } from "@/lib/d4m/AssocArray";
 
 export type { Triple, TripleVal, AssocQueryResult };
+
+/** Canonical D4M row for a station entity. */
+export function stationRow(id: string): string {
+  return `station:${id}`;
+}
 
 /** Canonical D4M row for a location-week. Week is ISO-8601, zero-padded. */
 export function marineRow(

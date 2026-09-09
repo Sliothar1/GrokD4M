@@ -5,6 +5,7 @@ import seed from "../../../data/marine/marine-seed.json";
 import { AssocMarine, type Triple } from "@/lib/marine/AssocMarine";
 
 const EXAMPLES = [
+  { label: "getrow station:gubbaros", mode: "row" as const, q: "station:gubbaros" },
   { label: "getrow 2018-W25@gubbaros", mode: "row" as const, q: "2018-W25@gubbaros" },
   { label: "getcol hab_cells", mode: "col" as const, q: "hab_cells" },
   { label: "search mace-head", mode: "search" as const, q: "mace-head" },
@@ -30,8 +31,13 @@ export function MarineQueryPlayground() {
         hurling: <code className="rounded bg-marine-foam px-1">getrow</code>,{" "}
         <code className="rounded bg-marine-foam px-1">getcol</code>,{" "}
         <code className="rounded bg-marine-foam px-1">search</code>. Rows look
-        like <code className="rounded bg-marine-foam px-1">2018-W25@gubbaros</code>.
-        This board holds <strong>{A.nnz()}</strong> marine triples.
+        like <code className="rounded bg-marine-foam px-1">station:gubbaros</code>{" "}
+        or <code className="rounded bg-marine-foam px-1">2018-W25@gubbaros</code>
+        {" "}(pattern{" "}
+        <code className="rounded bg-marine-foam px-1">
+          station:{"{id}"} / {"{year}"}-W{"{week}"}@{"{location}"}
+        </code>
+        ). This board holds <strong>{A.nnz()}</strong> marine triples.
       </p>
       <div className="flex flex-wrap gap-2">
         {EXAMPLES.map((ex) => (
