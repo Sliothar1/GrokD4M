@@ -104,9 +104,9 @@ Same D4M-inspired `AssocArray` (`getrow` / `getcol` / `search`). Marine rows are
 
 ### Judge skill line (honest)
 
-> 53% lift over seasonal climatology (0.183 → 0.280 PR-AUC)
+> STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18
 
-Relative lift is `(0.280 − 0.183) / 0.183 ≈ 53%`. Calibration note: **Brier −1.10→−0.01 after calibration, p calibrated for Galway Bay risk**. That is a published skill/calibration statement — not a per-day `model_p` series on the charts (none is shipped). Do **not** claim ODYSSEA or chlorophyll predictive skill. Daily SST/MHW curves are labelled illustrative monitoring context; grounded facts live in each instance’s `key_metrics`.
+If you cite lift, use **0.183 → 0.295 ≈ 61% relative** (`(0.295 − 0.183) / 0.183`). Do **not** headline “53% lift” or **0.280**. Footnote only: older committed eval ~0.293 / calibrated ~0.280 appears in some metrics files. Do **not** claim ODYSSEA or chlorophyll predictive skill. Daily SST/MHW curves are labelled illustrative monitoring context; grounded facts live in each instance’s `key_metrics`. Per-day `model_p` is omitted.
 
 Rebuild seed/instances after editing the generator:
 

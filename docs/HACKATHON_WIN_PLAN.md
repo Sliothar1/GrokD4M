@@ -13,12 +13,12 @@ This branch showcases **one D4M engine, two domains**: HurlingWiki (Galway GAA o
 | Allowed | Not allowed |
 | --- | --- |
 | Narrative + published SST / CRW / HAB / closure numbers listed below | Invented per-day model probabilities (`p=0.62`) |
-| **53% lift over seasonal climatology (0.183 → 0.280 PR-AUC)** — `(0.280−0.183)/0.183 ≈ 53%` | “Flagged 10 days early” unless a real artifact exists |
+| **STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18** | “Flagged 10 days early” unless a real artifact exists |
+| Lift if cited: **0.183 → 0.295 ≈ 61% relative** | Headlining “53% lift” or **0.280** PR-AUC |
 | Illustrative daily curves **labelled as such**, calibrated to published means | Claiming ODYSSEA or chlorophyll predictive skill |
-| **Brier −1.10→−0.01 after calibration; p calibrated for Galway Bay risk** (skill/calibration, not a plotted daily `model_p`) | Treating the PR-AUC as a day-level forecast on the charts |
 | Heatwave ≠ automatic bloom | Causation claims from co-occurrence |
 
-Per-day `model_p` is omitted from instance timeseries and charts. The playground never fabricates a forecast column.
+Footnote only (not the headline): older committed eval ~0.293 / calibrated ~0.280 appears in some metrics files. Per-day `model_p` is omitted from instance timeseries and charts. The playground never fabricates a forecast column.
 
 ## Three instances
 
@@ -34,7 +34,7 @@ Per-day `model_p` is omitted from instance timeseries and charts. The playground
 - Grounded: CRW Irish-bbox mean `frac_mhw` ≈ **0.964**; peak **1.000** on 2023-06-19; max cat **5**; Mace Head June mean T ≈ **15.98 °C** (~**+2.28 °C** vs other Junes); national Dinophysis exceedance **10.0% vs clim 14.4%**; closures **16.3% vs clim 24.3%** (both **below** clim); Rosmuc **320 cells/L** week 2023-05-29; Mannin **120** week 2023-07-10
 - **Lehanagh Pool**: no June 2023 series (NRT from **2024-05-27**)
 - Angle: severe MHW ≠ automatic bloom — heighten monitoring, no causation claim
-- Skill quote: **53% lift over seasonal climatology (0.183 → 0.280 PR-AUC)**; Brier **−1.10→−0.01** after calibration, p calibrated for Galway Bay risk
+- Skill quote: **STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18** (lift if cited: 0.183 → 0.295 ≈ 61% relative)
 
 ### C — Summer 2022 Galway / Connemara contrast (home ground)
 
@@ -55,7 +55,7 @@ Per-day `model_p` is omitted from instance timeseries and charts. The playground
 
 ## Pitch (90 seconds)
 
-HurlingWiki already stores Galway facts as MIT D4M-style triples. PA-Marine reuses that algebra for Irish HAB and marine heatwaves: `station:{id}` and `{year}-W{week}@{location}` rows, feature columns, open-data values (**537** nnz). Three honest stories — 2018 bloom-with-warmth, 2023 severe MHW without a national bloom spike, 2022 local Connemara weeks that diverge from the shelf average — plus one published skill number: **53% lift over seasonal climatology (0.183 → 0.280 PR-AUC)**, Brier **−1.10→−0.01** after calibration for Galway Bay risk. We do not sell a fake per-day early-warning probability.
+HurlingWiki already stores Galway facts as MIT D4M-style triples. PA-Marine reuses that algebra for Irish HAB and marine heatwaves: `station:{id}` and `{year}-W{week}@{location}` rows, feature columns, open-data values (**537** nnz). Three honest stories — 2018 bloom-with-warmth, 2023 severe MHW without a national bloom spike, 2022 local Connemara weeks that diverge from the shelf average — plus one published skill number: **STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18**. We do not sell a fake per-day early-warning probability.
 
 ## Hobday definition (on-page)
 

@@ -32,10 +32,10 @@ export function getMarineInstance(id: string | undefined): MarineInstance {
 }
 
 export const MARINE_SKILL_LINE =
-  "53% lift over seasonal climatology (0.183 → 0.280 PR-AUC)";
+  "STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18";
 
 export const MARINE_SKILL_LIFT =
-  "Brier -1.10→-0.01 after calibration, p calibrated for Galway Bay risk";
+  "If citing lift: 0.183 → 0.295 ≈ 61% relative ((0.295 − 0.183) / 0.183). Footnote only: older committed eval ~0.293 / calibrated ~0.280 appears in some metrics files — not the headline. No ODYSSEA/Chl skill; no per-day model_p.";
 
 export const MARINE_ROW_PATTERN = "station:{id} / {year}-W{week}@{location}";
 
