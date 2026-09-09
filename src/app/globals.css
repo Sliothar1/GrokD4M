@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --galway-maroon: #7a0c2e;
-  --galway-maroon-dark: #5c0922;
-  --galway-gold: #c9a227;
-  --galway-cream: #f7f1e8;
-  --galway-ink: #1a1215;
+  --galway-maroon: #76002d;
+  --galway-maroon-dark: #4f001f;
+  --galway-gold: #f1c84b;
+  --galway-cream: #f7f4ef;
+  --galway-ink: #21151a;
   --background: var(--galway-cream);
   --foreground: var(--galway-ink);
 }
@@ -26,4 +26,22 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection { background: var(--galway-gold); color: var(--galway-ink); }
+
+.section-kicker {
+  color: var(--galway-maroon);
+  font-size: 0.875rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--galway-ink);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
 }

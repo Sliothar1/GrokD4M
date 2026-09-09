@@ -7,7 +7,7 @@ Kid-friendly Galway senior hurling knowledge site (Phase 1) that showcases [MIT 
 ## Run
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
@@ -19,6 +19,9 @@ Production build:
 npm run build
 npm start
 ```
+
+Complete quality gate: `npm run check`. The verified seed baseline and checksum
+are recorded in [`docs/baseline.md`](docs/baseline.md).
 
 Scripts: `dev`, `build`, `start` (see `package.json`). Bun works too (`bun install` / `bun run build`) if you prefer.
 
