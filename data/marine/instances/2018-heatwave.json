@@ -1,0 +1,1031 @@
+{
+  "id": "2018-heatwave",
+  "tab_label": "Instance A",
+  "title": "Summer 2018 European / NE Atlantic MHW",
+  "date_range": {
+    "start": "2018-06-01",
+    "end": "2018-08-31"
+  },
+  "angle": "Warm June on the Irish shelf plus an active Connemara Dinophysis week — HAB present with MHW, not a forecast claim.",
+  "narrative": [
+    "June 2018 Irish-shelf OISST averaged ~14.90 °C, the #2 warmest June in the 2002–2026 window used by PA-Marine-Model notes.",
+    "Hobday-style in_mhw occupancy was about 0.194 in June and about 0.111 across JJA — a warm month inside a broader European / NE Atlantic heat event.",
+    "Connemara Gubbaros recorded a Dinophysis peak of ~880 cells/L in the week of 2018-06-18, during the June warmth.",
+    "Nationally, Dinophysis-positive weeks in ISO weeks 22–35 ran at ~17.4% of monitored weeks — a network rate, not a single-bay forecast.",
+    "This tab is storytelling from open SST and HAB bulletin metrics. It does not attach a model probability or an ‘early flag’ date."
+  ],
+  "key_metrics": {
+    "june_oisst_irish_shelf": {
+      "value": "14.90",
+      "unit": "°C",
+      "note": "#2 warmest June, 2002–2026",
+      "quality": "grounded"
+    },
+    "june_in_mhw_rate": {
+      "value": "0.194",
+      "note": "June occupancy",
+      "quality": "grounded"
+    },
+    "jja_in_mhw_rate": {
+      "value": "0.111",
+      "note": "June–August occupancy",
+      "quality": "grounded"
+    },
+    "gubbaros_peak": {
+      "value": "880",
+      "unit": "cells/L",
+      "note": "Week of 2018-06-18",
+      "quality": "grounded"
+    },
+    "national_dinophysis_weeks": {
+      "value": "17.4%",
+      "note": "ISO weeks 22–35, national network",
+      "quality": "grounded"
+    }
+  },
+  "highlight_station_id": "gubbaros",
+  "stations": [
+    {
+      "id": "irish-shelf",
+      "name": "Irish shelf (OISST / CRW bbox mean)",
+      "lat": 53.15,
+      "lon": -10.35,
+      "kind": "satellite-bbox",
+      "note": "Spatial mean over the Irish-shelf / CRW Irish bbox used in PA-Marine-Model notes — not a single mooring."
+    },
+    {
+      "id": "gubbaros",
+      "name": "Gubbaros (Connemara HAB)",
+      "lat": 53.32,
+      "lon": -9.78,
+      "kind": "hab-station",
+      "note": "Marine Institute shellfish / HAB monitoring site. Map pin is approximate."
+    },
+    {
+      "id": "mace-head",
+      "name": "Mace Head",
+      "lat": 53.326,
+      "lon": -9.904,
+      "kind": "coastal-obs",
+      "note": "Coastal temperature context for Connemara / west Galway."
+    },
+    {
+      "id": "rosmuc",
+      "name": "Rosmuc",
+      "lat": 53.355,
+      "lon": -9.618,
+      "kind": "hab-station",
+      "note": "Connemara HAB site. Map pin is approximate."
+    },
+    {
+      "id": "mannin",
+      "name": "Mannin",
+      "lat": 53.46,
+      "lon": -10.05,
+      "kind": "hab-station",
+      "note": "Mannin Bay HAB site. Map pin is approximate."
+    }
+  ],
+  "timeseries": [
+    {
+      "date": "2018-06-01",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 22,
+      "sst": 14.21,
+      "ssta": 0.51,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-02",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 22,
+      "sst": 14.34,
+      "ssta": 0.62,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-03",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 22,
+      "sst": 14.5,
+      "ssta": 0.76,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-04",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 23,
+      "sst": 14.36,
+      "ssta": 0.59,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-05",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 23,
+      "sst": 14.32,
+      "ssta": 0.53,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-06",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 23,
+      "sst": 14.36,
+      "ssta": 0.55,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-07",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 23,
+      "sst": 14.44,
+      "ssta": 0.61,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-08",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 23,
+      "sst": 14.39,
+      "ssta": 0.53,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-09",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 23,
+      "sst": 14.69,
+      "ssta": 0.81,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-10",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 23,
+      "sst": 14.47,
+      "ssta": 0.57,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-11",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 24,
+      "sst": 14.68,
+      "ssta": 0.76,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-12",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 24,
+      "sst": 14.59,
+      "ssta": 0.65,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-13",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 24,
+      "sst": 14.67,
+      "ssta": 0.7,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-14",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 24,
+      "sst": 14.66,
+      "ssta": 0.67,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-15",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 24,
+      "sst": 15.47,
+      "ssta": 1.46,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-16",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 24,
+      "sst": 15.39,
+      "ssta": 1.36,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-17",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 24,
+      "sst": 15.49,
+      "ssta": 1.43,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-18",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "sst": 15.41,
+      "ssta": 1.33,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-19",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "sst": 15.61,
+      "ssta": 1.51,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-20",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "sst": 15.62,
+      "ssta": 1.5,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-21",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "sst": 14.87,
+      "ssta": 0.73,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-22",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "sst": 15.03,
+      "ssta": 0.86,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-23",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "sst": 15.1,
+      "ssta": 0.91,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-24",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "sst": 15.1,
+      "ssta": 0.89,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-25",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 26,
+      "sst": 15.2,
+      "ssta": 0.97,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-26",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 26,
+      "sst": 15.25,
+      "ssta": 0.99,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-27",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 26,
+      "sst": 15.15,
+      "ssta": 0.87,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-28",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 26,
+      "sst": 15.03,
+      "ssta": 0.73,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-29",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 26,
+      "sst": 15.19,
+      "ssta": 0.87,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-30",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 26,
+      "sst": 15.42,
+      "ssta": 1.08,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-01",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 26,
+      "sst": 15.25,
+      "ssta": 0.88,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-02",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 27,
+      "sst": 15.41,
+      "ssta": 1.02,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-03",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 27,
+      "sst": 15.54,
+      "ssta": 1.13,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-04",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 27,
+      "sst": 15.52,
+      "ssta": 1.09,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-05",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 27,
+      "sst": 15.66,
+      "ssta": 1.2,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-06",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 27,
+      "sst": 15.46,
+      "ssta": 0.98,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-07",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 27,
+      "sst": 15.55,
+      "ssta": 1.05,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-08",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 27,
+      "sst": 15.7,
+      "ssta": 1.18,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-09",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 28,
+      "sst": 15.73,
+      "ssta": 1.19,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-10",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 28,
+      "sst": 15.78,
+      "ssta": 1.21,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-11",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 28,
+      "sst": 15.64,
+      "ssta": 1.05,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-12",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 28,
+      "sst": 16.18,
+      "ssta": 1.57,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-13",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 28,
+      "sst": 16.3,
+      "ssta": 1.67,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-14",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 28,
+      "sst": 16.11,
+      "ssta": 1.45,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-15",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 28,
+      "sst": 16.29,
+      "ssta": 1.61,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-16",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 29,
+      "sst": 15.95,
+      "ssta": 1.25,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-17",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 29,
+      "sst": 15.68,
+      "ssta": 0.96,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-18",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 29,
+      "sst": 15.82,
+      "ssta": 1.08,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-19",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 29,
+      "sst": 15.94,
+      "ssta": 1.17,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-20",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 29,
+      "sst": 15.79,
+      "ssta": 1,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-21",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 29,
+      "sst": 15.97,
+      "ssta": 1.16,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-22",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 29,
+      "sst": 15.92,
+      "ssta": 1.09,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-23",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 30,
+      "sst": 15.82,
+      "ssta": 0.96,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-24",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 30,
+      "sst": 15.82,
+      "ssta": 0.94,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-25",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 30,
+      "sst": 16.13,
+      "ssta": 1.23,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-26",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 30,
+      "sst": 15.89,
+      "ssta": 0.97,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-27",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 30,
+      "sst": 16.06,
+      "ssta": 1.12,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-28",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 30,
+      "sst": 16.06,
+      "ssta": 1.09,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-29",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 30,
+      "sst": 16.04,
+      "ssta": 1.05,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-30",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 31,
+      "sst": 16.02,
+      "ssta": 1.01,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-07-31",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 31,
+      "sst": 16.15,
+      "ssta": 1.12,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-01",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 31,
+      "sst": 16.06,
+      "ssta": 1,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-02",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 31,
+      "sst": 15.96,
+      "ssta": 0.88,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-03",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 31,
+      "sst": 16.1,
+      "ssta": 1,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-04",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 31,
+      "sst": 16.01,
+      "ssta": 0.89,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-05",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 31,
+      "sst": 16.35,
+      "ssta": 1.21,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-06",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 32,
+      "sst": 16.27,
+      "ssta": 1.1,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-07",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 32,
+      "sst": 16.29,
+      "ssta": 1.1,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-08",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 32,
+      "sst": 16.06,
+      "ssta": 0.85,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-09",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 32,
+      "sst": 16.07,
+      "ssta": 0.84,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-10",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 32,
+      "sst": 16.22,
+      "ssta": 0.96,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-11",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 32,
+      "sst": 16.28,
+      "ssta": 1,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-12",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 32,
+      "sst": 16.16,
+      "ssta": 0.86,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-13",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 33,
+      "sst": 16.33,
+      "ssta": 1.01,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-14",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 33,
+      "sst": 16.38,
+      "ssta": 1.04,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-15",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 33,
+      "sst": 16.2,
+      "ssta": 0.83,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-16",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 33,
+      "sst": 16.2,
+      "ssta": 0.81,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-17",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 33,
+      "sst": 16.44,
+      "ssta": 1.03,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-18",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 33,
+      "sst": 16.52,
+      "ssta": 1.09,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-19",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 33,
+      "sst": 16.28,
+      "ssta": 0.82,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-20",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 34,
+      "sst": 16.35,
+      "ssta": 0.87,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-21",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 34,
+      "sst": 16.46,
+      "ssta": 0.96,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-22",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 34,
+      "sst": 16.57,
+      "ssta": 1.05,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-23",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 34,
+      "sst": 16.59,
+      "ssta": 1.05,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-24",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 34,
+      "sst": 16.51,
+      "ssta": 0.94,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-25",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 34,
+      "sst": 16.36,
+      "ssta": 0.77,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-26",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 34,
+      "sst": 16.4,
+      "ssta": 0.79,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-27",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 35,
+      "sst": 16.48,
+      "ssta": 0.85,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-28",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 35,
+      "sst": 16.38,
+      "ssta": 0.72,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-29",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 35,
+      "sst": 16.59,
+      "ssta": 0.91,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-30",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 35,
+      "sst": 16.55,
+      "ssta": 0.85,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-08-31",
+      "location_id": "irish-shelf",
+      "iso_year": 2018,
+      "iso_week": 35,
+      "sst": 16.4,
+      "ssta": 0.68,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2018-06-18",
+      "location_id": "gubbaros",
+      "iso_year": 2018,
+      "iso_week": 25,
+      "hab_cells": 880,
+      "hab_exceedance": 1,
+      "quality": "grounded"
+    }
+  ],
+  "data_notes": [
+    "Daily SST / SSTA / in_mhw curves are illustrative monitoring context calibrated so June SST averages 14.90 °C and ~6 June + 4 later JJA days sit in MHW (10/92 ≈ 0.109 vs published JJA 0.111).",
+    "They are not a pixel dump of NOAA OISST or a Hobday detect() run on the original grids.",
+    "Gubbaros 880 cells/L is a grounded weekly HAB fact. Neighbouring weeks without a published count are omitted rather than invented.",
+    "model_p is omitted: no real PA-Marine-Model probability artifact is shipped in this demo."
+  ],
+  "sources": [
+    "NOAA OISST Irish-shelf June statistic as recorded in PA-Marine-Model notes (2002–2026 window).",
+    "Hobday et al. (2016) MHW definition (seasonal 90th percentile, ≥5 days).",
+    "Marine Institute HAB / shellfish monitoring (Gubbaros Dinophysis week of 2018-06-18)."
+  ]
+}
