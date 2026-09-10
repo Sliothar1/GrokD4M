@@ -6,6 +6,10 @@
   --galway-gold: #c9a227;
   --galway-cream: #f7f1e8;
   --galway-ink: #1a1215;
+  --marine-deep: #0b3d4a;
+  --marine-teal: #1a7a8c;
+  --marine-foam: #e8f4f6;
+  --marine-alert: #c45c26;
   --background: var(--galway-cream);
   --foreground: var(--galway-ink);
 }
@@ -18,6 +22,10 @@
   --color-galway-gold: var(--galway-gold);
   --color-galway-cream: var(--galway-cream);
   --color-galway-ink: var(--galway-ink);
+  --color-marine-deep: var(--marine-deep);
+  --color-marine-teal: var(--marine-teal);
+  --color-marine-foam: var(--marine-foam);
+  --color-marine-alert: var(--marine-alert);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
