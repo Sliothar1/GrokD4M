@@ -662,12 +662,12 @@
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "note",
-    "val": "Fohenagh won Galway in 1960. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Opponent: Castlegar. INA catalog retrospective locators CTB20210129.1.68 / CTT20210129.1.82 — title: The 1960 Fohenagh team which claimed back-to-back Galway senior hurling titles. Cite chips only; score unchanged."
+    "val": "Fohenagh won Galway in 1960. Historic predecessor title — not an Ahascragh-Fohenagh amalgam title. Opponent: Castlegar. INA catalog retrospective locators CTB20210129.1.68 / CTT20210129.1.82 — title: The 1960 Fohenagh team which claimed back-to-back Galway senior hurling titles. Cite chips only; score unchanged. r68: captain stamped Tony O'Gorman (Fohenagh) from Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong)."
   },
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "confidence",
-    "val": "high"
+    "val": "medium"
   },
   {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
@@ -6047,12 +6047,12 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
     "col": "note",
-    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Drawn final; replay followed. Date: contemporary papers report the Sunday game; Irish Independent printed the score on Mon 31 Aug 1959. PDF cutting art-fohenagh-clip6 attached (OCR confirms Castlegar 1-11, Fohenagh 2-8)."
+    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Drawn final; replay followed. Date: contemporary papers report the Sunday game; Irish Independent printed the score on Mon 31 Aug 1959. PDF cutting art-fohenagh-clip6 attached (OCR confirms Castlegar 1-11, Fohenagh 2-8). r68: captain stamped Marty Glynn (programme roll: Martin Glynn, Fohenagh) from Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong). Same person as existing Marty/M. Glynn row from 1959 cuttings."
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
     "col": "confidence",
-    "val": "high"
+    "val": "medium"
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
@@ -6132,12 +6132,12 @@
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "note",
-    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Replay after Pearse Stadium draw. Tuam Herald prints Fohenagh 3-9, Castlegar 4-5 (one-point win). INA catalog locator CSL19590915.1.4 — title: Castlegar have fallen and the new champions are Fohenagh. Extra contemporary cite beside existing Connacht Tribune secondary; excerpt locator only (no full text). PDF cutting art-fohenagh-clip5 attached (first senior title replay report; one-point win)."
+    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Replay after Pearse Stadium draw. Tuam Herald prints Fohenagh 3-9, Castlegar 4-5 (one-point win). INA catalog locator CSL19590915.1.4 — title: Castlegar have fallen and the new champions are Fohenagh. Extra contemporary cite beside existing Connacht Tribune secondary; excerpt locator only (no full text). PDF cutting art-fohenagh-clip5 attached (first senior title replay report; one-point win). r68: captain stamped Marty Glynn (programme roll: Martin Glynn, Fohenagh) from Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong)."
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "confidence",
-    "val": "high"
+    "val": "medium"
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
@@ -35462,7 +35462,7 @@
   {
     "row": "player:fr-michael-kilkenny",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Fr Michael Kilkenny (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD. HOLD r62: Fr Michael Kilkenny county-panel row stays HOLD; distinct from new Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r63: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r64: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r66: Fr Michael Kilkenny county-panel row stays HOLD. HOLD r67: Fr Michael Kilkenny county-panel row stays HOLD."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 1978 panel (Galway GAA). HOLD r32 NEW: club-less Fr Michael Kilkenny (U-21 1978 panel); no first+last published Galway club hurling cite found — keep HOLD. HOLD r62: Fr Michael Kilkenny county-panel row stays HOLD; distinct from new Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r63: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r64: Fr Michael Kilkenny county-panel row stays HOLD; distinct from Mark Kilkenny (Kiltormer) club-scoped unverified. HOLD r66: Fr Michael Kilkenny county-panel row stays HOLD. HOLD r67: Fr Michael Kilkenny county-panel row stays HOLD. HOLD r68: Fr Michael Kilkenny county-panel row stays HOLD."
   },
   {
     "row": "player:francis-forde",
@@ -39682,7 +39682,7 @@
   {
     "row": "player:michael-healy",
     "col": "note",
-    "val": "HOLD: club era unconfirmed (possible Castlegar collision). No club chip. HOLD r60: bare Michael Healy stays HOLD (possible Castlegar collision) — no first+last multi-source clear. HOLD r61: bare Michael Healy stays HOLD (possible Castlegar collision) — no first+last multi-source clear."
+    "val": "HOLD: club era unconfirmed (possible Castlegar collision). No club chip. HOLD r60: bare Michael Healy stays HOLD (possible Castlegar collision) — no first+last multi-source clear. HOLD r61: bare Michael Healy stays HOLD (possible Castlegar collision) — no first+last multi-source clear. HOLD r68: bare Michael Healy stays HOLD (Castlegar name/era collision risk); club-scoped Michael Healy Ahascragh already exists."
   },
   {
     "row": "player:michael-helebert",
@@ -39772,7 +39772,7 @@
   {
     "row": "player:michael-kelly",
     "col": "note",
-    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD. HOLD r43: Kelly surname extremely common across Galway clubs; bare Minor 2011 panel lacks first+last multi-source club clear — stays HOLD. HOLD r56: bare Michael Kelly stays HOLD — Ballinderreen/other Kellys already clubbed; no new multi-source clear; stay HOLD. HOLD r61: bare Michael Kelly stays HOLD (Ahascragh-Fohenagh + Oranmore-Maree + Ballinderreen Senior B free-taker collision surface) — no first+last multi-source clear of bare MHC 2011 row. HOLD r62: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore); no clear first+last multi-source club link this round. HOLD r63: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round. HOLD r64: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round. HOLD r66: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows; no clear multi-source club clear this round. HOLD r67: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows."
+    "val": "Named on Galway All-Ireland Minor Hurling Champions 2011 panel (Galway GAA). HOLD r11: bare Michael Kelly (2011 MHC panel) — Ballinderreen Michael Kelly on Wikipedia 2025 is likely distinct; do not dual-stamp; collision HOLD. HOLD r43: Kelly surname extremely common across Galway clubs; bare Minor 2011 panel lacks first+last multi-source club clear — stays HOLD. HOLD r56: bare Michael Kelly stays HOLD — Ballinderreen/other Kellys already clubbed; no new multi-source clear; stay HOLD. HOLD r61: bare Michael Kelly stays HOLD (Ahascragh-Fohenagh + Oranmore-Maree + Ballinderreen Senior B free-taker collision surface) — no first+last multi-source clear of bare MHC 2011 row. HOLD r62: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore); no clear first+last multi-source club link this round. HOLD r63: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round. HOLD r64: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows (AF/Oranmore/Ballinderreen scorers); no clear first+last multi-source club clear this round. HOLD r66: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows; no clear multi-source club clear this round. HOLD r67: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows. HOLD r68: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows."
   },
   {
     "row": "player:michael-kerins",
@@ -41297,7 +41297,7 @@
   {
     "row": "player:padraig-breheny",
     "col": "note",
-    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). HOLD: spelling variant of Pádraig Brehony — no club stamp. HOLD r39: spelling/id collision with clubbed Tynagh-Abbey/Duniry Breheny/Brehony rows; bare AIHC row stays HOLD. HOLD r40: Breheny/Brehony family collision; bare AIHC stays HOLD. HOLD r41: Breheny/Brehony family collision — clubbed Tynagh-Abbey/Duniry rows exist (player:padraig-brehony / player:padraig-breheny-tynagh-abbey-duniry); bare AIHC 2017 row stays HOLD. HOLD r45: spelling/id collision with clubbed player:padraig-breheny-tynagh-abbey-duniry and Wikipedia Pádraig Brehony (Tynagh-Abbey/Duniry; Balls.ie/DCU 2017). Bare SHC 2017 panel row stays HOLD — do not dual-club. HOLD r47: spelling twin of clubbed player:padraig-breheny-tynagh-abbey-duniry — bare 2017 AI panel row stays HOLD. HOLD r49: continue spelling/id collision — club-scoped player:padraig-breheny-tynagh-abbey-duniry + Wikipedia Pádraig Brehony exist; bare AIHC 2017 panel stays HOLD. HOLD r50: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r51: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r52: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r53: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r54: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r55: continue Padraig Breheny / Pádraig Brehony spelling twin — Wikipedia 2025 Tynagh-Abbey/Duniry Padraig Breheny scorers not enough to clear bare club-less twin; stay HOLD. HOLD r60: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row. HOLD r61: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row. HOLD r64: bare Padraig Breheny stays HOLD; club-scoped player:padraig-breheny-tynagh-abbey-duniry already exists (CT 2026 PIHC scoring). Do not dual-stamp bare panel row. HOLD r66: bare Padraig Breheny stays HOLD; club-scoped player:padraig-breheny-tynagh-abbey-duniry already covers CT 2026 PIHC scoring. Do not dual-stamp. HOLD r67: bare Padraig Breheny stays HOLD; club-scoped Tynagh-Abbey/Duniry row covers scoring cites."
+    "val": "Named on Galway All-Ireland Senior Hurling Champions 2017 panel (Galway GAA). HOLD: spelling variant of Pádraig Brehony — no club stamp. HOLD r39: spelling/id collision with clubbed Tynagh-Abbey/Duniry Breheny/Brehony rows; bare AIHC row stays HOLD. HOLD r40: Breheny/Brehony family collision; bare AIHC stays HOLD. HOLD r41: Breheny/Brehony family collision — clubbed Tynagh-Abbey/Duniry rows exist (player:padraig-brehony / player:padraig-breheny-tynagh-abbey-duniry); bare AIHC 2017 row stays HOLD. HOLD r45: spelling/id collision with clubbed player:padraig-breheny-tynagh-abbey-duniry and Wikipedia Pádraig Brehony (Tynagh-Abbey/Duniry; Balls.ie/DCU 2017). Bare SHC 2017 panel row stays HOLD — do not dual-club. HOLD r47: spelling twin of clubbed player:padraig-breheny-tynagh-abbey-duniry — bare 2017 AI panel row stays HOLD. HOLD r49: continue spelling/id collision — club-scoped player:padraig-breheny-tynagh-abbey-duniry + Wikipedia Pádraig Brehony exist; bare AIHC 2017 panel stays HOLD. HOLD r50: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r51: continue spelling/id collision cluster — bare AIHC 2017 stays HOLD. HOLD r52: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r53: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r54: continue Padraig Breheny / Pádraig Brehony spelling twin — no new clear; stay HOLD. HOLD r55: continue Padraig Breheny / Pádraig Brehony spelling twin — Wikipedia 2025 Tynagh-Abbey/Duniry Padraig Breheny scorers not enough to clear bare club-less twin; stay HOLD. HOLD r60: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row. HOLD r61: bare Padraig Breheny stays HOLD vs Padraig Breheny/Brehony Tynagh already club-scoped — no first+last multi-source clear of bare SHC 2017 row. HOLD r64: bare Padraig Breheny stays HOLD; club-scoped player:padraig-breheny-tynagh-abbey-duniry already exists (CT 2026 PIHC scoring). Do not dual-stamp bare panel row. HOLD r66: bare Padraig Breheny stays HOLD; club-scoped player:padraig-breheny-tynagh-abbey-duniry already covers CT 2026 PIHC scoring. Do not dual-stamp. HOLD r67: bare Padraig Breheny stays HOLD; club-scoped Tynagh-Abbey/Duniry row covers scoring cites. HOLD r68: bare Padraig Breheny stays HOLD; club-scoped Tynagh-Abbey/Duniry row covers scoring cites."
   },
   {
     "row": "player:pakie-dervan",
@@ -43707,7 +43707,7 @@
   {
     "row": "player:tadgh-haran",
     "col": "note",
-    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran + RTE/Connacht Tribune). Bare MHC panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran) — bare MHC/U-21 row stays HOLD. HOLD r49 collision: Wikipedia + Connacht Tribune 2026 SHC name Tadhg/Tadgh Haran for Liam Mellows, but seed already has clubbed player:tadhg-haran → club:liam-mellows — bare U-21 2011 panel spelling twin stays HOLD; do not double-stamp. HOLD r50: continue spelling twin vs player:tadhg-haran (Liam Mellows) — bare U-21 2011 stays HOLD. HOLD r51: continue spelling twin vs player:tadhg-haran (Liam Mellows; Wikipedia + Irish Times + Galway Bay FM Senior B sheets) — bare U-21 2011 Tadgh Haran stays HOLD. HOLD r52: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r53: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r54: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r55: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r56: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r57: bare Tadgh Haran stays HOLD (misspelling of Tadhg Haran Liam Mellows already clubbed) — 2024/2026 Mellows cites reinforce twin, not a clear. HOLD r59: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows already clubbed) — 2024 Senior B Mellows cites reinforce twin, not a clear. HOLD r60: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r61: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r63: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge. HOLD r64: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge. HOLD r66: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). HOLD r67: bare Tadgh Haran stays HOLD; distinct from club-scoped Tadhg Haran (Liam Mellows)."
+    "val": "Named on Galway All-Ireland U-21 Hurling Champions 2011 panel (Galway GAA). HOLD r9: misspelling of Tadhg Haran already clubbed Liam Mellows — do not stamp Salthill. HOLD r39: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r40: misspelling twin of Tadhg Haran Liam Mellows; do not dual-stamp. HOLD r41: misspelling twin of player:tadhg-haran already club:liam-mellows; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran + RTE/Connacht Tribune). Bare MHC panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:tadhg-haran (Liam Mellows; Wikipedia Tadhg Haran) — bare MHC/U-21 row stays HOLD. HOLD r49 collision: Wikipedia + Connacht Tribune 2026 SHC name Tadhg/Tadgh Haran for Liam Mellows, but seed already has clubbed player:tadhg-haran → club:liam-mellows — bare U-21 2011 panel spelling twin stays HOLD; do not double-stamp. HOLD r50: continue spelling twin vs player:tadhg-haran (Liam Mellows) — bare U-21 2011 stays HOLD. HOLD r51: continue spelling twin vs player:tadhg-haran (Liam Mellows; Wikipedia + Irish Times + Galway Bay FM Senior B sheets) — bare U-21 2011 Tadgh Haran stays HOLD. HOLD r52: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r53: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r54: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r55: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r56: continue Tadgh/Tadhg Haran misspelling twin — Tadhg Haran already clubbed Liam Mellows; bare Tadgh stays HOLD. HOLD r57: bare Tadgh Haran stays HOLD (misspelling of Tadhg Haran Liam Mellows already clubbed) — 2024/2026 Mellows cites reinforce twin, not a clear. HOLD r59: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows already clubbed) — 2024 Senior B Mellows cites reinforce twin, not a clear. HOLD r60: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r61: bare Tadgh Haran stays HOLD (misspelling twin of Tadhg Haran Liam Mellows) — no first+last multi-source clear. HOLD r63: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge. HOLD r64: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). No first+last multi-source clear to merge. HOLD r66: bare Tadgh Haran stays HOLD; distinct from club-scoped player:tadhg-haran (Liam Mellows). HOLD r67: bare Tadgh Haran stays HOLD; distinct from club-scoped Tadhg Haran (Liam Mellows). HOLD r68: bare Tadgh Haran stays HOLD; distinct from club-scoped Tadhg Haran (Liam Mellows)."
   },
   {
     "row": "player:tadhg-haran",
@@ -44492,7 +44492,7 @@
   {
     "row": "player:kerrill-wade",
     "col": "note",
-    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + Irish Examiner). Bare U-21 panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade) — bare U-21 panel row stays HOLD. HOLD r50 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r51 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r52: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear for bare Kerrill Wade; stay HOLD. HOLD r53: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r54: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r55: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r58: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r59: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r64: bare Kerrill Wade stays HOLD — spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + RTÉ 2015 SHC final team sheet). Do not dual-stamp. HOLD r66: bare Kerrill Wade stays HOLD — spelling twin of clubbed player:kerril-wade (Sarsfields). HOLD r67: bare Kerrill Wade stays HOLD — spelling twin of clubbed Kerril Wade (Sarsfields)."
+    "val": "Named on Galway GAA All-Ireland U-21 Hurling Champions 2005 panel (2005). Named on Galway GAA All-Ireland U-21 Hurling Champions 2007 panel (2007). HOLD: likely duplicate of player:kerril-wade (Sarsfields) — no club stamp. HOLD r39: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r40: spelling twin of Kerril Wade Sarsfields; do not dual-stamp. HOLD r41: spelling twin of player:kerril-wade already club:sarsfields; do not dual-stamp. HOLD r44: spelling duplicate of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + Irish Examiner). Bare U-21 panel row stays HOLD — do not dual-club. HOLD r46: spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade) — bare U-21 panel row stays HOLD. HOLD r50 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r51 collision: Wikipedia + Irish Examiner + Sarsfields club site name Kerril Wade → club:sarsfields already clubbed as player:kerril-wade — bare Galway GAA panel spelling twin Kerrill Wade stays HOLD; do not double-stamp. HOLD r52: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear for bare Kerrill Wade; stay HOLD. HOLD r53: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r54: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r55: continue spelling twin vs Kerril Wade (Sarsfields) — no new first+last multi-source clear; stay HOLD. HOLD r58: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r59: bare Kerrill Wade stays HOLD — no new first+last multi-source club clear this round. HOLD r64: bare Kerrill Wade stays HOLD — spelling twin of clubbed player:kerril-wade (Sarsfields; Wikipedia Kerril Wade + RTÉ 2015 SHC final team sheet). Do not dual-stamp. HOLD r66: bare Kerrill Wade stays HOLD — spelling twin of clubbed player:kerril-wade (Sarsfields). HOLD r67: bare Kerrill Wade stays HOLD — spelling twin of clubbed Kerril Wade (Sarsfields). HOLD r68: bare Kerrill Wade stays HOLD — spelling twin of clubbed Kerril Wade (Sarsfields)."
   },
   {
     "row": "player:kerrill-wade",
@@ -92962,7 +92962,7 @@
   {
     "row": "club:claregalway",
     "col": "note",
-    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested. HOLD orphan for hurling players: modern Claregalway CLG is primarily football; parish hurling is Carnmore (Carnmore GAA about + Claregalway further-history). No named Claregalway-only hurling player cite this run — do not invent links. Carnmore thin fill separate. HOLD orphan r5: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. 1911 SHC finalist vs Derrydonnell noted on Derrydonnell pack only. HOLD orphan r6: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. HOLD orphan r7: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. Conor Flaherty is football club cite — do not stamp as Claregalway hurling. HOLD orphan r8: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r67: still HOLD orphan for named first+last Claregalway hurlers — Wikipedia SHC runner-up years 1895/1901/1911 already seeded as Match triples; modern parish hurling remains Carnmore-linked; no new named XV cite."
+    "val": "HOLD orphan this run: modern Claregalway CLG is primarily football; parish hurling largely Carnmore (club history). No named Claregalway hurling player cite harvested. HOLD orphan for hurling players: modern Claregalway CLG is primarily football; parish hurling is Carnmore (Carnmore GAA about + Claregalway further-history). No named Claregalway-only hurling player cite this run — do not invent links. Carnmore thin fill separate. HOLD orphan r5: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. 1911 SHC finalist vs Derrydonnell noted on Derrydonnell pack only. HOLD orphan r6: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. HOLD orphan r7: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. Conor Flaherty is football club cite — do not stamp as Claregalway hurling. HOLD orphan r8: no named Claregalway-only hurling player cite. Parish hurling → club:carnmore. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r67: still HOLD orphan for named first+last Claregalway hurlers — Wikipedia SHC runner-up years 1895/1901/1911 already seeded as Match triples; modern parish hurling remains Carnmore-linked; no new named XV cite. r68: orphan broken — Tom Ruane stamped as 1910–1916 Claregalway parish hurling captain (Wikipedia) with Carnmore GAA about confirming pre-1944 Claregalway-named parish hurling (SHC runners-up 1895/1901/1911 already seeded). Modern parish hurling remains Carnmore; football stays Claregalway CLG — do not merge eras."
   },
   {
     "row": "player:tom-monaghan",
@@ -94262,7 +94262,7 @@
   {
     "row": "club:claregalway",
     "col": "status",
-    "val": "football parish club; historic hurling predecessor"
+    "val": "historic hurling seed via Tom Ruane; modern football parish / Carnmore hurling successor"
   },
   {
     "row": "club:claregalway",
@@ -95662,7 +95662,7 @@
   {
     "row": "club:eyrecourt-historic",
     "col": "note",
-    "val": "HOLD orphan r5: 1959 Galway IHC winners (Wikipedia roll) but no named Eyrecourt-only XV cite harvested. Joe Salmon stamped club:meelick-eyrecourt (Wikipedia), not this historic stamp. HOLD orphan r6: 1959 IHC winners (Wikipedia + Athenry story score) but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt. HOLD orphan r7: 1959 IHC winners (Wikipedia + Athenry score) but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt. HOLD orphan r8: 1959 IHC winners but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r66: scored 1959 Galway IHC Final Eyrecourt 1-05 Newcastle 0-04 (Wikipedia IHC roll) added as match triple; still HOLD orphan for named Eyrecourt XV. r67: still HOLD orphan for named Eyrecourt XV — 1959 IHC final score already seeded; Athenry GAA history names Newcastle absentees only."
+    "val": "HOLD orphan r5: 1959 Galway IHC winners (Wikipedia roll) but no named Eyrecourt-only XV cite harvested. Joe Salmon stamped club:meelick-eyrecourt (Wikipedia), not this historic stamp. HOLD orphan r6: 1959 IHC winners (Wikipedia + Athenry story score) but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt. HOLD orphan r7: 1959 IHC winners (Wikipedia + Athenry score) but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt. HOLD orphan r8: 1959 IHC winners but no named Eyrecourt-only XV. Joe Salmon remains club:meelick-eyrecourt. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r66: scored 1959 Galway IHC Final Eyrecourt 1-05 Newcastle 0-04 (Wikipedia IHC roll) added as match triple; still HOLD orphan for named Eyrecourt XV. r67: still HOLD orphan for named Eyrecourt XV — 1959 IHC final score already seeded; Athenry GAA history names Newcastle absentees only. r68: still HOLD orphan for named Eyrecourt-only XV — Billy Duffy Wikipedia club line is Meelick-Eyrecourt (seeded there); 1959 IHC final score already seeded; Athenry GAA history names Newcastle absentees only."
   },
   {
     "row": "club:eyrecourt-historic",
@@ -95697,7 +95697,7 @@
   {
     "row": "club:kilrickle",
     "col": "note",
-    "val": "HOLD orphan r5: first Galway IHC champions 1949 (Wikipedia roll) — no named Kilrickle XV cite. Modern Kilrickle NS linked to Cappataggle juveniles (not a player stamp). HOLD orphan r6: 1949 first IHC title on Wikipedia roll — St Enda's (Bullaun/Kilrickle) essay names Mick Cooney as manager only, not a Kilrickle player stamp. No invent. HOLD orphan r7: 1949 first IHC title on Wikipedia roll — St Enda's (Bullaun/Kilrickle) essay names Mick Cooney as manager only. No invent. HOLD orphan r8: 1949 IHC title — no named Kilrickle XV cite this run. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r67: still HOLD orphan — 1949 IHC title on Wikipedia without score line or named XV; school hurling cites only."
+    "val": "HOLD orphan r5: first Galway IHC champions 1949 (Wikipedia roll) — no named Kilrickle XV cite. Modern Kilrickle NS linked to Cappataggle juveniles (not a player stamp). HOLD orphan r6: 1949 first IHC title on Wikipedia roll — St Enda's (Bullaun/Kilrickle) essay names Mick Cooney as manager only, not a Kilrickle player stamp. No invent. HOLD orphan r7: 1949 first IHC title on Wikipedia roll — St Enda's (Bullaun/Kilrickle) essay names Mick Cooney as manager only. No invent. HOLD orphan r8: 1949 IHC title — no named Kilrickle XV cite this run. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r67: still HOLD orphan — 1949 IHC title on Wikipedia without score line or named XV; school hurling cites only. r68: still HOLD orphan — 1949 IHC title on Wikipedia without score line or named XV; no first+last public cite this round."
   },
   {
     "row": "club:kilrickle",
@@ -95722,7 +95722,7 @@
   {
     "row": "club:st-colemans",
     "col": "note",
-    "val": "HOLD orphan r5: 1948 SHC finalist — no named St Coleman's hurling XV cite. Name today mainly camogie / Gort St Colman's Park — do not invent. HOLD orphan r6: 1948 SHC finalist — Jim Brophy Wikipedia is Army captain who beat them, not St Coleman's. No named St Coleman's XV cite. HOLD orphan r7: 1948 SHC finalist — Jim Brophy Wikipedia is Army captain who beat them, not St Coleman's. No named St Coleman's XV cite. HOLD orphan r8: 1948 SHC finalist — no named St Coleman's XV cite. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r67: still HOLD orphan — public hits are St Colman's camogie (Gort area), not a men's hurling club panel."
+    "val": "HOLD orphan r5: 1948 SHC finalist — no named St Coleman's hurling XV cite. Name today mainly camogie / Gort St Colman's Park — do not invent. HOLD orphan r6: 1948 SHC finalist — Jim Brophy Wikipedia is Army captain who beat them, not St Coleman's. No named St Coleman's XV cite. HOLD orphan r7: 1948 SHC finalist — Jim Brophy Wikipedia is Army captain who beat them, not St Coleman's. No named St Coleman's XV cite. HOLD orphan r8: 1948 SHC finalist — no named St Coleman's XV cite. r9: HOLD orphan unchanged — no new first+last hurling cite. r10: HOLD orphan unchanged — no new first+last hurling cite. r11: HOLD orphan unchanged — no new first+last hurling cite. r67: still HOLD orphan — public hits are St Colman's camogie (Gort area), not a men's hurling club panel. r68: still HOLD orphan — Jim Brophy Wikipedia names Army captain vs St Coleman's 1948 final (score seeded) but no named St Coleman's XV; modern public hits are St Colman's camogie."
   },
   {
     "row": "match:all-ireland-shc-1887-final",
@@ -97472,7 +97472,7 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "note",
-    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout. r24 AF-first: club-scoped Niall Burke from Galway GAA RoH 2016 IHC champions panel (distinct from Oranmore-Maree Niall Burke). r25 AF-first: Emmet Brennan from Wikipedia 2017 SHC Senior B Round 2 scoresheet vs Kilnadeema-Leitrim. r26 AF-first: Tony Kirwan linked via RoH 2009 Junior C (capt); thin Junior C 2009 squad fills; Wikipedia 2018/2019/2020 AF Senior B scored Match triples. r27 AF-first: RoH 2010 Minor B thin squad fills; Wikipedia 2021 Senior A + 2022 Senior B AF scored Match triples + relegation win vs Tynagh-Abbey/Duniry. r28 AF-first: RoH 2009 Junior C Anthony Kelly thin fill; Wikipedia 2024 Senior B AF scored Match triples + relegation/replay; 2020 SB r2 vs Kilnadeema-Leitrim. r29: Wikipedia 2022 SHC Senior A/B scored Match pack (championship season thin); AF SB fixtures already seeded prior rounds. HOLD orphans skipped. r30: AF already well-populated from prior RoH; Wikipedia 2020/2021 SHC scored Match pack continues AF season coverage (group fixtures already present). r67 AF-first: Connacht Tribune Minor B1 Final 2025 named Jack Muldowney / Matthew Cunniffe / Ryan Kennedy / Fabian Carroll (draw 0-14 to 1-11 vs Mícheál Breathnach); Bay FM confirms replay fixture. HoganStand 7 Sep 2026 PIHC PQF draw: Kilconieron v Ahascragh-Fohenagh (score not yet in public text — no invent)."
+    "val": "r6: expanded 2016 Galway IHC champions panel from Galway GAA roll + Independent Connacht IHC replay team sheets (unverified pending Archivist). r7: added Andrew Moclair from Tuam Herald 2026 Senior opener team sheet (unverified pending Archivist). r8: added Padraic Gavin (Connacht Tribune 2026 PIHC opener late points). r9: added 2016 IHC final score match + 2026 PIHC opener 2-17 to 2-13 (Tuam Herald). No new Kelly stamps (HOLD collisions). r10: PIHC 2026 round-1 companions added (county board scores); no new AF player stamps (HOLD Kelly collisions). r11: AF-first — added 2025 Senior B scored group+SF matches (Wikipedia); Tuam Herald 2026 PIHC team sheet new unverified Conor Kelly/Jack Finnerty/Aaron Moclair; HOLD bare Kelly collisions. r23 AF-first: Liam Tully / Liam Cosgrove / Ciaran Cosgrove / Padraig Gavin from Irish Examiner 2017 All-Ireland Club IHC final lineout. r24 AF-first: club-scoped Niall Burke from Galway GAA RoH 2016 IHC champions panel (distinct from Oranmore-Maree Niall Burke). r25 AF-first: Emmet Brennan from Wikipedia 2017 SHC Senior B Round 2 scoresheet vs Kilnadeema-Leitrim. r26 AF-first: Tony Kirwan linked via RoH 2009 Junior C (capt); thin Junior C 2009 squad fills; Wikipedia 2018/2019/2020 AF Senior B scored Match triples. r27 AF-first: RoH 2010 Minor B thin squad fills; Wikipedia 2021 Senior A + 2022 Senior B AF scored Match triples + relegation win vs Tynagh-Abbey/Duniry. r28 AF-first: RoH 2009 Junior C Anthony Kelly thin fill; Wikipedia 2024 Senior B AF scored Match triples + relegation/replay; 2020 SB r2 vs Kilnadeema-Leitrim. r29: Wikipedia 2022 SHC Senior A/B scored Match pack (championship season thin); AF SB fixtures already seeded prior rounds. HOLD orphans skipped. r30: AF already well-populated from prior RoH; Wikipedia 2020/2021 SHC scored Match pack continues AF season coverage (group fixtures already present). r67 AF-first: Connacht Tribune Minor B1 Final 2025 named Jack Muldowney / Matthew Cunniffe / Ryan Kennedy / Fabian Carroll (draw 0-14 to 1-11 vs Mícheál Breathnach); Bay FM confirms replay fixture. HoganStand 7 Sep 2026 PIHC PQF draw: Kilconieron v Ahascragh-Fohenagh (score not yet in public text — no invent). r68 AF-first: Tuam Herald PIHC R1 2026 vs Kinvara team sheet already largely seeded (Freyne/Kellys/Finnerty/Moclair/Mannions/Cosgrove/Kennedy/Gavin/O'Brien/Naughton/Murray/Fitzgerald); score 2-17 to 2-13 already on Match rows. No new first+last AF XV names this round beyond prior r67 minors. HoganStand/Bay FM PQF draw Kilconieron v AF still scoreless in public text — no invent."
   },
   {
     "row": "club:ahascragh-fohenagh",
@@ -98912,7 +98912,7 @@
   {
     "row": "club:meelick-eyrecourt",
     "col": "note",
-    "val": "r8: Basil Larkin linked (Galway GAA 2014 Junior C champions roll). Brendan Lynch HOLD (TAD/Meelick collision). r25 thin-club fill from Galway GAA RoH 2016 Meelick/Eyrecourt Minor B Hurling Champions panel."
+    "val": "r8: Basil Larkin linked (Galway GAA 2014 Junior C champions roll). Brendan Lynch HOLD (TAD/Meelick collision). r25 thin-club fill from Galway GAA RoH 2016 Meelick/Eyrecourt Minor B Hurling Champions panel. r68: added Billy Duffy (Wikipedia/HoganStand) — Eyrecourt native, Galway senior 1952–55, club Meelick-Eyrecourt then London Brothers Pearse."
   },
   {
     "row": "match:galway-ihc-1963-final",
@@ -109137,7 +109137,7 @@
   {
     "row": "club:kinvara",
     "col": "note",
-    "val": "r11: linked Darragh Helebert; unverified shell from Tuam Herald 2026 PIHC XV; added 2024 IHC group/QF/SF scored matches (Galway Bay FM)."
+    "val": "r11: linked Darragh Helebert; unverified shell from Tuam Herald 2026 PIHC XV; added 2024 IHC group/QF/SF scored matches (Galway Bay FM). r68: Tuam Herald PIHC R1 2026 vs AF team sheet cross-checked — XV/subs largely already seeded; L. Martyn initial-only (no first-name in narrative) left unminted — no invent."
   },
   {
     "row": "club:gort",
@@ -155017,7 +155017,7 @@
   {
     "row": "player:enda-lawless-carnmore",
     "col": "note",
-    "val": "Galway GAA RoH 2019: Enda Lawless named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill. HOLD r48 collision: Connacht Tribune 14 Aug 2026 PIHC R1 names Meelick-Eyrecourt keeper Enda Lawless, but seed player:enda-lawless-carnmore is clubbed to Carnmore from Galway GAA RoH 2019 Minor A — do not restamp to ME without twin-safe first+last multi-source clear; keep Carnmore club + HOLD note. HOLD r63: Connacht Tribune 2025 IHC final names Kinvara goalkeeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear. HOLD r64: Connacht Tribune 2026 PIHC opener again names Meelick-Eyrecourt keeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear. HOLD r66: Carnmore-stamped Enda Lawless stays HOLD; new twin player:enda-lawless-meelick-eyrecourt created from Western People 2025 Connacht IHC Final + CT 2026 PIHC Meelick GK cites. Do not merge. HOLD r67: Carnmore-stamped Enda Lawless stays HOLD; Meelick twin already exists. Do not merge."
+    "val": "Galway GAA RoH 2019: Enda Lawless named on Carnmore County Minor A Hurling Champions panel. Club-scoped thin fill. HOLD r48 collision: Connacht Tribune 14 Aug 2026 PIHC R1 names Meelick-Eyrecourt keeper Enda Lawless, but seed player:enda-lawless-carnmore is clubbed to Carnmore from Galway GAA RoH 2019 Minor A — do not restamp to ME without twin-safe first+last multi-source clear; keep Carnmore club + HOLD note. HOLD r63: Connacht Tribune 2025 IHC final names Kinvara goalkeeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear. HOLD r64: Connacht Tribune 2026 PIHC opener again names Meelick-Eyrecourt keeper Enda Lawless; seed remains clubbed Carnmore (Galway GAA RoH 2019 Minor A) + prior Meelick GK collision note — do not restamp without twin-safe multi-source clear. HOLD r66: Carnmore-stamped Enda Lawless stays HOLD; new twin player:enda-lawless-meelick-eyrecourt created from Western People 2025 Connacht IHC Final + CT 2026 PIHC Meelick GK cites. Do not merge. HOLD r67: Carnmore-stamped Enda Lawless stays HOLD; Meelick twin already exists. Do not merge. HOLD r68: Carnmore-stamped Enda Lawless stays HOLD; Meelick twin already exists. Do not merge."
   },
   {
     "row": "player:enda-lawless-carnmore",
@@ -161537,7 +161537,7 @@
   {
     "row": "club:fohenagh-historic",
     "col": "note",
-    "val": "r30: Fohenagh/AF priority checked — amalgam AF and historic Fohenagh already thick; thin fills directed to Beagh/Tommy Larkins with strong first+last cites."
+    "val": "r30: Fohenagh/AF priority checked — amalgam AF and historic Fohenagh already thick; thin fills directed to Beagh/Tommy Larkins with strong first+last cites. r68 AF-first: Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong) lists Martin Glynn (Fohenagh) as 1959 SHC winning captain and Tony O'Gorman (Fohenagh) as 1960 — stamped onto existing Marty Glynn / Tony O'Gorman rows + Match captain cols (no duplicate Martin row)."
   },
   {
     "row": "match:galway-shc-2020-sa-r1-tommy-larkins-loughrea",
@@ -214502,7 +214502,7 @@
   {
     "row": "club:fr-joe-walshs",
     "col": "note",
-    "val": "Underage amalgam of Killimor and Meelick-Eyrecourt (named for Fr Joe Walsh who served both parishes). Fields juvenile/minor teams in Galway championships and Féile Gallimh Justin Cheevers Cup (2025 champions). Not a senior adult club entity. r66: 2025 Justin Cheevers Cup champions (Bay FM results + Sarsfields Feile page) but still HOLD orphan for named first+last Fr Joe XV — juvenile amalgam reports name opposition scorers only. r67: still HOLD orphan for named first+last Fr Joe XV — 2025 Justin Cheevers Cup final score already seeded (Sarsfields Feile + Bay FM); reports name opposition/path only."
+    "val": "Underage amalgam of Killimor and Meelick-Eyrecourt (named for Fr Joe Walsh who served both parishes). Fields juvenile/minor teams in Galway championships and Féile Gallimh Justin Cheevers Cup (2025 champions). Not a senior adult club entity. r66: 2025 Justin Cheevers Cup champions (Bay FM results + Sarsfields Feile page) but still HOLD orphan for named first+last Fr Joe XV — juvenile amalgam reports name opposition scorers only. r67: still HOLD orphan for named first+last Fr Joe XV — 2025 Justin Cheevers Cup final score already seeded (Sarsfields Feile + Bay FM); reports name opposition/path only. r68: still HOLD orphan for named first+last Fr Joe XV — Justin Cheevers Cup 2025 path/scores already seeded (Sarsfields Feile); ClubZap homecoming names club only, not panel."
   },
   {
     "row": "club:fr-joe-walshs",
@@ -216477,7 +216477,7 @@
   {
     "row": "club:cois-fharraige",
     "col": "note",
-    "val": "West Galway coastal / Gaeltacht hurling banner (An Spidéal / Bearna–Na Forbacha area partnerships) fielding juvenile and adult amalgam sides in Galway competitions and Féile Gallimh Toddie Byrne Shield. Distinct from standalone club:an-spideal, club:bearna-na-forbacha, club:micheal-breathnach. r67: still HOLD orphan — juvenile/camogie/Feile score paths exist; no first+last named Cois Fharraige hurling XV cite this round."
+    "val": "West Galway coastal / Gaeltacht hurling banner (An Spidéal / Bearna–Na Forbacha area partnerships) fielding juvenile and adult amalgam sides in Galway competitions and Féile Gallimh Toddie Byrne Shield. Distinct from standalone club:an-spideal, club:bearna-na-forbacha, club:micheal-breathnach. r67: still HOLD orphan — juvenile/camogie/Feile score paths exist; no first+last named Cois Fharraige hurling XV cite this round. r68: still HOLD orphan — juvenile/camogie/Feile score paths exist; no first+last named Cois Fharraige men's hurling XV cite this round."
   },
   {
     "row": "club:cois-fharraige",
@@ -239247,7 +239247,7 @@
   {
     "row": "match:galway-shc-1959-final",
     "col": "note",
-    "val": "Alias of match:fohenagh-historic-1959-galway-shc-final-draw — score propagated from canonical row / Wikipedia 1959 draw."
+    "val": "Alias of match:fohenagh-historic-1959-galway-shc-final-draw — score propagated from canonical row / Wikipedia 1959 draw. r68: captain stamped Marty Glynn (Martin Glynn, Fohenagh) from programme captain roll (readkong)."
   },
   {
     "row": "match:galway-shc-1959-final",
@@ -239272,7 +239272,7 @@
   {
     "row": "match:galway-shc-1959-final-replay",
     "col": "note",
-    "val": "Alias of match:fohenagh-historic-1959-galway-shc-final-replay — score propagated from canonical row / Wikipedia 1959 replay."
+    "val": "Alias of match:fohenagh-historic-1959-galway-shc-final-replay — score propagated from canonical row / Wikipedia 1959 replay. r68: captain stamped Marty Glynn (Martin Glynn, Fohenagh) from programme captain roll (readkong)."
   },
   {
     "row": "match:galway-shc-1959-final-replay",
@@ -239297,7 +239297,7 @@
   {
     "row": "match:galway-shc-1960-final",
     "col": "note",
-    "val": "Alias of match:fohenagh-historic-1960-galway-shc-final — score propagated from canonical row / Wikipedia 1960."
+    "val": "Alias of match:fohenagh-historic-1960-galway-shc-final — score propagated from canonical row / Wikipedia 1960. r68: captain stamped Tony O'Gorman (Fohenagh) from programme captain roll (readkong)."
   },
   {
     "row": "match:galway-shc-1960-final",
@@ -246172,7 +246172,7 @@
   {
     "row": "club:ahascragh-fohenagh",
     "col": "source_hoganstand_pqf_2026",
-    "val": "https://hoganstand.com/County/Clare/Article/Index/341673"
+    "val": "https://hoganstand.com/County/Galway/Article/Index/341673"
   },
   {
     "row": "club:skehana-mountbellew-moylough",
@@ -246266,6 +246266,166 @@
   },
   {
     "row": "match:galway-shc-1893-final",
+    "col": "source_captain",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "name",
+    "val": "Tom Ruane"
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "club",
+    "val": "club:claregalway"
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tom_Ruane"
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "note",
+    "val": "Wikipedia: Carnmore native; GAA full-back who captained the local hurling team 1910–1916 (pre-Carnmore HC, founded 1944). Carnmore GAA about: parish fielded under the Claregalway name from 1886 (SHC finals 1895/1901/1911). Breaks Claregalway historic hurling orphan — distinct from modern Claregalway football / Carnmore hurling successor."
+  },
+  {
+    "row": "player:tom-ruane-claregalway",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "name",
+    "val": "Billy Duffy"
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "club",
+    "val": "club:meelick-eyrecourt"
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Billy_Duffy_(hurler)"
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "note",
+    "val": "Wikipedia + HoganStand obituary (Clare Champion via HoganStand 8 Jul 2005): Eyrecourt native; Galway senior midfielder 1952–1955 (incl. 1953 All-Ireland final vs Cork, partnering Joe Salmon); club career began with Meelick-Eyrecourt before London Brothers Pearse (4 London titles). Club-scoped id — not stamped to eyrecourt-historic (Wikipedia club line is Meelick-Eyrecourt)."
+  },
+  {
+    "row": "player:billy-duffy-meelick-eyrecourt",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:claregalway",
+    "col": "source_tom_ruane_wiki",
+    "val": "https://en.wikipedia.org/wiki/Tom_Ruane"
+  },
+  {
+    "row": "club:claregalway",
+    "col": "source_carnmore_about",
+    "val": "https://www.carnmoregaa.net/about"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "source_captain_roll",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "source_tuam_herald_pihc_r1_2026",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "captain",
+    "val": "player:marty-glynn-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "source_captain",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "captain",
+    "val": "player:marty-glynn-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "source_captain",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "captain",
+    "val": "player:marty-glynn-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-1959-final",
+    "col": "source_captain",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "captain",
+    "val": "player:marty-glynn-fohenagh"
+  },
+  {
+    "row": "match:galway-shc-1959-final-replay",
+    "col": "source_captain",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "captain",
+    "val": "player:tony-ogorman"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "source_captain",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
+    "col": "captain",
+    "val": "player:tony-ogorman"
+  },
+  {
+    "row": "match:galway-shc-1960-final",
     "col": "source_captain",
     "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
   }

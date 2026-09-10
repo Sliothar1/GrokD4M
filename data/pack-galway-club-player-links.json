@@ -1,34 +1,18 @@
 {
   "pack": "galway-club-player-links",
-  "round": "67",
-  "generated_at": "2026-09-08T09:04:37.376266+00:00",
+  "round": "68",
+  "generated_at": "2026-09-10T08:52:42.141703+00:00",
   "sources": [
+    "https://en.wikipedia.org/wiki/Tom_Ruane",
+    "https://www.carnmoregaa.net/about",
     "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
-    "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship",
-    "https://connachttribune.ie/gavin-holds-his-nerve-to-secure-replay-date-for-ahascragh-fohenagh/",
-    "https://www.galwaybayfm.ie/gaa/galway-gaa-minor-hurling-finals-reports-204877",
-    "https://www.tuamherald.ie/2026/08/12/strong-start-for-skehana-mountbellew-moylough/",
-    "https://hoganstand.com/County/Clare/Article/Index/341673",
-    "https://www.sarsfields-gaa.com/juvenile-hurling-club/2025-feile-na-ngael"
+    "https://en.wikipedia.org/wiki/Billy_Duffy_(hurler)",
+    "https://hoganstand.com/county/galway/article/index/51276",
+    "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/",
+    "https://hoganstand.com/County/Galway/Article/Index/341673",
+    "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
   ],
   "before": {
-    "players": 1754,
-    "players_with_club": 1675,
-    "players_without_club": 79,
-    "orphan_clubs": 7,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:cois-fharraige",
-      "club:college-road",
-      "club:eyrecourt-historic",
-      "club:fr-joe-walshs",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1672,
-    "appearances": 686
-  },
-  "after": {
     "players": 1765,
     "players_with_club": 1686,
     "players_without_club": 79,
@@ -44,53 +28,43 @@
     "matches": 1673,
     "appearances": 686
   },
+  "after": {
+    "players": 1767,
+    "players_with_club": 1688,
+    "players_without_club": 79,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:cois-fharraige",
+      "club:eyrecourt-historic",
+      "club:fr-joe-walshs",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1673,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 0,
-    "players_created": 11,
+    "players_created": 2,
     "clubs_created": 0,
     "appearances_clubbed": 0,
-    "matches_added": 1,
-    "players_with_club": 11,
+    "matches_added": 0,
+    "players_with_club": 2,
     "orphan_clubs": -1
   },
   "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:john-walsh-college-road",
-    "player:jack-muldowney-ahascragh-fohenagh",
-    "player:matthew-cunniffe-ahascragh-fohenagh",
-    "player:ryan-kennedy-ahascragh-fohenagh",
-    "player:fabian-carroll-ahascragh-fohenagh",
-    "player:michael-lyons-skehana-mountbellew-moylough",
-    "player:glaisne-mac-reamoinn-micheal-breathnach",
-    "player:oisin-o-neachtain-micheal-breathnach",
-    "player:dylan-o-curraoin-micheal-breathnach",
-    "player:fionnan-o-neachtain-micheal-breathnach",
-    "player:ronan-o-neachtain-micheal-breathnach"
+    "player:tom-ruane-claregalway",
+    "player:billy-duffy-meelick-eyrecourt"
   ],
   "all_linked_ids": [],
   "all_created_ids": [
-    "player:john-walsh-college-road",
-    "player:jack-muldowney-ahascragh-fohenagh",
-    "player:matthew-cunniffe-ahascragh-fohenagh",
-    "player:ryan-kennedy-ahascragh-fohenagh",
-    "player:fabian-carroll-ahascragh-fohenagh",
-    "player:michael-lyons-skehana-mountbellew-moylough",
-    "player:glaisne-mac-reamoinn-micheal-breathnach",
-    "player:oisin-o-neachtain-micheal-breathnach",
-    "player:dylan-o-curraoin-micheal-breathnach",
-    "player:fionnan-o-neachtain-micheal-breathnach",
-    "player:ronan-o-neachtain-micheal-breathnach"
+    "player:tom-ruane-claregalway",
+    "player:billy-duffy-meelick-eyrecourt"
   ],
   "clubs_created_ids": [],
-  "matches_added_ids": [
-    "match:galway-minor-b1-2025-final-ahascragh-fohenagh-micheal-breathnach"
-  ],
-  "fohenagh_new_player_ids": [
-    "player:jack-muldowney-ahascragh-fohenagh",
-    "player:matthew-cunniffe-ahascragh-fohenagh",
-    "player:ryan-kennedy-ahascragh-fohenagh",
-    "player:fabian-carroll-ahascragh-fohenagh"
-  ],
+  "matches_added_ids": [],
+  "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
   "holds": [
     "player:aodh-davoren",
@@ -174,17 +148,20 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "players_created": 11,
-    "matches_added": 1,
-    "matches_updated": 2,
-    "club_meta_touched": 9,
-    "added": 111,
-    "updated": 16
+    "added": 32,
+    "players_created": 2,
+    "updated": 28,
+    "club_meta_touched": 10,
+    "matches_updated": 6,
+    "players_linked": 0,
+    "clubs_created": 0,
+    "appearances_clubbed": 0,
+    "matches_added": 0
   },
   "priority_club_counts_after": {
     "club:fohenagh-historic": 59,
     "club:ahascragh-fohenagh": 131,
-    "club:claregalway": 0,
+    "club:claregalway": 1,
     "club:skehana": 17,
     "club:oranmore-historic": 1,
     "club:eyrecourt-historic": 0,
@@ -200,7 +177,7 @@
     "club:castlegar": 29,
     "club:loughrea": 36,
     "club:st-thomas": 26,
-    "club:meelick-eyrecourt": 49,
+    "club:meelick-eyrecourt": 50,
     "club:michael-cusacks": 10,
     "club:tommy-larkins": 53,
     "club:salthill-knocknacarra": 20,
@@ -232,16 +209,14 @@
     "club:ahascragh-historic": 54,
     "club:fr-joe-walshs": 0,
     "club:cois-fharraige": 0,
-    "club:craughwell": 27,
-    "club:skehana-mountbellew-moylough": 17
+    "club:craughwell": 27
   },
   "still_orphan_priority": [
-    "club:claregalway",
     "club:eyrecourt-historic",
     "club:kilrickle",
     "club:st-colemans",
     "club:fr-joe-walshs",
     "club:cois-fharraige"
   ],
-  "orphan_note": "Remaining HOLD orphans: Claregalway/Eyrecourt/Kilrickle/St Coleman's/Fr Joe Walsh's/Cois Fharraige (no first+last named XV cites). r67: College Road orphan broken via John Walsh 1892/1893 SHC captain; AF Minor B1 Final 2025 named fills + scored Match; Breathnach minor companions; Skehana-MM Michael Lyons; club-less ~79 stay HOLD."
+  "orphan_note": "Remaining HOLD orphans: Eyrecourt/Kilrickle/St Coleman's/Fr Joe Walsh's/Cois Fharraige (no first+last named XV cites). r68: Claregalway orphan broken via Tom Ruane 1910–1916 parish hurling captain; AF Fohenagh 1959/1960 SHC captains stamped; Billy Duffy → Meelick-Eyrecourt; club-less ~79 stay HOLD."
 }

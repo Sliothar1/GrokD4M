@@ -1,0 +1,240 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Tom Ruane",
+      "id": "player:tom-ruane-claregalway",
+      "club": "club:claregalway",
+      "source": "https://en.wikipedia.org/wiki/Tom_Ruane",
+      "secondary_cite": "https://www.carnmoregaa.net/about",
+      "note": "Wikipedia: Carnmore native; GAA full-back who captained the local hurling team 1910–1916 (pre-Carnmore HC, founded 1944). Carnmore GAA about: parish fielded under the Claregalway name from 1886 (SHC finals 1895/1901/1911). Breaks Claregalway historic hurling orphan — distinct from modern Claregalway football / Carnmore hurling successor.",
+      "confidence": "medium",
+      "fohenagh": false
+    },
+    {
+      "name": "Billy Duffy",
+      "id": "player:billy-duffy-meelick-eyrecourt",
+      "club": "club:meelick-eyrecourt",
+      "source": "https://en.wikipedia.org/wiki/Billy_Duffy_(hurler)",
+      "secondary_cite": "https://hoganstand.com/county/galway/article/index/51276",
+      "note": "Wikipedia + HoganStand obituary (Clare Champion via HoganStand 8 Jul 2005): Eyrecourt native; Galway senior midfielder 1952–1955 (incl. 1953 All-Ireland final vs Cork, partnering Joe Salmon); club career began with Meelick-Eyrecourt before London Brothers Pearse (4 London titles). Club-scoped id — not stamped to eyrecourt-historic (Wikipedia club line is Meelick-Eyrecourt).",
+      "confidence": "medium"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [
+    {
+      "id": "club:claregalway",
+      "cols": {
+        "note": "r68: orphan broken — Tom Ruane stamped as 1910–1916 Claregalway parish hurling captain (Wikipedia) with Carnmore GAA about confirming pre-1944 Claregalway-named parish hurling (SHC runners-up 1895/1901/1911 already seeded). Modern parish hurling remains Carnmore; football stays Claregalway CLG — do not merge eras.",
+        "source_tom_ruane_wiki": "https://en.wikipedia.org/wiki/Tom_Ruane",
+        "source_carnmore_about": "https://www.carnmoregaa.net/about",
+        "status": "historic hurling seed via Tom Ruane; modern football parish / Carnmore hurling successor"
+      }
+    },
+    {
+      "id": "club:fohenagh-historic",
+      "cols": {
+        "note": "r68 AF-first: Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong) lists Martin Glynn (Fohenagh) as 1959 SHC winning captain and Tony O'Gorman (Fohenagh) as 1960 — stamped onto existing Marty Glynn / Tony O'Gorman rows + Match captain cols (no duplicate Martin row).",
+        "source_captain_roll": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+      }
+    },
+    {
+      "id": "club:ahascragh-fohenagh",
+      "cols": {
+        "note": "r68 AF-first: Tuam Herald PIHC R1 2026 vs Kinvara team sheet already largely seeded (Freyne/Kellys/Finnerty/Moclair/Mannions/Cosgrove/Kennedy/Gavin/O'Brien/Naughton/Murray/Fitzgerald); score 2-17 to 2-13 already on Match rows. No new first+last AF XV names this round beyond prior r67 minors. HoganStand/Bay FM PQF draw Kilconieron v AF still scoreless in public text — no invent.",
+        "source_tuam_herald_pihc_r1_2026": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/",
+        "source_hoganstand_pqf_2026": "https://hoganstand.com/County/Galway/Article/Index/341673"
+      }
+    },
+    {
+      "id": "club:eyrecourt-historic",
+      "cols": {
+        "note": "r68: still HOLD orphan for named Eyrecourt-only XV — Billy Duffy Wikipedia club line is Meelick-Eyrecourt (seeded there); 1959 IHC final score already seeded; Athenry GAA history names Newcastle absentees only."
+      }
+    },
+    {
+      "id": "club:kilrickle",
+      "cols": {
+        "note": "r68: still HOLD orphan — 1949 IHC title on Wikipedia without score line or named XV; no first+last public cite this round."
+      }
+    },
+    {
+      "id": "club:fr-joe-walshs",
+      "cols": {
+        "note": "r68: still HOLD orphan for named first+last Fr Joe XV — Justin Cheevers Cup 2025 path/scores already seeded (Sarsfields Feile); ClubZap homecoming names club only, not panel."
+      }
+    },
+    {
+      "id": "club:cois-fharraige",
+      "cols": {
+        "note": "r68: still HOLD orphan — juvenile/camogie/Feile score paths exist; no first+last named Cois Fharraige men's hurling XV cite this round."
+      }
+    },
+    {
+      "id": "club:st-colemans",
+      "cols": {
+        "note": "r68: still HOLD orphan — Jim Brophy Wikipedia names Army captain vs St Coleman's 1948 final (score seeded) but no named St Coleman's XV; modern public hits are St Colman's camogie."
+      }
+    },
+    {
+      "id": "club:kinvara",
+      "cols": {
+        "note": "r68: Tuam Herald PIHC R1 2026 vs AF team sheet cross-checked — XV/subs largely already seeded; L. Martyn initial-only (no first-name in narrative) left unminted — no invent."
+      }
+    },
+    {
+      "id": "club:meelick-eyrecourt",
+      "cols": {
+        "note": "r68: added Billy Duffy (Wikipedia/HoganStand) — Eyrecourt native, Galway senior 1952–55, club Meelick-Eyrecourt then London Brothers Pearse."
+      }
+    }
+  ],
+  "new_matches": [],
+  "match_updates": [
+    {
+      "id": "match:fohenagh-historic-1959-galway-shc-final-draw",
+      "cols": {
+        "captain": "player:marty-glynn-fohenagh",
+        "note": "r68: captain stamped Marty Glynn (programme roll: Martin Glynn, Fohenagh) from Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong). Same person as existing Marty/M. Glynn row from 1959 cuttings.",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "match:fohenagh-historic-1959-galway-shc-final-replay",
+      "cols": {
+        "captain": "player:marty-glynn-fohenagh",
+        "note": "r68: captain stamped Marty Glynn (programme roll: Martin Glynn, Fohenagh) from Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong).",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "match:galway-shc-1959-final",
+      "cols": {
+        "captain": "player:marty-glynn-fohenagh",
+        "note": "r68: captain stamped Marty Glynn (Martin Glynn, Fohenagh) from programme captain roll (readkong).",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "match:galway-shc-1959-final-replay",
+      "cols": {
+        "captain": "player:marty-glynn-fohenagh",
+        "note": "r68: captain stamped Marty Glynn (Martin Glynn, Fohenagh) from programme captain roll (readkong).",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "match:fohenagh-historic-1960-galway-shc-final",
+      "cols": {
+        "captain": "player:tony-ogorman",
+        "note": "r68: captain stamped Tony O'Gorman (Fohenagh) from Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong).",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "match:galway-shc-1960-final",
+      "cols": {
+        "captain": "player:tony-ogorman",
+        "note": "r68: captain stamped Tony O'Gorman (Fohenagh) from programme captain roll (readkong).",
+        "source_captain": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:enda-lawless-carnmore": "HOLD r68: Carnmore-stamped Enda Lawless stays HOLD; Meelick twin already exists. Do not merge.",
+    "player:padraig-breheny": "HOLD r68: bare Padraig Breheny stays HOLD; club-scoped Tynagh-Abbey/Duniry row covers scoring cites.",
+    "player:kerrill-wade": "HOLD r68: bare Kerrill Wade stays HOLD — spelling twin of clubbed Kerril Wade (Sarsfields).",
+    "player:michael-kelly": "HOLD r68: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows.",
+    "player:tadgh-haran": "HOLD r68: bare Tadgh Haran stays HOLD; distinct from club-scoped Tadhg Haran (Liam Mellows).",
+    "player:fr-michael-kilkenny": "HOLD r68: Fr Michael Kilkenny county-panel row stays HOLD.",
+    "player:michael-healy": "HOLD r68: bare Michael Healy stays HOLD (Castlegar name/era collision risk); club-scoped Michael Healy Ahascragh already exists."
+  }
+}
