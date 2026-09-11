@@ -1,0 +1,387 @@
+{
+  "wiki_links": [],
+  "new_players": [
+    {
+      "name": "Aodhan O'Hanrahan",
+      "id": "player:aodhan-ohanrahan-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.connachttribune.ie/sport/hurling/meelick-eyrecourt-finish-in-a-blaze-of-glory-to-end-famine-5594766",
+      "secondary_cite": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Connacht Tribune 2025 IHC final: Conor Whelan provider for Aodhan O'Hanrahan first white flag (Kinvara vs Meelick-Eyrecourt). Kinvara GAA Intermediate County Final team sheet (club photo) also lists Aodhan O Hanrahan. Club-scoped id; unverified pending Archivist.",
+      "confidence": "medium"
+    },
+    {
+      "name": "Tadhg Heavey",
+      "id": "player:tadhg-heavey-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.connachttribune.ie/sport/hurling/meelick-eyrecourt-finish-in-a-blaze-of-glory-to-end-famine-5594766",
+      "secondary_cite": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Connacht Tribune 2025 IHC final: Tadhg Heavey assist path for Darragh Helebert early Kinvara score vs Meelick-Eyrecourt. Kinvara GAA Intermediate County Final team sheet lists Tadhg Heavey. Club-scoped id; distinct from Lorcan Heavey already seeded.",
+      "confidence": "medium"
+    },
+    {
+      "name": "Liam Martyn",
+      "id": "player:liam-martyn-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet (club photo): Liam Martyn front-row. r68 deferred Tuam Herald 'L. Martyn' initial-only — full first+last now from club team sheet. Club-scoped; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Sean Costello",
+      "id": "player:sean-costello-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Sean Costello. Club-scoped twin — distinct from player:sean-costello-ballinderreen; do not merge.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conor Burke",
+      "id": "player:conor-burke-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Conor Burke. Club-scoped twin — bare player:conor-burke stays HOLD club-less; do not merge.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Matthew Meares",
+      "id": "player:matthew-meares-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Matthew Meares. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Rossa Barry",
+      "id": "player:rossa-barry-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Rossa Barry. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cormac Ivers",
+      "id": "player:cormac-ivers-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Cormac Ivers. Club-scoped; related Ivers (Oisin) already seeded from other cites.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Darren Kilkelly",
+      "id": "player:darren-kilkelly-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Darren Kilkelly. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jake Comyn",
+      "id": "player:jake-comyn-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Jake Comyn. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Danny Travis",
+      "id": "player:danny-travis-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Danny Travis. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Rhys O'Connor",
+      "id": "player:rhys-oconnor-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Rhys O'Connor. Club-scoped twin vs Joshua O'Connor already seeded; do not merge.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Conail Larrissey",
+      "id": "player:conail-larrissey-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Conail Larrissey. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Cathal Mongan",
+      "id": "player:cathal-mongan-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Cathal Mongan. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Mark Costello",
+      "id": "player:mark-costello-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Mark Costello. Club-scoped twin vs Sean Costello Kinvara; do not merge with Ballinderreen Costello rows.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dylan Corcoran",
+      "id": "player:dylan-corcoran-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Dylan Corcoran. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Niall Bermingham",
+      "id": "player:niall-bermingham-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Niall Bermingham. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Dean Ivers",
+      "id": "player:dean-ivers-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Dean Ivers. Club-scoped; Oisin/Cormac Ivers also Kinvara.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Adam Huban",
+      "id": "player:adam-huban-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Adam Huban. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Aidan Moylan",
+      "id": "player:aidan-moylan-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Aidan Moylan. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Nathan Rodgers",
+      "id": "player:nathan-rodgers-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet: Nathan Rodgers. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    },
+    {
+      "name": "Jarlath Leech",
+      "id": "player:jarlath-leech-kinvara",
+      "club": "club:kinvara",
+      "source": "https://www.kinvaragaa.ie/articles/134183",
+      "note": "Kinvara GAA Intermediate County Final team sheet note: Jarlath Leech absent from photo but named on panel list. Club-scoped thin fill; unverified pending Archivist.",
+      "confidence": "unverified"
+    }
+  ],
+  "hold_players": [
+    "player:aodh-davoren",
+    "player:aonghus-dervan",
+    "player:benny-lawless",
+    "player:berne-gibbs",
+    "player:brendan-lynch",
+    "player:brian-cunningham",
+    "player:brian-omahony",
+    "player:cian-regan",
+    "player:ciaran-oconnor",
+    "player:colm-odoherty",
+    "player:conor-burke",
+    "player:conor-cunningham",
+    "player:conor-flaherty",
+    "player:conor-mcdonagh",
+    "player:conor-odonovan",
+    "player:dara-coen",
+    "player:declan-jenning",
+    "player:declan-jennings",
+    "player:dick-morrissey",
+    "player:don-reilly",
+    "player:donal-fox",
+    "player:eoin-fahy",
+    "player:finnian-coone",
+    "player:fr-larkin",
+    "player:fr-michael-kilkenny",
+    "player:gerry-smith",
+    "player:gordon-glynn",
+    "player:jack-berry",
+    "player:jim-morris",
+    "player:joe-keane",
+    "player:john-brehony",
+    "player:john-conroy",
+    "player:john-murphy",
+    "player:john-ryan",
+    "player:junior-mahoney",
+    "player:kerrill-wade",
+    "player:kieran-finnerty",
+    "player:killian-howe",
+    "player:leonard-martin",
+    "player:liam-shiels",
+    "player:mark-lane",
+    "player:martin-donoghue",
+    "player:martin-kelly",
+    "player:michael-donoghue",
+    "player:michael-flaherty",
+    "player:michael-headd",
+    "player:michael-healy",
+    "player:michael-kelly",
+    "player:michael-kerins",
+    "player:michael-lynskey",
+    "player:micheal-donohue",
+    "player:mike-egan",
+    "player:n-gilmartin",
+    "player:ned-campbell",
+    "player:niall-flemming",
+    "player:niall-kelly",
+    "player:noel-mcdonagh",
+    "player:padraic-brehony",
+    "player:padraig-breheny",
+    "player:patrick-dervan",
+    "player:paul-douraghan",
+    "player:peter-garvey",
+    "player:robert-mitchell",
+    "player:roger-fahy",
+    "player:ronal-killilea",
+    "player:sean-glynn",
+    "player:sean-mcardle",
+    "player:shane-maloney",
+    "player:staff-garvey",
+    "player:stephen-creaven",
+    "player:tadgh-haran",
+    "player:thomas-hayes",
+    "player:tom-donohue",
+    "player:tom-flemming",
+    "player:tom-healy",
+    "player:tom-kenny",
+    "player:tom-maloney",
+    "player:tom-monaghan",
+    "player:trevor-kavanagh"
+  ],
+  "new_clubs": [],
+  "club_meta": [
+    {
+      "id": "club:ahascragh-fohenagh",
+      "cols": {
+        "note": "r69 AF-first: Steeltech Sheds PIHC 2026 — R1 win vs Kinvara already scored; Balls.ie confirms Portumna beat AF in group R2 (score still absent from public text — no invent); Bay FM/HoganStand PQF draw Kilconieron v Ahascragh-Fohenagh (weekend 19–20 Sep). ME topped Group 2; AF into PQF. No new first+last AF adult XV names this round.",
+        "source_balls_portumna_r3": "https://www.balls.ie/gaa/joe-canning-portumna-galway-gaa-662762",
+        "source_bay_pqf_draw": "https://www.galwaybayfm.ie/sports/draws-announced-for-county-senior-and-intermediate-hurling-preliminary-quarter-finals-229399",
+        "source_hoganstand_pqf": "https://hoganstand.com/County/Galway/Article/Index/341673",
+        "pihc_2026_status": "preliminary quarter-final vs Kilconieron (draw published 6 Sep 2026)"
+      }
+    },
+    {
+      "id": "club:kinvara",
+      "cols": {
+        "note": "r69: Kinvara GAA Intermediate County Final team sheet harvested for first+last thin fills (Aodhan O'Hanrahan + Tadhg Heavey dual-cited with CT 2025 IHC final; Liam Martyn full name unlocks r68 L. Martyn holdback). Balls.ie: Portumna 3-16 Kinvara 0-14 PIHC R3 2026 (Gort) — Kinvara into relegation SF vs Pádraig Pearses (Bay FM draw).",
+        "source_kinvara_team_sheet": "https://www.kinvaragaa.ie/articles/134183",
+        "source_ct_ihc_final_2025": "https://www.connachttribune.ie/sport/hurling/meelick-eyrecourt-finish-in-a-blaze-of-glory-to-end-famine-5594766",
+        "source_balls_pihc_r3_2026": "https://www.balls.ie/gaa/joe-canning-portumna-galway-gaa-662762"
+      }
+    },
+    {
+      "id": "club:meelick-eyrecourt",
+      "cols": {
+        "note": "r69: Balls.ie + Bay FM PQF draw imply ME topped PIHC Group 2 2026 (direct QF). IHC 2025 final joint-captains James Downey / John Fleming stamped from Bay FM reaction+preview. AF R3 vs ME score still unpublished in crawled public text — no invent.",
+        "source_bay_ihc_final_reaction": "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-1-16-kinvara-0-16-intermediate-hurling-final-report-reaction-206455",
+        "source_balls_group_finish": "https://www.balls.ie/gaa/joe-canning-portumna-galway-gaa-662762"
+      }
+    },
+    {
+      "id": "club:portumna",
+      "cols": {
+        "note": "r69: Balls.ie — Portumna 3-16 Kinvara 0-14 PIHC R3 2026 (Gort); Joe Canning 0-2 + early-goal platform; finished 2nd in Group 2 behind ME; PQF vs Rahoon-Newcastle. Also confirms prior group win over AF (score unpublished).",
+        "source_balls_pihc_r3_2026": "https://www.balls.ie/gaa/joe-canning-portumna-galway-gaa-662762"
+      }
+    },
+    {
+      "id": "club:eyrecourt-historic",
+      "cols": {
+        "note": "r69: still HOLD orphan for named Eyrecourt-only XV — no new first+last public cite this round."
+      }
+    },
+    {
+      "id": "club:kilrickle",
+      "cols": {
+        "note": "r69: still HOLD orphan — 1949 IHC title on Wikipedia without named XV; no first+last public cite this round."
+      }
+    },
+    {
+      "id": "club:fr-joe-walshs",
+      "cols": {
+        "note": "r69: still HOLD orphan for named first+last Fr Joe XV — juvenile amalgam reports remain score/path-only."
+      }
+    },
+    {
+      "id": "club:cois-fharraige",
+      "cols": {
+        "note": "r69: still HOLD orphan — no first+last named Cois Fharraige men's hurling XV cite this round."
+      }
+    },
+    {
+      "id": "club:st-colemans",
+      "cols": {
+        "note": "r69: still HOLD orphan — no named St Coleman's 1948 XV; modern hits remain camogie."
+      }
+    }
+  ],
+  "new_matches": [
+    {
+      "id": "match:galway-pihc-2026-r3-portumna-kinvara",
+      "cols": {
+        "type": "match",
+        "name": "Portumna vs Kinvara (2026 Galway PIHC Round 3)",
+        "year": 2026,
+        "date": "2026-09-06",
+        "competition": "Galway Premier Intermediate Hurling Championship",
+        "round": "Group Round 3",
+        "home": "club:portumna",
+        "away": "club:kinvara",
+        "score": "Portumna 3-16, Kinvara 0-14",
+        "winner": "club:portumna",
+        "result": "win",
+        "venue": "Gort",
+        "source": "https://www.balls.ie/gaa/joe-canning-portumna-galway-gaa-662762",
+        "secondary_cite": "https://www.galwaybayfm.ie/sports/draws-announced-for-county-senior-and-intermediate-hurling-preliminary-quarter-finals-229399",
+        "note": "Balls.ie 6–7 Sep 2026: Portumna 3-16 Kinvara 0-14 at Gort; Joe Canning two points; Portumna finished 2nd in Group 2 behind Meelick-Eyrecourt. Bay FM PQF draw places Portumna vs Rahoon-Newcastle and Kinvara into relegation SF vs Pádraig Pearses. Score-only + already-seeded Joe Canning — no invented scorers beyond cite.",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "match_updates": [
+    {
+      "id": "match:galway-ihc-2025-final",
+      "cols": {
+        "captain": "player:james-downey-meelick-eyrecourt",
+        "joint_captain": "player:john-fleming",
+        "note": "r69: Bay FM IHC final reaction names Meelick-Eyrecourt joint-captain James Downey; preview/path cites John Fleming as co-captain — stamped captain + joint_captain (no invent).",
+        "source_captain": "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-1-16-kinvara-0-16-intermediate-hurling-final-report-reaction-206455",
+        "source_preview": "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-v-kinvara-intermediate-hurling-final-preview-with-niall-lynch-206256",
+        "confidence": "medium"
+      }
+    }
+  ],
+  "hold_notes": {
+    "player:enda-lawless-carnmore": "HOLD r69: Carnmore-stamped Enda Lawless stays HOLD; Meelick twin already exists. Do not merge.",
+    "player:conor-burke": "HOLD r69: bare Conor Burke stays HOLD club-less; new club-scoped player:conor-burke-kinvara covers Kinvara team sheet.",
+    "player:padraig-breheny": "HOLD r69: bare Padraig Breheny stays HOLD; club-scoped Tynagh-Abbey/Duniry row covers scoring cites.",
+    "player:kerrill-wade": "HOLD r69: bare Kerrill Wade stays HOLD — spelling twin of clubbed Kerril Wade (Sarsfields).",
+    "player:michael-kelly": "HOLD r69: bare Michael Kelly remains collision risk vs club-scoped Michael Kelly rows.",
+    "player:tadgh-haran": "HOLD r69: bare Tadgh Haran stays HOLD; distinct from club-scoped Tadhg Haran (Liam Mellows).",
+    "player:fr-michael-kilkenny": "HOLD r69: Fr Michael Kilkenny county-panel row stays HOLD.",
+    "player:michael-healy": "HOLD r69: bare Michael Healy stays HOLD (Castlegar name/era collision risk); club-scoped Michael Healy Ahascragh already exists."
+  },
+  "player_meta": [
+    {
+      "id": "player:fionn-gohery-meelick-eyrecourt",
+      "cols": {
+        "note": "r69 alias: Connacht Tribune PIHC R1 2026 vs Portumna prints Finn Gohery goal — treated as same person as Fionn Gohery (Western People Connacht IHC Final XV). Do not mint separate Finn row.",
+        "aka": "Finn Gohery",
+        "source_ct_pihc_r1_2026": "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876"
+      }
+    }
+  ]
+}

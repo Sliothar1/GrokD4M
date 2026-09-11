@@ -1,34 +1,17 @@
 {
   "pack": "galway-club-player-links",
-  "round": "68",
-  "generated_at": "2026-09-10T08:52:42.141703+00:00",
+  "round": "69",
+  "generated_at": "2026-09-11T08:49:50.419826+00:00",
   "sources": [
-    "https://en.wikipedia.org/wiki/Tom_Ruane",
-    "https://www.carnmoregaa.net/about",
-    "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804",
-    "https://en.wikipedia.org/wiki/Billy_Duffy_(hurler)",
-    "https://hoganstand.com/county/galway/article/index/51276",
-    "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/",
+    "https://www.kinvaragaa.ie/articles/134183",
+    "https://www.connachttribune.ie/sport/hurling/meelick-eyrecourt-finish-in-a-blaze-of-glory-to-end-famine-5594766",
+    "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-1-16-kinvara-0-16-intermediate-hurling-final-report-reaction-206455",
+    "https://www.balls.ie/gaa/joe-canning-portumna-galway-gaa-662762",
+    "https://www.galwaybayfm.ie/sports/draws-announced-for-county-senior-and-intermediate-hurling-preliminary-quarter-finals-229399",
     "https://hoganstand.com/County/Galway/Article/Index/341673",
-    "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+    "https://www.connachttribune.ie/sport/no-shortage-of-drama-in-opening-round-of-galway-premier-intermediate-hurling-championship-8920876"
   ],
   "before": {
-    "players": 1765,
-    "players_with_club": 1686,
-    "players_without_club": 79,
-    "orphan_clubs": 6,
-    "orphan_club_ids": [
-      "club:claregalway",
-      "club:cois-fharraige",
-      "club:eyrecourt-historic",
-      "club:fr-joe-walshs",
-      "club:kilrickle",
-      "club:st-colemans"
-    ],
-    "matches": 1673,
-    "appearances": 686
-  },
-  "after": {
     "players": 1767,
     "players_with_club": 1688,
     "players_without_club": 79,
@@ -43,27 +26,84 @@
     "matches": 1673,
     "appearances": 686
   },
+  "after": {
+    "players": 1789,
+    "players_with_club": 1710,
+    "players_without_club": 79,
+    "orphan_clubs": 5,
+    "orphan_club_ids": [
+      "club:cois-fharraige",
+      "club:eyrecourt-historic",
+      "club:fr-joe-walshs",
+      "club:kilrickle",
+      "club:st-colemans"
+    ],
+    "matches": 1674,
+    "appearances": 686
+  },
   "delta": {
     "players_linked": 0,
-    "players_created": 2,
+    "players_created": 22,
     "clubs_created": 0,
     "appearances_clubbed": 0,
-    "matches_added": 0,
-    "players_with_club": 2,
-    "orphan_clubs": -1
+    "matches_added": 1,
+    "players_with_club": 22,
+    "orphan_clubs": 0
   },
   "sample_linked_ids": [],
   "sample_created_ids": [
-    "player:tom-ruane-claregalway",
-    "player:billy-duffy-meelick-eyrecourt"
+    "player:aodhan-ohanrahan-kinvara",
+    "player:tadhg-heavey-kinvara",
+    "player:liam-martyn-kinvara",
+    "player:sean-costello-kinvara",
+    "player:conor-burke-kinvara",
+    "player:matthew-meares-kinvara",
+    "player:rossa-barry-kinvara",
+    "player:cormac-ivers-kinvara",
+    "player:darren-kilkelly-kinvara",
+    "player:jake-comyn-kinvara",
+    "player:danny-travis-kinvara",
+    "player:rhys-oconnor-kinvara",
+    "player:conail-larrissey-kinvara",
+    "player:cathal-mongan-kinvara",
+    "player:mark-costello-kinvara",
+    "player:dylan-corcoran-kinvara",
+    "player:niall-bermingham-kinvara",
+    "player:dean-ivers-kinvara",
+    "player:adam-huban-kinvara",
+    "player:aidan-moylan-kinvara",
+    "player:nathan-rodgers-kinvara",
+    "player:jarlath-leech-kinvara"
   ],
   "all_linked_ids": [],
   "all_created_ids": [
-    "player:tom-ruane-claregalway",
-    "player:billy-duffy-meelick-eyrecourt"
+    "player:aodhan-ohanrahan-kinvara",
+    "player:tadhg-heavey-kinvara",
+    "player:liam-martyn-kinvara",
+    "player:sean-costello-kinvara",
+    "player:conor-burke-kinvara",
+    "player:matthew-meares-kinvara",
+    "player:rossa-barry-kinvara",
+    "player:cormac-ivers-kinvara",
+    "player:darren-kilkelly-kinvara",
+    "player:jake-comyn-kinvara",
+    "player:danny-travis-kinvara",
+    "player:rhys-oconnor-kinvara",
+    "player:conail-larrissey-kinvara",
+    "player:cathal-mongan-kinvara",
+    "player:mark-costello-kinvara",
+    "player:dylan-corcoran-kinvara",
+    "player:niall-bermingham-kinvara",
+    "player:dean-ivers-kinvara",
+    "player:adam-huban-kinvara",
+    "player:aidan-moylan-kinvara",
+    "player:nathan-rodgers-kinvara",
+    "player:jarlath-leech-kinvara"
   ],
   "clubs_created_ids": [],
-  "matches_added_ids": [],
+  "matches_added_ids": [
+    "match:galway-pihc-2026-r3-portumna-kinvara"
+  ],
   "fohenagh_new_player_ids": [],
   "fohenagh_linked_existing_ids": [],
   "holds": [
@@ -148,15 +188,16 @@
     "player:trevor-kavanagh"
   ],
   "stats": {
-    "added": 32,
-    "players_created": 2,
-    "updated": 28,
-    "club_meta_touched": 10,
-    "matches_updated": 6,
+    "added": 209,
+    "players_created": 22,
+    "updated": 18,
+    "club_meta_touched": 9,
+    "matches_added": 1,
+    "player_meta_touched": 1,
+    "matches_updated": 1,
     "players_linked": 0,
     "clubs_created": 0,
-    "appearances_clubbed": 0,
-    "matches_added": 0
+    "appearances_clubbed": 0
   },
   "priority_club_counts_after": {
     "club:fohenagh-historic": 59,
@@ -203,7 +244,7 @@
     "club:an-spideal": 17,
     "club:micheal-breathnach": 31,
     "club:oranmore-maree": 38,
-    "club:kinvara": 45,
+    "club:kinvara": 67,
     "club:mountbellew-moylough": 22,
     "club:leitrim-galway-historic": 29,
     "club:ahascragh-historic": 54,
@@ -218,5 +259,5 @@
     "club:fr-joe-walshs",
     "club:cois-fharraige"
   ],
-  "orphan_note": "Remaining HOLD orphans: Eyrecourt/Kilrickle/St Coleman's/Fr Joe Walsh's/Cois Fharraige (no first+last named XV cites). r68: Claregalway orphan broken via Tom Ruane 1910–1916 parish hurling captain; AF Fohenagh 1959/1960 SHC captains stamped; Billy Duffy → Meelick-Eyrecourt; club-less ~79 stay HOLD."
+  "orphan_note": "Remaining HOLD orphans: Eyrecourt/Kilrickle/St Coleman's/Fr Joe Walsh's/Cois Fharraige (no first+last named XV cites). r69: Claregalway orphan broken via Tom Ruane 1910–1916 parish hurling captain; AF Fohenagh 1959/1960 SHC captains stamped; Billy Duffy → Meelick-Eyrecourt; club-less ~79 stay HOLD."
 }
