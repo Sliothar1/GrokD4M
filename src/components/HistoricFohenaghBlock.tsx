@@ -113,6 +113,80 @@ const FOHENAGH_FINAL_CHIPS = [
   },
 ];
 
+/** Paper-cited golden-year finals only. Scores from historic-fohenagh-1959-1960.json / seed. */
+const FOHENAGH_NOTABLE_GAMES = [
+  {
+    id: "1958",
+    year: "1958",
+    title: "First county final",
+    result: "Runners-up",
+    href: "/match/fohenagh-historic-1958-galway-shc-final",
+    kidLine:
+      "Fohenagh reached the Galway senior final. Castlegar won that day.",
+    score: "Castlegar 5-9, Fohenagh 2-4",
+    venue: "Duggan Park",
+    cites: ["Galway GAA finals table"],
+  },
+  {
+    id: "1959-draw",
+    year: "1959",
+    title: "Level — they come back",
+    result: "Draw",
+    href: "/match/fohenagh-historic-1959-galway-shc-final-draw",
+    kidLine:
+      "Nobody could split them. The papers said they had to try again.",
+    score: "Fohenagh 2-8, Castlegar 1-11",
+    venue: "Pearse Stadium",
+    cites: ["1959-09-05 · Connacht Tribune", "1959-09-05 · Tuam Herald"],
+  },
+  {
+    id: "1959-replay",
+    year: "1959",
+    title: "First senior title",
+    result: "Winners",
+    href: "/match/fohenagh-historic-1959-galway-shc-final-replay",
+    kidLine:
+      "Replay day at Kenny Park. Fohenagh became county champions.",
+    score: "Fohenagh 3-9, Castlegar 4-5",
+    venue: "Kenny Park",
+    cites: ["1959-09-19 · Connacht Tribune"],
+  },
+  {
+    id: "1960",
+    year: "1960",
+    title: "Back-to-back cup",
+    result: "Winners",
+    href: "/match/fohenagh-historic-1960-galway-shc-final",
+    kidLine: "Fohenagh kept the cup. Two county titles in a row.",
+    score: "Fohenagh 4-9, Castlegar 2-7",
+    venue: "Pearse Stadium",
+    cites: ["1960-09-03 · Connacht Tribune"],
+  },
+  {
+    id: "1961",
+    year: "1961",
+    title: "Two points short",
+    result: "Runners-up",
+    href: "/match/fohenagh-historic-1961-galway-shc-final",
+    kidLine:
+      "Defending champions, beaten by two points. We do not name the pitch — papers disagree.",
+    score: "Turloughmore 3-6, Fohenagh 3-4",
+    venue: null,
+    cites: ["Galway GAA finals table", "1961-09-16 · Connacht Tribune"],
+  },
+  {
+    id: "1963",
+    year: "1963",
+    title: "County final day again",
+    result: "Runners-up",
+    href: "/match/fohenagh-historic-1963-galway-shc-final",
+    kidLine: "Another senior final. Turloughmore won this one.",
+    score: "Turloughmore 5-13, Fohenagh 2-4",
+    venue: "Pearse Stadium",
+    cites: ["1963-08-17 · Connacht Tribune"],
+  },
+] as const;
+
 export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
   return (
     <div className={compact ? "mt-3 space-y-2" : "space-y-3"}>
@@ -203,6 +277,106 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
         fohenagh-historic. Not amalgam titles.
       </p>
     </div>
+  );
+}
+
+function resultBadgeClass(result: string) {
+  if (result === "Winners") {
+    return "bg-green-100 text-green-800";
+  }
+  if (result === "Draw") {
+    return "bg-galway-gold/35 text-galway-ink";
+  }
+  return "bg-amber-100 text-amber-900";
+}
+
+/** Historic Fohenagh club page only — golden-year finals, cited scores, no amalgam titles. */
+export function FohenaghNotableGamesShelf() {
+  return (
+    <section
+      aria-labelledby="fohenagh-notable-games"
+      className="space-y-4 rounded-2xl border-2 border-galway-maroon/20 bg-white p-5"
+    >
+      <div>
+        <p className="text-xs font-bold uppercase tracking-wide text-galway-ink/50">
+          Golden years · 1958–1963
+        </p>
+        <h2
+          id="fohenagh-notable-games"
+          className="mt-1 text-2xl font-bold text-galway-maroon"
+        >
+          Notable games
+        </h2>
+        <p className="mt-2 text-base text-galway-ink/75">
+          Six Galway senior finals from old Fohenagh — before the club joined
+          Ahascragh. Scores come from the papers and the county roll. No made-up
+          numbers.
+        </p>
+      </div>
+
+      <div className="flex flex-wrap gap-2">
+        {FOHENAGH_NOTABLE_GAMES.map((game) => (
+          <a
+            key={game.id}
+            href={`#notable-${game.id}`}
+            className="rounded-full border-2 border-galway-maroon/25 bg-galway-cream/50 px-3 py-1 text-sm font-bold text-galway-maroon hover:border-galway-maroon"
+          >
+            {game.year}
+            {game.id === "1959-draw"
+              ? " draw"
+              : game.id === "1959-replay"
+                ? " replay"
+                : ""}
+          </a>
+        ))}
+      </div>
+
+      <ol className="grid gap-3 sm:grid-cols-2">
+        {FOHENAGH_NOTABLE_GAMES.map((game) => (
+          <li key={game.id} id={`notable-${game.id}`}>
+            <Link
+              href={game.href}
+              className="block h-full rounded-2xl border-2 border-galway-maroon/15 bg-galway-cream/40 p-4 transition hover:border-galway-maroon"
+            >
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-sm font-black text-galway-maroon">
+                  {game.year}
+                </span>
+                <span
+                  className={`rounded-full px-2 py-0.5 text-xs font-bold ${resultBadgeClass(game.result)}`}
+                >
+                  {game.result}
+                </span>
+              </div>
+              <h3 className="mt-2 text-lg font-bold text-galway-ink">
+                {game.title}
+              </h3>
+              <p className="mt-1 text-sm leading-relaxed text-galway-ink/80">
+                {game.kidLine}
+              </p>
+              <p className="mt-2 text-sm font-semibold text-galway-ink">
+                {game.score}
+                {game.venue ? ` · ${game.venue}` : ""}
+              </p>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                {game.cites.map((cite) => (
+                  <span
+                    key={cite}
+                    className="rounded-full border border-galway-maroon/25 bg-white px-2 py-0.5 text-xs font-bold text-galway-maroon"
+                  >
+                    {cite}
+                  </span>
+                ))}
+              </div>
+            </Link>
+          </li>
+        ))}
+      </ol>
+
+      <p className="text-xs text-galway-ink/55">
+        Pre-2002 Fohenagh only. These are not Ahascragh-Fohenagh amalgam titles.
+      </p>
+    </section>
   );
 }
 
@@ -376,10 +550,8 @@ export function HistoricClubPanel() {
           See today&apos;s club
         </Link>
       </div>
-      <HistoricYearChips />
-      <AhascraghTitleChips />
+      <FohenaghNotableGamesShelf />
       <HistoricStoryChips />
-      <AhascraghStoryChips />
     </div>
   );
 }
