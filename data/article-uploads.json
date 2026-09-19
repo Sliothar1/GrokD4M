@@ -713,5 +713,231 @@
       "match:pearses-fohenagh-junior-ch-1980-08-01"
     ],
     "notes": "Village-pack Lohan hit. No existing player:seamus-lohan / gerry-lohan / enda-lohan in seed — names kept in excerpt only; do not mint new player ids this PR."
+  },
+  {
+    "id": "art-ina-ct-1963-08-17-jim-moclair-action",
+    "kind": "image",
+    "filename": "art-ina-ct-1963-08-17-jim-moclair-action.png",
+    "path": "/uploads/articles/art-ina-ct-1963-08-17-jim-moclair-action.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1963-08-17-jim-moclair-action.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Fohenagh action panel naming Jim Moclair",
+    "year": "1963",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "jim-moclair",
+      "ina",
+      "action"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-moclair-fohenagh"
+    ],
+    "excerpt": "Fohenagh hurling action panel; report names Jim Moclair.",
+    "citeChip": "Connacht Tribune · 17 Aug 1963 · p.31 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1959-10-24-jim-moclair",
+    "kind": "image",
+    "filename": "art-ina-ct-1959-10-24-jim-moclair.png",
+    "path": "/uploads/articles/art-ina-ct-1959-10-24-jim-moclair.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1959-10-24-jim-moclair.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Match report naming Jim Moclair",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "jim-moclair",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-moclair-fohenagh"
+    ],
+    "excerpt": "Match report with Jim Moclair named in Galway/Fohenagh hurling coverage.",
+    "citeChip": "Connacht Tribune · 24 Oct 1959 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19591024.1.14",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1961-08-12-jim-moclair",
+    "kind": "image",
+    "filename": "art-ina-ct-1961-08-12-jim-moclair.png",
+    "path": "/uploads/articles/art-ina-ct-1961-08-12-jim-moclair.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1961-08-12-jim-moclair.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Galway sports page naming Jim Moclair",
+    "year": "1961",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "jim-moclair",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-moclair-fohenagh"
+    ],
+    "excerpt": "Galway sports page hit naming Jim Moclair.",
+    "citeChip": "Connacht Tribune · 12 Aug 1961 · p.25 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19610812.1.25",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-tth-1960-10-15-jim-moclair",
+    "kind": "image",
+    "filename": "art-ina-tth-1960-10-15-jim-moclair.png",
+    "path": "/uploads/articles/art-ina-tth-1960-10-15-jim-moclair.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1960-10-15-jim-moclair.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Tuam Herald — Hurling report naming Jim Moclair",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "jim-moclair",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-moclair-fohenagh"
+    ],
+    "excerpt": "Hurling report hit naming Jim Moclair.",
+    "citeChip": "Tuam Herald · 15 Oct 1960 · p.8 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19601015.1.8",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1989-10-13-sean-moclair",
+    "kind": "image",
+    "filename": "art-ina-ct-1989-10-13-sean-moclair.png",
+    "path": "/uploads/articles/art-ina-ct-1989-10-13-sean-moclair.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1989-10-13-sean-moclair.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Galway report naming Sean Moclair",
+    "year": "1989",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "sean-moclair",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:sean-moclair",
+      "player:sean-mockler"
+    ],
+    "excerpt": "Galway report with exact-name Sean Moclair hit.",
+    "citeChip": "Connacht Tribune · 13 Oct 1989 · p.12 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19891013.1.12",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1990-12-07-fohenagh-u12-team",
+    "kind": "image",
+    "filename": "art-ina-ct-1990-12-07-fohenagh-u12-team.png",
+    "path": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-team.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-team.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Fohenagh U-12 county champions team photo (Cathal Lohan, Alan Moclair, Philip Lohan)",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u12",
+      "team-photo",
+      "ina",
+      "cathal-lohan",
+      "alan-moclair",
+      "philip-lohan"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:cathal-lohan-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:alan-mockler",
+      "player:philip-lohan",
+      "player:phillip-lohan"
+    ],
+    "excerpt": "Fohenagh U-12 county champions team photo and caption; names Cathal Lohan, Alan Moclair and Philip Lohan.",
+    "citeChip": "Connacht Tribune · 7 Dec 1990 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19901207.1.23",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1990-12-07-fohenagh-u12-caption",
+    "kind": "image",
+    "filename": "art-ina-ct-1990-12-07-fohenagh-u12-caption.png",
+    "path": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-caption.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-caption.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Fohenagh U-12 champions caption (Cathal Lohan, Alan Moclair, Philip Lohan)",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u12",
+      "caption",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:cathal-lohan-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:alan-mockler",
+      "player:philip-lohan",
+      "player:phillip-lohan"
+    ],
+    "excerpt": "Focused Fohenagh U-12 county champions caption; clearly names Cathal Lohan, Alan Moclair and Philip Lohan.",
+    "citeChip": "Connacht Tribune · 7 Dec 1990 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19901207.1.23",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1996-09-13-philip-lohan",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-09-13-philip-lohan.png",
+    "path": "/uploads/articles/art-ina-ct-1996-09-13-philip-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-09-13-philip-lohan.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Galway sports page naming Philip Lohan (Fohenagh)",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "philip-lohan",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:philip-lohan",
+      "player:phillip-lohan"
+    ],
+    "excerpt": "Galway sports page hit for Philip Lohan in Fohenagh coverage.",
+    "citeChip": "Connacht Tribune · 13 Sep 1996 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960913.1.4",
+    "status": "pending"
   }
 ]
