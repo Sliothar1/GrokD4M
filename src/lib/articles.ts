@@ -1056,11 +1056,38 @@ export function parseCiteChip(cite?: string): PressCite {
   return meta;
 }
 
+/** Prefer cite-chip dates ("12 Dec 2003") over ISO so PressCards read like newsprint. */
+export function formatPressDate(date?: string): string | undefined {
+  if (!date) return undefined;
+  const trimmed = date.trim();
+  if (/^\d{1,2}\s+[A-Za-z]{3,}\s+\d{4}$/.test(trimmed)) return trimmed;
+  const iso = trimmed.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (iso) {
+    const months = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    const month = months[Number(iso[2]) - 1];
+    if (month) return `${Number(iso[3])} ${month} ${iso[1]}`;
+  }
+  return trimmed;
+}
+
 export function pressCiteForArticle(a: ArticleUpload): PressCite {
   const parsed = parseCiteChip(a.citeChip);
   return {
     paper: a.paper || parsed.paper,
-    date: a.date || parsed.date,
+    date: formatPressDate(parsed.date) || formatPressDate(a.date),
     page: a.page || parsed.page,
   };
 }

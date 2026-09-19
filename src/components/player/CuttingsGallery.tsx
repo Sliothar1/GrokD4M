@@ -11,6 +11,7 @@ import {
 export type { CuttingCard };
 export { PressCuttingCard };
 
+/** Jason Lohan pack: U-21 first-half goals cutting is always the HERO (#1). */
 const FEATURED_IDS = ["art-ina-ct-2003-12-12-jason-lohan-u21"];
 
 export function sortPressCards(cuttings: CuttingCard[]): CuttingCard[] {
