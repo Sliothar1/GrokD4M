@@ -31,6 +31,13 @@ export interface SearchSection<T extends RankableHit = RankableHit> {
   items: T[];
 }
 
+/** Homepage / club-demo parish faces — keep them under the club cards. */
+const CLUB_DEMO_PLAYERS = new Set([
+  "player:tim-sweeney-fohenagh",
+  "player:martin-glynn-fohenagh",
+  "player:joe-rushe-fohenagh",
+]);
+
 const CLUB_SECTION_ORDER: Array<{ kinds: string[]; key: string; title: string }> = [
   { kinds: ["club"], key: "clubs", title: "Clubs" },
   { kinds: ["player"], key: "players", title: "Players" },
@@ -197,6 +204,7 @@ export function rankSearchHit(
       if (identity) rank -= 3;
       if (linked && String(attrs.club ?? "").includes("historic")) rank -= 2;
       if (conf === "verified" || conf === "high" || hit.trustLabel === "Verified") rank -= 1;
+      if (CLUB_DEMO_PLAYERS.has(hit.id)) rank -= 3;
       return rank;
     }
     if (hit.kind === "match") {
@@ -224,6 +232,10 @@ export function rankSearchHit(
   }
 
   // Non-club queries: preserve existing verified → Fohenagh → provisional ranks.
+  // Exact title match (Joe Canning, Niall Leonard) still beats same-rank club noise.
+  if (titleCloseness(hit.title, ctx.normalizedQuery) === 0 && hit.kind !== "appearance") {
+    return -5;
+  }
   if (hit.kind === "appearance") {
     const tier = Number(attrs.tier ?? 0);
     if (hold) return 90;
@@ -240,6 +252,14 @@ export function rankSearchHit(
   return 20;
 }
 
+function clubCardMatchesQuery(query: string, hit: RankableHit): boolean {
+  if (hit.kind !== "club") return false;
+  const q = normalizeSearchText(query);
+  const title = normalizeSearchText(hit.title);
+  const slug = normalizeSearchText(hit.id.includes(":") ? hit.id.slice(hit.id.indexOf(":") + 1) : hit.id);
+  return Boolean(labelMatchesQuery(title, q) || labelMatchesQuery(slug, q));
+}
+
 /** Tie-break so equal ranks don't fall back to `appearance:` before `club:`. */
 export function compareSearchHits(
   a: RankableHit,
@@ -250,20 +270,24 @@ export function compareSearchHits(
   const ra = rankSearchHit(a, ctx, attrsOf(a.id));
   const rb = rankSearchHit(b, ctx, attrsOf(b.id));
   if (ra !== rb) return ra - rb;
-  const kindBoost = (k: string) => {
-    if (k === "club") return 0;
-    if (k === "player") return 1;
-    if (k === "match") return 2;
-    if (k === "appearance") return 8;
-    return 4;
-  };
-  const ka = kindBoost(a.kind);
-  const kb = kindBoost(b.kind);
-  if (ka !== kb) return ka - kb;
-  const ta = titleCloseness(a.title, ctx.normalizedQuery);
-  const tb = titleCloseness(b.title, ctx.normalizedQuery);
-  if (ta !== tb) return ta - tb;
-  return a.title.localeCompare(b.title);
+  // Kind order is only for parish/club-name queries — keep Joe Canning / 2017 as-is.
+  if (ctx.clubIntent) {
+    const kindBoost = (k: string) => {
+      if (k === "club") return 0;
+      if (k === "player") return 1;
+      if (k === "match") return 2;
+      if (k === "appearance") return 8;
+      return 4;
+    };
+    const ka = kindBoost(a.kind);
+    const kb = kindBoost(b.kind);
+    if (ka !== kb) return ka - kb;
+    const ta = titleCloseness(a.title, ctx.normalizedQuery);
+    const tb = titleCloseness(b.title, ctx.normalizedQuery);
+    if (ta !== tb) return ta - tb;
+    return a.title.localeCompare(b.title);
+  }
+  return 0;
 }
 
 export function resultLooksLikeClubQuery<T extends RankableHit>(
@@ -293,7 +317,12 @@ export function sectionSearchResults<T extends RankableHit>(
   const used = new Set<string>();
   const sections: SearchSection<T>[] = [];
   for (const spec of CLUB_SECTION_ORDER) {
-    const items = results.filter((r) => spec.kinds.includes(r.kind));
+    const items = results.filter((r) => {
+      if (!spec.kinds.includes(r.kind)) return false;
+      // Clubs header = name/alias hits only, not opponents mentioned in notes.
+      if (spec.key === "clubs") return clubCardMatchesQuery(query, r);
+      return true;
+    });
     if (items.length === 0) continue;
     for (const item of items) used.add(item.id);
     sections.push({ key: spec.key, title: spec.title, items });
