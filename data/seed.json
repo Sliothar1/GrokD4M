@@ -36562,7 +36562,7 @@
   {
     "row": "player:jason-lohan",
     "col": "note",
-    "val": "Ahascragh–Fohenagh hurler. Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA; panel photo — does not confirm he started the final). Also Ahascragh–Fohenagh Minor B 1999 roll of honour. Connacht Tribune cuttings: fine display (and starting XV) as AF U-21s beat Ballinasloe in 2002; first-half goal in the 2003 County B U-21 quarter-final (draw with Oranmore/Maree); named in the starting XV for a 2005 league win vs Killnadeema/Leitrim."
+    "val": "Ahascragh parish and Ahascragh–Fohenagh hurler (two jerseys: club:ahascragh-historic and club:ahascragh-fohenagh). Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA; panel photo — does not confirm he started the final). Also Ahascragh–Fohenagh Minor B 1999 roll of honour. Connacht Tribune cuttings: fine display (and starting XV) as AF U-21s beat Ballinasloe in 2002; first-half goal in the 2003 County B U-21 quarter-final (draw with Oranmore/Maree); named in the starting XV for a 2005 league win vs Killnadeema/Leitrim. Parish link is a jersey/era fact only — no extra caps or scores."
   },
   {
     "row": "player:jason-lohan",
@@ -121997,6 +121997,11 @@
   {
     "row": "player:jason-lohan",
     "col": "club_1",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "club_history",
     "val": "club:ahascragh-historic"
   },
   {

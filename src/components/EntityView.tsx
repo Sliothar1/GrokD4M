@@ -8,6 +8,7 @@ import {
   HistoricPredecessorChip,
   LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
+import { ClubRoster } from "@/components/club/ClubRoster";
 import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
   displayNameForRef,
@@ -18,6 +19,7 @@ import {
   type getEntity,
 } from "@/lib/data";
 import { isDisplayableVal, isHiddenFactKey } from "@/lib/entityDisplay";
+import { listClubRoster } from "@/lib/playerClubs";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
@@ -44,6 +46,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
     attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
   const cuttingCards = related.filter((r) => r.kind === "article_upload");
   const heroCutting = cuttingCards.find((c) => c.imagePath) ?? cuttingCards[0];
+  const clubRoster =
+    summary.kind === "club" ? listClubRoster(id, A) : [];
 
   return (
     <article className="space-y-8">
@@ -160,6 +164,10 @@ export async function EntityView({ data }: { data: EntityPayload }) {
 
       {isAmalgam && <HistoricPredecessorChip />}
 
+      {summary.kind === "club" ? (
+        <ClubRoster rows={clubRoster} clubName={summary.title} />
+      ) : null}
+
       {isHistoricMatch && (
         <ArticleClipSection
           matchId={id}
@@ -171,7 +179,13 @@ export async function EntityView({ data }: { data: EntityPayload }) {
 
 {(() => {
         const cuttings = related.filter((r) => r.kind === "article_upload");
-        const otherRelated = related.filter((r) => r.kind !== "article_upload");
+        const otherRelated = related.filter((r) => {
+          if (r.kind === "article_upload") return false;
+          if (summary.kind === "club" && (r.kind === "player" || r.kind === "appearance")) {
+            return false;
+          }
+          return true;
+        });
         const showCuttings =
           cuttings.length > 0 ||
           summary.kind === "player" ||
@@ -180,7 +194,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           <>
             {showCuttings && (
               <section>
-                <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
+                <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
                   Cuttings &amp; stories
                 </h2>
                 {cuttings.length === 0 ? (
@@ -229,7 +243,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
             )}
             {otherRelated.length > 0 && (
               <section>
-                <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
+                <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
                   Related
                 </h2>
                 <div className="grid gap-3 sm:grid-cols-2">
@@ -244,7 +258,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       })()}
 
       <section>
-        <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Facts</h2>
+        <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+          Facts
+        </h2>
         <dl className="grid gap-3 sm:grid-cols-2">
           {Object.entries(attrs)
             .filter(([k, v]) => !isHiddenFactKey(k) && isDisplayableVal(v) && !(hideScore && k === "score"))

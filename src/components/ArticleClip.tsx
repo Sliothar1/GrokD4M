@@ -17,26 +17,20 @@ export async function ArticleClipSection({
 
   return (
     <section className="space-y-3">
-      <h2 className="text-2xl font-bold text-galway-maroon">Article clip</h2>
+      <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+        Article clip
+      </h2>
       {clips.length === 0 ? (
-        <div
-          className="flex min-h-[140px] flex-col items-center justify-center rounded-2xl border-2 border-dashed border-galway-maroon/25 bg-galway-cream/50 px-4 py-8 text-center"
-          role="status"
-        >
-          <p className="text-lg font-bold text-galway-ink/70">
-            Article clip coming soon
-          </p>
-          <p className="mt-1 max-w-md text-sm text-galway-ink/55">
-            When a newspaper cutting or upload is linked to this match, a
-            thumbnail will show here with caption and cite.
-          </p>
+        <p className="text-sm text-galway-ink/55" role="status">
+          Article clip coming soon — a thumbnail will show here when a cutting
+          is linked.{" "}
           <Link
             href="/stories#upload"
-            className="mt-3 text-sm font-semibold text-galway-maroon underline"
+            className="font-semibold text-galway-maroon underline"
           >
             Upload on Stories
           </Link>
-        </div>
+        </p>
       ) : (
         <ul className="grid gap-4 sm:grid-cols-2">
           {clips.map((clip) => (

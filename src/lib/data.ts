@@ -190,6 +190,9 @@ export function friendlyAttrLabel(key: string): string {
     win_ref: "All-Ireland link",
     county: "County team",
     club: "Club",
+    clubs: "Clubs",
+    club_history: "Club history",
+    parish_club: "Parish club",
     also_club: "Also club",
     also_known_as: "Also known as",
     father: "Father",
@@ -335,6 +338,9 @@ export function playerClubIds(
 
   add(attrs.club);
   add(attrs.also_club);
+  add(attrs.club_history);
+  add(attrs.parish_club);
+  add(attrs.historic_club);
 
   const numbered = Object.keys(attrs)
     .filter((k) => NUMBERED_CLUB_COL.test(k))
