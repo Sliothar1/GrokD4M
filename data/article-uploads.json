@@ -494,5 +494,158 @@
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20050722.1.46",
     "status": "pending",
     "matchTags": []
+  },
+  {
+    "id": "art-ct-1959-09-19-fohenagh-team-caption",
+    "kind": "image",
+    "filename": "tim-sweeney-1959-fohenagh-team-caption.png",
+    "path": "/uploads/articles/tim-sweeney-1959-fohenagh-team-caption.png",
+    "publicUrl": "/uploads/articles/tim-sweeney-1959-fohenagh-team-caption.png",
+    "uploadedAt": "2026-09-19T17:10:29.211953+00:00",
+    "caption": "Connacht Tribune 19 Sep 1959 — Fohenagh team panel after first Galway SHC title vs Castlegar",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "castlegar",
+      "shc",
+      "1959",
+      "final",
+      "team-panel",
+      "tim-sweeney"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:frank-madden",
+      "player:jim-moclair-fohenagh",
+      "player:pj-killalea-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:martin-glynn-fohenagh"
+    ],
+    "excerpt": "Illustrated Connacht Tribune team panel after Fohenagh’s first Galway senior hurling title versus Castlegar. Named on the paper: Tim Sweeney, Frank Madden, J. Moclair, P.J. Killalea, T. Moylett, M. Coen and M. Glynn.",
+    "confidence": "verified",
+    "trustLabel": "Verified",
+    "citeChip": "Connacht Tribune · 19 Sep 1959 · team panel",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ]
+  },
+  {
+    "id": "art-ct-1959-09-05-fohenagh-castlegar-portrait",
+    "kind": "image",
+    "filename": "tim-sweeney-1959-fohenagh-castlegar-portrait-report.png",
+    "path": "/uploads/articles/tim-sweeney-1959-fohenagh-castlegar-portrait-report.png",
+    "publicUrl": "/uploads/articles/tim-sweeney-1959-fohenagh-castlegar-portrait-report.png",
+    "uploadedAt": "2026-09-19T17:10:29.211953+00:00",
+    "caption": "Connacht Tribune 5 Sep 1959 — Fohenagh and Castlegar must try again (draw report with portraits)",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "castlegar",
+      "shc",
+      "1959",
+      "final",
+      "draw",
+      "tim-sweeney"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:paddy-egan-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Headline on the paper: Draw Was Fitting Result To Thriller — Fohenagh and Castlegar must try again. Printed scores: Fohenagh 2-8, Castlegar 1-11. Named on the paper: Tim Sweeney, Pat Joe Lally, Paddy Egan, Jer Sweeney and Tony O’Gorman.",
+    "confidence": "verified",
+    "trustLabel": "Verified",
+    "citeChip": "Connacht Tribune · 5 Sep 1959 · p.12",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-draw"
+    ]
+  },
+  {
+    "id": "art-ct-1961-09-16-fohenagh-final-photos",
+    "kind": "image",
+    "filename": "tim-sweeney-1961-fohenagh-final-photos-caption.png",
+    "path": "/uploads/articles/tim-sweeney-1961-fohenagh-final-photos-caption.png",
+    "publicUrl": "/uploads/articles/tim-sweeney-1961-fohenagh-final-photos-caption.png",
+    "uploadedAt": "2026-09-19T17:10:29.211953+00:00",
+    "caption": "Connacht Tribune 16 Sep 1961 — Fohenagh county final photos",
+    "year": "1961",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "shc",
+      "1961",
+      "final",
+      "photos",
+      "tim-sweeney"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:john-sweeney-fohenagh",
+      "player:jim-sweeney",
+      "player:frank-madden",
+      "player:albie-glynn-fohenagh",
+      "player:tom-killilea-fohenagh",
+      "player:michael-cullinane-fohenagh"
+    ],
+    "excerpt": "Illustrated Connacht Tribune cutting from the 1961 county final week. Named on the paper: Tim Sweeney, John Sweeney, Jim Sweeney, Frank Madden, Abie Glynn, Tom Killilea and Michael Cullinane.",
+    "confidence": "verified",
+    "trustLabel": "Verified",
+    "citeChip": "Connacht Tribune · 16 Sep 1961 · final photos",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1961-galway-shc-final"
+    ]
+  },
+  {
+    "id": "art-ct-1963-08-17-fohenagh-action-photos",
+    "kind": "image",
+    "filename": "tim-sweeney-1963-fohenagh-action-photos-caption.png",
+    "path": "/uploads/articles/tim-sweeney-1963-fohenagh-action-photos-caption.png",
+    "publicUrl": "/uploads/articles/tim-sweeney-1963-fohenagh-action-photos-caption.png",
+    "uploadedAt": "2026-09-19T17:10:29.211953+00:00",
+    "caption": "Connacht Tribune 17 Aug 1963 — Fohenagh action photographs (p.14)",
+    "year": "1963",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "shc",
+      "1963",
+      "action",
+      "tim-sweeney"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:frank-madden",
+      "player:mick-moylette-fohenagh",
+      "player:packie-burke-fohenagh",
+      "player:bobby-madden-fohenagh"
+    ],
+    "excerpt": "Connacht Tribune Saturday action photographs (page 14). Named on the paper: Tim Sweeney, Frank Madden, Mick Moylette, Packie Burke and Bobby Madden.",
+    "confidence": "verified",
+    "trustLabel": "Verified",
+    "citeChip": "Connacht Tribune · 17 Aug 1963 · p.14",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1963-galway-shc-final"
+    ]
   }
 ]

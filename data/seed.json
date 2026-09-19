@@ -247837,7 +247837,7 @@
   {
     "row": "player:tim-sweeney-fohenagh",
     "col": "note",
-    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3). Identified in connection with the abandoned Fohenagh–Tynagh junior game at Kiltormer (Tuam Herald, 6 Oct 1956). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5); scored 1-4 in that replay (Connacht Tribune)."
+    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3). Identified in connection with the abandoned Fohenagh–Tynagh junior game at Kiltormer (Tuam Herald, 6 Oct 1956). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5); scored 1-4 in that replay (Connacht Tribune). Shown on the Connacht Tribune 19 Sep 1959 Fohenagh team panel after that first senior title. Named in the Connacht Tribune 5 Sep 1959 draw report (headline: Draw Was Fitting Result To Thriller; printed Fohenagh 2-8, Castlegar 1-11). Named in Connacht Tribune 16 Sep 1961 final photos and 17 Aug 1963 action photos."
   },
   {
     "row": "player:tim-sweeney-fohenagh",
@@ -248118,5 +248118,220 @@
     "row": "player:tim-killalea",
     "col": "verification",
     "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "notable",
+    "val": "Fohenagh hurler on the 1959 county title team, named in Connacht Tribune photos through 1961 and 1963."
+  },
+  {
+    "row": "player:paddy-egan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-egan-fohenagh",
+    "col": "name",
+    "val": "Paddy Egan"
+  },
+  {
+    "row": "player:paddy-egan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paddy-egan-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paddy-egan-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:paddy-egan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paddy-egan-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 5 Sep 1959 · p.12"
+  },
+  {
+    "row": "player:john-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-sweeney-fohenagh",
+    "col": "name",
+    "val": "John Sweeney"
+  },
+  {
+    "row": "player:john-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:john-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:john-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:john-sweeney-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 16 Sep 1961 · final photos"
+  },
+  {
+    "row": "player:tom-killilea-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-killilea-fohenagh",
+    "col": "name",
+    "val": "Tom Killilea"
+  },
+  {
+    "row": "player:tom-killilea-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tom-killilea-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-killilea-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:tom-killilea-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-killilea-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 16 Sep 1961 · final photos"
+  },
+  {
+    "row": "player:michael-cullinane-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-cullinane-fohenagh",
+    "col": "name",
+    "val": "Michael Cullinane"
+  },
+  {
+    "row": "player:michael-cullinane-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:michael-cullinane-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:michael-cullinane-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:michael-cullinane-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:michael-cullinane-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 16 Sep 1961 · final photos"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "name",
+    "val": "Packie Burke"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 17 Aug 1963 · p.14"
+  },
+  {
+    "row": "player:bobby-madden-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:bobby-madden-fohenagh",
+    "col": "name",
+    "val": "Bobby Madden"
+  },
+  {
+    "row": "player:bobby-madden-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:bobby-madden-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:bobby-madden-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:bobby-madden-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:bobby-madden-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 17 Aug 1963 · p.14"
   }
 ]
