@@ -115120,46 +115120,6 @@
     "val": "club:kilconieron"
   },
   {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "name",
-    "val": "Tim Sweeney"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "note",
-    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963."
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
     "row": "player:cathal-larkin-killimor",
     "col": "type",
     "val": "player"
@@ -245370,16 +245330,6 @@
     "val": "Mentioned in match report for Fohenagh"
   },
   {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
     "row": "player:tommy-glynn-fohenagh",
     "col": "cutting_cite",
     "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
@@ -247473,5 +247423,265 @@
     "row": "match:galway-ihc-2025-final",
     "col": "source_preview",
     "val": "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-v-kinvara-intermediate-hurling-final-preview-with-niall-lynch-206256"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "note",
+    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3)."
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "name",
+    "val": "Martin Glynn"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "note",
+    "val": "Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana; scored from a 21-yard free to earn a replay (Tuam Herald)."
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "name",
+    "val": "Joe Rushe"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "position",
+    "val": "Defender"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "note",
+    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald)."
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "name",
+    "val": "M. Barrett"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "position",
+    "val": "Defender"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "note",
+    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald)."
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "name",
+    "val": "Fohenagh vs Skehana — Intermediate County Final 1952 (draw)"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "year",
+    "val": "1952"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship Final"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "away",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "score_home",
+    "val": "3-6"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "score_away",
+    "val": "4-3"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "note",
+    "val": "Drawn Intermediate County Final; Martin Glynn free earned a replay (Tuam Herald 16 Aug 1952)."
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "cite",
+    "val": "Tuam Herald · 16 Aug 1952 · p.1 · INA"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "status",
+    "val": "pending_archivist"
   }
 ]

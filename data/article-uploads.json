@@ -293,5 +293,38 @@
     "matchTags": [
       "match:fohenagh-cussane-north-board-junior-final-1942"
     ]
+  },
+  {
+    "id": "art-ina-fohenagh-1952-08-16-tuam-herald",
+    "kind": "image",
+    "filename": "ina-fohenagh-1952-08-16-players.png",
+    "path": "/uploads/articles/ina-fohenagh-1952-08-16-players.png",
+    "publicUrl": "/uploads/articles/ina-fohenagh-1952-08-16-players.png",
+    "uploadedAt": "2026-09-19T16:07:47.366085+00:00",
+    "caption": "INA snip — Tuam Herald 16 Aug 1952 Intermediate County Final Fohenagh 3-6 Skehana 4-3 (draw)",
+    "year": "1952",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "skehana",
+      "intermediate",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:skehana"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:martin-glynn-fohenagh",
+      "player:joe-rushe-fohenagh",
+      "player:m-barrett-fohenagh"
+    ],
+    "excerpt": "Fohenagh rallied late; Martin Glynn scored from a 21-yard free to earn a replay. Joe Rushe and M. Barrett stood out in the backs, with the Glynns prominent forward.",
+    "citeChip": "Tuam Herald · 16 Aug 1952 · p.1 · INA",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-skehana-ihc-final-1952-draw"
+    ]
   }
 ]
