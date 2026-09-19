@@ -70,12 +70,11 @@ export async function MatchView({ data }: { data: EntityPayload }) {
     const raw = String(attrs[k]);
     // Hide machine slugs like fohenagh-win from the kid strip.
     if (k === "result" && isMachineSlug(raw)) return false;
-    if (
-      k === "opponent" &&
-      isDisplayableVal(attrs.away) &&
-      raw.toLowerCase() === String(attrs.away).toLowerCase()
-    ) {
-      return false;
+    if (k === "opponent" && isDisplayableVal(attrs.away)) {
+      const awayName = isEntityRef(attrs.away)
+        ? displayNameForRef(String(attrs.away), A)
+        : String(attrs.away);
+      if (raw.toLowerCase() === awayName.toLowerCase()) return false;
     }
     return true;
   }).map((k) => ({
