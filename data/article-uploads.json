@@ -713,5 +713,52 @@
       "match:pearses-fohenagh-junior-ch-1980-08-01"
     ],
     "notes": "Village-pack Lohan hit. No existing player:seamus-lohan / gerry-lohan / enda-lohan in seed — names kept in excerpt only; do not mint new player ids this PR."
+  },
+  {
+    "id": "art-ina-ct-2009-11-27-fohenagh-golden-era-moclair",
+    "kind": "image",
+    "filename": "art-ina-ct-2009-11-27-fohenagh-golden-era-moclair.png",
+    "path": "/uploads/articles/art-ina-ct-2009-11-27-fohenagh-golden-era-moclair.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-2009-11-27-fohenagh-golden-era-moclair.png",
+    "uploadedAt": "2026-09-19T17:43:49.075+00:00",
+    "caption": "Connacht Tribune — Fohenagh Hurling Club golden era: 1959 team photo names Jimmy Moclair",
+    "year": "2009",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "golden-era",
+      "1959",
+      "ina",
+      "moclair",
+      "team-photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-moclair-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:marty-glynn-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:tony-ogorman",
+      "player:pj-lally-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:frank-madden",
+      "player:frank-bleahan-fohenagh",
+      "player:tim-killalea",
+      "player:pj-killalea-fohenagh",
+      "player:n-farragher-fohenagh"
+    ],
+    "excerpt": "Connacht Tribune feature marking 50 years since Fohenagh’s 1959–60 Galway SHC titles. Prints the 1959 county final team photo caption naming Jimmy Moclair in the back row; also lists Tim Sweeney, Gerry Sweeney, Frank Glynn, Marty Glynn (captain), Tom Moylette, Anthony O’Gorman, P.J. Lally, Liam Manning, Mick Coen, Tommie Glynn, Frank Madden, Frank Bleahene, Tim Killilea, Paddy Killilea, Norman Farragher (trainer). Article notes Jimmy Moclair became an established Galway inter-county hurler.",
+    "citeChip": "Connacht Tribune · 27 Nov 2009 · p.54 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20091127.1.54",
+    "status": "pending",
+    "matchTags": [
+      "match:galway-shc-1959-final-replay"
+    ]
   }
 ]
