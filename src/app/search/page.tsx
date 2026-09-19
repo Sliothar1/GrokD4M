@@ -48,7 +48,7 @@ export default async function SearchPage({
           {sections.map((section) => (
             <div key={section.key} className="space-y-3">
               {section.title ? (
-                <h3 className="text-xl font-bold text-galway-ink">{section.title}</h3>
+                <h3 className="text-2xl font-bold text-galway-maroon">{section.title}</h3>
               ) : null}
               <div className="grid gap-3 sm:grid-cols-2">
                 {groupSearchResults(section.items).map((group) =>
