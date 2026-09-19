@@ -51,6 +51,10 @@ export interface ArticleUpload {
   excerpt?: string;
   /** Cite chip, e.g. "1960 · Paper" */
   citeChip?: string;
+  /** Optional PressCard masthead fields (parsed from citeChip when omitted) */
+  paper?: string;
+  date?: string;
+  page?: string;
   /** @deprecated kept for old rows; prefer privateTextPath / privateText */
   ocrText?: string;
   /** Absolute-relative path under data/private/article-text/ (local only) */
@@ -1021,6 +1025,44 @@ export async function saveUrlUpload(input: {
     draft,
     privateBody || [fetchedTitle, fetchedDesc].filter(Boolean).join("\n")
   );
+}
+
+export interface PressCite {
+  paper?: string;
+  date?: string;
+  page?: string;
+}
+
+/** Parse "Connacht Tribune · 12 Dec 2003 · p.10 · INA" into masthead fields. */
+export function parseCiteChip(cite?: string): PressCite {
+  if (!cite) return {};
+  const parts = cite
+    .split("·")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const meta: PressCite = {};
+  for (const part of parts) {
+    if (/^p\.\s*\d+/i.test(part)) {
+      meta.page = part.replace(/^p\.\s*/i, "");
+      continue;
+    }
+    if (/^ina$/i.test(part) || /^paper$/i.test(part)) continue;
+    if (/\b(19\d{2}|20[0-2]\d)\b/.test(part) && !meta.date) {
+      meta.date = part;
+      continue;
+    }
+    if (!meta.paper) meta.paper = part;
+  }
+  return meta;
+}
+
+export function pressCiteForArticle(a: ArticleUpload): PressCite {
+  const parsed = parseCiteChip(a.citeChip);
+  return {
+    paper: a.paper || parsed.paper,
+    date: a.date || parsed.date,
+    page: a.page || parsed.page,
+  };
 }
 
 export function articleToSummary(a: ArticleUpload): EntitySummary {

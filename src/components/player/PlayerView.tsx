@@ -5,6 +5,12 @@ import {
   CuttingsGallery,
   type CuttingCard,
 } from "@/components/player/CuttingsGallery";
+import { HonourStatStrip } from "@/components/player/HonourStatStrip";
+import {
+  parseCiteChip,
+  pressCiteForArticle,
+  readArticleUploads,
+} from "@/lib/articles";
 import {
   displayNameForRef,
   friendlyAttrLabel,
@@ -26,19 +32,30 @@ type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 export async function PlayerView({ data }: { data: EntityPayload }) {
   const { attrs, summary, related, triples } = data;
   const A = await getAssoc();
+  const uploads = await readArticleUploads();
+  const uploadById = new Map(uploads.map((a) => [a.id, a]));
 
   const cuttings = related
     .filter((r) => r.kind === "article_upload")
-    .map(
-      (r): CuttingCard => ({
+    .map((r): CuttingCard => {
+      const artId = r.id.startsWith("article:") ? r.id.slice("article:".length) : r.id;
+      const upload = uploadById.get(artId);
+      const press = upload
+        ? pressCiteForArticle(upload)
+        : parseCiteChip(r.citeChip);
+      return {
         id: r.id,
         title: r.title,
         excerpt: r.excerpt,
         citeChip: r.citeChip,
         imagePath: r.imagePath,
         href: r.href,
-      })
-    );
+        paper: press.paper,
+        date: press.date,
+        page: press.page,
+        headline: upload?.caption || r.title,
+      };
+    });
 
   const otherRelated = related.filter((r) => r.kind !== "article_upload");
   const appearances = otherRelated.filter((r) => r.kind === "appearance");
@@ -66,13 +83,39 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       : summary.citeChip;
   const source = attrs.source ? String(attrs.source) : null;
 
-  const facts = PLAYER_FACT_KEYS.filter(
-    (k) => isDisplayableVal(attrs[k])
-  ).map((k) => ({
-    key: k,
-    label: friendlyAttrLabel(k),
-    value: attrs[k],
-  }));
+  const facts = PLAYER_FACT_KEYS.filter((k) => isDisplayableVal(attrs[k])).map(
+    (k) => ({
+      key: k,
+      label: friendlyAttrLabel(k),
+      value: attrs[k],
+    })
+  );
+
+  const honourStats = [
+    cuttings.length > 0
+      ? { label: "Cuttings", value: String(cuttings.length) }
+      : null,
+    appearances.length > 0
+      ? { label: "Panels", value: String(appearances.length) }
+      : null,
+    namedOnCutting ? { label: "Paper", value: "Named" } : null,
+    isDisplayableVal(attrs.all_ireland_medals)
+      ? { label: "All-Irelands", value: String(attrs.all_ireland_medals) }
+      : null,
+    isDisplayableVal(attrs.all_stars)
+      ? { label: "All Stars", value: String(attrs.all_stars) }
+      : null,
+    appearances.some((a) => a.seasonChip)
+      ? {
+          label: "Seasons",
+          value: appearances
+            .map((a) => a.seasonChip)
+            .filter(Boolean)
+            .slice(0, 3)
+            .join(" · "),
+        }
+      : null,
+  ].filter((s): s is { label: string; value: string } => Boolean(s));
 
   return (
     <article className="space-y-8">
@@ -120,10 +163,12 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         </div>
       </header>
 
+      <HonourStatStrip stats={honourStats} />
+
       {cuttings.length > 0 ? (
         <CuttingsGallery cuttings={cuttings} playerName={summary.title} />
       ) : (
-        <CompactCuttingsEmpty />
+        <EmptyMediaState />
       )}
 
       {bio ? (
@@ -139,9 +184,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
 
       {(facts.length > 0 || appearances.length > 0) && (
         <section>
-          <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
-            Career
-          </h2>
+          <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Career</h2>
           <dl className="flex flex-wrap gap-2">
             {facts.map((f) => (
               <div
@@ -194,15 +237,10 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
 
       {relatedRail.length > 0 ? (
         <section>
-          <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
-            Related
-          </h2>
+          <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Related</h2>
           <div className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:thin]">
             {relatedRail.map((r) => (
-              <div
-                key={r.id}
-                className="w-[min(78vw,18rem)] shrink-0 snap-start"
-              >
+              <div key={r.id} className="w-[min(78vw,18rem)] shrink-0 snap-start">
                 <EntityCard entity={r} />
               </div>
             ))}
@@ -215,7 +253,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
   );
 }
 
-function CompactCuttingsEmpty() {
+function EmptyMediaState() {
   return (
     <div className="flex items-center gap-3 rounded-xl border border-galway-maroon/12 bg-white/80 px-3 py-2.5">
       <div
@@ -228,7 +266,10 @@ function CompactCuttingsEmpty() {
         <p className="text-sm font-bold text-galway-ink">No cuttings yet</p>
         <p className="text-xs text-galway-ink/55">
           A newspaper snip will sit here when one names this player.{" "}
-          <Link href="/stories#upload" className="font-semibold text-galway-maroon underline">
+          <Link
+            href="/stories#upload"
+            className="font-semibold text-galway-maroon underline"
+          >
             Upload on Stories
           </Link>
         </p>

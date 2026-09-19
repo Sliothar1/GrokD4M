@@ -36552,7 +36552,7 @@
   {
     "row": "player:jason-lohan",
     "col": "confidence",
-    "val": "high"
+    "val": "verified"
   },
   {
     "row": "player:jason-lohan",
@@ -36562,12 +36562,27 @@
   {
     "row": "player:jason-lohan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Also Ahascragh–Fohenagh Minor B 1999 roll of honour."
+    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Ahascragh–Fohenagh Minor B 1999 roll of honour. Connacht Tribune 12 Dec 2003: two excellent first-half goals (Darren Smyth and Jason Lohan) as Ahascragh/Fohenagh drew a Co. B U-21 quarter-final with Oranmore/Maree (2-8 to 0-15); J. Lohan on the Minor B final XV vs Moylough (1-8 to 0-11 draw). Connacht Tribune 22 Jul 2005: started for Ahascragh/Fohenagh and scored 0-1."
   },
   {
     "row": "player:jason-lohan",
     "col": "notable",
-    "val": "Jason Lohan of Ahascragh-Fohenagh stood on Galway’s All-Ireland Intermediate hurling panel in 2002 — a maroon jersey among the county’s Intermediate champions that year. Earlier he was on the club’s Minor B roll of honour in 1999."
+    "val": "Jason Lohan of Ahascragh-Fohenagh — Galway All-Ireland Intermediate panelist in 2002, a Minor B final XV name, and the Connacht Tribune’s man for two first-half goals in a Co. B U-21 quarter-final, later starting and scoring 0-1 for the club."
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "kid_chip",
+    "val": "U-21 goalscorer · AI Intermediate 2002"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 12 Dec 2003 · p.10 · INA"
   },
   {
     "row": "player:jim-morris",
@@ -86252,7 +86267,7 @@
   {
     "row": "player:jason-lohan",
     "col": "status",
-    "val": "archivist_approved"
+    "val": "verified_from_cutting"
   },
   {
     "row": "player:jim-morris",
