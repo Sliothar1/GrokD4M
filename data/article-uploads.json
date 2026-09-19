@@ -412,8 +412,8 @@
     "filename": "art-ina-ct-2003-12-12-jason-lohan-u21.png",
     "path": "/uploads/articles/art-ina-ct-2003-12-12-jason-lohan-u21.png",
     "publicUrl": "/uploads/articles/art-ina-ct-2003-12-12-jason-lohan-u21.png",
-    "uploadedAt": "2026-09-19T16:39:44.875157+00:00",
-    "caption": "INA snip — Connacht Tribune 12 Dec 2003: Jason Lohan goals in Co. B U-21 QF for Ahascragh/Fohenagh",
+    "uploadedAt": "2026-09-19T16:47:37.781694+00:00",
+    "caption": "Connacht Tribune — HURLING DRAW: Jason Lohan goals in Co. B U-21 QF",
     "year": "2003",
     "tags": [
       "hurling",
@@ -429,11 +429,42 @@
     "playerTags": [
       "player:jason-lohan"
     ],
-    "excerpt": "Ahascragh/Fohenagh U-21s drew with Oranmore/Maree in the Co. B championship quarter-final at Duggan Park, Ballinasloe (2-8 to 0-15). Two excellent first-half goals by Darren Smyth and Jason Lohan gave the local side a half-time lead of 2-3 to 0-4.",
+    "excerpt": "Two excellent goals in the first half by Darren Smyth and Jason Lohan gave Ahascragh/Fohenagh a half-time lead of 2-3 to 0-4 before an exciting Co. B U-21 championship quarter-final draw with Oranmore/Maree at Duggan Park (2-8 to 0-15).",
     "citeChip": "Connacht Tribune · 12 Dec 2003 · p.10 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20031212.1.10",
     "status": "pending",
     "matchTags": [
       "match:ahascragh-fohenagh-oranmore-maree-u21b-qf-2003"
+    ]
+  },
+  {
+    "id": "art-ina-ct-2002-11-15-jason-lohan-u21",
+    "kind": "image",
+    "filename": "art-ina-ct-2002-11-15-jason-lohan-u21.png",
+    "path": "/uploads/articles/art-ina-ct-2002-11-15-jason-lohan-u21.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-2002-11-15-jason-lohan-u21.png",
+    "uploadedAt": "2026-09-19T16:47:37.781694+00:00",
+    "caption": "Connacht Tribune — Hurling Win: Jason Lohan stars as AF U-21s beat Ballinasloe",
+    "year": "2002",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u21",
+      "jason-lohan",
+      "ina"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:jason-lohan"
+    ],
+    "excerpt": "Ahascragh-Fohenagh U-21 hurlers beat Ballinasloe 2-11 to 0-9 at Duggan Park. Fine displays from John Smyth, Brian Kilroy, Jason Lohan, William Lyons and Anthony Griffin; Jason Lohan also named in the starting XV.",
+    "citeChip": "Connacht Tribune · 15 Nov 2002 · p.35 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20021115.1.35",
+    "status": "pending",
+    "matchTags": [
+      "match:ahascragh-fohenagh-ballinasloe-u21-2002"
     ]
   },
   {
@@ -442,8 +473,8 @@
     "filename": "art-ina-ct-2005-07-22-jason-lohan.png",
     "path": "/uploads/articles/art-ina-ct-2005-07-22-jason-lohan.png",
     "publicUrl": "/uploads/articles/art-ina-ct-2005-07-22-jason-lohan.png",
-    "uploadedAt": "2026-09-19T16:39:44.875157+00:00",
-    "caption": "INA snip — Connacht Tribune 22 Jul 2005: Jason Lohan starts for Ahascragh/Fohenagh and scores 0-1",
+    "uploadedAt": "2026-09-19T16:47:37.781694+00:00",
+    "caption": "Connacht Tribune — Jason Lohan starts as Ahascragh/Fohenagh beat Killnadeema/Leitrim",
     "year": "2005",
     "tags": [
       "hurling",
@@ -458,8 +489,9 @@
     "playerTags": [
       "player:jason-lohan"
     ],
-    "excerpt": "Ahascragh/Fohenagh earned a deserved league win over Leitrim/Kiltubbrid. The XV included Jason Lohan; scorers included Sean Lally (0-7), Alan Smyth (1-2), Patrick Sweeney (0-2), Shane Conneely (1-0), Tony Kirwan (0-1) and Jason Lohan (0-1).",
+    "excerpt": "Ahascragh/Fohenagh 2-13 Killnadeema/Leitrim 0-12. Jason Lohan named in the starting XV (between Sean Lally and Alan Smyth) as AF stayed undefeated in the league.",
     "citeChip": "Connacht Tribune · 22 Jul 2005 · p.46 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20050722.1.46",
     "status": "pending",
     "matchTags": []
   }
