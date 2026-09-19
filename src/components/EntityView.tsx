@@ -211,73 +211,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         />
       )}
 
-      <section>
-        <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Facts</h2>
-        <dl className="grid gap-3 sm:grid-cols-2">
-          {Object.entries(attrs)
-            .filter(([k, v]) => !isHiddenFactKey(k) && isDisplayableVal(v) && !(hideScore && k === "score"))
-            .map(([k, v]) => (
-              <div
-                key={k}
-                className="rounded-xl border border-galway-maroon/10 bg-white px-4 py-3"
-              >
-                <dt className="text-xs font-bold uppercase tracking-wide text-galway-ink/50">
-                  {friendlyAttrLabel(k)}
-                </dt>
-                <dd className="mt-1 text-lg font-semibold text-galway-ink break-words">
-                  {isEntityRef(v) ? (
-                    <Link
-                      href={
-                        v.startsWith("player:")
-                          ? `/player/${v.slice(7)}`
-                          : v.startsWith("team:")
-                            ? `/team/${v.slice(5)}`
-                            : v.startsWith("club:")
-                              ? `/club/${v.slice(5)}`
-                              : v.startsWith("match:")
-                                ? `/match/${v.slice(6)}`
-                                : v.startsWith("win:")
-                                  ? `/win/${v.slice(4)}`
-                                  : v.startsWith("story:")
-                                    ? `/story/${v.slice(6)}`
-                                    : `/search?q=${encodeURIComponent(v)}`
-                      }
-                      className="text-galway-maroon underline"
-                    >
-                      {displayNameForRef(v, A)}
-                    </Link>
-                  ) : typeof v === "string" && v.startsWith("http") ? (
-                    <a
-                      href={v}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-galway-maroon underline"
-                    >
-                      Open source
-                    </a>
-                  ) : (
-                    String(v)
-                  )}
-                </dd>
-              </div>
-            ))}
-        </dl>
-        {source && source.startsWith("http") && (
-          <p className="mt-4 text-sm text-galway-ink/70">
-            Source:{" "}
-            <a
-              href={source}
-              className="font-semibold text-galway-maroon underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Open source
-            </a>
-          </p>
-        )}
-      </section>
-
-      {(() => {
+{(() => {
         const cuttings = related.filter((r) => r.kind === "article_upload");
         const otherRelated = related.filter((r) => r.kind !== "article_upload");
         const showCuttings =
@@ -355,6 +289,74 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           </>
         );
       })()}
+
+      <section>
+        <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Facts</h2>
+        <dl className="grid gap-3 sm:grid-cols-2">
+          {Object.entries(attrs)
+            .filter(([k, v]) => !isHiddenFactKey(k) && isDisplayableVal(v) && !(hideScore && k === "score"))
+            .map(([k, v]) => (
+              <div
+                key={k}
+                className="rounded-xl border border-galway-maroon/10 bg-white px-4 py-3"
+              >
+                <dt className="text-xs font-bold uppercase tracking-wide text-galway-ink/50">
+                  {friendlyAttrLabel(k)}
+                </dt>
+                <dd className="mt-1 text-lg font-semibold text-galway-ink break-words">
+                  {isEntityRef(v) ? (
+                    <Link
+                      href={
+                        v.startsWith("player:")
+                          ? `/player/${v.slice(7)}`
+                          : v.startsWith("team:")
+                            ? `/team/${v.slice(5)}`
+                            : v.startsWith("club:")
+                              ? `/club/${v.slice(5)}`
+                              : v.startsWith("match:")
+                                ? `/match/${v.slice(6)}`
+                                : v.startsWith("win:")
+                                  ? `/win/${v.slice(4)}`
+                                  : v.startsWith("story:")
+                                    ? `/story/${v.slice(6)}`
+                                    : `/search?q=${encodeURIComponent(v)}`
+                      }
+                      className="text-galway-maroon underline"
+                    >
+                      {displayNameForRef(v, A)}
+                    </Link>
+                  ) : typeof v === "string" && v.startsWith("http") ? (
+                    <a
+                      href={v}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-galway-maroon underline"
+                    >
+                      Open source
+                    </a>
+                  ) : (
+                    String(v)
+                  )}
+                </dd>
+              </div>
+            ))}
+        </dl>
+        {source && source.startsWith("http") && (
+          <p className="mt-4 text-sm text-galway-ink/70">
+            Source:{" "}
+            <a
+              href={source}
+              className="font-semibold text-galway-maroon underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open source
+            </a>
+          </p>
+        )}
+      </section>
+
+      
 
       <section>
         <h2 className="mb-3 text-2xl font-bold text-galway-maroon">

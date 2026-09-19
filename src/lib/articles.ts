@@ -306,10 +306,21 @@ async function storePrivateTextBlob(
 }
 
 export async function readArticleUploads(): Promise<ArticleUpload[]> {
-  if (isBlobStorageEnabled()) {
-    return listArticleUploadsFromBlob();
+  /** Always include git-committed cuttings (public/uploads + article-uploads.json).
+   *  Blob (when healthy) overlays/extends them — never hide repo cuttings if Blob is empty/suspended. */
+  const fromFs = readArticleUploadsFromFs();
+  if (!isBlobStorageEnabled()) return fromFs;
+  try {
+    const fromBlob = await listArticleUploadsFromBlob();
+    const byId = new Map<string, ArticleUpload>();
+    for (const a of fromFs) byId.set(a.id, a);
+    for (const a of fromBlob) byId.set(a.id, a); // blob wins on same id
+    return Array.from(byId.values()).sort((a, b) =>
+      String(b.uploadedAt).localeCompare(String(a.uploadedAt))
+    );
+  } catch {
+    return fromFs;
   }
-  return readArticleUploadsFromFs();
 }
 
 export async function getArticleUpload(
