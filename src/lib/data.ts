@@ -140,6 +140,33 @@ export function friendlyTrustLabel(confidence?: string | null): string | undefin
   return "Needs check";
 }
 
+/** True when a player is named on a newspaper cutting (archivist / ingest stamps). */
+export function isVerifiedFromCutting(
+  attrs: Record<string, TripleVal>
+): boolean {
+  const status = String(attrs.status ?? "").toLowerCase();
+  const verification = String(attrs.verification ?? "").toLowerCase();
+  return (
+    status === "verified_from_cutting" ||
+    verification.includes("verified_from_cutting") ||
+    verification.includes("named in newspaper") ||
+    verification.includes("from cutting")
+  );
+}
+
+/** Player header trust: cutting/archivist stamps beat raw confidence. */
+export function playerTrustLabel(
+  attrs: Record<string, TripleVal>,
+  confidence?: string | null
+): string | undefined {
+  if (isVerifiedFromCutting(attrs)) return "Verified";
+  const status = String(attrs.status ?? "").toLowerCase();
+  if (status === "archivist_approved") return "Verified";
+  return friendlyTrustLabel(
+    confidence ?? (attrs.confidence != null ? String(attrs.confidence) : undefined)
+  );
+}
+
 /** True for All-Ireland SHC / Club titles — not county Junior/Minor grades. */
 export function isAllIrelandWinAttrs(attrs: Record<string, TripleVal>): boolean {
   if (String(attrs.type ?? "") === "all_ireland_win") return true;
@@ -223,6 +250,7 @@ export function friendlyAttrLabel(key: string): string {
     score_disputed: "Score disputed",
     archivist_ruling: "Archivist",
     cite_chip: "Cite",
+    cutting_cite: "Cutting cite",
     grade: "Grade",
     hold: "Hold",
   };
@@ -336,9 +364,15 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
           : `/search?q=${encodeURIComponent(title)}`
         : entityHref(id, kind),
     confidence,
-    trustLabel: friendlyTrustLabel(confidence),
+    trustLabel:
+      kind === "player"
+        ? playerTrustLabel(attrs, confidence)
+        : friendlyTrustLabel(confidence),
     kindLabel,
   };
+  if (kind === "player") {
+    if (attrs.cutting_cite) summary.citeChip = String(attrs.cutting_cite);
+  }
   if (kind === "article_upload") {
     summary.badge = String(attrs.badge ?? "From cutting");
     if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);

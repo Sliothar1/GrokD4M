@@ -8,6 +8,7 @@ import {
   HistoricPredecessorChip,
   LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
+import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
   displayNameForRef,
   friendlyAttrLabel,
@@ -16,52 +17,9 @@ import {
   isEntityRef,
   type getEntity,
 } from "@/lib/data";
+import { isDisplayableVal, isHiddenFactKey } from "@/lib/entityDisplay";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
-
-const HIDDEN_ATTRS = new Set([
-  "type",
-  "name",
-  "title",
-  "notable",
-  "note",
-  "body",
-  "summary",
-  "confidence", // shown as friendly trust badge in header
-  "kid_chip", // rendered as dedicated kid UI chip
-  "cuttings", // rendered as ArticleClipSection
-  "excerpt",
-  "cite",
-  "verification",
-  "kind",
-  "same_as",
-  "season_chip",
-  "pack_id",
-  "hide_score",
-  "score_disputed",
-  "ingest_triage",
-  "archivist_ruling",
-  "badge",
-]);
-
-function isHiddenFactKey(k: string): boolean {
-  if (HIDDEN_ATTRS.has(k)) return true;
-  // player→cutting reverse edges (shown in Cuttings & stories)
-  if (k.startsWith("cutting:")) return true;
-  return false;
-}
-
-/** Never show null / empty / literal "null" on kid Facts cards. */
-function isDisplayableVal(v: unknown): boolean {
-  if (v === null || v === undefined) return false;
-  if (typeof v === "string") {
-    const s = v.trim();
-    if (!s || s.toLowerCase() === "null" || s.toLowerCase() === "undefined") {
-      return false;
-    }
-  }
-  return true;
-}
 
 export async function EntityView({ data }: { data: EntityPayload }) {
   const { attrs, summary, related, triples, id } = data;
@@ -113,9 +71,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               {trust}
             </span>
           )}
-          {summary.citeChip && (
+          {(summary.citeChip || attrs.cutting_cite) && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip}
+              {summary.citeChip || String(attrs.cutting_cite)}
             </span>
           )}
           {(summary.scoreDisputed ||
@@ -226,16 +184,11 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                   Cuttings &amp; stories
                 </h2>
                 {cuttings.length === 0 ? (
-                  <div className="rounded-2xl border-2 border-dashed border-galway-maroon/25 bg-galway-cream/50 px-4 py-6 text-center">
-                    <p className="text-base font-semibold text-galway-ink/70">
-                      No newspaper cuttings linked yet
-                    </p>
-                    <p className="mt-1 text-sm text-galway-ink/55">
-                      When a cutting names this{" "}
-                      {summary.kind === "player" ? "player" : "club"}, the snip
-                      shows here automatically.
-                    </p>
-                  </div>
+                  <p className="text-sm text-galway-ink/55">
+                    No newspaper cuttings linked yet — a snip will show here
+                    when one names this{" "}
+                    {summary.kind === "player" ? "player" : "club"}.
+                  </p>
                 ) : (
                   <div className="grid gap-4 sm:grid-cols-2">
                     {cuttings.map((r) => (
@@ -358,36 +311,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
 
       
 
-      <section>
-        <h2 className="mb-3 text-2xl font-bold text-galway-maroon">
-          How the sticky-note board stores this
-        </h2>
-        <p className="mb-3 text-base text-galway-ink/70">
-          Grown-ups: each line is one associative-array edge (
-          <code className="font-mono">row → col = value</code>). Kids can skip this —
-          the Facts above are the friendly view.
-        </p>
-        <ul className="space-y-2 font-mono text-sm">
-          {triples
-            .filter((t) => t.col !== "confidence" && isDisplayableVal(t.val) && !(hideScore && t.col === "score"))
-            .map((t) => (
-              <li
-                key={`${t.row}-${t.col}`}
-                className="rounded-lg bg-galway-ink px-3 py-2 text-galway-cream"
-              >
-                <span className="text-galway-gold">{t.row}</span>
-                {" · "}
-                <span className="text-white">{t.col}</span>
-                {" = "}
-                <span className="text-galway-cream">
-                  {isEntityRef(t.val)
-                    ? `${displayNameForRef(String(t.val), A)} (${t.val})`
-                    : String(t.val)}
-                </span>
-              </li>
-            ))}
-        </ul>
-      </section>
+      <DeveloperTriples triples={triples} hideScore={hideScore} />
     </article>
   );
 }

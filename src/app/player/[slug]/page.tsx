@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { EntityView } from "@/components/EntityView";
+import { PlayerView } from "@/components/player/PlayerView";
 import { getEntity, listEntitiesByType, resolveId } from "@/lib/data";
 
 export async function generateStaticParams() {
@@ -27,5 +27,5 @@ export default async function Page({
   const { slug } = await params;
   const data = await getEntity(resolveId("player", slug));
   if (!data) notFound();
-  return <EntityView data={data} />;
+  return <PlayerView data={data} />;
 }
