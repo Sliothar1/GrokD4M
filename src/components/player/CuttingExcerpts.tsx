@@ -12,12 +12,24 @@ export type CuttingCard = {
   href: string;
 };
 
+/**
+ * Player Spotlight hero order (PR #6 pack). Prefer these ids / PNG paths
+ * when present — do not block if the pack is not merged yet.
+ */
+export const JASON_HERO_CUTTING_IDS = [
+  "art-ina-ct-2003-12-12-jason-lohan-u21",
+  "art-ina-ct-2002-11-15-jason-lohan-u21",
+  "art-ina-ct-2005-07-22-jason-lohan",
+] as const;
+
 export function CuttingExcerpts({
   cuttings,
   playerName,
+  heading = "Excerpts for games",
 }: {
   cuttings: CuttingCard[];
-  playerName: string;
+  playerName?: string;
+  heading?: string;
 }) {
   const titleId = useId();
   const [lightbox, setLightbox] = useState<CuttingCard | null>(null);
@@ -41,25 +53,28 @@ export function CuttingExcerpts({
     return <CompactCuttingsEmpty />;
   }
 
-  const ordered = [...cuttings].sort(compareCuttings);
+  const ordered = cuttings.map(preferKnownCuttingImage).sort(compareCuttings);
 
   return (
     <section className="space-y-3" aria-labelledby={titleId}>
       <div className="flex items-end justify-between gap-3">
-        <h2 id={titleId} className="text-2xl font-bold text-galway-maroon">
-          Excerpts for games
+        <h2
+          id={titleId}
+          className="text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"
+        >
+          {heading}
         </h2>
-        <p className="text-sm font-semibold text-galway-ink/50">
+        <p className="text-sm font-semibold text-galway-ink/45">
           {ordered.length === 1
             ? "1 newspaper snip"
             : `${ordered.length} newspaper snips`}
         </p>
       </div>
 
-      <ul className="space-y-3">
+      <ul className="grid gap-3">
         {ordered.map((c) => (
           <li key={c.id}>
-            <ExcerptRow
+            <PressCard
               cutting={c}
               playerName={playerName}
               onOpen={() => (c.imagePath ? setLightbox(c) : undefined)}
@@ -118,67 +133,67 @@ export function CuttingExcerpts({
   );
 }
 
-function ExcerptRow({
+function PressCard({
   cutting,
   playerName,
   onOpen,
 }: {
   cutting: CuttingCard;
-  playerName: string;
+  playerName?: string;
   onOpen: () => void;
 }) {
   const canOpenImage = Boolean(cutting.imagePath);
   const body = (
     <>
-      {cutting.imagePath ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={cutting.imagePath}
-          alt=""
-          className="h-24 w-20 shrink-0 rounded-xl bg-galway-cream object-cover sm:h-28 sm:w-24"
-        />
-      ) : (
-        <div
-          aria-hidden
-          className="flex h-24 w-20 shrink-0 items-center justify-center rounded-xl bg-galway-maroon/8 sm:h-28 sm:w-24"
-        >
-          <span className="px-1 text-center text-[10px] font-bold uppercase tracking-wide text-galway-maroon">
-            Paper
-          </span>
-        </div>
-      )}
-      <div className="min-w-0 flex-1">
-        {cutting.citeChip ? (
-          <p className="text-[11px] font-bold uppercase tracking-wide text-galway-maroon">
-            {cutting.citeChip}
-          </p>
+      <div className="h-1 bg-galway-gold" />
+      <div className="flex items-start gap-3.5 p-3.5 sm:gap-4 sm:p-4">
+        {cutting.imagePath ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={cutting.imagePath}
+            alt=""
+            className="h-28 w-[4.5rem] shrink-0 rounded-md bg-white object-cover shadow-inner sm:h-32 sm:w-24"
+          />
         ) : (
-          <p className="text-[11px] font-bold uppercase tracking-wide text-galway-gold">
-            From cutting
-          </p>
+          <div
+            aria-hidden
+            className="flex h-28 w-[4.5rem] shrink-0 items-center justify-center rounded-md bg-white sm:h-32 sm:w-24"
+          >
+            <span className="px-1 text-center text-[10px] font-bold uppercase tracking-wide text-galway-maroon">
+              Paper
+            </span>
+          </div>
         )}
-        <h3 className="mt-0.5 text-base font-black text-galway-ink sm:text-lg">
-          {cutting.title}
-        </h3>
-        {cutting.excerpt ? (
-          <p className="mt-1 text-sm leading-relaxed text-galway-ink/70">
-            {cutting.excerpt}
+        <div className="min-w-0 flex-1">
+          <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-galway-maroon">
+            {cutting.citeChip ?? "From cutting"}
           </p>
-        ) : null}
-        <p className="mt-2 text-sm font-bold text-galway-maroon">
-          {canOpenImage ? "Open snip →" : "View cutting →"}
-        </p>
+          <h3 className="mt-1 text-base font-black leading-snug text-galway-ink sm:text-lg">
+            {cutting.title}
+          </h3>
+          {cutting.excerpt ? (
+            <p className="mt-2 text-[15px] leading-relaxed text-galway-ink/70">
+              {cutting.excerpt}
+            </p>
+          ) : null}
+          <p className="mt-2.5 text-sm font-bold text-galway-maroon">
+            {canOpenImage ? "Open snip →" : "View cutting →"}
+          </p>
+        </div>
       </div>
     </>
   );
+
+  const cardClass =
+    "block w-full overflow-hidden rounded-2xl border border-galway-maroon/12 bg-galway-cream text-left shadow-[0_1px_0_rgba(122,12,46,0.06)] transition hover:border-galway-maroon/40 hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold";
 
   if (canOpenImage) {
     return (
       <button
         type="button"
         onClick={onOpen}
-        className="flex w-full items-start gap-3 rounded-2xl border border-galway-maroon/15 bg-white p-3 text-left shadow-sm transition hover:border-galway-maroon hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
-        aria-label={`Open cutting: ${cutting.title} — ${playerName}`}
+        className={cardClass}
+        aria-label={`Open cutting: ${cutting.title}${playerName ? ` — ${playerName}` : ""}`}
       >
         {body}
       </button>
@@ -186,10 +201,7 @@ function ExcerptRow({
   }
 
   return (
-    <Link
-      href={cutting.href}
-      className="flex items-start gap-3 rounded-2xl border border-galway-maroon/15 bg-white p-3 shadow-sm transition hover:border-galway-maroon"
-    >
+    <Link href={cutting.href} className={cardClass}>
       {body}
     </Link>
   );
@@ -197,24 +209,52 @@ function ExcerptRow({
 
 function CompactCuttingsEmpty() {
   return (
-    <div className="flex items-center gap-3 rounded-xl border border-galway-maroon/12 bg-white/80 px-3 py-2">
-      <div className="min-w-0">
-        <p className="text-sm font-bold text-galway-ink">No game excerpts yet</p>
-        <p className="text-xs text-galway-ink/55">
-          A short snip will list here when a cutting names this player.{" "}
-          <Link
-            href="/stories#upload"
-            className="font-semibold text-galway-maroon underline"
-          >
-            Upload on Stories
-          </Link>
-        </p>
-      </div>
+    <div className="rounded-xl border border-galway-maroon/10 bg-white/70 px-3 py-2">
+      <p className="text-sm font-bold text-galway-ink">No game excerpts yet</p>
+      <p className="text-xs text-galway-ink/55">
+        A short snip will list here when a cutting names this player.{" "}
+        <Link
+          href="/stories#upload"
+          className="font-semibold text-galway-maroon underline"
+        >
+          Upload on Stories
+        </Link>
+      </p>
     </div>
   );
 }
 
+function cuttingBareId(c: CuttingCard): string {
+  const raw = c.id.includes(":") ? c.id.slice(c.id.indexOf(":") + 1) : c.id;
+  return raw.toLowerCase();
+}
+
+function heroRank(c: CuttingCard): number {
+  const bare = cuttingBareId(c);
+  const fromId = JASON_HERO_CUTTING_IDS.indexOf(
+    bare as (typeof JASON_HERO_CUTTING_IDS)[number]
+  );
+  if (fromId !== -1) return fromId;
+  const path = (c.imagePath ?? "").toLowerCase();
+  const fromPath = JASON_HERO_CUTTING_IDS.findIndex((id) => path.includes(id));
+  return fromPath === -1 ? 100 : fromPath;
+}
+
+/** Use the committed Spotlight PNG path when the cutting id matches. */
+function preferKnownCuttingImage(c: CuttingCard): CuttingCard {
+  const bare = cuttingBareId(c);
+  const hero = JASON_HERO_CUTTING_IDS.find(
+    (id) => bare === id || (c.imagePath ?? "").toLowerCase().includes(id)
+  );
+  if (!hero) return c;
+  if (c.imagePath) return c;
+  return { ...c, imagePath: `/uploads/articles/${hero}.png` };
+}
+
 function compareCuttings(a: CuttingCard, b: CuttingCard): number {
+  const ha = heroRank(a);
+  const hb = heroRank(b);
+  if (ha !== hb) return ha - hb;
   const ya = cuttingYear(a);
   const yb = cuttingYear(b);
   if (ya !== yb) return ya - yb;

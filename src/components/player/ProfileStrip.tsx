@@ -1,35 +1,26 @@
 import Link from "next/link";
-
-export type ClubChip = {
-  id: string;
-  href: string;
-  label: string;
-};
+import { ClubChip, TrustChip } from "@/components/chips";
+import type { ClubChipData } from "@/lib/playerClubs";
 
 export function ProfileStrip({
   name,
-  clubName,
+  clubs,
   countyName,
   photoUrl,
   photoUploadHref,
   verified,
   trustLabel,
-  clubChips = [],
 }: {
   name: string;
-  clubName?: string;
+  clubs: ClubChipData[];
   countyName?: string;
   photoUrl: string | null;
   photoUploadHref: string;
   /** Named-in-cutting or equivalent (archivist / high confidence). */
   verified: boolean;
   trustLabel?: string;
-  /** Every jersey the player wore — clickable links to club pages. */
-  clubChips?: ClubChip[];
 }) {
-  const subtitle = [clubName, countyName].filter(Boolean).join(" · ");
   const chip = verified ? "Verified" : trustLabel;
-  const showChipRow = Boolean(chip) || clubChips.length > 0;
 
   return (
     <header className="flex items-start gap-4 sm:gap-5">
@@ -38,50 +29,26 @@ export function ProfileStrip({
         photoUrl={photoUrl}
         uploadHref={photoUploadHref}
       />
-      <div className="min-w-0 flex-1 space-y-2 pt-0.5">
-        <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">
+      <div className="min-w-0 flex-1 space-y-2.5 pt-0.5">
+        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon/80">
           Player
         </p>
-        <h1 className="text-3xl font-black tracking-tight text-galway-ink sm:text-5xl">
+        <h1 className="text-[1.85rem] font-black leading-[1.1] tracking-tight text-galway-ink sm:text-5xl">
           {name}
         </h1>
-        {subtitle ? (
-          <p className="text-lg font-semibold text-galway-ink/70">{subtitle}</p>
-        ) : null}
-        {showChipRow ? (
-          <div
-            className="flex flex-wrap items-center gap-2 pt-0.5"
-            aria-label="Trust and club jerseys"
-          >
-            {chip ? (
-              <span
-                className={
-                  chip === "Verified"
-                    ? "rounded-full bg-green-100 px-2.5 py-0.5 text-sm font-bold text-green-800"
-                    : chip === "Fan story"
-                      ? "rounded-full bg-galway-gold/30 px-2.5 py-0.5 text-sm font-bold text-galway-ink"
-                      : "rounded-full bg-amber-100 px-2.5 py-0.5 text-sm font-bold text-amber-900"
-                }
-              >
-                {chip}
-              </span>
-            ) : null}
-            {clubChips.map((club) => (
-              <Link
-                key={club.id}
-                href={club.href}
-                title={
-                  club.id === "club:fohenagh-historic" ||
-                  club.id === "club:ahascragh-historic"
-                    ? "Before Ahascragh-Fohenagh"
-                    : club.label
-                }
-                className="rounded-full bg-galway-maroon px-2.5 py-0.5 text-sm font-bold text-white transition hover:bg-galway-maroon-dark focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
-              >
-                {club.label}
-              </Link>
-            ))}
-          </div>
+        <div
+          className="flex flex-wrap items-center gap-1.5"
+          aria-label="Trust and club jerseys"
+        >
+          <TrustChip label={chip} />
+          {clubs.map((c) => (
+            <ClubChip key={c.id} href={c.href} label={c.name} />
+          ))}
+        </div>
+        {countyName ? (
+          <p className="text-sm font-semibold text-galway-ink/50">
+            {countyName}
+          </p>
         ) : null}
       </div>
     </header>
@@ -99,7 +66,7 @@ function ProfilePhotoSlot({
 }) {
   if (photoUrl) {
     return (
-      <div className="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border-2 border-galway-maroon/20 bg-galway-cream shadow-sm sm:h-32 sm:w-32">
+      <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-galway-cream shadow-sm sm:h-28 sm:w-28">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={photoUrl}
@@ -113,19 +80,16 @@ function ProfilePhotoSlot({
   return (
     <Link
       href={uploadHref}
-      className="flex h-28 w-28 shrink-0 flex-col items-center justify-center gap-1 rounded-2xl border-2 border-dashed border-galway-maroon/35 bg-galway-cream/80 text-center shadow-inner transition hover:border-galway-maroon hover:bg-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold sm:h-32 sm:w-32"
+      className="flex h-24 w-24 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-dashed border-galway-maroon/30 bg-white/70 text-center transition hover:border-galway-maroon hover:bg-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold sm:h-28 sm:w-28"
     >
       <span
         aria-hidden
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-galway-maroon text-lg font-black text-galway-gold"
+        className="flex h-8 w-8 items-center justify-center rounded-full bg-galway-maroon text-base font-black text-galway-gold"
       >
         +
       </span>
-      <span className="px-2 text-xs font-bold text-galway-maroon">
+      <span className="px-2 text-[11px] font-bold text-galway-maroon">
         Add photo
-      </span>
-      <span className="px-2 text-[10px] font-semibold leading-tight text-galway-ink/50">
-        Panel photo later
       </span>
     </Link>
   );

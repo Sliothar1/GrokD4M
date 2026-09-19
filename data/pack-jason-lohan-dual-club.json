@@ -1,0 +1,13 @@
+{
+  "pack": "jason-lohan-dual-club",
+  "at": "2026-09-19T17:20:00+00:00",
+  "scope": "player:jason-lohan jersey links only — no weekday continuous ingest",
+  "updated": ["player:jason-lohan"],
+  "created": [],
+  "notes": [
+    "Seed already had club = club:ahascragh-fohenagh (adult amalgam) plus AF appearances.",
+    "Added club_history = club:ahascragh-historic — honest parish/era jersey, not a new appearance or score.",
+    "Note now states two jerseys (Ahascragh historic + AF). No invented caps, minutes, or match stats.",
+    "Three-club model stays locked: fohenagh-historic, ahascragh-historic, ahascragh-fohenagh."
+  ]
+}
