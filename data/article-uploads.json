@@ -647,5 +647,40 @@
     "matchTags": [
       "match:fohenagh-historic-1963-galway-shc-final"
     ]
+  },
+  {
+    "id": "art-ina-ct-1973-05-04-fohenagh-larkins",
+    "kind": "image",
+    "filename": "art-ina-ct-1973-05-04-fohenagh-larkins.png",
+    "path": "/uploads/articles/art-ina-ct-1973-05-04-fohenagh-larkins.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1973-05-04-fohenagh-larkins.png",
+    "uploadedAt": "2026-09-19T17:11:01.392+00:00",
+    "caption": "Connacht Tribune — Larkins Get A Fright In Cup: Tommie Larkins 5-12 Fohenagh 4-4; Tim Sweeney sub",
+    "year": "1973",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tommie-larkins",
+      "senior",
+      "championship",
+      "ina",
+      "tim-sweeney"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:mick-moylette-fohenagh"
+    ],
+    "excerpt": "County Senior Hurling Championship first round at Killimor: Tommie Larkins 5-12, Fohenagh 4-4. Printed Fohenagh XV: D. Devine; T. Noone; M. Moylett; M. Costello; N. Lohan; G. Costello; M. Lohan; G. Lohan; G. Sweeney; A. Mitchell; E. Lohan (1-0); J. J. Grady (1-4); D. Barrett (2-0); F. Glynn; P. Lohan. Sub: Tim Sweeney for A. Mitchell. Report notes veteran Tim Sweeney still made his presence felt among the forwards in the second half.",
+    "citeChip": "Connacht Tribune · 4 May 1973 · p.9 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19730504.1.9",
+    "status": "pending",
+    "matchTags": [
+      "match:tommie-larkins-fohenagh-shc-1973-05-04"
+    ]
   }
 ]
