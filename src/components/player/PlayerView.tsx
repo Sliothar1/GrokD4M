@@ -16,6 +16,7 @@ import {
 import {
   isDisplayableVal,
   playerArchiveNote,
+  playerClubIds,
   playerNotableText,
 } from "@/lib/entityDisplay";
 import {
@@ -52,9 +53,9 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
   const namedOnCutting =
     isVerifiedFromCutting(attrs) || cuttings.length > 0;
   const verified = namedOnCutting || trust === "Verified";
-  const clubName = attrs.club
-    ? displayNameForRef(String(attrs.club), A)
-    : undefined;
+  const clubName = playerClubIds(attrs)
+    .map((clubId) => displayNameForRef(clubId, A))
+    .join(" · ") || undefined;
   const countyName = attrs.county
     ? displayNameForRef(String(attrs.county), A)
     : undefined;
