@@ -264,5 +264,34 @@
       "match:fohenagh-historic-1959-galway-shc-final-draw"
     ],
     "privateTextPath": "data/private/article-text/art-fohenagh-clip6.txt"
+  },
+  {
+    "id": "art-ina-fohenagh-1942-04-04-tuam-herald",
+    "kind": "image",
+    "filename": "ina-fohenagh-1942-04-04-tuam-herald-upper.png",
+    "path": "/uploads/articles/ina-fohenagh-1942-04-04-tuam-herald-upper.png",
+    "publicUrl": "/uploads/articles/ina-fohenagh-1942-04-04-tuam-herald-upper.png",
+    "uploadedAt": "2026-09-19T16:05:47.330173+00:00",
+    "caption": "INA snip — Tuam Herald 4 Apr 1942 Junior Hurling North Board Final, Fohenagh beat Cussaun",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "cussane",
+      "junior",
+      "north-board",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:cussane-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fohenagh emerged winners of the North Board Junior Final after an hour's hard hurling with Cussaun. They were superior most of the hour, but great back play and a splendid goalie kept the Cussaun goal intact.",
+    "citeChip": "Tuam Herald · 4 Apr 1942 · p.2 · INA",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-cussane-north-board-junior-final-1942"
+    ]
   }
 ]
