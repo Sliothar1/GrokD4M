@@ -66,7 +66,18 @@ export async function MatchView({ data }: { data: EntityPayload }) {
 
   const facts = MATCH_FACT_KEYS.filter((k) => {
     if (hideScore && k === "score") return false;
-    return isDisplayableVal(attrs[k]);
+    if (!isDisplayableVal(attrs[k])) return false;
+    const raw = String(attrs[k]);
+    // Hide machine slugs like fohenagh-win from the kid strip.
+    if (k === "result" && isMachineSlug(raw)) return false;
+    if (
+      k === "opponent" &&
+      isDisplayableVal(attrs.away) &&
+      raw.toLowerCase() === String(attrs.away).toLowerCase()
+    ) {
+      return false;
+    }
+    return true;
   }).map((k) => ({
     key: k,
     label: friendlyAttrLabel(k),
@@ -84,6 +95,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
       r.kind !== "appearance" &&
       r.kind !== "club"
   );
+  const subtitle = kidMatchSubtitle(summary.subtitle, attrs, hideScore);
 
   return (
     <article className="space-y-8">
@@ -94,9 +106,9 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         <h1 className="text-[1.75rem] font-black leading-[1.15] tracking-tight text-galway-ink sm:text-4xl">
           {summary.title}
         </h1>
-        {summary.subtitle ? (
+        {subtitle ? (
           <p className="text-lg font-semibold text-galway-ink/70">
-            {summary.subtitle}
+            {subtitle}
           </p>
         ) : null}
         <div className="flex flex-wrap items-center gap-1.5">
@@ -104,11 +116,6 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           {isHistoricMatch ? (
             <span className="rounded-full bg-galway-maroon px-2.5 py-0.5 text-sm font-bold text-white">
               Historic
-            </span>
-          ) : null}
-          {summary.seasonChip ? (
-            <span className="rounded-full bg-galway-maroon/10 px-2.5 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.seasonChip}
             </span>
           ) : null}
           {(summary.citeChip || attrs.cutting_cite) && (
@@ -228,6 +235,24 @@ export async function MatchView({ data }: { data: EntityPayload }) {
       <DeveloperTriples triples={triples} hideScore={hideScore} />
     </article>
   );
+}
+
+function isMachineSlug(val: string): boolean {
+  return /^[a-z][a-z0-9-]+$/.test(val.trim());
+}
+
+function kidMatchSubtitle(
+  subtitle: string | undefined,
+  attrs: EntityPayload["attrs"],
+  hideScore: boolean
+): string | undefined {
+  if (!hideScore && isDisplayableVal(attrs.score)) return String(attrs.score);
+  if (!subtitle) return undefined;
+  const cleaned = subtitle
+    .split(" · ")
+    .filter((part) => part.trim() && !isMachineSlug(part))
+    .join(" · ");
+  return cleaned || undefined;
 }
 
 function matchClubChips(
