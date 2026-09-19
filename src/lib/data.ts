@@ -17,7 +17,9 @@ import {
 } from "@/lib/articles";
 import {
   buildSearchRankContext,
+  collapseToUniquePlayers,
   compareSearchHits,
+  findStrongPrimaryEntities,
   searchTokens,
 } from "@/lib/searchRank";
 
@@ -609,6 +611,29 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
   out.sort((a, b) => compareSearchHits(a, b, rankCtx, (id) => A.entityAttrs(id)));
 
   return out;
+}
+
+/**
+ * Kid-facing search: player / club / team name hits only.
+ * Cuttings, matches, and panel rows stay on entity pages — not the result list.
+ * Each player id appears once (no Cathal Mannion × N appearance rows).
+ */
+export async function searchPrimaryEntities(query: string): Promise<EntitySummary[]> {
+  const A = await getAssoc();
+  const hits = findStrongPrimaryEntities(query, A);
+  const seen = new Set<string>();
+  const out: EntitySummary[] = [];
+  for (const hit of hits) {
+    if (seen.has(hit.id)) continue;
+    const summary = summarizeEntity(hit.id, A);
+    if (!summary) continue;
+    if (summary.kind !== "player" && summary.kind !== "club" && summary.kind !== "team") {
+      continue;
+    }
+    seen.add(hit.id);
+    out.push(summary);
+  }
+  return collapseToUniquePlayers(out);
 }
 
 const CITE_OVERLAY_COLS = [
