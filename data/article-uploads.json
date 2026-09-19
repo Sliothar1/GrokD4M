@@ -405,5 +405,62 @@
     "matchTags": [
       "match:fohenagh-historic-1959-galway-shc-final-replay"
     ]
+  },
+  {
+    "id": "art-ina-ct-2003-12-12-jason-lohan-u21",
+    "kind": "image",
+    "filename": "art-ina-ct-2003-12-12-jason-lohan-u21.png",
+    "path": "/uploads/articles/art-ina-ct-2003-12-12-jason-lohan-u21.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-2003-12-12-jason-lohan-u21.png",
+    "uploadedAt": "2026-09-19T16:39:44.875157+00:00",
+    "caption": "INA snip — Connacht Tribune 12 Dec 2003: Jason Lohan goals in Co. B U-21 QF for Ahascragh/Fohenagh",
+    "year": "2003",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u21",
+      "jason-lohan",
+      "ina",
+      "goal"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:jason-lohan"
+    ],
+    "excerpt": "Ahascragh/Fohenagh U-21s drew with Oranmore/Maree in the Co. B championship quarter-final at Duggan Park, Ballinasloe (2-8 to 0-15). Two excellent first-half goals by Darren Smyth and Jason Lohan gave the local side a half-time lead of 2-3 to 0-4.",
+    "citeChip": "Connacht Tribune · 12 Dec 2003 · p.10 · INA",
+    "status": "pending",
+    "matchTags": [
+      "match:ahascragh-fohenagh-oranmore-maree-u21b-qf-2003"
+    ]
+  },
+  {
+    "id": "art-ina-ct-2005-07-22-jason-lohan",
+    "kind": "image",
+    "filename": "art-ina-ct-2005-07-22-jason-lohan.png",
+    "path": "/uploads/articles/art-ina-ct-2005-07-22-jason-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-2005-07-22-jason-lohan.png",
+    "uploadedAt": "2026-09-19T16:39:44.875157+00:00",
+    "caption": "INA snip — Connacht Tribune 22 Jul 2005: Jason Lohan starts for Ahascragh/Fohenagh and scores 0-1",
+    "year": "2005",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "jason-lohan",
+      "ina",
+      "league"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:jason-lohan"
+    ],
+    "excerpt": "Ahascragh/Fohenagh earned a deserved league win over Leitrim/Kiltubbrid. The XV included Jason Lohan; scorers included Sean Lally (0-7), Alan Smyth (1-2), Patrick Sweeney (0-2), Shane Conneely (1-0), Tony Kirwan (0-1) and Jason Lohan (0-1).",
+    "citeChip": "Connacht Tribune · 22 Jul 2005 · p.46 · INA",
+    "status": "pending",
+    "matchTags": []
   }
 ]
