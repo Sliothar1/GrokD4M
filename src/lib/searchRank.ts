@@ -114,7 +114,12 @@ export function buildSearchRankContext(query: string, A: AssocArray): SearchRank
     tokens: searchTokens(query),
     matchedClubs,
     clubIntent: matchedClubs.size > 0,
-    playerClubOf: (playerId: string) => String(A.entityAttrs(playerId).club ?? ""),
+    playerClubOf: (playerId: string) => {
+      const attrs = A.entityAttrs(playerId);
+      return [attrs.club, attrs.also_club, attrs.club_1]
+        .filter((v) => typeof v === "string" && v.startsWith("club:"))
+        .join(" ");
+    },
   };
 }
 

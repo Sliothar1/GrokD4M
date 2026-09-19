@@ -191,6 +191,8 @@ export function friendlyAttrLabel(key: string): string {
     also_club: "Also club",
     also_known_as: "Also known as",
     father: "Father",
+    club_1: "Also played for",
+    club_2: "Also played for",
     team: "Team",
     position: "Position",
     born: "Born",
@@ -263,9 +265,86 @@ export function friendlyAttrLabel(key: string): string {
     hold: "Hold",
   };
   if (labels[key]) return labels[key];
+  // Numbered extras: club_1, club_2, … (same pattern as article cuttings)
+  if (/^club_\d+$/.test(key)) return "Also played for";
   // Player × Season → Club cols look like "season:2016"
   if (/^season:\d{4}$/.test(key)) return `Club in ${key.slice(7)}`;
   return key.replace(/_/g, " ");
+}
+
+/**
+ * Locked three-club model (Club Desk / D4M). Do not invent new club ids.
+ * Historic parish clubs pre-2002; adult amalgam from 2002.
+ */
+export const LOCKED_CLUB_ERA = [
+  "club:fohenagh-historic",
+  "club:ahascragh-historic",
+  "club:ahascragh-fohenagh",
+] as const;
+
+const NUMBERED_CLUB_COL = /^club(?:_(\d+))?$/;
+const SEASON_CLUB_COL = /^season:\d{4}$/;
+
+export function isClubId(val: unknown): val is `club:${string}` {
+  return typeof val === "string" && /^club:[a-z0-9][a-z0-9-]*$/i.test(val);
+}
+
+function numberedClubColIndex(col: string): number {
+  if (col === "club") return 0;
+  const m = col.match(/^club_(\d+)$/);
+  return m ? Number(m[1]) : 99;
+}
+
+function sortClubsByEra(ids: string[]): string[] {
+  const rank = new Map<string, number>(
+    LOCKED_CLUB_ERA.map((id, i) => [id, i])
+  );
+  return [...ids].sort((a, b) => {
+    const ra = rank.get(a) ?? 100;
+    const rb = rank.get(b) ?? 100;
+    if (ra !== rb) return ra - rb;
+    return a.localeCompare(b);
+  });
+}
+
+/**
+ * Every jersey a player wore.
+ *
+ * Dual-era pattern (AssocArray is one val per col):
+ * - `club` = primary / current jersey
+ * - `also_club` = second jersey (main / Pitchside)
+ * - `club_1`, `club_2`, … = numbered extras (same as article cuttings)
+ * - `season:YYYY` → club id (existing player × season edges)
+ * Optional `extra` for appearance.club refs collected by the caller.
+ */
+export function playerClubIds(
+  attrs: Record<string, TripleVal>,
+  extra: Iterable<string> = []
+): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  const add = (raw: unknown) => {
+    if (!isClubId(raw)) return;
+    const id = raw.toLowerCase();
+    if (seen.has(id)) return;
+    seen.add(id);
+    out.push(id);
+  };
+
+  add(attrs.club);
+  add(attrs.also_club);
+
+  const numbered = Object.keys(attrs)
+    .filter((k) => NUMBERED_CLUB_COL.test(k))
+    .sort((a, b) => numberedClubColIndex(a) - numberedClubColIndex(b));
+  for (const k of numbered) add(attrs[k]);
+
+  for (const [k, v] of Object.entries(attrs)) {
+    if (SEASON_CLUB_COL.test(k)) add(v);
+  }
+  for (const id of extra) add(id);
+
+  return sortClubsByEra(out);
 }
 
 /**
@@ -302,11 +381,13 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     String(attrs.name ?? attrs.title ?? attrs.year ?? displayNameForRef(id, A));
   let subtitle: string | undefined;
   if (kind === "player") {
-    const clubIds = [attrs.club, attrs.also_club]
-      .filter((v): v is string => typeof v === "string" && v.startsWith("club:"))
-      .filter((id, i, all) => all.indexOf(id) === i);
-    const clubNames = clubIds.map((clubId) => displayNameForRef(clubId, A));
-    subtitle = [attrs.position, ...clubNames].filter(Boolean).map(String).join(" · ");
+    const clubNames = playerClubIds(attrs)
+      .map((clubId) => displayNameForRef(clubId, A))
+      .filter(Boolean);
+    subtitle = [attrs.position, ...clubNames]
+      .filter(Boolean)
+      .map(String)
+      .join(" · ");
   } else if (kind === "win") {
     const isAI = isAllIrelandWinAttrs(attrs);
     if (isAI) {
