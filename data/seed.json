@@ -88700,46 +88700,6 @@
     "val": "pending_archivist"
   },
   {
-    "row": "player:nicholas-murray",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "name",
-    "val": "Nicholas Murray"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "note",
-    "val": "Named in Connacht Tribune / Tuam Herald 1960 SHC final: Fohenagh midfield."
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
     "row": "player:kenneth-walsh",
     "col": "type",
     "val": "player"
@@ -116720,46 +116680,6 @@
     "val": "pending_archivist"
   },
   {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "name",
-    "val": "Paddy Killilea"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Paddy Killilea started for Fohenagh."
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
     "row": "player:mick-moylette-fohenagh",
     "col": "type",
     "val": "player"
@@ -116796,46 +116716,6 @@
   },
   {
     "row": "player:mick-moylette-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "name",
-    "val": "Gerry Sweeney"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Gerry Sweeney started for Fohenagh (point scorer first half)."
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
     "col": "status",
     "val": "pending_archivist"
   },
@@ -134776,46 +134656,6 @@
   },
   {
     "row": "player:cathal-concannon-ahascragh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "name",
-    "val": "Noel Fitzgerald"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "club",
-    "val": "club:ahascragh-historic"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "source",
-    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "note",
-    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best despite the 0-9 to 1-12 defeat (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
     "col": "status",
     "val": "pending_archivist"
   },
@@ -243535,41 +243375,6 @@
     "val": "https://www.galwaybayfm.ie/sports/county-intermediate-hurling-championship-reports-227441"
   },
   {
-    "row": "player:padraic-leonard",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "name",
-    "val": "Pádraic Leonard"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "also_known_as",
-    "val": "Padraig Leonard; Padraic Leonard"
-  },
-  {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "also_known_as",
     "val": "Alan Mockler; A. Moclair"
@@ -243608,76 +243413,6 @@
     "row": "player:sean-moclair",
     "col": "also_known_as",
     "val": "Sean Moclair; Sean Mockler; Seán Mockler"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "name",
-    "val": "Séamus Moclair"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "also_known_as",
-    "val": "Seamus Moclair; Seamus Mockler; Séamus Mockler"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "name",
-    "val": "Garry Lohan"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "also_known_as",
-    "val": "Gary Lohan"
   },
   {
     "row": "player:phillip-lohan",
@@ -244035,406 +243770,6 @@
     "val": "pending_verification"
   },
   {
-    "row": "player:seamus-moclair",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:seamus-moclair",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:padraic-leonard",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:garry-lohan",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:john-devine",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:john-devine",
-    "col": "name",
-    "val": "John Devine"
-  },
-  {
-    "row": "player:john-devine",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:john-devine",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:john-devine",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:john-devine",
-    "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:john-devine",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:john-devine",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "name",
-    "val": "Alan Madden"
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:alan-madden",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "name",
-    "val": "Ollie Deeley"
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:ollie-deeley",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "name",
-    "val": "Tony Kirwan"
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting). Club-scoped historic id (distinct from amalgam Tony Kirwan where needed)."
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:tony-kirwan-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:noel-fitzgerald-ahascragh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "name",
-    "val": "Sean Morrissey"
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "club",
-    "val": "club:ahascragh-historic"
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "note",
-    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting). Club-scoped Ahascragh id."
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:sean-morrissey-ahascragh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "name",
-    "val": "David Costello"
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "club",
-    "val": "club:ahascragh-historic"
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "note",
-    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:david-costello-ahascragh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "name",
-    "val": "Kevin Gavin"
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "club",
-    "val": "club:ahascragh-historic"
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "note",
-    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:kevin-gavin-ahascragh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "name",
-    "val": "Oliver Hennelly"
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "club",
-    "val": "club:ahascragh-historic"
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "note",
-    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:oliver-hennelly-ahascragh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "name",
-    "val": "Patrick Hartigan"
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "club",
-    "val": "club:ahascragh-historic"
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "note",
-    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
-  },
-  {
-    "row": "player:patrick-hartigan-ahascragh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
     "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
     "col": "type",
     "val": "match"
@@ -244503,156 +243838,6 @@
     "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
     "col": "article_upload",
     "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "name",
-    "val": "Marty Glynn"
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh as Marty/M. Glynn in the 1959 Galway SHC final vs Castlegar; also named in Maree advance team list."
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:marty-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "name",
-    "val": "Aidan Murray"
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours including a goal)."
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final draw · Castlegar 1-11 Fohenagh 2-8"
-  },
-  {
-    "row": "player:aidan-murray-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "name",
-    "val": "Paddy Fitzgerald"
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the championship advance vs Maree (P. Fitzgerald on team list)."
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "cutting_cite",
-    "val": "Local paper · Fohenagh beat Maree · 1957"
-  },
-  {
-    "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final draw"
-  },
-  {
-    "row": "player:nicholas-murray",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
-  },
-  {
-    "row": "player:gerry-sweeney-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:paddy-killilea-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
   },
   {
     "row": "match:fohenagh-cussane-north-board-junior-final-1942",
@@ -246665,106 +245850,6 @@
     "val": "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-v-kinvara-intermediate-hurling-final-preview-with-niall-lynch-206256"
   },
   {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "name",
-    "val": "Joe Rushe"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "cutting_cite",
-    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "position",
-    "val": "Defender"
-  },
-  {
-    "row": "player:joe-rushe-fohenagh",
-    "col": "note",
-    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald)."
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "name",
-    "val": "M. Barrett"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "cutting_cite",
-    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "position",
-    "val": "Defender"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "note",
-    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald)."
-  },
-  {
     "row": "match:fohenagh-skehana-ihc-final-1952-draw",
     "col": "type",
     "val": "match"
@@ -246850,51 +245935,6 @@
     "val": "unverified"
   },
   {
-    "row": "player:n-farragher-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "name",
-    "val": "N. Farragher"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "cutting_cite",
-    "val": "Tuam Herald · 6 Oct 1956 · Fohenagh–Tynagh abandoned junior · INA"
-  },
-  {
-    "row": "player:n-farragher-fohenagh",
-    "col": "note",
-    "val": "Represented Fohenagh in the aftermath of the abandoned junior hurling game vs Tynagh at Kiltormer (Tuam Herald, 6 Oct 1956)."
-  },
-  {
     "row": "match:fohenagh-tynagh-junior-abandoned-1956",
     "col": "type",
     "val": "match"
@@ -246953,726 +245993,6 @@
     "row": "match:fohenagh-tynagh-junior-abandoned-1956",
     "col": "status",
     "val": "pending_archivist"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "name",
-    "val": "Frank Madden"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "note",
-    "val": "Named in Connacht Tribune 1960 SHC final: Fohenagh defence. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "name",
-    "val": "Jim Moclair"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Jim Moclair started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "name",
-    "val": "P.J. Killalea"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh on the 1959 Galway SHC final XV vs Castlegar (P.J. Killalea); distinct from Tim Killalea’s winning-point mention in the replay report. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "name",
-    "val": "Tom Moylette"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tom Moylette started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "name",
-    "val": "Mick Coen"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar and in the Maree championship advance (M. Coen on Fohenagh XV). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "name",
-    "val": "Martin Glynn"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "note",
-    "val": "Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana; scored from a 21-yard free to earn a replay (Tuam Herald). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "name",
-    "val": "P.J. Lally"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar (draw and replay cuttings); tireless midfielder/worker in Fohenagh’s first senior title campaign. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "name",
-    "val": "Tony O'Gorman"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "note",
-    "val": "Named in Connacht Tribune 1959 SHC replay report: Fohenagh goalscorer vs Castlegar. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "name",
-    "val": "Liam Manning"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours; 1-0 noted in report). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "name",
-    "val": "Tim Sweeney"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "note",
-    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3). Identified in connection with the abandoned Fohenagh–Tynagh junior game at Kiltormer (Tuam Herald, 6 Oct 1956). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5); scored 1-4 in that replay (Connacht Tribune)."
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "name",
-    "val": "Tommy Glynn"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tommy Glynn started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "name",
-    "val": "Jim Sweeney"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "note",
-    "val": "Named in Tuam Herald 1960 SHC final: Fohenagh goalscorer. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "name",
-    "val": "Frank Bleahan"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh on the XV that won the 1959 Galway SHC final replay vs Castlegar (first senior title)."
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "name",
-    "val": "Frank Glynn"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final: Frank/Frankie Glynn goal for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "name",
-    "val": "Tim Killalea"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "note",
-    "val": "Named in Connacht Tribune / Tuam Herald 1959 SHC replay: Fohenagh winning point. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
@@ -247858,5 +246178,1870 @@
     "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "status",
     "val": "pending_archivist"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "name",
+    "val": "Aidan Murray"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours including a goal)."
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final draw · Castlegar 1-11 Fohenagh 2-8"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "name",
+    "val": "Alan Madden"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "name",
+    "val": "David Costello"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:david-costello-ahascragh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "name",
+    "val": "Garry Lohan"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "also_known_as",
+    "val": "Gary Lohan"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "name",
+    "val": "Gerry Sweeney"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Gerry Sweeney started for Fohenagh (point scorer first half)."
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "name",
+    "val": "Joe Rushe"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "position",
+    "val": "Defender"
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "note",
+    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald)."
+  },
+  {
+    "row": "player:joe-rushe-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "name",
+    "val": "John Devine"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:john-devine",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "name",
+    "val": "Kevin Gavin"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:kevin-gavin-ahascragh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "name",
+    "val": "M. Barrett"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "position",
+    "val": "Defender"
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "note",
+    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald)."
+  },
+  {
+    "row": "player:m-barrett-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "name",
+    "val": "Marty Glynn"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh as Marty/M. Glynn in the 1959 Galway SHC final vs Castlegar; also named in Maree advance team list."
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "name",
+    "val": "N. Farragher"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 6 Oct 1956 · Fohenagh–Tynagh abandoned junior · INA"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "note",
+    "val": "Represented Fohenagh in the aftermath of the abandoned junior hurling game vs Tynagh at Kiltormer (Tuam Herald, 6 Oct 1956)."
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "name",
+    "val": "Nicholas Murray"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "note",
+    "val": "Named in Connacht Tribune / Tuam Herald 1960 SHC final: Fohenagh midfield."
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 1959 Galway SHC final draw"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "name",
+    "val": "Noel Fitzgerald"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best despite the 0-9 to 1-12 defeat (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:noel-fitzgerald-ahascragh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "name",
+    "val": "Oliver Hennelly"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:oliver-hennelly-ahascragh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "name",
+    "val": "Ollie Deeley"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "name",
+    "val": "Paddy Fitzgerald"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the championship advance vs Maree (P. Fitzgerald on team list)."
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "cutting_cite",
+    "val": "Local paper · Fohenagh beat Maree · 1957"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:paddy-fitzgerald-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "name",
+    "val": "Paddy Killilea"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Paddy Killilea started for Fohenagh."
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:paddy-killilea-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "name",
+    "val": "Pádraic Leonard"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "also_known_as",
+    "val": "Padraig Leonard; Padraic Leonard"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "name",
+    "val": "Patrick Hartigan"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:patrick-hartigan-ahascragh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "also_known_as",
+    "val": "Seamus Moclair; Seamus Mockler; Séamus Mockler"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "name",
+    "val": "Sean Morrissey"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "note",
+    "val": "Standout for Ahascragh in the Sadie Kilcommons final vs Fohenagh, named among those who served the side best (Connacht Tribune cutting). Club-scoped Ahascragh id."
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:sean-morrissey-ahascragh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "note",
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting). Club-scoped historic id (distinct from amalgam Tony Kirwan where needed)."
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "name",
+    "val": "Frank Madden"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "note",
+    "val": "Named in Connacht Tribune 1960 SHC final: Fohenagh defence. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "name",
+    "val": "Jim Moclair"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Jim Moclair started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "name",
+    "val": "P.J. Killalea"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh on the 1959 Galway SHC final XV vs Castlegar (P.J. Killalea); distinct from Tim Killalea’s winning-point mention in the replay report. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "name",
+    "val": "Tom Moylette"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tom Moylette started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "name",
+    "val": "Mick Coen"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar and in the Maree championship advance (M. Coen on Fohenagh XV). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "name",
+    "val": "Martin Glynn"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "note",
+    "val": "Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana; scored from a 21-yard free to earn a replay (Tuam Herald). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "name",
+    "val": "P.J. Lally"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar (draw and replay cuttings); tireless midfielder/worker in Fohenagh’s first senior title campaign. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "name",
+    "val": "Tony O'Gorman"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "note",
+    "val": "Named in Connacht Tribune 1959 SHC replay report: Fohenagh goalscorer vs Castlegar. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "name",
+    "val": "Liam Manning"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours; 1-0 noted in report). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "note",
+    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3). Identified in connection with the abandoned Fohenagh–Tynagh junior game at Kiltormer (Tuam Herald, 6 Oct 1956). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5); scored 1-4 in that replay (Connacht Tribune)."
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "name",
+    "val": "Tommy Glynn"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tommy Glynn started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "name",
+    "val": "Jim Sweeney"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "note",
+    "val": "Named in Tuam Herald 1960 SHC final: Fohenagh goalscorer. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "name",
+    "val": "Frank Bleahan"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh on the XV that won the 1959 Galway SHC final replay vs Castlegar (first senior title)."
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "name",
+    "val": "Frank Glynn"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: Frank/Frankie Glynn goal for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "name",
+    "val": "Tim Killalea"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "note",
+    "val": "Named in Connacht Tribune / Tuam Herald 1959 SHC replay: Fohenagh winning point. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
   }
 ]

@@ -25,7 +25,8 @@ export type ArticleKind = "image" | "pdf" | "url";
  * Ingest Lab cuttings contract:
  * - Public: thumbnail/path, short excerpt, YYYY · Paper cite, linked entities, "from cutting"
  * - Private: full OCR / pdftotext (never sent to client cards)
- * - Derived triples stay confidence=unverified until Tribes Archivist clears
+ * - Player/club names printed on a cutting are auto-verified (confidence=verified)
+ * - Invented scores / inferred facts still stay unverified until Archivist clears
  */
 export interface ArticleUpload {
   id: string;
@@ -1035,8 +1036,8 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
     title,
     subtitle: subtitle || excerpt,
     href: `/article/${a.id}`,
-    confidence: "unverified",
-    trustLabel: "Needs check",
+    confidence: "verified",
+    trustLabel: "Verified",
     badge: "From cutting",
     imagePath:
       media && !media.toLowerCase().endsWith(".pdf") ? media : undefined,

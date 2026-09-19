@@ -84,6 +84,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
     String(attrs.tag ?? "") === "fohenagh-historic";
   const hideScore =
     attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
+  const cuttingCards = related.filter((r) => r.kind === "article_upload");
+  const heroCutting = cuttingCards.find((c) => c.imagePath) ?? cuttingCards[0];
 
   return (
     <article className="space-y-8">
@@ -134,6 +136,22 @@ export async function EntityView({ data }: { data: EntityPayload }) {
             <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
               Before Ahascragh-Fohenagh
             </span>
+          </div>
+        )}
+
+        {(summary.kind === "player" || summary.kind === "club") && heroCutting?.imagePath && (
+          <div className="pt-3">
+            <a href={heroCutting.href} className="block overflow-hidden rounded-2xl border-2 border-galway-maroon/20">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={heroCutting.imagePath}
+                alt={heroCutting.title}
+                className="max-h-80 w-full object-contain bg-galway-cream"
+              />
+            </a>
+            <p className="mt-2 text-sm font-semibold text-galway-maroon">
+              From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
+            </p>
           </div>
         )}
       </header>
@@ -279,21 +297,44 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                       No newspaper cuttings linked yet
                     </p>
                     <p className="mt-1 text-sm text-galway-ink/55">
-                      Tag a cutting with this{" "}
-                      {summary.kind === "player" ? "player" : "club"} on Stories
-                      to show thumb, excerpt, and cite here.
+                      When a cutting names this{" "}
+                      {summary.kind === "player" ? "player" : "club"}, the snip
+                      shows here automatically.
                     </p>
-                    <Link
-                      href="/stories#upload"
-                      className="mt-2 inline-block text-sm font-semibold text-galway-maroon underline"
-                    >
-                      Upload on Stories
-                    </Link>
                   </div>
                 ) : (
-                  <div className="grid gap-3 sm:grid-cols-2">
+                  <div className="grid gap-4 sm:grid-cols-2">
                     {cuttings.map((r) => (
-                      <EntityCard key={r.id} entity={r} />
+                      <Link
+                        key={r.id}
+                        href={r.href}
+                        className="overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white shadow-sm transition hover:border-galway-maroon"
+                      >
+                        {r.imagePath ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img
+                            src={r.imagePath}
+                            alt={r.title}
+                            className="max-h-72 w-full object-contain bg-galway-cream"
+                          />
+                        ) : null}
+                        <div className="p-4">
+                          <p className="text-xs font-bold uppercase tracking-wide text-galway-maroon">
+                            Cutting
+                          </p>
+                          <h3 className="mt-1 text-lg font-bold text-galway-ink">
+                            {r.title}
+                          </h3>
+                          {r.citeChip && (
+                            <p className="mt-1 text-sm font-semibold text-galway-maroon">
+                              {r.citeChip}
+                            </p>
+                          )}
+                          {r.excerpt && (
+                            <p className="mt-2 text-sm text-galway-ink/70">{r.excerpt}</p>
+                          )}
+                        </div>
+                      </Link>
                     ))}
                   </div>
                 )}
