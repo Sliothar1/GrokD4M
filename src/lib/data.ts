@@ -15,6 +15,11 @@ import {
   invalidateBlobMetaCache,
   searchArticleUploads,
 } from "@/lib/articles";
+import {
+  buildSearchRankContext,
+  compareSearchHits,
+  searchTokens,
+} from "@/lib/searchRank";
 
 export type EntityKind =
   | "player"
@@ -471,15 +476,8 @@ export function groupSearchResults(results: EntitySummary[]): SearchGroup[] {
 
 export async function searchEntities(query: string): Promise<EntitySummary[]> {
   const A = await getAssoc();
-  const normalized = query
-    .trim()
-    .toLowerCase()
-    .replace(/[-_/]+/g, " ")
-    .replace(/\s+/g, " ");
-  const tokens = normalized
-    .split(" ")
-    .filter(Boolean)
-    .map((tok) => (tok.length > 3 && tok.endsWith("s") ? tok.slice(0, -1) : tok));
+  const tokens = searchTokens(query);
+  const rankCtx = buildSearchRankContext(query, A);
 
   const { rows } = A.search(query);
   const seen = new Set<string>();
@@ -522,40 +520,7 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     }
   }
 
-  // Rank: verified facts first; Fohenagh appearances before other unverified
-  const rankOf = (e: EntitySummary): number => {
-    const attrs = A.entityAttrs(e.id);
-    const playerId = attrs.player ? String(attrs.player) : "";
-    const playerClub = playerId ? String(A.entityAttrs(playerId).club ?? "") : "";
-    const clubRef = `${attrs.club ?? ""} ${playerClub}`;
-    const blob = `${e.id} ${e.title} ${e.subtitle ?? ""} ${e.citeChip ?? ""} ${e.excerpt ?? ""} ${clubRef}`.toLowerCase();
-    const fohenagh = blob.includes("fohenagh") || blob.includes("ahascragh");
-    if (e.kind === "appearance") {
-      const conf = (e.confidence ?? "").toLowerCase();
-      const tier = Number(attrs.tier ?? 0);
-      const hold =
-        attrs.hold === true ||
-        String(attrs.hold ?? "") === "true" ||
-        String(attrs.status ?? "") === "hold" ||
-        conf === "hold";
-      // HOLD last among panel hits (name+years+cite only, no club)
-      if (hold) return 90;
-      // Archivist CLEAR / tier (1) — verified panel appearances first
-      if (conf === "verified" || tier === 1) return fohenagh ? 0 : 1;
-      // Provisional: Fohenagh first among unverified
-      return fohenagh ? 12 : 45;
-    }
-    if (e.kind === "article_upload") return 80;
-    const conf = (e.confidence ?? "").toLowerCase();
-    if (conf === "unverified" || conf === "low" || conf === "hold") {
-      return fohenagh ? 15 : 80;
-    }
-    if (conf === "high" || conf === "verified") return 0;
-    if (fohenagh) return 5;
-    if (e.trustLabel === "Verified") return 0;
-    return 20;
-  };
-  out.sort((a, b) => rankOf(a) - rankOf(b));
+  out.sort((a, b) => compareSearchHits(a, b, rankCtx, (id) => A.entityAttrs(id)));
 
   return out;
 }

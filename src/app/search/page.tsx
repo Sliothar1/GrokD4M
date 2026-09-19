@@ -1,6 +1,7 @@
 import { SearchBox } from "@/components/SearchBox";
 import { EmptyTeach, EntityCard } from "@/components/EntityCard";
 import { groupSearchResults, searchEntities } from "@/lib/data";
+import { sectionSearchResults } from "@/lib/searchRank";
 
 export const metadata = {
   title: "Search",
@@ -13,6 +14,7 @@ export default async function SearchPage({
 }) {
   const { q = "" } = await searchParams;
   const results = q.trim() ? await searchEntities(q) : [];
+  const sections = q.trim() ? sectionSearchResults(q, results) : [];
 
   return (
     <div className="space-y-8">
@@ -39,45 +41,52 @@ export default async function SearchPage({
       )}
 
       {results.length > 0 && (
-        <section className="space-y-3">
+        <section className="space-y-8">
           <h2 className="text-2xl font-bold text-galway-maroon">
             {results.length} result{results.length === 1 ? "" : "s"}
           </h2>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {groupSearchResults(results).map((group) =>
-              group.seasonChip && (group.items.length > 1 || group.key.startsWith("season:")) ? (
-                <div
-                  key={group.key}
-                  className="space-y-3 sm:col-span-2 rounded-2xl border-2 border-galway-maroon/15 bg-galway-cream/40 p-3"
-                >
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="inline-flex rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
-                      {group.seasonChip}
-                    </span>
-                    {group.items
-                      .map((r) => r.seasonChip)
-                      .filter((y): y is string => Boolean(y))
-                      .filter((y, i, arr) => arr.indexOf(y) === i)
-                      .map((y) => (
-                        <span
-                          key={y}
-                          className="inline-flex rounded-full border border-galway-maroon/30 bg-white px-2 py-0.5 text-xs font-bold text-galway-maroon"
-                        >
-                          {y}
+          {sections.map((section) => (
+            <div key={section.key} className="space-y-3">
+              {section.title ? (
+                <h3 className="text-xl font-bold text-galway-ink">{section.title}</h3>
+              ) : null}
+              <div className="grid gap-3 sm:grid-cols-2">
+                {groupSearchResults(section.items).map((group) =>
+                  group.seasonChip && (group.items.length > 1 || group.key.startsWith("season:")) ? (
+                    <div
+                      key={group.key}
+                      className="space-y-3 sm:col-span-2 rounded-2xl border-2 border-galway-maroon/15 bg-galway-cream/40 p-3"
+                    >
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="inline-flex rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
+                          {group.seasonChip}
                         </span>
-                      ))}
-                  </div>
-                  <div className="grid gap-3 sm:grid-cols-2">
-                    {group.items.map((r) => (
-                      <EntityCard key={r.id} entity={r} />
-                    ))}
-                  </div>
-                </div>
-              ) : (
-                <EntityCard key={group.items[0].id} entity={group.items[0]} />
-              )
-            )}
-          </div>
+                        {group.items
+                          .map((r) => r.seasonChip)
+                          .filter((y): y is string => Boolean(y))
+                          .filter((y, i, arr) => arr.indexOf(y) === i)
+                          .map((y) => (
+                            <span
+                              key={y}
+                              className="inline-flex rounded-full border border-galway-maroon/30 bg-white px-2 py-0.5 text-xs font-bold text-galway-maroon"
+                            >
+                              {y}
+                            </span>
+                          ))}
+                      </div>
+                      <div className="grid gap-3 sm:grid-cols-2">
+                        {group.items.map((r) => (
+                          <EntityCard key={r.id} entity={r} />
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <EntityCard key={group.items[0].id} entity={group.items[0]} />
+                  )
+                )}
+              </div>
+            </div>
+          ))}
         </section>
       )}
     </div>
