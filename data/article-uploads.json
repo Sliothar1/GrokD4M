@@ -682,5 +682,198 @@
     "matchTags": [
       "match:tommie-larkins-fohenagh-shc-1973-05-04"
     ]
+  },
+  {
+    "id": "art-ina-ct-1957-06-15-tim-sweeney-maree",
+    "kind": "image",
+    "filename": "art-ina-ct-1957-06-15-tim-sweeney-maree.png",
+    "path": "/uploads/articles/art-ina-ct-1957-06-15-tim-sweeney-maree.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1957-06-15-tim-sweeney-maree.png",
+    "uploadedAt": "2026-09-19T17:10:28.100033+00:00",
+    "caption": "Connacht Tribune — Tim Sweeney scores as Fohenagh beat Maree 3-11 to 2-7",
+    "year": "1957",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tim-sweeney",
+      "maree",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Fohenagh 3-11 Maree 2-7. Tim Sweeney took a free, moved to left-half-forward, scored from play and added the final minor.",
+    "citeChip": "Connacht Tribune · 15 Jun 1957 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19570615.1.14",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-maree-1957"
+    ]
+  },
+  {
+    "id": "art-ina-csl-1959-09-15-tim-sweeney-final",
+    "kind": "image",
+    "filename": "art-ina-csl-1959-09-15-tim-sweeney-final.png",
+    "path": "/uploads/articles/art-ina-csl-1959-09-15-tim-sweeney-final.png",
+    "publicUrl": "/uploads/articles/art-ina-csl-1959-09-15-tim-sweeney-final.png",
+    "uploadedAt": "2026-09-19T17:10:28.100033+00:00",
+    "caption": "Connacht Sentinel — master marksman Tim Sweeney (1-4) as Fohenagh win SHC final",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tim-sweeney",
+      "castlegar",
+      "shc",
+      "final",
+      "ina",
+      "photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:castlegar"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Castle fell in hurling final: Fohenagh win at the post. Tim Sweeney the master marksman scored a goal and four points.",
+    "citeChip": "Connacht Sentinel · 15 Sep 1959 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CSL19590915.1.4",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ]
+  },
+  {
+    "id": "art-ina-tth-1959-09-05-tim-sweeney-draw",
+    "kind": "image",
+    "filename": "art-ina-tth-1959-09-05-tim-sweeney-draw.png",
+    "path": "/uploads/articles/art-ina-tth-1959-09-05-tim-sweeney-draw.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1959-09-05-tim-sweeney-draw.png",
+    "uploadedAt": "2026-09-19T17:10:28.100033+00:00",
+    "caption": "Tuam Herald — Tim Sweeney’s craft spelt danger in SHC final draw vs Castlegar",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tim-sweeney",
+      "castlegar",
+      "shc",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:castlegar"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Drawn final Fohenagh 2-8 Castlegar 1-11. Veteran Tim Sweeney’s speed and craft spelt danger; credited with four points.",
+    "citeChip": "Tuam Herald · 5 Sep 1959 · p.8 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19590905.1.8",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-draw"
+    ]
+  },
+  {
+    "id": "art-ina-ct-1959-09-19-tim-sweeney-marksman",
+    "kind": "image",
+    "filename": "art-ina-ct-1959-09-19-tim-sweeney-marksman.png",
+    "path": "/uploads/articles/art-ina-ct-1959-09-19-tim-sweeney-marksman.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1959-09-19-tim-sweeney-marksman.png",
+    "uploadedAt": "2026-09-19T17:10:28.100033+00:00",
+    "caption": "Connacht Tribune — Tim Sweeney master marksman 1-4 in SHC final replay",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tim-sweeney",
+      "castlegar",
+      "shc",
+      "final",
+      "ina",
+      "photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:castlegar"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Tim Sweeney, the master marksman, scored one goal and four points in Fohenagh’s victory over Castlegar.",
+    "citeChip": "Connacht Tribune · 19 Sep 1959 · p.30 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ]
+  },
+  {
+    "id": "art-ina-ct-1960-09-03-tim-sweeney-final",
+    "kind": "image",
+    "filename": "art-ina-ct-1960-09-03-tim-sweeney-final.png",
+    "path": "/uploads/articles/art-ina-ct-1960-09-03-tim-sweeney-final.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1960-09-03-tim-sweeney-final.png",
+    "uploadedAt": "2026-09-19T17:10:28.100033+00:00",
+    "caption": "Connacht Tribune — Tim Sweeney among forwards as Fohenagh retain SHC 4-9 to 2-7",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tim-sweeney",
+      "castlegar",
+      "shc",
+      "final",
+      "ina",
+      "photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:castlegar"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Fohenagh 4-9 Castlegar 2-7. Tim Sweeney added points and is listed among the Fohenagh forwards.",
+    "citeChip": "Connacht Tribune · 3 Sep 1960 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1960-galway-shc-final"
+    ]
+  },
+  {
+    "id": "art-ina-ct-1962-06-09-tim-sweeney-mellowes",
+    "kind": "image",
+    "filename": "art-ina-ct-1962-06-09-tim-sweeney-mellowes.png",
+    "path": "/uploads/articles/art-ina-ct-1962-06-09-tim-sweeney-mellowes.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1962-06-09-tim-sweeney-mellowes.png",
+    "uploadedAt": "2026-09-19T17:10:28.100033+00:00",
+    "caption": "Connacht Tribune — Tim Sweeney goals and points vs Liam Mellowes",
+    "year": "1962",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tim-sweeney",
+      "liam-mellowes",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:liam-mellowes"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Against Liam Mellowes, Tim Sweeney scored early, added another point, then a goal and point; Fohenagh finished a goal behind.",
+    "citeChip": "Connacht Tribune · 9 Jun 1962 · p.29 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19620609.1.29",
+    "status": "pending",
+    "matchTags": []
   }
 ]
