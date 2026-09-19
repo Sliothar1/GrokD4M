@@ -247425,56 +247425,6 @@
     "val": "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-v-kinvara-intermediate-hurling-final-preview-with-niall-lynch-206256"
   },
   {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "name",
-    "val": "Tim Sweeney"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "cutting_cite",
-    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "note",
-    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3)."
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
-  },
-  {
     "row": "player:martin-glynn-fohenagh",
     "col": "type",
     "val": "player"
@@ -247681,6 +247631,181 @@
   },
   {
     "row": "match:fohenagh-skehana-ihc-final-1952-draw",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "club:tynagh",
+    "col": "type",
+    "val": "club"
+  },
+  {
+    "row": "club:tynagh",
+    "col": "name",
+    "val": "Tynagh"
+  },
+  {
+    "row": "club:tynagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "club:tynagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "name",
+    "val": "N. Farragher"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 6 Oct 1956 · Fohenagh–Tynagh abandoned junior · INA"
+  },
+  {
+    "row": "player:n-farragher-fohenagh",
+    "col": "note",
+    "val": "Represented Fohenagh in the aftermath of the abandoned junior hurling game vs Tynagh at Kiltormer (Tuam Herald, 6 Oct 1956)."
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 6 Oct 1956 · Fohenagh–Tynagh abandoned junior · INA"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "note",
+    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3). Identified in connection with the abandoned Fohenagh–Tynagh junior game at Kiltormer (Tuam Herald, 6 Oct 1956)."
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "name",
+    "val": "Fohenagh vs Tynagh — Junior hurling (abandoned, Kiltormer) 1956"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "year",
+    "val": "1956"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "competition",
+    "val": "Galway Junior Hurling"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "away",
+    "val": "club:tynagh"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "venue",
+    "val": "Kiltormer"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "result",
+    "val": "abandoned"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "note",
+    "val": "Abandoned after ~25 minutes following a row; Fohenagh led by 7 points at the stoppage (Tuam Herald). Scoreline otherwise not fully printed."
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "cite",
+    "val": "Tuam Herald · 6 Oct 1956 · p.5 · INA"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
     "col": "status",
     "val": "pending_archivist"
   }

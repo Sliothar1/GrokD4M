@@ -326,5 +326,37 @@
     "matchTags": [
       "match:fohenagh-skehana-ihc-final-1952-draw"
     ]
+  },
+  {
+    "id": "art-ina-fohenagh-1956-10-06-tuam-herald",
+    "kind": "image",
+    "filename": "fohenagh-tth-1956-10-06-players.png",
+    "path": "/uploads/articles/fohenagh-tth-1956-10-06-players.png",
+    "publicUrl": "/uploads/articles/fohenagh-tth-1956-10-06-players.png",
+    "uploadedAt": "2026-09-19T16:20:30.319684+00:00",
+    "caption": "INA snip — Tuam Herald 6 Oct 1956 Fohenagh vs Tynagh junior abandoned at Kiltormer",
+    "year": "1956",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "tynagh",
+      "junior",
+      "ina",
+      "abandoned"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:tynagh"
+    ],
+    "playerTags": [
+      "player:n-farragher-fohenagh",
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Junior hurling game between Fohenagh and Tynagh at Kiltormer was abandoned after a row. Mr. N. Farragher represented Fohenagh; Tim Sweeney was named in the discussion.",
+    "citeChip": "Tuam Herald · 6 Oct 1956 · p.5 · INA",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ]
   }
 ]
