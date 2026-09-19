@@ -29,6 +29,8 @@ export function sortPressCards(cuttings: CuttingCard[]): CuttingCard[] {
   });
 }
 
+export { CuttingsGallery as CuttingGallery };
+
 export function CuttingsGallery({
   cuttings,
   playerName,
@@ -38,8 +40,32 @@ export function CuttingsGallery({
 }) {
   const titleId = useId();
   const [lightbox, setLightbox] = useState<CuttingCard | null>(null);
+  const [filter, setFilter] = useState("all");
   const close = useCallback(() => setLightbox(null), []);
   const ordered = sortPressCards(cuttings);
+  const papers = [...new Set(ordered.map((c) => c.paper).filter(Boolean))] as string[];
+  const years = [
+    ...new Set(
+      ordered
+        .map((c) => c.date?.match(/\b(19\d{2}|20[0-2]\d)\b/)?.[1])
+        .filter(Boolean)
+    ),
+  ] as string[];
+  const filters = [
+    { id: "all", label: "All" },
+    ...papers.map((p) => ({ id: `paper:${p}`, label: p })),
+    ...years.map((y) => ({ id: `year:${y}`, label: y })),
+  ];
+  const visible =
+    filter === "all"
+      ? ordered
+      : ordered.filter((c) => {
+          if (filter.startsWith("paper:")) return c.paper === filter.slice(6);
+          if (filter.startsWith("year:")) {
+            return c.date?.includes(filter.slice(5));
+          }
+          return true;
+        });
 
   useEffect(() => {
     if (!lightbox) return;
@@ -57,8 +83,8 @@ export function CuttingsGallery({
 
   if (ordered.length === 0) return null;
 
-  const hero = ordered[0];
-  const rail = ordered.slice(1);
+  const hero = visible[0] ?? ordered[0];
+  const rail = visible.filter((c) => c.id !== hero.id);
 
   return (
     <section className="space-y-4" aria-labelledby={titleId}>
@@ -67,11 +93,32 @@ export function CuttingsGallery({
           Cuttings
         </h2>
         <p className="text-sm font-semibold text-galway-ink/50">
-          {ordered.length === 1
+          {visible.length === 1
             ? "1 press card"
-            : `${ordered.length} press cards`}
+            : `${visible.length} press cards`}
         </p>
       </div>
+
+      {filters.length > 2 ? (
+        <div className="flex flex-wrap gap-2" role="tablist" aria-label="Filter cuttings">
+          {filters.map((f) => (
+            <button
+              key={f.id}
+              type="button"
+              role="tab"
+              aria-selected={filter === f.id}
+              onClick={() => setFilter(f.id)}
+              className={
+                filter === f.id
+                  ? "rounded-full bg-galway-maroon px-3 py-1 text-xs font-bold text-white"
+                  : "rounded-full border border-galway-maroon/20 bg-white px-3 py-1 text-xs font-bold text-galway-maroon"
+              }
+            >
+              {f.label}
+            </button>
+          ))}
+        </div>
+      ) : null}
 
       <PressCuttingCard
         cutting={hero}

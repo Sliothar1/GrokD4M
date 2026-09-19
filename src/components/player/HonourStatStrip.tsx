@@ -10,16 +10,18 @@ export function HonourStatStrip({ stats }: { stats: HonourStat[] }) {
 
   return (
     <section aria-label="Honour strip">
-      <dl className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-6">
-        {shown.map((s) => (
+      <dl className="flex overflow-hidden rounded-2xl border-2 border-galway-gold bg-galway-maroon text-white shadow-sm">
+        {shown.map((s, i) => (
           <div
             key={s.label}
-            className="rounded-2xl border border-galway-gold/35 bg-galway-maroon px-3 py-3 text-center text-white shadow-sm"
+            className={`min-w-0 flex-1 px-3 py-3 text-center ${
+              i > 0 ? "border-l border-galway-gold/40" : ""
+            }`}
           >
-            <dd className="text-xl font-black leading-none text-galway-gold sm:text-2xl">
+            <dd className="truncate text-lg font-black leading-none text-galway-gold sm:text-2xl">
               {s.value}
             </dd>
-            <dt className="mt-1.5 text-[11px] font-bold uppercase tracking-wide text-white/75">
+            <dt className="mt-1.5 truncate text-[10px] font-bold uppercase tracking-wide text-white/75 sm:text-[11px]">
               {s.label}
             </dt>
           </div>
