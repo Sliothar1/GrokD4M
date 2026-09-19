@@ -6,7 +6,7 @@
  */
 import assert from "node:assert/strict";
 import { searchPrimaryEntities } from "../src/lib/data";
-import { primaryIdentityMatch } from "../src/lib/searchRank";
+import { collapseToUniquePlayers, primaryIdentityMatch } from "../src/lib/searchRank";
 
 assert.equal(
   primaryIdentityMatch("Cathal Mannion", "player", "player:cathal-mannion", "Cathal Mannion"),
@@ -72,6 +72,31 @@ assert.equal(
 assert.equal(
   primaryIdentityMatch("1959", "club", "club:fohenagh-historic", "Fohenagh"),
   null
+);
+
+const collapsed = collapseToUniquePlayers([
+  {
+    id: "appearance:cathal-mannion-shc-2017",
+    kind: "appearance",
+    title: "Cathal Mannion",
+    groupKey: "player:cathal-mannion",
+  },
+  {
+    id: "appearance:cathal-mannion-minor-2011",
+    kind: "appearance",
+    title: "Cathal Mannion",
+    groupKey: "player:cathal-mannion",
+  },
+  { id: "player:cathal-mannion", kind: "player", title: "Cathal Mannion" },
+  {
+    id: "article:cathal-clip",
+    kind: "article_upload",
+    title: "Cathal Mannion cutting",
+  },
+]);
+assert.deepEqual(
+  collapsed.map((h) => h.id),
+  ["player:cathal-mannion"]
 );
 
 console.log("smoke-entity-search: identity contract ok");

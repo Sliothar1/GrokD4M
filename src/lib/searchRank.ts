@@ -12,6 +12,7 @@ export interface RankableHit {
   badge?: string;
   citeChip?: string;
   excerpt?: string;
+  groupKey?: string;
 }
 
 export type ClubMatchStrength = "exact" | "partial";
@@ -435,6 +436,35 @@ function primaryStrengthOrder(strength: PrimaryMatchStrength): number {
   if (strength === "exact") return 0;
   if (strength === "prefix") return 1;
   return 2;
+}
+
+/**
+ * Collapse panel / appearance / season rows for the same person into one player card.
+ * Keep player/club/team; drop cuttings and match dumps (they live on the profile).
+ */
+export function collapseToUniquePlayers<T extends RankableHit>(hits: T[]): T[] {
+  const seenPlayer = new Set<string>();
+  const out: T[] = [];
+  for (const hit of hits) {
+    if (hit.kind !== "player") continue;
+    if (seenPlayer.has(hit.id)) continue;
+    seenPlayer.add(hit.id);
+    out.push(hit);
+  }
+  for (const hit of hits) {
+    if (
+      hit.kind === "player" ||
+      hit.kind === "appearance" ||
+      hit.kind === "article_upload" ||
+      hit.kind === "match" ||
+      hit.kind === "season"
+    ) {
+      continue;
+    }
+    if (out.some((e) => e.id === hit.id)) continue;
+    out.push(hit);
+  }
+  return out;
 }
 
 /** Strong player / club / team name hits — not cuttings, matches, or club-roster bleed. */

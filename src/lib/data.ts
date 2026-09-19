@@ -17,6 +17,7 @@ import {
 } from "@/lib/articles";
 import {
   buildSearchRankContext,
+  collapseToUniquePlayers,
   compareSearchHits,
   findStrongPrimaryEntities,
   searchTokens,
@@ -551,7 +552,7 @@ export async function searchPrimaryEntities(query: string): Promise<EntitySummar
     seen.add(hit.id);
     out.push(summary);
   }
-  return out;
+  return collapseToUniquePlayers(out);
 }
 
 const CITE_OVERLAY_COLS = [
