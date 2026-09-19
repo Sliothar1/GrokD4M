@@ -534,13 +534,24 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
 /**
  * Kid-facing search: player / club / team name hits only.
  * Cuttings, matches, and panel rows stay on entity pages — not the result list.
+ * Each player id appears once (no Cathal Mannion × N appearance rows).
  */
 export async function searchPrimaryEntities(query: string): Promise<EntitySummary[]> {
   const A = await getAssoc();
   const hits = findStrongPrimaryEntities(query, A);
-  return hits
-    .map((hit) => summarizeEntity(hit.id, A))
-    .filter((e): e is EntitySummary => e !== null);
+  const seen = new Set<string>();
+  const out: EntitySummary[] = [];
+  for (const hit of hits) {
+    if (seen.has(hit.id)) continue;
+    const summary = summarizeEntity(hit.id, A);
+    if (!summary) continue;
+    if (summary.kind !== "player" && summary.kind !== "club" && summary.kind !== "team") {
+      continue;
+    }
+    seen.add(hit.id);
+    out.push(summary);
+  }
+  return out;
 }
 
 const CITE_OVERLAY_COLS = [

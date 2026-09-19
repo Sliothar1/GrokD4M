@@ -3,8 +3,10 @@ import { EntityCard } from "@/components/EntityCard";
 import { getEntity } from "@/lib/data";
 
 export default async function HomePage() {
-  const featuredClub = await getEntity("club:fohenagh-historic");
-  const featuredPlayer = await getEntity("player:jason-lohan");
+  const [featuredClub, featuredPlayer] = await Promise.all([
+    getEntity("club:fohenagh-historic"),
+    getEntity("player:jason-lohan"),
+  ]);
 
   return (
     <div className="space-y-10">

@@ -83,6 +83,7 @@ async function liveSeedContract() {
     ["player:cathal-mannion"]
   );
   assert.equal(cathal[0].href, "/player/cathal-mannion");
+  assert.equal(cathal.filter((e) => e.title === "Cathal Mannion").length, 1);
 
   const jason = await searchPrimaryEntities("Jason Lohan");
   assert.deepEqual(
@@ -96,6 +97,7 @@ async function liveSeedContract() {
     ["club:ahascragh-fohenagh", "club:fohenagh-historic"]
   );
   assert.ok(fohenagh.every((e) => e.kind === "club"));
+  assert.ok(!fohenagh.some((e) => e.kind === "appearance" || e.kind === "article_upload"));
 
   const lohans = await searchPrimaryEntities("Lohan");
   assert.ok(lohans.length > 1);
