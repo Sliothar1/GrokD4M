@@ -63,6 +63,7 @@ export function hrefForRef(ref: string): string {
   return `/search?q=${encodeURIComponent(ref)}`;
 }
 
+/** Kid-facing line from seed `notable`, then archive `note`. Never a `bio` col. */
 export function playerBioText(attrs: Record<string, TripleVal>): string | null {
   const raw = attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt;
   if (!isDisplayableVal(raw)) return null;

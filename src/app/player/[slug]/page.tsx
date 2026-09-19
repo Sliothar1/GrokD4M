@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
 import { getEntity, listEntitiesByType, resolveId } from "@/lib/data";
 
+/** Players only. Club / match / team / win / story / article keep EntityView. */
+
 export async function generateStaticParams() {
   return (await listEntitiesByType("player:")).map((p) => ({
     slug: p.id.slice("player:".length),
