@@ -12,6 +12,16 @@ export type CuttingCard = {
   href: string;
 };
 
+/**
+ * Player Spotlight hero order (PR #6 pack). Prefer these ids / PNG paths
+ * when present — do not block if the pack is not merged yet.
+ */
+export const JASON_HERO_CUTTING_IDS = [
+  "art-ina-ct-2003-12-12-jason-lohan-u21",
+  "art-ina-ct-2002-11-15-jason-lohan-u21",
+  "art-ina-ct-2005-07-22-jason-lohan",
+] as const;
+
 export function CuttingExcerpts({
   cuttings,
   playerName,
@@ -43,7 +53,7 @@ export function CuttingExcerpts({
     return <CompactCuttingsEmpty />;
   }
 
-  const ordered = [...cuttings].sort(compareCuttings);
+  const ordered = cuttings.map(preferKnownCuttingImage).sort(compareCuttings);
 
   return (
     <section className="space-y-3" aria-labelledby={titleId}>
@@ -214,7 +224,37 @@ function CompactCuttingsEmpty() {
   );
 }
 
+function cuttingBareId(c: CuttingCard): string {
+  const raw = c.id.includes(":") ? c.id.slice(c.id.indexOf(":") + 1) : c.id;
+  return raw.toLowerCase();
+}
+
+function heroRank(c: CuttingCard): number {
+  const bare = cuttingBareId(c);
+  const fromId = JASON_HERO_CUTTING_IDS.indexOf(
+    bare as (typeof JASON_HERO_CUTTING_IDS)[number]
+  );
+  if (fromId !== -1) return fromId;
+  const path = (c.imagePath ?? "").toLowerCase();
+  const fromPath = JASON_HERO_CUTTING_IDS.findIndex((id) => path.includes(id));
+  return fromPath === -1 ? 100 : fromPath;
+}
+
+/** Use the committed Spotlight PNG path when the cutting id matches. */
+function preferKnownCuttingImage(c: CuttingCard): CuttingCard {
+  const bare = cuttingBareId(c);
+  const hero = JASON_HERO_CUTTING_IDS.find(
+    (id) => bare === id || (c.imagePath ?? "").toLowerCase().includes(id)
+  );
+  if (!hero) return c;
+  if (c.imagePath) return c;
+  return { ...c, imagePath: `/uploads/articles/${hero}.png` };
+}
+
 function compareCuttings(a: CuttingCard, b: CuttingCard): number {
+  const ha = heroRank(a);
+  const hb = heroRank(b);
+  if (ha !== hb) return ha - hb;
   const ya = cuttingYear(a);
   const yb = cuttingYear(b);
   if (ya !== yb) return ya - yb;

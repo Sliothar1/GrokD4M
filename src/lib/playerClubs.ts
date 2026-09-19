@@ -44,7 +44,7 @@ export function collectClubIdsFromAttrs(
     for (const id of parseClubIds(attrs[col])) ids.add(id);
   }
   for (const [key, val] of Object.entries(attrs)) {
-    if (/^season:\d{4}$/.test(key)) {
+    if (/^season:\d{4}$/.test(key) || /^club_\d+$/.test(key)) {
       for (const id of parseClubIds(val)) ids.add(id);
     }
     if (key.startsWith("club:") && parseClubIds(key).length) {
@@ -157,7 +157,7 @@ export function listClubRoster(clubId: string, A: AssocArray): ClubRosterRow[] {
   }
 
   for (const col of A.cols()) {
-    if (!/^season:\d{4}$/.test(col)) continue;
+    if (!/^season:\d{4}$/.test(col) && !/^club_\d+$/.test(col)) continue;
     for (const t of A.getcol(col)) {
       addPlayerFromRow(t.row, t.val, clubId, A, playerIds);
     }
