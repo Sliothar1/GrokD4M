@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 
-const CHIPS = ["Joe Canning", "Fohenagh", "Cathal Mannion", "2017", "Portumna", "David Burke"];
+const CHIPS = ["Fohenagh", "Tim Sweeney", "1959", "1958", "1960", "Martin Glynn"];
 
 export function SearchBox({
   large = false,
@@ -36,7 +36,7 @@ export function SearchBox({
           name="q"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Try Joe Canning, 2017, Portumna…"
+          placeholder="Try Fohenagh, Tim Sweeney, 1959…"
           className={`w-full rounded-2xl border-4 border-galway-maroon bg-white px-4 text-galway-ink shadow-sm placeholder:text-galway-ink/40 focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold ${
             large ? "py-5 text-xl sm:text-2xl" : "py-3 text-lg"
           }`}

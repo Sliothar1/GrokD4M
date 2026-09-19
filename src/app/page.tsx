@@ -1,32 +1,93 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
-import { demoStats, getEntity, listAllIrelandWins, listEntitiesByType } from "@/lib/data";
+import { demoStats, getEntity, listAllIrelandWins } from "@/lib/data";
+
+const GOLDEN_TRIALS = [
+  { label: "Fohenagh", href: "/search?q=Fohenagh", blurb: "Parish club · golden years + amalgam" },
+  { label: "1959 county final", href: "/search?q=1959", blurb: "Draw + replay vs Castlegar" },
+  { label: "1958 runners-up", href: "/search?q=1958", blurb: "First SHC final appearance" },
+  { label: "1960 champions", href: "/search?q=1960", blurb: "Back-to-back Galway SHC" },
+  { label: "Tim Sweeney", href: "/player/tim-sweeney-fohenagh", blurb: "Fohenagh · Galway senior" },
+  { label: "Martin Glynn", href: "/player/martin-glynn-fohenagh", blurb: "1952 Intermediate final free" },
+];
 
 export default async function HomePage() {
   const stats = await demoStats();
   const wins = await listAllIrelandWins();
-  const players = (await listEntitiesByType("player")).slice(0, 4);
+  const fohenaghHistoric = await getEntity("club:fohenagh-historic");
   const fohenagh = await getEntity("club:ahascragh-fohenagh");
+  const tim = await getEntity("player:tim-sweeney-fohenagh");
+  const martin = await getEntity("player:martin-glynn-fohenagh");
+  const joe = await getEntity("player:joe-rushe-fohenagh");
+  const niall = await getEntity("player:niall-leonard");
+
+  const samplePlayers = [tim, martin, joe, niall].filter(Boolean).map((e) => e!.summary);
 
   return (
     <div className="space-y-12">
       <section className="space-y-6 text-center sm:text-left">
         <h1 className="text-4xl font-black leading-tight text-galway-ink sm:text-6xl">
-          Look up Galway Hurling Stats
+          Look up Fohenagh &amp; Galway Hurling
         </h1>
         <p className="max-w-2xl text-xl text-galway-ink/80">
-          HurlingWiki stores facts as D4M-style associative arrays — sparse{" "}
-          <strong>row / col / val</strong> triples. Search a player, a year, or an
-          All-Ireland. Plain English (en-IE). Built for curious kids and GAA fans.
+          Trial the wiki on Fohenagh&apos;s golden years — 1958–1963 county finals,
+          Tim Sweeney, and cuttings from the Tuam Herald. Facts live as D4M-style{" "}
+          <strong>row / col / val</strong> triples.
         </p>
         <SearchBox large />
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-3xl font-bold text-galway-maroon">Try these · Fohenagh golden years</h2>
+        <p className="text-lg text-galway-ink/75">
+          Club-demo shortcuts — parish finals and players, not Portumna stars.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {GOLDEN_TRIALS.map((t) => (
+            <Link
+              key={t.href}
+              href={t.href}
+              className="rounded-2xl border-2 border-galway-maroon/20 bg-white p-5 hover:border-galway-maroon"
+            >
+              <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">Trial</p>
+              <p className="mt-1 text-xl font-bold text-galway-ink">{t.label}</p>
+              <p className="mt-1 text-base text-galway-ink/70">{t.blurb}</p>
+            </Link>
+          ))}
+        </div>
       </section>
 
       <section className="grid gap-4 sm:grid-cols-3">
         <Stat label="Stored triples" value={String(stats.nnz)} />
         <Stat label="Players in seed" value={String(stats.players)} />
         <Stat label="All-Ireland wins" value={String(stats.wins)} />
+      </section>
+
+      <section className="space-y-4">
+        <div className="flex items-end justify-between gap-3">
+          <h2 className="text-3xl font-bold text-galway-maroon">Featured · Fohenagh historic</h2>
+          <Link href="/club/fohenagh-historic" className="font-semibold text-galway-maroon underline">
+            Open club
+          </Link>
+        </div>
+        <p className="text-lg text-galway-ink/75">
+          Six Galway SHC finals 1958–1963 — county champions 1959 (replay) and 1960.
+          Predecessor of today&apos;s Ahascragh-Fohenagh.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {fohenaghHistoric && <EntityCard entity={fohenaghHistoric.summary} />}
+          {fohenagh && <EntityCard entity={fohenagh.summary} />}
+        </div>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-3xl font-bold text-galway-maroon">Fohenagh players to trial</h2>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {samplePlayers.map((p) => (
+            <EntityCard key={p.id} entity={p} />
+          ))}
+        </div>
       </section>
 
       <section className="space-y-4">
@@ -39,39 +100,6 @@ export default async function HomePage() {
         <div className="grid gap-3 sm:grid-cols-2">
           {wins.map((w) => (
             <EntityCard key={w.id} entity={w} />
-          ))}
-        </div>
-      </section>
-
-
-      <section className="space-y-4">
-        <div className="flex items-end justify-between gap-3">
-          <h2 className="text-3xl font-bold text-galway-maroon">Featured club · Fohenagh</h2>
-          <Link href="/club/ahascragh-fohenagh" className="font-semibold text-galway-maroon underline">
-            Open club
-          </Link>
-        </div>
-        <p className="text-lg text-galway-ink/75">
-          Ahascragh-Fohenagh (also Fohenagh / Ahascragh) — Mannion brothers&apos; club, 2016 Intermediate champions,
-          All-Ireland Intermediate Club runners-up 2016-17.
-        </p>
-        <div className="grid gap-3 sm:grid-cols-2">
-          {fohenagh && <EntityCard entity={fohenagh.summary} />}
-          <Link
-            href="/search?q=Fohenagh"
-            className="rounded-2xl border-2 border-galway-maroon/20 bg-white p-5 hover:border-galway-maroon"
-          >
-            <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">Explore</p>
-            <p className="mt-1 text-xl font-bold text-galway-ink">Search Fohenagh matches &amp; titles</p>
-          </Link>
-        </div>
-      </section>
-
-      <section className="space-y-4">
-        <h2 className="text-3xl font-bold text-galway-maroon">Sample players</h2>
-        <div className="grid gap-3 sm:grid-cols-2">
-          {players.map((p) => (
-            <EntityCard key={p.id} entity={p} />
           ))}
         </div>
       </section>

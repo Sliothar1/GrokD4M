@@ -27,14 +27,14 @@ export default async function SearchPage({
       {!q.trim() && (
         <EmptyTeach
           title="Type something Galway"
-          hint='Try “Joe Canning”, “2017”, or “Galway All-Irelands”. Empty search teaches: the board is ready when you are.'
+          hint='Try “Fohenagh”, “1959”, or “Tim Sweeney”. Empty search teaches: the board is ready when you are.'
         />
       )}
 
       {q.trim() && results.length === 0 && (
         <EmptyTeach
           title={`No hits for “${q.trim()}”`}
-          hint="Check spelling, try a year (1980, 2017), a club (Portumna), or a player surname. No cuttings yet — try a club or year, or upload on Stories."
+          hint="Check spelling, try a year (1958, 1959, 1960), Fohenagh, or Tim Sweeney. Or upload a cutting on Stories."
         />
       )}
 
