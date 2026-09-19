@@ -332,3 +332,131 @@ export function sectionSearchResults<T extends RankableHit>(
   return sections;
 }
 
+/** Player / club / team — the only kinds the kid-facing search chooser lists. */
+export const PRIMARY_ENTITY_KINDS = ["player", "club", "team"] as const;
+export type PrimaryEntityKind = (typeof PRIMARY_ENTITY_KINDS)[number];
+export type PrimaryMatchStrength = "exact" | "prefix" | "token";
+
+export interface PrimaryEntityHit {
+  id: string;
+  kind: PrimaryEntityKind;
+  strength: PrimaryMatchStrength;
+}
+
+function isPrimaryEntityKind(kind: string): kind is PrimaryEntityKind {
+  return (PRIMARY_ENTITY_KINDS as readonly string[]).includes(kind);
+}
+
+function aliasLabels(attrs: Record<string, TripleVal>): string[] {
+  return normalizeSearchText(String(attrs.alias ?? ""))
+    .split(",")
+    .map((a) => a.trim())
+    .filter(Boolean);
+}
+
+/**
+ * Public name labels only. Player slugs often include a club ("tim-sweeney-fohenagh")
+ * and must not count as a name hit for a club search.
+ */
+export function primaryIdentityLabels(
+  kind: string,
+  id: string,
+  title: string,
+  attrs: Record<string, TripleVal> = {}
+): string[] {
+  const name = normalizeSearchText(String(attrs.name ?? attrs.title ?? title ?? ""));
+  const labels = [name, ...aliasLabels(attrs)].filter(Boolean);
+  if (kind === "player") {
+    const nickname = normalizeSearchText(String(attrs.nickname ?? ""));
+    if (nickname) labels.push(nickname);
+    return [...new Set(labels)];
+  }
+  const slug = normalizeSearchText(id.includes(":") ? id.slice(id.indexOf(":") + 1) : id);
+  if (slug) labels.push(slug);
+  return [...new Set(labels.filter(Boolean))];
+}
+
+function wordsOf(label: string): string[] {
+  return label.split(" ").filter(Boolean);
+}
+
+function tokenHitsWord(token: string, word: string): boolean {
+  if (word === token) return true;
+  return token.length >= 4 && word.startsWith(token);
+}
+
+export function primaryIdentityMatch(
+  query: string,
+  kind: string,
+  id: string,
+  title: string,
+  attrs: Record<string, TripleVal> = {}
+): PrimaryMatchStrength | null {
+  if (!isPrimaryEntityKind(kind)) return null;
+  const q = normalizeSearchText(query);
+  if (q.length < 3) return null;
+  const tokens = searchTokens(query);
+  if (tokens.length === 0) return null;
+
+  let best: PrimaryMatchStrength | null = null;
+  const consider = (strength: PrimaryMatchStrength) => {
+    if (strength === "exact") best = "exact";
+    else if (strength === "prefix" && best !== "exact") best = "prefix";
+    else if (!best) best = "token";
+  };
+
+  for (const label of primaryIdentityLabels(kind, id, title, attrs)) {
+    if (label === q) {
+      consider("exact");
+      break;
+    }
+    // Prefix = the typed query is a leading slice of the name (e.g. "Ahascragh" → Ahascragh-Fohenagh).
+    // Do not treat "Ahascragh-Fohenagh" as a prefix of historic Ahascragh — that blocks a unique redirect.
+    if (q.length >= 4 && label.startsWith(q)) {
+      consider("prefix");
+      continue;
+    }
+    const words = wordsOf(label);
+    if (tokens.every((tok) => words.some((w) => tokenHitsWord(tok, w)))) {
+      consider("token");
+    }
+  }
+  return best;
+}
+
+function primaryKindOrder(kind: string): number {
+  if (kind === "club") return 0;
+  if (kind === "player") return 1;
+  if (kind === "team") return 2;
+  return 9;
+}
+
+function primaryStrengthOrder(strength: PrimaryMatchStrength): number {
+  if (strength === "exact") return 0;
+  if (strength === "prefix") return 1;
+  return 2;
+}
+
+/** Strong player / club / team name hits — not cuttings, matches, or club-roster bleed. */
+export function findStrongPrimaryEntities(query: string, A: AssocArray): PrimaryEntityHit[] {
+  const hits: PrimaryEntityHit[] = [];
+  for (const kind of PRIMARY_ENTITY_KINDS) {
+    for (const id of A.entitiesOfType(kind)) {
+      const attrs = A.entityAttrs(id);
+      if (attrs.same_as) continue;
+      const title = String(attrs.name ?? attrs.title ?? "");
+      const strength = primaryIdentityMatch(query, kind, id, title, attrs);
+      if (!strength) continue;
+      hits.push({ id, kind, strength });
+    }
+  }
+  hits.sort((a, b) => {
+    const sa = primaryStrengthOrder(a.strength) - primaryStrengthOrder(b.strength);
+    if (sa !== 0) return sa;
+    const ka = primaryKindOrder(a.kind) - primaryKindOrder(b.kind);
+    if (ka !== 0) return ka;
+    return a.id.localeCompare(b.id);
+  });
+  return hits;
+}
+

@@ -18,6 +18,7 @@ import {
 import {
   buildSearchRankContext,
   compareSearchHits,
+  findStrongPrimaryEntities,
   searchTokens,
 } from "@/lib/searchRank";
 
@@ -528,6 +529,18 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
   out.sort((a, b) => compareSearchHits(a, b, rankCtx, (id) => A.entityAttrs(id)));
 
   return out;
+}
+
+/**
+ * Kid-facing search: player / club / team name hits only.
+ * Cuttings, matches, and panel rows stay on entity pages — not the result list.
+ */
+export async function searchPrimaryEntities(query: string): Promise<EntitySummary[]> {
+  const A = await getAssoc();
+  const hits = findStrongPrimaryEntities(query, A);
+  return hits
+    .map((hit) => summarizeEntity(hit.id, A))
+    .filter((e): e is EntitySummary => e !== null);
 }
 
 const CITE_OVERLAY_COLS = [

@@ -1,11 +1,20 @@
+import { redirect } from "next/navigation";
 import { SearchBox } from "@/components/SearchBox";
-import { EmptyTeach, EntityCard } from "@/components/EntityCard";
-import { groupSearchResults, searchEntities } from "@/lib/data";
-import { sectionSearchResults } from "@/lib/searchRank";
+import { EntityCard } from "@/components/EntityCard";
+import { searchPrimaryEntities } from "@/lib/data";
 
 export const metadata = {
   title: "Search",
 };
+
+function EmptySearch({ title, hint }: { title: string; hint: string }) {
+  return (
+    <div className="rounded-2xl border-2 border-dashed border-galway-maroon/30 bg-galway-cream/50 p-8 text-center">
+      <p className="text-2xl font-bold text-galway-maroon">{title}</p>
+      <p className="mt-3 text-lg text-galway-ink/80">{hint}</p>
+    </div>
+  );
+}
 
 export default async function SearchPage({
   searchParams,
@@ -13,80 +22,47 @@ export default async function SearchPage({
   searchParams: Promise<{ q?: string }>;
 }) {
   const { q = "" } = await searchParams;
-  const results = q.trim() ? await searchEntities(q) : [];
-  const sections = q.trim() ? sectionSearchResults(q, results) : [];
+  const query = q.trim();
+  const entities = query ? await searchPrimaryEntities(query) : [];
+
+  if (entities.length === 1) {
+    redirect(entities[0].href);
+  }
 
   return (
     <div className="space-y-8">
       <header className="space-y-3">
         <h1 className="text-4xl font-black text-galway-ink">Search</h1>
-        <p className="text-lg text-galway-ink/70">
-          Queries scan every triple — names, years, clubs, citations, and cuttings (excerpt + YYYY · Paper). Upload on Stories.
-        </p>
-        <SearchBox initialQuery={q} />
+        <SearchBox initialQuery={query} />
       </header>
 
-      {!q.trim() && (
-        <EmptyTeach
-          title="Type something Galway"
-          hint='Search “Fohenagh”, “1959”, or “Tim Sweeney”. The board is ready when you are.'
+      {!query && (
+        <EmptySearch
+          title="Search for a player or club"
+          hint="Type a name in the box above. If we know exactly who you mean, we’ll open their page."
         />
       )}
 
-      {q.trim() && results.length === 0 && (
-        <EmptyTeach
-          title={`No hits for “${q.trim()}”`}
-          hint="Check spelling, or search a year (1958, 1959, 1960), Fohenagh, or Tim Sweeney. Or upload a cutting on Stories."
+      {query && entities.length === 0 && (
+        <EmptySearch
+          title={`No player or club named “${query}”`}
+          hint="Try a person or club name — like Jason Lohan or Fohenagh."
         />
       )}
 
-      {results.length > 0 && (
-        <section className="space-y-8">
+      {entities.length > 1 && (
+        <section className="space-y-3">
           <h2 className="text-2xl font-bold text-galway-maroon">
-            {results.length} result{results.length === 1 ? "" : "s"}
+            Which one?
           </h2>
-          {sections.map((section) => (
-            <div key={section.key} className="space-y-3">
-              {section.title ? (
-                <h3 className="text-xl font-bold text-galway-ink">{section.title}</h3>
-              ) : null}
-              <div className="grid gap-3 sm:grid-cols-2">
-                {groupSearchResults(section.items).map((group) =>
-                  group.seasonChip && (group.items.length > 1 || group.key.startsWith("season:")) ? (
-                    <div
-                      key={group.key}
-                      className="space-y-3 sm:col-span-2 rounded-2xl border-2 border-galway-maroon/15 bg-galway-cream/40 p-3"
-                    >
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className="inline-flex rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
-                          {group.seasonChip}
-                        </span>
-                        {group.items
-                          .map((r) => r.seasonChip)
-                          .filter((y): y is string => Boolean(y))
-                          .filter((y, i, arr) => arr.indexOf(y) === i)
-                          .map((y) => (
-                            <span
-                              key={y}
-                              className="inline-flex rounded-full border border-galway-maroon/30 bg-white px-2 py-0.5 text-xs font-bold text-galway-maroon"
-                            >
-                              {y}
-                            </span>
-                          ))}
-                      </div>
-                      <div className="grid gap-3 sm:grid-cols-2">
-                        {group.items.map((r) => (
-                          <EntityCard key={r.id} entity={r} />
-                        ))}
-                      </div>
-                    </div>
-                  ) : (
-                    <EntityCard key={group.items[0].id} entity={group.items[0]} />
-                  )
-                )}
-              </div>
-            </div>
-          ))}
+          <p className="text-lg text-galway-ink/70">
+            A few players or clubs match “{query}”. Tap a card.
+          </p>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {entities.map((entity) => (
+              <EntityCard key={entity.id} entity={entity} />
+            ))}
+          </div>
         </section>
       )}
     </div>
