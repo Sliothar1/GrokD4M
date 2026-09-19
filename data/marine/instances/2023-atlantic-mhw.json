@@ -1,0 +1,1269 @@
+{
+  "id": "2023-atlantic-mhw",
+  "tab_label": "Instance B",
+  "title": "June 2023 North Atlantic / Irish shelf flagship MHW",
+  "date_range": {
+    "start": "2023-05-15",
+    "end": "2023-08-15"
+  },
+  "angle": "A severe shelf-wide MHW with Dinophysis and closures below climatology — heighten monitoring without claiming causation.",
+  "narrative": [
+    "NOAA Coral Reef Watch Irish-bbox mean frac_mhw in June 2023 was ≈ 0.964, peaking at 1.000 on 2023-06-19, with maximum category 5.",
+    "Mace Head June mean temperature was ≈ 15.98 °C, about +2.28 °C versus other Junes in the comparison set.",
+    "National Dinophysis exceedance was 10.0% versus a 14.4% climatology; closure weeks were 16.3% versus 24.3% climatology — both below the seasonal baseline.",
+    "Connemara bookends sit outside the June peak: Rosmuc 320 cells/L in the week of 2023-05-29, Mannin 120 cells/L in the week of 2023-07-10.",
+    "Lehanagh Pool buoy has no June 2023 series here: near-real-time coverage in this demo begins 2024-05-27.",
+    "Judge skill line: STRONG_OISST ~0.295 test cal PR-AUC vs clim ~0.18. If citing lift: 0.183 → 0.295 ≈ 61% relative. No ODYSSEA or chlorophyll predictive skill is claimed."
+  ],
+  "key_metrics": {
+    "crw_june_mean_frac_mhw": {
+      "value": "0.964",
+      "note": "Irish bbox June mean",
+      "quality": "grounded"
+    },
+    "crw_peak_frac_mhw": {
+      "value": "1.000",
+      "note": "2023-06-19",
+      "quality": "grounded"
+    },
+    "max_mhw_category": {
+      "value": "5",
+      "note": "Hobday category",
+      "quality": "grounded"
+    },
+    "mace_head_june_mean": {
+      "value": "15.98",
+      "unit": "°C",
+      "note": "~+2.28 °C vs other Junes",
+      "quality": "grounded"
+    },
+    "national_dinophysis_exceedance": {
+      "value": "10.0% vs clim 14.4%",
+      "note": "Below climatology",
+      "quality": "grounded"
+    },
+    "national_closures": {
+      "value": "16.3% vs clim 24.3%",
+      "note": "Below climatology",
+      "quality": "grounded"
+    },
+    "strong_oisst_pr_auc": {
+      "value": "~0.295 vs clim ~0.18",
+      "note": "STRONG_OISST test calibrated PR-AUC. Lift if cited: 0.183 → 0.295 ≈ 61% relative. Footnote: older committed eval ~0.293 / calibrated ~0.280 appears in some metrics files — not the headline.",
+      "quality": "grounded"
+    }
+  },
+  "highlight_station_id": "mace-head",
+  "stations": [
+    {
+      "id": "irish-shelf",
+      "name": "Irish shelf (OISST / CRW bbox mean)",
+      "lat": 53.15,
+      "lon": -10.35,
+      "kind": "satellite-bbox",
+      "note": "Spatial mean over the Irish-shelf / CRW Irish bbox used in PA-Marine-Model notes — not a single mooring."
+    },
+    {
+      "id": "mace-head",
+      "name": "Mace Head",
+      "lat": 53.326,
+      "lon": -9.904,
+      "kind": "coastal-obs",
+      "note": "Coastal temperature context for Connemara / west Galway."
+    },
+    {
+      "id": "rosmuc",
+      "name": "Rosmuc",
+      "lat": 53.355,
+      "lon": -9.618,
+      "kind": "hab-station",
+      "note": "Connemara HAB site. Map pin is approximate."
+    },
+    {
+      "id": "mannin",
+      "name": "Mannin",
+      "lat": 53.46,
+      "lon": -10.05,
+      "kind": "hab-station",
+      "note": "Mannin Bay HAB site. Map pin is approximate."
+    },
+    {
+      "id": "lehanagh-pool",
+      "name": "Lehanagh Pool buoy",
+      "lat": 53.298,
+      "lon": -9.9,
+      "kind": "buoy",
+      "note": "Marine Institute buoy. Near-real-time record in this demo starts 2024-05-27 — no June 2023 series."
+    }
+  ],
+  "timeseries": [
+    {
+      "date": "2023-06-01",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "frac_mhw": 0.922,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-02",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "frac_mhw": 0.931,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-03",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "frac_mhw": 0.936,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-04",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "frac_mhw": 0.936,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-05",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "frac_mhw": 0.94,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-06",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "frac_mhw": 0.945,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-07",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "frac_mhw": 0.943,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-08",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "frac_mhw": 0.947,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-09",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "frac_mhw": 0.958,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-10",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "frac_mhw": 0.959,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-11",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "frac_mhw": 0.963,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-12",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "frac_mhw": 0.966,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-13",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "frac_mhw": 0.974,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-14",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "frac_mhw": 0.98,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-15",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "frac_mhw": 0.98,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-16",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "frac_mhw": 0.988,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-17",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "frac_mhw": 0.983,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-18",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "frac_mhw": 0.994,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-19",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "frac_mhw": 1,
+      "in_mhw": 1,
+      "mhw_cat": 5,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-20",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "frac_mhw": 0.989,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-21",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "frac_mhw": 0.984,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-22",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "frac_mhw": 0.979,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-23",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "frac_mhw": 0.983,
+      "in_mhw": 1,
+      "mhw_cat": 4,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-24",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "frac_mhw": 0.977,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-25",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "frac_mhw": 0.976,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-26",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "frac_mhw": 0.963,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-27",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "frac_mhw": 0.96,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-28",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "frac_mhw": 0.965,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-29",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "frac_mhw": 0.96,
+      "in_mhw": 1,
+      "mhw_cat": 3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-30",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "frac_mhw": 0.951,
+      "in_mhw": 1,
+      "mhw_cat": 2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-15",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 20,
+      "frac_mhw": 0.634,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-16",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 20,
+      "frac_mhw": 0.644,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-17",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 20,
+      "frac_mhw": 0.686,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-18",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 20,
+      "frac_mhw": 0.688,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-19",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 20,
+      "frac_mhw": 0.713,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-20",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 20,
+      "frac_mhw": 0.697,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-21",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 20,
+      "frac_mhw": 0.727,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-22",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 21,
+      "frac_mhw": 0.729,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-23",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 21,
+      "frac_mhw": 0.764,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-24",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 21,
+      "frac_mhw": 0.755,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-25",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 21,
+      "frac_mhw": 0.787,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-26",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 21,
+      "frac_mhw": 0.784,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-27",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 21,
+      "frac_mhw": 0.809,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-28",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 21,
+      "frac_mhw": 0.839,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-29",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "frac_mhw": 0.825,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-30",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "frac_mhw": 0.852,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-31",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "frac_mhw": 0.878,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-01",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "frac_mhw": 0.738,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-02",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "frac_mhw": 0.723,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-03",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 27,
+      "frac_mhw": 0.713,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-04",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 27,
+      "frac_mhw": 0.677,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-05",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 27,
+      "frac_mhw": 0.689,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-06",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 27,
+      "frac_mhw": 0.672,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-07",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 27,
+      "frac_mhw": 0.677,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-08",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 27,
+      "frac_mhw": 0.658,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-09",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 27,
+      "frac_mhw": 0.666,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-10",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "frac_mhw": 0.662,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-11",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "frac_mhw": 0.636,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-12",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "frac_mhw": 0.653,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-13",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "frac_mhw": 0.637,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-14",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "frac_mhw": 0.622,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-15",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "frac_mhw": 0.595,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-16",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "frac_mhw": 0.612,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-17",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 29,
+      "frac_mhw": 0.613,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-18",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 29,
+      "frac_mhw": 0.577,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-19",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 29,
+      "frac_mhw": 0.565,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-20",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 29,
+      "frac_mhw": 0.59,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-21",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 29,
+      "frac_mhw": 0.576,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-22",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 29,
+      "frac_mhw": 0.561,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-23",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 29,
+      "frac_mhw": 0.537,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-24",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 30,
+      "frac_mhw": 0.527,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-25",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 30,
+      "frac_mhw": 0.549,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-26",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 30,
+      "frac_mhw": 0.54,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-27",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 30,
+      "frac_mhw": 0.522,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-28",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 30,
+      "frac_mhw": 0.512,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-29",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 30,
+      "frac_mhw": 0.511,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-30",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 30,
+      "frac_mhw": 0.496,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-07-31",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 31,
+      "frac_mhw": 0.493,
+      "in_mhw": 0,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-01",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 31,
+      "frac_mhw": 0.734,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-02",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 31,
+      "frac_mhw": 0.726,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-03",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 31,
+      "frac_mhw": 0.685,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-04",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 31,
+      "frac_mhw": 0.694,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-05",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 31,
+      "frac_mhw": 0.683,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-06",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 31,
+      "frac_mhw": 0.693,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-07",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 32,
+      "frac_mhw": 0.692,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-08",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 32,
+      "frac_mhw": 0.671,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-09",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 32,
+      "frac_mhw": 0.67,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-10",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 32,
+      "frac_mhw": 0.653,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-11",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 32,
+      "frac_mhw": 0.65,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-12",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 32,
+      "frac_mhw": 0.619,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-13",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 32,
+      "frac_mhw": 0.619,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-14",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 33,
+      "frac_mhw": 0.599,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-08-15",
+      "location_id": "irish-shelf",
+      "iso_year": 2023,
+      "iso_week": 33,
+      "frac_mhw": 0.607,
+      "in_mhw": 1,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-01",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "sst": 15.95,
+      "ssta": 2.25,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-02",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "sst": 15.9,
+      "ssta": 2.2,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-03",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "sst": 15.97,
+      "ssta": 2.27,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-04",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "sst": 15.91,
+      "ssta": 2.21,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-05",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "sst": 15.81,
+      "ssta": 2.11,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-06",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "sst": 15.82,
+      "ssta": 2.12,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-07",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "sst": 15.89,
+      "ssta": 2.19,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-08",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "sst": 15.87,
+      "ssta": 2.17,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-09",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "sst": 15.99,
+      "ssta": 2.29,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-10",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "sst": 15.88,
+      "ssta": 2.18,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-11",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 23,
+      "sst": 15.94,
+      "ssta": 2.24,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-12",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "sst": 15.78,
+      "ssta": 2.08,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-13",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "sst": 15.99,
+      "ssta": 2.29,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-14",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "sst": 16,
+      "ssta": 2.3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-15",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "sst": 15.94,
+      "ssta": 2.24,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-16",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "sst": 16.21,
+      "ssta": 2.51,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-17",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "sst": 16.3,
+      "ssta": 2.6,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-18",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 24,
+      "sst": 16.34,
+      "ssta": 2.64,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-19",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "sst": 16.3,
+      "ssta": 2.6,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-20",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "sst": 16.23,
+      "ssta": 2.53,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-21",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "sst": 16.13,
+      "ssta": 2.43,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-22",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "sst": 16.13,
+      "ssta": 2.43,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-23",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "sst": 16,
+      "ssta": 2.3,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-24",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "sst": 15.93,
+      "ssta": 2.23,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-25",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 25,
+      "sst": 15.81,
+      "ssta": 2.11,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-26",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "sst": 15.88,
+      "ssta": 2.18,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-27",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "sst": 15.84,
+      "ssta": 2.14,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-28",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "sst": 15.93,
+      "ssta": 2.23,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-29",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "sst": 15.93,
+      "ssta": 2.23,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-06-30",
+      "location_id": "mace-head",
+      "iso_year": 2023,
+      "iso_week": 26,
+      "sst": 15.81,
+      "ssta": 2.11,
+      "quality": "illustrative_context"
+    },
+    {
+      "date": "2023-05-29",
+      "location_id": "rosmuc",
+      "iso_year": 2023,
+      "iso_week": 22,
+      "hab_cells": 320,
+      "hab_exceedance": 1,
+      "quality": "grounded"
+    },
+    {
+      "date": "2023-07-10",
+      "location_id": "mannin",
+      "iso_year": 2023,
+      "iso_week": 28,
+      "hab_cells": 120,
+      "hab_exceedance": 1,
+      "quality": "grounded"
+    }
+  ],
+  "data_notes": [
+    "June frac_mhw daily values are illustrative context scaled to published mean 0.964 with a hard peak of 1.000 on 2023-06-19.",
+    "Mace Head daily temperatures are illustrative context scaled to the published June mean 15.98 °C; SSTA uses 13.70 °C as the ‘other Junes’ baseline implied by +2.28 °C.",
+    "HAB cell counts are only the two grounded Connemara bookends. No invented June bloom peak.",
+    "Lehanagh Pool is listed with no June 2023 timeseries (NRT from 2024-05-27).",
+    "Per-day model_p is omitted from the timeseries (no day-level probability artifact is shipped). Do not read STRONG_OISST PR-AUC as a plotted p-vs-actual series."
+  ],
+  "sources": [
+    "NOAA Coral Reef Watch MHW product (Irish bbox frac_mhw / category).",
+    "Mace Head June temperature comparison as recorded in PA-Marine-Model notes.",
+    "Marine Institute HAB exceedance and closure climatology (national).",
+    "PA-Marine-Model STRONG_OISST LightGBM test calibrated PR-AUC ~0.295 vs clim ~0.18."
+  ]
+}

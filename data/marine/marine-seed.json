@@ -1,0 +1,2687 @@
+[
+  {
+    "row": "station:irish-shelf",
+    "col": "type",
+    "val": "station"
+  },
+  {
+    "row": "station:irish-shelf",
+    "col": "name",
+    "val": "Irish shelf (OISST / CRW bbox mean)"
+  },
+  {
+    "row": "station:irish-shelf",
+    "col": "lat",
+    "val": 53.15
+  },
+  {
+    "row": "station:irish-shelf",
+    "col": "lon",
+    "val": -10.35
+  },
+  {
+    "row": "station:irish-shelf",
+    "col": "kind",
+    "val": "satellite-bbox"
+  },
+  {
+    "row": "station:irish-shelf",
+    "col": "note",
+    "val": "Spatial mean over the Irish-shelf / CRW Irish bbox used in PA-Marine-Model notes — not a single mooring."
+  },
+  {
+    "row": "station:mace-head",
+    "col": "type",
+    "val": "station"
+  },
+  {
+    "row": "station:mace-head",
+    "col": "name",
+    "val": "Mace Head"
+  },
+  {
+    "row": "station:mace-head",
+    "col": "lat",
+    "val": 53.326
+  },
+  {
+    "row": "station:mace-head",
+    "col": "lon",
+    "val": -9.904
+  },
+  {
+    "row": "station:mace-head",
+    "col": "kind",
+    "val": "coastal-obs"
+  },
+  {
+    "row": "station:mace-head",
+    "col": "note",
+    "val": "Coastal temperature context for Connemara / west Galway."
+  },
+  {
+    "row": "station:gubbaros",
+    "col": "type",
+    "val": "station"
+  },
+  {
+    "row": "station:gubbaros",
+    "col": "name",
+    "val": "Gubbaros (Connemara HAB)"
+  },
+  {
+    "row": "station:gubbaros",
+    "col": "lat",
+    "val": 53.32
+  },
+  {
+    "row": "station:gubbaros",
+    "col": "lon",
+    "val": -9.78
+  },
+  {
+    "row": "station:gubbaros",
+    "col": "kind",
+    "val": "hab-station"
+  },
+  {
+    "row": "station:gubbaros",
+    "col": "note",
+    "val": "Marine Institute shellfish / HAB monitoring site. Map pin is approximate."
+  },
+  {
+    "row": "station:rosmuc",
+    "col": "type",
+    "val": "station"
+  },
+  {
+    "row": "station:rosmuc",
+    "col": "name",
+    "val": "Rosmuc"
+  },
+  {
+    "row": "station:rosmuc",
+    "col": "lat",
+    "val": 53.355
+  },
+  {
+    "row": "station:rosmuc",
+    "col": "lon",
+    "val": -9.618
+  },
+  {
+    "row": "station:rosmuc",
+    "col": "kind",
+    "val": "hab-station"
+  },
+  {
+    "row": "station:rosmuc",
+    "col": "note",
+    "val": "Connemara HAB site. Map pin is approximate."
+  },
+  {
+    "row": "station:mannin",
+    "col": "type",
+    "val": "station"
+  },
+  {
+    "row": "station:mannin",
+    "col": "name",
+    "val": "Mannin"
+  },
+  {
+    "row": "station:mannin",
+    "col": "lat",
+    "val": 53.46
+  },
+  {
+    "row": "station:mannin",
+    "col": "lon",
+    "val": -10.05
+  },
+  {
+    "row": "station:mannin",
+    "col": "kind",
+    "val": "hab-station"
+  },
+  {
+    "row": "station:mannin",
+    "col": "note",
+    "val": "Mannin Bay HAB site. Map pin is approximate."
+  },
+  {
+    "row": "station:lehanagh-pool",
+    "col": "type",
+    "val": "station"
+  },
+  {
+    "row": "station:lehanagh-pool",
+    "col": "name",
+    "val": "Lehanagh Pool buoy"
+  },
+  {
+    "row": "station:lehanagh-pool",
+    "col": "lat",
+    "val": 53.298
+  },
+  {
+    "row": "station:lehanagh-pool",
+    "col": "lon",
+    "val": -9.9
+  },
+  {
+    "row": "station:lehanagh-pool",
+    "col": "kind",
+    "val": "buoy"
+  },
+  {
+    "row": "station:lehanagh-pool",
+    "col": "note",
+    "val": "Marine Institute buoy. Near-real-time record in this demo starts 2024-05-27 — no June 2023 series."
+  },
+  {
+    "row": "station:kilkieran",
+    "col": "type",
+    "val": "station"
+  },
+  {
+    "row": "station:kilkieran",
+    "col": "name",
+    "val": "Kilkieran (Connemara focus)"
+  },
+  {
+    "row": "station:kilkieran",
+    "col": "lat",
+    "val": 53.32
+  },
+  {
+    "row": "station:kilkieran",
+    "col": "lon",
+    "val": -9.73
+  },
+  {
+    "row": "station:kilkieran",
+    "col": "kind",
+    "val": "hab-station"
+  },
+  {
+    "row": "station:kilkieran",
+    "col": "note",
+    "val": "Additional Connemara focus site for 2022 local-week contrast. Map pin approximate."
+  },
+  {
+    "row": "instance:2018-heatwave",
+    "col": "type",
+    "val": "mhw_instance"
+  },
+  {
+    "row": "instance:2018-heatwave",
+    "col": "title",
+    "val": "Summer 2018 European / NE Atlantic MHW"
+  },
+  {
+    "row": "instance:2018-heatwave",
+    "col": "tab_label",
+    "val": "Instance A"
+  },
+  {
+    "row": "instance:2018-heatwave",
+    "col": "start",
+    "val": "2018-06-01"
+  },
+  {
+    "row": "instance:2018-heatwave",
+    "col": "end",
+    "val": "2018-08-31"
+  },
+  {
+    "row": "instance:2018-heatwave",
+    "col": "angle",
+    "val": "Warm June on the Irish shelf plus an active Connemara Dinophysis week — HAB present with MHW, not a forecast claim."
+  },
+  {
+    "row": "instance:2018-heatwave",
+    "col": "highlight_station",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2018-W22@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W22@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W22@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W22@irish-shelf",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2018-W22@irish-shelf",
+    "col": "sst",
+    "val": 14.35
+  },
+  {
+    "row": "2018-W22@irish-shelf",
+    "col": "ssta",
+    "val": 0.63
+  },
+  {
+    "row": "2018-W22@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W23@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W23@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W23@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W23@irish-shelf",
+    "col": "iso_week",
+    "val": 23
+  },
+  {
+    "row": "2018-W23@irish-shelf",
+    "col": "sst",
+    "val": 14.43
+  },
+  {
+    "row": "2018-W23@irish-shelf",
+    "col": "ssta",
+    "val": 0.6
+  },
+  {
+    "row": "2018-W23@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W24@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W24@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W24@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W24@irish-shelf",
+    "col": "iso_week",
+    "val": 24
+  },
+  {
+    "row": "2018-W24@irish-shelf",
+    "col": "sst",
+    "val": 14.99
+  },
+  {
+    "row": "2018-W24@irish-shelf",
+    "col": "ssta",
+    "val": 1
+  },
+  {
+    "row": "2018-W24@irish-shelf",
+    "col": "in_mhw",
+    "val": 0.429
+  },
+  {
+    "row": "2018-W25@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W25@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W25@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W25@irish-shelf",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2018-W25@irish-shelf",
+    "col": "sst",
+    "val": 15.25
+  },
+  {
+    "row": "2018-W25@irish-shelf",
+    "col": "ssta",
+    "val": 1.1
+  },
+  {
+    "row": "2018-W25@irish-shelf",
+    "col": "in_mhw",
+    "val": 0.429
+  },
+  {
+    "row": "2018-W26@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W26@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W26@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W26@irish-shelf",
+    "col": "iso_week",
+    "val": 26
+  },
+  {
+    "row": "2018-W26@irish-shelf",
+    "col": "sst",
+    "val": 15.21
+  },
+  {
+    "row": "2018-W26@irish-shelf",
+    "col": "ssta",
+    "val": 0.91
+  },
+  {
+    "row": "2018-W26@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W27@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W27@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W27@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W27@irish-shelf",
+    "col": "iso_week",
+    "val": 27
+  },
+  {
+    "row": "2018-W27@irish-shelf",
+    "col": "sst",
+    "val": 15.55
+  },
+  {
+    "row": "2018-W27@irish-shelf",
+    "col": "ssta",
+    "val": 1.09
+  },
+  {
+    "row": "2018-W27@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W28@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W28@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W28@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W28@irish-shelf",
+    "col": "iso_week",
+    "val": 28
+  },
+  {
+    "row": "2018-W28@irish-shelf",
+    "col": "sst",
+    "val": 16
+  },
+  {
+    "row": "2018-W28@irish-shelf",
+    "col": "ssta",
+    "val": 1.39
+  },
+  {
+    "row": "2018-W28@irish-shelf",
+    "col": "in_mhw",
+    "val": 0.571
+  },
+  {
+    "row": "2018-W29@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W29@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W29@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W29@irish-shelf",
+    "col": "iso_week",
+    "val": 29
+  },
+  {
+    "row": "2018-W29@irish-shelf",
+    "col": "sst",
+    "val": 15.87
+  },
+  {
+    "row": "2018-W29@irish-shelf",
+    "col": "ssta",
+    "val": 1.1
+  },
+  {
+    "row": "2018-W29@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W30@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W30@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W30@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W30@irish-shelf",
+    "col": "iso_week",
+    "val": 30
+  },
+  {
+    "row": "2018-W30@irish-shelf",
+    "col": "sst",
+    "val": 15.97
+  },
+  {
+    "row": "2018-W30@irish-shelf",
+    "col": "ssta",
+    "val": 1.05
+  },
+  {
+    "row": "2018-W30@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W31@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W31@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W31@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W31@irish-shelf",
+    "col": "iso_week",
+    "val": 31
+  },
+  {
+    "row": "2018-W31@irish-shelf",
+    "col": "sst",
+    "val": 16.09
+  },
+  {
+    "row": "2018-W31@irish-shelf",
+    "col": "ssta",
+    "val": 1.02
+  },
+  {
+    "row": "2018-W31@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W32@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W32@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W32@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W32@irish-shelf",
+    "col": "iso_week",
+    "val": 32
+  },
+  {
+    "row": "2018-W32@irish-shelf",
+    "col": "sst",
+    "val": 16.19
+  },
+  {
+    "row": "2018-W32@irish-shelf",
+    "col": "ssta",
+    "val": 0.96
+  },
+  {
+    "row": "2018-W32@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W33@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W33@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W33@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W33@irish-shelf",
+    "col": "iso_week",
+    "val": 33
+  },
+  {
+    "row": "2018-W33@irish-shelf",
+    "col": "sst",
+    "val": 16.34
+  },
+  {
+    "row": "2018-W33@irish-shelf",
+    "col": "ssta",
+    "val": 0.95
+  },
+  {
+    "row": "2018-W33@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W34@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W34@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W34@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W34@irish-shelf",
+    "col": "iso_week",
+    "val": 34
+  },
+  {
+    "row": "2018-W34@irish-shelf",
+    "col": "sst",
+    "val": 16.46
+  },
+  {
+    "row": "2018-W34@irish-shelf",
+    "col": "ssta",
+    "val": 0.92
+  },
+  {
+    "row": "2018-W34@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W35@irish-shelf",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W35@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2018-W35@irish-shelf",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W35@irish-shelf",
+    "col": "iso_week",
+    "val": 35
+  },
+  {
+    "row": "2018-W35@irish-shelf",
+    "col": "sst",
+    "val": 16.48
+  },
+  {
+    "row": "2018-W35@irish-shelf",
+    "col": "ssta",
+    "val": 0.8
+  },
+  {
+    "row": "2018-W35@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2018-W25@gubbaros",
+    "col": "instance",
+    "val": "2018-heatwave"
+  },
+  {
+    "row": "2018-W25@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2018-W25@gubbaros",
+    "col": "iso_year",
+    "val": 2018
+  },
+  {
+    "row": "2018-W25@gubbaros",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2018-W25@gubbaros",
+    "col": "hab_cells",
+    "val": 880
+  },
+  {
+    "row": "2018-W25@gubbaros",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "instance:2023-atlantic-mhw",
+    "col": "type",
+    "val": "mhw_instance"
+  },
+  {
+    "row": "instance:2023-atlantic-mhw",
+    "col": "title",
+    "val": "June 2023 North Atlantic / Irish shelf flagship MHW"
+  },
+  {
+    "row": "instance:2023-atlantic-mhw",
+    "col": "tab_label",
+    "val": "Instance B"
+  },
+  {
+    "row": "instance:2023-atlantic-mhw",
+    "col": "start",
+    "val": "2023-05-15"
+  },
+  {
+    "row": "instance:2023-atlantic-mhw",
+    "col": "end",
+    "val": "2023-08-15"
+  },
+  {
+    "row": "instance:2023-atlantic-mhw",
+    "col": "angle",
+    "val": "A severe shelf-wide MHW with Dinophysis and closures below climatology — heighten monitoring without claiming causation."
+  },
+  {
+    "row": "instance:2023-atlantic-mhw",
+    "col": "highlight_station",
+    "val": "mace-head"
+  },
+  {
+    "row": "2023-W22@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W22@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W22@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W22@irish-shelf",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2023-W22@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.897
+  },
+  {
+    "row": "2023-W22@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W22@irish-shelf",
+    "col": "mhw_cat",
+    "val": 2
+  },
+  {
+    "row": "2023-W23@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W23@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W23@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W23@irish-shelf",
+    "col": "iso_week",
+    "val": 23
+  },
+  {
+    "row": "2023-W23@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.951
+  },
+  {
+    "row": "2023-W23@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W23@irish-shelf",
+    "col": "mhw_cat",
+    "val": 3
+  },
+  {
+    "row": "2023-W24@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W24@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W24@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W24@irish-shelf",
+    "col": "iso_week",
+    "val": 24
+  },
+  {
+    "row": "2023-W24@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.981
+  },
+  {
+    "row": "2023-W24@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W24@irish-shelf",
+    "col": "mhw_cat",
+    "val": 4
+  },
+  {
+    "row": "2023-W25@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W25@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W25@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W25@irish-shelf",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2023-W25@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.984
+  },
+  {
+    "row": "2023-W25@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W25@irish-shelf",
+    "col": "mhw_cat",
+    "val": 5
+  },
+  {
+    "row": "2023-W26@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W26@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W26@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W26@irish-shelf",
+    "col": "iso_week",
+    "val": 26
+  },
+  {
+    "row": "2023-W26@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.894
+  },
+  {
+    "row": "2023-W26@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W26@irish-shelf",
+    "col": "mhw_cat",
+    "val": 3
+  },
+  {
+    "row": "2023-W20@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W20@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W20@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W20@irish-shelf",
+    "col": "iso_week",
+    "val": 20
+  },
+  {
+    "row": "2023-W20@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.684
+  },
+  {
+    "row": "2023-W20@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W21@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W21@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W21@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W21@irish-shelf",
+    "col": "iso_week",
+    "val": 21
+  },
+  {
+    "row": "2023-W21@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.781
+  },
+  {
+    "row": "2023-W21@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W27@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W27@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W27@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W27@irish-shelf",
+    "col": "iso_week",
+    "val": 27
+  },
+  {
+    "row": "2023-W27@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.679
+  },
+  {
+    "row": "2023-W27@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W28@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W28@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W28@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W28@irish-shelf",
+    "col": "iso_week",
+    "val": 28
+  },
+  {
+    "row": "2023-W28@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.631
+  },
+  {
+    "row": "2023-W28@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W29@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W29@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W29@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W29@irish-shelf",
+    "col": "iso_week",
+    "val": 29
+  },
+  {
+    "row": "2023-W29@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.574
+  },
+  {
+    "row": "2023-W29@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W30@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W30@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W30@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W30@irish-shelf",
+    "col": "iso_week",
+    "val": 30
+  },
+  {
+    "row": "2023-W30@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.522
+  },
+  {
+    "row": "2023-W30@irish-shelf",
+    "col": "in_mhw",
+    "val": 0.857
+  },
+  {
+    "row": "2023-W31@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W31@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W31@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W31@irish-shelf",
+    "col": "iso_week",
+    "val": 31
+  },
+  {
+    "row": "2023-W31@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.673
+  },
+  {
+    "row": "2023-W31@irish-shelf",
+    "col": "in_mhw",
+    "val": 0.857
+  },
+  {
+    "row": "2023-W32@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W32@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W32@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W32@irish-shelf",
+    "col": "iso_week",
+    "val": 32
+  },
+  {
+    "row": "2023-W32@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.653
+  },
+  {
+    "row": "2023-W32@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W33@irish-shelf",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W33@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2023-W33@irish-shelf",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W33@irish-shelf",
+    "col": "iso_week",
+    "val": 33
+  },
+  {
+    "row": "2023-W33@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.603
+  },
+  {
+    "row": "2023-W33@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2023-W22@mace-head",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W22@mace-head",
+    "col": "location_id",
+    "val": "mace-head"
+  },
+  {
+    "row": "2023-W22@mace-head",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W22@mace-head",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2023-W22@mace-head",
+    "col": "sst",
+    "val": 15.93
+  },
+  {
+    "row": "2023-W22@mace-head",
+    "col": "ssta",
+    "val": 2.23
+  },
+  {
+    "row": "2023-W23@mace-head",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W23@mace-head",
+    "col": "location_id",
+    "val": "mace-head"
+  },
+  {
+    "row": "2023-W23@mace-head",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W23@mace-head",
+    "col": "iso_week",
+    "val": 23
+  },
+  {
+    "row": "2023-W23@mace-head",
+    "col": "sst",
+    "val": 15.89
+  },
+  {
+    "row": "2023-W23@mace-head",
+    "col": "ssta",
+    "val": 2.19
+  },
+  {
+    "row": "2023-W24@mace-head",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W24@mace-head",
+    "col": "location_id",
+    "val": "mace-head"
+  },
+  {
+    "row": "2023-W24@mace-head",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W24@mace-head",
+    "col": "iso_week",
+    "val": 24
+  },
+  {
+    "row": "2023-W24@mace-head",
+    "col": "sst",
+    "val": 16.08
+  },
+  {
+    "row": "2023-W24@mace-head",
+    "col": "ssta",
+    "val": 2.38
+  },
+  {
+    "row": "2023-W25@mace-head",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W25@mace-head",
+    "col": "location_id",
+    "val": "mace-head"
+  },
+  {
+    "row": "2023-W25@mace-head",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W25@mace-head",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2023-W25@mace-head",
+    "col": "sst",
+    "val": 16.08
+  },
+  {
+    "row": "2023-W25@mace-head",
+    "col": "ssta",
+    "val": 2.38
+  },
+  {
+    "row": "2023-W26@mace-head",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W26@mace-head",
+    "col": "location_id",
+    "val": "mace-head"
+  },
+  {
+    "row": "2023-W26@mace-head",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W26@mace-head",
+    "col": "iso_week",
+    "val": 26
+  },
+  {
+    "row": "2023-W26@mace-head",
+    "col": "sst",
+    "val": 15.88
+  },
+  {
+    "row": "2023-W26@mace-head",
+    "col": "ssta",
+    "val": 2.18
+  },
+  {
+    "row": "2023-W22@rosmuc",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W22@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2023-W22@rosmuc",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W22@rosmuc",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2023-W22@rosmuc",
+    "col": "hab_cells",
+    "val": 320
+  },
+  {
+    "row": "2023-W22@rosmuc",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "2023-W28@mannin",
+    "col": "instance",
+    "val": "2023-atlantic-mhw"
+  },
+  {
+    "row": "2023-W28@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2023-W28@mannin",
+    "col": "iso_year",
+    "val": 2023
+  },
+  {
+    "row": "2023-W28@mannin",
+    "col": "iso_week",
+    "val": 28
+  },
+  {
+    "row": "2023-W28@mannin",
+    "col": "hab_cells",
+    "val": 120
+  },
+  {
+    "row": "2023-W28@mannin",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "instance:2022-galway-bay",
+    "col": "type",
+    "val": "mhw_instance"
+  },
+  {
+    "row": "instance:2022-galway-bay",
+    "col": "title",
+    "val": "Summer 2022 Galway / Connemara contrast"
+  },
+  {
+    "row": "instance:2022-galway-bay",
+    "col": "tab_label",
+    "val": "Instance C"
+  },
+  {
+    "row": "instance:2022-galway-bay",
+    "col": "start",
+    "val": "2022-06-01"
+  },
+  {
+    "row": "instance:2022-galway-bay",
+    "col": "end",
+    "val": "2022-08-31"
+  },
+  {
+    "row": "instance:2022-galway-bay",
+    "col": "angle",
+    "val": "Home-ground contrast with June 2023: local bay weeks can run hot for HAB while the shelf MHW fraction is only moderate — and August can reverse that."
+  },
+  {
+    "row": "instance:2022-galway-bay",
+    "col": "highlight_station",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W22@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W22@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W22@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W22@irish-shelf",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2022-W22@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.245
+  },
+  {
+    "row": "2022-W22@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W23@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W23@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W23@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W23@irish-shelf",
+    "col": "iso_week",
+    "val": 23
+  },
+  {
+    "row": "2022-W23@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.245
+  },
+  {
+    "row": "2022-W23@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W24@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W24@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W24@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W24@irish-shelf",
+    "col": "iso_week",
+    "val": 24
+  },
+  {
+    "row": "2022-W24@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.244
+  },
+  {
+    "row": "2022-W24@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W25@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W25@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W25@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W25@irish-shelf",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2022-W25@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.223
+  },
+  {
+    "row": "2022-W25@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W26@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W26@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W26@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W26@irish-shelf",
+    "col": "iso_week",
+    "val": 26
+  },
+  {
+    "row": "2022-W26@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.27
+  },
+  {
+    "row": "2022-W26@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W27@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W27@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W27@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W27@irish-shelf",
+    "col": "iso_week",
+    "val": 27
+  },
+  {
+    "row": "2022-W27@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.328
+  },
+  {
+    "row": "2022-W27@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W28@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W28@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W28@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W28@irish-shelf",
+    "col": "iso_week",
+    "val": 28
+  },
+  {
+    "row": "2022-W28@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.356
+  },
+  {
+    "row": "2022-W28@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W29@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W29@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W29@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W29@irish-shelf",
+    "col": "iso_week",
+    "val": 29
+  },
+  {
+    "row": "2022-W29@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.4
+  },
+  {
+    "row": "2022-W29@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W30@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W30@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W30@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W30@irish-shelf",
+    "col": "iso_week",
+    "val": 30
+  },
+  {
+    "row": "2022-W30@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.434
+  },
+  {
+    "row": "2022-W30@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W31@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W31@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W31@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W31@irish-shelf",
+    "col": "iso_week",
+    "val": 31
+  },
+  {
+    "row": "2022-W31@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.376
+  },
+  {
+    "row": "2022-W31@irish-shelf",
+    "col": "in_mhw",
+    "val": 0
+  },
+  {
+    "row": "2022-W32@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W32@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W32@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W32@irish-shelf",
+    "col": "iso_week",
+    "val": 32
+  },
+  {
+    "row": "2022-W32@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.467
+  },
+  {
+    "row": "2022-W32@irish-shelf",
+    "col": "in_mhw",
+    "val": 0.143
+  },
+  {
+    "row": "2022-W33@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W33@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W33@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W33@irish-shelf",
+    "col": "iso_week",
+    "val": 33
+  },
+  {
+    "row": "2022-W33@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.543
+  },
+  {
+    "row": "2022-W33@irish-shelf",
+    "col": "in_mhw",
+    "val": 0.857
+  },
+  {
+    "row": "2022-W34@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W34@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W34@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W34@irish-shelf",
+    "col": "iso_week",
+    "val": 34
+  },
+  {
+    "row": "2022-W34@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.63
+  },
+  {
+    "row": "2022-W34@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2022-W35@irish-shelf",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W35@irish-shelf",
+    "col": "location_id",
+    "val": "irish-shelf"
+  },
+  {
+    "row": "2022-W35@irish-shelf",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W35@irish-shelf",
+    "col": "iso_week",
+    "val": 35
+  },
+  {
+    "row": "2022-W35@irish-shelf",
+    "col": "frac_mhw",
+    "val": 0.752
+  },
+  {
+    "row": "2022-W35@irish-shelf",
+    "col": "in_mhw",
+    "val": 1
+  },
+  {
+    "row": "2022-W22@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W22@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W22@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W22@gubbaros",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2022-W22@gubbaros",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W23@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W23@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W23@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W23@gubbaros",
+    "col": "iso_week",
+    "val": 23
+  },
+  {
+    "row": "2022-W23@gubbaros",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "2022-W24@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W24@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W24@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W24@gubbaros",
+    "col": "iso_week",
+    "val": 24
+  },
+  {
+    "row": "2022-W24@gubbaros",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W25@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W25@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W25@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W25@gubbaros",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2022-W25@gubbaros",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W26@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W26@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W26@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W26@gubbaros",
+    "col": "iso_week",
+    "val": 26
+  },
+  {
+    "row": "2022-W26@gubbaros",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "2022-W22@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W22@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W22@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W22@rosmuc",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2022-W22@rosmuc",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W23@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W23@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W23@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W23@rosmuc",
+    "col": "iso_week",
+    "val": 23
+  },
+  {
+    "row": "2022-W23@rosmuc",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "2022-W24@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W24@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W24@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W24@rosmuc",
+    "col": "iso_week",
+    "val": 24
+  },
+  {
+    "row": "2022-W24@rosmuc",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W25@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W25@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W25@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W25@rosmuc",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2022-W25@rosmuc",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W26@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W26@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W26@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W26@rosmuc",
+    "col": "iso_week",
+    "val": 26
+  },
+  {
+    "row": "2022-W26@rosmuc",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "2022-W22@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W22@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W22@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W22@mannin",
+    "col": "iso_week",
+    "val": 22
+  },
+  {
+    "row": "2022-W22@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W23@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W23@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W23@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W23@mannin",
+    "col": "iso_week",
+    "val": 23
+  },
+  {
+    "row": "2022-W23@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W24@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W24@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W24@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W24@mannin",
+    "col": "iso_week",
+    "val": 24
+  },
+  {
+    "row": "2022-W24@mannin",
+    "col": "hab_exceedance",
+    "val": 1
+  },
+  {
+    "row": "2022-W25@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W25@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W25@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W25@mannin",
+    "col": "iso_week",
+    "val": 25
+  },
+  {
+    "row": "2022-W25@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W26@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W26@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W26@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W26@mannin",
+    "col": "iso_week",
+    "val": 26
+  },
+  {
+    "row": "2022-W26@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W31@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W31@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W31@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W31@gubbaros",
+    "col": "iso_week",
+    "val": 31
+  },
+  {
+    "row": "2022-W31@gubbaros",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W32@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W32@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W32@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W32@gubbaros",
+    "col": "iso_week",
+    "val": 32
+  },
+  {
+    "row": "2022-W32@gubbaros",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W33@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W33@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W33@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W33@gubbaros",
+    "col": "iso_week",
+    "val": 33
+  },
+  {
+    "row": "2022-W33@gubbaros",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W34@gubbaros",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W34@gubbaros",
+    "col": "location_id",
+    "val": "gubbaros"
+  },
+  {
+    "row": "2022-W34@gubbaros",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W34@gubbaros",
+    "col": "iso_week",
+    "val": 34
+  },
+  {
+    "row": "2022-W34@gubbaros",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W31@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W31@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W31@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W31@rosmuc",
+    "col": "iso_week",
+    "val": 31
+  },
+  {
+    "row": "2022-W31@rosmuc",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W32@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W32@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W32@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W32@rosmuc",
+    "col": "iso_week",
+    "val": 32
+  },
+  {
+    "row": "2022-W32@rosmuc",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W33@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W33@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W33@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W33@rosmuc",
+    "col": "iso_week",
+    "val": 33
+  },
+  {
+    "row": "2022-W33@rosmuc",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W34@rosmuc",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W34@rosmuc",
+    "col": "location_id",
+    "val": "rosmuc"
+  },
+  {
+    "row": "2022-W34@rosmuc",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W34@rosmuc",
+    "col": "iso_week",
+    "val": 34
+  },
+  {
+    "row": "2022-W34@rosmuc",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W31@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W31@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W31@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W31@mannin",
+    "col": "iso_week",
+    "val": 31
+  },
+  {
+    "row": "2022-W31@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W32@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W32@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W32@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W32@mannin",
+    "col": "iso_week",
+    "val": 32
+  },
+  {
+    "row": "2022-W32@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W33@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W33@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W33@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W33@mannin",
+    "col": "iso_week",
+    "val": 33
+  },
+  {
+    "row": "2022-W33@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W34@mannin",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W34@mannin",
+    "col": "location_id",
+    "val": "mannin"
+  },
+  {
+    "row": "2022-W34@mannin",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W34@mannin",
+    "col": "iso_week",
+    "val": 34
+  },
+  {
+    "row": "2022-W34@mannin",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W31@kilkieran",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W31@kilkieran",
+    "col": "location_id",
+    "val": "kilkieran"
+  },
+  {
+    "row": "2022-W31@kilkieran",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W31@kilkieran",
+    "col": "iso_week",
+    "val": 31
+  },
+  {
+    "row": "2022-W31@kilkieran",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W32@kilkieran",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W32@kilkieran",
+    "col": "location_id",
+    "val": "kilkieran"
+  },
+  {
+    "row": "2022-W32@kilkieran",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W32@kilkieran",
+    "col": "iso_week",
+    "val": 32
+  },
+  {
+    "row": "2022-W32@kilkieran",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W33@kilkieran",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W33@kilkieran",
+    "col": "location_id",
+    "val": "kilkieran"
+  },
+  {
+    "row": "2022-W33@kilkieran",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W33@kilkieran",
+    "col": "iso_week",
+    "val": 33
+  },
+  {
+    "row": "2022-W33@kilkieran",
+    "col": "hab_exceedance",
+    "val": 0
+  },
+  {
+    "row": "2022-W34@kilkieran",
+    "col": "instance",
+    "val": "2022-galway-bay"
+  },
+  {
+    "row": "2022-W34@kilkieran",
+    "col": "location_id",
+    "val": "kilkieran"
+  },
+  {
+    "row": "2022-W34@kilkieran",
+    "col": "iso_year",
+    "val": 2022
+  },
+  {
+    "row": "2022-W34@kilkieran",
+    "col": "iso_week",
+    "val": 34
+  },
+  {
+    "row": "2022-W34@kilkieran",
+    "col": "hab_exceedance",
+    "val": 0
+  }
+]
