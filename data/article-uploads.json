@@ -682,5 +682,34 @@
     "matchTags": [
       "match:tommie-larkins-fohenagh-shc-1973-05-04"
     ]
+  },
+  {
+    "id": "art-galwaybayfm-1958-tim-sweeney-panel",
+    "kind": "image",
+    "filename": "art-galwaybayfm-1958-tim-sweeney-panel.png",
+    "path": "/uploads/articles/art-galwaybayfm-1958-tim-sweeney-panel.png",
+    "publicUrl": "/uploads/articles/art-galwaybayfm-1958-tim-sweeney-panel.png",
+    "uploadedAt": "2026-09-19T17:15:20.619+00:00",
+    "caption": "Galway 1958 All-Ireland SHC final panel — Tim Sweeney front row (5th from left)",
+    "year": "1958",
+    "tags": [
+      "hurling",
+      "galway",
+      "tim-sweeney",
+      "all-ireland",
+      "panel",
+      "fohenagh"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Tim Sweeney (front row, 5th from left) with the Galway team that lost to Tipperary in the 1958 All-Ireland senior hurling final.",
+    "citeChip": "Galway Bay FM · 1958 All-Ireland panel · 2018 tribute",
+    "sourceUrl": "https://www.galwaybayfm.ie/sports/galway-hurling-legend-tim-sweeney-dies-aged-88-41054",
+    "status": "pending",
+    "matchTags": []
   }
 ]
