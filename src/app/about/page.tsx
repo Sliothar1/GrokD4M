@@ -39,7 +39,7 @@ export default async function AboutPage() {
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-2xl font-bold text-galway-maroon">How this demo works</h2>
+        <h2 className="text-2xl font-bold text-galway-maroon">How it works</h2>
         <ul className="list-disc space-y-2 pl-6 text-lg">
           <li>
             Seed facts live in <code className="rounded bg-galway-cream px-1">data/seed.json</code>{" "}

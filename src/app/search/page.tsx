@@ -27,14 +27,14 @@ export default async function SearchPage({
       {!q.trim() && (
         <EmptyTeach
           title="Type something Galway"
-          hint='Try “Fohenagh”, “1959”, or “Tim Sweeney”. Empty search teaches: the board is ready when you are.'
+          hint='Search “Fohenagh”, “1959”, or “Tim Sweeney”. The board is ready when you are.'
         />
       )}
 
       {q.trim() && results.length === 0 && (
         <EmptyTeach
           title={`No hits for “${q.trim()}”`}
-          hint="Check spelling, try a year (1958, 1959, 1960), Fohenagh, or Tim Sweeney. Or upload a cutting on Stories."
+          hint="Check spelling, or search a year (1958, 1959, 1960), Fohenagh, or Tim Sweeney. Or upload a cutting on Stories."
         />
       )}
 
