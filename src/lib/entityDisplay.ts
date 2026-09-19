@@ -39,6 +39,10 @@ export const HIDDEN_ATTRS = new Set([
   "status",
   "hold",
   "cutting_cite",
+  "photo",
+  "photo_url",
+  "portrait",
+  "image",
 ]);
 
 export function isHiddenFactKey(k: string): boolean {
@@ -63,8 +67,28 @@ export function hrefForRef(ref: string): string {
   return `/search?q=${encodeURIComponent(ref)}`;
 }
 
-export function playerBioText(attrs: Record<string, TripleVal>): string | null {
-  const raw = attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt;
+/** Kid-facing glow copy — seed `notable` only. Do not invent a `bio` column. */
+export function playerNotableText(
+  attrs: Record<string, TripleVal>
+): string | null {
+  const raw = attrs.notable;
   if (!isDisplayableVal(raw)) return null;
   return String(raw);
+}
+
+/** Longer archive prose — secondary to notable, never the glow intro. */
+export function playerArchiveNote(
+  attrs: Record<string, TripleVal>
+): string | null {
+  const raw = attrs.note;
+  if (!isDisplayableVal(raw)) return null;
+  const note = String(raw).trim();
+  const notable = playerNotableText(attrs);
+  if (notable && note === notable.trim()) return null;
+  return note;
+}
+
+/** @deprecated Use playerNotableText — never fall back to `note` as the glow. */
+export function playerBioText(attrs: Record<string, TripleVal>): string | null {
+  return playerNotableText(attrs);
 }
