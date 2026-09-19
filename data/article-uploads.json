@@ -682,5 +682,36 @@
     "matchTags": [
       "match:tommie-larkins-fohenagh-shc-1973-05-04"
     ]
+  },
+  {
+    "id": "art-ina-ct-1980-08-01-fohenagh-pearses-lohan",
+    "kind": "image",
+    "filename": "art-ina-ct-1980-08-01-fohenagh-pearses-lohan.png",
+    "path": "/uploads/articles/art-ina-ct-1980-08-01-fohenagh-pearses-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1980-08-01-fohenagh-pearses-lohan.png",
+    "uploadedAt": "2026-09-19T17:21:06.915+00:00",
+    "caption": "Connacht Tribune — Pearses Stem Fohenagh's Brave Rally: Pearses 3-12 Fohenagh 1-8; Lohans named",
+    "year": "1980",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "pearses",
+      "junior",
+      "championship",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Junior County Hurling Championship at Duggan Park: Pearses 3-12, Fohenagh 1-8. Printed Fohenagh names include Seamus Lohan (centrefield point), Enda Lohan (full-back), Gerry Lohan (0-4, best of the forwards), and P. Lohan in the XV. Also Des Devine, Tom Noone, John Joe Grady, Kevin Brennan (goal), Gerry Burke, Frank Glynn (sub).",
+    "citeChip": "Connacht Tribune · 1 Aug 1980 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19800801.1.8",
+    "status": "pending",
+    "matchTags": [
+      "match:pearses-fohenagh-junior-ch-1980-08-01"
+    ],
+    "notes": "Village-pack Lohan hit. No existing player:seamus-lohan / gerry-lohan / enda-lohan in seed — names kept in excerpt only; do not mint new player ids this PR."
   }
 ]
