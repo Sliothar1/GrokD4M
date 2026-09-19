@@ -713,5 +713,169 @@
       "match:pearses-fohenagh-junior-ch-1980-08-01"
     ],
     "notes": "Village-pack Lohan hit. No existing player:seamus-lohan / gerry-lohan / enda-lohan in seed — names kept in excerpt only; do not mint new player ids this PR."
+  },
+  {
+    "id": "art-ina-ct-1981-11-20-ahascragh-junior-final",
+    "kind": "image",
+    "filename": "art-ina-ct-1981-11-20-ahascragh-junior-final.png",
+    "path": "/uploads/articles/art-ina-ct-1981-11-20-ahascragh-junior-final.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1981-11-20-ahascragh-junior-final.png",
+    "uploadedAt": "2026-09-19T17:50:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 20 Nov 1981: Junior Crown For Ahascragh In Unique Clash Of Neighbours",
+    "year": "1981",
+    "tags": [
+      "hurling",
+      "ahascragh",
+      "junior",
+      "final",
+      "ina",
+      "neighbours"
+    ],
+    "clubTags": [
+      "club:ahascragh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Junior Crown For Ahascragh In Unique Clash Of Neighbours. Printed score and XV initials are not reliably readable on this viewer capture — tally omitted (Press Box 3-9 to 3-3 not used).",
+    "citeChip": "Connacht Tribune · 20 Nov 1981 · p.15 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19811120.1.15",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2017-06-07-ahascragh-fohenagh-prevail",
+    "kind": "image",
+    "filename": "art-ina-tth-2017-06-07-ahascragh-fohenagh-prevail.png",
+    "path": "/uploads/articles/art-ina-tth-2017-06-07-ahascragh-fohenagh-prevail.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2017-06-07-ahascragh-fohenagh-prevail.png",
+    "uploadedAt": "2026-09-19T17:50:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 7 Jun 2017: Ahascragh-Fohenagh prevail, 2-16 to 4-5 vs Abbeyknockmoy",
+    "year": "2017",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "senior",
+      "ina"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [],
+    "excerpt": "Ahascragh-Fohenagh prevail. Result panel: Ahascragh-Fohenagh 2-16, Abbeyknockmoy 4-5. Report by Mark Walsh at Kenny Park. Named scorers in the body type are not reliably readable on this viewer capture.",
+    "citeChip": "Tuam Herald · 7 Jun 2017 · p.64 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20170607.1.64",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-2015-10-23-ahascragh-fohenagh-ihc-qf",
+    "kind": "image",
+    "filename": "art-ina-ct-2015-10-23-ahascragh-fohenagh-ihc-qf.png",
+    "path": "/uploads/articles/art-ina-ct-2015-10-23-ahascragh-fohenagh-ihc-qf.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-2015-10-23-ahascragh-fohenagh-ihc-qf.png",
+    "uploadedAt": "2026-09-19T17:50:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 23 Oct 2015: It’s down to four in race for Galway intermediate title success",
+    "year": "2015",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "intermediate",
+      "ina"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [],
+    "excerpt": "It’s down to four in race for Galway intermediate title success. Ahascragh/Fohenagh, Kinvara, Moycullen and Abbeyknockmoy all win. No Ahascragh-Fohenagh tally is printed in the headline deck.",
+    "citeChip": "Connacht Tribune · 23 Oct 2015 · p.139 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20151023.1.139",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2018-06-06-ahascragh-fohenagh-u14-leonard",
+    "kind": "image",
+    "filename": "art-ina-tth-2018-06-06-ahascragh-fohenagh-u14-leonard.png",
+    "path": "/uploads/articles/art-ina-tth-2018-06-06-ahascragh-fohenagh-u14-leonard.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2018-06-06-ahascragh-fohenagh-u14-leonard.png",
+    "uploadedAt": "2026-09-19T17:50:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 6 Jun 2018: Ahascragh-Fohenagh U14 B1 Shield winners; Dara Leonard named",
+    "year": "2018",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u14",
+      "ina",
+      "dara-leonard"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:dara-leonard-ahascragh-fohenagh"
+    ],
+    "excerpt": "The Ahascragh-Fohenagh team that defeated St Thomas’ in the County U-14 B1 Shield final recently. Caption names Dara Leonard. No match tally is printed on the photo caption.",
+    "citeChip": "Tuam Herald · 6 Jun 2018 · p.73 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20180606.1.73",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-2019-08-30-ahascragh-fohenagh-u14-moclair-leonard",
+    "kind": "image",
+    "filename": "art-ina-ct-2019-08-30-ahascragh-fohenagh-u14-moclair-leonard.png",
+    "path": "/uploads/articles/art-ina-ct-2019-08-30-ahascragh-fohenagh-u14-moclair-leonard.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-2019-08-30-ahascragh-fohenagh-u14-moclair-leonard.png",
+    "uploadedAt": "2026-09-19T17:50:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 30 Aug 2019: Ahascragh-Fohenagh Under 14 beat Woodquay/Larkins; Moclair and Leonard named",
+    "year": "2019",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u14",
+      "ina",
+      "juvenile"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:ryan-moclair-ahascragh-fohenagh",
+      "player:jamie-moclair-ahascragh-fohenagh",
+      "player:ryan-leonard-ahascragh-fohenagh"
+    ],
+    "excerpt": "Juvenile hurling finals page. Caption is Ahascragh-Fohenagh Under 14 (not U13) who beat Woodquay/Larkins. Named: Alan Moclair, Ryan Moclair, Jamie Moclair, Ryan Leonard. No match tally printed on the photo caption.",
+    "citeChip": "Connacht Tribune · 30 Aug 2019 · p.141 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20190830.1.141",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-2023-10-20-ahascragh-fohenagh-team-photos",
+    "kind": "image",
+    "filename": "art-ina-ct-2023-10-20-ahascragh-fohenagh-team-photos.png",
+    "path": "/uploads/articles/art-ina-ct-2023-10-20-ahascragh-fohenagh-team-photos.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-2023-10-20-ahascragh-fohenagh-team-photos.png",
+    "uploadedAt": "2026-09-19T17:50:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 20 Oct 2023: Ahascragh-Fohenagh B-final squad; Seamus Moclair and Padraic Leonard named",
+    "year": "2023",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "ina",
+      "team-photo"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:seamus-moclair",
+      "player:padraic-leonard"
+    ],
+    "excerpt": "READY FOR BATTLE. Ahascragh-Fohenagh B-final squad photo. Caption names Seamus Moclair and Padraic Leonard. No match tally is printed on the photo caption.",
+    "citeChip": "Connacht Tribune · 20 Oct 2023 · p.108 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20231020.1.108",
+    "status": "pending",
+    "matchTags": []
   }
 ]
