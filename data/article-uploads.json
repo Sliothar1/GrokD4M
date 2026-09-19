@@ -358,5 +358,52 @@
     "matchTags": [
       "match:fohenagh-tynagh-junior-abandoned-1956"
     ]
+  },
+  {
+    "id": "art-ina-ct-1959-09-19-fohenagh-castlegar-replay",
+    "kind": "image",
+    "filename": "ctt-1959-09-19-fohenagh-castlegar-rosters.png",
+    "path": "/uploads/articles/ctt-1959-09-19-fohenagh-castlegar-rosters.png",
+    "publicUrl": "/uploads/articles/ctt-1959-09-19-fohenagh-castlegar-rosters.png",
+    "uploadedAt": "2026-09-19T16:25:44.737416+00:00",
+    "caption": "INA snip — Connacht Tribune 19 Sep 1959 Fohenagh 3-9 Castlegar 4-5 (SHC final replay) with both XVs",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "castlegar",
+      "shc",
+      "1959",
+      "final",
+      "replay",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:castlegar"
+    ],
+    "playerTags": [
+      "player:frank-madden",
+      "player:jim-moclair-fohenagh",
+      "player:pj-killalea-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:martin-glynn-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tony-ogorman",
+      "player:liam-manning-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:jim-sweeney",
+      "player:frank-bleahan-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tim-killalea"
+    ],
+    "excerpt": "Fohenagh’s second-half rally secured a one-point senior championship victory; Tim Sweeney scored 1-4. Both 15-man lineups are printed.",
+    "citeChip": "Connacht Tribune · 19 Sep 1959 · p.30 · INA",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ]
   }
 ]

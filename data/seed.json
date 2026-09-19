@@ -6060,91 +6060,6 @@
     "val": "https://irishnewsarchive.com/?a=d&d=TTH19590905.1.8"
   },
   {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "type",
-    "val": "match"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "name",
-    "val": "Fohenagh vs Castlegar (1959 Galway SHC final — replay)"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "competition",
-    "val": "Galway Senior Hurling Championship"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "round",
-    "val": "Final replay"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "year",
-    "val": 1959
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "date",
-    "val": "1959-09-13"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "home",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "away",
-    "val": "club:castlegar"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "score",
-    "val": "Fohenagh 3-9, Castlegar 4-5"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "winner",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "venue",
-    "val": "Kenny Memorial Park, Athenry"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "result",
-    "val": "win"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "tag",
-    "val": "fohenagh-historic"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "opponent",
-    "val": "Castlegar"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "note",
-    "val": "Historic Fohenagh predecessor — not an Ahascragh-Fohenagh amalgam title. Replay after Pearse Stadium draw. Tuam Herald prints Fohenagh 3-9, Castlegar 4-5 (one-point win). INA catalog locator CSL19590915.1.4 — title: Castlegar have fallen and the new champions are Fohenagh. Extra contemporary cite beside existing Connacht Tribune secondary; excerpt locator only (no full text). PDF cutting art-fohenagh-clip5 attached (first senior title replay report; one-point win). r68: captain stamped Marty Glynn (programme roll: Martin Glynn, Fohenagh) from Galway GAA/Turloughmore 2020 SHC final programme captain roll (readkong)."
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "confidence",
-    "val": "medium"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=TTH19590919.1.8"
-  },
-  {
     "row": "club:tynagh-abbey-duniry",
     "col": "type",
     "val": "club"
@@ -7981,11 +7896,6 @@
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
-    "col": "historic_club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "historic_club",
     "val": "club:fohenagh-historic"
   },
@@ -30106,41 +30016,6 @@
   },
   {
     "row": "match:galway-shc-1959-final",
-    "col": "season_chip",
-    "val": "Fohenagh · 1959"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "secondary_cite",
-    "val": "1959-09-19 · Connacht Tribune"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "secondary_cite_paper",
-    "val": "Connacht Tribune"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "secondary_cite_date",
-    "val": "1959-09-19"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "secondary_cite_url",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "pack_id",
-    "val": "galway-shc-1959-final-replay"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "ingest_triage",
-    "val": "secondary_cite"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "season_chip",
     "val": "Fohenagh · 1959"
   },
@@ -88745,86 +88620,6 @@
     "val": "club:clarinbridge"
   },
   {
-    "row": "player:tony-ogorman",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "name",
-    "val": "Tony O'Gorman"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "note",
-    "val": "Named in Connacht Tribune 1959 SHC replay report: Fohenagh goalscorer vs Castlegar."
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "name",
-    "val": "Tim Killalea"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "note",
-    "val": "Named in Connacht Tribune / Tuam Herald 1959 SHC replay: Fohenagh winning point."
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
     "row": "player:johnny-molloy",
     "col": "type",
     "val": "player"
@@ -88941,86 +88736,6 @@
   },
   {
     "row": "player:nicholas-murray",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "name",
-    "val": "Frank Madden"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "note",
-    "val": "Named in Connacht Tribune 1960 SHC final: Fohenagh defence."
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "name",
-    "val": "Jim Sweeney"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "source",
-    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "note",
-    "val": "Named in Tuam Herald 1960 SHC final: Fohenagh goalscorer."
-  },
-  {
-    "row": "player:jim-sweeney",
     "col": "status",
     "val": "pending_archivist"
   },
@@ -117005,46 +116720,6 @@
     "val": "pending_archivist"
   },
   {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "name",
-    "val": "Jim Moclair"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Jim Moclair started for Fohenagh."
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
     "row": "player:paddy-killilea-fohenagh",
     "col": "type",
     "val": "player"
@@ -117165,86 +116840,6 @@
     "val": "pending_archivist"
   },
   {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "name",
-    "val": "Tom Moylette"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tom Moylette started for Fohenagh."
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "name",
-    "val": "Tommy Glynn"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tommy Glynn started for Fohenagh."
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
     "row": "player:james-murray-fohenagh",
     "col": "type",
     "val": "player"
@@ -117281,46 +116876,6 @@
   },
   {
     "row": "player:james-murray-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "name",
-    "val": "Frank Glynn"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "source",
-    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final: Frank/Frankie Glynn goal for Fohenagh."
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
     "col": "status",
     "val": "pending_archivist"
   },
@@ -242645,26 +242200,6 @@
     "val": "https://irishnewsarchive.com/?a=d&d=CTT19610916.1.30"
   },
   {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "catalog_cite",
-    "val": "1959-09-15 · Connacht Sentinel"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "catalog_cite_paper",
-    "val": "Connacht Sentinel"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "catalog_cite_date",
-    "val": "1959-09-15"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "catalog_cite_url",
-    "val": "https://irishnewsarchive.com/?a=d&d=CSL19590915.1.4"
-  },
-  {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "catalog_cite",
     "val": "2021-01-29 · Galway City Tribune"
@@ -244970,86 +244505,6 @@
     "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
   },
   {
-    "row": "player:pj-lally-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "name",
-    "val": "P.J. Lally"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar (draw and replay cuttings); tireless midfielder/worker in Fohenagh’s first senior title campaign."
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
-  },
-  {
-    "row": "player:pj-lally-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "name",
-    "val": "Mick Coen"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar and in the Maree championship advance (M. Coen on Fohenagh XV)."
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
     "row": "player:marty-glynn-fohenagh",
     "col": "type",
     "val": "player"
@@ -245086,86 +244541,6 @@
   },
   {
     "row": "player:marty-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "name",
-    "val": "Liam Manning"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours; 1-0 noted in report)."
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final draw · Castlegar 1-11 Fohenagh 2-8"
-  },
-  {
-    "row": "player:liam-manning-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "name",
-    "val": "Frank Bleahan"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh on the XV that won the 1959 Galway SHC final replay vs Castlegar (first senior title)."
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final replay"
-  },
-  {
-    "row": "player:frank-bleahan-fohenagh",
     "col": "kid_chip",
     "val": "Mentioned in match report for Fohenagh"
   },
@@ -245210,46 +244585,6 @@
     "val": "Mentioned in match report for Fohenagh"
   },
   {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "name",
-    "val": "P.J. Killalea"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "note",
-    "val": "Mentioned in match report for Fohenagh on the 1959 Galway SHC final XV vs Castlegar (P.J. Killalea); distinct from Tim Killalea’s winning-point mention in the replay report."
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
-  },
-  {
-    "row": "player:pj-killalea-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
     "row": "player:paddy-fitzgerald-fohenagh",
     "col": "type",
     "val": "player"
@@ -245286,86 +244621,6 @@
   },
   {
     "row": "player:paddy-fitzgerald-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:jim-moclair-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:frank-madden",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final (draw/replay)"
-  },
-  {
-    "row": "player:tom-moylette-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final replay"
-  },
-  {
-    "row": "player:tony-ogorman",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:tommy-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:jim-sweeney",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune / local paper · Fohenagh golden-era cuttings"
-  },
-  {
-    "row": "player:frank-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tim-killalea",
-    "col": "cutting_cite",
-    "val": "Connacht Tribune · 1959 Galway SHC final replay"
-  },
-  {
-    "row": "player:tim-killalea",
     "col": "kid_chip",
     "val": "Mentioned in match report for Fohenagh"
   },
@@ -245658,11 +244913,6 @@
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
     "col": "cutting_cite",
     "val": "Connacht Tribune cutting · Castlegar 1-11 Fohenagh 2-8"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "article_upload",
-    "val": "art-fohenagh-clip5"
   },
   {
     "row": "player:john-walsh-college-road",
@@ -246326,16 +245576,6 @@
   },
   {
     "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
-    "col": "source_captain",
-    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
-    "col": "captain",
-    "val": "player:marty-glynn-fohenagh"
-  },
-  {
-    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "source_captain",
     "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
   },
@@ -247425,51 +246665,6 @@
     "val": "https://www.galwaybayfm.ie/sports/meelick-eyrecourt-v-kinvara-intermediate-hurling-final-preview-with-niall-lynch-206256"
   },
   {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "name",
-    "val": "Martin Glynn"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "confidence",
-    "val": "unverified"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "cutting_cite",
-    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
-  },
-  {
-    "row": "player:martin-glynn-fohenagh",
-    "col": "note",
-    "val": "Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana; scored from a 21-yard free to earn a replay (Tuam Herald)."
-  },
-  {
     "row": "player:joe-rushe-fohenagh",
     "col": "type",
     "val": "player"
@@ -247700,56 +246895,6 @@
     "val": "Represented Fohenagh in the aftermath of the abandoned junior hurling game vs Tynagh at Kiltormer (Tuam Herald, 6 Oct 1956)."
   },
   {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "name",
-    "val": "Tim Sweeney"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "county",
-    "val": "team:galway"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "confidence",
-    "val": "high"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "status",
-    "val": "pending_archivist"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "cutting_cite",
-    "val": "Tuam Herald · 6 Oct 1956 · Fohenagh–Tynagh abandoned junior · INA"
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "note",
-    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3). Identified in connection with the abandoned Fohenagh–Tynagh junior game at Kiltormer (Tuam Herald, 6 Oct 1956)."
-  },
-  {
-    "row": "player:tim-sweeney-fohenagh",
-    "col": "source",
-    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
-  },
-  {
     "row": "match:fohenagh-tynagh-junior-abandoned-1956",
     "col": "type",
     "val": "match"
@@ -247806,6 +246951,911 @@
   },
   {
     "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "name",
+    "val": "Frank Madden"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "note",
+    "val": "Named in Connacht Tribune 1960 SHC final: Fohenagh defence. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "name",
+    "val": "Jim Moclair"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Jim Moclair started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "name",
+    "val": "P.J. Killalea"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh on the 1959 Galway SHC final XV vs Castlegar (P.J. Killalea); distinct from Tim Killalea’s winning-point mention in the replay report. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:pj-killalea-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "name",
+    "val": "Tom Moylette"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tom Moylette started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "name",
+    "val": "Mick Coen"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar and in the Maree championship advance (M. Coen on Fohenagh XV). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "name",
+    "val": "Martin Glynn"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:martin-glynn-fohenagh",
+    "col": "note",
+    "val": "Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana; scored from a 21-yard free to earn a replay (Tuam Herald). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "name",
+    "val": "P.J. Lally"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final vs Castlegar (draw and replay cuttings); tireless midfielder/worker in Fohenagh’s first senior title campaign. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "name",
+    "val": "Tony O'Gorman"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "note",
+    "val": "Named in Connacht Tribune 1959 SHC replay report: Fohenagh goalscorer vs Castlegar. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "name",
+    "val": "Liam Manning"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh in the 1959 Galway SHC final draw vs Castlegar (scoring honours; 1-0 noted in report). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "note",
+    "val": "Wikipedia: Tim Sweeney (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963. Mentioned for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald; drawn 3-6 to 4-3). Identified in connection with the abandoned Fohenagh–Tynagh junior game at Kiltormer (Tuam Herald, 6 Oct 1956). Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5); scored 1-4 in that replay (Connacht Tribune)."
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "source",
+    "val": "https://en.wikipedia.org/wiki/Tim_Sweeney_(hurler)"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "name",
+    "val": "Tommy Glynn"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Tommy Glynn started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "name",
+    "val": "Jim Sweeney"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "note",
+    "val": "Named in Tuam Herald 1960 SHC final: Fohenagh goalscorer. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:jim-sweeney",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "name",
+    "val": "Frank Bleahan"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "note",
+    "val": "Mentioned in match report for Fohenagh on the XV that won the 1959 Galway SHC final replay vs Castlegar (first senior title)."
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "name",
+    "val": "Frank Glynn"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: Frank/Frankie Glynn goal for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "name",
+    "val": "Tim Killalea"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "note",
+    "val": "Named in Connacht Tribune / Tuam Herald 1959 SHC replay: Fohenagh winning point. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "player:tim-killalea",
+    "col": "kid_chip",
+    "val": "Mentioned in match report for Fohenagh"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "name",
+    "val": "Fohenagh vs Castlegar (1959 Galway SHC final — replay)"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "round",
+    "val": "Final replay"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "year",
+    "val": "1959"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "date",
+    "val": "1959-09-13"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "away",
+    "val": "club:castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "score",
+    "val": "Fohenagh 3-9, Castlegar 4-5"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "venue",
+    "val": "Kenny Memorial Park, Athenry"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "result",
+    "val": "fohenagh-win"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "opponent",
+    "val": "Castlegar"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "note",
+    "val": "1959 Galway SHC final replay: Fohenagh 3-9 Castlegar 4-5 (Connacht Tribune 19 Sep 1959). Full Fohenagh XV printed; Tim Sweeney scored 1-4."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19590919.1.8"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite",
+    "val": "1959-09-19 · Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite_paper",
+    "val": "Connacht Tribune"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite_date",
+    "val": "1959-09-19"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "secondary_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "pack_id",
+    "val": "galway-shc-1959-final-replay"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "ingest_triage",
+    "val": "secondary_cite"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "season_chip",
+    "val": "Fohenagh · 1959"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "catalog_cite",
+    "val": "1959-09-15 · Connacht Sentinel"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "catalog_cite_paper",
+    "val": "Connacht Sentinel"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "catalog_cite_date",
+    "val": "1959-09-15"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "catalog_cite_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CSL19590915.1.4"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "article_upload",
+    "val": "art-fohenagh-clip5"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "captain",
+    "val": "player:marty-glynn-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "source_captain",
+    "val": "https://www.readkong.com/page/turloch-naoimh-galway-gaa-6533804"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "score_home",
+    "val": "3-9"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "score_away",
+    "val": "4-5"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "cite",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "lineup_home",
+    "val": "F. Madden, J. Moclair, P.J. Killalea, T. Moylett, M. Coen, M. Glynn, P.J. Lally, T. O'Gorman, L. Manning, T. Sweeney, T. Glynn, J. Sweeney, F. Bleahan, F. Glynn, T. Killalea"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
     "col": "status",
     "val": "pending_archivist"
   }
