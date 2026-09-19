@@ -52,6 +52,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         date: press.date,
         page: press.page,
         headline: upload?.caption || r.title,
+        sourceUrl: upload?.sourceUrl,
       };
     });
 

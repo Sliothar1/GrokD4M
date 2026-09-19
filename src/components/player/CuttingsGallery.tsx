@@ -11,7 +11,7 @@ import {
 export type { CuttingCard };
 export { PressCuttingCard };
 
-/** Jason Lohan pack: U-21 first-half goals cutting is always the HERO (#1). */
+/** Jason Lohan pack: 2003 Co. B U-21 QF cutting is always the HERO (#1). */
 const FEATURED_IDS = ["art-ina-ct-2003-12-12-jason-lohan-u21"];
 
 export function sortPressCards(cuttings: CuttingCard[]): CuttingCard[] {
@@ -176,6 +176,16 @@ export function CuttingsGallery({
                 ) : null}
               </div>
               <div className="flex shrink-0 gap-2">
+                {lightbox.sourceUrl ? (
+                  <a
+                    href={lightbox.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-full border border-galway-maroon/30 px-3 py-1.5 text-sm font-bold text-galway-maroon"
+                  >
+                    INA
+                  </a>
+                ) : null}
                 <Link
                   href={lightbox.href}
                   className="rounded-full bg-galway-maroon px-3 py-1.5 text-sm font-bold text-white"

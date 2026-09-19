@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EntityView } from "@/components/EntityView";
+import { PressImage } from "@/components/player/PressCuttingCard";
 import { articleMediaUrl, getArticleUpload } from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
 
@@ -80,11 +81,17 @@ export default async function ArticlePage({
 
       {showImage && (
         <div className="overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white shadow-sm">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={media}
+          <PressImage
+            cutting={{
+              id: a.id,
+              title,
+              imagePath: media,
+              href: `/article/${a.id}`,
+              paper: a.paper,
+              headline: title,
+            }}
             alt={title}
-            className="mx-auto max-h-[70vh] w-full object-contain bg-galway-cream"
+            className="mx-auto max-h-[70vh] w-full bg-galway-cream object-contain"
           />
         </div>
       )}
@@ -103,9 +110,11 @@ export default async function ArticlePage({
         </div>
       )}
 
-      {a.kind === "url" && a.sourceUrl && (
+      {a.sourceUrl && (
         <div className="rounded-2xl border-2 border-galway-maroon/15 bg-white p-5 shadow-sm">
-          <p className="text-sm font-bold uppercase text-galway-gold">Source URL</p>
+          <p className="text-sm font-bold uppercase text-galway-gold">
+            Irish News Archive
+          </p>
           <a
             href={a.sourceUrl}
             target="_blank"

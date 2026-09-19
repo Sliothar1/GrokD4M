@@ -13,6 +13,7 @@ export type CuttingCard = {
   date?: string;
   page?: string;
   headline?: string;
+  sourceUrl?: string;
 };
 
 export function PressCuttingCard({
