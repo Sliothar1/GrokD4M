@@ -121995,6 +121995,11 @@
     "val": "club:ahascragh-fohenagh"
   },
   {
+    "row": "player:jason-lohan",
+    "col": "club_1",
+    "val": "club:ahascragh-historic"
+  },
+  {
     "row": "appearance:jason-lohan-ihc-2002",
     "col": "club",
     "val": "club:ahascragh-fohenagh"

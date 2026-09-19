@@ -65,17 +65,8 @@ export const PLAYER_FACT_KEYS = [
   "all_stars",
 ] as const;
 
-/** Primary club plus optional second club chip (historic + amalgam). */
-export function playerClubIds(attrs: Record<string, TripleVal>): string[] {
-  const out: string[] = [];
-  for (const key of ["club", "also_club"] as const) {
-    const v = attrs[key];
-    if (typeof v === "string" && v.startsWith("club:") && !out.includes(v)) {
-      out.push(v);
-    }
-  }
-  return out;
-}
+/** @deprecated Import `playerClubIds` from `@/lib/data` (club + also_club + club_1…). */
+export { playerClubIds } from "@/lib/data";
 
 export function hrefForRef(ref: string): string {
   if (isEntityRef(ref)) return entityHref(ref);

@@ -1,0 +1,50 @@
+{
+  "pack": "dual-club-edges",
+  "at": "2026-09-19T17:20:00+00:00",
+  "scope": "Dual-era player club edges — start with player:jason-lohan",
+  "locked_club_ids": [
+    "club:fohenagh-historic",
+    "club:ahascragh-historic",
+    "club:ahascragh-fohenagh"
+  ],
+  "pattern": {
+    "club": "Primary / current jersey (existing single-club col)",
+    "also_club": "Second jersey (landed on main via later Pitchside/club work) — playerClubIds() reads this too",
+    "club_1": "Additional jersey — same numbered extras already used on article cuttings (club, club_1, club_2)",
+    "season:YYYY": "Existing player × season → club edge, also collected into the chip strip",
+    "note": "AssocArray is one val per (row, col), so a second jersey cannot overwrite `club`. Use also_club and/or club_1. Inverse club pages pick players up because val is the club id. Jason keeps both also_club and club_1 pointing at club:ahascragh-historic (deduped in the chip strip)."
+  },
+  "updated": ["player:jason-lohan"],
+  "added": [
+    {
+      "row": "player:jason-lohan",
+      "col": "club_1",
+      "val": "club:ahascragh-historic"
+    }
+  ],
+  "unchanged": [
+    {
+      "row": "player:jason-lohan",
+      "col": "club",
+      "val": "club:ahascragh-fohenagh"
+    },
+    "appearance:jason-lohan-minor-b-1999 (club stays club:ahascragh-fohenagh — RoH caption is Ahascragh–Fohenagh Minor B 1999 juvenile amalgam)",
+    "appearance:jason-lohan-ihc-2002 (club stays club:ahascragh-fohenagh)",
+    "INA cuttings 2002/2003/2005 clubTags stay club:ahascragh-fohenagh (paper names AF)"
+  ],
+  "jason_lohan_cites": {
+    "club:ahascragh-fohenagh": [
+      "1999 Galway GAA RoH — Ahascragh–Fohenagh Minor B champions caption",
+      "Connacht Tribune cuttings already on the player (2002 U-21, 2003 U-21 goal, 2005 AF start)"
+    ],
+    "club:ahascragh-historic": [
+      "Garry/D4M locked dual-era example: historic Ahascragh + AF.",
+      "No existing cutting names him on a pre-2002 Ahascragh-only XV — no invented historic-Ahascragh match cite was added."
+    ]
+  },
+  "notes": [
+    "Do not invent new club ids. Three-club model is locked.",
+    "Do not retag 1999 Minor B or 2002+ cuttings as historic Ahascragh — those printed names are AF.",
+    "Player page chip strip reads playerClubIds() in src/lib/data.ts."
+  ]
+}
