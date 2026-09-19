@@ -36562,7 +36562,12 @@
   {
     "row": "player:jason-lohan",
     "col": "note",
-    "val": "Named on Galway All-Ireland Intermediate Hurling Champions 2002 panel (Galway GAA). Also Ahascragh–Fohenagh Minor B 1999 roll of honour."
+    "val": "Jason Lohan is an Ahascragh-Fohenagh hurler. Galway GAA's roll of honour names him on the Ahascragh–Fohenagh Minor B hurling champions panel in 1999. He is also named on Galway's All-Ireland Intermediate Hurling Champions 2002 panel photo (front row, between Kenneth Burke and Martin Kelly). That photo lists the panel — it does not say he started the All-Ireland Intermediate final."
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "kid_chip",
+    "val": "Verified AF hurler"
   },
   {
     "row": "player:jim-morris",
@@ -82865,6 +82870,66 @@
     "val": false
   },
   {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "player",
+    "val": "player:jason-lohan"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "name",
+    "val": "Jason Lohan"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "competition",
+    "val": "Galway Minor B Hurling Championship"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "grade",
+    "val": "Minor B"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "year",
+    "val": 1999
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "cite_chip",
+    "val": "1999 · Galway GAA RoH"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "excerpt",
+    "val": "Ahascragh –Fohenagh Minor ‘B’ Hurling Champions 1999. Front row: … Julian Leonard, Jason Lohan."
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "status",
+    "val": "archivist_approved"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
+    "col": "hold",
+    "val": false
+  },
+  {
     "row": "appearance:martin-kelly-ihc-2002",
     "col": "type",
     "val": "appearance"
@@ -121926,6 +121991,11 @@
   },
   {
     "row": "appearance:jason-lohan-ihc-2002",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:jason-lohan-minor-b-1999",
     "col": "club",
     "val": "club:ahascragh-fohenagh"
   },
