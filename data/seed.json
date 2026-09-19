@@ -36552,7 +36552,7 @@
   {
     "row": "player:jason-lohan",
     "col": "confidence",
-    "val": "high"
+    "val": "verified"
   },
   {
     "row": "player:jason-lohan",
@@ -116732,22 +116732,22 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "source",
-    "val": "https://www.tuamherald.ie/"
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "note",
-    "val": "Named in Tuam Herald 2026 coverage for Ahascragh-Fohenagh."
+    "val": "Tuam Herald 2026 PIC opener: A. Moclair started half-back for Ahascragh-Fohenagh vs Kinvara."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "verified_from_cutting"
   },
   {
     "row": "player:mick-moylette-fohenagh",
@@ -122472,7 +122472,7 @@
   {
     "row": "player:cathal-lohan-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "alias"
   },
   {
     "row": "player:kevin-murray-ahascragh",
@@ -243472,17 +243472,17 @@
   {
     "row": "player:sean-moclair",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:sean-moclair",
     "col": "status",
-    "val": "pending_verification"
+    "val": "club_stamp"
   },
   {
     "row": "player:sean-moclair",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Parish roster club stamp. Spelling also seen as Sean Mockler."
   },
   {
     "row": "player:sean-moclair",
@@ -243507,22 +243507,17 @@
   {
     "row": "player:phillip-lohan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:phillip-lohan",
     "col": "status",
-    "val": "pending_verification"
+    "val": "alias"
   },
   {
     "row": "player:phillip-lohan",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
-  },
-  {
-    "row": "player:phillip-lohan",
-    "col": "also_known_as",
-    "val": "Philip Lohan"
+    "val": "Spelling alias of player:philip-lohan."
   },
   {
     "row": "player:cathal-lohan",
@@ -243542,17 +243537,17 @@
   {
     "row": "player:cathal-lohan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:cathal-lohan",
     "col": "status",
-    "val": "pending_verification"
+    "val": "verified_from_cutting"
   },
   {
     "row": "player:cathal-lohan",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Named on Fohenagh Minor C 1996 Galway GAA roll of honour panel. Historic id player:cathal-lohan-fohenagh is the same person."
   },
   {
     "row": "player:trevor-lohan",
@@ -243572,17 +243567,17 @@
   {
     "row": "player:trevor-lohan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:trevor-lohan",
     "col": "status",
-    "val": "pending_verification"
+    "val": "club_stamp"
   },
   {
     "row": "player:trevor-lohan",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Parish roster club stamp."
   },
   {
     "row": "player:padraig-leonard",
@@ -243682,12 +243677,12 @@
   {
     "row": "player:alan-mockler",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:alan-mockler",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Spelling alias of player:alan-moclair-ahascragh-fohenagh."
   },
   {
     "row": "player:sean-mockler",
@@ -243697,7 +243692,7 @@
   {
     "row": "player:sean-mockler",
     "col": "name",
-    "val": "Sean Mockler"
+    "val": "Seán Mockler"
   },
   {
     "row": "player:sean-mockler",
@@ -243712,12 +243707,12 @@
   {
     "row": "player:sean-mockler",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:sean-mockler",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Spelling alias of player:sean-moclair."
   },
   {
     "row": "player:seamus-mockler",
@@ -243727,7 +243722,7 @@
   {
     "row": "player:seamus-mockler",
     "col": "name",
-    "val": "Seamus Mockler"
+    "val": "Séamus Mockler"
   },
   {
     "row": "player:seamus-mockler",
@@ -243737,17 +243732,17 @@
   {
     "row": "player:seamus-mockler",
     "col": "club",
-    "val": "club:ahascragh-fohenagh"
+    "val": "club:fohenagh-historic"
   },
   {
     "row": "player:seamus-mockler",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:seamus-mockler",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Spelling alias of player:seamus-moclair."
   },
   {
     "row": "player:philip-lohan",
@@ -243761,23 +243756,18 @@
   },
   {
     "row": "player:philip-lohan",
-    "col": "same_as",
-    "val": "player:phillip-lohan"
-  },
-  {
-    "row": "player:philip-lohan",
     "col": "club",
     "val": "club:ahascragh-fohenagh"
   },
   {
     "row": "player:philip-lohan",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:philip-lohan",
     "col": "note",
-    "val": "Ahascragh-Fohenagh hurler."
+    "val": "Parish roster club stamp. Same person as the older Phillip Lohan spelling alias."
   },
   {
     "row": "player:gary-lohan",
@@ -243817,32 +243807,32 @@
   {
     "row": "player:padraig-leonard",
     "col": "status",
-    "val": "pending_verification"
+    "val": "alias"
   },
   {
     "row": "player:alan-mockler",
     "col": "status",
-    "val": "pending_verification"
+    "val": "alias"
   },
   {
     "row": "player:sean-mockler",
     "col": "status",
-    "val": "pending_verification"
+    "val": "alias"
   },
   {
     "row": "player:seamus-mockler",
     "col": "status",
-    "val": "pending_verification"
+    "val": "alias"
   },
   {
     "row": "player:philip-lohan",
     "col": "status",
-    "val": "pending_verification"
+    "val": "club_stamp"
   },
   {
     "row": "player:gary-lohan",
     "col": "status",
-    "val": "pending_verification"
+    "val": "alias"
   },
   {
     "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
@@ -247387,7 +247377,7 @@
   {
     "row": "player:jim-moclair-fohenagh",
     "col": "name",
-    "val": "Jim Moclair"
+    "val": "Jimmy Moclair"
   },
   {
     "row": "player:jim-moclair-fohenagh",
@@ -247427,7 +247417,7 @@
   {
     "row": "player:jim-moclair-fohenagh",
     "col": "kid_chip",
-    "val": "Mentioned in match report for Fohenagh"
+    "val": "Verified Fohenagh hurler"
   },
   {
     "row": "player:jim-moclair-fohenagh",
@@ -248333,5 +248323,250 @@
     "row": "player:bobby-madden-fohenagh",
     "col": "cutting_cite",
     "val": "Connacht Tribune · 17 Aug 1963 · p.14"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "notable",
+    "val": "A Fohenagh parish hurler with Ahascragh-Fohenagh."
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "also_known_as",
+    "val": "Phillip Lohan"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "kid_chip",
+    "val": "Verified parish hurler"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "cutting_cite",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "verification",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:phillip-lohan",
+    "col": "same_as",
+    "val": "player:philip-lohan"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "also_known_as",
+    "val": "Jim Moclair; Jimmy Mockler; J. Moclair"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "notable",
+    "val": "First great Fohenagh hurler of the 1950s and 1960s. Started the 1963 Galway senior county final."
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "notable",
+    "val": "A Fohenagh parish hurler. Son of Jimmy Moclair."
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "kid_chip",
+    "val": "Verified parish hurler"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "cutting_cite",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "verification",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "father",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "notable",
+    "val": "A standout Fohenagh hurler named in the Sadie Kilcommons final report. Son of Jimmy Moclair."
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "father",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "notable",
+    "val": "An Ahascragh-Fohenagh hurler who started at half-back in the 2026 parish championship opener. Son of Jimmy Moclair."
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "kid_chip",
+    "val": "Verified AF hurler"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 2026 PIC opener"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper report"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "father",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "notable",
+    "val": "A standout Fohenagh hurler named in the Sadie Kilcommons final report."
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "cutting_cite",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "verification",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "notable",
+    "val": "A standout Fohenagh hurler named in the Sadie Kilcommons final report."
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "notable",
+    "val": "A Fohenagh parish hurler, named on the 1996 Fohenagh Minor C honour roll."
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "kid_chip",
+    "val": "Verified parish hurler"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "cutting_cite",
+    "val": "Galway GAA · Roll of Honour 1980–1999 · Fohenagh Minor C 1996"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "verification",
+    "val": "Named on Galway GAA roll of honour"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "source",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "also_club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 12 Dec 2003 · p.10 · INA"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "notable",
+    "val": "A Fohenagh parish hurler with Ahascragh-Fohenagh."
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "kid_chip",
+    "val": "Verified parish hurler"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "cutting_cite",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "verification",
+    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+  },
+  {
+    "row": "player:jimmy-mockler",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jimmy-mockler",
+    "col": "name",
+    "val": "Jimmy Mockler"
+  },
+  {
+    "row": "player:jimmy-mockler",
+    "col": "same_as",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "player:jimmy-mockler",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jimmy-mockler",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:jimmy-mockler",
+    "col": "note",
+    "val": "Spelling alias of player:jim-moclair-fohenagh."
+  },
+  {
+    "row": "player:jimmy-mockler",
+    "col": "status",
+    "val": "alias"
+  },
+  {
+    "row": "player:jim-mockler",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jim-mockler",
+    "col": "name",
+    "val": "Jim Mockler"
+  },
+  {
+    "row": "player:jim-mockler",
+    "col": "same_as",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "player:jim-mockler",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jim-mockler",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:jim-mockler",
+    "col": "note",
+    "val": "Spelling alias of player:jim-moclair-fohenagh."
+  },
+  {
+    "row": "player:jim-mockler",
+    "col": "status",
+    "val": "alias"
   }
 ]

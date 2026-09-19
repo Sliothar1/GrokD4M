@@ -1,0 +1,64 @@
+{
+  "pack": "fohenagh-village-roster",
+  "at": "2026-09-19T17:21:23.497258+00:00",
+  "scope": "Garry Lohan Fohenagh/Ahascragh parish roster — upgrade existing ids",
+  "upgraded": [
+    "player:jim-moclair-fohenagh",
+    "player:sean-moclair",
+    "player:seamus-moclair",
+    "player:alan-moclair-ahascragh-fohenagh",
+    "player:padraic-leonard",
+    "player:niall-leonard",
+    "player:garry-lohan",
+    "player:philip-lohan",
+    "player:cathal-lohan",
+    "player:jason-lohan",
+    "player:trevor-lohan"
+  ],
+  "aliases": [
+    "player:alan-mockler",
+    "player:cathal-lohan-fohenagh",
+    "player:gary-lohan",
+    "player:jim-mockler",
+    "player:jimmy-mockler",
+    "player:padraig-leonard",
+    "player:phillip-lohan",
+    "player:seamus-mockler",
+    "player:sean-mockler"
+  ],
+  "merges": {
+    "player:phillip-lohan": "player:philip-lohan",
+    "player:cathal-lohan-fohenagh": "player:cathal-lohan",
+    "player:sean-mockler": "player:sean-moclair",
+    "player:seamus-mockler": "player:seamus-moclair",
+    "player:alan-mockler": "player:alan-moclair-ahascragh-fohenagh",
+    "player:jimmy-mockler": "player:jim-moclair-fohenagh",
+    "player:jim-mockler": "player:jim-moclair-fohenagh"
+  },
+  "family": {
+    "father": "player:jim-moclair-fohenagh",
+    "sons": [
+      "player:sean-moclair",
+      "player:seamus-moclair",
+      "player:alan-moclair-ahascragh-fohenagh"
+    ]
+  },
+  "dual_clubs": {
+    "player:jason-lohan": [
+      "club:ahascragh-historic",
+      "club:ahascragh-fohenagh"
+    ]
+  },
+  "notes": [
+    "confidence=verified on every canonical parish page.",
+    "Paper cites kept where we have them (1963 SHC final, 1959 CT, Sadie Kilcommons, Tuam Herald 2026, Galway GAA RoH 1996, CT 2003/2005).",
+    "Club-stamp cite used only where there is no paper: Seán, Philip, Trevor, Niall.",
+    "No invented scores, caps, or match minutes.",
+    "AssocArray allows one club col; Jason also_club holds historic Ahascragh."
+  ],
+  "stats": {
+    "deleted": 2,
+    "updated": 37,
+    "added": 49
+  }
+}

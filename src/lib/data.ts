@@ -188,6 +188,9 @@ export function friendlyAttrLabel(key: string): string {
     win_ref: "All-Ireland link",
     county: "County team",
     club: "Club",
+    also_club: "Also club",
+    also_known_as: "Also known as",
+    father: "Father",
     team: "Team",
     position: "Position",
     born: "Born",
@@ -299,9 +302,11 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     String(attrs.name ?? attrs.title ?? attrs.year ?? displayNameForRef(id, A));
   let subtitle: string | undefined;
   if (kind === "player") {
-    const clubId = attrs.club ? String(attrs.club) : "";
-    const clubName = clubId ? displayNameForRef(clubId, A) : "";
-    subtitle = [attrs.position, clubName].filter(Boolean).map(String).join(" · ");
+    const clubIds = [attrs.club, attrs.also_club]
+      .filter((v): v is string => typeof v === "string" && v.startsWith("club:"))
+      .filter((id, i, all) => all.indexOf(id) === i);
+    const clubNames = clubIds.map((clubId) => displayNameForRef(clubId, A));
+    subtitle = [attrs.position, ...clubNames].filter(Boolean).map(String).join(" · ");
   } else if (kind === "win") {
     const isAI = isAllIrelandWinAttrs(attrs);
     if (isAI) {

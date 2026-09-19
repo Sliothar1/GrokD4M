@@ -54,13 +54,28 @@ export function isHiddenFactKey(k: string): boolean {
 /** Compact career strip — identity facts only, not the sticky-note wall. */
 export const PLAYER_FACT_KEYS = [
   "club",
+  "also_club",
   "county",
   "position",
   "born",
   "nickname",
+  "father",
+  "also_known_as",
   "all_ireland_medals",
   "all_stars",
 ] as const;
+
+/** Primary club plus optional second club chip (historic + amalgam). */
+export function playerClubIds(attrs: Record<string, TripleVal>): string[] {
+  const out: string[] = [];
+  for (const key of ["club", "also_club"] as const) {
+    const v = attrs[key];
+    if (typeof v === "string" && v.startsWith("club:") && !out.includes(v)) {
+      out.push(v);
+    }
+  }
+  return out;
+}
 
 export function hrefForRef(ref: string): string {
   if (isEntityRef(ref)) return entityHref(ref);
