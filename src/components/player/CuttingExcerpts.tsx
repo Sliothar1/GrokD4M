@@ -17,6 +17,7 @@ export type CuttingCard = {
  * when present — do not block if the pack is not merged yet.
  */
 export const JASON_HERO_CUTTING_IDS = [
+  "art-galwaygaa-2002-galway-aihc-champions-jason-lohan",
   "art-ina-ct-2003-12-12-jason-lohan-u21",
   "art-ina-ct-2002-11-15-jason-lohan-u21",
   "art-ina-ct-2005-07-22-jason-lohan",
