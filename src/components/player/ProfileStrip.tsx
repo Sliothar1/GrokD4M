@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+export type ClubChip = {
+  id: string;
+  href: string;
+  label: string;
+};
+
 export function ProfileStrip({
   name,
   clubName,
@@ -8,6 +14,7 @@ export function ProfileStrip({
   photoUploadHref,
   verified,
   trustLabel,
+  clubChips = [],
 }: {
   name: string;
   clubName?: string;
@@ -17,9 +24,12 @@ export function ProfileStrip({
   /** Named-in-cutting or equivalent (archivist / high confidence). */
   verified: boolean;
   trustLabel?: string;
+  /** Every jersey the player wore — clickable links to club pages. */
+  clubChips?: ClubChip[];
 }) {
   const subtitle = [clubName, countyName].filter(Boolean).join(" · ");
   const chip = verified ? "Verified" : trustLabel;
+  const showChipRow = Boolean(chip) || clubChips.length > 0;
 
   return (
     <header className="flex items-start gap-4 sm:gap-5">
@@ -38,19 +48,39 @@ export function ProfileStrip({
         {subtitle ? (
           <p className="text-lg font-semibold text-galway-ink/70">{subtitle}</p>
         ) : null}
-        {chip ? (
-          <div className="flex flex-wrap items-center gap-2 pt-0.5">
-            <span
-              className={
-                chip === "Verified"
-                  ? "rounded-full bg-green-100 px-2.5 py-0.5 text-sm font-bold text-green-800"
-                  : chip === "Fan story"
-                    ? "rounded-full bg-galway-gold/30 px-2.5 py-0.5 text-sm font-bold text-galway-ink"
-                    : "rounded-full bg-amber-100 px-2.5 py-0.5 text-sm font-bold text-amber-900"
-              }
-            >
-              {chip}
-            </span>
+        {showChipRow ? (
+          <div
+            className="flex flex-wrap items-center gap-2 pt-0.5"
+            aria-label="Trust and club jerseys"
+          >
+            {chip ? (
+              <span
+                className={
+                  chip === "Verified"
+                    ? "rounded-full bg-green-100 px-2.5 py-0.5 text-sm font-bold text-green-800"
+                    : chip === "Fan story"
+                      ? "rounded-full bg-galway-gold/30 px-2.5 py-0.5 text-sm font-bold text-galway-ink"
+                      : "rounded-full bg-amber-100 px-2.5 py-0.5 text-sm font-bold text-amber-900"
+                }
+              >
+                {chip}
+              </span>
+            ) : null}
+            {clubChips.map((club) => (
+              <Link
+                key={club.id}
+                href={club.href}
+                title={
+                  club.id === "club:fohenagh-historic" ||
+                  club.id === "club:ahascragh-historic"
+                    ? "Before Ahascragh-Fohenagh"
+                    : club.label
+                }
+                className="rounded-full bg-galway-maroon px-2.5 py-0.5 text-sm font-bold text-white transition hover:bg-galway-maroon-dark focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+              >
+                {club.label}
+              </Link>
+            ))}
           </div>
         ) : null}
       </div>

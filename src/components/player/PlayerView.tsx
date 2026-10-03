@@ -8,15 +8,16 @@ import { PlayerCareer } from "@/components/player/PlayerCareer";
 import { ProfileStrip } from "@/components/player/ProfileStrip";
 import {
   displayNameForRef,
+  entityHref,
   getAssoc,
   isVerifiedFromCutting,
+  playerClubIds,
   playerTrustLabel,
   type getEntity,
 } from "@/lib/data";
 import {
   isDisplayableVal,
   playerArchiveNote,
-  playerClubIds,
   playerNotableText,
 } from "@/lib/entityDisplay";
 import {
@@ -53,9 +54,22 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
   const namedOnCutting =
     isVerifiedFromCutting(attrs) || cuttings.length > 0;
   const verified = namedOnCutting || trust === "Verified";
-  const clubName = playerClubIds(attrs)
-    .map((clubId) => displayNameForRef(clubId, A))
-    .join(" · ") || undefined;
+  const appearanceClubs = related
+    .filter((r) => r.kind === "appearance")
+    .map((r) => {
+      const club = A.entityAttrs(r.id).club;
+      return club ? String(club) : "";
+    })
+    .filter(Boolean);
+  const clubIds = playerClubIds(attrs, appearanceClubs);
+  const clubChips = clubIds.map((clubId) => ({
+    id: clubId,
+    href: entityHref(clubId, "club"),
+    label: displayNameForRef(clubId, A),
+  }));
+  const clubName = attrs.club
+    ? displayNameForRef(String(attrs.club), A)
+    : undefined;
   const countyName = attrs.county
     ? displayNameForRef(String(attrs.county), A)
     : undefined;
@@ -77,6 +91,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         photoUploadHref={playerPhotoUploadHref(id)}
         verified={verified}
         trustLabel={trust}
+        clubChips={clubChips}
       />
 
       <NotableIntro notable={notable} note={note} />

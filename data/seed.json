@@ -116742,7 +116742,7 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "note",
-    "val": "Tuam Herald 2026 PIC opener: A. Moclair started half-back for Ahascragh-Fohenagh vs Kinvara."
+    "val": "Tuam Herald 2026 PIC opener: A. Moclair started half-back for Ahascragh-Fohenagh vs Kinvara. Also named on the Ahascragh-Fohenagh Under 14 caption (Connacht Tribune 30 Aug 2019 · p.141 · INA) after they beat Woodquay/Larkins."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -121993,6 +121993,11 @@
     "row": "player:jason-lohan",
     "col": "club",
     "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "club_1",
+    "val": "club:ahascragh-historic"
   },
   {
     "row": "appearance:jason-lohan-ihc-2002",
@@ -247107,7 +247112,7 @@
   {
     "row": "player:padraic-leonard",
     "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting). Also named on the Ahascragh-Fohenagh B-final squad caption (Connacht Tribune 20 Oct 2023 · p.108 · INA). Historic club tag kept; AF added as dual-era club_1."
   },
   {
     "row": "player:padraic-leonard",
@@ -247202,7 +247207,7 @@
   {
     "row": "player:seamus-moclair",
     "col": "note",
-    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting)."
+    "val": "Standout for Fohenagh in the Sadie Kilcommons final win over Ahascragh (1-12 to 0-9), named among those who served the side best (Connacht Tribune cutting). Also named on the Ahascragh-Fohenagh B-final squad caption (Connacht Tribune 20 Oct 2023 · p.108 · INA). Historic club tag kept; AF added as dual-era club_1."
   },
   {
     "row": "player:seamus-moclair",
@@ -247402,7 +247407,7 @@
   {
     "row": "player:jim-moclair-fohenagh",
     "col": "note",
-    "val": "Turloughmore GAA archive 1963 SHC final team sheet: Jim Moclair started for Fohenagh. Named on Fohenagh XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune 19 Sep 1959; Fohenagh 3-9, Castlegar 4-5)."
+    "val": "Named on Fohenagh's XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune, 19 Sep 1959). Started for Fohenagh in the 1963 Galway SHC final (Turloughmore GAA archive team sheet)."
   },
   {
     "row": "player:jim-moclair-fohenagh",
@@ -248362,7 +248367,7 @@
   {
     "row": "player:jim-moclair-fohenagh",
     "col": "notable",
-    "val": "First great Fohenagh hurler of the 1950s and 1960s. Started the 1963 Galway senior county final."
+    "val": "Named on Fohenagh's XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune, 19 Sep 1959). Started for Fohenagh in the 1963 Galway SHC final (Turloughmore GAA archive team sheet)."
   },
   {
     "row": "player:sean-moclair",
@@ -248568,5 +248573,251 @@
     "row": "player:jim-mockler",
     "col": "status",
     "val": "alias"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "secondary_cite",
+    "val": "Connacht Tribune · 30 Aug 2019 · p.141 · INA"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "club_1",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "secondary_cite",
+    "val": "Connacht Tribune · 20 Oct 2023 · p.108 · INA"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "club_1",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "secondary_cite",
+    "val": "Connacht Tribune · 20 Oct 2023 · p.108 · INA"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Dara Leonard"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Named on the Ahascragh-Fohenagh U14 B1 Shield caption after they defeated St Thomas’ (Tuam Herald 6 Jun 2018 · p.73 · INA)."
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 6 Jun 2018 · p.73 · INA"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in newspaper cutting"
+  },
+  {
+    "row": "player:dara-leonard-ahascragh-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Ryan Moclair"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Named on the Ahascragh-Fohenagh Under 14 caption (Connacht Tribune 30 Aug 2019 · p.141 · INA) after they beat Woodquay/Larkins."
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 30 Aug 2019 · p.141 · INA"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in newspaper cutting"
+  },
+  {
+    "row": "player:ryan-moclair-ahascragh-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Jamie Moclair"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Named on the Ahascragh-Fohenagh Under 14 caption (Connacht Tribune 30 Aug 2019 · p.141 · INA) after they beat Woodquay/Larkins."
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 30 Aug 2019 · p.141 · INA"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in newspaper cutting"
+  },
+  {
+    "row": "player:jamie-moclair-ahascragh-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Ryan Leonard"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "note",
+    "val": "Named on the Ahascragh-Fohenagh Under 14 caption (Connacht Tribune 30 Aug 2019 · p.141 · INA) after they beat Woodquay/Larkins."
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 30 Aug 2019 · p.141 · INA"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in newspaper cutting"
+  },
+  {
+    "row": "player:ryan-leonard-ahascragh-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "county",
+    "val": "Galway",
+    "source": "Club",
+    "confidence": "high"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "panel",
+    "val": "Galway U14",
+    "source": "Club",
+    "confidence": "high"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "notes",
+    "val": "Member of Galway U14 panel - Ahascragh-Fohenagh",
+    "source": "Garry Lohan",
+    "confidence": "high"
   }
 ]
