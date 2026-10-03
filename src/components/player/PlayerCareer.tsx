@@ -48,7 +48,9 @@ export function PlayerCareer({
     <>
       {showCareer ? (
         <section>
-          <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Career</h2>
+          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Career
+          </h2>
           <dl className="flex flex-wrap gap-2">
             {kidChip ? (
               <div className="rounded-full border border-galway-maroon/20 bg-white px-3 py-1.5 text-sm font-semibold text-galway-maroon">
@@ -106,7 +108,9 @@ export function PlayerCareer({
 
       {relatedRail.length > 0 ? (
         <section>
-          <h2 className="mb-3 text-2xl font-bold text-galway-maroon">Related</h2>
+          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Related
+          </h2>
           <div className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 [scrollbar-width:thin]">
             {relatedRail.map((r) => (
               <div
