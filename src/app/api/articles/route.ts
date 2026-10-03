@@ -11,6 +11,9 @@ import { invalidateAssocCache } from "@/lib/data";
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
+/** Abuse guard on upload input only. Membership uses every stored tag. */
+const MAX_UPLOAD_PLAYER_TAGS = 60;
+
 export async function GET() {
   const articles = await readArticleUploads();
   return NextResponse.json({
@@ -37,6 +40,14 @@ export async function POST(request: Request) {
     const playerTags = playerTagsRaw
       ? playerTagsRaw.split(/[,]+/).map((t) => t.trim()).filter(Boolean)
       : [];
+    if (playerTags.length > MAX_UPLOAD_PLAYER_TAGS) {
+      return NextResponse.json(
+        {
+          error: `At most ${MAX_UPLOAD_PLAYER_TAGS} player tags per cutting.`,
+        },
+        { status: 400 }
+      );
+    }
 
     const file =
       form.get("file") instanceof File

@@ -367,6 +367,10 @@ export function normalizePlayerTag(raw: string): string | null {
   return `player:${slug}`;
 }
 
+/**
+ * Dedupe and normalize player tags. Every tag counts toward cutting membership.
+ * Do not cap here — an upload-size guard lives on the articles API route.
+ */
 export function normalizePlayerTags(tags: string[] | undefined): string[] {
   const out: string[] = [];
   const seen = new Set<string>();
@@ -375,7 +379,6 @@ export function normalizePlayerTags(tags: string[] | undefined): string[] {
     if (!id || seen.has(id)) continue;
     seen.add(id);
     out.push(id);
-    if (out.length >= 12) break;
   }
   return out;
 }
