@@ -65,23 +65,26 @@ export async function MatchView({ data }: { data: EntityPayload }) {
     );
 
   const scoreText = matchScoreText(attrs, hideScore);
-  const facts = MATCH_FACT_KEYS.flatMap((k) => {
+  const facts: Array<{ key: string; label: string; value: string }> = [];
+  for (const k of MATCH_FACT_KEYS) {
     if (k === "score") {
-      if (!scoreText) return [];
-      return [{ key: k, label: friendlyAttrLabel(k), value: scoreText }];
+      if (scoreText) {
+        facts.push({ key: k, label: friendlyAttrLabel(k), value: scoreText });
+      }
+      continue;
     }
-    if (!isDisplayableVal(attrs[k])) return [];
+    if (!isDisplayableVal(attrs[k])) continue;
     const raw = String(attrs[k]);
     // Hide machine slugs like fohenagh-win. Plain win / loss / draw stay.
-    if (k === "result" && isMachineSlug(raw)) return [];
+    if (k === "result" && isMachineSlug(raw)) continue;
     if (k === "opponent" && isDisplayableVal(attrs.away)) {
       const awayName = isEntityRef(attrs.away)
         ? displayNameForRef(String(attrs.away), A)
         : String(attrs.away);
-      if (raw.toLowerCase() === awayName.toLowerCase()) return [];
+      if (raw.toLowerCase() === awayName.toLowerCase()) continue;
     }
-    return [{ key: k, label: friendlyAttrLabel(k), value: attrs[k] }];
-  });
+    facts.push({ key: k, label: friendlyAttrLabel(k), value: raw });
+  }
   const citeFacts = matchCiteFacts(attrs);
 
   const lineup =
@@ -283,9 +286,7 @@ function catalogCiteText(val: string): string {
   if (!m) return val;
   const pretty = isoDayMonYear(m[1], m[2], m[3]);
   if (!pretty) return val;
-  const readable = `${m[4].trim()} ${pretty}`;
-  const stored = val.trim();
-  return readable === stored ? stored : `${readable} · ${stored}`;
+  return `${m[4].trim()} ${pretty}`;
 }
 
 function isCiteFactKey(key: string): boolean {
