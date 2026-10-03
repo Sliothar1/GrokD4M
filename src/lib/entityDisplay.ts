@@ -43,6 +43,10 @@ export const HIDDEN_ATTRS = new Set([
   "photo_url",
   "portrait",
   "image",
+  "clubs",
+  "club_history",
+  "parish_club",
+  "also_club",
 ]);
 
 export function isHiddenFactKey(k: string): boolean {
@@ -51,11 +55,8 @@ export function isHiddenFactKey(k: string): boolean {
   return false;
 }
 
-/** Compact career strip — identity facts only, not the sticky-note wall. */
+/** Compact career strip — identity facts only (club chips live on the profile strip). */
 export const PLAYER_FACT_KEYS = [
-  "club",
-  "also_club",
-  "county",
   "position",
   "born",
   "nickname",
@@ -67,6 +68,23 @@ export const PLAYER_FACT_KEYS = [
 
 /** @deprecated Import `playerClubIds` from `@/lib/data` (club + also_club + club_1…). */
 export { playerClubIds } from "@/lib/data";
+
+/** Match header / compact facts — not the ingest sticky-note wall. */
+export const MATCH_FACT_KEYS = [
+  "score",
+  "date",
+  "venue",
+  "competition",
+  "round",
+  "home",
+  "away",
+  "opponent",
+  "winner",
+  "result",
+  "year",
+  "season",
+  "captain",
+] as const;
 
 export function hrefForRef(ref: string): string {
   if (isEntityRef(ref)) return entityHref(ref);

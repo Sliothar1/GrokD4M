@@ -16,6 +16,12 @@ import {
   searchArticleUploads,
 } from "@/lib/articles";
 import {
+  isClubAttrColumn,
+  isNumberedClubCol,
+  isSeasonClubCol,
+  numberedClubColIndex,
+} from "@/lib/clubColumns";
+import {
   buildSearchRankContext,
   collapseToUniquePlayers,
   compareSearchHits,
@@ -174,6 +180,28 @@ export function playerTrustLabel(
   );
 }
 
+/** Cuttings already stamped on the player row by article ingest (`cutting:<id>`). */
+export function linkedCuttingCount(attrs: Record<string, TripleVal>): number {
+  return Object.keys(attrs).filter((k) => k.startsWith("cutting:")).length;
+}
+
+/**
+ * Trust chip shown on the player profile strip.
+ * Verified when a cutting stamp, a linked cutting, or `playerTrustLabel` says so.
+ * Otherwise the same friendly label (Needs check).
+ */
+export function playerProfileChip(
+  attrs: Record<string, TripleVal>,
+  confidence?: string | null,
+  linkedCuttings = 0
+): string | undefined {
+  const trust = playerTrustLabel(attrs, confidence);
+  if (isVerifiedFromCutting(attrs) || linkedCuttings > 0 || trust === "Verified") {
+    return "Verified";
+  }
+  return trust;
+}
+
 /** True for All-Ireland SHC / Club titles — not county Junior/Minor grades. */
 export function isAllIrelandWinAttrs(attrs: Record<string, TripleVal>): boolean {
   if (String(attrs.type ?? "") === "all_ireland_win") return true;
@@ -190,6 +218,9 @@ export function friendlyAttrLabel(key: string): string {
     win_ref: "All-Ireland link",
     county: "County team",
     club: "Club",
+    clubs: "Clubs",
+    club_history: "Club history",
+    parish_club: "Parish club",
     also_club: "Also club",
     also_known_as: "Also known as",
     father: "Father",
@@ -284,17 +315,8 @@ export const LOCKED_CLUB_ERA = [
   "club:ahascragh-fohenagh",
 ] as const;
 
-const NUMBERED_CLUB_COL = /^club(?:_(\d+))?$/;
-const SEASON_CLUB_COL = /^season:\d{4}$/;
-
 export function isClubId(val: unknown): val is `club:${string}` {
   return typeof val === "string" && /^club:[a-z0-9][a-z0-9-]*$/i.test(val);
-}
-
-function numberedClubColIndex(col: string): number {
-  if (col === "club") return 0;
-  const m = col.match(/^club_(\d+)$/);
-  return m ? Number(m[1]) : 99;
 }
 
 function sortClubsByEra(ids: string[]): string[] {
@@ -315,8 +337,10 @@ function sortClubsByEra(ids: string[]): string[] {
  * Dual-era pattern (AssocArray is one val per col):
  * - `club` = primary / current jersey
  * - `also_club` = second jersey (main / Pitchside)
+ * - `also_played` = another jersey (Fr Nicholas Murray → Fohenagh historic)
  * - `club_1`, `club_2`, … = numbered extras (same as article cuttings)
  * - `season:YYYY` → club id (existing player × season edges)
+ * Column set is `isClubAttrColumn` in `@/lib/clubColumns` (shared with rosters).
  * Optional `extra` for appearance.club refs collected by the caller.
  */
 export function playerClubIds(
@@ -326,24 +350,39 @@ export function playerClubIds(
   const seen = new Set<string>();
   const out: string[] = [];
   const add = (raw: unknown) => {
-    if (!isClubId(raw)) return;
-    const id = raw.toLowerCase();
-    if (seen.has(id)) return;
-    seen.add(id);
-    out.push(id);
+    if (typeof raw !== "string") return;
+    const ids = isClubId(raw)
+      ? [raw.toLowerCase()]
+      : (raw.match(/club:[a-z0-9][a-z0-9-]*/gi) ?? []).map((id) =>
+          id.toLowerCase()
+        );
+    for (const id of ids) {
+      if (seen.has(id)) continue;
+      seen.add(id);
+      out.push(id);
+    }
   };
 
-  add(attrs.club);
-  add(attrs.also_club);
+  const named = Object.keys(attrs)
+    .filter((k) => isClubAttrColumn(k) && !isNumberedClubCol(k) && !isSeasonClubCol(k))
+    .sort((a, b) => a.localeCompare(b));
+  // Primary jersey first, then the rest of the shared named columns.
+  if (attrs.club != null) add(attrs.club);
+  for (const k of named) {
+    if (k === "club") continue;
+    add(attrs[k]);
+  }
 
   const numbered = Object.keys(attrs)
-    .filter((k) => NUMBERED_CLUB_COL.test(k))
+    .filter((k) => isNumberedClubCol(k))
     .sort((a, b) => numberedClubColIndex(a) - numberedClubColIndex(b));
   for (const k of numbered) add(attrs[k]);
 
-  for (const [k, v] of Object.entries(attrs)) {
-    if (SEASON_CLUB_COL.test(k)) add(v);
-  }
+  const seasons = Object.keys(attrs)
+    .filter((k) => isSeasonClubCol(k))
+    .sort();
+  for (const k of seasons) add(attrs[k]);
+
   for (const id of extra) add(id);
 
   return sortClubsByEra(out);
