@@ -170,7 +170,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         id === "club:ahascragh-historic") && (
         <DualEraStrip
           variant={id === "club:ahascragh-fohenagh" ? "amalgam" : "historic"}
-          entries={await verifiedDualEraStrip(id, clubRoster, A)}
+          entries={verifiedDualEraStrip(id, clubRoster, A)}
         />
       )}
 

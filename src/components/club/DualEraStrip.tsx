@@ -3,8 +3,9 @@ import { ClubChip } from "@/components/chips";
 import type { DualEraStripEntry } from "@/lib/playerClubs";
 
 /**
- * Verified dual-era players only. A playing AF link keeps a jersey chip.
- * A caption or other non-playing AF link shows a role label instead.
+ * Verified dual-era players only.
+ * A primary AF jersey (`club` or `also_club`) keeps playing wording and the AF chip.
+ * A numbered extra such as `club_1` gets a neutral line and no AF chip.
  * Empty lists render nothing.
  */
 export function DualEraStrip({
@@ -14,17 +15,45 @@ export function DualEraStrip({
   variant: "amalgam" | "historic";
   entries: DualEraStripEntry[];
 }) {
-  if (entries.length === 0) return null;
+  const playing = entries.filter((entry) => entry.afPrimary);
+  const linked = entries.filter((entry) => !entry.afPrimary);
+  if (playing.length === 0 && linked.length === 0) return null;
 
-  const { heading, intro } = stripCopy(variant, entries);
+  return (
+    <div className="space-y-6">
+      {playing.length > 0 ? (
+        <StripGroup
+          heading={playingHeading(variant)}
+          intro={playingIntro(variant)}
+          entries={playing}
+        />
+      ) : null}
+      {linked.length > 0 ? (
+        <StripGroup
+          heading="Also linked with Ahascragh-Fohenagh"
+          entries={linked}
+        />
+      ) : null}
+    </div>
+  );
+}
 
+function StripGroup({
+  heading,
+  intro,
+  entries,
+}: {
+  heading: string;
+  intro?: string;
+  entries: DualEraStripEntry[];
+}) {
   return (
     <section className="space-y-3" aria-label={heading}>
       <div className="space-y-1">
         <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
           {heading}
         </h2>
-        <p className="text-sm text-galway-ink/70">{intro}</p>
+        {intro ? <p className="text-sm text-galway-ink/70">{intro}</p> : null}
       </div>
       <ul className="flex flex-wrap gap-2">
         {entries.map((entry) => (
@@ -34,14 +63,9 @@ export function DualEraStrip({
           >
             <Link
               href={entry.summary.href}
-              className="inline-flex max-w-full flex-wrap items-baseline gap-x-1 rounded-full border border-galway-maroon/15 bg-white px-3 py-1 text-sm font-bold text-galway-ink transition hover:border-galway-maroon hover:text-galway-maroon focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+              className="inline-flex max-w-full rounded-full border border-galway-maroon/15 bg-white px-3 py-1 text-sm font-bold text-galway-ink transition hover:border-galway-maroon hover:text-galway-maroon focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
             >
-              <span>{entry.summary.title}</span>
-              {entry.roleLabel ? (
-                <span className="font-semibold text-galway-ink/45">
-                  · {entry.roleLabel}
-                </span>
-              ) : null}
+              {entry.summary.title}
             </Link>
             {entry.chips.map((chip) => (
               <ClubChip
@@ -58,51 +82,14 @@ export function DualEraStrip({
   );
 }
 
-function stripCopy(
-  variant: "amalgam" | "historic",
-  entries: DualEraStripEntry[]
-): { heading: string; intro: string } {
-  const playing = entries.some((entry) => entry.afPlaying);
-  const namedLater = entries.some((entry) => !entry.afPlaying);
+function playingHeading(variant: "amalgam" | "historic"): string {
+  return variant === "amalgam"
+    ? "Players with an older club"
+    : "Played for Ahascragh-Fohenagh";
+}
 
-  if (variant === "amalgam") {
-    if (playing && namedLater) {
-      return {
-        heading: "Players with an older club",
-        intro:
-          "Played for Fohenagh or Ahascragh before 2002. Some also played for Ahascragh-Fohenagh. Others are only named with the club later.",
-      };
-    }
-    if (namedLater) {
-      return {
-        heading: "Players with an older club",
-        intro:
-          "They played for an older club. With Ahascragh-Fohenagh they are named on a caption, not in a match lineup.",
-      };
-    }
-    return {
-      heading: "Players with an older club",
-      intro:
-        "These players played for Fohenagh or Ahascragh before Ahascragh-Fohenagh.",
-    };
-  }
-
-  if (playing && namedLater) {
-    return {
-      heading: "Later with Ahascragh-Fohenagh",
-      intro:
-        "Some played for Ahascragh-Fohenagh. Others are only named with the club later.",
-    };
-  }
-  if (namedLater) {
-    return {
-      heading: "Named with Ahascragh-Fohenagh",
-      intro:
-        "These players are named with Ahascragh-Fohenagh later, not in a match lineup.",
-    };
-  }
-  return {
-    heading: "Played for Ahascragh-Fohenagh",
-    intro: "These players also played for Ahascragh-Fohenagh.",
-  };
+function playingIntro(variant: "amalgam" | "historic"): string {
+  return variant === "amalgam"
+    ? "Played for Fohenagh or Ahascragh before 2002, and also played for Ahascragh-Fohenagh."
+    : "These players also played for Ahascragh-Fohenagh.";
 }

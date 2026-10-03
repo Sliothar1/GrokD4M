@@ -1,9 +1,10 @@
-import { linkedCuttingCountsFor, readArticleUploads } from "@/lib/articles";
+import { linkedCuttingCountsFor } from "@/lib/articles";
 import { isClubAttrColumn } from "@/lib/clubColumns";
 import {
   displayNameForRef,
   entityHref,
   linkedCuttingCount,
+  playerClubIds,
   playerProfileChip,
   summarizeEntity,
   type EntitySummary,
@@ -136,198 +137,57 @@ const HISTORIC_CLUB_IDS = [
   "club:ahascragh-historic",
 ] as const;
 
-/** Club columns include the amalgam and at least one historic predecessor. */
-export function isDualEraAttrs(attrs: Record<string, TripleVal>): boolean {
-  const ids = new Set(collectClubIdsFromAttrs(attrs));
-  if (!ids.has(AF_CLUB_ID)) return false;
-  return HISTORIC_CLUB_IDS.some((id) => ids.has(id));
-}
-
 export type DualEraStripEntry = {
   summary: EntitySummary;
-  /** Historic jerseys, or the amalgam chip when that link is a playing one. */
-  chips: ClubChipData[];
   /**
-   * True when an appearance or a match-style cite puts this player in an
-   * Ahascragh-Fohenagh lineup. False when the only AF texts are a caption or role.
+   * Older-club chips on the amalgam page. The amalgam chip on a historic page
+   * only when `club` or `also_club` is Ahascragh-Fohenagh.
    */
-  afPlaying: boolean;
-  /** Short role from those texts, e.g. "squad caption, 2023". Null when playing. */
-  roleLabel: string | null;
+  chips: ClubChipData[];
+  /** True when seed `club` or `also_club` is the amalgam. `club_1` is not. */
+  afPrimary: boolean;
 };
 
-const AF_NAME = /ahascragh[\s\-/–—]*fohenagh/i;
-const PLAYING_SIGNAL =
-  /\b(scored|scores|goal|goals|point|points|started|starting|lined out|xv|panel|hurler|championship|minor|intermediate|full-back|half-back|midfield|forward|goalkeeper)\b/i;
-const OFF_FIELD_ROLE =
-  /\b(management|manager|selectors?|coaches?|coaching|mentors?|committee|backroom)\b/i;
-/** First match wins. Job words outrank a photo caption. */
-const ROLE_PATTERNS: { re: RegExp; label: string }[] = [
-  { re: /\bmanagement\b|\bmanager\b/i, label: "management" },
-  { re: /\bselectors?\b/i, label: "selector" },
-  { re: /\bcoaches?\b|\bcoaching\b/i, label: "coach" },
-  { re: /\bmentors?\b/i, label: "mentor" },
-  { re: /\bcommittee\b/i, label: "committee" },
-  { re: /\bbackroom\b/i, label: "backroom" },
-  { re: /\bsquad caption\b/i, label: "squad caption" },
-  { re: /\bsquad photo\b|\bteam photo\b|\bteam-photo\b/i, label: "squad photo" },
-  { re: /\bcaption\b/i, label: "caption" },
-];
-
-function afSentences(text: string): string[] {
-  return text
-    .split(/(?<=\.)\s+/)
-    .map((sentence) => sentence.trim())
-    .filter((sentence) => AF_NAME.test(sentence));
-}
-
-function yearIn(text: string): string | null {
-  return text.match(/\b(?:19|20)\d{2}\b/)?.[0] ?? null;
-}
-
-function roleLabelFrom(texts: string[]): string | null {
-  let found: { label: string; year: string | null; rank: number } | null = null;
-  for (const text of texts) {
-    for (let rank = 0; rank < ROLE_PATTERNS.length; rank++) {
-      const pattern = ROLE_PATTERNS[rank];
-      if (!pattern.re.test(text)) continue;
-      const year = yearIn(text);
-      if (
-        !found ||
-        rank < found.rank ||
-        (rank === found.rank && year && !found.year)
-      ) {
-        found = { label: pattern.label, year, rank };
-      }
-      break;
-    }
-  }
-  if (!found) return null;
-  return found.year ? `${found.label}, ${found.year}` : found.label;
-}
-
-function hasPlayingAfAppearance(playerId: string, A: AssocArray): boolean {
-  for (const triple of A.getcol("player")) {
-    if (triple.val !== playerId) continue;
-    if (!String(triple.row).startsWith("appearance:")) continue;
-    const attrs = A.entityAttrs(triple.row);
-    if (!parseClubIds(attrs.club).includes(AF_CLUB_ID)) continue;
-    const blob = [attrs.role, attrs.position, attrs.note, attrs.excerpt]
-      .filter((val) => val != null && String(val).trim())
-      .map(String)
-      .join(" ");
-    if (OFF_FIELD_ROLE.test(blob) && !PLAYING_SIGNAL.test(blob)) continue;
-    return true;
-  }
-  return false;
-}
-
-function foldedName(value: string): string {
-  return value
-    .normalize("NFD")
-    .replace(/\p{M}/gu, "")
-    .toLowerCase()
-    .replace(/[^a-z\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function playerNameForms(attrs: Record<string, TripleVal>): string[] {
-  const raw = [attrs.name, attrs.also_known_as]
-    .filter((val): val is string => typeof val === "string")
-    .join(";");
-  return [
-    ...new Set(
-      raw
-        .split(";")
-        .map((part) => foldedName(part))
-        .filter((part) => part.length > 3)
-    ),
-  ];
-}
-
 /**
- * Texts that actually name Ahascragh-Fohenagh for this player.
- * A Fohenagh cutting whose club tag was widened to the amalgam does not count.
- * A cutting counts when its player tags match, or when the caption or excerpt
- * writes the player's name.
+ * Playing link: `club` or `also_club` names Ahascragh-Fohenagh.
+ * Those are the primary jersey fields `playerClubIds` reads first.
+ * A numbered extra such as `club_1` is a link, not a jersey claim.
  */
-function afEvidenceTexts(
-  playerId: string,
-  attrs: Record<string, TripleVal>,
-  articles: Awaited<ReturnType<typeof readArticleUploads>>
-): string[] {
-  const texts: string[] = [];
-  for (const key of ["note", "notable", "role", "position", "job"]) {
-    const val = attrs[key];
-    if (typeof val === "string") texts.push(...afSentences(val));
-  }
-  const names = playerNameForms(attrs);
-  for (const article of articles) {
-    const tags = [...(article.playerTags ?? []), ...(article.tags ?? [])].map(
-      (tag) => tag.toLowerCase()
-    );
-    const bare = playerId.slice("player:".length);
-    const tagged = tags.includes(playerId) || tags.includes(bare);
-    const captionExcerpt = [article.caption, article.excerpt]
-      .filter(Boolean)
-      .join(". ");
-    const named =
-      names.length > 0 &&
-      names.some((name) => foldedName(captionExcerpt).includes(name));
-    if (!tagged && !named) continue;
-    const blob = [
-      article.caption,
-      article.excerpt,
-      article.citeChip,
-      article.year,
-      ...(article.tags ?? []),
-    ]
-      .filter(Boolean)
-      .join(". ");
-    if (AF_NAME.test(blob)) texts.push(blob);
-  }
-  return texts;
+function afIsPrimaryJersey(attrs: Record<string, TripleVal>): boolean {
+  return ["club", "also_club"].some((key) =>
+    parseClubIds(attrs[key]).includes(AF_CLUB_ID)
+  );
 }
 
 /**
  * Verified dual-era players for one of the three locked club pages.
- * Historic chips stay. The amalgam chip is only shown when the AF link is a
- * playing one; a caption or other off-field cite becomes a role label instead.
- * Needs-check players are left out — they stay in the roster.
+ * Wording comes from seed club fields only. Needs-check players stay in the roster.
  */
-export async function verifiedDualEraStrip(
+export function verifiedDualEraStrip(
   clubId: string,
   rows: ClubRosterRow[],
   A: AssocArray
-): Promise<DualEraStripEntry[]> {
+): DualEraStripEntry[] {
   const amalgam = clubId === AF_CLUB_ID;
   const historic =
     clubId === "club:fohenagh-historic" ||
     clubId === "club:ahascragh-historic";
   if (!amalgam && !historic) return [];
 
-  const articles = await readArticleUploads();
   const entries: DualEraStripEntry[] = [];
   for (const row of rows) {
     if (row.trust !== "Verified") continue;
     const attrs = A.entityAttrs(row.summary.id);
-    const ids = collectClubIdsFromAttrs(attrs);
-    if (!ids.includes(clubId) || !isDualEraAttrs(attrs)) continue;
-    const evidence = afEvidenceTexts(row.summary.id, attrs, articles);
-    const afPlaying =
-      hasPlayingAfAppearance(row.summary.id, A) ||
-      evidence.some((text) => PLAYING_SIGNAL.test(text));
-    const chipIds = amalgam
-      ? HISTORIC_CLUB_IDS.filter((id) => ids.includes(id))
-      : afPlaying
-        ? [AF_CLUB_ID]
-        : [];
+    const ids = playerClubIds(attrs);
+    const historicIds = HISTORIC_CLUB_IDS.filter((id) => ids.includes(id));
+    if (!ids.includes(clubId) || !ids.includes(AF_CLUB_ID)) continue;
+    if (historicIds.length === 0) continue;
+    const afPrimary = afIsPrimaryJersey(attrs);
+    const chipIds = amalgam ? historicIds : afPrimary ? [AF_CLUB_ID] : [];
     entries.push({
       summary: row.summary,
       chips: chipIds.map((id) => toClubChip(id, A)),
-      afPlaying,
-      roleLabel: afPlaying ? null : roleLabelFrom(evidence),
+      afPrimary,
     });
   }
   return entries;
