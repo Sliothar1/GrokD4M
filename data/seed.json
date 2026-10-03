@@ -248803,5 +248803,26 @@
     "row": "player:ryan-leonard-ahascragh-fohenagh",
     "col": "verification",
     "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "county",
+    "val": "Galway",
+    "source": "Club",
+    "confidence": "high"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "panel",
+    "val": "Galway U14",
+    "source": "Club",
+    "confidence": "high"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "notes",
+    "val": "Member of Galway U14 panel - Ahascragh-Fohenagh",
+    "source": "Garry Lohan",
+    "confidence": "high"
   }
 ]
