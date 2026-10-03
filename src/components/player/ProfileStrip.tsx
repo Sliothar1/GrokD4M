@@ -42,7 +42,7 @@ export function ProfileStrip({
         >
           <TrustChip label={chip} />
           {clubs.map((c) => (
-            <ClubChip key={c.id} href={c.href} label={c.name} />
+            <ClubChip key={c.id} href={c.href} label={c.name} title={c.title} />
           ))}
         </div>
         {countyName ? (

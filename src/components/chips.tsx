@@ -20,13 +20,17 @@ export function TrustChip({ label }: { label?: string | null }) {
 export function ClubChip({
   href,
   label,
+  title,
 }: {
   href: string;
   label: string;
+  /** Hover tooltip. Historic chips use “Before Ahascragh-Fohenagh”. */
+  title?: string;
 }) {
   return (
     <Link
       href={href}
+      title={title ?? label}
       className="rounded-full border-2 border-galway-maroon/30 bg-white px-2.5 py-0.5 text-sm font-bold text-galway-maroon transition hover:border-galway-maroon hover:bg-galway-maroon hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
     >
       {label}

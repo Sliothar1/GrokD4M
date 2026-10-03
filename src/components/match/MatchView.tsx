@@ -64,24 +64,25 @@ export async function MatchView({ data }: { data: EntityPayload }) {
       })
     );
 
-  const facts = MATCH_FACT_KEYS.filter((k) => {
-    if (hideScore && k === "score") return false;
-    if (!isDisplayableVal(attrs[k])) return false;
+  const scoreText = matchScoreText(attrs, hideScore);
+  const facts = MATCH_FACT_KEYS.flatMap((k) => {
+    if (k === "score") {
+      if (!scoreText) return [];
+      return [{ key: k, label: friendlyAttrLabel(k), value: scoreText }];
+    }
+    if (!isDisplayableVal(attrs[k])) return [];
     const raw = String(attrs[k]);
-    // Hide machine slugs like fohenagh-win from the kid strip.
-    if (k === "result" && isMachineSlug(raw)) return false;
+    // Hide machine slugs like fohenagh-win. Plain win / loss / draw stay.
+    if (k === "result" && isMachineSlug(raw)) return [];
     if (k === "opponent" && isDisplayableVal(attrs.away)) {
       const awayName = isEntityRef(attrs.away)
         ? displayNameForRef(String(attrs.away), A)
         : String(attrs.away);
-      if (raw.toLowerCase() === awayName.toLowerCase()) return false;
+      if (raw.toLowerCase() === awayName.toLowerCase()) return [];
     }
-    return true;
-  }).map((k) => ({
-    key: k,
-    label: friendlyAttrLabel(k),
-    value: attrs[k],
-  }));
+    return [{ key: k, label: friendlyAttrLabel(k), value: attrs[k] }];
+  });
+  const citeFacts = matchCiteFacts(attrs);
 
   const lineup =
     attrs.lineup_home && isDisplayableVal(attrs.lineup_home)
@@ -94,7 +95,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
       r.kind !== "appearance" &&
       r.kind !== "club"
   );
-  const subtitle = kidMatchSubtitle(summary.subtitle, attrs, hideScore);
+  const subtitle = kidMatchSubtitle(summary.subtitle, scoreText);
 
   return (
     <article className="space-y-8">
@@ -130,7 +131,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
             </span>
           )}
           {clubs.map((c) => (
-            <ClubChip key={c.id} href={c.href} label={c.name} />
+            <ClubChip key={c.id} href={c.href} label={c.name} title={c.title} />
           ))}
         </div>
       </header>
@@ -161,13 +162,13 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         />
       ) : null}
 
-      {facts.length > 0 || lineup ? (
+      {facts.length > 0 || citeFacts.length > 0 || lineup ? (
         <section>
           <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
             Match facts
           </h2>
           <dl className="flex flex-wrap gap-2">
-            {facts.map((f) => (
+            {[...facts, ...citeFacts].map((f) => (
               <div
                 key={f.key}
                 className="rounded-full border border-galway-maroon/12 bg-white px-3 py-1.5"
@@ -176,22 +177,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
                   {f.label}{" "}
                 </dt>
                 <dd className="inline text-sm font-bold text-galway-ink">
-                  {isEntityRef(f.value) ? (
-                    <Link
-                      href={
-                        String(f.value).startsWith("player:")
-                          ? `/player/${String(f.value).slice(7)}`
-                          : String(f.value).startsWith("club:")
-                            ? `/club/${String(f.value).slice(5)}`
-                            : `/search?q=${encodeURIComponent(String(f.value))}`
-                      }
-                      className="text-galway-maroon underline"
-                    >
-                      {displayNameForRef(String(f.value), A)}
-                    </Link>
-                  ) : (
-                    String(f.value)
-                  )}
+                  <FactValue value={f.value} assoc={A} />
                 </dd>
               </div>
             ))}
@@ -236,22 +222,156 @@ export async function MatchView({ data }: { data: EntityPayload }) {
   );
 }
 
+const MONTHS = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+] as const;
+
+/**
+ * Slug-like tokens only: entity prefixes (`club:`, `player:`) and hyphenated
+ * machine ids (`fohenagh-win`). Plain words (win, loss, draw) stay visible.
+ */
 function isMachineSlug(val: string): boolean {
-  return /^[a-z][a-z0-9-]+$/.test(val.trim());
+  const s = val.trim();
+  if (!s) return false;
+  if (/^[a-z_]+:/i.test(s)) return true;
+  return /^[a-z][a-z0-9]*(?:-[a-z0-9]+)+$/i.test(s);
+}
+
+/** Score column, or `score_home` / `score_away` joined when `score` is absent. */
+function matchScoreText(
+  attrs: EntityPayload["attrs"],
+  hideScore: boolean
+): string | null {
+  if (hideScore) return null;
+  if (isDisplayableVal(attrs.score)) return String(attrs.score);
+  const home = isDisplayableVal(attrs.score_home)
+    ? String(attrs.score_home).trim()
+    : "";
+  const away = isDisplayableVal(attrs.score_away)
+    ? String(attrs.score_away).trim()
+    : "";
+  if (home && away) return `${home} / ${away}`;
+  if (home || away) return home || away;
+  return null;
+}
+
+function isoDayMonYear(year: string, month: string, day: string): string | null {
+  const m = Number(month);
+  const d = Number(day);
+  if (!Number.isInteger(m) || m < 1 || m > 12) return null;
+  if (!Number.isInteger(d) || d < 1 || d > 31) return null;
+  return `${d} ${MONTHS[m - 1]} ${year}`;
+}
+
+/**
+ * `1959-09-15 · Connacht Sentinel` → `Connacht Sentinel 15 Sep 1959`.
+ * Same stored paper and date; only the reading order changes.
+ */
+function catalogCiteText(val: string): string {
+  const m = val.trim().match(/^(\d{4})-(\d{2})-(\d{2})\s*·\s*(.+)$/);
+  if (!m) return val;
+  const pretty = isoDayMonYear(m[1], m[2], m[3]);
+  if (!pretty) return val;
+  const readable = `${m[4].trim()} ${pretty}`;
+  const stored = val.trim();
+  return readable === stored ? stored : `${readable} · ${stored}`;
+}
+
+function isCiteFactKey(key: string): boolean {
+  if (/^catalog_cite/.test(key)) return true;
+  if (key === "cite_paper" || key.endsWith("_cite_paper")) return true;
+  return false;
+}
+
+function isExtraSourceLink(key: string, val: unknown): boolean {
+  return (
+    key.startsWith("source_") &&
+    typeof val === "string" &&
+    val.trim().startsWith("http")
+  );
+}
+
+function matchCiteFacts(attrs: EntityPayload["attrs"]): Array<{
+  key: string;
+  label: string;
+  value: string;
+}> {
+  const keys = Object.keys(attrs)
+    .filter((k) => {
+      if (!isDisplayableVal(attrs[k])) return false;
+      if (isCiteFactKey(k)) return true;
+      return isExtraSourceLink(k, attrs[k]);
+    })
+    .sort((a, b) => a.localeCompare(b));
+
+  return keys.map((k) => {
+    const raw = String(attrs[k]);
+    const value = /^catalog_cite(_\d+)?$/.test(k) ? catalogCiteText(raw) : raw;
+    return { key: k, label: friendlyAttrLabel(k), value };
+  });
 }
 
 function kidMatchSubtitle(
   subtitle: string | undefined,
-  attrs: EntityPayload["attrs"],
-  hideScore: boolean
+  scoreText: string | null
 ): string | undefined {
-  if (!hideScore && isDisplayableVal(attrs.score)) return String(attrs.score);
+  if (scoreText) return scoreText;
   if (!subtitle) return undefined;
   const cleaned = subtitle
     .split(" · ")
     .filter((part) => part.trim() && !isMachineSlug(part))
     .join(" · ");
   return cleaned || undefined;
+}
+
+function FactValue({
+  value,
+  assoc,
+}: {
+  value: EntityPayload["attrs"][string] | string;
+  assoc: Awaited<ReturnType<typeof getAssoc>>;
+}) {
+  if (isEntityRef(value)) {
+    const ref = String(value);
+    return (
+      <Link
+        href={
+          ref.startsWith("player:")
+            ? `/player/${ref.slice(7)}`
+            : ref.startsWith("club:")
+              ? `/club/${ref.slice(5)}`
+              : `/search?q=${encodeURIComponent(ref)}`
+        }
+        className="text-galway-maroon underline"
+      >
+        {displayNameForRef(ref, assoc)}
+      </Link>
+    );
+  }
+  if (typeof value === "string" && value.startsWith("http")) {
+    return (
+      <a
+        href={value}
+        className="font-semibold text-galway-maroon underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {value}
+      </a>
+    );
+  }
+  return <>{String(value)}</>;
 }
 
 function matchClubChips(

@@ -1,3 +1,4 @@
+import { isClubAttrColumn } from "@/lib/clubColumns";
 import {
   displayNameForRef,
   entityHref,
@@ -13,19 +14,12 @@ export const LOCKED_CLUB_ORDER = [
   "club:ahascragh-fohenagh",
 ] as const;
 
-const CLUB_ATTR_COLS = [
-  "club",
-  "clubs",
-  "club_history",
-  "also_club",
-  "historic_club",
-  "parish_club",
-] as const;
-
 export type ClubChipData = {
   id: string;
   name: string;
   href: string;
+  /** Hover title. Historic predecessors keep the #14 “Before …” tooltip. */
+  title: string;
 };
 
 /** Pull every `club:…` id out of a triple value (single ref or a list). */
@@ -40,11 +34,8 @@ export function collectClubIdsFromAttrs(
   attrs: Record<string, TripleVal>
 ): string[] {
   const ids = new Set<string>();
-  for (const col of CLUB_ATTR_COLS) {
-    for (const id of parseClubIds(attrs[col])) ids.add(id);
-  }
   for (const [key, val] of Object.entries(attrs)) {
-    if (/^season:\d{4}$/.test(key) || /^club_\d+$/.test(key)) {
+    if (isClubAttrColumn(key)) {
       for (const id of parseClubIds(val)) ids.add(id);
     }
     if (key.startsWith("club:") && parseClubIds(key).length) {
@@ -77,11 +68,23 @@ export function clubChipLabel(clubId: string, A: AssocArray): string {
   return name;
 }
 
+export function clubChipTitle(clubId: string, label: string): string {
+  if (
+    clubId === "club:fohenagh-historic" ||
+    clubId === "club:ahascragh-historic"
+  ) {
+    return "Before Ahascragh-Fohenagh";
+  }
+  return label;
+}
+
 export function toClubChip(clubId: string, A: AssocArray): ClubChipData {
+  const name = clubChipLabel(clubId, A);
   return {
     id: clubId,
-    name: clubChipLabel(clubId, A),
+    name,
     href: entityHref(clubId, "club"),
+    title: clubChipTitle(clubId, name),
   };
 }
 
@@ -150,14 +153,8 @@ function addPlayerFromRow(
 export function listClubRoster(clubId: string, A: AssocArray): ClubRosterRow[] {
   const playerIds = new Set<string>();
 
-  for (const col of CLUB_ATTR_COLS) {
-    for (const t of A.getcol(col)) {
-      addPlayerFromRow(t.row, t.val, clubId, A, playerIds);
-    }
-  }
-
   for (const col of A.cols()) {
-    if (!/^season:\d{4}$/.test(col) && !/^club_\d+$/.test(col)) continue;
+    if (!isClubAttrColumn(col)) continue;
     for (const t of A.getcol(col)) {
       addPlayerFromRow(t.row, t.val, clubId, A, playerIds);
     }
