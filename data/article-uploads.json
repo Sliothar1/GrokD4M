@@ -1550,5 +1550,32 @@
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20250716.1.64",
     "status": "pending",
     "matchTags": []
+  },
+  {
+    "id": "art-galwaygaa-2002-galway-aihc-champions-jason-lohan",
+    "kind": "image",
+    "filename": "art-galwaygaa-2002-galway-aihc-champions-jason-lohan.png",
+    "path": "/uploads/articles/art-galwaygaa-2002-galway-aihc-champions-jason-lohan.png",
+    "publicUrl": "/uploads/articles/art-galwaygaa-2002-galway-aihc-champions-jason-lohan.png",
+    "uploadedAt": "2026-10-03T18:44:55.832296+00:00",
+    "caption": "Galway GAA — Galway All-Ireland Intermediate Hurling Champions 2002 (Jason Lohan, front row)",
+    "year": "2002",
+    "tags": [
+      "hurling",
+      "galway",
+      "intermediate",
+      "all-ireland",
+      "jason-lohan",
+      "galway-gaa"
+    ],
+    "clubTags": [],
+    "playerTags": [
+      "player:jason-lohan"
+    ],
+    "excerpt": "Galway All-Ireland Intermediate Hurling Champions 2002. Front row: Kenneth Burke, Jason Lohan, Martin Kelly, Kieran Finnerty, Benny Lawless, Tony Óg Regan, Brian Cunningham, Shane McClaran, Kevin Brady, Roger Fahy, Conor Ryan, Ronan Reilly, Brian Holland, Cathal Dervan, Adrian Diviney.",
+    "citeChip": "Galway GAA · All-Ireland winning teams · 2002",
+    "sourceUrl": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/",
+    "status": "pending",
+    "matchTags": []
   }
 ]
