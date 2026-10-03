@@ -9,6 +9,7 @@ import {
   LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
 import { ClubRoster } from "@/components/club/ClubRoster";
+import { DualEraStrip } from "@/components/club/DualEraStrip";
 import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
   displayNameForRef,
@@ -19,7 +20,7 @@ import {
   type getEntity,
 } from "@/lib/data";
 import { isDisplayableVal, isHiddenFactKey } from "@/lib/entityDisplay";
-import { listClubRoster } from "@/lib/playerClubs";
+import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
@@ -163,6 +164,15 @@ export async function EntityView({ data }: { data: EntityPayload }) {
 
 
       {isAmalgam && <HistoricPredecessorChip />}
+
+      {(id === "club:ahascragh-fohenagh" ||
+        id === "club:fohenagh-historic" ||
+        id === "club:ahascragh-historic") && (
+        <DualEraStrip
+          variant={id === "club:ahascragh-fohenagh" ? "amalgam" : "historic"}
+          entries={verifiedDualEraStrip(id, clubRoster, A)}
+        />
+      )}
 
       {summary.kind === "club" ? (
         <ClubRoster rows={clubRoster} clubName={summary.title} />

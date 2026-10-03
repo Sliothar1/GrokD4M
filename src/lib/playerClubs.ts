@@ -4,6 +4,7 @@ import {
   displayNameForRef,
   entityHref,
   linkedCuttingCount,
+  playerClubIds,
   playerProfileChip,
   summarizeEntity,
   type EntitySummary,
@@ -129,6 +130,68 @@ export type ClubRosterRow = {
   /** Same chip as the player profile strip: Verified or Needs check. */
   trust: string;
 };
+
+const AF_CLUB_ID = "club:ahascragh-fohenagh";
+const HISTORIC_CLUB_IDS = [
+  "club:fohenagh-historic",
+  "club:ahascragh-historic",
+] as const;
+
+export type DualEraStripEntry = {
+  summary: EntitySummary;
+  /**
+   * Older-club chips on the amalgam page. The amalgam chip on a historic page
+   * only when `club` or `also_club` is Ahascragh-Fohenagh.
+   */
+  chips: ClubChipData[];
+  /** True when seed `club` or `also_club` is the amalgam. `club_1` is not. */
+  afPrimary: boolean;
+};
+
+/**
+ * Playing link: `club` or `also_club` names Ahascragh-Fohenagh.
+ * Those are the primary jersey fields `playerClubIds` reads first.
+ * A numbered extra such as `club_1` is a link, not a jersey claim.
+ */
+function afIsPrimaryJersey(attrs: Record<string, TripleVal>): boolean {
+  return ["club", "also_club"].some((key) =>
+    parseClubIds(attrs[key]).includes(AF_CLUB_ID)
+  );
+}
+
+/**
+ * Verified dual-era players for one of the three locked club pages.
+ * Wording comes from seed club fields only. Needs-check players stay in the roster.
+ */
+export function verifiedDualEraStrip(
+  clubId: string,
+  rows: ClubRosterRow[],
+  A: AssocArray
+): DualEraStripEntry[] {
+  const amalgam = clubId === AF_CLUB_ID;
+  const historic =
+    clubId === "club:fohenagh-historic" ||
+    clubId === "club:ahascragh-historic";
+  if (!amalgam && !historic) return [];
+
+  const entries: DualEraStripEntry[] = [];
+  for (const row of rows) {
+    if (row.trust !== "Verified") continue;
+    const attrs = A.entityAttrs(row.summary.id);
+    const ids = playerClubIds(attrs);
+    const historicIds = HISTORIC_CLUB_IDS.filter((id) => ids.includes(id));
+    if (!ids.includes(clubId) || !ids.includes(AF_CLUB_ID)) continue;
+    if (historicIds.length === 0) continue;
+    const afPrimary = afIsPrimaryJersey(attrs);
+    const chipIds = amalgam ? historicIds : afPrimary ? [AF_CLUB_ID] : [];
+    entries.push({
+      summary: row.summary,
+      chips: chipIds.map((id) => toClubChip(id, A)),
+      afPrimary,
+    });
+  }
+  return entries;
+}
 
 function valueMentionsClub(val: TripleVal, clubId: string): boolean {
   return parseClubIds(val).includes(clubId);
