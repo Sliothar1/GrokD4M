@@ -2,6 +2,8 @@ import { isClubAttrColumn } from "@/lib/clubColumns";
 import {
   displayNameForRef,
   entityHref,
+  linkedCuttingCount,
+  playerProfileChip,
   summarizeEntity,
   type EntitySummary,
 } from "@/lib/data";
@@ -123,6 +125,8 @@ export function playerClubChips(
 export type ClubRosterRow = {
   summary: EntitySummary;
   alsoClubs: ClubChipData[];
+  /** Same chip as the player profile strip: Verified or Needs check. */
+  trust: string;
 };
 
 function valueMentionsClub(val: TripleVal, clubId: string): boolean {
@@ -168,12 +172,21 @@ export function listClubRoster(clubId: string, A: AssocArray): ClubRosterRow[] {
     const also = sortClubIds(
       collectClubIdsFromAttrs(attrs).filter((c) => c !== clubId)
     ).map((c) => toClubChip(c, A));
-    rows.push({ summary, alsoClubs: also });
+    rows.push({
+      summary,
+      alsoClubs: also,
+      trust:
+        playerProfileChip(
+          attrs,
+          summary.confidence,
+          linkedCuttingCount(attrs)
+        ) ?? "Needs check",
+    });
   }
 
   rows.sort((a, b) => {
-    const va = a.summary.trustLabel === "Verified" ? 0 : 1;
-    const vb = b.summary.trustLabel === "Verified" ? 0 : 1;
+    const va = a.trust === "Verified" ? 0 : 1;
+    const vb = b.trust === "Verified" ? 0 : 1;
     if (va !== vb) return va - vb;
     return a.summary.title.localeCompare(b.summary.title);
   });

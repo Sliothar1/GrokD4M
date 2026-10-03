@@ -9,7 +9,7 @@ import { ProfileStrip } from "@/components/player/ProfileStrip";
 import {
   displayNameForRef,
   getAssoc,
-  isVerifiedFromCutting,
+  playerProfileChip,
   playerTrustLabel,
   type getEntity,
 } from "@/lib/data";
@@ -50,9 +50,9 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     );
 
   const trust = playerTrustLabel(attrs, summary.confidence);
-  const namedOnCutting =
-    isVerifiedFromCutting(attrs) || cuttings.length > 0;
-  const verified = namedOnCutting || trust === "Verified";
+  const verified =
+    playerProfileChip(attrs, summary.confidence, cuttings.length) ===
+    "Verified";
   const clubs = playerClubChips(id, attrs, related, A);
   const countyName = attrs.county
     ? displayNameForRef(String(attrs.county), A)

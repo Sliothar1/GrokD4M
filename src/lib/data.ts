@@ -180,6 +180,28 @@ export function playerTrustLabel(
   );
 }
 
+/** Cuttings already stamped on the player row by article ingest (`cutting:<id>`). */
+export function linkedCuttingCount(attrs: Record<string, TripleVal>): number {
+  return Object.keys(attrs).filter((k) => k.startsWith("cutting:")).length;
+}
+
+/**
+ * Trust chip shown on the player profile strip.
+ * Verified when a cutting stamp, a linked cutting, or `playerTrustLabel` says so.
+ * Otherwise the same friendly label (Needs check).
+ */
+export function playerProfileChip(
+  attrs: Record<string, TripleVal>,
+  confidence?: string | null,
+  linkedCuttings = 0
+): string | undefined {
+  const trust = playerTrustLabel(attrs, confidence);
+  if (isVerifiedFromCutting(attrs) || linkedCuttings > 0 || trust === "Verified") {
+    return "Verified";
+  }
+  return trust;
+}
+
 /** True for All-Ireland SHC / Club titles — not county Junior/Minor grades. */
 export function isAllIrelandWinAttrs(attrs: Record<string, TripleVal>): boolean {
   if (String(attrs.type ?? "") === "all_ireland_win") return true;

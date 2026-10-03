@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TrustChip } from "@/components/chips";
 import type { ClubRosterRow } from "@/lib/playerClubs";
 
 /** Compact jersey list — names wrap; dual-era players keep their other clubs. */
@@ -9,6 +10,9 @@ export function ClubRoster({
   rows: ClubRosterRow[];
   clubName: string;
 }) {
+  const verified = rows.filter((row) => row.trust === "Verified");
+  const needsCheck = rows.filter((row) => row.trust !== "Verified");
+
   return (
     <section className="space-y-3">
       <div className="flex flex-wrap items-end justify-between gap-2">
@@ -30,24 +34,45 @@ export function ClubRoster({
           or an appearance points at this club.
         </p>
       ) : (
-        <ul className="flex flex-wrap gap-2">
-          {rows.map((row) => (
-            <li key={row.summary.id}>
-              <Link
-                href={row.summary.href}
-                className="inline-flex max-w-full flex-wrap items-baseline gap-x-1 rounded-full border border-galway-maroon/15 bg-white px-3 py-1 text-sm font-bold text-galway-ink transition hover:border-galway-maroon hover:text-galway-maroon focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
-              >
-                <span>{row.summary.title}</span>
-                {row.alsoClubs.length > 0 ? (
-                  <span className="font-semibold text-galway-ink/45">
-                    · also {row.alsoClubs.map((c) => c.name).join(", ")}
-                  </span>
-                ) : null}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="space-y-4">
+          <RosterGroup label="Verified" rows={verified} />
+          <RosterGroup label="Needs check" rows={needsCheck} />
+        </div>
       )}
     </section>
+  );
+}
+
+function RosterGroup({
+  label,
+  rows,
+}: {
+  label: string;
+  rows: ClubRosterRow[];
+}) {
+  if (rows.length === 0) return null;
+  return (
+    <div className="space-y-2">
+      <h3>
+        <TrustChip label={label} />
+      </h3>
+      <ul className="flex flex-wrap gap-2">
+        {rows.map((row) => (
+          <li key={row.summary.id}>
+            <Link
+              href={row.summary.href}
+              className="inline-flex max-w-full flex-wrap items-baseline gap-x-1 rounded-full border border-galway-maroon/15 bg-white px-3 py-1 text-sm font-bold text-galway-ink transition hover:border-galway-maroon hover:text-galway-maroon focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+            >
+              <span>{row.summary.title}</span>
+              {row.alsoClubs.length > 0 ? (
+                <span className="font-semibold text-galway-ink/45">
+                  · also {row.alsoClubs.map((c) => c.name).join(", ")}
+                </span>
+              ) : null}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
