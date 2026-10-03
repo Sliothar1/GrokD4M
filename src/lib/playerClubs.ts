@@ -130,6 +130,57 @@ export type ClubRosterRow = {
   trust: string;
 };
 
+const AF_CLUB_ID = "club:ahascragh-fohenagh";
+const HISTORIC_CLUB_IDS = [
+  "club:fohenagh-historic",
+  "club:ahascragh-historic",
+] as const;
+
+/** Club columns include the amalgam and at least one historic predecessor. */
+export function isDualEraAttrs(attrs: Record<string, TripleVal>): boolean {
+  const ids = new Set(collectClubIdsFromAttrs(attrs));
+  if (!ids.has(AF_CLUB_ID)) return false;
+  return HISTORIC_CLUB_IDS.some((id) => ids.has(id));
+}
+
+export type DualEraStripEntry = {
+  summary: EntitySummary;
+  chips: ClubChipData[];
+};
+
+/**
+ * Verified dual-era players for one of the three locked club pages.
+ * Amalgam chips are the historic jerseys; a historic page shows the amalgam chip.
+ * Needs-check players are left out — they stay in the roster.
+ */
+export function verifiedDualEraStrip(
+  clubId: string,
+  rows: ClubRosterRow[],
+  A: AssocArray
+): DualEraStripEntry[] {
+  const amalgam = clubId === AF_CLUB_ID;
+  const historic =
+    clubId === "club:fohenagh-historic" ||
+    clubId === "club:ahascragh-historic";
+  if (!amalgam && !historic) return [];
+
+  const entries: DualEraStripEntry[] = [];
+  for (const row of rows) {
+    if (row.trust !== "Verified") continue;
+    const attrs = A.entityAttrs(row.summary.id);
+    const ids = collectClubIdsFromAttrs(attrs);
+    if (!ids.includes(clubId) || !isDualEraAttrs(attrs)) continue;
+    const chipIds = amalgam
+      ? HISTORIC_CLUB_IDS.filter((id) => ids.includes(id))
+      : [AF_CLUB_ID];
+    entries.push({
+      summary: row.summary,
+      chips: chipIds.map((id) => toClubChip(id, A)),
+    });
+  }
+  return entries;
+}
+
 function valueMentionsClub(val: TripleVal, clubId: string): boolean {
   return parseClubIds(val).includes(clubId);
 }
