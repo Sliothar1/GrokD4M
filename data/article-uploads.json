@@ -924,5 +924,152 @@
     "matchTags": [
       "match:galway-shc-1959-final-replay"
     ]
+  },
+  {
+    "id": "art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney",
+    "kind": "image",
+    "filename": "art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney.png",
+    "path": "/uploads/articles/art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Hurling final action naming Jim Sweeney (Fohenagh full-forward)",
+    "year": "1963",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "jim-sweeney",
+      "ina",
+      "action"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-sweeney"
+    ],
+    "excerpt": "Photo caption: Packie Burke, Turloughmore’s full-back, covers Bobby Madden, with Jim Sweeney, Fohenagh’s full-forward, in close attendance during Sunday’s hurling final at Pearse Stadium.",
+    "citeChip": "Connacht Tribune · 17 Aug 1963 · p.31 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1959-10-24-jim-moclair",
+    "kind": "image",
+    "filename": "art-ina-ct-1959-10-24-jim-moclair.png",
+    "path": "/uploads/articles/art-ina-ct-1959-10-24-jim-moclair.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1959-10-24-jim-moclair.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Match report naming Jim Moclair",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "jim-moclair",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-moclair-fohenagh"
+    ],
+    "excerpt": "Galway v Kilkenny county hurling report naming Jim Moclair.",
+    "citeChip": "Connacht Tribune · 24 Oct 1959 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19591024.1.14",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1989-10-13-sean-moclair",
+    "kind": "image",
+    "filename": "art-ina-ct-1989-10-13-sean-moclair.png",
+    "path": "/uploads/articles/art-ina-ct-1989-10-13-sean-moclair.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1989-10-13-sean-moclair.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Galway report naming Sean Moclair",
+    "year": "1989",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "sean-moclair",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:sean-moclair",
+      "player:sean-mockler"
+    ],
+    "excerpt": "Galway report with exact-name Sean Moclair hit.",
+    "citeChip": "Connacht Tribune · 13 Oct 1989 · p.12 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19891013.1.12",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1990-12-07-fohenagh-u12-team",
+    "kind": "image",
+    "filename": "art-ina-ct-1990-12-07-fohenagh-u12-team.png",
+    "path": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-team.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-team.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Fohenagh U-12 county B champions team photo (Cathal Lohan, Alan Moclair, Philip Lohan)",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u12",
+      "team-photo",
+      "ina",
+      "cathal-lohan",
+      "alan-moclair",
+      "philip-lohan"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:cathal-lohan-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:alan-mockler",
+      "player:philip-lohan",
+      "player:phillip-lohan"
+    ],
+    "excerpt": "Fohenagh U-12 county B champions team photo, naming Cathal Lohan, Alan Moclair and Philip Lohan. The print spells it 'Alan Mocklair'.",
+    "citeChip": "Connacht Tribune · 7 Dec 1990 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19901207.1.23",
+    "status": "pending"
+  },
+  {
+    "id": "art-ina-ct-1990-12-07-fohenagh-u12-caption",
+    "kind": "image",
+    "filename": "art-ina-ct-1990-12-07-fohenagh-u12-caption.png",
+    "path": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-caption.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-u12-caption.png",
+    "uploadedAt": "2026-09-19T17:31:45.063705+00:00",
+    "caption": "Connacht Tribune — Fohenagh U-12 county B champions caption (Cathal Lohan, Alan Moclair, Philip Lohan)",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u12",
+      "caption",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:cathal-lohan-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:alan-mockler",
+      "player:philip-lohan",
+      "player:phillip-lohan"
+    ],
+    "excerpt": "Caption for the Fohenagh U-12 county B champions, naming Cathal Lohan, Alan Moclair and Philip Lohan. The print spells it 'Alan Mocklair'.",
+    "citeChip": "Connacht Tribune · 7 Dec 1990 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19901207.1.23",
+    "status": "pending"
   }
 ]
