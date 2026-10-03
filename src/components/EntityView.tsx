@@ -47,7 +47,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   const cuttingCards = related.filter((r) => r.kind === "article_upload");
   const heroCutting = cuttingCards.find((c) => c.imagePath) ?? cuttingCards[0];
   const clubRoster =
-    summary.kind === "club" ? listClubRoster(id, A) : [];
+    summary.kind === "club" ? await listClubRoster(id, A) : [];
 
   return (
     <article className="space-y-8">

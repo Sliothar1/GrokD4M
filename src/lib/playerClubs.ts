@@ -1,3 +1,4 @@
+import { linkedCuttingCountsFor } from "@/lib/articles";
 import { isClubAttrColumn } from "@/lib/clubColumns";
 import {
   displayNameForRef,
@@ -154,7 +155,10 @@ function addPlayerFromRow(
 }
 
 /** Players who wore this club's jersey (attrs + appearances). */
-export function listClubRoster(clubId: string, A: AssocArray): ClubRosterRow[] {
+export async function listClubRoster(
+  clubId: string,
+  A: AssocArray
+): Promise<ClubRosterRow[]> {
   const playerIds = new Set<string>();
 
   for (const col of A.cols()) {
@@ -164,6 +168,7 @@ export function listClubRoster(clubId: string, A: AssocArray): ClubRosterRow[] {
     }
   }
 
+  const cuttingCounts = await linkedCuttingCountsFor(playerIds);
   const rows: ClubRosterRow[] = [];
   for (const id of playerIds) {
     const summary = summarizeEntity(id, A);
@@ -172,15 +177,16 @@ export function listClubRoster(clubId: string, A: AssocArray): ClubRosterRow[] {
     const also = sortClubIds(
       collectClubIdsFromAttrs(attrs).filter((c) => c !== clubId)
     ).map((c) => toClubChip(c, A));
+    const linkedCuttings = Math.max(
+      cuttingCounts.get(id) ?? 0,
+      linkedCuttingCount(attrs)
+    );
     rows.push({
       summary,
       alsoClubs: also,
       trust:
-        playerProfileChip(
-          attrs,
-          summary.confidence,
-          linkedCuttingCount(attrs)
-        ) ?? "Needs check",
+        playerProfileChip(attrs, summary.confidence, linkedCuttings) ??
+        "Needs check",
     });
   }
 

@@ -1112,37 +1112,55 @@ export async function allDerivedUploadTriples(): Promise<Triple[]> {
  * Public cutting cards linked to a player or club entity via playerTags / clubTags
  * (and loose id matches in tags). Full OCR stays private — cards use articleToSummary.
  */
+function articleLinksEntity(a: ArticleUpload, entityId: string): boolean {
+  const id = entityId.trim().toLowerCase();
+  if (!id.includes(":")) return false;
+  const bare = id.slice(id.indexOf(":") + 1);
+  const players = normalizePlayerTags(a.playerTags);
+  const clubs = normalizeClubTags(a.clubTags);
+  const allTags = [...a.tags, ...clubs, ...players].map((t) => t.toLowerCase());
+  return (
+    players.includes(id) ||
+    clubs.includes(id) ||
+    allTags.includes(id) ||
+    allTags.includes(bare) ||
+    (id.startsWith("player:") &&
+      players.some((p) => p === id || p.endsWith(`:${bare}`))) ||
+    (id.startsWith("club:") &&
+      clubs.some((c) => c === id || c.includes(bare)))
+  );
+}
+
 export async function getLinkedArticleSummaries(
   entityId: string
 ): Promise<EntitySummary[]> {
-  const id = entityId.trim().toLowerCase();
-  if (!id.includes(":")) return [];
-  const bare = id.slice(id.indexOf(":") + 1);
   const out: EntitySummary[] = [];
   const seen = new Set<string>();
 
   for (const a of await readArticleUploads()) {
-    const players = normalizePlayerTags(a.playerTags);
-    const clubs = normalizeClubTags(a.clubTags);
-    const allTags = [...a.tags, ...clubs, ...players].map((t) =>
-      t.toLowerCase()
-    );
-    const hit =
-      players.includes(id) ||
-      clubs.includes(id) ||
-      allTags.includes(id) ||
-      allTags.includes(bare) ||
-      (id.startsWith("player:") &&
-        players.some((p) => p === id || p.endsWith(`:${bare}`))) ||
-      (id.startsWith("club:") &&
-        clubs.some((c) => c === id || c.includes(bare)));
-    if (!hit) continue;
+    if (!articleLinksEntity(a, entityId)) continue;
     const summary = articleToSummary(a);
     if (seen.has(summary.id)) continue;
     seen.add(summary.id);
     out.push(summary);
   }
   return out;
+}
+
+/** How many linked cuttings each id has. Same match as `getLinkedArticleSummaries`. */
+export async function linkedCuttingCountsFor(
+  entityIds: Iterable<string>
+): Promise<Map<string, number>> {
+  const ids = [...entityIds];
+  const counts = new Map(ids.map((id) => [id, 0]));
+  if (ids.length === 0) return counts;
+  for (const a of await readArticleUploads()) {
+    for (const id of ids) {
+      if (!articleLinksEntity(a, id)) continue;
+      counts.set(id, (counts.get(id) ?? 0) + 1);
+    }
+  }
+  return counts;
 }
 
 export interface MatchArticleClip {
