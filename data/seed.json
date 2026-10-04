@@ -165,6 +165,21 @@
     "val": "https://ahascraghfohenaghhc.wordpress.com/about/"
   },
   {
+    "row": "club:ahascragh-fohenagh",
+    "col": "division",
+    "val": "B"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:ahascragh-historic",
     "col": "type",
     "val": "club"
@@ -2800,6 +2815,21 @@
     "val": "https://en.wikipedia.org/wiki/Portumna_GAA"
   },
   {
+    "row": "club:portumna",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:portumna",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:portumna",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:st-thomas",
     "col": "type",
     "val": "club"
@@ -2828,6 +2858,21 @@
     "row": "club:st-thomas",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/St_Thomas%27_GAA"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "division_season",
+    "val": 2023
   },
   {
     "row": "club:st-thomas",
@@ -2875,6 +2920,21 @@
     "val": "https://en.wikipedia.org/wiki/Sarsfields_GAA_(Galway)"
   },
   {
+    "row": "club:sarsfields",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:sarsfields",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:kinvara",
     "col": "type",
     "val": "club"
@@ -2905,6 +2965,21 @@
     "val": "https://en.wikipedia.org/wiki/Kinvara_GAA"
   },
   {
+    "row": "club:kinvara",
+    "col": "division",
+    "val": "Intermediate"
+  },
+  {
+    "row": "club:kinvara",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=Galway_Intermediate_Hurling_Championship&oldid=1321974730"
+  },
+  {
+    "row": "club:kinvara",
+    "col": "division_season",
+    "val": 2025
+  },
+  {
     "row": "club:athenry",
     "col": "type",
     "val": "club"
@@ -2933,6 +3008,21 @@
     "row": "club:athenry",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Athenry_GAA"
+  },
+  {
+    "row": "club:athenry",
+    "col": "division",
+    "val": "B"
+  },
+  {
+    "row": "club:athenry",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:athenry",
+    "col": "division_season",
+    "val": 2023
   },
   {
     "row": "club:athenry",
@@ -2981,6 +3071,21 @@
   },
   {
     "row": "club:castlegar",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
+    "row": "club:castlegar",
     "col": "county_titles",
     "val": 17
   },
@@ -3023,6 +3128,21 @@
     "row": "club:clarinbridge",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Clarinbridge_GAA"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "division_season",
+    "val": 2023
   },
   {
     "row": "club:clarinbridge",
@@ -3070,6 +3190,21 @@
     "val": "https://en.wikipedia.org/wiki/Turloughmore_GAA"
   },
   {
+    "row": "club:turloughmore",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:turloughmore",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:oranmore-maree",
     "col": "type",
     "val": "club"
@@ -3100,6 +3235,21 @@
     "val": "https://en.wikipedia.org/wiki/Oranmore-Maree_GAA"
   },
   {
+    "row": "club:oranmore-maree",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:oranmore-maree",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:gort",
     "col": "type",
     "val": "club"
@@ -3128,6 +3278,21 @@
     "row": "club:gort",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Gort_GAA"
+  },
+  {
+    "row": "club:gort",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:gort",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:gort",
+    "col": "division_season",
+    "val": 2023
   },
   {
     "row": "club:gort",
@@ -3175,6 +3340,21 @@
     "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
   },
   {
+    "row": "club:loughrea",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:loughrea",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:loughrea",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:ardrahan",
     "col": "type",
     "val": "club"
@@ -3205,6 +3385,21 @@
     "val": "https://en.wikipedia.org/wiki/Ardrahan_GAA"
   },
   {
+    "row": "club:ardrahan",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:ardrahan",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:mullagh",
     "col": "type",
     "val": "club"
@@ -3233,6 +3428,21 @@
     "row": "club:mullagh",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Mullagh_GAA_(Galway)"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "division",
+    "val": "B"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "division_season",
+    "val": 2023
   },
   {
     "row": "club:mullagh",
@@ -3278,6 +3488,21 @@
     "row": "club:killimordaly",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Tony_Keady"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "division_season",
+    "val": 2023
   },
   {
     "row": "club:killimordaly",
@@ -3535,6 +3760,21 @@
     "val": "https://en.wikipedia.org/wiki/Miche%C3%A1l_Donoghue"
   },
   {
+    "row": "club:craughwell",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:craughwell",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:craughwell",
+    "col": "division_season",
+    "val": 2023
+  },
+  {
     "row": "club:cappataggle",
     "col": "type",
     "val": "club"
@@ -3563,6 +3803,21 @@
     "row": "club:cappataggle",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Cappataggle_GAA"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "division",
+    "val": "A"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "source_division",
+    "val": "https://en.wikipedia.org/w/index.php?title=2023_Galway_Senior_Hurling_Championship&oldid=1182813434"
+  },
+  {
+    "row": "club:cappataggle",
+    "col": "division_season",
+    "val": 2023
   },
   {
     "row": "club:kilnadeema-leitrim",
@@ -3705,6 +3960,16 @@
     "val": "https://en.wikipedia.org/wiki/David_Burke_(Galway_hurler)"
   },
   {
+    "row": "player:david-burke",
+    "col": "notes",
+    "val": "Captain 2017"
+  },
+  {
+    "row": "player:david-burke",
+    "col": "source_notes",
+    "val": "https://en.wikipedia.org/w/index.php?title=David_Burke_(Galway_hurler)&oldid=1354214463"
+  },
+  {
     "row": "player:damien-hayes",
     "col": "type",
     "val": "player"
@@ -3793,6 +4058,16 @@
     "row": "player:joe-cooney",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Joe_Cooney"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "notes",
+    "val": "1987, 1988 All-Ireland wins. Hurler of Year 1987"
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "source_notes",
+    "val": "https://en.wikipedia.org/w/index.php?title=Joe_Cooney&oldid=1370776870"
   },
   {
     "row": "player:joe-cooney",
@@ -3981,6 +4256,16 @@
   },
   {
     "row": "player:cathal-mannion",
+    "col": "debut",
+    "val": 2014
+  },
+  {
+    "row": "player:cathal-mannion",
+    "col": "source_debut",
+    "val": "https://en.wikipedia.org/w/index.php?title=Cathal_Mannion&oldid=1362737287"
+  },
+  {
+    "row": "player:cathal-mannion",
     "col": "season:2016",
     "val": "club:ahascragh-fohenagh"
   },
@@ -4033,6 +4318,16 @@
     "row": "player:padraic-mannion",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/P%C3%A1draic_Mannion"
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "debut",
+    "val": 2015
+  },
+  {
+    "row": "player:padraic-mannion",
+    "col": "source_debut",
+    "val": "https://en.wikipedia.org/w/index.php?title=P%C3%A1draic_Mannion&oldid=1362736809"
   },
   {
     "row": "player:padraic-mannion",
@@ -4538,6 +4833,16 @@
     "row": "player:eugene-cloonan",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Eugene_Cloonan"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "notes",
+    "val": "3 club All-Irelands with Athenry"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "source_notes",
+    "val": "https://en.wikipedia.org/w/index.php?title=Eugene_Cloonan&oldid=1363509804"
   },
   {
     "row": "player:eugene-cloonan",
