@@ -4,31 +4,10 @@ import { EntityCard } from "@/components/EntityCard";
 import { getEntity } from "@/lib/data";
 import { playerNotableText } from "@/lib/entityDisplay";
 
-/**
- * Player spotlights: Tim Sweeney first, then the Clonbrock village families —
- * the Moclairs, the Lohans, Luke Kennedy, and Niall and Pádraic Leonard
- * (Garry asks, 4 Oct 07:06 and 07:19).
- * Canonical (non-alias) player ids only.
- */
+/** Player spotlights: Tim Sweeney and Jimmy Moclair only (Garry ask, 4 Oct 10:37). */
 const SPOTLIGHT_PLAYER_IDS = [
   "player:tim-sweeney-fohenagh",
-  // Moclairs
   "player:jim-moclair-fohenagh",
-  "player:seamus-moclair",
-  "player:sean-moclair",
-  "player:alan-moclair-ahascragh-fohenagh",
-  // Lohans
-  "player:garry-lohan",
-  "player:jason-lohan",
-  "player:cathal-lohan",
-  "player:trevor-lohan",
-  "player:philip-lohan",
-  "player:paddy-lohan-fohenagh",
-  // Clonbrock (Garry ask, 4 Oct 07:19)
-  "player:luke-kennedy",
-  // Leonards
-  "player:niall-leonard",
-  "player:padraic-leonard",
 ] as const;
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
@@ -81,16 +60,10 @@ export default async function HomePage() {
       </section>
 
       <section className="space-y-4">
-        <div>
-          <h2 className="text-2xl font-bold text-galway-maroon">
-            Player spotlights
-          </h2>
-          <p className="mt-1 text-base text-galway-ink/70">
-            Clonbrock village: the Moclairs, the Lohans, Luke Kennedy, and Niall
-            and Pádraic Leonard.
-          </p>
-        </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <h2 className="text-2xl font-bold text-galway-maroon">
+          Player spotlights
+        </h2>
+        <div className="grid gap-3 sm:grid-cols-2">
           {spotlights.map((player) =>
             player ? (
               <SpotlightCard key={player.summary.id} player={player} />
