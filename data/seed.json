@@ -126941,6 +126941,11 @@
   },
   {
     "row": "player:raymond-higgins-fohenagh",
+    "col": "source_note",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
     "col": "status",
     "val": "verified_from_cutting"
   },
@@ -152478,6 +152483,11 @@
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "note",
     "val": "Galway GAA RoH 2009: Declan Glynn named on Ahascragh-Fohenagh County Junior C Hurling Champions panel. Club-scoped AF-first thin fill."
+  },
+  {
+    "row": "player:declan-glynn-ahascragh-fohenagh",
+    "col": "source_note",
+    "val": "https://www.galwaygaa.ie/history/2009-roll-of-honour-football-hurling/"
   },
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
