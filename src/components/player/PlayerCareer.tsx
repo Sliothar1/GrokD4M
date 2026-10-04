@@ -21,12 +21,15 @@ export function PlayerCareer({
   assoc,
   source,
   kidChip,
+  factCites,
 }: {
   attrs: EntityPayload["attrs"];
   related: EntityPayload["related"];
   assoc: AssocArray;
   source: string | null;
   kidChip: string | null;
+  /** Optional cite markers keyed by fact column. Omitted keys stay unmarked. */
+  factCites?: Record<string, React.ReactNode>;
 }) {
   const appearances = related.filter((r) => r.kind === "appearance");
   const relatedRail = related
@@ -55,6 +58,7 @@ export function PlayerCareer({
             {kidChip ? (
               <div className="rounded-full border border-galway-maroon/20 bg-white px-3 py-1.5 text-sm font-semibold text-galway-maroon">
                 {kidChip}
+                {factCites?.kid_chip}
               </div>
             ) : null}
             {facts.map((f) => (
@@ -76,6 +80,7 @@ export function PlayerCareer({
                   ) : (
                     String(f.value)
                   )}
+                  {factCites?.[f.key]}
                 </dd>
               </div>
             ))}

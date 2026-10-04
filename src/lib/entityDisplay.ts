@@ -59,6 +59,7 @@ export function isHiddenFactKey(k: string): boolean {
 export const PLAYER_FACT_KEYS = [
   "position",
   "born",
+  "debut",
   "nickname",
   "father",
   "also_known_as",

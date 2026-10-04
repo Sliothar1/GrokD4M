@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useId, useState } from "react";
+import { orderCuttingCards } from "@/lib/cuttingOrder";
 
 export type CuttingCard = {
   id: string;
@@ -10,18 +11,11 @@ export type CuttingCard = {
   citeChip?: string;
   imagePath?: string;
   href: string;
+  /** Cite marker rendered outside the card link so it is not nested. */
+  cite?: React.ReactNode;
 };
 
-/**
- * Player Spotlight hero order (PR #6 pack). Prefer these ids / PNG paths
- * when present — do not block if the pack is not merged yet.
- */
-export const JASON_HERO_CUTTING_IDS = [
-  "art-galwaygaa-2002-galway-aihc-champions-jason-lohan",
-  "art-ina-ct-2003-12-12-jason-lohan-u21",
-  "art-ina-ct-2002-11-15-jason-lohan-u21",
-  "art-ina-ct-2005-07-22-jason-lohan",
-] as const;
+export { JASON_HERO_CUTTING_IDS } from "@/lib/cuttingOrder";
 
 export function CuttingExcerpts({
   cuttings,
@@ -54,7 +48,7 @@ export function CuttingExcerpts({
     return <CompactCuttingsEmpty />;
   }
 
-  const ordered = cuttings.map(preferKnownCuttingImage).sort(compareCuttings);
+  const ordered = orderCuttingCards(cuttings);
 
   return (
     <section className="space-y-3" aria-labelledby={titleId}>
@@ -75,11 +69,17 @@ export function CuttingExcerpts({
       <ul className="grid gap-3">
         {ordered.map((c) => (
           <li key={c.id}>
-            <PressCard
-              cutting={c}
-              playerName={playerName}
-              onOpen={() => (c.imagePath ? setLightbox(c) : undefined)}
-            />
+            <div className="relative">
+              <PressCard
+                cutting={c}
+                playerName={playerName}
+                hasCite={Boolean(c.cite)}
+                onOpen={() => (c.imagePath ? setLightbox(c) : undefined)}
+              />
+              {c.cite ? (
+                <div className="absolute right-1.5 top-2 z-10">{c.cite}</div>
+              ) : null}
+            </div>
           </li>
         ))}
       </ul>
@@ -137,10 +137,12 @@ export function CuttingExcerpts({
 function PressCard({
   cutting,
   playerName,
+  hasCite,
   onOpen,
 }: {
   cutting: CuttingCard;
   playerName?: string;
+  hasCite?: boolean;
   onOpen: () => void;
 }) {
   const canOpenImage = Boolean(cutting.imagePath);
@@ -165,7 +167,7 @@ function PressCard({
             </span>
           </div>
         )}
-        <div className="min-w-0 flex-1">
+        <div className={`min-w-0 flex-1 ${hasCite ? "pr-10" : ""}`}>
           <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-galway-maroon">
             {cutting.citeChip ?? "From cutting"}
           </p>
@@ -225,44 +227,3 @@ function CompactCuttingsEmpty() {
   );
 }
 
-function cuttingBareId(c: CuttingCard): string {
-  const raw = c.id.includes(":") ? c.id.slice(c.id.indexOf(":") + 1) : c.id;
-  return raw.toLowerCase();
-}
-
-function heroRank(c: CuttingCard): number {
-  const bare = cuttingBareId(c);
-  const fromId = JASON_HERO_CUTTING_IDS.indexOf(
-    bare as (typeof JASON_HERO_CUTTING_IDS)[number]
-  );
-  if (fromId !== -1) return fromId;
-  const path = (c.imagePath ?? "").toLowerCase();
-  const fromPath = JASON_HERO_CUTTING_IDS.findIndex((id) => path.includes(id));
-  return fromPath === -1 ? 100 : fromPath;
-}
-
-/** Use the committed Spotlight PNG path when the cutting id matches. */
-function preferKnownCuttingImage(c: CuttingCard): CuttingCard {
-  const bare = cuttingBareId(c);
-  const hero = JASON_HERO_CUTTING_IDS.find(
-    (id) => bare === id || (c.imagePath ?? "").toLowerCase().includes(id)
-  );
-  if (!hero) return c;
-  if (c.imagePath) return c;
-  return { ...c, imagePath: `/uploads/articles/${hero}.png` };
-}
-
-function compareCuttings(a: CuttingCard, b: CuttingCard): number {
-  const ha = heroRank(a);
-  const hb = heroRank(b);
-  if (ha !== hb) return ha - hb;
-  const ya = cuttingYear(a);
-  const yb = cuttingYear(b);
-  if (ya !== yb) return ya - yb;
-  return a.title.localeCompare(b.title);
-}
-
-function cuttingYear(c: CuttingCard): number {
-  const m = `${c.citeChip ?? ""} ${c.title}`.match(/\b(19\d{2}|20[0-2]\d)\b/);
-  return m ? Number(m[1]) : 0;
-}

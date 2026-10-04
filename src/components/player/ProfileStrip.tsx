@@ -10,6 +10,7 @@ export function ProfileStrip({
   photoUploadHref,
   verified,
   trustLabel,
+  clubCite,
 }: {
   name: string;
   clubs: ClubChipData[];
@@ -19,6 +20,8 @@ export function ProfileStrip({
   /** Named-in-cutting or equivalent (archivist / high confidence). */
   verified: boolean;
   trustLabel?: string;
+  /** Cite for the club fact. Rendered beside the chips, not inside them. */
+  clubCite?: React.ReactNode;
 }) {
   const chip = verified ? "Verified" : trustLabel;
 
@@ -44,6 +47,7 @@ export function ProfileStrip({
           {clubs.map((c) => (
             <ClubChip key={c.id} href={c.href} label={c.name} title={c.title} />
           ))}
+          {clubCite}
         </div>
         {countyName ? (
           <p className="text-sm font-semibold text-galway-ink/50">

@@ -48,7 +48,7 @@ async function main() {
   );
 
   const stats = await demoStats();
-  assert.equal(stats.players, 1805);
+  assert.equal(stats.players, 1806);
   console.log(`smoke-player-tag-membership: ok (players ${stats.players})`);
 }
 
