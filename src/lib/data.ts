@@ -186,9 +186,14 @@ export function linkedCuttingCount(attrs: Record<string, TripleVal>): number {
 }
 
 /**
- * Trust chip shown on the player profile strip.
- * Verified when a cutting stamp, a linked cutting, or `playerTrustLabel` says so.
- * Otherwise the same friendly label (Needs check).
+ * Club-roster chip only. The player profile strip does not call this.
+ *
+ * The old strip rule (confidence `high`, any `cutting_cite`, or any linked
+ * cutting ⇒ Verified) is retired on player pages. The strip uses
+ * `headlineVerificationStatus` (`src/lib/verification.ts`): Verified only
+ * when an identity fact has a Verified source. This helper stays so club
+ * roster groups keep their current cutting/confidence chip until Club Desk
+ * switches to that module.
  */
 export function playerProfileChip(
   attrs: Record<string, TripleVal>,

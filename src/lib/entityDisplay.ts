@@ -1,5 +1,6 @@
 import type { TripleVal } from "@/lib/d4m/AssocArray";
 import { entityHref, isEntityRef } from "@/lib/data";
+import type { SourceOrderSlot } from "@/lib/sources";
 
 /** Never show null / empty / literal "null" on kid-facing facts. */
 export function isDisplayableVal(v: unknown): boolean {
@@ -39,6 +40,7 @@ export const HIDDEN_ATTRS = new Set([
   "status",
   "hold",
   "cutting_cite",
+  "confirmed_by_family",
   "photo",
   "photo_url",
   "portrait",
@@ -53,6 +55,24 @@ export function isHiddenFactKey(k: string): boolean {
   if (HIDDEN_ATTRS.has(k)) return true;
   if (k.startsWith("cutting:")) return true;
   return false;
+}
+
+/**
+ * Facts that identify the person. A career stat such as `all_stars` is not
+ * one of these. Linked cuttings are included because the player is named
+ * on the cutting. `notable` is the intro highlight, not an identity fact.
+ */
+const PLAYER_IDENTITY_FACTS = new Set([
+  "club",
+  "note",
+  "also_known_as",
+  "father",
+  "born",
+  "nickname",
+]);
+
+export function isPlayerIdentityFact(factKey: string): boolean {
+  return factKey.startsWith("cutting:") || PLAYER_IDENTITY_FACTS.has(factKey);
 }
 
 /** Compact career strip — identity facts only (club chips live on the profile strip). */
@@ -116,4 +136,36 @@ export function playerArchiveNote(
 /** @deprecated Use playerNotableText — never fall back to `note` as the glow. */
 export function playerBioText(attrs: Record<string, TripleVal>): string | null {
   return playerNotableText(attrs);
+}
+
+/** Fact keys actually rendered on the player page, in section order. */
+export function playerOnPageFactKeys(
+  attrs: Record<string, TripleVal>,
+  hasClubs: boolean
+): string[] {
+  const keys: string[] = [];
+  if (hasClubs) keys.push("club");
+  if (playerNotableText(attrs)) keys.push("notable");
+  if (playerArchiveNote(attrs)) keys.push("note");
+  if (attrs.kid_chip && isDisplayableVal(attrs.kid_chip)) keys.push("kid_chip");
+  for (const key of PLAYER_FACT_KEYS) {
+    if (isDisplayableVal(attrs[key])) keys.push(key);
+  }
+  return keys;
+}
+
+/** Locked cite order: club, notable, note, cuttings, kid chip, career facts. */
+export function playerSourceOrder(shown: readonly string[]): SourceOrderSlot[] {
+  const shownSet = new Set(shown);
+  const slots: SourceOrderSlot[] = [
+    { fact: "club" },
+    { fact: "notable" },
+    { fact: "note" },
+    { cuttings: true },
+    { fact: "kid_chip" },
+    ...PLAYER_FACT_KEYS.map((fact): SourceOrderSlot => ({ fact })),
+  ];
+  return slots.filter((slot) =>
+    "cuttings" in slot ? true : shownSet.has(slot.fact)
+  );
 }

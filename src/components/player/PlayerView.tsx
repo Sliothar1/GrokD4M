@@ -8,19 +8,21 @@ import { PlayerCareer } from "@/components/player/PlayerCareer";
 import { ProfileStrip } from "@/components/player/ProfileStrip";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
+import { VerificationBadge } from "@/components/sources/VerificationBadge";
 import {
   displayNameForRef,
   getAssoc,
-  playerProfileChip,
-  playerTrustLabel,
   type getEntity,
 } from "@/lib/data";
 import { orderCuttingCards } from "@/lib/cuttingOrder";
 import {
   isDisplayableVal,
+  isPlayerIdentityFact,
   PLAYER_FACT_KEYS,
   playerArchiveNote,
   playerNotableText,
+  playerOnPageFactKeys,
+  playerSourceOrder,
 } from "@/lib/entityDisplay";
 import { playerClubChips } from "@/lib/playerClubs";
 import {
@@ -30,8 +32,12 @@ import {
 import {
   cuttingFactKey,
   resolveEntitySources,
-  type SourceOrderSlot,
 } from "@/lib/sources";
+import {
+  annotateEntityVerification,
+  headlineVerificationStatus,
+  type FactSourceStatus,
+} from "@/lib/verification";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
@@ -60,10 +66,6 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       )
   );
 
-  const trust = playerTrustLabel(attrs, summary.confidence);
-  const verified =
-    playerProfileChip(attrs, summary.confidence, cuttings.length) ===
-    "Verified";
   const clubs = playerClubChips(id, attrs, related, A);
   const countyName = attrs.county
     ? displayNameForRef(String(attrs.county), A)
@@ -76,39 +78,33 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       : null;
   const source = attrs.source ? String(attrs.source) : null;
 
-  const shownFacts = new Set<string>();
-  if (clubs.length > 0) shownFacts.add("club");
-  if (notable) shownFacts.add("notable");
-  if (note) shownFacts.add("note");
-  if (kidChip) shownFacts.add("kid_chip");
-  for (const key of PLAYER_FACT_KEYS) {
-    if (isDisplayableVal(attrs[key])) shownFacts.add(key);
-  }
-  const sourceOrder: SourceOrderSlot[] = (
-    [
-      { fact: "club" },
-      { fact: "notable" },
-      { fact: "note" },
-      { cuttings: true },
-      { fact: "kid_chip" },
-      ...PLAYER_FACT_KEYS.map((fact): SourceOrderSlot => ({ fact })),
-    ] satisfies SourceOrderSlot[]
-  ).filter((slot): slot is SourceOrderSlot =>
-    "cuttings" in slot ? true : shownFacts.has(slot.fact)
-  );
+  const shownFacts = playerOnPageFactKeys(attrs, clubs.length > 0);
 
-  const citations = resolveEntitySources({
-    entityId: id,
-    attrs,
-    cuttings: cuttings.map((cutting) => ({
-      id: cutting.id,
-      title: cutting.title,
-      href: cutting.href,
-      citeChip: cutting.citeChip,
-      imagePath: cutting.imagePath,
-    })),
-    order: sourceOrder,
-  });
+  const citations = annotateEntityVerification(
+    resolveEntitySources({
+      entityId: id,
+      attrs,
+      cuttings: cuttings.map((cutting) => ({
+        id: cutting.id,
+        title: cutting.title,
+        href: cutting.href,
+        citeChip: cutting.citeChip,
+        imagePath: cutting.imagePath,
+      })),
+      order: playerSourceOrder(shownFacts),
+    }),
+    attrs
+  );
+  const statusOf = (factKey: string): FactSourceStatus =>
+    citations.facts.find((fact) => fact.factKey === factKey)?.status ??
+    "unverified";
+  const badgeFor = (factKey: string) => (
+    <VerificationBadge status={statusOf(factKey)} fact={factKey} />
+  );
+  const profileStatus = headlineVerificationStatus(
+    citations.facts,
+    isPlayerIdentityFact
+  );
 
   const citeFor = (factKey: string) => (
     <CiteMarkers
@@ -118,15 +114,25 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
   );
 
   const citedCuttings = cuttings.map((cutting) => {
-    const numbers = citations.markers[cuttingFactKey(cutting.id)] ?? [];
+    const factKey = cuttingFactKey(cutting.id);
+    const numbers = citations.markers[factKey] ?? [];
+    const status = statusOf(factKey);
     return {
       ...cutting,
-      cite: numbers.length > 0 ? citeFor(cuttingFactKey(cutting.id)) : undefined,
+      cite: numbers.length > 0 ? citeFor(factKey) : undefined,
+      badge: <VerificationBadge status={status} fact={factKey} />,
     };
   });
 
+  const factKeys = ["kid_chip", ...PLAYER_FACT_KEYS];
   const factCites = Object.fromEntries(
-    ["kid_chip", ...PLAYER_FACT_KEYS].map((key) => [key, citeFor(key)])
+    factKeys.map((key) => [key, citeFor(key)])
+  );
+  const factBadges = Object.fromEntries(
+    factKeys.map((key) => [key, badgeFor(key)])
+  );
+  const factStatuses = Object.fromEntries(
+    factKeys.map((key) => [key, statusOf(key)])
   );
 
   return (
@@ -137,9 +143,10 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         countyName={countyName}
         photoUrl={resolvePlayerPhoto(slug, attrs)}
         photoUploadHref={playerPhotoUploadHref(id)}
-        verified={verified}
-        trustLabel={trust}
+        verification={profileStatus}
+        clubStatus={clubs.length > 0 ? statusOf("club") : undefined}
         clubCite={citeFor("club")}
+        clubBadge={clubs.length > 0 ? badgeFor("club") : undefined}
       />
 
       <NotableIntro
@@ -147,9 +154,13 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         note={note}
         notableCite={citeFor("notable")}
         noteCite={citeFor("note")}
+        notableBadge={notable ? badgeFor("notable") : undefined}
+        noteBadge={note ? badgeFor("note") : undefined}
+        notableStatus={notable ? statusOf("notable") : undefined}
+        noteStatus={note ? statusOf("note") : undefined}
       />
 
-      <CuttingExcerpts cuttings={citedCuttings} playerName={summary.title} />
+      <CuttingExcerpts cuttings={citedCuttings} />
 
       <PlayerCareer
         attrs={attrs}
@@ -158,9 +169,11 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         source={source}
         kidChip={kidChip}
         factCites={factCites}
+        factBadges={factBadges}
+        factStatuses={factStatuses}
       />
 
-      <SourcesPanel sources={citations.sources} />
+      <SourcesPanel sources={citations.sources} legend />
 
       <DeveloperTriples triples={triples} />
     </article>

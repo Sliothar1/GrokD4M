@@ -11,10 +11,19 @@
  *
  * The bare `source` attribute is not a fallback. Non-URL values are
  * ignored. Facts with no source are still returned (`sources: []`) so
- * story S2 can add a per-fact status on the same list without a new shape.
+ * `annotateEntityVerification` can grade each fact on this same list.
  */
 
-export type FactSourceStatus = "verified" | "unverified";
+/**
+ * Per-fact grade. Confidence and a bare `cutting_cite` string do not
+ * set this. `resolveEntitySources` leaves it unset;
+ * `annotateEntityVerification` in `src/lib/verification.ts` fills it.
+ */
+export type FactSourceStatus =
+  | "verified"
+  | "single-source"
+  | "unverified"
+  | "confirmed-by-family";
 
 /** One deduped source, numbered to match on-page cite markers. */
 export type ResolvedSource = {
@@ -34,7 +43,7 @@ export type ResolvedSource = {
 
 /**
  * One on-page fact and the sources that support it.
- * `status` is reserved for story S2 and is left unset here.
+ * `status` is left unset here and filled by `annotateEntityVerification`.
  */
 export type ResolvedFact = {
   factKey: string;

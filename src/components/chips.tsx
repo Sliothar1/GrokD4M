@@ -21,17 +21,24 @@ export function ClubChip({
   href,
   label,
   title,
+  muted = false,
 }: {
   href: string;
   label: string;
   /** Hover tooltip. Historic chips use “Before Ahascragh-Fohenagh”. */
   title?: string;
+  /** Unsourced club claim: grey text, still a link. */
+  muted?: boolean;
 }) {
   return (
     <Link
       href={href}
       title={title ?? label}
-      className="rounded-full border-2 border-galway-maroon/30 bg-white px-2.5 py-0.5 text-sm font-bold text-galway-maroon transition hover:border-galway-maroon hover:bg-galway-maroon hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+      className={
+        muted
+          ? "rounded-full border-2 border-stone-500 bg-stone-100 px-2.5 py-0.5 text-sm font-bold text-stone-800 underline decoration-stone-500 underline-offset-2 transition hover:border-stone-800 hover:bg-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+          : "rounded-full border-2 border-galway-maroon/30 bg-white px-2.5 py-0.5 text-sm font-bold text-galway-maroon transition hover:border-galway-maroon hover:bg-galway-maroon hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+      }
     >
       {label}
     </Link>
