@@ -23,6 +23,7 @@ const SPOTLIGHT_PLAYER_IDS = [
   "player:cathal-lohan",
   "player:trevor-lohan",
   "player:philip-lohan",
+  "player:paddy-lohan-fohenagh",
   // Clonbrock (Garry ask, 4 Oct 07:19)
   "player:luke-kennedy",
   // Leonards

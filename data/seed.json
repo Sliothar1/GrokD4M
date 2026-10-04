@@ -246435,6 +246435,61 @@
     "val": "Named in newspaper cutting — auto-verified"
   },
   {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "name",
+    "val": "Paddy Lohan"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "note",
+    "val": "Connacht Tribune 20 Nov 1981 · p.15 · INA: county junior hurling final at Duggan Park, Ahascragh 3-9 Fohenagh 3-3. Report: \"Gerry Burke, Paddy Lohan and substitute P. J. Power took their chances in good style.\" Printed in the Fohenagh XV as P. Lohan; scorers: P. Lohan (1-0).\nIdentity Garry-confirmed 4 Oct 2026"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 20 Nov 1981 · p.15 · INA"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19811120.1.15"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "kid_chip",
+    "val": "Mentioned in match report"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — identity Garry-confirmed 4 Oct 2026"
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "notable",
+    "val": "Scored 1-0 for Fohenagh in the 1981 county junior final against Ahascragh (Connacht Tribune, 20 Nov 1981). Identity Garry-confirmed 4 Oct 2026"
+  },
+  {
     "row": "player:gerry-sweeney-fohenagh",
     "col": "type",
     "val": "player"
