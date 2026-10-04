@@ -4,6 +4,8 @@
  */
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { linkedCuttingFromUpload } from "../src/lib/articles";
+import type { ArticleUpload } from "../src/lib/articles";
 import {
   cuttingFactKey,
   factKeyForSourceColumn,
@@ -13,6 +15,7 @@ import {
   type LinkedCuttingSource,
   type SourceOrderSlot,
 } from "../src/lib/sources";
+import { classifyFact, isPrimarySource } from "../src/lib/verification";
 
 const PLAYER_ORDER: SourceOrderSlot[] = [
   { fact: "club" },
@@ -33,7 +36,7 @@ const PLAYER_ORDER: SourceOrderSlot[] = [
 type Triple = { row: string; col: string; val: unknown };
 
 const triples = JSON.parse(readFileSync("data/seed.json", "utf8")) as Triple[];
-const uploads = JSON.parse(readFileSync("data/article-uploads.json", "utf8")) as Array<{
+const uploads = JSON.parse(readFileSync("data/article-uploads.json", "utf8")) as Array<ArticleUpload & {
   id: string;
   kind?: string;
   caption?: string;
@@ -328,6 +331,93 @@ assert.equal(
   0,
   "source_wiki, source_grounds, and source_club_history stay unattached"
 );
+
+const datedUpload = uploads.find(
+  (upload) => upload.id === "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+);
+const yearUpload = uploads.find((upload) => upload.id === "art-fohenagh-clip4");
+assert.ok(datedUpload && yearUpload);
+const datedCutting = linkedCuttingFromUpload(datedUpload);
+const yearCutting = linkedCuttingFromUpload(yearUpload);
+const uploadCatalog: LinkedCuttingSource[] = [datedCutting, yearCutting];
+
+const citedById = resolveEntitySources({
+  entityId: "player:upload-id-fixture",
+  attrs: {
+    notable: "Named in the cutting.",
+    club: "club:example",
+    debut: "1998",
+    source_notable: `${datedUpload.id}, ${datedUpload.id}`,
+    source_club: "art-not-a-real-upload",
+    source_debut: "https://en.wikipedia.org/wiki/Hurling",
+  },
+  cuttings: [datedCutting],
+  uploads: uploadCatalog,
+  order: [
+    { fact: "notable" },
+    { fact: "club" },
+    { fact: "debut" },
+    { cuttings: true },
+  ],
+});
+assert.equal(
+  citedById.sources.length,
+  2,
+  "the upload id dedupes with the playerTags cutting; the URL is separate"
+);
+assert.deepEqual(citedById.markers.notable, [1]);
+assert.deepEqual(citedById.markers.club, []);
+assert.deepEqual(citedById.markers.debut, [2]);
+assert.deepEqual(citedById.markers[cuttingFactKey(datedUpload.id)], [1]);
+assert.equal(citedById.sources[0].href, `/article/${datedUpload.id}`);
+assert.ok(citedById.sources[0].imagePath?.endsWith(".png"));
+assert.equal(isPrimarySource(citedById.sources[0]), true);
+assert.equal(
+  classifyFact(
+    citedById.facts.find((fact) => fact.factKey === "notable")?.sources ?? []
+  ),
+  "verified"
+);
+assert.equal(
+  classifyFact(
+    citedById.facts.find((fact) => fact.factKey === "debut")?.sources ?? []
+  ),
+  "single-source"
+);
+assert.ok(
+  !citedById.sources.some((source) => source.href.includes("art-not-a-real-upload"))
+);
+
+const unknownId = resolveEntitySources({
+  entityId: "player:unknown-art",
+  attrs: { notable: "No such cutting.", source_notable: "art-missing-upload" },
+  uploads: uploadCatalog,
+  order: [{ fact: "notable" }],
+});
+assert.equal(unknownId.sources.length, 0);
+assert.deepEqual(unknownId.markers.notable, []);
+
+const yearOnlyId = resolveEntitySources({
+  entityId: "player:year-only-id",
+  attrs: { notable: "Year only.", source_notable: yearUpload.id },
+  uploads: uploadCatalog,
+  order: [{ fact: "notable" }],
+});
+assert.equal(yearOnlyId.sources.length, 1);
+assert.equal(isPrimarySource(yearOnlyId.sources[0]), false);
+assert.equal(classifyFact(yearOnlyId.facts[0].sources), "single-source");
+
+const mixedCell = resolveEntitySources({
+  entityId: "player:mixed-cell",
+  attrs: {
+    notable: "Id and URL.",
+    source_notable: `${datedUpload.id} https://example.com/second-source`,
+  },
+  uploads: uploadCatalog,
+  order: [{ fact: "notable" }],
+});
+assert.equal(mixedCell.markers.notable?.length, 2);
+assert.equal(classifyFact(mixedCell.facts[0].sources), "verified");
 
 console.log(
   `smoke-sources: ok (players ${playerRows.size}, uploads ${uploads.length}, joe sources ${joe.sources.length}, jim sources ${jim.sources.length}, canning sources ${canning.sources.length})`

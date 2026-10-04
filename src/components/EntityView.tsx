@@ -20,6 +20,7 @@ import {
   type getEntity,
 } from "@/lib/data";
 import type { AssocArray } from "@/lib/d4m/AssocArray";
+import { loadCitationUploads } from "@/lib/articles";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
 import {
@@ -31,6 +32,7 @@ import {
   factColumnsFromAttrs,
   factKeyForSourceColumn,
   resolveEntitySources,
+  type LinkedCuttingSource,
 } from "@/lib/sources";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 
@@ -283,7 +285,13 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
           Facts
         </h2>
-        <EntityFacts attrs={attrs} entityId={id} hideScore={hideScore} assoc={A} />
+        <EntityFacts
+          attrs={attrs}
+          entityId={id}
+          hideScore={hideScore}
+          assoc={A}
+          uploads={await loadCitationUploads()}
+        />
         {source && source.startsWith("http") && (
           <p className="mt-4 text-sm text-galway-ink/70">
             Source:{" "}
@@ -311,11 +319,13 @@ function EntityFacts({
   entityId,
   hideScore,
   assoc,
+  uploads,
 }: {
   attrs: Record<string, unknown>;
   entityId: string;
   hideScore: boolean;
   assoc: AssocArray;
+  uploads: readonly LinkedCuttingSource[];
 }) {
   const columns = factColumnsFromAttrs(attrs);
   const rows = Object.entries(attrs).filter(([key, value]) => {
@@ -327,6 +337,7 @@ function EntityFacts({
   const citations = resolveEntitySources({
     entityId,
     attrs,
+    uploads,
     order: rows
       .map(([key]) => key)
       .filter((key) => key !== "source" && !key.startsWith("source_"))

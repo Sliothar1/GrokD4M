@@ -8,14 +8,23 @@
  * A marker is created only from real data:
  * - a linked cutting (the cutting page is the source)
  * - `source_<fact>` and `source_<fact>_<suffix>` when the value is an
- *   http(s) URL. The suffix is matched against the entity's own fact
- *   columns and the longest column wins (`source_notes_club` attaches
- *   to `notes` unless a `notes_club` column exists;
- *   `source_county_titles_wiki` attaches to `county_titles`).
+ *   http(s) URL or an upload id (`art-…`). The suffix is matched against
+ *   the entity's own fact columns and the longest column wins
+ *   (`source_notes_club` attaches to `notes` unless a `notes_club`
+ *   column exists; `source_county_titles_wiki` attaches to
+ *   `county_titles`).
+ *
+ * A cell may hold several values, separated by commas or spaces. Each
+ * http(s) URL is a web source. Each `art-…` id is resolved against the
+ * upload catalog the caller loaded (the same article-uploads reader the
+ * app uses). A known id is that cutting, including its thumbnail, and
+ * it is the same panel row as the cutting already listed from
+ * playerTags. An id that matches no upload is dropped, so it never
+ * becomes a broken link. Any other non-URL text is ignored.
  *
  * The bare `source` attribute is not a fallback. A `source_*` column
  * with no matching fact column (for example `source_wiki`) is not a
- * cite. Non-URL values are ignored. The same URL is listed once.
+ * cite. The same URL or cutting is listed once.
  * Facts with no source are still returned (`sources: []`) so
  * `annotateEntityVerification` can grade each fact on this same list.
  */
@@ -84,6 +93,8 @@ export type LinkedCuttingSource = {
 export type SourceOrderSlot = { fact: string } | { cuttings: true };
 
 const HTTP_URL = /^https?:\/\//i;
+/** Upload ids in article-uploads.json. `article:` is accepted and stripped. */
+const UPLOAD_ID = /^(?:article:)?art-[a-z0-9][a-z0-9-]*$/i;
 const FULL_DATE = /^(\d{1,2}\s+[A-Za-z]+\s+(?:19|20)\d{2})\b/;
 const YEAR_ONLY = /^((?:19|20)\d{2})\b/;
 /** Page bits such as "p.30". A bare 4-digit year is not a page. */
@@ -156,6 +167,11 @@ export function resolveEntitySources(input: {
   entityId: string;
   attrs: Record<string, unknown>;
   cuttings?: readonly LinkedCuttingSource[];
+  /**
+   * Known cuttings from article-uploads.json. Used to resolve `art-…`
+   * ids written in `source_*` cells. Omit it and those ids cite nothing.
+   */
+  uploads?: readonly LinkedCuttingSource[];
   order: readonly SourceOrderSlot[];
 }): EntitySourceIndex {
   const acc = new SourceAccumulator();
@@ -163,6 +179,7 @@ export function resolveEntitySources(input: {
   const markers: Record<string, number[]> = {};
   const cuttings = input.cuttings ?? [];
   const columns = factColumnsFromAttrs(input.attrs);
+  const uploads = indexUploads(input.uploads ?? []);
 
   const pushFact = (factKey: string, sources: ResolvedSource[]) => {
     facts.push({ factKey, sources });
@@ -179,7 +196,7 @@ export function resolveEntitySources(input: {
       continue;
     }
 
-    pushFact(slot.fact, urlsForFact(input.attrs, slot.fact, columns, acc));
+    pushFact(slot.fact, sourcesForFact(input.attrs, slot.fact, columns, uploads, acc));
   }
 
   return {
@@ -341,22 +358,60 @@ function cuttingImageAlt(
   return title || "Newspaper cutting";
 }
 
-function urlsForFact(
+export function looksLikeUploadId(value: string): boolean {
+  return UPLOAD_ID.test(value.trim());
+}
+
+function indexUploads(
+  uploads: readonly LinkedCuttingSource[]
+): Map<string, LinkedCuttingSource> {
+  const index = new Map<string, LinkedCuttingSource>();
+  for (const upload of uploads) {
+    const bare = bareArticleId(upload.id).toLowerCase();
+    if (!bare) continue;
+    index.set(bare, upload);
+  }
+  return index;
+}
+
+/** Comma- or whitespace-separated URLs and upload ids in one source cell. */
+export function sourceCellTokens(value: unknown): string[] {
+  if (Array.isArray(value)) return value.flatMap((item) => sourceCellTokens(item));
+  if (typeof value !== "string") return [];
+  return value
+    .split(/[,\s]+/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function sourcesForFact(
   attrs: Record<string, unknown>,
   fact: string,
   columns: readonly string[],
+  uploads: ReadonlyMap<string, LinkedCuttingSource>,
   acc: SourceAccumulator
 ): ResolvedSource[] {
   const sources: ResolvedSource[] = [];
   const seen = new Set<number>();
-  for (const [key, value] of Object.entries(attrs)) {
-    if (factKeyForSourceColumn(key, columns) !== fact) continue;
-    const url = httpUrl(value);
-    if (!url) continue;
-    const source = acc.addUrl(url);
-    if (seen.has(source.number)) continue;
+  const push = (source: ResolvedSource | null) => {
+    if (!source || seen.has(source.number)) return;
     seen.add(source.number);
     sources.push(source);
+  };
+
+  for (const [key, value] of Object.entries(attrs)) {
+    if (factKeyForSourceColumn(key, columns) !== fact) continue;
+    for (const token of sourceCellTokens(value)) {
+      const url = httpUrl(token);
+      if (url) {
+        push(acc.addUrl(url));
+        continue;
+      }
+      if (!looksLikeUploadId(token)) continue;
+      const upload = uploads.get(bareArticleId(token).toLowerCase());
+      if (!upload) continue;
+      push(acc.addCutting(upload));
+    }
   }
   return sources;
 }

@@ -9,6 +9,7 @@ import { ProfileStrip } from "@/components/player/ProfileStrip";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
 import { VerificationBadge } from "@/components/sources/VerificationBadge";
+import { loadCitationUploads } from "@/lib/articles";
 import {
   displayNameForRef,
   getAssoc,
@@ -93,6 +94,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         citeChip: cutting.citeChip,
         imagePath: cutting.imagePath,
       })),
+      uploads: await loadCitationUploads(),
       order: playerSourceOrder(shownFacts),
     }),
     attrs
