@@ -117292,7 +117292,7 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "note",
-    "val": "Tuam Herald 16 Jul 2025 · p.64 · INA: Alan Moclair named as a trainer of the Ahascragh-Fohenagh Minor (U-17) B league final winners (club role, not a playing record). Connacht Tribune 7 Dec 1990 · p.23 · INA: Alan Moclair (printed ‘Alan Mocklair’) named in the back row of the Fohenagh U-12 County B champions caption.\nSon of Jimmy Moclair: Garry-confirmed 4 Oct 2026 (parish roster)"
+    "val": "Tuam Herald 16 Jul 2025 · p.64 · INA: Alan Moclair named as a trainer of the Ahascragh-Fohenagh Minor (U-17) B league final winners (club role, not a playing record). Connacht Tribune 7 Dec 1990 · p.23 · INA: Alan Moclair (printed ‘Alan Mocklair’) named in the back row of the Fohenagh U-12 County B champions caption.\nSon of Jimmy Moclair."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -126792,17 +126792,17 @@
   {
     "row": "player:patrick-sweeney-fohenagh",
     "col": "father_basis",
-    "val": "Confirmed by family"
+    "val": "Verified"
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
     "col": "confirmed_by_family",
-    "val": "father"
+    "val": "father; note"
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
     "col": "note",
-    "val": "Galway GAA Roll of Honour 1996: Patrick Sweeney named on Fohenagh Minor ‘C’ Hurling Champions panel. Son of Tim Sweeney (tim-sweeney-fohenagh), Garry-confirmed 4 Oct 2026."
+    "val": "Galway GAA Roll of Honour 1996: Patrick Sweeney named on Fohenagh Minor ‘C’ Hurling Champions panel. Son of Tim Sweeney, the 1959 county champion."
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
@@ -247107,7 +247107,12 @@
   {
     "row": "player:paddy-lohan-fohenagh",
     "col": "note",
-    "val": "Connacht Tribune 20 Nov 1981 · p.15 · INA: county junior hurling final at Duggan Park, Ahascragh 3-9 Fohenagh 3-3. Report: \"Gerry Burke, Paddy Lohan and substitute P. J. Power took their chances in good style.\" Printed in the Fohenagh XV as P. Lohan; scorers: P. Lohan (1-0).\nIdentity Garry-confirmed 4 Oct 2026"
+    "val": "Connacht Tribune 20 Nov 1981 · p.15 · INA: county junior hurling final at Duggan Park, Ahascragh 3-9 Fohenagh 3-3. Report: \"Gerry Burke, Paddy Lohan and substitute P. J. Power took their chances in good style.\" Printed in the Fohenagh XV as P. Lohan; scorers: P. Lohan (1-0)."
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "confirmed_by_family",
+    "val": "note"
   },
   {
     "row": "player:paddy-lohan-fohenagh",
@@ -249102,12 +249107,12 @@
   {
     "row": "player:philip-lohan",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:philip-lohan",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:phillip-lohan",
@@ -249152,12 +249157,12 @@
   {
     "row": "player:sean-moclair",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:sean-moclair",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:sean-moclair",
@@ -249247,7 +249252,7 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "confirmed_by_family",
-    "val": "father"
+    "val": "father; note"
   },
   {
     "row": "player:padraic-leonard",
@@ -249257,12 +249262,12 @@
   {
     "row": "player:niall-leonard",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:niall-leonard",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:niall-leonard",
@@ -249347,12 +249352,12 @@
   {
     "row": "player:trevor-lohan",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:trevor-lohan",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:jimmy-mockler",
