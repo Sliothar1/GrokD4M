@@ -3906,6 +3906,21 @@
   },
   {
     "row": "player:joe-canning",
+    "col": "notes",
+    "val": "Scored the winning point v Tipperary in the 2017 All-Ireland semi-final (6 Aug 2017); 4 All-Ireland club titles with Portumna (2006, 2008, 2009, 2014)"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "source_notes",
+    "val": "https://www.rte.ie/sport/gaa/2017/0806/895618-modest-canning-says-he-was-lucky-to-score-winner/"
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "source_notes_club",
+    "val": "https://en.wikipedia.org/w/index.php?title=Joe_Canning&oldid=1372044432"
+  },
+  {
+    "row": "player:joe-canning",
     "col": "debut",
     "val": 2008
   },
