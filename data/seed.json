@@ -126717,7 +126717,7 @@
   {
     "row": "player:patrick-sweeney-fohenagh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
@@ -126727,12 +126727,22 @@
   {
     "row": "player:patrick-sweeney-fohenagh",
     "col": "note",
-    "val": "Galway GAA Roll of Honour 1996: Patrick Sweeney named on Fohenagh Minor ‘C’ Hurling Champions panel."
+    "val": "Galway GAA Roll of Honour 1996: Patrick Sweeney named on Fohenagh Minor ‘C’ Hurling Champions panel. Son of Tim Sweeney (tim-sweeney-fohenagh), Garry-confirmed 4 Oct 2026."
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "notable",
+    "val": "Fohenagh Minor C hurling champion in 1996, son of 1959 county champion Tim Sweeney; lined out for Ahascragh-Fohenagh in the 2001 Caltra Festival final and the 2004 county intermediate win over Padraic Pearses (Galway GAA roll of honour; Connacht Tribune, 22 Mar 2002 and 30 Jul 2004)"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "verification",
+    "val": "Named on Galway GAA roll of honour and in newspaper cuttings"
   },
   {
     "row": "player:paddy-kennedy-fohenagh",
@@ -126837,7 +126847,7 @@
   {
     "row": "player:raymond-higgins-fohenagh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:raymond-higgins-fohenagh",
@@ -126852,7 +126862,17 @@
   {
     "row": "player:raymond-higgins-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "notable",
+    "val": "Fohenagh Minor C hurling champion in 1996; called up for the East Galway minor hurling trial at Loughrea in May 1995 (Galway GAA roll of honour 1996; Connacht Tribune, 12 May 1995)"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "verification",
+    "val": "Named on Galway GAA roll of honour and in newspaper cutting"
   },
   {
     "row": "player:kieran-molloy-fohenagh",
@@ -152352,7 +152372,7 @@
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
@@ -152367,7 +152387,17 @@
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:declan-glynn-ahascragh-fohenagh",
+    "col": "notable",
+    "val": "County Junior C hurling champion with Ahascragh-Fohenagh in 2009; called up for the East Galway minor hurling trial at Loughrea in May 1995 (Galway GAA roll of honour 2009; Connacht Tribune, 12 May 1995)"
+  },
+  {
+    "row": "player:declan-glynn-ahascragh-fohenagh",
+    "col": "verification",
+    "val": "Named on Galway GAA roll of honour and in newspaper cutting"
   },
   {
     "row": "player:darren-cotton-ahascragh-fohenagh",

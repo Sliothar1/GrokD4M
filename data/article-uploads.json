@@ -1623,7 +1623,7 @@
     "path": "/uploads/articles/art-ina-ct-1995-05-12-galway-east-minor-trial.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1995-05-12-galway-east-minor-trial.png",
     "uploadedAt": "2026-10-04T10:25:00.000000+00:00",
-    "caption": "INA snip — Connacht Tribune 12 May 1995: Minor trial — minor hurling trial for East Galway clubs at Loughrea; Fohenagh players asked to attend: Raymond Higgins, Declan Glynn, Gary Lohan. Gary Lohan (print) = Garry Lohan",
+    "caption": "INA snip — Connacht Tribune 12 May 1995: Minor trial — minor hurling trial for East Galway clubs at Loughrea; Fohenagh players asked to attend: Raymond Higgins, Declan Glynn, Gary Lohan (all tagged). Gary Lohan (print) = Garry Lohan",
     "year": "1995",
     "tags": [
       "hurling",
@@ -1637,7 +1637,9 @@
       "club:fohenagh-historic"
     ],
     "playerTags": [
-      "player:garry-lohan"
+      "player:garry-lohan",
+      "player:declan-glynn-ahascragh-fohenagh",
+      "player:raymond-higgins-fohenagh"
     ],
     "excerpt": "Minor trial A Minor Hurling Trial for East Galway Clubs will be held in Loughrea on Monday next at 7.30 p.m. The following players are asked to attend: Niall Hayes, Eoin O'Brien, Conor Kilkenny, Portumna; Declan Donnelly, Niall Shiel, Abbey-Duniry; Vincent Fallon, Kilnadeema; Declan Hough, Kiltormer; Padraig Noone, Cathal Hynes, Sarsfields; Gerard McGlacken, Cyril Dillon, Tynagh; Paul Finnerty, Niall Connaughton, Eamon Donoghue, Nigel Hogan, Cathal Fallon, Austin Larkin, Declan McHugh, Mullagh. Kieran Fahy, Declan Star, Peter Bruton, Anthony White, Tommie Larkins; Kenneth Keane, William Lawless, Raymond Keane, Kilconieron; Mark Whelan, Niall Tierney, Edward Spellman, Leitrim; Oliver Keane, Killimor; Richard Shepard, Alan Greenham, David Harte, Niall Coganin, Ballinasloe; Declan Lally, Ahascragh; Michael Kilchreest, Aidan Glynn, Cappataggle; Raymond Higgins, Declan Glynn, Gary Lohan, Fohenagh; Shane Corcoran, Killimordaly; Terry Murray, Owen Barrett, Padraig Pearses.",
     "citeChip": "Connacht Tribune · 12 May 1995 · p.12 · INA",
@@ -1785,7 +1787,8 @@
       "player:seamus-moclair",
       "player:alan-moclair-ahascragh-fohenagh",
       "player:padraic-leonard",
-      "player:alan-madden"
+      "player:alan-madden",
+      "player:patrick-sweeney-fohenagh"
     ],
     "excerpt": "Winners of Festival test Abbeyknockmoy Senior Hurlers won the Caltra Festival 2001 final when they defeated Ahascragh-Fohenagh after extra-time at Fohenagh on Monday last. The sides had finished level at normal time with a score of 0-13 to 1-10 but in extra-time Abbeyknockmoy edged ahead and were deserving winners 1-18 to 1-12. The Caltra Street Festival Chairman, Mattie Kilroy thanked the teamas for a fine performance in poor conditions and thanked Sadie Kilcommons of the Caltra Inn for sponsoring the tournament. Ahascragh-Fohenagh Chairman, Seamús Lohan thanked referee Frank Harkin and Abbeyknockmoy for attending for the final. Sadie Kilcommons presented trophies to the runners-up and the winners. One of the features of the game was a fine performance from Michael Coleman, former Galway player, which included a point from a line ball. The Ahascragh-Fohenaghh side was as follows: Noel Higgins, Colm Kennedy, David Costello, Seamus Moclair, Paul Gavin, Padraic Leonard, Paul Gordon, Tony Kirwan, Jason Lohan, Alan Madden, Patrick Sweeney, Alan Moclair, Anthony Griffen, Darren Cotton, Darren Smyth. Subs: Sean Lally, Sean Morrissey, Cathal Brophy and Declan Lally. In a Junior B challenge Abbeyknockmoy defeated Ahascragh-Fohenagh 3-5 to 1-5.",
     "citeChip": "Connacht Tribune · 22 Mar 2002 · p.7 · INA",
@@ -1850,7 +1853,8 @@
     "playerTags": [
       "player:jason-lohan",
       "player:seamus-moclair",
-      "player:alan-moclair-ahascragh-fohenagh"
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:patrick-sweeney-fohenagh"
     ],
     "excerpt": "INTERMEDIATE HURLING In the final group game in the Co. Intermediate Hurling Championship played in St. Brendan’s Park, Loughrea on Saturday Ahascragh / Fohenagh defeated near neighbours Padraic Pearses on a 2-10 to 0-10 score. The half time score was 0-8 to 0-5 for the winners but Ahascragh / Fohenagh clinched victory in the second half with two excellent goals scored by Darren Smyth and Pat Hartigan. They have now qualified the play off’s in the quarter finals. There was a man of the match performance from centre back Seán Lally who pointed some excellent frees. The teams were as follows: Sean Connelley, John Smyth, Seamus Mocklair, Willie Lyons, Joe Hennelley, Sean Lally, Alan Smyth, Kevin Gavin, John Kelly, Donal Kelly, Patrick Sweeney, Patrick Hartigan, Darren Smyth, Alan Mocklair, Anthony Griffin, Subs used: Laurence Tully, Jason Lohan. Scores for Ahascragh / Fohenagh were: Sean Lally and Anthony Griffin 0-4 each, Darren Smyth and Patrick Hartigan 1-0 each, Alan Mocklair and Donal Kelly 0-1 each. Adrian Burke, Tomás Kenny, Martin Barry (0-1), Mike Carr, Kevin Lally, Padraic Hillary (0-1), Kevin Raftery, Aidan Kilkenny (0-2), Kerrill Hardiman, Jimmy Gelson (0-7), Nial Barrett, Shane Ruane, Sean Hardiman, Seamus Lawless, Tomás Flannery, Subs: Robert Donnellan, Kieran Hillary.",
     "citeChip": "Connacht Tribune · 30 Jul 2004 · p.10 · INA",
