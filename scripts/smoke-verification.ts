@@ -193,7 +193,11 @@ async function main() {
     }
   }
 
-  for (const id of ["player:alan-moclair-ahascragh-fohenagh", "player:paddy-lohan-fohenagh"]) {
+  for (const id of [
+    "player:alan-moclair-ahascragh-fohenagh",
+    "player:paddy-lohan-fohenagh",
+    "player:patrick-sweeney-fohenagh",
+  ]) {
     const data = await getEntity(id);
     assert.ok(data, id);
     const index = annotateEntityVerification(
