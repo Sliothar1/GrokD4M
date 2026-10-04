@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { VerificationLegend } from "@/components/sources/VerificationBadge";
 import { isExternalHref, type ResolvedSource } from "@/lib/sources";
 
 /**
@@ -8,11 +9,14 @@ import { isExternalHref, type ResolvedSource } from "@/lib/sources";
 export function SourcesPanel({
   sources,
   headingId = "sources-heading",
+  legend = false,
 }: {
   sources: readonly ResolvedSource[];
   headingId?: string;
+  /** Badge key. Player pages turn this on. An empty source list still shows it. */
+  legend?: boolean;
 }) {
-  if (sources.length === 0) return null;
+  if (sources.length === 0 && !legend) return null;
 
   return (
     <section aria-labelledby={headingId} className="max-w-full">
@@ -22,6 +26,12 @@ export function SourcesPanel({
       >
         Sources
       </h2>
+      {legend ? <VerificationLegend /> : null}
+      {sources.length === 0 ? (
+        <p className="text-sm font-semibold text-galway-ink">
+          No numbered sources for the facts on this page.
+        </p>
+      ) : (
       <ol className="list-none space-y-2.5">
         {sources.map((source) => (
           <li
@@ -61,6 +71,7 @@ export function SourcesPanel({
           </li>
         ))}
       </ol>
+      )}
     </section>
   );
 }

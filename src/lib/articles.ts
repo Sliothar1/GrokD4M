@@ -15,6 +15,7 @@ import {
 } from "@/lib/d4m/AssocArray";
 import seed from "../../data/seed.json";
 import type { EntitySummary } from "@/lib/data";
+import type { LinkedCuttingSource } from "@/lib/sources";
 
 const execFileAsync = promisify(execFile);
 
@@ -1027,6 +1028,25 @@ export async function saveUrlUpload(input: {
     draft,
     privateBody || [fetchedTitle, fetchedDesc].filter(Boolean).join("\n")
   );
+}
+
+/** Cutting row used when a `source_*` cell stores this upload's id. */
+export function linkedCuttingFromUpload(a: ArticleUpload): LinkedCuttingSource {
+  const summary = articleToSummary(a);
+  return {
+    id: a.id,
+    title: summary.title,
+    href: summary.href,
+    citeChip: a.citeChip,
+    year: a.year,
+    imagePath: summary.imagePath,
+    sourceUrl: a.sourceUrl,
+  };
+}
+
+/** Catalog for cite lookup. Same list as `readArticleUploads`. */
+export async function loadCitationUploads(): Promise<LinkedCuttingSource[]> {
+  return (await readArticleUploads()).map(linkedCuttingFromUpload);
 }
 
 export function articleToSummary(a: ArticleUpload): EntitySummary {

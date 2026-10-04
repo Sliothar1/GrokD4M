@@ -12,6 +12,7 @@ import {
   PLAYER_FACT_KEYS,
 } from "@/lib/entityDisplay";
 import type { AssocArray, TripleVal } from "@/lib/d4m/AssocArray";
+import type { FactSourceStatus } from "@/lib/verification";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
@@ -22,6 +23,8 @@ export function PlayerCareer({
   source,
   kidChip,
   factCites,
+  factBadges,
+  factStatuses,
 }: {
   attrs: EntityPayload["attrs"];
   related: EntityPayload["related"];
@@ -30,6 +33,8 @@ export function PlayerCareer({
   kidChip: string | null;
   /** Optional cite markers keyed by fact column. Omitted keys stay unmarked. */
   factCites?: Record<string, React.ReactNode>;
+  factBadges?: Record<string, React.ReactNode>;
+  factStatuses?: Record<string, FactSourceStatus>;
 }) {
   const appearances = related.filter((r) => r.kind === "appearance");
   const relatedRail = related
@@ -54,49 +59,69 @@ export function PlayerCareer({
           <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
             Career
           </h2>
-          <dl className="flex flex-wrap gap-2">
+          <ul className="flex list-none flex-wrap gap-2">
             {kidChip ? (
-              <div className="rounded-full border border-galway-maroon/20 bg-white px-3 py-1.5 text-sm font-semibold text-galway-maroon">
-                {kidChip}
-                {factCites?.kid_chip}
-              </div>
+              <FactPill unverified={factStatuses?.kid_chip === "unverified"}>
+                <span
+                  className={
+                    factStatuses?.kid_chip === "unverified"
+                      ? "text-sm font-semibold text-stone-800"
+                      : "text-sm font-semibold text-galway-maroon"
+                  }
+                >
+                  {kidChip}
+                  {factCites?.kid_chip}
+                </span>
+                {factBadges?.kid_chip}
+              </FactPill>
             ) : null}
-            {facts.map((f) => (
-              <div
-                key={f.key}
-                className="rounded-full border border-galway-maroon/15 bg-white px-3 py-1.5"
-              >
-                <dt className="inline text-[11px] font-bold uppercase tracking-wide text-galway-ink/45">
-                  {f.label}{" "}
-                </dt>
-                <dd className="inline text-sm font-bold text-galway-ink">
-                  {isEntityRef(f.value) ? (
-                    <Link
-                      href={hrefForRef(String(f.value))}
-                      className="text-galway-maroon underline"
-                    >
-                      {displayNameForRef(String(f.value), assoc)}
-                    </Link>
-                  ) : (
-                    String(f.value)
-                  )}
-                  {factCites?.[f.key]}
-                </dd>
-              </div>
-            ))}
+            {facts.map((f) => {
+              const unverified = factStatuses?.[f.key] === "unverified";
+              return (
+                <FactPill key={f.key} unverified={unverified}>
+                  <span className="text-[11px] font-bold uppercase tracking-wide text-stone-700">
+                    {f.label}{" "}
+                  </span>
+                  <span
+                    className={
+                      unverified
+                        ? "text-sm font-bold text-stone-800"
+                        : "text-sm font-bold text-galway-ink"
+                    }
+                  >
+                    {isEntityRef(f.value) ? (
+                      <Link
+                        href={hrefForRef(String(f.value))}
+                        className={
+                          unverified
+                            ? "text-stone-800 underline"
+                            : "text-galway-maroon underline"
+                        }
+                      >
+                        {displayNameForRef(String(f.value), assoc)}
+                      </Link>
+                    ) : (
+                      String(f.value)
+                    )}
+                    {factCites?.[f.key]}
+                  </span>
+                  {factBadges?.[f.key]}
+                </FactPill>
+              );
+            })}
             {appearances.map((a) => (
-              <div
+              <li
                 key={a.id}
                 className="rounded-full bg-galway-maroon px-3 py-1.5 text-sm font-bold text-white"
               >
                 {[a.kindLabel ?? a.badge, a.seasonChip ?? a.subtitle]
                   .filter(Boolean)
                   .join(" · ")}
-              </div>
+              </li>
             ))}
-          </dl>
+          </ul>
           {source && source.startsWith("http") ? (
-            <p className="mt-3 text-sm text-galway-ink/55">
+            <p className="mt-3 text-sm text-stone-700">
               Cite:{" "}
               <a
                 href={source}
@@ -129,5 +154,25 @@ export function PlayerCareer({
         </section>
       ) : null}
     </>
+  );
+}
+
+function FactPill({
+  unverified,
+  children,
+}: {
+  unverified: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <li
+      className={
+        unverified
+          ? "flex max-w-full flex-wrap items-center gap-x-1.5 gap-y-1 rounded-2xl border border-stone-400 bg-stone-100 px-3 py-1.5"
+          : "flex max-w-full flex-wrap items-center gap-x-1.5 gap-y-1 rounded-2xl border border-galway-maroon/15 bg-white px-3 py-1.5"
+      }
+    >
+      {children}
+    </li>
   );
 }

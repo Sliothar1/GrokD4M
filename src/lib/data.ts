@@ -20,6 +20,7 @@ import {
   isNumberedClubCol,
   isSeasonClubCol,
   numberedClubColIndex,
+  clubColumnLabel,
 } from "@/lib/clubColumns";
 import {
   buildSearchRankContext,
@@ -186,9 +187,14 @@ export function linkedCuttingCount(attrs: Record<string, TripleVal>): number {
 }
 
 /**
- * Trust chip shown on the player profile strip.
- * Verified when a cutting stamp, a linked cutting, or `playerTrustLabel` says so.
- * Otherwise the same friendly label (Needs check).
+ * Club-roster chip only. The player profile strip does not call this.
+ *
+ * The old strip rule (confidence `high`, any `cutting_cite`, or any linked
+ * cutting ⇒ Verified) is retired on player pages. The strip uses
+ * `headlineVerificationStatus` (`src/lib/verification.ts`): Verified only
+ * when an identity fact has a Verified source. This helper stays so club
+ * roster groups keep their current cutting/confidence chip until Club Desk
+ * switches to that module.
  */
 export function playerProfileChip(
   attrs: Record<string, TripleVal>,
@@ -252,6 +258,7 @@ export function friendlyAttrLabel(key: string): string {
     away: "Opposition",
     winner: "Winner",
     season: "Season",
+    division: "Division",
     source: "Source",
     confidence: "Trust",
     type: "Type",
@@ -303,7 +310,7 @@ export function friendlyAttrLabel(key: string): string {
   if (/^club_\d+$/.test(key)) return "Also played for";
   // Player × Season → Club cols look like "season:2016"
   if (/^season:\d{4}$/.test(key)) return `Club in ${key.slice(7)}`;
-  return key.replace(/_/g, " ");
+  return clubColumnLabel(key);
 }
 
 /**

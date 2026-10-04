@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { ClubChip, TrustChip } from "@/components/chips";
+import { ClubChip } from "@/components/chips";
+import { VerificationBadge } from "@/components/sources/VerificationBadge";
 import type { ClubChipData } from "@/lib/playerClubs";
+import type { FactSourceStatus } from "@/lib/verification";
 
 export function ProfileStrip({
   name,
@@ -8,49 +10,62 @@ export function ProfileStrip({
   countyName,
   photoUrl,
   photoUploadHref,
-  verified,
-  trustLabel,
+  verification,
+  clubStatus,
   clubCite,
+  clubBadge,
 }: {
   name: string;
   clubs: ClubChipData[];
   countyName?: string;
   photoUrl: string | null;
   photoUploadHref: string;
-  /** Named-in-cutting or equivalent (archivist / high confidence). */
-  verified: boolean;
-  trustLabel?: string;
+  /**
+   * Identity grade. Verified only when an identity fact has a Verified
+   * source. Confidence and a cutting cite string do not set this.
+   */
+  verification: FactSourceStatus;
+  /** Grade of the club fact. Unverified clubs are greyed. */
+  clubStatus?: FactSourceStatus;
   /** Cite for the club fact. Rendered beside the chips, not inside them. */
   clubCite?: React.ReactNode;
+  clubBadge?: React.ReactNode;
 }) {
-  const chip = verified ? "Verified" : trustLabel;
+  const clubUnverified = clubStatus === "unverified";
 
   return (
-    <header className="flex items-start gap-4 sm:gap-5">
+    <header className="flex min-w-0 items-start gap-4 sm:gap-5">
       <ProfilePhotoSlot
         name={name}
         photoUrl={photoUrl}
         uploadHref={photoUploadHref}
       />
       <div className="min-w-0 flex-1 space-y-2.5 pt-0.5">
-        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon/80">
+        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon">
           Player
         </p>
         <h1 className="text-[1.85rem] font-black leading-[1.1] tracking-tight text-galway-ink sm:text-5xl">
           {name}
         </h1>
         <div
-          className="flex flex-wrap items-center gap-1.5"
+          className="flex max-w-full flex-wrap items-center gap-1.5"
           aria-label="Trust and club jerseys"
         >
-          <TrustChip label={chip} />
+          <VerificationBadge status={verification} fact="profile" />
           {clubs.map((c) => (
-            <ClubChip key={c.id} href={c.href} label={c.name} title={c.title} />
+            <ClubChip
+              key={c.id}
+              href={c.href}
+              label={c.name}
+              title={c.title}
+              muted={clubUnverified}
+            />
           ))}
           {clubCite}
+          {clubBadge}
         </div>
         {countyName ? (
-          <p className="text-sm font-semibold text-galway-ink/50">
+          <p className="text-sm font-semibold text-stone-700">
             {countyName}
           </p>
         ) : null}

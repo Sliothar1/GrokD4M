@@ -25,7 +25,7 @@ export async function DeveloperTriples({
 
   return (
     <details className="rounded-2xl border border-galway-maroon/15 bg-white/70">
-      <summary className="cursor-pointer list-outside px-4 py-3 text-sm font-bold uppercase tracking-wide text-galway-ink/50 marker:text-galway-gold hover:text-galway-maroon">
+      <summary className="cursor-pointer list-outside px-4 py-3 text-sm font-bold uppercase tracking-wide text-stone-800 marker:text-galway-gold hover:text-galway-maroon">
         For developers
       </summary>
       <div className="border-t border-galway-maroon/10 px-4 pb-4 pt-3">
