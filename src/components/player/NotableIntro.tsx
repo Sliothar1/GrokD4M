@@ -9,9 +9,13 @@ function noteParagraphs(note: string): string[] {
 export function NotableIntro({
   notable,
   note,
+  notableCite,
+  noteCite,
 }: {
   notable: string | null;
   note: string | null;
+  notableCite?: React.ReactNode;
+  noteCite?: React.ReactNode;
 }) {
   if (!notable && !note) return null;
   const archive = note ? noteParagraphs(note) : [];
@@ -25,6 +29,7 @@ export function NotableIntro({
           </p>
           <p className="mt-1.5 max-w-3xl text-lg font-medium leading-snug text-galway-ink sm:text-xl">
             {notable}
+            {notableCite}
           </p>
         </div>
       ) : null}
@@ -34,12 +39,13 @@ export function NotableIntro({
             Also noted
           </p>
           <div className="mt-2 space-y-2">
-            {archive.map((para) => (
+            {archive.map((para, index) => (
               <p
                 key={para}
                 className="text-[15px] leading-relaxed text-galway-ink/58"
               >
                 {para}
+                {index === archive.length - 1 ? noteCite : null}
               </p>
             ))}
           </div>

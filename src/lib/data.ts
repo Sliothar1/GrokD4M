@@ -229,6 +229,7 @@ export function friendlyAttrLabel(key: string): string {
     team: "Team",
     position: "Position",
     born: "Born",
+    debut: "Debut",
     notable: "Notable",
     opponent: "Opponent",
     score: "Score",
