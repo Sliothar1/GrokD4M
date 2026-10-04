@@ -126791,13 +126791,13 @@
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
-    "col": "source_father",
-    "val": "Garry Lohan, in Bainisteoir chat, 4 Oct 2026 16:57 IST (family confirmation; no printed source)"
+    "col": "father_basis",
+    "val": "Confirmed by family (Garry Lohan, 4 Oct 2026)"
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
-    "col": "father_basis",
-    "val": "Confirmed by family (Garry Lohan, 4 Oct 2026)"
+    "col": "confirmed_by_family",
+    "val": "father"
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
@@ -249243,6 +249243,11 @@
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "father",
     "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "confirmed_by_family",
+    "val": "father"
   },
   {
     "row": "player:padraic-leonard",
