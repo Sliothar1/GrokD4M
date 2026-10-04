@@ -1,13 +1,13 @@
 [
   {
     "id": "art-ct-fohenagh-ahascragh-sadie-kilcommons",
-    "kind": "pdf",
-    "filename": "art-ct-fohenagh-ahascragh-sadie-kilcommons.pdf",
-    "path": "/uploads/articles/art-ct-fohenagh-ahascragh-sadie-kilcommons.pdf",
-    "publicUrl": "/uploads/articles/art-ct-fohenagh-ahascragh-sadie-kilcommons.pdf",
+    "kind": "image",
+    "filename": "art-ct-fohenagh-ahascragh-sadie-kilcommons.png",
+    "path": "/uploads/articles/art-ct-fohenagh-ahascragh-sadie-kilcommons.png",
+    "publicUrl": "/uploads/articles/art-ct-fohenagh-ahascragh-sadie-kilcommons.png",
     "uploadedAt": "2026-09-07T15:37:18.897759+00:00",
     "caption": "Connacht Tribune cutting — Fohenagh win Sadie Kilcommons final vs Ahascragh",
-    "year": "",
+    "year": "1998",
     "tags": [
       "hurling",
       "fohenagh",
@@ -34,13 +34,15 @@
       "player:oliver-hennelly-ahascragh",
       "player:patrick-hartigan-ahascragh"
     ],
-    "excerpt": "Fohenagh recaptured the Sadie Kilcommons trophy after an impressive 1-12 to 0-9 victory over Ahascragh. Fohenagh were best served by Seamus Mockler, Padraic Leonard, Garry Lohan, John Devine, Alan Madden, Ollie Deeley and Tony Kirwan. Ahascragh were best served by Noel Fitzgerald, Sean Morrissey, David Costello, Kevin Gavin, Oliver Hennelly and Patrick Hartigan.",
-    "citeChip": "Connacht Tribune · Sadie Kilcommons final",
+    "excerpt": "In the final played this Monday, Fohenagh recaptured the Sadie Kilcommons trophy after an impressive 1-12 to 0-9 victory over Ahascragh. Fohenagh were best served by Seamus Mockler, Padraic Leonard, Garry Lohan, John Devine, Alan Madden, Ollie Deeley and Tony Kirwan. Ahascragh were best served by Noel Fitzgerald, Sean Morrissey, David Costello, Kevin Gavin, Oliver Hennelly and Patrick Hartigan.",
+    "citeChip": "Connacht Tribune · 21 Aug 1998 · p.9 · INA",
     "status": "pending",
     "matchTags": [
       "match:fohenagh-ahascragh-sadie-kilcommons-final"
     ],
-    "privateTextPath": "data/private/article-text/art-ct-fohenagh-ahascragh-sadie-kilcommons.txt"
+    "privateTextPath": "data/private/article-text/art-ct-fohenagh-ahascragh-sadie-kilcommons.txt",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19980821.1.9",
+    "notes": "4 Oct 2026 audit: dated and sourced (Connacht Tribune, Friday, August 21, 1998, p.9; INA CTT19980821.1.9); image replaced with a 400 dpi re-crop from the INA page PDF with the dateline (was art-ct-fohenagh-ahascragh-sadie-kilcommons.pdf); excerpt set to exact print (restores the printed sentence opening \"In the final played this Monday,\"; wording verified against the crop). Tags unchanged."
   },
   {
     "id": "art-fohenagh-clip1",
