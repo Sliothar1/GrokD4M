@@ -166,6 +166,16 @@
   },
   {
     "row": "club:ahascragh-fohenagh",
+    "col": "parish",
+    "val": "Ahascragh, Fohenagh"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
+    "col": "source_parish",
+    "val": "https://en.wikipedia.org/w/index.php?title=Ahascragh%E2%80%93Fohenagh_GAA&oldid=1364665946"
+  },
+  {
+    "row": "club:ahascragh-fohenagh",
     "col": "division",
     "val": "B"
   },
