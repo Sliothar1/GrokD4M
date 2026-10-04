@@ -2826,6 +2826,21 @@
   },
   {
     "row": "club:portumna",
+    "col": "colours",
+    "val": "Blue and yellow"
+  },
+  {
+    "row": "club:portumna",
+    "col": "source_colours",
+    "val": "https://www.galwaygaa.ie/clubprofile/63/"
+  },
+  {
+    "row": "club:portumna",
+    "col": "source_colours_clubinfo",
+    "val": "https://www.clubinfo.ie/club/portumna-hc/"
+  },
+  {
+    "row": "club:portumna",
     "col": "division",
     "val": "A"
   },
