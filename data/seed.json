@@ -2830,6 +2830,21 @@
     "val": "https://en.wikipedia.org/wiki/St_Thomas%27_GAA"
   },
   {
+    "row": "club:st-thomas",
+    "col": "county_titles",
+    "val": 8
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "source_county_titles",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "club:st-thomas",
+    "col": "source_county_titles_wiki",
+    "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+  },
+  {
     "row": "club:sarsfields",
     "col": "type",
     "val": "club"
@@ -2920,6 +2935,21 @@
     "val": "https://en.wikipedia.org/wiki/Athenry_GAA"
   },
   {
+    "row": "club:athenry",
+    "col": "county_titles",
+    "val": 8
+  },
+  {
+    "row": "club:athenry",
+    "col": "source_county_titles",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "club:athenry",
+    "col": "source_county_titles_wiki",
+    "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+  },
+  {
     "row": "club:castlegar",
     "col": "type",
     "val": "club"
@@ -2950,6 +2980,21 @@
     "val": "https://en.wikipedia.org/wiki/Castlegar_GAA"
   },
   {
+    "row": "club:castlegar",
+    "col": "county_titles",
+    "val": 17
+  },
+  {
+    "row": "club:castlegar",
+    "col": "source_county_titles",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "club:castlegar",
+    "col": "source_county_titles_wiki",
+    "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+  },
+  {
     "row": "club:clarinbridge",
     "col": "type",
     "val": "club"
@@ -2978,6 +3023,21 @@
     "row": "club:clarinbridge",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Clarinbridge_GAA"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "county_titles",
+    "val": 2
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "source_county_titles",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "club:clarinbridge",
+    "col": "source_county_titles_wiki",
+    "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
   },
   {
     "row": "club:turloughmore",
@@ -3070,6 +3130,21 @@
     "val": "https://en.wikipedia.org/wiki/Gort_GAA"
   },
   {
+    "row": "club:gort",
+    "col": "county_titles",
+    "val": 7
+  },
+  {
+    "row": "club:gort",
+    "col": "source_county_titles",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "club:gort",
+    "col": "source_county_titles_wiki",
+    "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+  },
+  {
     "row": "club:loughrea",
     "col": "type",
     "val": "club"
@@ -3160,6 +3235,21 @@
     "val": "https://en.wikipedia.org/wiki/Mullagh_GAA_(Galway)"
   },
   {
+    "row": "club:mullagh",
+    "col": "county_titles",
+    "val": 3
+  },
+  {
+    "row": "club:mullagh",
+    "col": "source_county_titles",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "club:mullagh",
+    "col": "source_county_titles_wiki",
+    "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
+  },
+  {
     "row": "club:killimordaly",
     "col": "type",
     "val": "club"
@@ -3188,6 +3278,21 @@
     "row": "club:killimordaly",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Tony_Keady"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "county_titles",
+    "val": 1
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "source_county_titles",
+    "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
+  },
+  {
+    "row": "club:killimordaly",
+    "col": "source_county_titles_wiki",
+    "val": "https://en.wikipedia.org/wiki/Galway_Senior_Hurling_Championship"
   },
   {
     "row": "club:kiltormer",
