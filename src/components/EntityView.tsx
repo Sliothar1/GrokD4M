@@ -19,7 +19,19 @@ import {
   isEntityRef,
   type getEntity,
 } from "@/lib/data";
-import { isDisplayableVal, isHiddenFactKey } from "@/lib/entityDisplay";
+import type { AssocArray } from "@/lib/d4m/AssocArray";
+import { CiteMarkers } from "@/components/sources/CiteMarker";
+import { SourcesPanel } from "@/components/sources/SourcesPanel";
+import {
+  formatDivision,
+  isDisplayableVal,
+  isHiddenFactKey,
+} from "@/lib/entityDisplay";
+import {
+  factColumnsFromAttrs,
+  factKeyForSourceColumn,
+  resolveEntitySources,
+} from "@/lib/sources";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
@@ -271,55 +283,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
           Facts
         </h2>
-        <dl className="grid gap-3 sm:grid-cols-2">
-          {Object.entries(attrs)
-            .filter(([k, v]) => !isHiddenFactKey(k) && isDisplayableVal(v) && !(hideScore && k === "score"))
-            .map(([k, v]) => (
-              <div
-                key={k}
-                className="rounded-xl border border-galway-maroon/10 bg-white px-4 py-3"
-              >
-                <dt className="text-xs font-bold uppercase tracking-wide text-galway-ink/50">
-                  {friendlyAttrLabel(k)}
-                </dt>
-                <dd className="mt-1 text-lg font-semibold text-galway-ink break-words">
-                  {isEntityRef(v) ? (
-                    <Link
-                      href={
-                        v.startsWith("player:")
-                          ? `/player/${v.slice(7)}`
-                          : v.startsWith("team:")
-                            ? `/team/${v.slice(5)}`
-                            : v.startsWith("club:")
-                              ? `/club/${v.slice(5)}`
-                              : v.startsWith("match:")
-                                ? `/match/${v.slice(6)}`
-                                : v.startsWith("win:")
-                                  ? `/win/${v.slice(4)}`
-                                  : v.startsWith("story:")
-                                    ? `/story/${v.slice(6)}`
-                                    : `/search?q=${encodeURIComponent(v)}`
-                      }
-                      className="text-galway-maroon underline"
-                    >
-                      {displayNameForRef(v, A)}
-                    </Link>
-                  ) : typeof v === "string" && v.startsWith("http") ? (
-                    <a
-                      href={v}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-galway-maroon underline"
-                    >
-                      Open source
-                    </a>
-                  ) : (
-                    String(v)
-                  )}
-                </dd>
-              </div>
-            ))}
-        </dl>
+        <EntityFacts attrs={attrs} entityId={id} hideScore={hideScore} assoc={A} />
         {source && source.startsWith("http") && (
           <p className="mt-4 text-sm text-galway-ink/70">
             Source:{" "}
@@ -340,4 +304,106 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       <DeveloperTriples triples={triples} hideScore={hideScore} />
     </article>
   );
+}
+
+function EntityFacts({
+  attrs,
+  entityId,
+  hideScore,
+  assoc,
+}: {
+  attrs: Record<string, unknown>;
+  entityId: string;
+  hideScore: boolean;
+  assoc: AssocArray;
+}) {
+  const columns = factColumnsFromAttrs(attrs);
+  const rows = Object.entries(attrs).filter(([key, value]) => {
+    if (isHiddenFactKey(key) || !isDisplayableVal(value)) return false;
+    if (hideScore && key === "score") return false;
+    if (factKeyForSourceColumn(key, columns)) return false;
+    return true;
+  });
+  const citations = resolveEntitySources({
+    entityId,
+    attrs,
+    order: rows
+      .map(([key]) => key)
+      .filter((key) => key !== "source" && !key.startsWith("source_"))
+      .map((fact) => ({ fact })),
+  });
+
+  return (
+    <>
+      <dl className="grid gap-3 sm:grid-cols-2">
+        {rows.map(([key, value]) => (
+          <div
+            key={key}
+            className="rounded-xl border border-galway-maroon/10 bg-white px-4 py-3"
+          >
+            <dt className="text-xs font-bold uppercase tracking-wide text-stone-700">
+              {friendlyAttrLabel(key)}
+            </dt>
+            <dd className="mt-1 break-words text-lg font-semibold text-galway-ink">
+              {entityFactValue(key, value, attrs, assoc)}
+              <CiteMarkers
+                numbers={citations.markers[key] ?? []}
+                sources={citations.sources}
+              />
+            </dd>
+          </div>
+        ))}
+      </dl>
+      {citations.sources.length > 0 ? (
+        <div className="mt-6">
+          <SourcesPanel
+            sources={citations.sources}
+            headingId={`sources-${entityId.replace(/:/g, "-")}`}
+          />
+        </div>
+      ) : null}
+    </>
+  );
+}
+
+function entityFactValue(
+  key: string,
+  value: unknown,
+  attrs: Record<string, unknown>,
+  assoc: AssocArray
+): React.ReactNode {
+  if (key === "division") {
+    return formatDivision(value, attrs.division_season) ?? String(value);
+  }
+  if (isEntityRef(value)) {
+    const ref = String(value);
+    return (
+      <Link href={entityRefHref(ref)} className="text-galway-maroon underline">
+        {displayNameForRef(ref, assoc)}
+      </Link>
+    );
+  }
+  if (typeof value === "string" && value.startsWith("http")) {
+    return (
+      <a
+        href={value}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-galway-maroon underline"
+      >
+        Open source
+      </a>
+    );
+  }
+  return String(value);
+}
+
+function entityRefHref(ref: string): string {
+  if (ref.startsWith("player:")) return `/player/${ref.slice(7)}`;
+  if (ref.startsWith("team:")) return `/team/${ref.slice(5)}`;
+  if (ref.startsWith("club:")) return `/club/${ref.slice(5)}`;
+  if (ref.startsWith("match:")) return `/match/${ref.slice(6)}`;
+  if (ref.startsWith("win:")) return `/win/${ref.slice(4)}`;
+  if (ref.startsWith("story:")) return `/story/${ref.slice(6)}`;
+  return `/search?q=${encodeURIComponent(ref)}`;
 }

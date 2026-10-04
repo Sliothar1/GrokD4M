@@ -8,6 +8,7 @@ import { readFileSync } from "node:fs";
 import { demoStats, getAssoc, getEntity } from "../src/lib/data";
 import { playerClubChips } from "../src/lib/playerClubs";
 import {
+  formatDivision,
   isPlayerIdentityFact,
   playerOnPageFactKeys,
   playerSourceOrder,
@@ -20,6 +21,8 @@ import {
   headlineVerificationStatus,
   isOfficialRecordUrl,
   isPrimarySource,
+  publisherKey,
+  registrableDomain,
   VERIFICATION_LABEL,
   type FactSourceStatus,
 } from "../src/lib/verification";
@@ -79,14 +82,74 @@ const pdf = {
   publication: "Connacht Tribune",
   date: "19 Sep 1959",
 };
+const yearPdf = {
+  ...pdf,
+  date: "1957",
+  key: "article:clip4",
+  href: "/article/clip4",
+};
+const wikiArticle = {
+  number: 3,
+  key: "https://en.wikipedia.org/wiki/Joe_Canning",
+  title: "Joe Canning",
+  href: "https://en.wikipedia.org/wiki/Joe_Canning",
+  publication: "Wikipedia",
+};
+const wikiApex = {
+  number: 4,
+  key: "https://wikipedia.org/wiki/Hurling",
+  title: "Hurling",
+  href: "https://wikipedia.org/wiki/Hurling",
+  publication: "Wikipedia",
+};
+const tribuneA = {
+  number: 1,
+  key: "article:a",
+  title: "A",
+  href: "/article/a",
+  publication: "Connacht Tribune",
+  date: "1957",
+};
+const tribuneB = {
+  number: 2,
+  key: "article:b",
+  title: "B",
+  href: "/article/b",
+  publication: "Connacht Tribune",
+  date: "1959",
+};
+const herald = {
+  number: 2,
+  key: "article:c",
+  title: "C",
+  href: "/article/c",
+  publication: "Tuam Herald",
+  date: "1959",
+};
 
 assert.equal(classifyFact([], false), "unverified");
 assert.equal(classifyFact([wiki], false), "single-source");
 assert.equal(classifyFact([wiki, wikiOldid], false), "single-source");
+assert.equal(classifyFact([wiki, wikiArticle], false), "single-source");
+assert.equal(classifyFact([wiki, wikiApex], false), "single-source");
 assert.equal(classifyFact([wiki, other], false), "verified");
 assert.equal(classifyFact([png], false), "verified");
 assert.equal(classifyFact([yearPng], false), "single-source");
-assert.equal(classifyFact([pdf], false), "single-source");
+assert.equal(classifyFact([pdf], false), "verified");
+assert.equal(classifyFact([yearPdf], false), "single-source");
+assert.equal(classifyFact([tribuneA, tribuneB], false), "single-source");
+assert.equal(classifyFact([tribuneA, herald], false), "verified");
+assert.equal(registrableDomain("en.wikipedia.org"), "wikipedia.org");
+assert.equal(registrableDomain("www.rte.ie"), "rte.ie");
+assert.equal(registrableDomain("news.bbc.co.uk"), "bbc.co.uk");
+assert.equal(publisherKey(wiki), publisherKey(wikiApex));
+assert.equal(publisherKey(tribuneA), publisherKey(tribuneB));
+assert.notEqual(publisherKey(tribuneA), publisherKey(herald));
+assert.equal(formatDivision("A", 2023), "Senior A (2023)");
+assert.equal(formatDivision("B", "2023"), "Senior B (2023)");
+assert.equal(formatDivision("Intermediate", 2025), "Intermediate (2025)");
+assert.equal(formatDivision("A"), "Senior A");
+assert.equal(formatDivision("A", "season"), "Senior A");
 assert.equal(classifyFact([png], true), "confirmed-by-family");
 assert.equal(isPrimarySource(png), true);
 assert.equal(isPrimarySource(wiki), false);
@@ -118,6 +181,7 @@ const ROUTES = [
   "tim-sweeney-fohenagh",
   "jason-lohan",
   "joe-cooney",
+  "joe-canning",
   "seamus-moclair",
 ];
 
@@ -174,12 +238,25 @@ async function main() {
       assert.equal(data.attrs.confidence, "high");
       assert.equal(byKey.all_ireland_medals, "unverified");
       assert.equal(byKey.all_stars, "single-source");
+      assert.equal(byKey.notes, "single-source");
       assert.equal(byKey.notable, "unverified");
       assert.equal(byKey.club, "unverified");
       assert.equal(byKey.position, "unverified");
       assert.equal(profile, "unverified");
       assert.equal(index.markers.all_ireland_medals?.length ?? 0, 0);
       assert.deepEqual(index.markers.all_stars, [1]);
+      assert.deepEqual(index.markers.notes, [1]);
+      assert.equal(index.sources.length, 1);
+    }
+    if (slug === "joe-canning") {
+      assert.equal(byKey.notes, "verified");
+      assert.equal(byKey.debut, "single-source");
+      assert.equal(byKey.all_ireland_medals, "unverified");
+      assert.equal(byKey.club, "unverified");
+      assert.equal(profile, "unverified");
+      assert.equal(index.markers.notes?.length, 2);
+      assert.equal(index.sources.length, 2);
+      assert.deepEqual(index.markers.debut, [index.markers.notes?.[1]]);
     }
     if (slug === "jim-moclair-fohenagh") {
       assert.equal(profile, "verified");
@@ -215,6 +292,19 @@ async function main() {
       id
     );
   }
+
+  const portumna = await getEntity("club:portumna");
+  assert.ok(portumna);
+  assert.equal(
+    formatDivision(portumna.attrs.division, portumna.attrs.division_season),
+    "Senior A (2023)"
+  );
+  const ahascragh = await getEntity("club:ahascragh-fohenagh");
+  assert.ok(ahascragh);
+  assert.equal(
+    formatDivision(ahascragh.attrs.division, ahascragh.attrs.division_season),
+    "Senior B (2023)"
+  );
 
   console.log(rows.join("\n"));
   console.log("smoke-verification: ok");

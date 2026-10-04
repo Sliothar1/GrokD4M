@@ -21,6 +21,7 @@ import {
   PLAYER_FACT_KEYS,
   playerArchiveNote,
   playerNotableText,
+  playerNotesText,
   playerOnPageFactKeys,
   playerSourceOrder,
 } from "@/lib/entityDisplay";
@@ -72,6 +73,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     : undefined;
   const notable = playerNotableText(attrs);
   const note = playerArchiveNote(attrs);
+  const notes = playerNotesText(attrs);
   const kidChip =
     attrs.kid_chip && isDisplayableVal(attrs.kid_chip)
       ? String(attrs.kid_chip)
@@ -152,12 +154,16 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       <NotableIntro
         notable={notable}
         note={note}
+        notes={notes}
         notableCite={citeFor("notable")}
         noteCite={citeFor("note")}
+        notesCite={citeFor("notes")}
         notableBadge={notable ? badgeFor("notable") : undefined}
         noteBadge={note ? badgeFor("note") : undefined}
+        notesBadge={notes ? badgeFor("notes") : undefined}
         notableStatus={notable ? statusOf("notable") : undefined}
         noteStatus={note ? statusOf("note") : undefined}
+        notesStatus={notes ? statusOf("notes") : undefined}
       />
 
       <CuttingExcerpts cuttings={citedCuttings} />

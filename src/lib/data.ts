@@ -257,6 +257,7 @@ export function friendlyAttrLabel(key: string): string {
     away: "Opposition",
     winner: "Winner",
     season: "Season",
+    division: "Division",
     source: "Source",
     confidence: "Trust",
     type: "Type",

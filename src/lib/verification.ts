@@ -7,24 +7,27 @@
  * do not count. Missing `source_<col>` cells are not backfilled.
  *
  * Verified
- *   - two or more independent sources, or
+ *   - two or more publishers, or
  *   - one primary source
  * Single-source
- *   - exactly one secondary source
+ *   - exactly one secondary publisher
  * Needs a source (`unverified`)
  *   - no source
  * Confirmed by family
  *   - the fact is explicitly marked. This replaces Verified for that fact.
  *
  * Primary source
- *   - a cutting PNG whose date is a printed dateline (day, month, year), or
+ *   - a cutting upload (PNG or PDF) whose date is a printed dateline
+ *     (day, month, year), or
  *   - an http(s) URL on galwaygaa.ie or gaa.ie, including subdomains
- * A bare year is not a dateline. A PDF cutting has no PNG, so it is secondary.
+ * A bare year is not a dateline. An undated cutting is secondary.
  * Wikipedia and every other host are secondary.
  *
- * Independent
- *   - distinct resolved sources
- *   - Wikipedia revisions of the same article (same title, any oldid) count once
+ * Publishers
+ *   - a URL counts as its registrable domain (`en.wikipedia.org` and
+ *     `wikipedia.org` are one publisher; two oldids are still one)
+ *   - a cutting counts as its publication name, so two cuttings from
+ *     the same paper are one publisher
  *
  * Family marker
  *   - `confirmed_by_family`: a fact key, or several keys separated by commas
@@ -61,8 +64,9 @@ export const VERIFICATION_LABEL: Record<FactSourceStatus, string> = {
 
 export const VERIFICATION_LEGEND: Record<FactSourceStatus, string> = {
   verified:
-    "Two or more independent sources, or one primary source: a cutting image with a dateline, or a galwaygaa.ie / gaa.ie record.",
-  "single-source": "Exactly one secondary source, such as a Wikipedia page.",
+    "Two or more publishers, or one primary source: a dated cutting (image or PDF), or a galwaygaa.ie / gaa.ie record.",
+  "single-source":
+    "One secondary publisher, such as Wikipedia or an undated cutting.",
   unverified: "No source on file for this fact.",
   "confirmed-by-family":
     "Marked confirmed by the family. This is not a Verified source.",
@@ -110,28 +114,86 @@ export function hasPrintedDateline(date: string | undefined): boolean {
   return PRINTED_DATELINE.test(date.trim());
 }
 
+/** Cutting page, or a PNG/PDF upload path. URL-only web pages are not cuttings. */
+export function isCuttingUpload(source: ResolvedSource): boolean {
+  if (source.href.startsWith("/article/")) return true;
+  if (source.key.startsWith("article:")) return true;
+  const path = (source.imagePath ?? "").split("?")[0].trim().toLowerCase();
+  return path.endsWith(".png") || path.endsWith(".pdf");
+}
+
 export function isCuttingPngWithDateline(source: ResolvedSource): boolean {
   const path = source.imagePath?.split("?")[0]?.trim().toLowerCase() ?? "";
   if (!path.endsWith(".png")) return false;
   return hasPrintedDateline(source.date);
 }
 
+/** Dated cutting upload (PNG or PDF), or an official GAA record URL. */
 export function isPrimarySource(source: ResolvedSource): boolean {
-  return isOfficialRecordUrl(source.href) || isCuttingPngWithDateline(source);
+  if (isOfficialRecordUrl(source.href)) return true;
+  return isCuttingUpload(source) && hasPrintedDateline(source.date);
+}
+
+const COMPOUND_SUFFIXES = new Set([
+  "co.uk",
+  "org.uk",
+  "ac.uk",
+  "gov.uk",
+  "me.uk",
+  "net.uk",
+  "com.au",
+  "net.au",
+  "org.au",
+  "edu.au",
+  "gov.au",
+  "co.nz",
+  "org.nz",
+  "net.nz",
+  "co.za",
+  "org.za",
+  "com.br",
+  "co.jp",
+  "com.sg",
+  "com.hk",
+  "co.in",
+]);
+
+/**
+ * Registrable host. `www.` is dropped. `en.wikipedia.org` and
+ * `wikipedia.org` are the same publisher. A compound suffix such as
+ * `co.uk` keeps the label in front of it.
+ */
+export function registrableDomain(hostname: string): string {
+  let host = hostname.trim().toLowerCase().replace(/\.$/, "");
+  if (host.startsWith("www.")) host = host.slice(4);
+  if (host === "wikipedia.org" || host.endsWith(".wikipedia.org")) {
+    return "wikipedia.org";
+  }
+  const labels = host.split(".").filter(Boolean);
+  if (labels.length <= 2) return labels.join(".");
+  const lastTwo = labels.slice(-2).join(".");
+  if (COMPOUND_SUFFIXES.has(lastTwo)) return labels.slice(-3).join(".");
+  return lastTwo;
 }
 
 /**
- * Same Wikipedia article is one source even when oldids differ.
- * Every other resolved source keeps its own key.
+ * Publisher used for the 2+ Verified rule.
+ * Cuttings use the publication name. Web URLs use the registrable domain.
  */
-export function independenceKey(source: ResolvedSource): string {
-  const article = wikipediaArticleKey(source.href);
-  if (article) return article;
-  return source.key;
+export function publisherKey(source: ResolvedSource): string {
+  if (isCuttingUpload(source)) {
+    const publication = source.publication?.trim().toLowerCase();
+    if (publication) return `publication:${publication}`;
+  }
+  const domain = hostnameOf(source.href);
+  if (domain) return `domain:${registrableDomain(domain)}`;
+  const publication = source.publication?.trim().toLowerCase();
+  if (publication) return `publication:${publication}`;
+  return `source:${source.key}`;
 }
 
 export function independentSourceCount(sources: readonly ResolvedSource[]): number {
-  return new Set(sources.map(independenceKey)).size;
+  return new Set(sources.map(publisherKey)).size;
 }
 
 export function classifyFact(
@@ -204,27 +266,13 @@ export function headlineVerificationStatus(
   return best;
 }
 
-function wikipediaArticleKey(href: string): string | null {
+function hostnameOf(href: string): string | null {
   let url: URL;
   try {
     url = new URL(href);
   } catch {
     return null;
   }
-  const host = url.hostname.replace(/^www\./, "").toLowerCase();
-  if (host !== "wikipedia.org" && !host.endsWith(".wikipedia.org")) return null;
-  const fromQuery = url.searchParams.get("title");
-  const fromPath = url.pathname.match(/^\/wiki\/(.+)/);
-  const title = fromQuery ?? (fromPath ? fromPath[1] : null);
-  if (!title) return `wiki:${host}${url.pathname.toLowerCase()}`;
-  const normalised = safeDecode(title).replace(/_/g, " ").trim().toLowerCase();
-  return `wiki:${host}:${normalised}`;
-}
-
-function safeDecode(value: string): string {
-  try {
-    return decodeURIComponent(value);
-  } catch {
-    return value;
-  }
+  if (url.protocol !== "http:" && url.protocol !== "https:") return null;
+  return url.hostname;
 }

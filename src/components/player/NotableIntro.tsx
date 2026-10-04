@@ -1,6 +1,6 @@
 import type { FactSourceStatus } from "@/lib/verification";
 
-/** Seed `notable` is the first text under the name. Archive `note` is secondary. */
+/** Seed `notable` is the first text under the name. Archive `note`, then `notes`. */
 function noteParagraphs(note: string): string[] {
   return note
     .split(/(?<=[.!?])\s+(?=[A-Z“"])/)
@@ -11,26 +11,35 @@ function noteParagraphs(note: string): string[] {
 export function NotableIntro({
   notable,
   note,
+  notes,
   notableCite,
   noteCite,
+  notesCite,
   notableBadge,
   noteBadge,
+  notesBadge,
   notableStatus,
   noteStatus,
+  notesStatus,
 }: {
   notable: string | null;
   note: string | null;
+  notes?: string | null;
   notableCite?: React.ReactNode;
   noteCite?: React.ReactNode;
+  notesCite?: React.ReactNode;
   notableBadge?: React.ReactNode;
   noteBadge?: React.ReactNode;
+  notesBadge?: React.ReactNode;
   notableStatus?: FactSourceStatus;
   noteStatus?: FactSourceStatus;
+  notesStatus?: FactSourceStatus;
 }) {
-  if (!notable && !note) return null;
+  if (!notable && !note && !notes) return null;
   const archive = note ? noteParagraphs(note) : [];
   const notableUnverified = notableStatus === "unverified";
   const noteUnverified = noteStatus === "unverified";
+  const notesUnverified = notesStatus === "unverified";
 
   return (
     <section className="max-w-full space-y-4">
@@ -86,6 +95,26 @@ export function NotableIntro({
               </p>
             ))}
           </div>
+        </div>
+      ) : null}
+      {notes ? (
+        <div className="max-w-full">
+          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-stone-700">
+            Notes
+          </p>
+          <p
+            className={
+              notesUnverified
+                ? "mt-2 break-words text-[15px] leading-relaxed text-stone-800"
+                : "mt-2 break-words text-[15px] leading-relaxed text-galway-ink"
+            }
+          >
+            {notes}
+            {notesCite}
+            {notesBadge ? (
+              <span className="ml-2 inline-flex align-middle">{notesBadge}</span>
+            ) : null}
+          </p>
         </div>
       ) : null}
     </section>

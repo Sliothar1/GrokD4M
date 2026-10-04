@@ -6,6 +6,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import {
   cuttingFactKey,
+  factKeyForSourceColumn,
   parseCuttingCite,
   resolveEntitySources,
   sourceMarkerLabel,
@@ -209,6 +210,125 @@ assert.equal(
   "Source 2: Connacht Tribune 12 Dec 2003"
 );
 
+const canningOrder: SourceOrderSlot[] = [...PLAYER_ORDER, { fact: "notes" }];
+const canning = resolveEntitySources({
+  entityId: "player:joe-canning",
+  attrs: attrsFor("player:joe-canning"),
+  cuttings: [],
+  order: canningOrder,
+});
+assert.equal(canning.sources.length, 2, "notes URL and debut URL dedupe to two sources");
+assert.equal(canning.markers.notes?.length, 2);
+assert.deepEqual(canning.markers.debut, [canning.markers.notes?.[1]]);
+assert.deepEqual(canning.markers.club, []);
+assert.ok(
+  canning.sources.some((source) => source.href.includes("rte.ie")),
+  "source_notes is the RTE cutting"
+);
+assert.ok(
+  canning.sources.some((source) => source.href.includes("oldid=1372044432")),
+  "source_notes_club and source_debut share the Wikipedia oldid"
+);
+assert.ok(
+  !canning.sources.some((source) => source.href === "https://en.wikipedia.org/wiki/Joe_Canning"),
+  "bare source column must not become a citation"
+);
+
+const titles = resolveEntitySources({
+  entityId: "club:st-thomas",
+  attrs: attrsFor("club:st-thomas"),
+  cuttings: [],
+  order: [{ fact: "county" }, { fact: "county_titles" }, { fact: "division" }],
+});
+assert.equal(titles.markers.county_titles?.length, 2);
+assert.deepEqual(titles.markers.county, []);
+assert.equal(titles.markers.division?.length, 1);
+assert.ok(
+  titles.sources.some((source) => source.href.includes("galwaygaa.ie")),
+  "source_county_titles stays on county_titles"
+);
+assert.ok(
+  titles.sources.some((source) =>
+    source.href.includes("Galway_Senior_Hurling_Championship")
+  ),
+  "source_county_titles_wiki attaches to county_titles, not county"
+);
+
+const portumna = resolveEntitySources({
+  entityId: "club:portumna",
+  attrs: attrsFor("club:portumna"),
+  cuttings: [],
+  order: [{ fact: "division" }, { fact: "note" }],
+});
+assert.equal(portumna.markers.division?.length, 1);
+assert.deepEqual(portumna.markers.note, []);
+assert.equal(portumna.sources.length, 1);
+
+assert.equal(
+  factKeyForSourceColumn("source_notes_club", ["notes", "club"]),
+  "notes"
+);
+assert.equal(
+  factKeyForSourceColumn("source_notes_club", ["notes", "notes_club"]),
+  "notes_club"
+);
+assert.equal(
+  factKeyForSourceColumn("source_county_titles_wiki", ["county", "county_titles"]),
+  "county_titles"
+);
+assert.equal(factKeyForSourceColumn("source_wiki", ["name", "grounds"]), null);
+assert.equal(factKeyForSourceColumn("source", ["name"]), null);
+
+const prefixed = resolveEntitySources({
+  entityId: "club:synthetic-prefix",
+  attrs: {
+    notes: "A note",
+    notes_club: "A club note",
+    source_notes: "https://example.com/notes",
+    source_notes_club: "https://example.com/notes-club",
+    source_wiki: "https://en.wikipedia.org/wiki/Example",
+    source: "https://example.com/ignored",
+  },
+  cuttings: [],
+  order: [{ fact: "notes" }, { fact: "notes_club" }, { fact: "name" }],
+});
+assert.deepEqual(
+  prefixed.markers.notes?.map((n) => prefixed.sources.find((s) => s.number === n)?.href),
+  ["https://example.com/notes"]
+);
+assert.deepEqual(
+  prefixed.markers.notes_club?.map(
+    (n) => prefixed.sources.find((s) => s.number === n)?.href
+  ),
+  ["https://example.com/notes-club"]
+);
+assert.equal(prefixed.sources.length, 2);
+
+const duplicate = resolveEntitySources({
+  entityId: "player:synthetic-dup",
+  attrs: {
+    notes: "Same page twice",
+    source_notes: "https://en.wikipedia.org/wiki/Joe_Canning",
+    source_notes_club: "https://en.wikipedia.org/wiki/Joe_Canning",
+  },
+  cuttings: [],
+  order: [{ fact: "notes" }],
+});
+assert.equal(duplicate.sources.length, 1);
+assert.deepEqual(duplicate.markers.notes, [1]);
+
+const historic = resolveEntitySources({
+  entityId: "club:ahascragh-historic",
+  attrs: attrsFor("club:ahascragh-historic"),
+  cuttings: [],
+  order: [{ fact: "name" }],
+});
+assert.equal(
+  historic.sources.length,
+  0,
+  "source_wiki, source_grounds, and source_club_history stay unattached"
+);
+
 console.log(
-  `smoke-sources: ok (players ${playerRows.size}, uploads ${uploads.length}, joe sources ${joe.sources.length}, jim sources ${jim.sources.length})`
+  `smoke-sources: ok (players ${playerRows.size}, uploads ${uploads.length}, joe sources ${joe.sources.length}, jim sources ${jim.sources.length}, canning sources ${canning.sources.length})`
 );

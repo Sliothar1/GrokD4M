@@ -7,10 +7,16 @@
  *
  * A marker is created only from real data:
  * - a linked cutting (the cutting page is the source)
- * - `attrs["source_<factKey>"]` when that value is an http(s) URL
+ * - `source_<fact>` and `source_<fact>_<suffix>` when the value is an
+ *   http(s) URL. The suffix is matched against the entity's own fact
+ *   columns and the longest column wins (`source_notes_club` attaches
+ *   to `notes` unless a `notes_club` column exists;
+ *   `source_county_titles_wiki` attaches to `county_titles`).
  *
- * The bare `source` attribute is not a fallback. Non-URL values are
- * ignored. Facts with no source are still returned (`sources: []`) so
+ * The bare `source` attribute is not a fallback. A `source_*` column
+ * with no matching fact column (for example `source_wiki`) is not a
+ * cite. Non-URL values are ignored. The same URL is listed once.
+ * Facts with no source are still returned (`sources: []`) so
  * `annotateEntityVerification` can grade each fact on this same list.
  */
 
@@ -111,6 +117,36 @@ export function isExternalHref(href: string): boolean {
   return HTTP_URL.test(href.trim());
 }
 
+/** Attribute keys that can be cited. `source` and `source_*` are not facts. */
+export function factColumnsFromAttrs(attrs: Record<string, unknown>): string[] {
+  return Object.keys(attrs).filter(
+    (key) => key !== "source" && !key.startsWith("source_")
+  );
+}
+
+/**
+ * Fact column a `source_*` attribute belongs to.
+ * Exact column, or `column_<suffix>`, and the longest matching column wins.
+ * Returns null for the bare `source` column and for suffixes that match
+ * no fact column on this entity.
+ */
+export function factKeyForSourceColumn(
+  sourceCol: string,
+  factColumns: readonly string[]
+): string | null {
+  if (!sourceCol.startsWith("source_")) return null;
+  const rest = sourceCol.slice("source_".length);
+  if (!rest) return null;
+  let best: string | null = null;
+  for (const col of factColumns) {
+    if (!col) continue;
+    if (rest === col || rest.startsWith(`${col}_`)) {
+      if (best === null || col.length > best.length) best = col;
+    }
+  }
+  return best;
+}
+
 /**
  * Build the ordered, deduped source list and the fact → number map.
  * `order` is the on-page sequence. `{ cuttings: true }` inserts `cuttings`
@@ -126,6 +162,7 @@ export function resolveEntitySources(input: {
   const facts: ResolvedFact[] = [];
   const markers: Record<string, number[]> = {};
   const cuttings = input.cuttings ?? [];
+  const columns = factColumnsFromAttrs(input.attrs);
 
   const pushFact = (factKey: string, sources: ResolvedSource[]) => {
     facts.push({ factKey, sources });
@@ -142,9 +179,7 @@ export function resolveEntitySources(input: {
       continue;
     }
 
-    const url = httpUrl(input.attrs[`source_${slot.fact}`]);
-    const sources = url ? [acc.addUrl(url)] : [];
-    pushFact(slot.fact, sources);
+    pushFact(slot.fact, urlsForFact(input.attrs, slot.fact, columns, acc));
   }
 
   return {
@@ -304,6 +339,26 @@ function cuttingImageAlt(
   if (publication && date) return `${publication} cutting, ${date}`;
   if (publication) return `${publication} cutting`;
   return title || "Newspaper cutting";
+}
+
+function urlsForFact(
+  attrs: Record<string, unknown>,
+  fact: string,
+  columns: readonly string[],
+  acc: SourceAccumulator
+): ResolvedSource[] {
+  const sources: ResolvedSource[] = [];
+  const seen = new Set<number>();
+  for (const [key, value] of Object.entries(attrs)) {
+    if (factKeyForSourceColumn(key, columns) !== fact) continue;
+    const url = httpUrl(value);
+    if (!url) continue;
+    const source = acc.addUrl(url);
+    if (seen.has(source.number)) continue;
+    seen.add(source.number);
+    sources.push(source);
+  }
+  return sources;
 }
 
 function httpUrl(value: unknown): string | null {

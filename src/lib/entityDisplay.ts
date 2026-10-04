@@ -41,6 +41,7 @@ export const HIDDEN_ATTRS = new Set([
   "hold",
   "cutting_cite",
   "confirmed_by_family",
+  "division_season",
   "photo",
   "photo_url",
   "portrait",
@@ -73,6 +74,25 @@ const PLAYER_IDENTITY_FACTS = new Set([
 
 export function isPlayerIdentityFact(factKey: string): boolean {
   return factKey.startsWith("cutting:") || PLAYER_IDENTITY_FACTS.has(factKey);
+}
+
+/**
+ * Club division plus the season it was recorded for.
+ * Seed stores the Galway SHC tier as `A` or `B` (Senior A / Senior B).
+ * `Intermediate` is already the display name. No season means the division alone.
+ */
+export function formatDivision(division: unknown, season?: unknown): string | null {
+  if (!isDisplayableVal(division)) return null;
+  const raw = String(division).trim();
+  const label = raw === "A" ? "Senior A" : raw === "B" ? "Senior B" : raw;
+  const year = divisionSeasonYear(season);
+  return year ? `${label} (${year})` : label;
+}
+
+function divisionSeasonYear(season: unknown): string | null {
+  if (!isDisplayableVal(season)) return null;
+  const text = String(season).trim();
+  return /^(?:19|20)\d{2}$/.test(text) ? text : null;
 }
 
 /** Compact career strip — identity facts only (club chips live on the profile strip). */
@@ -121,6 +141,23 @@ export function playerNotableText(
   return String(raw);
 }
 
+/**
+ * Extra prose in `notes` (plural). Shown after the archive `note`.
+ * Skipped when it repeats notable or the archive note. Not an identity fact.
+ */
+export function playerNotesText(
+  attrs: Record<string, TripleVal>
+): string | null {
+  const raw = attrs.notes;
+  if (!isDisplayableVal(raw)) return null;
+  const notes = String(raw).trim();
+  const notable = playerNotableText(attrs);
+  if (notable && notes === notable.trim()) return null;
+  const archive = attrs.note;
+  if (isDisplayableVal(archive) && notes === String(archive).trim()) return null;
+  return notes;
+}
+
 /** Longer archive prose — secondary to notable, never the glow intro. */
 export function playerArchiveNote(
   attrs: Record<string, TripleVal>
@@ -147,6 +184,7 @@ export function playerOnPageFactKeys(
   if (hasClubs) keys.push("club");
   if (playerNotableText(attrs)) keys.push("notable");
   if (playerArchiveNote(attrs)) keys.push("note");
+  if (playerNotesText(attrs)) keys.push("notes");
   if (attrs.kid_chip && isDisplayableVal(attrs.kid_chip)) keys.push("kid_chip");
   for (const key of PLAYER_FACT_KEYS) {
     if (isDisplayableVal(attrs[key])) keys.push(key);
@@ -154,13 +192,14 @@ export function playerOnPageFactKeys(
   return keys;
 }
 
-/** Locked cite order: club, notable, note, cuttings, kid chip, career facts. */
+/** Locked cite order: club, notable, note, notes, cuttings, kid chip, career facts. */
 export function playerSourceOrder(shown: readonly string[]): SourceOrderSlot[] {
   const shownSet = new Set(shown);
   const slots: SourceOrderSlot[] = [
     { fact: "club" },
     { fact: "notable" },
     { fact: "note" },
+    { fact: "notes" },
     { cuttings: true },
     { fact: "kid_chip" },
     ...PLAYER_FACT_KEYS.map((fact): SourceOrderSlot => ({ fact })),
