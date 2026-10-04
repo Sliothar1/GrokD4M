@@ -13,17 +13,17 @@ export type CuttingCard = {
   href: string;
   /** Cite marker rendered outside the card link so it is not nested. */
   cite?: React.ReactNode;
+  /** Verification badge. A span, so it can sit inside the card control. */
+  badge?: React.ReactNode;
 };
 
 export { JASON_HERO_CUTTING_IDS } from "@/lib/cuttingOrder";
 
 export function CuttingExcerpts({
   cuttings,
-  playerName,
   heading = "Excerpts for games",
 }: {
   cuttings: CuttingCard[];
-  playerName?: string;
   heading?: string;
 }) {
   const titleId = useId();
@@ -59,7 +59,7 @@ export function CuttingExcerpts({
         >
           {heading}
         </h2>
-        <p className="text-sm font-semibold text-galway-ink/45">
+        <p className="text-sm font-semibold text-stone-700">
           {ordered.length === 1
             ? "1 newspaper snip"
             : `${ordered.length} newspaper snips`}
@@ -72,7 +72,6 @@ export function CuttingExcerpts({
             <div className="relative">
               <PressCard
                 cutting={c}
-                playerName={playerName}
                 hasCite={Boolean(c.cite)}
                 onOpen={() => (c.imagePath ? setLightbox(c) : undefined)}
               />
@@ -136,12 +135,10 @@ export function CuttingExcerpts({
 
 function PressCard({
   cutting,
-  playerName,
   hasCite,
   onOpen,
 }: {
   cutting: CuttingCard;
-  playerName?: string;
   hasCite?: boolean;
   onOpen: () => void;
 }) {
@@ -174,6 +171,7 @@ function PressCard({
           <h3 className="mt-1 text-base font-black leading-snug text-galway-ink sm:text-lg">
             {cutting.title}
           </h3>
+          {cutting.badge ? <div className="mt-2">{cutting.badge}</div> : null}
           {cutting.excerpt ? (
             <p className="mt-2 text-[15px] leading-relaxed text-galway-ink/70">
               {cutting.excerpt}
@@ -196,7 +194,6 @@ function PressCard({
         type="button"
         onClick={onOpen}
         className={cardClass}
-        aria-label={`Open cutting: ${cutting.title}${playerName ? ` — ${playerName}` : ""}`}
       >
         {body}
       </button>
@@ -214,7 +211,7 @@ function CompactCuttingsEmpty() {
   return (
     <div className="rounded-xl border border-galway-maroon/10 bg-white/70 px-3 py-2">
       <p className="text-sm font-bold text-galway-ink">No game excerpts yet</p>
-      <p className="text-xs text-galway-ink/55">
+      <p className="text-xs text-stone-700">
         A short snip will list here when a cutting names this player.{" "}
         <Link
           href="/stories#upload"

@@ -37,3 +37,28 @@ export function numberedClubColIndex(col: string): number {
   const m = col.match(/^club_(\d+)$/);
   return m ? Number(m[1]) : 99;
 }
+
+/**
+ * Human names for club fact columns shown on club pages.
+ * Division's value is formatted separately by `formatDivision`.
+ */
+export const CLUB_COLUMN_LABELS: Record<string, string> = {
+  parish: "Parish",
+  colours: "Colours",
+  county_titles: "County titles",
+  division: "Division",
+};
+
+/**
+ * Readable label when a column has no specific name.
+ * Underscores become spaces. Only the first letter is capitalised.
+ */
+export function prettifyColumnLabel(key: string): string {
+  const spaced = key.replace(/_/g, " ").trim();
+  if (!spaced) return spaced;
+  return spaced.charAt(0).toUpperCase() + spaced.slice(1);
+}
+
+export function clubColumnLabel(key: string): string {
+  return CLUB_COLUMN_LABELS[key] ?? prettifyColumnLabel(key);
+}

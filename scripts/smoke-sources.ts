@@ -4,14 +4,18 @@
  */
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { linkedCuttingFromUpload } from "../src/lib/articles";
+import type { ArticleUpload } from "../src/lib/articles";
 import {
   cuttingFactKey,
+  factKeyForSourceColumn,
   parseCuttingCite,
   resolveEntitySources,
   sourceMarkerLabel,
   type LinkedCuttingSource,
   type SourceOrderSlot,
 } from "../src/lib/sources";
+import { classifyFact, isPrimarySource } from "../src/lib/verification";
 
 const PLAYER_ORDER: SourceOrderSlot[] = [
   { fact: "club" },
@@ -32,7 +36,7 @@ const PLAYER_ORDER: SourceOrderSlot[] = [
 type Triple = { row: string; col: string; val: unknown };
 
 const triples = JSON.parse(readFileSync("data/seed.json", "utf8")) as Triple[];
-const uploads = JSON.parse(readFileSync("data/article-uploads.json", "utf8")) as Array<{
+const uploads = JSON.parse(readFileSync("data/article-uploads.json", "utf8")) as Array<ArticleUpload & {
   id: string;
   kind?: string;
   caption?: string;
@@ -209,6 +213,212 @@ assert.equal(
   "Source 2: Connacht Tribune 12 Dec 2003"
 );
 
+const canningOrder: SourceOrderSlot[] = [...PLAYER_ORDER, { fact: "notes" }];
+const canning = resolveEntitySources({
+  entityId: "player:joe-canning",
+  attrs: attrsFor("player:joe-canning"),
+  cuttings: [],
+  order: canningOrder,
+});
+assert.equal(canning.sources.length, 2, "notes URL and debut URL dedupe to two sources");
+assert.equal(canning.markers.notes?.length, 2);
+assert.deepEqual(canning.markers.debut, [canning.markers.notes?.[1]]);
+assert.deepEqual(canning.markers.club, []);
+assert.ok(
+  canning.sources.some((source) => source.href.includes("rte.ie")),
+  "source_notes is the RTE cutting"
+);
+assert.ok(
+  canning.sources.some((source) => source.href.includes("oldid=1372044432")),
+  "source_notes_club and source_debut share the Wikipedia oldid"
+);
+assert.ok(
+  !canning.sources.some((source) => source.href === "https://en.wikipedia.org/wiki/Joe_Canning"),
+  "bare source column must not become a citation"
+);
+
+const titles = resolveEntitySources({
+  entityId: "club:st-thomas",
+  attrs: attrsFor("club:st-thomas"),
+  cuttings: [],
+  order: [{ fact: "county" }, { fact: "county_titles" }, { fact: "division" }],
+});
+assert.equal(titles.markers.county_titles?.length, 2);
+assert.deepEqual(titles.markers.county, []);
+assert.equal(titles.markers.division?.length, 1);
+assert.ok(
+  titles.sources.some((source) => source.href.includes("galwaygaa.ie")),
+  "source_county_titles stays on county_titles"
+);
+assert.ok(
+  titles.sources.some((source) =>
+    source.href.includes("Galway_Senior_Hurling_Championship")
+  ),
+  "source_county_titles_wiki attaches to county_titles, not county"
+);
+
+const portumna = resolveEntitySources({
+  entityId: "club:portumna",
+  attrs: attrsFor("club:portumna"),
+  cuttings: [],
+  order: [{ fact: "division" }, { fact: "note" }],
+});
+assert.equal(portumna.markers.division?.length, 1);
+assert.deepEqual(portumna.markers.note, []);
+assert.equal(portumna.sources.length, 1);
+
+assert.equal(
+  factKeyForSourceColumn("source_notes_club", ["notes", "club"]),
+  "notes"
+);
+assert.equal(
+  factKeyForSourceColumn("source_notes_club", ["notes", "notes_club"]),
+  "notes_club"
+);
+assert.equal(
+  factKeyForSourceColumn("source_county_titles_wiki", ["county", "county_titles"]),
+  "county_titles"
+);
+assert.equal(factKeyForSourceColumn("source_wiki", ["name", "grounds"]), null);
+assert.equal(factKeyForSourceColumn("source", ["name"]), null);
+
+const prefixed = resolveEntitySources({
+  entityId: "club:synthetic-prefix",
+  attrs: {
+    notes: "A note",
+    notes_club: "A club note",
+    source_notes: "https://example.com/notes",
+    source_notes_club: "https://example.com/notes-club",
+    source_wiki: "https://en.wikipedia.org/wiki/Example",
+    source: "https://example.com/ignored",
+  },
+  cuttings: [],
+  order: [{ fact: "notes" }, { fact: "notes_club" }, { fact: "name" }],
+});
+assert.deepEqual(
+  prefixed.markers.notes?.map((n) => prefixed.sources.find((s) => s.number === n)?.href),
+  ["https://example.com/notes"]
+);
+assert.deepEqual(
+  prefixed.markers.notes_club?.map(
+    (n) => prefixed.sources.find((s) => s.number === n)?.href
+  ),
+  ["https://example.com/notes-club"]
+);
+assert.equal(prefixed.sources.length, 2);
+
+const duplicate = resolveEntitySources({
+  entityId: "player:synthetic-dup",
+  attrs: {
+    notes: "Same page twice",
+    source_notes: "https://en.wikipedia.org/wiki/Joe_Canning",
+    source_notes_club: "https://en.wikipedia.org/wiki/Joe_Canning",
+  },
+  cuttings: [],
+  order: [{ fact: "notes" }],
+});
+assert.equal(duplicate.sources.length, 1);
+assert.deepEqual(duplicate.markers.notes, [1]);
+
+const historic = resolveEntitySources({
+  entityId: "club:ahascragh-historic",
+  attrs: attrsFor("club:ahascragh-historic"),
+  cuttings: [],
+  order: [{ fact: "name" }],
+});
+assert.equal(
+  historic.sources.length,
+  0,
+  "source_wiki, source_grounds, and source_club_history stay unattached"
+);
+
+const datedUpload = uploads.find(
+  (upload) => upload.id === "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+);
+const yearUpload = uploads.find((upload) => upload.id === "art-fohenagh-clip4");
+assert.ok(datedUpload && yearUpload);
+const datedCutting = linkedCuttingFromUpload(datedUpload);
+const yearCutting = linkedCuttingFromUpload(yearUpload);
+const uploadCatalog: LinkedCuttingSource[] = [datedCutting, yearCutting];
+
+const citedById = resolveEntitySources({
+  entityId: "player:upload-id-fixture",
+  attrs: {
+    notable: "Named in the cutting.",
+    club: "club:example",
+    debut: "1998",
+    source_notable: `${datedUpload.id}, ${datedUpload.id}`,
+    source_club: "art-not-a-real-upload",
+    source_debut: "https://en.wikipedia.org/wiki/Hurling",
+  },
+  cuttings: [datedCutting],
+  uploads: uploadCatalog,
+  order: [
+    { fact: "notable" },
+    { fact: "club" },
+    { fact: "debut" },
+    { cuttings: true },
+  ],
+});
+assert.equal(
+  citedById.sources.length,
+  2,
+  "the upload id dedupes with the playerTags cutting; the URL is separate"
+);
+assert.deepEqual(citedById.markers.notable, [1]);
+assert.deepEqual(citedById.markers.club, []);
+assert.deepEqual(citedById.markers.debut, [2]);
+assert.deepEqual(citedById.markers[cuttingFactKey(datedUpload.id)], [1]);
+assert.equal(citedById.sources[0].href, `/article/${datedUpload.id}`);
+assert.ok(citedById.sources[0].imagePath?.endsWith(".png"));
+assert.equal(isPrimarySource(citedById.sources[0]), true);
+assert.equal(
+  classifyFact(
+    citedById.facts.find((fact) => fact.factKey === "notable")?.sources ?? []
+  ),
+  "verified"
+);
+assert.equal(
+  classifyFact(
+    citedById.facts.find((fact) => fact.factKey === "debut")?.sources ?? []
+  ),
+  "single-source"
+);
+assert.ok(
+  !citedById.sources.some((source) => source.href.includes("art-not-a-real-upload"))
+);
+
+const unknownId = resolveEntitySources({
+  entityId: "player:unknown-art",
+  attrs: { notable: "No such cutting.", source_notable: "art-missing-upload" },
+  uploads: uploadCatalog,
+  order: [{ fact: "notable" }],
+});
+assert.equal(unknownId.sources.length, 0);
+assert.deepEqual(unknownId.markers.notable, []);
+
+const yearOnlyId = resolveEntitySources({
+  entityId: "player:year-only-id",
+  attrs: { notable: "Year only.", source_notable: yearUpload.id },
+  uploads: uploadCatalog,
+  order: [{ fact: "notable" }],
+});
+assert.equal(yearOnlyId.sources.length, 1);
+assert.equal(isPrimarySource(yearOnlyId.sources[0]), false);
+assert.equal(classifyFact(yearOnlyId.facts[0].sources), "single-source");
+
+const mixedCell = resolveEntitySources({
+  entityId: "player:mixed-cell",
+  attrs: {
+    notable: "Id and URL.",
+    source_notable: `${datedUpload.id} https://example.com/second-source`,
+  },
+  uploads: uploadCatalog,
+  order: [{ fact: "notable" }],
+});
+assert.equal(mixedCell.markers.notable?.length, 2);
+assert.equal(classifyFact(mixedCell.facts[0].sources), "verified");
+
 console.log(
-  `smoke-sources: ok (players ${playerRows.size}, uploads ${uploads.length}, joe sources ${joe.sources.length}, jim sources ${jim.sources.length})`
+  `smoke-sources: ok (players ${playerRows.size}, uploads ${uploads.length}, joe sources ${joe.sources.length}, jim sources ${jim.sources.length}, canning sources ${canning.sources.length})`
 );

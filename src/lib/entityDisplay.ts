@@ -1,5 +1,6 @@
 import type { TripleVal } from "@/lib/d4m/AssocArray";
 import { entityHref, isEntityRef } from "@/lib/data";
+import type { SourceOrderSlot } from "@/lib/sources";
 
 /** Never show null / empty / literal "null" on kid-facing facts. */
 export function isDisplayableVal(v: unknown): boolean {
@@ -39,6 +40,8 @@ export const HIDDEN_ATTRS = new Set([
   "status",
   "hold",
   "cutting_cite",
+  "confirmed_by_family",
+  "division_season",
   "photo",
   "photo_url",
   "portrait",
@@ -53,6 +56,43 @@ export function isHiddenFactKey(k: string): boolean {
   if (HIDDEN_ATTRS.has(k)) return true;
   if (k.startsWith("cutting:")) return true;
   return false;
+}
+
+/**
+ * Facts that identify the person. A career stat such as `all_stars` is not
+ * one of these. Linked cuttings are included because the player is named
+ * on the cutting. `notable` is the intro highlight, not an identity fact.
+ */
+const PLAYER_IDENTITY_FACTS = new Set([
+  "club",
+  "note",
+  "also_known_as",
+  "father",
+  "born",
+  "nickname",
+]);
+
+export function isPlayerIdentityFact(factKey: string): boolean {
+  return factKey.startsWith("cutting:") || PLAYER_IDENTITY_FACTS.has(factKey);
+}
+
+/**
+ * Club division plus the season it was recorded for.
+ * Seed stores the Galway SHC tier as `A` or `B` (Senior A / Senior B).
+ * `Intermediate` is already the display name. No season means the division alone.
+ */
+export function formatDivision(division: unknown, season?: unknown): string | null {
+  if (!isDisplayableVal(division)) return null;
+  const raw = String(division).trim();
+  const label = raw === "A" ? "Senior A" : raw === "B" ? "Senior B" : raw;
+  const year = divisionSeasonYear(season);
+  return year ? `${label} (${year})` : label;
+}
+
+function divisionSeasonYear(season: unknown): string | null {
+  if (!isDisplayableVal(season)) return null;
+  const text = String(season).trim();
+  return /^(?:19|20)\d{2}$/.test(text) ? text : null;
 }
 
 /** Compact career strip — identity facts only (club chips live on the profile strip). */
@@ -101,6 +141,23 @@ export function playerNotableText(
   return String(raw);
 }
 
+/**
+ * Extra prose in `notes` (plural). Shown after the archive `note`.
+ * Skipped when it repeats notable or the archive note. Not an identity fact.
+ */
+export function playerNotesText(
+  attrs: Record<string, TripleVal>
+): string | null {
+  const raw = attrs.notes;
+  if (!isDisplayableVal(raw)) return null;
+  const notes = String(raw).trim();
+  const notable = playerNotableText(attrs);
+  if (notable && notes === notable.trim()) return null;
+  const archive = attrs.note;
+  if (isDisplayableVal(archive) && notes === String(archive).trim()) return null;
+  return notes;
+}
+
 /** Longer archive prose — secondary to notable, never the glow intro. */
 export function playerArchiveNote(
   attrs: Record<string, TripleVal>
@@ -116,4 +173,38 @@ export function playerArchiveNote(
 /** @deprecated Use playerNotableText — never fall back to `note` as the glow. */
 export function playerBioText(attrs: Record<string, TripleVal>): string | null {
   return playerNotableText(attrs);
+}
+
+/** Fact keys actually rendered on the player page, in section order. */
+export function playerOnPageFactKeys(
+  attrs: Record<string, TripleVal>,
+  hasClubs: boolean
+): string[] {
+  const keys: string[] = [];
+  if (hasClubs) keys.push("club");
+  if (playerNotableText(attrs)) keys.push("notable");
+  if (playerArchiveNote(attrs)) keys.push("note");
+  if (playerNotesText(attrs)) keys.push("notes");
+  if (attrs.kid_chip && isDisplayableVal(attrs.kid_chip)) keys.push("kid_chip");
+  for (const key of PLAYER_FACT_KEYS) {
+    if (isDisplayableVal(attrs[key])) keys.push(key);
+  }
+  return keys;
+}
+
+/** Locked cite order: club, notable, note, notes, cuttings, kid chip, career facts. */
+export function playerSourceOrder(shown: readonly string[]): SourceOrderSlot[] {
+  const shownSet = new Set(shown);
+  const slots: SourceOrderSlot[] = [
+    { fact: "club" },
+    { fact: "notable" },
+    { fact: "note" },
+    { fact: "notes" },
+    { cuttings: true },
+    { fact: "kid_chip" },
+    ...PLAYER_FACT_KEYS.map((fact): SourceOrderSlot => ({ fact })),
+  ];
+  return slots.filter((slot) =>
+    "cuttings" in slot ? true : shownSet.has(slot.fact)
+  );
 }
