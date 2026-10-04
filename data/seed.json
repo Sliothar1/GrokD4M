@@ -247870,6 +247870,756 @@
     "val": "Scored 0-4 for Galway's victorious 1993 U-21 side in the All-Ireland semi-final win over Cork, and led the Fohenagh attack all season (Connacht Tribune, 27 Aug and 5 Nov 1993)."
   },
   {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "player",
+    "val": "player:tony-kirwan-fohenagh"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "competition",
+    "val": "Coiste Iomana Tournament U-12 \"C\" final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "grade",
+    "val": "Under-12 \"C\""
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "year",
+    "val": 1984
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "role_basis",
+    "val": "initial in printed team list; full name printed elsewhere in the same cutting"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "opponent_result",
+    "val": "v St. Thomas — lost (Loughrea)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "score",
+    "val": "St. Thomas 2-1, Fohenagh 1-1"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "score_from",
+    "val": "upload caption"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 2 Nov 1984 · p.14 · INA"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "excerpt",
+    "val": "P. Kennedy, T. Kirwin, P. Leonard"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19841102.1.14"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "upload",
+    "val": "art-ina-ct-1984-11-02-fohenagh-u12c-final-st-thomas"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "evidence",
+    "val": "\"P. Kennedy, T. Kirwin, P. Leonard\" — Connacht Tribune · 2 Nov 1984 · p.14 · INA (art-ina-ct-1984-11-02-fohenagh-u12c-final-st-thomas)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "evidence",
+    "val": "\"Best for Fohenagh were Noel Higgins, Sean Moclair, Eric Lally and Tony Kirwin.\" — Connacht Tribune · 2 Nov 1984 · p.14 · INA (art-ina-ct-1984-11-02-fohenagh-u12c-final-st-thomas)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1984-u12c-final-st-thomas",
+    "col": "note",
+    "val": "Team list 'T. Kirwin' (initial); full name in 'Best for Fohenagh'. Final score is in the caption; the excerpt does not print it as a line."
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "player",
+    "val": "player:tony-kirwan-fohenagh"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "competition",
+    "val": "County junior championship quarter final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "grade",
+    "val": "Junior"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "year",
+    "val": 1991
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "role_basis",
+    "val": "named in report (scored a goal); no team list printed"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "opponent_result",
+    "val": "v Salthill — lost (Athenry)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "score",
+    "val": "Salthill 2-8, Fohenagh 1-7"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "score_from",
+    "val": "upload caption"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 13 Sep 1991 · p.13 · INA"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "excerpt",
+    "val": "a speculative shot from Tony Kirwan went past Salthill goalkeeper Stephen Cullinane"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19910913.1.13"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "upload",
+    "val": "art-ina-ct-1991-09-13-salthill-v-fohenagh-junior"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "evidence",
+    "val": "\"a speculative shot from Tony Kirwan went past Salthill goalkeeper Stephen Cullinane\" — Connacht Tribune · 13 Sep 1991 · p.13 · INA (art-ina-ct-1991-09-13-salthill-v-fohenagh-junior)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1991-junior-qf-salthill",
+    "col": "note",
+    "val": "Headline says 'semi', body says quarter final — body used. Report credits him with a goal but no scorers' line is printed."
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "player",
+    "val": "player:tony-kirwan-fohenagh"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "competition",
+    "val": "All-Ireland U-21 hurling semi-final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "grade",
+    "val": "U-21"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "role_basis",
+    "val": "initial in printed team list; full name printed elsewhere in the same cutting"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "opponent_result",
+    "val": "Galway v Cork — won (Semple Stadium, Thurles)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "score",
+    "val": "Galway 1-9, Cork 1-7"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "score_from",
+    "val": "upload caption"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 27 Aug 1993 · p.13 · INA"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "excerpt",
+    "val": "L. Burke 0-2, J. McGrath 1-0, T. Kirwin 0-4"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19930827.1.13"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "upload",
+    "val": "art-ina-ct-1993-08-27-galway-u21-beat-cork"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "upload",
+    "val": "art-ina-ct-1993-08-20-galway-u21-v-cork-preview"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "evidence",
+    "val": "\"L. Burke 0-2, J. McGrath 1-0, T. Kirwin 0-4\" — Connacht Tribune · 27 Aug 1993 · p.13 · INA (art-ina-ct-1993-08-27-galway-u21-beat-cork)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "evidence",
+    "val": "\"Fohenagh's Tony Kirwin, both at wing forward and full forward, gave a superb display\" — Connacht Tribune · 27 Aug 1993 · p.13 · INA (art-ina-ct-1993-08-27-galway-u21-beat-cork)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "evidence",
+    "val": "\"Joe McGrath (Sarsfields), Tony Kirwin (Fohenagh)\" — Connacht Tribune · 20 Aug 1993 · p.13 · INA (art-ina-ct-1993-08-20-galway-u21-v-cork-preview)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-u21-all-ireland-semi-cork",
+    "col": "note",
+    "val": "Match team list prints 'T. Kirwin 0-4' (initial); full name in the same report and in the preview's printed team (No. 12)."
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "player",
+    "val": "player:tony-kirwan-fohenagh"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "competition",
+    "val": "Junior Championship"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "grade",
+    "val": "Junior"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "role_basis",
+    "val": "named among great displays"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "opponent_result",
+    "val": "v Salthill — won"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 24 Sep 1993 · p.13 · INA"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "excerpt",
+    "val": "Tony Kirwin, John Devine"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19930924.1.13"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "upload",
+    "val": "art-ina-ct-1993-09-24-fohenagh-win-v-salthill-junior"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "evidence",
+    "val": "\"Tony Kirwin, John Devine\" — Connacht Tribune · 24 Sep 1993 · p.13 · INA (art-ina-ct-1993-09-24-fohenagh-win-v-salthill-junior)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-salthill",
+    "col": "note",
+    "val": "Salthill's score clipped on the scan — score blank."
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "player",
+    "val": "player:tony-kirwan-fohenagh"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "competition",
+    "val": "County Junior hurling semi-final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "grade",
+    "val": "Junior"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "role_basis",
+    "val": "initial in printed team list; full name printed elsewhere in the same cutting"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "opponent_result",
+    "val": "v Castlegar — won (Craughwell)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "score",
+    "val": "Castlegar 1-10, Fohenagh 2-6"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "score_from",
+    "val": "printed (CTB 29 Oct 1993)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "cite_chip",
+    "val": "Galway City Tribune · 29 Oct 1993 · p.19 · INA"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "excerpt",
+    "val": "T. Kirwin (0-2, both frees)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTB19931029.1.19"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "upload",
+    "val": "art-ina-ctb-1993-10-29-fohenagh-castlegar-junior-semi"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "evidence",
+    "val": "\"T. Kirwin (0-2, both frees)\" — Galway City Tribune · 29 Oct 1993 · p.19 · INA (art-ina-ctb-1993-10-29-fohenagh-castlegar-junior-semi)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "evidence",
+    "val": "\"The rampant Gerry Madden, along with Devine and Tony Kirwin, worked hard.\" — Galway City Tribune · 29 Oct 1993 · p.19 · INA (art-ina-ctb-1993-10-29-fohenagh-castlegar-junior-semi)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-semi-castlegar",
+    "col": "note",
+    "val": "Galway City Tribune. Team list 'T. Kirwin' (initial); full name in the report."
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "player",
+    "val": "player:tony-kirwan-fohenagh"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "competition",
+    "val": "County Junior A hurling final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "grade",
+    "val": "Junior A"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "role_basis",
+    "val": "initial in printed team list; full name printed elsewhere in the same cutting"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "opponent_result",
+    "val": "v Athenry — lost (Duggan Park)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "score",
+    "val": "Athenry 1-8, Fohenagh 0-9"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "score_from",
+    "val": "printed (CT 5 Nov 1993)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 5 Nov 1993 · p.14 · INA"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "excerpt",
+    "val": "T. Kirwan (0-2)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19931105.1.14"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "upload",
+    "val": "art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "evidence",
+    "val": "\"T. Kirwan (0-2)\" — Connacht Tribune · 5 Nov 1993 · p.14 · INA (art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "evidence",
+    "val": "\"Back row, left to right: Tony Kirwan\" — Connacht Tribune · 5 Nov 1993 · p.14 · INA (art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1993-junior-a-final-athenry",
+    "col": "note",
+    "val": "Team list 'T. Kirwan' (initial); full name in the VANQUISHED photo and the report."
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "player",
+    "val": "player:tony-kirwan-fohenagh"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "name",
+    "val": "Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "competition",
+    "val": "Sadie Kilcommons final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "year",
+    "val": 1998
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "role_basis",
+    "val": "named among best served"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "match",
+    "val": "match:fohenagh-ahascragh-sadie-kilcommons-final"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "opponent_result",
+    "val": "v Ahascragh — won"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "score",
+    "val": "1-12 to 0-9"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "score_from",
+    "val": "printed (CT 21 Aug 1998)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 21 Aug 1998 · p.9 · INA"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "excerpt",
+    "val": "Ollie Deeley and Tony Kirwan"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19980821.1.9"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "upload",
+    "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "evidence",
+    "val": "\"Ollie Deeley and Tony Kirwan\" — Connacht Tribune · 21 Aug 1998 · p.9 · INA (art-ct-fohenagh-ahascragh-sadie-kilcommons)"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-kirwan-fohenagh-1998-sadie-kilcommons-final-ahascragh",
+    "col": "hold",
+    "val": true
+  },
+  {
     "row": "player:frank-madden",
     "col": "type",
     "val": "player"
@@ -248670,6 +249420,771 @@
     "val": "Fohenagh hurler on the 1959 county title team, named in Connacht Tribune photos through 1961 and 1963."
   },
   {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "grade",
+    "val": "Junior"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "year",
+    "val": 1956
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "role_basis",
+    "val": "named in discussion of the abandoned game"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "match",
+    "val": "match:fohenagh-tynagh-junior-abandoned-1956"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "opponent_result",
+    "val": "v Tynagh — abandoned (Kiltormer)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 6 Oct 1956 · p.5 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "excerpt",
+    "val": "Tim Sweeney was named in the discussion."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "source",
+    "val": "/article/art-ina-fohenagh-1956-10-06-tuam-herald"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "upload",
+    "val": "art-ina-fohenagh-1956-10-06-tuam-herald"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "evidence",
+    "val": "\"Tim Sweeney was named in the discussion.\" — Tuam Herald · 6 Oct 1956 · p.5 · INA (art-ina-fohenagh-1956-10-06-tuam-herald)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1956-junior-tynagh-abandoned",
+    "col": "note",
+    "val": "Named in the post-match discussion of a row, not as a player; excerpt is a summary."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "competition",
+    "val": "Galway SHC final (draw)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "role_basis",
+    "val": "full name in printed team list"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "match",
+    "val": "match:fohenagh-historic-1959-galway-shc-final-draw"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "opponent_result",
+    "val": "v Castlegar — draw"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "score",
+    "val": "Fohenagh 2-8, Castlegar 1-11"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "score_from",
+    "val": "printed (CT 5 Sep 1959)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 10 Sep 1999 · p.4 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "excerpt",
+    "val": "Tony O'Gorman, Liam Manning, Tim Sweeney, Tommy Glynn"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19990910.1.4"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "upload",
+    "val": "art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "upload",
+    "val": "art-ct-1959-09-05-fohenagh-castlegar-portrait"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "evidence",
+    "val": "\"Tony O'Gorman, Liam Manning, Tim Sweeney, Tommy Glynn\" — Connacht Tribune · 10 Sep 1999 · p.4 · INA (art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "evidence",
+    "val": "\"Printed scores: Fohenagh 2-8, Castlegar 1-11. Named on the paper: Tim Sweeney\" — Connacht Tribune · 5 Sep 1959 · p.12 (art-ct-1959-09-05-fohenagh-castlegar-portrait)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "note",
+    "val": "Team list printed in the 1999 retrospective; the 1959 draw report names him (portrait)."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "competition",
+    "val": "Galway SHC final replay"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "role_basis",
+    "val": "named in report/team panel; scorer credit in a non-verbatim excerpt"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "match",
+    "val": "match:fohenagh-historic-1959-galway-shc-final-replay"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "opponent_result",
+    "val": "v Castlegar — won"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "score",
+    "val": "Fohenagh 3-9, Castlegar 4-5"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "score_from",
+    "val": "match row (TTH 19 Sep 1959)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "excerpt",
+    "val": "Tim Sweeney scored 1-4."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "source",
+    "val": "/article/art-ina-ct-1959-09-19-fohenagh-castlegar-replay"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "upload",
+    "val": "art-ina-ct-1959-09-19-fohenagh-castlegar-replay"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "upload",
+    "val": "art-ct-1959-09-19-fohenagh-team-caption"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "evidence",
+    "val": "\"Tim Sweeney scored 1-4.\" — Connacht Tribune · 19 Sep 1959 · p.30 · INA (art-ina-ct-1959-09-19-fohenagh-castlegar-replay)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "evidence",
+    "val": "\"Named on the paper: Tim Sweeney\" — Connacht Tribune · 19 Sep 1959 · team panel (art-ct-1959-09-19-fohenagh-team-caption)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "note",
+    "val": "UPGRADE CANDIDATE to Played: the excerpt credits 1-4 but is a summary ('Both 15-man lineups are printed' — lineup not transcribed). Transcribe the PNG on file to confirm."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "competition",
+    "val": "Galway SHC final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "role_basis",
+    "val": "named in 1960 team-photo caption (printed 1999)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "opponent_result",
+    "val": "v Castlegar — won"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "score",
+    "val": "Fohenagh 4-9, Castlegar 2-7"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "score_from",
+    "val": "match row (galwaygaa.ie)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 10 Sep 1999 · p.4 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "excerpt",
+    "val": "Michael Lally, Tim Sweeney, Gerry Glynn, mascot"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19990910.1.4"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "upload",
+    "val": "art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "evidence",
+    "val": "\"Michael Lally, Tim Sweeney, Gerry Glynn, mascot\" — Connacht Tribune · 10 Sep 1999 · p.4 · INA (art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1960-shc-final-castlegar",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "competition",
+    "val": "Galway SHC final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "year",
+    "val": 1961
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "role_basis",
+    "val": "named in final-week photos"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "match",
+    "val": "match:fohenagh-historic-1961-galway-shc-final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "opponent_result",
+    "val": "v Turloughmore — lost"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "score",
+    "val": "Turloughmore 3-6, Fohenagh 3-4"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "score_from",
+    "val": "match row (galwaygaa.ie)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 16 Sep 1961 · final photos"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "excerpt",
+    "val": "Named on the paper: Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "source",
+    "val": "/article/art-ct-1961-09-16-fohenagh-final-photos"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "upload",
+    "val": "art-ct-1961-09-16-fohenagh-final-photos"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "evidence",
+    "val": "\"Named on the paper: Tim Sweeney\" — Connacht Tribune · 16 Sep 1961 · final photos (art-ct-1961-09-16-fohenagh-final-photos)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1961-shc-final-turloughmore",
+    "col": "note",
+    "val": "Photos dated 16 Sep 1961; match row dates the final 8 Oct 1961 — photos may be from the run-up, not the final."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "competition",
+    "val": "Galway SHC final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "year",
+    "val": 1963
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "role_basis",
+    "val": "named in action photos"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "match",
+    "val": "match:fohenagh-historic-1963-galway-shc-final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "opponent_result",
+    "val": "v Turloughmore — lost"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "score",
+    "val": "Turloughmore 5-13, Fohenagh 2-4"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "score_from",
+    "val": "match row (galwaygaa.ie)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 17 Aug 1963 · p.14"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "excerpt",
+    "val": "Named on the paper: Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "source",
+    "val": "/article/art-ct-1963-08-17-fohenagh-action-photos"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "upload",
+    "val": "art-ct-1963-08-17-fohenagh-action-photos"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "evidence",
+    "val": "\"Named on the paper: Tim Sweeney\" — Connacht Tribune · 17 Aug 1963 · p.14 (art-ct-1963-08-17-fohenagh-action-photos)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1963-shc-final-turloughmore",
+    "col": "note",
+    "val": "Photos dated 17 Aug 1963 and tagged to the 1963 final; which game they show is not printed in the transcription."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "competition",
+    "val": "County Senior Hurling Championship first round"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "year",
+    "val": 1973
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "role_basis",
+    "val": "named as a sub in printed team list"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "opponent_result",
+    "val": "v Tommie Larkins — lost (Killimor)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "score",
+    "val": "Tommie Larkins 5-12, Fohenagh 4-4"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "score_from",
+    "val": "printed (CT 4 May 1973)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 4 May 1973 · p.9 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "excerpt",
+    "val": "Sub: Tim Sweeney for A. Mitchell."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19730504.1.9"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "upload",
+    "val": "art-ina-ct-1973-05-04-fohenagh-larkins"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "evidence",
+    "val": "\"Sub: Tim Sweeney for A. Mitchell.\" — Connacht Tribune · 4 May 1973 · p.9 · INA (art-ina-ct-1973-05-04-fohenagh-larkins)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-1973-shc-r1-tommie-larkins",
+    "col": "note",
+    "val": "Upload's matchTag match:tommie-larkins-fohenagh-shc-1973-05-04 does not exist in the seed (dangling tag)."
+  },
+  {
     "row": "player:paddy-egan-fohenagh",
     "col": "type",
     "val": "player"
@@ -248920,6 +250435,421 @@
     "val": "Named on Fohenagh's XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune, 19 Sep 1959). Started for Fohenagh in the 1963 Galway SHC final (Turloughmore GAA archive team sheet)."
   },
   {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "player",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "name",
+    "val": "Jimmy Moclair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "competition",
+    "val": "Galway SHC final (draw)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "role_basis",
+    "val": "full name in printed team list"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "match",
+    "val": "match:fohenagh-historic-1959-galway-shc-final-draw"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "opponent_result",
+    "val": "v Castlegar — draw"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "score",
+    "val": "Fohenagh 2-8, Castlegar 1-11"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "score_from",
+    "val": "match row (TTH 5 Sep 1959)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 10 Sep 1999 · p.4 · INA"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "excerpt",
+    "val": "The team and subs were as follows for the drawn game: Frank Madden, Jimmy Mocklair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19990910.1.4"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "upload",
+    "val": "art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "evidence",
+    "val": "\"The team and subs were as follows for the drawn game: Frank Madden, Jimmy Mocklair\" — Connacht Tribune · 10 Sep 1999 · p.4 · INA (art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-draw-castlegar",
+    "col": "note",
+    "val": "Team list is printed in a 1999 retrospective (CT 10 Sep 1999), not the 1959 report. art-fohenagh-clip6 also tags him but its transcription names no players."
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "player",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "name",
+    "val": "Jimmy Moclair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "competition",
+    "val": "Galway SHC final replay"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "role_basis",
+    "val": "named in 1959 team-photo captions (printed 1999 and 2009)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "match",
+    "val": "match:fohenagh-historic-1959-galway-shc-final-replay"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "opponent_result",
+    "val": "v Castlegar — won"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "score",
+    "val": "Fohenagh 3-9, Castlegar 4-5"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "score_from",
+    "val": "match row (TTH 19 Sep 1959)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 27 Nov 2009 · p.54 · INA"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "excerpt",
+    "val": "naming Jimmy Moclair in the back row"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20091127.1.54"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "upload",
+    "val": "art-ina-ct-2009-11-27-fohenagh-golden-era-moclair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "upload",
+    "val": "art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "evidence",
+    "val": "\"naming Jimmy Moclair in the back row\" — Connacht Tribune · 27 Nov 2009 · p.54 · INA (art-ina-ct-2009-11-27-fohenagh-golden-era-moclair)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "evidence",
+    "val": "\"Christy Kelly, Frank Madden\" — Connacht Tribune · 10 Sep 1999 · p.4 · INA (art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-shc-final-replay-castlegar",
+    "col": "note",
+    "val": "UPGRADE CANDIDATE: art-ina-ct-1959-09-19-fohenagh-castlegar-replay says 'Both 15-man lineups are printed' but its transcription does not include them — transcribe the PNG already on file. art-ct-1959-09-19-fohenagh-team-caption prints only 'J. Moclair' (initial-only, not used). The 1959 photo is assumed to be the champions (replay) side."
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "player",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "name",
+    "val": "Jimmy Moclair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "role_basis",
+    "val": "named in match report"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "opponent_result",
+    "val": "Galway v Kilkenny"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 24 Oct 1959 · p.14 · INA"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "excerpt",
+    "val": "Galway v Kilkenny county hurling report naming Jim Moclair."
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19591024.1.14"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "upload",
+    "val": "art-ina-ct-1959-10-24-jim-moclair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "evidence",
+    "val": "\"Galway v Kilkenny county hurling report naming Jim Moclair.\" — Connacht Tribune · 24 Oct 1959 · p.14 · INA (art-ina-ct-1959-10-24-jim-moclair)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1959-galway-v-kilkenny",
+    "col": "note",
+    "val": "Inter-county. Grade/competition not printed in the transcription; excerpt is a summary, not exact print."
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "player",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "name",
+    "val": "Jimmy Moclair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "competition",
+    "val": "Galway SHC final"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "role_basis",
+    "val": "named in 1960 team-photo caption (printed 1999)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "opponent_result",
+    "val": "v Castlegar — won"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "score",
+    "val": "Fohenagh 4-9, Castlegar 2-7"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "score_from",
+    "val": "match row (galwaygaa.ie)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 10 Sep 1999 · p.4 · INA"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "excerpt",
+    "val": "Liam Manning, R.I.P.; Jim Moclair, Paddy Killilea"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19990910.1.4"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "upload",
+    "val": "art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "evidence",
+    "val": "\"Liam Manning, R.I.P.; Jim Moclair, Paddy Killilea\" — Connacht Tribune · 10 Sep 1999 · p.4 · INA (art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured)"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-1960-shc-final-castlegar",
+    "col": "hold",
+    "val": true
+  },
+  {
     "row": "player:sean-moclair",
     "col": "notable",
     "val": "A Fohenagh parish hurler. Son of Jimmy Moclair."
@@ -248998,6 +250928,301 @@
     "row": "player:garry-lohan",
     "col": "notable",
     "val": "Called to the minor hurling trial for East Galway clubs at Loughrea, May 1995 (Connacht Tribune, 12 May 1995). A standout Fohenagh hurler named in the Sadie Kilcommons final report."
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "player",
+    "val": "player:garry-lohan"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "name",
+    "val": "Garry Lohan"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "competition",
+    "val": "Minor hurling trial for East Galway clubs (Loughrea)"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "grade",
+    "val": "Minor"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "year",
+    "val": 1995
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "role_basis",
+    "val": "named in trial call-up list"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "opponent_result",
+    "val": "trial call-up"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 12 May 1995 · p.12 · INA"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "excerpt",
+    "val": "Raymond Higgins, Declan Glynn, Gary Lohan, Fohenagh"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19950512.1.12"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "upload",
+    "val": "art-ina-ct-1995-05-12-galway-east-minor-trial"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "evidence",
+    "val": "\"Raymond Higgins, Declan Glynn, Gary Lohan, Fohenagh\" — Connacht Tribune · 12 May 1995 · p.12 · INA (art-ina-ct-1995-05-12-galway-east-minor-trial)"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:garry-lohan-1995-east-galway-minor-trial",
+    "col": "note",
+    "val": "A trial call-up, not a match."
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "player",
+    "val": "player:garry-lohan"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "name",
+    "val": "Garry Lohan"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "grade",
+    "val": "Junior A"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "year",
+    "val": 1995
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "role_basis",
+    "val": "named among best served"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "opponent_result",
+    "val": "v Ballygar — won (Ahascragh)"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "score",
+    "val": "0-11 to 0-9"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "score_from",
+    "val": "printed (CT 1 Sep 1995)"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 1 Sep 1995 · p.7 · INA"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "excerpt",
+    "val": "forwards, John Devine, Alan Mockler, Garry Lohan"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19950901.1.7"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "upload",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "evidence",
+    "val": "\"forwards, John Devine, Alan Mockler, Garry Lohan\" — Connacht Tribune · 1 Sep 1995 · p.7 · INA (art-ina-ct-1995-09-01-fohenagh-win-ballygar)"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:garry-lohan-1995-junior-a-ballygar",
+    "col": "note",
+    "val": "Competition printed only as 'championship hopes' — left blank."
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "player",
+    "val": "player:garry-lohan"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "name",
+    "val": "Garry Lohan"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "competition",
+    "val": "Sadie Kilcommons final"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "year",
+    "val": 1998
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "role_basis",
+    "val": "named among best served"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "match",
+    "val": "match:fohenagh-ahascragh-sadie-kilcommons-final"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "opponent_result",
+    "val": "v Ahascragh — won"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "score",
+    "val": "1-12 to 0-9"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "score_from",
+    "val": "printed (CT 21 Aug 1998)"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 21 Aug 1998 · p.9 · INA"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "excerpt",
+    "val": "Padraic Leonard, Garry Lohan, John Devine"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19980821.1.9"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "upload",
+    "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "evidence",
+    "val": "\"Padraic Leonard, Garry Lohan, John Devine\" — Connacht Tribune · 21 Aug 1998 · p.9 · INA (art-ct-fohenagh-ahascragh-sadie-kilcommons)"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:garry-lohan-1998-sadie-kilcommons-final-ahascragh",
+    "col": "hold",
+    "val": true
   },
   {
     "row": "player:cathal-lohan",
@@ -249138,6 +251363,836 @@
     "row": "player:seamus-moclair",
     "col": "secondary_cite",
     "val": "Connacht Tribune · 20 Oct 2023 · p.108 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "grade",
+    "val": "Senior (schools)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "year",
+    "val": 1992
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "role_basis",
+    "val": "named among good displays"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "opponent_result",
+    "val": "Mountbellew V.S. v Roscommon V.S. — won"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "score",
+    "val": "4-5 to 4-1"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "score_from",
+    "val": "printed (CT 3 Apr 1992)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Apr 1992 · p.7 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "excerpt",
+    "val": "good displays from Padraic Murray, Seamus Mockler"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19920403.1.7"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "upload",
+    "val": "art-ina-ct-1992-04-03-mountbellew-vs-seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "evidence",
+    "val": "\"good displays from Padraic Murray, Seamus Mockler\" — Connacht Tribune · 3 Apr 1992 · p.7 · INA (art-ina-ct-1992-04-03-mountbellew-vs-seamus-moclair)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:seamus-moclair-1992-mountbellew-vs-v-roscommon-vs",
+    "col": "note",
+    "val": "School team (Mountbellew Vocational School), not a club."
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "competition",
+    "val": "All-Ireland Vocational Schools senior hurling final"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "grade",
+    "val": "Senior (vocational schools)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "role_basis",
+    "val": "initial in printed team list; full name printed elsewhere in the same cutting"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "opponent_result",
+    "val": "Galway v Tipperary — won (Thurles)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "score",
+    "val": "Galway 5-7, Tipperary 1-11"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "score_from",
+    "val": "upload caption"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 14 May 1993 · p.11 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "excerpt",
+    "val": "N. Linnane"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19930514.1.11"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "upload",
+    "val": "art-ina-ct-1993-05-14-galway-vocational-title"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "upload",
+    "val": "art-ina-ct-1993-05-14-all-ireland-winners-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "upload",
+    "val": "art-ina-ct-1993-05-07-vocational-final-preview"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "evidence",
+    "val": "\"N. Linnane\" — Connacht Tribune · 14 May 1993 · p.11 · INA (art-ina-ct-1993-05-14-galway-vocational-title)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "evidence",
+    "val": "\"Seamus Mockler and Raymond Larkin\" — Connacht Tribune · 14 May 1993 · p.11 · INA (art-ina-ct-1993-05-14-galway-vocational-title)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "evidence",
+    "val": "\"Seamus Moclair had a fine game at comer back\" — Connacht Tribune · 14 May 1993 · p.7 · INA (art-ina-ct-1993-05-14-all-ireland-winners-moclair)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "evidence",
+    "val": "\"Seamus Moclair, Matthew Conroy\" — Connacht Tribune · 7 May 1993 · p.15 · INA (art-ina-ct-1993-05-07-vocational-final-preview)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-all-ireland-vocational-final-tipperary",
+    "col": "note",
+    "val": "Team list prints 'S. Mockler' (initial); full name in the same cutting's CHAMPIONS caption and in CT p.7 ('played ... at comer back'). Score is in the caption, not the excerpt."
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "competition",
+    "val": "Junior Championship"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "grade",
+    "val": "Junior"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "role_basis",
+    "val": "named among great displays (print clipped)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "opponent_result",
+    "val": "v Salthill — won"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 24 Sep 1993 · p.13 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "excerpt",
+    "val": "Colm Kirwin, Seamus Mocl[…]"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19930924.1.13"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "upload",
+    "val": "art-ina-ct-1993-09-24-fohenagh-win-v-salthill-junior"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "evidence",
+    "val": "\"Colm Kirwin, Seamus Mocl[…]\" — Connacht Tribune · 24 Sep 1993 · p.13 · INA (art-ina-ct-1993-09-24-fohenagh-win-v-salthill-junior)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-salthill",
+    "col": "note",
+    "val": "Surname clipped on the INA scan ('Seamus Mocl[…]'); Salthill's score lost — score left blank."
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "competition",
+    "val": "County Junior A hurling final"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "grade",
+    "val": "Junior A"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "year",
+    "val": 1993
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "role_basis",
+    "val": "initial in printed team list; full name printed elsewhere in the same cutting"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "opponent_result",
+    "val": "v Athenry — lost (Duggan Park)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "score",
+    "val": "Athenry 1-8, Fohenagh 0-9"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "score_from",
+    "val": "printed (CT 5 Nov 1993)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 5 Nov 1993 · p.14 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "excerpt",
+    "val": "C. Kirwan, S. Mochlair, M. Coen"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19931105.1.14"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "upload",
+    "val": "art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "evidence",
+    "val": "\"C. Kirwan, S. Mochlair, M. Coen\" — Connacht Tribune · 5 Nov 1993 · p.14 · INA (art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "evidence",
+    "val": "\"Seamus Mocklair and Michael Coen\" — Connacht Tribune · 5 Nov 1993 · p.14 · INA (art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:seamus-moclair-1993-junior-a-final-athenry",
+    "col": "note",
+    "val": "Team list prints 'S. Mochlair' (initial); full name in the same cutting's VANQUISHED photo caption."
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "competition",
+    "val": "Sadie Kilcommons final"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "year",
+    "val": 1998
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "role",
+    "val": "Named in report"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "role_basis",
+    "val": "named among best served"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "match",
+    "val": "match:fohenagh-ahascragh-sadie-kilcommons-final"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "opponent_result",
+    "val": "v Ahascragh — won"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "score",
+    "val": "1-12 to 0-9"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "score_from",
+    "val": "printed (CT 21 Aug 1998)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 21 Aug 1998 · p.9 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "excerpt",
+    "val": "Fohenagh were best served by Seamus Mockler"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19980821.1.9"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "upload",
+    "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "evidence",
+    "val": "\"Fohenagh were best served by Seamus Mockler\" — Connacht Tribune · 21 Aug 1998 · p.9 · INA (art-ct-fohenagh-ahascragh-sadie-kilcommons)"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-1998-sadie-kilcommons-final-ahascragh",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "competition",
+    "val": "Caltra Festival 2001 final"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "grade",
+    "val": "Senior"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "year",
+    "val": 2002
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "role_basis",
+    "val": "full name in printed team list"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "opponent_result",
+    "val": "v Abbeyknockmoy — lost after extra time (Fohenagh)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "score",
+    "val": "1-18 to 1-12"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "score_from",
+    "val": "printed (CT 22 Mar 2002)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 22 Mar 2002 · p.7 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "excerpt",
+    "val": "The Ahascragh-Fohenaghh side was as follows: Noel Higgins, Colm Kennedy, David Costello, Seamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20020322.1.7"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "upload",
+    "val": "art-ina-ct-2002-03-22-caltra-festival-final"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "evidence",
+    "val": "\"The Ahascragh-Fohenaghh side was as follows: Noel Higgins, Colm Kennedy, David Costello, Seamus Moclair\" — Connacht Tribune · 22 Mar 2002 · p.7 · INA (art-ina-ct-2002-03-22-caltra-festival-final)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:seamus-moclair-2002-caltra-festival-final-abbeyknockmoy",
+    "col": "note",
+    "val": "Competition is printed as the '2001' festival final but was played in March 2002 — Year shown as 2002 (played)."
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "competition",
+    "val": "League"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "grade",
+    "val": "Intermediate"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "year",
+    "val": 2003
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "role_basis",
+    "val": "full name in printed team list"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "opponent_result",
+    "val": "v Cappataggle — lost (Killimor)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "score",
+    "val": "2-9 to 2-8"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "score_from",
+    "val": "printed (CT 4 Apr 2003)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 4 Apr 2003 · p.25 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "excerpt",
+    "val": "the team was as follows: Donal Kelly, Seamus Mockler"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20030404.1.25"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "upload",
+    "val": "art-ina-ct-2003-04-04-af-intermediate-league-cappataggle"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "evidence",
+    "val": "\"the team was as follows: Donal Kelly, Seamus Mockler\" — Connacht Tribune · 4 Apr 2003 · p.25 · INA (art-ina-ct-2003-04-04-af-intermediate-league-cappataggle)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-2003-intermediate-league-cappataggle",
+    "col": "hold",
+    "val": true
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "player",
+    "val": "player:seamus-moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "name",
+    "val": "Séamus Moclair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "competition",
+    "val": "Co. Intermediate Hurling Championship (final group game)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "grade",
+    "val": "Intermediate"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "year",
+    "val": 2004
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "role",
+    "val": "Played"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "role_basis",
+    "val": "full name in printed team list"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "club",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "opponent_result",
+    "val": "v Padraic Pearses — won (St. Brendan's Park, Loughrea)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "score",
+    "val": "2-10 to 0-10"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "score_from",
+    "val": "printed (CT 30 Jul 2004)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Jul 2004 · p.10 · INA"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "excerpt",
+    "val": "Sean Connelley, John Smyth, Seamus Mocklair"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20040730.1.10"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "upload",
+    "val": "art-ina-ct-2004-07-30-af-intermediate-v-padraic-pearses"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "evidence",
+    "val": "\"Sean Connelley, John Smyth, Seamus Mocklair\" — Connacht Tribune · 30 Jul 2004 · p.10 · INA (art-ina-ct-2004-07-30-af-intermediate-v-padraic-pearses)"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:seamus-moclair-2004-ihc-padraic-pearses",
+    "col": "hold",
+    "val": true
   },
   {
     "row": "player:padraic-leonard",
