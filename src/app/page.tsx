@@ -6,7 +6,8 @@ import { playerNotableText } from "@/lib/entityDisplay";
 
 /**
  * Player spotlights: Tim Sweeney first, then the Clonbrock village families —
- * the Moclairs, the Lohans, and Niall and Pádraic Leonard (Garry ask, 4 Oct 07:06).
+ * the Moclairs, the Lohans, Luke Kennedy, and Niall and Pádraic Leonard
+ * (Garry asks, 4 Oct 07:06 and 07:19).
  * Canonical (non-alias) player ids only.
  */
 const SPOTLIGHT_PLAYER_IDS = [
@@ -22,6 +23,8 @@ const SPOTLIGHT_PLAYER_IDS = [
   "player:cathal-lohan",
   "player:trevor-lohan",
   "player:philip-lohan",
+  // Clonbrock (Garry ask, 4 Oct 07:19)
+  "player:luke-kennedy",
   // Leonards
   "player:niall-leonard",
   "player:padraic-leonard",
@@ -82,8 +85,8 @@ export default async function HomePage() {
             Player spotlights
           </h2>
           <p className="mt-1 text-base text-galway-ink/70">
-            Clonbrock village: the Moclairs, the Lohans, and Niall and Pádraic
-            Leonard.
+            Clonbrock village: the Moclairs, the Lohans, Luke Kennedy, and Niall
+            and Pádraic Leonard.
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
