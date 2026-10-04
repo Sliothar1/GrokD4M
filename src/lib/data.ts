@@ -20,6 +20,7 @@ import {
   isNumberedClubCol,
   isSeasonClubCol,
   numberedClubColIndex,
+  clubColumnLabel,
 } from "@/lib/clubColumns";
 import {
   buildSearchRankContext,
@@ -309,7 +310,7 @@ export function friendlyAttrLabel(key: string): string {
   if (/^club_\d+$/.test(key)) return "Also played for";
   // Player × Season → Club cols look like "season:2016"
   if (/^season:\d{4}$/.test(key)) return `Club in ${key.slice(7)}`;
-  return key.replace(/_/g, " ");
+  return clubColumnLabel(key);
 }
 
 /**

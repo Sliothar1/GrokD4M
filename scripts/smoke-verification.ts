@@ -5,7 +5,8 @@
  */
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { demoStats, getAssoc, getEntity } from "../src/lib/data";
+import { demoStats, friendlyAttrLabel, getAssoc, getEntity } from "../src/lib/data";
+import { clubColumnLabel } from "../src/lib/clubColumns";
 import { playerClubChips } from "../src/lib/playerClubs";
 import {
   formatDivision,
@@ -150,6 +151,15 @@ assert.equal(formatDivision("B", "2023"), "Senior B (2023)");
 assert.equal(formatDivision("Intermediate", 2025), "Intermediate (2025)");
 assert.equal(formatDivision("A"), "Senior A");
 assert.equal(formatDivision("A", "season"), "Senior A");
+assert.equal(clubColumnLabel("parish"), "Parish");
+assert.equal(clubColumnLabel("colours"), "Colours");
+assert.equal(clubColumnLabel("county_titles"), "County titles");
+assert.equal(clubColumnLabel("division"), "Division");
+assert.equal(clubColumnLabel("pihc_2026_status"), "Pihc 2026 status");
+assert.equal(friendlyAttrLabel("parish"), "Parish");
+assert.equal(friendlyAttrLabel("county_titles"), "County titles");
+assert.equal(friendlyAttrLabel("colours"), "Colours");
+assert.equal(friendlyAttrLabel("division"), "Division");
 assert.equal(classifyFact([png], true), "confirmed-by-family");
 assert.equal(isPrimarySource(png), true);
 assert.equal(isPrimarySource(wiki), false);
