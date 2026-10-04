@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
+import { CorrectionLink } from "@/components/CorrectionLink";
 import { getEntity, listEntitiesByType, resolveId } from "@/lib/data";
 
 export async function generateStaticParams() {
@@ -27,5 +28,10 @@ export default async function Page({
   const { slug } = await params;
   const data = await getEntity(resolveId("player", slug));
   if (!data) notFound();
-  return <PlayerView data={data} />;
+  return (
+    <>
+      <PlayerView data={data} />
+      <CorrectionLink page={`/player/${data.id.slice("player:".length)}`} />
+    </>
+  );
 }

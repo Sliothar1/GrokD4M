@@ -47,3 +47,6 @@ next-env.d.ts
 # Private OCR / PDF text (never public; metadata stays in article-uploads.json)
 /data/private/article-text/*
 !/data/private/article-text/.gitkeep
+
+# S3 corrections form — local dev queue (private, never commit)
+/.corrections-local/
