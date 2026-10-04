@@ -160,7 +160,7 @@ assert.equal(friendlyAttrLabel("parish"), "Parish");
 assert.equal(friendlyAttrLabel("county_titles"), "County titles");
 assert.equal(friendlyAttrLabel("colours"), "Colours");
 assert.equal(friendlyAttrLabel("division"), "Division");
-assert.equal(classifyFact([png], true), "confirmed-by-family");
+assert.equal(classifyFact([png], true), "verified");
 assert.equal(isPrimarySource(png), true);
 assert.equal(isPrimarySource(wiki), false);
 assert.equal(
@@ -179,11 +179,11 @@ assert.deepEqual(
 assert.deepEqual(
   [
     ...familyConfirmedFactKeys({
-      note: "Identity Garry-confirmed 4 Oct 2026",
+      note: "Identity confirmed",
       notable: "No marker here",
     }),
   ],
-  ["note"]
+  []
 );
 
 const ROUTES = [
@@ -298,9 +298,14 @@ async function main() {
     );
     assert.equal(
       index.facts.find((fact) => fact.factKey === "note")?.status,
-      "confirmed-by-family",
+      "verified",
       id
     );
+    for (const v of Object.values(data.attrs)) {
+      if (typeof v === "string") {
+        assert.ok(!/Garry|Confirmed by family/.test(v), `${id} public text`);
+      }
+    }
   }
 
   const portumna = await getEntity("club:portumna");

@@ -117292,7 +117292,7 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "note",
-    "val": "Tuam Herald 16 Jul 2025 · p.64 · INA: Alan Moclair named as a trainer of the Ahascragh-Fohenagh Minor (U-17) B league final winners (club role, not a playing record). Connacht Tribune 7 Dec 1990 · p.23 · INA: Alan Moclair (printed ‘Alan Mocklair’) named in the back row of the Fohenagh U-12 County B champions caption.\nSon of Jimmy Moclair: Garry-confirmed 4 Oct 2026 (parish roster)"
+    "val": "Tuam Herald 16 Jul 2025 · p.64 · INA: Alan Moclair named as a trainer of the Ahascragh-Fohenagh Minor (U-17) B league final winners (club role, not a playing record). Connacht Tribune 7 Dec 1990 · p.23 · INA: Alan Moclair (printed ‘Alan Mocklair’) named in the back row of the Fohenagh U-12 County B champions caption.\nSon of Jimmy Moclair."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -126786,8 +126786,23 @@
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
+    "col": "father",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "father_basis",
+    "val": "Verified"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "confirmed_by_family",
+    "val": "father; note"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
     "col": "note",
-    "val": "Galway GAA Roll of Honour 1996: Patrick Sweeney named on Fohenagh Minor ‘C’ Hurling Champions panel. Son of Tim Sweeney (tim-sweeney-fohenagh), Garry-confirmed 4 Oct 2026."
+    "val": "Galway GAA Roll of Honour 1996: Patrick Sweeney named on Fohenagh Minor ‘C’ Hurling Champions panel. Son of Tim Sweeney, the 1959 county champion."
   },
   {
     "row": "player:patrick-sweeney-fohenagh",
@@ -247102,7 +247117,12 @@
   {
     "row": "player:paddy-lohan-fohenagh",
     "col": "note",
-    "val": "Connacht Tribune 20 Nov 1981 · p.15 · INA: county junior hurling final at Duggan Park, Ahascragh 3-9 Fohenagh 3-3. Report: \"Gerry Burke, Paddy Lohan and substitute P. J. Power took their chances in good style.\" Printed in the Fohenagh XV as P. Lohan; scorers: P. Lohan (1-0).\nIdentity Garry-confirmed 4 Oct 2026"
+    "val": "Connacht Tribune 20 Nov 1981 · p.15 · INA: county junior hurling final at Duggan Park, Ahascragh 3-9 Fohenagh 3-3. Report: \"Gerry Burke, Paddy Lohan and substitute P. J. Power took their chances in good style.\" Printed in the Fohenagh XV as P. Lohan; scorers: P. Lohan (1-0)."
+  },
+  {
+    "row": "player:paddy-lohan-fohenagh",
+    "col": "confirmed_by_family",
+    "val": "note"
   },
   {
     "row": "player:paddy-lohan-fohenagh",
@@ -249097,12 +249117,12 @@
   {
     "row": "player:philip-lohan",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:philip-lohan",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:phillip-lohan",
@@ -249147,12 +249167,12 @@
   {
     "row": "player:sean-moclair",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:sean-moclair",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:sean-moclair",
@@ -249188,6 +249208,16 @@
     "row": "player:seamus-moclair",
     "col": "father",
     "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "source_father",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19930514.1.7"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "father_basis",
+    "val": "Printed: \"Seamus Moclair had a fine game at comer back is a son of Jimmy and Brid Moclair, Clonbrock Fohenagh.\" (Connacht Tribune, 14 May 1993, p.7; upload art-ina-ct-1993-05-14-all-ireland-winners-moclair)"
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -249230,6 +249260,11 @@
     "val": "player:jim-moclair-fohenagh"
   },
   {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "confirmed_by_family",
+    "val": "father; note"
+  },
+  {
     "row": "player:padraic-leonard",
     "col": "notable",
     "val": "A standout Fohenagh hurler named in the Sadie Kilcommons final report."
@@ -249237,12 +249272,27 @@
   {
     "row": "player:niall-leonard",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:niall-leonard",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "brother",
+    "val": "player:padraic-leonard"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "source_brother",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19950901.1.7"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "brother_basis",
+    "val": "Printed: \"the Leonard brothers, Padraic and Niall\" (Connacht Tribune, 1 Sep 1995, p.7; upload art-ina-ct-1995-09-01-fohenagh-win-ballygar)"
   },
   {
     "row": "player:garry-lohan",
@@ -249312,12 +249362,12 @@
   {
     "row": "player:trevor-lohan",
     "col": "cutting_cite",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:trevor-lohan",
     "col": "verification",
-    "val": "Club stamp — Fohenagh parish roster (Garry Lohan)"
+    "val": "Club stamp — Fohenagh parish roster"
   },
   {
     "row": "player:jimmy-mockler",
@@ -249413,6 +249463,21 @@
     "row": "player:padraic-leonard",
     "col": "secondary_cite",
     "val": "Connacht Tribune · 20 Oct 2023 · p.108 · INA"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "brother",
+    "val": "player:niall-leonard"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "source_brother",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19950901.1.7"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "brother_basis",
+    "val": "Printed: \"the Leonard brothers, Padraic and Niall\" (Connacht Tribune, 1 Sep 1995, p.7; upload art-ina-ct-1995-09-01-fohenagh-win-ballygar)"
   },
   {
     "row": "player:dara-leonard-ahascragh-fohenagh",

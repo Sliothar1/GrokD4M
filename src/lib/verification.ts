@@ -13,8 +13,10 @@
  *   - exactly one secondary publisher
  * Needs a source (`unverified`)
  *   - no source
- * Confirmed by family
- *   - the fact is explicitly marked. This replaces Verified for that fact.
+ * Family-confirmed facts
+ *   - an explicit marker (below) counts as Verified. There is no separate
+ *     public badge or label for it (Garry, 4 Oct 2026: no name, no
+ *     "Confirmed by family" chip on public pages).
  *
  * Primary source
  *   - a cutting upload (PNG or PDF) whose date is a printed dateline
@@ -33,10 +35,8 @@
  *   - `confirmed_by_family`: a fact key, or several keys separated by commas
  *     or semicolons, or an array of fact keys.
  *     Example: `confirmed_by_family = "note"`.
- *   - Seed already marks two notes by writing the token `Garry-confirmed`
- *     in that fact's own value (Alan Moclair's note, Paddy Lohan's note).
- *     The token grades that fact only. It is not inferred from other columns.
- *   No other seed fact sets either marker.
+ *   Never write a person's name or a confirmation date into a public value;
+ *   use this hidden marker instead.
  */
 
 import type {
@@ -50,16 +50,14 @@ export type { FactSourceStatus };
 
 export const FAMILY_CONFIRMATION_ATTR = "confirmed_by_family";
 
-/** Exact token already written in seed notes. Not a fuzzy name match. */
-export const GARRY_CONFIRMED_TOKEN = "Garry-confirmed";
-
 const PRINTED_DATELINE = /^\d{1,2}\s+[A-Za-z]+\s+(?:19|20)\d{2}$/;
 
 export const VERIFICATION_LABEL: Record<FactSourceStatus, string> = {
   verified: "Verified",
   "single-source": "Single-source",
   unverified: "Needs a source",
-  "confirmed-by-family": "Confirmed by family",
+  // Legacy status value only; family-confirmed facts are classified Verified.
+  "confirmed-by-family": "Verified",
 };
 
 export const VERIFICATION_LEGEND: Record<FactSourceStatus, string> = {
@@ -69,14 +67,14 @@ export const VERIFICATION_LEGEND: Record<FactSourceStatus, string> = {
     "One secondary publisher, such as Wikipedia or an undated cutting.",
   unverified: "No source on file for this fact.",
   "confirmed-by-family":
-    "Marked confirmed by the family. This is not a Verified source.",
+    "Two or more publishers, or one primary source: a dated cutting (image or PDF), or a galwaygaa.ie / gaa.ie record.",
 };
 
+/** Statuses shown in the public badge legend. */
 export const VERIFICATION_STATUSES: readonly FactSourceStatus[] = [
   "verified",
   "single-source",
   "unverified",
-  "confirmed-by-family",
 ];
 
 const STATUS_RANK: Record<FactSourceStatus, number> = {
@@ -200,7 +198,7 @@ export function classifyFact(
   sources: readonly ResolvedSource[],
   confirmedByFamily = false
 ): FactSourceStatus {
-  if (confirmedByFamily) return "confirmed-by-family";
+  if (confirmedByFamily) return "verified";
   if (sources.some(isPrimarySource)) return "verified";
   const independent = independentSourceCount(sources);
   if (independent >= 2) return "verified";
@@ -225,13 +223,6 @@ export function familyConfirmedFactKeys(
   } else if (Array.isArray(marker)) {
     for (const part of marker) {
       if (typeof part === "string" && part.trim()) keys.add(part.trim());
-    }
-  }
-
-  for (const [key, value] of Object.entries(attrs)) {
-    if (key === FAMILY_CONFIRMATION_ATTR) continue;
-    if (typeof value === "string" && value.includes(GARRY_CONFIRMED_TOKEN)) {
-      keys.add(key);
     }
   }
   return keys;
