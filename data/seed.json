@@ -126550,6 +126550,16 @@
     "val": "pending_archivist"
   },
   {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "notable",
+    "val": "Called up for the East Galway minor hurling trial at Loughrea, May 1995 (Connacht Tribune, 12 May 1995)"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting"
+  },
+  {
     "row": "player:kieran-molloy-fohenagh",
     "col": "type",
     "val": "player"
@@ -152063,6 +152073,16 @@
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "status",
     "val": "pending_archivist"
+  },
+  {
+    "row": "player:declan-glynn-ahascragh-fohenagh",
+    "col": "notable",
+    "val": "Called up for the East Galway minor hurling trial at Loughrea, May 1995 (Connacht Tribune, 12 May 1995)"
+  },
+  {
+    "row": "player:declan-glynn-ahascragh-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting"
   },
   {
     "row": "player:darren-cotton-ahascragh-fohenagh",

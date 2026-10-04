@@ -1623,7 +1623,7 @@
     "path": "/uploads/articles/art-ina-ct-1995-05-12-galway-east-minor-trial.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1995-05-12-galway-east-minor-trial.png",
     "uploadedAt": "2026-10-04T10:25:00.000000+00:00",
-    "caption": "INA snip — Connacht Tribune 12 May 1995: Minor trial — minor hurling trial for East Galway clubs at Loughrea; Fohenagh players asked to attend: Raymond Higgins, Declan Glynn, Gary Lohan. Gary Lohan (print) = Garry Lohan",
+    "caption": "INA snip — Connacht Tribune 12 May 1995: Minor trial — minor hurling trial for East Galway clubs at Loughrea; Fohenagh players asked to attend: Raymond Higgins, Declan Glynn, Gary Lohan (all tagged). Gary Lohan (print) = Garry Lohan",
     "year": "1995",
     "tags": [
       "hurling",
@@ -1637,7 +1637,9 @@
       "club:fohenagh-historic"
     ],
     "playerTags": [
-      "player:garry-lohan"
+      "player:garry-lohan",
+      "player:declan-glynn-ahascragh-fohenagh",
+      "player:raymond-higgins-fohenagh"
     ],
     "excerpt": "Minor trial A Minor Hurling Trial for East Galway Clubs will be held in Loughrea on Monday next at 7.30 p.m. The following players are asked to attend: Niall Hayes, Eoin O'Brien, Conor Kilkenny, Portumna; Declan Donnelly, Niall Shiel, Abbey-Duniry; Vincent Fallon, Kilnadeema; Declan Hough, Kiltormer; Padraig Noone, Cathal Hynes, Sarsfields; Gerard McGlacken, Cyril Dillon, Tynagh; Paul Finnerty, Niall Connaughton, Eamon Donoghue, Nigel Hogan, Cathal Fallon, Austin Larkin, Declan McHugh, Mullagh. Kieran Fahy, Declan Star, Peter Bruton, Anthony White, Tommie Larkins; Kenneth Keane, William Lawless, Raymond Keane, Kilconieron; Mark Whelan, Niall Tierney, Edward Spellman, Leitrim; Oliver Keane, Killimor; Richard Shepard, Alan Greenham, David Harte, Niall Coganin, Ballinasloe; Declan Lally, Ahascragh; Michael Kilchreest, Aidan Glynn, Cappataggle; Raymond Higgins, Declan Glynn, Gary Lohan, Fohenagh; Shane Corcoran, Killimordaly; Terry Murray, Owen Barrett, Padraig Pearses.",
     "citeChip": "Connacht Tribune · 12 May 1995 · p.12 · INA",
