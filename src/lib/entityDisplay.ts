@@ -1,5 +1,6 @@
 import type { TripleVal } from "@/lib/d4m/AssocArray";
 import { entityHref, isEntityRef } from "@/lib/data";
+import { isWithheldFromClient } from "@/lib/privacy";
 import type { SourceOrderSlot } from "@/lib/sources";
 
 /** Never show null / empty / literal "null" on kid-facing facts. */
@@ -55,6 +56,7 @@ export const HIDDEN_ATTRS = new Set([
 export function isHiddenFactKey(k: string): boolean {
   if (HIDDEN_ATTRS.has(k)) return true;
   if (k.startsWith("cutting:")) return true;
+  if (isWithheldFromClient(k)) return true;
   return false;
 }
 

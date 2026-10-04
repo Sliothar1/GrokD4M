@@ -13,6 +13,7 @@ import { loadCitationUploads } from "@/lib/articles";
 import {
   displayNameForRef,
   getAssoc,
+  getPrivateAttrs,
   type getEntity,
 } from "@/lib/data";
 import { orderCuttingCards } from "@/lib/cuttingOrder";
@@ -83,6 +84,8 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
 
   const shownFacts = playerOnPageFactKeys(attrs, clubs.length > 0);
 
+  // Server-only. The badge receives the status, never this text.
+  const privateAttrs = getPrivateAttrs(A, id);
   const citations = annotateEntityVerification(
     resolveEntitySources({
       entityId: id,
@@ -97,7 +100,8 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       uploads: await loadCitationUploads(),
       order: playerSourceOrder(shownFacts),
     }),
-    attrs
+    attrs,
+    privateAttrs
   );
   const statusOf = (factKey: string): FactSourceStatus =>
     citations.facts.find((fact) => fact.factKey === factKey)?.status ??

@@ -1,3 +1,11 @@
+import {
+  auditTextsFromAttrs,
+  isPrivateCol,
+  isPrivateSourceCol,
+  isWithheldFromClient,
+  sourceValueCarriesAudit,
+} from "@/lib/privacy";
+
 /**
  * Per-fact citations for any entity (player:*, club:*, …).
  *
@@ -24,7 +32,8 @@
  *
  * The bare `source` attribute is not a fallback. A `source_*` column
  * with no matching fact column (for example `source_wiki`) is not a
- * cite. The same URL or cutting is listed once.
+ * cite. `source_audit_*`, and any source cell whose text is an
+ * `audit_*` value, is not a cite. The same URL or cutting is listed once.
  * Facts with no source are still returned (`sources: []`) so
  * `annotateEntityVerification` can grade each fact on this same list.
  */
@@ -131,7 +140,8 @@ export function isExternalHref(href: string): boolean {
 /** Attribute keys that can be cited. `source` and `source_*` are not facts. */
 export function factColumnsFromAttrs(attrs: Record<string, unknown>): string[] {
   return Object.keys(attrs).filter(
-    (key) => key !== "source" && !key.startsWith("source_")
+    (key) =>
+      key !== "source" && !key.startsWith("source_") && !isPrivateCol(key)
   );
 }
 
@@ -146,6 +156,7 @@ export function factKeyForSourceColumn(
   factColumns: readonly string[]
 ): string | null {
   if (!sourceCol.startsWith("source_")) return null;
+  if (isPrivateSourceCol(sourceCol)) return null;
   const rest = sourceCol.slice("source_".length);
   if (!rest) return null;
   let best: string | null = null;
@@ -180,6 +191,7 @@ export function resolveEntitySources(input: {
   const cuttings = input.cuttings ?? [];
   const columns = factColumnsFromAttrs(input.attrs);
   const uploads = indexUploads(input.uploads ?? []);
+  const auditTexts = auditTextsFromAttrs(input.attrs);
 
   const pushFact = (factKey: string, sources: ResolvedSource[]) => {
     facts.push({ factKey, sources });
@@ -196,7 +208,10 @@ export function resolveEntitySources(input: {
       continue;
     }
 
-    pushFact(slot.fact, sourcesForFact(input.attrs, slot.fact, columns, uploads, acc));
+    pushFact(
+      slot.fact,
+      sourcesForFact(input.attrs, slot.fact, columns, uploads, acc, auditTexts)
+    );
   }
 
   return {
@@ -389,7 +404,8 @@ function sourcesForFact(
   fact: string,
   columns: readonly string[],
   uploads: ReadonlyMap<string, LinkedCuttingSource>,
-  acc: SourceAccumulator
+  acc: SourceAccumulator,
+  auditTexts: readonly string[]
 ): ResolvedSource[] {
   const sources: ResolvedSource[] = [];
   const seen = new Set<number>();
@@ -400,6 +416,9 @@ function sourcesForFact(
   };
 
   for (const [key, value] of Object.entries(attrs)) {
+    if (isWithheldFromClient(key) || sourceValueCarriesAudit(key, value, auditTexts)) {
+      continue;
+    }
     if (factKeyForSourceColumn(key, columns) !== fact) continue;
     for (const token of sourceCellTokens(value)) {
       const url = httpUrl(token);

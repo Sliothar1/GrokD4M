@@ -1,4 +1,5 @@
 import type { AssocArray, TripleVal } from "@/lib/d4m/AssocArray";
+import { entityAttrsPublic } from "@/lib/privacy";
 
 /** Minimal hit shape — `EntitySummary` satisfies this. */
 export interface RankableHit {
@@ -94,7 +95,7 @@ export function findClubsMatchingQuery(
   const matched = new Map<string, ClubMatchStrength>();
   if (q.length < 4) return matched;
   for (const id of A.entitiesOfType("club")) {
-    const attrs = A.entityAttrs(id);
+    const attrs = entityAttrsPublic(A, id);
     if (attrs.same_as) continue;
     let best: ClubMatchStrength | null = null;
     for (const label of clubLabels(id, attrs)) {
@@ -119,7 +120,7 @@ export function buildSearchRankContext(query: string, A: AssocArray): SearchRank
     matchedClubs,
     clubIntent: matchedClubs.size > 0,
     playerClubOf: (playerId: string) => {
-      const attrs = A.entityAttrs(playerId);
+      const attrs = entityAttrsPublic(A, playerId);
       return [attrs.club, attrs.also_club, attrs.club_1]
         .filter((v) => typeof v === "string" && v.startsWith("club:"))
         .join(" ");
@@ -480,7 +481,7 @@ export function findStrongPrimaryEntities(query: string, A: AssocArray): Primary
   const hits: PrimaryEntityHit[] = [];
   for (const kind of PRIMARY_ENTITY_KINDS) {
     for (const id of A.entitiesOfType(kind)) {
-      const attrs = A.entityAttrs(id);
+      const attrs = entityAttrsPublic(A, id);
       if (attrs.same_as) continue;
       const title = String(attrs.name ?? attrs.title ?? "");
       const strength = primaryIdentityMatch(query, kind, id, title, attrs);

@@ -20,6 +20,7 @@ import {
   isDisplayableVal,
   MATCH_FACT_KEYS,
 } from "@/lib/entityDisplay";
+import { entityAttrsPublic, isWithheldFromClient } from "@/lib/privacy";
 import {
   parseClubIds,
   toClubChip,
@@ -310,6 +311,7 @@ function matchCiteFacts(attrs: EntityPayload["attrs"]): Array<{
 }> {
   const keys = Object.keys(attrs)
     .filter((k) => {
+      if (isWithheldFromClient(k)) return false;
       if (!isDisplayableVal(attrs[k])) return false;
       if (isCiteFactKey(k)) return true;
       return isExtraSourceLink(k, attrs[k]);
@@ -388,6 +390,6 @@ function matchClubChips(
     if (r.kind === "club") ids.add(r.id);
   }
   return [...ids]
-    .filter((id) => Object.keys(A.entityAttrs(id)).length > 0)
+    .filter((id) => Object.keys(entityAttrsPublic(A, id)).length > 0)
     .map((id) => toClubChip(id, A));
 }

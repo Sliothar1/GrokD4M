@@ -163,11 +163,17 @@ const jim = resolveEntitySources({
   cuttings: jimCuttings,
   order: PLAYER_ORDER,
 });
-assert.equal(jim.sources.length, jimCuttings.length);
-assert.deepEqual(jim.markers.notable, []);
-assert.deepEqual(jim.markers.club, []);
-assert.ok(
-  jim.sources.every((source) => source.href.startsWith("/article/")),
+// #60 cites notable and club with one Turloughmore page, on top of the cuttings.
+const parishRecord = jim.sources.find((source) =>
+  source.href.includes("turloughmoregaa.ie")
+);
+assert.ok(parishRecord);
+assert.equal(jim.sources.length, jimCuttings.length + 1);
+assert.deepEqual(jim.markers.notable, [parishRecord.number]);
+assert.deepEqual(jim.markers.club, [parishRecord.number]);
+assert.equal(
+  jim.sources.filter((source) => source.href.startsWith("/article/")).length,
+  jimCuttings.length,
   "cutting sources link to the cutting page"
 );
 assert.equal(

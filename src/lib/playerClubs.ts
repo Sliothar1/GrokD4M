@@ -10,6 +10,7 @@ import {
   type EntitySummary,
 } from "@/lib/data";
 import type { AssocArray, TripleVal } from "@/lib/d4m/AssocArray";
+import { entityAttrsPublic } from "@/lib/privacy";
 
 /** Locked three-club model — never collapse these into one jersey. */
 export const LOCKED_CLUB_ORDER = [
@@ -120,7 +121,7 @@ export function playerClubChips(
   }
 
   return sortClubIds([...ids])
-    .filter((id) => Object.keys(A.entityAttrs(id)).length > 0)
+    .filter((id) => Object.keys(entityAttrsPublic(A, id)).length > 0)
     .map((id) => toClubChip(id, A));
 }
 
@@ -177,7 +178,7 @@ export function verifiedDualEraStrip(
   const entries: DualEraStripEntry[] = [];
   for (const row of rows) {
     if (row.trust !== "Verified") continue;
-    const attrs = A.entityAttrs(row.summary.id);
+    const attrs = entityAttrsPublic(A, row.summary.id);
     const ids = playerClubIds(attrs);
     const historicIds = HISTORIC_CLUB_IDS.filter((id) => ids.includes(id));
     if (!ids.includes(clubId) || !ids.includes(AF_CLUB_ID)) continue;
@@ -206,13 +207,13 @@ function addPlayerFromRow(
 ): void {
   if (!valueMentionsClub(val, clubId)) return;
   if (row.startsWith("player:")) {
-    if (!A.entityAttrs(row).same_as) playerIds.add(row);
+    if (!entityAttrsPublic(A, row).same_as) playerIds.add(row);
     return;
   }
   if (row.startsWith("appearance:")) {
     const player = A.get(row, "player");
     if (typeof player === "string" && player.startsWith("player:")) {
-      if (!A.entityAttrs(player).same_as) playerIds.add(player);
+      if (!entityAttrsPublic(A, player).same_as) playerIds.add(player);
     }
   }
 }
@@ -236,7 +237,7 @@ export async function listClubRoster(
   for (const id of playerIds) {
     const summary = summarizeEntity(id, A);
     if (!summary || summary.kind !== "player") continue;
-    const attrs = A.entityAttrs(id);
+    const attrs = entityAttrsPublic(A, id);
     const also = sortClubIds(
       collectClubIdsFromAttrs(attrs).filter((c) => c !== clubId)
     ).map((c) => toClubChip(c, A));

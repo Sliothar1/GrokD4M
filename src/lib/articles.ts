@@ -15,6 +15,7 @@ import {
 } from "@/lib/d4m/AssocArray";
 import seed from "../../data/seed.json";
 import type { EntitySummary } from "@/lib/data";
+import { entityAttrsPublic } from "@/lib/privacy";
 import type { LinkedCuttingSource } from "@/lib/sources";
 
 const execFileAsync = promisify(execFile);
@@ -580,7 +581,7 @@ function inferYear(
 function knownClubs(): { id: string; name: string; tokens: string[] }[] {
   const A = loadAssocFromJson(seed);
   return A.entitiesOfType("club").map((id) => {
-    const name = String(A.entityAttrs(id).name ?? id.slice(5));
+    const name = String(entityAttrsPublic(A, id).name ?? id.slice(5));
     const tokens = name
       .toLowerCase()
       .replace(/[^a-z0-9\s-]/g, " ")

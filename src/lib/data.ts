@@ -23,12 +23,27 @@ import {
   clubColumnLabel,
 } from "@/lib/clubColumns";
 import {
+  entityAttrsPublic,
+  getrowPublic,
+  publicTriples,
+  searchPublic,
+} from "@/lib/privacy";
+import {
   buildSearchRankContext,
   collapseToUniquePlayers,
   compareSearchHits,
   findStrongPrimaryEntities,
   searchTokens,
 } from "@/lib/searchRank";
+
+export {
+  entityAttrsPublic,
+  getPrivateAttrs,
+  getrowPublic,
+  isPrivateCol,
+  publicTriples,
+  searchPublic,
+} from "@/lib/privacy";
 
 export type EntityKind =
   | "player"
@@ -402,7 +417,7 @@ export function playerClubIds(
  */
 export function displayNameForRef(ref: string, A: AssocArray): string {
   if (!ref.includes(":")) return ref;
-  const attrs = A.entityAttrs(ref);
+  const attrs = entityAttrsPublic(A, ref);
   if (attrs.name) return String(attrs.name);
   if (attrs.title) return String(attrs.title);
   if (attrs.year != null) return String(attrs.year);
@@ -423,7 +438,7 @@ export function isEntityRef(val: unknown): val is `${string}:${string}` {
 }
 
 export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null {
-  const attrs = A.entityAttrs(id);
+  const attrs = entityAttrsPublic(A, id);
   if (Object.keys(attrs).length === 0) return null;
   const kind = entityKind(id, attrs);
   const title =
@@ -541,7 +556,7 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
 export async function listEntitiesByType(typePrefix: string): Promise<EntitySummary[]> {
   const A = await getAssoc();
   return A.entitiesOfType(typePrefix)
-    .filter((id) => !A.entityAttrs(id).same_as)
+    .filter((id) => !entityAttrsPublic(A, id).same_as)
     .map((id) => summarizeEntity(id, A))
     .filter((e): e is EntitySummary => e !== null);
 }
@@ -551,14 +566,14 @@ export async function listAllIrelandWins(): Promise<EntitySummary[]> {
   const A = await getAssoc();
   return A.entitiesOfType("win")
     .filter((id) => {
-      const attrs = A.entityAttrs(id);
+      const attrs = entityAttrsPublic(A, id);
       return !attrs.same_as && isAllIrelandWinAttrs(attrs);
     })
     .map((id) => summarizeEntity(id, A))
     .filter((e): e is EntitySummary => e !== null)
     .sort((a, b) => {
-      const ya = Number(A.entityAttrs(a.id).year ?? 0);
-      const yb = Number(A.entityAttrs(b.id).year ?? 0);
+      const ya = Number(entityAttrsPublic(A, a.id).year ?? 0);
+      const yb = Number(entityAttrsPublic(A, b.id).year ?? 0);
       return yb - ya;
     });
 }
@@ -609,18 +624,20 @@ export function groupSearchResults(results: EntitySummary[]): SearchGroup[] {
   return groups;
 }
 
-export async function searchEntities(query: string): Promise<EntitySummary[]> {
-  const A = await getAssoc();
+/**
+ * Seed-entity matches for a query. Article uploads are added by
+ * `searchEntities`. Hits are built from public columns only, so an
+ * `audit_*` value cannot rank, match, or appear in a snippet.
+ */
+export function matchSeedEntities(A: AssocArray, query: string): EntitySummary[] {
   const tokens = searchTokens(query);
-  const rankCtx = buildSearchRankContext(query, A);
-
-  const { rows } = A.search(query);
+  const { rows } = searchPublic(A, query);
   const seen = new Set<string>();
   const out: EntitySummary[] = [];
 
   const consider = (id: string) => {
     if (seen.has(id) || !id.includes(":")) return;
-    const attrs = A.entityAttrs(id);
+    const attrs = entityAttrsPublic(A, id);
     // Alias rows (Lab pack ids) collapse onto the canonical seed match.
     if (attrs.same_as) return;
     const summary = summarizeEntity(id, A);
@@ -635,7 +652,7 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
   if (tokens.length > 0) {
     for (const id of A.rows()) {
       if (seen.has(id) || !id.includes(":")) continue;
-      const attrs = A.entityAttrs(id);
+      const attrs = entityAttrsPublic(A, id);
       if (attrs.same_as) continue;
       if (!attrs.type && !id.includes(":")) continue;
       const summary = summarizeEntity(id, A);
@@ -651,6 +668,15 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     }
   }
 
+  return out;
+}
+
+export async function searchEntities(query: string): Promise<EntitySummary[]> {
+  const A = await getAssoc();
+  const rankCtx = buildSearchRankContext(query, A);
+  const out = matchSeedEntities(A, query);
+  const seen = new Set(out.map((item) => item.id));
+
   for (const hit of await searchArticleUploads(query)) {
     if (!seen.has(hit.id)) {
       seen.add(hit.id);
@@ -658,7 +684,7 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
     }
   }
 
-  out.sort((a, b) => compareSearchHits(a, b, rankCtx, (id) => A.entityAttrs(id)));
+  out.sort((a, b) => compareSearchHits(a, b, rankCtx, (id) => entityAttrsPublic(A, id)));
 
   return out;
 }
@@ -703,12 +729,12 @@ export async function getEntity(id: string): Promise<{
   related: EntitySummary[];
 } | null> {
   const A = await getAssoc();
-  let attrs = A.entityAttrs(id);
+  let attrs = entityAttrsPublic(A, id);
   if (Object.keys(attrs).length === 0) return null;
   let canonicalId = id;
   const sameAs = attrs.same_as ? String(attrs.same_as) : "";
   if (sameAs) {
-    const canonical = A.entityAttrs(sameAs);
+    const canonical = entityAttrsPublic(A, sameAs);
     if (Object.keys(canonical).length > 0) {
       const overlay: Record<string, TripleVal> = { ...canonical };
       for (const col of CITE_OVERLAY_COLS) {
@@ -733,7 +759,7 @@ export async function getEntity(id: string): Promise<{
   for (const t of A.getcol("linked_entity")) {
     if (t.val === id) relatedIds.add(t.row);
   }
-  for (const t of A.toTriples()) {
+  for (const t of publicTriples(A.toTriples())) {
     if (t.val === id && t.row !== id) relatedIds.add(t.row);
   }
   const related: EntitySummary[] = [];
@@ -749,7 +775,7 @@ export async function getEntity(id: string): Promise<{
         continue;
       }
     }
-    if (A.entityAttrs(rid).same_as) continue;
+    if (entityAttrsPublic(A, rid).same_as) continue;
     const s = summarizeEntity(rid, A);
     if (!s) continue;
     relatedSeen.add(rid);
@@ -768,7 +794,7 @@ export async function getEntity(id: string): Promise<{
   return {
     id,
     attrs,
-    triples: A.getrow(id),
+    triples: getrowPublic(A, id),
     summary,
     related,
   };
@@ -810,7 +836,7 @@ export async function officialStories(): Promise<EntitySummary[]> {
 export async function demoStats() {
   const A = await getAssoc();
   const allIrelandWins = A.entitiesOfType("win").filter((id) => {
-    const attrs = A.entityAttrs(id);
+    const attrs = entityAttrsPublic(A, id);
     return !attrs.same_as && isAllIrelandWinAttrs(attrs);
   });
   return {

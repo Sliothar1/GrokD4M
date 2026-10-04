@@ -5,7 +5,13 @@
  */
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { demoStats, friendlyAttrLabel, getAssoc, getEntity } from "../src/lib/data";
+import {
+  demoStats,
+  friendlyAttrLabel,
+  getAssoc,
+  getEntity,
+  getPrivateAttrs,
+} from "../src/lib/data";
 import { clubColumnLabel } from "../src/lib/clubColumns";
 import { playerClubChips } from "../src/lib/playerClubs";
 import {
@@ -231,7 +237,8 @@ async function main() {
         cuttings,
         order: playerSourceOrder(shown),
       }),
-      data.attrs
+      data.attrs,
+      getPrivateAttrs(A, data.id)
     );
     const profile = headlineVerificationStatus(index.facts, isPlayerIdentityFact);
     const counts = countStatuses(
@@ -275,8 +282,9 @@ async function main() {
         "verified"
       );
       assert.equal(byKey[cuttingFactKey("art-fohenagh-clip4")], "single-source");
-      assert.equal(byKey.notable, "unverified");
-      assert.equal(byKey.club, "unverified");
+      // Source backfill cites notable and club with one secondary page.
+      assert.equal(byKey.notable, "single-source");
+      assert.equal(byKey.club, "single-source");
     }
   }
 
@@ -294,7 +302,8 @@ async function main() {
         cuttings: [],
         order: [{ fact: "note" }, { fact: "notable" }],
       }),
-      data.attrs
+      data.attrs,
+      getPrivateAttrs(A, data.id)
     );
     assert.equal(
       index.facts.find((fact) => fact.factKey === "note")?.status,

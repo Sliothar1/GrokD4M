@@ -33,12 +33,20 @@
  *   - `confirmed_by_family`: a fact key, or several keys separated by commas
  *     or semicolons, or an array of fact keys.
  *     Example: `confirmed_by_family = "note"`.
- *   - Seed already marks two notes by writing the token `Garry-confirmed`
- *     in that fact's own value (Alan Moclair's note, Paddy Lohan's note).
- *     The token grades that fact only. It is not inferred from other columns.
- *   No other seed fact sets either marker.
+ *   - The token `Garry-confirmed` in that fact's own public value
+ *     (Alan Moclair's note, Paddy Lohan's note). The token grades that
+ *     fact only. It is not inferred from a different public column.
+ *   - The same token in `audit_<fact>` (for example `audit_note`).
+ *     That column is server-only. The page receives the status
+ *     "Confirmed by family" and never the audit text or the name Garry
+ *     as a source.
  */
 
+import {
+  factKeyForAuditCol,
+  GARRY_CONFIRMED_TOKEN,
+  isPrivateCol,
+} from "@/lib/privacy";
 import type {
   EntitySourceIndex,
   FactSourceStatus,
@@ -47,11 +55,9 @@ import type {
 } from "@/lib/sources";
 
 export type { FactSourceStatus };
+export { GARRY_CONFIRMED_TOKEN };
 
 export const FAMILY_CONFIRMATION_ATTR = "confirmed_by_family";
-
-/** Exact token already written in seed notes. Not a fuzzy name match. */
-export const GARRY_CONFIRMED_TOKEN = "Garry-confirmed";
 
 const PRINTED_DATELINE = /^\d{1,2}\s+[A-Za-z]+\s+(?:19|20)\d{2}$/;
 
@@ -208,40 +214,59 @@ export function classifyFact(
   return "unverified";
 }
 
-/**
- * Fact keys explicitly confirmed by the family.
- * Prose in a different column does not confirm this one.
- */
-export function familyConfirmedFactKeys(
-  attrs: Record<string, unknown>
-): Set<string> {
-  const keys = new Set<string>();
-  const marker = attrs[FAMILY_CONFIRMATION_ATTR];
+function addMarkerKeys(keys: Set<string>, marker: unknown): void {
   if (typeof marker === "string") {
     for (const part of marker.split(/[,;]/)) {
       const key = part.trim();
-      if (key) keys.add(key);
+      if (key && !isPrivateCol(key)) keys.add(key);
     }
   } else if (Array.isArray(marker)) {
     for (const part of marker) {
-      if (typeof part === "string" && part.trim()) keys.add(part.trim());
+      if (typeof part === "string" && part.trim() && !isPrivateCol(part.trim())) {
+        keys.add(part.trim());
+      }
     }
   }
+}
 
-  for (const [key, value] of Object.entries(attrs)) {
-    if (key === FAMILY_CONFIRMATION_ATTR) continue;
-    if (typeof value === "string" && value.includes(GARRY_CONFIRMED_TOKEN)) {
-      keys.add(key);
-    }
+function addTokenKey(keys: Set<string>, key: string, value: unknown): void {
+  if (key === FAMILY_CONFIRMATION_ATTR) return;
+  if (typeof value !== "string" || !value.includes(GARRY_CONFIRMED_TOKEN)) return;
+  if (isPrivateCol(key)) {
+    const fact = factKeyForAuditCol(key);
+    if (fact) keys.add(fact);
+    return;
+  }
+  keys.add(key);
+}
+
+/**
+ * Fact keys explicitly confirmed by the family.
+ * Prose in a different public column does not confirm this one.
+ * `privateAttrs` is the server-only `audit_*` map from `getPrivateAttrs`.
+ * A token in `audit_note` confirms `note`. The audit string is not returned.
+ */
+export function familyConfirmedFactKeys(
+  attrs: Record<string, unknown>,
+  privateAttrs: Record<string, unknown> = {}
+): Set<string> {
+  const keys = new Set<string>();
+  addMarkerKeys(keys, attrs[FAMILY_CONFIRMATION_ATTR]);
+  addMarkerKeys(keys, privateAttrs[FAMILY_CONFIRMATION_ATTR]);
+
+  for (const [key, value] of Object.entries(attrs)) addTokenKey(keys, key, value);
+  for (const [key, value] of Object.entries(privateAttrs)) {
+    addTokenKey(keys, key, value);
   }
   return keys;
 }
 
 export function annotateEntityVerification<T extends EntitySourceIndex>(
   index: T,
-  attrs: Record<string, unknown> = {}
+  attrs: Record<string, unknown> = {},
+  privateAttrs: Record<string, unknown> = {}
 ): T {
-  const family = familyConfirmedFactKeys(attrs);
+  const family = familyConfirmedFactKeys(attrs, privateAttrs);
   const facts: ResolvedFact[] = index.facts.map((fact) => ({
     ...fact,
     status: classifyFact(fact.sources, family.has(fact.factKey)),

@@ -4,6 +4,7 @@ import {
   isEntityRef,
 } from "@/lib/data";
 import { isDisplayableVal } from "@/lib/entityDisplay";
+import { publicTriples } from "@/lib/privacy";
 import type { Triple } from "@/lib/d4m/AssocArray";
 
 export async function DeveloperTriples({
@@ -14,7 +15,7 @@ export async function DeveloperTriples({
   hideScore?: boolean;
 }) {
   const A = await getAssoc();
-  const lines = triples.filter(
+  const lines = publicTriples(triples).filter(
     (t) =>
       t.col !== "confidence" &&
       isDisplayableVal(t.val) &&
