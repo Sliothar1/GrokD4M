@@ -3650,6 +3650,16 @@
     "val": "https://en.wikipedia.org/wiki/Joe_Canning"
   },
   {
+    "row": "player:joe-canning",
+    "col": "debut",
+    "val": 2008
+  },
+  {
+    "row": "player:joe-canning",
+    "col": "source_debut",
+    "val": "https://en.wikipedia.org/w/index.php?title=Joe_Canning&oldid=1372044432"
+  },
+  {
     "row": "player:david-burke",
     "col": "type",
     "val": "player"
@@ -3785,6 +3795,16 @@
     "val": "https://en.wikipedia.org/wiki/Joe_Cooney"
   },
   {
+    "row": "player:joe-cooney",
+    "col": "all_stars",
+    "val": 5
+  },
+  {
+    "row": "player:joe-cooney",
+    "col": "source_all_stars",
+    "val": "https://en.wikipedia.org/w/index.php?title=Joe_Cooney&oldid=1370776870"
+  },
+  {
     "row": "player:conor-whelan",
     "col": "type",
     "val": "player"
@@ -3830,6 +3850,26 @@
     "val": "https://en.wikipedia.org/wiki/Conor_Whelan"
   },
   {
+    "row": "player:conor-whelan",
+    "col": "all_stars",
+    "val": 2
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "source_all_stars",
+    "val": "https://en.wikipedia.org/w/index.php?title=Conor_Whelan&oldid=1362737691"
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "debut",
+    "val": 2015
+  },
+  {
+    "row": "player:conor-whelan",
+    "col": "source_debut",
+    "val": "https://en.wikipedia.org/w/index.php?title=Conor_Whelan&oldid=1362737691"
+  },
+  {
     "row": "player:joseph-cooney",
     "col": "type",
     "val": "player"
@@ -3873,6 +3913,16 @@
     "row": "player:joseph-cooney",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Joseph_Cooney"
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "debut",
+    "val": 2012
+  },
+  {
+    "row": "player:joseph-cooney",
+    "col": "source_debut",
+    "val": "https://en.wikipedia.org/w/index.php?title=Joseph_Cooney&oldid=1363505864"
   },
   {
     "row": "player:cathal-mannion",
@@ -4488,6 +4538,16 @@
     "row": "player:eugene-cloonan",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Eugene_Cloonan"
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "debut",
+    "val": 1997
+  },
+  {
+    "row": "player:eugene-cloonan",
+    "col": "source_debut",
+    "val": "https://en.wikipedia.org/w/index.php?title=Eugene_Cloonan&oldid=1363509804"
   },
   {
     "row": "player:joe-rabbitte",
@@ -5108,6 +5168,26 @@
     "row": "player:conor-cooney",
     "col": "source",
     "val": "https://en.wikipedia.org/wiki/Conor_Cooney"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "all_stars",
+    "val": 1
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "source_all_stars",
+    "val": "https://en.wikipedia.org/w/index.php?title=Conor_Cooney&oldid=1363158374"
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "debut",
+    "val": 2012
+  },
+  {
+    "row": "player:conor-cooney",
+    "col": "source_debut",
+    "val": "https://en.wikipedia.org/w/index.php?title=Conor_Cooney&oldid=1363158374"
   },
   {
     "row": "player:iarla-tannian",
