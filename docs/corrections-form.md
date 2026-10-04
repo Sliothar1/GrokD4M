@@ -40,8 +40,17 @@ This is a CLI only, with no web route:
 | `CORRECTIONS_FORM_ENABLED=1` | showing the link and form in **Production** (Garry's go-live switch). `=0` forces it off everywhere | off in Production, on in Preview and dev |
 | `CORRECTIONS_READ_WRITE_TOKEN` (made by connecting a **new private** Blob store with prefix `CORRECTIONS`) or `CORRECTIONS_BLOB_READ_WRITE_TOKEN` | saving submissions | none. Without it the API returns 503 and saves nothing |
 | `CORRECTIONS_STORE_ID` | explicit private store id (recommended; otherwise parsed from the token) | parsed from the token |
-| `CORRECTIONS_NOTIFY=resend` + `RESEND_API_KEY` + `CORRECTIONS_NOTIFY_FROM` (+ optional `CORRECTIONS_NOTIFY_TO`, default garrylohan@gmail.com) | email to Garry for each new item. The email has no name or email in it, only "contact given: yes/no" | **off** |
+| `CORRECTIONS_NOTIFY=resend` + `RESEND_API_KEY` + `CORRECTIONS_NOTIFY_FROM` (+ optional `CORRECTIONS_NOTIFY_TO`, default garrylohan@gmail.com) | email to Garry for each new item (see "Notification content" below) | **off** |
 | `CORRECTIONS_RL_SALT` | optional salt for the rate-limit hash | random per instance |
+
+## Notification content (Bainisteoir QC)
+- The subject and the body are the same single line, built only from the request type, the page path and the queue id:
+  `New correction request: /player/<slug>, id <id>` or `New removal request: /club/<slug>, id <id>`.
+- The email never carries the submitter's name, email, message text or source link, or the received time. Garry reads everything else from the private queue (`scripts/corrections-queue.mjs show <id>`).
+
+## Logging
+- Server logs carry status only: `corrections: notify skipped: …` / `notify failed: HTTP <code>` / `notify failed: <ErrorName>`, and `corrections: save failed <ErrorName>`.
+- No submitter fields (name, email, message text, source link) and no IPs are ever logged.
 
 ## Known limits and decisions
 - The existing public Blob store (`hurlingwiki-blob1`) was **suspended on Hobby** as of 11 Sep. A private store also counts against Hobby Blob limits: the form writes one simple op per submission, and moderation uses list ops. Garry decides between a new private store on Hobby and Pro.

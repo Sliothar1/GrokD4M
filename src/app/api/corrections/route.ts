@@ -8,8 +8,6 @@ import { MIN_FILL_MS, validateSubmission } from "@/lib/corrections/validate";
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://hurlingwiki.vercel.app";
-
 function json(body: unknown, status = 200, headers: Record<string, string> = {}) {
   return NextResponse.json(body, {
     status,
@@ -64,7 +62,8 @@ export async function POST(req: Request) {
     return json({ error: "Could not save your request. Please try again later." }, 500);
   }
 
-  const note = await notifyNewSubmission(s, SITE);
+  const note = await notifyNewSubmission(s);
+  // Logs carry status only — never submitter fields (name, email, text, link).
   if (note !== "notified") console.info(`corrections: ${note}`);
 
   return json({ ok: true, id: s.id, priority: s.priority });
