@@ -52,6 +52,9 @@ export function normalizeSearchText(value: string): string {
   return value
     .trim()
     .toLowerCase()
+    // Fold Irish fadas and other accents so "Sean" finds "Seán", "Seamus" finds "Séamus".
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/[-_/]+/g, " ")
     .replace(/\s+/g, " ");
 }

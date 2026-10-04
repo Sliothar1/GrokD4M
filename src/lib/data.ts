@@ -632,7 +632,10 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
       if (!attrs.type && !id.includes(":")) continue;
       const summary = summarizeEntity(id, A);
       if (!summary) continue;
-      const blob = `${summary.title} ${summary.subtitle ?? ""} ${summary.id} ${Object.values(attrs).join(" ")}`.toLowerCase();
+      const blob = `${summary.title} ${summary.subtitle ?? ""} ${summary.id} ${Object.values(attrs).join(" ")}`
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
       if (tokens.every((tok) => blob.includes(tok))) {
         seen.add(id);
         out.push(summary);
