@@ -126542,7 +126542,7 @@
   {
     "row": "player:raymond-higgins-fohenagh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:raymond-higgins-fohenagh",
@@ -126557,17 +126557,17 @@
   {
     "row": "player:raymond-higgins-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "verified_from_cutting"
   },
   {
     "row": "player:raymond-higgins-fohenagh",
     "col": "notable",
-    "val": "Called up for the East Galway minor hurling trial at Loughrea, May 1995 (Connacht Tribune, 12 May 1995)"
+    "val": "Fohenagh Minor C hurling champion in 1996; called up for the East Galway minor hurling trial at Loughrea in May 1995 (Galway GAA roll of honour 1996; Connacht Tribune, 12 May 1995)"
   },
   {
     "row": "player:raymond-higgins-fohenagh",
     "col": "verification",
-    "val": "Named in newspaper cutting"
+    "val": "Named on Galway GAA roll of honour and in newspaper cutting"
   },
   {
     "row": "player:kieran-molloy-fohenagh",
@@ -152067,7 +152067,7 @@
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "confidence",
-    "val": "unverified"
+    "val": "verified"
   },
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
@@ -152082,17 +152082,17 @@
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "verified_from_cutting"
   },
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "notable",
-    "val": "Called up for the East Galway minor hurling trial at Loughrea, May 1995 (Connacht Tribune, 12 May 1995)"
+    "val": "County Junior C hurling champion with Ahascragh-Fohenagh in 2009; called up for the East Galway minor hurling trial at Loughrea in May 1995 (Galway GAA roll of honour 2009; Connacht Tribune, 12 May 1995)"
   },
   {
     "row": "player:declan-glynn-ahascragh-fohenagh",
     "col": "verification",
-    "val": "Named in newspaper cutting"
+    "val": "Named on Galway GAA roll of honour and in newspaper cutting"
   },
   {
     "row": "player:darren-cotton-ahascragh-fohenagh",
