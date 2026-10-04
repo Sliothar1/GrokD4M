@@ -9,8 +9,8 @@ const BADGE_CLASS: Record<FactSourceStatus, string> = {
   verified: "bg-green-100 text-green-900",
   "single-source": "bg-amber-100 text-amber-950",
   unverified: "bg-stone-200 text-stone-800",
-  "confirmed-by-family":
-    "border border-galway-maroon/50 bg-galway-cream text-galway-maroon",
+  // Legacy value: rendered exactly like Verified (no family chip).
+  "confirmed-by-family": "bg-green-100 text-green-900",
 };
 
 /**
