@@ -104,6 +104,8 @@ function syncBlobEnvAliases(): void {
   if (!process.env.BLOB_READ_WRITE_TOKEN) {
     for (const [k, v] of Object.entries(process.env)) {
       if (!v) continue;
+      // Never pick up the PRIVATE corrections store (S3) for public cuttings.
+      if (/^CORRECTIONS_/i.test(k)) continue;
       if (/READ_WRITE_TOKEN$/i.test(k) || /^BLOB.*TOKEN$/i.test(k)) {
         process.env.BLOB_READ_WRITE_TOKEN = v;
         break;
@@ -113,6 +115,7 @@ function syncBlobEnvAliases(): void {
   if (!process.env.BLOB_STORE_ID) {
     for (const [k, v] of Object.entries(process.env)) {
       if (!v) continue;
+      if (/^CORRECTIONS_/i.test(k)) continue;
       if (/STORE_ID$/i.test(k)) {
         process.env.BLOB_STORE_ID = v;
         break;
