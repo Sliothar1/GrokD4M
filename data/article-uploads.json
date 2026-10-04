@@ -1577,5 +1577,35 @@
     "sourceUrl": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/",
     "status": "pending",
     "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1995-09-01-fohenagh-win-ballygar",
+    "kind": "image",
+    "filename": "art-ina-ct-1995-09-01-fohenagh-win-ballygar.png",
+    "path": "/uploads/articles/art-ina-ct-1995-09-01-fohenagh-win-ballygar.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1995-09-01-fohenagh-win-ballygar.png",
+    "uploadedAt": "2026-10-04T09:55:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 1 Sep 1995: Fohenagh Win — Fohenagh Junior “A” hurlers beat Ballygar 0-11 to 0-9 at Ahascragh; Alan Mockler and Garry Lohan named among the forwards who best served Fohenagh. Alan Mockler (print) = Alan Moclair, Garry-confirmed 4 Oct 2026",
+    "year": "1995",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "junior",
+      "championship",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:garry-lohan",
+      "player:alan-moclair-ahascragh-fohenagh"
+    ],
+    "excerpt": "FOHENAGH WIN The Fohenagh Junior “A” hurlers kept their championship hopes alive when they defeated Ballygar 0-11 to 0-9 in a hard fought game at Ahascragh on Saturday evening last. The first half was closely contested and the sides finished level 0-5 each with goal opportunities missed by both sides. Ballygar forged ahead to lead 0-9 to 0-7 but the Fohenagh side scored the last four points to run out deserving winners. Fohenagh still hope for a Sarsfields victory over Ballygar to stay in the race. They were best served by Noel Higgins (in goal), backs, Michael Barrett, Colm Kirwan and the Leonard brothers, Padraic and Niall, Raymond Higgins and Jimmy Devine (until injured) at midfield and forwards, John Devine, Alan Mockler, Garry Lohan and free taker, Alan Madden. The Ballygar side were best served by Pat Quinn, Tom Feeney, Frank Harkin (in goal), Paddy Flynn, Eamonn Larkin and Tomás Kilcommins.",
+    "citeChip": "Connacht Tribune · 1 Sep 1995 · p.7 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19950901.1.7",
+    "status": "pending",
+    "matchTags": []
   }
 ]
