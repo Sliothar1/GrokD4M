@@ -244337,11 +244337,6 @@
   {
     "row": "player:niall-leonard",
     "col": "club",
-    "val": "club:ahascragh-fohenagh"
-  },
-  {
-    "row": "player:niall-leonard",
-    "col": "club_1",
     "val": "club:fohenagh-historic"
   },
   {
@@ -247412,7 +247407,7 @@
   {
     "row": "player:john-devine",
     "col": "notable",
-    "val": "Connacht U-16 hurling champion with Fohenagh in 1989 (Connacht Tribune, 27 Oct 1989). Named among those who best served Fohenagh in the 1995 Junior A win over Ballygar and in the 1998 Sadie Kilcommons final win over Ahascragh (Connacht Tribune, 1 Sep 1995 and 21 Aug 1998); also in the 1993 county Junior A final side against Athenry (Connacht Tribune, 5 Nov 1993)."
+    "val": "Connacht U-16 hurling champion with Fohenagh in 1989 (Connacht Tribune, 27 Oct 1989). Named among those who best served Fohenagh in the 1995 Junior A win over Ballygar and in the 1998 Sadie Kilcommons final win over Ahascragh (Connacht Tribune, 1 Sep 1995 and 21 Aug 1998); also in the 1993 county Junior A final side against Athenry (Connacht Tribune, 5 Nov 1993). Brother of Jimmy Devine."
   },
   {
     "row": "player:john-devine",
@@ -249959,5 +249954,110 @@
     "val": "Member of Galway U14 panel - Ahascragh-Fohenagh",
     "source": "Garry Lohan",
     "confidence": "high"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "name",
+    "val": "Jimmy Devine"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_club",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "position",
+    "val": "Midfielder"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_position",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "notable",
+    "val": "Named in the Fohenagh team photo after the county Junior A final loss to Sarsfields; the report said 'Madden, the Devines, and Niall Leonard tried hardest for Fohenagh' (Connacht Tribune, 6 Dec 1996). Best served at midfield, until injured, in the Junior A win over Ballygar (Connacht Tribune, 1 Sep 1995). Came on as a substitute for Fallon, 34 minutes, in the 1993 county Junior A final against Athenry (Connacht Tribune, 5 Nov 1993)."
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_notable",
+    "val": "art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_notable_2",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_notable_3",
+    "val": "art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "kid_chip",
+    "val": "1996 county Junior A final team"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_kid_chip",
+    "val": "art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 6 Dec 1996 · p.16 · INA"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "verification",
+    "val": "Named in newspaper cutting — auto-verified"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "brother",
+    "val": "player:john-devine"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "brother_basis",
+    "val": "Verified."
+  },
+  {
+    "row": "player:john-devine",
+    "col": "brother",
+    "val": "player:jimmy-devine-fohenagh"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "brother_basis",
+    "val": "Verified."
   }
 ]

@@ -275,7 +275,7 @@ def main():
         "player:niall-leonard",
         {
             "name": "Niall Leonard",
-            "club": "club:ahascragh-fohenagh",
+            "club": "club:fohenagh-historic",
             "confidence": "verified",
             "status": "archivist_approved",
             "notable": "A powerful and stylish defender",
