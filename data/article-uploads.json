@@ -2392,5 +2392,381 @@
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20001111.1.25",
     "status": "pending",
     "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2002-03-09-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2002-03-09-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2002-03-09-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2002-03-09-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Minor hurling v Kilnadeema-Leitrim; Trevor Lohan in the team",
+    "year": "2002",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "minor",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:alan-smyth-ahascragh-fohenagh",
+      "player:laurence-tully",
+      "player:jason-lohan"
+    ],
+    "excerpt": "The team was: Mark Smyth, Mark Mulryan, Colm Geraghty, John Noone, Trevor Lohan, Cyril Mockler, Alan Molloy, Niall Keighrey, Michael Reynolds, Cathal Barrett, John Gormally, Alan Devine, Laurence Tully, Alan Smyth, Shane Bannerton.",
+    "citeChip": "Tuam Herald · 9 Mar 2002 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20020309.1.23",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2002-04-06-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2002-04-06-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2002-04-06-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2002-04-06-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Minor hurling beat Ballinasloe 3-15 to 0-7; Trevor Lohan in the team",
+    "year": "2002",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "minor",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:alan-smyth-ahascragh-fohenagh",
+      "player:william-lyons-ahascragh-fohenagh"
+    ],
+    "excerpt": "...Alan Molloy, John Smyth, Cyril Mockler, Michael Reynolds, Niall Keighery, Trevor Lohan, Alan Smyth, Shane Bannerton, Alan Dunne, Kevin Hennelly, Cathal Barrett. Subs., William Lyons, Brendan Kilroy, Philip Kennedy, Francis Mitchell.",
+    "citeChip": "Tuam Herald · 6 Apr 2002 · p.21 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20020406.1.21",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2002-05-18-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2002-05-18-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2002-05-18-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2002-05-18-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Minor championship, Killimor 2-14 Ahascragh-Fohenagh 3-6; Trevor Lohan among the subs",
+    "year": "2002",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "minor",
+      "championship",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:alan-smyth-ahascragh-fohenagh"
+    ],
+    "excerpt": "...Subs., Alan Molloy, Brendan Kilroy, Jonathan Noone, Francis Mitchell, Trevor Lohan, Philip Kennedy, Kevin Carew, John Gormally.",
+    "citeChip": "Tuam Herald · 18 May 2002 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20020518.1.23",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-1999-04-03-ahascragh-caltra-trevor",
+    "kind": "image",
+    "filename": "art-ina-tth-1999-04-03-ahascragh-caltra-trevor.png",
+    "path": "/uploads/articles/art-ina-tth-1999-04-03-ahascragh-caltra-trevor.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1999-04-03-ahascragh-caltra-trevor.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Caltra U-14 challenge v St Gabriel's, Kilconnell; Trevor Lohan in the team",
+    "year": "1999",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u14",
+      "caltra",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh"
+    ],
+    "excerpt": "Team: Damien Coen; Adrian Forde, Brendan Kilroy, David Ryan; Thomas Dalton, Trevor Lohan, Mark Mulryan; Shane Hogan, John Smyth; David Hannon, Brian Kitt, Dara Hannon; Declan Kelly, Francis Mitchell, Niall Loughrey.",
+    "citeChip": "Tuam Herald · 3 Apr 1999 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19990403.1.23",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-1999-04-10-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-1999-04-10-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-1999-04-10-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1999-04-10-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: the team that played Rahoon-Newcastle, including Trevor Lohan",
+    "year": "1999",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:jp-egan-ahascragh-fohenagh",
+      "player:jason-lohan"
+    ],
+    "excerpt": "Francis Mitchell; Colm Griffin, Philip Kennedy, Jonathan Noone; Shane Bannerton, John Smyth, Alan Brennan; Shane Hogan, Alan Molloy; Simon Leonard, Brendan Kilroy, Trevor Lohan; Stephen Dervin, Kevin Hennelly and Cathal Barrett. Subs., Joe Costello, Damien Coen, David Hannon, Adrian McCormack and J. P. Egan.",
+    "citeChip": "Tuam Herald · 10 Apr 1999 · p.19 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19990410.1.19",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-1999-06-06-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-1999-06-06-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-1999-06-06-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1999-06-06-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Caltra U-14 lost to Tuam Stars 1-12 to 3-4; Trevor Lohan in the team",
+    "year": "1999",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u14",
+      "caltra",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:alan-smyth-ahascragh-fohenagh"
+    ],
+    "excerpt": "The team was: Paul Bellew; Mark Mulryan, Ian Cunniffe; Thomas Dalton, Kevin Hennelly, Shane Bannerton; Niall Keighrey, Mark O'Neill; Tomas Kenny; Philip Kennedy, Trevor Lohan; Alan Smyth, John Smyth. Subs., Colm Griffin, Kieran Forde, Adrian Forde, Philip McCormack and Niall Mitchell.",
+    "citeChip": "Tuam Herald · 6 Jun 1999 · p.25 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19990606.1.25",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2000-05-27-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2000-05-27-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2000-05-27-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2000-05-27-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: U-16 challenge v Kiltormer; Trevor Lohan in the team",
+    "year": "2000",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u16",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:alan-smyth-ahascragh-fohenagh",
+      "player:william-lyons-ahascragh-fohenagh"
+    ],
+    "excerpt": "Team Francis Mitchell; Colm Griffin, Colm Geraghty, Kevin Carew; Alan Molloy, William Lyons, John Smyth; Niall Keighrey, Alan Smyth; Trevor Lohan, Michael Reynolds, Kevin Hennelly; Alan Devine, Philip Kennedy, Cathal Barrett.",
+    "citeChip": "Tuam Herald · 27 May 2000 · p.27 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20000527.1.27",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2001-07-28-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2001-07-28-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2001-07-28-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2001-07-28-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: U-16 draw with Mullagh; Trevor Lohan named",
+    "year": "2001",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u16",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:jp-egan-ahascragh-fohenagh",
+      "player:jason-lohan"
+    ],
+    "excerpt": "...Shane Hogan, Alan Brennan, Colm Griffin, Jonathan Noone, Philip Kennedy, John Smyth, Shane Bannerton, Simon Leonard, Kevin Hennelly, Trevor Lohan, Brendan Kilroy, Stephen Dervin, Cathal Barrett, Francis Mitchell, Mark Smyth, Alan Molloy, Dara Hannon, Niall Murray, David Hannon, Joe Costello, Joe Bannerton, J. P. Egan, Tomas Nolan, Aidan Forde, Philip McCormack, Wayne Dowd.",
+    "citeChip": "Tuam Herald · 28 Jul 2001 · p.26 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20010728.1.26",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2001-07-07-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2001-07-07-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2001-07-07-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2001-07-07-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: U-16 hurling and the minor panel, both naming Trevor Lohan",
+    "year": "2001",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u16",
+      "minor",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh",
+      "player:alan-smyth-ahascragh-fohenagh",
+      "player:william-lyons-ahascragh-fohenagh",
+      "player:marcus-devine-ahascragh-fohenagh",
+      "player:ronan-kennedy-ahascragh-fohenagh",
+      "player:jason-lohan"
+    ],
+    "excerpt": "...Alan Brennan, David Hannon, Trevor Lohan, Adrian Forde, Niall Murray, Brendan Kilroy, Tomas Nolan, Wayne Dowd. ...Alan Devine, John Gormally, Trevor Lohan, Cathal Barrett, Ronan Kennedy, Kevin Carew, Eamon Brophy",
+    "citeChip": "Tuam Herald · 7 Jul 2001 · p.21 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20010707.1.21",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2001-07-21-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2001-07-21-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2001-07-21-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2001-07-21-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Caltra U-16 v Monivea-Abbey; Trevor Lohan in the team",
+    "year": "2001",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u16",
+      "caltra",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh"
+    ],
+    "excerpt": "Team: Francis Mitchell; Brendan Kilroy, John Smyth, Joe Costello, Tomas Dalton, Kevin Hennelly, Niall Loughery; Simon Leonard, Oisin Kelly; Dara Hannon, Trevor Lohan, Marcus O'Neill; David Hannon, Shane Hogan, Michael O'Donnell...",
+    "citeChip": "Tuam Herald · 21 Jul 2001 · p.22 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20010721.1.22",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-2001-08-18-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-tth-2001-08-18-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-tth-2001-08-18-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-2001-08-18-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Tuam Herald — Caltra festival U-16 hurling; Trevor Lohan named",
+    "year": "2001",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u16",
+      "caltra",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh"
+    ],
+    "excerpt": "...Francis Mitchell, Declan Kelly, Michael O'Donnell, Joe Costello, Tom Dalton, Kevin Hennelly, Trevor Lohan, Oisin Kelly, John Smyth, Brian Kitt, Marcus O'Neill, Dara Hannon, David Hannon, Simon Leonard, Joseph Bannerton, Mark Cunniffe, Patrick Birch.",
+    "citeChip": "Tuam Herald · 18 Aug 2001 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20010818.1.23",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1999-06-04-p4-af-trevor-lohan",
+    "kind": "image",
+    "filename": "art-ina-ct-1999-06-04-p4-af-trevor-lohan.png",
+    "path": "/uploads/articles/art-ina-ct-1999-06-04-p4-af-trevor-lohan.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1999-06-04-p4-af-trevor-lohan.png",
+    "uploadedAt": "2026-10-05T13:15:00.000000+00:00",
+    "caption": "Connacht Tribune — Ahascragh-Fohenagh U-12 B final v Carnmore (4-3 to 2-7); Trevor Lohan on the panel",
+    "year": "1999",
+    "tags": [
+      "hurling",
+      "ahascragh-fohenagh",
+      "u12",
+      "final",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:ahascragh-fohenagh"
+    ],
+    "playerTags": [
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:jp-egan-ahascragh-fohenagh"
+    ],
+    "excerpt": "The Panel: Francis Mitchell, Colm Griffen, Philip Kennedy, Mark Kelly, Simon Leonard, John Smyth, Mark Mulryan, Shane Hogan, Nicola Gavin, Shane Bannerton, Gemma Kelly, Stephen Dervan, Alan Molloy, Kevin Hennelly, Trevor Lohan. Subs (used): Brenden Kilroy, J.P. Egan.",
+    "citeChip": "Connacht Tribune · 4 Jun 1999 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19990604.1.4",
+    "status": "pending",
+    "matchTags": []
   }
 ]
