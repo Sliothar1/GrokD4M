@@ -387,20 +387,16 @@ export function normalizePlayerTags(tags: string[] | undefined): string[] {
   return out;
 }
 
-const FOHENAGH_CLUB_IDS = [
-  "club:fohenagh-historic",
-  "club:ahascragh-fohenagh",
-] as const;
-
 /**
- * Normalize club tags and, when any Fohenagh-family label is present,
- * ensure club:fohenagh-historic + club:ahascragh-fohenagh are included
- * (aliases: fohenagh / fohenagh-historic / ahascragh-fohenagh).
+ * Normalize club tags. Three clubs stay separate:
+ * club:fohenagh-historic, club:ahascragh-historic, club:ahascragh-fohenagh.
+ * Bare fohenagh / old-fohenagh map only to historic Fohenagh.
+ * Bare ahascragh-fohenagh maps only to the amalgam.
+ * Explicit tags are kept as written — historic and amalgam are not paired.
  */
 export function normalizeClubTags(tags: string[] | undefined): string[] {
   const out: string[] = [];
   const seen = new Set<string>();
-  let fohenaghFamily = false;
 
   const push = (id: string) => {
     const v = id.toLowerCase();
@@ -418,35 +414,29 @@ export function normalizeClubTags(tags: string[] | undefined): string[] {
     if (
       bare === "fohenagh" ||
       bare === "fohenagh-historic" ||
-      bare === "old-fohenagh" ||
-      bare === "ahascragh-fohenagh" ||
-      bare === "ahascraghfohenagh"
+      bare === "old-fohenagh"
     ) {
-      fohenaghFamily = true;
-      if (bare === "ahascragh-fohenagh" || bare === "ahascraghfohenagh") {
-        push("club:ahascragh-fohenagh");
-      } else {
-        push("club:fohenagh-historic");
-      }
+      push("club:fohenagh-historic");
+      continue;
+    }
+
+    if (bare === "ahascragh-fohenagh" || bare === "ahascraghfohenagh") {
+      push("club:ahascragh-fohenagh");
+      continue;
+    }
+
+    if (bare === "ahascragh-historic" || bare === "old-ahascragh") {
+      push("club:ahascragh-historic");
       continue;
     }
 
     if (/^club:[a-z0-9-]+$/i.test(t)) {
       push(t);
-      if (bare.includes("fohenagh")) fohenaghFamily = true;
       continue;
     }
 
-    // Loose club name → club:slug
     const slug = slugify(bare);
-    if (slug) {
-      push(`club:${slug}`);
-      if (slug.includes("fohenagh")) fohenaghFamily = true;
-    }
-  }
-
-  if (fohenaghFamily) {
-    for (const id of FOHENAGH_CLUB_IDS) push(id);
+    if (slug) push(`club:${slug}`);
   }
 
   return out.slice(0, 12);

@@ -640,6 +640,11 @@
     "val": "https://www.galwaygaa.ie/stats-galway-senior-hurling-club-finals-1887-2021/"
   },
   {
+    "row": "club:fohenagh-historic",
+    "col": "hero_cutting",
+    "val": "art-ct-1959-09-05-fohenagh-castlegar-portrait"
+  },
+  {
     "row": "match:fohenagh-historic-1960-galway-shc-final",
     "col": "type",
     "val": "match"

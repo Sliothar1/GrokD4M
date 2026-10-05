@@ -21,6 +21,7 @@ import {
 } from "@/lib/data";
 import type { AssocArray } from "@/lib/d4m/AssocArray";
 import { loadCitationUploads } from "@/lib/articles";
+import { resolveEntityHero } from "@/lib/heroCutting";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
 import {
@@ -48,8 +49,6 @@ export async function EntityView({ data }: { data: EntityPayload }) {
     (attrs.confidence ? friendlyTrustLabel(String(attrs.confidence)) : undefined);
 
   const isAmalgam = id === "club:ahascragh-fohenagh";
-  const isHistoric =
-    id === "club:fohenagh-historic" || id === "club:ahascragh-historic";
   const isHistoricFohenagh = id === "club:fohenagh-historic";
   const isHistoricAhascragh = id === "club:ahascragh-historic";
   const isHistoricMatch =
@@ -60,7 +59,12 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   const hideScore =
     attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
   const cuttingCards = related.filter((r) => r.kind === "article_upload");
-  const heroCutting = cuttingCards.find((c) => c.imagePath) ?? cuttingCards[0];
+  const heroCutting = await resolveEntityHero({
+    entityId: id,
+    kind: summary.kind,
+    attrs,
+    cuttings: cuttingCards,
+  });
   const clubRoster =
     summary.kind === "club" ? await listClubRoster(id, A) : [];
 
@@ -108,7 +112,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
             </span>
           )}
         </div>
-        {isHistoric && (
+        {isHistoricAhascragh && (
           <div className="pt-1">
             <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
               Before Ahascragh-Fohenagh

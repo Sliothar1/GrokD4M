@@ -50,6 +50,8 @@ export const HIDDEN_ATTRS = new Set([
   "club_history",
   "parish_club",
   "also_club",
+  "hero_cutting",
+  "featured_cutting",
 ]);
 
 export function isHiddenFactKey(k: string): boolean {
