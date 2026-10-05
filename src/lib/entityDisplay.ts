@@ -52,11 +52,28 @@ export const HIDDEN_ATTRS = new Set([
   "also_club",
   "hero_cutting",
   "featured_cutting",
+  // press_praise* and source_press_praise*. Further numbers are hidden
+  // by isPressPraiseAttr via isHiddenFactKey.
+  "press_praise",
+  "press_praise_2",
+  "source_press_praise",
+  "source_press_praise_2",
 ]);
+
+/**
+ * Newspaper praise lines and their article ids.
+ * `press_praise`, `press_praise_2`, … and `source_press_praise`, `source_press_praise_2`, …
+ */
+const PRESS_PRAISE_ATTR = /^(?:source_)?press_praise(?:_\d+)?$/;
+
+export function isPressPraiseAttr(k: string): boolean {
+  return PRESS_PRAISE_ATTR.test(k);
+}
 
 export function isHiddenFactKey(k: string): boolean {
   if (HIDDEN_ATTRS.has(k)) return true;
   if (k.startsWith("cutting:")) return true;
+  if (isPressPraiseAttr(k)) return true;
   return false;
 }
 
@@ -175,6 +192,67 @@ export function playerArchiveNote(
 /** @deprecated Use playerNotableText — never fall back to `note` as the glow. */
 export function playerBioText(attrs: Record<string, TripleVal>): string | null {
   return playerNotableText(attrs);
+}
+
+export type PressPraiseLine = {
+  key: string;
+  before: string;
+  linkText: string;
+  after: string;
+  articleId: string;
+};
+
+const PRESS_PRAISE_FACT = /^press_praise(?:_(\d+))?$/;
+/** One `[bracketed phrase]` and no other brackets. */
+const ONE_BRACKET = /^([^[\]]*)\[([^[\]]+)\]([^[\]]*)$/;
+const ARTICLE_ID = /^(?:article:)?(art-[a-z0-9][a-z0-9-]*)$/i;
+
+/**
+ * Praise lines for the profile block.
+ * A line is kept only when it has one bracketed phrase and a paired article id.
+ * Numbered columns sort in numeric order after the unnumbered column.
+ */
+export function pressPraiseLines(
+  attrs: Record<string, TripleVal>
+): PressPraiseLine[] {
+  const keys = Object.keys(attrs)
+    .map((key) => {
+      const match = key.match(PRESS_PRAISE_FACT);
+      if (!match) return null;
+      const index = match[1] ? Number(match[1]) : 0;
+      if (!Number.isInteger(index) || index < 0) return null;
+      return { key, index };
+    })
+    .filter((item): item is { key: string; index: number } => item !== null)
+    .sort((a, b) => a.index - b.index || a.key.localeCompare(b.key));
+
+  const lines: PressPraiseLine[] = [];
+  for (const { key } of keys) {
+    const raw = attrs[key];
+    if (!isDisplayableVal(raw)) continue;
+    const parsed = parsePressPraiseSentence(String(raw).trim());
+    if (!parsed) continue;
+    const articleId = pressPraiseArticleId(attrs[`source_${key}`]);
+    if (!articleId) continue;
+    lines.push({ key, ...parsed, articleId });
+  }
+  return lines;
+}
+
+function parsePressPraiseSentence(
+  sentence: string
+): { before: string; linkText: string; after: string } | null {
+  const match = sentence.match(ONE_BRACKET);
+  if (!match) return null;
+  const linkText = match[2].trim();
+  if (!linkText) return null;
+  return { before: match[1], linkText, after: match[3] };
+}
+
+function pressPraiseArticleId(raw: unknown): string | null {
+  if (!isDisplayableVal(raw)) return null;
+  const match = String(raw).trim().match(ARTICLE_ID);
+  return match ? match[1] : null;
 }
 
 /** Fact keys actually rendered on the player page, in section order. */

@@ -3,6 +3,7 @@ import {
   CuttingExcerpts,
   type CuttingCard,
 } from "@/components/player/CuttingExcerpts";
+import { InThePapers } from "@/components/player/InThePapers";
 import { NotableIntro } from "@/components/player/NotableIntro";
 import { PlayerCareer } from "@/components/player/PlayerCareer";
 import { ProfileStrip } from "@/components/player/ProfileStrip";
@@ -25,6 +26,7 @@ import {
   playerNotesText,
   playerOnPageFactKeys,
   playerSourceOrder,
+  pressPraiseLines,
 } from "@/lib/entityDisplay";
 import { playerClubChips } from "@/lib/playerClubs";
 import {
@@ -45,8 +47,8 @@ type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
 /**
  * Locked ALL-player profile order — do not reorder:
- * 1) Profile strip  2) Notable (+ secondary note)  3) Excerpts
- * 4) Career / related  5) Sources  6) For developers
+ * 1) Profile strip  2) Notable (+ secondary note)  3) In the papers
+ * 4) Excerpts  5) Career / related  6) Sources  7) For developers
  */
 export async function PlayerView({ data }: { data: EntityPayload }) {
   const { attrs, summary, related, triples, id } = data;
@@ -73,6 +75,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     ? displayNameForRef(String(attrs.county), A)
     : undefined;
   const notable = playerNotableText(attrs);
+  const papers = pressPraiseLines(attrs);
   const note = playerArchiveNote(attrs);
   const notes = playerNotesText(attrs);
   const kidChip =
@@ -167,6 +170,8 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         noteStatus={note ? statusOf("note") : undefined}
         notesStatus={notes ? statusOf("notes") : undefined}
       />
+
+      <InThePapers lines={papers} />
 
       <CuttingExcerpts cuttings={citedCuttings} />
 

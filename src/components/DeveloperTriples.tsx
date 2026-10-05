@@ -3,7 +3,7 @@ import {
   getAssoc,
   isEntityRef,
 } from "@/lib/data";
-import { isDisplayableVal } from "@/lib/entityDisplay";
+import { isDisplayableVal, isPressPraiseAttr } from "@/lib/entityDisplay";
 import type { Triple } from "@/lib/d4m/AssocArray";
 
 export async function DeveloperTriples({
@@ -20,6 +20,7 @@ export async function DeveloperTriples({
       // Internal confirmation markers stay off public pages.
       t.col !== "confirmed_by_family" &&
       !t.col.endsWith("_basis") &&
+      !isPressPraiseAttr(t.col) &&
       isDisplayableVal(t.val) &&
       !(hideScore && t.col === "score")
   );

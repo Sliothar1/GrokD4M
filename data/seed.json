@@ -250059,5 +250059,45 @@
     "row": "player:john-devine",
     "col": "brother_basis",
     "val": "Verified."
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "press_praise",
+    "val": "He was among those who [best served] Fohenagh at midfield, until injured, in the 1995 Junior A win over Ballygar, according to the Connacht Tribune."
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_press_praise",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "press_praise_2",
+    "val": "He was among Fohenagh's [hardest triers] in the 1996 county Junior A final against Sarsfields, according to the Connacht Tribune."
+  },
+  {
+    "row": "player:jimmy-devine-fohenagh",
+    "col": "source_press_praise_2",
+    "val": "art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "press_praise",
+    "val": "He was among the Fohenagh backs who [best served] the side in the 1995 Junior A win over Ballygar, according to the Connacht Tribune."
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "source_press_praise",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "press_praise_2",
+    "val": "He was among Fohenagh's [hardest triers] in the 1996 county Junior A final against Sarsfields, according to the Connacht Tribune."
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "source_press_praise_2",
+    "val": "art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
   }
 ]
