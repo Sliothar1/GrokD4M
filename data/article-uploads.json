@@ -2124,7 +2124,7 @@
     "path": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-minor-c-champs.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1990-12-07-fohenagh-minor-c-champs.png",
     "uploadedAt": "2026-10-05T12:30:00.000000+00:00",
-    "caption": "Connacht Tribune — The Fohenagh Minor 'C' Champions team photo and caption (Niall Leonard front row left; Paraic Leonard back row right)",
+    "caption": "Connacht Tribune — The Fohenagh Minor 'C' Champions team photo and caption (Niall Leonard front row left; Paraic Leonard back row right). Tony Kilwan (captain) left untagged pending Garry.",
     "year": "1990",
     "tags": [
       "hurling",
@@ -2143,7 +2143,8 @@
       "player:alan-madden",
       "player:seamus-moclair",
       "player:sean-moclair",
-      "player:john-devine"
+      "player:john-devine",
+      "player:noel-higgins-ahascragh-fohenagh"
     ],
     "excerpt": "The Fohenagh Minor 'C' Champions: Front row, left to right: Niall Leonard, Damien Glynn, Alan Madden, Cathal Farragher, Peter Madden, Noel Higgins, Seamus Moclair, John Madden, Mark Leonard, Paul Kennedy, John Devine. Back row: Paul Leonard, Paul O'Beirne, Sean Moclair, Conor Geraghty, Ml. Kelly, Damien O'Beirne, Tomas Glehine, Tony Kilwan (captain), Ml. Glynn, Damien Poland, Paraic Leonard.",
     "citeChip": "Connacht Tribune · 7 Dec 1990 · p.18 · INA",
@@ -2158,7 +2159,7 @@
     "path": "/uploads/articles/art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a.png",
     "uploadedAt": "2026-10-05T12:30:00.000000+00:00",
-    "caption": "Connacht Tribune — VANQUISHED: Fohenagh lose the county Junior A hurling final to Sarsfields; Sarsfields 0-12, Fohenagh 0-6",
+    "caption": "Connacht Tribune — VANQUISHED: Fohenagh lose the county Junior A hurling final to Sarsfields (printed result Sarsfields 0-12, Fohenagh 0-6)",
     "year": "1996",
     "tags": [
       "hurling",
@@ -2177,9 +2178,13 @@
       "player:seamus-moclair",
       "player:sean-moclair",
       "player:alan-madden",
-      "player:john-devine"
+      "player:john-devine",
+      "player:raymond-higgins-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:m-barrett-fohenagh",
+      "player:mick-coen-fohenagh"
     ],
-    "excerpt": "VANQUISHED ... the disappointed Fohenagh team who lost the Junior hurling title to Sarsfields at the weekend. Back row (left to right): Tony Kirwan, Gabriel Gormally, Mike Barrett, Niall Leonard, Joe Fallon, Gerry Madden, Jimmy Devine, and Mike Coen. Front row: Paul Kennedy, John Devine, Cathal Hynes, Noel Earls, Seamus Moclair, Alan Madden, Noel Higgins, Sean Mocklair, Raymond Higgins. Team mascots Michael Lyons and Paul Burke. Result: Sarsfields 0-12, Fohenagh 0-6. Madden, the Devines, and Niall Leonard tried hardest for Fohenagh.",
+    "excerpt": "VANQUISHED ... the disappointed Fohenagh team who lost the Junior hurling title to Sarsfields at the weekend. Back row (left to right): Tony Kirwan, Gabriel Gormally, Mike Barrett, Niall Leonard, Joe Fallon, Gerry Madden, Jimmy Devine, and Mike Coen. Front row: Paul Kennedy, John Devine, Cathal Hynes, Noel Earls, Seamus Moclair, Alan Madden, Noel Higgins, Sean Mocklair, Raymond Higgins. Are team mascots Michael Lyons and Paul Burke. Madden, the Devines, and Niall Leonard tried hardest for Fohenagh.",
     "citeChip": "Connacht Tribune · 6 Dec 1996 · p.16 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19961206.1.16",
     "status": "pending",
@@ -2205,9 +2210,11 @@
       "club:ahascragh-fohenagh"
     ],
     "playerTags": [
-      "player:trevor-lohan"
+      "player:trevor-lohan",
+      "player:shane-hogan-ahascragh-fohenagh",
+      "player:shane-bannerton-ahascragh-fohenagh"
     ],
-    "excerpt": "Panel: Shane Hogan (0-5), Alan Brennan, Trevor Lohan, Shane Bannerton, Stephen Kennedy, Omar Dalton.",
+    "excerpt": "Simon Leonard, Nicola Gavin (0-1), Shane Hogan (0-5), Alan Brennan, Trevor Lohan, Shane Bannerton, Stephen Kennedy, Omar Dalton, Shane Conway, David Taylor.",
     "citeChip": "Tuam Herald · 29 May 1999 · p.22 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19990529.1.22",
     "status": "pending",
@@ -2220,7 +2227,7 @@
     "path": "/uploads/articles/art-ina-ct-1999-06-04-af-sarsfields-u14.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1999-06-04-af-sarsfields-u14.png",
     "uploadedAt": "2026-10-05T12:30:00.000000+00:00",
-    "caption": "Connacht Tribune — Ahascragh/Fohenagh clinch spot in the semi-finals (U14 over Sarsfields); Trevor Lohan and Jason Lohan named",
+    "caption": "Connacht Tribune — Ahascragh/Fohenagh clinch spot in the semi-finals (U14 over Sarsfields). Recropped to the article column only. Jason Lohan appears in a separate U-16 list on the same page — not tagged (identity hold for Garry).",
     "year": "1999",
     "tags": [
       "hurling",
@@ -2234,9 +2241,11 @@
     ],
     "playerTags": [
       "player:trevor-lohan",
-      "player:jason-lohan"
+      "player:shane-hogan-ahascragh-fohenagh",
+      "player:shane-bannerton-ahascragh-fohenagh",
+      "player:jp-egan-ahascragh-fohenagh"
     ],
-    "excerpt": "Ahascragh/Fohenagh clinch spot in the semi-finals. The Ahascragh/Fohenagh u-14 over Sarsfields in the quarter. Shane Hogan 0-5, Alan Brennan, Trevor Lohan, Shane Bannerton. Also named: Jason Lohan, Nicola Gavin 0-1.",
+    "excerpt": "Ahascragh/Fohenagh clinch spot in the semi-finals. … great goal from Stephen Dervin and some great points from Shane Hogan from frees had the Ahascragh/Fohenagh combination on the road to victory. To their credit, Sarsfields fought all the way until the final whistle and when Referee Dermot Connolly blew the final whistle Ahascragh/Fohenagh had a deserved two points win after a thriller of a game between two excellent teams. The panel was as follows: Francis Mitchell, Colm Griffin, John Smyth, Mark Kelly, Gemma Kelly, Philip Kennedy, Mark Mulryan, Simon Leonard, Nicola Gavin 0-1, Shane Hogan 0-5, Alan Brennan, Trevor Lohan, Shane Bannerton, Stephen Dervin 1-0, JP Egan, Kevin Hennelly 0-2, Alan Molloy, Joe Bannerton, Brendan Kilroy, Dara Hannon, Cathal Barrett, David Hannon, Joe Costello, Damien Coen, Adrian Forde, Johnathan Noone and Philip McCormack.",
     "citeChip": "Connacht Tribune · 4 Jun 1999 · p.6 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19990604.1.6",
     "status": "pending",
@@ -2249,7 +2258,7 @@
     "path": "/uploads/articles/art-ina-tth-1999-06-12-af-kilnadeema-u14-final.png",
     "publicUrl": "/uploads/articles/art-ina-tth-1999-06-12-af-kilnadeema-u14-final.png",
     "uploadedAt": "2026-10-05T12:30:00.000000+00:00",
-    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Ahascragh-Fohenagh U14 B final win over Kilnadeema-Leitrim; Trevor Lohan",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Ahascragh-Fohenagh U14 B final win over Kilnadeema-Leitrim",
     "year": "1999",
     "tags": [
       "hurling",
@@ -2263,9 +2272,10 @@
       "club:ahascragh-fohenagh"
     ],
     "playerTags": [
-      "player:trevor-lohan"
+      "player:trevor-lohan",
+      "player:jp-egan-ahascragh-fohenagh"
     ],
-    "excerpt": "John Smyth, Trevor Lohan and J. P. Egan worked hard. Panel also names Trevor Lohan.",
+    "excerpt": "Stephen Dervin, Gemma Kelly, Trevor Lohan and young … Kevin Hennelly, Trevor Lohan, Cathal Barrett, Alan … John Smyth, Trevor Lohan and J. P. Egan worked hard.",
     "citeChip": "Tuam Herald · 12 Jun 1999 · p.25 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19990612.1.25",
     "status": "pending",
@@ -2278,7 +2288,7 @@
     "path": "/uploads/articles/art-ina-tth-1999-08-21-af-cappataggle-u14-final.png",
     "publicUrl": "/uploads/articles/art-ina-tth-1999-08-21-af-cappataggle-u14-final.png",
     "uploadedAt": "2026-10-05T12:30:00.000000+00:00",
-    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Ahascragh-Fohenagh v Cappataggle-Caltra U14; Trevor Lohan named",
+    "caption": "Tuam Herald — Ahascragh Hurling Club notes: Ahascragh-Fohenagh v Cappataggle-Caltra U14",
     "year": "1999",
     "tags": [
       "hurling",
@@ -2293,7 +2303,7 @@
     "playerTags": [
       "player:trevor-lohan"
     ],
-    "excerpt": "Ahascragh-Fohenagh: Trevor Lohan, Nicola Gavin, Stephen Dervin; Philip also named in the notes.",
+    "excerpt": "Keane, Trevor Lohan and Aidan Gormally. … also Trevor Lohan, Nicola Gavin, Stephen Dervin; Philip",
     "citeChip": "Tuam Herald · 21 Aug 1999 · p.21 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19990821.1.21",
     "status": "pending",
@@ -2377,7 +2387,7 @@
     "playerTags": [
       "player:trevor-lohan"
     ],
-    "excerpt": "Outstanding performances from Kevin Hennelly, Trevor Lohan, Alan Molloy, John Smyth, Colm.",
+    "excerpt": "outstanding performances from Kevin Hennelly, Trevor Lohan, Alan Molloy, John Smyth",
     "citeChip": "Tuam Herald · 11 Nov 2000 · p.25 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20001111.1.25",
     "status": "pending",
