@@ -40961,6 +40961,16 @@
   },
   {
     "row": "player:niall-glynn",
+    "col": "notable",
+    "val": "Galway All-Ireland Minor hurling champion in 2019, named on the winning panel for Ahascragh-Fohenagh (Galway GAA All-Ireland winning teams)."
+  },
+  {
+    "row": "player:niall-glynn",
+    "col": "source_notable",
+    "val": "https://www.galwaygaa.ie/history/all-ireland-winning-teams/"
+  },
+  {
+    "row": "player:niall-glynn",
     "col": "club",
     "val": "club:ahascragh-fohenagh"
   },
@@ -122826,6 +122836,31 @@
   },
   {
     "row": "player:colm-kirwan-fohenagh",
+    "col": "notable",
+    "val": "Fohenagh Minor C hurling champion in 1996 (Galway GAA roll of honour 1980–1999). Named among those who best served Fohenagh in the 1995 Junior A win over Ballygar (Connacht Tribune, 1 Sep 1995), and called the team's best player at centre back in the 1991 Junior championship clash with Salthill (Connacht Tribune, 13 Sep 1991). Started at full back and captained Fohenagh in the 1993 county Junior A final against Athenry (Connacht Tribune, 5 Nov 1993; printed Colin Kirwan)."
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
+    "col": "source_notable",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
+    "col": "source_notable_2",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
+    "col": "source_notable_3",
+    "val": "art-ina-ct-1991-09-13-salthill-v-fohenagh-junior"
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
+    "col": "source_notable_4",
+    "val": "art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final"
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
     "col": "status",
     "val": "pending_archivist"
   },
@@ -152338,6 +152373,31 @@
     "row": "player:noel-higgins-ahascragh-fohenagh",
     "col": "note",
     "val": "Galway GAA RoH 2009: Noel Higgins named on Ahascragh-Fohenagh County Junior C Hurling Champions panel. Club-scoped AF-first thin fill."
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "notable",
+    "val": "County Junior C hurling champion with Ahascragh-Fohenagh in 2009 (Galway GAA roll of honour 2009). Earlier Fohenagh goalkeeper on the Connacht U-16 title side (Connacht Tribune, 27 Oct 1989) and named among those who best served Fohenagh in goal in the 1995 Junior A win over Ballygar (Connacht Tribune, 1 Sep 1995); also in the Ahascragh-Fohenagh XV for the 2001 Caltra Festival final (Connacht Tribune, 22 Mar 2002)."
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "source_notable",
+    "val": "https://www.galwaygaa.ie/history/2009-roll-of-honour-football-hurling/"
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "source_notable_2",
+    "val": "art-ina-ct-1989-10-27-fohenagh-u16-title"
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "source_notable_3",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "source_notable_4",
+    "val": "art-ina-ct-2002-03-22-caltra-festival-final"
   },
   {
     "row": "player:noel-higgins-ahascragh-fohenagh",
@@ -247766,6 +247826,16 @@
   },
   {
     "row": "player:ollie-deeley",
+    "col": "notable",
+    "val": "Named among those who best served Fohenagh in the Sadie Kilcommons final win over Ahascragh (Connacht Tribune, 21 Aug 1998)."
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "source_notable",
+    "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+  },
+  {
+    "row": "player:ollie-deeley",
     "col": "cutting_cite",
     "val": "Connacht Tribune · Sadie Kilcommons final · Fohenagh 1-12 Ahascragh 0-9"
   },
@@ -249232,7 +249302,17 @@
   {
     "row": "player:sean-moclair",
     "col": "notable",
-    "val": "A Fohenagh parish hurler. Son of Jimmy Moclair."
+    "val": "Connacht U-16 hurling champion with Fohenagh in 1989, scoring 0-1 (Connacht Tribune, 27 Oct 1989; printed Sean Mockler). Earlier named among Fohenagh's best in the Under-12 C Coiste Iomana final against St. Thomas (Connacht Tribune, 2 Nov 1984). Son of Jimmy Moclair."
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "source_notable",
+    "val": "art-ina-ct-1989-10-27-fohenagh-u16-title"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "source_notable_2",
+    "val": "art-ina-ct-1984-11-02-fohenagh-u12c-final-st-thomas"
   },
   {
     "row": "player:sean-moclair",
