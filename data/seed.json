@@ -244286,6 +244286,16 @@
   },
   {
     "row": "player:niall-leonard",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "source_club",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:niall-leonard",
     "col": "county",
     "val": "team:galway"
   },
