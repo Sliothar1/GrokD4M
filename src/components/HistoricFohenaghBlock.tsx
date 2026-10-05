@@ -534,9 +534,6 @@ export function HistoricClubPanel() {
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-2">
-        <span className="rounded-full bg-galway-maroon px-3 py-1 text-sm font-bold text-white">
-          Before Ahascragh-Fohenagh
-        </span>
         <Link
           href="/club/ahascragh-historic"
           className="rounded-full border-2 border-galway-maroon/30 bg-white px-3 py-1 text-sm font-bold text-galway-maroon"

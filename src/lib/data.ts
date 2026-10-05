@@ -453,9 +453,11 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
       .map(String);
     subtitle = bits.slice(0, 2).join(" · ");
   } else if (kind === "club") {
-    if (
+    // Fohenagh is a club that later amalgamated — the profile is just Fohenagh.
+    if (id === "club:fohenagh-historic") {
+      subtitle = String(attrs.county ?? "Galway");
+    } else if (
       String(attrs.kid_chip ?? "") === "Before Ahascragh-Fohenagh" ||
-      id === "club:fohenagh-historic" ||
       id === "club:ahascragh-historic"
     ) {
       subtitle = "Before Ahascragh-Fohenagh";
