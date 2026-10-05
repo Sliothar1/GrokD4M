@@ -22,7 +22,10 @@ export type ClubChipData = {
   id: string;
   name: string;
   href: string;
-  /** Hover title. Historic predecessors keep the #14 “Before …” tooltip. */
+  /**
+   * Hover title. Fohenagh historic is “Fohenagh”.
+   * Ahascragh historic keeps “Before Ahascragh-Fohenagh”.
+   */
   title: string;
 };
 
@@ -73,12 +76,8 @@ export function clubChipLabel(clubId: string, A: AssocArray): string {
 }
 
 export function clubChipTitle(clubId: string, label: string): string {
-  if (
-    clubId === "club:fohenagh-historic" ||
-    clubId === "club:ahascragh-historic"
-  ) {
-    return "Before Ahascragh-Fohenagh";
-  }
+  if (clubId === "club:fohenagh-historic") return "Fohenagh";
+  if (clubId === "club:ahascragh-historic") return "Before Ahascragh-Fohenagh";
   return label;
 }
 

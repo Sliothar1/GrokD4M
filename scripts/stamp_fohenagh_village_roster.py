@@ -278,7 +278,6 @@ def main():
             "club": "club:fohenagh-historic",
             "confidence": "verified",
             "status": "archivist_approved",
-            "notable": "A powerful and stylish defender",
             "position": "Defender",
             "kid_chip": "Verified Fohenagh defender",
             "cutting_cite": CLUB_STAMP,
