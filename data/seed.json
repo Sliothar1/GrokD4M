@@ -249952,8 +249952,13 @@
     "row": "player:cathal-lohan",
     "col": "notes",
     "val": "Member of Galway U14 panel - Ahascragh-Fohenagh",
-    "source": "Garry Lohan",
+    "source": "Verified",
     "confidence": "high"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "confirmed_by_family",
+    "val": "notes"
   },
   {
     "row": "player:jimmy-devine-fohenagh",

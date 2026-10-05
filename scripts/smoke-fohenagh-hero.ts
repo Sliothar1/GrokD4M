@@ -7,6 +7,9 @@ import { readFileSync } from "node:fs";
 import { normalizeClubTags } from "../src/lib/articles";
 import { getEntity } from "../src/lib/data";
 import { pinnedCuttingId, resolveEntityHero } from "../src/lib/heroCutting";
+import { clubChipTitle } from "../src/lib/playerClubs";
+import { annotateEntityVerification } from "../src/lib/verification";
+import { resolveEntitySources } from "../src/lib/sources";
 
 assert.deepEqual(normalizeClubTags(["fohenagh"]), ["club:fohenagh-historic"]);
 assert.deepEqual(normalizeClubTags(["old-fohenagh"]), ["club:fohenagh-historic"]);
@@ -26,6 +29,11 @@ assert.deepEqual(
 assert.deepEqual(normalizeClubTags(["ahascragh-historic"]), [
   "club:ahascragh-historic",
 ]);
+assert.equal(clubChipTitle("club:fohenagh-historic", "Fohenagh · historic"), "Fohenagh");
+assert.equal(
+  clubChipTitle("club:ahascragh-historic", "Ahascragh · historic"),
+  "Before Ahascragh-Fohenagh"
+);
 
 const seed = JSON.parse(readFileSync("data/seed.json", "utf8")) as Array<{
   row: string;
@@ -76,6 +84,31 @@ async function main() {
   assert.equal(
     trevor.related.some((r) => r.id.includes("art-ina-tth-2002-03-09-af-trevor-lohan")),
     true
+  );
+
+  const cathal = await getEntity("player:cathal-lohan");
+  assert.ok(cathal);
+  assert.equal(String(cathal.attrs.confirmed_by_family), "notes");
+  const cathalNotes = seed.find(
+    (c) => c.row === "player:cathal-lohan" && c.col === "notes"
+  ) as { source?: string; val?: string } | undefined;
+  assert.equal(cathalNotes?.source, "Verified");
+  assert.equal(cathalNotes?.val?.includes("Garry"), false);
+  const cathalSources = annotateEntityVerification(
+    resolveEntitySources({
+      entityId: "player:cathal-lohan",
+      attrs: cathal.attrs,
+      order: [{ fact: "notes" }],
+    }),
+    cathal.attrs
+  );
+  assert.equal(
+    cathalSources.facts.find((fact) => fact.factKey === "notes")?.status,
+    "verified"
+  );
+  assert.equal(
+    JSON.stringify(cathal.attrs).includes("Garry Lohan"),
+    false
   );
 
   const amalgam = await getEntity("club:ahascragh-fohenagh");

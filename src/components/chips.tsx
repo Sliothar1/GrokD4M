@@ -25,7 +25,7 @@ export function ClubChip({
 }: {
   href: string;
   label: string;
-  /** Hover tooltip. Historic chips use “Before Ahascragh-Fohenagh”. */
+  /** Hover tooltip. Fohenagh historic is “Fohenagh”; Ahascragh historic stays “Before Ahascragh-Fohenagh”. */
   title?: string;
   /** Unsourced club claim: grey text, still a link. */
   muted?: boolean;
