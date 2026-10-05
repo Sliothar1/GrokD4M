@@ -244362,12 +244362,22 @@
   {
     "row": "player:niall-leonard",
     "col": "notable",
-    "val": "A powerful and stylish defender. Named with his brother Pádraic among the Fohenagh backs who best served the side in the Junior A championship win over Ballygar (Connacht Tribune, 1 Sep 1995)."
+    "val": "Fohenagh Minor 'C' champion in 1990, named in the front row of the champions team caption (Connacht Tribune, 7 Dec 1990). Named with his brother Pádraic among the Fohenagh backs who best served the side in the Junior A championship win over Ballygar (Connacht Tribune, 1 Sep 1995). Named in the Fohenagh team photo after losing the county Junior A final to Sarsfields (Sarsfields 0-12, Fohenagh 0-6); the report said 'Madden, the Devines, and Niall Leonard tried hardest for Fohenagh' (Connacht Tribune, 6 Dec 1996)."
   },
   {
     "row": "player:niall-leonard",
     "col": "source_notable",
+    "val": "art-ina-ct-1990-12-07-fohenagh-minor-c-champs"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "source_notable_2",
     "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "source_notable_3",
+    "val": "art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
   },
   {
     "row": "player:niall-leonard",
@@ -244382,7 +244392,7 @@
   {
     "row": "player:niall-leonard",
     "col": "kid_chip",
-    "val": "Verified Fohenagh defender"
+    "val": "Fohenagh Minor 'C' champion, 1990"
   },
   {
     "row": "player:alan-mockler",
@@ -249562,17 +249572,52 @@
   {
     "row": "player:trevor-lohan",
     "col": "notable",
-    "val": "A Fohenagh parish hurler with Ahascragh-Fohenagh. Elected child welfare officer of the Ahascragh-Fohenagh Juvenile club for 2017 (Connacht Tribune, 13 Jan 2017), a club officer role."
+    "val": "In the Ahascragh-Fohenagh U14 B final, 'John Smyth, Trevor Lohan and J. P. Egan worked hard' (Tuam Herald, 12 Jun 1999). The Tuam Herald noted outstanding performances from Trevor Lohan in a U15 game against Mullagh (11 Nov 2000). Named on the U14 panel against Sarsfields (Tuam Herald, 29 May 1999) and in the U14 quarter-final win over Sarsfields (Connacht Tribune, 4 Jun 1999). Also named in the U14 notes against Cappataggle-Caltra (Tuam Herald, 21 Aug 1999), among the U15 substitutes against Pearses (Tuam Herald, 2 Oct 1999), and among the U16 substitutes (Tuam Herald, 20 Nov 1999). Elected child welfare officer of the Ahascragh-Fohenagh Juvenile club for 2017 (Connacht Tribune, 13 Jan 2017), a club officer role."
   },
   {
     "row": "player:trevor-lohan",
     "col": "source_notable",
+    "val": "art-ina-tth-1999-06-12-af-kilnadeema-u14-final"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source_notable_2",
+    "val": "art-ina-tth-2000-11-11-af-mullagh-u15"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source_notable_3",
+    "val": "art-ina-tth-1999-05-29-af-sarsfields-u14"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source_notable_4",
+    "val": "art-ina-ct-1999-06-04-af-sarsfields-u14"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source_notable_5",
+    "val": "art-ina-tth-1999-08-21-af-cappataggle-u14-final"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source_notable_6",
+    "val": "art-ina-tth-1999-10-02-af-pearses-u15"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source_notable_7",
+    "val": "art-ina-tth-1999-11-20-af-u16"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "source_notable_8",
     "val": "art-ina-ct-2017-01-13-af-juvenile-agm-leonard-lohan"
   },
   {
     "row": "player:trevor-lohan",
     "col": "kid_chip",
-    "val": "Verified parish hurler"
+    "val": "U14 B final; U15 standout"
   },
   {
     "row": "player:trevor-lohan",
