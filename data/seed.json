@@ -122837,7 +122837,7 @@
   {
     "row": "player:colm-kirwan-fohenagh",
     "col": "notable",
-    "val": "Fohenagh Minor C hurling champion in 1996 (Galway GAA roll of honour 1980–1999). Named among those who best served Fohenagh in the 1995 Junior A win over Ballygar (Connacht Tribune, 1 Sep 1995), and called the team's best player at centre back in the 1991 Junior championship clash with Salthill (Connacht Tribune, 13 Sep 1991). Started at full back and captained Fohenagh in the 1993 county Junior A final against Athenry (Connacht Tribune, 5 Nov 1993; printed Colin Kirwan)."
+    "val": "Fohenagh Minor C hurling champion in 1996 (Galway GAA roll of honour 1980–1999). Named among those who best served Fohenagh in the 1995 Junior A win over Ballygar (Connacht Tribune, 1 Sep 1995), and called the team's best player at centre back in the 1991 Junior championship clash with Salthill (Connacht Tribune, 13 Sep 1991; printed 'centre back Colm Kirwan — the team's best player')."
   },
   {
     "row": "player:colm-kirwan-fohenagh",
@@ -122853,11 +122853,6 @@
     "row": "player:colm-kirwan-fohenagh",
     "col": "source_notable_3",
     "val": "art-ina-ct-1991-09-13-salthill-v-fohenagh-junior"
-  },
-  {
-    "row": "player:colm-kirwan-fohenagh",
-    "col": "source_notable_4",
-    "val": "art-ina-ct-1993-11-05-athenry-v-fohenagh-junior-a-final"
   },
   {
     "row": "player:colm-kirwan-fohenagh",
