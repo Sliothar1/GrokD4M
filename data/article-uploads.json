@@ -2768,5 +2768,609 @@
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19990604.1.4",
     "status": "pending",
     "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1996-03-22-galway-minor-trial",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-03-22-galway-minor-trial.png",
+    "path": "/uploads/articles/art-ina-ct-1996-03-22-galway-minor-trial.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-03-22-galway-minor-trial.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Minor trial: Galway minor hurling trial at Craughwell, Saturday 23 March 1996, 3pm. Fohenagh: Raymond Higgins, Philip Lohan, Alan Moclair.",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "minor",
+      "trial",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:raymond-higgins-fohenagh",
+      "player:philip-lohan",
+      "player:alan-moclair-ahascragh-fohenagh"
+    ],
+    "excerpt": "Minor trial. The following players are requested to attend for a minor hurling trial at Craughwell on Saturday next, March 23 at 3.00 p.m. Fohenagh: Raymond Higgins, Philip Lohan, Alan Moclair.",
+    "citeChip": "Connacht Tribune · 22 Mar 1996 · p.15 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960322.1.15",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1996-03-22-galway-u16-v-mid-clare",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-03-22-galway-u16-v-mid-clare.png",
+    "path": "/uploads/articles/art-ina-ct-1996-03-22-galway-u16-v-mid-clare.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-03-22-galway-u16-v-mid-clare.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Galway under-16 hurlers required to play Mid-Clare at Kinvara, Saturday 23 March 1996. Oliver Deeley and Cathal Lohan (Fohenagh).",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u16",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:ollie-deeley",
+      "player:cathal-lohan"
+    ],
+    "excerpt": "The following players are required for a Galway under-16 hurling match v Mid-Clare on Saturday next, March 23 in Kinvara at 12 noon sharp. Named from Fohenagh: Oliver Deeley and Cathal Lohan.",
+    "citeChip": "Connacht Tribune · 22 Mar 1996 · p.15 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960322.1.15",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1996-09-13-fohenagh-minor-c-final",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-09-13-fohenagh-minor-c-final.png",
+    "path": "/uploads/articles/art-ina-ct-1996-09-13-fohenagh-minor-c-final.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-09-13-fohenagh-minor-c-final.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Fohenagh win the Galway Minor C hurling final, 5-15 to 0-6, against Cappataggle at Duggan Park.",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "minor",
+      "final",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:philip-lohan",
+      "player:raymond-higgins-fohenagh",
+      "player:ollie-deeley",
+      "player:francis-devine-fohenagh",
+      "player:shane-glennon-fohenagh",
+      "player:colm-kennedy-fohenagh",
+      "player:cathal-lohan",
+      "player:fergus-lyons-fohenagh",
+      "player:carol-mitchell-fohenagh"
+    ],
+    "excerpt": "The Fohenagh minor hurlers had a decisive 5-15 to 0-6 win in the Galway Minor C Final over Cappataggle at Duggan Park, Ballinasloe. Captain Philip Lohan and Raymond Higgins (0-8) at midfield; goals by Oliver Deeley, Francis Devine and Shane Glennon. Half-back line of Colm Kennedy, Cathal Lohan and Fergus Lyons; full-back Carol Mitchell.",
+    "citeChip": "Connacht Tribune · 13 Sep 1996 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960913.1.4",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1996-09-13-fohenagh-minor-c-team",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-09-13-fohenagh-minor-c-team.png",
+    "path": "/uploads/articles/art-ina-ct-1996-09-13-fohenagh-minor-c-team.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-09-13-fohenagh-minor-c-team.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Fohenagh Minor C winning team, captain Philip Lohan, 13 September 1996.",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "minor",
+      "team",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:brendan-geraghty-fohenagh",
+      "player:colm-kennedy-fohenagh",
+      "player:cathal-lohan",
+      "player:fergus-lyons-fohenagh",
+      "player:raymond-higgins-fohenagh",
+      "player:philip-lohan",
+      "player:ollie-deeley",
+      "player:francis-devine-fohenagh",
+      "player:patrick-sweeney-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:shane-glennon-fohenagh",
+      "player:niall-devine-fohenagh",
+      "player:brendan-noone-fohenagh",
+      "player:garry-mitchell-fohenagh",
+      "player:cyril-glennon-fohenagh"
+    ],
+    "excerpt": "Team named with the Minor C win: Brendan Geraghty, Colm Kennedy, Cathal Lohan, Fergus Lyons, Raymond Higgins, Philip Lohan (captain), Oliver Deeley, Francis Devine, Pat Sweeney, Alan Mockler, Shane Glennon, Niall Devine. Subs: Brendan Noone, Garry Mitchell and Cyril Glennon.",
+    "citeChip": "Connacht Tribune · 13 Sep 1996 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960913.1.4",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1996-10-04-nenagh-coop-u16",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-10-04-nenagh-coop-u16.png",
+    "path": "/uploads/articles/art-ina-ct-1996-10-04-nenagh-coop-u16.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-10-04-nenagh-coop-u16.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Galway panel for the Nenagh Co-op All-Ireland Under-16 Hurling Tournament, to play Limerick. Cathal Lohan and Oliver Deely (Fohenagh).",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u16",
+      "nenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:ollie-deeley"
+    ],
+    "excerpt": "Galway will commence their Nenagh Co-op sponsored All-Ireland Under-16 Hurling Tournament campaign on Saturday next at 2.30 p.m. They will play Limerick in the first game of the group. Panel includes Cathal Lohan (Fohenagh) and Oliver Deely (Fohenagh). The page names the panel for the campaign; it does not print a winning score.",
+    "citeChip": "Connacht Tribune · 4 Oct 1996 · p.18 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19961004.1.18",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1995-06-16-county-u16-hurling-trial",
+    "kind": "image",
+    "filename": "art-ina-ct-1995-06-16-county-u16-hurling-trial.png",
+    "path": "/uploads/articles/art-ina-ct-1995-06-16-county-u16-hurling-trial.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1995-06-16-county-u16-hurling-trial.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — County Under-16 Hurling Trial, Ballinasloe. Fohenagh: Karl Mitchell, Patrick Sweeney, Cathal Lohan, Oliver Deely.",
+    "year": "1995",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u16",
+      "trial",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:karl-mitchell-fohenagh",
+      "player:patrick-sweeney-fohenagh",
+      "player:cathal-lohan",
+      "player:ollie-deeley"
+    ],
+    "excerpt": "The following players are requested to attend a County Under-16 Hurling Trial on Sunday in Ballinasloe at 11 a.m. sharp. From Fohenagh: Karl Mitchell, Patrick Sweeney, Cathal Lohan and Oliver Deely.",
+    "citeChip": "Connacht Tribune · 16 Jun 1995 · p.15 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19950616.1.15",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1995-06-30-county-u16-final-trial",
+    "kind": "image",
+    "filename": "art-ina-ct-1995-06-30-county-u16-final-trial.png",
+    "path": "/uploads/articles/art-ina-ct-1995-06-30-county-u16-final-trial.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1995-06-30-county-u16-final-trial.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — County Under-16 Hurling Final Trial, Loughrea, Saturday 1 July 1995. Oliver Deely and Cathal Lohan (Fohenagh).",
+    "year": "1995",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u16",
+      "trial",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:ollie-deeley",
+      "player:cathal-lohan"
+    ],
+    "excerpt": "The following players are required for a County Under-16 Hurling Final Trial on Saturday next, July 1, in Loughrea at 11 a.m. sharp. Named from Fohenagh: Oliver Deely and Cathal Lohan.",
+    "citeChip": "Connacht Tribune · 30 Jun 1995 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19950630.1.14",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1998-03-06-minor-hurling-trials",
+    "kind": "image",
+    "filename": "art-ina-ct-1998-03-06-minor-hurling-trials.png",
+    "path": "/uploads/articles/art-ina-ct-1998-03-06-minor-hurling-trials.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1998-03-06-minor-hurling-trials.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — County minor hurling trials at Kenny Park, Athenry. Fohenagh: Ollie Deely, Cathal Lohan.",
+    "year": "1998",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "minor",
+      "trial",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:ollie-deeley",
+      "player:cathal-lohan"
+    ],
+    "excerpt": "Minor hurling trials. Two county minor hurling trials have been arranged for Sunday next at Kenny Park, Athenry, 11.00 a.m. Fohenagh: Ollie Deely, Cathal Lohan.",
+    "citeChip": "Connacht Tribune · 6 Mar 1998 · p.16 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19980306.1.16",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-gct-1997-07-04-tony-forristal-u14-trials",
+    "kind": "image",
+    "filename": "art-ina-gct-1997-07-04-tony-forristal-u14-trials.png",
+    "path": "/uploads/articles/art-ina-gct-1997-07-04-tony-forristal-u14-trials.png",
+    "publicUrl": "/uploads/articles/art-ina-gct-1997-07-04-tony-forristal-u14-trials.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "City Tribune — Galway under-14 trials for the Tony Forristal Tournament. Jason Lohan, Gerard Gavin and William Lyons (Fohenagh).",
+    "year": "1997",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u14",
+      "trial",
+      "tony-forristal",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jason-lohan",
+      "player:william-lyons-ahascragh-fohenagh",
+      "player:gerard-gavin-fohenagh"
+    ],
+    "excerpt": "In preparation for the upcoming Tony Forristal Tournament in Waterford, the Galway U-14 selectors have organised two trial games for Saturday next. Killimor (10.30 a.m.) panel includes Jason Lohan and Gerard Gavin (Fohenagh). Ballindereen (3 p.m.) panel includes William Lyons (Fohenagh).",
+    "citeChip": "City Tribune · 4 Jul 1997 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTB19970704.1.23",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1994-07-22-galway-u14-panel",
+    "kind": "image",
+    "filename": "art-ina-ct-1994-07-22-galway-u14-panel.png",
+    "path": "/uploads/articles/art-ina-ct-1994-07-22-galway-u14-panel.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1994-07-22-galway-u14-panel.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Galway under-14 panel to play Limerick in Loughrea. Cathal Lohan and Oliver Deely (Fohenagh).",
+    "year": "1994",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u14",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:ollie-deeley"
+    ],
+    "excerpt": "The following is the Galway under-14 panel to play Limerick in Loughrea later this (Thursday) evening. Cathal Lohan (Fohenagh), Oliver Deely (Fohenagh). The notice names the panel; it does not print an All-Ireland result.",
+    "citeChip": "Connacht Tribune · 22 Jul 1994 · p.17 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19940722.1.17",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1994-07-29-u14-challenge-displays",
+    "kind": "image",
+    "filename": "art-ina-ct-1994-07-29-u14-challenge-displays.png",
+    "path": "/uploads/articles/art-ina-ct-1994-07-29-u14-challenge-displays.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1994-07-29-u14-challenge-displays.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — County under-14 challenge games; good displays by Cathal Lohan and Oliver Deeley (Fohenagh).",
+    "year": "1994",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u14",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:ollie-deeley"
+    ],
+    "excerpt": "The County under-14 hurlers have in recent weeks played a number of successful challenge games at inter-county level with good displays by local players Cathal Lohan and Oliver Deeley (Fohenagh).",
+    "citeChip": "Connacht Tribune · 29 Jul 1994 · p.9 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19940729.1.9",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-1994-07-30-u14-challenge-clare",
+    "kind": "image",
+    "filename": "art-ina-tth-1994-07-30-u14-challenge-clare.png",
+    "path": "/uploads/articles/art-ina-tth-1994-07-30-u14-challenge-clare.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1994-07-30-u14-challenge-clare.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Tuam Herald — Galway under-14 hurling challenge against Clare. C. Lohan and O. Deeley (Fohenagh).",
+    "year": "1994",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u14",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:ollie-deeley"
+    ],
+    "excerpt": "The following players are chosen for Galway's next u-14 hurling challenge, against Clare at St. Brendan's Park, Loughrea on Saturday (30th). C. Lohan, O. Deeley, Fohenagh.",
+    "citeChip": "Tuam Herald · 30 Jul 1994 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19940730.1.14",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-1998-05-02-st-cuans-colleges-final",
+    "kind": "image",
+    "filename": "art-ina-tth-1998-05-02-st-cuans-colleges-final.png",
+    "path": "/uploads/articles/art-ina-tth-1998-05-02-st-cuans-colleges-final.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1998-05-02-st-cuans-colleges-final.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Tuam Herald — St Cuan's, Castleblakeney, contest the All-Ireland Colleges Senior B hurling final. Fohenagh: Colm Kennedy, Cathal Lohan, Brian Lynskey, Owen Lynskey, Brendan Geraghty.",
+    "year": "1998",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "colleges",
+      "all-ireland",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:colm-kennedy-fohenagh",
+      "player:cathal-lohan",
+      "player:brian-lynskey-fohenagh",
+      "player:owen-lynskey-ahascragh-fohenagh",
+      "player:brendan-geraghty-fohenagh"
+    ],
+    "excerpt": "St Cuan's, Castleblakeney, will contest the All-Ireland Colleges Senior B hurling final at Croke Park next Saturday against Portlaoise CBS. The caption says they have already won the Connacht Cup. Fohenagh on the panel: Colm Kennedy, Cathal Lohan, Brian Lynskey, Owen Lynskey and Brendan Geraghty. The page sends them to the final; it does not print the final result.",
+    "citeChip": "Tuam Herald · 2 May 1998 · p.24 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19980502.1.24",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1993-05-21-st-cuans-connacht-junior-b",
+    "kind": "image",
+    "filename": "art-ina-ct-1993-05-21-st-cuans-connacht-junior-b.png",
+    "path": "/uploads/articles/art-ina-ct-1993-05-21-st-cuans-connacht-junior-b.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1993-05-21-st-cuans-connacht-junior-b.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — St Cuan's, Castleblakeney, win the Connacht Junior B hurling title, 2-9 to 1-6. Gary Lohan scores a point.",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "colleges",
+      "connacht",
+      "ina",
+      "lohan"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:garry-lohan"
+    ],
+    "excerpt": "St Cuan's College, Castleblakeney, captured the Connacht Junior B hurling championship title in Athleague, defeating Roscommon CBS 2-9 to 1-6. Scorers included Gary Lohan, one point. The caption calls it the Connacht Colleges Junior Hurling B trophy.",
+    "citeChip": "Connacht Tribune · 21 May 1993 · p.12 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19930521.1.12",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a.png",
+    "path": "/uploads/articles/art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Fohenagh beat Ahascragh 1-9 to 1-7 in the 1996 county Junior A championship.",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ahascragh",
+      "junior",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:ahascragh-historic"
+    ],
+    "playerTags": [
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:paul-kennedy-fohenagh",
+      "player:colm-kirwan-fohenagh",
+      "player:sean-moclair",
+      "player:mick-coen-fohenagh",
+      "player:padraic-leonard",
+      "player:gerry-madden-fohenagh",
+      "player:tony-kirwan-fohenagh",
+      "player:jimmy-devine-fohenagh",
+      "player:garry-lohan",
+      "player:niall-leonard",
+      "player:john-devine",
+      "player:m-barrett-fohenagh",
+      "player:alan-madden",
+      "player:joe-fallon-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh"
+    ],
+    "excerpt": "In the first game of the 1996 County Junior A Championship, played in Ballymacward, Fohenagh defeated Ahascragh 1-9 to 1-7. Best for Fohenagh were Tony Kirwan, the Devine brothers, Gary Lohan, Alan Madden, Mike Coen and Ger Madden. Fohenagh: Noel Higgins, Paul Kennedy, Colm Kirwan, Sean Mockler, Mike Coen, Padraig Leonard, Gerry Madden, Tony Kirwan, Jimmy Devine, Gary Lohan, Niall Leonard, John Devine, Michael Barrett, Alan Madden, Joe Fallon. Sub: Alan Mockler.",
+    "citeChip": "Connacht Tribune · 21 Jun 1996 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960621.1.4",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-1995-08-19-fohenagh-junior-c",
+    "kind": "image",
+    "filename": "art-ina-tth-1995-08-19-fohenagh-junior-c.png",
+    "path": "/uploads/articles/art-ina-tth-1995-08-19-fohenagh-junior-c.png",
+    "publicUrl": "/uploads/articles/art-ina-tth-1995-08-19-fohenagh-junior-c.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Tuam Herald — Ahascragh 2-9 Fohenagh 1-7 in the county Junior C championship first round.",
+    "year": "1995",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ahascragh",
+      "junior",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:ahascragh-historic"
+    ],
+    "playerTags": [
+      "player:fonsie-mitchell-fohenagh",
+      "player:karl-mitchell-fohenagh",
+      "player:mike-flood-fohenagh",
+      "player:m-barrett-fohenagh",
+      "player:philip-lohan",
+      "player:sean-keane-fohenagh"
+    ],
+    "excerpt": "Ahascragh 2-9 Fohenagh 1-7. In the first round of the county Junior C championship at Ballymacward, Ahascragh had a deserved victory over neighbours Fohenagh by five points. The teams were level at four points each at half-time. Fonsie and Karl Mitchell were impressive for Fohenagh. Fohenagh were best served by Mike Flood, Mike Barrett, Philip Lohan and Sean Keane.",
+    "citeChip": "Tuam Herald · 19 Aug 1995 · p.17 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19950819.1.17",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1997-08-08-castleblakeney-festival",
+    "kind": "image",
+    "filename": "art-ina-ct-1997-08-08-castleblakeney-festival.png",
+    "path": "/uploads/articles/art-ina-ct-1997-08-08-castleblakeney-festival.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1997-08-08-castleblakeney-festival.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Castleblakeney Festival hurling final: Ahascragh 2-6 Fohenagh 2-4. Alan Mockler scored Fohenagh's goal.",
+    "year": "1997",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ahascragh",
+      "festival",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:ahascragh-historic"
+    ],
+    "playerTags": [
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:raymond-higgins-fohenagh"
+    ],
+    "excerpt": "Final of the Castleblakeney Festival Tournament: old rivals Ahascragh and Fohenagh. Ahascragh won 2-6 to 2-4. The teams were level at half-time, 1-3 each, with Alan Mockler getting the Fohenagh goal. The same report names Nial Colton and Raymond Higgins in a line about the goals; it does not say which goal was whose.",
+    "citeChip": "Connacht Tribune · 8 Aug 1997 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19970808.1.4",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1997-08-08-castleblakeney-festival-best",
+    "kind": "image",
+    "filename": "art-ina-ct-1997-08-08-castleblakeney-festival-best.png",
+    "path": "/uploads/articles/art-ina-ct-1997-08-08-castleblakeney-festival-best.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1997-08-08-castleblakeney-festival-best.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Best for Fohenagh in the Castleblakeney Festival hurling final. Inscribed medals were presented to both teams.",
+    "year": "1997",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ahascragh",
+      "festival",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic",
+      "club:ahascragh-historic"
+    ],
+    "playerTags": [
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:m-barrett-fohenagh",
+      "player:seamus-moclair",
+      "player:cathal-lohan",
+      "player:niall-leonard",
+      "player:padraic-leonard",
+      "player:garry-lohan",
+      "player:jimmy-devine-fohenagh",
+      "player:john-devine",
+      "player:raymond-higgins-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh"
+    ],
+    "excerpt": "Best for Fohenagh were Noel Higgins in goal, Michael Barrett, Seamus Mockler, Cathal Lohan and the Leonard brothers Niall and Padraig in defence, Gary Lohan, Jimmy Devine, John Devine, Raymond Higgins and Alan Mockler. After the game both teams were presented with inscribed medals. That is a festival presentation, not a county title.",
+    "citeChip": "Connacht Tribune · 8 Aug 1997 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19970808.1.4",
+    "status": "pending",
+    "matchTags": []
+  },
+  {
+    "id": "art-ina-ct-1996-04-19-galway-u16-v-clare",
+    "kind": "image",
+    "filename": "art-ina-ct-1996-04-19-galway-u16-v-clare.png",
+    "path": "/uploads/articles/art-ina-ct-1996-04-19-galway-u16-v-clare.png",
+    "publicUrl": "/uploads/articles/art-ina-ct-1996-04-19-galway-u16-v-clare.png",
+    "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Galway under-16 panel to play Clare at the opening of Beagh's new grounds. Cathal Lohan (Fohenagh); Ollie Deely also named.",
+    "year": "1996",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "u16",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cathal-lohan",
+      "player:ollie-deeley"
+    ],
+    "excerpt": "Galway under-16 hurlers take on Clare in a tournament fixture as part of the programme to mark Beagh G.A.A. Club's official opening of their new grounds on Sunday (4.30 p.m.). The Galway panel includes Cathal Lohan (Fohenagh) and Ollie Deely.",
+    "citeChip": "Connacht Tribune · 19 Apr 1996 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960419.1.14",
+    "status": "pending",
+    "matchTags": []
   }
 ]
