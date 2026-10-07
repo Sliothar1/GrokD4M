@@ -308,9 +308,8 @@ export function FohenaghNotableGamesShelf() {
           Notable games
         </h2>
         <p className="mt-2 text-base text-galway-ink/75">
-          Six Galway senior finals from old Fohenagh — before the club joined
-          Ahascragh. Scores come from the papers and the county roll. No made-up
-          numbers.
+          Six Galway senior finals from Fohenagh. Scores come from the papers
+          and the county roll. No made-up numbers.
         </p>
       </div>
 
@@ -373,9 +372,7 @@ export function FohenaghNotableGamesShelf() {
         ))}
       </ol>
 
-      <p className="text-xs text-galway-ink/55">
-        Pre-2002 Fohenagh only. These are not Ahascragh-Fohenagh amalgam titles.
-      </p>
+      <p className="text-xs text-galway-ink/55">Pre-2002 Fohenagh only.</p>
     </section>
   );
 }
@@ -392,7 +389,7 @@ const HISTORIC_STORY_CHIPS = [
     hint: "season 1959",
   },
   {
-    label: "When Fohenagh won the county before the amalgam",
+    label: "When Fohenagh won the county",
     id: "club:fohenagh-historic",
     hint: "club edge only",
   },
@@ -502,7 +499,7 @@ export function HistoricStoryChips() {
   return (
     <StoryChipButtons
       chips={HISTORIC_STORY_CHIPS}
-      heading="Got a story from before the amalgam?"
+      heading="Got a Fohenagh story?"
       sub="Anecdotes welcome. Please do not invent scores."
     />
   );
@@ -530,7 +527,12 @@ export function LoughreaFinalStoryChips() {
   );
 }
 
-export function HistoricClubPanel() {
+export function HistoricClubPanel({
+  showStories = true,
+}: {
+  /** Story prompts sit after the roster on the Fohenagh club page. */
+  showStories?: boolean;
+}) {
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-2">
@@ -540,15 +542,9 @@ export function HistoricClubPanel() {
         >
           Ahascragh
         </Link>
-        <Link
-          href="/club/ahascragh-fohenagh"
-          className="text-sm font-semibold text-galway-maroon underline"
-        >
-          See today&apos;s club
-        </Link>
       </div>
       <FohenaghNotableGamesShelf />
-      <HistoricStoryChips />
+      {showStories ? <HistoricStoryChips /> : null}
     </div>
   );
 }

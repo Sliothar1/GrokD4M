@@ -6,12 +6,34 @@ import type { ClubRosterRow } from "@/lib/playerClubs";
 export function ClubRoster({
   rows,
   clubName,
+  unverifiedLabel = "Needs check",
+  omitAlsoClubIds = [],
+  separateUnverifiedLinks = false,
 }: {
   rows: ClubRosterRow[];
   clubName: string;
+  /** Label for players still waiting on verification. */
+  unverifiedLabel?: string;
+  /** Club ids left off the "· also …" suffix. The player link stays. */
+  omitAlsoClubIds?: string[];
+  /** Unsourced numbered extras sit with the unverified group. */
+  separateUnverifiedLinks?: boolean;
 }) {
-  const verified = rows.filter((row) => row.trust === "Verified");
-  const needsCheck = rows.filter((row) => row.trust !== "Verified");
+  const omit = new Set(omitAlsoClubIds);
+  const displayRows = rows.map((row) => ({
+    ...row,
+    alsoClubs: row.alsoClubs.filter((club) => !omit.has(club.id)),
+  }));
+  const verified = displayRows.filter(
+    (row) =>
+      row.trust === "Verified" && !(separateUnverifiedLinks && row.linkPending)
+  );
+  const needsCheck = displayRows.filter(
+    (row) =>
+      row.trust !== "Verified" || (separateUnverifiedLinks && row.linkPending)
+  );
+  verified.sort((a, b) => a.summary.title.localeCompare(b.summary.title));
+  needsCheck.sort((a, b) => a.summary.title.localeCompare(b.summary.title));
 
   return (
     <section className="space-y-3">
@@ -36,7 +58,7 @@ export function ClubRoster({
       ) : (
         <div className="space-y-4">
           <RosterGroup label="Verified" rows={verified} />
-          <RosterGroup label="Needs check" rows={needsCheck} />
+          <RosterGroup label={unverifiedLabel} rows={needsCheck} />
         </div>
       )}
     </section>

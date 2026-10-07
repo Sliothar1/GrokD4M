@@ -1,5 +1,9 @@
 import { linkedCuttingCountsFor } from "@/lib/articles";
-import { isClubAttrColumn } from "@/lib/clubColumns";
+import {
+  isClubAttrColumn,
+  isNumberedClubCol,
+  isSeasonClubCol,
+} from "@/lib/clubColumns";
 import {
   displayNameForRef,
   entityHref,
@@ -128,6 +132,11 @@ export type ClubRosterRow = {
   alsoClubs: ClubChipData[];
   /** Same chip as the player profile strip: Verified or Needs check. */
   trust: string;
+  /**
+   * True when this jersey is only a numbered extra (`club_1`, …) with no
+   * source on that column. Named `club` / `also_club` links are not pending.
+   */
+  linkPending: boolean;
 };
 
 const AF_CLUB_ID = "club:ahascragh-fohenagh";
@@ -196,6 +205,31 @@ function valueMentionsClub(val: TripleVal, clubId: string): boolean {
   return parseClubIds(val).includes(clubId);
 }
 
+/**
+ * Jersey claim that is only an unsourced numbered or season extra.
+ * A named column (`club`, `also_club`, …) is the player's existing jersey
+ * and is not treated as a pending add.
+ */
+function jerseyLinkPending(
+  attrs: Record<string, TripleVal>,
+  clubId: string
+): boolean {
+  const cols = Object.entries(attrs)
+    .filter(
+      ([key, val]) => isClubAttrColumn(key) && parseClubIds(val).includes(clubId)
+    )
+    .map(([key]) => key);
+  if (cols.length === 0) return false;
+  const named = cols.filter(
+    (col) => !isNumberedClubCol(col) && !isSeasonClubCol(col)
+  );
+  if (named.length > 0) return false;
+  return cols.every((col) => {
+    const source = attrs[`source_${col}`];
+    return typeof source !== "string" || source.trim() === "";
+  });
+}
+
 function addPlayerFromRow(
   row: string,
   val: TripleVal,
@@ -249,6 +283,7 @@ export async function listClubRoster(
       trust:
         playerProfileChip(attrs, summary.confidence, linkedCuttings) ??
         "Needs check",
+      linkPending: jerseyLinkPending(attrs, clubId),
     });
   }
 
