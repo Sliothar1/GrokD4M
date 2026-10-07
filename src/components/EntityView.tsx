@@ -329,7 +329,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       <DeveloperTriples
         triples={triples}
         hideScore={hideScore}
-        hideCols={isHistoricFohenagh ? ["successor"] : []}
+        hideCols={isHistoricFohenagh ? ["successor", "note"] : []}
       />
     </article>
   );

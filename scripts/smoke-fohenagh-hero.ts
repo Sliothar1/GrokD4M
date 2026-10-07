@@ -131,6 +131,37 @@ async function main() {
     false
   );
 
+  const clubCopy = `${club.attrs.summary ?? ""} ${club.attrs.notable ?? ""}`;
+  assert.equal(/amalgam/i.test(clubCopy), false);
+  assert.equal(clubCopy.includes("Ahascragh-Fohenagh"), false);
+  assert.match(
+    String(club.attrs.notable),
+    /^Historic Fohenagh parish club\. Six Galway SHC final appearances:/
+  );
+
+  const oliverAlias = await getEntity("player:oliver-deeley-fohenagh");
+  assert.ok(oliverAlias);
+  assert.equal(oliverAlias.id, "player:ollie-deeley");
+  assert.equal(oliverAlias.summary.title, "Oliver Deeley");
+  assert.match(
+    String(oliverAlias.attrs.notable),
+    /^Won an All-Ireland hurling medal at under-14 with Galway/
+  );
+  assert.equal(String(oliverAlias.attrs.confirmed_by_family), "notable");
+  assert.equal(JSON.stringify(oliverAlias.attrs).includes("Garry"), false);
+  const oliverNotable = annotateEntityVerification(
+    resolveEntitySources({
+      entityId: "player:ollie-deeley",
+      attrs: oliverAlias.attrs,
+      order: [{ fact: "notable" }],
+    }),
+    oliverAlias.attrs
+  );
+  assert.equal(
+    oliverNotable.facts.find((fact) => fact.factKey === "notable")?.status,
+    "verified"
+  );
+
   const amalgam = await getEntity("club:ahascragh-fohenagh");
   assert.ok(amalgam);
   assert.equal(

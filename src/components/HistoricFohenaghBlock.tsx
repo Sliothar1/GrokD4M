@@ -308,9 +308,8 @@ export function FohenaghNotableGamesShelf() {
           Notable games
         </h2>
         <p className="mt-2 text-base text-galway-ink/75">
-          Six Galway senior finals from old Fohenagh — before the club joined
-          Ahascragh. Scores come from the papers and the county roll. No made-up
-          numbers.
+          Six Galway senior finals from Fohenagh. Scores come from the papers
+          and the county roll. No made-up numbers.
         </p>
       </div>
 
@@ -390,7 +389,7 @@ const HISTORIC_STORY_CHIPS = [
     hint: "season 1959",
   },
   {
-    label: "When Fohenagh won the county before the amalgam",
+    label: "When Fohenagh won the county",
     id: "club:fohenagh-historic",
     hint: "club edge only",
   },
@@ -500,7 +499,7 @@ export function HistoricStoryChips() {
   return (
     <StoryChipButtons
       chips={HISTORIC_STORY_CHIPS}
-      heading="Got a story from before the amalgam?"
+      heading="Got a Fohenagh story?"
       sub="Anecdotes welcome. Please do not invent scores."
     />
   );
@@ -542,12 +541,6 @@ export function HistoricClubPanel({
           className="rounded-full border-2 border-galway-maroon/30 bg-white px-3 py-1 text-sm font-bold text-galway-maroon"
         >
           Ahascragh
-        </Link>
-        <Link
-          href="/club/ahascragh-fohenagh"
-          className="text-sm font-semibold text-galway-maroon underline"
-        >
-          See today&apos;s club
         </Link>
       </div>
       <FohenaghNotableGamesShelf />

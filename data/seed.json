@@ -617,12 +617,12 @@
   {
     "row": "club:fohenagh-historic",
     "col": "summary",
-    "val": "Historic Fohenagh contested six Galway SHC final appearances — 1958 (loss), 1959 draw, 1959 replay (win), 1960 (win), 1961 (loss), 1963 (loss). Later the parish joined Ahascragh (juvenile 1999, adult 2002)."
+    "val": "Historic Fohenagh parish club. Six Galway SHC final appearances: runners-up 1958 vs Castlegar; winners 1959 (after a replay) and 1960 vs Castlegar; runners-up 1961 and 1963 vs Turloughmore."
   },
   {
     "row": "club:fohenagh-historic",
     "col": "notable",
-    "val": "Historic parish club before the Ahascragh-Fohenagh amalgamation. Six Galway SHC final appearances (fohenagh-historic): runners-up 1958 vs Castlegar; winners 1959 (after a replay) and 1960 vs Castlegar; runners-up 1961 and 1963 vs Turloughmore. These are predecessor titles — not amalgam club titles."
+    "val": "Historic Fohenagh parish club. Six Galway SHC final appearances: runners-up 1958 vs Castlegar; winners 1959 (after a replay) and 1960 vs Castlegar; runners-up 1961 and 1963 vs Turloughmore."
   },
   {
     "row": "club:fohenagh-historic",
@@ -122978,6 +122978,11 @@
     "row": "player:oliver-deeley-fohenagh",
     "col": "status",
     "val": "pending_archivist"
+  },
+  {
+    "row": "player:oliver-deeley-fohenagh",
+    "col": "same_as",
+    "val": "player:ollie-deeley"
   },
   {
     "row": "player:albie-deeley-fohenagh",
@@ -247802,7 +247807,17 @@
   {
     "row": "player:ollie-deeley",
     "col": "name",
+    "val": "Oliver Deeley"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "also_known_as",
     "val": "Ollie Deeley"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "source_also_known_as",
+    "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
   },
   {
     "row": "player:ollie-deeley",
@@ -247827,12 +247842,22 @@
   {
     "row": "player:ollie-deeley",
     "col": "notable",
-    "val": "Named among those who best served Fohenagh in the Sadie Kilcommons final win over Ahascragh (Connacht Tribune, 21 Aug 1998)."
+    "val": "Won an All-Ireland hurling medal at under-14 with Galway. Named on the Fohenagh Minor C hurling champions panel in 1996 (Galway GAA roll of honour). Named among those who best served Fohenagh in the Sadie Kilcommons final win over Ahascragh (Connacht Tribune, 21 Aug 1998)."
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "confirmed_by_family",
+    "val": "notable"
   },
   {
     "row": "player:ollie-deeley",
     "col": "source_notable",
     "val": "art-ct-fohenagh-ahascragh-sadie-kilcommons"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "source_notable_2",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
   },
   {
     "row": "player:ollie-deeley",
