@@ -373,9 +373,7 @@ export function FohenaghNotableGamesShelf() {
         ))}
       </ol>
 
-      <p className="text-xs text-galway-ink/55">
-        Pre-2002 Fohenagh only. These are not Ahascragh-Fohenagh amalgam titles.
-      </p>
+      <p className="text-xs text-galway-ink/55">Pre-2002 Fohenagh only.</p>
     </section>
   );
 }
@@ -530,7 +528,12 @@ export function LoughreaFinalStoryChips() {
   );
 }
 
-export function HistoricClubPanel() {
+export function HistoricClubPanel({
+  showStories = true,
+}: {
+  /** Story prompts sit after the roster on the Fohenagh club page. */
+  showStories?: boolean;
+}) {
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-2">
@@ -548,7 +551,7 @@ export function HistoricClubPanel() {
         </Link>
       </div>
       <FohenaghNotableGamesShelf />
-      <HistoricStoryChips />
+      {showStories ? <HistoricStoryChips /> : null}
     </div>
   );
 }

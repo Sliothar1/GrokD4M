@@ -9,10 +9,14 @@ import type { Triple } from "@/lib/d4m/AssocArray";
 export async function DeveloperTriples({
   triples,
   hideScore = false,
+  hideCols = [],
 }: {
   triples: Triple[];
   hideScore?: boolean;
+  /** Columns kept off this page. Fohenagh hides the amalgam successor edge. */
+  hideCols?: string[];
 }) {
+  const hidden = new Set(hideCols);
   const A = await getAssoc();
   const lines = triples.filter(
     (t) =>
@@ -22,7 +26,8 @@ export async function DeveloperTriples({
       !t.col.endsWith("_basis") &&
       !isPressPraiseAttr(t.col) &&
       isDisplayableVal(t.val) &&
-      !(hideScore && t.col === "score")
+      !(hideScore && t.col === "score") &&
+      !hidden.has(t.col)
   );
 
   if (lines.length === 0) return null;

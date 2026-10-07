@@ -6,6 +6,7 @@ import {
   AhascraghTitleChips,
   HistoricClubPanel,
   HistoricPredecessorChip,
+  HistoricStoryChips,
   LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
 import { ClubRoster } from "@/components/club/ClubRoster";
@@ -143,7 +144,19 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         </p>
       ) : null}
 
-      {isHistoricFohenagh && <HistoricClubPanel />}
+      {isHistoricFohenagh && <HistoricClubPanel showStories={false} />}
+
+      {isHistoricFohenagh && summary.kind === "club" ? (
+        <ClubRoster
+          rows={clubRoster}
+          clubName={summary.title}
+          unverifiedLabel="Being verified"
+          omitAlsoClubIds={["club:ahascragh-fohenagh"]}
+          separateUnverifiedLinks
+        />
+      ) : null}
+
+      {isHistoricFohenagh && <HistoricStoryChips />}
 
       {isHistoricAhascragh && (
         <section className="space-y-4">
@@ -184,7 +197,6 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       {isAmalgam && <HistoricPredecessorChip />}
 
       {(id === "club:ahascragh-fohenagh" ||
-        id === "club:fohenagh-historic" ||
         id === "club:ahascragh-historic") && (
         <DualEraStrip
           variant={id === "club:ahascragh-fohenagh" ? "amalgam" : "historic"}
@@ -192,7 +204,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         />
       )}
 
-      {summary.kind === "club" ? (
+      {summary.kind === "club" && !isHistoricFohenagh ? (
         <ClubRoster rows={clubRoster} clubName={summary.title} />
       ) : null}
 
@@ -212,6 +224,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           if (summary.kind === "club" && (r.kind === "player" || r.kind === "appearance")) {
             return false;
           }
+          if (isHistoricFohenagh && r.id === "club:ahascragh-fohenagh") return false;
           return true;
         });
         const showCuttings =
@@ -313,7 +326,11 @@ export async function EntityView({ data }: { data: EntityPayload }) {
 
       
 
-      <DeveloperTriples triples={triples} hideScore={hideScore} />
+      <DeveloperTriples
+        triples={triples}
+        hideScore={hideScore}
+        hideCols={isHistoricFohenagh ? ["successor"] : []}
+      />
     </article>
   );
 }
@@ -335,6 +352,7 @@ function EntityFacts({
   const rows = Object.entries(attrs).filter(([key, value]) => {
     if (isHiddenFactKey(key) || !isDisplayableVal(value)) return false;
     if (hideScore && key === "score") return false;
+    if (entityId === "club:fohenagh-historic" && key === "successor") return false;
     if (factKeyForSourceColumn(key, columns)) return false;
     return true;
   });

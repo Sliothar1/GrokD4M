@@ -88,7 +88,15 @@ async function main() {
 
   const cathal = await getEntity("player:cathal-lohan");
   assert.ok(cathal);
-  assert.equal(String(cathal.attrs.confirmed_by_family), "notes");
+  const familyKeys = String(cathal.attrs.confirmed_by_family)
+    .split(/[,;]/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  assert.deepEqual(familyKeys.sort(), ["notable", "notes"]);
+  assert.match(
+    String(cathal.attrs.notable),
+    /^Won an All-Ireland hurling medal at under-14 with Galway/
+  );
   const cathalNotes = seed.find(
     (c) => c.row === "player:cathal-lohan" && c.col === "notes"
   ) as { source?: string; val?: string } | undefined;
@@ -104,6 +112,18 @@ async function main() {
   );
   assert.equal(
     cathalSources.facts.find((fact) => fact.factKey === "notes")?.status,
+    "verified"
+  );
+  const cathalNotable = annotateEntityVerification(
+    resolveEntitySources({
+      entityId: "player:cathal-lohan",
+      attrs: cathal.attrs,
+      order: [{ fact: "notable" }],
+    }),
+    cathal.attrs
+  );
+  assert.equal(
+    cathalNotable.facts.find((fact) => fact.factKey === "notable")?.status,
     "verified"
   );
   assert.equal(

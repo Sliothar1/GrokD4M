@@ -249242,7 +249242,7 @@
   {
     "row": "player:philip-lohan",
     "col": "notable",
-    "val": "A Fohenagh parish hurler with Ahascragh-Fohenagh. Named on the Fohenagh U-12 county B champions panel (Connacht Tribune, 7 Dec 1990)."
+    "val": "Named on the Fohenagh U-12 county B champions panel (Connacht Tribune, 7 Dec 1990). A Fohenagh parish hurler with Ahascragh-Fohenagh."
   },
   {
     "row": "player:philip-lohan",
@@ -249302,7 +249302,7 @@
   {
     "row": "player:sean-moclair",
     "col": "notable",
-    "val": "Connacht U-16 hurling champion with Fohenagh in 1989, scoring 0-1 (Connacht Tribune, 27 Oct 1989; printed Sean Mockler). Earlier named among Fohenagh's best in the Under-12 C Coiste Iomana final against St. Thomas (Connacht Tribune, 2 Nov 1984). Son of Jimmy Moclair."
+    "val": "Connacht U-16 hurling champion with Fohenagh in 1989, scoring 0-1 (Connacht Tribune, 27 Oct 1989; printed Sean Mockler). Earlier named among Fohenagh's best in the Under-12 C Coiste Iomana final against St. Thomas (Connacht Tribune, 2 Nov 1984). Named in the back row of the Fohenagh Minor C champions caption in 1990 (Connacht Tribune, 7 Dec 1990). Son of Jimmy Moclair."
   },
   {
     "row": "player:sean-moclair",
@@ -249337,7 +249337,7 @@
   {
     "row": "player:seamus-moclair",
     "col": "notable",
-    "val": "All-Ireland Vocational Schools senior hurling winner with Galway, 1993 — beat Tipperary 5-7 to 1-11 at Thurles (Connacht Tribune, 14 May 1993). A standout Fohenagh hurler named in the Sadie Kilcommons final report. Son of Jimmy Moclair."
+    "val": "All-Ireland Vocational Schools senior hurling winner with Galway, 1993 — beat Tipperary 5-7 to 1-11 at Thurles (Connacht Tribune, 14 May 1993). Named in the front row of the Fohenagh Minor C champions caption in 1990 (Connacht Tribune, 7 Dec 1990). A standout Fohenagh hurler named in the Sadie Kilcommons final report. Son of Jimmy Moclair."
   },
   {
     "row": "player:seamus-moclair",
@@ -249377,7 +249377,7 @@
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "notable",
-    "val": "Named as a trainer of the Ahascragh-Fohenagh Minor (U-17) B hurling league final winners in 2025 (Tuam Herald, 16 Jul 2025). Earlier, he was pictured with the Fohenagh U-12 County B champions in 1990 (Connacht Tribune, 7 Dec 1990). Son of Jimmy Moclair."
+    "val": "Scored the winning goal, 1-3, as Fohenagh beat Castlegar by a point in the 1993 county Junior hurling semi-final (Galway City Tribune, 29 Oct 1993). Named among the Fohenagh forwards who best served the side in the 1995 Junior A win over Ballygar (Connacht Tribune, 1 Sep 1995). Fohenagh U-12 County B champion in 1990 (Connacht Tribune, 7 Dec 1990) and named on the Fohenagh Minor C hurling champions panel in 1996 (Galway GAA roll of honour). Later named as a trainer of the Ahascragh-Fohenagh Minor (U-17) B hurling league final winners in 2025 (Tuam Herald, 16 Jul 2025). Son of Jimmy Moclair."
   },
   {
     "row": "player:alan-moclair-ahascragh-fohenagh",
@@ -249502,7 +249502,7 @@
   {
     "row": "player:garry-lohan",
     "col": "notable",
-    "val": "Called to the minor hurling trial for East Galway clubs at Loughrea, May 1995 (Connacht Tribune, 12 May 1995). A standout Fohenagh hurler named in the Sadie Kilcommons final report."
+    "val": "Called to the minor hurling trial for East Galway clubs at Loughrea, May 1995 (Connacht Tribune, 12 May 1995). A standout Fohenagh hurler named in the Sadie Kilcommons final report. Named among the Fohenagh forwards who best served the side in the 1995 Junior A win over Ballygar (Connacht Tribune, 1 Sep 1995)."
   },
   {
     "row": "player:garry-lohan",
@@ -249522,7 +249522,7 @@
   {
     "row": "player:cathal-lohan",
     "col": "notable",
-    "val": "Fohenagh Minor C hurling champion in 1996 (Galway GAA roll of honour 1980–1999). Earlier named on the Fohenagh U-12 county B champions panel (Connacht Tribune, 7 Dec 1990)."
+    "val": "Won an All-Ireland hurling medal at under-14 with Galway. Fohenagh Minor C hurling champion in 1996 (Galway GAA roll of honour 1980–1999). Earlier named on the Fohenagh U-12 county B champions panel (Connacht Tribune, 7 Dec 1990)."
   },
   {
     "row": "player:cathal-lohan",
@@ -249958,7 +249958,7 @@
   {
     "row": "player:cathal-lohan",
     "col": "confirmed_by_family",
-    "val": "notes"
+    "val": "notes; notable"
   },
   {
     "row": "player:jimmy-devine-fohenagh",
@@ -250104,5 +250104,80 @@
     "row": "player:niall-leonard",
     "col": "source_press_praise_2",
     "val": "art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "source_notable_3",
+    "val": "art-ina-ctb-1993-10-29-fohenagh-castlegar-junior-semi"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "source_notable_4",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "source_notable_5",
+    "val": "https://www.galwaygaa.ie/history/roll-of-honour-1980-1999-hurling-football/"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:alan-mochlair-fohenagh",
+    "col": "same_as",
+    "val": "player:alan-moclair-ahascragh-fohenagh"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "source_notable_3",
+    "val": "art-ina-ct-1990-12-07-fohenagh-minor-c-champs"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "source_notable_4",
+    "val": "art-ina-ct-1990-12-07-fohenagh-minor-c-champs"
+  },
+  {
+    "row": "player:garry-lohan",
+    "col": "source_notable_3",
+    "val": "art-ina-ct-1995-09-01-fohenagh-win-ballygar"
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "club_2",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:trevor-lohan",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:luke-kennedy",
+    "col": "source_notable",
+    "val": "https://www.tuamherald.ie/2026/08/13/ahascragh-fohenagh-defeat-kinvara-in-opener/"
   }
 ]
