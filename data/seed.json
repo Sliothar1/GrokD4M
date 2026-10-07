@@ -37102,7 +37102,12 @@
   {
     "row": "player:jason-lohan",
     "col": "notable",
-    "val": "Jason Lohan of Ahascragh-Fohenagh — All-Ireland Intermediate Hurling Championship winner with Galway (2002), and the Connacht Tribune’s man for an excellent first-half goal in a Co. B U-21 quarter-final, later starting as AF beat Killnadeema/Leitrim. Called to a Galway under-14 trial for the Tony Forristal Tournament in Waterford (City Tribune, 4 July 1997)."
+    "val": "Undefeated as captain: two cups lifted, two from two. Jason Lohan of Ahascragh-Fohenagh — All-Ireland Intermediate Hurling Championship winner with Galway (2002), and the Connacht Tribune’s man for an excellent first-half goal in a Co. B U-21 quarter-final, later starting as AF beat Killnadeema/Leitrim. Called to a Galway under-14 trial for the Tony Forristal Tournament in Waterford (City Tribune, 4 July 1997)."
+  },
+  {
+    "row": "player:jason-lohan",
+    "col": "confirmed_by_family",
+    "val": "notable"
   },
   {
     "row": "player:jason-lohan",
@@ -244492,7 +244497,7 @@
   {
     "row": "player:philip-lohan",
     "col": "name",
-    "val": "Philip Lohan"
+    "val": "Phillip Lohan"
   },
   {
     "row": "player:philip-lohan",
@@ -244507,7 +244512,7 @@
   {
     "row": "player:philip-lohan",
     "col": "note",
-    "val": "Parish roster club stamp. Same person as the older Phillip Lohan spelling alias."
+    "val": "Parish roster club stamp. Also recorded as Philip Lohan."
   },
   {
     "row": "player:gary-lohan",
@@ -249277,7 +249282,12 @@
   {
     "row": "player:philip-lohan",
     "col": "also_known_as",
-    "val": "Phillip Lohan"
+    "val": "Philip Lohan"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "alias",
+    "val": "Philip Lohan"
   },
   {
     "row": "player:philip-lohan",
