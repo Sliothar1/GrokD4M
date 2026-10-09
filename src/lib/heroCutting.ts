@@ -1,5 +1,6 @@
 import {
   articleToSummary,
+  isHeldForReview,
   normalizeClubTags,
   readArticleUploads,
 } from "@/lib/articles";
@@ -89,7 +90,7 @@ export async function resolveEntityHero(input: {
     return cuttings.find((c) => c.imagePath) ?? cuttings[0];
   }
 
-  const uploads = await readArticleUploads();
+  const uploads = (await readArticleUploads()).filter((upload) => !isHeldForReview(upload));
   const byId = new Map(uploads.map((upload) => [upload.id.toLowerCase(), upload]));
 
   const enrich = (cutting: EntitySummary): HeroCard => {

@@ -77,6 +77,10 @@ export interface PendingStory {
   body: string;
   linkedEntity?: string;
   submittedAt: string;
+  /** Player, club or game path this suggestion came from. */
+  page?: string;
+  /** Original filename. The file itself stays off the public site. */
+  attachmentName?: string;
 }
 
 const PENDING_PATH = path.join(process.cwd(), "data", "pending-stories.json");
@@ -146,12 +150,8 @@ export function friendlyTrustLabel(confidence?: string | null): string | undefin
   if (!confidence) return undefined;
   const c = confidence.toLowerCase();
   if (c === "high" || c === "verified") return "Verified";
-  if (c === "medium") return "Needs check";
-  if (c === "low") return "Needs check";
   if (c === "community") return "Fan story";
-  if (c === "unverified") return "Needs check";
-  if (c === "hold") return "Needs check";
-  return "Needs check";
+  return "Still checking";
 }
 
 /** True when a player is named on a newspaper cutting (archivist / ingest stamps). */

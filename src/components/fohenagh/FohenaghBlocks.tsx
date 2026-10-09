@@ -1,6 +1,20 @@
 import Link from "next/link";
 import type { FohenaghGame } from "@/lib/fohenaghShowcase";
 
+export function PhotoComingSoon({
+  note,
+}: {
+  /** Quiet line under the placeholder, such as "Championship team photo". */
+  note?: string;
+}) {
+  return (
+    <figure className="flex min-h-36 flex-col items-center justify-center rounded-2xl border border-dashed border-galway-maroon/25 bg-[var(--hw-paper,#f7f1e8)] px-6 py-8 text-center">
+      <figcaption className="text-sm font-semibold text-galway-ink/55">Photo coming soon</figcaption>
+      {note ? <p className="mt-1 text-xs text-galway-ink/45">{note}</p> : null}
+    </figure>
+  );
+}
+
 export function CrestPlaceholder() {
   return (
     <div className="flex items-center gap-3">
@@ -11,7 +25,7 @@ export function CrestPlaceholder() {
         F
       </span>
       <p className="max-w-[14rem] text-xs leading-snug text-[#f7f3ea]/75">
-        Crest to follow. This monogram is a placeholder, not the club badge.
+        Club crest coming soon
       </p>
     </div>
   );
@@ -32,12 +46,11 @@ export function NotableGames({ games }: { games: FohenaghGame[] }) {
   return (
     <section className="space-y-4" aria-labelledby="notable-games-heading">
       <div>
-        <p className="hw-kicker">From the seed</p>
-        <h2 id="notable-games-heading" className="mt-1 text-3xl text-galway-ink">
-          Notable games
+        <h2 id="notable-games-heading" className="text-3xl text-galway-ink">
+          Key matches
         </h2>
         <p className="mt-2 max-w-2xl text-base text-galway-ink/70">
-          {games.length === 1 ? "1 game" : `${games.length} games`} on file for Fohenagh, newest first. Each one opens its own page.
+          {games.length === 1 ? "One game" : `${games.length} games`}, newest first. Open a match for the report and the players named that day.
         </p>
       </div>
       {decades.map((decade) => (

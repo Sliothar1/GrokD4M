@@ -129,7 +129,7 @@ export function PlayerCareer({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Open source
+                Read the source
               </a>
             </p>
           ) : null}

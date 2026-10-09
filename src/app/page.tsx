@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
+import { PhotoComingSoon } from "@/components/fohenagh/FohenaghBlocks";
 import { getEntity } from "@/lib/data";
 import { playerNotableText } from "@/lib/entityDisplay";
 
@@ -49,17 +50,25 @@ export default async function HomePage() {
           A wiki for every hurling club. Start with a parish name.
         </p>
         <SearchBox large placeholder="Search a club or player — try Fohenagh" />
+        <p className="max-w-2xl text-base leading-relaxed text-galway-ink/70">
+          For example, type a player&apos;s name, a club, or a word like captain.
+        </p>
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-2xl text-galway-maroon">One club</h2>
+        <h2 className="text-2xl text-galway-maroon">Try a sample club</h2>
         <div className="grid gap-3 sm:grid-cols-2">
-          {featuredClub ? <EntityCard entity={featuredClub.summary} /> : null}
+          {featuredClub ? (
+            <EntityCard entity={featuredClub.summary} crestLabel="Club crest coming soon" />
+          ) : null}
+          <PhotoComingSoon note="Championship team photo" />
         </div>
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-2xl text-galway-maroon">Two players</h2>
+        <h2 className="text-2xl leading-snug text-galway-maroon">
+          Or start with a player, for example Tim Sweeney or Jimmy Moclair.
+        </h2>
         <div className="grid gap-3 sm:grid-cols-2">
           {spotlights.map((player) =>
             player ? <SpotlightCard key={player.id} player={player} /> : null

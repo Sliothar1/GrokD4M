@@ -7,6 +7,8 @@ import { displayNameForRef } from "@/lib/data";
 import type { AssocArray, TripleVal } from "@/lib/d4m/AssocArray";
 
 export const HERO_CUTTING_ID = "art-ct-1959-09-05-fohenagh-castlegar-portrait";
+/** Team picture printed after the 1959 replay. */
+export const REPLAY_PICTURE_ID = "art-ct-1959-09-19-fohenagh-team-caption";
 export const TITLE_PANEL_ID = "art-ct-1959-09-19-fohenagh-team-caption";
 
 /** Printed Fohenagh XV, Connacht Tribune 19 Sep 1959 replay. */
@@ -63,6 +65,9 @@ export const OWNER_VERIFIED_PLAYERS = new Set([
   "player:keith-murphy-fohenagh",
   "player:brendan-noone-fohenagh",
   "player:joe-madden-fohenagh",
+  "player:kieran-molloy-fohenagh",
+  "player:alan-malloy-fohenagh",
+  "player:eric-lally-fohenagh",
 ]);
 
 export const SWEENEY_PROFILE_IDS = new Set([

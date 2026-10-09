@@ -4,7 +4,7 @@ import { StoryForm } from "@/components/StoryForm";
 import { ArticleUploadForm } from "@/components/ArticleUploadForm";
 import Link from "next/link";
 import { officialStories, readPendingStories } from "@/lib/data";
-import { articleToSummary, readArticleUploads } from "@/lib/articles";
+import { articleToSummary, isHeldForReview, readArticleUploads } from "@/lib/articles";
 
 export const metadata: Metadata = {
   title: "Stories",
@@ -19,7 +19,9 @@ export default async function StoriesPage({
 }) {
   const seeded = await officialStories();
   const pending = readPendingStories();
-  const uploads = (await readArticleUploads()).slice(0, 6);
+  const allUploads = await readArticleUploads();
+  const uploads = allUploads.filter((upload) => !isHeldForReview(upload)).slice(0, 6);
+  const held = allUploads.filter((upload) => isHeldForReview(upload));
   const sp = await searchParams;
   const initialLink = typeof sp.link === "string" ? sp.link : "";
   const initialPrompt = typeof sp.prompt === "string" ? sp.prompt : "";
@@ -38,10 +40,8 @@ export default async function StoriesPage({
           Stories &amp; cuttings
         </h1>
         <p className="max-w-2xl text-lg leading-relaxed text-galway-ink/75">
-          Share a memory, or upload a newspaper cutting (image, PDF, or URL).
-          Cuttings go into the Ingest Lab queue — excerpt +{" "}
-          <strong>YYYY · Paper</strong> cite on the public card; full text stays
-          private; triples stay unverified until the Archivist.
+          Share a memory, or send a newspaper cutting. An editor reads it before
+          it is published. Nothing goes live on its own.
         </p>
       </header>
 
@@ -88,11 +88,11 @@ export default async function StoriesPage({
 
       <section className="space-y-3">
         <p className="hw-kicker">On file</p>
-        <h2 className="text-3xl text-galway-ink">In the seed</h2>
+        <h2 className="text-3xl text-galway-ink">Stories on file</h2>
         {seeded.length === 0 ? (
           <EmptyTeach
-            title="No seeded stories yet"
-            hint="When stories appear in seed.json with type community_story, they show up here."
+            title="No stories on file yet"
+            hint="Published stories will show up here."
           />
         ) : (
           <div className="grid gap-3 sm:grid-cols-2">
@@ -106,12 +106,12 @@ export default async function StoriesPage({
       <section className="space-y-3">
         <p className="hw-kicker">Waiting</p>
         <h2 className="text-3xl text-galway-ink">
-          Pending (local queue)
+          Waiting to be read
         </h2>
-        {pending.length === 0 ? (
+        {pending.length === 0 && held.length === 0 ? (
           <EmptyTeach
-            title="Queue is empty"
-            hint="Submit a story below. It will be saved to data/pending-stories.json on this machine."
+            title="Nothing waiting"
+            hint="A story, correction or clipping waits here until an editor publishes it."
           />
         ) : (
           <ul className="space-y-3">
@@ -121,14 +121,41 @@ export default async function StoriesPage({
                 className="rounded-2xl border-2 border-dashed border-galway-gold bg-white p-4"
               >
                 <p className="text-xs font-bold uppercase text-galway-gold">
-                  Pending
+                  Waiting
                 </p>
                 <h3 className="text-xl font-bold">{p.title}</h3>
                 <p className="text-sm text-galway-ink/60">
                   by {p.author}
-                  {p.linkedEntity ? ` · linked ${p.linkedEntity}` : ""}
+                  {p.page ? ` · ${p.page}` : p.linkedEntity ? ` · ${quietLink(p.linkedEntity)}` : ""}
                 </p>
                 <p className="mt-2 text-base">{p.body}</p>
+                {p.attachmentName ? (
+                  <p className="mt-2 text-sm text-galway-ink/60">
+                    File held for the editor: {p.attachmentName}
+                  </p>
+                ) : null}
+              </li>
+            ))}
+            {held.map((item) => (
+              <li
+                key={item.id}
+                className="rounded-2xl border-2 border-dashed border-galway-gold bg-white p-4"
+              >
+                <p className="text-xs font-bold uppercase text-galway-gold">
+                  Waiting
+                </p>
+                <h3 className="text-xl font-bold">
+                  {item.tags.find((tag) => tag.startsWith("/")) ?? "Suggestion"}
+                </h3>
+                <p className="text-sm text-galway-ink/60">
+                  by {item.fetchedTitle || "Anonymous"}
+                </p>
+                <p className="mt-2 text-base">{item.caption}</p>
+                {item.filename ? (
+                  <p className="mt-2 text-sm text-galway-ink/60">
+                    File held for the editor: {item.filename}
+                  </p>
+                ) : null}
               </li>
             ))}
           </ul>
@@ -180,4 +207,11 @@ export default async function StoriesPage({
       />
     </div>
   );
+}
+
+function quietLink(raw: string): string {
+  if (raw.startsWith("/")) return raw;
+  const splitAt = raw.indexOf(":");
+  if (splitAt > 0) return `/${raw.slice(0, splitAt)}/${raw.slice(splitAt + 1)}`;
+  return raw;
 }

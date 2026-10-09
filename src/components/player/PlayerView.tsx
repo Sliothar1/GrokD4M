@@ -1,4 +1,3 @@
-import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
   ParishLinks,
   RememberedNote,
@@ -39,10 +38,7 @@ import {
   SWEENEY_PROFILE_IDS,
   TEAM_1959,
 } from "@/lib/fohenaghShowcase";
-import {
-  playerPhotoUploadHref,
-  resolvePlayerPhoto,
-} from "@/lib/playerPhoto";
+import { resolvePlayerPhoto } from "@/lib/playerPhoto";
 import {
   cuttingFactKey,
   resolveEntitySources,
@@ -58,10 +54,10 @@ type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 /**
  * Locked ALL-player profile order — do not reorder:
  * 1) Profile strip  2) Notable (+ secondary note)  3) In the papers
- * 4) Excerpts  5) Career / related  6) Sources  7) For developers
+ * 4) Excerpts  5) Career / related  6) Sources
  */
 export async function PlayerView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const slug = id.startsWith("player:") ? id.slice("player:".length) : id;
 
@@ -228,7 +224,6 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         clubs={clubs}
         countyName={countyName}
         photoUrl={resolvePlayerPhoto(slug, attrs)}
-        photoUploadHref={playerPhotoUploadHref(id)}
         verification={profileStatus}
         clubStatus={clubs.length > 0 ? statusOf("club") : undefined}
         clubCite={beingVerified ? undefined : citeFor("club")}
@@ -279,8 +274,6 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       />
 
       <SourcesPanel sources={citations.sources} legend />
-
-      <DeveloperTriples triples={triples} />
     </article>
   );
 }

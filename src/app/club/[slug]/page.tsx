@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { EntityView } from "@/components/EntityView";
-import { CorrectionLink } from "@/components/CorrectionLink";
+import { SuggestCorrection } from "@/components/SuggestCorrection";
 import { getEntity, listEntitiesByType, resolveId } from "@/lib/data";
 
 export async function generateStaticParams() {
@@ -31,7 +31,10 @@ export default async function Page({
   const page = (
     <>
       <EntityView data={data} />
-      <CorrectionLink page={`/club/${data.id.slice("club:".length)}`} />
+      <SuggestCorrection
+        page={`/club/${data.id.slice("club:".length)}`}
+        pageLabel={data.summary.title}
+      />
     </>
   );
   if (data.id === "club:fohenagh-historic") {

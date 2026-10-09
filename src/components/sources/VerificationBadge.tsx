@@ -43,7 +43,7 @@ export function VerificationBadge({
 export function VerificationLegend() {
   return (
     <div className="mb-4 max-w-full">
-      <h3 className="mb-2 text-sm font-bold text-galway-ink">Badge legend</h3>
+      <h3 className="mb-2 text-sm font-bold text-galway-ink">What the badges mean</h3>
       <ul className="space-y-2">
         {VERIFICATION_STATUSES.map((status) => (
           <li

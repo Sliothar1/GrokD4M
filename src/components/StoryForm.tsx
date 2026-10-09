@@ -27,12 +27,12 @@ export function StoryForm({
   const [title, setTitle] = useState(initialPrompt);
   const [author, setAuthor] = useState("");
   const [body, setBody] = useState("");
-  const [linkedEntity, setLinkedEntity] = useState(initialLink);
+  const [linkedEntity, setLinkedEntity] = useState(readableLink(initialLink));
   const [status, setStatus] = useState<"idle" | "saving" | "ok" | "err">("idle");
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    if (initialLink) setLinkedEntity(initialLink);
+    if (initialLink) setLinkedEntity(readableLink(initialLink));
     if (initialPrompt) setTitle(initialPrompt);
   }, [initialLink, initialPrompt]);
 
@@ -50,7 +50,7 @@ export function StoryForm({
       if (!res.ok) throw new Error(data.error || "Could not save");
       setStatus("ok");
       setMessage(
-        "Thanks! Your story is in the pending queue — not mixed into official stats."
+        "Thank you. An editor will read this before it is published."
       );
       setTitle("");
       setAuthor("");
@@ -70,7 +70,7 @@ export function StoryForm({
       <h2 className="text-2xl font-bold text-galway-maroon">Share a story</h2>
       <p className="text-base text-galway-ink/70">
         {emptyCta ??
-          "Family memories welcome. Pending stories stay separate from the official seed facts."}
+          "Family memories are welcome. An editor reads each one before it is published."}
       </p>
       <div>
         <label className="mb-1 block font-semibold" htmlFor="story-title">
@@ -112,13 +112,13 @@ export function StoryForm({
       </div>
       <div>
         <label className="mb-1 block font-semibold" htmlFor="story-link">
-          Link to an entity (optional)
+          Which club or player is this about? (optional)
         </label>
         <input
           id="story-link"
           value={linkedEntity}
           onChange={(e) => setLinkedEntity(e.target.value)}
-          placeholder="e.g. player:joe-canning or club:ahascragh-fohenagh"
+          placeholder="Fohenagh, or a player's name"
           className="w-full rounded-xl border-2 border-galway-maroon/20 px-3 py-2 text-lg"
         />
         <div className="mt-2 flex flex-wrap gap-2">
@@ -128,7 +128,7 @@ export function StoryForm({
               key={`${chip.id}-${chip.label}`}
               type="button"
               onClick={() => {
-                setLinkedEntity(chip.id);
+                setLinkedEntity(chip.label);
                 if (!title) setTitle(chip.label);
               }}
               className="rounded-full border-2 border-galway-maroon/30 bg-galway-cream/50 px-3 py-1 text-sm font-semibold text-galway-maroon hover:border-galway-maroon"
@@ -157,4 +157,15 @@ export function StoryForm({
       )}
     </form>
   );
+}
+
+function readableLink(raw: string): string {
+  const splitAt = raw.indexOf(":");
+  if (splitAt <= 0 || raw.startsWith("http")) return raw;
+  return raw
+    .slice(splitAt + 1)
+    .split("-")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }

@@ -288,7 +288,7 @@ export async function listClubRoster(
       alsoClubs: also,
       trust:
         playerProfileChip(attrs, summary.confidence, linkedCuttings) ??
-        "Needs check",
+        "Still checking",
       linkPending: jerseyLinkPending(attrs, clubId),
     });
   }

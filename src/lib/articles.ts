@@ -19,7 +19,7 @@ import type { LinkedCuttingSource } from "@/lib/sources";
 
 const execFileAsync = promisify(execFile);
 
-export type ArticleUploadStatus = "pending" | "decomposed";
+export type ArticleUploadStatus = "pending" | "decomposed" | "in_review";
 export type ArticleKind = "image" | "pdf" | "url";
 
 /**
@@ -64,6 +64,8 @@ export interface ArticleUpload {
   /** Optional private Blob URL/pathname for larger OCR text */
   privateTextUrl?: string;
   status: ArticleUploadStatus;
+  /** Seed/upload link to a match page. Not a public fact. */
+  matchTags?: string[];
   derivedTriples?: Triple[];
   /** Page title fetched from URL when available */
   fetchedTitle?: string;
@@ -157,6 +159,11 @@ function assertWritableStorage(): void {
   if (process.env.VERCEL) {
     throw new Error(MISSING_BLOB_MSG);
   }
+}
+
+/** Held for an editor. Never listed, searched, or turned into public triples. */
+export function isHeldForReview(a: { status?: string; tags?: string[] }): boolean {
+  return a.status === "in_review" || (a.tags ?? []).includes("moderation-queue");
 }
 
 /** Public media URL for cards / match clips / article page. */
@@ -1036,7 +1043,9 @@ export function linkedCuttingFromUpload(a: ArticleUpload): LinkedCuttingSource {
 
 /** Catalog for cite lookup. Same list as `readArticleUploads`. */
 export async function loadCitationUploads(): Promise<LinkedCuttingSource[]> {
-  return (await readArticleUploads()).map(linkedCuttingFromUpload);
+  return (await readArticleUploads())
+    .filter((a) => !isHeldForReview(a))
+    .map(linkedCuttingFromUpload);
 }
 
 export function articleToSummary(a: ArticleUpload): EntitySummary {
@@ -1089,6 +1098,7 @@ export async function searchArticleUploads(
 
   const out: EntitySummary[] = [];
   for (const a of await readArticleUploads()) {
+    if (isHeldForReview(a)) continue;
     const privateText = await readPrivateText(a);
     const blob = [
       a.caption,
@@ -1119,6 +1129,7 @@ export async function searchArticleUploads(
 export async function allDerivedUploadTriples(): Promise<Triple[]> {
   const out: Triple[] = [];
   for (const a of await readArticleUploads()) {
+    if (isHeldForReview(a)) continue;
     if (a.derivedTriples?.length) out.push(...a.derivedTriples);
   }
   return out;
@@ -1154,6 +1165,7 @@ export async function getLinkedArticleSummaries(
   const seen = new Set<string>();
 
   for (const a of await readArticleUploads()) {
+    if (isHeldForReview(a)) continue;
     if (!articleLinksEntity(a, entityId)) continue;
     const summary = articleToSummary(a);
     if (seen.has(summary.id)) continue;
@@ -1171,6 +1183,7 @@ export async function linkedCuttingCountsFor(
   const counts = new Map(ids.map((id) => [id, 0]));
   if (ids.length === 0) return counts;
   for (const a of await readArticleUploads()) {
+    if (isHeldForReview(a)) continue;
     for (const id of ids) {
       if (!articleLinksEntity(a, id)) continue;
       counts.set(id, (counts.get(id) ?? 0) + 1);
@@ -1181,11 +1194,24 @@ export async function linkedCuttingCountsFor(
 
 export interface MatchArticleClip {
   key: string;
-  imageUrl: string;
+  imageUrl?: string;
   caption?: string;
   cite?: string;
   href?: string;
 }
+
+/**
+ * Cuttings that belong on a game but whose matchTags use an older id,
+ * or that name the game without a tag. Kept narrow on purpose.
+ */
+const EXTRA_MATCH_CUTTINGS: Record<string, readonly string[]> = {
+  "match:fohenagh-historic-1959-galway-shc-final-replay": [
+    "art-ina-ct-2009-11-27-fohenagh-golden-era-moclair",
+  ],
+  "match:fohenagh-historic-1963-galway-shc-final": [
+    "art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney",
+  ],
+};
 
 /**
  * Collect article snapshots for a historic match page from:
@@ -1200,8 +1226,9 @@ export async function getMatchArticleClips(
   const seen = new Set<string>();
 
   const push = (c: MatchArticleClip) => {
-    if (!c.imageUrl || seen.has(c.imageUrl)) return;
-    seen.add(c.imageUrl);
+    if (seen.has(c.key)) return;
+    if (!c.imageUrl && !c.href) return;
+    seen.add(c.key);
     clips.push(c);
   };
 
@@ -1233,40 +1260,29 @@ export async function getMatchArticleClips(
     }
   }
 
-  const yearMatch = matchId.match(/\b(19\d{2}|20[0-2]\d)\b/);
-  const year = yearMatch ? yearMatch[1] : "";
-  const clubHint = matchId.includes("fohenagh")
-    ? "club:fohenagh-historic"
-    : matchId.includes("ahascragh")
-      ? "club:ahascragh-historic"
-      : "";
+  const wanted = new Set(
+    (EXTRA_MATCH_CUTTINGS[matchId] ?? []).map((id) => id.toLowerCase())
+  );
+  const matchKey = matchId.toLowerCase();
 
   for (const a of await readArticleUploads()) {
-    const tags = [...a.tags, ...a.clubTags, ...(a.playerTags ?? [])].map((t) =>
-      t.toLowerCase()
-    );
-    const privateText = await readPrivateText(a);
-    const blob = `${a.caption ?? ""} ${a.excerpt ?? ""} ${a.tags.join(" ")} ${a.clubTags.join(" ")} ${(a.playerTags ?? []).join(" ")} ${privateText}`.toLowerCase();
-    const matchHit =
-      tags.includes(matchId.toLowerCase()) ||
-      tags.includes(`match:${matchId}`.toLowerCase()) ||
-      blob.includes(matchId.toLowerCase());
-    const yearClubHit =
-      Boolean(year) &&
-      (a.year === year || blob.includes(year)) &&
-      Boolean(clubHint) &&
-      (tags.includes(clubHint) ||
-        blob.includes(clubHint.replace("club:", "")) ||
-        (clubHint.includes("fohenagh") && blob.includes("fohenagh")) ||
-        (clubHint.includes("ahascragh") && blob.includes("ahascragh")));
-    if (!matchHit && !yearClubHit) continue;
-    // Image thumbnails only on match pages
-    const kind = (a as { kind?: string }).kind;
+    if (isHeldForReview(a)) continue;
+    const tags = [
+      ...a.tags,
+      ...a.clubTags,
+      ...(a.playerTags ?? []),
+      ...(a.matchTags ?? []),
+    ].map((t) => t.toLowerCase());
+    const tagged =
+      tags.includes(matchKey) ||
+      tags.includes(`match:${matchKey}`) ||
+      wanted.has(a.id.toLowerCase());
+    if (!tagged) continue;
     const media = articleMediaUrl(a);
-    if (!media || kind === "url" || kind === "pdf") continue;
+    const isPdf = a.kind === "pdf" || (media ?? "").toLowerCase().endsWith(".pdf");
     push({
       key: a.id,
-      imageUrl: media,
+      imageUrl: media && !isPdf ? media : undefined,
       caption: a.caption || a.excerpt,
       cite:
         a.citeChip ||
@@ -1277,4 +1293,103 @@ export async function getMatchArticleClips(
   }
 
   return clips;
+}
+
+function cuttingBelongsToMatch(a: ArticleUpload, matchId: string): boolean {
+  if (isHeldForReview(a)) return false;
+  const wanted = new Set(
+    (EXTRA_MATCH_CUTTINGS[matchId] ?? []).map((id) => id.toLowerCase())
+  );
+  const matchKey = matchId.toLowerCase();
+  const tags = [
+    ...a.tags,
+    ...a.clubTags,
+    ...(a.playerTags ?? []),
+    ...(a.matchTags ?? []),
+  ].map((tag) => tag.toLowerCase());
+  return (
+    tags.includes(matchKey) ||
+    tags.includes(`match:${matchKey}`) ||
+    wanted.has(a.id.toLowerCase())
+  );
+}
+
+/** Player ids named on cuttings already tied to this game. */
+export async function playerIdsOnMatch(matchId: string): Promise<string[]> {
+  const ids = new Set<string>();
+  for (const article of await readArticleUploads()) {
+    if (!cuttingBelongsToMatch(article, matchId)) continue;
+    for (const playerId of article.playerTags ?? []) {
+      if (playerId.toLowerCase().startsWith("player:")) ids.add(playerId);
+    }
+  }
+  return [...ids];
+}
+
+/**
+ * Editor-only suggestion. No derived triples, so nothing is published.
+ * Used when the local pending-stories file cannot be written (Vercel).
+ */
+export async function saveHeldSuggestion(input: {
+  message: string;
+  name?: string;
+  page: string;
+  file?: { buffer: Buffer; mimeType: string; originalName: string } | null;
+}): Promise<string> {
+  assertWritableStorage();
+  const id = `art-review-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+  const message = input.message.trim().slice(0, 4000);
+  const name = (input.name ?? "").trim().slice(0, 100);
+  let kind: ArticleKind = "url";
+  let mediaUrl: string | undefined;
+  let filename: string | undefined;
+
+  const file = input.file;
+  if (file && file.buffer.length > 0) {
+    if (file.buffer.length > 12 * 1024 * 1024) {
+      throw new Error("File must be under 12 MB.");
+    }
+    const mime = file.mimeType.toLowerCase();
+    const isPdf = mime === PDF_MIME || file.originalName.toLowerCase().endsWith(".pdf");
+    const imageExt = IMAGE_MIME[mime];
+    if (!isPdf && !imageExt) {
+      throw new Error("Please upload a JPG, PNG, WebP, GIF, or PDF.");
+    }
+    kind = isPdf ? "pdf" : "image";
+    filename = `${id}-${slugify(path.parse(file.originalName).name) || "clip"}${isPdf ? ".pdf" : imageExt}`;
+    if (isBlobStorageEnabled()) {
+      const stored = await put(
+        `${BLOB_PRIVATE_PREFIX}suggestions/${filename}`,
+        file.buffer,
+        blobPutOptions({
+          contentType: isPdf ? PDF_MIME : mime,
+          access: "private",
+        } as PutCommandOptions)
+      );
+      mediaUrl = stored.url;
+    }
+  }
+
+  const draft: ArticleUpload = {
+    id,
+    kind,
+    filename,
+    path: mediaUrl,
+    uploadedAt: new Date().toISOString(),
+    caption: message,
+    fetchedTitle: name || "Anonymous",
+    tags: ["moderation-queue", input.page],
+    clubTags: [],
+    playerTags: [],
+    status: "in_review",
+  };
+
+  if (isBlobStorageEnabled()) {
+    await putArticleMetaBlob(draft);
+  } else {
+    const list = readArticleUploadsFromFs();
+    list.unshift(draft);
+    writeArticleUploadsToFs(list);
+  }
+  return id;
 }

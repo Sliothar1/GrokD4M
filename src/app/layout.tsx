@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s · HurlingWiki",
   },
   description:
-    "Hurling knowledge site showing how MIT's D4M associative arrays hold sports facts as sparse triples.",
+    "A wiki for every hurling club. Search a parish, open a match, and follow the players.",
 };
 
 export default function RootLayout({

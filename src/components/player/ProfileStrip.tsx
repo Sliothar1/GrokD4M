@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ClubChip } from "@/components/chips";
 import { VerificationBadge } from "@/components/sources/VerificationBadge";
 import type { ClubChipData } from "@/lib/playerClubs";
@@ -9,7 +8,6 @@ export function ProfileStrip({
   clubs,
   countyName,
   photoUrl,
-  photoUploadHref,
   verification,
   clubStatus,
   clubCite,
@@ -22,7 +20,6 @@ export function ProfileStrip({
   clubs: ClubChipData[];
   countyName?: string;
   photoUrl: string | null;
-  photoUploadHref: string;
   /** Small mark beside the name, such as the Sweeney shield. */
   nameMark?: React.ReactNode;
   /** Club and era, kept separate from the cited lead. */
@@ -44,11 +41,7 @@ export function ProfileStrip({
 
   return (
     <header className="flex min-w-0 items-start gap-4 sm:gap-5">
-      <ProfilePhotoSlot
-        name={name}
-        photoUrl={photoUrl}
-        uploadHref={photoUploadHref}
-      />
+      <ProfilePhotoSlot name={name} photoUrl={photoUrl} />
       <div className="min-w-0 flex-1 space-y-2.5 pt-0.5">
         <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon">
           Player
@@ -96,11 +89,9 @@ export function ProfileStrip({
 function ProfilePhotoSlot({
   name,
   photoUrl,
-  uploadHref,
 }: {
   name: string;
   photoUrl: string | null;
-  uploadHref: string;
 }) {
   if (photoUrl) {
     return (
@@ -116,19 +107,10 @@ function ProfilePhotoSlot({
   }
 
   return (
-    <Link
-      href={uploadHref}
-      className="flex h-24 w-24 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-dashed border-galway-maroon/30 bg-white/70 text-center transition hover:border-galway-maroon hover:bg-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold sm:h-28 sm:w-28"
-    >
-      <span
-        aria-hidden
-        className="flex h-8 w-8 items-center justify-center rounded-full bg-galway-maroon text-base font-black text-galway-gold"
-      >
-        +
-      </span>
-      <span className="px-2 text-[11px] font-bold text-galway-maroon">
-        Add photo
-      </span>
-    </Link>
+    <figure className="flex h-24 w-24 shrink-0 flex-col items-center justify-center rounded-2xl border border-dashed border-galway-maroon/25 bg-[var(--hw-paper,#f7f1e8)] px-2 text-center sm:h-28 sm:w-28">
+      <figcaption className="text-[11px] font-semibold leading-snug text-galway-ink/55">
+        Photo coming soon
+      </figcaption>
+    </figure>
   );
 }

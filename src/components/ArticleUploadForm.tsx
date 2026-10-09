@@ -3,11 +3,11 @@
 import { FormEvent, DragEvent, useRef, useState } from "react";
 
 const CLUB_CHIPS = [
-  { label: "Fohenagh", id: "club:fohenagh-historic" },
-  { label: "Ahascragh", id: "club:ahascragh-historic" },
-  { label: "Ahascragh-Fohenagh", id: "club:ahascragh-fohenagh" },
-  { label: "Portumna", id: "club:portumna" },
-  { label: "Castlegar", id: "club:castlegar" },
+  { label: "Fohenagh", token: "Fohenagh" },
+  { label: "Ahascragh", token: "Ahascragh historic" },
+  { label: "Ahascragh-Fohenagh", token: "Ahascragh-Fohenagh" },
+  { label: "Portumna", token: "Portumna" },
+  { label: "Castlegar", token: "Castlegar" },
 ];
 
 const ACCEPT =
@@ -98,10 +98,8 @@ export function ArticleUploadForm({
       const kind = data.article?.kind as string | undefined;
       setMessage(
         kind === "url"
-          ? "Saved link! Title/excerpt stored when the page allowed it — triples stay unverified until the Archivist."
-          : data.article?.hasPrivateText
-            ? "Saved! We kept private text for search; the public card shows only an excerpt + cite."
-            : "Saved! Cutting is in the queue — add a caption so search can find it easily."
+          ? "Saved. An editor will read this link before it is published."
+          : "Saved. An editor will read this cutting before it is published."
       );
       setViewHref(`/article/${data.article.id}`);
       setCaption("");
@@ -139,9 +137,8 @@ export function ArticleUploadForm({
         {compact ? "Upload a cutting" : "Upload image, PDF, or URL"}
       </h2>
       <p className="text-base text-galway-ink/70">
-        Drop a newspaper scan, attach a PDF, or paste a paper link. We store a
-        short excerpt and a <strong>YYYY · Paper</strong> cite — full OCR stays
-        private. Facts stay <em>unverified</em> until the Archivist.
+        Drop a newspaper scan, attach a PDF, or paste a link to the paper. An
+        editor reads it before anything is published.
       </p>
 
       <div
@@ -255,14 +252,14 @@ export function ArticleUploadForm({
       </div>
 
       <div>
-        <label className="mb-1 block font-semibold" htmlFor="art-clubs">
-          Club tags (optional)
+          <label className="mb-1 block font-semibold" htmlFor="art-clubs">
+          Clubs (optional)
         </label>
         <input
           id="art-clubs"
           value={clubTags}
           onChange={(e) => setClubTags(e.target.value)}
-          placeholder="club:ahascragh-fohenagh"
+          placeholder="Fohenagh, Castlegar"
           className="w-full rounded-xl border-2 border-galway-maroon/20 px-3 py-2 text-lg"
         />
         <div className="mt-2 flex flex-wrap gap-2">
@@ -271,15 +268,15 @@ export function ArticleUploadForm({
           </span>
           {CLUB_CHIPS.map((chip) => (
             <button
-              key={chip.id}
+              key={chip.label}
               type="button"
               onClick={() =>
                 setClubTags((prev) =>
-                  prev.includes(chip.id)
+                  prev.toLowerCase().includes(chip.token.toLowerCase())
                     ? prev
                     : prev
-                      ? `${prev}, ${chip.id}`
-                      : chip.id
+                      ? `${prev}, ${chip.token}`
+                      : chip.token
                 )
               }
               className="rounded-full border-2 border-galway-maroon/30 bg-galway-cream/50 px-3 py-1 text-sm font-semibold text-galway-maroon hover:border-galway-maroon"
@@ -291,19 +288,18 @@ export function ArticleUploadForm({
       </div>
 
       <div>
-        <label className="mb-1 block font-semibold" htmlFor="art-players">
-          Player tags (optional)
+          <label className="mb-1 block font-semibold" htmlFor="art-players">
+          Players (optional)
         </label>
         <input
           id="art-players"
           value={playerTags}
           onChange={(e) => setPlayerTags(e.target.value)}
-          placeholder="player:joe-canning, Billy Lyons"
+          placeholder="Tim Sweeney, Jimmy Moclair"
           className="w-full rounded-xl border-2 border-galway-maroon/20 px-3 py-2 text-lg"
         />
         <p className="mt-1 text-sm text-galway-ink/55">
-          Entity ids or names → stored as player:slug so past-player search shows
-          this cutting.
+          Type the names as they appear in the paper.
         </p>
       </div>
 
@@ -312,7 +308,7 @@ export function ArticleUploadForm({
         disabled={status === "saving"}
         className="rounded-2xl bg-galway-maroon px-5 py-3 text-lg font-bold text-white hover:bg-galway-maroon-dark disabled:opacity-60"
       >
-        {status === "saving" ? "Uploading…" : "Add to cuttings queue"}
+        {status === "saving" ? "Sending…" : "Send the cutting"}
       </button>
 
       {message && (

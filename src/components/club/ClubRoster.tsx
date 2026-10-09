@@ -6,7 +6,7 @@ import type { ClubRosterRow } from "@/lib/playerClubs";
 export function ClubRoster({
   rows,
   clubName,
-  unverifiedLabel = "Needs check",
+  unverifiedLabel = "Still checking",
   omitAlsoClubIds = [],
   separateUnverifiedLinks = false,
   id,
@@ -68,8 +68,8 @@ export function ClubRoster({
 
       {rows.length === 0 ? (
         <p className="text-sm text-galway-ink/55">
-          No players are linked to {clubName} yet. A name shows here when seed
-          or an appearance points at this club.
+          No players are linked to {clubName} yet. A name shows here once a
+          cutting or a match names them.
         </p>
       ) : (
         <div className="space-y-4">
