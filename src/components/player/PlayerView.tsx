@@ -183,8 +183,10 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         photoUploadHref={playerPhotoUploadHref(id)}
         verification={profileStatus}
         clubStatus={clubs.length > 0 ? statusOf("club") : undefined}
-        clubCite={citeFor("club")}
-        clubBadge={clubs.length > 0 ? badgeFor("club") : undefined}
+        clubCite={beingVerified ? undefined : citeFor("club")}
+        clubBadge={
+          clubs.length > 0 && !beingVerified ? badgeFor("club") : undefined
+        }
         nameMark={SWEENEY_PROFILE_IDS.has(id) ? <SweeneyMark /> : undefined}
         era={era}
         beingVerified={beingVerified}

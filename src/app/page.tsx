@@ -48,7 +48,7 @@ const GAMES = [
   },
 ] as const;
 
-const JUVENILE = /minor|under-?\s*1[246]|u-?\s*1[246]|juvenile|u12|u14|u16/i;
+const JUVENILE = /minor|under-?\s*1[246]|u-?\s*1[246]|juvenile|u12|u14|u16|schools|colleges/i;
 
 export default async function HomePage() {
   const [heroClub, clubs, greatEntities, teamEntities, uploads] = await Promise.all([
