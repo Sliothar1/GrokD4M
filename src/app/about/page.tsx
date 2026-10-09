@@ -62,6 +62,45 @@ export default async function AboutPage() {
           </li>
         </ul>
       </section>
+
+      <section className="space-y-2 border-t border-galway-maroon/15 pt-6">
+        <h2 className="text-xs font-bold uppercase tracking-[0.16em] text-galway-maroon/75">
+          Built by
+        </h2>
+        <p className="text-sm leading-relaxed text-galway-ink/75">
+          HurlingWiki was designed and built by Garry Lohan, on MIT&apos;s D4M data model.{" "}
+          <a
+            href="https://scholar.google.com/citations?user=9aBECzQAAAAJ&hl=en"
+            className="font-semibold text-galway-maroon underline decoration-galway-maroon/40 underline-offset-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Scholar
+          </a>
+          {" · "}
+          <a
+            href="https://www.linkedin.com/in/garry-lohan-14923814"
+            className="font-semibold text-galway-maroon underline decoration-galway-maroon/40 underline-offset-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </p>
+        <p className="flex items-start gap-2 text-sm leading-relaxed text-galway-ink/65">
+          <span
+            aria-hidden="true"
+            className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-galway-maroon/35 text-[9px] font-bold leading-none text-galway-maroon/80"
+          >
+            G
+          </span>
+          <span>
+            <span className="font-semibold text-galway-ink/75">How it was built. </span>
+            Built with help from Grok Bot, an AI assistant, for research and coding — every
+            fact is cited and checked before it goes live.
+          </span>
+        </p>
+      </section>
     </div>
   );
 }
