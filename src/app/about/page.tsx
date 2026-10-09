@@ -20,8 +20,24 @@ export default async function AboutPage() {
         <h2 className="text-2xl font-bold text-galway-maroon">What is D4M?</h2>
         <p className="text-lg leading-relaxed">
           <strong>D4M</strong> means <em>Dynamic Distributed Dimensional Data Model</em>. It
-          was developed at <strong>MIT Lincoln Laboratory</strong>, with foundational work by{" "}
-          <strong>Jeremy Kepner</strong> and collaborators. Associative arrays let you store
+          was developed at{" "}
+          <a
+            href="https://www.ll.mit.edu/"
+            className="font-bold text-galway-maroon hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MIT Lincoln Laboratory
+          </a>, with foundational work by{" "}
+          <a
+            href="https://www.ll.mit.edu/biographies/jeremy-kepner"
+            className="font-bold text-galway-maroon hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Jeremy Kepner
+          </a>{" "}
+          and collaborators. Associative arrays let you store
           and query sparse multi-dimensional data using simple algebra-like operations —
           perfect for linking players, clubs, and matches without a heavy schema.
         </p>
@@ -89,15 +105,31 @@ export default async function AboutPage() {
         </p>
         <p className="flex items-start gap-2 text-sm leading-relaxed text-galway-ink/65">
           <span
-            aria-hidden="true"
-            className="mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded-full border border-galway-maroon/35 text-[9px] font-bold leading-none text-galway-maroon/80"
+            role="img"
+            title="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
+            aria-label="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
+            className="mt-0.5 inline-flex h-5 shrink-0 items-center rounded-full bg-galway-maroon px-1.5 text-[10px] font-bold leading-none tracking-wide text-galway-cream"
           >
             G
           </span>
           <span>
             <span className="font-semibold text-galway-ink/75">How it was built. </span>
-            Built with help from Grok Bot, an AI assistant, for research and coding — every
-            fact is cited and checked before it goes live.
+            Built with help from{" "}
+            <a
+              href="https://x.ai"
+              className="font-bold text-galway-maroon hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Grok Bot
+            </a>
+            <sup
+              title="The answer to life, the universe and everything"
+              className="ml-px align-super text-[9px] font-medium text-galway-ink/40"
+            >
+              42
+            </sup>, an AI assistant, for research and coding — every fact is cited and checked
+            before it goes live.
           </span>
         </p>
       </section>
