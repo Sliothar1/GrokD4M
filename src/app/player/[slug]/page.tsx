@@ -28,13 +28,16 @@ export default async function Page({
   const { slug } = await params;
   const data = await getEntity(resolveId("player", slug));
   if (!data) notFound();
+  const suggestion = {
+    page: `/player/${data.id.slice("player:".length)}`,
+    pageLabel: data.summary.title,
+    prompt: "Suggest a correction or add a story",
+  };
   return (
     <>
+      <SuggestCorrection {...suggestion} placement="corner" />
       <PlayerView data={data} />
-      <SuggestCorrection
-        page={`/player/${data.id.slice("player:".length)}`}
-        pageLabel={data.summary.title}
-      />
+      <SuggestCorrection {...suggestion} />
     </>
   );
 }

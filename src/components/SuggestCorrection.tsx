@@ -12,10 +12,16 @@ export function SuggestCorrection({
   page,
   pageLabel,
   variant = "correction",
+  prompt: promptOverride,
+  placement = "end",
 }: {
   page: string;
   pageLabel: string;
   variant?: "correction" | "clipping";
+  /** Replaces the default link sentence. */
+  prompt?: string;
+  /** `corner` sits at the top of a profile, without the end-of-page rule. */
+  placement?: "end" | "corner";
 }) {
   const uid = useId();
   const [open, setOpen] = useState(false);
@@ -56,12 +62,23 @@ export function SuggestCorrection({
     );
   }
 
-  const prompt = clipping
-    ? "Add a clipping or photo for this game"
-    : "Spotted a mistake or have a story? Suggest a correction";
+  const prompt =
+    promptOverride ??
+    (clipping
+      ? "Add a clipping or photo for this game"
+      : "Spotted a mistake or have a story? Suggest a correction");
+  const corner = placement === "corner";
 
   return (
-    <div className={clipping ? "" : "mt-10 border-t border-galway-maroon/15 pt-4"}>
+    <div
+      className={
+        clipping || corner
+          ? corner && !open
+            ? "flex justify-end"
+            : ""
+          : "mt-10 border-t border-galway-maroon/15 pt-4"
+      }
+    >
       {!open ? (
         <button
           type="button"

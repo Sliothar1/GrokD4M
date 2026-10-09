@@ -69,16 +69,9 @@ function sortClubIds(ids: string[]): string[] {
   });
 }
 
-/** Kid-facing chip label. Historic predecessors stay distinct from the amalgam. */
+/** Public chip. The team name only — no “historic” suffix on the jersey. */
 export function clubChipLabel(clubId: string, A: AssocArray): string {
-  const name = displayNameForRef(clubId, A);
-  if (
-    clubId === "club:fohenagh-historic" ||
-    clubId === "club:ahascragh-historic"
-  ) {
-    return `${name} · historic`;
-  }
-  return name;
+  return displayNameForRef(clubId, A);
 }
 
 export function clubChipTitle(clubId: string, label: string): string {

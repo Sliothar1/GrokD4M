@@ -251073,7 +251073,7 @@
   {
     "row": "player:alan-malloy-fohenagh",
     "col": "name",
-    "val": "Alan Malloy"
+    "val": "Alan Molloy"
   },
   {
     "row": "player:alan-malloy-fohenagh",
@@ -251093,7 +251093,7 @@
   {
     "row": "player:jonathan-malloy-fohenagh",
     "col": "name",
-    "val": "Jonathan Malloy"
+    "val": "Jonathan Molloy"
   },
   {
     "row": "player:jonathan-malloy-fohenagh",
@@ -251149,5 +251149,40 @@
     "row": "match:fohenagh-ahascragh-sadie-kilcommons-final",
     "col": "cite",
     "val": "Connacht Tribune · 21 Aug 1998 · p.9 · INA"
+  },
+  {
+    "row": "player:alan-malloy-fohenagh",
+    "col": "alias",
+    "val": "Alan Malloy, Malloy"
+  },
+  {
+    "row": "player:jonathan-malloy-fohenagh",
+    "col": "alias",
+    "val": "Jonathan Malloy, Malloy"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "name",
+    "val": "Mike Coen"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "confidence",
+    "val": "unverified"
+  },
+  {
+    "row": "player:mike-flood-fohenagh",
+    "col": "remembered",
+    "val": "Managed Fohenagh and did a great deal for the club."
   }
 ]

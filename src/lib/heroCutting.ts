@@ -46,6 +46,24 @@ export function isYellowSearchHighlightNote(c: {
   return ina && minorNote;
 }
 
+/**
+ * A newspaper search crop that highlights one name (yellow marker, “in the team”,
+ * parish club notes). Not a team photograph or a match report.
+ */
+export function isNameHighlightSnip(c: {
+  id: string;
+  title?: string;
+  excerpt?: string;
+  citeChip?: string;
+}): boolean {
+  const id = articleIdFromRef(c.id).toLowerCase();
+  const blob = `${id} ${c.title ?? ""} ${c.excerpt ?? ""} ${c.citeChip ?? ""}`.toLowerCase();
+  if (id.includes("trevor-lohan")) return true;
+  const ina = id.startsWith("art-ina-") || /\bina\b/.test(blob);
+  if (!ina) return false;
+  return /club notes|among the subs|outstanding performances/.test(blob);
+}
+
 /** Championship-era headline cuttings (1958–1963 Fohenagh window and the same shape). */
 export function isTitleEraCutting(c: {
   id: string;
@@ -120,7 +138,7 @@ export async function resolveEntityHero(input: {
   const pinned = pinnedCuttingId(attrs);
   if (pinned) {
     const hit = fromId(pinned);
-    if (hit?.imagePath) return hit;
+    if (hit?.imagePath && !(kind === "club" && isNameHighlightSnip(hit))) return hit;
   }
 
   if (entityId === "club:fohenagh-historic") {
@@ -131,8 +149,14 @@ export async function resolveEntityHero(input: {
     }
   }
 
-  const pool = cuttings.map(enrich).filter((cutting) => cutting.imagePath);
-  if (pool.length === 0) return cuttings[0];
+  const pool = cuttings
+    .map(enrich)
+    .filter((cutting) => cutting.imagePath)
+    .filter((cutting) => kind !== "club" || !isNameHighlightSnip(cutting));
+  if (pool.length === 0) {
+    if (kind === "club") return undefined;
+    return cuttings[0];
+  }
 
   const clubId = entityId.toLowerCase();
   const ranked = [...pool].sort((a, b) => heroScore(b, clubId) - heroScore(a, clubId));

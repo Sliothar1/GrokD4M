@@ -26,7 +26,7 @@ import {
 } from "@/lib/data";
 import type { AssocArray } from "@/lib/d4m/AssocArray";
 import { articleToSummary, getArticleUpload, loadCitationUploads } from "@/lib/articles";
-import { resolveEntityHero } from "@/lib/heroCutting";
+import { isNameHighlightSnip, resolveEntityHero } from "@/lib/heroCutting";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
 import {
@@ -172,7 +172,11 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           </div>
         )}
 
-        {(summary.kind === "player" || summary.kind === "club") && !isHistoricFohenagh && heroCutting?.imagePath && (
+        {(summary.kind === "player" || summary.kind === "club") &&
+        !isHistoricFohenagh &&
+        !isAmalgam &&
+        heroCutting?.imagePath &&
+        !isNameHighlightSnip(heroCutting) ? (
           <div className="pt-3">
             <a href={heroCutting.href} className="block overflow-hidden rounded-2xl border-2 border-galway-maroon/20">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -186,7 +190,16 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
             </p>
           </div>
-        )}
+        ) : null}
+        {summary.kind === "club" &&
+        !isHistoricFohenagh &&
+        (isAmalgam ||
+          (!heroCutting?.imagePath &&
+            cuttingCards.some((cutting) => cutting.imagePath && isNameHighlightSnip(cutting)))) ? (
+          <div className="pt-3">
+            <PhotoComingSoon />
+          </div>
+        ) : null}
       </header>
 
       {attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt ? (

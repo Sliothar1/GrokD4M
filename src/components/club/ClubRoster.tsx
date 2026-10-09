@@ -167,21 +167,6 @@ function AlphaRoster({
                           Verified
                         </span>
                       ) : null}
-                      {row.alsoClubs.length > 0 ? (
-                        <span className="font-semibold text-galway-ink/45">
-                          also{" "}
-                          {row.alsoClubs.map((club, index) => (
-                            <Link
-                              key={club.id}
-                              href={club.href}
-                              className="underline decoration-galway-ink/25"
-                            >
-                              {club.name}
-                              {index < row.alsoClubs.length - 1 ? ", " : ""}
-                            </Link>
-                          ))}
-                        </span>
-                      ) : null}
                     </li>
                   ))}
                 </ul>

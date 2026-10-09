@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   ParishLinks,
   RememberedNote,
@@ -39,6 +40,7 @@ import {
   SWEENEY_PROFILE_IDS,
   TEAM_1959,
 } from "@/lib/fohenaghShowcase";
+import { fohenaghCitedIntro } from "@/lib/fohenaghPlayerIntro";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
 import {
   cuttingFactKey,
@@ -51,6 +53,33 @@ import {
 } from "@/lib/verification";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
+
+/** Mick (1959) and Mike (1996) stay on separate profiles. Not a newspaper line. */
+function CoenDistinction({ id }: { id: string }) {
+  if (id === "player:mick-coen-fohenagh") {
+    return (
+      <p className="text-sm leading-relaxed text-galway-ink/75">
+        Mick Coen of the 1959 side.{" "}
+        <Link href="/player/mike-coen-fohenagh" className="font-semibold text-galway-maroon underline">
+          Mike Coen
+        </Link>
+        , named in the 1996 junior championship reports, is a different player.
+      </p>
+    );
+  }
+  if (id === "player:mike-coen-fohenagh") {
+    return (
+      <p className="text-sm leading-relaxed text-galway-ink/75">
+        Mike Coen of the 1996 junior side.{" "}
+        <Link href="/player/mick-coen-fohenagh" className="font-semibold text-galway-maroon underline">
+          Mick Coen
+        </Link>
+        , named on the 1959 replay fifteen, is a different player.
+      </p>
+    );
+  }
+  return null;
+}
 
 /**
  * Locked ALL-player profile order — do not reorder:
@@ -82,6 +111,8 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     ? displayNameForRef(String(attrs.county), A)
     : undefined;
   const notable = playerNotableText(attrs);
+  const generatedIntro = fohenaghCitedIntro(id, notable);
+  const about = notable || generatedIntro;
   const papers = pressPraiseLines(attrs);
   const note = playerArchiveNote(attrs);
   const notes = playerNotesText(attrs);
@@ -240,10 +271,10 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       {onFohenagh ? <ParishLinks show1959={on1959} /> : null}
 
       <NotableIntro
-        notable={notable}
+        notable={about}
         note={note}
         notes={notes}
-        notableCite={citeFor("notable")}
+        notableCite={notable ? citeFor("notable") : undefined}
         noteCite={citeFor("note")}
         notesCite={citeFor("notes")}
         notableBadge={notable ? badgeFor("notable") : undefined}
@@ -253,6 +284,8 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         noteStatus={note ? statusOf("note") : undefined}
         notesStatus={notes ? statusOf("notes") : undefined}
       />
+
+      <CoenDistinction id={id} />
 
       {remembered ? <RememberedNote text={remembered} /> : null}
 
