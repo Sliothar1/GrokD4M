@@ -35,6 +35,7 @@ import {
 } from "@/lib/entityDisplay";
 import { playerClubChips } from "@/lib/playerClubs";
 import {
+  OWNER_VERIFIED_PLAYERS,
   SWEENEY_PROFILE_IDS,
   TEAM_1959,
 } from "@/lib/fohenaghShowcase";
@@ -114,10 +115,9 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
   const badgeFor = (factKey: string) => (
     <VerificationBadge status={statusOf(factKey)} fact={factKey} />
   );
-  const profileStatus = headlineVerificationStatus(
-    citations.facts,
-    isPlayerIdentityFact
-  );
+  const profileStatus = OWNER_VERIFIED_PLAYERS.has(id)
+    ? "verified"
+    : headlineVerificationStatus(citations.facts, isPlayerIdentityFact);
   const beingVerified = String(attrs.status ?? "") === "being_verified";
   const remembered =
     typeof attrs.remembered === "string" && attrs.remembered.trim()
