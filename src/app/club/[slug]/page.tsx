@@ -28,10 +28,14 @@ export default async function Page({
   const { slug } = await params;
   const data = await getEntity(resolveId("club", slug));
   if (!data) notFound();
-  return (
+  const page = (
     <>
       <EntityView data={data} />
       <CorrectionLink page={`/club/${data.id.slice("club:".length)}`} />
     </>
   );
+  if (data.id === "club:fohenagh-historic") {
+    return <div className="theme-fohenagh">{page}</div>;
+  }
+  return page;
 }

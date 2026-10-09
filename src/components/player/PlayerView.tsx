@@ -1,5 +1,10 @@
 import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
+  ParishLinks,
+  RememberedNote,
+  SweeneyMark,
+} from "@/components/fohenagh/FohenaghBlocks";
+import {
   CuttingExcerpts,
   type CuttingCard,
 } from "@/components/player/CuttingExcerpts";
@@ -29,6 +34,10 @@ import {
   pressPraiseLines,
 } from "@/lib/entityDisplay";
 import { playerClubChips } from "@/lib/playerClubs";
+import {
+  SWEENEY_PROFILE_IDS,
+  TEAM_1959,
+} from "@/lib/fohenaghShowcase";
 import {
   playerPhotoUploadHref,
   resolvePlayerPhoto,
@@ -112,6 +121,28 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     citations.facts,
     isPlayerIdentityFact
   );
+  const beingVerified = String(attrs.status ?? "") === "being_verified";
+  const remembered =
+    typeof attrs.remembered === "string" && attrs.remembered.trim()
+      ? attrs.remembered.trim()
+      : null;
+  const onFohenagh = clubs.some((club) => club.id === "club:fohenagh-historic");
+  const on1959 = (TEAM_1959 as readonly string[]).includes(id);
+  const era = on1959
+    ? "Fohenagh · 1959 county champions"
+    : onFohenagh
+      ? "Fohenagh"
+      : null;
+  const paperThumbs: Record<string, { src: string; href: string; alt: string }> = {};
+  for (const cutting of cuttings) {
+    if (!cutting.imagePath) continue;
+    const articleId = cutting.id.replace(/^article:/, "");
+    paperThumbs[articleId] = {
+      src: cutting.imagePath,
+      href: cutting.href,
+      alt: cutting.title,
+    };
+  }
 
   const citeFor = (factKey: string) => (
     <CiteMarkers
@@ -154,7 +185,12 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         clubStatus={clubs.length > 0 ? statusOf("club") : undefined}
         clubCite={citeFor("club")}
         clubBadge={clubs.length > 0 ? badgeFor("club") : undefined}
+        nameMark={SWEENEY_PROFILE_IDS.has(id) ? <SweeneyMark /> : undefined}
+        era={era}
+        beingVerified={beingVerified}
       />
+
+      {onFohenagh ? <ParishLinks show1959={on1959} /> : null}
 
       <NotableIntro
         notable={notable}
@@ -171,7 +207,9 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         notesStatus={notes ? statusOf("notes") : undefined}
       />
 
-      <InThePapers lines={papers} />
+      {remembered ? <RememberedNote text={remembered} /> : null}
+
+      <InThePapers lines={papers} thumbs={paperThumbs} />
 
       <CuttingExcerpts cuttings={citedCuttings} />
 

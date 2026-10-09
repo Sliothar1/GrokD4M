@@ -13,12 +13,17 @@ import { ClubRoster } from "@/components/club/ClubRoster";
 import { DualEraStrip } from "@/components/club/DualEraStrip";
 import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
+  CrestPlaceholder,
+  FurtherReading,
+  Team1959,
+} from "@/components/fohenagh/FohenaghBlocks";
+import {
   displayNameForRef,
   friendlyAttrLabel,
   friendlyTrustLabel,
   getAssoc,
+  getEntity,
   isEntityRef,
-  type getEntity,
 } from "@/lib/data";
 import type { AssocArray } from "@/lib/d4m/AssocArray";
 import { loadCitationUploads } from "@/lib/articles";
@@ -37,6 +42,7 @@ import {
   type LinkedCuttingSource,
 } from "@/lib/sources";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
+import { TEAM_1959, team1959Hint } from "@/lib/fohenaghShowcase";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
@@ -68,6 +74,22 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   });
   const clubRoster =
     summary.kind === "club" ? await listClubRoster(id, A) : [];
+  const team1959 = isHistoricFohenagh
+    ? (
+        await Promise.all(TEAM_1959.map((playerId) => getEntity(playerId)))
+      ).flatMap((player) =>
+        player
+          ? [
+              {
+                id: player.id,
+                name: player.summary.title,
+                href: player.summary.href,
+                line: team1959Hint(player.id),
+              },
+            ]
+          : []
+      )
+    : [];
 
   return (
     <article className="space-y-8">
@@ -75,7 +97,12 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">
           {summary.kind.replace("_", " ")}
         </p>
-        <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">
+        {isHistoricFohenagh ? (
+          <div className="rounded-2xl bg-[var(--hw-fohenagh)] px-4 py-3">
+            <CrestPlaceholder />
+          </div>
+        ) : null}
+        <h1 className="text-4xl text-galway-ink sm:text-5xl">
           {summary.title}
         </h1>
         {summary.subtitle && (
@@ -146,8 +173,11 @@ export async function EntityView({ data }: { data: EntityPayload }) {
 
       {isHistoricFohenagh && <HistoricClubPanel showStories={false} />}
 
+      {isHistoricFohenagh ? <Team1959 players={team1959} /> : null}
+
       {isHistoricFohenagh && summary.kind === "club" ? (
         <ClubRoster
+          id="players"
           rows={clubRoster}
           clubName={summary.title}
           unverifiedLabel="Being verified"
@@ -157,6 +187,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       ) : null}
 
       {isHistoricFohenagh && <HistoricStoryChips />}
+
+      {isHistoricFohenagh ? <FurtherReading /> : null}
 
       {isHistoricAhascragh && (
         <section className="space-y-4">

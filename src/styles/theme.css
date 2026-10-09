@@ -1,0 +1,127 @@
+/**
+ * Shared theme tokens for HurlingWiki.
+ * Spacing, type and card language follow the PA-Marine demo
+ * (https://github.com/Sliothar1/PA-Marine-Demo): serif headlines,
+ * hairline panels, soft shadow, 14–20px radii.
+ * Galway maroon and cream stay the site default.
+ * Fohenagh pages and the homepage hero switch the accent to the
+ * deep blue of *A History of Fohenagh* (Tony O'Gorman).
+ * PA-Marine-Model itself had no public front end to copy.
+ */
+
+:root {
+  --hw-maroon: #7a0c2e;
+  --hw-maroon-dark: #5c0922;
+  --hw-gold: #c9a227;
+  --hw-cream: #f7f1e8;
+  --hw-cream-deep: #efe6d6;
+  --hw-ink: #1a1215;
+  --hw-ink-soft: #3d2c33;
+  --hw-muted: #6d5c63;
+  --hw-line: #e4d8cc;
+  --hw-panel: #ffffff;
+  --hw-fohenagh: #1c2659;
+  --hw-fohenagh-dark: #121838;
+  --hw-fohenagh-ink: #f4efe6;
+  --hw-radius-sm: 12px;
+  --hw-radius: 18px;
+  --hw-radius-lg: 28px;
+  --hw-space: 1.25rem;
+  --hw-space-lg: 3.25rem;
+  --hw-shadow: 0 1px 2px rgba(26, 18, 21, 0.05), 0 10px 28px rgba(26, 18, 21, 0.07);
+  --hw-shadow-lift: 0 2px 4px rgba(26, 18, 21, 0.06), 0 16px 36px rgba(26, 18, 21, 0.12);
+  --hw-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --hw-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --hw-page: 68rem;
+
+  --galway-maroon: var(--hw-maroon);
+  --galway-maroon-dark: var(--hw-maroon-dark);
+  --galway-gold: var(--hw-gold);
+  --galway-cream: var(--hw-cream);
+  --galway-ink: var(--hw-ink);
+  --background: var(--hw-cream);
+  --foreground: var(--hw-ink);
+}
+
+.theme-fohenagh {
+  --galway-maroon: var(--hw-fohenagh);
+  --galway-maroon-dark: var(--hw-fohenagh-dark);
+  --hw-maroon: var(--hw-fohenagh);
+  --hw-maroon-dark: var(--hw-fohenagh-dark);
+}
+
+h1,
+h2,
+.hw-serif {
+  font-family: var(--hw-serif);
+  text-wrap: balance;
+}
+
+::selection {
+  background: #f1c84b;
+  color: var(--hw-ink);
+}
+
+.hw-kicker {
+  font-family: var(--hw-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--hw-maroon);
+}
+
+.hw-hero {
+  position: relative;
+  overflow: hidden;
+  color: var(--hw-fohenagh-ink);
+  background:
+    radial-gradient(640px 240px at 100% -10%, rgba(244, 239, 230, 0.16), transparent 60%),
+    linear-gradient(165deg, var(--hw-fohenagh-dark) 0%, var(--hw-fohenagh) 100%);
+  border-radius: var(--hw-radius-lg);
+  padding: 1.75rem 1.25rem 1.5rem;
+  box-shadow: var(--hw-shadow-lift);
+}
+
+.hw-hero h1 {
+  font-weight: 560;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: #f7f3ea;
+}
+
+.hw-card {
+  background: var(--hw-panel);
+  border: 1px solid var(--hw-line);
+  border-radius: var(--hw-radius);
+  box-shadow: var(--hw-shadow);
+}
+
+.hw-card-bar {
+  box-shadow: inset 0 4px 0 var(--hw-fohenagh);
+}
+
+.sweeney-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  margin-left: 0.35rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--galway-maroon) 35%, transparent);
+  color: var(--galway-maroon);
+  vertical-align: middle;
+  cursor: help;
+}
+
+.sliotar {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+@media (min-width: 640px) {
+  .hw-hero {
+    padding: 2.75rem 2.5rem 2.25rem;
+  }
+}

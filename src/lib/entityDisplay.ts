@@ -58,6 +58,13 @@ export const HIDDEN_ATTRS = new Set([
   "press_praise_2",
   "source_press_praise",
   "source_press_praise_2",
+  // Club memory. Never a cited fact, and never mixed into notable or note.
+  "remembered",
+  // Relationship edges stay off the public facts list. A printed
+  // "brother" clause can remain inside a cited sentence.
+  "brother",
+  "brother_basis",
+  "source_brother",
 ]);
 
 /**

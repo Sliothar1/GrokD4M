@@ -9,6 +9,7 @@ export function ClubRoster({
   unverifiedLabel = "Needs check",
   omitAlsoClubIds = [],
   separateUnverifiedLinks = false,
+  id,
 }: {
   rows: ClubRosterRow[];
   clubName: string;
@@ -18,6 +19,7 @@ export function ClubRoster({
   omitAlsoClubIds?: string[];
   /** Unsourced numbered extras sit with the unverified group. */
   separateUnverifiedLinks?: boolean;
+  id?: string;
 }) {
   const omit = new Set(omitAlsoClubIds);
   const displayRows = rows.map((row) => ({
@@ -36,7 +38,7 @@ export function ClubRoster({
   needsCheck.sort((a, b) => a.summary.title.localeCompare(b.summary.title));
 
   return (
-    <section className="space-y-3">
+    <section id={id} className="scroll-mt-6 space-y-3">
       <div className="flex flex-wrap items-end justify-between gap-2">
         <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
           Players who wore this jersey

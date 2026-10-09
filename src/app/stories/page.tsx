@@ -31,12 +31,13 @@ export default async function StoriesPage({
     );
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       <header className="space-y-2">
-        <h1 className="text-4xl font-black text-galway-ink">
+        <p className="hw-kicker">Parish archive</p>
+        <h1 className="text-4xl text-galway-ink sm:text-5xl">
           Stories &amp; cuttings
         </h1>
-        <p className="text-lg text-galway-ink/75">
+        <p className="max-w-2xl text-lg leading-relaxed text-galway-ink/75">
           Share a memory, or upload a newspaper cutting (image, PDF, or URL).
           Cuttings go into the Ingest Lab queue — excerpt +{" "}
           <strong>YYYY · Paper</strong> cite on the public card; full text stays
@@ -44,8 +45,9 @@ export default async function StoriesPage({
         </p>
       </header>
 
-      <section className="space-y-3" id="upload">
-        <h2 className="text-2xl font-bold text-galway-maroon">
+      <section className="hw-card space-y-3 p-4 sm:p-6" id="upload">
+        <p className="hw-kicker">Add one</p>
+        <h2 className="text-3xl text-galway-ink">
           Upload a cutting
         </h2>
         <p className="text-base text-galway-ink/70">
@@ -57,7 +59,8 @@ export default async function StoriesPage({
 
       {uploads.length > 0 && (
         <section className="space-y-3">
-          <h2 className="text-2xl font-bold text-galway-maroon">
+          <p className="hw-kicker">From the papers</p>
+          <h2 className="text-3xl text-galway-ink">
             Recent cuttings
           </h2>
           <ul className="grid gap-3 sm:grid-cols-2">
@@ -84,7 +87,8 @@ export default async function StoriesPage({
       )}
 
       <section className="space-y-3">
-        <h2 className="text-2xl font-bold text-galway-maroon">In the seed</h2>
+        <p className="hw-kicker">On file</p>
+        <h2 className="text-3xl text-galway-ink">In the seed</h2>
         {seeded.length === 0 ? (
           <EmptyTeach
             title="No seeded stories yet"
@@ -100,7 +104,8 @@ export default async function StoriesPage({
       </section>
 
       <section className="space-y-3">
-        <h2 className="text-2xl font-bold text-galway-maroon">
+        <p className="hw-kicker">Waiting</p>
+        <h2 className="text-3xl text-galway-ink">
           Pending (local queue)
         </h2>
         {pending.length === 0 ? (

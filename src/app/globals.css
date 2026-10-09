@@ -1,14 +1,5 @@
 @import "tailwindcss";
-
-:root {
-  --galway-maroon: #7a0c2e;
-  --galway-maroon-dark: #5c0922;
-  --galway-gold: #c9a227;
-  --galway-cream: #f7f1e8;
-  --galway-ink: #1a1215;
-  --background: var(--galway-cream);
-  --foreground: var(--galway-ink);
-}
+@import "../styles/theme.css";
 
 @theme inline {
   --color-background: var(--background);
@@ -25,5 +16,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: var(--hw-sans);
+  text-rendering: optimizeLegibility;
 }

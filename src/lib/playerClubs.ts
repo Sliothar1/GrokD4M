@@ -22,6 +22,8 @@ export const LOCKED_CLUB_ORDER = [
   "club:ahascragh-fohenagh",
 ] as const;
 
+const AF_CLUB_ID = "club:ahascragh-fohenagh";
+
 export type ClubChipData = {
   id: string;
   name: string;
@@ -122,6 +124,11 @@ export function playerClubChips(
     }
   }
 
+  // Garry Lohan is Fohenagh only. The alias row used to name the amalgam.
+  if (playerId === "player:garry-lohan") {
+    ids.delete(AF_CLUB_ID);
+  }
+
   return sortClubIds([...ids])
     .filter((id) => Object.keys(A.entityAttrs(id)).length > 0)
     .map((id) => toClubChip(id, A));
@@ -139,7 +146,6 @@ export type ClubRosterRow = {
   linkPending: boolean;
 };
 
-const AF_CLUB_ID = "club:ahascragh-fohenagh";
 const HISTORIC_CLUB_IDS = [
   "club:fohenagh-historic",
   "club:ahascragh-historic",
