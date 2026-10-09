@@ -11,6 +11,7 @@ import {
 import { InThePapers } from "@/components/player/InThePapers";
 import { NotableIntro } from "@/components/player/NotableIntro";
 import { PlayerCareer } from "@/components/player/PlayerCareer";
+import { CareerTimeline, FactBox } from "@/components/player/CitedAside";
 import { ProfileStrip } from "@/components/player/ProfileStrip";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
@@ -133,6 +134,53 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     : onFohenagh
       ? "Fohenagh"
       : null;
+  const factRows = [
+    { label: "Name", value: summary.title },
+    clubs.length > 0
+      ? { label: "Club", value: clubs.map((club) => club.name).join(", ") }
+      : null,
+    era ? { label: "Era", value: era } : null,
+    isDisplayableVal(attrs.position)
+      ? { label: "Position", value: String(attrs.position) }
+      : null,
+    [attrs.all_ireland_medals, attrs.all_stars].some((value) => isDisplayableVal(value))
+      ? {
+          label: "Honours",
+          value: [attrs.all_ireland_medals, attrs.all_stars]
+            .filter((value) => isDisplayableVal(value))
+            .map(String)
+            .join(" · "),
+        }
+      : null,
+  ].filter((row): row is { label: string; value: string } => row !== null);
+
+  const yearIn = (value?: string | null) => value?.match(/\b((?:19|20)\d{2})\b/)?.[1] ?? null;
+  const seenTimeline = new Set<string>();
+  const timeline = [
+    ...related
+      .filter((item) => item.kind === "appearance")
+      .map((item) => {
+        const year = yearIn(item.seasonChip) ?? yearIn(item.subtitle) ?? yearIn(item.title);
+        const label = [item.kindLabel ?? item.badge, item.subtitle].filter(Boolean).join(" · ") || item.title;
+        return year ? { key: item.id, year, label } : null;
+      }),
+    ...cuttings.map((cutting) => {
+      const year = yearIn(cutting.citeChip) ?? yearIn(cutting.title);
+      return year
+        ? { key: cutting.id, year, label: cutting.citeChip || cutting.title, href: cutting.href }
+        : null;
+    }),
+  ]
+    .filter((item): item is { key: string; year: string; label: string; href?: string } => item !== null)
+    .sort((a, b) => a.year.localeCompare(b.year) || a.label.localeCompare(b.label))
+    .filter((item) => {
+      const stamp = `${item.year}|${item.label}`;
+      if (seenTimeline.has(stamp)) return false;
+      seenTimeline.add(stamp);
+      return true;
+    })
+    .slice(0, 6);
+
   const paperThumbs: Record<string, { src: string; href: string; alt: string }> = {};
   for (const cutting of cuttings) {
     if (!cutting.imagePath) continue;
@@ -192,6 +240,8 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         beingVerified={beingVerified}
       />
 
+      <FactBox rows={factRows} />
+
       {onFohenagh ? <ParishLinks show1959={on1959} /> : null}
 
       <NotableIntro
@@ -210,6 +260,8 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       />
 
       {remembered ? <RememberedNote text={remembered} /> : null}
+
+      <CareerTimeline items={timeline} />
 
       <InThePapers lines={papers} thumbs={paperThumbs} />
 

@@ -6,9 +6,11 @@ import { FormEvent, useState } from "react";
 export function SearchBox({
   large = false,
   initialQuery = "",
+  placeholder = "Search Galway Wiki",
 }: {
   large?: boolean;
   initialQuery?: string;
+  placeholder?: string;
 }) {
   const router = useRouter();
   const [q, setQ] = useState(initialQuery);
@@ -34,7 +36,7 @@ export function SearchBox({
           name="q"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Search Galway Wiki"
+          placeholder={placeholder}
           className={`w-full rounded-2xl border-4 border-galway-maroon bg-white px-4 text-galway-ink shadow-sm placeholder:text-galway-ink/40 focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold ${
             large ? "py-5 text-xl sm:text-2xl" : "py-3 text-lg"
           }`}

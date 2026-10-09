@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { EntitySummary } from "@/lib/data";
+import type { FohenaghGame } from "@/lib/fohenaghShowcase";
 
 export function CrestPlaceholder() {
   return (
@@ -17,82 +17,58 @@ export function CrestPlaceholder() {
   );
 }
 
-export function Team1959({
-  players,
-}: {
-  players: { id: string; name: string; href: string; line?: string }[];
-}) {
-  return (
-    <section id="champions-1959" className="scroll-mt-6 space-y-4" aria-labelledby="champions-1959-heading">
-      <div>
-        <p className="hw-kicker">19 September 1959</p>
-        <h2 id="champions-1959-heading" className="mt-1 text-3xl text-galway-ink sm:text-4xl">
-          1959 county champions
-        </h2>
-        <p className="mt-2 max-w-2xl text-base leading-relaxed text-galway-ink/75">
-          The Fohenagh fifteen named on the Connacht Tribune replay lineup.
-          Tony O&apos;Gorman is on that side. Each name is its own profile.
-        </p>
-      </div>
-      <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-        {players.map((player) => (
-          <li key={player.id}>
-            <Link
-              href={player.href}
-              className="hw-card hw-card-bar flex min-h-14 items-baseline justify-between gap-3 px-4 py-3 transition hover:-translate-y-0.5"
-            >
-              <span className="hw-serif text-lg text-galway-ink">{player.name}</span>
-              {player.line ? (
-                <span className="hidden text-right text-xs font-semibold text-galway-ink/55 sm:block">
-                  {player.line}
-                </span>
-              ) : null}
-            </Link>
-          </li>
-        ))}
-      </ul>
-      <div className="hw-card border-dashed px-4 py-4">
-        <p className="hw-kicker">Galway representatives</p>
-        <p className="mt-2 text-sm leading-relaxed text-galway-ink/70">
-          A clipping of 1959 Fohenagh players lining out for Galway will sit
-          here when it is added. No names are listed until that cutting is in.
-        </p>
-      </div>
-    </section>
-  );
-}
+export function NotableGames({ games }: { games: FohenaghGame[] }) {
+  const decades: { label: string; games: FohenaghGame[] }[] = [];
+  for (const game of games) {
+    const label = game.year ? String(game.year) : "Year not on file";
+    const last = decades[decades.length - 1];
+    if (!last || last.label !== label) {
+      decades.push({ label, games: [game] });
+    } else {
+      last.games.push(game);
+    }
+  }
 
-export function FohenaghGreats({
-  players,
-}: {
-  players: { id: string; summary: EntitySummary; line: string }[];
-}) {
   return (
-    <section className="space-y-4" aria-labelledby="fohenagh-greats-heading">
+    <section className="space-y-4" aria-labelledby="notable-games-heading">
       <div>
-        <p className="hw-kicker">From the papers</p>
-        <h2 id="fohenagh-greats-heading" className="mt-1 text-3xl text-galway-ink sm:text-4xl">
-          Fohenagh greats
+        <p className="hw-kicker">From the seed</p>
+        <h2 id="notable-games-heading" className="mt-1 text-3xl text-galway-ink">
+          Notable games
         </h2>
-        <p className="mt-2 max-w-2xl text-base leading-relaxed text-galway-ink/75">
-          A short line from a cited cutting. Open a name for the clipping.
+        <p className="mt-2 max-w-2xl text-base text-galway-ink/70">
+          {games.length === 1 ? "1 game" : `${games.length} games`} on file for Fohenagh, newest first. Each one opens its own page.
         </p>
       </div>
-      <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-        {players.map((player) => (
-          <li key={player.id}>
-            <Link
-              href={player.summary.href}
-              className="hw-card hw-card-bar block h-full px-4 py-4 transition hover:-translate-y-0.5"
-            >
-              <h3 className="hw-serif text-2xl text-galway-ink">{player.summary.title}</h3>
-              {player.line ? (
-                <p className="mt-2 text-sm leading-relaxed text-galway-ink/75">{player.line}</p>
-              ) : null}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      {decades.map((decade) => (
+        <div key={decade.label} className="space-y-2">
+          <h3 className="text-sm font-bold uppercase tracking-[0.14em] text-galway-maroon">
+            {decade.label}
+          </h3>
+          <ul className="space-y-2">
+            {decade.games.map((game) => (
+              <li key={game.id}>
+                <Link
+                  href={game.href}
+                  className="hw-card block px-4 py-3 transition hover:-translate-y-0.5"
+                >
+                  <span className="text-sm font-bold text-galway-maroon">
+                    {game.when ?? "Date to follow"}
+                  </span>
+                  <span className="hw-serif mt-1 block text-xl text-galway-ink">
+                    {game.title}
+                  </span>
+                  <span className="mt-1 block text-sm text-galway-ink/70">
+                    {[game.competition, game.opponent ? `vs ${game.opponent}` : null, game.score]
+                      .filter(Boolean)
+                      .join(" · ")}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </section>
   );
 }
