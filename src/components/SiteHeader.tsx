@@ -10,7 +10,7 @@ const links = [
 export function SiteHeader() {
   return (
     <header className="border-b-4 border-galway-gold bg-galway-maroon text-white">
-      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-4">
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4">
         <Link href="/" className="group">
           <span className="block text-2xl font-black tracking-tight sm:text-3xl">
             HurlingWiki

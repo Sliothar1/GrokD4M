@@ -54,20 +54,17 @@ const PRINTED_DATELINE = /^\d{1,2}\s+[A-Za-z]+\s+(?:19|20)\d{2}$/;
 
 export const VERIFICATION_LABEL: Record<FactSourceStatus, string> = {
   verified: "Verified",
-  "single-source": "Single-source",
-  unverified: "Needs a source",
+  "single-source": "One report",
+  unverified: "Still checking",
   // Legacy status value only; family-confirmed facts are classified Verified.
   "confirmed-by-family": "Verified",
 };
 
 export const VERIFICATION_LEGEND: Record<FactSourceStatus, string> = {
-  verified:
-    "Two or more publishers, or one primary source: a dated cutting (image or PDF), or a galwaygaa.ie / gaa.ie record.",
-  "single-source":
-    "One secondary publisher, such as Wikipedia or an undated cutting.",
-  unverified: "No source on file for this fact.",
-  "confirmed-by-family":
-    "Two or more publishers, or one primary source: a dated cutting (image or PDF), or a galwaygaa.ie / gaa.ie record.",
+  verified: "Checked against the paper, or an official record.",
+  "single-source": "We have one report so far.",
+  unverified: "We are still looking for a source.",
+  "confirmed-by-family": "Checked against the paper, or an official record.",
 };
 
 /** Statuses shown in the public badge legend. */

@@ -6,11 +6,9 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-5xl flex-col gap-3 px-4 py-8">
         <div className="flex flex-col gap-2 text-sm text-galway-ink/80 sm:flex-row sm:justify-between">
           <p>
-            HurlingWiki Phase 1 — kid-friendly Galway senior hurling facts, powered by a
-            D4M-style associative array.
+            HurlingWiki — a place to find a hurling club, a match, and the players who wore the jersey.
           </p>
           <p>
-            Learn D4M at{" "}
             <a
               className="font-semibold text-galway-maroon underline"
               href="https://d4m.mit.edu/"
@@ -26,7 +24,7 @@ export function SiteFooter() {
           </p>
         </div>
         <p className="text-xs text-galway-ink/50">
-          HurlingWiki was designed and built by Garry Lohan, on MIT&apos;s D4M data model.
+          HurlingWiki was designed and built by Garry Lohan.
         </p>
       </div>
     </footer>

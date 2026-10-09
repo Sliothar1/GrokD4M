@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
+import { PhotoComingSoon } from "@/components/fohenagh/FohenaghBlocks";
 import { getEntity } from "@/lib/data";
 import { playerNotableText } from "@/lib/entityDisplay";
 
-/** Player spotlights: Tim Sweeney and Jimmy Moclair only (Garry ask, 4 Oct 10:37). */
+/** Two sample players, the same pair the live homepage used. */
 const SPOTLIGHT_PLAYER_IDS = [
   "player:tim-sweeney-fohenagh",
   "player:jim-moclair-fohenagh",
@@ -12,29 +13,24 @@ const SPOTLIGHT_PLAYER_IDS = [
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
-/** Compact spotlight card: name, club line, and the player's notable text when present. */
 function SpotlightCard({ player }: { player: EntityPayload }) {
   const { summary, attrs } = player;
   const notable = playerNotableText(attrs);
   return (
     <Link
       href={summary.href}
-      className="flex h-full flex-col rounded-2xl border-2 border-galway-maroon/15 bg-white p-4 shadow-sm transition hover:border-galway-maroon hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
+      className="hw-card flex h-full flex-col p-4 transition hover:-translate-y-0.5 focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
     >
       <span className="mb-1 w-fit rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
         Player
       </span>
       <h3 className="text-xl font-bold text-galway-ink">{summary.title}</h3>
-      {summary.subtitle && (
-        <p className="text-sm font-semibold text-galway-ink/60">
-          {summary.subtitle}
-        </p>
-      )}
-      {notable && (
-        <p className="mt-2 line-clamp-4 text-base text-galway-ink/75">
-          {notable}
-        </p>
-      )}
+      {summary.subtitle ? (
+        <p className="text-sm font-semibold text-galway-ink/60">{summary.subtitle}</p>
+      ) : null}
+      {notable ? (
+        <p className="mt-2 line-clamp-4 text-base text-galway-ink/75">{notable}</p>
+      ) : null}
     </Link>
   );
 }
@@ -47,30 +43,48 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-10">
-      <section>
-        <h1 className="sr-only">HurlingWiki</h1>
-        <SearchBox large />
+      <section className="space-y-3">
+        <p className="hw-kicker">HurlingWiki</p>
+        <h1 className="text-4xl text-galway-ink sm:text-5xl">Find your club</h1>
+        <p className="max-w-2xl text-lg text-galway-ink/75">
+          A wiki for every hurling club. Start with a parish name.
+        </p>
+        <SearchBox large placeholder="Search a club or player — try Fohenagh" />
+        <p className="max-w-2xl text-base leading-relaxed text-galway-ink/70">
+          For example, type a player&apos;s name, a club, or a word like captain.
+        </p>
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-2xl font-bold text-galway-maroon">Featured</h2>
+        <h2 className="text-2xl text-galway-maroon">Try a sample club</h2>
         <div className="grid gap-3 sm:grid-cols-2">
-          {featuredClub && <EntityCard entity={featuredClub.summary} />}
+          {featuredClub ? (
+            <EntityCard entity={featuredClub.summary} crestLabel="Club crest coming soon" />
+          ) : null}
+          <PhotoComingSoon note="Championship team photo" />
         </div>
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-2xl font-bold text-galway-maroon">
-          Player spotlights
+        <h2 className="text-2xl leading-snug text-galway-maroon">
+          Or start with a player, for example Tim Sweeney or Jimmy Moclair.
         </h2>
         <div className="grid gap-3 sm:grid-cols-2">
           {spotlights.map((player) =>
-            player ? (
-              <SpotlightCard key={player.summary.id} player={player} />
-            ) : null
+            player ? <SpotlightCard key={player.id} player={player} /> : null
           )}
         </div>
       </section>
+
+      <p className="max-w-2xl text-base leading-relaxed text-galway-ink/75">
+        Clubs and families can send a cutting or a short memory. An editor
+        reads it before it is published. A newspaper line stays cited. A club
+        memory is labelled Remembered, and it is not mixed into the papers.{" "}
+        <Link href="/stories#upload" className="font-semibold text-galway-maroon underline">
+          Add a cutting
+        </Link>
+        .
+      </p>
     </div>
   );
 }

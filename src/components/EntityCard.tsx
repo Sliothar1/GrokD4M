@@ -22,7 +22,14 @@ function winKindBadge(entity: EntitySummary): string {
   return "County title";
 }
 
-export function EntityCard({ entity }: { entity: EntitySummary }) {
+export function EntityCard({
+  entity,
+  crestLabel,
+}: {
+  entity: EntitySummary;
+  /** Shown in place of a cutting image. */
+  crestLabel?: string;
+}) {
   const trust = entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
   const badge = entity.badge;
   const typeBadge =
@@ -37,14 +44,24 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
       href={entity.href}
       className="block overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white shadow-sm transition hover:border-galway-maroon hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
     >
-      {entity.imagePath && (
+      {crestLabel ? (
+        <div className="flex items-center gap-3 bg-galway-cream px-4 py-4">
+          <span
+            aria-hidden
+            className="flex h-12 w-12 items-center justify-center rounded-full border border-galway-maroon/30 font-serif text-xl text-galway-maroon"
+          >
+            F
+          </span>
+          <p className="text-sm leading-snug text-galway-ink/70">{crestLabel}</p>
+        </div>
+      ) : entity.imagePath ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={entity.imagePath}
           alt=""
           className="h-36 w-full object-cover bg-galway-cream"
         />
-      )}
+      ) : null}
       <div className="p-4">
         <div className="mb-1 flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-galway-maroon/10 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-galway-maroon">
@@ -106,10 +123,6 @@ export function EmptyTeach({
     <div className="rounded-2xl border-2 border-dashed border-galway-maroon/30 bg-galway-cream/50 p-8 text-center">
       <p className="text-2xl font-bold text-galway-maroon">{title}</p>
       <p className="mt-3 text-lg text-galway-ink/80">{hint}</p>
-      <p className="mt-4 text-base text-galway-ink/60">
-        Tip: associative arrays store facts as tiny triples — row, column, value
-        — like sticky notes on a giant board.
-      </p>
     </div>
   );
 }

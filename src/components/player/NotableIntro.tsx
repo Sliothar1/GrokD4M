@@ -1,6 +1,12 @@
 import type { FactSourceStatus } from "@/lib/verification";
 
 /** Seed `notable` is the first text under the name. Archive `note`, then `notes`. */
+function splitLead(text: string): { lead: string; rest: string } {
+  const match = text.match(/^(.+?[.!?])(?:\s+|$)([\s\S]*)$/);
+  if (!match) return { lead: text, rest: "" };
+  return { lead: match[1].trim(), rest: match[2].trim() };
+}
+
 function noteParagraphs(note: string): string[] {
   return note
     .split(/(?<=[.!?])\s+(?=[A-Z“"])/)
@@ -37,6 +43,7 @@ export function NotableIntro({
 }) {
   if (!notable && !note && !notes) return null;
   const archive = note ? noteParagraphs(note) : [];
+  const lead = notable ? splitLead(notable) : null;
   const notableUnverified = notableStatus === "unverified";
   const noteUnverified = noteStatus === "unverified";
   const notesUnverified = notesStatus === "unverified";
@@ -50,25 +57,43 @@ export function NotableIntro({
               About
             </p>
             <p className="mt-1.5 max-w-3xl text-base font-medium leading-snug text-stone-800">
-              {notable}
-              {notableCite}
-              {notableBadge ? (
+              {lead?.lead}
+              {!lead?.rest ? notableCite : null}
+              {!lead?.rest && notableBadge ? (
                 <span className="ml-2 inline-flex align-middle">{notableBadge}</span>
               ) : null}
             </p>
+            {lead?.rest ? (
+              <p className="mt-2 max-w-3xl text-base leading-relaxed text-stone-800">
+                {lead.rest}
+                {notableCite}
+                {notableBadge ? (
+                  <span className="ml-2 inline-flex align-middle">{notableBadge}</span>
+                ) : null}
+              </p>
+            ) : null}
           </div>
         ) : (
           <div className="max-w-full border-l-[3px] border-galway-gold pl-4 sm:pl-5">
             <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon">
               About
             </p>
-            <p className="mt-1.5 max-w-3xl text-lg font-medium leading-snug text-galway-ink sm:text-xl">
-              {notable}
-              {notableCite}
-              {notableBadge ? (
+            <p className="hw-serif mt-1.5 max-w-3xl text-2xl leading-snug text-galway-ink sm:text-3xl">
+              {lead?.lead}
+              {!lead?.rest ? notableCite : null}
+              {!lead?.rest && notableBadge ? (
                 <span className="ml-2 inline-flex align-middle">{notableBadge}</span>
               ) : null}
             </p>
+            {lead?.rest ? (
+              <p className="mt-3 max-w-3xl text-base leading-relaxed text-galway-ink">
+                {lead.rest}
+                {notableCite}
+                {notableBadge ? (
+                  <span className="ml-2 inline-flex align-middle">{notableBadge}</span>
+                ) : null}
+              </p>
+            ) : null}
           </div>
         )
       ) : null}

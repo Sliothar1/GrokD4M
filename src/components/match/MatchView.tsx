@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { ArticleClipSection } from "@/components/ArticleClip";
 import { ClubChip, TrustChip } from "@/components/chips";
-import { DeveloperTriples } from "@/components/DeveloperTriples";
+import { PhotoComingSoon } from "@/components/fohenagh/FohenaghBlocks";
+import { SuggestCorrection } from "@/components/SuggestCorrection";
 import { EntityCard } from "@/components/EntityCard";
 import { LoughreaFinalStoryChips } from "@/components/HistoricFohenaghBlock";
 import {
   CuttingExcerpts,
   type CuttingCard,
 } from "@/components/player/CuttingExcerpts";
+import { playerIdsOnMatch } from "@/lib/articles";
 import {
   displayNameForRef,
   friendlyAttrLabel,
@@ -25,16 +27,13 @@ import {
   toClubChip,
   type ClubChipData,
 } from "@/lib/playerClubs";
+import { fohenaghGameReport } from "@/lib/fohenaghMatchReports";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
-/**
- * Kid-facing match page: clean header, cuttings as press cards,
- * compact facts — not the EntityView sticky-note wall.
- * Historic Fohenagh article clips stay.
- */
+/** Match page: header, report, the players named that day, then the cuttings. */
 export async function MatchView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
   const trust =
@@ -91,6 +90,9 @@ export async function MatchView({ data }: { data: EntityPayload }) {
     attrs.lineup_home && isDisplayableVal(attrs.lineup_home)
       ? String(attrs.lineup_home)
       : null;
+  const parishReport = fohenaghGameReport(id);
+  const namedPlayers = parishReport ? await playersNamedOnGame(id, lineup, A) : [];
+  const matchPath = `/match/${id.startsWith("match:") ? id.slice("match:".length) : id}`;
 
   const otherRelated = related.filter(
     (r) =>
@@ -139,17 +141,63 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         </div>
       </header>
 
-      {attrs.notable || attrs.note || attrs.excerpt ? (
+      {parishReport ? <PhotoComingSoon note="Championship team photo" /> : null}
+
+      {parishReport ? (
+        <section className="max-w-3xl space-y-3" aria-labelledby="match-report-heading">
+          <h2 id="match-report-heading" className="text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Match report
+          </h2>
+          {parishReport.paragraphs.length === 0 ? (
+            <p className="text-lg text-galway-ink/75">Report coming soon.</p>
+          ) : (
+            parishReport.paragraphs.map((paragraph) => (
+              <p key={paragraph} className="text-lg leading-relaxed text-galway-ink">
+                {paragraph}
+              </p>
+            ))
+          )}
+          {parishReport.cite ? (
+            <p className="text-sm font-semibold text-galway-ink/60">{parishReport.cite}</p>
+          ) : null}
+        </section>
+      ) : attrs.notable || attrs.note || attrs.excerpt ? (
         <p className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink">
           {String(attrs.notable ?? attrs.note ?? attrs.excerpt)}
         </p>
+      ) : null}
+
+      {parishReport ? (
+        <section className="space-y-3" aria-labelledby="named-players-heading">
+          <h2 id="named-players-heading" className="text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Players named that day
+          </h2>
+          {namedPlayers.length === 0 ? (
+            <p className="text-base text-galway-ink/70">
+              Names will appear here when a cutting names them.
+            </p>
+          ) : (
+            <ul className="flex flex-wrap gap-2">
+              {namedPlayers.map((player) => (
+                <li key={player.id}>
+                  <Link
+                    href={player.href}
+                    className="inline-flex rounded-full border border-galway-maroon/20 bg-white px-3 py-1 text-sm font-semibold text-galway-maroon underline-offset-2 hover:underline"
+                  >
+                    {player.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
       ) : null}
 
       {(id === "match:galway-shc-2025-final" || id === "club:loughrea") && (
         <LoughreaFinalStoryChips />
       )}
 
-      {isHistoricMatch && (
+      {(parishReport || isHistoricMatch) && (
         <ArticleClipSection
           matchId={id}
           cuttingsJson={
@@ -158,7 +206,11 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         />
       )}
 
-      {cuttings.length > 0 ? (
+      {parishReport ? (
+        <SuggestCorrection variant="clipping" page={matchPath} pageLabel={summary.title} />
+      ) : null}
+
+      {!parishReport && cuttings.length > 0 ? (
         <CuttingExcerpts
           cuttings={cuttings}
           heading="Newspaper cuttings"
@@ -200,7 +252,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Open source
+                Read the source
               </a>
             </p>
           ) : null}
@@ -220,7 +272,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         </section>
       ) : null}
 
-      <DeveloperTriples triples={triples} hideScore={hideScore} />
+      <SuggestCorrection page={matchPath} pageLabel={summary.title} />
     </article>
   );
 }
@@ -321,6 +373,53 @@ function matchCiteFacts(attrs: EntityPayload["attrs"]): Array<{
     const value = /^catalog_cite(_\d+)?$/.test(k) ? catalogCiteText(raw) : raw;
     return { key: k, label: friendlyAttrLabel(k), value };
   });
+}
+
+async function playersNamedOnGame(
+  matchId: string,
+  lineup: string | null,
+  A: Awaited<ReturnType<typeof getAssoc>>
+): Promise<Array<{ id: string; name: string; href: string }>> {
+  const ids = new Set(await playerIdsOnMatch(matchId));
+  if (lineup) {
+    for (const playerId of playerIdsMatchingLineup(lineup, A)) ids.add(playerId);
+  }
+  return [...ids]
+    .filter((playerId) => Object.keys(A.entityAttrs(playerId)).length > 0)
+    .map((playerId) => ({
+      id: playerId,
+      name: displayNameForRef(playerId, A),
+      href: `/player/${playerId.slice("player:".length)}`,
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name, "en"));
+}
+
+/** Exact printed names only. A shared name is left as text, not guessed. */
+function playerIdsMatchingLineup(
+  lineup: string,
+  A: Awaited<ReturnType<typeof getAssoc>>
+): string[] {
+  const wanted = new Set(
+    lineup
+      .split(/[,;]|\band\b/i)
+      .map((part) => part.replace(/\([^)]*\)/g, "").replace(/\s+/g, " ").trim().toLowerCase())
+      .filter((part) => part.length > 2)
+  );
+  if (wanted.size === 0) return [];
+  const hits = new Map<string, string[]>();
+  for (const triple of A.getcol("name")) {
+    if (!String(triple.row).startsWith("player:")) continue;
+    const key = String(triple.val).replace(/\s+/g, " ").trim().toLowerCase();
+    if (!wanted.has(key)) continue;
+    const list = hits.get(key) ?? [];
+    list.push(String(triple.row));
+    hits.set(key, list);
+  }
+  const ids: string[] = [];
+  for (const list of hits.values()) {
+    if (list.length === 1) ids.push(list[0]);
+  }
+  return ids;
 }
 
 function kidMatchSubtitle(

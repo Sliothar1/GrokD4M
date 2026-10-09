@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArticleUploadForm } from "@/components/ArticleUploadForm";
 import { EmptyTeach, EntityCard } from "@/components/EntityCard";
-import { articleToSummary, readArticleUploads } from "@/lib/articles";
+import { articleToSummary, isHeldForReview, readArticleUploads } from "@/lib/articles";
 
 export const metadata: Metadata = {
   title: "Contribute",
@@ -11,22 +11,22 @@ export const metadata: Metadata = {
 export const dynamic = "force-dynamic";
 
 export default async function ContributePage() {
-  const uploads = await readArticleUploads();
+  const uploads = (await readArticleUploads()).filter((upload) => !isHeldForReview(upload));
 
   return (
     <div className="space-y-10">
       <header className="space-y-2">
         <h1 className="text-4xl font-black text-galway-ink">Contribute</h1>
         <p className="text-lg text-galway-ink/75">
-          Secondary upload page. The main entry is{" "}
+          The main place to send a cutting is{" "}
           <Link
             href="/stories#upload"
             className="font-semibold text-galway-maroon underline"
           >
-            Stories → Upload a cutting
-          </Link>{" "}
-          (image, PDF, or URL). Optional caption, year, and club tags help
-          search find it.
+            Stories
+          </Link>
+          . A picture, a PDF, or a link to the paper is enough. A caption and a
+          year help people find it.
         </p>
       </header>
 
@@ -37,7 +37,7 @@ export default async function ContributePage() {
         {uploads.length === 0 ? (
           <EmptyTeach
             title="No cuttings yet"
-            hint="Use Stories (or the form above). On Vercel, cuttings use Blob storage; locally they land under public/uploads/articles/. Search cards show excerpt + YYYY · Paper + From cutting."
+            hint="Send a cutting from Stories, or use the form above. An editor reads it before it is published."
           />
         ) : (
           <ul className="grid gap-3 sm:grid-cols-2">

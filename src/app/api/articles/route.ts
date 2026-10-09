@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   isBlobStorageEnabled,
+  isHeldForReview,
   readArticleUploads,
   saveArticleUpload,
   saveUrlUpload,
@@ -17,7 +18,7 @@ const MAX_UPLOAD_PLAYER_TAGS = 60;
 export async function GET() {
   const articles = await readArticleUploads();
   return NextResponse.json({
-    articles: articles.map(toPublicArticle),
+    articles: articles.filter((article) => !isHeldForReview(article)).map(toPublicArticle),
   });
 }
 
