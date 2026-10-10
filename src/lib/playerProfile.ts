@@ -18,6 +18,7 @@ import {
   sanitizePublicText,
   shapePublicLead,
   shortenPublicText,
+  type VignettePronoun,
 } from "@/lib/publicText";
 
 /**
@@ -150,6 +151,8 @@ export type ProfileContext = {
   articlesByDay: Map<string, ArticleCredit[]>;
   /** Players whose same_as points at this id. */
   aliasesByCanonical: Map<string, string[]>;
+  /** Players tagged on a camogie cutting. Camogie uses she/her. */
+  camogiePlayerIds: Set<string>;
 };
 
 const contextCache = new Map<string, Promise<ProfileContext>>();
@@ -647,7 +650,10 @@ function pushCited(parts: string[], raw: unknown) {
  * Cited fields and book notes. Match-report excerpts stay on the game
  * and article pages; the vignette is the player's own record.
  */
-function citedProse(attrs: Record<string, TripleVal>): string | null {
+function citedProse(
+  attrs: Record<string, TripleVal>,
+  pronoun: VignettePronoun = "he"
+): string | null {
   const cutting = linkedCuttingCount(attrs) > 0 || isDisplayableVal(attrs.cutting_cite);
   const parts: string[] = [];
   if (hasFieldSource(attrs, "notable")) pushCited(parts, attrs.notable);
@@ -659,7 +665,24 @@ function citedProse(attrs: Record<string, TripleVal>): string | null {
     .sort()) {
     pushCited(parts, attrs[key]);
   }
-  return composePlayerVignette(parts);
+  return composePlayerVignette(parts, pronoun);
+}
+
+/** Camogie is a women's game. Sport, era, the id, a camogie game, or a camogie cutting. */
+function vignettePronounFor(
+  id: string,
+  attrs: Record<string, TripleVal>,
+  apps: AppearanceRec[],
+  ctx: ProfileContext
+): VignettePronoun {
+  const marked =
+    ctx.camogiePlayerIds.has(id) ||
+    /camogie/i.test(id) ||
+    /camogie/i.test(String(attrs.sport ?? "")) ||
+    /camogie/i.test(String(attrs.era ?? "")) ||
+    /camogie/i.test(String(attrs.type ?? "")) ||
+    apps.some((app) => /camogie/i.test(`${app.sport ?? ""} ${app.competition ?? ""} ${app.grade ?? ""}`));
+  return marked ? "she" : "he";
 }
 
 function splitPeople(raw: string): string[] {
@@ -1093,7 +1116,8 @@ export function profileForPlayer(
     const text = sanitizePublicText(String(attrs[key]));
     if (text) bookBits.push(text);
   }
-  let summary = citedProse(attrs);
+  const pronoun = vignettePronounFor(id, attrs, apps, ctx);
+  let summary = citedProse(attrs, pronoun);
   const citedHeadline =
     Boolean(summary) &&
     Boolean(headline) &&
@@ -1127,7 +1151,7 @@ export function profileForPlayer(
       extra.push(`Named in ${games[0].label}.`);
     }
     if (extra.length > 1) {
-      const padded = composePlayerVignette(extra);
+      const padded = composePlayerVignette(extra, pronoun);
       if (padded) summary = padded;
     }
   }
@@ -1468,8 +1492,15 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
 
   const articles = new Map<string, ArticleCredit>();
   const articlesByDay = new Map<string, ArticleCredit[]>();
+  const camogiePlayerIds = new Set<string>();
   const aliases: { id: string; target: string }[] = [];
   for (const upload of await readArticleUploads()) {
+    const camogieCutting =
+      upload.tags.some((tag) => /camogie/i.test(tag)) ||
+      /camogie/i.test(`${upload.caption ?? ""} ${upload.inaClass ?? ""}`);
+    if (camogieCutting) {
+      for (const playerId of upload.playerTags) camogiePlayerIds.add(playerId);
+    }
     const target = articleSameAsId(upload);
     if (target) {
       aliases.push({ id: upload.id, target });
@@ -1502,7 +1533,17 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
     if (canonical) articles.set(alias.id, canonical);
   }
 
-  return { A, appearancesByPlayer, byMatch, playerName, nameIndex, articles, articlesByDay, aliasesByCanonical };
+  return {
+    A,
+    appearancesByPlayer,
+    byMatch,
+    playerName,
+    nameIndex,
+    articles,
+    articlesByDay,
+    aliasesByCanonical,
+    camogiePlayerIds,
+  };
 }
 
 export async function loadPlayerProfile(

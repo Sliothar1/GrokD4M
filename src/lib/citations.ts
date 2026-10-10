@@ -71,6 +71,7 @@ function scoreCandidate(sentence: string, candidate: CiteRef): number {
   if (/tuam herald/i.test(sentence) && /tuam herald/i.test(hay)) source += 1;
   if (/connacht sentinel/i.test(sentence) && /sentinel/i.test(hay)) source += 1;
   if (/galway city tribune/i.test(sentence) && /city tribune/i.test(hay)) source += 1;
+  if (/\birish press\b/i.test(sentence) && /\birish press\b|\bipr\d{6,}/i.test(hay)) source += 1;
   if (/wikipedia/i.test(sentence) && /wikipedia/i.test(hay)) source += 1;
   if (/history of fohenagh|\bthe book\b/i.test(sentence) && /history of fohenagh|o'gorman|ogorman/i.test(hay)) {
     source += 1;
@@ -143,6 +144,7 @@ export function markCitations(
           (/connacht tribune/i.test(sentence) && /connacht tribune/i.test(`${prior.title} ${prior.href}`)) ||
           (/tuam herald/i.test(sentence) && /tuam herald/i.test(`${prior.title} ${prior.href}`)) ||
           (/connacht sentinel/i.test(sentence) && /sentinel/i.test(`${prior.title} ${prior.href}`)) ||
+          (/\birish press\b/i.test(sentence) && /\birish press\b|\bipr\d{6,}/i.test(`${prior.title} ${prior.href}`)) ||
           (/wikipedia/i.test(sentence) && /wikipedia/i.test(`${prior.title} ${prior.href}`)) ||
           (/\bthe book\b|history of fohenagh/i.test(sentence) &&
             /history of fohenagh|o'gorman|ogorman/i.test(`${prior.title} ${prior.href}`));

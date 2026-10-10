@@ -7,6 +7,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { getAssoc } from "../src/lib/data";
 import { uniquePlayerRedirect } from "../src/lib/playerSlug";
+import { getPlayerRedirectIndex, resolvePlayerSlug } from "../src/lib/playerRedirects";
 import { auditPlayerProfiles } from "./audit-player-profiles";
 import {
   FOHENAGH_UNDERAGE_SCHOOLS,
@@ -104,12 +105,44 @@ async function main() {
     );
     const garry = garrySourceLines(profile.name, text);
     assert.deepEqual(garry, [], `${id} cites Garry Lohan\n${garry.join("\n")}`);
+    const camogieProfile =
+      /camogie/i.test(String(attrs.sport ?? "")) ||
+      /camogie/i.test(profile.eraLine ?? "") ||
+      /camogie/i.test(id);
+    if (camogieProfile) {
+      assert.doesNotMatch(text, /\b[Hh]e\b/, `${id} uses He\n${text}`);
+      assert.doesNotMatch(text, /\b[Hh]is\b/, `${id} uses his\n${text}`);
+    }
     assert.equal(
       Object.prototype.hasOwnProperty.call(profile, "verified"),
       true
     );
     assert.doesNotMatch(text, /\bverified\b/i);
   }
+
+  const rita = profileForPlayer(
+    ctx,
+    "player:rita-clinton-fohenagh-camogie",
+    A.entityAttrs("player:rita-clinton-fohenagh-camogie")
+  );
+  const ritaSummary = rita.summary ?? "";
+  assert.match(ritaSummary, /camogie star ahead of Fohenagh's 1947 meeting with Ballinasloe Mental Hospital/);
+  assert.match(ritaSummary, /named her as R\. Clinton for Fohenagh/);
+  assert.match(ritaSummary, /brilliant individualism of Rita Clinton and excellent understanding among the forwards/);
+  assert.match(ritaSummary, /3-1 to 3-0/);
+  assert.equal((ritaSummary.match(/brilliant/gi) ?? []).length, 1);
+  assert.equal((ritaSummary.match(/1947 Galway|county senior camogie final/gi) ?? []).length, 1);
+  assert.doesNotMatch(ritaSummary, /\bHe was\b|Camogie player|printed as R\. Clinton/);
+  assert.ok(
+    rita.references.some((ref) => /irish press/i.test(ref.title) && /IPR19471117|ipr-1947-11-17/i.test(ref.href)),
+    rita.references.map((ref) => `${ref.title} ${ref.href}`).join("\n")
+  );
+  assert.ok(
+    rita.references.some((ref) => /tuam herald/i.test(ref.title) && /TTH19470823/i.test(ref.href))
+  );
+  assert.ok(
+    rita.references.some((ref) => /2 Nov 1946/i.test(ref.title))
+  );
 
   const glynn = profileForPlayer(
     ctx,
@@ -361,6 +394,98 @@ async function main() {
     /On the Fohenagh XV for the 1959 Galway SHC final against Castlegar/
   );
   assert.doesNotMatch(killalea.summary ?? "", /distinct from/i);
+
+  const michael = profileForPlayer(
+    ctx,
+    "player:michael-barrett-fohenagh",
+    A.entityAttrs("player:michael-barrett-fohenagh")
+  );
+  assert.equal(michael.name, "Michael Barrett");
+  assert.equal(michael.headline, "Among Fohenagh's best backs of his day");
+  assert.equal(michael.eraLine, "Hurling, 1990s");
+  assert.match(
+    michael.summary ?? "",
+    /best served by Mike Flood, Mike Barrett, Philip Lohan and Sean Keane/
+  );
+  assert.match(michael.summary ?? "", /21 June 1996/);
+  assert.match(michael.summary ?? "", /6 December 1996/);
+  assert.match(michael.summary ?? "", /8 August 1997/);
+  assert.match(michael.summary ?? "", /\[\d+\]/);
+  assert.equal(
+    michael.teammates.some(
+      (mate) => mate.name === "Mike Flood" && mate.href === "/player/mike-flood-fohenagh"
+    ),
+    true
+  );
+  const michaelHrefs = michael.references.map((ref) => ref.href);
+  for (const href of [
+    "/article/art-ina-tth-1995-08-19-fohenagh-junior-c",
+    "/article/art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a",
+    "/article/art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a",
+    "/article/art-ina-ct-1997-08-08-castleblakeney-festival-best",
+  ]) {
+    assert.ok(michaelHrefs.includes(href), href);
+  }
+  assert.equal(A.entityAttrs("player:michael-barrett-fohenagh").alias, "Mike Barrett, M. Barrett");
+  assert.doesNotMatch(publicProfileText(michael), /\b1952\b|\b1942\b/);
+
+  const fifties = profileForPlayer(
+    ctx,
+    "player:m-barrett-1950s-fohenagh",
+    A.entityAttrs("player:m-barrett-1950s-fohenagh")
+  );
+  assert.equal(fifties.name, "M. Barrett (1950s)");
+  assert.equal(fifties.eraLine, "Hurling, 1950s");
+  assert.match(fifties.summary ?? "", /stood out in the backs/);
+  assert.match(fifties.summary ?? "", /16 August 1952/);
+  assert.match(fifties.summary ?? "", /3 October 1953/);
+  assert.doesNotMatch(publicProfileText(fifties), /\b199[567]\b/);
+
+  assert.equal(
+    A.entityAttrs("player:m-barrett-fohenagh").same_as,
+    "player:michael-barrett-fohenagh"
+  );
+  assert.notEqual(
+    "player:michael-barrett-fohenagh",
+    "player:mike-barrett-fohenagh"
+  );
+  assert.notEqual(
+    "player:m-barrett-1950s-fohenagh",
+    "player:mike-barrett-fohenagh"
+  );
+  const captain = profileForPlayer(
+    ctx,
+    "player:mike-barrett-fohenagh",
+    A.entityAttrs("player:mike-barrett-fohenagh")
+  );
+  assert.equal(captain.name, "Mike Barrett");
+  assert.match(captain.summary ?? "", /Battle of Athenry/);
+  assert.equal(
+    A.entityAttrs("player:mike-barrett-fohenagh").possible_same_as,
+    "player:m-barrett-fohenagh"
+  );
+  const camogieBarrett = profileForPlayer(
+    ctx,
+    "player:m-barrett-fohenagh-camogie",
+    A.entityAttrs("player:m-barrett-fohenagh-camogie")
+  );
+  assert.equal(camogieBarrett.name, "M. Barrett");
+  assert.equal(camogieBarrett.eraLine, "Camogie, 1940s");
+  assert.equal(A.entityAttrs("player:m-barrett-fohenagh-camogie").same_as, undefined);
+
+  const redirectIndex = await getPlayerRedirectIndex();
+  assert.deepEqual(resolvePlayerSlug("m-barrett-fohenagh", redirectIndex), {
+    status: 308,
+    slug: "m-barrett-fohenagh",
+    target: "michael-barrett-fohenagh",
+  });
+  assert.equal(resolvePlayerSlug("michael-barrett-fohenagh", redirectIndex).status, 200);
+  assert.equal(resolvePlayerSlug("m-barrett-1950s-fohenagh", redirectIndex).status, 200);
+  assert.equal(resolvePlayerSlug("mike-barrett-fohenagh", redirectIndex).status, 200);
+
+  const keyPlayers = readFileSync("src/components/fohenagh/FohenaghKeyPlayers.tsx", "utf8");
+  assert.match(keyPlayers, /href: "\/player\/michael-barrett-fohenagh"/);
+  assert.match(keyPlayers, /Among Fohenagh's best backs of his day/);
 
   for (const id of A.entitiesOfType("player")) {
     const profile = profileForPlayer(ctx, id, A.entityAttrs(id));
