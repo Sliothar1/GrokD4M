@@ -265914,5 +265914,70 @@
     "row": "player:tony-ogorman",
     "col": "cutting:art-ina-ct-1984-08-17-fohenagh-jersey-distinction",
     "val": "article:art-ina-ct-1984-08-17-fohenagh-jersey-distinction"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "same_as",
+    "val": "player:sean-carrick-fohenagh"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "status",
+    "val": "alias"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "same_as",
+    "val": "player:sean-carrick-fohenagh"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "note",
+    "val": "Named as S. Carrick on the Fohenagh line in the senior hurling semi-final against Killimordaly (Connacht Tribune, 3 August 1963). Same person as Sean Carrick."
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "name",
+    "val": "Sean Carrick"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "alias",
+    "val": "Sean Carrig, S. Carrick"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: Sean Carrig named Fohenagh substitute."
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
   }
 ]
