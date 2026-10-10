@@ -16,6 +16,7 @@ import {
 import seed from "../../data/seed.json";
 import type { EntitySummary } from "@/lib/data";
 import type { LinkedCuttingSource } from "@/lib/sources";
+import { SHOW_INA_MEDIA } from "@/lib/ina-media";
 
 const execFileAsync = promisify(execFile);
 
@@ -67,6 +68,16 @@ export interface ArticleUpload {
   derivedTriples?: Triple[];
   /** Page title fetched from URL when available */
   fetchedTitle?: string;
+  /** Irish Newspaper Archives scan. Hidden when SHOW_INA_MEDIA is off. */
+  inaMedia?: boolean;
+  /** Courtesy line, e.g. Irish Newspaper Archives */
+  credit?: string;
+  /** Permalink back to the archive page */
+  creditUrl?: string;
+  /** Full page image for a zoom viewer */
+  pageImage?: string;
+  /** INA classification label */
+  inaClass?: string;
 }
 
 const META_PATH = path.join(process.cwd(), "data", "article-uploads.json");
@@ -309,21 +320,29 @@ async function storePrivateTextBlob(
   return { privateTextUrl: result.url };
 }
 
+/** Drop INA scans when NEXT_PUBLIC_SHOW_INA_MEDIA is "false". */
+function applyInaMediaVisibility(list: ArticleUpload[]): ArticleUpload[] {
+  if (SHOW_INA_MEDIA) return list;
+  return list.filter((a) => a.inaMedia !== true);
+}
+
 export async function readArticleUploads(): Promise<ArticleUpload[]> {
   /** Always include git-committed cuttings (public/uploads + article-uploads.json).
    *  Blob (when healthy) overlays/extends them — never hide repo cuttings if Blob is empty/suspended. */
   const fromFs = readArticleUploadsFromFs();
-  if (!isBlobStorageEnabled()) return fromFs;
+  if (!isBlobStorageEnabled()) return applyInaMediaVisibility(fromFs);
   try {
     const fromBlob = await listArticleUploadsFromBlob();
     const byId = new Map<string, ArticleUpload>();
     for (const a of fromFs) byId.set(a.id, a);
     for (const a of fromBlob) byId.set(a.id, a); // blob wins on same id
-    return Array.from(byId.values()).sort((a, b) =>
-      String(b.uploadedAt).localeCompare(String(a.uploadedAt))
+    return applyInaMediaVisibility(
+      Array.from(byId.values()).sort((a, b) =>
+        String(b.uploadedAt).localeCompare(String(a.uploadedAt))
+      )
     );
   } catch {
-    return fromFs;
+    return applyInaMediaVisibility(fromFs);
   }
 }
 

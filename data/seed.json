@@ -251034,5 +251034,5890 @@
     "row": "player:garry-lohan",
     "col": "confirmed_by_family",
     "val": "notable"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "ina_article_upload",
+    "val": "art-ina-tth-1942-04-04-fohenagh-cussaun-north-board-jhc-final"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "ina_secondary_cite",
+    "val": "Tuam Herald · 4 Apr 1942 · p.2 · INA"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "venue_fixture",
+    "val": "Menlough (Connacht Tribune 7 Mar 1942 fixture)"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "name",
+    "val": "Fohenagh vs Cussane — North Board Junior Hurling Championship Final (1943), played 1944"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "competition",
+    "val": "North Board Junior Hurling Championship Final (1943), played 1944"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "year",
+    "val": 1944
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "date",
+    "val": "1944-05-28"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "opponent",
+    "val": "Cussane"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "venue",
+    "val": "Menlough"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "note",
+    "val": "The 1943 North Board junior final was finally played at Menlough in late May 1944, and Cussane won 5-3 to 2-4. The paper named 'the Barretts, Naughton and Glynn' as Fohenagh's best. Not the Claregalway county final."
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "cite",
+    "val": "Connacht Tribune · 3 Jun 1944 · p.10 · INA"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19440603.1.10"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1944-06-03-cussane-fohenagh-1943-final"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "away",
+    "val": "club:cussane-historic"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "score",
+    "val": "Cussane 5-3, Fohenagh 2-4"
+  },
+  {
+    "row": "match:fohenagh-cussane-1944-ina",
+    "col": "winner",
+    "val": "club:cussane-historic"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "name",
+    "val": "Fohenagh vs Ballygar — North Board Junior Hurling Championship (1944)"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "competition",
+    "val": "North Board Junior Hurling Championship (1944)"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "year",
+    "val": 1944
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "date",
+    "val": "1944-05-13"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "opponent",
+    "val": "Ballygar"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "venue",
+    "val": "Mountbellew (fixture CTT 29 Apr 1944)"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "result",
+    "val": "walkover-conceded"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "note",
+    "val": "One line in the Tribune: Ballygar got a walk-over from Fohenagh in the junior hurling championship. No game, no score."
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "cite",
+    "val": "Connacht Tribune · 13 May 1944 · p.4 · INA"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19440513.1.4"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1944-05-13-ballygar-walkover-from-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "away",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "score",
+    "val": "Walk-over to Ballygar"
+  },
+  {
+    "row": "match:fohenagh-ballygar-1944-ina",
+    "col": "winner",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "name",
+    "val": "Fohenagh vs Lawrencetown — East Board Junior Hurling Championship Final (1949)"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "competition",
+    "val": "East Board Junior Hurling Championship Final (1949)"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "year",
+    "val": 1949
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "date",
+    "val": "1949-09-25"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "opponent",
+    "val": "Lawrencetown"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "venue",
+    "val": "Duggan Park, Ballinasloe"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "note",
+    "val": "A big day: Fohenagh beat Lawrencetown 5-8 to 0-3 in the East Board junior final at Duggan Park, and fans ran on to chair captain 'Mickey' Glynn off the field. The presenting priest praised a clean, sporting game."
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "cite",
+    "val": "Connacht Tribune · 1 Oct 1949 · p.6 · INA"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19491001.1.6"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1949-10-01-fohenagh-win-east-board-jh-title"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "score",
+    "val": "Fohenagh 5-8, Lawrencetown 0-3"
+  },
+  {
+    "row": "match:fohenagh-lawrencetown-1949-ina",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "name",
+    "val": "Fohenagh vs Gort — Galway Intermediate Hurling Championship (1952)"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship (1952)"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "year",
+    "val": 1952
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "date",
+    "val": "1952-07-19"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "opponent",
+    "val": "Gort"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "venue",
+    "val": "not printed (curtain-raiser)"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "note",
+    "val": "As a curtain-raiser to a bigger match, Fohenagh completely outclassed Gort in the intermediate championship, 7-5 to 0-3. This was the re-fixed game after the June meeting was washed out."
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "cite",
+    "val": "Clare Champion · 19 Jul 1952 · p.10 · INA"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CCH19520719.1.10"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "article_upload",
+    "val": "art-ina-cch-1952-07-19-fohenagh-gort-ihc"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "score",
+    "val": "Fohenagh 7-5, Gort 0-3"
+  },
+  {
+    "row": "match:fohenagh-gort-1952-ina",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "name",
+    "val": "Fohenagh vs Skehana — Galway Intermediate Hurling Championship semi-final replay (1952) [as printed]"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship semi-final replay (1952) [as printed]"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "year",
+    "val": 1952
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "date",
+    "val": "1952-08-24"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "opponent",
+    "val": "Skehana"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "venue",
+    "val": "Castleblakeney"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "note",
+    "val": "After Fohenagh rescued a draw with a last-minute penalty goal, the replay at Castleblakeney was level for a half before Skehana pulled away to win 3-7 to 2-1. The paper calls it a semi-final; the existing wiki row calls the drawn game a final."
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "cite",
+    "val": "Tuam Herald · 30 Aug 1952 · p.1 · INA"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19520830.1.1"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "article_upload",
+    "val": "art-ina-tth-1952-08-30-skehana-fohenagh-ihc-replay"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "away",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "score",
+    "val": "Skehana 3-7, Fohenagh 2-1"
+  },
+  {
+    "row": "match:fohenagh-skehana-1952-ina",
+    "col": "winner",
+    "val": "club:skehana"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "name",
+    "val": "Fohenagh vs Cappatagle No. 2 (final); Ballymacward (semi-final) — Kilconnell Hurling Tournament (1953)"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "competition",
+    "val": "Kilconnell Hurling Tournament (1953)"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "date",
+    "val": "1953-06-29"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "opponent",
+    "val": "Cappatagle No. 2 (final); Ballymacward (semi-final)"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "venue",
+    "val": "Kilconnell"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "note",
+    "val": "Fohenagh beat a weak Ballymacward side in the semi-final and then edged Cappatagle No. 2 in a 'thrill-a-minute' final. The Sweeney trio and the Glynn brothers led the way, and a schoolboy goalkeeper named Laly was first-class. No score printed."
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "cite",
+    "val": "Westmeath Independent · 4 Jul 1953 · p.3 · INA"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=WMI19530704.1.3"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-wmi-1953-07-04-fohenagh-kilconnell-tournament"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-cappatagle-no-2-1953-ina",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "Fohenagh vs Claregalway — Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "date",
+    "val": "1953-09-27"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "opponent",
+    "val": "Claregalway"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "venue",
+    "val": "see text"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "note",
+    "val": "Fohenagh led 3-6 to 0-4 at the break, then had to hang on as Claregalway came storming back, and the afternoon got so lively that the Gardaí had to help out. Fohenagh squeezed through by a single point, 4-7 to 4-6, with a full team list printed."
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "cite",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "away",
+    "val": "club:claregalway"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "score",
+    "val": "Fohenagh 4-7, Claregalway 4-6"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1953-ina",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:t-clinton-fohenagh"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "T. Clinton"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:t-clinton-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:j-fitzgerald-fohenagh"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "J. Fitzgerald"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:j-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:frank-madden"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "F. Madden"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:frank-madden-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:c-kelly-fohenagh"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "C. Kelly"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:c-kelly-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:tony-ogorman"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "A. O'Gorman"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:paddy-fitzgerald-fohenagh"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "P. Fitzgerald"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:tommy-glynn-fohenagh"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "T. Glynn"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "T. Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:m-dooley-fohenagh"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "M. Dooley"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-dooley-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "player",
+    "val": "player:m-barrett-fohenagh"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "name",
+    "val": "M. Barrett"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "match",
+    "val": "match:fohenagh-claregalway-1953-ina"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship quarter-final (1953)"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 3 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "name",
+    "val": "Fohenagh vs Maree — Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "date",
+    "val": "1953-10-18"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "opponent",
+    "val": "Maree"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "venue",
+    "val": "Loughrea"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "note",
+    "val": "Fohenagh led 1-3 to 0-0 at half-time, then Maree hit three quick goals and a Fohenagh goal was ruled out. In the closing minutes the hurleys were swung more like cavemen's clubs than camáin, and the referee gave up trying to line the teams up again. Happily the paper says nobody was seriously hurt. Maree went through 4-2 to 2-3."
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "cite",
+    "val": "Connacht Sentinel · 20 Oct 1953 · p.3 · INA"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CSL19531020.1.3"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "article_upload",
+    "val": "art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "away",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "score",
+    "val": "Maree 4-2, Fohenagh 2-3"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "winner",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "player",
+    "val": "player:tony-ogorman"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "name",
+    "val": "Tony O'Gorman"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "match",
+    "val": "match:fohenagh-maree-ihc-semi-final-1953"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "cite_chip",
+    "val": "Connacht Sentinel · 20 Oct 1953 · p.3 · INA"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "article_upload",
+    "val": "art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CSL19531020.1.3"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-maree-ihc-semi-final-1953",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "player",
+    "val": "player:paddy-fitzgerald-fohenagh"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "name",
+    "val": "Patsy Fitzgerald"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "match",
+    "val": "match:fohenagh-maree-ihc-semi-final-1953"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "cite_chip",
+    "val": "Connacht Sentinel · 20 Oct 1953 · p.3 · INA"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "article_upload",
+    "val": "art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CSL19531020.1.3"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:paddy-fitzgerald-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "player",
+    "val": "player:tommy-glynn-fohenagh"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "name",
+    "val": "T. Glynn"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "match",
+    "val": "match:fohenagh-maree-ihc-semi-final-1953"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "cite_chip",
+    "val": "Connacht Sentinel · 20 Oct 1953 · p.3 · INA"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "article_upload",
+    "val": "art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CSL19531020.1.3"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:tommy-glynn-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "name",
+    "val": "T. Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "match",
+    "val": "match:fohenagh-maree-ihc-semi-final-1953"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "cite_chip",
+    "val": "Connacht Sentinel · 20 Oct 1953 · p.3 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "article_upload",
+    "val": "art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CSL19531020.1.3"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-maree-ihc-semi-final-1953",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "article_upload_2",
+    "val": "art-ina-ctt-1953-10-24-maree-fohenagh-ihc-semi-final"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "name",
+    "val": "Fohenagh v Cussaun (fixture) — North Board Junior Hurling Final"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "competition",
+    "val": "North Board Junior Hurling Final"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "year",
+    "val": 1942
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "published",
+    "val": "1942-03-07"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "opponent",
+    "val": "Cussaun"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "away",
+    "val": "club:cussane-historic"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "venue",
+    "val": "Menlough"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "scheduled",
+    "val": "Sunday 29 March 1942, 4 p.m."
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "referee",
+    "val": "Mr. T. Murphy, N.T."
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "note",
+    "val": "Fixture: Cussaun v Fohenagh, North Board junior final, Menlough, 29 March 1942."
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "cite",
+    "val": "Connacht Tribune · 7 Mar 1942 · p.10 · INA"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19420307.1.10"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "match",
+    "val": "match:fohenagh-cussane-north-board-junior-final-1942"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "name",
+    "val": "Fohenagh v Claregalway (fixture) — Galway Junior Hurling Championship semi-final (1941)"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "competition",
+    "val": "Galway Junior Hurling Championship semi-final (1941)"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "year",
+    "val": 1942
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "published",
+    "val": "1942-05-23"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "opponent",
+    "val": "Claregalway"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "away",
+    "val": "club:claregalway"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "venue",
+    "val": "Athenry"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "scheduled",
+    "val": "Sunday 24 May 1942, 4.30 p.m."
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "note",
+    "val": "Fixture: Fohenagh v Claregalway in the 1941 county junior semi-final at Athenry; the winners were to meet Eyrecourt in the final. (It ended in the row that got both teams suspended.)"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "cite",
+    "val": "Connacht Tribune · 23 May 1942 · p.10 · INA"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19420523.1.10"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "name",
+    "val": "Fohenagh v Aughrim Sarsfields (fixture) — North Board Junior Hurling Championship (1943)"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "competition",
+    "val": "North Board Junior Hurling Championship (1943)"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "year",
+    "val": 1943
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "published",
+    "val": "1943-06-12"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "opponent",
+    "val": "Aughrim Sarsfields"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "venue",
+    "val": "Kilconnell"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "scheduled",
+    "val": "Sunday 13 June 1943, 4 p.m."
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "referee",
+    "val": "[J.] Keegan, Ballinasloe"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "note",
+    "val": "Fixture: 'old rivals' Fohenagh and Aughrim Sarsfields meet at Kilconnell in the North junior championship."
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "cite",
+    "val": "Connacht Tribune · 12 Jun 1943 · p.14 · INA"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19430612.1.14"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "name",
+    "val": "Fohenagh v Cussaun (fixture) — North Board Junior Hurling Championship semi-final (1944)"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "competition",
+    "val": "North Board Junior Hurling Championship semi-final (1944)"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "year",
+    "val": 1944
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "published",
+    "val": "1944-04-22"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "opponent",
+    "val": "Cussaun"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "away",
+    "val": "club:cussane-historic"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "venue",
+    "val": "not printed"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "scheduled",
+    "val": "not printed"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "note",
+    "val": "Cussaun beat Killimoredaly by a point (10 points to 9) at Tiaquin and so qualified to meet Fohenagh in the North Board junior semi-final."
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "cite",
+    "val": "Tuam Herald · 22 Apr 1944 · p.2 · INA"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19440422.1.2"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "article_upload",
+    "val": "art-ina-tth-1944-04-22-cussaun-to-meet-fohenagh-semi"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "name",
+    "val": "Fohenagh v Ballygar (fixture) — North Galway Junior Hurling Championship (1944)"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "competition",
+    "val": "North Galway Junior Hurling Championship (1944)"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "year",
+    "val": 1944
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "published",
+    "val": "1944-04-29"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "opponent",
+    "val": "Ballygar"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "away",
+    "val": "club:ballygar"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "venue",
+    "val": "Mountbellew"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "scheduled",
+    "val": "Sunday 30 April 1944, 4.45 p.m."
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "referee",
+    "val": "Mr. J. [Rafter?]"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "note",
+    "val": "Fixture: Ballygar v Fohenagh in junior hurling at Mountbellew. (Ballygar later got a walk-over.)"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "cite",
+    "val": "Connacht Tribune · 29 Apr 1944 · p.10 · INA"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19440429.1.10"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "name",
+    "val": "Fohenagh v Ballymacward (fixture) — Junior Hurling Championship (1946)"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "competition",
+    "val": "Junior Hurling Championship (1946)"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "published",
+    "val": "1946-07-06"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "opponent",
+    "val": "Ballymacward"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "venue",
+    "val": "Kilconnell"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "scheduled",
+    "val": "Sunday 14 July 1946, 3.30 p.m."
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "note",
+    "val": "Fixture: Fohenagh v Ballymacward, junior hurling, Kilconnell, 14 July 1946."
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "cite",
+    "val": "Connacht Tribune · 6 Jul 1946 · p.9 · INA"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19460706.1.9"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "name",
+    "val": "Fohenagh v Caltra (fixture) — Schools League semi-final (1948) [sport not stated; printed in a camogie board report]"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "competition",
+    "val": "Schools League semi-final (1948) [sport not stated; printed in a camogie board report]"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "year",
+    "val": 1948
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "published",
+    "val": "1948-02-21"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "opponent",
+    "val": "Caltra"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "venue",
+    "val": "Caltra"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "scheduled",
+    "val": "Sunday 29 February 1948, 3 p.m."
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "referee",
+    "val": "Miss S. Ruane, Ballinasloe"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "note",
+    "val": "Fixture: Caltra v Fohenagh in a schools league semi-final at Caltra; final pencilled for Galway or Fohenagh against Oranmore. Schoolchildren: no names recorded."
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "cite",
+    "val": "Tuam Herald · 21 Feb 1948 · p.3 · INA"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19480221.1.3"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "article_upload",
+    "val": "art-ina-tth-1948-02-21-caltra-v-fohenagh-school-league-fixture"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "name",
+    "val": "Fohenagh v St. Michael's (fixture) — Kilconnell Tournament (1951)"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "competition",
+    "val": "Kilconnell Tournament (1951)"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "year",
+    "val": 1951
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "published",
+    "val": "1951-06-23"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "opponent",
+    "val": "St. Michael's"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "venue",
+    "val": "Kilconnell"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "scheduled",
+    "val": "29 June 1951, 4 p.m."
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "note",
+    "val": "Advert: Kilconnell Tournament final day and sale of work, 29 June 1951. Hurling draws: Killimordaly v Skehanagh 3 p.m.; St. Michael's v Fohenagh 4 p.m.; final 5.30."
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "cite",
+    "val": "Connacht Tribune · 23 Jun 1951 · p.19 · INA"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19510623.1.19"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "name",
+    "val": "Fohenagh v Gort (fixture) — Galway Intermediate Hurling Championship (1952)"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship (1952)"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "year",
+    "val": 1952
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "published",
+    "val": "1952-05-24"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "opponent",
+    "val": "Gort"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "away",
+    "val": "club:gort"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "venue",
+    "val": "Loughrea"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "scheduled",
+    "val": "Sunday 1 June 1952, 4.30 p.m."
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "referee",
+    "val": "T. Boyle"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "note",
+    "val": "Fixture: Gort v Fohenagh, intermediate hurling, Loughrea, 1 June 1952."
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "cite",
+    "val": "Connacht Tribune · 24 May 1952 · p.20 · INA"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19520524.1.20"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1952-05-24-gort-v-fohenagh-ihc-fixture"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "name",
+    "val": "Fohenagh v Killimor (fixture) — Galway Intermediate Hurling final [as printed] (1953)"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling final [as printed] (1953)"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "published",
+    "val": "1953-07-18"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "opponent",
+    "val": "Killimor"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "away",
+    "val": "club:killimor"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "venue",
+    "val": "Ballinasloe"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "scheduled",
+    "val": "Sunday 19 July 1953, 4.30 p.m."
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "note",
+    "val": "Preview: Fohenagh, fresh from a semi-final win over Mullagh and the Kilconnell cup, fancied their chances against Killimor at Ballinasloe. (Note: the September/October 1953 IHC quarter- and semi-finals suggest this 'final' was a separate divisional competition; flagged.)"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "cite",
+    "val": "Westmeath Independent · 18 Jul 1953 · p.3 · INA"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=WMI19530718.1.3"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "article_upload",
+    "val": "art-ina-wmi-1953-07-18-fohenagh-killimor-ihc-final-preview"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "name",
+    "val": "Fohenagh v Maree (fixture) — Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "competition",
+    "val": "Galway Intermediate Hurling Championship semi-final (1953)"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "year",
+    "val": 1953
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "published",
+    "val": "1953-10-17"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "opponent",
+    "val": "Maree"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "away",
+    "val": "club:maree-historic"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "venue",
+    "val": "Loughrea"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "scheduled",
+    "val": "Sunday 18 October 1953"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "note",
+    "val": "Preview of the Maree v Fohenagh semi-final at Loughrea, the game that ended in the 'travesty'."
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "cite",
+    "val": "Connacht Tribune · 17 Oct 1953 · p.22 · INA"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19531017.1.22"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1953-10-17-maree-v-fohenagh-semi-final-preview"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "match",
+    "val": "match:fohenagh-maree-ihc-semi-final-1953"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "name",
+    "val": "Fohenagh v Ballymacward (fixture) — Kilconnell Tournament (1954)"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "competition",
+    "val": "Kilconnell Tournament (1954)"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "year",
+    "val": 1954
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "published",
+    "val": "1954-06-26"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "opponent",
+    "val": "Ballymacward"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "venue",
+    "val": "Kilconnell"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "scheduled",
+    "val": "29 June 1954, 3.30"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "note",
+    "val": "Advert: Kilconnell tournament draws, 29 June 1954, including Ballymacward v Fohenagh at 3.30."
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "cite",
+    "val": "Connacht Tribune · 26 Jun 1954 · p.12 · INA"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19540626.1.12"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "name",
+    "val": "Fohenagh v Kilconnell (fixture) — Kilconnell Annual Tournament semi-final (1955)"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "competition",
+    "val": "Kilconnell Annual Tournament semi-final (1955)"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "year",
+    "val": 1955
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "published",
+    "val": "1955-08-13"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "opponent",
+    "val": "Kilconnell"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "venue",
+    "val": "Kilconnell"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "scheduled",
+    "val": "Monday 15 August 1955, 3.30 p.m."
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "note",
+    "val": "Advert: tournament semi-finals and final on 15 August 1955: Tynagh v Ballymacward 2.30; Fohenagh v Kilconnell 3.30."
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "cite",
+    "val": "Connacht Tribune · 13 Aug 1955 · p.26 · INA"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19550813.1.26"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "name",
+    "val": "Fohenagh v Kiltulla (fixture) — Tournament (1955) [Bullaun; per clipping file name]"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "competition",
+    "val": "Tournament (1955) [Bullaun; per clipping file name]"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "year",
+    "val": 1955
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "published",
+    "val": "1955-10-08"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "opponent",
+    "val": "Kiltulla"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "venue",
+    "val": "not legible"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "scheduled",
+    "val": "3 p.m. S.T."
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "note",
+    "val": "Advert: tournament draws including Fohenagh v Kiltulla at 3 p.m.; winners get seven wrist watches, runners-up seven hurleys."
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "cite",
+    "val": "Connacht Tribune · 8 Oct 1955 · p.12 · INA"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19551008.1.12"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "name",
+    "val": "Fohenagh vs Ballinasloe — Camogie (County Championship tie, 1946) [not stated]"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "competition",
+    "val": "Camogie (County Championship tie, 1946) [not stated]"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "date",
+    "val": "1946-10-13"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "opponent",
+    "val": "Ballinasloe"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "venue",
+    "val": "Duggan Park, Ballinasloe"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "note",
+    "val": "A 'runaway victory' for the Fohenagh camogie team over Ballinasloe at Duggan Park. No surprise, said the paper: three of the team had just played for Galway against Antrim in Belfast. No score printed."
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "cite",
+    "val": "Connacht Tribune · 19 Oct 1946 · p.6 · INA"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461019.1.6"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-10-19-fohenagh-ballinasloe-camogie"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-1946-ina",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "name",
+    "val": "Fohenagh vs Caltra — Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "date",
+    "val": "1946-10-27"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "opponent",
+    "val": "Caltra"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "venue",
+    "val": "Caltra"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "note",
+    "val": "A thriller at Caltra decided by one late goal. Fohenagh's 'vigorous tactics' rattled the holders, M. Barrett was a sterling full-back, but Caltra's M. A. Geraghty found the net near the end: Caltra 1-0, Fohenagh nil."
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "cite",
+    "val": "Connacht Tribune · 2 Nov 1946 · p.15 · INA"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "score",
+    "val": "Caltra 1-0, Fohenagh nil"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "player",
+    "val": "player:m-barrett-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "name",
+    "val": "M. Barrett"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "match",
+    "val": "match:fohenagh-caltra-camogie-semi-final-1946"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 2 Nov 1946 · p.15 · INA"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "player",
+    "val": "player:a-glynn-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "name",
+    "val": "A. Glynn"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "match",
+    "val": "match:fohenagh-caltra-camogie-semi-final-1946"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 2 Nov 1946 · p.15 · INA"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "player",
+    "val": "player:a-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "name",
+    "val": "A. Madden"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "match",
+    "val": "match:fohenagh-caltra-camogie-semi-final-1946"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 2 Nov 1946 · p.15 · INA"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "player",
+    "val": "player:rita-clinton-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "name",
+    "val": "R. Clinton"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "match",
+    "val": "match:fohenagh-caltra-camogie-semi-final-1946"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 2 Nov 1946 · p.15 · INA"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "player",
+    "val": "player:m-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "name",
+    "val": "M. Madden"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "match",
+    "val": "match:fohenagh-caltra-camogie-semi-final-1946"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 2 Nov 1946 · p.15 · INA"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "player",
+    "val": "player:p-hopkins-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "name",
+    "val": "P. Hopkins"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "match",
+    "val": "match:fohenagh-caltra-camogie-semi-final-1946"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1946)"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "year",
+    "val": 1946
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 2 Nov 1946 · p.15 · INA"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-caltra-camogie-semi-final-1946",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "article_upload_2",
+    "val": "art-ina-tth-1946-11-02-caltra-beat-fohenagh-camogie"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "name",
+    "val": "Fohenagh v Ballinasloe Mental Hospital (fixture) — Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "published",
+    "val": "1947-08-09"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "opponent",
+    "val": "Ballinasloe Mental Hospital"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "venue",
+    "val": "Ballinasloe"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "scheduled",
+    "val": "Sunday 17 August 1947, 4 p.m."
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "referee",
+    "val": "Miss C. Mulholland"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "note",
+    "val": "Fixture: camogie semi-final at Ballinasloe on 17 August 1947; the winners to meet Erin's Hope in the county final."
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "cite",
+    "val": "Tuam Herald · 9 Aug 1947 · p.2 · INA"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19470809.1.2"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "article_upload",
+    "val": "art-ina-tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "Fohenagh vs Ballinasloe Mental Hospital — Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "date",
+    "val": "1947-08-24"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "opponent",
+    "val": "Ballinasloe Mental Hospital"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "venue",
+    "val": "Ballinasloe"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "note",
+    "val": "Snippet only (page PDF failed): half-time Fohenagh 2-2, Ballinasloe 1-1; K. Clinton shot wide from a 25."
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite",
+    "val": "Connacht Sentinel · 26 Aug 1947 · p.3 · INA"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CSL19470826.1.3"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-csl-1947-08-26-fohenagh-qualify-camogie-snippet"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload_2",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "score",
+    "val": "Fohenagh 2-3, Ballinasloe Mental Hospital 2-2"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:p-clinton-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "P. Clinton"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:p-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:l-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "L. Madden"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:m-barrett-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "M. Barrett"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:a-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "A. Madden"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:m-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "M. Madden"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:p-hopkins-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "P. Hopkins"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:rita-clinton-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "R. Clinton"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:j-glynn-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "J. Glynn"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:a-glynn-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "A. Glynn"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:m-farrell-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "M. Farrell"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:m-glynn-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "M. Glynn"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "player",
+    "val": "player:k-naughton-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "name",
+    "val": "K. Naughton"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship semi-final (1947)"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "cite_chip",
+    "val": "Connacht Tribune · 30 Aug 1947 · p.19 · INA"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "name",
+    "val": "Fohenagh v Erin's Hope (fixture) — Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "published",
+    "val": "1947-11-08"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "opponent",
+    "val": "Erin's Hope"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "venue",
+    "val": "College Park (U.C.G.), Galway"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "scheduled",
+    "val": "Sunday 16 November 1947, 3 p.m."
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "note",
+    "val": "Fixture: county senior camogie final at College Park, Galway, 16 November 1947; Hopes beat Oranmore and Maree to get there, Fohenagh beat Caltra and Ballinasloe."
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "cite",
+    "val": "Tuam Herald · 8 Nov 1947 · p.2 · INA"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19471108.1.2"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "article_upload",
+    "val": "art-ina-tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "type",
+    "val": "fixture"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "name",
+    "val": "Fohenagh v Erin's Hope (fixture) — Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "published",
+    "val": "1947-11-15"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "opponent",
+    "val": "Erin's Hope"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "venue",
+    "val": "U.C.G. Park, Galway"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "scheduled",
+    "val": "Sunday 16 November 1947, 3 p.m."
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "referee",
+    "val": "Mrs. [...] Casley (partly legible)"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "note",
+    "val": "Preview of Fohenagh's first ever county camogie final, naming the expected side, with Rita Clinton the centre-field star."
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "cite",
+    "val": "Connacht Tribune · 15 Nov 1947 · p.20 · INA"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19471115.1.20"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "article_upload",
+    "val": "art-ina-ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "Fohenagh vs Erin's Hope — Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "date",
+    "val": "1947-11-16"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "opponent",
+    "val": "Erin's Hope"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "venue",
+    "val": "Galway"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "note",
+    "val": "County champions at the first attempt! Rita Clinton scored 2-1 as Fohenagh beat Erin's Hopes 3-1 to 3-0 in the Galway senior camogie final. The best story in the batch."
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite",
+    "val": "Irish Press · 17 Nov 1947 · p.9 · INA"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=IPR19471117.1.9"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "score",
+    "val": "Fohenagh 3-1, Erin's Hopes 3-0"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:rita-clinton-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "R. Clinton"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "Irish Press · 17 Nov 1947 · p.9 · INA"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "article_upload",
+    "val": "art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=IPR19471117.1.9"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-maree-ihc-semi-final-1953",
+    "col": "board_article_upload_1",
+    "val": "art-ina-ctt-1953-11-28-fohenagh-lose-appeal-maree"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "name",
+    "val": "T. Clinton"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "note",
+    "val": "Named as T. Clinton for Fohenagh (Connacht Tribune · 3 Oct 1953 · p.22 · INA)."
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "player:t-clinton-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "name",
+    "val": "J. Fitzgerald"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "note",
+    "val": "Named as J. Fitzgerald for Fohenagh (Connacht Tribune · 3 Oct 1953 · p.22 · INA)."
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "player:j-fitzgerald-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "name",
+    "val": "C. Kelly"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "note",
+    "val": "Named as C. Kelly for Fohenagh (Connacht Tribune · 3 Oct 1953 · p.22 · INA)."
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "name",
+    "val": "M. Dooley"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "note",
+    "val": "Named as M. Dooley for Fohenagh (Connacht Tribune · 3 Oct 1953 · p.22 · INA)."
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "player:m-dooley-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "name",
+    "val": "Maureen Madden"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as Maureen Madden for Fohenagh (Westmeath Independent · 18 Jul 1953 · p.3 · INA)."
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-wmi-1953-07-18-fohenagh-killimor-ihc-final-preview"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "name",
+    "val": "M. Barrett"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as M. Barrett for Fohenagh (Connacht Tribune · 2 Nov 1946 · p.15 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "name",
+    "val": "A. Glynn"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as A. Glynn for Fohenagh (Connacht Tribune · 2 Nov 1946 · p.15 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "name",
+    "val": "A. Madden"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as A. Madden for Fohenagh (Connacht Tribune · 2 Nov 1946 · p.15 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "name",
+    "val": "Rita Clinton"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as R. Clinton for Fohenagh (Connacht Tribune · 2 Nov 1946 · p.15 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "name",
+    "val": "M. Madden"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as M. Madden for Fohenagh (Connacht Tribune · 2 Nov 1946 · p.15 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "name",
+    "val": "P. Hopkins"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as P. Hopkins for Fohenagh (Connacht Tribune · 2 Nov 1946 · p.15 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "name",
+    "val": "P. Clinton"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as P. Clinton for Fohenagh (Connacht Tribune · 30 Aug 1947 · p.19 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "player:p-clinton-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "name",
+    "val": "L. Madden"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as L. Madden for Fohenagh (Connacht Tribune · 30 Aug 1947 · p.19 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "name",
+    "val": "J. Glynn"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as J. Glynn for Fohenagh (Connacht Tribune · 30 Aug 1947 · p.19 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "name",
+    "val": "M. Farrell"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as M. Farrell for Fohenagh (Connacht Tribune · 30 Aug 1947 · p.19 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "name",
+    "val": "M. Glynn"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as M. Glynn for Fohenagh (Connacht Tribune · 30 Aug 1947 · p.19 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "name",
+    "val": "K. Naughton"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as K. Naughton for Fohenagh (Connacht Tribune · 30 Aug 1947 · p.19 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "name",
+    "val": "B. Clinton"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "note",
+    "val": "Named as B. Clinton for Fohenagh (Connacht Tribune · 15 Nov 1947 · p.20 · INA). Camogie player; tagged for the camogie lane."
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "name",
+    "val": "T. Gill"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "note",
+    "val": "Named as T. Gill for Fohenagh (Connacht Tribune · 13 Jun 1942 · p.11 · INA)."
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1942-06-13-claregalway-fohenagh-suspended-1941-jhc-semi"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
   }
 ]
