@@ -730,12 +730,6 @@ export function FohenaghClubHistory() {
     <div className="space-y-10">
       <div className="max-w-3xl space-y-4 text-base leading-relaxed text-galway-ink/85">
         <p>
-          Fohenagh is Fothannán, the village of the thistles, a parish club in east Galway with the
-          usual deep roots. People lined out in the parish colours for more than a century, mostly
-          on ordinary Sundays, mostly against the clubs next door. The record is fixtures,
-          objections, a cup now and then, and a good deal of cycling.
-        </p>
-        <p>
           The papers catch the club in the 1880s and 1890s. There was a tournament at Lowville in
           the rain, a social at Kilconnell, and a day at Gurteen in 1890 when Tim Glynn’s team and
           Gurteen played fifty minutes and neither side scored. In 1907 the parish priest wrote

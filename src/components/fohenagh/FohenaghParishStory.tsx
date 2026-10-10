@@ -14,11 +14,7 @@ export function FohenaghParishStory() {
       </div>
 
       <div className="space-y-3">
-        <h3 className="text-xl font-black text-galway-ink">Fothannán</h3>
-        <p className="text-base leading-relaxed text-galway-ink/85">
-          Fohenagh is Fothannán, the village of the thistles. The name is also written feochadán.
-          From A History of Fohenagh by Tony O&apos;Gorman, pages 17 and 158.
-        </p>
+        <h3 className="text-xl font-black text-galway-ink">Fohenagh</h3>
       </div>
 
       <FohenaghClubHistory />
