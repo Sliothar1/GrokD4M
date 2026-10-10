@@ -96,7 +96,6 @@ function FohenaghPosterRoster({
   return (
     <section className="fohenagh-roster space-y-8" aria-labelledby="fohenagh-jersey-roster">
       <div className="max-w-2xl space-y-3">
-        <p className="fohenagh-kicker">Who wore it</p>
         <h2 id="fohenagh-jersey-roster" className="fohenagh-display">
           The players
         </h2>

@@ -87,7 +87,7 @@ export const PARISH_STORIES: ParishStory[] = [
         cite: 2,
       },
       {
-        text: "The referee's report says the game began as hard hurling, spectators came onto the pitch, some Fohenagh players were hurt, and the match was called off.",
+        text: "The referee's report says the game began as hard hurling, spectators came onto the pitch, and the match was called off.",
         cite: 3,
       },
       {

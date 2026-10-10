@@ -18,7 +18,7 @@ import type { EntitySummary } from "@/lib/data";
 import type { LinkedCuttingSource } from "@/lib/sources";
 import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 import { SHOW_INA_MEDIA } from "@/lib/ina-media";
-import { publicCuttingLabel } from "@/lib/publicText";
+import { publicCuttingLabel, sanitizePublicText } from "@/lib/publicText";
 
 const execFileAsync = promisify(execFile);
 
@@ -1123,10 +1123,12 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
             : `Article photo (${a.year || "undated"})`)
   );
   const cite = publicCuttingLabel(a.citeChip || makeCiteChip(a.year) || "");
-  const excerpt = publicCuttingLabel(
-    a.excerpt ||
-      makeExcerpt([a.caption, a.fetchedTitle]) ||
-      "Newspaper / article cutting"
+  const excerpt = sanitizePublicText(
+    publicCuttingLabel(
+      a.excerpt ||
+        makeExcerpt([a.caption, a.fetchedTitle]) ||
+        "Newspaper / article cutting"
+    )
   );
   const subtitle = cite || undefined;
   const media = articleMediaUrl(a);

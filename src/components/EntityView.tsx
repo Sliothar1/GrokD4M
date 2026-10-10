@@ -82,7 +82,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               <p className="fohenagh-kicker">The jersey</p>
               <h1 className="fohenagh-display">{summary.title}</h1>
               {summary.subtitle ? (
-                <p className="text-sm font-semibold tracking-wide text-galway-ink/60">
+                <p className="text-sm font-semibold tracking-wide text-white/85">
                   {summary.subtitle}
                 </p>
               ) : null}
@@ -262,9 +262,10 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           return true;
         });
         const showCuttings =
-          cuttings.length > 0 ||
-          summary.kind === "player" ||
-          summary.kind === "club";
+          !isHistoricFohenagh &&
+          (cuttings.length > 0 ||
+            summary.kind === "player" ||
+            summary.kind === "club");
         return (
           <>
             {showCuttings && (

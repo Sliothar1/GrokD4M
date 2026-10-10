@@ -118,14 +118,21 @@ export function PlayerProfileView({
 
       {profile.snippets.length > 0 ? (
         <div className="grid max-w-3xl gap-4 sm:grid-cols-2">
-          {profile.snippets.map((snippet) => (
-            <figure key={snippet.src} className="space-y-2">
-              <ZoomableImage
-                src={snippet.src}
-                alt={snippet.alt}
-                credit={snippet.credit}
-                creditUrl={snippet.creditUrl}
-              />
+          {profile.snippets.map((snippet, index) => (
+            <figure key={snippet.src ?? snippet.quote ?? index} className="space-y-2">
+              {snippet.src ? (
+                <ZoomableImage
+                  src={snippet.src}
+                  alt={snippet.alt}
+                  credit={snippet.credit}
+                  creditUrl={snippet.creditUrl}
+                />
+              ) : null}
+              {snippet.quote ? (
+                <blockquote className="border-l-4 border-galway-maroon pl-3 text-base leading-relaxed text-galway-ink">
+                  “{snippet.quote.replace(/[.!?]+$/, "")}.”
+                </blockquote>
+              ) : null}
               <figcaption className="text-sm text-[color:var(--text-muted)]">{snippet.credit}</figcaption>
             </figure>
           ))}

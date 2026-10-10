@@ -339,7 +339,7 @@ async function main() {
   }
 
   const ids = A.entitiesOfType("player");
-  assert.equal(uniquePlayerRedirect("alan-moclair", ids), "alan-moclair-ahascragh-fohenagh");
+  assert.equal(uniquePlayerRedirect("alan-moclair", ids), "alan-moclair-fohenagh");
   assert.equal(uniquePlayerRedirect("tim-sweeney", ids), "tim-sweeney-fohenagh");
   assert.equal(uniquePlayerRedirect("jimmy-devine", ids), "jimmy-devine-fohenagh");
   assert.equal(uniquePlayerRedirect("brendan-noone", ids), "brendan-noone-fohenagh");

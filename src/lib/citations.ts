@@ -11,7 +11,7 @@ export type CiteRef = {
 
 const ABBREVIATIONS = new Set([
   "co", "st", "mr", "mrs", "ms", "dr", "prof", "jr", "sr", "no", "vs",
-  "capt", "dept", "fig", "jan", "feb", "mar", "apr", "jun", "jul", "aug",
+  "capt", "fr", "rev", "dept", "fig", "jan", "feb", "mar", "apr", "jun", "jul", "aug",
   "sep", "sept", "oct", "nov", "dec", "p", "pp", "vol", "al", "gen",
 ]);
 
@@ -151,20 +151,34 @@ export function markCitations(
     const noted = parentheticals(sentence).find(isSourceNote);
     const bookish = /\bthe book\b|a history of fohenagh/i.test(sentence);
     if (noted || bookish) {
-      const title = noted || "A History of Fohenagh (Tony O'Gorman)";
-      const already = used.find((item) => item.title.toLowerCase() === title.toLowerCase());
-      previous = numberFor(already ?? { title, href: "" });
-      const ref = used[previous - 1];
-      if (!ref.href) ref.href = `#ref-${previous}`;
-      return withMarker(sentence, previous);
+      const title = (noted || "A History of Fohenagh (Tony O'Gorman)").toLowerCase();
+      const real =
+        candidates.find((item) => clickable(item) && sharesTitle(item, title)) ??
+        candidates.find((item) => clickable(item) && scoreCandidate(sentence, item) > 0) ??
+        (bookish
+          ? candidates.find(
+              (item) => clickable(item) && /history of fohenagh|o'gorman|ogorman/i.test(item.title)
+            )
+          : undefined) ??
+        candidates.find((item) => clickable(item));
+      if (real) {
+        previous = numberFor(real);
+        return withMarker(sentence, previous);
+      }
     }
-    if (previous > 0) return withMarker(sentence, previous);
+    if (previous > 0 && clickable(used[previous - 1])) return withMarker(sentence, previous);
     return sentence;
   });
 
-  used.forEach((ref, index) => {
-    if (!ref.href) ref.href = `#ref-${index + 1}`;
-  });
+  return { text: marked.join(" "), references: used.filter((ref) => clickable(ref)) };
+}
 
-  return { text: marked.join(" "), references: used };
+function clickable(ref: CiteRef | undefined): ref is CiteRef {
+  return Boolean(ref && (/^\//.test(ref.href) || /^https?:\/\//i.test(ref.href)));
+}
+
+function sharesTitle(ref: CiteRef, title: string): boolean {
+  const hay = ref.title.toLowerCase();
+  const head = title.slice(0, 18);
+  return hay.includes(head) || title.includes(hay.slice(0, 18));
 }

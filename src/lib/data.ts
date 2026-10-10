@@ -8,6 +8,7 @@ import {
 } from "@/lib/d4m/AssocArray";
 import seed from "../../data/seed.json";
 import panzerMatches from "../../data/panzer-matches.json";
+import { mergePlayerAttrRecords } from "@/lib/playerMerge";
 import {
   allDerivedUploadTriples,
   articleToSummary,
@@ -787,12 +788,16 @@ export async function getEntity(id: string): Promise<{
   if (sameAs) {
     const canonical = A.entityAttrs(sameAs);
     if (Object.keys(canonical).length > 0) {
-      const overlay: Record<string, TripleVal> = { ...canonical };
-      for (const col of CITE_OVERLAY_COLS) {
-        if (overlay[col] == null && attrs[col] != null) overlay[col] = attrs[col];
+      if (id.startsWith("player:") || sameAs.startsWith("player:")) {
+        attrs = mergePlayerAttrRecords(canonical, attrs);
+      } else {
+        const overlay: Record<string, TripleVal> = { ...canonical };
+        for (const col of CITE_OVERLAY_COLS) {
+          if (overlay[col] == null && attrs[col] != null) overlay[col] = attrs[col];
+        }
+        // Alias must never supply a score onto the canonical match.
+        attrs = overlay;
       }
-      // Alias must never supply a score onto the canonical match.
-      attrs = overlay;
       canonicalId = sameAs;
     }
   }

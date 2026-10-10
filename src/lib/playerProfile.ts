@@ -7,10 +7,13 @@ import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 import { readArticleUploads } from "@/lib/articles";
 import { collectClubIdsFromAttrs } from "@/lib/playerClubs";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
-import { markCitations } from "@/lib/citations";
+import { markCitations, splitCiteSentences } from "@/lib/citations";
+import { mergePlayerAttrRecords } from "@/lib/playerMerge";
+import { aliasPlayerIds } from "@/lib/playerSlug";
 import {
   composePlayerVignette,
   firstBannedPublicHit,
+  firstPublicSentence,
   sanitizePublicText,
   shapePublicLead,
   shortenPublicText,
@@ -64,10 +67,11 @@ export type PublicAlsoPlayed = {
 };
 
 export type PublicSnippet = {
-  src: string;
+  src?: string;
   alt: string;
   credit: string;
   creditUrl?: string;
+  quote?: string;
 };
 
 export type PublicReference = {
@@ -127,6 +131,7 @@ type ArticleCredit = {
   /** Paper, date, and page. Used to match a sentence to this clipping. */
   cite?: string;
   excerpt?: string;
+  sourceUrl?: string;
   bookMedia?: boolean;
 };
 
@@ -137,6 +142,7 @@ export type ProfileContext = {
   playerName: Map<string, string>;
   nameIndex: Map<string, string[]>;
   articles: Map<string, ArticleCredit>;
+  articlesByDay: Map<string, ArticleCredit[]>;
 };
 
 const contextCache = new Map<string, Promise<ProfileContext>>();
@@ -547,14 +553,69 @@ function explicitGrades(attrs: Record<string, TripleVal>): string | null {
   return null;
 }
 
+const MONTHS: Record<string, string> = {
+  jan: "01",
+  feb: "02",
+  mar: "03",
+  apr: "04",
+  may: "05",
+  jun: "06",
+  jul: "07",
+  aug: "08",
+  sep: "09",
+  sept: "09",
+  oct: "10",
+  nov: "11",
+  dec: "12",
+};
+
+function isoDay(text: string): string | null {
+  const match = text.match(
+    /\b(\d{1,2})\s+(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\s+((?:18|19|20)\d{2})\b/i
+  );
+  if (!match) return null;
+  const month = MONTHS[match[2].toLowerCase()];
+  if (!month) return null;
+  return `${match[3]}-${month}-${match[1].padStart(2, "0")}`;
+}
+
+function httpHref(raw: string): string | null {
+  const match = raw.match(/https?:\/\/[^\s)"']+/i);
+  if (!match) return null;
+  return match[0].replace(/[.,;]+$/, "");
+}
+
+function clickableHref(href: string): boolean {
+  return href.startsWith("/") || /^https?:\/\//i.test(href);
+}
+
+function mineYears(attrs: Record<string, TripleVal>): number[] {
+  const blob = Object.entries(attrs)
+    .filter(([key]) => /note|cite|book|source|cutting|era|debut|name/i.test(key))
+    .map(([, val]) => String(val ?? ""))
+    .join("\n");
+  const years = allYears(blob);
+  for (const match of blob.matchAll(/\b(?:CTT|TTH|CSL|GLC|INA)((?:19|20)\d{2})\d{4}\b/gi)) {
+    years.push(Number(match[1]));
+  }
+  return years.filter((year) => year >= 1880 && year <= 2035);
+}
+
 export function profileForPlayer(
   ctx: ProfileContext,
   id: string,
-  attrs: Record<string, TripleVal>
+  passed: Record<string, TripleVal>
 ): PublicPlayerProfile {
   const slug = id.startsWith("player:") ? id.slice("player:".length) : id;
+  let attrs = { ...passed };
+  for (const aliasId of aliasPlayerIds(slug)) {
+    attrs = mergePlayerAttrRecords(attrs, ctx.A.entityAttrs(aliasId));
+  }
   const name = sanitizePublicText(String(attrs.name ?? slug)) || slug;
-  const apps = ctx.appearancesByPlayer.get(id) ?? [];
+  const apps = [
+    ...(ctx.appearancesByPlayer.get(id) ?? []),
+    ...aliasPlayerIds(slug).flatMap((aliasId) => ctx.appearancesByPlayer.get(aliasId) ?? []),
+  ];
   const clubRaw = isDisplayableVal(attrs.club)
     ? String(attrs.club)
     : apps.find((app) => app.clubId)?.clubId;
@@ -587,8 +648,14 @@ export function profileForPlayer(
     const cited = yearOf(attrs.cutting_cite);
     if (cited) years.push(cited);
   }
-  const earliest = earliestFohenaghYear(attrs, apps);
-  const eraBit = earliest ? decadeOf(earliest) : eraRaw || decadeSpan(years);
+  const earliestOwn = earliestFohenaghYear(passed, ctx.appearancesByPlayer.get(id) ?? []);
+  const earliest = earliestOwn ?? earliestFohenaghYear(attrs, apps);
+  let eraBit = earliest ? decadeOf(earliest) : decadeSpan(years) || null;
+  if (!eraBit || !/\b(?:18|19|20)\d{2}s\b/.test(eraBit)) {
+    const mined = mineYears(attrs);
+    if (mined.length > 0) eraBit = decadeOf(Math.min(...mined));
+    else if (eraRaw && /\b(?:18|19|20)\d{2}s\b/.test(eraRaw)) eraBit = eraRaw;
+  }
   const eraParts = [
     sportLabel(sportOf(attrs, apps)),
     gradeLabel(gradesRaw),
@@ -625,6 +692,24 @@ export function profileForPlayer(
     if (!key.startsWith("cutting:")) continue;
     const cuttingId = key.slice("cutting:".length);
     if (cuttingId && ctx.articles.has(cuttingId)) creditIds.add(cuttingId);
+  }
+  for (const val of Object.values(attrs)) {
+    const articleId = articleIdOf(val);
+    if (articleId && ctx.articles.has(articleId)) creditIds.add(articleId);
+  }
+  const citeDay = isoDay(String(attrs.cutting_cite ?? attrs.cite ?? ""));
+  if (citeDay) {
+    const paper = String(attrs.cutting_cite ?? "");
+    for (const art of ctx.articlesByDay.get(citeDay) ?? []) {
+      const hay = `${art.cite ?? ""} ${art.id}`.toLowerCase();
+      const wantsTribune = /tribune/i.test(paper);
+      const wantsHerald = /herald/i.test(paper);
+      const wantsSentinel = /sentinel/i.test(paper);
+      if (wantsTribune && !/tribune/.test(hay)) continue;
+      if (wantsHerald && !/herald/.test(hay)) continue;
+      if (wantsSentinel && !/sentinel/.test(hay)) continue;
+      creditIds.add(art.id);
+    }
   }
   const credits: ArticleCredit[] = [...creditIds]
     .map((articleId) => ctx.articles.get(articleId))
@@ -679,6 +764,30 @@ export function profileForPlayer(
     summary = null;
   }
   if (!summary) summary = citedFallbackLead(attrs, games);
+  if (summary && splitCiteSentences(summary).length < 2) {
+    const extra: string[] = [summary];
+    const already = summary.toLowerCase();
+    if (isDisplayableVal(attrs.book_cite) && !/history of fohenagh/i.test(already)) {
+      const page = String(attrs.book_cite).match(/\bp\.?\s*[\d,–-]+/i)?.[0]?.replace(/\s+/g, "");
+      extra.push(
+        page
+          ? `Named in A History of Fohenagh (Tony O'Gorman, ${page}).`
+          : "Named in A History of Fohenagh (Tony O'Gorman)."
+      );
+    }
+    if (isDisplayableVal(attrs.cutting_cite)) {
+      const cite = shortenPublicText(String(attrs.cutting_cite), 1);
+      const head = cite.slice(0, 28).toLowerCase();
+      if (cite && head && !already.includes(head)) extra.push(cite.endsWith(".") ? cite : `${cite}.`);
+    }
+    if (games[0]?.label && !already.includes(games[0].label.toLowerCase().slice(0, 24))) {
+      extra.push(`Named in ${games[0].label}.`);
+    }
+    if (extra.length > 1) {
+      const padded = composePlayerVignette(extra);
+      if (padded) summary = padded;
+    }
+  }
   if (!summary && editorish) {
     summary = editorSummary(
       name,
@@ -790,23 +899,57 @@ export function profileForPlayer(
     if (firstBannedPublicHit(creditText)) continue;
     const alt = sanitizePublicText(art.caption ?? "") || "Clipping";
     if (firstBannedPublicHit(alt)) continue;
+    const quote = firstPublicSentence(art.excerpt ?? "");
     snippets.push({
       src: art.image!,
       alt,
       credit: creditText,
       creditUrl: art.creditUrl,
+      ...(quote ? { quote } : {}),
     });
+  }
+  if (snippets.length < 2) {
+    for (const articleId of creditIds) {
+      if (snippets.length >= 2) break;
+      const art = ctx.articles.get(articleId);
+      if (!art?.excerpt) continue;
+      if (snippets.some((item) => item.quote && art.excerpt && item.quote.length > 0 && art.excerpt.includes(item.quote.slice(0, 40)))) {
+        continue;
+      }
+      const quote = firstPublicSentence(art.excerpt);
+      if (!quote || quote.length < 40) continue;
+      const creditText = sanitizePublicText(art.cite ?? art.credit ?? "") || "The cutting";
+      if (firstBannedPublicHit(creditText)) continue;
+      snippets.push({ alt: creditText, credit: creditText, creditUrl: art.creditUrl, quote });
+    }
   }
 
   let citedSummary = summary;
   let citedRefs = references;
   if (summary) {
     const candidates = [...references];
+    const seenHref = new Set(candidates.map((item) => item.href));
+    const addCandidate = (title: string, href: string) => {
+      if (!clickableHref(href) || seenHref.has(href)) return;
+      const clean = sanitizePublicText(title) || title.trim();
+      if (!clean || firstBannedPublicHit(clean)) return;
+      seenHref.add(href);
+      candidates.push({ title: clean, href });
+    };
+    for (const articleId of creditIds) {
+      const art = ctx.articles.get(articleId);
+      if (!art) continue;
+      addCandidate(art.cite || art.caption || art.credit || "The cutting", `/article/${articleId}`);
+      if (art.sourceUrl) addCandidate(art.cite || "Irish Newspaper Archives", art.sourceUrl);
+    }
     for (const value of Object.values(attrs)) {
       const raw = String(value ?? "");
-      if (/^https?:\/\/\S*wikipedia\.org\//i.test(raw)) {
-        candidates.push({ title: "Wikipedia", href: raw });
-      }
+      const href = httpHref(raw);
+      if (!href) continue;
+      const title = /wikipedia\.org/i.test(href)
+        ? "Wikipedia"
+        : String(attrs.cutting_cite ?? attrs.book_cite ?? attrs.cite ?? "Source");
+      addCandidate(title, href);
     }
     const marked = markCitations(summary, candidates);
     citedSummary = marked.text;
@@ -925,9 +1068,10 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
   }
 
   const articles = new Map<string, ArticleCredit>();
+  const articlesByDay = new Map<string, ArticleCredit[]>();
   for (const upload of await readArticleUploads()) {
     if (upload.inaMedia && !showInaMedia) continue;
-    articles.set(upload.id, {
+    const credit: ArticleCredit = {
       id: upload.id,
       credit: upload.credit,
       creditUrl: upload.creditUrl,
@@ -936,11 +1080,19 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
       caption: upload.caption,
       cite: upload.citeChip,
       excerpt: upload.excerpt,
+      sourceUrl: upload.sourceUrl,
       bookMedia: upload.bookMedia === true,
-    });
+    };
+    articles.set(upload.id, credit);
+    const day = upload.id.match(/((?:18|19|20)\d{2}-\d{2}-\d{2})/);
+    if (day) {
+      const list = articlesByDay.get(day[1]) ?? [];
+      list.push(credit);
+      articlesByDay.set(day[1], list);
+    }
   }
 
-  return { A, appearancesByPlayer, byMatch, playerName, nameIndex, articles };
+  return { A, appearancesByPlayer, byMatch, playerName, nameIndex, articles, articlesByDay };
 }
 
 export async function loadPlayerProfile(

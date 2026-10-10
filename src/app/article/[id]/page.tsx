@@ -11,7 +11,7 @@ import {
   getArticleUpload,
 } from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
-import { publicCuttingLabel } from "@/lib/publicText";
+import { publicCuttingLabel, sanitizePublicText } from "@/lib/publicText";
 
 export const dynamic = "force-dynamic";
 
@@ -122,7 +122,9 @@ export default async function ArticlePage({
       {a.excerpt && (
         <section className="space-y-2 rounded-2xl border-2 border-galway-maroon/15 bg-white p-4">
           <h2 className="text-xl font-bold text-galway-maroon">Excerpt</h2>
-          <p className="text-base text-galway-ink/85">{publicCuttingLabel(a.excerpt)}</p>
+          <p className="text-base text-galway-ink/85">
+            {sanitizePublicText(publicCuttingLabel(a.excerpt))}
+          </p>
           <p className="text-sm text-galway-ink/55">
             Full OCR / page text stays private. Public cards show only this
             excerpt, the cite chip, and linked clubs — never invented scores.

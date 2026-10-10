@@ -18,7 +18,7 @@ const decades = ["1930s", "1940s", "1950s", "1960s", "1970s", "1980s", "1990s", 
 
 export function SiteHeader() {
   return (
-    <header className="border-b-4 border-galway-gold bg-galway-maroon text-white">
+    <header className="border-b-4 border-galway-gold bg-galway-maroon-dark text-white">
       <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-4 py-4">
         <Link href="/" className="group">
           <span className="block text-2xl font-black tracking-tight sm:text-3xl">

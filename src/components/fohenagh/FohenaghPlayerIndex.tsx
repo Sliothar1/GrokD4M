@@ -42,7 +42,6 @@ export function FohenaghPlayerIndex({ rows }: { rows: IndexRow[] }) {
   return (
     <section className="space-y-6" aria-labelledby="fohenagh-players">
       <div className="max-w-2xl space-y-3">
-        <p className="fohenagh-kicker">Who wore it</p>
         <h2 id="fohenagh-players" className="text-3xl font-black tracking-tight text-galway-ink">
           The players
         </h2>

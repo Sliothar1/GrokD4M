@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   },
   description:
     "Hurling knowledge site showing how MIT's D4M associative arrays hold sports facts as sparse triples.",
+  other: {
+    "x-commit-sha": process.env.VERCEL_GIT_COMMIT_SHA ?? "",
+  },
 };
 
 export default function RootLayout({

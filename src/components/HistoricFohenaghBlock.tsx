@@ -281,6 +281,28 @@ const FOHENAGH_NOTABLE_GAMES: NotableGame[] = [
     venue: "Kiltormer",
     cites: [],
   },
+  {
+    id: "1956-kiltormer",
+    year: "1956",
+    title: "Tynagh v Fohenagh at Kiltormer",
+    result: "Called off",
+    href: "/match/fohenagh-tynagh-junior-abandoned-1956",
+    kidLine: "The Herald, 6 October 1956: “Five men went to hospital after hurling game.”",
+    score: "",
+    venue: "Kiltormer",
+    cites: ["The Herald, 6 October 1956"],
+  },
+  {
+    id: "1942-story",
+    year: "1942",
+    title: "From the North Board to Blackguardism at Athenry",
+    result: "Story",
+    href: "/story/1942-north-board-blackguardism",
+    kidLine: "",
+    score: "",
+    venue: "Athenry",
+    cites: ["Connacht Tribune, 13 June 1942", "Connacht Sentinel, 9 June 1942"],
+  },
 ];
 
 export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
@@ -389,7 +411,7 @@ export function FohenaghNotableGamesShelf() {
         </h2>
       </div>
       <label className="block max-w-xl text-sm font-semibold text-galway-ink">
-        Choose a game
+        Games and stories
         <select
           className="mt-1 w-full rounded-xl border border-[var(--fohenagh-blue)]/30 bg-white px-3 py-2 text-base font-semibold text-galway-ink"
           defaultValue=""
@@ -397,12 +419,21 @@ export function FohenaghNotableGamesShelf() {
             if (event.target.value) router.push(event.target.value);
           }}
         >
-          <option value="">Choose a game</option>
-          {FOHENAGH_NOTABLE_GAMES.map((item) => (
-            <option key={item.id} value={item.href}>
-              {item.year} · {item.title}
+          <option value="">Choose a game or a story</option>
+          <optgroup label="Stories">
+            <option value="/story/1942-north-board-blackguardism">
+              1942 · From the North Board to Blackguardism at Athenry
             </option>
-          ))}
+          </optgroup>
+          <optgroup label="Games">
+            {FOHENAGH_NOTABLE_GAMES.filter((item) => item.id !== "1942-story").map((item) => (
+              <option key={item.id} value={item.href}>
+                {item.id === "1956-kiltormer"
+                  ? "1956 · Tynagh v Fohenagh, Kiltormer — Herald, 6 Oct 1956: “Five men went to hospital after hurling game”"
+                  : `${item.year} · ${item.title}`}
+              </option>
+            ))}
+          </optgroup>
         </select>
       </label>
     </section>

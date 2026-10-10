@@ -85,10 +85,41 @@ export const BANNED_PUBLIC_PATTERNS: { name: string; re: RegExp }[] = [
   { name: "clipping not added", re: /not been added yet/i },
   {
     name: "Garry Lohan",
-    re: /Garry Lohan['’]s collection|(?:clipping|programme|program)\s+from\s+Garry Lohan|\bfrom\s+Garry Lohan\b/i,
+    re: /\bGarry Lohan\b/i,
   },
   { name: "distinct from", re: /distinct from/i },
+  { name: "confidence", re: /\bconfidence\b/i },
 ];
+
+/**
+ * A line that names a person as assaulted or injured.
+ * An unnamed report ("some players were hurt") and the 1956 hospital
+ * headline stay. "Mike Barrett was assaulted" does not.
+ */
+export function namesPersonHurt(text: string): boolean {
+  if (/\bassault/i.test(text)) return true;
+  if (/\binjured innocence\b/i.test(text)) return true;
+  if (!/\b(?:injured|hurt)\b/i.test(text)) return false;
+  if (/\bfive men went to hospital\b/i.test(text)) return false;
+  if (
+    /\b(?:some|several|a number of)\b[\s\S]{0,80}\b(?:players|men|people)\b[\s\S]{0,40}\b(?:hurt|injured)\b/i.test(
+      text
+    )
+  ) {
+    return false;
+  }
+  if (/\b[A-Z]\.\s*[A-Z][a-z]+\b[\s\S]{0,48}\b(?:was|were|been)\s+(?:injured|hurt)\b/.test(text)) {
+    return true;
+  }
+  if (!/\b(?:was|were|been)\s+(?:injured|hurt)\b/i.test(text)) return false;
+  const stop =
+    /^(?:The|Connacht|Tuam|County|North|East|West|South|Royal|History|Fohenagh|Claregalway|Sunday|Saturday|Irish|Newspaper|Athenry|Galway|Junior|Senior|Board|Tribune|Herald|Sentinel|After|Both|Under|With|Mister)$/;
+  const names = text.match(/\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)+\b/g) ?? [];
+  return names.some((name) => {
+    if (/tribune|herald|sentinel|board|history|hotel|county/i.test(name)) return false;
+    return name.split(/\s+/).some((part) => !stop.test(part));
+  });
+}
 
 /** Footer credit is the one public place this name is allowed. */
 const FOOTER_BUILT_BY = "Designed and built by Garry Lohan";
@@ -127,6 +158,8 @@ const ABBREVIATIONS = new Set([
   "no",
   "vs",
   "capt",
+  "fr",
+  "rev",
   "dept",
   "fig",
   "jan",
@@ -611,15 +644,30 @@ export function publicMatchBlurb(attrs: {
 }
 
 /** Drop pipeline sentences. Keep the cited remainder. */
+function withoutConfidence(sentence: string): string {
+  return tidy(
+    sentence
+      .replace(/\([^)]*\bconfidence\b[^)]*\)/gi, "")
+      .replace(/,?\s*[^,;.]*\bconfidence\b[^,;.]*/gi, "")
+  );
+}
+
+export function firstPublicSentence(input: string): string {
+  const clean = sanitizePublicText(input);
+  return splitSentences(clean)[0] ?? "";
+}
+
 export function sanitizePublicText(input: string): string {
   const stripped = tidy(stripIdTokens(normalizePublicWording(input)));
   if (!stripped) return "";
   const kept: string[] = [];
-  for (const sentence of splitSentences(stripped)) {
+  for (const rawSentence of splitSentences(stripped)) {
+    const sentence = withoutConfidence(rawSentence);
+    if (!sentence || namesPersonHurt(sentence)) continue;
     const clauses = sentence.split(/\s*;\s*/);
     const good = clauses
-      .map((clause) => tidy(clause.replace(/[;]+$/g, "")))
-      .filter((clause) => clause && !firstBannedPublicHit(clause));
+      .map((clause) => tidy(withoutConfidence(clause.replace(/[;]+$/g, ""))))
+      .filter((clause) => clause && !firstBannedPublicHit(clause) && !namesPersonHurt(clause));
     if (good.length === 0) continue;
     const rejoined = good
       .map((clause, index) =>
@@ -627,7 +675,7 @@ export function sanitizePublicText(input: string): string {
       )
       .join("; ");
     const clean = tidy(rejoined);
-    if (clean && !firstBannedPublicHit(clean)) kept.push(clean);
+    if (clean && !firstBannedPublicHit(clean) && !namesPersonHurt(clean)) kept.push(clean);
   }
   return tidy(kept.join(" "));
 }

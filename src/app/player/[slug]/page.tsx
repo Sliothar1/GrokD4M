@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
 import { getAssoc, getEntity, listEntitiesByType, resolveId } from "@/lib/data";
-import { uniquePlayerRedirect } from "@/lib/playerSlug";
+import { canonicalPlayerSlug, uniquePlayerRedirect } from "@/lib/playerSlug";
 
 async function loadPlayer(slug: string) {
+  const mapped = canonicalPlayerSlug(slug);
+  if (mapped) {
+    const data = await getEntity(resolveId("player", mapped));
+    return { data, redirectTo: mapped };
+  }
   const direct = await getEntity(resolveId("player", slug));
   if (direct) return { data: direct, redirectTo: null as string | null };
   const target = uniquePlayerRedirect(slug, (await getAssoc()).entitiesOfType("player"));
