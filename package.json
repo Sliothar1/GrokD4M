@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx tsx scripts/smoke-profile-lint.ts && next build",
+    "build": "npx tsx scripts/smoke-profile-lint.ts && npx tsx scripts/smoke-player-urls.ts && next build",
     "start": "next start",
     "lint": "eslint"
   },
