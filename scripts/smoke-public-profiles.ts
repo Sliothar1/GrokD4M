@@ -142,7 +142,15 @@ async function main() {
   assert.doesNotMatch(publicProfileText(clinton), /tagged for|lane/i);
 
   const jason = profileForPlayer(ctx, "player:jason-lohan", A.entityAttrs("player:jason-lohan"));
-  assert.match(jason.headline ?? "", /All-Ireland/);
+  assert.equal(jason.headline, "All-Ireland hurling winner with Galway");
+  const cathal = profileForPlayer(ctx, "player:cathal-lohan", A.entityAttrs("player:cathal-lohan"));
+  assert.equal(cathal.headline, "All-Ireland hurling winner at underage with Galway");
+  const cathalPage = profileForPlayer(
+    ctx,
+    "player:cathal-lohan-fohenagh",
+    A.entityAttrs("player:cathal-lohan-fohenagh")
+  );
+  assert.equal(cathalPage.headline, "All-Ireland hurling winner at underage with Galway");
   assert.match(jason.summary ?? "", /Killnadeema/);
   assert.doesNotMatch(publicProfileText(jason), /\bVerified\b|kid_chip|in a Co\.$/);
 

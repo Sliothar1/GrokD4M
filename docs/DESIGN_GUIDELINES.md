@@ -21,7 +21,7 @@ The benchmark is the earlier praised write-ups, still in git history:
 Every player with a record gets that shape:
 
 1. Photo slot. If there is no verified photo, a quiet "Add a photo". No grey caption and no nostalgic tagline.
-2. Headline is the top honour (Galway before club). Never "sub" or "panel".
+2. Headline is the top honour (Galway before club). Never "sub" or "panel". The standard tagline for an All-Ireland winner is "All-Ireland hurling winner with Galway". Add "at underage" for an underage title: "All-Ireland hurling winner at underage with Galway". No grade and no count of titles.
 3. A vignette in flowing prose. Each fact carries a numbered marker, as in `captain in 1996[1]`.
 4. The marker opens the clipping or the article page when we hold it. The same numbers appear in the reference list, each with one link to the original.
 5. Up to two clipping snippets under the vignette, then the reference list.

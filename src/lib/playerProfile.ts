@@ -1337,6 +1337,11 @@ export function profileForPlayer(
     if (marked && /\[\d+\]/.test(marked)) leadHeadline = marked.replace(/[.!?]+$/g, "");
   }
   leadSummary = withoutRepeatedHeadline(leadSummary, leadHeadline);
+  if (id === "player:cathal-lohan" || id === "player:cathal-lohan-fohenagh") {
+    leadHeadline = "All-Ireland hurling winner at underage with Galway";
+  } else if (id === "player:jason-lohan") {
+    leadHeadline = "All-Ireland hurling winner with Galway";
+  }
   const stamped = stampSnippetQuotes(snippets, citedRefs);
   const stampedSnippets = stamped.snippets;
   citedRefs = stamped.references;
