@@ -263444,5 +263444,405 @@
     "row": "club:fohenagh-historic",
     "col": "featured_link_cite",
     "val": "Connacht Tribune · 29 Jan 2021 · p.83 · https://irishnewsarchive.com/?a=d&d=CTT20210129.1.83"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "name",
+    "val": "Gerry Kelly"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "note",
+    "val": "Named as Gerry Kelly for Fohenagh in the junior football semi-final against Kilconly (Tuam Herald · 15 Oct 1960 · p.8 · INA). Separate from player:gerry-kelly (Athenry)."
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc"
+  },
+  {
+    "row": "player:gerry-kelly-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "name",
+    "val": "Vincent Coughlan"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "note",
+    "val": "Named as Vincent Coughlan, and as V. Coughlan on the Fohenagh line, in the junior football semi-final against Kilconly (Tuam Herald · 15 Oct 1960 · p.8 · INA)."
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc"
+  },
+  {
+    "row": "player:vincent-coughlan-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "name",
+    "val": "J. Bleaheen"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "note",
+    "val": "Named as J. Bleaheen on the Fohenagh line against Kilconly (Tuam Herald · 15 Oct 1960 · p.8 · INA)."
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc"
+  },
+  {
+    "row": "player:j-bleaheen-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "name",
+    "val": "K. Donnelly"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "note",
+    "val": "Named as K. Donnelly on the Fohenagh line against Kilconly (Tuam Herald · 15 Oct 1960 · p.8 · INA)."
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc"
+  },
+  {
+    "row": "player:k-donnelly-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "name",
+    "val": "M. Moclair"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "note",
+    "val": "Named as M. Moclair, the first name on the Fohenagh line, against Kilconly (Tuam Herald · 15 Oct 1960 · p.8 · INA). Separate from Jimmy Moclair, who is also on that line."
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc"
+  },
+  {
+    "row": "player:m-moclair-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "name",
+    "val": "J. Kelly"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "note",
+    "val": "Named as J. Kelly on the Fohenagh line against Kilconly (Tuam Herald · 15 Oct 1960 · p.8 · INA)."
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc"
+  },
+  {
+    "row": "player:j-kelly-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "name",
+    "val": "F. Moylett"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "note",
+    "val": "Named as F. Moylett on the Fohenagh line in the senior hurling semi-final against Killimordaly (Connacht Tribune · 3 Aug 1963 · p.30 · INA)."
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1963-08-03-sweeny-twelve-points"
+  },
+  {
+    "row": "player:f-moylett-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "name",
+    "val": "S. Carrick"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "note",
+    "val": "Named as S. Carrick on the Fohenagh line in the senior hurling semi-final against Killimordaly (Connacht Tribune · 3 Aug 1963 · p.30 · INA)."
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1963-08-03-sweeny-twelve-points"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
   }
 ]
