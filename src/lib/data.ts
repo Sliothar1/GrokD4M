@@ -16,6 +16,7 @@ import {
   invalidateBlobMetaCache,
   searchArticleUploads,
 } from "@/lib/articles";
+import { firstBannedPublicHit } from "@/lib/publicText";
 import {
   isClubAttrColumn,
   isNumberedClubCol,
@@ -722,12 +723,20 @@ export async function searchWiki(query: string): Promise<EntitySummary[]> {
       seen.add(summary.id);
       out.push(summary);
     }
+    const tagged = (await readArticleUploads())
+      .filter((upload) => upload.playerTags?.some((tag) => want.has(tag)))
+      .sort((a, b) => {
+        const ay = Number(String(a.year ?? "").slice(0, 4)) || 0;
+        const by = Number(String(b.year ?? "").slice(0, 4)) || 0;
+        if (ay !== by) return ay - by;
+        return a.id.localeCompare(b.id);
+      });
     let clips = 0;
-    for (const upload of await readArticleUploads()) {
-      if (clips >= 12) break;
-      if (!upload.playerTags?.some((tag) => want.has(tag))) continue;
+    for (const upload of tagged) {
+      if (clips >= 24) break;
       const summary = articleToSummary(upload);
       if (seen.has(summary.id)) continue;
+      if (firstBannedPublicHit(summary.title)) continue;
       seen.add(summary.id);
       out.push(summary);
       clips += 1;
