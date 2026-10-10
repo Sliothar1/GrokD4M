@@ -1,4 +1,6 @@
 import { DeveloperTriples } from "@/components/DeveloperTriples";
+import { FohenaghPlayerBand } from "@/components/fohenagh/FohenaghArt";
+import { TerraceNotes } from "@/components/player/TerraceNotes";
 import {
   CuttingExcerpts,
   type CuttingCard,
@@ -142,7 +144,9 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     factKeys.map((key) => [key, statusOf(key)])
   );
 
-  return (
+  const woreFohenagh = clubs.some((club) => club.id === "club:fohenagh-historic");
+
+  const profile = (
     <article className="space-y-9">
       <ProfileStrip
         name={summary.title}
@@ -188,7 +192,18 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
 
       <SourcesPanel sources={citations.sources} legend />
 
+      <TerraceNotes page={`/player/${slug}`} />
+
       <DeveloperTriples triples={triples} />
     </article>
+  );
+
+  if (!woreFohenagh) return profile;
+
+  return (
+    <div className="fohenagh-poster fohenagh-poster-player">
+      <FohenaghPlayerBand />
+      {profile}
+    </div>
   );
 }

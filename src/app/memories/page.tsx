@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CorrectionForm } from "@/components/CorrectionForm";
+import { MemoryForm } from "@/components/MemoryForm";
 import { correctionsFormEnabled } from "@/lib/corrections/config";
 import { normalisePage } from "@/lib/corrections/validate";
 import { getEntity } from "@/lib/data";
@@ -9,11 +9,11 @@ import { getEntity } from "@/lib/data";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Suggest a correction or request removal",
+  title: "Share a memory or a match you remember",
   robots: { index: false, follow: false },
 };
 
-export default async function CorrectionsPage({
+export default async function MemoriesPage({
   searchParams,
 }: {
   searchParams: Promise<{ page?: string }>;
@@ -22,13 +22,12 @@ export default async function CorrectionsPage({
   const { page: raw } = await searchParams;
   const page = normalisePage(raw);
 
-  if (!page) {
+  if (!page || !page.startsWith("/player/")) {
     return (
       <div className="space-y-4">
-        <h1 className="text-3xl font-black text-galway-ink">Suggest a correction or request removal</h1>
+        <h1 className="text-3xl font-black text-galway-ink">Share a memory or a match you remember</h1>
         <p className="text-lg text-galway-ink/75">
-          Please open the player or club page you want to correct and use the{" "}
-          <em>Suggest a correction or request removal</em> link at the bottom of it.
+          Open a player page and use the link at the bottom of it.
         </p>
         <Link href="/" className="font-semibold text-galway-maroon underline">
           Back to search
@@ -37,24 +36,23 @@ export default async function CorrectionsPage({
     );
   }
 
-  const [, kind, slug] = page.split("/");
-  const entity = await getEntity(`${kind}:${slug}`);
+  const slug = page.slice("/player/".length);
+  const entity = await getEntity(`player:${slug}`);
   const label = entity?.summary.title ?? slug;
 
   return (
-    <div className="mx-auto max-w-2xl space-y-6">
+    <div className="mx-auto max-w-xl space-y-6">
       <header className="space-y-2">
-        <h1 className="text-3xl font-black text-galway-ink">Suggest a correction or request removal</h1>
-        <p className="text-lg text-galway-ink/75">
-          Spotted a mistake on{" "}
+        <h1 className="text-3xl font-black text-galway-ink">Share a memory or a match you remember</h1>
+        <p className="text-base text-galway-ink/70">
+          About{" "}
           <Link href={page} className="font-semibold text-galway-maroon underline">
             {label}
           </Link>
-          , or want something taken down? Tell us here. Your name and email are optional. An editor
-          checks every request.
+          . An editor reads it before anything can appear.
         </p>
       </header>
-      <CorrectionForm page={page} pageLabel={label} />
+      <MemoryForm page={page} pageLabel={label} />
     </div>
   );
 }

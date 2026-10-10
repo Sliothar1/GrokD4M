@@ -27,3 +27,227 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
+
+/*
+ * Fohenagh poster. Scoped to players who wore club:fohenagh-historic
+ * and to that club page. Other clubs keep the site maroon.
+ * Royal blue is Fohenagh's own colour. Artwork is original.
+ */
+.fohenagh-poster {
+  --fohenagh-blue: #2348b8;
+  --fohenagh-blue-deep: #1a3488;
+  --fohenagh-ink: #141820;
+  --fohenagh-paper: #f3efe6;
+  --galway-maroon: var(--fohenagh-blue);
+  --galway-maroon-dark: var(--fohenagh-blue-deep);
+  --color-galway-maroon: var(--fohenagh-blue);
+  --color-galway-maroon-dark: var(--fohenagh-blue-deep);
+  background: var(--fohenagh-paper);
+  color: var(--fohenagh-ink);
+  margin: 0 -0.25rem;
+  padding: 2.75rem 1.25rem 3.25rem;
+  box-shadow: inset 0 14px 0 var(--fohenagh-blue);
+}
+
+.fohenagh-poster-player {
+  box-shadow: inset 0 8px 0 var(--fohenagh-blue);
+  padding-top: 1.6rem;
+  padding-bottom: 2.25rem;
+}
+
+.fohenagh-kicker {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--fohenagh-blue);
+}
+
+.fohenagh-display {
+  font-size: clamp(3.4rem, 9vw, 5.75rem);
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  line-height: 0.86;
+  color: var(--fohenagh-ink);
+}
+
+.fohenagh-deck {
+  max-width: 26rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: color-mix(in srgb, var(--fohenagh-ink) 78%, transparent);
+}
+
+.fohenagh-hero-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem 3rem;
+}
+
+.fohenagh-marks {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.35rem;
+  color: var(--fohenagh-blue);
+}
+
+.fohenagh-mark {
+  position: relative;
+  margin: 0;
+  outline: none;
+}
+
+.fohenagh-mark figcaption {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 0.35rem);
+  transform: translateX(-50%);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--fohenagh-blue);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.fohenagh-mark:hover figcaption,
+.fohenagh-mark:focus figcaption,
+.fohenagh-mark:focus-visible figcaption {
+  opacity: 1;
+}
+
+.fohenagh-hurler,
+.fohenagh-hurls,
+.fohenagh-sliotar {
+  display: block;
+  height: auto;
+}
+
+.fohenagh-hurler {
+  width: 11rem;
+}
+
+.fohenagh-hurls {
+  width: 5.25rem;
+}
+
+.fohenagh-sliotar {
+  width: 3.6rem;
+  margin-bottom: 0.55rem;
+}
+
+.fohenagh-stage {
+  display: grid;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+@media (min-width: 960px) {
+  .fohenagh-stage {
+    grid-template-columns: minmax(0, 1.2fr) minmax(16rem, 0.8fr);
+  }
+}
+
+.fohenagh-cutting {
+  margin: 0;
+  border: 3px solid var(--fohenagh-blue);
+  background: #fff;
+  padding: 0.65rem 0.65rem 0.85rem;
+}
+
+.fohenagh-cutting a {
+  display: block;
+}
+
+.fohenagh-cutting img {
+  display: block;
+  width: 100%;
+  max-height: 28rem;
+  object-fit: contain;
+  background: #fff;
+}
+
+.fohenagh-cutting figcaption {
+  margin-top: 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fohenagh-blue);
+}
+
+.fohenagh-roster {
+  padding-top: 0.5rem;
+}
+
+.fohenagh-roster h2.fohenagh-display {
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+}
+
+.fohenagh-names-quiet a {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.fohenagh-names {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.15rem 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fohenagh-names a {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.25;
+  color: var(--fohenagh-ink);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.fohenagh-names a:hover,
+.fohenagh-names a:focus-visible {
+  color: var(--fohenagh-blue);
+  border-bottom-color: var(--fohenagh-blue);
+}
+
+.fohenagh-names .fohenagh-also {
+  display: inline;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: color-mix(in srgb, var(--fohenagh-ink) 45%, transparent);
+}
+
+.fohenagh-player-band {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.85rem;
+  margin-bottom: 1.5rem;
+  color: var(--fohenagh-blue);
+}
+
+.fohenagh-player-band .fohenagh-hurler {
+  width: 4.25rem;
+}
+
+.fohenagh-player-band p {
+  margin: 0 0 0.2rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.fohenagh-player-band a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+}

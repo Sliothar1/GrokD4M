@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
 import { CorrectionLink } from "@/components/CorrectionLink";
+import { MemoryLink } from "@/components/MemoryLink";
 import { getEntity, listEntitiesByType, resolveId } from "@/lib/data";
 
 export async function generateStaticParams() {
@@ -31,6 +32,7 @@ export default async function Page({
   return (
     <>
       <PlayerView data={data} />
+      <MemoryLink page={`/player/${data.id.slice("player:".length)}`} />
       <CorrectionLink page={`/player/${data.id.slice("player:".length)}`} />
     </>
   );

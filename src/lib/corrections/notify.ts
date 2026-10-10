@@ -3,7 +3,8 @@ import type { CorrectionSubmission } from "./types";
 
 /** The ONLY text a notification may carry: request type, page path and queue id. */
 export function notificationLine(s: Pick<CorrectionSubmission, "priority" | "page" | "id">): string {
-  const type = s.priority === "removal" ? "removal" : "correction";
+  const type =
+    s.priority === "removal" ? "removal" : s.priority === "memory" ? "memory" : "correction";
   return `New ${type} request: ${s.page}, id ${s.id}`;
 }
 

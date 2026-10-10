@@ -48,6 +48,9 @@ export function isPrivateBlobUrl(url: string): boolean {
 
 export const CORRECTIONS_PREFIX = "corrections/open/";
 
+/** Approved memory text only. Never holds a submitter name or email. */
+export const APPROVED_PREFIX = "corrections/approved/";
+
 /** Notification (off by default). Only "resend" is implemented. */
 export function correctionsNotifyConfig():
   | { kind: "resend"; apiKey: string; from: string; to: string }
