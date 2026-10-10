@@ -402,7 +402,7 @@
       "player:tim-killalea"
     ],
     "excerpt": "Fohenagh’s second-half rally secured a one-point senior championship victory; Tim Sweeney scored 1-4. Both 15-man lineups are printed.",
-    "citeChip": "Connacht Tribune · 19 Sep 1959 · p.30 · INA",
+    "citeChip": "Connacht Tribune · 19 Sep 1959 · p.30 · Castlegar replay · INA",
     "status": "pending",
     "matchTags": [
       "match:fohenagh-historic-1959-galway-shc-final-replay"
@@ -533,7 +533,7 @@
     "excerpt": "Illustrated Connacht Tribune team panel after Fohenagh’s first Galway senior hurling title versus Castlegar. Named on the paper: Tim Sweeney, Frank Madden, J. Moclair, P.J. Killalea, T. Moylett, M. Coen and M. Glynn.",
     "confidence": "verified",
     "trustLabel": "Verified",
-    "citeChip": "Connacht Tribune · 19 Sep 1959 · team panel",
+    "citeChip": "Connacht Tribune · 19 Sep 1959 · champions caption · INA",
     "status": "pending",
     "matchTags": [
       "match:fohenagh-historic-1959-galway-shc-final-replay"
@@ -1726,7 +1726,7 @@
       "player:seamus-moclair"
     ],
     "excerpt": "ALL-IRELAND WINNERS The County Galway Senior Vocational Schools hurlers once again captured the title when they defeated Tipperary in the final at Thurles on Sunday last and local lads Oliver Hennelly and Seamus Moclair played their part in a great victory. They are both students at Mountbellew Vocational School. Oliver the scorer of three of the five goals is the eldest son of Paddy and Teresa Hennelly, Loughanboy, Caltra, while Seamus Moclair had a fine game at comer back is a son of Jimmy and Brid Moclair, Clonbrock Fohenagh. The weekend proved hectic for Oliver Hennelly who had played well at centre half back on the Galway minor football which had a first round Connacht championship win over Leitrim at Tuam stadium on Saturday night.",
-    "citeChip": "Connacht Tribune · 14 May 1993 · p.7 · INA",
+    "citeChip": "Connacht Tribune · 14 May 1993 · p.7 · Clonbrock display · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19930514.1.7",
     "status": "pending",
     "matchTags": []
@@ -1757,7 +1757,7 @@
       "player:seamus-moclair"
     ],
     "excerpt": "Galway win Voc. title with barrage of goals … CHALK and cheese! — the difference between them barely does justice to the staggering contrast in Galway's play during the two halves of this poor All-Ireland Vocational Schools senior hurling final at Thurles on Sunday. … Galway: L. Donoghue, R. Larkin, M. Ward, S. Mockler, N. Linnane, N. Shaughnessy (0-3, 0-2 from frees), P. Forde; M. Conroy (1-1, 0-1 from free), T. J. Hynes, D. Walsh (0-1), J. Treacy (0-1), C. Donlon, F. Healy (1-0), O. Hennelly (3-0), L. Madden (0-1). Sub; F. Gantley for Donlon. … CHAMPIONS ... The Galway Vocationals schools team which defeated Tipperary at Thurles on Sunday to capture the county's tenth All-Ireland title in the grade. Back row, left to right: Niall Linnane, Michael Ward, Oliver Hennelly, Liam Donoghue, Padraig Forde, Charlie Donnellan and James Treacy. Front row: Declan Walsh, Matthew Conroy, Liam Madden, Fergal Healy, T.J. Hynes, Nigel Shaughnessy, Seamus Mockler and Raymond Larkin.",
-    "citeChip": "Connacht Tribune · 14 May 1993 · p.11 · INA",
+    "citeChip": "Connacht Tribune · 14 May 1993 · p.11 · Vocational champions · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19930514.1.11",
     "status": "pending",
     "matchTags": []
@@ -3117,7 +3117,7 @@
     "path": "/uploads/articles/art-ina-tth-1994-07-30-u14-challenge-clare.png",
     "publicUrl": "/uploads/articles/art-ina-tth-1994-07-30-u14-challenge-clare.png",
     "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
-    "caption": "Tuam Herald — Galway under-14 hurling challenge against Clare. C. Lohan and O. Deeley (Fohenagh).",
+    "caption": "Tuam Herald — Galway under-14 hurling challenge against Clare.",
     "year": "1994",
     "tags": [
       "hurling",
@@ -3128,10 +3128,7 @@
     "clubTags": [
       "club:fohenagh-historic"
     ],
-    "playerTags": [
-      "player:cathal-lohan",
-      "player:ollie-deeley"
-    ],
+    "playerTags": [],
     "excerpt": "The following players are chosen for Galway's next u-14 hurling challenge, against Clare at St. Brendan's Park, Loughrea on Saturday (30th). C. Lohan, O. Deeley, Fohenagh.",
     "citeChip": "Tuam Herald · 30 Jul 1994 · p.14 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19940730.1.14",
@@ -6204,6 +6201,256 @@
     "alsoReported": "Same final: Connacht Tribune 3 Sep 1960 p.14 (https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14)"
   },
   {
+    "id": "art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal",
+    "kind": "image",
+    "filename": "art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 23 Oct 1993: Tony Kirwan, first Fohenagh All-Ireland hurling medal",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report",
+      "all-ireland"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-kirwan"
+    ],
+    "excerpt": "Tony Kirwan of Fohenagh came on for Liam Turley in Galway's seven-point National Hurling League win over Wexford at Kenny Park and scored a point. The report calls him the first Fohenagh man to win an All-Ireland hurling medal in any grade.",
+    "citeChip": "Tuam Herald · 23 Oct 1993 · p.20 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19931023.1.20",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19931023.1.20",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1993-10-23-p20.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions",
+    "kind": "image",
+    "filename": "art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 8 Dec 1995: Fohenagh under-16 hurlers, Galway champions",
+    "year": "1995",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "u16",
+      "team-photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cyril-glennon-fohenagh",
+      "player:shane-glennon-fohenagh",
+      "player:fergus-lyons-fohenagh",
+      "player:martin-curley-fohenagh",
+      "player:brian-lynskey-fohenagh",
+      "player:peter-lally-fohenagh",
+      "player:francis-devine-fohenagh",
+      "player:brendan-noone-fohenagh",
+      "player:niall-devine-fohenagh",
+      "player:cathal-lohan",
+      "player:ollie-deeley",
+      "player:karl-mitchell-fohenagh",
+      "player:colm-kennedy-fohenagh",
+      "player:patrick-sweeney-fohenagh",
+      "player:brendan-geraghty-fohenagh"
+    ],
+    "excerpt": "Team photograph of the Fohenagh under-16 hurlers after they took the Galway title. The caption names Cyril and Shane Glennon, Oliver Deeley, Brendan Noone, Cathal Lohan, Colm Kennedy and the rest of the panel. The print spells one name Carl Mitchell.",
+    "citeChip": "Connacht Tribune · 8 Dec 1995 · p.8 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19951208.1.8",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19951208.1.8",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1995-12-08-p8.jpg",
+    "inaClass": "PHOTO"
+  },
+  {
+    "id": "art-ina-tth-1998-05-02-st-cuans-panel-fohenagh",
+    "kind": "image",
+    "filename": "art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 2 May 1998: St Cuan's panel, Cathal Lohan and Colm Kennedy",
+    "year": "1998",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "colleges",
+      "team-photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:colm-kennedy-fohenagh",
+      "player:cathal-lohan",
+      "player:brian-lynskey-fohenagh",
+      "player:owen-lynskey-ahascragh-fohenagh",
+      "player:brendan-geraghty-fohenagh"
+    ],
+    "excerpt": "St Cuan's, Castleblakeney, photographed at the school before the All-Ireland Colleges Senior B hurling final against Portlaoise CBS. Fohenagh on the panel: Colm Kennedy, Cathal Lohan, Brian Lynskey, Owen Lynskey and Brendan Geraghty. The caption says they have already won the Connacht Cup. The page does not print the final result.",
+    "citeChip": "Tuam Herald · 2 May 1998 · p.24 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19980502.1.24",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19980502.1.24",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1998-05-02-p24.jpg",
+    "inaClass": "PHOTO"
+  },
+  {
+    "id": "art-ina-ctt-1963-08-17-burke-sweeney-county-final",
+    "kind": "image",
+    "filename": "art-ina-ctt-1963-08-17-burke-sweeney-county-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-17-burke-sweeney-county-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-17-burke-sweeney-county-final.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 17 Aug 1963: Packie Burke and Jim Sweeney in the county final",
+    "year": "1963",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "team-photo",
+      "county-final"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-sweeney",
+      "player:packie-burke-fohenagh",
+      "player:bobby-madden-fohenagh"
+    ],
+    "excerpt": "Action from the Galway senior hurling final at Pearse Stadium. Packie Burke, Turloughmore's full-back, covers Bobby Madden, with Jim Sweeney, Fohenagh's full-forward, close by.",
+    "citeChip": "Connacht Tribune · 17 Aug 1963 · p.31 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1963-galway-shc-final"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1963-08-17-burke-sweeney-county-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1963-08-17-p31.jpg",
+    "inaClass": "PHOTO"
+  },
+  {
+    "id": "art-ina-ctt-1963-08-03-sweeny-twelve-points",
+    "kind": "image",
+    "filename": "art-ina-ctt-1963-08-03-sweeny-twelve-points.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-03-sweeny-twelve-points.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-03-sweeny-twelve-points.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 3 Aug 1963: Sweeny scores 12 points as Fohenagh reach the county final",
+    "year": "1963",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:frank-madden",
+      "player:tom-moylette-fohenagh",
+      "player:paddy-killilea-fohenagh",
+      "player:mick-moylette-fohenagh",
+      "player:jim-sweeney",
+      "player:jim-moclair-fohenagh",
+      "player:f-moylett-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:albie-glynn-fohenagh",
+      "player:s-carrick-fohenagh"
+    ],
+    "excerpt": "Tim Sweeney scored twelve points as Fohenagh beat Killimordaly 3-19 to 6-4 in the senior hurling semi-final at Kenny Park and went on to the county final against Turloughmore. F. Madden was in goal.",
+    "citeChip": "Connacht Tribune · 3 Aug 1963 · p.30 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630803.1.30",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630803.1.30",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1963-08-03-sweeny-twelve-points.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1963-08-03-p30.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc",
+    "kind": "image",
+    "filename": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 15 Oct 1960: Kilconly 2-8, Fohenagh 0-4 in the junior football semi-final",
+    "year": "1960",
+    "tags": [
+      "football",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:m-moclair-fohenagh",
+      "player:j-bleaheen-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:vincent-coughlan-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:k-donnelly-fohenagh",
+      "player:gerry-kelly-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:jim-sweeney",
+      "player:frank-madden",
+      "player:j-kelly-fohenagh",
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Kilconly beat Fohenagh 2-8 to 0-4 in the junior football semi-final at Mountbellew. The report names Liam Manning, J. Sweeney, Gerry Kelly, Frank Madden, Tim Sweeney, Jim Moclair and Tom Glynn.",
+    "citeChip": "Tuam Herald · 15 Oct 1960 · p.8 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19601015.1.8",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19601015.1.8",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1960-10-15-p8.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
     "id": "art-ina-tth-2024-11-20-sarah-noone-connacht-title",
     "kind": "text",
     "filename": "",
@@ -6225,7 +6472,7 @@
     ],
     "matchTags": [],
     "excerpt": "Ahascragh-Caltra 0-11 Oran 1-5 By Ivan Smyth At Fohenagh AHASCRAGH-CALTRA added to their memorable 2024 as they overcame Oran to claim the Fr. Vincent Lawless Cup Connacht Intermediate Camogie Championship title. Sarah Noone produced a ferocious second half display as she fired over five successive points to help ...... We are heading to an All-Ire",
-    "citeChip": "Tuam Herald · 20 Nov 2024 · p.56 · INA",
+    "citeChip": "Tuam Herald · 20 Nov 2024 · p.56 · Lawless Cup · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20241120.1.56",
     "status": "pending",
     "inaMedia": true,
@@ -6289,5 +6536,92 @@
     "inaMedia": true,
     "credit": "Courtesy of Irish Newspaper Archives",
     "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH20250122.1.22"
+  },
+  {
+    "id": "art-ina-ct-1973-09-07-tim-sweeney-former-captain",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:40:00.000000+00:00",
+    "caption": "Connacht Tribune — Tim Sweeney, a former captain of the county senior hurling team",
+    "year": "1973",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "nephew of Mr. Tim Sweeney, Fohenagh, a former captain of the County senior hurling team.",
+    "citeChip": "Connacht Tribune · 7 Sep 1973 · p.6 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19730907.1.6",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19730907.1.6"
+  },
+  {
+    "id": "art-ina-ct-1960-11-26-sweeney-brothers",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:40:00.000000+00:00",
+    "caption": "Connacht Tribune — Tim, John and Jim Sweeney, senior county hurlers",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "father of Mr. Tim Sweeney, captain of the Galway senior hurling team and Messrs. John and Jim Sweeney, also senior County hurlers.",
+    "citeChip": "Connacht Tribune · 26 Nov 1960 · p.7 · senior brothers · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19601126.1.7",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19601126.1.7"
+  },
+  {
+    "id": "art-ina-tth-2024-12-11-sarah-noone-player-of-the-match",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:40:00.000000+00:00",
+    "caption": "Tuam Herald — Sarah Noone, player of the match in the Connacht decider",
+    "year": "2024",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:sarah-noone-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Joint captain Sarah Noone achieved All-Ireland success in Croke Park before and has been the main driving force for Ahas-cragh-Caltra’s revival. “It’s an absolutely amazing feeling,” says the centre-back from Fohenagh who was player of the match in the Connacht decider against",
+    "citeChip": "Tuam Herald · 11 Dec 2024 · p.67 · player match · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20241211.1.67",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH20241211.1.67"
   }
 ]

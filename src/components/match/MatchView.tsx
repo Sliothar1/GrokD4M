@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { ArticleClipSection } from "@/components/ArticleClip";
+import { CitedText } from "@/components/CitedText";
+import { markCitations } from "@/lib/citations";
+import { storiesForMatch } from "@/lib/parishStories";
 import { ClubChip } from "@/components/chips";
 import { EntityCard } from "@/components/EntityCard";
 import { LoughreaFinalStoryChips } from "@/components/HistoricFohenaghBlock";
@@ -128,7 +131,17 @@ export async function MatchView({ data }: { data: EntityPayload }) {
   );
   const subtitle = kidMatchSubtitle(summary.subtitle, scoreText);
   const blurb = publicMatchBlurb(attrs);
+  const citedBlurb = blurb
+    ? markCitations(
+        blurb,
+        cuttings.map((cutting) => ({
+          title: cutting.citeChip || cutting.title,
+          href: cutting.href,
+        }))
+      )
+    : null;
   const played = await playersInMatch(id);
+  const stories = storiesForMatch(`/match/${id.slice("match:".length)}`);
 
   return (
     <article className="space-y-8">
@@ -174,9 +187,24 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         </div>
       </header>
 
-      {blurb ? (
-        <p className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink">
-          {blurb}
+      {citedBlurb?.text ? (
+        <CitedText
+          text={citedBlurb.text}
+          references={citedBlurb.references}
+          className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink"
+        />
+      ) : null}
+      {stories.length > 0 ? (
+        <p className="text-base">
+          {stories.map((story) => (
+            <Link
+              key={story.slug}
+              href={`/story/${story.slug}`}
+              className="mr-4 font-semibold text-galway-maroon underline underline-offset-2"
+            >
+              Story: {story.title}
+            </Link>
+          ))}
         </p>
       ) : null}
 

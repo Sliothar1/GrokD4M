@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CitedText, ReferenceList } from "@/components/CitedText";
 import { FohenaghPlayerBand } from "@/components/fohenagh/FohenaghArt";
 import { PlayerGamesSelect } from "@/components/player/PlayerGamesSelect";
 import { TerraceNotes } from "@/components/player/TerraceNotes";
@@ -108,7 +109,11 @@ export function PlayerProfileView({
       </header>
 
       {profile.summary ? (
-        <p className="max-w-2xl text-[1.05rem] leading-relaxed text-galway-ink">{profile.summary}</p>
+        <CitedText
+          text={profile.summary}
+          references={profile.references}
+          className="max-w-2xl text-[1.05rem] leading-relaxed text-galway-ink"
+        />
       ) : null}
 
       {profile.snippets.length > 0 ? (
@@ -237,22 +242,10 @@ export function PlayerProfileView({
         ) : null}
       </p>
 
-      {profile.references.length > 0 ? (
-        <section>
-          <h2 className={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}>
-            References
-          </h2>
-          <ol className="max-w-2xl list-decimal space-y-1 pl-5 text-sm text-galway-ink">
-            {profile.references.map((ref) => (
-              <li key={ref.href}>
-                <Link href={ref.href} className="font-semibold text-galway-maroon underline underline-offset-2">
-                  {ref.title}
-                </Link>
-              </li>
-            ))}
-          </ol>
-        </section>
-      ) : null}
+      <ReferenceList
+        references={profile.references}
+        headingClassName={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}
+      />
 
       {profile.credit ? (
         <p className="text-sm font-semibold tracking-wide text-galway-ink">

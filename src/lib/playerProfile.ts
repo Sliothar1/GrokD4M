@@ -7,6 +7,7 @@ import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 import { readArticleUploads } from "@/lib/articles";
 import { collectClubIdsFromAttrs } from "@/lib/playerClubs";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
+import { markCitations } from "@/lib/citations";
 import {
   composePlayerVignette,
   firstBannedPublicHit,
@@ -123,6 +124,8 @@ type ArticleCredit = {
   image?: string;
   portrait?: boolean;
   caption?: string;
+  /** Paper, date, and page. Used to match a sentence to this clipping. */
+  cite?: string;
   excerpt?: string;
   bookMedia?: boolean;
 };
@@ -763,7 +766,10 @@ export function profileForPlayer(
     if (!art) continue;
     if (!seenRef.has(articleId)) {
       seenRef.add(articleId);
-      const title = sanitizePublicText(art.caption ?? "") || sanitizePublicText(art.credit ?? "");
+      const title =
+        sanitizePublicText(art.cite ?? "") ||
+        sanitizePublicText(art.caption ?? "") ||
+        sanitizePublicText(art.credit ?? "");
       if (title && !firstBannedPublicHit(title)) {
         references.push({ title, href: `/article/${articleId}` });
       }
@@ -792,12 +798,27 @@ export function profileForPlayer(
     });
   }
 
+  let citedSummary = summary;
+  let citedRefs = references;
+  if (summary) {
+    const candidates = [...references];
+    for (const value of Object.values(attrs)) {
+      const raw = String(value ?? "");
+      if (/^https?:\/\/\S*wikipedia\.org\//i.test(raw)) {
+        candidates.push({ title: "Wikipedia", href: raw });
+      }
+    }
+    const marked = markCitations(summary, candidates);
+    citedSummary = marked.text;
+    if (marked.references.length > 0) citedRefs = marked.references;
+  }
+
   return {
     slug,
     name,
     headline: publicHeadline,
     eraLine: publicEra,
-    summary,
+    summary: citedSummary,
     schoolsLine,
     framing: null,
     photoUrl,
@@ -811,7 +832,7 @@ export function profileForPlayer(
     teammates,
     alsoPlayed,
     snippets,
-    references,
+    references: citedRefs,
     correctionHref: showCorrection ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}` : null,
     correctionLabel: CORRECTION_LABEL,
     memoryHref: showCorrection
@@ -913,6 +934,7 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
       image: upload.publicUrl || upload.path,
       portrait: upload.kind === "image" && upload.playerTags.length === 1,
       caption: upload.caption,
+      cite: upload.citeChip,
       excerpt: upload.excerpt,
       bookMedia: upload.bookMedia === true,
     });
