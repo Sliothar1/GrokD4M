@@ -187,8 +187,8 @@ async function main() {
   });
   assert.equal(bare.verified, false);
   assert.match(bare.summary ?? "", /Bare Name wore the Fohenagh jersey/);
-  assert.match(bare.summary ?? "", /The name stays with the people of the club/);
-  assert.equal(bare.framing, "Club people who served the club and the community.");
+  assert.doesNotMatch(bare.summary ?? "", /The name stays|served the club/i);
+  assert.equal(bare.framing, null);
   assert.equal(bare.schoolsLine, null);
   assert.equal(bare.headline, "Wore the Fohenagh jersey");
   assert.doesNotMatch(publicProfileText(bare), /unverified|needs a source|not been added yet/i);

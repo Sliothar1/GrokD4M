@@ -36,7 +36,6 @@ import {
   resolveEntitySources,
   type LinkedCuttingSource,
 } from "@/lib/sources";
-import { FohenaghMarks } from "@/components/fohenagh/FohenaghArt";
 import { FohenaghFairytale } from "@/components/fohenagh/FohenaghFairytale";
 import { FohenaghParishStory } from "@/components/fohenagh/FohenaghParishStory";
 import { FohenaghPlayerIndex } from "@/components/fohenagh/FohenaghPlayerIndex";
@@ -88,7 +87,6 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                 </p>
               ) : null}
             </div>
-            <FohenaghMarks />
           </div>
         ) : (
           <>

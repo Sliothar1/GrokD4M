@@ -79,60 +79,6 @@ export default async function AboutPage() {
         </ul>
       </section>
 
-      <section className="space-y-2 border-t border-galway-maroon/15 pt-6">
-        <h2 className="text-xs font-bold uppercase tracking-[0.16em] text-galway-maroon/75">
-          Built by
-        </h2>
-        <p className="text-sm leading-relaxed text-galway-ink/75">
-          HurlingWiki was designed and built by Garry Lohan, on MIT&apos;s D4M data model.{" "}
-          <a
-            href="https://scholar.google.com/citations?user=9aBECzQAAAAJ&hl=en"
-            className="font-semibold text-galway-maroon underline decoration-galway-maroon/40 underline-offset-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Google Scholar
-          </a>
-          {" · "}
-          <a
-            href="https://www.linkedin.com/in/garry-lohan-14923814"
-            className="font-semibold text-galway-maroon underline decoration-galway-maroon/40 underline-offset-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </p>
-        <p className="flex items-start gap-2 text-sm leading-relaxed text-galway-ink/65">
-          <span
-            role="img"
-            title="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
-            aria-label="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
-            className="mt-0.5 inline-flex h-5 shrink-0 items-center rounded-full bg-galway-maroon px-1.5 text-[10px] font-bold leading-none tracking-wide text-galway-cream"
-          >
-            G
-          </span>
-          <span>
-            <span className="font-semibold text-galway-ink/75">How it was built. </span>
-            Built with help from{" "}
-            <a
-              href="https://x.ai"
-              className="font-bold text-galway-maroon hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Grok Bot
-            </a>
-            <sup
-              title="The answer to life, the universe and everything"
-              className="ml-px align-super text-[9px] font-medium text-galway-ink/40"
-            >
-              42
-            </sup>, an AI assistant, for research and coding — every fact is cited and checked
-            before it goes live.
-          </span>
-        </p>
-      </section>
     </div>
   );
 }

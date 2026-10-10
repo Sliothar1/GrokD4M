@@ -47,7 +47,7 @@ export function FohenaghPlayerIndex({ rows }: { rows: IndexRow[] }) {
           The players
         </h2>
         <p className="text-lg leading-relaxed text-galway-ink/80">
-          Club people who served the club and the community.
+          Players who wore the jersey.
         </p>
       </div>
 

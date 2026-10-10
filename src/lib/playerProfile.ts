@@ -34,7 +34,6 @@ export const FOHENAGH_UNDERAGE_SCHOOLS =
 const CORRECTION_LABEL = "Suggest a correction or request removal";
 const MEMORY_LABEL = "Share a memory or a match you remember";
 const READ_ORIGINAL = "Read the original";
-const CLUB_FRAMING = "Club people who served the club and the community.";
 const PHOTO_ADD_LABEL = "Add a photo";
 
 export type PublicGame = {
@@ -387,7 +386,6 @@ function parishSummary(
   else if (game) lines.push(`${game}.`);
   if (gameLabels.length > 0) lines.push(`Named in ${joinNames(gameLabels.slice(0, 2))}.`);
   else if (mateNames.length > 0) lines.push(`Named alongside ${joinNames(mateNames.slice(0, 3))}.`);
-  else lines.push("The name stays with the people of the club.");
   return lines.slice(0, 3).join(" ");
 }
 
@@ -634,7 +632,7 @@ export function profileForPlayer(
     eraLine: publicEra,
     summary,
     schoolsLine,
-    framing: isFohenagh(attrs, apps, jersey) ? CLUB_FRAMING : null,
+    framing: null,
     photoUrl,
     photoAddHref: showCorrection
       ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}&kind=add-photo`

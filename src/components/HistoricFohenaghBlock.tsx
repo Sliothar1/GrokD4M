@@ -528,8 +528,8 @@ export function HistoricStoryChips() {
   return (
     <StoryChipButtons
       chips={HISTORIC_STORY_CHIPS}
-      heading="Got a Fohenagh story?"
-      sub="Anecdotes welcome. Please do not invent scores."
+      heading="Add a note"
+      sub="Do not invent scores."
     />
   );
 }
