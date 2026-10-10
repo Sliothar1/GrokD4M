@@ -1,49 +1,7 @@
 import Link from "next/link";
+import { FohenaghClubHistory } from "@/components/fohenagh/FohenaghClubHistory";
 import { FohenaghKeyPlayers } from "@/components/fohenagh/FohenaghKeyPlayers";
 import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
-
-const TIMELINE = [
-  {
-    year: "1888",
-    text: "22 July, Lowville tournament, up to 3,000 people in the rain. 8 September, the first GAA social at Kilconnell.",
-  },
-  {
-    year: "1890",
-    text: "15 July, Fohenagh v Gurteen. Fifty minutes, no score. Tim Glynn was captain.",
-  },
-  {
-    year: "1907",
-    text: "21 January, Fohenagh re-affiliated. Fr. Harney, the parish priest, wrote that the players were respectable men.",
-  },
-  {
-    year: "1942",
-    text: "The 1941 junior semi-final against Claregalway, played at Athenry and later called the Battle of Athenry. The book dates it 23 May. The Connacht Tribune fixture of 23 May 1942, page 10, gives Sunday 24 May.",
-  },
-  {
-    year: "1947",
-    text: "County senior camogie at the first attempt. Fohenagh 3-1, Erin's Hopes 3-0.",
-  },
-  {
-    year: "1959",
-    text: "County senior hurling. The replay at Kenny Park, after a draw with Castlegar.",
-  },
-  {
-    year: "1960",
-    text: "The cup retained. Six Fohenagh men picked for Galway against Tipperary on 30 October.",
-  },
-  {
-    year: "1961",
-    text: "County final. The book says the margin was one point. Galway GAA prints two points, Turloughmore 3-6, Fohenagh 3-4.",
-  },
-  {
-    year: "1999",
-    text: "Underage teams joined with Ahascragh.",
-  },
-  {
-    year: "2002",
-    text: "21 January, both clubs disbanded and Ahascragh/Fohenagh began.",
-  },
-];
 
 export function FohenaghParishStory() {
   return (
@@ -63,18 +21,7 @@ export function FohenaghParishStory() {
         </p>
       </div>
 
-      <div className="space-y-3">
-        <h3 className="text-xl font-black text-galway-ink">Timeline</h3>
-        <ol className="space-y-3">
-          {TIMELINE.map((item) => (
-            <li key={item.year} className="grid grid-cols-[4.5rem_1fr] gap-3 text-base leading-relaxed">
-              <span className="font-black text-galway-maroon">{item.year}</span>
-              <span className="text-galway-ink/85">{item.text}</span>
-            </li>
-          ))}
-        </ol>
-        <p className="text-xs text-galway-ink/55">From A History of Fohenagh by Tony O&apos;Gorman.</p>
-      </div>
+      <FohenaghClubHistory />
 
       <div className="space-y-3">
         <h3 className="text-xl font-black text-galway-ink">1959 and 1960</h3>
@@ -174,7 +121,10 @@ export function FohenaghParishStory() {
           page 10, gives Sunday 24 May. Spectators came onto the pitch, the referee called the match
           off, and both clubs were suspended for a year. Eyrecourt were handed the junior title.
         </p>
-        <p>
+        <p className="space-x-3">
+          <Link className="font-semibold text-galway-maroon underline" href="/story/1942-north-board-blackguardism">
+            1942: From the North Board to Blackguardism at Athenry
+          </Link>
           <Link className="font-semibold text-galway-maroon underline" href="/article/art-book-fohenagh-story-battle-of-athenry">
             Read the account
           </Link>
