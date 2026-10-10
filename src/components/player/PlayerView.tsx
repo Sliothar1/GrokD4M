@@ -54,31 +54,23 @@ import {
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
-/** Mick (1959) and Mike (1996) stay on separate profiles. Not a newspaper line. */
-function CoenDistinction({ id }: { id: string }) {
-  if (id === "player:mick-coen-fohenagh") {
-    return (
-      <p className="text-sm leading-relaxed text-galway-ink/75">
-        Mick Coen of the 1959 side.{" "}
-        <Link href="/player/mike-coen-fohenagh" className="font-semibold text-galway-maroon underline">
-          Mike Coen
-        </Link>
-        , named in the 1996 junior championship reports, is a different player.
-      </p>
-    );
-  }
-  if (id === "player:mike-coen-fohenagh") {
-    return (
-      <p className="text-sm leading-relaxed text-galway-ink/75">
-        Mike Coen of the 1996 junior side.{" "}
-        <Link href="/player/mick-coen-fohenagh" className="font-semibold text-galway-maroon underline">
-          Mick Coen
-        </Link>
-        , named on the 1959 replay fifteen, is a different player.
-      </p>
-    );
-  }
-  return null;
+/** A plain cross-link. No relationship is stated. */
+function SeeAlsoCoen({ id }: { id: string }) {
+  const other =
+    id === "player:mick-coen-fohenagh"
+      ? { href: "/player/mike-coen-fohenagh", name: "Mike Coen" }
+      : id === "player:mike-coen-fohenagh"
+        ? { href: "/player/mick-coen-fohenagh", name: "Mick Coen" }
+        : null;
+  if (!other) return null;
+  return (
+    <p className="text-sm text-galway-ink/80">
+      <span className="font-bold uppercase tracking-[0.14em] text-galway-maroon">See also</span>{" "}
+      <Link href={other.href} className="font-semibold text-galway-maroon underline">
+        {other.name}
+      </Link>
+    </p>
+  );
 }
 
 /**
@@ -285,7 +277,7 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         notesStatus={notes ? statusOf("notes") : undefined}
       />
 
-      <CoenDistinction id={id} />
+      <SeeAlsoCoen id={id} />
 
       {remembered ? <RememberedNote text={remembered} /> : null}
 

@@ -150,6 +150,21 @@ function opponentOf(
   return other.startsWith("club:") ? displayNameForRef(other, A) : other;
 }
 
+/**
+ * County finals the owner asked to show on the club page.
+ * Six Galway senior final games (1958, the 1959 draw, the 1959 replay, 1960, 1961, 1963)
+ * and the junior final already in the seed.
+ */
+const FOHENAGH_NOTABLE_IDS = new Set([
+  "match:fohenagh-historic-1958-galway-shc-final",
+  "match:fohenagh-historic-1959-galway-shc-final-draw",
+  "match:fohenagh-historic-1959-galway-shc-final-replay",
+  "match:fohenagh-historic-1960-galway-shc-final",
+  "match:fohenagh-historic-1961-galway-shc-final",
+  "match:fohenagh-historic-1963-galway-shc-final",
+  "match:fohenagh-cussane-north-board-junior-final-1942",
+]);
+
 /** Seed matches for historic Fohenagh, newest first. Amalgam games stay off this list. */
 export function listFohenaghGames(A: AssocArray): FohenaghGame[] {
   const games: FohenaghGame[] = [];
@@ -188,4 +203,9 @@ export function listFohenaghGames(A: AssocArray): FohenaghGame[] {
   }
   games.sort((a, b) => b.sortKey.localeCompare(a.sortKey) || a.title.localeCompare(b.title));
   return games;
+}
+
+/** Notable games on the Fohenagh club page: the county finals the owner picked. */
+export function listFohenaghNotableGames(A: AssocArray): FohenaghGame[] {
+  return listFohenaghGames(A).filter((game) => FOHENAGH_NOTABLE_IDS.has(game.id));
 }

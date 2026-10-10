@@ -47,10 +47,10 @@ export function NotableGames({ games }: { games: FohenaghGame[] }) {
     <section className="space-y-4" aria-labelledby="notable-games-heading">
       <div>
         <h2 id="notable-games-heading" className="text-3xl text-galway-ink">
-          Key matches
+          Notable games
         </h2>
         <p className="mt-2 max-w-2xl text-base text-galway-ink/70">
-          {games.length === 1 ? "One game" : `${games.length} games`}, newest first. Open a match for the report and the players named that day.
+          The six Galway senior county finals, and the 1942 junior final. Newest first.
         </p>
       </div>
       {decades.map((decade) => (

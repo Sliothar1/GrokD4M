@@ -11,6 +11,7 @@ export function ClubRoster({
   separateUnverifiedLinks = false,
   id,
   alphabetical = false,
+  compact = false,
   verifiedIds,
   heading = "Players who wore this jersey",
 }: {
@@ -25,6 +26,8 @@ export function ClubRoster({
   id?: string;
   /** One A–Z list. Letters collapse so a long parish roll stays tidy. */
   alphabetical?: boolean;
+  /** Short name links in one A–Z run, without a card per letter. */
+  compact?: boolean;
   /** These ids show a Verified mark even when the seed confidence is still open. */
   verifiedIds?: ReadonlySet<string>;
   heading?: string;
@@ -36,7 +39,9 @@ export function ClubRoster({
     trust: verifiedIds?.has(row.summary.id) ? "Verified" : row.trust,
   }));
   if (alphabetical) {
-    return (
+    return compact ? (
+      <CompactRoster id={id} heading={heading} clubName={clubName} rows={displayRows} />
+    ) : (
       <AlphaRoster id={id} heading={heading} clubName={clubName} rows={displayRows} />
     );
   }
@@ -89,6 +94,70 @@ function letterOf(name: string): string {
     .replace(/[\u0300-\u036f]/g, "")
     .toUpperCase();
   return /[A-Z]/.test(plain) ? plain : "#";
+}
+
+function CompactRoster({
+  id,
+  heading,
+  clubName,
+  rows,
+}: {
+  id?: string;
+  heading: string;
+  clubName: string;
+  rows: ClubRosterRow[];
+}) {
+  const sorted = [...rows].sort((a, b) =>
+    a.summary.title.localeCompare(b.summary.title, "en", { sensitivity: "base" })
+  );
+  const groups = new Map<string, ClubRosterRow[]>();
+  for (const row of sorted) {
+    const letter = letterOf(row.summary.title);
+    const list = groups.get(letter) ?? [];
+    list.push(row);
+    groups.set(letter, list);
+  }
+
+  return (
+    <section id={id} className="scroll-mt-6 space-y-3">
+      <div className="flex flex-wrap items-end justify-between gap-2">
+        <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+          {heading}
+        </h2>
+        <p className="text-sm font-semibold text-galway-ink/45">
+          {rows.length === 1 ? "1 player" : `${rows.length} players`}
+        </p>
+      </div>
+      {rows.length === 0 ? (
+        <p className="text-sm text-galway-ink/55">No players are linked to {clubName} yet.</p>
+      ) : (
+        <div className="space-y-2">
+          {[...groups.entries()].map(([letter, group]) => (
+            <div key={letter} id={`players-${letter}`} className="flex gap-x-3 scroll-mt-6">
+              <span className="w-5 shrink-0 pt-0.5 text-sm font-bold text-galway-maroon">{letter}</span>
+              <ul className="flex flex-wrap gap-x-3 gap-y-1">
+                {group.map((row) => (
+                  <li key={row.summary.id} className="inline-flex items-baseline gap-1 text-sm">
+                    <Link
+                      href={row.summary.href}
+                      className="font-semibold text-galway-ink underline decoration-galway-ink/20 underline-offset-2 hover:text-galway-maroon"
+                    >
+                      {row.summary.title}
+                    </Link>
+                    {row.trust === "Verified" ? (
+                      <span className="text-[10px] font-bold uppercase tracking-wide text-green-800">
+                        Verified
+                      </span>
+                    ) : null}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  );
 }
 
 function AlphaRoster({

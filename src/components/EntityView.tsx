@@ -42,7 +42,7 @@ import {
 } from "@/lib/sources";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 import {
-  listFohenaghGames,
+  listFohenaghNotableGames,
   OWNER_VERIFIED_PLAYERS,
   REPLAY_PICTURE_ID,
 } from "@/lib/fohenaghShowcase";
@@ -83,7 +83,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
     : null;
   const replayCard = replayPicture ? articleToSummary(replayPicture) : null;
   const fohenaghImage = replayCard?.imagePath ? replayCard : heroCutting;
-  const fohenaghGames = isHistoricFohenagh ? listFohenaghGames(A) : [];
+  const fohenaghGames = isHistoricFohenagh ? listFohenaghNotableGames(A) : [];
 
   return (
     <article className="space-y-8">
@@ -202,26 +202,33 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         ) : null}
       </header>
 
-      {attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt ? (
+      {!isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
         <p className="text-lg leading-relaxed text-galway-ink">
           {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
         </p>
       ) : null}
 
-      {isHistoricFohenagh ? <PhotoComingSoon note="Championship team photo" /> : null}
-
-      {isHistoricFohenagh ? <NotableGames games={fohenaghGames} /> : null}
-
       {isHistoricFohenagh && summary.kind === "club" ? (
         <ClubRoster
           id="players"
           alphabetical
+          compact
           verifiedIds={OWNER_VERIFIED_PLAYERS}
           heading="Players who wore the jersey"
           rows={clubRoster}
           clubName={summary.title}
         />
       ) : null}
+
+      {isHistoricFohenagh ? <NotableGames games={fohenaghGames} /> : null}
+
+      {isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
+        <p className="text-lg leading-relaxed text-galway-ink">
+          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
+        </p>
+      ) : null}
+
+      {isHistoricFohenagh ? <PhotoComingSoon note="Championship team photo" /> : null}
 
       {isHistoricFohenagh ? <FurtherReading /> : null}
 
