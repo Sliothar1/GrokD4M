@@ -209,7 +209,10 @@ async function main() {
   );
   const brendanText = publicProfileText(brendan);
   assert.equal(brendan.headline, "Named with the Fohenagh Minor C champions, 1996");
+  assert.match(brendan.summary ?? "", /^Named with the Fohenagh Minor C champions, 1996/);
   assert.match(brendan.summary ?? "", /1990 underage team photograph/);
+  assert.match(brendan.summary ?? "", /Mountbellew Vocational School All Stars/);
+  assert.match(brendan.summary ?? "", /8 December 1995/);
   assert.doesNotMatch(brendanText, /substitut|\bsub\b|\bpanel\b|died|death|passed away|rising star/i);
 
   const otherClub = profileForPlayer(ctx, "player:pat-example", {

@@ -263,10 +263,5 @@
     "row": "player:cathal-lohan-fohenagh",
     "col": "same_as",
     "val": ""
-  },
-  {
-    "row": "player:cathal-lohan",
-    "col": "same_as",
-    "val": "player:cathal-lohan-fohenagh"
   }
 ]

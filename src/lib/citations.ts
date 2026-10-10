@@ -157,10 +157,9 @@ export function markCitations(
         candidates.find((item) => clickable(item) && scoreCandidate(sentence, item) > 0) ??
         (bookish
           ? candidates.find(
-              (item) => clickable(item) && /history of fohenagh|o'gorman|ogorman/i.test(item.title)
+              (item) => clickable(item) && /history of fohenagh|o'gorman|ogorman/i.test(`${item.title} ${item.href}`)
             )
-          : undefined) ??
-        candidates.find((item) => clickable(item));
+          : undefined);
       if (real) {
         previous = numberFor(real);
         return withMarker(sentence, previous);

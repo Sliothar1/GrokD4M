@@ -21,7 +21,7 @@ export function mergePlayerAttrRecords(
       continue;
     }
     if (String(out[key]) === text) continue;
-    if (/^(?:note|notes|book_note)(?:_\d+)?$/.test(key) && !String(out[key]).includes(text)) {
+    if (/^(?:note|notes|notable|book_note)(?:_\d+)?$/.test(key) && !String(out[key]).includes(text)) {
       let n = 2;
       while (out[`book_note_${n}`] != null) n += 1;
       out[`book_note_${n}`] = val;

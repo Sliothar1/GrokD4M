@@ -756,10 +756,15 @@ export function profileForPlayer(
     if (text) bookBits.push(text);
   }
   let summary = citedProse(attrs);
+  const citedHeadline =
+    Boolean(summary) &&
+    Boolean(headline) &&
+    /\((?:[^)]*(?:Tribune|Herald|Sentinel|Independent|Examiner)[^)]*)\)/i.test(summary ?? "");
   if (
     summary &&
     headline &&
-    summary.replace(/[.!?]+$/g, "") === headline.replace(/[.!?]+$/g, "")
+    summary.replace(/[.!?]+$/g, "") === headline.replace(/[.!?]+$/g, "") &&
+    !citedHeadline
   ) {
     summary = null;
   }
@@ -801,13 +806,7 @@ export function profileForPlayer(
   }
 
   let publicHeadline = scrubAmalgamHeader(headline);
-  let publicEra = eraLine;
-  if (id === "player:brendan-noone-fohenagh") {
-    publicHeadline = "Named with the Fohenagh Minor C champions, 1996";
-    publicEra = "Hurling, 1990s";
-    summary =
-      "Brendan Noone is named with the Fohenagh Minor C champions of 1996. A History of Fohenagh places him in the 1990 underage team photograph.";
-  }
+  const publicEra = eraLine;
   summary = shapePublicLead(summary);
   publicHeadline = shapePublicLead(publicHeadline);
 
@@ -942,13 +941,20 @@ export function profileForPlayer(
       addCandidate(art.cite || art.caption || art.credit || "The cutting", `/article/${articleId}`);
       if (art.sourceUrl) addCandidate(art.cite || "Irish Newspaper Archives", art.sourceUrl);
     }
-    for (const value of Object.values(attrs)) {
+    for (const [key, value] of Object.entries(attrs)) {
       const raw = String(value ?? "");
       const href = httpHref(raw);
       if (!href) continue;
+      const prose = /^source_notable/.test(key)
+        ? String(attrs.notable ?? "")
+        : /^source_notes/.test(key)
+          ? String(attrs.notes ?? "")
+          : "";
+      const paper = prose.match(/\(([^)]*(?:Tribune|Herald|Sentinel|Independent|Examiner)[^)]*)\)/i);
       const title = /wikipedia\.org/i.test(href)
         ? "Wikipedia"
-        : String(attrs.cutting_cite ?? attrs.book_cite ?? attrs.cite ?? "Source");
+        : paper?.[1] ||
+          String(attrs.cutting_cite ?? attrs.book_cite ?? attrs.cite ?? "Irish Newspaper Archives");
       addCandidate(title, href);
     }
     const marked = markCitations(summary, candidates);
@@ -956,12 +962,42 @@ export function profileForPlayer(
     if (marked.references.length > 0) citedRefs = marked.references;
   }
 
+  let leadHeadline = publicHeadline;
+  let leadEra = publicEra;
+  let leadSummary = citedSummary;
+  if (id === "player:brendan-noone-fohenagh") {
+    leadHeadline = "Named with the Fohenagh Minor C champions, 1996";
+    leadEra = "Hurling, 1990s";
+    const opener = "Named with the Fohenagh Minor C champions, 1996.";
+    const photo = "A History of Fohenagh places him in the 1990 underage team photograph.";
+    const rest = (citedSummary ?? "")
+      .replace(/Named with the Fohenagh Minor C champions, 1996\.?\s*/gi, "")
+      .replace(/Brendan Noone is named with the Fohenagh Minor C champions of 1996\.?\s*/gi, "")
+      .replace(/\bsubstitut\w*/gi, "")
+      .trim();
+    const bits = [opener];
+    if (!/1990 underage team photograph/i.test(rest)) bits.push(photo);
+    if (rest) bits.push(rest);
+    leadSummary = bits.join(" ");
+  }
+  if (
+    leadHeadline &&
+    leadSummary &&
+    /\((?:[^)]*(?:Tribune|Herald|Sentinel|Independent|Examiner)[^)]*)\)/i.test(leadHeadline)
+  ) {
+    const bare = leadHeadline.replace(/[.!?]+$/g, "").toLowerCase();
+    const marked = splitCiteSentences(leadSummary).find((sentence) =>
+      sentence.replace(/\[\d+\]/g, "").replace(/[.!?]+$/g, "").toLowerCase().startsWith(bare.slice(0, 48))
+    );
+    if (marked && /\[\d+\]/.test(marked)) leadHeadline = marked.replace(/[.!?]+$/g, "");
+  }
+
   return {
     slug,
     name,
-    headline: publicHeadline,
-    eraLine: publicEra,
-    summary: citedSummary,
+    headline: leadHeadline,
+    eraLine: leadEra,
+    summary: leadSummary,
     schoolsLine,
     framing: null,
     photoUrl,
