@@ -185,7 +185,22 @@ const articleSources = jim.sources.filter((source) =>
   source.href.startsWith("/article/")
 );
 const urlSources = jim.sources.filter((source) => source.href.startsWith("http"));
-assert.equal(articleSources.length, jimCuttings.length);
+const uncovered = jimCuttings.filter((cutting) => {
+  if (articleSources.some((source) => source.href === cutting.href)) return false;
+  const twin = jimCuttings.find((other) => {
+    if (other.id === cutting.id) return false;
+    if (!articleSources.some((source) => source.href === other.href)) return false;
+    const sameUrl = Boolean(cutting.sourceUrl) && other.sourceUrl === cutting.sourceUrl;
+    const sameImage = Boolean(cutting.imagePath) && other.imagePath === cutting.imagePath;
+    return sameUrl || sameImage;
+  });
+  return !twin;
+});
+assert.deepEqual(
+  uncovered.map((cutting) => cutting.id),
+  [],
+  "every tagged cutting is cited, or shares a permalink with one that is"
+);
 assert.equal(jim.sources.length, articleSources.length + urlSources.length);
 const notableHref = String(
   attrsFor("player:jim-moclair-fohenagh").source_notable ?? ""
