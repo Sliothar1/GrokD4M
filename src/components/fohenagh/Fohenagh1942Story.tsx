@@ -1,6 +1,11 @@
 import Link from "next/link";
+import { JsonLd } from "@/components/JsonLd";
+import { articleNode, breadcrumbNode, jsonLdGraph } from "@/lib/structuredData";
 
 const STORY_HREF = "/story/1942-north-board-blackguardism";
+const STORY_TITLE = "1942: From the North Board to Blackguardism at Athenry";
+const STORY_DECK =
+  "A North Board final, a county semi-final that was never finished, and an evening at the Royal Hotel. The words in quotation marks are the papers' words.";
 
 export { STORY_HREF };
 
@@ -11,10 +16,25 @@ export { STORY_HREF };
 export function Fohenagh1942Story() {
   return (
     <article className="fohenagh-poster mx-auto max-w-3xl space-y-8">
+      <JsonLd
+        data={jsonLdGraph([
+          articleNode({
+            headline: STORY_TITLE,
+            path: STORY_HREF,
+            description: STORY_DECK,
+            date: "1942",
+          }),
+          breadcrumbNode([
+            { name: "HurlingWiki", path: "/" },
+            { name: "Stories", path: "/stories" },
+            { name: STORY_TITLE, path: STORY_HREF },
+          ]),
+        ])}
+      />
       <header className="space-y-3">
         <p className="fohenagh-kicker">1942</p>
         <h1 className="text-3xl font-black tracking-tight text-galway-ink sm:text-4xl">
-          1942: From the North Board to Blackguardism at Athenry
+          {STORY_TITLE}
         </h1>
         <p className="text-base leading-relaxed text-galway-ink/75">
           A North Board final, a county semi-final that was never finished, and an evening at the

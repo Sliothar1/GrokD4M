@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CitedText, ReferenceList } from "@/components/CitedText";
+import { JsonLd } from "@/components/JsonLd";
 import { FohenaghPlayerBand } from "@/components/fohenagh/FohenaghArt";
 import { PlayerGamesSelect } from "@/components/player/PlayerGamesSelect";
 import { TerraceNotes } from "@/components/player/TerraceNotes";
@@ -8,6 +9,12 @@ import type { getEntity } from "@/lib/data";
 import { getAssoc } from "@/lib/data";
 import { playerClubChips } from "@/lib/playerClubs";
 import { loadPlayerProfile, type PublicPlayerProfile } from "@/lib/playerProfile";
+import {
+  breadcrumbNode,
+  jsonLdGraph,
+  personNode,
+  publicPlayerPath,
+} from "@/lib/structuredData";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
@@ -21,10 +28,9 @@ const FOHENAGH_HISTORIC = "club:fohenagh-historic";
 export async function PlayerView({ data }: { data: EntityPayload }) {
   const profile = await loadPlayerProfile(data.id, data.attrs);
   const A = await getAssoc();
-  const woreFohenagh = playerClubChips(data.id, data.attrs, data.related, A).some(
-    (club) => club.id === FOHENAGH_HISTORIC
-  );
-  const sheet = <PlayerProfileView profile={profile} poster={woreFohenagh} />;
+  const clubs = playerClubChips(data.id, data.attrs, data.related, A);
+  const woreFohenagh = clubs.some((club) => club.id === FOHENAGH_HISTORIC);
+  const sheet = <PlayerProfileView profile={profile} poster={woreFohenagh} clubs={clubs} />;
   if (!woreFohenagh) return sheet;
   return (
     <div className="fohenagh-poster fohenagh-poster-player">
@@ -37,12 +43,40 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
 export function PlayerProfileView({
   profile,
   poster = false,
+  clubs = [],
 }: {
   profile: PublicPlayerProfile;
   poster?: boolean;
+  clubs?: Array<{ name: string; href: string; title?: string }>;
 }) {
+  const path = publicPlayerPath(profile.slug);
+  const description = [profile.eraLine, profile.headline, profile.summary]
+    .map((part) => (part ?? "").trim().replace(/[.]+$/g, ""))
+    .filter(Boolean)
+    .join(". ");
+  const teams = new Map<string, { name: string; path: string }>();
+  for (const club of clubs) {
+    teams.set(club.href, { name: club.title || club.name, path: club.href });
+  }
+  for (const club of profile.alsoPlayed) teams.set(club.href, { name: club.name, path: club.href });
   return (
     <article className={poster ? "fohenagh-sheet space-y-10" : "space-y-8"}>
+      <JsonLd
+        data={jsonLdGraph([
+          personNode({
+            name: profile.name,
+            path,
+            description,
+            image: profile.photoUrl,
+            teams: [...teams.values()],
+          }),
+          breadcrumbNode([
+            { name: "HurlingWiki", path: "/" },
+            { name: "Players", path: "/browse/players" },
+            { name: profile.name, path },
+          ]),
+        ])}
+      />
       <header className="flex min-w-0 items-start gap-5 sm:gap-6">
         <div className="shrink-0">
           {profile.photoUrl ? (
@@ -75,7 +109,7 @@ export function PlayerProfileView({
             <p className="mt-1 max-w-28 text-center">
               <Link
                 href={profile.photoAddHref}
-                className="text-[10px] text-galway-ink/40 underline decoration-galway-ink/15 underline-offset-2"
+                className="inline-flex min-h-6 min-w-6 items-center justify-center text-[10px] text-galway-ink/40 underline decoration-galway-ink/15 underline-offset-2"
               >
                 {profile.photoAddLabel}
               </Link>

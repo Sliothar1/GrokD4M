@@ -3,10 +3,9 @@ import Link from "next/link";
 import { ArticleUploadForm } from "@/components/ArticleUploadForm";
 import { EmptyTeach, EntityCard } from "@/components/EntityCard";
 import { articleToSummary, readArticleUploads } from "@/lib/articles";
+import { withPageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Contribute",
-};
+export const metadata: Metadata = withPageMeta({ title: "Contribute", path: "/contribute" });
 
 export const dynamic = "force-dynamic";
 

@@ -7,13 +7,15 @@ import {
 } from "@/app/editor/actions";
 import { listOpenQueue, StoreNotConfiguredError, type OpenQueueRow } from "@/lib/corrections/store";
 import { editorPasswordConfigured, editorUnlocked } from "@/lib/editorGate";
+import { withPageMeta } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withPageMeta({
   title: "Editor",
+  path: "/editor",
   robots: { index: false, follow: false },
-};
+});
 
 const NOTICES: Record<string, string> = {
   denied: "That password was not accepted.",

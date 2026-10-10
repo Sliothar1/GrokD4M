@@ -5,13 +5,15 @@ import { MemoryForm } from "@/components/MemoryForm";
 import { correctionsFormEnabled } from "@/lib/corrections/config";
 import { normalisePage } from "@/lib/corrections/validate";
 import { getEntity } from "@/lib/data";
+import { withPageMeta } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withPageMeta({
   title: "Share a memory or a match you remember",
+  path: "/memories",
   robots: { index: false, follow: false },
-};
+});
 
 export default async function MemoriesPage({
   searchParams,

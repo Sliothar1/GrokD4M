@@ -46,7 +46,7 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={entity.imagePath}
-          alt=""
+          alt={`Picture for ${entity.title}`}
           className="h-36 w-full object-cover bg-galway-cream"
         />
       )}

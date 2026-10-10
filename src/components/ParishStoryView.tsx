@@ -1,10 +1,29 @@
 import Link from "next/link";
 import { CitedText, ReferenceList } from "@/components/CitedText";
+import { JsonLd } from "@/components/JsonLd";
 import { storyText, type ParishStory } from "@/lib/parishStories";
+import { articleNode, breadcrumbNode, jsonLdGraph } from "@/lib/structuredData";
 
 export function ParishStoryView({ story }: { story: ParishStory }) {
+  const path = `/story/${story.slug}`;
   return (
     <article className="space-y-8">
+      <JsonLd
+        data={jsonLdGraph([
+          articleNode({
+            headline: story.title,
+            path,
+            description: storyText(story),
+            date: story.year,
+            citation: story.references.map((ref) => ref.title).join("; "),
+          }),
+          breadcrumbNode([
+            { name: "HurlingWiki", path: "/" },
+            { name: "Stories", path: "/stories" },
+            { name: story.title, path },
+          ]),
+        ])}
+      />
       <header className="space-y-2">
         <p className="text-sm font-bold uppercase tracking-[0.14em] text-galway-maroon">
           Story · {story.year}

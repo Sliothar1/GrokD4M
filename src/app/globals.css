@@ -32,6 +32,15 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
+main:focus {
+  outline: none;
+}
+
+main:focus-visible {
+  outline: 3px solid #8a6d12;
+  outline-offset: 4px;
+}
+
 /*
  * Fohenagh poster. Scoped to players who wore club:fohenagh-historic
  * and to that club page. Other clubs keep the site maroon.
@@ -373,9 +382,43 @@ body {
   text-underline-offset: 3px;
 }
 
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link:focus {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  z-index: 100;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  border-radius: 999px;
+  background: #142a68;
+  color: #fff;
+  font-weight: 700;
+  outline: 3px solid #f6e27a;
+}
+
 .nav-link,
 .nav-menu > summary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  min-width: 24px;
   cursor: pointer;
   border-radius: 999px;
   padding: 0.45rem 0.75rem;
@@ -422,7 +465,10 @@ body {
 }
 
 .nav-menu a {
-  display: block;
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  min-width: 24px;
   border-radius: 0.6rem;
   padding: 0.4rem 0.6rem;
   font-weight: 650;
@@ -453,7 +499,8 @@ header .ask-form label {
 }
 
 .ask-row input {
-  min-width: 0;
+  min-width: 24px;
+  min-height: 24px;
   flex: 1;
   border-radius: 999px;
   border: 0;
@@ -463,6 +510,8 @@ header .ask-form label {
 }
 
 .ask-row button {
+  min-height: 24px;
+  min-width: 24px;
   border-radius: 999px;
   background: var(--galway-gold);
   padding: 0.55rem 0.9rem;

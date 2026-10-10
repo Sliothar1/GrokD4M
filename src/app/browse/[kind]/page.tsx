@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { listBrowsePlayers } from "@/lib/browsePlayers";
 import { getAssoc } from "@/lib/data";
 import { PARISH_STORIES } from "@/lib/parishStories";
+import { withPageMeta } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
@@ -21,7 +22,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { kind } = await params;
   const title = isKind(kind) ? kind.charAt(0).toUpperCase() + kind.slice(1) : "Browse";
-  return { title };
+  return withPageMeta({ title, path: `/browse/${kind}` });
 }
 
 function decadeOf(year: number): string {

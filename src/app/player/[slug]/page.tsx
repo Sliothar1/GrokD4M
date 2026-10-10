@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
 import { getEntity, resolveId } from "@/lib/data";
+import { withPageMeta } from "@/lib/site";
 import { CANONICAL_PLAYER_SLUG } from "@/lib/playerSlug";
 import {
   getPlayerRedirectIndex,
@@ -27,7 +28,16 @@ export async function generateMetadata({
   const decision = resolvePlayerSlug(slug, index);
   const served = decision.status === 308 ? decision.target : decision.status === 200 ? decision.slug : "";
   const data = served ? await getEntity(resolveId("player", served)) : null;
-  return { title: data?.summary.title ?? "Search" };
+  const path =
+    decision.status === 308
+      ? `/player/${decision.target}`
+      : decision.status === 307
+        ? decision.target
+        : `/player/${decision.status === 200 ? decision.slug : slug}`;
+  return withPageMeta({
+    title: data?.summary.title ?? "Search",
+    path,
+  });
 }
 
 export default async function Page({

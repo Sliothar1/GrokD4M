@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { AskForm } from "@/components/AskForm";
 import { askRecords } from "@/lib/askRecords";
+import { withPageMeta } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Ask a question" };
+export const metadata: Metadata = withPageMeta({ title: "Ask a question", path: "/ask" });
 export const dynamic = "force-dynamic";
 
 export default async function AskPage({

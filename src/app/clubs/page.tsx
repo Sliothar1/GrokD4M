@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAssoc, summarizeEntity } from "@/lib/data";
+import { withPageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Find a club",
-};
+export const metadata: Metadata = withPageMeta({ title: "Find a club", path: "/clubs" });
 
 export default async function ClubsPage() {
   const A = await getAssoc();

@@ -7,9 +7,9 @@ import { officialStories, readPendingStories } from "@/lib/data";
 import { PARISH_STORIES } from "@/lib/parishStories";
 import { articleToSummary, readArticleUploads } from "@/lib/articles";
 
-export const metadata: Metadata = {
-  title: "Stories",
-};
+import { withPageMeta } from "@/lib/site";
+
+export const metadata: Metadata = withPageMeta({ title: "Stories", path: "/stories" });
 
 export const dynamic = "force-dynamic";
 
