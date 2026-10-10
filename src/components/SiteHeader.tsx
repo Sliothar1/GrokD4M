@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SearchBox } from "@/components/SearchBox";
 
 const links = [
   { href: "/search", label: "Find a name" },
@@ -26,6 +27,9 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
+      </div>
+      <div className="mx-auto max-w-5xl px-4 pb-4">
+        <SearchBox />
       </div>
     </header>
   );

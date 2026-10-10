@@ -12,6 +12,7 @@ import {
   articleToSummary,
   getArticleUpload,
   getLinkedArticleSummaries,
+  readArticleUploads,
   invalidateBlobMetaCache,
   searchArticleUploads,
 } from "@/lib/articles";
@@ -670,7 +671,7 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
 }
 
 /**
- * Kid-facing search: player / club / team name hits only.
+ * Name search: player / club / team hits only.
  * Cuttings, matches, and panel rows stay on entity pages — not the result list.
  * Each player id appears once (no Cathal Mannion × N appearance rows).
  */
@@ -690,6 +691,60 @@ export async function searchPrimaryEntities(query: string): Promise<EntitySummar
     out.push(summary);
   }
   return collapseToUniquePlayers(out);
+}
+
+/**
+ * Wiki search: people, the games those people played, and clippings that name them.
+ * Fada folding stays in the name match underneath.
+ */
+export async function searchWiki(query: string): Promise<EntitySummary[]> {
+  const people = await searchPrimaryEntities(query);
+  const out: EntitySummary[] = [...people];
+  const seen = new Set(out.map((item) => item.id));
+  const A = await getAssoc();
+  const playerIds = people
+    .filter((item) => item.kind === "player")
+    .slice(0, 6)
+    .map((item) => item.id);
+  const want = new Set(playerIds);
+  if (want.size > 0) {
+    const matchIds: string[] = [];
+    for (const triple of A.getcol("player")) {
+      if (!String(triple.row).startsWith("appearance:")) continue;
+      if (!want.has(String(triple.val))) continue;
+      const matchId = String(A.entityAttrs(triple.row).match ?? "");
+      if (!matchId.startsWith("match:") || seen.has(matchId) || matchIds.includes(matchId)) continue;
+      matchIds.push(matchId);
+    }
+    for (const matchId of matchIds.slice(0, 24)) {
+      const summary = summarizeEntity(matchId, A);
+      if (!summary || seen.has(summary.id)) continue;
+      seen.add(summary.id);
+      out.push(summary);
+    }
+    let clips = 0;
+    for (const upload of await readArticleUploads()) {
+      if (clips >= 12) break;
+      if (!upload.playerTags?.some((tag) => want.has(tag))) continue;
+      const summary = articleToSummary(upload);
+      if (seen.has(summary.id)) continue;
+      seen.add(summary.id);
+      out.push(summary);
+      clips += 1;
+    }
+  }
+  if (people.length === 0) {
+    let extra = 0;
+    for (const hit of await searchEntities(query)) {
+      if (extra >= 16) break;
+      if (seen.has(hit.id)) continue;
+      if (hit.kind !== "match" && hit.kind !== "article_upload") continue;
+      seen.add(hit.id);
+      out.push(hit);
+      extra += 1;
+    }
+  }
+  return out;
 }
 
 const CITE_OVERLAY_COLS = [
