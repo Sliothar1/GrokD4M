@@ -28,6 +28,35 @@ export function SiteFooter() {
         <p className="text-xs text-galway-ink/50">
           HurlingWiki was designed and built by Garry Lohan, on MIT&apos;s D4M data model.
         </p>
+        <p className="flex items-start gap-2 text-sm leading-relaxed text-galway-ink/65">
+          <span
+            role="img"
+            title="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
+            aria-label="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
+            className="mt-0.5 inline-flex h-5 shrink-0 items-center rounded-full bg-galway-maroon px-1.5 text-[10px] font-bold leading-none tracking-wide text-galway-cream"
+          >
+            G
+          </span>
+          <span>
+            <span className="font-semibold text-galway-ink/75">How it was built. </span>
+            Built with help from{" "}
+            <a
+              href="https://x.ai"
+              className="font-bold text-galway-maroon hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Grok Bot
+            </a>
+            <sup
+              title="The answer to life, the universe and everything"
+              className="ml-px align-super text-[9px] font-medium text-galway-ink/40"
+            >
+              42
+            </sup>, an AI assistant, for research and coding — every fact is cited and checked
+            before it goes live.
+          </span>
+        </p>
       </div>
     </footer>
   );
