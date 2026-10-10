@@ -1,11 +1,18 @@
-import { DeveloperTriples } from "@/components/DeveloperTriples";
+import Link from "next/link";
+import {
+  ParishLinks,
+  RememberedNote,
+  SweeneyMark,
+} from "@/components/fohenagh/FohenaghBlocks";
 import {
   CuttingExcerpts,
   type CuttingCard,
 } from "@/components/player/CuttingExcerpts";
 import { InThePapers } from "@/components/player/InThePapers";
+import { FohenaghRecordView } from "@/components/player/FohenaghRecord";
 import { NotableIntro } from "@/components/player/NotableIntro";
 import { PlayerCareer } from "@/components/player/PlayerCareer";
+import { CareerTimeline, FactBox } from "@/components/player/CitedAside";
 import { ProfileStrip } from "@/components/player/ProfileStrip";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
@@ -30,9 +37,18 @@ import {
 } from "@/lib/entityDisplay";
 import { playerClubChips } from "@/lib/playerClubs";
 import {
-  playerPhotoUploadHref,
-  resolvePlayerPhoto,
-} from "@/lib/playerPhoto";
+  OWNER_VERIFIED_PLAYERS,
+  SWEENEY_PROFILE_IDS,
+  TEAM_1959,
+} from "@/lib/fohenaghShowcase";
+import { buildFohenaghRecord } from "@/lib/fohenaghRecord";
+import {
+  citedPlayerYears,
+  fohenaghAbout,
+  woreTheJersey,
+} from "@/lib/fohenaghPlayerIntro";
+import { hasPlayQualifier, publicHeading, scrubPublicCopy } from "@/lib/publicCopy";
+import { resolvePlayerPhoto } from "@/lib/playerPhoto";
 import {
   cuttingFactKey,
   resolveEntitySources,
@@ -45,13 +61,32 @@ import {
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
+/** A plain cross-link. No relationship is stated. */
+function SeeAlsoCoen({ id }: { id: string }) {
+  const other =
+    id === "player:mick-coen-fohenagh"
+      ? { href: "/player/mike-coen-fohenagh", name: "Mike Coen" }
+      : id === "player:mike-coen-fohenagh"
+        ? { href: "/player/mick-coen-fohenagh", name: "Mick Coen" }
+        : null;
+  if (!other) return null;
+  return (
+    <p className="text-sm text-galway-ink/80">
+      <span className="font-bold uppercase tracking-[0.14em] text-galway-maroon">See also</span>{" "}
+      <Link href={other.href} className="font-semibold text-galway-maroon underline">
+        {other.name}
+      </Link>
+    </p>
+  );
+}
+
 /**
  * Locked ALL-player profile order — do not reorder:
  * 1) Profile strip  2) Notable (+ secondary note)  3) In the papers
- * 4) Excerpts  5) Career / related  6) Sources  7) For developers
+ * 4) Excerpts  5) Career / related  6) Sources
  */
 export async function PlayerView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const slug = id.startsWith("player:") ? id.slice("player:".length) : id;
 
@@ -61,8 +96,9 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       .map(
         (r): CuttingCard => ({
           id: r.id,
-          title: r.title,
-          excerpt: r.excerpt,
+          title: publicHeading(r.title, r.citeChip || "Newspaper cutting"),
+          excerpt:
+            r.excerpt && !hasPlayQualifier(r.excerpt) ? r.excerpt : undefined,
           citeChip: r.citeChip,
           imagePath: r.imagePath,
           href: r.href,
@@ -108,10 +144,92 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
   const badgeFor = (factKey: string) => (
     <VerificationBadge status={statusOf(factKey)} fact={factKey} />
   );
-  const profileStatus = headlineVerificationStatus(
-    citations.facts,
-    isPlayerIdentityFact
-  );
+  const profileStatus = OWNER_VERIFIED_PLAYERS.has(id)
+    ? "verified"
+    : headlineVerificationStatus(citations.facts, isPlayerIdentityFact);
+  const beingVerified = String(attrs.status ?? "") === "being_verified";
+  const remembered =
+    typeof attrs.remembered === "string" && attrs.remembered.trim()
+      ? attrs.remembered.trim()
+      : null;
+  const onFohenagh = clubs.some((club) => club.id === "club:fohenagh-historic");
+  const on1959 = (TEAM_1959 as readonly string[]).includes(id);
+  const wore = onFohenagh
+    ? woreTheJersey(
+        citedPlayerYears([
+          notable,
+          playerArchiveNote(attrs),
+          playerNotesText(attrs),
+          ...related.map((item) =>
+            [item.title, item.subtitle, item.seasonChip, item.citeChip, item.excerpt].join(" ")
+          ),
+          ...cuttings.map((cutting) =>
+            [cutting.title, cutting.citeChip, cutting.excerpt].join(" ")
+          ),
+        ])
+      )
+    : null;
+  const aboutRaw = fohenaghAbout(id, notable, wore);
+  const about = scrubPublicCopy(aboutRaw) ?? (wore ? scrubPublicCopy(wore) : null);
+  const record = onFohenagh ? await buildFohenaghRecord(id, A) : null;
+  const era = record?.era ?? null;
+  const factRows = [
+    { label: "Name", value: summary.title },
+    clubs.length > 0
+      ? { label: "Club", value: clubs.map((club) => club.name).join(", ") }
+      : null,
+    on1959 ? { label: "Era", value: "Fohenagh · 1959 county champions" } : null,
+    isDisplayableVal(attrs.position)
+      ? { label: "Position", value: String(attrs.position) }
+      : null,
+    [attrs.all_ireland_medals, attrs.all_stars].some((value) => isDisplayableVal(value))
+      ? {
+          label: "Honours",
+          value: [attrs.all_ireland_medals, attrs.all_stars]
+            .filter((value) => isDisplayableVal(value))
+            .map(String)
+            .join(" · "),
+        }
+      : null,
+  ].filter((row): row is { label: string; value: string } => row !== null);
+
+  const yearIn = (value?: string | null) => value?.match(/\b((?:19|20)\d{2})\b/)?.[1] ?? null;
+  const seenTimeline = new Set<string>();
+  const timeline = [
+    ...related
+      .filter((item) => item.kind === "appearance")
+      .map((item) => {
+        const year = yearIn(item.seasonChip) ?? yearIn(item.subtitle) ?? yearIn(item.title);
+        const label = [item.kindLabel ?? item.badge, item.subtitle].filter(Boolean).join(" · ") || item.title;
+        return year ? { key: item.id, year, label } : null;
+      }),
+    ...cuttings.map((cutting) => {
+      const year = yearIn(cutting.citeChip) ?? yearIn(cutting.title);
+      return year
+        ? { key: cutting.id, year, label: cutting.citeChip || cutting.title, href: cutting.href }
+        : null;
+    }),
+  ]
+    .filter((item): item is { key: string; year: string; label: string; href?: string } => item !== null)
+    .sort((a, b) => a.year.localeCompare(b.year) || a.label.localeCompare(b.label))
+    .filter((item) => {
+      const stamp = `${item.year}|${item.label}`;
+      if (seenTimeline.has(stamp)) return false;
+      seenTimeline.add(stamp);
+      return true;
+    })
+    .slice(0, 6);
+
+  const paperThumbs: Record<string, { src: string; href: string; alt: string }> = {};
+  for (const cutting of cuttings) {
+    if (!cutting.imagePath) continue;
+    const articleId = cutting.id.replace(/^article:/, "");
+    paperThumbs[articleId] = {
+      src: cutting.imagePath,
+      href: cutting.href,
+      alt: cutting.title,
+    };
+  }
 
   const citeFor = (factKey: string) => (
     <CiteMarkers
@@ -149,46 +267,73 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         clubs={clubs}
         countyName={countyName}
         photoUrl={resolvePlayerPhoto(slug, attrs)}
-        photoUploadHref={playerPhotoUploadHref(id)}
         verification={profileStatus}
         clubStatus={clubs.length > 0 ? statusOf("club") : undefined}
-        clubCite={citeFor("club")}
-        clubBadge={clubs.length > 0 ? badgeFor("club") : undefined}
+        clubCite={onFohenagh || beingVerified ? undefined : citeFor("club")}
+        clubBadge={
+          clubs.length > 0 && !beingVerified && !onFohenagh ? badgeFor("club") : undefined
+        }
+        nameMark={SWEENEY_PROFILE_IDS.has(id) ? <SweeneyMark /> : undefined}
+        era={era}
+        beingVerified={beingVerified}
       />
 
-      <NotableIntro
-        notable={notable}
-        note={note}
-        notes={notes}
-        notableCite={citeFor("notable")}
-        noteCite={citeFor("note")}
-        notesCite={citeFor("notes")}
-        notableBadge={notable ? badgeFor("notable") : undefined}
-        noteBadge={note ? badgeFor("note") : undefined}
-        notesBadge={notes ? badgeFor("notes") : undefined}
-        notableStatus={notable ? statusOf("notable") : undefined}
-        noteStatus={note ? statusOf("note") : undefined}
-        notesStatus={notes ? statusOf("notes") : undefined}
-      />
+      {onFohenagh ? null : <FactBox rows={factRows} />}
 
-      <InThePapers lines={papers} />
+      {onFohenagh ? <ParishLinks show1959={on1959} /> : null}
 
-      <CuttingExcerpts cuttings={citedCuttings} />
+      {onFohenagh && record ? (
+        <FohenaghRecordView about={about} games={record.games} teammates={record.teammates} />
+      ) : (
+        <NotableIntro
+          notable={scrubPublicCopy(notable)}
+          note={scrubPublicCopy(note)}
+          notes={scrubPublicCopy(notes)}
+          notableCite={notable ? citeFor("notable") : undefined}
+          noteCite={citeFor("note")}
+          notesCite={citeFor("notes")}
+          notableBadge={notable ? badgeFor("notable") : undefined}
+          noteBadge={note ? badgeFor("note") : undefined}
+          notesBadge={notes ? badgeFor("notes") : undefined}
+          notableStatus={notable ? statusOf("notable") : undefined}
+          noteStatus={note ? statusOf("note") : undefined}
+          notesStatus={notes ? statusOf("notes") : undefined}
+        />
+      )}
 
-      <PlayerCareer
-        attrs={attrs}
-        related={related}
-        assoc={A}
-        source={source}
-        kidChip={kidChip}
-        factCites={factCites}
-        factBadges={factBadges}
-        factStatuses={factStatuses}
-      />
+      <SeeAlsoCoen id={id} />
 
-      <SourcesPanel sources={citations.sources} legend />
+      {remembered && scrubPublicCopy(remembered) ? (
+        <RememberedNote text={scrubPublicCopy(remembered) ?? ""} />
+      ) : null}
 
-      <DeveloperTriples triples={triples} />
+      {onFohenagh ? null : (
+        <>
+          <CareerTimeline items={timeline} />
+
+          <InThePapers
+            lines={papers.filter(
+              (line) => !hasPlayQualifier(`${line.before} ${line.linkText} ${line.after}`)
+            )}
+            thumbs={paperThumbs}
+          />
+
+          <CuttingExcerpts cuttings={citedCuttings} />
+
+          <PlayerCareer
+            attrs={attrs}
+            related={related}
+            assoc={A}
+            source={source}
+            kidChip={kidChip}
+            factCites={factCites}
+            factBadges={factBadges}
+            factStatuses={factStatuses}
+          />
+
+          <SourcesPanel sources={citations.sources} legend />
+        </>
+      )}
     </article>
   );
 }

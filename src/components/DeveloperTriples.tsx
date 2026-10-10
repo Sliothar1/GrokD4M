@@ -23,6 +23,10 @@ export async function DeveloperTriples({
       t.col !== "confidence" &&
       // Internal confirmation markers stay off public pages.
       t.col !== "confirmed_by_family" &&
+      // Club memory is not a cited triple for the public page.
+      t.col !== "remembered" &&
+      t.col !== "brother" &&
+      t.col !== "source_brother" &&
       !t.col.endsWith("_basis") &&
       !isPressPraiseAttr(t.col) &&
       isDisplayableVal(t.val) &&

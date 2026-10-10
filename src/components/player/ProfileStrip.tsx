@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ClubChip } from "@/components/chips";
 import { VerificationBadge } from "@/components/sources/VerificationBadge";
 import type { ClubChipData } from "@/lib/playerClubs";
@@ -9,17 +8,24 @@ export function ProfileStrip({
   clubs,
   countyName,
   photoUrl,
-  photoUploadHref,
   verification,
   clubStatus,
   clubCite,
   clubBadge,
+  nameMark,
+  era,
+  beingVerified = false,
 }: {
   name: string;
   clubs: ClubChipData[];
   countyName?: string;
   photoUrl: string | null;
-  photoUploadHref: string;
+  /** Small mark beside the name, such as the Sweeney shield. */
+  nameMark?: React.ReactNode;
+  /** Club and era, kept separate from the cited lead. */
+  era?: string | null;
+  /** Club memory still being checked. Replaces the source badge. */
+  beingVerified?: boolean;
   /**
    * Identity grade. Verified only when an identity fact has a Verified
    * source. Confidence and a cutting cite string do not set this.
@@ -35,23 +41,29 @@ export function ProfileStrip({
 
   return (
     <header className="flex min-w-0 items-start gap-4 sm:gap-5">
-      <ProfilePhotoSlot
-        name={name}
-        photoUrl={photoUrl}
-        uploadHref={photoUploadHref}
-      />
+      <ProfilePhotoSlot name={name} photoUrl={photoUrl} />
       <div className="min-w-0 flex-1 space-y-2.5 pt-0.5">
         <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon">
           Player
         </p>
-        <h1 className="text-[1.85rem] font-black leading-[1.1] tracking-tight text-galway-ink sm:text-5xl">
+        <h1 className="text-[1.85rem] leading-[1.1] tracking-tight text-galway-ink sm:text-5xl">
           {name}
+          {nameMark}
         </h1>
+        {era ? (
+          <p className="text-sm font-semibold text-galway-ink/70">{era}</p>
+        ) : null}
         <div
           className="flex max-w-full flex-wrap items-center gap-1.5"
           aria-label="Trust and club jerseys"
         >
-          <VerificationBadge status={verification} fact="profile" />
+          {beingVerified ? (
+            <span className="inline-flex max-w-full items-center rounded-full bg-amber-100 px-2 py-0.5 text-sm font-bold leading-5 text-amber-950">
+              Being verified
+            </span>
+          ) : (
+            <VerificationBadge status={verification} fact="profile" />
+          )}
           {clubs.map((c) => (
             <ClubChip
               key={c.id}
@@ -77,11 +89,9 @@ export function ProfileStrip({
 function ProfilePhotoSlot({
   name,
   photoUrl,
-  uploadHref,
 }: {
   name: string;
   photoUrl: string | null;
-  uploadHref: string;
 }) {
   if (photoUrl) {
     return (
@@ -97,19 +107,10 @@ function ProfilePhotoSlot({
   }
 
   return (
-    <Link
-      href={uploadHref}
-      className="flex h-24 w-24 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-dashed border-galway-maroon/30 bg-white/70 text-center transition hover:border-galway-maroon hover:bg-white focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold sm:h-28 sm:w-28"
-    >
-      <span
-        aria-hidden
-        className="flex h-8 w-8 items-center justify-center rounded-full bg-galway-maroon text-base font-black text-galway-gold"
-      >
-        +
-      </span>
-      <span className="px-2 text-[11px] font-bold text-galway-maroon">
-        Add photo
-      </span>
-    </Link>
+    <figure className="flex h-24 w-24 shrink-0 flex-col items-center justify-center rounded-2xl border border-dashed border-galway-maroon/25 bg-[var(--hw-paper,#f7f1e8)] px-2 text-center sm:h-28 sm:w-28">
+      <figcaption className="text-[11px] font-semibold leading-snug text-galway-ink/55">
+        Photo coming soon
+      </figcaption>
+    </figure>
   );
 }

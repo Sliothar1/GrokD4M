@@ -4,14 +4,19 @@ import { ArticleClipSection } from "@/components/ArticleClip";
 import {
   AhascraghStoryChips,
   AhascraghTitleChips,
-  HistoricClubPanel,
   HistoricPredecessorChip,
   HistoricStoryChips,
   LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
 import { ClubRoster } from "@/components/club/ClubRoster";
 import { DualEraStrip } from "@/components/club/DualEraStrip";
-import { DeveloperTriples } from "@/components/DeveloperTriples";
+import {
+  CrestPlaceholder,
+  FurtherReading,
+  MoreGreatGames,
+  NotableGames,
+  PhotoComingSoon,
+} from "@/components/fohenagh/FohenaghBlocks";
 import {
   displayNameForRef,
   friendlyAttrLabel,
@@ -21,8 +26,8 @@ import {
   type getEntity,
 } from "@/lib/data";
 import type { AssocArray } from "@/lib/d4m/AssocArray";
-import { loadCitationUploads } from "@/lib/articles";
-import { resolveEntityHero } from "@/lib/heroCutting";
+import { articleToSummary, getArticleUpload, loadCitationUploads } from "@/lib/articles";
+import { isNameHighlightSnip, resolveEntityHero } from "@/lib/heroCutting";
 import { CiteMarkers } from "@/components/sources/CiteMarker";
 import { SourcesPanel } from "@/components/sources/SourcesPanel";
 import {
@@ -37,11 +42,19 @@ import {
   type LinkedCuttingSource,
 } from "@/lib/sources";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
+import { fohenaghRosterYears } from "@/lib/fohenaghRecord";
+import { hasPlayQualifier, publicCite, publicHeading, scrubPublicCopy } from "@/lib/publicCopy";
+import {
+  listFohenaghMoreGames,
+  listFohenaghNotableGames,
+  OWNER_VERIFIED_PLAYERS,
+  REPLAY_PICTURE_ID,
+} from "@/lib/fohenaghShowcase";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
 export async function EntityView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
   const trust =
@@ -53,10 +66,11 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   const isHistoricFohenagh = id === "club:fohenagh-historic";
   const isHistoricAhascragh = id === "club:ahascragh-historic";
   const isHistoricMatch =
-    id.startsWith("match:fohenagh-historic-") ||
-    id.startsWith("match:ahascragh-historic-") ||
-    String(attrs.tag ?? "") === "historic-predecessor" ||
-    String(attrs.tag ?? "") === "fohenagh-historic";
+    id.startsWith("match:") &&
+    (id.startsWith("match:fohenagh-historic-") ||
+      id.startsWith("match:ahascragh-historic-") ||
+      String(attrs.tag ?? "") === "historic-predecessor" ||
+      String(attrs.tag ?? "") === "fohenagh-historic");
   const hideScore =
     attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
   const cuttingCards = related.filter((r) => r.kind === "article_upload");
@@ -68,6 +82,25 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   });
   const clubRoster =
     summary.kind === "club" ? await listClubRoster(id, A) : [];
+  const rosterYears = isHistoricFohenagh
+    ? await fohenaghRosterYears(
+        clubRoster.map((row) => row.summary.id),
+        A
+      )
+    : null;
+  const fohenaghRoster = rosterYears
+    ? clubRoster.map((row) => ({
+        ...row,
+        years: rosterYears.get(row.summary.id) ?? [],
+      }))
+    : clubRoster;
+  const replayPicture = isHistoricFohenagh
+    ? await getArticleUpload(REPLAY_PICTURE_ID)
+    : null;
+  const replayCard = replayPicture ? articleToSummary(replayPicture) : null;
+  const fohenaghImage = replayCard?.imagePath ? replayCard : heroCutting;
+  const fohenaghGames = isHistoricFohenagh ? listFohenaghNotableGames(A) : [];
+  const fohenaghMoreGames = isHistoricFohenagh ? listFohenaghMoreGames(A) : [];
 
   return (
     <article className="space-y-8">
@@ -75,9 +108,44 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">
           {summary.kind.replace("_", " ")}
         </p>
-        <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">
+        {isHistoricFohenagh ? (
+          <div id="champions-1959" className="hw-hero scroll-mt-6">
+            <CrestPlaceholder />
+            <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-[#d9c79a]">
+              Fohenagh · 1959
+            </p>
+            <h1 className="mt-2 max-w-3xl text-4xl sm:text-5xl">Fohenagh</h1>
+            <p className="hw-serif mt-2 max-w-2xl text-xl text-[#f7f3ea]/85">
+              The 1959 county final replay, from the Connacht Tribune.
+            </p>
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+              {publicCite(fohenaghImage?.citeChip) ? (
+                <span className="rounded-full border border-white/30 px-3 py-1 text-sm font-semibold">
+                  {publicCite(fohenaghImage?.citeChip)}
+                </span>
+              ) : null}
+              {fohenaghImage ? (
+                <Link href={fohenaghImage.href} className="text-sm font-bold text-[#f7f3ea] underline">
+                  Read the original clipping
+                </Link>
+              ) : null}
+            </div>
+            {fohenaghImage?.imagePath ? (
+              <Link href={fohenaghImage.href} className="mt-5 block overflow-hidden rounded-2xl border border-white/20 bg-[#f7f1e8]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={fohenaghImage.imagePath}
+                  alt="Connacht Tribune team picture after Fohenagh's 1959 replay"
+                  className="max-h-80 w-full object-contain"
+                />
+              </Link>
+            ) : null}
+          </div>
+        ) : (
+        <h1 className="text-4xl text-galway-ink sm:text-5xl">
           {summary.title}
         </h1>
+        )}
         {summary.subtitle && (
           <p className="text-xl text-galway-ink/70">{summary.subtitle}</p>
         )}
@@ -97,7 +165,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           )}
           {(summary.citeChip || attrs.cutting_cite) && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip || String(attrs.cutting_cite)}
+              {publicCite(summary.citeChip || String(attrs.cutting_cite))}
             </span>
           )}
           {(summary.scoreDisputed ||
@@ -121,7 +189,11 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           </div>
         )}
 
-        {(summary.kind === "player" || summary.kind === "club") && heroCutting?.imagePath && (
+        {(summary.kind === "player" || summary.kind === "club") &&
+        !isHistoricFohenagh &&
+        !isAmalgam &&
+        heroCutting?.imagePath &&
+        !isNameHighlightSnip(heroCutting) ? (
           <div className="pt-3">
             <a href={heroCutting.href} className="block overflow-hidden rounded-2xl border-2 border-galway-maroon/20">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -132,29 +204,53 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               />
             </a>
             <p className="mt-2 text-sm font-semibold text-galway-maroon">
-              From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
+              From cutting{publicCite(heroCutting.citeChip) ? ` · ${publicCite(heroCutting.citeChip)}` : ""}
             </p>
           </div>
-        )}
+        ) : null}
+        {summary.kind === "club" &&
+        !isHistoricFohenagh &&
+        (isAmalgam ||
+          (!heroCutting?.imagePath &&
+            cuttingCards.some((cutting) => cutting.imagePath && isNameHighlightSnip(cutting)))) ? (
+          <div className="pt-3">
+            <PhotoComingSoon />
+          </div>
+        ) : null}
       </header>
 
-      {attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt ? (
-        <p className="text-lg leading-relaxed text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
-        </p>
+      {!isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
+        <PublicBlurb
+          text={String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
+        />
       ) : null}
-
-      {isHistoricFohenagh && <HistoricClubPanel showStories={false} />}
 
       {isHistoricFohenagh && summary.kind === "club" ? (
         <ClubRoster
-          rows={clubRoster}
+          id="players"
+          alphabetical
+          compact
+          verifiedIds={OWNER_VERIFIED_PLAYERS}
+          heading="Players who wore the jersey"
+          decades
+          rows={fohenaghRoster}
           clubName={summary.title}
-          unverifiedLabel="Being verified"
-          omitAlsoClubIds={["club:ahascragh-fohenagh"]}
-          separateUnverifiedLinks
         />
       ) : null}
+
+      {isHistoricFohenagh ? <MoreGreatGames games={fohenaghMoreGames} /> : null}
+
+      {isHistoricFohenagh ? <NotableGames games={fohenaghGames} /> : null}
+
+      {isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
+        <PublicBlurb
+          text={String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
+        />
+      ) : null}
+
+      {isHistoricFohenagh ? <PhotoComingSoon note="Championship team photo" /> : null}
+
+      {isHistoricFohenagh ? <FurtherReading /> : null}
 
       {isHistoricFohenagh && <HistoricStoryChips />}
 
@@ -228,9 +324,10 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           return true;
         });
         const showCuttings =
-          cuttings.length > 0 ||
-          summary.kind === "player" ||
-          summary.kind === "club";
+          !isHistoricFohenagh &&
+          (cuttings.length > 0 ||
+            summary.kind === "player" ||
+            summary.kind === "club");
         return (
           <>
             {showCuttings && (
@@ -256,7 +353,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                           // eslint-disable-next-line @next/next/no-img-element
                           <img
                             src={r.imagePath}
-                            alt={r.title}
+                            alt="Newspaper cutting"
                             className="max-h-72 w-full object-contain bg-galway-cream"
                           />
                         ) : null}
@@ -265,14 +362,14 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                             Cutting
                           </p>
                           <h3 className="mt-1 text-lg font-bold text-galway-ink">
-                            {r.title}
+                            {publicHeading(r.title, r.citeChip || "Newspaper cutting")}
                           </h3>
                           {r.citeChip && (
                             <p className="mt-1 text-sm font-semibold text-galway-maroon">
-                              {r.citeChip}
+                              {publicCite(r.citeChip)}
                             </p>
                           )}
-                          {r.excerpt && (
+                          {r.excerpt && !hasPlayQualifier(r.excerpt) && (
                             <p className="mt-2 text-sm text-galway-ink/70">{r.excerpt}</p>
                           )}
                         </div>
@@ -282,7 +379,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                 )}
               </section>
             )}
-            {otherRelated.length > 0 && (
+            {!isHistoricFohenagh && otherRelated.length > 0 && (
               <section>
                 <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
                   Related
@@ -298,6 +395,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         );
       })()}
 
+      {!isHistoricFohenagh ? (
       <section>
         <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
           Facts
@@ -318,19 +416,13 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Open source
+              Read the source
             </a>
           </p>
         )}
       </section>
+      ) : null}
 
-      
-
-      <DeveloperTriples
-        triples={triples}
-        hideScore={hideScore}
-        hideCols={isHistoricFohenagh ? ["successor", "note"] : []}
-      />
     </article>
   );
 }
@@ -424,11 +516,17 @@ function entityFactValue(
         rel="noopener noreferrer"
         className="text-galway-maroon underline"
       >
-        Open source
+        Read the source
       </a>
     );
   }
   return String(value);
+}
+
+function PublicBlurb({ text }: { text: string }) {
+  const clean = scrubPublicCopy(text);
+  if (!clean) return null;
+  return <p className="text-lg leading-relaxed text-galway-ink">{clean}</p>;
 }
 
 function entityRefHref(ref: string): string {

@@ -29,6 +29,7 @@ import {
   findStrongPrimaryEntities,
   searchTokens,
 } from "@/lib/searchRank";
+import { hasPlayQualifier } from "@/lib/publicCopy";
 
 export type EntityKind =
   | "player"
@@ -77,6 +78,10 @@ export interface PendingStory {
   body: string;
   linkedEntity?: string;
   submittedAt: string;
+  /** Player, club or game path this suggestion came from. */
+  page?: string;
+  /** Original filename. The file itself stays off the public site. */
+  attachmentName?: string;
 }
 
 const PENDING_PATH = path.join(process.cwd(), "data", "pending-stories.json");
@@ -146,12 +151,8 @@ export function friendlyTrustLabel(confidence?: string | null): string | undefin
   if (!confidence) return undefined;
   const c = confidence.toLowerCase();
   if (c === "high" || c === "verified") return "Verified";
-  if (c === "medium") return "Needs check";
-  if (c === "low") return "Needs check";
   if (c === "community") return "Fan story";
-  if (c === "unverified") return "Needs check";
-  if (c === "hold") return "Needs check";
-  return "Needs check";
+  return "Still checking";
 }
 
 /** True when a player is named on a newspaper cutting (archivist / ingest stamps). */
@@ -413,6 +414,14 @@ export function displayNameForRef(ref: string, A: AssocArray): string {
     .join(" ");
 }
 
+/** Grade text for a public appearance chip. Never a sub, bench, or panel qualifier. */
+function appearanceMark(grade: TripleVal | undefined): string | undefined {
+  if (grade == null) return undefined;
+  const text = String(grade).trim();
+  if (!text || hasPlayQualifier(text)) return undefined;
+  return text;
+}
+
 /** True if value looks like an entity id (player:, club:, …). */
 export function isEntityRef(val: unknown): val is `${string}:${string}` {
   return (
@@ -492,7 +501,7 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
   if (kind === "win") {
     kindLabel = isAllIrelandWinAttrs(attrs) ? "All-Ireland" : "County title";
   } else if (kind === "appearance") {
-    kindLabel = attrs.grade ? String(attrs.grade) : "Panel";
+    kindLabel = appearanceMark(attrs.grade);
   }
   const summary: EntitySummary = {
     id,
@@ -524,7 +533,7 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     }
   }
   if (kind === "appearance") {
-    summary.badge = attrs.grade ? String(attrs.grade) : "Panel";
+    summary.badge = appearanceMark(attrs.grade);
     if (attrs.cite_chip) summary.citeChip = String(attrs.cite_chip);
     else if (attrs.cite) summary.citeChip = String(attrs.cite);
     if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);

@@ -45,14 +45,16 @@ export async function ArticleClipSection({
 function ArticleClipCard({ clip }: { clip: MatchArticleClip }) {
   const inner = (
     <>
-      <div className="overflow-hidden rounded-xl bg-galway-cream">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={clip.imageUrl}
-          alt={clip.caption || "Article cutting"}
-          className="mx-auto max-h-56 w-full object-contain"
-        />
-      </div>
+      {clip.imageUrl ? (
+        <div className="overflow-hidden rounded-xl bg-galway-cream">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={clip.imageUrl}
+            alt={clip.caption || "Article cutting"}
+            className="mx-auto max-h-56 w-full object-contain"
+          />
+        </div>
+      ) : null}
       {clip.caption && (
         <p className="mt-2 text-base font-semibold text-galway-ink">
           {clip.caption}
@@ -61,6 +63,11 @@ function ArticleClipCard({ clip }: { clip: MatchArticleClip }) {
       {clip.cite && (
         <p className="mt-1 text-sm text-galway-ink/60">{clip.cite}</p>
       )}
+      {clip.href ? (
+        <p className="mt-2 text-sm font-semibold text-galway-maroon underline">
+          Read the original clipping
+        </p>
+      ) : null}
     </>
   );
 

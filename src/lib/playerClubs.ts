@@ -22,6 +22,8 @@ export const LOCKED_CLUB_ORDER = [
   "club:ahascragh-fohenagh",
 ] as const;
 
+const AF_CLUB_ID = "club:ahascragh-fohenagh";
+
 export type ClubChipData = {
   id: string;
   name: string;
@@ -67,16 +69,9 @@ function sortClubIds(ids: string[]): string[] {
   });
 }
 
-/** Kid-facing chip label. Historic predecessors stay distinct from the amalgam. */
+/** Public chip. The team name only — no “historic” suffix on the jersey. */
 export function clubChipLabel(clubId: string, A: AssocArray): string {
-  const name = displayNameForRef(clubId, A);
-  if (
-    clubId === "club:fohenagh-historic" ||
-    clubId === "club:ahascragh-historic"
-  ) {
-    return `${name} · historic`;
-  }
-  return name;
+  return displayNameForRef(clubId, A);
 }
 
 export function clubChipTitle(clubId: string, label: string): string {
@@ -122,6 +117,11 @@ export function playerClubChips(
     }
   }
 
+  // Garry Lohan is Fohenagh only. The alias row used to name the amalgam.
+  if (playerId === "player:garry-lohan") {
+    ids.delete(AF_CLUB_ID);
+  }
+
   return sortClubIds([...ids])
     .filter((id) => Object.keys(A.entityAttrs(id)).length > 0)
     .map((id) => toClubChip(id, A));
@@ -130,6 +130,8 @@ export function playerClubChips(
 export type ClubRosterRow = {
   summary: EntitySummary;
   alsoClubs: ClubChipData[];
+  /** Cited playing years, used by the Fohenagh decade filter. */
+  years?: number[];
   /** Same chip as the player profile strip: Verified or Needs check. */
   trust: string;
   /**
@@ -139,7 +141,6 @@ export type ClubRosterRow = {
   linkPending: boolean;
 };
 
-const AF_CLUB_ID = "club:ahascragh-fohenagh";
 const HISTORIC_CLUB_IDS = [
   "club:fohenagh-historic",
   "club:ahascragh-historic",
@@ -282,7 +283,7 @@ export async function listClubRoster(
       alsoClubs: also,
       trust:
         playerProfileChip(attrs, summary.confidence, linkedCuttings) ??
-        "Needs check",
+        "Still checking",
       linkPending: jerseyLinkPending(attrs, clubId),
     });
   }

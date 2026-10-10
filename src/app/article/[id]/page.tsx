@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { EntityView } from "@/components/EntityView";
-import { articleMediaUrl, getArticleUpload } from "@/lib/articles";
+import { articleMediaUrl, getArticleUpload, isHeldForReview } from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
+import { hasPlayQualifier, publicCite, publicHeading } from "@/lib/publicCopy";
 
 export const dynamic = "force-dynamic";
 
@@ -14,12 +15,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const a = await getArticleUpload(id);
+  if (a && isHeldForReview(a)) return { title: "Cutting" };
   if (a) {
     return {
-      title:
-        a.caption?.slice(0, 60) ||
-        a.fetchedTitle?.slice(0, 60) ||
-        "Cutting",
+      title: publicHeading(
+        a.caption?.slice(0, 60) || a.fetchedTitle?.slice(0, 60),
+        a.citeChip || "Cutting"
+      ),
     };
   }
   const seeded = await getEntity(`article:${id}`);
@@ -33,6 +35,7 @@ export default async function ArticlePage({
 }) {
   const { id } = await params;
   const a = await getArticleUpload(id);
+  if (a && isHeldForReview(a)) notFound();
   if (!a) {
     const seeded = await getEntity(`article:${id}`);
     if (!seeded) notFound();
@@ -40,11 +43,11 @@ export default async function ArticlePage({
   }
   const A = await getAssoc();
 
-  const title =
-    a.caption ||
-    a.fetchedTitle ||
-    (a.kind === "url" ? "Linked article" : "Article cutting");
-  const cite = a.citeChip || (a.year ? `${a.year} · Paper` : "Paper");
+  const title = publicHeading(
+    a.caption || a.fetchedTitle,
+    a.citeChip || (a.kind === "url" ? "Linked article" : "Article cutting")
+  );
+  const cite = publicCite(a.citeChip) || (a.year ? `${a.year} · Paper` : "Paper");
   const media = articleMediaUrl(a);
   const isPdf = a.kind === "pdf" || media?.toLowerCase().endsWith(".pdf");
   const showImage = Boolean(media && !isPdf);
@@ -59,8 +62,8 @@ export default async function ArticlePage({
           <span className="rounded-full bg-galway-maroon/10 px-3 py-0.5 text-sm font-bold text-galway-maroon">
             {cite}
           </span>
-          <span className="rounded-full bg-galway-cream px-3 py-0.5 text-xs font-semibold uppercase text-galway-ink/70">
-            Unverified
+          <span className="rounded-full bg-galway-cream px-3 py-0.5 text-xs font-semibold text-galway-ink/70">
+            Still checking
           </span>
         </div>
         <h1 className="text-3xl font-black text-galway-ink sm:text-4xl">
@@ -68,10 +71,8 @@ export default async function ArticlePage({
         </h1>
         <p className="text-base text-galway-ink/65">
           {[
-            a.kind === "url" ? "URL source" : a.kind === "pdf" ? "PDF" : "Image",
-            a.status === "pending"
-              ? "Awaiting Archivist"
-              : "Indexed · triples unverified",
+            a.kind === "url" ? "A link" : a.kind === "pdf" ? "A PDF" : "A picture",
+            "An editor is still reading this",
           ]
             .filter(Boolean)
             .join(" · ")}
@@ -83,7 +84,7 @@ export default async function ArticlePage({
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={media}
-            alt={title}
+            alt="Newspaper cutting"
             className="mx-auto max-h-[70vh] w-full object-contain bg-galway-cream"
           />
         </div>
@@ -117,13 +118,13 @@ export default async function ArticlePage({
         </div>
       )}
 
-      {a.excerpt && (
+      {a.excerpt && !hasPlayQualifier(a.excerpt) && (
         <section className="space-y-2 rounded-2xl border-2 border-galway-maroon/15 bg-white p-4">
           <h2 className="text-xl font-bold text-galway-maroon">Excerpt</h2>
           <p className="text-base text-galway-ink/85">{a.excerpt}</p>
           <p className="text-sm text-galway-ink/55">
-            Full OCR / page text stays private. Public cards show only this
-            excerpt, the cite chip, and linked clubs — never invented scores.
+            The full page stays with the editors. This card shows the excerpt
+            and the paper it came from.
           </p>
         </section>
       )}
@@ -158,12 +159,12 @@ export default async function ArticlePage({
               {isEntityRef(c) ? displayNameForRef(c, A) : c}
             </Link>
           ))}
-          {a.tags.map((t) => (
+          {a.tags.filter((tag) => !tag.includes(":") && !/^[a-z0-9-]+$/.test(tag)).map((t) => (
             <span
               key={t}
               className="rounded-full bg-galway-gold/20 px-3 py-1 text-sm font-semibold"
             >
-              #{t}
+              {t}
             </span>
           ))}
         </div>
