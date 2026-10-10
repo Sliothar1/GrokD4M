@@ -1,11 +1,12 @@
 import Link from "next/link";
+import { WhyWrongLink } from "@/components/WhyWrongLink";
 import { correctionsFormEnabled } from "@/lib/corrections/config";
 
 /** Footer link on every player and club page (S3). Hidden until the form is enabled. */
 export function CorrectionLink({ page }: { page: string }) {
   if (!correctionsFormEnabled()) return null;
   return (
-    <p className="mt-10 border-t border-galway-maroon/15 pt-4 text-sm text-galway-ink/70">
+    <p className="mt-10 flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-galway-maroon/15 pt-4 text-sm text-galway-ink/70">
       <Link
         href={`/corrections?page=${encodeURIComponent(page)}`}
         rel="nofollow"
@@ -13,6 +14,7 @@ export function CorrectionLink({ page }: { page: string }) {
       >
         Suggest a correction or request removal
       </Link>
+      <WhyWrongLink />
     </p>
   );
 }

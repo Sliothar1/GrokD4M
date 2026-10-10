@@ -23,6 +23,11 @@ export function SiteFooter() {
             </Link>
           </p>
         </div>
+        <p className="text-sm text-galway-ink/70">
+          <Link href="/how-it-works" className="font-semibold text-galway-maroon underline">
+            How this site works
+          </Link>
+        </p>
         <p className="text-xs text-galway-ink/50">
           HurlingWiki was designed and built by Garry Lohan.
         </p>

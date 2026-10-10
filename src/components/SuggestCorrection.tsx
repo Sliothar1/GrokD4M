@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useId, useState } from "react";
+import { WhyWrongLink } from "@/components/WhyWrongLink";
 
 const field = "w-full rounded-xl border border-galway-maroon/20 px-3 py-2 text-base";
 
@@ -80,16 +81,22 @@ export function SuggestCorrection({
       }
     >
       {!open ? (
-        <button
-          type="button"
-          onClick={() => setOpen(true)}
-          className="text-left text-sm font-semibold text-galway-maroon underline underline-offset-2 hover:text-galway-maroon-dark"
-        >
-          {prompt}
-        </button>
+        <div className={`flex flex-wrap items-baseline gap-x-3 gap-y-1 ${corner ? "justify-end" : ""}`}>
+          <button
+            type="button"
+            onClick={() => setOpen(true)}
+            className="text-left text-sm font-semibold text-galway-maroon underline underline-offset-2 hover:text-galway-maroon-dark"
+          >
+            {prompt}
+          </button>
+          {clipping ? null : <WhyWrongLink />}
+        </div>
       ) : (
         <form onSubmit={onSubmit} className="max-w-xl space-y-3" noValidate>
-          <p className="text-sm font-semibold text-galway-ink">{prompt}</p>
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <p className="text-sm font-semibold text-galway-ink">{prompt}</p>
+            {clipping ? null : <WhyWrongLink />}
+          </div>
           <p className="text-sm text-galway-ink/60">
             About {pageLabel}. An editor reads it first.
           </p>
