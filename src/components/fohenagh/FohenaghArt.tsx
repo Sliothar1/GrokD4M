@@ -65,21 +65,13 @@ export function SliotarSilhouette({ className }: { className?: string }) {
   );
 }
 
-/** Club-page marks. Hover reveals a short line; nothing is a logo. */
+/** Club-page mark. Crossed hurls only — no figure, no ball. */
 export function FohenaghMarks() {
   return (
     <div className="fohenagh-marks">
       <figure className="fohenagh-mark" tabIndex={0}>
-        <HurlerSilhouette className="fohenagh-hurler" />
-        <figcaption>A swing in the blue.</figcaption>
-      </figure>
-      <figure className="fohenagh-mark" tabIndex={0}>
         <HurlsSilhouette className="fohenagh-hurls" />
         <figcaption>Crossed at the gate.</figcaption>
-      </figure>
-      <figure className="fohenagh-mark" tabIndex={0}>
-        <SliotarSilhouette className="fohenagh-sliotar" />
-        <figcaption>The ball they chased.</figcaption>
       </figure>
     </div>
   );
@@ -89,14 +81,6 @@ export function FohenaghMarks() {
 export function FohenaghPlayerBand() {
   return (
     <div className="fohenagh-player-band">
-      <figure className="fohenagh-mark" tabIndex={0}>
-        <HurlerSilhouette className="fohenagh-hurler" />
-        <figcaption>Their jersey.</figcaption>
-      </figure>
-      <figure className="fohenagh-mark fohenagh-mark-ball" tabIndex={0}>
-        <SliotarSilhouette className="fohenagh-sliotar" />
-        <figcaption>Still in the ditch.</figcaption>
-      </figure>
       <p>
         <Link href="/club/fohenagh-historic">Fohenagh</Link>
       </p>

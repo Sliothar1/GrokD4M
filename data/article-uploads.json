@@ -4893,5 +4893,999 @@
     "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1955-09-03-tim-sweeney-galway-panel.md",
     "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1955-09-03-p6.jpg",
     "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-book-fohenagh-p142-hugh-barrett",
+    "kind": "image",
+    "filename": "p142-hugh-barrett.png",
+    "path": "/uploads/book/fohenagh-history/p142-hugh-barrett.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p142-hugh-barrett.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Hugh Barrett — book photo",
+    "year": "1931",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:hugh-barrett-ahascragh"
+    ],
+    "matchTags": [],
+    "excerpt": "Hugh Barrett, a Fohenagh man on the Ahascragh team that won the 1931 county junior title, and a regular for Galway.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.142",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "142"
+  },
+  {
+    "id": "art-book-fohenagh-p142-p-larkin",
+    "kind": "image",
+    "filename": "p142-p-larkin.png",
+    "path": "/uploads/book/fohenagh-history/p142-p-larkin.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p142-p-larkin.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "P. Larkin — book photo",
+    "year": "1931",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:p-larkin-ahascragh"
+    ],
+    "matchTags": [],
+    "excerpt": "P. Larkin, another Fohenagh man on Ahascragh's 1931 county junior winning team.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.142",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "142"
+  },
+  {
+    "id": "art-book-fohenagh-p145-tim-sweeney",
+    "kind": "image",
+    "filename": "p145-tim-sweeney.png",
+    "path": "/uploads/book/fohenagh-history/p145-tim-sweeney.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p145-tim-sweeney.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Tim Sweeney — book photo",
+    "year": "1945",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Tim Sweeney: first game for Fohenagh in 1945 aged 15, and for 25 years the team hardly ever played without him.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "145"
+  },
+  {
+    "id": "art-book-fohenagh-p145-maureen-madden",
+    "kind": "image",
+    "filename": "p145-maureen-madden.png",
+    "path": "/uploads/book/fohenagh-history/p145-maureen-madden.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p145-maureen-madden.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Maureen Madden — book photo (camogie section)",
+    "year": "1947",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player",
+      "camogie"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:maureen-madden-fohenagh-camogie"
+    ],
+    "matchTags": [],
+    "excerpt": "Maureen Madden, pictured in the book's camogie chapter on the 1940s team.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "145"
+  },
+  {
+    "id": "art-book-fohenagh-p149-1959-senior-champions",
+    "kind": "image",
+    "filename": "p149-1959-senior-champions.png",
+    "path": "/uploads/book/fohenagh-history/p149-1959-senior-champions.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p149-1959-senior-champions.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1959 Senior County Hurling Champions — Fohenagh",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tom-moylette-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tony-ogorman",
+      "player:marty-glynn-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:c-kelly-fohenagh",
+      "player:frank-madden",
+      "player:frank-bleahan-fohenagh",
+      "player:p-carroll-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ],
+    "excerpt": "Front row: T. Moylette, G. Sweeney, F. Glynn, A. O'Gorman, M. Glynn (captain), P. J. Lally, T. Sweeney, L. Manning. Back row: H. Pender, T. Glynn, M. Coen, J. Moclair, T. Killilea, C. Kelly, F. Madden, F. Bleahene, P. Killilea, P. Carroll, N. Farragher. (H. Pender and N. Farragher, in suits, are tagged as officials only; T./P. Killilea held.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "149"
+  },
+  {
+    "id": "art-book-fohenagh-p150-seminarians",
+    "kind": "image",
+    "filename": "p150-seminarians-devine-murray-sweeney-murray.png",
+    "path": "/uploads/book/fohenagh-history/p150-seminarians-devine-murray-sweeney-murray.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p150-seminarians-devine-murray-sweeney-murray.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fr. P Devine, Fr. Aiden Murray, Fr. G Sweeney and Fr. N Murray — book photos",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:p-devine-fohenagh",
+      "player:aidan-murray-fohenagh",
+      "player:nicholas-murray"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ],
+    "excerpt": "The seminarians of the 1959–60 team. 'Perhaps the seminarians were not absent after all!' (Fr. G Sweeney not tagged: link to Gerry Sweeney held.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "150"
+  },
+  {
+    "id": "art-book-fohenagh-p150-1960-senior-champions",
+    "kind": "image",
+    "filename": "p150-1960-senior-champions.png",
+    "path": "/uploads/book/fohenagh-history/p150-1960-senior-champions.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p150-1960-senior-champions.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1960 Senior Hurling Champions — Fohenagh",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tommy-glynn-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tony-ogorman",
+      "player:jim-moclair-fohenagh",
+      "player:g-lally-fohenagh",
+      "player:albie-glynn-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:aidan-murray-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:p-devine-fohenagh",
+      "player:nicholas-murray",
+      "player:frank-madden",
+      "player:tim-sweeney-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:mick-coen-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1960-galway-shc-final"
+    ],
+    "excerpt": "Front row: T. Glynn, F. Glynn, M. Glynn, J. Sweeney, A. O'Gorman (captain), J. Moclair, G. Lally, J. Sweeney, A. Glynn, P. J. Lally. Back: H. Pender, T. Moylette, A. Murray, L. Manning, P. Devine, N. Murray, F. Madden, T. Sweeney, G. Sweeney, P. Killilea, M. Coen, M. Glynn, N. Farragher. (Two M. Glynns and two J. Sweeneys held; P. Killilea held; Pender and Farragher officials.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "150"
+  },
+  {
+    "id": "art-book-fohenagh-p151-cup-retained-1960",
+    "kind": "image",
+    "filename": "p151-cup-retained-1960.png",
+    "path": "/uploads/book/fohenagh-history/p151-cup-retained-1960.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p151-cup-retained-1960.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "'Cup retained 1960' — Tommy Glynn, Tony O'Gorman and Norman Farragher",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tommy-glynn-fohenagh",
+      "player:tony-ogorman"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1960-galway-shc-final"
+    ],
+    "excerpt": "Cup retained in 1960! Tommy Glynn holds it high, with Tony O'Gorman and Norman Farragher (official).",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "151"
+  },
+  {
+    "id": "art-book-fohenagh-p152-1993-junior-finalists",
+    "kind": "image",
+    "filename": "p152-1993-junior-finalists.png",
+    "path": "/uploads/book/fohenagh-history/p152-1993-junior-finalists.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p152-1993-junior-finalists.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1993 County Junior Hurling Finalists — Fohenagh",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-kirwan-fohenagh",
+      "player:gerry-madden-fohenagh",
+      "player:padraic-leonard",
+      "player:joe-fallon-fohenagh",
+      "player:gerry-burke-fohenagh",
+      "player:seamus-lohan-fohenagh",
+      "player:padraig-daly-fohenagh",
+      "player:john-devine",
+      "player:alan-madden",
+      "player:colm-kirwan-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:paul-kennedy-fohenagh",
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Back row: Tony Kirwan, Michael Barrett, Gerry Madden, Padraig Leonard, Joe Fallon, Gerry Burke, Seamus Lohan, Padraig Daly. Front row: John Devine, Alan Madden, Colm Kirwan, Noel Higgins, Paul Kennedy, Séamus Moclair and Michael Coen. Team mascot Daniel Lyons. (Michael Barrett and Michael Coen held pending a split of older ids.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "152"
+  },
+  {
+    "id": "art-book-fohenagh-p153-kirwan-hession-moclair",
+    "kind": "image",
+    "filename": "p153-kirwan-hession-moclair.png",
+    "path": "/uploads/book/fohenagh-history/p153-kirwan-hession-moclair.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p153-kirwan-hession-moclair.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Tony Kirwan, Eugene Hession and Séamus Moclair — book photos",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-kirwan-fohenagh",
+      "player:eugene-hession-fohenagh",
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Fohenagh's All-Ireland men: Tony Kirwan (U-21, 1993), Eugene Hession (U-21, 1978) and Séamus Moclair (All-Ireland Vocational Schools).",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.153",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "153"
+  },
+  {
+    "id": "art-book-fohenagh-cover-a-history-of-fohenagh",
+    "kind": "image",
+    "filename": "cover-a-history-of-fohenagh.png",
+    "path": "/uploads/book/fohenagh-history/cover-a-history-of-fohenagh.png",
+    "publicUrl": "/uploads/book/fohenagh-history/cover-a-history-of-fohenagh.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Cover — A History of Fohenagh by Tony O'Gorman",
+    "year": "",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "book-cover"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-ogorman"
+    ],
+    "matchTags": [],
+    "excerpt": "The book these stories come from: A History of Fohenagh by Tony O'Gorman.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · cover",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "cover"
+  },
+  {
+    "id": "art-book-fohenagh-story-1890-gurteen",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh v Gurteen, 1890: fifty minutes, no score",
+    "year": "1890",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-glynn-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-gurteen-tournament-1890"
+    ],
+    "excerpt": "On 15 July 1890 Fohenagh, captained by Tim Glynn, played Gurteen at a big Gaelic tournament in a field lent by the Cormican family. After fifty minutes of 'spirited stopping and blocking' the teams were called off. The score? Nothing all! Around the same time Fohenagh beat Kilconnell 2 goals 1 point to 1 goal in a Caltra football tournament, and lost 1 goal 3 points to nil at Glentane.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.139",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "139"
+  },
+  {
+    "id": "art-book-fohenagh-story-1907-reaffiliation",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1907: Fohenagh back in, with a note from the priest",
+    "year": "1907",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling",
+      "club-history"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "In 1907 the club elected its parish priest, Fr. Harney, as president, and on 21 January 1907 Fohenagh was re-affiliated to the County Board even though Ahascragh objected strongly. Fr. Harney wrote that the Fohenagh players were 'respectable men' guilty of no 'dishonourable conduct'. A few weeks later the 'Fohena Hurling Club' told the papers it would start practice the very next Sunday.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.140–141",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "140–141"
+  },
+  {
+    "id": "art-book-fohenagh-story-battle-of-athenry",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The Battle of Athenry (1942)",
+    "year": "1942",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling",
+      "rough-game"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:mike-barrett-fohenagh"
+    ],
+    "matchTags": [
+      "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture"
+    ],
+    "excerpt": "The Battle of Athenry. Fohenagh met Claregalway in the 1941 county junior semi-final at Athenry in May 1942, and it went about as well as a picnic in a hailstorm. The referee reported that Claregalway spectators rushed onto the pitch and some Fohenagh players were hurt; he could not clear the field, so he called the match off. At the long County Board meeting that followed, captain Mike Barrett said he was assaulted and that the referee had asked him to take his team to safety. Tim Glynn's memory of the day, the book notes with a wink, 'differed slightly with his captain's story of injured innocence!' The referee wanted a replay and Mick Silver proposed a two-year ban for Claregalway, but the chairman, Thomas O'Connor (Claregalway), ruled that 'it takes two to start a fight': both clubs got a year's suspension. Eyrecourt, the East Board winners, were declared county junior champions without needing to puck a ball.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.144–145",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "144–145"
+  },
+  {
+    "id": "art-book-fohenagh-story-turf-lorry-1947",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The turf lorry and the Athenry Arch (1947)",
+    "year": "1947",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "camogie",
+      "easter-egg"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-erins-hope-camogie-final-1947"
+    ],
+    "excerpt": "How do you get a camogie crowd 35 miles to Galway in 1947? In Kevin Doherty's (Woodlawn) turf lorry, 'suitably insulated'. The trip home after the county final win is local folklore: the celebrations started early in Foster Street, the driver was in no state to drive, and John Joe Kirwan took the wheel. Then the lorry got wedged in Athenry's medieval Arch! After plenty of advice, the top tier of the creel was taken off, and the lorry and its relieved passengers got home with only one stop, in Menlough.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "146"
+  },
+  {
+    "id": "art-book-fohenagh-story-tynagh-1956",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Seven points up, then the fists came out (1956)",
+    "year": "1956",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling",
+      "rough-game"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "Fohenagh led Tynagh by seven points to nil in a Junior A game at Kiltormer on 15 July 1956, until fighting on the pitch got the game called off. Both teams were suspended for twelve months. The book calls it 'a devastating blow', but the County Board still let Fohenagh into senior hurling, and three years later they were county champions.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.148",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "148"
+  },
+  {
+    "id": "art-book-fohenagh-story-1959-comeback",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1959: ten points down, county champions",
+    "year": "1959",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:marty-glynn-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-draw",
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ],
+    "excerpt": "Fohenagh drew the 1959 county final with Castlegar, then lost two seminarians back to their studies and two more players to injury before the replay. Castlegar led by ten points at half-time. 'Miraculously', Fohenagh won 3-9 to 4-5 and Marty Glynn lifted the County Senior Cup for the first time ever. The party went on and on in the Old School Hall, turned into a bar by Ahascragh supporters.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149–151",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "149–151"
+  },
+  {
+    "id": "art-book-fohenagh-story-amalgamation-2002",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "From Fohenagh to Ahascragh/Fohenagh (1999–2002)",
+    "year": "2002",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "club-history"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "With fewer children around (96 on the school roll in 1988, 46 by 2000), Fohenagh joined Ahascragh at underage level in 1999, and won county U-14 B and Minor B titles straight away. On 21 January 2002 both clubs held their AGMs at the same time and disbanded, and the new club Ahascragh/Fohenagh was born. For many who remembered the 1950s glory days, losing their 112-year-old club was sad, but there was no other way.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.156–157",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "156–157"
+  },
+  {
+    "id": "art-book-fohenagh-p154-1990-underage-a",
+    "kind": "image",
+    "filename": "p154-1990-underage-a.png",
+    "path": "/uploads/book/fohenagh-history/p154-1990-underage-a.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p154-1990-underage-a.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh underage team, 1990 (photo A)",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-kirwan-fohenagh",
+      "player:padraic-leonard",
+      "player:john-devine",
+      "player:alan-madden",
+      "player:paul-kennedy-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:niall-leonard",
+      "player:sean-moclair",
+      "player:paul-leonard-fohenagh",
+      "player:paul-obeirne-fohenagh",
+      "player:conor-geraghty-fohenagh",
+      "player:damien-obeirne-fohenagh",
+      "player:thomas-bleahene-fohenagh",
+      "player:damien-poland-fohenagh",
+      "player:eric-lally-fohenagh",
+      "player:damien-glynn-fohenagh",
+      "player:cathal-farragher-fohenagh",
+      "player:peter-madden-fohenagh",
+      "player:john-madden-fohenagh",
+      "player:mark-leonard-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Underage Fohenagh team photograph A from 1990, with the names printed in A History of Fohenagh.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "154"
+  },
+  {
+    "id": "art-book-fohenagh-p154-1990-underage-b",
+    "kind": "image",
+    "filename": "p154-1990-underage-b.png",
+    "path": "/uploads/book/fohenagh-history/p154-1990-underage-b.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p154-1990-underage-b.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh underage team, 1990 (photo B)",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:francis-devine-fohenagh",
+      "player:karl-mitchell-fohenagh",
+      "player:martin-curley-fohenagh",
+      "player:raymond-higgins-fohenagh",
+      "player:patrick-sweeney-fohenagh",
+      "player:garry-mitchell-fohenagh",
+      "player:phelim-oconnell-ahascragh-fohenagh",
+      "player:david-noone-ahascragh-fohenagh",
+      "player:cathal-lohan",
+      "player:niall-devine-fohenagh",
+      "player:ollie-deeley",
+      "player:colm-kennedy-fohenagh",
+      "player:owen-lynskey-ahascragh-fohenagh",
+      "player:fergus-lyons-fohenagh",
+      "player:brian-lynskey-fohenagh",
+      "player:cyril-glennon-fohenagh",
+      "player:peter-lally-fohenagh",
+      "player:shane-glennon-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:philip-lohan",
+      "player:brendan-noone-fohenagh",
+      "player:keith-murphy-fohenagh",
+      "player:enda-oconnell-fohenagh",
+      "player:richard-donelan-fohenagh",
+      "player:david-faulkner-fohenagh",
+      "player:john-donelan-fohenagh",
+      "player:mark-carrick-fohenagh",
+      "player:jonathan-molloy-fohenagh",
+      "player:shane-costello-fohenagh",
+      "player:cormac-lyons-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Underage Fohenagh team photograph B from 1990, with the names printed in A History of Fohenagh.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "154"
+  },
+  {
+    "id": "art-feature-ctt-2021-01-29-fohenagh-1959",
+    "kind": "image",
+    "filename": "feature-ctt-2021-01-29-p82-web.jpg",
+    "path": "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+    "publicUrl": "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+    "pageImage": "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+    "pageImages": [
+      "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+      "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p83-web.jpg"
+    ],
+    "uploadedAt": "2026-10-10T09:10:00.000000+00:00",
+    "caption": "Fohenagh's fairytale",
+    "year": "2021",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "feature"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Stephen Glennon on the Fohenagh senior hurlers of 1959 and 1960. Connacht Tribune, Friday 29 January 2021, pages 82 and 83.",
+    "citeChip": "Connacht Tribune · 29 Jan 2021 · pp.82–83 · Stephen Glennon",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20210129.1.82",
+    "status": "pending",
+    "inaMedia": true,
+    "featuredLink": true,
+    "author": "Stephen Glennon",
+    "credit": "Connacht Tribune, courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT20210129.1.82"
+  },
+  {
+    "id": "art-book-fohenagh-clip01-1993-schools",
+    "kind": "image",
+    "filename": "clip01-1993-galway-vocational-schools-panel.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The victorious 1993 Galway Vocational Schools panel",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "The victorious 1993 Galway Vocational Schools panel",
+    "citeChip": "1993",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip02-programme",
+    "kind": "image",
+    "filename": "clip02-galway-programme-seamus-mockler.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Galway matchday programme",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Galway matchday programme",
+    "citeChip": "DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Matchday programme from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip03-suspended",
+    "kind": "image",
+    "filename": "clip03-four-hurlers-suspended.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Four Hurlers Suspended",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Four Hurlers Suspended",
+    "citeChip": "1956",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip04-terrible",
+    "kind": "image",
+    "filename": "clip04-terrible-and-frightening.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Terrible and Frightening",
+    "year": "1956",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Terrible and Frightening",
+    "citeChip": "Tuam Herald · 6 Oct 1956 · p.5",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip05-kiltormer",
+    "kind": "image",
+    "filename": "clip05-sundays-gaa-fixtures-kiltormer.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Sunday's G.A.A. Fixtures",
+    "year": "1956",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Sunday's G.A.A. Fixtures",
+    "citeChip": "14 Jul 1956",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip06-big-win",
+    "kind": "image",
+    "filename": "clip06-fohenaghs-big-win.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh's Big Win",
+    "year": "1962",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Fohenagh's Big Win",
+    "citeChip": "Connacht Tribune · 17 Mar 1962 · p.14",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip07-tipperary",
+    "kind": "image",
+    "filename": "clip07-galway-team-to-meet-tipperary.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The Galway Team to Meet Tipperary",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-ogorman",
+      "player:pj-lally-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:jim-moclair-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "The Galway Team to Meet Tipperary",
+    "citeChip": "Connacht Tribune · 15 Oct 1960 · p.30",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip08-turlough",
+    "kind": "image",
+    "filename": "clip08-fohenagh-pip-turlough.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh Pip Turlough",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Fohenagh Pip Turlough",
+    "citeChip": "Connacht Tribune · 26 Mar 1960 · p.14",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip09-menace",
+    "kind": "image",
+    "filename": "clip09-constant-menace.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Constant Menace",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Constant Menace",
+    "citeChip": "Tuam Herald · 3 Sep 1960 · p.1",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
   }
 ]

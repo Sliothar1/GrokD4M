@@ -34,8 +34,8 @@ body {
  * Royal blue is Fohenagh's own colour. Artwork is original.
  */
 .fohenagh-poster {
-  --fohenagh-blue: #2348b8;
-  --fohenagh-blue-deep: #1a3488;
+  --fohenagh-blue: #1c3a8f;
+  --fohenagh-blue-deep: #142a68;
   --fohenagh-ink: #1c1814;
   --fohenagh-paper: #f6f1e6;
   --galway-maroon: var(--fohenagh-blue);
@@ -43,7 +43,7 @@ body {
   --color-galway-maroon: var(--fohenagh-blue);
   --color-galway-maroon-dark: var(--fohenagh-blue-deep);
   background:
-    radial-gradient(ellipse at 8% 0%, rgba(35, 72, 184, 0.06), transparent 46%),
+    radial-gradient(ellipse at 8% 0%, rgba(28, 58, 143, 0.07), transparent 46%),
     linear-gradient(180deg, #f8f4ec 0%, var(--fohenagh-paper) 38%, #efe8da 100%);
   color: var(--fohenagh-ink);
   margin: 0 -0.25rem;

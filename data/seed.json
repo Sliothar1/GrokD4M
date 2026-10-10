@@ -256919,5 +256919,5195 @@
     "row": "player:t-gill-fohenagh",
     "col": "kid_chip",
     "val": "Named in a newspaper cutting"
+  },
+{
+    "row": "source:book-a-history-of-fohenagh",
+    "col": "type",
+    "val": "source"
+  },
+  {
+    "row": "source:book-a-history-of-fohenagh",
+    "col": "name",
+    "val": "A History of Fohenagh"
+  },
+  {
+    "row": "source:book-a-history-of-fohenagh",
+    "col": "author",
+    "val": "Tony O'Gorman"
+  },
+  {
+    "row": "source:book-a-history-of-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "source:book-a-history-of-fohenagh",
+    "col": "note",
+    "val": "Local parish history. Chapter 17 (GAA) pp.137–158 and chapter 1 p.17 read from 25 phone photos for INA Scout batch 2. Footnoted sources inside the book include P. Ó Laoi, The Annals of the GAA in Galway, the Connacht Tribune and conversations with Frankie Glynn, Mike Barrett and Tommie Costello."
+  },
+  {
+    "row": "source:book-a-history-of-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "book_note",
+    "val": "The book calls Tim Sweeney the top man in Fohenagh hurling history. He first played for the club in 1945, aged 15, and for 25 years the team hardly ever took the field without him. He was a regular on the Galway panel, was picked on the Rest of Ireland (the forerunner of the All-Stars), and won an Oireachtas Cup medal with Galway in 1958 by beating Wexford in the final. He is in the 1959 and 1960 county champions photos (T. Sweeney)."
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145, 149–151"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p145-tim-sweeney"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "book_upload_3",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "book_suggested_notable",
+    "val": "Fohenagh's greatest hurler, says A History of Fohenagh: 25 years in the club jersey from 1945, Rest of Ireland selection, 1958 Oireachtas Cup winner with Galway and a county senior champion in 1959 and 1960."
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "book_note",
+    "val": "Named as T. Moylette in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:tom-moylette-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "book_note",
+    "val": "Named as F. Glynn in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "book_note",
+    "val": "Named as P. J. Lally in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "book_note",
+    "val": "Named as L. Manning in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "book_note",
+    "val": "Named as T. Glynn in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "book_note",
+    "val": "Named as M. Coen in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:mick-coen-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "book_note",
+    "val": "Named as F. Madden in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "book_note",
+    "val": "Named as F. Bleahene in the 1959 Senior County Hurling Champions photo."
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149"
+  },
+  {
+    "row": "player:frank-bleahan-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "book_note",
+    "val": "Named as G. Sweeney in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:gerry-sweeney-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "book_note",
+    "val": "Named as A. O'Gorman in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "book_note",
+    "val": "Named as J. Moclair in the 1959 Senior County Hurling Champions photo and the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "book_note",
+    "val": "Named as C. Kelly in the 1959 Senior County Hurling Champions photo (the only C. Kelly on file for Fohenagh; medium confidence)."
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149"
+  },
+  {
+    "row": "player:c-kelly-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "book_note",
+    "val": "Captain of the 1959 county senior champions: the book says Marty Glynn accepted the cup after the 3-9 to 4-5 replay win over Castlegar (photo caption: M. Glynn, captain). Won an Oireachtas Cup medal with Galway in 1958, beating Wexford in the final."
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 151"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:marty-glynn-fohenagh",
+    "col": "book_suggested_notable",
+    "val": "Captained Fohenagh to their first county senior hurling title in 1959 and won the 1958 Oireachtas Cup with Galway (A History of Fohenagh)."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "book_note_2",
+    "val": "Won an Oireachtas Cup medal with Galway in 1958, beating Wexford in the final."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "book_note_2",
+    "val": "Captain of the 1960 county senior champions (photo caption: A. O'Gorman, captain), pictured with the cup ('Cup retained 1960'), and named among Fohenagh men picked for Galway. He is also the author of A History of Fohenagh."
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149–151"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "book_upload_3",
+    "val": "art-book-fohenagh-p151-cup-retained-1960"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "book_note_2",
+    "val": "Pictured with the cup in 'Cup retained 1960' with Tony O'Gorman and Norman Farragher."
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "player:tommy-glynn-fohenagh",
+    "col": "book_upload_3",
+    "val": "art-book-fohenagh-p151-cup-retained-1960"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "book_note_2",
+    "val": "The book lists Frankie Glynn among the Fohenagh players picked for the Galway team in the late 1950s."
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "book_note_2",
+    "val": "The book lists Frank Madden among the Fohenagh players picked for the Galway team in the late 1950s."
+  },
+  {
+    "row": "player:frank-madden",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "book_note_2",
+    "val": "The book lists Jimmy Moclair among the Fohenagh players picked for the Galway team in the late 1950s. (No county stamp added: Moclair county stamp is locked to Garry's own upload.)"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "book_note_2",
+    "val": "The book calls Liam Manning the club's greatest footballer, with two All-Ireland medals, one minor and one junior. In 1952 at Mountbellew his club Kilgerrill walked off in protest at the referee, but Galway selector John Dunne kept Liam on the pitch until the final whistle so he stayed eligible for the minor All-Ireland final. Also pictured in the 1959 and 1960 hurling champions photos (L. Manning)."
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.153"
+  },
+  {
+    "row": "player:liam-manning-fohenagh",
+    "col": "book_suggested_notable",
+    "val": "Two-time All-Ireland football medal winner (minor and junior) and a county senior hurling champion with Fohenagh in 1959 and 1960 (A History of Fohenagh)."
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "book_note",
+    "val": "Named as A. Glynn in the 1960 Senior Hurling Champions photo (the only male A. Glynn on file for Fohenagh; medium confidence)."
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150"
+  },
+  {
+    "row": "player:albie-glynn-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "book_note",
+    "val": "Named as A. Murray in the 1960 Senior Hurling Champions photo; the book also shows a portrait of Fr. Aiden Murray among the seminarians who played (medium confidence that A. Murray is Fr. Aiden Murray)."
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:aidan-murray-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-seminarians"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "book_note",
+    "val": "Fr. Nick Murray from Ballymacward won two county championships with Fohenagh and played many times for Galway, says the book. Named as N. Murray in the 1960 champions photo, with a seminarian portrait (Fr. N Murray)."
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150–151"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-seminarians"
+  },
+  {
+    "row": "player:nicholas-murray",
+    "col": "book_suggested_notable",
+    "val": "Won two Galway senior hurling titles with Fohenagh (1959, 1960) and played many times for Galway (A History of Fohenagh)."
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "book_note",
+    "val": "Won an All-Ireland Under-21 hurling medal in 1993; the book says Fohenagh's only All-Ireland hurling medals are his and Eugene Hession's (both U-21). Back row of the 1993 County Junior Hurling Finalists photo and of a 1990 underage team photo."
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152–154"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p153-kirwan-hession-moclair"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "book_suggested_notable",
+    "val": "One of only two Fohenagh men with an All-Ireland hurling medal: Under-21 with Galway in 1993 (A History of Fohenagh)."
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "book_note",
+    "val": "Won an All-Ireland Vocational Schools title (book p.153); front row of the 1993 County Junior Hurling Finalists photo (Séamus Moclair). Keeps his Ahascragh-Fohenagh tags."
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152–154"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:seamus-moclair",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p153-kirwan-hession-moclair"
+  },
+  {
+    "row": "player:gerry-madden-fohenagh",
+    "col": "book_note",
+    "val": "Named as Gerry Madden in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:gerry-madden-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:gerry-madden-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "book_note",
+    "val": "Named as Padraig Leonard in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:joe-fallon-fohenagh",
+    "col": "book_note",
+    "val": "Named as Joe Fallon in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:joe-fallon-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:joe-fallon-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "book_note",
+    "val": "Named as John Devine in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:john-devine",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "book_note",
+    "val": "Named as Alan Madden in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
+    "col": "book_note",
+    "val": "Named as Colm Kirwan in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:colm-kirwan-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:paul-kennedy-fohenagh",
+    "col": "book_note",
+    "val": "Named as Paul Kennedy in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:paul-kennedy-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:paul-kennedy-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "book_note",
+    "val": "Named as Noel Higgins in the 1993 County Junior Hurling Finalists photo and a 1990 underage team photo (pre-2002 Fohenagh play, so a fohenagh-historic chip is added; Ahascragh-Fohenagh tags untouched)."
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152, 154"
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "book_note_2",
+    "val": "Named as Tony Kirwan in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:tony-kirwan-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "book_note",
+    "val": "Named as Niall Leonard in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:niall-leonard",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "book_note_2",
+    "val": "Named as Alan Madden in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:alan-madden",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "book_note_2",
+    "val": "Named as Noel Higgins in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:noel-higgins-ahascragh-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:paul-kennedy-fohenagh",
+    "col": "book_note_2",
+    "val": "Named as Paul Kennedy in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:paul-kennedy-fohenagh",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:john-devine",
+    "col": "book_note_2",
+    "val": "Named as John Devine in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:john-devine",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "book_note_2",
+    "val": "Named as Padraic Leonard in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:padraic-leonard",
+    "col": "book_cite_2",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "book_note",
+    "val": "Named as Sean Moclair in the book's 1990 underage team photo A (back/front rows)."
+  },
+  {
+    "row": "player:sean-moclair",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "book_note",
+    "val": "Named as Francis Devine in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:francis-devine-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "book_note",
+    "val": "Named as Karl Mitchell in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:karl-mitchell-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "book_note",
+    "val": "Named as Martin Curley in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:martin-curley-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "book_note",
+    "val": "Named as Raymond Higgins (capt.) in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:raymond-higgins-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "book_note",
+    "val": "Named as Patrick Sweeney in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:patrick-sweeney-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:garry-mitchell-fohenagh",
+    "col": "book_note",
+    "val": "Named as Gary Mitchell in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:garry-mitchell-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:phelim-oconnell-ahascragh-fohenagh",
+    "col": "book_note",
+    "val": "Named as Phelim O'Connell in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:phelim-oconnell-ahascragh-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:phelim-oconnell-ahascragh-fohenagh",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:david-noone-ahascragh-fohenagh",
+    "col": "book_note",
+    "val": "Named as David Noone in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:david-noone-ahascragh-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:david-noone-ahascragh-fohenagh",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "book_note",
+    "val": "Named as Cathal Lohan in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:niall-devine-fohenagh",
+    "col": "book_note",
+    "val": "Named as Niall Devine in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:niall-devine-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "book_note",
+    "val": "Named as Oliver Deeley in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:ollie-deeley",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "book_note",
+    "val": "Named as Colm Kennedy in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:colm-kennedy-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:owen-lynskey-ahascragh-fohenagh",
+    "col": "book_note",
+    "val": "Named as Owen Lynskey in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:owen-lynskey-ahascragh-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:owen-lynskey-ahascragh-fohenagh",
+    "col": "club_1",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "book_note",
+    "val": "Named as Fergus Lyons in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:fergus-lyons-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "book_note",
+    "val": "Named as Brian Lynskey in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:brian-lynskey-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "book_note",
+    "val": "Named as Cyril Glennon in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:cyril-glennon-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "book_note",
+    "val": "Named as Peter Lally in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:peter-lally-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "book_note",
+    "val": "Named as Shane Glennon in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:shane-glennon-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "book_note",
+    "val": "Named as Alan Moclair in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:alan-moclair-ahascragh-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "book_note",
+    "val": "Named as Philip Lohan in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:philip-lohan",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:brendan-noone-fohenagh",
+    "col": "book_note",
+    "val": "Named as Brendan Noone in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:brendan-noone-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:keith-murphy-fohenagh",
+    "col": "book_note",
+    "val": "Named as Keith Murphy in the book's 1990 underage team photo B (front, 2nd and 3rd rows)."
+  },
+  {
+    "row": "player:keith-murphy-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as B. Clinton."
+  },
+  {
+    "row": "player:b-clinton-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as L. Madden."
+  },
+  {
+    "row": "player:l-madden-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as M. Barrett."
+  },
+  {
+    "row": "player:m-barrett-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as A. Madden."
+  },
+  {
+    "row": "player:a-madden-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as M. Madden (captain). Captain in 1947. The book prints a photo of Maureen Madden in the same camogie section but does not say she is M. Madden; merge still held."
+  },
+  {
+    "row": "player:m-madden-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as P. Hopkins. The book says Pauline Hopkins scored the second-half goal that put Fohenagh ahead, so P. Hopkins is Pauline Hopkins (this also resolves the Irish Press scorer 'F. Hopkins')."
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:p-hopkins-fohenagh-camogie",
+    "col": "also_known_as",
+    "val": "Pauline Hopkins"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as R. Clinton. The book singles out her brilliant play in the final."
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as J. Glynn."
+  },
+  {
+    "row": "player:j-glynn-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as A. Glynn."
+  },
+  {
+    "row": "player:a-glynn-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as M. Farrell."
+  },
+  {
+    "row": "player:m-farrell-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as M. Glynn."
+  },
+  {
+    "row": "player:m-glynn-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "book_note",
+    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as K. Naughton."
+  },
+  {
+    "row": "player:k-naughton-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "book_note",
+    "val": "Photo captioned 'Maureen Madden' in the book's camogie section (1940s). The page does not say whether she is the 1947 captain M. Madden."
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p145-maureen-madden"
+  },
+  {
+    "row": "player:maureen-madden-fohenagh-camogie",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "name",
+    "val": "Mike Barrett"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "note",
+    "val": "Fohenagh captain in the 1941 county junior semi-final against Claregalway at Athenry (May 1942), the 'Battle of Athenry'. He told the County Board he had been assaulted on the pitch and that the referee asked him to take his team to safety. Both clubs got a year's suspension. The book does not say whether he is the M. Barrett of 1952 (player:m-barrett-fohenagh); that link is left to the archivist. He is not the Michael Barrett in the 1993 junior finalists photo (about 50 years later)."
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.144–145"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.144–145"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "role_1942",
+    "val": "captain"
+  },
+  {
+    "row": "player:mike-barrett-fohenagh",
+    "col": "possible_same_as",
+    "val": "player:m-barrett-fohenagh"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "name",
+    "val": "Tim Glynn"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "note",
+    "val": "Captained Fohenagh against Gurteen at the Gurteen tournament on 15 July 1890: after fifty minutes of 'spirited stopping and blocking' the teams were called off with nobody scoring. A Tim Glynn also represented the club at County Board meetings in the early years. Not the Tim Glynn of the 1942 Athenry story (a later generation; held)."
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.139–140"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.139–140"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:tim-glynn-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "name",
+    "val": "John Glynn"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "note",
+    "val": "A footballer with an unusual record, says the book: he worked in most counties in Connacht and was picked to play for each of them. In 1948 Roscommon selected him but he declared for Galway, and Roscommon beat Galway in the Connacht final. After the 1942 Athenry row the County Board let the Glynn brothers Tim and John keep playing football with Kilconnell/Calla."
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145, 153"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.145, 153"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:john-glynn-fohenagh",
+    "col": "relation_note",
+    "val": "Brother of Tim Glynn (1942), as stated in the book p.145."
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "name",
+    "val": "Hugh Barrett"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "note",
+    "val": "A Fohenagh man on the Ahascragh team that won the 1931 County Junior title, beating Claregalway in the final. He was a regular on the Galway team, a 'singular tribute', the book says, because the selectors went outside south Galway to pick him."
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.142"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.142"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p142-hugh-barrett"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:hugh-barrett-ahascragh",
+    "col": "home_parish",
+    "val": "Fohenagh"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "name",
+    "val": "P. Larkin"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "club",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "note",
+    "val": "A Fohenagh man on the Ahascragh team that won the 1931 County Junior title, beating Claregalway in the final."
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.142"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.142"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p142-p-larkin"
+  },
+  {
+    "row": "player:p-larkin-ahascragh",
+    "col": "home_parish",
+    "val": "Fohenagh"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "name",
+    "val": "P. Carroll"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "note",
+    "val": "Named as P. Carroll (back row) in the 1959 Senior County Hurling Champions photo."
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.149"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:p-carroll-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "name",
+    "val": "G. Lally"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "note",
+    "val": "Named as G. Lally (front row) in the 1960 Senior Hurling Champions photo."
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.150"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:g-lally-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "name",
+    "val": "P. Devine"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "note",
+    "val": "Named as P. Devine in the 1960 Senior Hurling Champions photo; the book also shows a portrait of Fr. P Devine among the seminarians who played (medium confidence that they are the same man)."
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.150"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "player:p-devine-fohenagh",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p150-seminarians"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "name",
+    "val": "Peter Fitzgerald"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "note",
+    "val": "The book lists Peter Fitzgerald among the Fohenagh players picked for the Galway team in the late 1950s. (Not Paddy/Patsy Fitzgerald.)"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.151"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:peter-fitzgerald-fohenagh",
+    "col": "county_note",
+    "val": "Galway selection per book p.151"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "name",
+    "val": "Brendan Lally"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "note",
+    "val": "The book lists Brendan Lally among the Fohenagh players picked for the Galway team in the late 1950s."
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.151"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:brendan-lally-fohenagh",
+    "col": "county_note",
+    "val": "Galway selection per book p.151"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "name",
+    "val": "Eugene Hession"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "note",
+    "val": "Won an All-Ireland Under-21 hurling medal in 1978. The book says Fohenagh's only All-Ireland hurling medals are his and Tony Kirwan's (both U-21). A dual player, and like Séamus Moclair he won All-Ireland Vocational Schools honours."
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.153"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.153"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p153-kirwan-hession-moclair"
+  },
+  {
+    "row": "player:eugene-hession-fohenagh",
+    "col": "book_suggested_notable",
+    "val": "One of only two Fohenagh men with an All-Ireland hurling medal: Under-21, 1978 (A History of Fohenagh)."
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "name",
+    "val": "Gerry Burke"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "note",
+    "val": "Named as Gerry Burke (back row) in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.152"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:gerry-burke-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "name",
+    "val": "Seamus Lohan"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "note",
+    "val": "Named as Seamus Lohan (back row) in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.152"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:seamus-lohan-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "name",
+    "val": "Padraig Daly"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "note",
+    "val": "Named as Padraig Daly (back row) in the 1993 County Junior Hurling Finalists photo."
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.152"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:padraig-daly-fohenagh",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p152-1993-junior-finalists"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "name",
+    "val": "Paul Leonard"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "note",
+    "val": "Named as Paul Leonard in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:paul-leonard-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "name",
+    "val": "Paul O'Beirne"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "note",
+    "val": "Named as Paul O'Beirne in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:paul-obeirne-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "name",
+    "val": "Conor Geraghty"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "note",
+    "val": "Named as Conor Geraghty in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:conor-geraghty-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "name",
+    "val": "Damien O'Beirne"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "note",
+    "val": "Named as Damien O'Beirne in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:damien-obeirne-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "name",
+    "val": "Thomas Bleahene"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "note",
+    "val": "Named as Thomas Bleahene in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:thomas-bleahene-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "name",
+    "val": "Damien Poland"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "note",
+    "val": "Named as Damien Poland in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:damien-poland-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "name",
+    "val": "Eric Lally"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "note",
+    "val": "Named as Eric Lally in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:eric-lally-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "name",
+    "val": "Damien Glynn"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "note",
+    "val": "Named as Damien Glynn in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:damien-glynn-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "name",
+    "val": "Cathal Farragher"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "note",
+    "val": "Named as Cathal Farragher in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:cathal-farragher-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "name",
+    "val": "Peter Madden"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "note",
+    "val": "Named as Peter Madden in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:peter-madden-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "name",
+    "val": "John Madden"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "note",
+    "val": "Named as John Madden in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:john-madden-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "name",
+    "val": "Mark Leonard"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "note",
+    "val": "Named as Mark Leonard in the book's 1990 underage team photo A (back/front rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:mark-leonard-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "name",
+    "val": "Enda O'Connell"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "note",
+    "val": "Named as Enda O'Connell in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:enda-oconnell-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "name",
+    "val": "Richard Donelan"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "note",
+    "val": "Named as Richard Donelan in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:richard-donelan-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "name",
+    "val": "David Faulkner"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "note",
+    "val": "Named as David Faulkner in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:david-faulkner-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "name",
+    "val": "John Donelan"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "note",
+    "val": "Named as John Donelan in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:john-donelan-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "name",
+    "val": "Mark Carrick"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "note",
+    "val": "Named as Mark Carrick in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:mark-carrick-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "name",
+    "val": "Jonathan Molloy"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "note",
+    "val": "Named as Jonathan Molloy in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:jonathan-molloy-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "name",
+    "val": "Shane Costello"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "note",
+    "val": "Named as Shane Costello in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:shane-costello-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "name",
+    "val": "Cormac Lyons"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "note",
+    "val": "Named as Cormac Lyons in the book's 1990 underage team photo B (front, 2nd and 3rd rows). Team-list-only profile (privacy: underage team in 1990)."
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.154"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in A History of Fohenagh"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "player:cormac-lyons-fohenagh",
+    "col": "privacy",
+    "val": "team-list-only"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:b-clinton-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "B. Clinton"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:b-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:l-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "L. Madden"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:l-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:m-barrett-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "M. Barrett"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:m-barrett-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:a-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "A. Madden"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:a-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:m-madden-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "M. Madden"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-madden-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "role",
+    "val": "captain"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:p-hopkins-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "P. Hopkins"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:p-hopkins-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "scoring",
+    "val": "goal (second half, per book)"
+  },
+  {
+    "row": "appearance:rita-clinton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:j-glynn-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "J. Glynn"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:j-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:a-glynn-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "A. Glynn"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:a-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:m-farrell-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "M. Farrell"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:m-farrell-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:m-glynn-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "M. Glynn"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:m-glynn-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "player",
+    "val": "player:k-naughton-fohenagh-camogie"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "name",
+    "val": "K. Naughton"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "match",
+    "val": "match:fohenagh-erins-hope-camogie-final-1947"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship final (1947)"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.146"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:k-naughton-fohenagh-camogie-fohenagh-erins-hope-camogie-final-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "player",
+    "val": "player:mike-barrett-fohenagh"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "name",
+    "val": "Mike Barrett"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "match",
+    "val": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "competition",
+    "val": "Galway Junior Hurling Championship semi-final (1941), played 1942"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "year",
+    "val": 1942
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "role",
+    "val": "captain"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "cite_chip",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.144"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.144"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:mike-barrett-fohenagh-fohenagh-claregalway-1941-jhc-semi",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_title",
+    "val": "The Battle of Athenry"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_note",
+    "val": "The Battle of Athenry. Fohenagh met Claregalway in the 1941 county junior semi-final at Athenry in May 1942, and it went about as well as a picnic in a hailstorm. The referee reported that Claregalway spectators rushed onto the pitch and some Fohenagh players were hurt; he could not clear the field, so he called the match off. At the long County Board meeting that followed, captain Mike Barrett said he was assaulted and that the referee had asked him to take his team to safety. Tim Glynn's memory of the day, the book notes with a wink, 'differed slightly with his captain's story of injured innocence!' The referee wanted a replay and Mick Silver proposed a two-year ban for Claregalway, but the chairman, Thomas O'Connor (Claregalway), ruled that 'it takes two to start a fight': both clubs got a year's suspension. Eyrecourt, the East Board winners, were declared county junior champions without needing to puck a ball."
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.144–145"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.144–145"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-story-battle-of-athenry"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_date",
+    "val": "1942-05-23 (book: \"played in Athenry on May 23rd\"; the Tribune fixture said Sunday 24 May)"
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_outcome",
+    "val": "Abandoned after a pitch invasion; both clubs suspended for a year; Eyrecourt declared 1941 county junior champions."
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "book_source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.145–146"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "score_book",
+    "val": "Fohenagh 3-1, Erin's Hope 3-0"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "score_note",
+    "val": "Score agreed by two sources: the Irish Press full page (17 Nov 1947, p.9) and A History of Fohenagh p.146. Only the INA search-snippet OCR showed 0-0; that snippet is wrong."
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "book_note",
+    "val": "Fohenagh's first county camogie final, at UCG Park on 16 November 1947. Erin's Hope were favourites with six county players and went two goals up, but Fohenagh trailed by only 2 points at half-time. Rita Clinton played brilliantly and a goal from Pauline Hopkins midway through the second half put Fohenagh a point ahead, and they held on: 3-1 to 3-0."
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-story-turf-lorry-1947"
+  },
+  {
+    "row": "match:fohenagh-erins-hope-camogie-final-1947",
+    "col": "venue_book",
+    "val": "UCG Park, Galway"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-semi-final-1946",
+    "col": "book_note",
+    "val": "The book agrees: Caltra beat Fohenagh in the 1946 semi-final in a thriller rated better than any other tie that year, and went on to win the county final."
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947",
+    "col": "book_note",
+    "val": "Listed in the book among Fohenagh's 1947 wins on the way to the county final (Tuam, Ballymacward, Ballinasloe Mental Hospital and Caltra)."
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.148"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "book_date",
+    "val": "1956-07-15"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "book_note",
+    "val": "A Junior A game against Tynagh at Kiltormer on 15 July 1956. Fohenagh were seven points to nil up, which was going nicely, until fighting on the pitch got the game called off. Both teams were suspended for twelve months, 'a devastating blow' just when a junior title would have been the stepping stone to senior hurling."
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-story-tynagh-1956"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "book_date_note",
+    "val": "Book gives 15 July 1956; the existing cite is a Tuam Herald report of 6 Oct 1956 (board aftermath)."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-draw",
+    "col": "book_note",
+    "val": "Fohenagh reached the 1959 county final and drew with Castlegar. Two of the team's four seminarians had to return to their studies on the Tuesday and missed the replay, and serious injuries ruled out two other key players."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149–151"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "book_note",
+    "val": "At half-time in the replay Castlegar led by 10 points and it looked a lost cause, but Fohenagh came back to win by a point, 3-9 to 4-5, and Marty Glynn accepted the cup: the County Senior Cup for the first time ever. 'Perhaps the seminarians were not absent after all!' Ahascragh supporters lent the Old School Hall as a bar for the celebrations."
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p149-1959-senior-champions"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-story-1959-comeback"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150–151"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "book_note",
+    "val": "Castlegar again in the final, but no replay needed this time: Fohenagh won handsomely, 4-9 to 2-7, and retained the cup."
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-p150-1960-senior-champions"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-p151-cup-retained-1960"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "book_note",
+    "val": "Turloughmore beat Fohenagh in the 1961 final, ending the bid for three in a row; that Turloughmore team went on to win a record six titles in a row."
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "book_conflict",
+    "val": "Book says Turloughmore won 'by one point'; the seed score Turloughmore 3-6, Fohenagh 3-4 is a two-point margin. Archivist check."
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149"
+  },
+  {
+    "row": "match:fohenagh-historic-1958-galway-shc-final",
+    "col": "book_note",
+    "val": "The book says Fohenagh won the East Board senior title at the first attempt but were soundly beaten by Castlegar in the county championship in their first two years as seniors."
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.144"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "book_conflict",
+    "val": "The book describes a 1941 Fohenagh v Cussane game at Menlough (their first ever meeting) as an earlier round, with the North Board final then against Killimordaly (draw, then a replay won at Monivea). The newspapers (CTT 7 Mar 1942, TTH 4 Apr 1942) call the Menlough game v Cussaun the North Board final. Killimordaly games held, not seeded."
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "name",
+    "val": "Fohenagh vs Gurteen — Gurteen hurling tournament (1890)"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "competition",
+    "val": "Gurteen Gaelic tournament"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "year",
+    "val": 1890
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "date",
+    "val": "1890-07-15"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "opponent",
+    "val": "Gurteen"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "venue",
+    "val": "Gurteen (field given by the Cormican family)"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "result",
+    "val": "no score"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "score",
+    "val": "No score (called off after 50 minutes, neither side scored)"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "captain",
+    "val": "player:tim-glynn-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "note",
+    "val": "Fohenagh, captained by Tim Glynn, met Gurteen at a big Gaelic tournament. After fifty minutes of 'spirited stopping and blocking' the teams were called off the field and nobody had scored. A lot of hurling for no score at all!"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.139"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.139"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-gurteen-tournament-1890",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-story-1890-gurteen"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "name",
+    "val": "Fohenagh vs Gort — Galway SHC first round (1960), drawn"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "round",
+    "val": "First round"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "opponent",
+    "val": "Gort"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "result",
+    "val": "draw"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "note",
+    "val": "The champions were 'very lucky to earn a replay' with Gort in the first round, says the book. No score given."
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.151"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-1960",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "name",
+    "val": "Fohenagh vs Gort — Galway SHC first round replay (1960)"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "round",
+    "val": "First round replay"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "opponent",
+    "val": "Gort"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "note",
+    "val": "Fohenagh came through the replay (the book says the later rounds were won convincingly on the way to the 1960 final). No score given."
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.151"
+  },
+  {
+    "row": "match:fohenagh-gort-shc-r1-replay-1960",
+    "col": "confidence",
+    "val": "low"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "name",
+    "val": "Fohenagh vs Ahascragh — Galway County Junior Hurling Final (1981)"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "competition",
+    "val": "Galway Junior Hurling Championship"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "year",
+    "val": 1981
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "opponent",
+    "val": "Ahascragh"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "away",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "winner",
+    "val": "club:ahascragh-historic"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "note",
+    "val": "Back in the junior ranks, Fohenagh were drawn against their old neighbours Ahascragh in the 1981 county final, which 'renewed old friendships and old rivalries'. Ahascragh won. No score given in the book."
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.152"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-ahascragh-junior-final-1981",
+    "col": "related_win",
+    "val": "win:ahascragh-historic-1981-junior"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "name",
+    "val": "Fohenagh vs Clonbur — Galway County Junior Football Final (1959)"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "competition",
+    "val": "Galway Junior Football Championship"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "round",
+    "val": "Final"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "year",
+    "val": 1959
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "opponent",
+    "val": "Clonbur"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "sport",
+    "val": "football"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "result",
+    "val": "loss"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "note",
+    "val": "Fohenagh's footballers reached three county junior finals in the 1950s; in 1959 Clonbur beat them by a single point. No score given."
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.153"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.153"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-clonbur-junior-football-final-1959",
+    "col": "margin",
+    "val": "1 point"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "name",
+    "val": "Fohenagh vs Tuam — Galway Senior Camogie Championship (1947)"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship (1947)"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "opponent",
+    "val": "Tuam"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "note",
+    "val": "One of Fohenagh's wins on the way to the 1947 county camogie final (Tuam, Ballymacward, Ballinasloe Mental Hospital and Caltra). No date or score in the book."
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.145–146"
+  },
+  {
+    "row": "match:fohenagh-tuam-camogie-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "name",
+    "val": "Fohenagh vs Ballymacward — Galway Senior Camogie Championship (1947)"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship (1947)"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "opponent",
+    "val": "Ballymacward"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "note",
+    "val": "One of Fohenagh's wins on the way to the 1947 county camogie final (Tuam, Ballymacward, Ballinasloe Mental Hospital and Caltra). No date or score in the book."
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.145–146"
+  },
+  {
+    "row": "match:fohenagh-ballymacward-camogie-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "source_ref",
+    "val": "source:book-a-history-of-fohenagh"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "name",
+    "val": "Fohenagh vs Caltra — Galway Senior Camogie Championship (1947)"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "competition",
+    "val": "Galway Senior Camogie Championship (1947)"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "year",
+    "val": 1947
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "opponent",
+    "val": "Caltra"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "note",
+    "val": "One of Fohenagh's wins on the way to the 1947 county camogie final (Tuam, Ballymacward, Ballinasloe Mental Hospital and Caltra). No date or score in the book."
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145–146"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "source",
+    "val": "Tony O'Gorman, A History of Fohenagh, chapter 17, p.145–146"
+  },
+  {
+    "row": "match:fohenagh-caltra-camogie-1947",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "book_credit",
+    "val": "From A History of Fohenagh by Tony O'Gorman"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "book_cite",
+    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.137–157"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "book_history",
+    "val": "Fohenagh was on the County Board's list of affiliated clubs on 15 April 1890 (maybe earlier). It was re-affiliated on 21 January 1907 despite a strong objection from Ahascragh, after the parish priest Fr. Harney, newly elected club president, wrote that the players were 'respectable men'. In the 1930s Fohenagh men stopped playing for Ahascragh and built their own teams, moved from the North Board to the East Board in the 1940s, became county senior champions in 1959 and 1960, and in 2002 both clubs disbanded to form the new Ahascragh/Fohenagh club, ending a 112-year-old club."
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "book_upload",
+    "val": "art-book-fohenagh-story-1907-reaffiliation"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "book_upload_2",
+    "val": "art-book-fohenagh-story-amalgamation-2002"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "book_amalgamation",
+    "val": "1999: underage union with Ahascragh (county U-14 B and Minor B titles that year). 21 January 2002: both clubs held their AGMs at the same time, disbanded, and the new club Ahascragh/Fohenagh (club:ahascragh-fohenagh) was born."
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "book_county_players",
+    "val": "Book p.151 lists Fohenagh men on the Galway team in the late 1950s: Tim Sweeney, P.J. Lally and Marty Glynn (1958 Oireachtas Cup winners v Wexford), Frankie Glynn, Frank Madden, Jimmy Moclair, Peter Fitzgerald, Brendan Lally and Tony O'Gorman; once a Fohenagh selection represented Galway in a league game v Carlow. Fr. Nick Murray played many times for Galway. Earlier: Hugh Barrett (1930s, Ahascragh) and Michael Burke of Lenalough, Galway goalkeeper about 20 years before."
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "name",
+    "val": "Sarah Noone"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "sport",
+    "val": "camogie"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "also_played_with",
+    "val": "club:ahascragh-fohenagh"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "also_played_with_county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "confidence",
+    "val": "verified"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "roots",
+    "val": "From Fohenagh (Connacht Tribune 28 Jul 2006 p11 describes her as from Fohenagh). Past pupil of St Cuan's College, Castleblakeney (Connacht Tribune 1 Nov 2013 p22)."
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "kid_chip",
+    "val": "Fohenagh camogie star who went on to play for Galway"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "notable",
+    "val": "Also played with Galway: All-Ireland minor camogie winner (2004), player of the match v Cork (2006), Camogie Soaring Star (2012)."
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "note",
+    "val": "From Fohenagh parish. Galway U16 Connacht medal, listed as Sarah Noone (Fohenagh) (Connacht Tribune 28 May 2004 p14). Galway minor camogie All-Ireland winners 2004 (Tuam Herald 19 Aug 2004 p22; Connacht Tribune 27 Aug 2004 p6). Player of the match v Cork (Connacht Tribune 28 Jul 2006 p11). Called a dual star and recalled for an All-Ireland quarter-final (Connacht Tribune 12 Sep 2008 p29). Camogie Soaring Stars 2012 (Irish Independent 5 Nov 2012 p42); Galway camogie All-Star nominee (Connacht Tribune 9 Nov 2012 p53). Past pupil of St Cuan's College (Connacht Tribune 1 Nov 2013 p22). Source: INA search snippets."
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "cutting_cite",
+    "val": "Connacht Tribune · 28 Jul 2006 · p.11 · INA"
+  },
+  {
+    "row": "player:sarah-noone-fohenagh",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT20060728.1.11"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "notable",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960). Fohenagh hurler on the 1959 county title team, named in Connacht Tribune photos through 1961 and 1963."
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "county_selection",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "notable",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960). Named on Fohenagh's XV in the 1959 Galway SHC final replay vs Castlegar (Connacht Tribune, 19 Sep 1959). Started for Fohenagh in the 1963 Galway SHC final (Turloughmore GAA archive team sheet)."
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "county_selection",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "county_selection",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "notable",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)."
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "county_selection",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "notable",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)."
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "county_selection",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "notable",
+    "val": "Selected for Galway v Tipperary (National League, 30 Oct 1960)."
+  },
+  {
+    "row": "player:aaron-moclair-ahascragh-fohenagh",
+    "col": "name",
+    "val": "Adam Moclair"
   }
 ]

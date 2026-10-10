@@ -77,6 +77,11 @@ export function PlayerProfileView({
               {profile.headline}
             </p>
           ) : null}
+          {poster ? (
+            <p className="text-sm leading-relaxed text-galway-ink/70">
+              Club people who served the club and the community.
+            </p>
+          ) : null}
         </div>
       </header>
 

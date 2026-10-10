@@ -16,6 +16,7 @@ import {
 import seed from "../../data/seed.json";
 import type { EntitySummary } from "@/lib/data";
 import type { LinkedCuttingSource } from "@/lib/sources";
+import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 import { SHOW_INA_MEDIA } from "@/lib/ina-media";
 
 const execFileAsync = promisify(execFile);
@@ -70,6 +71,16 @@ export interface ArticleUpload {
   fetchedTitle?: string;
   /** Irish Newspaper Archives scan. Hidden when SHOW_INA_MEDIA is off. */
   inaMedia?: boolean;
+  /** Book scan or a clipping from the collection. Hidden when SHOW_BOOK_MEDIA is off. */
+  bookMedia?: boolean;
+  /** Printed page in the book, when this is a book scan. */
+  bookPage?: string;
+  /** Club-page feature, such as the 2021 fairytale. */
+  featuredLink?: boolean;
+  /** Byline, when the cutting names a writer. */
+  author?: string;
+  /** Extra page images, in reading order. */
+  pageImages?: string[];
   /** Courtesy line, e.g. Irish Newspaper Archives */
   credit?: string;
   /** Permalink back to the archive page */
@@ -171,8 +182,10 @@ function assertWritableStorage(): void {
 }
 
 /** True when this cutting's scans must stay off the page. */
-function inaScanHidden(a: Pick<ArticleUpload, "inaMedia">): boolean {
-  return a.inaMedia === true && !SHOW_INA_MEDIA;
+function inaScanHidden(a: Pick<ArticleUpload, "inaMedia" | "bookMedia">): boolean {
+  if (a.inaMedia === true && !SHOW_INA_MEDIA) return true;
+  if (a.bookMedia === true && !SHOW_BOOK_MEDIA) return true;
+  return false;
 }
 
 function isRasterImageUrl(url: string): boolean {
@@ -361,8 +374,7 @@ async function storePrivateTextBlob(
 
 /** Drop INA scans when NEXT_PUBLIC_SHOW_INA_MEDIA is "false". */
 function applyInaMediaVisibility(list: ArticleUpload[]): ArticleUpload[] {
-  if (SHOW_INA_MEDIA) return list;
-  return list.filter((a) => a.inaMedia !== true);
+  return list.filter((a) => !inaScanHidden(a));
 }
 
 export async function readArticleUploads(): Promise<ArticleUpload[]> {

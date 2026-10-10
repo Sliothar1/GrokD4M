@@ -4,7 +4,7 @@ import { ArticleClipSection } from "@/components/ArticleClip";
 import {
   AhascraghStoryChips,
   AhascraghTitleChips,
-  HistoricClubPanel,
+  FohenaghNotableGamesShelf,
   HistoricPredecessorChip,
   HistoricStoryChips,
   LoughreaFinalStoryChips,
@@ -37,6 +37,8 @@ import {
   type LinkedCuttingSource,
 } from "@/lib/sources";
 import { FohenaghMarks } from "@/components/fohenagh/FohenaghArt";
+import { FohenaghFairytale } from "@/components/fohenagh/FohenaghFairytale";
+import { FohenaghPlayerIndex } from "@/components/fohenagh/FohenaghPlayerIndex";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
@@ -165,37 +167,23 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         </p>
       ) : null}
 
+      {isHistoricFohenagh ? <FohenaghFairytale /> : null}
+
+      {isHistoricFohenagh ? <FohenaghNotableGamesShelf /> : null}
+
       {isHistoricFohenagh && summary.kind === "club" ? (
-        <div className="fohenagh-stage">
-          <ClubRoster
-            rows={clubRoster}
-            clubName={summary.title}
-            unverifiedLabel="Being verified"
-            omitAlsoClubIds={["club:ahascragh-fohenagh"]}
-            separateUnverifiedLinks
-            presentation="poster"
-          />
-          {heroCutting?.imagePath ? (
-            <figure className="fohenagh-cutting">
-              <a href={heroCutting.href}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={heroCutting.imagePath} alt={heroCutting.title} />
-              </a>
-              <figcaption>
-                From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
-              </figcaption>
-            </figure>
-          ) : null}
-        </div>
+        <FohenaghPlayerIndex
+          rows={clubRoster.map((row) => ({
+            id: row.summary.id,
+            name: row.summary.title,
+            href: row.summary.href,
+            years: row.years,
+            also: row.alsoClubs
+              .map((club) => club.name.replace(/\s*·\s*historic\s*$/i, ""))
+              .join(", "),
+          }))}
+        />
       ) : null}
-
-      {isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
-        <p className="max-w-3xl text-lg leading-relaxed text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
-        </p>
-      ) : null}
-
-      {isHistoricFohenagh && <HistoricClubPanel showStories={false} />}
 
       {isHistoricFohenagh && <HistoricStoryChips />}
 

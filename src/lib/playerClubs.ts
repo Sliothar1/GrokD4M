@@ -137,6 +137,8 @@ export type ClubRosterRow = {
    * source on that column. Named `club` / `also_club` links are not pending.
    */
   linkPending: boolean;
+  /** Years already on appearances or debut. Used for the decade filter. */
+  years: number[];
 };
 
 const AF_CLUB_ID = "club:ahascragh-fohenagh";
@@ -264,6 +266,20 @@ export async function listClubRoster(
     }
   }
 
+  const yearsByPlayer = new Map<string, Set<number>>();
+  const rememberYear = (playerId: string, raw: TripleVal | undefined) => {
+    const match = String(raw ?? "").match(/\b(?:18|19|20)\d{2}\b/);
+    if (!match) return;
+    const set = yearsByPlayer.get(playerId) ?? new Set<number>();
+    set.add(Number(match[0]));
+    yearsByPlayer.set(playerId, set);
+  };
+  for (const triple of A.getcol("player")) {
+    if (!String(triple.row).startsWith("appearance:")) continue;
+    if (typeof triple.val !== "string") continue;
+    rememberYear(triple.val, A.get(triple.row, "year"));
+  }
+
   const cuttingCounts = await linkedCuttingCountsFor(playerIds);
   const rows: ClubRosterRow[] = [];
   for (const id of playerIds) {
@@ -277,6 +293,7 @@ export async function listClubRoster(
       cuttingCounts.get(id) ?? 0,
       linkedCuttingCount(attrs)
     );
+    rememberYear(id, attrs.debut);
     rows.push({
       summary,
       alsoClubs: also,
@@ -284,6 +301,7 @@ export async function listClubRoster(
         playerProfileChip(attrs, summary.confidence, linkedCuttings) ??
         "Needs check",
       linkPending: jerseyLinkPending(attrs, clubId),
+      years: [...(yearsByPlayer.get(id) ?? [])].sort(),
     });
   }
 

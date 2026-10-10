@@ -85,6 +85,9 @@ type AppearanceRec = {
 type ArticleCredit = {
   credit?: string;
   creditUrl?: string;
+  image?: string;
+  portrait?: boolean;
+  caption?: string;
 };
 
 type ProfileContext = {
@@ -221,6 +224,10 @@ function isFohenagh(
 }
 
 function topHonour(attrs: Record<string, TripleVal>): string | null {
+  const selection = sanitizePublicText(String(attrs.county_selection ?? "")).replace(/[.!?]+$/g, "");
+  if (selection && /galway/i.test(selection) && !/\bsub\b|substitut|panel/i.test(selection)) {
+    return selection.length <= 160 ? selection : selection.slice(0, 157).trim() + "…";
+  }
   const medals = positiveCount(attrs.all_ireland_medals);
   if (medals === 1) return "All-Ireland winner";
   if (medals && medals > 1) return `All-Ireland winner, ${medals} medals`;
@@ -450,7 +457,15 @@ export function profileForPlayer(
     Boolean(gradesRaw) ||
     Boolean(eraRaw) ||
     teammateTokens(attrs).length > 0;
-  let summary = citedProse(attrs);
+  const bookBits: string[] = [];
+  for (const key of Object.keys(attrs)
+    .filter((item) => /^book_note(?:_\d+)?$/.test(item))
+    .sort()) {
+    if (!isDisplayableVal(attrs[key])) continue;
+    const text = sanitizePublicText(String(attrs[key]));
+    if (text) bookBits.push(text);
+  }
+  let summary = [citedProse(attrs), bookBits.join(" ")].filter(Boolean).join(" ") || null;
   if (!summary && editorish) {
     summary = editorSummary(
       name,
@@ -493,6 +508,34 @@ export function profileForPlayer(
 
   const showCorrection = correctionsFormEnabled();
 
+  let photoUrl = resolvePlayerPhoto(slug, attrs);
+  const bookKeys = Object.keys(attrs)
+    .filter((item) => /^book_upload(?:_\d+)?$/.test(item))
+    .sort();
+  if (!photoUrl) {
+    for (const key of bookKeys) {
+      const uploadId = articleIdOf(attrs[key]);
+      const art = uploadId ? ctx.articles.get(uploadId) : undefined;
+      if (art?.portrait && art.image) {
+        photoUrl = art.image;
+        break;
+      }
+    }
+  }
+  for (const key of bookKeys) {
+    const uploadId = articleIdOf(attrs[key]);
+    const art = uploadId ? ctx.articles.get(uploadId) : undefined;
+    if (!art || !uploadId) continue;
+    const label = sanitizePublicText(art.caption ?? "") || "From A History of Fohenagh";
+    const href = `/article/${uploadId}`;
+    if (games.some((game) => game.href === href)) continue;
+    games.push({ label, href });
+  }
+  const bookCredit = bookBits.length > 0 ? "From A History of Fohenagh by Tony O'Gorman" : null;
+  const creditLine = [credit, bookCredit && credit !== bookCredit ? bookCredit : null]
+    .filter(Boolean)
+    .join(" ");
+
   return {
     slug,
     name,
@@ -500,7 +543,7 @@ export function profileForPlayer(
     eraLine,
     summary,
     schoolsLine,
-    photoUrl: resolvePlayerPhoto(slug, attrs),
+    photoUrl,
     games,
     teammates,
     correctionHref: showCorrection ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}` : null,
@@ -509,7 +552,7 @@ export function profileForPlayer(
       ? `/memories?page=${encodeURIComponent(`/player/${slug}`)}`
       : null,
     memoryLabel: MEMORY_LABEL,
-    credit,
+    credit: creditLine || null,
     creditHref,
     verified: playerVerifiedHidden(attrs),
   };
@@ -590,7 +633,13 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
   const articles = new Map<string, ArticleCredit>();
   for (const upload of await readArticleUploads()) {
     if (upload.inaMedia && !showInaMedia) continue;
-    articles.set(upload.id, { credit: upload.credit, creditUrl: upload.creditUrl });
+    articles.set(upload.id, {
+      credit: upload.credit,
+      creditUrl: upload.creditUrl,
+      image: upload.publicUrl || upload.path,
+      portrait: upload.kind === "image" && upload.playerTags.length === 1,
+      caption: upload.caption,
+    });
   }
 
   return { A, appearancesByPlayer, byMatch, playerName, nameIndex, articles };
