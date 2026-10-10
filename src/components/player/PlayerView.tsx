@@ -137,6 +137,21 @@ export function PlayerProfileView({
         </section>
       ) : null}
 
+      {profile.alsoPlayed.length > 0 ? (
+        <p className="text-sm text-galway-ink/55">
+          Also played with{" "}
+          {profile.alsoPlayed.map((club, index) => (
+            <span key={club.href}>
+              {index > 0 ? ", " : null}
+              <Link href={club.href} className="underline decoration-galway-ink/20 underline-offset-2">
+                {club.name}
+              </Link>
+            </span>
+          ))}
+          .
+        </p>
+      ) : null}
+
       {profile.teammates.length > 0 ? (
         <section>
           <h2 className={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}>

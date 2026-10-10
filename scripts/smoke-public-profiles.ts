@@ -142,6 +142,22 @@ async function main() {
   assert.match(endaText, /John Devine/);
   assert.match(endaText, /Killure and Kilgerrill/);
 
+  const sarah = profileForPlayer(
+    ctx,
+    "player:sarah-noone-fohenagh",
+    A.entityAttrs("player:sarah-noone-fohenagh")
+  );
+  assert.equal(
+    sarah.alsoPlayed.some((club) => club.href === "/club/ahascragh-fohenagh"),
+    true
+  );
+  assert.equal(
+    sarah.alsoPlayed.some((club) => club.href === "/team/galway"),
+    true
+  );
+  assert.match(publicProfileText(sarah), /Also played with/);
+  assert.doesNotMatch(publicProfileText(sarah), /rising star/i);
+
   const brendan = profileForPlayer(
     ctx,
     "player:brendan-noone-fohenagh",

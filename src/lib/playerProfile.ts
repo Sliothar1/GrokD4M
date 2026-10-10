@@ -47,6 +47,11 @@ export type PublicTeammate = {
   href?: string;
 };
 
+export type PublicAlsoPlayed = {
+  name: string;
+  href: string;
+};
+
 export type PublicPlayerProfile = {
   slug: string;
   name: string;
@@ -61,6 +66,7 @@ export type PublicPlayerProfile = {
   documentsHeading: string | null;
   games: PublicGame[];
   teammates: PublicTeammate[];
+  alsoPlayed: PublicAlsoPlayed[];
   correctionHref: string | null;
   correctionLabel: string;
   memoryHref: string | null;
@@ -284,6 +290,33 @@ function splitPeople(raw: string): string[] {
     .filter(Boolean);
 }
 
+function alsoPlayedWith(attrs: Record<string, TripleVal>, A: AssocArray): PublicAlsoPlayed[] {
+  const keys = Object.keys(attrs)
+    .filter((key) => /^(?:also_played_with|also_played_with_county)(?:_\d+)?$/.test(key))
+    .sort();
+  const links: PublicAlsoPlayed[] = [];
+  const seen = new Set<string>();
+  for (const key of keys) {
+    if (!isDisplayableVal(attrs[key])) continue;
+    for (const token of splitPeople(String(attrs[key]))) {
+      if (!isEntityRef(token)) continue;
+      const href = token.startsWith("club:")
+        ? `/club/${token.slice("club:".length)}`
+        : token.startsWith("team:")
+          ? `/team/${token.slice("team:".length)}`
+          : null;
+      if (!href || seen.has(href)) continue;
+      const name = sanitizePublicText(
+        displayNameForRef(token, A).replace(/\s*·\s*historic\s*$/i, "")
+      );
+      if (!name || firstBannedPublicHit(name)) continue;
+      seen.add(href);
+      links.push({ name, href });
+    }
+  }
+  return links;
+}
+
 function teammateTokens(attrs: Record<string, TripleVal>): string[] {
   const keys = Object.keys(attrs)
     .filter((key) => /^(?:teammates|teammate(?:_\d+)?)$/.test(key))
@@ -483,6 +516,7 @@ export function profileForPlayer(
   }
   for (const token of teammateTokens(attrs)) addMate(resolvePerson(token, ctx, id));
   const teammates = [...mates.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const alsoPlayed = alsoPlayedWith(attrs, ctx.A);
 
   const editorish =
     String(attrs.source ?? "").trim().toLowerCase() === "editor" ||
@@ -604,6 +638,7 @@ export function profileForPlayer(
       games.length === 0 ? null : games.some((game) => game.href) ? "Original documents" : "Games",
     games,
     teammates,
+    alsoPlayed,
     correctionHref: showCorrection ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}` : null,
     correctionLabel: CORRECTION_LABEL,
     memoryHref: showCorrection
@@ -632,6 +667,8 @@ export function publicProfileText(profile: PublicPlayerProfile): string {
     ),
     profile.teammates.length > 0 ? "Played alongside" : null,
     ...profile.teammates.map((mate) => mate.name),
+    profile.alsoPlayed.length > 0 ? "Also played with" : null,
+    ...profile.alsoPlayed.map((club) => club.name),
     profile.correctionHref ? profile.correctionLabel : null,
     profile.memoryHref ? profile.memoryLabel : null,
     profile.credit,
