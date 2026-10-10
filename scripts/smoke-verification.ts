@@ -17,6 +17,13 @@ import {
 } from "../src/lib/entityDisplay";
 import { cuttingFactKey, resolveEntitySources } from "../src/lib/sources";
 import {
+  createPlayerProfileContext,
+  playerVerifiedHidden,
+  profileForPlayer,
+  publicProfileText,
+} from "../src/lib/playerProfile";
+import { firstBannedPublicHit } from "../src/lib/publicText";
+import {
   annotateEntityVerification,
   classifyFact,
   familyConfirmedFactKeys,
@@ -25,7 +32,6 @@ import {
   isPrimarySource,
   publisherKey,
   registrableDomain,
-  VERIFICATION_LABEL,
   type FactSourceStatus,
 } from "../src/lib/verification";
 
@@ -228,6 +234,7 @@ async function main() {
 
   const rows: string[] = [];
   const A = await getAssoc();
+  const profiles = await createPlayerProfileContext();
   for (const slug of ROUTES) {
     const data = await getEntity(`player:${slug}`);
     assert.ok(data, slug);
@@ -258,12 +265,18 @@ async function main() {
     const byKey = Object.fromEntries(
       index.facts.map((fact) => [fact.factKey, fact.status])
     );
+    const hidden = playerVerifiedHidden(data.attrs);
+    const publicText = publicProfileText(profileForPlayer(profiles, data.id, data.attrs));
+    const banned = firstBannedPublicHit(publicText);
+    assert.equal(banned, null, `${slug} public text hit ${banned}`);
+    assert.doesNotMatch(publicText, /Needs a source|Single-source|Needs check/);
     rows.push(
-      `${slug}\tprofile=${VERIFICATION_LABEL[profile]}\tV=${counts.verified}\tS=${counts.single}\tN=${counts.needs}\tF=${counts.family}`
+      `${slug}\thidden=${hidden ? "yes" : "no"}\tV=${counts.verified}\tS=${counts.single}\tN=${counts.needs}\tF=${counts.family}`
     );
 
     if (slug === "joe-cooney") {
       assert.equal(data.attrs.confidence, "high");
+      assert.equal(hidden, false);
       assert.equal(byKey.all_ireland_medals, "unverified");
       assert.equal(byKey.all_stars, "single-source");
       assert.equal(byKey.notes, "single-source");
@@ -285,6 +298,9 @@ async function main() {
       assert.equal(index.markers.notes?.length, 2);
       assert.equal(index.sources.length, 2);
       assert.deepEqual(index.markers.debut, [index.markers.notes?.[1]]);
+    }
+    if (slug === "jason-lohan" || slug === "tim-sweeney-fohenagh" || slug === "jim-moclair-fohenagh") {
+      assert.equal(hidden, true, slug);
     }
     if (slug === "jim-moclair-fohenagh") {
       assert.equal(profile, "verified");

@@ -1,194 +1,147 @@
-import { DeveloperTriples } from "@/components/DeveloperTriples";
-import {
-  CuttingExcerpts,
-  type CuttingCard,
-} from "@/components/player/CuttingExcerpts";
-import { InThePapers } from "@/components/player/InThePapers";
-import { NotableIntro } from "@/components/player/NotableIntro";
-import { PlayerCareer } from "@/components/player/PlayerCareer";
-import { ProfileStrip } from "@/components/player/ProfileStrip";
-import { CiteMarkers } from "@/components/sources/CiteMarker";
-import { SourcesPanel } from "@/components/sources/SourcesPanel";
-import { VerificationBadge } from "@/components/sources/VerificationBadge";
-import { loadCitationUploads } from "@/lib/articles";
-import {
-  displayNameForRef,
-  getAssoc,
-  type getEntity,
-} from "@/lib/data";
-import { orderCuttingCards } from "@/lib/cuttingOrder";
-import {
-  isDisplayableVal,
-  isPlayerIdentityFact,
-  PLAYER_FACT_KEYS,
-  playerArchiveNote,
-  playerNotableText,
-  playerNotesText,
-  playerOnPageFactKeys,
-  playerSourceOrder,
-  pressPraiseLines,
-} from "@/lib/entityDisplay";
-import { playerClubChips } from "@/lib/playerClubs";
-import {
-  playerPhotoUploadHref,
-  resolvePlayerPhoto,
-} from "@/lib/playerPhoto";
-import {
-  cuttingFactKey,
-  resolveEntitySources,
-} from "@/lib/sources";
-import {
-  annotateEntityVerification,
-  headlineVerificationStatus,
-  type FactSourceStatus,
-} from "@/lib/verification";
+import Link from "next/link";
+import type { getEntity } from "@/lib/data";
+import { loadPlayerProfile, type PublicPlayerProfile } from "@/lib/playerProfile";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
 /**
- * Locked ALL-player profile order — do not reorder:
- * 1) Profile strip  2) Notable (+ secondary note)  3) In the papers
- * 4) Excerpts  5) Career / related  6) Sources  7) For developers
+ * Every player page renders this allowlist. Pipeline notes, lane tags,
+ * verification badges, and ids are not passed through.
  */
 export async function PlayerView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
-  const A = await getAssoc();
-  const slug = id.startsWith("player:") ? id.slice("player:".length) : id;
+  const profile = await loadPlayerProfile(data.id, data.attrs);
+  return <PlayerProfileView profile={profile} />;
+}
 
-  const cuttings = orderCuttingCards(
-    related
-      .filter((r) => r.kind === "article_upload")
-      .map(
-        (r): CuttingCard => ({
-          id: r.id,
-          title: r.title,
-          excerpt: r.excerpt,
-          citeChip: r.citeChip,
-          imagePath: r.imagePath,
-          href: r.href,
-        })
-      )
-  );
-
-  const clubs = playerClubChips(id, attrs, related, A);
-  const countyName = attrs.county
-    ? displayNameForRef(String(attrs.county), A)
-    : undefined;
-  const notable = playerNotableText(attrs);
-  const papers = pressPraiseLines(attrs);
-  const note = playerArchiveNote(attrs);
-  const notes = playerNotesText(attrs);
-  const kidChip =
-    attrs.kid_chip && isDisplayableVal(attrs.kid_chip)
-      ? String(attrs.kid_chip)
-      : null;
-  const source = attrs.source ? String(attrs.source) : null;
-
-  const shownFacts = playerOnPageFactKeys(attrs, clubs.length > 0);
-
-  const citations = annotateEntityVerification(
-    resolveEntitySources({
-      entityId: id,
-      attrs,
-      cuttings: cuttings.map((cutting) => ({
-        id: cutting.id,
-        title: cutting.title,
-        href: cutting.href,
-        citeChip: cutting.citeChip,
-        imagePath: cutting.imagePath,
-      })),
-      uploads: await loadCitationUploads(),
-      order: playerSourceOrder(shownFacts),
-    }),
-    attrs
-  );
-  const statusOf = (factKey: string): FactSourceStatus =>
-    citations.facts.find((fact) => fact.factKey === factKey)?.status ??
-    "unverified";
-  const badgeFor = (factKey: string) => (
-    <VerificationBadge status={statusOf(factKey)} fact={factKey} />
-  );
-  const profileStatus = headlineVerificationStatus(
-    citations.facts,
-    isPlayerIdentityFact
-  );
-
-  const citeFor = (factKey: string) => (
-    <CiteMarkers
-      numbers={citations.markers[factKey] ?? []}
-      sources={citations.sources}
-    />
-  );
-
-  const citedCuttings = cuttings.map((cutting) => {
-    const factKey = cuttingFactKey(cutting.id);
-    const numbers = citations.markers[factKey] ?? [];
-    const status = statusOf(factKey);
-    return {
-      ...cutting,
-      cite: numbers.length > 0 ? citeFor(factKey) : undefined,
-      badge: <VerificationBadge status={status} fact={factKey} />,
-    };
-  });
-
-  const factKeys = ["kid_chip", ...PLAYER_FACT_KEYS];
-  const factCites = Object.fromEntries(
-    factKeys.map((key) => [key, citeFor(key)])
-  );
-  const factBadges = Object.fromEntries(
-    factKeys.map((key) => [key, badgeFor(key)])
-  );
-  const factStatuses = Object.fromEntries(
-    factKeys.map((key) => [key, statusOf(key)])
-  );
-
+export function PlayerProfileView({ profile }: { profile: PublicPlayerProfile }) {
   return (
-    <article className="space-y-9">
-      <ProfileStrip
-        name={summary.title}
-        clubs={clubs}
-        countyName={countyName}
-        photoUrl={resolvePlayerPhoto(slug, attrs)}
-        photoUploadHref={playerPhotoUploadHref(id)}
-        verification={profileStatus}
-        clubStatus={clubs.length > 0 ? statusOf("club") : undefined}
-        clubCite={citeFor("club")}
-        clubBadge={clubs.length > 0 ? badgeFor("club") : undefined}
-      />
+    <article className="space-y-8">
+      <header className="flex min-w-0 items-start gap-4 sm:gap-5">
+        {profile.photoUrl ? (
+          <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-galway-cream shadow-sm sm:h-28 sm:w-28">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={profile.photoUrl}
+              alt={profile.name}
+              className="h-full w-full object-cover"
+            />
+          </div>
+        ) : null}
+        <div className="min-w-0 flex-1 space-y-2 pt-0.5">
+          <h1 className="text-[1.85rem] font-black leading-[1.1] tracking-tight text-galway-ink sm:text-5xl">
+            {profile.name}
+          </h1>
+          {profile.headline ? (
+            <p className="text-lg font-semibold text-galway-maroon sm:text-xl">
+              {profile.headline}
+            </p>
+          ) : null}
+          {profile.eraLine ? (
+            <p className="text-sm font-semibold text-stone-700">{profile.eraLine}</p>
+          ) : null}
+        </div>
+      </header>
 
-      <NotableIntro
-        notable={notable}
-        note={note}
-        notes={notes}
-        notableCite={citeFor("notable")}
-        noteCite={citeFor("note")}
-        notesCite={citeFor("notes")}
-        notableBadge={notable ? badgeFor("notable") : undefined}
-        noteBadge={note ? badgeFor("note") : undefined}
-        notesBadge={notes ? badgeFor("notes") : undefined}
-        notableStatus={notable ? statusOf("notable") : undefined}
-        noteStatus={note ? statusOf("note") : undefined}
-        notesStatus={notes ? statusOf("notes") : undefined}
-      />
+      {profile.summary ? (
+        <p className="max-w-3xl text-base leading-relaxed text-galway-ink">{profile.summary}</p>
+      ) : null}
 
-      <InThePapers lines={papers} />
+      {profile.schoolsLine ? (
+        <p className="max-w-3xl text-base leading-relaxed text-stone-700">
+          {profile.schoolsLine}
+        </p>
+      ) : null}
 
-      <CuttingExcerpts cuttings={citedCuttings} />
+      {profile.games.length > 0 ? (
+        <section>
+          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Games
+          </h2>
+          <ul className="space-y-3">
+            {profile.games.map((game) => (
+              <li
+                key={`${game.label}|${game.href ?? ""}`}
+                className="rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3"
+              >
+                <p className="font-semibold text-galway-ink">{game.label}</p>
+                {game.href ? (
+                  <p className="mt-1">
+                    <Link
+                      href={game.href}
+                      className="font-semibold text-galway-maroon underline underline-offset-2"
+                    >
+                      Read the original
+                    </Link>
+                  </p>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
-      <PlayerCareer
-        attrs={attrs}
-        related={related}
-        assoc={A}
-        source={source}
-        kidChip={kidChip}
-        factCites={factCites}
-        factBadges={factBadges}
-        factStatuses={factStatuses}
-      />
+      {profile.teammates.length > 0 ? (
+        <section>
+          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Played alongside
+          </h2>
+          <p className="flex flex-wrap gap-x-1 gap-y-1 text-base text-galway-ink">
+            {profile.teammates.map((mate, index) => (
+              <span key={mate.href ?? mate.name}>
+                {index > 0 ? <span className="text-stone-400">, </span> : null}
+                {mate.href ? (
+                  <Link
+                    href={mate.href}
+                    className="font-semibold text-galway-maroon underline underline-offset-2"
+                  >
+                    {mate.name}
+                  </Link>
+                ) : (
+                  mate.name
+                )}
+              </span>
+            ))}
+          </p>
+        </section>
+      ) : null}
 
-      <SourcesPanel sources={citations.sources} legend />
+      <p className="border-t border-galway-maroon/15 pt-4 text-sm text-galway-ink/70">
+        {profile.correctionHref ? (
+          <>
+            <Link
+              href={profile.correctionHref}
+              rel="nofollow"
+              className="font-semibold text-galway-maroon underline underline-offset-2 hover:text-galway-maroon-dark"
+            >
+              {profile.correctionLabel}
+            </Link>
+            <span aria-hidden> · </span>
+          </>
+        ) : null}
+        <Link
+          href={profile.memoryHref}
+          className="font-semibold text-galway-maroon underline underline-offset-2 hover:text-galway-maroon-dark"
+        >
+          {profile.memoryLabel}
+        </Link>
+      </p>
 
-      <DeveloperTriples triples={triples} />
+      {profile.credit ? (
+        <p className="text-sm font-semibold text-galway-ink">
+          {profile.creditHref ? (
+            <a
+              href={profile.creditHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-galway-maroon underline underline-offset-2"
+            >
+              {profile.credit}
+            </a>
+          ) : (
+            profile.credit
+          )}
+        </p>
+      ) : null}
     </article>
   );
 }
