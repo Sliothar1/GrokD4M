@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FohenaghKeyPlayers } from "@/components/fohenagh/FohenaghKeyPlayers";
+import { GrokBotExtra } from "@/components/fohenagh/GrokBotExtra";
 import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 
 const TIMELINE = [
@@ -185,6 +186,7 @@ export function FohenaghParishStory() {
         <h3 className="text-xl font-black text-galway-ink">Key players</h3>
         <FohenaghKeyPlayers />
       </div>
+      <GrokBotExtra hint="€1 for another archive scan" />
     </section>
   );
 }

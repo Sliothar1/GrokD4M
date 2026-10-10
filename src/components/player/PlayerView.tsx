@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FohenaghPlayerBand } from "@/components/fohenagh/FohenaghArt";
+import { GrokBotExtra } from "@/components/fohenagh/GrokBotExtra";
 import { TerraceNotes } from "@/components/player/TerraceNotes";
 import type { getEntity } from "@/lib/data";
 import { getAssoc } from "@/lib/data";
@@ -205,6 +206,7 @@ export function PlayerProfileView({
           </Link>
         ) : null}
       </p>
+      <GrokBotExtra />
 
       {profile.credit ? (
         <p className="text-sm font-semibold tracking-wide text-galway-ink">

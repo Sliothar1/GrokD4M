@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { GrokBotExtra } from "@/components/fohenagh/GrokBotExtra";
 
 export function SiteFooter() {
   return (
@@ -57,6 +58,7 @@ export function SiteFooter() {
             before it goes live.
           </span>
         </p>
+        <GrokBotExtra />
       </div>
     </footer>
   );
