@@ -1,27 +1,20 @@
 import type { Metadata } from "next";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
-import { getAssoc, getEntity, listEntitiesByType, resolveId } from "@/lib/data";
-import { canonicalPlayerSlug, uniquePlayerRedirect } from "@/lib/playerSlug";
-
-async function loadPlayer(slug: string) {
-  const mapped = canonicalPlayerSlug(slug);
-  if (mapped) {
-    const data = await getEntity(resolveId("player", mapped));
-    return { data, redirectTo: mapped };
-  }
-  const direct = await getEntity(resolveId("player", slug));
-  if (direct) return { data: direct, redirectTo: null as string | null };
-  const target = uniquePlayerRedirect(slug, (await getAssoc()).entitiesOfType("player"));
-  if (!target) return { data: null, redirectTo: null as string | null };
-  const data = await getEntity(resolveId("player", target));
-  return { data, redirectTo: target };
-}
+import { getEntity, resolveId } from "@/lib/data";
+import { CANONICAL_PLAYER_SLUG } from "@/lib/playerSlug";
+import {
+  getPlayerRedirectIndex,
+  historicalSlugRecords,
+  resolvePlayerSlug,
+} from "@/lib/playerRedirects";
 
 export async function generateStaticParams() {
-  return (await listEntitiesByType("player:")).map((p) => ({
-    slug: p.id.slice("player:".length),
-  }));
+  const index = await getPlayerRedirectIndex();
+  const slugs = new Set<string>(index.players);
+  for (const record of historicalSlugRecords()) slugs.add(record.slug);
+  for (const slug of Object.keys(CANONICAL_PLAYER_SLUG)) slugs.add(slug);
+  return [...slugs].map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -30,8 +23,11 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const { data } = await loadPlayer(slug);
-  return { title: data?.summary.title ?? "Player" };
+  const index = await getPlayerRedirectIndex();
+  const decision = resolvePlayerSlug(slug, index);
+  const served = decision.status === 308 ? decision.target : decision.status === 200 ? decision.slug : "";
+  const data = served ? await getEntity(resolveId("player", served)) : null;
+  return { title: data?.summary.title ?? "Search" };
 }
 
 export default async function Page({
@@ -40,8 +36,11 @@ export default async function Page({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const { data, redirectTo } = await loadPlayer(slug);
-  if (redirectTo) redirect(`/player/${redirectTo}`);
+  const index = await getPlayerRedirectIndex();
+  const decision = resolvePlayerSlug(slug, index);
+  if (decision.status === 308) permanentRedirect(`/player/${decision.target}`);
+  if (decision.status === 307) redirect(decision.target);
+  const data = await getEntity(resolveId("player", decision.slug));
   if (!data) notFound();
   return <PlayerView data={data} />;
 }

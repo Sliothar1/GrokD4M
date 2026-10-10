@@ -1,3 +1,15 @@
+# Follow-up
+
+Next sprint, not tonight.
+
+## Profiles with the cuttings up front
+
+Profile pages should show the actual clippings, photos and artefacts up front: a flowing narrative instead of a clipping list, and professional numbered references.
+
+## Profile benchmark
+
+Lock Cathal Lohan's current profile as the benchmark. It is a dense dated run of achievements, each tied to a paper and a date, with about 14 numbered references, and newspaper snips that each have "Open snip". Carry that into the new template with the clippings up front. Remove the stray "Ahascragh-Fohenagh" and "Needs a source" header tags.
+
 # Follow-up (after the 10 Oct 15:20 push)
 
 Must-haves for this push are the Bainisteoir fails except the navy change, the general nav and Find a club landing, Patrick Sweeney's decades, the decades rule and its build check, the Sean Carrick merge from #93, and the shorter Grok credit line. The About credit and the link to `/player/garry-lohan` are in this push. The list below is everything else.
