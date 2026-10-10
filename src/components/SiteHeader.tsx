@@ -4,7 +4,8 @@ import { SearchBox } from "@/components/SearchBox";
 import { PARISH_STORIES } from "@/lib/parishStories";
 
 const games = [
-  { href: "/match/fohenagh-claregalway-1941-county-semi", label: "1941 semi-final" },
+  { href: "/match/fohenagh-claregalway-1941-county-semi", label: "1942 Athenry" },
+  { href: "/match/fohenagh-cussane-north-board-junior-final-1942", label: "1942 North Board final" },
   { href: "/match/fohenagh-cussane-1944-ina", label: "1943 final, played 1944" },
   { href: "/match/fohenagh-erins-hope-camogie-final-1947", label: "1947 camogie final" },
   { href: "/match/fohenagh-historic-1959-galway-shc-final-replay", label: "1959 senior replay" },

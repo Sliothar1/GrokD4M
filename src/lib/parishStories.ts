@@ -72,11 +72,11 @@ export const PARISH_STORIES: ParishStory[] = [
     title: "Panzer divisions",
     year: "1942",
     matchHref: "/match/fohenagh-claregalway-1941-county-semi",
-    matchLabel: "1941 county junior semi-final",
+    matchLabel: "Athenry, 24 May 1942",
     sentences: [
       {
-        text: "Fohenagh met Claregalway in the 1941 county junior semi-final at Athenry in May 1942.",
-        cite: 1,
+        text: "Fohenagh met Claregalway in the 1941 county junior semi-final at Athenry, played on Sunday 24 May 1942, and the game was abandoned.",
+        cite: 2,
       },
       {
         text: "A History of Fohenagh dates the day 23 May.",
@@ -95,7 +95,23 @@ export const PARISH_STORIES: ParishStory[] = [
         cite: 3,
       },
       {
+        text: "The County Board met on Saturday 6 June 1942.",
+        cite: 4,
+      },
+      {
+        text: "The Connacht Tribune of Saturday 13 June 1942 headed its report Blackguardism at Athenry causes heat at County Board meeting.",
+        cite: 3,
+      },
+      {
         text: "Eyrecourt, who had won the other semi-final, were declared 1941 junior champions by the chairman, Mr T. O'Connor.",
+        cite: 3,
+      },
+      {
+        text: "The chairman, Mr T. O'Connor, was of Claregalway.",
+        cite: 3,
+      },
+      {
+        text: "In a section headed Serious Charges, the chairman said Fohenagh were not playing a legal team that day.",
         cite: 3,
       },
       {
@@ -115,6 +131,10 @@ export const PARISH_STORIES: ParishStory[] = [
       {
         title: "Connacht Tribune, 13 June 1942, p.11",
         href: "/article/art-ina-ctt-1942-06-13-claregalway-fohenagh-suspended-1941-jhc-semi",
+      },
+      {
+        title: "Connacht Sentinel, 9 June 1942, p.3",
+        href: "/article/art-ina-csl-1942-06-09-suspension-snippet",
       },
     ],
   },

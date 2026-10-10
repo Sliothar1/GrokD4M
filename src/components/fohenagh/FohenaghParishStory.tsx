@@ -169,10 +169,11 @@ export function FohenaghParishStory() {
       <div className="space-y-3">
         <h3 className="text-xl font-black text-galway-ink">The Battle of Athenry</h3>
         <p className="text-base leading-relaxed text-galway-ink/85">
-          Fohenagh met Claregalway in the 1941 county junior semi-final at Athenry in May 1942. The
-          book dates the day 23 May (page 144). The Connacht Tribune fixture printed on 23 May 1942,
-          page 10, gives Sunday 24 May. Spectators came onto the pitch, the referee called the match
-          off, and both clubs were suspended for a year. Eyrecourt were handed the junior title.
+          Fohenagh met Claregalway in the 1941 county junior semi-final at Athenry. The game was
+          played on Sunday 24 May 1942 and was abandoned. The County Board met on Saturday 6 June
+          1942. The Connacht Tribune of Saturday 13 June 1942 headed its report “Blackguardism at
+          Athenry causes heat at County Board meeting”. Both clubs were suspended for twelve months,
+          and Eyrecourt were declared 1941 champions.
         </p>
         <p>
           <Link className="font-semibold text-galway-maroon underline" href="/article/art-book-fohenagh-story-battle-of-athenry">
