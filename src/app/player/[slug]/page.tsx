@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
 import { getEntity, resolveId } from "@/lib/data";
+import { loadPlayerProfile } from "@/lib/playerProfile";
+import { playerShareDescription } from "@/lib/playerShare";
 import { withPageMeta } from "@/lib/site";
 import { CANONICAL_PLAYER_SLUG } from "@/lib/playerSlug";
 import {
@@ -34,9 +36,11 @@ export async function generateMetadata({
       : decision.status === 307
         ? decision.target
         : `/player/${decision.status === 200 ? decision.slug : slug}`;
+  const profile = data ? await loadPlayerProfile(data.id, data.attrs) : null;
   return withPageMeta({
     title: data?.summary.title ?? "Search",
     path,
+    description: profile ? playerShareDescription(profile) : undefined,
   });
 }
 

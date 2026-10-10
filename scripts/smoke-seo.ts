@@ -1,4 +1,9 @@
 import assert from "node:assert/strict";
+import type { Metadata } from "next";
+import { generateMetadata } from "../src/app/player/[slug]/page";
+import { firstBannedPublicHit } from "../src/lib/publicText";
+import { playerShareDescription } from "../src/lib/playerShare";
+import { SITE_DESCRIPTION, DEFAULT_SITE_URL, sitemapUrl, siteUrl } from "../src/lib/site";
 import {
   articleNode,
   jsonLdGraph,
@@ -8,7 +13,6 @@ import {
   schemaDate,
   sportsEventNode,
 } from "../src/lib/structuredData";
-import { DEFAULT_SITE_URL, sitemapUrl, siteUrl } from "../src/lib/site";
 
 assert.equal(siteUrl(), DEFAULT_SITE_URL);
 assert.equal(sitemapUrl(), `${DEFAULT_SITE_URL}/sitemap.xml`);
@@ -63,4 +67,59 @@ assert.equal(JSON.stringify(article).includes("Passed away"), false);
 const graph = jsonLdGraph([person, event, null]);
 assert.equal((graph["@graph"] as unknown[]).length, 2);
 
-console.log("smoke-seo ok");
+function shareFields(meta: Metadata): [string, string, string] {
+  const og = meta.openGraph;
+  const tw = meta.twitter;
+  const ogDesc = og && "description" in og ? String(og.description ?? "") : "";
+  const twDesc = tw && "description" in tw ? String(tw.description ?? "") : "";
+  return [String(meta.description ?? ""), ogDesc, twDesc];
+}
+
+async function playerShare(slug: string): Promise<[string, string, string]> {
+  const meta = await generateMetadata({ params: Promise.resolve({ slug }) });
+  const fields = shareFields(meta);
+  assert.equal(fields[0], fields[1], slug);
+  assert.equal(fields[0], fields[2], slug);
+  assert.ok(fields[0].length > 0 && fields[0].length <= 160, slug);
+  assert.equal(firstBannedPublicHit(fields[0]), null, slug);
+  assert.doesNotMatch(fields[0], /\[\d+\]|Garry Lohan|internal note/i, slug);
+  return fields;
+}
+
+const clipped = playerShareDescription({
+  headline: null,
+  summary: `${"Scored from the wing ".repeat(12)}Then the paper named the full forward line.`,
+});
+assert.ok(clipped.length <= 160);
+assert.ok(clipped.startsWith("Scored from the wing"));
+assert.doesNotMatch(clipped, /Then the paper/);
+assert.equal(clipped, clipped.trim());
+assert.equal(
+  playerShareDescription({
+    headline: "Garry Lohan is the source of this line.",
+    summary: "He scored 1-2[4]. The next sentence stays off the card.",
+  }),
+  "He scored 1-2."
+);
+assert.equal(
+  playerShareDescription({
+    headline: "Internal note: confidence high.",
+    summary: null,
+  }),
+  SITE_DESCRIPTION
+);
+
+async function main(): Promise<void> {
+  const cathal = await playerShare("cathal-lohan-fohenagh");
+  assert.equal(cathal[0], "All-Ireland hurling winner at underage with Galway");
+  const jason = await playerShare("jason-lohan");
+  assert.equal(jason[0], "All-Ireland hurling winner with Galway");
+
+  const thin = await playerShare("conor-geraghty-fohenagh");
+  const ownLine = thin[0] !== SITE_DESCRIPTION;
+  assert.ok(ownLine || thin[0] === SITE_DESCRIPTION, "thin player share text");
+  console.log(`thin share: ${thin[0]}`);
+  console.log("smoke-seo ok");
+}
+
+main();
