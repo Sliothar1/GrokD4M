@@ -13,6 +13,7 @@ import { DualEraStrip } from "@/components/club/DualEraStrip";
 import {
   CrestPlaceholder,
   FurtherReading,
+  MoreGreatGames,
   NotableGames,
   PhotoComingSoon,
 } from "@/components/fohenagh/FohenaghBlocks";
@@ -42,6 +43,7 @@ import {
 } from "@/lib/sources";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 import {
+  listFohenaghMoreGames,
   listFohenaghNotableGames,
   OWNER_VERIFIED_PLAYERS,
   REPLAY_PICTURE_ID,
@@ -84,6 +86,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   const replayCard = replayPicture ? articleToSummary(replayPicture) : null;
   const fohenaghImage = replayCard?.imagePath ? replayCard : heroCutting;
   const fohenaghGames = isHistoricFohenagh ? listFohenaghNotableGames(A) : [];
+  const fohenaghMoreGames = isHistoricFohenagh ? listFohenaghMoreGames(A) : [];
 
   return (
     <article className="space-y-8">
@@ -219,6 +222,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           clubName={summary.title}
         />
       ) : null}
+
+      {isHistoricFohenagh ? <MoreGreatGames games={fohenaghMoreGames} /> : null}
 
       {isHistoricFohenagh ? <NotableGames games={fohenaghGames} /> : null}
 

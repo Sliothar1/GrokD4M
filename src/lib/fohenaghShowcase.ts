@@ -209,3 +209,37 @@ export function listFohenaghGames(A: AssocArray): FohenaghGame[] {
 export function listFohenaghNotableGames(A: AssocArray): FohenaghGame[] {
   return listFohenaghGames(A).filter((game) => FOHENAGH_NOTABLE_IDS.has(game.id));
 }
+
+/** Line icon for a row in More great games. Omit on an entry for crossed hurls. */
+export type FohenaghGameIcon = "hurls" | "helmet" | "shield" | "tank";
+
+export type FohenaghMoreGame = FohenaghGame & { icon: FohenaghGameIcon };
+
+/**
+ * More great games, the dropdown under the A–Z player roll.
+ * Add a line to show another match page. Order here is the order on the page.
+ * The county finals stay in their own list. This one is the other days.
+ * Set `icon` for a battle-worn day. Anything else draws crossed hurls.
+ */
+export const FOHENAGH_MORE_GAMES: { id: string; icon?: FohenaghGameIcon }[] = [
+  { id: "match:fohenagh-ahascragh-sadie-kilcommons-final" },
+  { id: "match:galway-shc-1971-r1-athenry-fohenagh" },
+  { id: "match:galway-reeves-cup-1967-final-athenry-fohenagh" },
+  { id: "match:galway-reeves-cup-1966-final-athenry-fohenagh" },
+  { id: "match:fohenagh-loughrea-c1957" },
+  { id: "match:fohenagh-maree-1957" },
+  { id: "match:fohenagh-tynagh-junior-abandoned-1956", icon: "helmet" },
+  { id: "match:fohenagh-skehana-ihc-final-1952-draw" },
+  { id: "match:fohenagh-cussane-north-board-junior-final-1942" },
+];
+
+export function listFohenaghMoreGames(A: AssocArray): FohenaghMoreGame[] {
+  const byId = new Map(listFohenaghGames(A).map((game) => [game.id, game]));
+  const games: FohenaghMoreGame[] = [];
+  for (const entry of FOHENAGH_MORE_GAMES) {
+    const game = byId.get(entry.id);
+    if (!game) continue;
+    games.push({ ...game, icon: entry.icon ?? "hurls" });
+  }
+  return games;
+}

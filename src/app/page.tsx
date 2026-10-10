@@ -55,9 +55,15 @@ export default async function HomePage() {
         </p>
       </section>
 
-      <section className="space-y-4">
-        <h2 className="text-2xl text-galway-maroon">Try a sample club</h2>
-        <div className="grid gap-3 sm:grid-cols-2">
+      <section className="hw-hero">
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#d9c79a]">
+          First stop
+        </p>
+        <h2 className="mt-2 text-3xl text-[#f7f3ea]">Try a sample club</h2>
+        <p className="mt-2 max-w-2xl text-base text-[#f7f3ea]/80">
+          Fohenagh, and the games on the parish record.
+        </p>
+        <div className="mt-5 grid gap-3 sm:grid-cols-2">
           {featuredClub ? (
             <EntityCard entity={featuredClub.summary} crestLabel="Club crest coming soon" />
           ) : null}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { FohenaghGame } from "@/lib/fohenaghShowcase";
+import type { FohenaghGame, FohenaghGameIcon, FohenaghMoreGame } from "@/lib/fohenaghShowcase";
 
 export function PhotoComingSoon({
   note,
@@ -82,6 +82,117 @@ export function NotableGames({ games }: { games: FohenaghGame[] }) {
           </ul>
         </div>
       ))}
+    </section>
+  );
+}
+
+function GameGlyph({ icon }: { icon: FohenaghGameIcon }) {
+  const common = {
+    viewBox: "0 0 24 24",
+    width: 22,
+    height: 22,
+    "aria-hidden": true as const,
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 1.6,
+    strokeLinecap: "round" as const,
+    strokeLinejoin: "round" as const,
+  };
+  if (icon === "helmet") {
+    return (
+      <svg {...common}>
+        <path d="M5.5 12.5a6.5 6.5 0 0 1 13 0" />
+        <path d="M5.5 12.5h13v1.2c0 1.2-1.4 2.3-6.5 2.3s-6.5-1.1-6.5-2.3v-1.2Z" />
+        <path d="M8.2 13.2v2.4M12 13.2v3.2M15.8 13.2v2.4" />
+        <path d="M7 18.2h10" />
+      </svg>
+    );
+  }
+  if (icon === "shield") {
+    return (
+      <svg {...common}>
+        <path d="M12 3.2 5.5 6.1v5.4c0 3.8 2.6 6.4 6.5 7.8 3.9-1.4 6.5-4 6.5-7.8V6.1L12 3.2Z" />
+        <path d="M9.2 12.2 11.1 14l3.8-4" />
+      </svg>
+    );
+  }
+  if (icon === "tank") {
+    return (
+      <svg {...common}>
+        <path d="M3.5 14.2h11.2c.7 0 1.3.6 1.3 1.3v1.2H4.2v-1.2c0-.7.6-1.3 1.3-1.3Z" />
+        <path d="M8 14.2V11h4.2l2.2 3.2" />
+        <path d="M14.2 12.2H20" />
+        <circle cx="6.2" cy="17.6" r="1.15" />
+        <circle cx="10" cy="17.6" r="1.15" />
+        <circle cx="13.8" cy="17.6" r="1.15" />
+      </svg>
+    );
+  }
+  return (
+    <svg {...common}>
+      <path d="M6.2 3.4 14.2 16.2c.7 1.3-.1 2.5-1.5 3" />
+      <path d="M17.8 3.4 9.8 16.2c-.7 1.3.1 2.5 1.5 3" />
+      <circle cx="16.6" cy="7.2" r="2.15" />
+    </svg>
+  );
+}
+
+export function MoreGreatGames({ games }: { games: FohenaghMoreGame[] }) {
+  if (games.length === 0) return null;
+  return (
+    <section aria-labelledby="more-great-games">
+      <details className="hw-card group overflow-hidden">
+        <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3.5 [&::-webkit-details-marker]:hidden">
+          <span>
+            <span id="more-great-games" className="hw-serif block text-2xl text-galway-ink">
+              More great games
+            </span>
+            <span className="mt-0.5 block text-sm text-galway-ink/65">
+              Other days on the parish record.
+            </span>
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            aria-hidden
+            className="shrink-0 text-galway-maroon transition-transform group-open:rotate-180"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+          >
+            <path d="M6 9.5 12 15.5 18 9.5" />
+          </svg>
+        </summary>
+        <ul className="border-t border-[var(--hw-line)]">
+          {games.map((game) => (
+            <li key={game.id} className="border-b border-[var(--hw-line)] last:border-b-0">
+              <Link
+                href={game.href}
+                className="flex items-center gap-3 px-4 py-3 transition hover:bg-[#f7f1e8]"
+              >
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-galway-maroon/10 text-galway-maroon">
+                  <GameGlyph icon={game.icon} />
+                </span>
+                <span className="min-w-0">
+                  <span className="block text-sm font-bold text-galway-maroon">
+                    {game.when ?? "Date to follow"}
+                  </span>
+                  <span className="hw-serif block text-lg leading-snug text-galway-ink">
+                    {game.title}
+                  </span>
+                  <span className="mt-0.5 block text-sm text-galway-ink/65">
+                    {[game.competition, game.opponent ? `vs ${game.opponent}` : null, game.score]
+                      .filter(Boolean)
+                      .join(" · ")}
+                  </span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </details>
     </section>
   );
 }

@@ -4,8 +4,7 @@
  * (https://github.com/Sliothar1/PA-Marine-Demo): serif headlines,
  * hairline panels, soft shadow, 14–20px radii.
  * Galway maroon and cream stay the site default.
- * Fohenagh pages and the homepage hero switch the accent to the
- * deep blue of *A History of Fohenagh* (Tony O'Gorman).
+ * Fohenagh pages and the homepage hero use a rich royal blue.
  * PA-Marine-Model itself had no public front end to copy.
  */
 
@@ -20,8 +19,8 @@
   --hw-muted: #6d5c63;
   --hw-line: #e4d8cc;
   --hw-panel: #ffffff;
-  --hw-fohenagh: #1c2659;
-  --hw-fohenagh-dark: #121838;
+  --hw-fohenagh: #2348b8;
+  --hw-fohenagh-dark: #1f3fa0;
   --hw-fohenagh-ink: #f4efe6;
   --hw-radius-sm: 12px;
   --hw-radius: 18px;

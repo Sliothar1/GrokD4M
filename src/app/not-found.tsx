@@ -5,8 +5,8 @@ export default function NotFound() {
     <div className="mx-auto max-w-lg py-10 text-center">
       <svg className="sliotar mx-auto" viewBox="0 0 64 64" aria-hidden="true">
         <title>The sliotar has gone over the bar</title>
-        <circle cx="32" cy="32" r="22" fill="#f4efe6" stroke="#1c2659" strokeWidth="2" />
-        <path d="M20 26c6 4 18 4 24 0M18 34h28M22 42c5-3 15-3 20 0" fill="none" stroke="#1c2659" strokeWidth="1.4" />
+        <circle cx="32" cy="32" r="22" fill="#f4efe6" stroke="#2348b8" strokeWidth="2" />
+        <path d="M20 26c6 4 18 4 24 0M18 34h28M22 42c5-3 15-3 20 0" fill="none" stroke="#2348b8" strokeWidth="1.4" />
       </svg>
       <h1 className="mt-6 text-4xl text-galway-ink">Wide</h1>
       <p className="mt-3 text-lg text-galway-ink/75">
