@@ -15,7 +15,7 @@ export function ClubRoster({
   clubName: string;
   /** Label for players still waiting on verification. */
   unverifiedLabel?: string;
-  /** Club ids left off the "· also …" suffix. The player link stays. */
+  /** Club ids left off the "Also played with" note. The player link stays. */
   omitAlsoClubIds?: string[];
   /** Unsourced numbered extras sit with the unverified group. */
   separateUnverifiedLinks?: boolean;
@@ -141,7 +141,7 @@ function PosterNameGroup({
               {row.alsoClubs.length > 0 ? (
                 <span className="fohenagh-also">
                   {" "}
-                  · also {row.alsoClubs.map((c) => c.name).join(", ")}
+                  Also played with {row.alsoClubs.map((c) => c.name.replace(/\s*·\s*historic\s*$/i, "")).join(", ")}
                 </span>
               ) : null}
             </Link>
@@ -175,7 +175,7 @@ function RosterGroup({
               <span>{row.summary.title}</span>
               {row.alsoClubs.length > 0 ? (
                 <span className="font-semibold text-galway-ink/45">
-                  · also {row.alsoClubs.map((c) => c.name).join(", ")}
+                  Also played with {row.alsoClubs.map((c) => c.name.replace(/\s*·\s*historic\s*$/i, "")).join(", ")}
                 </span>
               ) : null}
             </Link>

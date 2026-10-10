@@ -3,6 +3,7 @@ import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
 import { getEntity } from "@/lib/data";
 import { playerNotableText } from "@/lib/entityDisplay";
+import { sanitizePublicText } from "@/lib/publicText";
 
 /** Player spotlights: Tim Sweeney and Jimmy Moclair only (Garry ask, 4 Oct 10:37). */
 const SPOTLIGHT_PLAYER_IDS = [
@@ -15,7 +16,7 @@ type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 /** Compact spotlight card: name, club line, and the player's notable text when present. */
 function SpotlightCard({ player }: { player: EntityPayload }) {
   const { summary, attrs } = player;
-  const notable = playerNotableText(attrs);
+  const notable = sanitizePublicText(playerNotableText(attrs) ?? "");
   return (
     <Link
       href={summary.href}

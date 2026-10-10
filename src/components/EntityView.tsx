@@ -11,7 +11,6 @@ import {
 } from "@/components/HistoricFohenaghBlock";
 import { ClubRoster } from "@/components/club/ClubRoster";
 import { DualEraStrip } from "@/components/club/DualEraStrip";
-import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
   displayNameForRef,
   friendlyAttrLabel,
@@ -40,11 +39,12 @@ import { FohenaghFairytale } from "@/components/fohenagh/FohenaghFairytale";
 import { FohenaghParishStory } from "@/components/fohenagh/FohenaghParishStory";
 import { FohenaghPlayerIndex } from "@/components/fohenagh/FohenaghPlayerIndex";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
+import { sanitizePublicText } from "@/lib/publicText";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
 export async function EntityView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
   const trust =
@@ -71,6 +71,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   });
   const clubRoster =
     summary.kind === "club" ? await listClubRoster(id, A) : [];
+  const blurb = isHistoricFohenagh ? "" : entityBlurb(attrs);
 
   return (
     <article className={isHistoricFohenagh ? "fohenagh-poster space-y-12" : "space-y-8"}>
@@ -160,10 +161,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         )}
       </header>
 
-      {!isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
-        <p className="text-lg leading-relaxed text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
-        </p>
+      {blurb ? (
+        <p className="text-lg leading-relaxed text-galway-ink">{blurb}</p>
       ) : null}
 
       {isHistoricFohenagh ? <FohenaghFairytale /> : null}
@@ -301,16 +300,18 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                             Cutting
                           </p>
                           <h3 className="mt-1 text-lg font-bold text-galway-ink">
-                            {r.title}
+                            {sanitizePublicText(r.title) || "Cutting"}
                           </h3>
-                          {r.citeChip && (
+                          {r.citeChip && sanitizePublicText(r.citeChip) ? (
                             <p className="mt-1 text-sm font-semibold text-galway-maroon">
-                              {r.citeChip}
+                              {sanitizePublicText(r.citeChip)}
                             </p>
-                          )}
-                          {r.excerpt && (
-                            <p className="mt-2 text-sm text-galway-ink/70">{r.excerpt}</p>
-                          )}
+                          ) : null}
+                          {sanitizePublicText(r.excerpt ?? "") ? (
+                            <p className="mt-2 text-sm text-galway-ink/70">
+                              {sanitizePublicText(r.excerpt ?? "")}
+                            </p>
+                          ) : null}
                         </div>
                       </Link>
                     ))}
@@ -359,15 +360,13 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           </p>
         )}
       </section>
-
-      
-
-      <DeveloperTriples
-        triples={triples}
-        hideScore={hideScore}
-        hideCols={isHistoricFohenagh ? ["successor", "note"] : []}
-      />
     </article>
+  );
+}
+
+function entityBlurb(attrs: EntityPayload["attrs"]): string {
+  return sanitizePublicText(
+    String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt ?? "")
   );
 }
 
@@ -385,12 +384,17 @@ function EntityFacts({
   uploads: readonly LinkedCuttingSource[];
 }) {
   const columns = factColumnsFromAttrs(attrs);
-  const rows = Object.entries(attrs).filter(([key, value]) => {
-    if (isHiddenFactKey(key) || !isDisplayableVal(value)) return false;
-    if (hideScore && key === "score") return false;
-    if (entityId === "club:fohenagh-historic" && key === "successor") return false;
-    if (factKeyForSourceColumn(key, columns)) return false;
-    return true;
+  const rows = Object.entries(attrs).flatMap(([key, value]) => {
+    if (isHiddenFactKey(key) || !isDisplayableVal(value)) return [];
+    if (hideScore && key === "score") return [];
+    if (entityId === "club:fohenagh-historic" && key === "successor") return [];
+    if (factKeyForSourceColumn(key, columns)) return [];
+    if (typeof value === "string" && !value.startsWith("http") && !isEntityRef(value) && key !== "division") {
+      const clean = sanitizePublicText(value);
+      if (!clean) return [];
+      return [[key, clean] as const];
+    }
+    return [[key, value] as const];
   });
   const citations = resolveEntitySources({
     entityId,

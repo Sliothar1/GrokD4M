@@ -109,7 +109,9 @@ export function FohenaghPlayerIndex({ rows }: { rows: IndexRow[] }) {
                   <li key={row.id}>
                     <Link href={row.href}>
                       {row.name}
-                      {row.also ? <span className="fohenagh-also"> · also {row.also}</span> : null}
+                      {row.also ? (
+                        <span className="fohenagh-also"> Also played with {row.also}</span>
+                      ) : null}
                     </Link>
                   </li>
                 ))}

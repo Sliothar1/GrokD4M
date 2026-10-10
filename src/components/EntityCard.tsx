@@ -24,7 +24,10 @@ function winKindBadge(entity: EntitySummary): string {
 }
 
 export function EntityCard({ entity }: { entity: EntitySummary }) {
-  const trust = entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
+  const trust =
+    entity.kind === "match"
+      ? undefined
+      : entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
   const badge = entity.badge;
   const typeBadge =
     entity.kind === "win"

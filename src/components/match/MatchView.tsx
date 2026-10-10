@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArticleClipSection } from "@/components/ArticleClip";
-import { ClubChip, TrustChip } from "@/components/chips";
-import { DeveloperTriples } from "@/components/DeveloperTriples";
+import { ClubChip } from "@/components/chips";
 import { EntityCard } from "@/components/EntityCard";
 import { LoughreaFinalStoryChips } from "@/components/HistoricFohenaghBlock";
 import {
@@ -11,7 +10,6 @@ import {
 import {
   displayNameForRef,
   friendlyAttrLabel,
-  friendlyTrustLabel,
   getAssoc,
   isEntityRef,
   type getEntity,
@@ -21,6 +19,7 @@ import {
   MATCH_FACT_KEYS,
 } from "@/lib/entityDisplay";
 import { playersInMatch } from "@/lib/matchPlayers";
+import { publicMatchBlurb, sanitizePublicText } from "@/lib/publicText";
 import {
   parseClubIds,
   toClubChip,
@@ -35,13 +34,9 @@ type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
  * Historic Fohenagh article clips stay.
  */
 export async function MatchView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
-  const trust =
-    summary.trustLabel ??
-    friendlyTrustLabel(summary.confidence) ??
-    (attrs.confidence ? friendlyTrustLabel(String(attrs.confidence)) : undefined);
 
   const isHistoricMatch =
     id.startsWith("match:fohenagh-historic-") ||
@@ -57,9 +52,9 @@ export async function MatchView({ data }: { data: EntityPayload }) {
     .map(
       (r): CuttingCard => ({
         id: r.id,
-        title: r.title,
-        excerpt: r.excerpt,
-        citeChip: r.citeChip,
+        title: sanitizePublicText(r.title) || "Cutting",
+        excerpt: sanitizePublicText(r.excerpt ?? ""),
+        citeChip: sanitizePublicText(r.citeChip ?? ""),
         imagePath: r.imagePath,
         href: r.href,
       })
@@ -84,14 +79,16 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         : String(attrs.away);
       if (raw.toLowerCase() === awayName.toLowerCase()) continue;
     }
-    facts.push({ key: k, label: friendlyAttrLabel(k), value: raw });
+    const value = sanitizePublicText(raw);
+    if (!value) continue;
+    facts.push({ key: k, label: friendlyAttrLabel(k), value });
   }
   const citeFacts = matchCiteFacts(attrs);
 
   const lineup =
     attrs.lineup_home && isDisplayableVal(attrs.lineup_home)
-      ? String(attrs.lineup_home)
-      : null;
+      ? sanitizePublicText(String(attrs.lineup_home))
+      : "";
 
   const otherRelated = related.filter(
     (r) =>
@@ -100,6 +97,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
       r.kind !== "club"
   );
   const subtitle = kidMatchSubtitle(summary.subtitle, scoreText);
+  const blurb = publicMatchBlurb(attrs);
   const played = await playersInMatch(id);
 
   return (
@@ -117,17 +115,16 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           </p>
         ) : null}
         <div className="flex flex-wrap items-center gap-1.5">
-          <TrustChip label={trust} />
           {isHistoricMatch ? (
             <span className="rounded-full bg-galway-maroon px-2.5 py-0.5 text-sm font-bold text-white">
               Historic
             </span>
           ) : null}
-          {(summary.citeChip || attrs.cutting_cite) && (
+          {publicCite(summary.citeChip || attrs.cutting_cite) ? (
             <span className="rounded-full border border-galway-maroon/25 px-2.5 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip || String(attrs.cutting_cite)}
+              {publicCite(summary.citeChip || attrs.cutting_cite)}
             </span>
-          )}
+          ) : null}
           {(summary.scoreDisputed ||
             attrs.score_disputed === true ||
             String(attrs.score_disputed ?? "") === "true") && (
@@ -141,9 +138,9 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         </div>
       </header>
 
-      {attrs.notable || attrs.note || attrs.excerpt ? (
+      {blurb ? (
         <p className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.excerpt)}
+          {blurb}
         </p>
       ) : null}
 
@@ -238,10 +235,13 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           </div>
         </section>
       ) : null}
-
-      <DeveloperTriples triples={triples} hideScore={hideScore} />
     </article>
   );
+}
+
+function publicCite(value: unknown): string {
+  if (!isDisplayableVal(value)) return "";
+  return sanitizePublicText(String(value));
 }
 
 const MONTHS = [
@@ -335,10 +335,12 @@ function matchCiteFacts(attrs: EntityPayload["attrs"]): Array<{
     })
     .sort((a, b) => a.localeCompare(b));
 
-  return keys.map((k) => {
+  return keys.flatMap((k) => {
     const raw = String(attrs[k]);
-    const value = /^catalog_cite(_\d+)?$/.test(k) ? catalogCiteText(raw) : raw;
-    return { key: k, label: friendlyAttrLabel(k), value };
+    const shown = /^catalog_cite(_\d+)?$/.test(k) ? catalogCiteText(raw) : raw;
+    const value = shown.startsWith("http") ? shown : sanitizePublicText(shown);
+    if (!value) return [];
+    return [{ key: k, label: friendlyAttrLabel(k), value }];
   });
 }
 

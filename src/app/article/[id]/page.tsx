@@ -11,6 +11,7 @@ import {
   getArticleUpload,
 } from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
+import { publicCuttingLabel } from "@/lib/publicText";
 
 export const dynamic = "force-dynamic";
 
@@ -47,11 +48,12 @@ export default async function ArticlePage({
   }
   const A = await getAssoc();
 
-  const title =
+  const title = publicCuttingLabel(
     a.caption ||
-    a.fetchedTitle ||
-    (a.kind === "url" ? "Linked article" : "Article cutting");
-  const cite = a.citeChip || (a.year ? `${a.year} · Paper` : "Paper");
+      a.fetchedTitle ||
+      (a.kind === "url" ? "Linked article" : "Article cutting")
+  );
+  const cite = publicCuttingLabel(a.citeChip || (a.year ? `${a.year} · Paper` : "Paper"));
   const media = articleMediaUrl(a);
   const pageImage = articlePageImageUrl(a);
   const isPdf = a.kind === "pdf" || media?.toLowerCase().endsWith(".pdf");
@@ -68,23 +70,13 @@ export default async function ArticlePage({
           <span className="rounded-full bg-galway-maroon/10 px-3 py-0.5 text-sm font-bold text-galway-maroon">
             {cite}
           </span>
-          <span className="rounded-full bg-galway-cream px-3 py-0.5 text-xs font-semibold uppercase text-galway-ink/70">
-            Unverified
-          </span>
         </div>
         <h1 className="text-3xl font-black text-galway-ink sm:text-4xl">
           {title}
         </h1>
-        <p className="text-base text-galway-ink/65">
-          {[
-            kindLabel,
-            a.status === "pending"
-              ? "Awaiting Archivist"
-              : "Indexed · triples unverified",
-          ]
-            .filter(Boolean)
-            .join(" · ")}
-        </p>
+        {kindLabel ? (
+          <p className="text-base text-galway-ink/65">{kindLabel}</p>
+        ) : null}
       </header>
 
       {showImage && (
@@ -130,7 +122,7 @@ export default async function ArticlePage({
       {a.excerpt && (
         <section className="space-y-2 rounded-2xl border-2 border-galway-maroon/15 bg-white p-4">
           <h2 className="text-xl font-bold text-galway-maroon">Excerpt</h2>
-          <p className="text-base text-galway-ink/85">{a.excerpt}</p>
+          <p className="text-base text-galway-ink/85">{publicCuttingLabel(a.excerpt)}</p>
           <p className="text-sm text-galway-ink/55">
             Full OCR / page text stays private. Public cards show only this
             excerpt, the cite chip, and linked clubs — never invented scores.

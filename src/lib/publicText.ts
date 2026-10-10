@@ -60,7 +60,11 @@ export const BANNED_PUBLIC_PATTERNS: { name: string; re: RegExp }[] = [
   { name: "id uses", re: /\bid uses\b/i },
   { name: "collision risk", re: /collision risk/i },
   { name: "do not link", re: /do not (?:auto-link|auto-merge|dual-link|double-stamp|mint)/i },
-  { name: "stamp", re: /\bstamp\b/i },
+  { name: "stamp", re: /\bstamp(?:ed|s)?\b/i },
+  { name: "cite chips", re: /cite chips/i },
+  { name: "historic predecessor title", re: /historic predecessor title/i },
+  { name: "catalog locator", re: /INA catalog|catalog retrospective|\breadkong\b/i },
+  { name: "score unchanged", re: /score unchanged/i },
   { name: "new twin", re: /new twin|twin already/i },
   { name: "multi-source clear", re: /no new multi-source/i },
   { name: "wiki spelling", re: /wiki spelling/i },
@@ -179,6 +183,35 @@ function normalizePublicWording(input: string): string {
   return input
     .replace(/\bRoH\b/g, "Roll of Honour")
     .replace(/\([^)]*wiki spelling[^)]*\)/gi, "");
+}
+
+/**
+ * Display label for the 19 Sep 1959 Connacht Tribune team photograph.
+ * The stored caption says "team panel"; the page says what the cutting is.
+ */
+export function publicCuttingLabel(text: string): string {
+  const trimmed = text.trim();
+  const isThisCutting =
+    /team panel/i.test(trimmed) &&
+    (/fohenagh/i.test(trimmed) || /19 sep 1959/i.test(trimmed));
+  if (!isThisCutting) return trimmed;
+  if (/^connacht tribune\s*·/i.test(trimmed)) {
+    return trimmed.replace(/\s*·\s*team panel\b/i, "").replace(/\s*·\s*$/, "").trim();
+  }
+  const names = trimmed.match(/Named on the paper:[\s\S]+/i);
+  if (names) {
+    return `Team photo after Fohenagh's first Galway senior title. ${names[0].trim()}`;
+  }
+  return "Team photo after Fohenagh's first Galway senior title";
+}
+
+/** Match-page prose. Seed notes stay in the file; banned sentences are dropped. */
+export function publicMatchBlurb(attrs: {
+  notable?: unknown;
+  note?: unknown;
+  excerpt?: unknown;
+}): string {
+  return sanitizePublicText(String(attrs.notable ?? attrs.note ?? attrs.excerpt ?? ""));
 }
 
 /** Drop pipeline sentences. Keep the cited remainder. */

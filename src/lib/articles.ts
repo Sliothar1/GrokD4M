@@ -18,6 +18,7 @@ import type { EntitySummary } from "@/lib/data";
 import type { LinkedCuttingSource } from "@/lib/sources";
 import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 import { SHOW_INA_MEDIA } from "@/lib/ina-media";
+import { publicCuttingLabel } from "@/lib/publicText";
 
 const execFileAsync = promisify(execFile);
 
@@ -1110,24 +1111,24 @@ export async function loadCitationUploads(): Promise<LinkedCuttingSource[]> {
 }
 
 export function articleToSummary(a: ArticleUpload): EntitySummary {
-  const title =
+  const title = publicCuttingLabel(
     a.caption?.trim() ||
-    a.fetchedTitle?.trim() ||
-    (a.kind === "url"
-      ? a.sourceUrl || "Linked article"
-      : a.kind === "pdf"
-        ? `PDF cutting (${a.year || "undated"})`
-        : a.kind === "text"
-          ? `Snippet (${a.year || "undated"})`
-          : `Article photo (${a.year || "undated"})`);
-  const cite = a.citeChip || makeCiteChip(a.year);
-  const excerpt =
+      a.fetchedTitle?.trim() ||
+      (a.kind === "url"
+        ? a.sourceUrl || "Linked article"
+        : a.kind === "pdf"
+          ? `PDF cutting (${a.year || "undated"})`
+          : a.kind === "text"
+            ? `Snippet (${a.year || "undated"})`
+            : `Article photo (${a.year || "undated"})`)
+  );
+  const cite = publicCuttingLabel(a.citeChip || makeCiteChip(a.year) || "");
+  const excerpt = publicCuttingLabel(
     a.excerpt ||
-    makeExcerpt([a.caption, a.fetchedTitle]) ||
-    "Newspaper / article cutting";
-  const subtitle = [cite, a.playerTags?.[0], a.clubTags[0]]
-    .filter(Boolean)
-    .join(" · ");
+      makeExcerpt([a.caption, a.fetchedTitle]) ||
+      "Newspaper / article cutting"
+  );
+  const subtitle = cite || undefined;
   const media = articleMediaUrl(a);
   return {
     id: `article:${a.id}`,
