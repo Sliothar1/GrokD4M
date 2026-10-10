@@ -30,6 +30,12 @@ export function withPageMeta(input: {
 }): Metadata {
   const description = input.description ?? SITE_DESCRIPTION;
   const socialTitle = input.title ? `${input.title} · HurlingWiki` : "HurlingWiki";
+  const shareImage = {
+    url: "/opengraph-image",
+    width: 1200,
+    height: 630,
+    alt: "HurlingWiki, the historical record of hurling",
+  };
   const meta: Metadata = {
     description,
     alternates: { canonical: input.path },
@@ -40,11 +46,13 @@ export function withPageMeta(input: {
       siteName: "HurlingWiki",
       type: "website",
       locale: "en_IE",
+      images: [shareImage],
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle,
       description,
+      images: [shareImage],
     },
   };
   if (input.title) meta.title = input.title;

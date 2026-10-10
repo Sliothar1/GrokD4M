@@ -47,14 +47,17 @@ export function PlayerProfileView({
 }: {
   profile: PublicPlayerProfile;
   poster?: boolean;
-  clubs?: Array<{ name: string; href: string }>;
+  clubs?: Array<{ name: string; href: string; title?: string }>;
 }) {
   const path = publicPlayerPath(profile.slug);
   const description = [profile.eraLine, profile.headline, profile.summary]
+    .map((part) => (part ?? "").trim().replace(/[.]+$/g, ""))
     .filter(Boolean)
-    .join(" ");
+    .join(". ");
   const teams = new Map<string, { name: string; path: string }>();
-  for (const club of clubs) teams.set(club.href, { name: club.name, path: club.href });
+  for (const club of clubs) {
+    teams.set(club.href, { name: club.title || club.name, path: club.href });
+  }
   for (const club of profile.alsoPlayed) teams.set(club.href, { name: club.name, path: club.href });
   return (
     <article className={poster ? "fohenagh-sheet space-y-10" : "space-y-8"}>
