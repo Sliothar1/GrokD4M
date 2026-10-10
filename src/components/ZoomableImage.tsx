@@ -43,7 +43,6 @@ export function ZoomableImage({
         type="button"
         onClick={() => setOpen(true)}
         className="block w-full cursor-zoom-in overflow-hidden rounded-2xl border-2 border-galway-maroon/15 bg-white p-0 text-left shadow-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-galway-gold"
-        aria-label={`Enlarge ${alt}`}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img

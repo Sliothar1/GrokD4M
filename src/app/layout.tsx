@@ -66,8 +66,12 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
-        <Analytics />
-        <SpeedInsights />
+        {process.env.VERCEL ? (
+          <>
+            <Analytics />
+            <SpeedInsights />
+          </>
+        ) : null}
       </body>
     </html>
   );
