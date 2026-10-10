@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { ArticleCredit } from "@/components/ArticleCredit";
 import { EntityView } from "@/components/EntityView";
 import { ZoomableImage } from "@/components/ZoomableImage";
@@ -8,6 +8,7 @@ import {
   articleKindLabel,
   articleMediaUrl,
   articlePageImageUrl,
+  articleSameAsId,
   getArticleUpload,
 } from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
@@ -22,6 +23,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const a = await getArticleUpload(id);
+  const aliasOf = articleSameAsId(a);
+  if (aliasOf) {
+    const canonical = await getArticleUpload(aliasOf);
+    if (canonical) {
+      return { title: canonical.caption?.slice(0, 60) || canonical.fetchedTitle?.slice(0, 60) || "Cutting" };
+    }
+  }
   if (a) {
     return {
       title:
@@ -41,6 +49,8 @@ export default async function ArticlePage({
 }) {
   const { id } = await params;
   const a = await getArticleUpload(id);
+  const aliasOf = articleSameAsId(a);
+  if (aliasOf && (await getArticleUpload(aliasOf))) redirect(`/article/${aliasOf}`);
   if (!a) {
     const seeded = await getEntity(`article:${id}`);
     if (!seeded) notFound();

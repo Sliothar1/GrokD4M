@@ -640,7 +640,7 @@
       "player:tim-sweeney-fohenagh",
       "player:frank-madden",
       "player:mick-moylette-fohenagh",
-      "player:packie-burke-fohenagh",
+      "player:packie-burke-turloughmore",
       "player:bobby-madden-fohenagh"
     ],
     "excerpt": "Connacht Tribune Saturday action photographs (page 14). Named on the paper: Tim Sweeney, Frank Madden, Mick Moylette, Packie Burke and Bobby Madden.",
@@ -947,6 +947,7 @@
   },
   {
     "id": "art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney",
+    "same_as": "art-ina-ctt-1963-08-17-burke-sweeney-county-final",
     "kind": "image",
     "filename": "art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney.png",
     "path": "/uploads/articles/art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney.png",
@@ -957,9 +958,7 @@
     "tags": [
       "hurling",
       "fohenagh",
-      "jim-sweeney",
-      "ina",
-      "action"
+      "ina"
     ],
     "clubTags": [
       "club:fohenagh-historic"
@@ -3140,6 +3139,7 @@
   },
   {
     "id": "art-ina-tth-1998-05-02-st-cuans-colleges-final",
+    "same_as": "art-ina-tth-1998-05-02-st-cuans-panel-fohenagh",
     "kind": "image",
     "filename": "art-ina-tth-1998-05-02-st-cuans-colleges-final.png",
     "path": "/uploads/articles/art-ina-tth-1998-05-02-st-cuans-colleges-final.png",
@@ -3151,7 +3151,6 @@
       "hurling",
       "fohenagh",
       "colleges",
-      "all-ireland",
       "ina"
     ],
     "clubTags": [
@@ -6297,6 +6296,7 @@
       "fohenagh",
       "ina",
       "colleges",
+      "all-ireland",
       "team-photo"
     ],
     "clubTags": [
@@ -6335,14 +6335,16 @@
       "fohenagh",
       "ina",
       "team-photo",
-      "county-final"
+      "county-final",
+      "jim-sweeney",
+      "action"
     ],
     "clubTags": [
       "club:fohenagh-historic"
     ],
     "playerTags": [
       "player:jim-sweeney",
-      "player:packie-burke-fohenagh",
+      "player:packie-burke-turloughmore",
       "player:bobby-madden-fohenagh"
     ],
     "excerpt": "Action from the Galway senior hurling final at Pearse Stadium. Packie Burke, Turloughmore's full-back, covers Bobby Madden, with Jim Sweeney, Fohenagh's full-forward, close by.",

@@ -4,7 +4,7 @@ import { displayNameForRef, getAssoc, isEntityRef, isVerifiedFromCutting, linked
 import { isDisplayableVal } from "@/lib/entityDisplay";
 import { SHOW_INA_MEDIA } from "@/lib/ina-media";
 import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
-import { readArticleUploads } from "@/lib/articles";
+import { articleSameAsId, readArticleUploads } from "@/lib/articles";
 import { collectClubIdsFromAttrs } from "@/lib/playerClubs";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
 import { markCitations } from "@/lib/citations";
@@ -925,7 +925,13 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
   }
 
   const articles = new Map<string, ArticleCredit>();
+  const aliases: { id: string; target: string }[] = [];
   for (const upload of await readArticleUploads()) {
+    const target = articleSameAsId(upload);
+    if (target) {
+      aliases.push({ id: upload.id, target });
+      continue;
+    }
     if (upload.inaMedia && !showInaMedia) continue;
     articles.set(upload.id, {
       id: upload.id,
@@ -938,6 +944,10 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
       excerpt: upload.excerpt,
       bookMedia: upload.bookMedia === true,
     });
+  }
+  for (const alias of aliases) {
+    const canonical = articles.get(alias.target);
+    if (canonical) articles.set(alias.id, canonical);
   }
 
   return { A, appearancesByPlayer, byMatch, playerName, nameIndex, articles };

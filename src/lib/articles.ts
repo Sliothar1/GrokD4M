@@ -34,6 +34,11 @@ export type ArticleKind = "image" | "pdf" | "url" | "text";
  */
 export interface ArticleUpload {
   id: string;
+  /**
+   * Another upload this row aliases (`art-…`, or `article:art-…`).
+   * Listings skip the row. `/article/<id>` redirects to the target.
+   */
+  same_as?: string;
   kind: ArticleKind;
   filename?: string;
   /** Public asset path or Blob URL (image, PDF, or optional URL preview image) */
@@ -396,6 +401,21 @@ export async function readArticleUploads(): Promise<ArticleUpload[]> {
   } catch {
     return applyInaMediaVisibility(fromFs);
   }
+}
+
+/**
+ * Bare upload id when this row is an alias of another cutting.
+ * Accepts `art-…` or `article:art-…`, the same two shapes article pages resolve.
+ */
+export function articleSameAsId(
+  article: Pick<ArticleUpload, "id" | "same_as"> | null | undefined
+): string | null {
+  const raw = article?.same_as?.trim();
+  if (!raw) return null;
+  let id = raw;
+  if (/^article:/i.test(id)) id = id.slice("article:".length);
+  if (!id || id === article?.id) return null;
+  return id;
 }
 
 export async function getArticleUpload(
@@ -1105,9 +1125,26 @@ export function linkedCuttingFromUpload(a: ArticleUpload): LinkedCuttingSource {
   };
 }
 
-/** Catalog for cite lookup. Same list as `readArticleUploads`. */
+/**
+ * Catalog for cite lookup. An alias id resolves to the credited cutting
+ * (its image and `/article/<canonical>` href) so older source cells still open it.
+ */
 export async function loadCitationUploads(): Promise<LinkedCuttingSource[]> {
-  return (await readArticleUploads()).map(linkedCuttingFromUpload);
+  const all = await readArticleUploads();
+  const byId = new Map(all.map((article) => [article.id, article]));
+  const out: LinkedCuttingSource[] = [];
+  for (const article of all) {
+    const targetId = articleSameAsId(article);
+    const source = targetId ? byId.get(targetId) : article;
+    if (!source || articleSameAsId(source)) continue;
+    const linked = linkedCuttingFromUpload(source);
+    if (targetId) {
+      out.push({ ...linked, id: article.id, href: `/article/${source.id}` });
+    } else {
+      out.push(linked);
+    }
+  }
+  return out;
 }
 
 export function articleToSummary(a: ArticleUpload): EntitySummary {
@@ -1162,6 +1199,7 @@ export async function searchArticleUploads(
 
   const out: EntitySummary[] = [];
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     const privateText = await readPrivateText(a);
     const blob = [
       a.caption,
@@ -1192,6 +1230,7 @@ export async function searchArticleUploads(
 export async function allDerivedUploadTriples(): Promise<Triple[]> {
   const out: Triple[] = [];
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     if (a.derivedTriples?.length) out.push(...a.derivedTriples);
   }
   return out;
@@ -1227,6 +1266,7 @@ export async function getLinkedArticleSummaries(
   const seen = new Set<string>();
 
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     if (!articleLinksEntity(a, entityId)) continue;
     const summary = articleToSummary(a);
     if (seen.has(summary.id)) continue;
@@ -1244,6 +1284,7 @@ export async function linkedCuttingCountsFor(
   const counts = new Map(ids.map((id) => [id, 0]));
   if (ids.length === 0) return counts;
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     for (const id of ids) {
       if (!articleLinksEntity(a, id)) continue;
       counts.set(id, (counts.get(id) ?? 0) + 1);
@@ -1315,6 +1356,7 @@ export async function getMatchArticleClips(
       : "";
 
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     const tags = [...a.tags, ...a.clubTags, ...(a.playerTags ?? [])].map((t) =>
       t.toLowerCase()
     );

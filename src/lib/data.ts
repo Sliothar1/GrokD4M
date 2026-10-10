@@ -10,6 +10,7 @@ import seed from "../../data/seed.json";
 import panzerMatches from "../../data/panzer-matches.json";
 import {
   allDerivedUploadTriples,
+  articleSameAsId,
   articleToSummary,
   getArticleUpload,
   getLinkedArticleSummaries,
@@ -731,7 +732,7 @@ export async function searchWiki(query: string): Promise<EntitySummary[]> {
       out.push(summary);
     }
     const tagged = (await readArticleUploads())
-      .filter((upload) => upload.playerTags?.some((tag) => want.has(tag)))
+      .filter((upload) => !articleSameAsId(upload) && upload.playerTags?.some((tag) => want.has(tag)))
       .sort((a, b) => {
         const ay = Number(String(a.year ?? "").slice(0, 4)) || 0;
         const by = Number(String(b.year ?? "").slice(0, 4)) || 0;
