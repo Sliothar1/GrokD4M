@@ -40,7 +40,11 @@ import {
   SWEENEY_PROFILE_IDS,
   TEAM_1959,
 } from "@/lib/fohenaghShowcase";
-import { fohenaghCitedIntro } from "@/lib/fohenaghPlayerIntro";
+import {
+  citedPlayerYears,
+  fohenaghAbout,
+  woreTheJersey,
+} from "@/lib/fohenaghPlayerIntro";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
 import {
   cuttingFactKey,
@@ -103,8 +107,6 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
     ? displayNameForRef(String(attrs.county), A)
     : undefined;
   const notable = playerNotableText(attrs);
-  const generatedIntro = fohenaghCitedIntro(id, notable);
-  const about = notable || generatedIntro;
   const papers = pressPraiseLines(attrs);
   const note = playerArchiveNote(attrs);
   const notes = playerNotesText(attrs);
@@ -148,17 +150,34 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       : null;
   const onFohenagh = clubs.some((club) => club.id === "club:fohenagh-historic");
   const on1959 = (TEAM_1959 as readonly string[]).includes(id);
-  const era = on1959
-    ? "Fohenagh · 1959 county champions"
-    : onFohenagh
-      ? "Fohenagh"
-      : null;
+  const wore = onFohenagh
+    ? woreTheJersey(
+        citedPlayerYears([
+          notable,
+          playerArchiveNote(attrs),
+          playerNotesText(attrs),
+          ...related.map((item) =>
+            [item.title, item.subtitle, item.seasonChip, item.citeChip, item.excerpt].join(" ")
+          ),
+          ...cuttings.map((cutting) =>
+            [cutting.title, cutting.citeChip, cutting.excerpt].join(" ")
+          ),
+        ])
+      )
+    : null;
+  const about = fohenaghAbout(id, notable, wore);
+  const era =
+    wore && about !== wore && !about?.includes("Wore the Fohenagh jersey")
+      ? wore
+      : on1959
+        ? "Fohenagh · 1959 county champions"
+        : null;
   const factRows = [
     { label: "Name", value: summary.title },
     clubs.length > 0
       ? { label: "Club", value: clubs.map((club) => club.name).join(", ") }
       : null,
-    era ? { label: "Era", value: era } : null,
+    on1959 ? { label: "Era", value: "Fohenagh · 1959 county champions" } : null,
     isDisplayableVal(attrs.position)
       ? { label: "Position", value: String(attrs.position) }
       : null,
@@ -266,13 +285,13 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         notable={about}
         note={note}
         notes={notes}
-        notableCite={notable ? citeFor("notable") : undefined}
+        notableCite={notable && about === notable ? citeFor("notable") : undefined}
         noteCite={citeFor("note")}
         notesCite={citeFor("notes")}
-        notableBadge={notable ? badgeFor("notable") : undefined}
+        notableBadge={notable && about === notable ? badgeFor("notable") : undefined}
         noteBadge={note ? badgeFor("note") : undefined}
         notesBadge={notes ? badgeFor("notes") : undefined}
-        notableStatus={notable ? statusOf("notable") : undefined}
+        notableStatus={notable && about === notable ? statusOf("notable") : undefined}
         noteStatus={note ? statusOf("note") : undefined}
         notesStatus={notes ? statusOf("notes") : undefined}
       />

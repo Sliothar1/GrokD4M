@@ -90,12 +90,22 @@ export function SuggestCorrection({
             {prompt}
           </button>
           {clipping ? null : <WhyWrongLink />}
+          {clipping ? null : (
+            <span className="text-xs text-galway-ink/45">
+              Updates are reviewed and published weekly.
+            </span>
+          )}
         </div>
       ) : (
         <form onSubmit={onSubmit} className="max-w-xl space-y-3" noValidate>
           <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
             <p className="text-sm font-semibold text-galway-ink">{prompt}</p>
             {clipping ? null : <WhyWrongLink />}
+            {clipping ? null : (
+              <span className="text-xs text-galway-ink/45">
+                Updates are reviewed and published weekly.
+              </span>
+            )}
           </div>
           <p className="text-sm text-galway-ink/60">
             About {pageLabel}. An editor reads it first.

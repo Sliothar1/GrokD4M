@@ -760,7 +760,9 @@
     "citeChip": "Connacht Tribune · 20 Nov 1981 · p.15 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19811120.1.15",
     "status": "decomposed",
-    "matchTags": []
+    "matchTags": [
+      "match:fohenagh-ahascragh-junior-final-1981"
+    ]
   },
   {
     "id": "art-ina-tth-2017-06-07-ahascragh-fohenagh-prevail",
@@ -1395,7 +1397,8 @@
       "player:alan-madden",
       "player:john-devine",
       "player:padraic-leonard",
-      "player:sean-moclair"
+      "player:sean-moclair",
+      "player:eric-lally-fohenagh"
     ],
     "excerpt": "Fohenagh 2-12, St. Dominics 0-6 (Connacht final at Ballyforan). Report names Captain Eric Lally, Damien Poland, Padraig Leonard, John Devine, Damien O'Beirne, Sean Mockler, Alan Madden, Tomas Blehene and goalkeeper Noel Higgins. Fohenagh scorers were: E. Lally 0-5, A. Madden 0-3, C. Farragher 1-1, D. O'Beirne 1-1, S. Mockler 0-1, J. Devine 0-1. Fohenagh: N. Higgins, P. Kennedy, T. Blehene, C. Geraghty, D. Glynn, P. Leonard, P. Leonard, A. Madden, E. Lally, S. Mockler, D. Poland, D. O'Beirne, J. Devine, N. Leonard, C. Farragher. Sub. P. Madden.",
     "citeChip": "Connacht Tribune · 27 Oct 1989 · p.14 · INA",
@@ -2118,7 +2121,9 @@
     "citeChip": "Connacht Tribune · 5 Nov 1993 · p.14 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19931105.1.14",
     "status": "pending",
-    "matchTags": []
+    "matchTags": [
+      "match:fohenagh-athenry-junior-a-final-1993"
+    ]
   },
   {
     "id": "art-ina-ct-1990-12-07-fohenagh-minor-c-champs",
@@ -2192,7 +2197,9 @@
     "citeChip": "Connacht Tribune · 6 Dec 1996 · p.16 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19961206.1.16",
     "status": "pending",
-    "matchTags": []
+    "matchTags": [
+      "match:fohenagh-sarsfields-junior-a-final-1996"
+    ]
   },
   {
     "id": "art-ina-tth-1999-05-29-af-sarsfields-u14",
@@ -2861,7 +2868,9 @@
     "citeChip": "Connacht Tribune · 13 Sep 1996 · p.4 · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960913.1.4",
     "status": "pending",
-    "matchTags": []
+    "matchTags": [
+      "match:fohenagh-cappataggle-minor-c-final-1996"
+    ]
   },
   {
     "id": "art-ina-ct-1996-09-13-fohenagh-minor-c-team",

@@ -68,6 +68,7 @@ export const OWNER_VERIFIED_PLAYERS = new Set([
   "player:kieran-molloy-fohenagh",
   "player:alan-malloy-fohenagh",
   "player:eric-lally-fohenagh",
+  "player:martin-curley-fohenagh",
 ]);
 
 export const SWEENEY_PROFILE_IDS = new Set([
@@ -211,17 +212,49 @@ export function listFohenaghNotableGames(A: AssocArray): FohenaghGame[] {
 }
 
 /** Line icon for a row in More great games. Omit on an entry for crossed hurls. */
-export type FohenaghGameIcon = "hurls" | "helmet" | "shield" | "tank";
+export type FohenaghGameIcon = "hurls" | "helmet" | "shield" | "tank" | "rifle";
 
-export type FohenaghMoreGame = FohenaghGame & { icon: FohenaghGameIcon };
+export type FohenaghMoreEntry = {
+  id: string;
+  icon?: FohenaghGameIcon;
+  /** Playful label for the game, never for a person. */
+  nickname?: string;
+  /** Shown when the cutting is not in the seed yet. The row is not a link. */
+  awaiting?: string;
+};
+
+export type FohenaghMoreGame = FohenaghGame & {
+  icon: FohenaghGameIcon;
+  nickname: string | null;
+  awaiting: string | null;
+};
 
 /**
  * More great games, the dropdown under the A–Z player roll.
  * Add a line to show another match page. Order here is the order on the page.
- * The county finals stay in their own list. This one is the other days.
- * Set `icon` for a battle-worn day. Anything else draws crossed hurls.
+ * County finals of every grade are listed here. The notable block above is unchanged.
+ * `nickname` and `icon` are the only place for a joke. `awaiting` holds a game
+ * whose cutting has not arrived.
  */
-export const FOHENAGH_MORE_GAMES: { id: string; icon?: FohenaghGameIcon }[] = [
+export const FOHENAGH_MORE_GAMES: FohenaghMoreEntry[] = [
+  { id: "match:fohenagh-cappataggle-minor-c-final-1996" },
+  { id: "match:fohenagh-sarsfields-junior-a-final-1996" },
+  { id: "match:fohenagh-athenry-junior-a-final-1993" },
+  { id: "match:fohenagh-ahascragh-junior-final-1981" },
+  { id: "match:fohenagh-historic-1963-galway-shc-final" },
+  { id: "match:fohenagh-historic-1961-galway-shc-final" },
+  { id: "match:fohenagh-historic-1960-galway-shc-final" },
+  { id: "match:fohenagh-historic-1959-galway-shc-final-replay" },
+  { id: "match:fohenagh-historic-1959-galway-shc-final-draw" },
+  { id: "match:fohenagh-historic-1958-galway-shc-final" },
+  { id: "match:fohenagh-skehana-ihc-final-1952-draw" },
+  {
+    id: "match:fohenagh-1944",
+    nickname: "The Battle of 1944",
+    icon: "rifle",
+    awaiting: "Cutting to follow",
+  },
+  { id: "match:fohenagh-cussane-north-board-junior-final-1942" },
   { id: "match:fohenagh-ahascragh-sadie-kilcommons-final" },
   { id: "match:galway-shc-1971-r1-athenry-fohenagh" },
   { id: "match:galway-reeves-cup-1967-final-athenry-fohenagh" },
@@ -229,8 +262,6 @@ export const FOHENAGH_MORE_GAMES: { id: string; icon?: FohenaghGameIcon }[] = [
   { id: "match:fohenagh-loughrea-c1957" },
   { id: "match:fohenagh-maree-1957" },
   { id: "match:fohenagh-tynagh-junior-abandoned-1956", icon: "helmet" },
-  { id: "match:fohenagh-skehana-ihc-final-1952-draw" },
-  { id: "match:fohenagh-cussane-north-board-junior-final-1942" },
 ];
 
 export function listFohenaghMoreGames(A: AssocArray): FohenaghMoreGame[] {
@@ -238,8 +269,31 @@ export function listFohenaghMoreGames(A: AssocArray): FohenaghMoreGame[] {
   const games: FohenaghMoreGame[] = [];
   for (const entry of FOHENAGH_MORE_GAMES) {
     const game = byId.get(entry.id);
-    if (!game) continue;
-    games.push({ ...game, icon: entry.icon ?? "hurls" });
+    if (game) {
+      games.push({
+        ...game,
+        icon: entry.icon ?? "hurls",
+        nickname: entry.nickname ?? null,
+        awaiting: null,
+      });
+      continue;
+    }
+    if (!entry.awaiting) continue;
+    games.push({
+      id: entry.id,
+      href: "",
+      title: entry.nickname || "Fohenagh game",
+      year: null,
+      when: null,
+      competition: null,
+      opponent: null,
+      score: null,
+      decade: "",
+      sortKey: "",
+      icon: entry.icon ?? "hurls",
+      nickname: entry.nickname ?? null,
+      awaiting: entry.awaiting,
+    });
   }
   return games;
 }

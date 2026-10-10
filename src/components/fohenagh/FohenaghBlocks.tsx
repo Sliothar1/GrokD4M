@@ -116,6 +116,16 @@ function GameGlyph({ icon }: { icon: FohenaghGameIcon }) {
       </svg>
     );
   }
+  if (icon === "rifle") {
+    return (
+      <svg {...common}>
+        <path d="M4 15.5h9.5" />
+        <path d="M7 15.5 9.2 8.5h2.2" />
+        <path d="M13.5 15.5 18.5 13" />
+        <path d="M6.5 15.5v2.2" />
+      </svg>
+    );
+  }
   if (icon === "tank") {
     return (
       <svg {...common}>
@@ -166,31 +176,49 @@ export function MoreGreatGames({ games }: { games: FohenaghMoreGame[] }) {
           </svg>
         </summary>
         <ul className="border-t border-[var(--hw-line)]">
-          {games.map((game) => (
-            <li key={game.id} className="border-b border-[var(--hw-line)] last:border-b-0">
-              <Link
-                href={game.href}
-                className="flex items-center gap-3 px-4 py-3 transition hover:bg-[#f7f1e8]"
-              >
+          {games.map((game) => {
+            const body = (
+              <>
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-galway-maroon/10 text-galway-maroon">
                   <GameGlyph icon={game.icon} />
                 </span>
                 <span className="min-w-0">
                   <span className="block text-sm font-bold text-galway-maroon">
-                    {game.when ?? "Date to follow"}
+                    {game.awaiting ? "To come" : game.when ?? "Date to follow"}
                   </span>
                   <span className="hw-serif block text-lg leading-snug text-galway-ink">
-                    {game.title}
+                    {game.nickname || game.title}
                   </span>
                   <span className="mt-0.5 block text-sm text-galway-ink/65">
-                    {[game.competition, game.opponent ? `vs ${game.opponent}` : null, game.score]
-                      .filter(Boolean)
-                      .join(" · ")}
+                    {game.awaiting
+                      ? game.awaiting
+                      : [
+                          game.nickname ? game.title : null,
+                          game.competition,
+                          game.opponent ? `vs ${game.opponent}` : null,
+                          game.score,
+                        ]
+                          .filter(Boolean)
+                          .join(" · ")}
                   </span>
                 </span>
-              </Link>
-            </li>
-          ))}
+              </>
+            );
+            return (
+              <li key={game.id} className="border-b border-[var(--hw-line)] last:border-b-0">
+                {game.href ? (
+                  <Link
+                    href={game.href}
+                    className="flex items-center gap-3 px-4 py-3 transition hover:bg-[#f7f1e8]"
+                  >
+                    {body}
+                  </Link>
+                ) : (
+                  <div className="flex items-center gap-3 px-4 py-3">{body}</div>
+                )}
+              </li>
+            );
+          })}
         </ul>
       </details>
     </section>
