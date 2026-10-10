@@ -117526,6 +117526,11 @@
   },
   {
     "row": "player:sean-carrig-fohenagh",
+    "col": "alias",
+    "val": "S. Carrick, Sean Carrick"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
     "col": "club",
     "val": "club:fohenagh-historic"
   },
@@ -263817,6 +263822,11 @@
   },
   {
     "row": "player:s-carrick-fohenagh",
+    "col": "same_as",
+    "val": "player:sean-carrig-fohenagh"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
     "col": "club",
     "val": "club:fohenagh-historic"
   },
@@ -263838,12 +263848,12 @@
   {
     "row": "player:s-carrick-fohenagh",
     "col": "status",
-    "val": "pending_archivist"
+    "val": "alias"
   },
   {
     "row": "player:s-carrick-fohenagh",
     "col": "note",
-    "val": "Named as S. Carrick on the Fohenagh line in the senior hurling semi-final against Killimordaly (Connacht Tribune · 3 Aug 1963 · p.30 · INA)."
+    "val": "Named as S. Carrick on the Fohenagh line in the senior hurling semi-final against Killimordaly (Connacht Tribune, 3 August 1963). Same person as Sean Carrig."
   },
   {
     "row": "player:s-carrick-fohenagh",
