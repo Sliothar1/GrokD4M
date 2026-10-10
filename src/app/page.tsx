@@ -72,6 +72,16 @@ export default async function HomePage() {
                 Read how the site is built
               </Link>
             </li>
+            <li>
+              <Link href="/ask" className="block rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3 font-semibold text-galway-ink hover:border-galway-maroon">
+                Ask a question
+              </Link>
+            </li>
+            <li>
+              <Link href="/stories#record" className="block rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3 font-semibold text-galway-ink hover:border-galway-maroon">
+                Read a story
+              </Link>
+            </li>
           </ul>
           <PaFamilyNav />
         </div>

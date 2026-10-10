@@ -153,5 +153,70 @@
     "row": "match:fohenagh-tynagh-1956-hurls",
     "col": "cite",
     "val": "A History of Fohenagh p.148; Tuam Herald 6 Oct 1956 p.5"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1941-county-semi",
+    "col": "name",
+    "val": "Athenry, 1942: Fohenagh v Claregalway"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1941-county-semi",
+    "col": "date",
+    "val": "Sunday 24 May 1942"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1941-county-semi",
+    "col": "comic_title",
+    "val": "Athenry, 1942"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1941-county-semi",
+    "col": "note",
+    "val": "Fohenagh met Claregalway in the 1941 county junior semi-final at Athenry. The game was played on Sunday 24 May 1942 and was abandoned. The County Board met on Saturday 6 June 1942 (Connacht Sentinel, 9 June 1942). The Connacht Tribune of Saturday 13 June 1942 headed its report Blackguardism at Athenry causes heat at County Board meeting. Both teams were suspended for twelve months, and Eyrecourt were declared 1941 champions. In a section headed Serious Charges, the chairman said Fohenagh were not playing a legal team that day. The chairman, Mr T. O'Connor, was of Claregalway, one of the two clubs. Mr M. Silver of Ardrahan spoke of powerful panzer divisions behind some teams (Connacht Tribune, 13 June 1942; Connacht Sentinel, 9 June 1942)."
+  },
+  {
+    "row": "match:fohenagh-claregalway-1941-county-semi",
+    "col": "cite",
+    "val": "Connacht Tribune, 13 June 1942; Connacht Sentinel, 9 June 1942"
+  },
+  {
+    "row": "match:fohenagh-claregalway-1941-county-semi",
+    "col": "secondary_cite",
+    "val": "Connacht Tribune, 13 June 1942; Connacht Sentinel, 9 June 1942"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "name",
+    "val": "North Board Junior Final 1942: Fohenagh v Cussane"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "opponent",
+    "val": "Cussane"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "date",
+    "val": "Sunday 29 March 1942"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "result",
+    "val": "Fohenagh won"
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "note",
+    "val": "North Board Junior Final, Fohenagh v Cussane, played Sunday 29 March 1942. Fohenagh won after an hour's hard hurling, and were superior for most of the hour. The Tuam Herald of 4 April 1942, page 2, prints the other side as Cussaun. The Connacht Tribune of 4 April 1942, page 9, reports the same final. From a club member's clipping collection."
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "cite",
+    "val": "Tuam Herald, 4 April 1942, p.2; Connacht Tribune, 4 April 1942, p.9. From a club member's clipping collection."
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "secondary_cite",
+    "val": "Tuam Herald, 4 April 1942, p.2; Connacht Tribune, 4 April 1942, p.9. From a club member's clipping collection."
   }
 ]

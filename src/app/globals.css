@@ -357,3 +357,109 @@ body {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+.nav-link,
+.nav-menu > summary {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 650;
+  color: #fff;
+  list-style: none;
+}
+
+.nav-link:hover,
+.nav-menu > summary:hover {
+  background: rgb(255 255 255 / 0.15);
+}
+
+.nav-menu {
+  position: relative;
+}
+
+.nav-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-menu[open] > ul,
+.nav-menu:focus-within > ul {
+  display: block;
+}
+
+.nav-menu > ul {
+  display: none;
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  top: 100%;
+  min-width: 16rem;
+  max-height: 20rem;
+  overflow: auto;
+  margin: 0;
+  padding: 0.4rem;
+  list-style: none;
+  border-radius: 0.9rem;
+  background: #fff;
+  color: var(--galway-ink);
+  box-shadow: 0 8px 24px rgb(20 42 104 / 0.18);
+}
+
+.nav-menu a {
+  display: block;
+  border-radius: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  font-weight: 650;
+  color: var(--galway-maroon);
+}
+
+.nav-menu a:hover {
+  background: var(--galway-cream);
+}
+
+.ask-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--galway-maroon);
+}
+
+header .ask-form label {
+  color: var(--galway-gold);
+}
+
+.ask-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ask-row input {
+  min-width: 0;
+  flex: 1;
+  border-radius: 999px;
+  border: 0;
+  background: #fff;
+  padding: 0.55rem 0.9rem;
+  color: var(--galway-ink);
+}
+
+.ask-row button {
+  border-radius: 999px;
+  background: var(--galway-gold);
+  padding: 0.55rem 0.9rem;
+  font-weight: 800;
+  color: #142a68;
+}
+
+.cite-mark {
+  margin-left: 0.1rem;
+  font-size: 0.75em;
+  font-weight: 800;
+  vertical-align: super;
+  text-decoration: none;
+  color: var(--galway-maroon);
+}
