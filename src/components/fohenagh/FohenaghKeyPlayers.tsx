@@ -30,6 +30,11 @@ const KEY_PLAYERS = [
     line: "Selected for Galway, printed as J. Moclair. On the 1959 replay team.",
   },
   {
+    name: "Michael Barrett",
+    href: "/player/michael-barrett-fohenagh",
+    line: "Among Fohenagh's best backs of his day. The Tuam Herald of 19 August 1995 named Mike Barrett among those who best served Fohenagh.",
+  },
+  {
     name: "Maureen Madden",
     href: "/player/maureen-madden-fohenagh-camogie",
     line: "Camogie. Named with the 1947 county final team.",

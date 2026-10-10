@@ -247516,48 +247516,163 @@
   },
   {
     "row": "player:m-barrett-fohenagh",
+    "col": "same_as",
+    "val": "player:michael-barrett-fohenagh"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "name",
+    "val": "Michael Barrett"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "alias",
+    "val": "Mike Barrett, M. Barrett"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
     "col": "club",
     "val": "club:fohenagh-historic"
   },
   {
-    "row": "player:m-barrett-fohenagh",
+    "row": "player:michael-barrett-fohenagh",
     "col": "county",
     "val": "team:galway"
   },
   {
-    "row": "player:m-barrett-fohenagh",
-    "col": "confidence",
-    "val": "verified"
+    "row": "player:michael-barrett-fohenagh",
+    "col": "sport",
+    "val": "hurling"
   },
   {
-    "row": "player:m-barrett-fohenagh",
-    "col": "status",
-    "val": "verified_from_cutting"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "kid_chip",
-    "val": "Mentioned in match report"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "cutting_cite",
-    "val": "Tuam Herald · 16 Aug 1952 · Intermediate County Final · INA"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
+    "row": "player:michael-barrett-fohenagh",
     "col": "position",
     "val": "Defender"
   },
   {
-    "row": "player:m-barrett-fohenagh",
-    "col": "note",
-    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate County Final vs Skehana (Tuam Herald)."
+    "row": "player:michael-barrett-fohenagh",
+    "col": "confidence",
+    "val": "high"
   },
   {
-    "row": "player:m-barrett-fohenagh",
-    "col": "verification",
-    "val": "Named in newspaper cutting — auto-verified"
+    "row": "player:michael-barrett-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in match reports"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "teammates",
+    "val": "player:mike-flood-fohenagh"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "notable",
+    "val": "Among Fohenagh's best backs of his day. The Tuam Herald of 19 August 1995 printed that Fohenagh were \"best served by Mike Flood, Mike Barrett, Philip Lohan and Sean Keane\" in the county Junior C first round, which Ahascragh won 2-9 to 1-7. The Connacht Tribune of 21 June 1996 printed Michael Barrett in the Fohenagh side that beat Ahascragh 1-9 to 1-7 in the county Junior A championship. The Connacht Tribune of 6 December 1996 printed Mike Barrett in the back row of the county Junior A final side (Sarsfields junior). The Connacht Tribune of 8 August 1997 named Michael Barrett among the best for Fohenagh in the Castleblakeney Festival tournament final: \"Noel Higgins in goal, Michael Barrett, Seamus Mockler, Cathal Lohan and the Leonard brothers Niall and Padraig in defence\"."
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "source_notable",
+    "val": "art-ina-tth-1995-08-19-fohenagh-junior-c"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "source_notable_2",
+    "val": "art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "source_notable_3",
+    "val": "art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
+  },
+  {
+    "row": "player:michael-barrett-fohenagh",
+    "col": "source_notable_4",
+    "val": "art-ina-ct-1997-08-08-castleblakeney-festival-best"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "name",
+    "val": "M. Barrett (1950s)"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "position",
+    "val": "Defender"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "status",
+    "val": "verified_from_cutting"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "kid_chip",
+    "val": "Named in match reports"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "cutting_cite",
+    "val": "Tuam Herald · 16 Aug 1952 · p.1 · INA"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "note",
+    "val": "Standout in the backs for Fohenagh in the 1952 Intermediate county final against Skehana (Tuam Herald)."
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "notable",
+    "val": "The Tuam Herald of 16 August 1952 wrote that Joe Rushe and M. Barrett \"stood out in the backs\" as Fohenagh drew the Intermediate county final with Skehana. The Connacht Tribune of 3 October 1953 named M. Barrett on the Fohenagh team that beat Claregalway 4-7 to 4-6."
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "source_notable",
+    "val": "art-ina-fohenagh-1952-08-16-tuam-herald"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "source_notable_2",
+    "val": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc"
+  },
+  {
+    "row": "player:m-barrett-1950s-fohenagh",
+    "col": "source_note",
+    "val": "art-ina-fohenagh-1952-08-16-tuam-herald"
   },
   {
     "row": "player:marty-glynn-fohenagh",
@@ -250696,26 +250811,6 @@
     "val": "art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a"
   },
   {
-    "row": "player:m-barrett-fohenagh",
-    "col": "notable",
-    "val": "Lined out in Fohenagh's 1996 county Junior A win over Ahascragh, 1-9 to 1-7 (Connacht Tribune, 21 June 1996; printed Michael Barrett). Best served Fohenagh in the county Junior C first round, Ahascragh winning 2-9 to 1-7 (Tuam Herald, 19 August 1995; printed Mike Barrett). Named among Fohenagh's best in the Castleblakeney Festival tournament final (Connacht Tribune, 8 August 1997)."
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "source_notable",
-    "val": "art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "source_notable_2",
-    "val": "art-ina-tth-1995-08-19-fohenagh-junior-c"
-  },
-  {
-    "row": "player:m-barrett-fohenagh",
-    "col": "source_notable_3",
-    "val": "art-ina-ct-1997-08-08-castleblakeney-festival-best"
-  },
-  {
     "row": "player:mike-flood-fohenagh",
     "col": "type",
     "val": "player"
@@ -252368,7 +252463,7 @@
   {
     "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
     "col": "player",
-    "val": "player:m-barrett-fohenagh"
+    "val": "player:m-barrett-1950s-fohenagh"
   },
   {
     "row": "appearance:m-barrett-fohenagh-fohenagh-claregalway-1953-ina",
