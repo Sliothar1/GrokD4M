@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { friendlyTrustLabel, type EntitySummary } from "@/lib/data";
+import { publicSourceCredit } from "@/lib/publicText";
 
 const kindLabel: Record<string, string> = {
   player: "Player",
@@ -61,7 +62,7 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
           )}
           {entity.citeChip && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-xs font-bold text-galway-maroon">
-              {entity.citeChip}
+              {publicSourceCredit(entity.citeChip)}
             </span>
           )}
           {entity.scoreDisputed && (

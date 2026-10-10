@@ -83,11 +83,19 @@ export const BANNED_PUBLIC_PATTERNS: { name: string; re: RegExp }[] = [
   { name: "team-list-only", re: /team-list-only/i },
   { name: "privacy", re: /\bprivacy\b/i },
   { name: "clipping not added", re: /not been added yet/i },
+  {
+    name: "Garry Lohan",
+    re: /Garry Lohan['’]s collection|(?:clipping|programme|program)\s+from\s+Garry Lohan|\bfrom\s+Garry Lohan\b/i,
+  },
 ];
 
+/** Footer credit is the one public place this name is allowed. */
+const FOOTER_BUILT_BY = "Designed and built by Garry Lohan";
+
 export function firstBannedPublicHit(text: string): string | null {
+  const scanned = text.replaceAll(FOOTER_BUILT_BY, "");
   for (const pattern of BANNED_PUBLIC_PATTERNS) {
-    if (pattern.re.test(text)) return pattern.name;
+    if (pattern.re.test(scanned)) return pattern.name;
   }
   return null;
 }
@@ -179,10 +187,177 @@ function finishClause(clause: string, sentence: string): string {
   return `${trimmed}${end}`;
 }
 
+const GARRY_COLLECTION_PHRASE =
+  /\b(?:(?:newspaper|matchday)\s+)?(?:clipping|programme|program)\s+from\s+Garry Lohan['’]s collection\b|\bfrom\s+Garry Lohan['’]s collection\b|\bGarry Lohan['’]s collection\b/gi;
+
+const PAPER_NAME =
+  /\b(Connacht Tribune|Tuam Herald|Connacht Sentinel|Galway Advertiser|Irish Independent|Sunday Independent|Irish Examiner|The Irish Times|Irish Times|Irish Press|Sunday Press)\b/i;
+
+function citesGarryAsSource(input: string): boolean {
+  return /Garry Lohan['’]s collection|(?:clipping|programme|program)\s+from\s+Garry Lohan|\bfrom\s+Garry Lohan\b/i.test(
+    input
+  );
+}
+
+/**
+ * Collection credits name a person as the source. Public text uses the
+ * archive or the paper. The footer credit is left untouched.
+ */
+export function publicSourceCredit(input: string): string {
+  if (!input || !citesGarryAsSource(input)) return input;
+  const paper = input.match(PAPER_NAME)?.[1];
+  GARRY_COLLECTION_PHRASE.lastIndex = 0;
+  let next = input.replace(GARRY_COLLECTION_PHRASE, " ");
+  next = next
+    .replace(/\s*·\s*(?:·\s*)+/g, " · ")
+    .replace(/(?:\s*·\s*){2,}/g, " · ")
+    .replace(/^(?:\s*[·,;:\-–—]+\s*)+|(?:\s*[·,;:\-–—]+\s*)+$/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  const bare = next.replace(/[.\s]/g, "");
+  if (
+    !next ||
+    /^(?:DATE_TBD|undated(?:\s+clipping)?|\d{4})$/i.test(next) ||
+    bare.length < 3
+  ) {
+    return paper ?? "Courtesy of Irish Newspaper Archives";
+  }
+  return next;
+}
+
 function normalizePublicWording(input: string): string {
-  return input
+  return publicSourceCredit(input)
     .replace(/\bRoH\b/g, "Roll of Honour")
     .replace(/\([^)]*wiki spelling[^)]*\)/gi, "");
+}
+
+function tidySpaces(input: string): string {
+  return input.replace(/\s{2,}/g, " ").replace(/\s+([,.;!?])/g, "$1").trim();
+}
+
+function cleanGradeMarks(input: string): string {
+  return input
+    .replace(/[‘’“”]/g, "")
+    .replace(/'([A-E])'/g, "$1")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+/** Drop the word "panel" from a lead sentence without adding a new fact. */
+function rewritePanelSentence(sentence: string): string {
+  const honour = sentence.match(
+    /^(.*?Roll of Honour)(?:\s+(\d{4}))?:\s+.+?\bnamed on\s+(.+?)\s+Hurling Champions panels?\.?$/i
+  );
+  if (honour) {
+    const source = honour[1].replace(/\s+\d{4}$/, "").trim();
+    const year = honour[2] ?? "";
+    const team = cleanGradeMarks(honour[3]).replace(/\s+Hurling$/i, "");
+    const yearBit = year ? `, ${year}` : "";
+    return tidySpaces(`${team} hurling champion${yearBit} (${source}).`);
+  }
+
+  let text = sentence
+    .replace(/\bteam panels\b/gi, "team photos")
+    .replace(/\bteam panel\b/gi, "team photo");
+  text = text.replace(
+    /\bchampions(?:\s+((?:18|19|20)\d{2}))?\s+panels?\b/gi,
+    (_match, year: string | undefined) => (year ? `champions ${year}` : "champions")
+  );
+  text = text.replace(/\bwinners(?:\s+((?:18|19|20)\d{2}))?\s+panels?\b/gi, (_match, year: string | undefined) =>
+    year ? `winners ${year}` : "winners"
+  );
+  text = rewriteOpeningLabel(text);
+  if (/\bpanels?\b/i.test(text)) {
+    text = text.replace(/\bpanel lists\b/gi, "lists");
+    text = text.replace(/\bpanels\b/gi, "teams");
+    text = text.replace(/\bpanel\b/gi, "team");
+    text = text.replace(/\bteam teams?\b/gi, "team");
+    text = text.replace(/\bteams teams\b/gi, "teams");
+    text = cleanGradeMarks(text);
+  }
+  return tidySpaces(text);
+}
+
+function looksLikeSourceLabel(label: string): boolean {
+  const opens = label.match(/\(/g)?.length ?? 0;
+  const closes = label.match(/\)/g)?.length ?? 0;
+  if (opens !== closes) return false;
+  if (
+    /^(named|selected|shown|scored|started|mentioned|identified|called|printed|the|he|she|a|an|undefeated)\b/i.test(
+      label
+    )
+  ) {
+    return false;
+  }
+  if (
+    /\b(archive|roll of honour|tribune|herald|advertiser|independent|examiner|times|team sheet|wikipedia|gaa|bay fm|panel|sheet|programme|program|history|heritage|hoganstand|parish|player list|report)\b/i.test(
+      label
+    ) ||
+    /\bfm\b/i.test(label) ||
+    /\brté\b/i.test(label)
+  ) {
+    return true;
+  }
+  const words = label.split(/\s+/).filter(Boolean);
+  if (
+    words.length >= 1 &&
+    words.length <= 6 &&
+    words.every((word) => /^[\dA-ZÁÉÍÓÚ“"'(]/.test(word))
+  ) {
+    return true;
+  }
+  return (
+    /\b(?:18|19|20)\d{2}\b/.test(label) &&
+    /\b(final|champion|honour|archive|sheet|panel)\b/i.test(label)
+  );
+}
+
+function rewriteOpeningLabel(sentence: string): string {
+  const match = sentence.match(/^([^:]{3,180}):\s+([\s\S]+)$/);
+  if (!match) return sentence;
+  const label = match[1].trim();
+  const rest = match[2].trim();
+  const namedIn = label.match(/^Named in\s+(.+)$/i);
+  const sourceLabel = namedIn?.[1] ?? label;
+  if (!looksLikeSourceLabel(sourceLabel)) return sentence;
+  if (rest.replace(/[.!?]/g, "").trim().length < 8) return sentence;
+
+  const sheet = label.match(
+    /^(.+?)\s+((?:18|19|20)\d{2})\s+([A-Za-z]{2,8})\s+final(?:\s+team sheet)?$/i
+  );
+  const played = rest.match(
+    /^(.+?)\s+(started\/scored|started|scored a goal|scored|goal)\s+for\s+(.+?)\.?$/i
+  );
+  if (sheet && played) {
+    const archive = sheet[1].replace(/\s+team sheet$/i, "").trim();
+    const year = sheet[2];
+    const comp = sheet[3].toUpperCase();
+    const club = played[3].replace(/[.!?]+$/g, "").trim();
+    const action = played[2];
+    const verb = /started\/scored/i.test(action)
+      ? "Started and scored for"
+      : /^goal$/i.test(action)
+        ? "Scored a goal for"
+        : /^scored/i.test(action)
+          ? "Scored for"
+          : "Started for";
+    const competition = comp === "SHC" ? "Galway SHC" : comp;
+    return `${verb} ${club} in the ${year} ${competition} final (${archive}).`;
+  }
+
+  const fact = rest.replace(/[.!?]+$/g, "").trim();
+  const capital = fact.charAt(0).toUpperCase() + fact.slice(1);
+  return `${capital} (${sourceLabel}).`;
+}
+
+/** Profile lead: no "panel", and the opening is the fact rather than a source label. */
+export function shapePublicLead(input: string | null): string | null {
+  if (!input?.trim()) return input;
+  const sentences = splitSentences(input).map((sentence) => tidySpaces(rewritePanelSentence(sentence)));
+  if (sentences.length === 0) return input;
+  sentences[0] = tidySpaces(rewriteOpeningLabel(sentences[0]));
+  const shaped = tidy(sentences.join(" "));
+  return shaped || input;
 }
 
 /**
@@ -190,7 +365,7 @@ function normalizePublicWording(input: string): string {
  * The stored caption says "team panel"; the page says what the cutting is.
  */
 export function publicCuttingLabel(text: string): string {
-  const trimmed = text.trim();
+  const trimmed = publicSourceCredit(text).trim();
   const isThisCutting =
     /team panel/i.test(trimmed) &&
     (/fohenagh/i.test(trimmed) || /19 sep 1959/i.test(trimmed));

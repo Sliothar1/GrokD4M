@@ -2,6 +2,8 @@
  * Archive credit plus one link back to the permalink.
  * Rendered for every article kind that carries these fields.
  */
+import { publicSourceCredit } from "@/lib/publicText";
+
 export function ArticleCredit({
   credit,
   creditUrl,
@@ -11,7 +13,7 @@ export function ArticleCredit({
   creditUrl?: string;
   sourceUrl?: string;
 }) {
-  const creditText = credit?.trim();
+  const creditText = publicSourceCredit(credit ?? "").trim();
   const creditHref = creditUrl?.trim();
   const original = sourceUrl?.trim();
   if (!creditText && !original) return null;

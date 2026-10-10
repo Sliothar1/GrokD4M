@@ -11,7 +11,22 @@ import {
   profileForPlayer,
   publicProfileText,
 } from "../src/lib/playerProfile";
+import { siteCredit } from "../src/config/siteCredit";
 import { firstBannedPublicHit, sanitizePublicText } from "../src/lib/publicText";
+
+function isPlainLead(name: string, summary: string): boolean {
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const jersey = new RegExp(`^${escaped} wore the .+ jersey\\.(?:\\s+\\S[^.]{0,120}\\.)?$`);
+  return jersey.test(summary) && !/\bNamed\b/.test(summary) && !/[()]/.test(summary);
+}
+
+function garrySourceLines(name: string, text: string): string[] {
+  return text
+    .replaceAll(siteCredit.builtBy, "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0 && line !== name && /Garry Lohan/i.test(line));
+}
 
 const SAMPLE = [
   "j-glynn-fohenagh-camogie",
@@ -49,6 +64,8 @@ async function main() {
   const ctx = await createPlayerProfileContext();
   const hiddenCtx = await createPlayerProfileContext(false);
   let placeholders = 0;
+  let citedLeads = 0;
+  let plainLines = 0;
 
   for (const id of A.entitiesOfType("player")) {
     const attrs = A.entityAttrs(id);
@@ -58,7 +75,20 @@ async function main() {
     assert.equal(hit, null, `${id} public text hit ${hit}\n${text}`);
     assert.equal(profile.name.length > 0, true, id);
     assert.match(text, /Share a memory/);
-    if (!profile.summary || /not been added yet/i.test(profile.summary)) placeholders++;
+    const summary = profile.summary?.trim() ?? "";
+    if (!summary || /not been added yet/i.test(summary)) placeholders++;
+    assert.ok(summary.length > 0, `${id} empty body`);
+    if (isPlainLead(profile.name, summary)) plainLines++;
+    else citedLeads++;
+    assert.doesNotMatch(`${profile.headline ?? ""}\n${summary}`, /\bpanels?\b/i, `${id} panel in lead`);
+    const lead = summary.split(/(?<=[.!?])\s/)[0] ?? summary;
+    assert.doesNotMatch(
+      lead,
+      /^(?:Turloughmore|Galway GAA Roll of Honour|Connacht Tribune|Tuam Herald)\b[^:\n]{0,80}:/i,
+      `${id} lead opens with a source label`
+    );
+    const garry = garrySourceLines(profile.name, text);
+    assert.deepEqual(garry, [], `${id} cites Garry Lohan\n${garry.join("\n")}`);
     assert.equal(
       Object.prototype.hasOwnProperty.call(profile, "verified"),
       true
@@ -203,8 +233,57 @@ async function main() {
 
   console.log(`sample=${SAMPLE.length}`);
   console.log(SAMPLE.join("\n"));
+  const thinIds = [
+    "conor-geraghty-fohenagh",
+    "david-faulkner-fohenagh",
+    "john-donelan-fohenagh",
+    "damien-obeirne-fohenagh",
+    "damien-poland-fohenagh",
+    "paul-leonard-fohenagh",
+    "cathal-farragher-fohenagh",
+  ];
+  for (const slug of thinIds) {
+    const profile = profileForPlayer(ctx, `player:${slug}`, A.entityAttrs(`player:${slug}`));
+    assert.match(profile.summary ?? "", /1990 underage team photo/, slug);
+    assert.doesNotMatch(profile.summary ?? "", /wore the Fohenagh jersey|privacy|team-list-only/i, slug);
+  }
+
+  const mick = profileForPlayer(
+    ctx,
+    "player:mick-moylette-fohenagh",
+    A.entityAttrs("player:mick-moylette-fohenagh")
+  );
+  assert.match(
+    mick.summary ?? "",
+    /^Started for Fohenagh in the 1963 Galway SHC final \(Turloughmore GAA archive\)\./
+  );
+  assert.doesNotMatch(mick.credit ?? "", /Garry Lohan/i);
+  assert.match(mick.credit ?? "", /Courtesy of Irish Newspaper Archives/);
+
+  const tim = profileForPlayer(
+    ctx,
+    "player:tim-sweeney-fohenagh",
+    A.entityAttrs("player:tim-sweeney-fohenagh")
+  );
+  assert.match(tim.summary ?? "", /team photo/i);
+  assert.doesNotMatch(tim.summary ?? "", /\bpanel\b/i);
+  assert.doesNotMatch(tim.credit ?? "", /Garry Lohan/i);
+  assert.match(tim.credit ?? "", /Courtesy of Irish Newspaper Archives/);
+
+  for (const slug of ["garry-mitchell-fohenagh", "peter-lally-fohenagh"]) {
+    const profile = profileForPlayer(ctx, `player:${slug}`, A.entityAttrs(`player:${slug}`));
+    assert.match(
+      profile.summary ?? "",
+      /^Fohenagh Minor C hurling champion, 1996 \(Galway GAA Roll of Honour\)\./,
+      slug
+    );
+    assert.doesNotMatch(profile.summary ?? "", /\bpanel\b/i, slug);
+  }
+
+  assert.equal(citedLeads + plainLines, A.entitiesOfType("player").length);
   assert.equal(placeholders, 0);
   console.log(`players=${A.entitiesOfType("player").length} placeholders=${placeholders}`);
+  console.log(`cited-lead=${citedLeads} plain-line=${plainLines}`);
   console.log("smoke-public-profiles: ok");
 }
 

@@ -39,7 +39,7 @@ import { FohenaghFairytale } from "@/components/fohenagh/FohenaghFairytale";
 import { FohenaghParishStory } from "@/components/fohenagh/FohenaghParishStory";
 import { FohenaghPlayerIndex } from "@/components/fohenagh/FohenaghPlayerIndex";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
-import { sanitizePublicText } from "@/lib/publicText";
+import { publicSourceCredit, sanitizePublicText } from "@/lib/publicText";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
@@ -118,7 +118,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           )}
           {(summary.citeChip || attrs.cutting_cite) && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip || String(attrs.cutting_cite)}
+              {publicSourceCredit(summary.citeChip || String(attrs.cutting_cite))}
             </span>
           )}
           {(summary.scoreDisputed ||
@@ -155,7 +155,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               />
             </a>
             <p className="mt-2 text-sm font-semibold text-galway-maroon">
-              From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
+              From cutting{heroCutting.citeChip ? ` · ${publicSourceCredit(heroCutting.citeChip)}` : ""}
             </p>
           </div>
         )}

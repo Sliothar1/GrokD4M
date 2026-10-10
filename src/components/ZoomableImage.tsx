@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useId, useState } from "react";
+import { publicSourceCredit } from "@/lib/publicText";
 
 /** Newspaper page scan. Click opens a lightbox; Escape or Close dismisses it. */
 export function ZoomableImage({
@@ -33,7 +34,7 @@ export function ZoomableImage({
     };
   }, [open, close]);
 
-  const creditText = credit?.trim();
+  const creditText = publicSourceCredit(credit ?? "").trim();
   const creditHref = creditUrl?.trim();
 
   return (

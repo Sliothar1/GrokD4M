@@ -11,6 +11,7 @@ import {
   firstBannedPublicHit,
   publicCuttingLabel,
   publicMatchBlurb,
+  publicSourceCredit,
   sanitizePublicText,
 } from "../src/lib/publicText";
 
@@ -101,6 +102,8 @@ async function main() {
     const summary = articleToSummary(upload);
     const text = [summary.title, summary.excerpt ?? "", summary.citeChip ?? ""].join("\n");
     assert.doesNotMatch(text, /team panel/i, upload.id);
+    assert.doesNotMatch(publicSourceCredit(upload.credit ?? ""), /Garry Lohan/i, upload.id);
+    assert.doesNotMatch(summary.citeChip ?? "", /Garry Lohan/i, upload.id);
     if (upload.id === "art-ct-1959-09-19-fohenagh-team-caption") {
       saw1959 = true;
       assert.match(summary.title, /Team photo after Fohenagh's first Galway senior title/);

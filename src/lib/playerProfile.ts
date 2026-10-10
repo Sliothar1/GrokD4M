@@ -5,7 +5,7 @@ import { isDisplayableVal } from "@/lib/entityDisplay";
 import { SHOW_INA_MEDIA } from "@/lib/ina-media";
 import { readArticleUploads } from "@/lib/articles";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
-import { firstBannedPublicHit, sanitizePublicText, shortenPublicText } from "@/lib/publicText";
+import { firstBannedPublicHit, sanitizePublicText, shapePublicLead, shortenPublicText } from "@/lib/publicText";
 
 /**
  * One public player skin for hurling, camogie, and editor-only additions.
@@ -370,23 +370,47 @@ function joinNames(names: string[]): string {
   return `${names.slice(0, -1).join(", ")}, and ${names[names.length - 1]}`;
 }
 
-function parishSummary(
+function plainJerseyLine(
   name: string,
   jersey: string | null,
-  sport: string | null,
-  era: string | null,
-  gameLabels: string[],
-  mateNames: string[]
+  grade: string | null,
+  era: string | null
 ): string {
-  const lines: string[] = [];
-  lines.push(jersey ? `${name} wore the ${jersey} jersey.` : `${name} is named in this record.`);
-  const game = sportLabel(sport);
-  if (game && era) lines.push(`${game} in the ${era}.`);
-  else if (era) lines.push(`The years on file are the ${era}.`);
-  else if (game) lines.push(`${game}.`);
-  if (gameLabels.length > 0) lines.push(`Named in ${joinNames(gameLabels.slice(0, 2))}.`);
-  else if (mateNames.length > 0) lines.push(`Named alongside ${joinNames(mateNames.slice(0, 3))}.`);
-  return lines.slice(0, 3).join(" ");
+  const base = jersey ? `${name} wore the ${jersey} jersey.` : `${name} is named in this record.`;
+  const extra = [grade, era].filter((part): part is string => Boolean(part)).join(", ");
+  if (!extra) return base;
+  return `${base} ${extra.replace(/[.!?]+$/g, "")}.`;
+}
+
+function noteIsCited(attrs: Record<string, TripleVal>): boolean {
+  return (
+    hasFieldSource(attrs, "note") ||
+    linkedCuttingCount(attrs) > 0 ||
+    isDisplayableVal(attrs.cutting_cite) ||
+    httpSource(attrs) ||
+    isDisplayableVal(attrs.book_cite) ||
+    isDisplayableVal(attrs.source_ref)
+  );
+}
+
+/** One cited sentence when the archive row never made it into the longer prose. */
+function citedFallbackLead(attrs: Record<string, TripleVal>, games: PublicGame[]): string | null {
+  if (noteIsCited(attrs) && isDisplayableVal(attrs.note)) {
+    const note = shortenPublicText(String(attrs.note), 1);
+    if (note) return note;
+  }
+  if (games.length > 0) return `Named in ${games[0].label}.`;
+  if (isDisplayableVal(attrs.book_cite) && /history of fohenagh/i.test(String(attrs.book_cite))) {
+    const page = String(attrs.book_cite).match(/\bp\.?\s*[\d,–-]+/i)?.[0]?.replace(/\s+/g, "");
+    return page
+      ? `Named in A History of Fohenagh (Tony O'Gorman, ${page}).`
+      : "Named in A History of Fohenagh (Tony O'Gorman).";
+  }
+  if (isDisplayableVal(attrs.cutting_cite)) {
+    const cite = shortenPublicText(String(attrs.cutting_cite), 1);
+    if (cite) return cite;
+  }
+  return null;
 }
 
 function editorSummary(
@@ -546,6 +570,7 @@ export function profileForPlayer(
   ) {
     summary = null;
   }
+  if (!summary) summary = citedFallbackLead(attrs, games);
   if (!summary && editorish) {
     summary = editorSummary(
       name,
@@ -555,14 +580,7 @@ export function profileForPlayer(
     );
   }
   if (!summary) {
-    summary = parishSummary(
-      name,
-      jersey,
-      sportOf(attrs, apps),
-      eraBit || null,
-      games.map((game) => game.label),
-      teammates.map((mate) => mate.name)
-    );
+    summary = plainJerseyLine(name, jersey, gradeLabel(gradesRaw), eraBit || null);
   }
 
   let publicHeadline = headline;
@@ -573,6 +591,8 @@ export function profileForPlayer(
     summary =
       "Brendan Noone is named with the Fohenagh Minor C champions of 1996. A History of Fohenagh places him in the 1990 underage team photograph.";
   }
+  summary = shapePublicLead(summary);
+  publicHeadline = shapePublicLead(publicHeadline);
 
   const underage = mentionsUnderage([
     gradesRaw,
@@ -620,7 +640,12 @@ export function profileForPlayer(
     if (games.some((game) => game.href === href)) continue;
     games.push({ label, href });
   }
-  const bookCredit = bookBits.length > 0 ? "From A History of Fohenagh by Tony O'Gorman" : null;
+  const bookCredit =
+    bookBits.length > 0 ||
+    isDisplayableVal(attrs.book_cite) ||
+    /history of fohenagh/i.test(String(attrs.credit ?? ""))
+      ? "From A History of Fohenagh by Tony O'Gorman"
+      : null;
   const creditLine = [credit, bookCredit && credit !== bookCredit ? bookCredit : null]
     .filter(Boolean)
     .join(" ");

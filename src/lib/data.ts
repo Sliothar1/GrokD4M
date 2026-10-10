@@ -16,7 +16,7 @@ import {
   invalidateBlobMetaCache,
   searchArticleUploads,
 } from "@/lib/articles";
-import { firstBannedPublicHit } from "@/lib/publicText";
+import { firstBannedPublicHit, publicSourceCredit } from "@/lib/publicText";
 import {
   isClubAttrColumn,
   isNumberedClubCol,
@@ -519,31 +519,36 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     kindLabel,
   };
   if (kind === "player") {
-    if (attrs.cutting_cite) summary.citeChip = String(attrs.cutting_cite);
+    if (attrs.cutting_cite) summary.citeChip = shownCite(attrs.cutting_cite);
   }
   if (kind === "article_upload") {
     summary.badge = String(attrs.badge ?? "From cutting");
     if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);
-    if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.cite) summary.citeChip = shownCite(attrs.cite);
     if (attrs.score_disputed === true || String(attrs.score_disputed ?? "") === "true") {
       summary.scoreDisputed = true;
     }
   }
   if (kind === "appearance") {
     summary.badge = attrs.grade ? String(attrs.grade) : "Panel";
-    if (attrs.cite_chip) summary.citeChip = String(attrs.cite_chip);
-    else if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.cite_chip) summary.citeChip = shownCite(attrs.cite_chip);
+    else if (attrs.cite) summary.citeChip = shownCite(attrs.cite);
     if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);
     if (attrs.year != null) summary.seasonChip = String(attrs.year);
     if (attrs.player) summary.groupKey = String(attrs.player);
     else summary.groupKey = `appearance-name:${title.toLowerCase()}`;
   }
   if (kind === "match") {
-    if (attrs.secondary_cite) summary.citeChip = String(attrs.secondary_cite);
-    else if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.secondary_cite) summary.citeChip = shownCite(attrs.secondary_cite);
+    else if (attrs.cite) summary.citeChip = shownCite(attrs.cite);
     if (attrs.season_chip) summary.seasonChip = String(attrs.season_chip);
   }
   return summary;
+}
+
+function shownCite(value: unknown): string | undefined {
+  const text = publicSourceCredit(String(value ?? "")).trim();
+  return text || undefined;
 }
 
 export async function listEntitiesByType(typePrefix: string): Promise<EntitySummary[]> {
@@ -791,7 +796,7 @@ export async function getEntity(id: string): Promise<{
   }
   const summary = summarizeEntity(canonicalId, A);
   if (!summary) return null;
-  if (attrs.secondary_cite) summary.citeChip = String(attrs.secondary_cite);
+  if (attrs.secondary_cite) summary.citeChip = shownCite(attrs.secondary_cite);
   if (attrs.season_chip) summary.seasonChip = String(attrs.season_chip);
   id = canonicalId;
   const relatedIds = new Set<string>();
