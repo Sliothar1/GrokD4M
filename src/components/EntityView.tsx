@@ -38,6 +38,7 @@ import {
 } from "@/lib/sources";
 import { FohenaghMarks } from "@/components/fohenagh/FohenaghArt";
 import { FohenaghFairytale } from "@/components/fohenagh/FohenaghFairytale";
+import { FohenaghParishStory } from "@/components/fohenagh/FohenaghParishStory";
 import { FohenaghPlayerIndex } from "@/components/fohenagh/FohenaghPlayerIndex";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 
@@ -170,6 +171,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       {isHistoricFohenagh ? <FohenaghFairytale /> : null}
 
       {isHistoricFohenagh ? <FohenaghNotableGamesShelf /> : null}
+
+      {isHistoricFohenagh ? <FohenaghParishStory /> : null}
 
       {isHistoricFohenagh && summary.kind === "club" ? (
         <FohenaghPlayerIndex

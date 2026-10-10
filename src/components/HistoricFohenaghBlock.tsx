@@ -207,10 +207,10 @@ const FOHENAGH_NOTABLE_GAMES: NotableGame[] = [
     result: "Runners-up",
     href: "/match/fohenagh-historic-1961-galway-shc-final",
     kidLine:
-      "Defending champions, beaten by two points. We do not name the pitch — papers disagree.",
-    score: "Turloughmore 3-6, Fohenagh 3-4",
+      "Defending champions. The book says the margin was one point. Galway GAA prints two points, 3-6 to 3-4. We do not name the pitch — papers disagree.",
+    score: "One point (book, p.151). Two points: Turloughmore 3-6, Fohenagh 3-4 (Galway GAA).",
     venue: null,
-    cites: ["Galway GAA finals table", "1961-09-16 · Connacht Tribune"],
+    cites: ["A History of Fohenagh · p.151", "Galway GAA finals table", "1961-09-16 · Connacht Tribune"],
   },
   {
     id: "1963",
