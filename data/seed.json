@@ -247067,7 +247067,7 @@
   {
     "row": "player:alan-madden",
     "col": "notable",
-    "val": "Alan Madden scored 0-3 as Fohenagh won the Connacht under-16 final, 2-12 to 0-6, against St Dominics at Ballyforan in 1989, according to the Connacht Tribune [1]. In the 1993 county junior final he scored 0-5, all from frees, as Athenry won by 1-8 to 0-9 [2]. The Connacht Tribune called him the free-taker among those who best served Fohenagh in the 1995 Junior A win over Ballygar, 0-11 to 0-9 [3]. He was named again among the best when Fohenagh recaptured the Sadie Kilcommons trophy, 1-12 to 0-9 [4]."
+    "val": "Alan Madden was on the Fohenagh side that won the Connacht under-16 final, 2-12 to 0-6, against St Dominics at Ballyforan in 1989, according to the Connacht Tribune [1]. He is named in the Fohenagh side that faced Athenry in the 1993 county junior final, which Athenry won by 1-8 to 0-9 [2]. The Connacht Tribune called him the free-taker among those who best served Fohenagh in the 1995 Junior A win over Ballygar, 0-11 to 0-9 [3]. He was named again among the best when Fohenagh recaptured the Sadie Kilcommons trophy, 1-12 to 0-9 [4]."
   },
   {
     "row": "player:alan-madden",
@@ -247417,7 +247417,7 @@
   {
     "row": "player:john-devine",
     "col": "notable",
-    "val": "John Devine was a Connacht under-16 hurling champion with Fohenagh in 1989, named on the side that beat St Dominics 2-12 to 0-6 at Ballyforan, the scorers' line giving J. Devine 0-1 [1]. The Connacht Tribune counted him among the forwards who best served Fohenagh as they scored the last four points to beat Ballygar 0-11 to 0-9 in the 1995 Junior A championship [2]. He was named again among Fohenagh's best when they recaptured the Sadie Kilcommons trophy, 1-12 to 0-9, against Ahascragh [3]. He lined out in the 1993 county junior final, which Athenry won by 1-8 to 0-9 [4]."
+    "val": "John Devine was a Connacht under-16 hurling champion with Fohenagh in 1989, named on the side that beat St Dominics 2-12 to 0-6 at Ballyforan, according to the Connacht Tribune [1]. The Connacht Tribune counted him among the forwards who best served Fohenagh as they scored the last four points to beat Ballygar 0-11 to 0-9 in the 1995 Junior A championship [2]. He was named again among Fohenagh's best when they recaptured the Sadie Kilcommons trophy, 1-12 to 0-9, against Ahascragh [3]. He lined out in the 1993 county junior final, which Athenry won by 1-8 to 0-9 [4]."
   },
   {
     "row": "player:john-devine",
@@ -248217,7 +248217,7 @@
   {
     "row": "player:tony-kirwan-fohenagh",
     "col": "notable",
-    "val": "Tony Kirwan scored 0-4 and was praised for a superb display, at wing forward and at full forward, as Galway beat Cork 1-9 to 1-7 in the 1993 All-Ireland under-21 semi-final at Semple Stadium, according to the Connacht Tribune [1]. He was named among Fohenagh's best when they recaptured the Sadie Kilcommons trophy, 1-12 to 0-9 [2]. He was among those who best served Fohenagh in the 1996 Junior A win over Ahascragh, 1-9 to 1-7 [3]. A History of Fohenagh records his All-Ireland under-21 medal from that year [4]."
+    "val": "Tony Kirwan was praised for a superb display, at wing forward and at full forward, as Galway beat Cork 1-9 to 1-7 in the 1993 All-Ireland under-21 semi-final at Semple Stadium, according to the Connacht Tribune [1]. He was named among Fohenagh's best when they recaptured the Sadie Kilcommons trophy, 1-12 to 0-9 [2]. He was among those who best served Fohenagh in the 1996 Junior A win over Ahascragh, 1-9 to 1-7 [3]. A History of Fohenagh records his All-Ireland under-21 medal from that year [4]."
   },
   {
     "row": "player:tony-kirwan-fohenagh",
@@ -250668,12 +250668,7 @@
   {
     "row": "player:mick-coen-fohenagh",
     "col": "notable",
-    "val": "Mick Coen is named in Fohenagh's 1959 senior champions, in the team caption printed by the Connacht Tribune [1]. The 1996 Junior A report printed Mike Coen among those who best served Fohenagh in the 1-9 to 1-7 win over Ahascragh [2]. A History of Fohenagh names M. Coen in the 1960 senior champions photograph [3]."
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "source_notable",
-    "val": "art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a"
+    "val": "Mick Coen is named in Fohenagh's 1959 senior champions, and again on the 1960 side, in the team captions printed by the Connacht Tribune [1]. See also Mike Coen."
   },
   {
     "row": "player:tony-kirwan-fohenagh",
@@ -256920,7 +256915,7 @@
     "col": "kid_chip",
     "val": "Named in a newspaper cutting"
   },
-{
+  {
     "row": "source:book-a-history-of-fohenagh",
     "col": "type",
     "val": "source"
@@ -257077,26 +257072,6 @@
   },
   {
     "row": "player:tommy-glynn-fohenagh",
-    "col": "book_upload_2",
-    "val": "art-book-fohenagh-p150-1960-senior-champions"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "book_note",
-    "val": "1960 senior champions"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "book_cite",
-    "val": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149, 150"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
-    "col": "book_upload",
-    "val": "art-book-fohenagh-p149-1959-senior-champions"
-  },
-  {
-    "row": "player:mick-coen-fohenagh",
     "col": "book_upload_2",
     "val": "art-book-fohenagh-p150-1960-senior-champions"
   },
@@ -259363,7 +259338,7 @@
   {
     "row": "player:eric-lally-fohenagh",
     "col": "note",
-    "val": "Eric Lally captained Fohenagh when they won the Connacht under-16 hurling title in 1989, and the scorers' line gives E. Lally 0-5 in the 2-12 to 0-6 win over St Dominics at Ballyforan, according to the Connacht Tribune [1]. He is pictured with the Fohenagh underage team of 1990 in A History of Fohenagh [2]."
+    "val": "Eric Lally captained Fohenagh when they won the Connacht under-16 hurling title in 1989, beating St Dominics 2-12 to 0-6 at Ballyforan, according to the Connacht Tribune [1]. He is pictured with the Fohenagh underage team of 1990 in A History of Fohenagh [2]."
   },
   {
     "row": "player:eric-lally-fohenagh",
@@ -263503,7 +263478,7 @@
   {
     "row": "player:eric-lally-fohenagh",
     "col": "notable",
-    "val": "Eric Lally captained Fohenagh when they won the Connacht under-16 hurling title in 1989, and the scorers' line gives E. Lally 0-5 in the 2-12 to 0-6 win over St Dominics at Ballyforan, according to the Connacht Tribune [1]. He is pictured with the Fohenagh underage team of 1990 in A History of Fohenagh [2]."
+    "val": "Eric Lally captained Fohenagh when they won the Connacht under-16 hurling title in 1989, beating St Dominics 2-12 to 0-6 at Ballyforan, according to the Connacht Tribune [1]. He is pictured with the Fohenagh underage team of 1990 in A History of Fohenagh [2]."
   },
   {
     "row": "player:eric-lally-fohenagh",
@@ -263591,13 +263566,103 @@
     "val": "article:art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured"
   },
   {
-    "row": "player:mick-coen-fohenagh",
+    "row": "player:mike-coen-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "name",
+    "val": "Mike Coen"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "status",
+    "val": "archivist_approved"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "confirmed_by_family",
+    "val": "note"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "note",
+    "val": "1996 county Junior A"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "notable",
+    "val": "Mike Coen was among those who best served Fohenagh when they beat Ahascragh 1-9 to 1-7 in the 1996 county Junior A championship, according to the Connacht Tribune [1]. The same paper names him in the Fohenagh side that lost the Junior title to Sarsfields later that year [2]. See also Mick Coen."
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
+    "col": "source_notable",
+    "val": "art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a"
+  },
+  {
+    "row": "player:mike-coen-fohenagh",
     "col": "cutting:art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a",
     "val": "article:art-ina-ct-1996-06-21-fohenagh-ahascragh-junior-a"
   },
   {
+    "row": "player:mike-coen-fohenagh",
+    "col": "cutting:art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a",
+    "val": "article:art-ina-ct-1996-12-06-fohenagh-sarsfields-junior-a"
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "name",
+    "val": "Mike Glynn"
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "status",
+    "val": "archivist_approved"
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "confirmed_by_family",
+    "val": "note"
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "note",
+    "val": "Hurled with Fohenagh. Remembered as a centre-back of Tony Kirwan's generation who left for America young."
+  },
+  {
+    "row": "player:mike-glynn-fohenagh",
+    "col": "source_note",
+    "val": "club:fohenagh-historic"
+  },
+  {
     "row": "player:mick-coen-fohenagh",
-    "col": "cutting:art-book-fohenagh-p150-1960-senior-champions",
-    "val": "article:art-book-fohenagh-p150-1960-senior-champions"
+    "col": "source_notable",
+    "val": "art-ina-ct-1999-09-10-fohenagh-1959-60-champs-honoured"
   }
 ]
