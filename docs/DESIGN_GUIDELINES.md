@@ -44,6 +44,7 @@ On a player page, write the way those three read: a person in a parish, told in 
 
 - Printed facts only. Oral notes decide which story to look up. They are not copied onto the page.
 - A profile covers playing years and facts only. Nothing about stopping, retiring, leaving, emigrating (why or where), injury, illness, death, or personal life.
+- A player's decades come only from his own dated mentions: his games, his cuttings, and the sentences about him. List him under every decade from the first of those years to the last. Do not take a year from a namesake, a relative, or the club. Patrick Sweeney is the 1990s and 2000s. The 1959 beside his father's name is not his.
 - Where a cited clipping exists, show it, with the reference. Where none exists, one dignified line about the player's time in the jersey. Top-newspaper standard: no elegy, no "Remembered" note.
 - The build lint fails if public profile text matches, case-insensitive and word-aware: emigrat, America, retired, injur, died, death, "the late ", RIP, accident, illness. The same lint also fails on funeral and "passed away". Word-aware means a late goal, "the late 1950s", and injury time are playing phrases and stay. "the late " still fails when it introduces a person.
 - A Remembered note that touches any of those subjects is removed. The cited playing fact beside it stays.

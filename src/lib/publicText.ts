@@ -305,6 +305,7 @@ export function publicSourceCredit(input: string): string {
 
 function normalizePublicWording(input: string): string {
   return publicSourceCredit(input)
+    .replace(/\bINA snip\s*[—–:-]\s*/gi, "")
     .replace(/\bRoH\b/g, "Roll of Honour")
     .replace(/\([^)]*wiki spelling[^)]*\)/gi, "")
     .replace(/\s*\([^)]*\bdistinct from\b[^)]*\)/gi, "")
@@ -663,10 +664,13 @@ export function composePlayerVignette(parts: string[]): string | null {
  * The stored caption says "team panel"; the page says what the cutting is.
  */
 export function publicCuttingLabel(text: string): string {
-  const trimmed = publicSourceCredit(text).trim();
+  const trimmed = publicSourceCredit(text).replace(/\bINA snip\s*[—–:-]\s*/gi, "").trim();
   const isThisCutting =
-    /team panel/i.test(trimmed) &&
-    (/fohenagh/i.test(trimmed) || /19 sep 1959/i.test(trimmed));
+    /team (?:panel|photo)/i.test(trimmed) &&
+    /fohenagh/i.test(trimmed) &&
+    (/19 sep 1959/i.test(trimmed) ||
+      /first galway (?:shc|senior)/i.test(trimmed) ||
+      /team panel/i.test(trimmed));
   if (!isThisCutting) return trimmed;
   if (/^connacht tribune\s*·/i.test(trimmed)) {
     return trimmed.replace(/\s*·\s*team panel\b/i, "").replace(/\s*·\s*$/, "").trim();
@@ -699,6 +703,14 @@ function withoutConfidence(sentence: string): string {
 export function firstPublicSentence(input: string): string {
   const clean = sanitizePublicText(input);
   return splitSentences(clean)[0] ?? "";
+}
+
+/** First printable sentence long enough to stand as a clipping quote. */
+export function publicQuote(input: string): string {
+  const sentences = splitSentences(sanitizePublicText(input))
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+  return sentences.find((sentence) => sentence.length >= 40) ?? sentences.find((sentence) => sentence.length >= 20) ?? "";
 }
 
 function exciseBeyondPlaying(sentence: string): { text: string; kind: "keep" | "rewrite" | "remove" } {

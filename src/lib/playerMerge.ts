@@ -31,7 +31,17 @@ export function mergePlayerAttrRecords(
   }
   const requestedClub = String(alias.club ?? "");
   if (requestedClub === "club:fohenagh-historic" && String(out.club ?? "") !== requestedClub) {
-    if (out.club && out.club_1 == null) out.club_1 = out.club;
+    const previous = String(out.club ?? "");
+    if (previous && previous !== requestedClub) {
+      const alreadyKept = Object.entries(out).some(
+        ([key, val]) => key !== "club" && String(val) === previous
+      );
+      if (!alreadyKept) {
+        let n = 1;
+        while (out[`club_${n}`] != null && String(out[`club_${n}`]) !== "") n += 1;
+        out[`club_${n}`] = previous;
+      }
+    }
     out.club = requestedClub;
   }
   delete out.same_as;

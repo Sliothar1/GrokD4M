@@ -5,12 +5,11 @@ import { PARISH_STORIES } from "@/lib/parishStories";
 
 const games = [
   { href: "/match/fohenagh-claregalway-1941-county-semi", label: "1942 Athenry" },
-  { href: "/match/fohenagh-cussane-north-board-junior-final-1942", label: "1942 North Board final" },
+  { href: "/match/fohenagh-cussane-north-board-junior-final-1942", label: "Cussane" },
   { href: "/match/fohenagh-cussane-1944-ina", label: "1943 final, played 1944" },
   { href: "/match/fohenagh-erins-hope-camogie-final-1947", label: "1947 camogie final" },
   { href: "/match/fohenagh-historic-1959-galway-shc-final-replay", label: "1959 senior replay" },
-  { href: "/match/fohenagh-tynagh-junior-abandoned-1956", label: "1956, five men went to hospital" },
-  { href: "/match/fohenagh-tynagh-1956-hurls", label: "1956 at Kiltormer" },
+  { href: "/match/fohenagh-tynagh-junior-abandoned-1956", label: "1956 Tynagh at Kiltormer" },
   { href: "/browse/games", label: "All games" },
 ];
 
@@ -27,7 +26,7 @@ export function SiteHeader() {
         </Link>
         <nav aria-label="Main" className="flex flex-wrap items-center gap-1">
           <Link href="/search" className="nav-link">Find a name</Link>
-          <Link href="/club/fohenagh-historic" className="nav-link">Fohenagh</Link>
+          <Link href="/clubs" className="nav-link">Find a club</Link>
           <details className="nav-menu">
             <summary>Games</summary>
             <ul>
@@ -42,7 +41,6 @@ export function SiteHeader() {
             <summary>Players</summary>
             <ul>
               <li><Link href="/browse/players">All players</Link></li>
-              <li><Link href="/club/fohenagh-historic">Fohenagh roll</Link></li>
               <li><Link href="/browse/decades">By decade</Link></li>
             </ul>
           </details>

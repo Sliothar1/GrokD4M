@@ -3,13 +3,17 @@
  * A reference must open a page. Nobody is named as assaulted or injured.
  */
 import assert from "node:assert/strict";
-import { readFileSync } from "fs";
+import { readFileSync, readdirSync, statSync } from "fs";
 import { join } from "path";
 import { getAssoc, getEntity } from "../src/lib/data";
-import { readArticleUploads } from "../src/lib/articles";
+import { articleToSummary, getArticleUpload, readArticleUploads } from "../src/lib/articles";
+import { listBrowsePlayers } from "../src/lib/browsePlayers";
+import { canonicalPlayerSlug } from "../src/lib/playerSlug";
 import { PARISH_STORIES } from "../src/lib/parishStories";
 import {
   createPlayerProfileContext,
+  decadesSpanned,
+  playingYearsFor,
   profileForPlayer,
   publicProfileText,
 } from "../src/lib/playerProfile";
@@ -54,6 +58,90 @@ function assertLifeRule(errors: string[]) {
 }
 
 const PROSE_FIELD = /^(?:note|notes|notable|book_note(?:_\d+)?)$/;
+
+function walkSources(dir: string, out: string[]) {
+  for (const name of readdirSync(dir)) {
+    if (name === "node_modules" || name.startsWith(".")) continue;
+    const path = join(dir, name);
+    if (statSync(path).isDirectory()) walkSources(path, out);
+    else if (/\.(tsx|ts)$/.test(name)) out.push(path);
+  }
+}
+
+async function internalHrefOk(
+  href: string,
+  A: Awaited<ReturnType<typeof getAssoc>>
+): Promise<boolean> {
+  const [kind, slug] = href.split("/").filter(Boolean);
+  if (!kind || !slug) return false;
+  if (kind === "browse") return ["players", "games", "decades", "stories"].includes(slug);
+  if (kind === "player") {
+    const mapped = canonicalPlayerSlug(slug);
+    const target = `player:${mapped ?? slug}`;
+    return Boolean(A.entityAttrs(target).type || A.entityAttrs(`player:${slug}`).type);
+  }
+  if (kind === "article") {
+    if (await getArticleUpload(slug)) return true;
+    if (Object.keys(A.entityAttrs(`article:${slug}`)).length > 0) return true;
+    if (slug.startsWith("art-") && Object.keys(A.entityAttrs(`article:${slug.slice(4)}`)).length > 0) {
+      return true;
+    }
+    return false;
+  }
+  if (!["match", "club", "team", "story", "win"].includes(kind)) return true;
+  return Object.keys(A.entityAttrs(`${kind}:${slug}`)).length > 0;
+}
+
+async function assertCrawlLints(A: Awaited<ReturnType<typeof getAssoc>>, errors: string[]) {
+  const entity = readFileSync("src/components/EntityView.tsx", "utf8");
+  const index = readFileSync("src/components/fohenagh/FohenaghPlayerIndex.tsx", "utf8");
+  const articlePage = readFileSync("src/app/article/[id]/page.tsx", "utf8");
+  if (/Players who wore the jersey/.test(index)) fail(errors, "club page still has the jersey heading");
+  if (/HistoricStoryChips|Do not invent scores/.test(entity)) {
+    fail(errors, "club page still shows the internal note");
+  }
+  if (/tag === "fohenagh-historic"/.test(entity)) fail(errors, "club page still opens article clips");
+  if (/#\{/.test(articlePage)) fail(errors, "public pages still print raw hash tags");
+
+  const uploads = await readArticleUploads();
+  for (const upload of uploads) {
+    const summary = articleToSummary(upload);
+    const text = `${summary.title}\n${summary.excerpt ?? ""}\n${summary.citeChip ?? ""}`;
+    if (/ina snip/i.test(text)) fail(errors, `${upload.id} public text still says INA snip`);
+    if (/#\s*(?:fohenagh|book|story)\b/i.test(text)) fail(errors, `${upload.id} public text has a raw tag`);
+  }
+
+  const listed = new Set((await listBrowsePlayers()).map((row) => row.href));
+  let orphans = 0;
+  for (const id of A.entitiesOfType("player")) {
+    if (A.entityAttrs(id).same_as) continue;
+    const href = `/player/${id.slice("player:".length)}`;
+    if (!listed.has(href)) {
+      orphans += 1;
+      if (orphans <= 8) fail(errors, `orphan player ${href}`);
+    }
+  }
+  if (orphans > 8) fail(errors, `${orphans} orphan players are not on the A–Z browse`);
+
+  const files: string[] = [];
+  walkSources("src", files);
+  const hrefs = new Set<string>();
+  for (const file of files) {
+    const text = readFileSync(file, "utf8");
+    for (const match of text.matchAll(
+      /["'`](\/(?:player|article|match|club|team|story|win|browse)\/[A-Za-z0-9][^"'`\s${]*)["'`]/g
+    )) {
+      hrefs.add(match[1].split("?")[0].split("#")[0]);
+    }
+  }
+  let broken = 0;
+  for (const href of hrefs) {
+    if (await internalHrefOk(href, A)) continue;
+    broken += 1;
+    if (broken <= 12) fail(errors, `broken internal link ${href}`);
+  }
+  if (broken > 12) fail(errors, `${broken} broken internal links`);
+}
 
 async function main() {
   const errors: string[] = [];
@@ -140,10 +228,29 @@ async function main() {
       beyondPlaying++;
       fail(errors, `${id} life beyond playing (${life})`);
     }
-    const years = `${text} ${JSON.stringify(A.entityAttrs(id))}`.match(/\b(?:18|19|20)\d{2}\b/);
+    const years = `${text} ${JSON.stringify(A.entityAttrs(id))}`.match(/\b(?:18|19|20)\d{2}s?\b/);
     if (years && profile.eraLine && !/\b(?:18|19|20)\d{2}s\b/.test(profile.eraLine)) {
       eraMissing++;
       fail(errors, `${id} era has no decade: ${profile.eraLine}`);
+    }
+    const allowed = new Set(decadesSpanned(playingYearsFor(ctx, id, A.entityAttrs(id))));
+    for (const match of (profile.eraLine ?? "").matchAll(/\b((?:18|19|20)\d{2})s\b/g)) {
+      const decade = `${match[1]}s`;
+      if (!allowed.has(decade)) {
+        eraMissing++;
+        fail(errors, `${id} decade ${decade} is outside his own dated mentions`);
+      }
+    }
+    if (profile.headline && profile.summary) {
+      const bare = profile.headline.replace(/\[\d+\]/g, "").replace(/[.!?]+$/g, "").trim().toLowerCase();
+      const first = (profile.summary.split(/(?<=[.!?])\s+/)[0] ?? "")
+        .replace(/\[\d+\]/g, "")
+        .replace(/[.!?]+$/g, "")
+        .trim()
+        .toLowerCase();
+      if (bare.length >= 12 && first === bare) {
+        fail(errors, `${id} lead repeats headline: ${profile.headline}`);
+      }
     }
     for (const ref of profile.references) {
       if (!ref.href || ref.href.startsWith("#") || !/^(\/|https?:)/.test(ref.href)) {
@@ -165,20 +272,37 @@ async function main() {
   );
   assert.match(packie.summary ?? "", /full-back/i);
 
-  assert.equal(A.entityAttrs("player:s-carrick-fohenagh").same_as, "player:sean-carrig-fohenagh");
-  const carrig = profileForPlayer(
+  assert.equal(A.entityAttrs("player:s-carrick-fohenagh").same_as, "player:sean-carrick-fohenagh");
+  assert.equal(A.entityAttrs("player:sean-carrig-fohenagh").same_as, "player:sean-carrick-fohenagh");
+  const carrick = profileForPlayer(
     ctx,
-    "player:sean-carrig-fohenagh",
-    A.entityAttrs("player:sean-carrig-fohenagh")
+    "player:sean-carrick-fohenagh",
+    A.entityAttrs("player:sean-carrick-fohenagh")
   );
-  const carrigText = publicProfileText(carrig);
-  assert.match(carrigText, /Killimordaly/);
-  assert.doesNotMatch(carrigText, /substitut|\bsub\b/i);
+  const carrickText = publicProfileText(carrick);
+  assert.match(carrickText, /Killimordaly/);
+  assert.doesNotMatch(carrickText, /substitut|\bsub\b/i);
+  const lally = profileForPlayer(
+    ctx,
+    "player:brendan-lally-fohenagh",
+    A.entityAttrs("player:brendan-lally-fohenagh")
+  );
+  assert.match(lally.eraLine ?? "", /1950s/);
+  const patrick = profileForPlayer(
+    ctx,
+    "player:patrick-sweeney-fohenagh",
+    A.entityAttrs("player:patrick-sweeney-fohenagh")
+  );
+  assert.match(patrick.eraLine ?? "", /1990s/);
+  assert.match(patrick.eraLine ?? "", /2000s/);
+  assert.doesNotMatch(patrick.eraLine ?? "", /1950s/);
 
   const barrett = profileForPlayer(ctx, "player:mike-barrett-fohenagh", A.entityAttrs("player:mike-barrett-fohenagh"));
   if (/assault|injured/i.test(barrett.summary ?? "")) {
     fail(errors, `mike barrett lead: ${barrett.summary}`);
   }
+
+  await assertCrawlLints(A, errors);
 
   const report = {
     players,

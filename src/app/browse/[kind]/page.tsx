@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { listBrowsePlayers } from "@/lib/browsePlayers";
 import { getAssoc } from "@/lib/data";
-import { earliestFohenaghYear, createPlayerProfileContext } from "@/lib/playerProfile";
-import { collectClubIdsFromAttrs } from "@/lib/playerClubs";
 import { PARISH_STORIES } from "@/lib/parishStories";
 
 export const dynamic = "force-dynamic";
@@ -124,29 +123,7 @@ async function GameList({ decade }: { decade: string }) {
 }
 
 async function PlayerList({ decade }: { decade: string }) {
-  const A = await getAssoc();
-  const ctx = await createPlayerProfileContext();
-  const rows = A.entitiesOfType("player")
-    .map((id) => {
-      const attrs = A.entityAttrs(id);
-      if (attrs.same_as) return null;
-      const clubs = collectClubIdsFromAttrs(attrs);
-      const apps = ctx.appearancesByPlayer.get(id) ?? [];
-      const fohenagh =
-        clubs.includes("club:fohenagh-historic") ||
-        apps.some((app) => String(app.clubId ?? "") === "club:fohenagh-historic") ||
-        /fohenagh/i.test(String(attrs.club ?? ""));
-      if (!fohenagh) return null;
-      const year = earliestFohenaghYear(attrs, apps);
-      return {
-        href: `/player/${id.slice("player:".length)}`,
-        title: String(attrs.name ?? id),
-        decade: year ? decadeOf(year) : "Undated",
-      };
-    })
-    .filter((row): row is { href: string; title: string; decade: string } => Boolean(row))
-    .filter((row) => !decade || row.decade === decade)
-    .sort((a, b) => a.title.localeCompare(b.title));
+  const rows = (await listBrowsePlayers()).filter((row) => !decade || row.decades.includes(decade));
 
   return (
     <div className="space-y-3">

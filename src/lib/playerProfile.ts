@@ -14,6 +14,7 @@ import {
   composePlayerVignette,
   firstBannedPublicHit,
   firstPublicSentence,
+  publicQuote,
   sanitizePublicText,
   shapePublicLead,
   shortenPublicText,
@@ -72,6 +73,8 @@ export type PublicSnippet = {
   credit: string;
   creditUrl?: string;
   quote?: string;
+  sourceHref?: string;
+  sourceTitle?: string;
 };
 
 export type PublicReference = {
@@ -235,11 +238,107 @@ const INTERNAL_NOTE = /\bHOLD\b|\bdistinct from\b|\bno merge\b|\bskip orphan\b/i
 
 function allYears(text: string): number[] {
   const years: number[] = [];
-  for (const match of text.matchAll(/\b(?:18|19|20)\d{2}\b/g)) {
-    const year = Number(match[0]);
+  for (const match of text.matchAll(/\b((?:18|19|20)\d{2})s?\b/g)) {
+    const year = Number(match[1]);
     if (year >= 1880 && year <= 2035) years.push(year);
   }
   return years;
+}
+
+/** A relative's year is not this player's year. "son of the 1959 county champion" drops out. */
+const RELATIVE_CLAUSE =
+  /\b(?:son|daughter|father|mother|brother|sister|grandson|granddaughter|nephew|niece|uncle|aunt|cousin|namesake|wife|husband)\s+of\b[^.]*/gi;
+
+function yearsInOwnProse(text: string): number[] {
+  const cleaned = text
+    .replace(RELATIVE_CLAUSE, " ")
+    .replace(/\((?:[^()]*\b(?:Tribune|Herald|Independent|Examiner|Times|Press|Sentinel)\b[^()]*)\)/gi, " ")
+    .replace(
+      /\b((?:18|19|20)\d{2})\s*[–—-]\s*((?:18|19|20)\d{2})\b/g,
+      (full, start: string, end: string) => (Number(end) - Number(start) >= 10 ? "" : full)
+    );
+  const years = allYears(cleaned);
+  for (const match of cleaned.matchAll(/\b(?:CTT|TTH|CSL|GLC|INA)((?:19|20)\d{2})\d{4}\b/gi)) {
+    years.push(Number(match[1]));
+  }
+  return years.filter((year) => year >= 1880 && year <= 2035);
+}
+
+/**
+ * Years from this player's own games and dated mentions.
+ * A namesake, a relative, or the club's era does not count.
+ */
+export function ownMentionYears(
+  attrs: Record<string, TripleVal>,
+  apps: Array<{ year?: string; competition?: string }>
+): number[] {
+  const years: number[] = [];
+  for (const app of apps) {
+    const year = yearOf(app.year) ?? yearOf(app.competition);
+    if (year) years.push(year);
+  }
+  for (const [key, val] of Object.entries(attrs)) {
+    if (
+      key === "name" ||
+      key === "father" ||
+      key.startsWith("father_") ||
+      key === "same_as" ||
+      key === "alias"
+    ) {
+      continue;
+    }
+    if (key.startsWith("cutting:")) {
+      const dated = key.match(/((?:18|19|20)\d{2})-\d{2}-\d{2}/);
+      if (dated) years.push(Number(dated[1]));
+      continue;
+    }
+    if (!isDisplayableVal(val)) continue;
+    const text = String(val);
+    if (/^source_/.test(key)) {
+      if (/^art-/.test(text) || text.startsWith("article:")) years.push(...allYears(text));
+      for (const match of text.matchAll(/\b(?:CTT|TTH|CSL|GLC|INA)((?:19|20)\d{2})\d{4}\b/gi)) {
+        years.push(Number(match[1]));
+      }
+      continue;
+    }
+    const ownField = /^(?:note|notes|notable|cutting_cite|secondary_cite|book_cite|debut|era|book_note(?:_\d+)?)$/.test(
+      key
+    );
+    if (!ownField) continue;
+    years.push(...yearsInOwnProse(text));
+  }
+  return [...new Set(years)];
+}
+
+/** Merged record, then this player's own years. Alias cuttings count. A relative's year does not. */
+export function playingYearsFor(
+  ctx: ProfileContext,
+  id: string,
+  passed: Record<string, TripleVal>
+): number[] {
+  const slug = id.startsWith("player:") ? id.slice("player:".length) : id;
+  let attrs = { ...passed };
+  const inbound = ctx.aliasesByCanonical.get(id) ?? [];
+  const aliasIds = [...new Set([...aliasPlayerIds(slug), ...inbound])];
+  for (const aliasId of aliasIds) {
+    if (aliasId === id) continue;
+    attrs = mergePlayerAttrRecords(attrs, ctx.A.entityAttrs(aliasId));
+  }
+  const apps = [
+    ...(ctx.appearancesByPlayer.get(id) ?? []),
+    ...aliasIds.flatMap((aliasId) => ctx.appearancesByPlayer.get(aliasId) ?? []),
+  ];
+  return ownMentionYears(attrs, apps);
+}
+
+/** Every decade from the first dated mention through the last, inclusive. */
+export function decadesSpanned(years: number[]): string[] {
+  if (years.length === 0) return [];
+  const start = Math.floor(Math.min(...years) / 10) * 10;
+  const end = Math.floor(Math.max(...years) / 10) * 10;
+  const decades: string[] = [];
+  for (let year = start; year <= end; year += 10) decades.push(`${year}s`);
+  return decades;
 }
 
 function decadeOf(year: number): string {
@@ -270,10 +369,12 @@ export function earliestFohenaghYear(
   for (const chunk of blobs.join("\n").split(/(?<=[.!?\n])\s+/)) {
     if (INTERNAL_NOTE.test(chunk)) continue;
     if (!/\bfohenagh\b/i.test(chunk.replace(AMALGAM_NAME, ""))) continue;
-    const withoutLifespan = chunk.replace(
-      /\(\s*((?:18|19|20)\d{2})\s*[–—-]\s*((?:18|19|20)\d{2})\s*\)/g,
-      (full, start: string, end: string) => (Number(end) - Number(start) >= 15 ? "" : full)
-    );
+    const withoutLifespan = chunk
+      .replace(RELATIVE_CLAUSE, " ")
+      .replace(
+        /\(\s*((?:18|19|20)\d{2})\s*[–—-]\s*((?:18|19|20)\d{2})\s*\)/g,
+        (full, start: string, end: string) => (Number(end) - Number(start) >= 15 ? "" : full)
+      );
     years.push(...allYears(withoutLifespan));
   }
   if (years.length === 0) return null;
@@ -345,7 +446,14 @@ function topHonour(attrs: Record<string, TripleVal>): string | null {
   if (/all-star/i.test(notable)) return "All-Star";
   if (/county title|champion/i.test(notable)) {
     const line = shortenPublicText(notable, 1).replace(/[.!?]$/, "");
-    if (line && line.length <= 140 && !/\bsub\b|substitut|panel/i.test(line)) return line;
+    if (
+      line &&
+      line.length <= 140 &&
+      !/\bsub\b|substitut|panel/i.test(line) &&
+      !/^see also\b/i.test(line)
+    ) {
+      return line;
+    }
   }
   return null;
 }
@@ -492,8 +600,52 @@ function noteIsCited(attrs: Record<string, TripleVal>): boolean {
   );
 }
 
+const MONTH_LONG: Record<string, string> = {
+  jan: "January",
+  feb: "February",
+  mar: "March",
+  apr: "April",
+  may: "May",
+  jun: "June",
+  jul: "July",
+  aug: "August",
+  sep: "September",
+  sept: "September",
+  oct: "October",
+  nov: "November",
+  dec: "December",
+};
+
+function expandMonth(date: string): string {
+  return date.replace(
+    /\b(jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*/i,
+    (_full, stem: string) => MONTH_LONG[stem.toLowerCase()] ?? _full
+  );
+}
+
+/** Turn a bare cite chip into one sentence. A sentence that is already prose is left alone. */
+function sentenceFromCiteChip(name: string, chip: string): string | null {
+  const clean = chip.replace(/\s*·\s*INA\s*$/i, "").replace(/[.\s]+$/, "").trim();
+  if (!clean.includes("·")) return null;
+  if (/\b(?:is|was|were|played|won|kept|scored|named|pictured|stood|captained|lists)\b/i.test(clean)) {
+    return null;
+  }
+  const match = clean.match(
+    /^([^·]+?)\s*·\s*(\d{1,2}\s+[A-Za-z]+\s+(?:18|19|20)\d{2})(?:\s*·\s*p\.?\s*([\d–-]+))?/i
+  );
+  if (!match) return null;
+  const paper = match[1].trim();
+  const date = expandMonth(match[2].trim());
+  const page = match[3] ? `, page ${match[3]}` : "";
+  return `${name} is named in the ${paper} of ${date}${page}.`;
+}
+
 /** One cited sentence when the archive row never made it into the longer prose. */
-function citedFallbackLead(attrs: Record<string, TripleVal>, games: PublicGame[]): string | null {
+function citedFallbackLead(
+  attrs: Record<string, TripleVal>,
+  games: PublicGame[],
+  name: string
+): string | null {
   if (noteIsCited(attrs) && isDisplayableVal(attrs.note)) {
     const note = shortenPublicText(String(attrs.note), 1);
     if (note) return note;
@@ -507,9 +659,41 @@ function citedFallbackLead(attrs: Record<string, TripleVal>, games: PublicGame[]
   }
   if (isDisplayableVal(attrs.cutting_cite)) {
     const cite = shortenPublicText(String(attrs.cutting_cite), 1);
-    if (cite) return cite;
+    if (cite) return sentenceFromCiteChip(name, cite) ?? cite;
   }
   return null;
+}
+
+function withoutRepeatedHeadline(summary: string | null, headline: string | null): string | null {
+  if (!summary || !headline) return summary;
+  const bare = headline.replace(/\[\d+\]/g, "").replace(/[.!?]+$/g, "").trim().toLowerCase();
+  if (bare.length < 12) return summary;
+  const sentences = splitCiteSentences(summary);
+  if (sentences.length === 0) return summary;
+  const first = sentences[0].replace(/\[\d+\]/g, "").replace(/[.!?]+$/g, "").trim().toLowerCase();
+  if (first !== bare) return summary;
+  const rest = sentences.slice(1).join(" ").trim();
+  return rest || null;
+}
+
+function stampSnippetQuotes(
+  snippets: PublicSnippet[],
+  references: PublicReference[]
+): { snippets: PublicSnippet[]; references: PublicReference[] } {
+  const refs = [...references];
+  const next = snippets.map((snippet) => {
+    if (!snippet.quote || /\[\d+\]/.test(snippet.quote) || !snippet.sourceHref) return snippet;
+    let index = refs.findIndex((ref) => ref.href === snippet.sourceHref);
+    if (index < 0) {
+      const title = snippet.sourceTitle || snippet.credit || "The cutting";
+      if (!title || firstBannedPublicHit(title)) return snippet;
+      refs.push({ title, href: snippet.sourceHref });
+      index = refs.length - 1;
+    }
+    const quote = snippet.quote.replace(/[.!?]+$/g, "");
+    return { ...snippet, quote: `${quote}[${index + 1}].` };
+  });
+  return { snippets: next, references: refs };
 }
 
 function editorSummary(
@@ -591,18 +775,6 @@ function clickableHref(href: string): boolean {
   return href.startsWith("/") || /^https?:\/\//i.test(href);
 }
 
-function mineYears(attrs: Record<string, TripleVal>): number[] {
-  const blob = Object.entries(attrs)
-    .filter(([key]) => /note|cite|book|source|cutting|era|debut|name/i.test(key))
-    .map(([, val]) => String(val ?? ""))
-    .join("\n");
-  const years = allYears(blob);
-  for (const match of blob.matchAll(/\b(?:CTT|TTH|CSL|GLC|INA)((?:19|20)\d{2})\d{4}\b/gi)) {
-    years.push(Number(match[1]));
-  }
-  return years.filter((year) => year >= 1880 && year <= 2035);
-}
-
 export function profileForPlayer(
   ctx: ProfileContext,
   id: string,
@@ -642,25 +814,9 @@ export function profileForPlayer(
 
   const gradesRaw = explicitGrades(attrs);
   const eraRaw = isDisplayableVal(attrs.era) ? sanitizePublicText(String(attrs.era)) : "";
-  const years: number[] = [];
-  const debut = yearOf(attrs.debut);
-  if (debut) years.push(debut);
-  for (const app of apps) {
-    const year = yearOf(app.year) ?? yearOf(app.competition);
-    if (year) years.push(year);
-  }
-  if (years.length === 0) {
-    const cited = yearOf(attrs.cutting_cite);
-    if (cited) years.push(cited);
-  }
-  const earliestOwn = earliestFohenaghYear(passed, ctx.appearancesByPlayer.get(id) ?? []);
-  const earliest = earliestOwn ?? earliestFohenaghYear(attrs, apps);
-  let eraBit = earliest ? decadeOf(earliest) : decadeSpan(years) || null;
-  if (!eraBit || !/\b(?:18|19|20)\d{2}s\b/.test(eraBit)) {
-    const mined = mineYears(attrs);
-    if (mined.length > 0) eraBit = decadeOf(Math.min(...mined));
-    else if (eraRaw && /\b(?:18|19|20)\d{2}s\b/.test(eraRaw)) eraBit = eraRaw;
-  }
+  const ownYears = playingYearsFor(ctx, id, passed);
+  let eraBit = decadeSpan(ownYears);
+  if (!eraBit && eraRaw && /\b(?:18|19|20)\d{2}s\b/.test(eraRaw)) eraBit = eraRaw;
   const eraParts = [
     sportLabel(sportOf(attrs, apps)),
     gradeLabel(gradesRaw),
@@ -773,7 +929,7 @@ export function profileForPlayer(
   ) {
     summary = null;
   }
-  if (!summary) summary = citedFallbackLead(attrs, games);
+  if (!summary) summary = citedFallbackLead(attrs, games, name);
   if (summary && splitCiteSentences(summary).length < 2) {
     const extra: string[] = [summary];
     const already = summary.toLowerCase();
@@ -903,12 +1059,14 @@ export function profileForPlayer(
     if (firstBannedPublicHit(creditText)) continue;
     const alt = sanitizePublicText(art.caption ?? "") || "Clipping";
     if (firstBannedPublicHit(alt)) continue;
-    const quote = firstPublicSentence(art.excerpt ?? "");
+    const quote = publicQuote(art.excerpt ?? "") || firstPublicSentence(art.excerpt ?? "");
     snippets.push({
       src: art.image!,
       alt,
       credit: creditText,
       creditUrl: art.creditUrl,
+      sourceHref: `/article/${art.id}`,
+      sourceTitle: sanitizePublicText(art.cite ?? art.caption ?? "") || creditText,
       ...(quote ? { quote } : {}),
     });
   }
@@ -920,11 +1078,18 @@ export function profileForPlayer(
       if (snippets.some((item) => item.quote && art.excerpt && item.quote.length > 0 && art.excerpt.includes(item.quote.slice(0, 40)))) {
         continue;
       }
-      const quote = firstPublicSentence(art.excerpt);
-      if (!quote || quote.length < 40) continue;
+      const quote = publicQuote(art.excerpt);
+      if (!quote) continue;
       const creditText = sanitizePublicText(art.cite ?? art.credit ?? "") || "The cutting";
       if (firstBannedPublicHit(creditText)) continue;
-      snippets.push({ alt: creditText, credit: creditText, creditUrl: art.creditUrl, quote });
+      snippets.push({
+        alt: creditText,
+        credit: creditText,
+        creditUrl: art.creditUrl,
+        quote,
+        sourceHref: `/article/${articleId}`,
+        sourceTitle: creditText,
+      });
     }
   }
 
@@ -972,18 +1137,16 @@ export function profileForPlayer(
   let leadSummary = citedSummary;
   if (id === "player:brendan-noone-fohenagh") {
     leadHeadline = "Named with the Fohenagh Minor C champions, 1996";
-    leadEra = "Hurling, 1990s";
-    const opener = "Named with the Fohenagh Minor C champions, 1996.";
     const photo = "A History of Fohenagh places him in the 1990 underage team photograph.";
     const rest = (citedSummary ?? "")
       .replace(/Named with the Fohenagh Minor C champions, 1996\.?\s*/gi, "")
       .replace(/Brendan Noone is named with the Fohenagh Minor C champions of 1996\.?\s*/gi, "")
       .replace(/\bsubstitut\w*/gi, "")
       .trim();
-    const bits = [opener];
+    const bits: string[] = [];
     if (!/1990 underage team photograph/i.test(rest)) bits.push(photo);
     if (rest) bits.push(rest);
-    leadSummary = bits.join(" ");
+    leadSummary = bits.join(" ").trim() || null;
   }
   if (
     leadHeadline &&
@@ -996,6 +1159,10 @@ export function profileForPlayer(
     );
     if (marked && /\[\d+\]/.test(marked)) leadHeadline = marked.replace(/[.!?]+$/g, "");
   }
+  leadSummary = withoutRepeatedHeadline(leadSummary, leadHeadline);
+  const stamped = stampSnippetQuotes(snippets, citedRefs);
+  const stampedSnippets = stamped.snippets;
+  citedRefs = stamped.references;
 
   return {
     slug,
@@ -1015,7 +1182,7 @@ export function profileForPlayer(
     games,
     teammates,
     alsoPlayed,
-    snippets,
+    snippets: stampedSnippets,
     references: citedRefs,
     correctionHref: showCorrection ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}` : null,
     correctionLabel: CORRECTION_LABEL,

@@ -236,7 +236,7 @@ const FOHENAGH_NOTABLE_GAMES: NotableGame[] = [
   {
     id: "1942-north",
     year: "1942",
-    title: "North Board Junior Final",
+    title: "Cussane",
     result: "Winners",
     href: "/match/fohenagh-cussane-north-board-junior-final-1942",
     kidLine: "",

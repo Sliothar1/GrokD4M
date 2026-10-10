@@ -5,7 +5,8 @@
 import { getAssoc } from "../src/lib/data";
 import {
   createPlayerProfileContext,
-  earliestFohenaghYear,
+  decadesSpanned,
+  playingYearsFor,
   profileForPlayer,
   type ProfileContext,
 } from "../src/lib/playerProfile";
@@ -44,11 +45,6 @@ function legacyEra(
   return labels.length === 1 ? labels[0] : `${labels[0]}–${labels[labels.length - 1]}`;
 }
 
-function renderedDecade(eraLine: string | null): string | null {
-  const match = eraLine?.match(/\b(?:18|19|20)\d{2}s\b/);
-  return match ? match[0] : null;
-}
-
 export async function auditPlayerProfiles(ctx?: ProfileContext) {
   const A = await getAssoc();
   const profileCtx = ctx ?? (await createPlayerProfileContext());
@@ -66,9 +62,14 @@ export async function auditPlayerProfiles(ctx?: ProfileContext) {
     const attrs = A.entityAttrs(id);
     const apps = profileCtx.appearancesByPlayer.get(id) ?? [];
     const profile = profileForPlayer(profileCtx, id, attrs);
-    const earliestYear = earliestFohenaghYear(attrs, apps);
-    const expected = earliestYear ? decadeOf(earliestYear) : null;
-    const shown = renderedDecade(profile.eraLine);
+    const ownDecades = decadesSpanned(playingYearsFor(profileCtx, id, attrs));
+    const expected = ownDecades[0] ?? null;
+    const shownDecades = [...(profile.eraLine ?? "").matchAll(/\b((?:18|19|20)\d{2})s\b/g)].map(
+      (match) => `${match[1]}s`
+    );
+    const shown = shownDecades[0] ?? null;
+    const shownEnd = shownDecades[shownDecades.length - 1] ?? null;
+    const expectedEnd = ownDecades[ownDecades.length - 1] ?? null;
     const legacy = legacyEra(attrs, apps);
     const legacyDecade = legacy?.match(/\b(?:18|19|20)\d{2}s\b/)?.[0] ?? null;
     const header = `${profile.headline ?? ""}\n${profile.eraLine ?? ""}`;
@@ -81,7 +82,7 @@ export async function auditPlayerProfiles(ctx?: ProfileContext) {
         /club:ahascragh-fohenagh/i.test(legacyJersey);
 
     if (expected && legacyDecade && legacyDecade !== expected) eraFound++;
-    if (expected && shown !== expected) eraRemaining++;
+    if (expected && (shown !== expected || shownEnd !== expectedEnd)) eraRemaining++;
     else if (expected && legacyDecade && legacyDecade !== expected) eraFixed++;
 
     const headerHasAmalgam = /Ahascragh[-\s/]Fohenagh/i.test(header);

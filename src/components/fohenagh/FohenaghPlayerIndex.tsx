@@ -45,9 +45,6 @@ export function FohenaghPlayerIndex({ rows }: { rows: IndexRow[] }) {
         <h2 id="fohenagh-players" className="text-3xl font-black tracking-tight text-galway-ink">
           The players
         </h2>
-        <p className="text-lg leading-relaxed text-galway-ink/80">
-          Players who wore the jersey.
-        </p>
       </div>
 
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end">

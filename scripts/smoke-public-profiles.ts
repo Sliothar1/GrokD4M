@@ -81,7 +81,8 @@ async function main() {
     const summary = profile.summary?.trim() ?? "";
     if (!summary || /not been added yet/i.test(summary)) placeholders++;
     assert.ok(summary.length > 0, `${id} empty body`);
-    const marks = [...summary.matchAll(/\[(\d+)\]/g)].map((match) => Number(match[1]));
+    const marked = [summary, ...profile.snippets.map((snippet) => snippet.quote ?? "")].join("\n");
+    const marks = [...marked.matchAll(/\[(\d+)\]/g)].map((match) => Number(match[1]));
     if (marks.length > 0) {
       assert.equal(profile.references.length, Math.max(...marks), `${id} cite count`);
       for (const n of marks) assert.ok(profile.references[n - 1]?.title, `${id} cite ${n}`);
@@ -209,7 +210,7 @@ async function main() {
   );
   const brendanText = publicProfileText(brendan);
   assert.equal(brendan.headline, "Named with the Fohenagh Minor C champions, 1996");
-  assert.match(brendan.summary ?? "", /^Named with the Fohenagh Minor C champions, 1996/);
+  assert.doesNotMatch(brendan.summary ?? "", /^Named with the Fohenagh Minor C champions, 1996/);
   assert.match(brendan.summary ?? "", /1990 underage team photograph/);
   assert.match(brendan.summary ?? "", /Mountbellew Vocational School All Stars/);
   assert.match(brendan.summary ?? "", /8 December 1995/);
@@ -362,7 +363,7 @@ async function main() {
   }
 
   const ids = A.entitiesOfType("player");
-  assert.equal(uniquePlayerRedirect("alan-moclair", ids), "alan-moclair-fohenagh");
+  assert.equal(uniquePlayerRedirect("alan-moclair", ids), "alan-moclair-ahascragh-fohenagh");
   assert.equal(uniquePlayerRedirect("tim-sweeney", ids), "tim-sweeney-fohenagh");
   assert.equal(uniquePlayerRedirect("jimmy-devine", ids), "jimmy-devine-fohenagh");
   assert.equal(uniquePlayerRedirect("brendan-noone", ids), "brendan-noone-fohenagh");

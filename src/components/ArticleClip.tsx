@@ -3,6 +3,7 @@ import {
   getMatchArticleClips,
   type MatchArticleClip,
 } from "@/lib/articles";
+import { publicCuttingLabel, sanitizePublicText } from "@/lib/publicText";
 
 /** Newspaper / article snapshot on historic match pages. */
 export async function ArticleClipSection({
@@ -43,24 +44,26 @@ export async function ArticleClipSection({
 }
 
 function ArticleClipCard({ clip }: { clip: MatchArticleClip }) {
+  const caption = sanitizePublicText(publicCuttingLabel(clip.caption || ""));
+  const cite = sanitizePublicText(publicCuttingLabel(clip.cite || ""));
   const inner = (
     <>
       <div className="overflow-hidden rounded-xl bg-galway-cream">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={clip.imageUrl}
-          alt={clip.caption || "Article cutting"}
+          alt={caption || "Article cutting"}
           className="mx-auto max-h-56 w-full object-contain"
         />
       </div>
-      {clip.caption && (
+      {caption ? (
         <p className="mt-2 text-base font-semibold text-galway-ink">
-          {clip.caption}
+          {caption}
         </p>
-      )}
-      {clip.cite && (
-        <p className="mt-1 text-sm text-galway-ink/60">{clip.cite}</p>
-      )}
+      ) : null}
+      {cite ? (
+        <p className="mt-1 text-sm text-galway-ink/60">{cite}</p>
+      ) : null}
     </>
   );
 

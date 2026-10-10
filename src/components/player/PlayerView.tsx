@@ -130,7 +130,11 @@ export function PlayerProfileView({
               ) : null}
               {snippet.quote ? (
                 <blockquote className="border-l-4 border-galway-maroon pl-3 text-base leading-relaxed text-galway-ink">
-                  “{snippet.quote.replace(/[.!?]+$/, "")}.”
+                  <CitedText
+                    text={snippet.quote.startsWith("“") ? snippet.quote : `“${snippet.quote}”`}
+                    references={profile.references}
+                    className="text-base leading-relaxed text-galway-ink"
+                  />
                 </blockquote>
               ) : null}
               <figcaption className="text-sm text-[color:var(--text-muted)]">{snippet.credit}</figcaption>

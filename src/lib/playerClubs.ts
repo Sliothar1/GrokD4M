@@ -305,12 +305,61 @@ export async function listClubRoster(
     });
   }
 
-  rows.sort((a, b) => {
+  const unique = collapseDuplicateNames(rows);
+
+  unique.sort((a, b) => {
     const va = a.trust === "Verified" ? 0 : 1;
     const vb = b.trust === "Verified" ? 0 : 1;
     if (va !== vb) return va - vb;
     return a.summary.title.localeCompare(b.summary.title);
   });
 
-  return rows;
+  return unique;
+}
+
+function nameKey(title: string): string {
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+function slugVariants(left: string, right: string): boolean {
+  const a = left.replace(/^player:/, "");
+  const b = right.replace(/^player:/, "");
+  return a.startsWith(`${b}-`) || b.startsWith(`${a}-`);
+}
+
+/** Same printed name on two slug variants (cathal-lohan and cathal-lohan-fohenagh) is one player. */
+function collapseDuplicateNames(rows: ClubRosterRow[]): ClubRosterRow[] {
+  const groups = new Map<string, ClubRosterRow[]>();
+  for (const row of rows) {
+    const key = nameKey(row.summary.title);
+    const list = groups.get(key) ?? [];
+    list.push(row);
+    groups.set(key, list);
+  }
+  const kept: ClubRosterRow[] = [];
+  for (const group of groups.values()) {
+    if (group.length < 2) {
+      kept.push(...group);
+      continue;
+    }
+    const dropped = new Set<string>();
+    for (const row of group) {
+      if (dropped.has(row.summary.id)) continue;
+      const twins = group.filter(
+        (other) => other.summary.id !== row.summary.id && slugVariants(row.summary.id, other.summary.id)
+      );
+      if (twins.length === 0) continue;
+      const family = [row, ...twins];
+      family.sort(
+        (a, b) =>
+          b.years.length - a.years.length ||
+          (b.summary.href?.length ?? 0) - (a.summary.href?.length ?? 0)
+      );
+      for (const twin of family.slice(1)) dropped.add(twin.summary.id);
+    }
+    for (const row of group) {
+      if (!dropped.has(row.summary.id)) kept.push(row);
+    }
+  }
+  return kept;
 }

@@ -3,10 +3,10 @@
  * The other ids stay in the seed. Their pages redirect here.
  */
 export const CANONICAL_PLAYER_SLUG: Record<string, string> = {
-  "alan-moclair": "alan-moclair-fohenagh",
-  "alan-mockler": "alan-moclair-fohenagh",
-  "alan-moclair-ahascragh-fohenagh": "alan-moclair-fohenagh",
-  "alan-mochlair-fohenagh": "alan-moclair-fohenagh",
+  "alan-moclair": "alan-moclair-ahascragh-fohenagh",
+  "alan-mockler": "alan-moclair-ahascragh-fohenagh",
+  "alan-moclair-fohenagh": "alan-moclair-ahascragh-fohenagh",
+  "alan-mochlair-fohenagh": "alan-moclair-ahascragh-fohenagh",
   "martin-glynn-fohenagh": "marty-glynn-fohenagh",
   "fr-nicholas-murray": "nicholas-murray",
   "cathal-lohan": "cathal-lohan-fohenagh",

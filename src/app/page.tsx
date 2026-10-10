@@ -63,8 +63,8 @@ export default async function HomePage() {
               </Link>
             </li>
             <li>
-              <Link href="/club/fohenagh-historic" className="block rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3 font-semibold text-galway-ink hover:border-galway-maroon">
-                Open Fohenagh
+              <Link href="/clubs" className="block rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3 font-semibold text-galway-ink hover:border-galway-maroon">
+                Find a club
               </Link>
             </li>
             <li>
@@ -100,16 +100,17 @@ export default async function HomePage() {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-2xl font-bold text-galway-maroon">Featured</h2>
+        <p className="text-sm font-bold uppercase tracking-[0.14em] text-galway-maroon">
+          Featured club
+        </p>
+        <h2 className="text-2xl font-bold text-galway-maroon">Fohenagh</h2>
+        <p className="max-w-2xl text-base leading-relaxed text-galway-ink/80">
+          HurlingWiki is built for many clubs. The club page is the same for each one.
+          Fohenagh is the club on the site today, with a few of its players underneath.
+        </p>
         <div className="grid gap-3 sm:grid-cols-2">
           {featuredClub && <EntityCard entity={featuredClub.summary} />}
         </div>
-      </section>
-
-      <section className="space-y-4">
-        <h2 className="text-2xl font-bold text-galway-maroon">
-          Player spotlights
-        </h2>
         <div className="grid gap-3 sm:grid-cols-2">
           {spotlights.map((player) =>
             player ? (

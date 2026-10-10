@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { ArticleCredit } from "@/components/ArticleCredit";
-import { EntityView } from "@/components/EntityView";
 import { ZoomableImage } from "@/components/ZoomableImage";
 import {
   articleKindLabel,
@@ -38,8 +37,15 @@ export async function generateMetadata({
         "Cutting",
     };
   }
-  const seeded = await getEntity(`article:${id}`);
+  const seeded = await seededArticle(id);
   return { title: seeded?.summary.title ?? "Cutting" };
+}
+
+async function seededArticle(id: string) {
+  const direct = await getEntity(`article:${id}`);
+  if (direct) return direct;
+  if (id.startsWith("art-")) return getEntity(`article:${id.slice(4)}`);
+  return null;
 }
 
 export default async function ArticlePage({
@@ -52,9 +58,19 @@ export default async function ArticlePage({
   const aliasOf = articleSameAsId(a);
   if (aliasOf && (await getArticleUpload(aliasOf))) redirect(`/article/${aliasOf}`);
   if (!a) {
-    const seeded = await getEntity(`article:${id}`);
+    const seeded = await seededArticle(id);
     if (!seeded) notFound();
-    return <EntityView data={seeded} />;
+    const title = sanitizePublicText(String(seeded.attrs.title ?? seeded.attrs.name ?? seeded.summary.title));
+    const cite = sanitizePublicText(String(seeded.attrs.cite ?? seeded.summary.citeChip ?? ""));
+    const paper = sanitizePublicText(String(seeded.attrs.paper ?? ""));
+    return (
+      <article className="space-y-4">
+        <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">From the record</p>
+        <h1 className="text-3xl font-black text-galway-ink sm:text-4xl">{title || "Cutting"}</h1>
+        {cite ? <p className="text-lg text-galway-ink">{cite}</p> : null}
+        {paper && paper !== cite ? <p className="text-base text-galway-ink/80">{paper}</p> : null}
+      </article>
+    );
   }
   const A = await getAssoc();
 
@@ -142,9 +158,7 @@ export default async function ArticlePage({
         </section>
       )}
 
-      {(a.clubTags.length > 0 ||
-        (a.playerTags?.length ?? 0) > 0 ||
-        a.tags.length > 0) && (
+      {(a.clubTags.length > 0 || (a.playerTags?.length ?? 0) > 0) && (
         <div className="flex flex-wrap gap-2">
           {(a.playerTags ?? []).map((p) => (
             <Link
@@ -171,14 +185,6 @@ export default async function ArticlePage({
             >
               {isEntityRef(c) ? displayNameForRef(c, A) : c}
             </Link>
-          ))}
-          {a.tags.map((t) => (
-            <span
-              key={t}
-              className="rounded-full bg-galway-gold/20 px-3 py-1 text-sm font-semibold"
-            >
-              #{t}
-            </span>
           ))}
         </div>
       )}

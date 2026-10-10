@@ -220,36 +220,6 @@
     "val": "Tuam Herald, 4 April 1942, p.2; Connacht Tribune, 4 April 1942, p.9. From a club member's clipping collection."
   },
   {
-    "row": "player:alan-moclair-fohenagh",
-    "col": "type",
-    "val": "player"
-  },
-  {
-    "row": "player:alan-moclair-fohenagh",
-    "col": "name",
-    "val": "Alan Moclair"
-  },
-  {
-    "row": "player:alan-moclair-fohenagh",
-    "col": "club",
-    "val": "club:fohenagh-historic"
-  },
-  {
-    "row": "player:alan-moclair-ahascragh-fohenagh",
-    "col": "same_as",
-    "val": "player:alan-moclair-fohenagh"
-  },
-  {
-    "row": "player:alan-mochlair-fohenagh",
-    "col": "same_as",
-    "val": "player:alan-moclair-fohenagh"
-  },
-  {
-    "row": "player:alan-mockler",
-    "col": "same_as",
-    "val": "player:alan-moclair-fohenagh"
-  },
-  {
     "row": "player:martin-glynn-fohenagh",
     "col": "same_as",
     "val": "player:marty-glynn-fohenagh"
@@ -258,10 +228,5 @@
     "row": "player:fr-nicholas-murray",
     "col": "same_as",
     "val": "player:nicholas-murray"
-  },
-  {
-    "row": "player:cathal-lohan-fohenagh",
-    "col": "same_as",
-    "val": ""
   }
 ]

@@ -18,6 +18,12 @@
 9. Headline = top honour (Galway first); never "sub"/"panel". Warm, never patronising. Brendan Noone: respectful, no death details.
 10. Links: "Share a memory or a match you remember" + anonymous correction options. All to Garry's queue; updates weekly.
 
+## Decades
+21. A player's decades come only from his own dated mentions: his games, his cuttings, and the sentences about him. List him under every decade from the first of those years to the last. Do not take a year from a namesake, a relative, or the club. Patrick Sweeney is the 1990s and the 2000s. The 1959 beside his father, Tim Sweeney, is not his. `scripts/smoke-profile-lint.ts` fails the build if a decade on the profile sits outside those years.
+
+## Palette
+22. The live colours stay as they were on `acb22f2`: light background, existing header. The navy chrome change is not shipping.
+
 ## All sites
 11. "Built with help from Grok Bot" (x.ai link, Heinlein grok tooltip, 42) + MIT Lincoln Lab D4M credit + "Built by Garry Lohan" (Scholar + LinkedIn). Tasteful easter eggs throughout.
 12. Credit every clipping/photo source. INA media removable in one step.

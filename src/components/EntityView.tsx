@@ -6,7 +6,6 @@ import {
   AhascraghTitleChips,
   FohenaghNotableGamesShelf,
   HistoricPredecessorChip,
-  HistoricStoryChips,
   LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
 import { ClubRoster } from "@/components/club/ClubRoster";
@@ -56,10 +55,10 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   const isHistoricFohenagh = id === "club:fohenagh-historic";
   const isHistoricAhascragh = id === "club:ahascragh-historic";
   const isHistoricMatch =
-    id.startsWith("match:fohenagh-historic-") ||
-    id.startsWith("match:ahascragh-historic-") ||
-    String(attrs.tag ?? "") === "historic-predecessor" ||
-    String(attrs.tag ?? "") === "fohenagh-historic";
+    id.startsWith("match:") &&
+    (id.startsWith("match:fohenagh-historic-") ||
+      id.startsWith("match:ahascragh-historic-") ||
+      String(attrs.tag ?? "") === "historic-predecessor");
   const hideScore =
     attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
   const cuttingCards = related.filter((r) => r.kind === "article_upload");
@@ -183,8 +182,6 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           }))}
         />
       ) : null}
-
-      {isHistoricFohenagh && <HistoricStoryChips />}
 
       {isHistoricAhascragh && (
         <section className="space-y-4">

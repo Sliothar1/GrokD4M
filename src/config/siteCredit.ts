@@ -25,6 +25,6 @@ export const siteCredit = {
     href: "https://x.ai",
     sup: "42",
     supTitle: "The answer to life, the universe and everything",
-    tail: ", an AI assistant, for research and coding — every fact is cited and checked before it goes live.",
+    tail: ", an AI assistant for research and coding.",
   },
 } as const;

@@ -265914,5 +265914,85 @@
     "row": "player:tony-ogorman",
     "col": "cutting:art-ina-ct-1984-08-17-fohenagh-jersey-distinction",
     "val": "article:art-ina-ct-1984-08-17-fohenagh-jersey-distinction"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "same_as",
+    "val": "player:sean-carrick-fohenagh"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "status",
+    "val": "alias"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "same_as",
+    "val": "player:sean-carrick-fohenagh"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "note",
+    "val": "Named as S. Carrick on the Fohenagh line in the senior hurling semi-final against Killimordaly (Connacht Tribune, 3 August 1963). Same person as Sean Carrick."
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "name",
+    "val": "Sean Carrick"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "alias",
+    "val": "Sean Carrig, S. Carrick"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "confidence",
+    "val": "high"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "source",
+    "val": "https://turloughmoregaa.ie/1963/09/22/county-final-1963/"
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "note",
+    "val": "Turloughmore GAA archive 1963 SHC final: Sean Carrig named Fohenagh substitute."
+  },
+  {
+    "row": "player:sean-carrick-fohenagh",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:t-gill-fohenagh",
+    "col": "note",
+    "val": "T. Gill is named for Fohenagh in the Connacht Tribune of 13 June 1942, page 11."
+  },
+  {
+    "row": "player:cathal-lohan",
+    "col": "notable",
+    "val": "Won an All-Ireland hurling medal at under-14 with Galway. Named on the Galway under-14 panel to play Limerick in Loughrea (Connacht Tribune, 22 July 1994), praised for his displays in the county under-14 challenge games (Connacht Tribune, 29 July 1994), and chosen for the challenge against Clare (Tuam Herald, 30 July 1994). All-Ireland U16 (Nenagh Co-op Cup) winner with Galway, 1996. Named on the panel (Connacht Tribune, 4 October 1996). Fohenagh Minor C hurling champion in 1996, in the half-back line as Fohenagh beat Cappataggle 5-15 to 0-6 (Connacht Tribune, 13 September 1996). On the St Cuan's, Castleblakeney panel for the All-Ireland Colleges Senior B hurling final at Croke Park, the side having already won the Connacht Cup (Tuam Herald, 2 May 1998). Called into the Galway under-16 side to play Mid-Clare (Connacht Tribune, 22 March 1996) and to the county under-16 hurling trial and final trial (Connacht Tribune, 16 June and 30 June 1995). Called to the county minor hurling trials at Kenny Park, Athenry (Connacht Tribune, 6 March 1998). Named among Fohenagh's best in the Castleblakeney Festival tournament final (Connacht Tribune, 8 August 1997). Earlier named on the Fohenagh U-12 county B champions panel (Connacht Tribune, 7 Dec 1990)."
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "book_note",
+    "val": "Fohenagh met Claregalway in the 1941 junior county semi-final at Athenry on Sunday 24 May 1942. The match was abandoned. The County Board met on Saturday 6 June 1942. The Connacht Tribune of 13 June 1942 reported that meeting under the headline \"Blackguardism at Athenry causes heat at County Board meeting\". The Connacht Sentinel of 9 June 1942 carries the same meeting. Both teams were suspended for twelve months, and Eyrecourt were declared the 1941 champions. The printed report records illegal players and \"serious charges\". The chairman was Mr T. O'Connor of Claregalway."
   }
 ]
