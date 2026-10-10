@@ -12,6 +12,7 @@ const kindLabel: Record<string, string> = {
   community_story: "Story",
   article_upload: "Article",
   appearance: "Panel",
+  fixture: "Fixture",
   unknown: "Thing",
 };
 

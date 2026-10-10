@@ -41,6 +41,7 @@ export type EntityKind =
   | "community_story"
   | "article_upload"
   | "appearance"
+  | "fixture"
   | "unknown";
 
 export interface EntitySummary {
@@ -111,7 +112,8 @@ export function entityKind(id: string, attrs?: Record<string, TripleVal>): Entit
     t === "source" ||
     t === "community_story" ||
     t === "article_upload" ||
-    t === "appearance"
+    t === "appearance" ||
+    t === "fixture"
   ) {
     return t;
   }
@@ -493,6 +495,8 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     kindLabel = isAllIrelandWinAttrs(attrs) ? "All-Ireland" : "County title";
   } else if (kind === "appearance") {
     kindLabel = attrs.grade ? String(attrs.grade) : "Panel";
+  } else if (kind === "fixture") {
+    kindLabel = "Fixture";
   }
   const summary: EntitySummary = {
     id,

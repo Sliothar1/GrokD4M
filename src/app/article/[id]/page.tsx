@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArticleCredit } from "@/components/ArticleCredit";
 import { EntityView } from "@/components/EntityView";
-import { articleMediaUrl, getArticleUpload } from "@/lib/articles";
+import { ZoomableImage } from "@/components/ZoomableImage";
+import {
+  articleKindLabel,
+  articleMediaUrl,
+  articlePageImageUrl,
+  getArticleUpload,
+} from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
@@ -46,8 +53,10 @@ export default async function ArticlePage({
     (a.kind === "url" ? "Linked article" : "Article cutting");
   const cite = a.citeChip || (a.year ? `${a.year} · Paper` : "Paper");
   const media = articleMediaUrl(a);
+  const pageImage = articlePageImageUrl(a);
   const isPdf = a.kind === "pdf" || media?.toLowerCase().endsWith(".pdf");
-  const showImage = Boolean(media && !isPdf);
+  const showImage = Boolean(media && !isPdf && media !== pageImage);
+  const kindLabel = articleKindLabel(a);
 
   return (
     <article className="space-y-6">
@@ -68,7 +77,7 @@ export default async function ArticlePage({
         </h1>
         <p className="text-base text-galway-ink/65">
           {[
-            a.kind === "url" ? "URL source" : a.kind === "pdf" ? "PDF" : "Image",
+            kindLabel,
             a.status === "pending"
               ? "Awaiting Archivist"
               : "Indexed · triples unverified",
@@ -89,6 +98,15 @@ export default async function ArticlePage({
         </div>
       )}
 
+      {pageImage && (
+        <ZoomableImage
+          src={pageImage}
+          alt={`Newspaper page: ${title}`}
+          credit={a.credit}
+          creditUrl={a.creditUrl}
+        />
+      )}
+
       {isPdf && media && (
         <div className="rounded-2xl border-2 border-galway-maroon/15 bg-white p-5 shadow-sm">
           <p className="text-lg font-bold text-galway-maroon">PDF cutting</p>
@@ -103,19 +121,11 @@ export default async function ArticlePage({
         </div>
       )}
 
-      {a.kind === "url" && a.sourceUrl && (
-        <div className="rounded-2xl border-2 border-galway-maroon/15 bg-white p-5 shadow-sm">
-          <p className="text-sm font-bold uppercase text-galway-gold">Source URL</p>
-          <a
-            href={a.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-1 break-all text-lg font-semibold text-galway-maroon underline"
-          >
-            {a.sourceUrl}
-          </a>
-        </div>
-      )}
+      <ArticleCredit
+        credit={a.credit}
+        creditUrl={a.creditUrl}
+        sourceUrl={a.sourceUrl}
+      />
 
       {a.excerpt && (
         <section className="space-y-2 rounded-2xl border-2 border-galway-maroon/15 bg-white p-4">

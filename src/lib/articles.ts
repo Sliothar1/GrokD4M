@@ -21,7 +21,7 @@ import { SHOW_INA_MEDIA } from "@/lib/ina-media";
 const execFileAsync = promisify(execFile);
 
 export type ArticleUploadStatus = "pending" | "decomposed";
-export type ArticleKind = "image" | "pdf" | "url";
+export type ArticleKind = "image" | "pdf" | "url" | "text";
 
 /**
  * Ingest Lab cuttings contract:
@@ -170,9 +170,48 @@ function assertWritableStorage(): void {
   }
 }
 
-/** Public media URL for cards / match clips / article page. */
+/** True when this cutting's scans must stay off the page. */
+function inaScanHidden(a: Pick<ArticleUpload, "inaMedia">): boolean {
+  return a.inaMedia === true && !SHOW_INA_MEDIA;
+}
+
+function isRasterImageUrl(url: string): boolean {
+  const path = url.split("?")[0].split("#")[0].toLowerCase();
+  return (
+    !path.endsWith(".pdf") && !path.endsWith(".md") && !path.endsWith(".txt")
+  );
+}
+
+/**
+ * Public clip / thumb. INA scans are omitted when NEXT_PUBLIC_SHOW_INA_MEDIA
+ * is "false" — the same one-step hide as `readArticleUploads`.
+ */
 export function articleMediaUrl(a: ArticleUpload): string | undefined {
+  if (inaScanHidden(a)) return undefined;
   return a.publicUrl || a.imageUrl || a.path;
+}
+
+/** Full newspaper page for the zoom viewer. Same INA hide as `articleMediaUrl`. */
+export function articlePageImageUrl(a: ArticleUpload): string | undefined {
+  if (inaScanHidden(a)) return undefined;
+  const url = a.pageImage?.trim();
+  return url || undefined;
+}
+
+/**
+ * Kind line on the article page.
+ * Snippet-only text (kind `text`, or no raster scan) is never "Image".
+ */
+export function articleKindLabel(a: ArticleUpload): string {
+  if (a.kind === "url") return "URL source";
+  if (a.kind === "pdf") return "PDF";
+  if (a.kind === "text") return "Snippet";
+  const media = articleMediaUrl(a);
+  const page = articlePageImageUrl(a);
+  const raster = Boolean(
+    (media && isRasterImageUrl(media)) || (page && isRasterImageUrl(page))
+  );
+  return raster ? "Image" : "Snippet";
 }
 
 export function ensureUploadDir(): void {
@@ -1066,7 +1105,9 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
       ? a.sourceUrl || "Linked article"
       : a.kind === "pdf"
         ? `PDF cutting (${a.year || "undated"})`
-        : `Article photo (${a.year || "undated"})`);
+        : a.kind === "text"
+          ? `Snippet (${a.year || "undated"})`
+          : `Article photo (${a.year || "undated"})`);
   const cite = a.citeChip || makeCiteChip(a.year);
   const excerpt =
     a.excerpt ||
@@ -1086,7 +1127,7 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
     trustLabel: "Verified",
     badge: "From cutting",
     imagePath:
-      media && !media.toLowerCase().endsWith(".pdf") ? media : undefined,
+      a.kind !== "text" && media && isRasterImageUrl(media) ? media : undefined,
     citeChip: cite,
     excerpt,
   };
@@ -1279,10 +1320,12 @@ export async function getMatchArticleClips(
         (clubHint.includes("fohenagh") && blob.includes("fohenagh")) ||
         (clubHint.includes("ahascragh") && blob.includes("ahascragh")));
     if (!matchHit && !yearClubHit) continue;
-    // Image thumbnails only on match pages
+    // Image thumbnails only on match pages. Snippet text is not an image.
     const kind = (a as { kind?: string }).kind;
     const media = articleMediaUrl(a);
-    if (!media || kind === "url" || kind === "pdf") continue;
+    if (!media || !isRasterImageUrl(media) || kind === "url" || kind === "pdf" || kind === "text") {
+      continue;
+    }
     push({
       key: a.id,
       imageUrl: media,
