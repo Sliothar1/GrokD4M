@@ -5513,41 +5513,43 @@
     "path": "/uploads/book/fohenagh-history/p154-1990-underage-a.png",
     "publicUrl": "/uploads/book/fohenagh-history/p154-1990-underage-a.png",
     "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
-    "caption": "Fohenagh underage team, 1990 (photo A)",
+    "caption": "1990 underage team A — Fohenagh",
     "year": "1990",
     "tags": [
       "hurling",
       "fohenagh",
       "book",
-      "photo"
+      "photo",
+      "team",
+      "underage"
     ],
     "clubTags": [
       "club:fohenagh-historic"
     ],
     "playerTags": [
-      "player:tony-kirwan-fohenagh",
-      "player:padraic-leonard",
-      "player:john-devine",
-      "player:alan-madden",
-      "player:paul-kennedy-fohenagh",
-      "player:noel-higgins-ahascragh-fohenagh",
-      "player:niall-leonard",
-      "player:sean-moclair",
       "player:paul-leonard-fohenagh",
       "player:paul-obeirne-fohenagh",
+      "player:sean-moclair",
       "player:conor-geraghty-fohenagh",
       "player:damien-obeirne-fohenagh",
       "player:thomas-bleahene-fohenagh",
+      "player:tony-kirwan-fohenagh",
       "player:damien-poland-fohenagh",
+      "player:padraic-leonard",
       "player:eric-lally-fohenagh",
+      "player:niall-leonard",
       "player:damien-glynn-fohenagh",
+      "player:alan-madden",
       "player:cathal-farragher-fohenagh",
       "player:peter-madden-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh",
       "player:john-madden-fohenagh",
-      "player:mark-leonard-fohenagh"
+      "player:mark-leonard-fohenagh",
+      "player:paul-kennedy-fohenagh",
+      "player:john-devine"
     ],
     "matchTags": [],
-    "excerpt": "Underage Fohenagh team photograph A from 1990, with the names printed in A History of Fohenagh.",
+    "excerpt": "back row Paul Leonard, Paul O'Beirne, Sean Moclair, Conor Geraghty, Michael Kelly, Damien O'Beirne, Thomas Bleahene, Tony Kirwan, Michael Glynn, Damien Poland, Padraic Leonard, Eric Lally; front row Niall Leonard, Damien Glynn, Alan Madden, Cathal Farragher, Peter Madden, Noel Higgins, John Madden, Mark Leonard, Paul Kennedy, John Devine. (Michael Glynn and Michael Kelly not tagged: more than one possible id.)",
     "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154",
     "sourceUrl": "",
     "status": "pending",
@@ -5562,13 +5564,15 @@
     "path": "/uploads/book/fohenagh-history/p154-1990-underage-b.png",
     "publicUrl": "/uploads/book/fohenagh-history/p154-1990-underage-b.png",
     "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
-    "caption": "Fohenagh underage team, 1990 (photo B)",
+    "caption": "1990 underage team B — Fohenagh",
     "year": "1990",
     "tags": [
       "hurling",
       "fohenagh",
       "book",
-      "photo"
+      "photo",
+      "team",
+      "underage"
     ],
     "clubTags": [
       "club:fohenagh-historic"
@@ -5577,6 +5581,8 @@
       "player:francis-devine-fohenagh",
       "player:karl-mitchell-fohenagh",
       "player:martin-curley-fohenagh",
+      "player:enda-oconnell-fohenagh",
+      "player:richard-donelan-fohenagh",
       "player:raymond-higgins-fohenagh",
       "player:patrick-sweeney-fohenagh",
       "player:garry-mitchell-fohenagh",
@@ -5588,25 +5594,23 @@
       "player:colm-kennedy-fohenagh",
       "player:owen-lynskey-ahascragh-fohenagh",
       "player:fergus-lyons-fohenagh",
+      "player:david-faulkner-fohenagh",
+      "player:john-donelan-fohenagh",
       "player:brian-lynskey-fohenagh",
       "player:cyril-glennon-fohenagh",
+      "player:mark-carrick-fohenagh",
+      "player:jonathan-molloy-fohenagh",
       "player:peter-lally-fohenagh",
       "player:shane-glennon-fohenagh",
+      "player:shane-costello-fohenagh",
       "player:alan-moclair-ahascragh-fohenagh",
       "player:philip-lohan",
       "player:brendan-noone-fohenagh",
-      "player:keith-murphy-fohenagh",
-      "player:enda-oconnell-fohenagh",
-      "player:richard-donelan-fohenagh",
-      "player:david-faulkner-fohenagh",
-      "player:john-donelan-fohenagh",
-      "player:mark-carrick-fohenagh",
-      "player:jonathan-molloy-fohenagh",
-      "player:shane-costello-fohenagh",
-      "player:cormac-lyons-fohenagh"
+      "player:cormac-lyons-fohenagh",
+      "player:keith-murphy-fohenagh"
     ],
     "matchTags": [],
-    "excerpt": "Underage Fohenagh team photograph B from 1990, with the names printed in A History of Fohenagh.",
+    "excerpt": "front Francis Devine, Karl Mitchell, Martin Curley, Enda O'Connell, Richard Donelan, Raymond Higgins (capt.), Patrick Sweeney, Michael Glynn, Gary Mitchell; 2nd row Phelim O'Connell, David Noone, Cathal Lohan, Niall Devine, Oliver Deeley, Colm Kennedy, Owen Lynskey, Fergus Lyons, David Faulkner, John Donelan, Brian Lynskey, Cyril Glennon; 3rd row Mark Carrick, Jonathan Molloy, Peter Lally, Shane Glennon, Shane Costello, Alan Moclair, Philip Lohan, Brendan Noone, Cormac Lyons, Keith Murphy. (Michael Glynn and Michael Kelly not tagged: more than one possible id.)",
     "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154",
     "sourceUrl": "",
     "status": "pending",
@@ -5887,5 +5891,314 @@
     "status": "pending",
     "bookMedia": true,
     "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-clip-glc-01-1993-galway-vocational-schools-panel",
+    "kind": "image",
+    "filename": "clip01-1993-galway-vocational-schools-panel.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The victorious 1993 Galway Vocational Schools panel",
+    "year": 1993,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "photo",
+      "team",
+      "vocational-schools"
+    ],
+    "clubTags": [],
+    "playerTags": [
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Team photo printed with the caption 'The victorious 1993 Galway Vocational Schools panel'. Séamus Moclair was on that All-Ireland-winning panel (Connacht Tribune 14 May 1993); the caption does not name players.",
+    "citeChip": "From Garry Lohan's collection · DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From Garry Lohan's collection",
+    "dateTbd": true,
+    "dateNote": "Year from the printed caption; paper/date not found."
+  },
+  {
+    "id": "art-clip-glc-02-galway-programme-seamus-mockler",
+    "kind": "image",
+    "filename": "clip02-galway-programme-seamus-mockler.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Gaillimh: matchday programme team page, no. 4 Séamus Mockler (Mountbellew)",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "programme",
+      "vocational-schools"
+    ],
+    "clubTags": [],
+    "playerTags": [
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Galway team page from a matchday programme (Dathanna: Marún is Bán). No. 4 is printed as S. Móicléir / Séamus Mockler, Mountbellew. The other players are listed by school or club towns such as Athenry, Loughrea, Gort, New Inn and Moneenageisha, so this looks like a Vocational Schools programme. Opponent and year are not shown.",
+    "citeChip": "Matchday programme from Garry Lohan's collection · DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Matchday programme from Garry Lohan's collection",
+    "dateTbd": true
+  },
+  {
+    "id": "art-clip-glc-03-four-hurlers-suspended",
+    "kind": "image",
+    "filename": "clip03-four-hurlers-suspended.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Four Hurlers Suspended",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:pj-killalea-fohenagh",
+      "player:john-sweeney-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "The East Galway Board's verdict after the Fohenagh v Tynagh junior semi-final at Kiltormer on July 15th: James Killeen (Tynagh) got six months; Michael Killeen (Tynagh), P. J. Killilea and John Sweeney (Fohenagh) got two months.",
+    "citeChip": "Newspaper clipping from Garry Lohan's collection · DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": true,
+    "dateNote": "No date on the clip and the headline isn't in INA. Related: CTT 6 Oct 1956 p.14, TTH 6 Oct 1956 p.5, Westmeath Independent 8 Sep 1956 p.1 (disqualification reports, not this clip)."
+  },
+  {
+    "id": "art-clip-glc-04-terrible-and-frightening",
+    "kind": "image",
+    "filename": "clip04-terrible-and-frightening.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "\"Terrible and Frightening\": report on the Kiltormer game",
+    "year": 1956,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "Part of a report on the trouble: five men were brought to hospital, three of them from Tynagh, and one was kept in Portiuncula. The incidents were described as 'terrible and frightening' for those who saw them.",
+    "citeChip": "Tuam Herald · 6 Oct 1956 · p.5 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19561006.1.5",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "The clip's subhead 'Terrible and Frightening' and its wording ('both of them were strong men') match the TTH p.5 snippet.",
+    "alsoReported": "Same incident: Connacht Tribune 6 Oct 1956 p.28 (https://irishnewsarchive.com/?a=d&d=CTT19561006.1.28)"
+  },
+  {
+    "id": "art-clip-glc-05-sundays-gaa-fixtures-kiltormer",
+    "kind": "image",
+    "filename": "clip05-sundays-gaa-fixtures-kiltormer.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Sunday's G.A.A. Fixtures: Tynagh v Fohenagh at Kiltormer",
+    "year": 1956,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "Fixture notice: at Kiltormer, Junior A hurling semi-final, Tynagh v Fohenagh, 3 p.m. (referee W. Creaven).",
+    "citeChip": "Fixture list · 14 Jul 1956 (date inferred) · paper TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "No INA hit; the date is inferred from the match on Sunday 15 July 1956.",
+    "dateInferred": true
+  },
+  {
+    "id": "art-clip-glc-06-fohenaghs-big-win",
+    "kind": "image",
+    "filename": "clip06-fohenaghs-big-win.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh's Big Win: Fohenagh 6-7, Ballinasloe 1-3",
+    "year": 1962,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-ballinasloe-senior-league-r3-clip"
+    ],
+    "excerpt": "County Senior League, round three, at Fohenagh: the fitter, more experienced home side won 6-7 to 1-3. Moclair and Moylette were outstanding at the back; T. Sweeney and F. Glynn were among the scorers.",
+    "citeChip": "Connacht Tribune · 17 Mar 1962 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19620317.1.14",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "Exact headline is the only archive hit.",
+    "alsoReported": "Fixture: Connacht Tribune 10 Mar 1962 p.14 (https://irishnewsarchive.com/?a=d&d=CTT19620310.1.14)"
+  },
+  {
+    "id": "art-clip-glc-07-galway-team-to-meet-tipperary",
+    "kind": "image",
+    "filename": "clip07-galway-team-to-meet-tipperary.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The Galway team to meet Tipperary (1960): six Fohenagh men picked",
+    "year": 1960,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "county",
+      "featured"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-ogorman",
+      "player:pj-lally-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:jim-moclair-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "The Galway County Board picked its team for the National League game against Tipperary on October 30th, and six Fohenagh men were on it: T. O'Gorman, P.J. Lally, T. Sweeney, J. Sweeney, F. Glynn and J. Moclair.",
+    "citeChip": "Connacht Tribune · 15 Oct 1960 · p.30 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "The clip's list (S. Carr, T. O'Gorman, E. Derivan ... J. Sweeney, F. Glynn; Sub. J. Hegarty) matches CTT 15 Oct 1960 p.30 word for word, and L. Gardiner is in both. The 1959 KIP lineup (P. Fahy, T. Conway, J. Cahalan, M. Sweeney ...) is a different team.",
+    "alsoReported": "Headline/Gardiner note: Connacht Tribune 15 Oct 1960 p.14 (https://irishnewsarchive.com/?a=d&d=CTT19601015.1.14)"
+  },
+  {
+    "id": "art-clip-glc-08-fohenagh-pip-turlough",
+    "kind": "image",
+    "filename": "clip08-fohenagh-pip-turlough.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh pip Turlough: 5-4 to 5-3",
+    "year": 1960,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:mick-moylette-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip"
+    ],
+    "excerpt": "St Patrick's Day tournament final at Fohenagh, won by one point. T. Sweeney, J. Mockler and minor star M. Moylette were Fohenagh's best.",
+    "citeChip": "Connacht Tribune · 26 Mar 1960 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19600326.1.14",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "Exact headline is the only archive hit; 27 March 1960 was a Sunday, which fits the Ardrahan semi-finals on the same page."
+  },
+  {
+    "id": "art-clip-glc-09-constant-menace",
+    "kind": "image",
+    "filename": "clip09-constant-menace.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "\"Constant Menace\": 1960 county final report, Fohenagh 4-9 Castlegar 2-7",
+    "year": 1960,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:pj-lally-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:marty-glynn-fohenagh",
+      "player:john-sweeney-fohenagh",
+      "player:tony-ogorman",
+      "player:tim-sweeney-fohenagh",
+      "player:jim-sweeney"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1960-galway-shc-final"
+    ],
+    "excerpt": "From a report on a game against Castlegar (which game is not shown). Murray's long drives were a constant menace to the Castlegar backs. Pat Joe Lally, Jim Moclair and Marty Glynn formed a strong half-back line, John Sweeney was a great full-back until he went off, Tony O'Gorman was 'coolness personified', and Tim Sweeney and Jim Sweeney were tightly marked.",
+    "citeChip": "Tuam Herald · 3 Sep 1960 · p.1 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "The TTH snippet ('Possessing a great positional sense, Murray ... constant menace to the Castlegar backs ... Pat Joe Lally, although he got a knock early on; Jim') is the clip's own text.",
+    "alsoReported": "Same final: Connacht Tribune 3 Sep 1960 p.14 (https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14)"
   }
 ]

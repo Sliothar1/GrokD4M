@@ -262109,5 +262109,1340 @@
     "row": "player:aaron-moclair-ahascragh-fohenagh",
     "col": "name",
     "val": "Adam Moclair"
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "source_county_selection",
+    "val": "art-clip-glc-07-galway-team-to-meet-tipperary"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "source_county_selection",
+    "val": "art-clip-glc-07-galway-team-to-meet-tipperary"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "source_county_selection",
+    "val": "art-clip-glc-07-galway-team-to-meet-tipperary"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "source_county_selection",
+    "val": "art-clip-glc-07-galway-team-to-meet-tipperary"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "source_county_selection",
+    "val": "art-clip-glc-07-galway-team-to-meet-tipperary"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_highlight_title",
+    "val": "Six Fohenagh men picked for Galway"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_highlight_text",
+    "val": "In October 1960, a year after Fohenagh's first county title, the Galway County Board picked six Fohenagh men for the National League game against Tipperary on 30 October: Tony O'Gorman, P.J. Lally, Tim Sweeney, J. Sweeney, Frankie Glynn and Jimmy Moclair. Not bad for a small parish!"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_highlight_players",
+    "val": "player:tony-ogorman, player:pj-lally-fohenagh, player:tim-sweeney-fohenagh, player:frank-glynn-fohenagh, player:jim-moclair-fohenagh, J. Sweeney (held: player:jim-sweeney / player:john-sweeney-fohenagh / player:gerry-sweeney-fohenagh)"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_highlight_upload",
+    "val": "art-clip-glc-07-galway-team-to-meet-tipperary"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_highlight_cite",
+    "val": "Newspaper clipping from Garry Lohan's collection · Connacht Tribune · 15 Oct 1960 · p.30 · INA · https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_highlight_position",
+    "val": "next to the 1959 county title (notable-games shelf)"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "competition_clip",
+    "val": "Junior A hurling semi-final (fixture clip); \"junior hurling semi-final\" (East Board report clip)"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "date_values",
+    "val": "15 July 1956 per A History of Fohenagh p.148; 'July 15th' per the East Board report clip ('Four Hurlers Suspended', undated). Existing seed cite: Tuam Herald 6 Oct 1956 p.5 (report date)."
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "fixture_clip",
+    "val": "Sunday's G.A.A. Fixtures: At Kiltormer, Junior A hurling semi-final, Tynagh v Fohenagh, 3 p.m. (W. Creaven). Paper of 14 Jul 1956 (date inferred)."
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "clip_upload",
+    "val": "art-clip-glc-05-sundays-gaa-fixtures-kiltormer"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "clip_upload_2",
+    "val": "art-clip-glc-03-four-hurlers-suspended"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "clip_upload_3",
+    "val": "art-clip-glc-04-terrible-and-frightening"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "clip_note",
+    "val": "At an East Galway Board meeting the chairman, Rev. D. Gordon C.C., said both teams had been punished enough by losing their place in the championship. Mr. F. Clarke (Mullagh) proposed the minimum penalty under the rules; Rev. M. Walsh C.C., chairman of the County Board, warned Tynagh would be escaping scot-free while Fohenagh, who had a substantial lead, lost a game they would almost certainly have won. Clarke's proposal was carried: James Killeen (Tynagh) six months; Michael Killeen (Tynagh), P. J. Killilea and John Sweeney (Fohenagh) two months, all from the day of the match. A separate clip reports five men brought to hospital (three from Tynagh), one detained in Portiuncula."
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "player",
+    "val": "player:pj-killalea-fohenagh"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "name",
+    "val": "P. J. Killilea"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "match",
+    "val": "match:fohenagh-tynagh-junior-abandoned-1956"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "competition",
+    "val": "Galway Junior A hurling semi-final (1956)"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "year",
+    "val": 1956
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "cite_chip",
+    "val": "Newspaper clipping from Garry Lohan's collection · 'Four Hurlers Suspended' · undated clipping (incident of 15 Jul 1956)"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "article_upload",
+    "val": "art-clip-glc-03-four-hurlers-suspended"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:pj-killalea-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "note",
+    "val": "Named in the referee's report; two-month suspension."
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "player",
+    "val": "player:john-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "name",
+    "val": "John Sweeney"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "match",
+    "val": "match:fohenagh-tynagh-junior-abandoned-1956"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "competition",
+    "val": "Galway Junior A hurling semi-final (1956)"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "year",
+    "val": 1956
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "cite_chip",
+    "val": "Newspaper clipping from Garry Lohan's collection · 'Four Hurlers Suspended' · undated clipping (incident of 15 Jul 1956)"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "article_upload",
+    "val": "art-clip-glc-03-four-hurlers-suspended"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-tynagh-junior-abandoned-1956",
+    "col": "note",
+    "val": "Named in the referee's report; two-month suspension."
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "credit",
+    "val": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "date",
+    "val": "1962-03-11"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "name",
+    "val": "Fohenagh vs Ballinasloe — County Senior League, third round"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "competition",
+    "val": "Galway County Senior League (round 3)"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "opponent",
+    "val": "Ballinasloe"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "away",
+    "val": "club:ballinasloe"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "venue",
+    "val": "Fohenagh"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "score",
+    "val": "Fohenagh 6-7, Ballinasloe 1-3"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "note",
+    "val": "'Fohenagh's Big Win': a short-handed Ballinasloe made a brave early start, but the fitter, more experienced Fohenagh side ran out 6-7 to 1-3 winners at home. Moclair and Moylette were outstanding backs, and T. Sweeney and F. Glynn were among the scorers."
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "cite",
+    "val": "Connacht Tribune · 17 Mar 1962 · p.14 · INA"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "article_upload",
+    "val": "art-clip-glc-06-fohenaghs-big-win"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "type",
+    "val": "match"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "home",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "historic_club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "tag",
+    "val": "fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "credit",
+    "val": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "date",
+    "val": "1960-03-17"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "name",
+    "val": "Fohenagh vs Turloughmore — local tournament final (St Patrick's Day)"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "competition",
+    "val": "Local hurling tournament final"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "opponent",
+    "val": "Turloughmore"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "away",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "venue",
+    "val": "Fohenagh"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "score",
+    "val": "Fohenagh 5-4, Turloughmore 5-3"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "half_time",
+    "val": "Fohenagh 4-1, Turloughmore 3-2"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "referee",
+    "val": "M. Ward"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "result",
+    "val": "win"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "winner",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "note",
+    "val": "'Fohenagh Pip Turlough': a lively St Patrick's Day final at Fohenagh, won by a single point, 5-4 to 5-3. T. Sweeney, J. Mockler and minor star M. Moylette served the winners well; the Burke brothers starred for Turloughmore."
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "cite",
+    "val": "Connacht Tribune · 26 Mar 1960 · p.14 · INA"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "article_upload",
+    "val": "art-clip-glc-08-fohenagh-pip-turlough"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "date_hint",
+    "val": "Same page lists 11-a-side semi-finals at Ardrahan on Sunday, March 27th (27 March fell on a Sunday in 1955, 1960 and 1966). Resolved: 1960."
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "name",
+    "val": "T. Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-senior-league-r3-clip"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "competition",
+    "val": "Galway County Senior League (round 3)"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "year",
+    "val": 1962
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "cite_chip",
+    "val": "Newspaper clipping from Garry Lohan's collection · 'Fohenagh's Big Win' · Connacht Tribune · 17 Mar 1962 · p.14"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "article_upload",
+    "val": "art-clip-glc-06-fohenaghs-big-win"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "player",
+    "val": "player:frank-glynn-fohenagh"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "name",
+    "val": "F. Glynn"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "match",
+    "val": "match:fohenagh-ballinasloe-senior-league-r3-clip"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "competition",
+    "val": "Galway County Senior League (round 3)"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "year",
+    "val": 1962
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "cite_chip",
+    "val": "Newspaper clipping from Garry Lohan's collection · 'Fohenagh's Big Win' · Connacht Tribune · 17 Mar 1962 · p.14"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "article_upload",
+    "val": "art-clip-glc-06-fohenaghs-big-win"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:frank-glynn-fohenagh-fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "name",
+    "val": "T. Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "match",
+    "val": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "competition",
+    "val": "Local hurling tournament final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "cite_chip",
+    "val": "Newspaper clipping from Garry Lohan's collection · 'Fohenagh Pip Turlough' · Connacht Tribune · 26 Mar 1960 · p.14"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "article_upload",
+    "val": "art-clip-glc-08-fohenagh-pip-turlough"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "player",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "name",
+    "val": "J. Mockler"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "match",
+    "val": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "competition",
+    "val": "Local hurling tournament final"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "cite_chip",
+    "val": "Newspaper clipping from Garry Lohan's collection · 'Fohenagh Pip Turlough' · Connacht Tribune · 26 Mar 1960 · p.14"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "article_upload",
+    "val": "art-clip-glc-08-fohenagh-pip-turlough"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "player",
+    "val": "player:mick-moylette-fohenagh"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "name",
+    "val": "M. Moylette"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "match",
+    "val": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "competition",
+    "val": "Local hurling tournament final"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "cite_chip",
+    "val": "Newspaper clipping from Garry Lohan's collection · 'Fohenagh Pip Turlough' · Connacht Tribune · 26 Mar 1960 · p.14"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "article_upload",
+    "val": "art-clip-glc-08-fohenagh-pip-turlough"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:mick-moylette-fohenagh-fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "note",
+    "val": "Described as a minor star."
+  },
+  {
+    "row": "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "col": "date_values",
+    "val": "23 May 1942 per A History of Fohenagh p.144 ('played in Athenry on May 23rd'); Sunday 24 May 1942 per the Connacht Tribune fixture, 23 May 1942 p.10. Both shown; not resolved."
+  },
+  {
+    "row": "match:fohenagh-cussane-north-board-junior-final-1942",
+    "col": "opponent_values",
+    "val": "North Board final opponent: Cussaun per Connacht Tribune 7 Mar 1942 p.10 and Tuam Herald 4 Apr 1942 p.2; Killimordaly (draw, then replay won at Monivea) per A History of Fohenagh p.144, which has Cussane at Menlough as an earlier round. Both shown; not resolved."
+  },
+  {
+    "row": "match:fohenagh-historic-1961-galway-shc-final",
+    "col": "margin_values",
+    "val": "Margin: one point per A History of Fohenagh p.151; two points (Turloughmore 3-6, Fohenagh 3-4) per the Galway GAA finals table already on this row. Both shown; not resolved."
+  },
+  {
+    "row": "player:aaron-moclair-ahascragh-fohenagh",
+    "col": "also_known_as",
+    "val": "A. Moclair; A. Moakler"
+  },
+  {
+    "row": "player:aaron-moclair-ahascragh-fohenagh",
+    "col": "name_correction",
+    "val": "Printed as A. Moclair (Tuam Herald 2026 PIHC v Kinvara); first name is Adam, not Aaron (club correction relayed by D4M, 10 Oct 2026). Post-2002 Ahascragh-Fohenagh player only."
+  },
+  {
+    "row": "player:tony-ogorman",
+    "col": "source_county_selection_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30"
+  },
+  {
+    "row": "player:pj-lally-fohenagh",
+    "col": "source_county_selection_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30"
+  },
+  {
+    "row": "player:tim-sweeney-fohenagh",
+    "col": "source_county_selection_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30"
+  },
+  {
+    "row": "player:frank-glynn-fohenagh",
+    "col": "source_county_selection_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30"
+  },
+  {
+    "row": "player:jim-moclair-fohenagh",
+    "col": "source_county_selection_url",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_highlight_year",
+    "val": "1960"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "clip_cite_hospital",
+    "val": "Tuam Herald · 6 Oct 1956 · p.5 · https://irishnewsarchive.com/?a=d&d=TTH19561006.1.5 ; Connacht Tribune · 6 Oct 1956 · p.28 · https://irishnewsarchive.com/?a=d&d=CTT19561006.1.28"
+  },
+  {
+    "row": "match:fohenagh-tynagh-junior-abandoned-1956",
+    "col": "disqualification_cite",
+    "val": "Westmeath Independent · 8 Sep 1956 · p.1 · https://irishnewsarchive.com/?a=d&d=WMI19560908.1.1 ; Connacht Tribune · 6 Oct 1956 · p.14 · https://irishnewsarchive.com/?a=d&d=CTT19561006.1.14"
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "date_note",
+    "val": "Inferred: the fixture was listed in CT 10 Mar 1962 and the report ran in CT 17 Mar 1962."
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "year",
+    "val": 1962
+  },
+  {
+    "row": "match:fohenagh-ballinasloe-senior-league-r3-clip",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19620317.1.14"
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=CTT19600326.1.14"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "clip_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "clip_cite",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "match:fohenagh-historic-1960-galway-shc-final",
+    "col": "score_values",
+    "val": "Fohenagh 4-9, Castlegar 2-7 per Galway GAA table, CT 3 Sep 1960 p.14 and TTH 3 Sep 1960 p.1 | Fohenagh 5-13, Castlegar 2-4 per Connacht Tribune 29 Jan 2021 p.83 retrospective. Both shown; not resolved."
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "player",
+    "val": "player:pj-lally-fohenagh"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "Pat Joe Lally"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship final"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · INA"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "article_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:pj-lally-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "player",
+    "val": "player:jim-moclair-fohenagh"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "Jim Moclair"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship final"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · INA"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "article_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:jim-moclair-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "player",
+    "val": "player:marty-glynn-fohenagh"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "Marty Glynn"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship final"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · INA"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "article_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:marty-glynn-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "player",
+    "val": "player:john-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "John Sweeney"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship final"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · INA"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "article_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:john-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "player",
+    "val": "player:tony-ogorman"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "Tony O'Gorman"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship final"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · INA"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "article_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:tony-ogorman-fohenagh-historic-1960-galway-shc-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "player",
+    "val": "player:tim-sweeney-fohenagh"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "Tim Sweeney"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship final"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · INA"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "article_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:tim-sweeney-fohenagh-fohenagh-historic-1960-galway-shc-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "type",
+    "val": "appearance"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "player",
+    "val": "player:jim-sweeney"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "name",
+    "val": "Jim Sweeney"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "match",
+    "val": "match:fohenagh-historic-1960-galway-shc-final"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "competition",
+    "val": "Galway Senior Hurling Championship final"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "year",
+    "val": 1960
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "club",
+    "val": "club:fohenagh-historic"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "cite_chip",
+    "val": "Tuam Herald · 3 Sep 1960 · p.1 · INA"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "source",
+    "val": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "article_upload",
+    "val": "art-clip-glc-09-constant-menace"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "appearance:jim-sweeney-fohenagh-historic-1960-galway-shc-final",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "cite_2",
+    "val": "Tuam Herald · 19 Sep 1959 · p.8 · https://irishnewsarchive.com/?a=d&d=TTH19590919.1.8 (Fohenagh 3-9 Castlegar 4-5)"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "cite_3",
+    "val": "Connacht Tribune · 19 Sep 1959 · p.30 · 'Sweeney, Star of the Champions' · https://irishnewsarchive.com/?a=d&d=CTT19590919.1.30"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "cite_4",
+    "val": "Connacht Sentinel · 15 Sep 1959 · p.4 · 'Castlegar fell in hurling final' · https://irishnewsarchive.com/?a=d&d=CSL19590915.1.4"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "cite_5",
+    "val": "Connacht Tribune · 29 Jan 2021 · p.83 (retrospective; confirms replay at Kenny Park, 3-9 to 4-5) · https://irishnewsarchive.com/?a=d&d=CTT20210129.1.83"
+  },
+  {
+    "row": "match:fohenagh-historic-1959-galway-shc-final-replay",
+    "col": "score_values",
+    "val": "Fohenagh 3-9, Castlegar 4-5 per TTH 19 Sep 1959 p.8, CT 19 Sep 1959 and CT 29 Jan 2021 p.83 | Fohenagh 3-9, Castlegar 2-5 per the Galway GAA finals table. Both shown; not resolved."
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_link",
+    "val": "art-feature-ctt-2021-01-29-fohenagh-1959"
+  },
+  {
+    "row": "club:fohenagh-historic",
+    "col": "featured_link_cite",
+    "val": "Connacht Tribune · 29 Jan 2021 · p.83 · https://irishnewsarchive.com/?a=d&d=CTT20210129.1.83"
   }
 ]
