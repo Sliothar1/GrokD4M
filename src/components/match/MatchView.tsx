@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArticleClipSection } from "@/components/ArticleClip";
 import { CitedText } from "@/components/CitedText";
+import { JsonLd } from "@/components/JsonLd";
 import { markCitations } from "@/lib/citations";
 import { storiesForMatch } from "@/lib/parishStories";
 import { ClubChip } from "@/components/chips";
@@ -23,6 +24,7 @@ import {
 } from "@/lib/entityDisplay";
 import { playersInMatch } from "@/lib/matchPlayers";
 import { publicMatchBlurb, sanitizePublicText } from "@/lib/publicText";
+import { breadcrumbNode, jsonLdGraph, sportsEventNode } from "@/lib/structuredData";
 import {
   parseClubIds,
   toClubChip,
@@ -143,8 +145,30 @@ export async function MatchView({ data }: { data: EntityPayload }) {
   const played = await playersInMatch(id);
   const stories = storiesForMatch(`/match/${id.slice("match:".length)}`);
 
+  const factValue = (key: string) => facts.find((fact) => fact.key === key)?.value;
+  const description = [citedBlurb?.text, scoreText ? `Score ${scoreText}` : ""]
+    .filter(Boolean)
+    .join(" ");
   return (
     <article className="space-y-8">
+      <JsonLd
+        data={jsonLdGraph([
+          sportsEventNode({
+            name: summary.title,
+            path: summary.href,
+            startDate: factValue("date"),
+            venue: factValue("venue"),
+            competition: factValue("competition"),
+            description,
+            teams: clubs.map((club) => ({ name: club.name, path: club.href })),
+          }),
+          breadcrumbNode([
+            { name: "HurlingWiki", path: "/" },
+            { name: "Games", path: "/browse/games" },
+            { name: summary.title, path: summary.href },
+          ]),
+        ])}
+      />
       <header className="space-y-3">
         <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon">
           Match

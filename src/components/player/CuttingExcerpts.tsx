@@ -151,7 +151,11 @@ function PressCard({
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={cutting.imagePath}
-            alt=""
+            alt={
+              cutting.citeChip
+                ? `Newspaper clipping, ${cutting.citeChip}`
+                : `Newspaper clipping, ${cutting.title}`
+            }
             className="h-28 w-[4.5rem] shrink-0 rounded-md bg-white object-cover shadow-inner sm:h-32 sm:w-24"
           />
         ) : (

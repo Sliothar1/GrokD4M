@@ -5,13 +5,15 @@ import { CorrectionForm } from "@/components/CorrectionForm";
 import { correctionsFormEnabled } from "@/lib/corrections/config";
 import { normalisePage } from "@/lib/corrections/validate";
 import { getEntity } from "@/lib/data";
+import { withPageMeta } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = withPageMeta({
   title: "Suggest a correction or request removal",
+  path: "/corrections",
   robots: { index: false, follow: false },
-};
+});
 
 export default async function CorrectionsPage({
   searchParams,

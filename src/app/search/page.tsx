@@ -1,10 +1,9 @@
 import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
 import { searchWiki, type EntitySummary } from "@/lib/data";
+import { withPageMeta } from "@/lib/site";
 
-export const metadata = {
-  title: "Search",
-};
+export const metadata = withPageMeta({ title: "Search", path: "/search" });
 
 function ResultGroup({
   title,

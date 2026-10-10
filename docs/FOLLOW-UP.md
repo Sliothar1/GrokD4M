@@ -46,3 +46,10 @@ Must-haves for this push are the Bainisteoir fails except the navy change, the g
 - `scripts/smoke-fohenagh-hero.ts` still fails on Oliver Deeley. `player:ollie-deeley` has two `notable` cells. The later one is the long Connacht Tribune paragraph, so the lead no longer starts "Won an All-Ireland hurling medal at under-14 with Galway." Append a last-wins `notable` that keeps that opening sentence and the later printed facts.
 - Club-page wording, the Athenry book sentence, Cathal Lohan's canonical slug, citation-only leads, clipping quote numbers, and Brendan Lally's 1950s era were handled in this branch. They were not re-crawled against the new preview before the deadline.
 - Tynagh appears once in the Games menu, labelled "1956 Tynagh at Kiltormer". The Cussane game is labelled "Cussane".
+
+## Still to come
+
+- More clubs.
+- A custom domain.
+- Live search suggestions.
+- A "Recently added" section.

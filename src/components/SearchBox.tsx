@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import { FormEvent, useId, useState } from "react";
 
 export function SearchBox({
   large = false,
@@ -12,6 +12,7 @@ export function SearchBox({
 }) {
   const router = useRouter();
   const [q, setQ] = useState(initialQuery);
+  const inputId = `hurling-search-${useId().replace(/:/g, "")}`;
 
   function go(query: string) {
     const trimmed = query.trim();
@@ -26,11 +27,11 @@ export function SearchBox({
   return (
     <div className="w-full">
       <form onSubmit={onSubmit} className="flex w-full flex-col gap-3 sm:flex-row">
-        <label className="sr-only" htmlFor="hurling-search">
+        <label className="sr-only" htmlFor={inputId}>
           Search HurlingWiki
         </label>
         <input
-          id="hurling-search"
+          id={inputId}
           name="q"
           value={q}
           onChange={(e) => setQ(e.target.value)}

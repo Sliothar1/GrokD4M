@@ -3,13 +3,12 @@ import { readArticleUploads } from "@/lib/articles";
 import { listBrowsePlayers } from "@/lib/browsePlayers";
 import { getAssoc } from "@/lib/data";
 import { PARISH_STORIES } from "@/lib/parishStories";
+import { absUrl } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 
-const SITE = "https://hurlingwiki-d4-m.vercel.app";
-
 function abs(path: string): string {
-  return `${SITE}${path}`;
+  return absUrl(path);
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

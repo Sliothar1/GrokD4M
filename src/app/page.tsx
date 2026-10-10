@@ -6,6 +6,9 @@ import { siteCredit } from "@/config/siteCredit";
 import { getEntity } from "@/lib/data";
 import { playerNotableText } from "@/lib/entityDisplay";
 import { sanitizePublicText } from "@/lib/publicText";
+import { withPageMeta } from "@/lib/site";
+
+export const metadata = withPageMeta({ path: "/" });
 
 /** Player spotlights: Tim Sweeney and Jimmy Moclair only (Garry ask, 4 Oct 10:37). */
 const SPOTLIGHT_PLAYER_IDS = [

@@ -3,10 +3,9 @@ import Link from "next/link";
 import { siteCredit } from "@/config/siteCredit";
 import { readArticleUploads } from "@/lib/articles";
 import { demoStats } from "@/lib/data";
+import { withPageMeta } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "About",
-};
+export const metadata: Metadata = withPageMeta({ title: "About", path: "/about" });
 
 async function citedMentions(): Promise<number> {
   const uploads = await readArticleUploads();

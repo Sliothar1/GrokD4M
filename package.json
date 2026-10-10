@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx tsx scripts/smoke-profile-lint.ts && npx tsx scripts/smoke-player-urls.ts && next build",
+    "build": "npx tsx scripts/smoke-profile-lint.ts && npx tsx scripts/smoke-player-urls.ts && npx tsx scripts/smoke-seo.ts && next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.8.0",
+    "@vercel/speed-insights": "^2.0.0",
     "next": "15.5.25",
     "react": "19.1.0",
     "react-dom": "19.1.0"
