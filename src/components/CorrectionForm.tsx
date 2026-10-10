@@ -8,10 +8,19 @@ const REQUEST_OPTIONS = [
   { value: "fix-detail", label: "Fix a detail" },
   { value: "remove-line", label: "Remove a line" },
   { value: "take-down-photo", label: "Take down a photo" },
+  { value: "add-photo", label: "Add a photo" },
   { value: "other", label: "Other" },
 ] as const;
 
-export function CorrectionForm({ page, pageLabel }: { page: string; pageLabel: string }) {
+export function CorrectionForm({
+  page,
+  pageLabel,
+  initialKind,
+}: {
+  page: string;
+  pageLabel: string;
+  initialKind?: string;
+}) {
   const [startedAt, setStartedAt] = useState(0);
   const [status, setStatus] = useState<"idle" | "saving" | "ok" | "err">("idle");
   const [message, setMessage] = useState("");
@@ -85,6 +94,7 @@ export function CorrectionForm({ page, pageLabel }: { page: string; pageLabel: s
                 name="requestKind"
                 value={option.value}
                 required
+                defaultChecked={option.value === initialKind}
                 className="h-4 w-4 shrink-0"
               />
               {option.label}

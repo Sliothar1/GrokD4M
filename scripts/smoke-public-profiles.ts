@@ -7,7 +7,6 @@ import assert from "node:assert/strict";
 import { getAssoc } from "../src/lib/data";
 import {
   FOHENAGH_UNDERAGE_SCHOOLS,
-  NO_CLIPPING_LINE,
   createPlayerProfileContext,
   profileForPlayer,
   publicProfileText,
@@ -59,7 +58,7 @@ async function main() {
     assert.equal(hit, null, `${id} public text hit ${hit}\n${text}`);
     assert.equal(profile.name.length > 0, true, id);
     assert.match(text, /Share a memory/);
-    if (profile.summary === NO_CLIPPING_LINE) placeholders++;
+    if (!profile.summary || /not been added yet/i.test(profile.summary)) placeholders++;
     assert.equal(
       Object.prototype.hasOwnProperty.call(profile, "verified"),
       true
@@ -161,10 +160,12 @@ async function main() {
     club: "Fohenagh",
   });
   assert.equal(bare.verified, false);
-  assert.equal(bare.summary, NO_CLIPPING_LINE);
+  assert.match(bare.summary ?? "", /Bare Name wore the Fohenagh jersey/);
+  assert.match(bare.summary ?? "", /The name stays with the people of the club/);
+  assert.equal(bare.framing, "Club people who served the club and the community.");
   assert.equal(bare.schoolsLine, null);
   assert.equal(bare.headline, "Wore the Fohenagh jersey");
-  assert.doesNotMatch(publicProfileText(bare), /unverified|needs a source/i);
+  assert.doesNotMatch(publicProfileText(bare), /unverified|needs a source|not been added yet/i);
 
   for (const slug of SAMPLE) {
     const id = `player:${slug}`;
@@ -176,6 +177,7 @@ async function main() {
 
   console.log(`sample=${SAMPLE.length}`);
   console.log(SAMPLE.join("\n"));
+  assert.equal(placeholders, 0);
   console.log(`players=${A.entitiesOfType("player").length} placeholders=${placeholders}`);
   console.log("smoke-public-profiles: ok");
 }

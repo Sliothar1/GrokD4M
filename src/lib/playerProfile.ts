@@ -28,14 +28,14 @@ import { firstBannedPublicHit, sanitizePublicText, shortenPublicText } from "@/l
  * "Fohenagh drew on Fohenagh, Killure and Kilgerrill national schools."
  */
 
-export const NO_CLIPPING_LINE = "A newspaper clipping has not been added yet.";
-
 export const FOHENAGH_UNDERAGE_SCHOOLS =
   "Fohenagh drew on Fohenagh, Killure and Kilgerrill national schools.";
 
 const CORRECTION_LABEL = "Suggest a correction or request removal";
 const MEMORY_LABEL = "Share a memory or a match you remember";
 const READ_ORIGINAL = "Read the original";
+const CLUB_FRAMING = "Club people who served the club and the community.";
+const PHOTO_ADD_LABEL = "Add a photo";
 
 export type PublicGame = {
   label: string;
@@ -54,7 +54,11 @@ export type PublicPlayerProfile = {
   eraLine: string | null;
   summary: string | null;
   schoolsLine: string | null;
+  framing: string | null;
   photoUrl: string | null;
+  photoAddHref: string | null;
+  photoAddLabel: string;
+  documentsHeading: string | null;
   games: PublicGame[];
   teammates: PublicTeammate[];
   correctionHref: string | null;
@@ -88,6 +92,7 @@ type ArticleCredit = {
   image?: string;
   portrait?: boolean;
   caption?: string;
+  excerpt?: string;
 };
 
 type ProfileContext = {
@@ -241,28 +246,35 @@ function topHonour(attrs: Record<string, TripleVal>): string | null {
   if (/all-star/i.test(notable)) return "All-Star";
   if (/county title|champion/i.test(notable)) {
     const line = shortenPublicText(notable, 1).replace(/[.!?]$/, "");
-    if (line && line.length <= 140) return line;
+    if (line && line.length <= 140 && !/\bsub\b|substitut|panel/i.test(line)) return line;
   }
   return null;
 }
 
-function citedProse(attrs: Record<string, TripleVal>): string | null {
+function pushCited(parts: string[], raw: unknown) {
+  if (!isDisplayableVal(raw)) return;
+  const text = sanitizePublicText(String(raw));
+  if (!text) return;
+  if (parts.some((part) => part.includes(text) || text.includes(part))) return;
+  parts.push(text);
+}
+
+/** Cited fields and book notes, kept long enough to cover the archive. */
+function citedProse(attrs: Record<string, TripleVal>, excerpts: string[]): string | null {
   const cutting = linkedCuttingCount(attrs) > 0 || isDisplayableVal(attrs.cutting_cite);
-  const picks: Array<string | null> = [];
-  if (hasFieldSource(attrs, "notable") && isDisplayableVal(attrs.notable)) {
-    picks.push(String(attrs.notable));
+  const parts: string[] = [];
+  if (hasFieldSource(attrs, "notable")) pushCited(parts, attrs.notable);
+  if (hasFieldSource(attrs, "notes")) pushCited(parts, attrs.notes);
+  const noteCited = hasFieldSource(attrs, "note") || cutting || httpSource(attrs);
+  if (noteCited) pushCited(parts, attrs.note);
+  for (const key of Object.keys(attrs)
+    .filter((item) => /^book_note(?:_\d+)?$/.test(item))
+    .sort()) {
+    pushCited(parts, attrs[key]);
   }
-  if (hasFieldSource(attrs, "notes") && isDisplayableVal(attrs.notes)) {
-    picks.push(String(attrs.notes));
-  }
-  const noteCited =
-    hasFieldSource(attrs, "note") || cutting || httpSource(attrs);
-  if (noteCited && isDisplayableVal(attrs.note)) picks.push(String(attrs.note));
-  for (const raw of picks) {
-    const text = shortenPublicText(raw ?? "", 2);
-    if (text) return text;
-  }
-  return null;
+  for (const excerpt of excerpts) pushCited(parts, excerpt);
+  const joined = shortenPublicText(parts.join(" "), 8);
+  return joined || null;
 }
 
 function splitPeople(raw: string): string[] {
@@ -321,6 +333,26 @@ function joinNames(names: string[]): string {
   if (names.length === 1) return names[0];
   if (names.length === 2) return `${names[0]} and ${names[1]}`;
   return `${names.slice(0, -1).join(", ")}, and ${names[names.length - 1]}`;
+}
+
+function parishSummary(
+  name: string,
+  jersey: string | null,
+  sport: string | null,
+  era: string | null,
+  gameLabels: string[],
+  mateNames: string[]
+): string {
+  const lines: string[] = [];
+  lines.push(jersey ? `${name} wore the ${jersey} jersey.` : `${name} is named in this record.`);
+  const game = sportLabel(sport);
+  if (game && era) lines.push(`${game} in the ${era}.`);
+  else if (era) lines.push(`The years on file are the ${era}.`);
+  else if (game) lines.push(`${game}.`);
+  if (gameLabels.length > 0) lines.push(`Named in ${joinNames(gameLabels.slice(0, 2))}.`);
+  else if (mateNames.length > 0) lines.push(`Named alongside ${joinNames(mateNames.slice(0, 3))}.`);
+  else lines.push("The name stays with the people of the club.");
+  return lines.slice(0, 3).join(" ");
 }
 
 function editorSummary(
@@ -465,7 +497,17 @@ export function profileForPlayer(
     const text = sanitizePublicText(String(attrs[key]));
     if (text) bookBits.push(text);
   }
-  let summary = [citedProse(attrs), bookBits.join(" ")].filter(Boolean).join(" ") || null;
+  const excerpts = [...creditIds]
+    .map((articleId) => ctx.articles.get(articleId)?.excerpt)
+    .filter((excerpt): excerpt is string => Boolean(excerpt));
+  let summary = citedProse(attrs, excerpts);
+  if (
+    summary &&
+    headline &&
+    summary.replace(/[.!?]+$/g, "") === headline.replace(/[.!?]+$/g, "")
+  ) {
+    summary = null;
+  }
   if (!summary && editorish) {
     summary = editorSummary(
       name,
@@ -474,16 +516,16 @@ export function profileForPlayer(
       teammates.map((mate) => mate.name)
     );
   }
-  const hasClipping = games.some((game) => game.href) || creditIds.size > 0;
-  if (
-    summary &&
-    headline &&
-    summary.replace(/[.!?]+$/g, "") === headline.replace(/[.!?]+$/g, "")
-  ) {
-    summary = null;
+  if (!summary) {
+    summary = parishSummary(
+      name,
+      jersey,
+      sportOf(attrs, apps),
+      eraBit || null,
+      games.map((game) => game.label),
+      teammates.map((mate) => mate.name)
+    );
   }
-  if (!summary && !honour && games[0]) summary = `Named in ${games[0].label}.`;
-  if (!summary && !hasClipping) summary = NO_CLIPPING_LINE;
 
   const underage = mentionsUnderage([
     gradesRaw,
@@ -543,7 +585,14 @@ export function profileForPlayer(
     eraLine,
     summary,
     schoolsLine,
+    framing: isFohenagh(attrs, apps, jersey) ? CLUB_FRAMING : null,
     photoUrl,
+    photoAddHref: showCorrection
+      ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}&kind=add-photo`
+      : null,
+    photoAddLabel: PHOTO_ADD_LABEL,
+    documentsHeading:
+      games.length === 0 ? null : games.some((game) => game.href) ? "Original documents" : "Games",
     games,
     teammates,
     correctionHref: showCorrection ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}` : null,
@@ -566,7 +615,9 @@ export function publicProfileText(profile: PublicPlayerProfile): string {
     profile.eraLine,
     profile.summary,
     profile.schoolsLine,
-    profile.games.length > 0 ? "Games" : null,
+    profile.framing,
+    profile.photoAddHref ? profile.photoAddLabel : null,
+    profile.documentsHeading,
     ...profile.games.flatMap((game) =>
       game.href ? [game.label, READ_ORIGINAL] : [game.label]
     ),
@@ -639,6 +690,7 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
       image: upload.publicUrl || upload.path,
       portrait: upload.kind === "image" && upload.playerTags.length === 1,
       caption: upload.caption,
+      excerpt: upload.excerpt,
     });
   }
 

@@ -2,6 +2,7 @@ export const REQUEST_KINDS = [
   "fix-detail",
   "remove-line",
   "take-down-photo",
+  "add-photo",
   "other",
   "memory",
 ] as const;

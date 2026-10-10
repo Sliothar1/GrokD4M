@@ -73,6 +73,12 @@ export const BANNED_PUBLIC_PATTERNS: { name: string; re: RegExp }[] = [
   { name: "archivist", re: /\barchivist\b/i },
   { name: "ingest", re: /\bingest\b/i },
   { name: "pipeline", re: /\bpipeline\b/i },
+  { name: "rising star", re: /rising star/i },
+  { name: "substitute", re: /substitut/i },
+  { name: "sub", re: /\bsub\b/i },
+  { name: "team-list-only", re: /team-list-only/i },
+  { name: "privacy", re: /\bprivacy\b/i },
+  { name: "clipping not added", re: /not been added yet/i },
 ];
 
 export function firstBannedPublicHit(text: string): string | null {

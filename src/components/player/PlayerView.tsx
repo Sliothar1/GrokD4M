@@ -41,22 +41,36 @@ export function PlayerProfileView({
   return (
     <article className={poster ? "fohenagh-sheet space-y-10" : "space-y-8"}>
       <header className="flex min-w-0 items-start gap-5 sm:gap-6">
-        {profile.photoUrl ? (
+        <div className="shrink-0">
           <div
             className={
               poster
-                ? "h-28 w-24 shrink-0 overflow-hidden border-[3px] border-[var(--fohenagh-blue)] bg-white shadow-sm sm:h-32 sm:w-28"
-                : "h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-galway-cream shadow-sm sm:h-28 sm:w-28"
+                ? "h-28 w-24 overflow-hidden border-[3px] border-[var(--fohenagh-blue)] bg-white shadow-sm sm:h-32 sm:w-28"
+                : "h-24 w-24 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-galway-cream shadow-sm sm:h-28 sm:w-28"
             }
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={profile.photoUrl}
-              alt={profile.name}
-              className="h-full w-full object-cover"
-            />
+            {profile.photoUrl ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={profile.photoUrl}
+                alt={profile.name}
+                className="h-full w-full object-cover"
+              />
+            ) : (
+              <span className="sr-only">No photograph yet</span>
+            )}
           </div>
-        ) : null}
+          {profile.photoAddHref ? (
+            <p className="mt-1 max-w-28 text-center">
+              <Link
+                href={profile.photoAddHref}
+                className="text-[10px] text-galway-ink/40 underline decoration-galway-ink/15 underline-offset-2"
+              >
+                {profile.photoAddLabel}
+              </Link>
+            </p>
+          ) : null}
+        </div>
         <div className="min-w-0 flex-1 space-y-3 pt-0.5">
           {profile.eraLine ? (
             <p className={poster ? "fohenagh-kicker" : "text-sm font-semibold text-stone-700"}>
@@ -77,10 +91,8 @@ export function PlayerProfileView({
               {profile.headline}
             </p>
           ) : null}
-          {poster ? (
-            <p className="text-sm leading-relaxed text-galway-ink/70">
-              Club people who served the club and the community.
-            </p>
+          {profile.framing ? (
+            <p className="text-sm leading-relaxed text-galway-ink/70">{profile.framing}</p>
           ) : null}
         </div>
       </header>
@@ -96,7 +108,7 @@ export function PlayerProfileView({
       {profile.games.length > 0 ? (
         <section>
           <h2 className={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}>
-            Games
+            {profile.documentsHeading}
           </h2>
           <ul className={poster ? "fohenagh-programme" : "space-y-3"}>
             {profile.games.map((game) => (
