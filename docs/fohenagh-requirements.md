@@ -35,3 +35,6 @@
 
 ## Sprint (10 Oct)
 - Preview to Grok Bot by 11:30; polished before noon. Preview only, no merge without Garry.
+
+## Editor
+20. `/editor` is gated by `EDITOR_PASSWORD`. If that variable is unset, the page stays locked. It is `noindex`. The queue approves a memory or rejects an open item in one tap, using the same private store as `scripts/corrections-queue.mjs`. Create, update, and delete for a player, game, or clipping are queued as a proposal. They do not rewrite `data/seed.json` on Vercel; a person applies the proposal in a pull request. HurlingWiki is the benchmark method for Garry's sites.
