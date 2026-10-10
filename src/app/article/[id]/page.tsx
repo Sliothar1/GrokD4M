@@ -64,7 +64,7 @@ export default async function ArticlePage({
     <article className="space-y-6">
       <header className="space-y-2">
         <div className="flex flex-wrap items-center gap-2">
-          <p className="text-sm font-bold uppercase tracking-wide text-galway-gold">
+          <p className="text-sm font-bold uppercase tracking-wide text-galway-gold-ink">
             From cutting
           </p>
           <span className="rounded-full bg-galway-maroon/10 px-3 py-0.5 text-sm font-bold text-galway-maroon">

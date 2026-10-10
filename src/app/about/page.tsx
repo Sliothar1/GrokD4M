@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { siteCredit } from "@/config/siteCredit";
 import { demoStats } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -11,6 +12,17 @@ export default async function AboutPage() {
   return (
     <div className="prose-like max-w-3xl space-y-6">
       <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">About HurlingWiki</h1>
+      <p className="text-base text-galway-ink">
+        {siteCredit.builtBy}
+        {" · "}
+        <a className="font-semibold text-galway-maroon underline" href={siteCredit.scholar.href}>
+          {siteCredit.scholar.label}
+        </a>
+        {" · "}
+        <a className="font-semibold text-galway-maroon underline" href={siteCredit.linkedin.href}>
+          {siteCredit.linkedin.label}
+        </a>
+      </p>
       <p className="text-xl leading-relaxed text-galway-ink/85">
         HurlingWiki is a Hurling Knowledge Site that shows how MIT&apos;s D4M associative
         arrays can hold sports facts as sparse triples.

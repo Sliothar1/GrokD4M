@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { SearchBox } from "@/components/SearchBox";
+import { PaFamilyNav } from "@/components/PaFamilyNav";
 import { EntityCard } from "@/components/EntityCard";
+import { siteCredit } from "@/config/siteCredit";
 import { getEntity } from "@/lib/data";
 import { playerNotableText } from "@/lib/entityDisplay";
 import { sanitizePublicText } from "@/lib/publicText";
@@ -71,8 +73,20 @@ export default async function HomePage() {
               </Link>
             </li>
           </ul>
+          <PaFamilyNav />
         </div>
         <SearchBox large />
+        <p className="text-sm text-[color:var(--text-muted)]">
+          {siteCredit.builtBy}
+          {" · "}
+          <a className="underline underline-offset-2" href={siteCredit.scholar.href}>
+            {siteCredit.scholar.label}
+          </a>
+          {" · "}
+          <a className="underline underline-offset-2" href={siteCredit.linkedin.href}>
+            {siteCredit.linkedin.label}
+          </a>
+        </p>
       </section>
 
       <section className="space-y-4">

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FohenaghPlayerBand } from "@/components/fohenagh/FohenaghArt";
 import { PlayerGamesSelect } from "@/components/player/PlayerGamesSelect";
 import { TerraceNotes } from "@/components/player/TerraceNotes";
+import { ZoomableImage } from "@/components/ZoomableImage";
 import type { getEntity } from "@/lib/data";
 import { getAssoc } from "@/lib/data";
 import { playerClubChips } from "@/lib/playerClubs";
@@ -43,24 +44,32 @@ export function PlayerProfileView({
     <article className={poster ? "fohenagh-sheet space-y-10" : "space-y-8"}>
       <header className="flex min-w-0 items-start gap-5 sm:gap-6">
         <div className="shrink-0">
-          <div
-            className={
-              poster
-                ? "h-28 w-24 overflow-hidden border-[3px] border-[var(--fohenagh-blue)] bg-white shadow-sm sm:h-32 sm:w-28"
-                : "h-24 w-24 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-galway-cream shadow-sm sm:h-28 sm:w-28"
-            }
-          >
-            {profile.photoUrl ? (
-              // eslint-disable-next-line @next/next/no-img-element
+          {profile.photoUrl ? (
+            <div
+              className={
+                poster
+                  ? "h-28 w-24 overflow-hidden border-[3px] border-[var(--fohenagh-blue)] bg-white shadow-sm sm:h-32 sm:w-28"
+                  : "h-24 w-24 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-white shadow-sm sm:h-28 sm:w-28"
+              }
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={profile.photoUrl}
                 alt={profile.name}
                 className="h-full w-full object-cover"
               />
-            ) : (
-              <span className="sr-only">No photograph yet</span>
-            )}
-          </div>
+            </div>
+          ) : (
+            <div
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-galway-maroon/20 text-galway-maroon/70"
+              aria-hidden="true"
+            >
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="1.6">
+                <circle cx="12" cy="9" r="3" />
+                <path d="M6 19c1.2-3 3.2-4.5 6-4.5S16.8 16 18 19" strokeLinecap="round" />
+              </svg>
+            </div>
+          )}
           {profile.photoAddHref ? (
             <p className="mt-1 max-w-28 text-center">
               <Link
@@ -100,6 +109,22 @@ export function PlayerProfileView({
 
       {profile.summary ? (
         <p className="max-w-2xl text-[1.05rem] leading-relaxed text-galway-ink">{profile.summary}</p>
+      ) : null}
+
+      {profile.snippets.length > 0 ? (
+        <div className="grid max-w-3xl gap-4 sm:grid-cols-2">
+          {profile.snippets.map((snippet) => (
+            <figure key={snippet.src} className="space-y-2">
+              <ZoomableImage
+                src={snippet.src}
+                alt={snippet.alt}
+                credit={snippet.credit}
+                creditUrl={snippet.creditUrl}
+              />
+              <figcaption className="text-sm text-[color:var(--text-muted)]">{snippet.credit}</figcaption>
+            </figure>
+          ))}
+        </div>
       ) : null}
 
       {profile.schoolsLine ? (
@@ -211,6 +236,23 @@ export function PlayerProfileView({
           </Link>
         ) : null}
       </p>
+
+      {profile.references.length > 0 ? (
+        <section>
+          <h2 className={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}>
+            References
+          </h2>
+          <ol className="max-w-2xl list-decimal space-y-1 pl-5 text-sm text-galway-ink">
+            {profile.references.map((ref) => (
+              <li key={ref.href}>
+                <Link href={ref.href} className="font-semibold text-galway-maroon underline underline-offset-2">
+                  {ref.title}
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ) : null}
 
       {profile.credit ? (
         <p className="text-sm font-semibold tracking-wide text-galway-ink">

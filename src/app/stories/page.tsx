@@ -115,7 +115,7 @@ export default async function StoriesPage({
                 key={p.id}
                 className="rounded-2xl border-2 border-dashed border-galway-gold bg-white p-4"
               >
-                <p className="text-xs font-bold uppercase text-galway-gold">
+                <p className="text-xs font-bold uppercase text-galway-gold-ink">
                   Pending
                 </p>
                 <h3 className="text-xl font-bold">{p.title}</h3>

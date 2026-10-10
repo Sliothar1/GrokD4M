@@ -3,9 +3,17 @@ import type { AssocArray, TripleVal } from "@/lib/d4m/AssocArray";
 import { displayNameForRef, getAssoc, isEntityRef, isVerifiedFromCutting, linkedCuttingCount } from "@/lib/data";
 import { isDisplayableVal } from "@/lib/entityDisplay";
 import { SHOW_INA_MEDIA } from "@/lib/ina-media";
+import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 import { readArticleUploads } from "@/lib/articles";
+import { collectClubIdsFromAttrs } from "@/lib/playerClubs";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
-import { firstBannedPublicHit, sanitizePublicText, shapePublicLead, shortenPublicText } from "@/lib/publicText";
+import {
+  composePlayerVignette,
+  firstBannedPublicHit,
+  sanitizePublicText,
+  shapePublicLead,
+  shortenPublicText,
+} from "@/lib/publicText";
 
 /**
  * One public player skin for hurling, camogie, and editor-only additions.
@@ -54,6 +62,18 @@ export type PublicAlsoPlayed = {
   href: string;
 };
 
+export type PublicSnippet = {
+  src: string;
+  alt: string;
+  credit: string;
+  creditUrl?: string;
+};
+
+export type PublicReference = {
+  title: string;
+  href: string;
+};
+
 export type PublicPlayerProfile = {
   slug: string;
   name: string;
@@ -69,6 +89,8 @@ export type PublicPlayerProfile = {
   games: PublicGame[];
   teammates: PublicTeammate[];
   alsoPlayed: PublicAlsoPlayed[];
+  snippets: PublicSnippet[];
+  references: PublicReference[];
   correctionHref: string | null;
   correctionLabel: string;
   memoryHref: string | null;
@@ -95,15 +117,17 @@ type AppearanceRec = {
 };
 
 type ArticleCredit = {
+  id: string;
   credit?: string;
   creditUrl?: string;
   image?: string;
   portrait?: boolean;
   caption?: string;
   excerpt?: string;
+  bookMedia?: boolean;
 };
 
-type ProfileContext = {
+export type ProfileContext = {
   A: AssocArray;
   appearancesByPlayer: Map<string, AppearanceRec[]>;
   byMatch: Map<string, AppearanceRec[]>;
@@ -193,6 +217,62 @@ function decadeSpan(years: number[]): string | null {
   return `${labels[0]}–${labels[labels.length - 1]}`;
 }
 
+const FOHENAGH_CLUB = "club:fohenagh-historic";
+const AMALGAM_CLUB = "club:ahascragh-fohenagh";
+const AMALGAM_NAME = /Ahascragh[\s.\u2010-\u2015/\-]*Fohenagh/gi;
+const INTERNAL_NOTE = /\bHOLD\b|\bdistinct from\b|\bno merge\b|\bskip orphan\b/i;
+
+function allYears(text: string): number[] {
+  const years: number[] = [];
+  for (const match of text.matchAll(/\b(?:18|19|20)\d{2}\b/g)) {
+    const year = Number(match[0]);
+    if (year >= 1880 && year <= 2035) years.push(year);
+  }
+  return years;
+}
+
+function decadeOf(year: number): string {
+  return `${Math.floor(year / 10) * 10}s`;
+}
+
+/**
+ * Decade of the earliest year that is a Fohenagh record.
+ * Ahascragh-Fohenagh sentences are not Fohenagh records.
+ */
+export function earliestFohenaghYear(
+  attrs: Record<string, TripleVal>,
+  apps: Array<{ year?: string; competition?: string; clubId?: string }>
+): number | null {
+  const years: number[] = [];
+  for (const app of apps) {
+    if (String(app.clubId ?? "").toLowerCase() !== FOHENAGH_CLUB) continue;
+    const year = yearOf(app.year) ?? yearOf(app.competition);
+    if (year) years.push(year);
+  }
+  const blobs: string[] = [];
+  for (const [key, val] of Object.entries(attrs)) {
+    if (!/^(?:note|notes|notable|cutting_cite|secondary_cite|book_cite|debut|book_note(?:_\d+)?)$/.test(key)) {
+      continue;
+    }
+    if (isDisplayableVal(val)) blobs.push(String(val));
+  }
+  for (const chunk of blobs.join("\n").split(/(?<=[.!?\n])\s+/)) {
+    if (INTERNAL_NOTE.test(chunk)) continue;
+    if (!/\bfohenagh\b/i.test(chunk.replace(AMALGAM_NAME, ""))) continue;
+    const withoutLifespan = chunk.replace(
+      /\(\s*((?:18|19|20)\d{2})\s*[–—-]\s*((?:18|19|20)\d{2})\s*\)/g,
+      (full, start: string, end: string) => (Number(end) - Number(start) >= 15 ? "" : full)
+    );
+    years.push(...allYears(withoutLifespan));
+  }
+  if (years.length === 0) return null;
+  return Math.min(...years);
+}
+
+export function decadeLabel(year: number): string {
+  return decadeOf(year);
+}
+
 function mentionsUnderage(values: Array<string | null | undefined>): boolean {
   return values.some((value) => value && /\bunder-?age\b/i.test(value));
 }
@@ -267,8 +347,11 @@ function pushCited(parts: string[], raw: unknown) {
   parts.push(text);
 }
 
-/** Cited fields and book notes, kept long enough to cover the archive. */
-function citedProse(attrs: Record<string, TripleVal>, excerpts: string[]): string | null {
+/**
+ * Cited fields and book notes. Match-report excerpts stay on the game
+ * and article pages; the vignette is the player's own record.
+ */
+function citedProse(attrs: Record<string, TripleVal>): string | null {
   const cutting = linkedCuttingCount(attrs) > 0 || isDisplayableVal(attrs.cutting_cite);
   const parts: string[] = [];
   if (hasFieldSource(attrs, "notable")) pushCited(parts, attrs.notable);
@@ -280,9 +363,7 @@ function citedProse(attrs: Record<string, TripleVal>, excerpts: string[]): strin
     .sort()) {
     pushCited(parts, attrs[key]);
   }
-  for (const excerpt of excerpts) pushCited(parts, excerpt);
-  const joined = shortenPublicText(parts.join(" "), 8);
-  return joined || null;
+  return composePlayerVignette(parts);
 }
 
 function splitPeople(raw: string): string[] {
@@ -368,6 +449,13 @@ function joinNames(names: string[]): string {
   if (names.length === 1) return names[0];
   if (names.length === 2) return `${names[0]} and ${names[1]}`;
   return `${names.slice(0, -1).join(", ")}, and ${names[names.length - 1]}`;
+}
+
+function scrubAmalgamHeader(text: string | null): string | null {
+  if (!text) return null;
+  if (/wore the ahascragh/i.test(text)) return null;
+  const next = text.replace(AMALGAM_NAME, "").replace(/\s{2,}/g, " ").replace(/\s+([,.;])/g, "$1").trim();
+  return next || null;
 }
 
 function plainJerseyLine(
@@ -467,8 +555,18 @@ export function profileForPlayer(
   const clubRaw = isDisplayableVal(attrs.club)
     ? String(attrs.club)
     : apps.find((app) => app.clubId)?.clubId;
-  const club = clubRaw ? jerseyFor(clubRaw, ctx.A) : null;
-  const jersey = club?.jersey ?? null;
+  const clubIds = new Set(collectClubIdsFromAttrs(attrs));
+  for (const app of apps) {
+    if (app.clubId) clubIds.add(app.clubId.toLowerCase());
+  }
+  let jersey: string | null = null;
+  if (clubIds.has(FOHENAGH_CLUB)) {
+    jersey = "Fohenagh";
+  } else if (clubRaw && !/ahascragh-fohenagh/i.test(clubRaw)) {
+    const resolved = jerseyFor(clubRaw, ctx.A);
+    jersey = resolved?.jersey ?? null;
+    if (jersey && /ahascragh-fohenagh/i.test(jersey)) jersey = null;
+  }
 
   const honour = topHonour(attrs);
   const headline = honour ?? (jersey ? `Wore the ${jersey} jersey` : null);
@@ -486,7 +584,8 @@ export function profileForPlayer(
     const cited = yearOf(attrs.cutting_cite);
     if (cited) years.push(cited);
   }
-  const eraBit = eraRaw || decadeSpan(years);
+  const earliest = earliestFohenaghYear(attrs, apps);
+  const eraBit = earliest ? decadeOf(earliest) : eraRaw || decadeSpan(years);
   const eraParts = [
     sportLabel(sportOf(attrs, apps)),
     gradeLabel(gradesRaw),
@@ -545,6 +644,15 @@ export function profileForPlayer(
   for (const token of teammateTokens(attrs)) addMate(resolvePerson(token, ctx, id));
   const teammates = [...mates.values()].sort((a, b) => a.name.localeCompare(b.name));
   const alsoPlayed = alsoPlayedWith(attrs, ctx.A);
+  if (
+    clubIds.has(AMALGAM_CLUB) &&
+    !alsoPlayed.some((club) => club.href === "/club/ahascragh-fohenagh")
+  ) {
+    const amalgamName =
+      sanitizePublicText(displayNameForRef(AMALGAM_CLUB, ctx.A).replace(/\s*·\s*historic\s*$/i, "")) ||
+      "Ahascragh-Fohenagh";
+    alsoPlayed.push({ name: amalgamName, href: "/club/ahascragh-fohenagh" });
+  }
 
   const editorish =
     String(attrs.source ?? "").trim().toLowerCase() === "editor" ||
@@ -559,10 +667,7 @@ export function profileForPlayer(
     const text = sanitizePublicText(String(attrs[key]));
     if (text) bookBits.push(text);
   }
-  const excerpts = [...creditIds]
-    .map((articleId) => ctx.articles.get(articleId)?.excerpt)
-    .filter((excerpt): excerpt is string => Boolean(excerpt));
-  let summary = citedProse(attrs, excerpts);
+  let summary = citedProse(attrs);
   if (
     summary &&
     headline &&
@@ -583,7 +688,7 @@ export function profileForPlayer(
     summary = plainJerseyLine(name, jersey, gradeLabel(gradesRaw), eraBit || null);
   }
 
-  let publicHeadline = headline;
+  let publicHeadline = scrubAmalgamHeader(headline);
   let publicEra = eraLine;
   if (id === "player:brendan-noone-fohenagh") {
     publicHeadline = "Named with the Fohenagh Minor C champions, 1996";
@@ -650,6 +755,43 @@ export function profileForPlayer(
     .filter(Boolean)
     .join(" ");
 
+  const references: PublicReference[] = [];
+  const snippetPool: ArticleCredit[] = [];
+  const seenRef = new Set<string>();
+  for (const articleId of creditIds) {
+    const art = ctx.articles.get(articleId);
+    if (!art) continue;
+    if (!seenRef.has(articleId)) {
+      seenRef.add(articleId);
+      const title = sanitizePublicText(art.caption ?? "") || sanitizePublicText(art.credit ?? "");
+      if (title && !firstBannedPublicHit(title)) {
+        references.push({ title, href: `/article/${articleId}` });
+      }
+    }
+    if (!art.image) continue;
+    if (art.bookMedia && !SHOW_BOOK_MEDIA) continue;
+    if (photoUrl && art.image === photoUrl) continue;
+    snippetPool.push(art);
+  }
+  const snippets: PublicSnippet[] = [];
+  const snippetOrder = [
+    ...snippetPool.filter((art) => !art.portrait),
+    ...snippetPool.filter((art) => art.portrait),
+  ];
+  for (const art of snippetOrder) {
+    if (snippets.length >= 2) break;
+    const creditText = sanitizePublicText(art.credit ?? "") || "Courtesy of Irish Newspaper Archives";
+    if (firstBannedPublicHit(creditText)) continue;
+    const alt = sanitizePublicText(art.caption ?? "") || "Clipping";
+    if (firstBannedPublicHit(alt)) continue;
+    snippets.push({
+      src: art.image!,
+      alt,
+      credit: creditText,
+      creditUrl: art.creditUrl,
+    });
+  }
+
   return {
     slug,
     name,
@@ -668,6 +810,8 @@ export function profileForPlayer(
     games,
     teammates,
     alsoPlayed,
+    snippets,
+    references,
     correctionHref: showCorrection ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}` : null,
     correctionLabel: CORRECTION_LABEL,
     memoryHref: showCorrection
@@ -698,6 +842,9 @@ export function publicProfileText(profile: PublicPlayerProfile): string {
     ...profile.teammates.map((mate) => mate.name),
     profile.alsoPlayed.length > 0 ? "Also played with" : null,
     ...profile.alsoPlayed.map((club) => club.name),
+    ...profile.snippets.flatMap((snippet) => [snippet.alt, snippet.credit]),
+    profile.references.length > 0 ? "References" : null,
+    ...profile.references.map((ref) => ref.title),
     profile.correctionHref ? profile.correctionLabel : null,
     profile.memoryHref ? profile.memoryLabel : null,
     profile.credit,
@@ -760,12 +907,14 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
   for (const upload of await readArticleUploads()) {
     if (upload.inaMedia && !showInaMedia) continue;
     articles.set(upload.id, {
+      id: upload.id,
       credit: upload.credit,
       creditUrl: upload.creditUrl,
       image: upload.publicUrl || upload.path,
       portrait: upload.kind === "image" && upload.playerTags.length === 1,
       caption: upload.caption,
       excerpt: upload.excerpt,
+      bookMedia: upload.bookMedia === true,
     });
   }
 

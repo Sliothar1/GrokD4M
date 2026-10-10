@@ -7,6 +7,7 @@ import {
   type TripleVal,
 } from "@/lib/d4m/AssocArray";
 import seed from "../../data/seed.json";
+import panzerMatches from "../../data/panzer-matches.json";
 import {
   allDerivedUploadTriples,
   articleToSummary,
@@ -94,8 +95,9 @@ export function invalidateAssocCache(): void {
 export async function getAssoc(): Promise<AssocArray> {
   if (!cached) {
     const seedList = Array.isArray(seed) ? seed : [];
+    const panzerList = Array.isArray(panzerMatches) ? panzerMatches : [];
     const derived = await allDerivedUploadTriples();
-    cached = loadAssocFromJson([...seedList, ...derived]);
+    cached = loadAssocFromJson([...seedList, ...panzerList, ...derived]);
   }
   return cached;
 }

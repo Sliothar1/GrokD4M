@@ -87,6 +87,7 @@ export const BANNED_PUBLIC_PATTERNS: { name: string; re: RegExp }[] = [
     name: "Garry Lohan",
     re: /Garry Lohan['’]s collection|(?:clipping|programme|program)\s+from\s+Garry Lohan|\bfrom\s+Garry Lohan\b/i,
   },
+  { name: "distinct from", re: /distinct from/i },
 ];
 
 /** Footer credit is the one public place this name is allowed. */
@@ -228,7 +229,16 @@ export function publicSourceCredit(input: string): string {
 function normalizePublicWording(input: string): string {
   return publicSourceCredit(input)
     .replace(/\bRoH\b/g, "Roll of Honour")
-    .replace(/\([^)]*wiki spelling[^)]*\)/gi, "");
+    .replace(/\([^)]*wiki spelling[^)]*\)/gi, "")
+    .replace(/\s*\([^)]*\bdistinct from\b[^)]*\)/gi, "")
+    .replace(/\s*;\s*distinct from\b[^.]*/gi, "")
+    .replace(/\s+distinct from\b[^.]*/gi, "")
+    .replace(/\s*\(club role, not a playing record\)/gi, "")
+    .replace(
+      /Mentioned in match report for Fohenagh on the 1959 Galway SHC final XV vs Castlegar(?:\s*\([^)]*\))?/gi,
+      "On the Fohenagh XV for the 1959 Galway SHC final against Castlegar"
+    )
+    .replace(/wore the ahascragh[-\s/]fohenagh jersey\.?/gi, "");
 }
 
 function tidySpaces(input: string): string {
@@ -350,14 +360,225 @@ function rewriteOpeningLabel(sentence: string): string {
   return `${capital} (${sourceLabel}).`;
 }
 
+/** Book team-photo captions drop row letters and become one plain sentence. */
+function rewriteBookPhoto(sentence: string): string {
+  const year = sentence.match(/\b((?:18|19|20)\d{2})\s+underage team photo\b/i);
+  if (!year) return sentence;
+  if (!/fohenagh|book|history/i.test(sentence)) return sentence;
+  return `Pictured with the Fohenagh underage team of ${year[1]} (A History of Fohenagh).`;
+}
+
 /** Profile lead: no "panel", and the opening is the fact rather than a source label. */
 export function shapePublicLead(input: string | null): string | null {
   if (!input?.trim()) return input;
-  const sentences = splitSentences(input).map((sentence) => tidySpaces(rewritePanelSentence(sentence)));
+  const sentences = splitSentences(input).map((sentence) =>
+    tidySpaces(rewriteOpeningLabel(rewriteBookPhoto(rewritePanelSentence(sentence))))
+  );
   if (sentences.length === 0) return input;
-  sentences[0] = tidySpaces(rewriteOpeningLabel(sentences[0]));
   const shaped = tidy(sentences.join(" "));
   return shaped || input;
+}
+
+const CATALOGUE_START =
+  /^(named|mentioned|shown|identified|selected|pictured|called up)\b/i;
+
+function finishSentence(sentence: string): string {
+  const body = sentence.replace(/[.!?]+$/g, "").trim();
+  if (!body) return "";
+  return `${body}.`;
+}
+
+/** Keep a career line with internal semicolons in one piece. */
+function clausesOf(sentence: string): string[] {
+  if (/\bclub;\s+/i.test(sentence) && /\btitles?\b/i.test(sentence)) return [sentence];
+  const parts: string[] = [];
+  let buf = "";
+  let depth = 0;
+  for (let i = 0; i < sentence.length; i++) {
+    const ch = sentence[i];
+    if (ch === "(") depth++;
+    else if (ch === ")") depth = Math.max(0, depth - 1);
+    if (ch === ";" && depth === 0) {
+      if (buf.trim()) parts.push(buf.trim());
+      buf = "";
+      continue;
+    }
+    buf += ch;
+  }
+  if (buf.trim()) parts.push(buf.trim());
+  return parts.length > 0 ? parts : [sentence];
+}
+
+/**
+ * "Name (1929–2018) Fohenagh club; Galway SHC titles 1959–1960; Galway senior 1949–1963 (Wikipedia)."
+ * becomes one career sentence. Only groups already in the clause are used.
+ */
+function expandCareerStub(sentence: string): string | null {
+  const cleaned = sentence.replace(/[.]+$/g, "").trim();
+  const match = cleaned.match(
+    /^(.+?)\s+\((\d{4})\s*[–—-]\s*(\d{4})\)\s+(.+?)\s+club;\s+(.+?)\s+titles?\s+([^;]+);\s+(.+?)\s+senior\s+([^.(]+?)\s*\(([^)]+)\)\.?$/i
+  );
+  if (!match) return null;
+  const person = match[1].trim();
+  const club = match[4].trim();
+  const comp = match[5].trim();
+  const titleYears = match[6].trim();
+  const county = match[7].trim();
+  const seniorYears = match[8].trim();
+  const source = match[9].trim();
+  return `${person} (${match[2]}–${match[3]}) hurled with ${club} and for ${county} seniors from ${seniorYears}, and was on the ${comp} title sides of ${titleYears} (${source}).`;
+}
+
+function toProseClause(sentence: string): string {
+  const body = sentence.replace(/[.]+$/g, "").trim();
+  if (!body) return "";
+  if (/^pictured\b/i.test(body)) return finishSentence(body);
+  if (/^(mentioned|named|identified|selected)\b/i.test(body)) {
+    return `He was ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
+  }
+  if (/^(shown|called up)\b/i.test(body)) {
+    return `He is ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
+  }
+  if (/^scored\b/i.test(body)) return `He ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
+  return finishSentence(body);
+}
+
+const VIGNETTE_SENTENCES = 8;
+
+function isCatalogueSentence(sentence: string): boolean {
+  return CATALOGUE_START.test(sentence) || /^scored\b/i.test(sentence);
+}
+
+/** A score, a team photo, or a title is worth keeping when the clipping list is long. */
+function priorityCatalogue(sentence: string): boolean {
+  return /\b(scored|team photo|champions?|winning goal)\b/i.test(sentence);
+}
+
+/** "Named in the photos through 1963" restates the clippings. The book prose does not. */
+function clippingEcho(sentence: string): boolean {
+  return /\bnamed in\b/i.test(sentence) && /\bphotos?\b/i.test(sentence);
+}
+
+function sameFact(a: string, b: string): boolean {
+  const norm = (sentence: string) => sentence.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const left = norm(a);
+  const right = norm(b);
+  if (!left || !right) return false;
+  if (left === right || left.includes(right) || right.includes(left)) return true;
+  const years = (sentence: string) => [...sentence.matchAll(/\b(?:18|19|20)\d{2}\b/g)].map((match) => match[0]);
+  const leftYears = new Set(years(a));
+  const rightYears = years(b);
+  if (leftYears.size > 0 && rightYears.length > 0 && !rightYears.some((year) => leftYears.has(year))) {
+    return false;
+  }
+  if (left.length < 24 || right.length < 24) return false;
+  const words = (sentence: string) =>
+    new Set(sentence.split(" ").filter((word) => word.length > 3));
+  const leftWords = words(left);
+  const rightWords = words(right);
+  if (rightWords.size < 6) return false;
+  let shared = 0;
+  for (const word of rightWords) if (leftWords.has(word)) shared++;
+  return shared / rightWords.size >= 0.62;
+}
+
+function dedupeSentences(sentences: string[]): string[] {
+  const kept: string[] = [];
+  for (const sentence of sentences) {
+    if (kept.some((earlier) => sameFact(earlier, sentence))) continue;
+    kept.push(sentence);
+  }
+  return kept;
+}
+
+/**
+ * Turn a clipping catalogue into a short vignette.
+ * Career lines and book prose lead. A long run of "Named… / Shown…"
+ * clippings is cut back to the score, the team photo, and the title,
+ * in the order the record gives them. Tim Sweeney's cutting list is
+ * the pattern this follows for every player.
+ */
+export function composePlayerVignette(parts: string[]): string | null {
+  const cleaned = parts.map((part) => part.trim()).filter(Boolean);
+  if (cleaned.length === 0) return null;
+  const shaped = shapePublicLead(cleaned.join(" "));
+  if (!shaped) return null;
+  const sentences = splitSentences(shaped)
+    .flatMap(clausesOf)
+    .map((sentence) => sentence.trim())
+    .filter(Boolean);
+
+  type VignetteKind = "career" | "narrative" | "priority" | "other";
+  const items: { text: string; kind: VignetteKind }[] = [];
+  let seenCatalogue = false;
+  for (const sentence of sentences) {
+    const expanded = expandCareerStub(sentence);
+    if (expanded) {
+      items.push({ text: expanded, kind: "career" });
+      continue;
+    }
+    if (isCatalogueSentence(sentence)) {
+      const asLead = !seenCatalogue && !items.some((item) => item.kind !== "career");
+      seenCatalogue = true;
+      const prose = asLead ? finishSentence(sentence) : toProseClause(sentence);
+      if (!prose) continue;
+      items.push({
+        text: prose,
+        kind: !asLead && priorityCatalogue(sentence) ? "priority" : "other",
+      });
+      continue;
+    }
+    const plain = finishSentence(sentence);
+    if (plain) items.push({ text: plain, kind: "narrative" });
+  }
+
+  for (let i = 0; i < items.length; i++) {
+    if (!/\bthat (?:replay|game|final|match|draw)\b/i.test(items[i].text)) continue;
+    for (let j = i - 1; j >= 0; j--) {
+      if (items[j].kind === "other") {
+        items[j].kind = "priority";
+        break;
+      }
+      if (items[j].kind !== "other") break;
+    }
+  }
+
+  const career = items.filter((item) => item.kind === "career");
+  const rest = items.filter((item) => item.kind !== "career" && !clippingEcho(item.text));
+  const chosen = dedupeSentences([...career, ...rest].map((item) => item.text)).map((text) => {
+    const item = [...career, ...rest].find((candidate) => candidate.text === text);
+    return item ?? { text, kind: "narrative" as VignetteKind };
+  });
+  const protectedCount = career.length > 0 ? career.length : Math.min(1, chosen.length);
+  while (chosen.length > VIGNETTE_SENTENCES) {
+    let dropAt = -1;
+    for (let i = chosen.length - 1; i >= protectedCount; i--) {
+      if (chosen[i].kind === "other") {
+        dropAt = i;
+        break;
+      }
+    }
+    if (dropAt < 0) {
+      for (let i = chosen.length - 1; i >= protectedCount; i--) {
+        if (chosen[i].kind === "narrative") {
+          dropAt = i;
+          break;
+        }
+      }
+    }
+    if (dropAt < 0) {
+      for (let i = chosen.length - 1; i >= protectedCount; i--) {
+        if (chosen[i].kind === "priority") {
+          dropAt = i;
+          break;
+        }
+      }
+    }
+    if (dropAt < 0) break;
+    chosen.splice(dropAt, 1);
+  }
+  const vignette = tidy(chosen.map((item) => item.text).join(" "));
+  return vignette || null;
 }
 
 /**

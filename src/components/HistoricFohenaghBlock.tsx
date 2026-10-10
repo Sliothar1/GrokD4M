@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
 
 const AHASCRAGH_TITLE_CHIPS = [
   {
@@ -223,6 +222,50 @@ const FOHENAGH_NOTABLE_GAMES: NotableGame[] = [
     venue: "Pearse Stadium",
     cites: ["1963-08-17 · Connacht Tribune"],
   },
+  {
+    id: "1941-semi",
+    year: "1941",
+    title: "Panzer divisions",
+    result: "Called off",
+    href: "/match/fohenagh-claregalway-1941-county-semi",
+    kidLine: "",
+    score: "",
+    venue: "Athenry",
+    cites: [],
+  },
+  {
+    id: "1956-hospital",
+    year: "1956",
+    title: "Five men went to hospital",
+    result: "Called off",
+    href: "/match/fohenagh-tynagh-junior-abandoned-1956",
+    kidLine: "",
+    score: "",
+    venue: "Kiltormer",
+    cites: [],
+  },
+  {
+    id: "1944-final",
+    year: "1944",
+    title: "The final that waited a year",
+    result: "Runners-up",
+    href: "/match/fohenagh-cussane-1944-ina",
+    kidLine: "",
+    score: "",
+    venue: "Menlough",
+    cites: [],
+  },
+  {
+    id: "1956-hurls",
+    year: "1956",
+    title: "The burning of the hurls",
+    result: "Called off",
+    href: "/match/fohenagh-tynagh-1956-hurls",
+    kidLine: "",
+    score: "",
+    venue: "Kiltormer",
+    cites: [],
+  },
 ];
 
 export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
@@ -318,22 +361,9 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
   );
 }
 
-function resultBadgeClass(result: string) {
-  if (result === "Winners") {
-    return "bg-green-100 text-green-800";
-  }
-  if (result === "Draw") {
-    return "bg-galway-gold/35 text-galway-ink";
-  }
-  return "bg-amber-100 text-amber-900";
-}
-
-/** Historic Fohenagh club page — one game at a time, county finals first. */
+/** Every notable game is a dropdown entry. Choosing one opens that game page. */
 export function FohenaghNotableGamesShelf() {
-  const [picked, setPicked] = useState(FOHENAGH_NOTABLE_GAMES[0].id);
-  const game =
-    FOHENAGH_NOTABLE_GAMES.find((item) => item.id === picked) ??
-    FOHENAGH_NOTABLE_GAMES[0];
+  const router = useRouter();
 
   return (
     <section aria-labelledby="fohenagh-notable-games" className="space-y-4">
@@ -343,65 +373,23 @@ export function FohenaghNotableGamesShelf() {
           Notable games
         </h2>
       </div>
-      <label className="block max-w-xl text-sm font-semibold text-galway-ink/70">
+      <label className="block max-w-xl text-sm font-semibold text-galway-ink">
         Choose a game
         <select
           className="mt-1 w-full rounded-xl border border-[var(--fohenagh-blue)]/30 bg-white px-3 py-2 text-base font-semibold text-galway-ink"
-          value={game.id}
-          onChange={(event) => setPicked(event.target.value)}
+          defaultValue=""
+          onChange={(event) => {
+            if (event.target.value) router.push(event.target.value);
+          }}
         >
+          <option value="">Choose a game</option>
           {FOHENAGH_NOTABLE_GAMES.map((item) => (
-            <option key={item.id} value={item.id}>
+            <option key={item.id} value={item.href}>
               {item.year} · {item.title}
             </option>
           ))}
         </select>
       </label>
-      <article className="max-w-3xl space-y-3 rounded-2xl border border-[var(--fohenagh-blue)]/20 bg-white/80 p-5">
-        {game.id === "six-for-galway" ? (
-          <p className="text-base leading-relaxed text-galway-ink">
-            <Link className="font-semibold text-galway-maroon underline" href="/player/tony-ogorman">Tony O&apos;Gorman</Link>
-            {", "}
-            <Link className="font-semibold text-galway-maroon underline" href="/player/pj-lally-fohenagh">P.J. Lally</Link>
-            {", "}
-            <Link className="font-semibold text-galway-maroon underline" href="/player/tim-sweeney-fohenagh">Tim Sweeney</Link>
-            {", "}
-            <Link className="font-semibold text-galway-maroon underline" href="/player/frank-glynn-fohenagh">Frank Glynn</Link>
-            {", "}
-            <Link className="font-semibold text-galway-maroon underline" href="/player/jim-moclair-fohenagh">Jimmy Moclair</Link>
-            . J. Sweeney is named in the same list. Two players fit that initial, so this page does not guess.
-          </p>
-        ) : null}
-        {game.image && SHOW_BOOK_MEDIA ? (
-          <figure className="space-y-2">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={game.image} alt={game.imageAlt ?? game.title} className="w-full rounded-lg" />
-            <figcaption className="text-xs text-galway-ink/55">
-              From A History of Fohenagh by Tony O&apos;Gorman
-            </figcaption>
-          </figure>
-        ) : null}
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-sm font-black text-galway-maroon">{game.year}</span>
-          <span className={`rounded-full px-2 py-0.5 text-xs font-bold ${resultBadgeClass(game.result)}`}>
-            {game.result}
-          </span>
-        </div>
-        <h3 className="text-2xl font-black text-galway-ink">{game.title}</h3>
-        <p className="text-base leading-relaxed text-galway-ink/80">{game.kidLine}</p>
-        <p className="text-sm font-semibold text-galway-ink">
-          {game.score}
-          {game.venue ? ` · ${game.venue}` : ""}
-        </p>
-        <ul className="space-y-1 text-sm text-galway-ink/70">
-          {game.cites.map((cite) => (
-            <li key={cite}>{cite}</li>
-          ))}
-        </ul>
-        <Link href={game.href} className="inline-block font-semibold text-galway-maroon underline underline-offset-4">
-          Open this game
-        </Link>
-      </article>
     </section>
   );
 }

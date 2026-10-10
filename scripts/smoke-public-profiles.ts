@@ -4,7 +4,10 @@
  * not written into the seed and not rendered.
  */
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { getAssoc } from "../src/lib/data";
+import { uniquePlayerRedirect } from "../src/lib/playerSlug";
+import { auditPlayerProfiles } from "./audit-player-profiles";
 import {
   FOHENAGH_UNDERAGE_SCHOOLS,
   createPlayerProfileContext,
@@ -244,7 +247,7 @@ async function main() {
   ];
   for (const slug of thinIds) {
     const profile = profileForPlayer(ctx, `player:${slug}`, A.entityAttrs(`player:${slug}`));
-    assert.match(profile.summary ?? "", /1990 underage team photo/, slug);
+    assert.match(profile.summary ?? "", /Pictured with the Fohenagh underage team of 1990 \(A History of Fohenagh\)/, slug);
     assert.doesNotMatch(profile.summary ?? "", /wore the Fohenagh jersey|privacy|team-list-only/i, slug);
   }
 
@@ -265,8 +268,19 @@ async function main() {
     "player:tim-sweeney-fohenagh",
     A.entityAttrs("player:tim-sweeney-fohenagh")
   );
+  assert.match(tim.summary ?? "", /hurled with Fohenagh and for Galway seniors from 1949–1963/i);
   assert.match(tim.summary ?? "", /team photo/i);
+  assert.match(tim.summary ?? "", /He scored 1-4/i);
+  assert.match(tim.summary ?? "", /top man in Fohenagh hurling history/);
+  assert.match(tim.summary ?? "", /first played for the club in 1945/);
   assert.doesNotMatch(tim.summary ?? "", /\bpanel\b/i);
+  assert.doesNotMatch(tim.summary ?? "", /distinct from/i);
+  assert.doesNotMatch(tim.summary ?? "", /cavemen|Murray's long drives|Gardaí/);
+  const timSentences = (tim.summary ?? "")
+    .replace(/\b[A-Z]\.\s+/g, "")
+    .split(/(?<=[.!?])\s+/)
+    .filter(Boolean);
+  assert.ok(timSentences.length <= 8, `tim vignette sentences ${timSentences.length}`);
   assert.doesNotMatch(tim.credit ?? "", /Garry Lohan/i);
   assert.match(tim.credit ?? "", /Courtesy of Irish Newspaper Archives/);
 
@@ -279,6 +293,79 @@ async function main() {
     );
     assert.doesNotMatch(profile.summary ?? "", /\bpanel\b/i, slug);
   }
+
+  const alan = profileForPlayer(
+    ctx,
+    "player:alan-moclair-ahascragh-fohenagh",
+    A.entityAttrs("player:alan-moclair-ahascragh-fohenagh")
+  );
+  assert.match(alan.eraLine ?? "", /1990s/);
+  assert.equal(alan.headline, "Wore the Fohenagh jersey");
+  assert.equal(
+    alan.alsoPlayed.some((club) => club.href === "/club/ahascragh-fohenagh"),
+    true
+  );
+  assert.doesNotMatch(`${alan.headline ?? ""}\n${alan.eraLine ?? ""}`, /Ahascragh-Fohenagh/i);
+
+  const killalea = profileForPlayer(
+    ctx,
+    "player:pj-killalea-fohenagh",
+    A.entityAttrs("player:pj-killalea-fohenagh")
+  );
+  assert.match(
+    killalea.summary ?? "",
+    /On the Fohenagh XV for the 1959 Galway SHC final against Castlegar/
+  );
+  assert.doesNotMatch(killalea.summary ?? "", /distinct from/i);
+
+  for (const id of A.entitiesOfType("player")) {
+    const profile = profileForPlayer(ctx, id, A.entityAttrs(id));
+    const header = `${profile.headline ?? ""}\n${profile.eraLine ?? ""}`;
+    assert.doesNotMatch(header, /Ahascragh[\s.\u2010-\u2015/\-]*Fohenagh/i, id);
+    assert.doesNotMatch(publicProfileText(profile), /wore the ahascragh-fohenagh jersey/i, id);
+    assert.doesNotMatch(publicProfileText(profile), /distinct from/i, id);
+  }
+
+  const ids = A.entitiesOfType("player");
+  assert.equal(uniquePlayerRedirect("alan-moclair", ids), "alan-moclair-ahascragh-fohenagh");
+  assert.equal(uniquePlayerRedirect("tim-sweeney", ids), "tim-sweeney-fohenagh");
+  assert.equal(uniquePlayerRedirect("jimmy-devine", ids), "jimmy-devine-fohenagh");
+  assert.equal(uniquePlayerRedirect("brendan-noone", ids), "brendan-noone-fohenagh");
+  assert.equal(uniquePlayerRedirect("sarah-noone", ids), "sarah-noone-fohenagh");
+  assert.equal(uniquePlayerRedirect("jason-lohan", ids), null);
+  assert.equal(A.entityAttrs("player:jason-lohan").type, "player");
+
+  const footer = readFileSync("src/components/SiteFooter.tsx", "utf8");
+  const missing = readFileSync("src/app/not-found.tsx", "utf8");
+  const about = readFileSync("src/app/about/page.tsx", "utf8");
+  const home = readFileSync("src/app/page.tsx", "utf8");
+  const family = readFileSync("src/components/PaFamilyNav.tsx", "utf8");
+  const searchBox = readFileSync("src/components/SearchBox.tsx", "utf8");
+  for (const src of [footer, missing]) {
+    assert.doesNotMatch(src, /Garry Lohan|siteCredit\.builtBy|siteCredit\.scholar|siteCredit\.linkedin|scholar\.google|linkedin\.com\/in\/garry/i);
+  }
+  assert.match(about, /siteCredit\.builtBy/);
+  assert.match(about, /siteCredit\.scholar/);
+  assert.match(about, /siteCredit\.linkedin/);
+  assert.match(home, /siteCredit\.builtBy/);
+  assert.match(siteCredit.builtBy, /Garry Lohan/);
+  assert.match(home, /What you can do here/);
+  assert.match(home, /<PaFamilyNav/);
+  assert.match(family, /aria-label="The PA family of sites"/);
+  assert.match(family, /PA Marine/);
+  assert.match(family, /https:\/\/sliothar1\.github\.io\/PA-Marine-Demo\//);
+  assert.match(family, /PA Réalt/);
+  assert.match(family, /https:\/\/sliothar1\.github\.io\/pa-realt\//);
+  assert.match(searchBox, /Search HurlingWiki/);
+  assert.doesNotMatch(searchBox, /Search Galway Wiki/);
+
+  const audit = await auditPlayerProfiles(ctx);
+  console.log(
+    `audit players=${audit.players} era found=${audit.eraFound} fixed=${audit.eraFixed} remaining=${audit.eraRemaining} jersey found=${audit.jerseyFound} fixed=${audit.jerseyFixed} remaining=${audit.jerseyRemaining}`
+  );
+  console.log(audit.samples.join("\n"));
+  assert.equal(audit.eraRemaining, 0);
+  assert.equal(audit.jerseyRemaining, 0);
 
   assert.equal(citedLeads + plainLines, A.entitiesOfType("player").length);
   assert.equal(placeholders, 0);

@@ -4,28 +4,7 @@ export function SiteFooter() {
   const credit = siteCredit;
   return (
     <footer className="mt-auto border-t border-galway-maroon/20 bg-galway-cream/60">
-      <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-6 text-xs leading-relaxed text-galway-ink/55">
-        <p>
-          {credit.builtBy}
-          {" · "}
-          <a
-            className="underline decoration-galway-ink/25 underline-offset-2 hover:text-galway-maroon"
-            href={credit.scholar.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {credit.scholar.label}
-          </a>
-          {" · "}
-          <a
-            className="underline decoration-galway-ink/25 underline-offset-2 hover:text-galway-maroon"
-            href={credit.linkedin.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {credit.linkedin.label}
-          </a>
-        </p>
+      <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-6 text-xs leading-relaxed text-[color:var(--text-muted)]">
         <p>
           {credit.d4m.before}{" "}
           <a

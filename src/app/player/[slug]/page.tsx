@@ -1,7 +1,17 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
-import { getEntity, listEntitiesByType, resolveId } from "@/lib/data";
+import { getAssoc, getEntity, listEntitiesByType, resolveId } from "@/lib/data";
+import { uniquePlayerRedirect } from "@/lib/playerSlug";
+
+async function loadPlayer(slug: string) {
+  const direct = await getEntity(resolveId("player", slug));
+  if (direct) return { data: direct, redirectTo: null as string | null };
+  const target = uniquePlayerRedirect(slug, (await getAssoc()).entitiesOfType("player"));
+  if (!target) return { data: null, redirectTo: null as string | null };
+  const data = await getEntity(resolveId("player", target));
+  return { data, redirectTo: target };
+}
 
 export async function generateStaticParams() {
   return (await listEntitiesByType("player:")).map((p) => ({
@@ -15,7 +25,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const data = await getEntity(resolveId("player", slug));
+  const { data } = await loadPlayer(slug);
   return { title: data?.summary.title ?? "Player" };
 }
 
@@ -25,7 +35,8 @@ export default async function Page({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const data = await getEntity(resolveId("player", slug));
+  const { data, redirectTo } = await loadPlayer(slug);
+  if (redirectTo) redirect(`/player/${redirectTo}`);
   if (!data) notFound();
   return <PlayerView data={data} />;
 }

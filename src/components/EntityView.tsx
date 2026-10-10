@@ -81,7 +81,6 @@ export async function EntityView({ data }: { data: EntityPayload }) {
             <div className="space-y-4">
               <p className="fohenagh-kicker">The jersey</p>
               <h1 className="fohenagh-display">{summary.title}</h1>
-              <p className="fohenagh-deck">The players who wore it.</p>
               {summary.subtitle ? (
                 <p className="text-sm font-semibold tracking-wide text-galway-ink/60">
                   {summary.subtitle}

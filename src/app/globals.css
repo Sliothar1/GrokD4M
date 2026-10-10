@@ -1,13 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --galway-maroon: #7a0c2e;
-  --galway-maroon-dark: #5c0922;
-  --galway-gold: #c9a227;
-  --galway-cream: #f7f1e8;
+  --galway-maroon: #1c3a8f;
+  --galway-maroon-dark: #142a68;
+  --galway-gold: #f6e27a;
+  --galway-gold-ink: #8a6d12;
+  --galway-cream: #f4f6fb;
   --galway-ink: #1a1215;
-  --background: var(--galway-cream);
+  --background: #f4f6fb;
   --foreground: var(--galway-ink);
+  /* 7:1 on the cool paper. Used for small muted lines. */
+  --text-muted: #3a4560;
 }
 
 @theme inline {
@@ -16,6 +19,7 @@
   --color-galway-maroon: var(--galway-maroon);
   --color-galway-maroon-dark: var(--galway-maroon-dark);
   --color-galway-gold: var(--galway-gold);
+  --color-galway-gold-ink: var(--galway-gold-ink);
   --color-galway-cream: var(--galway-cream);
   --color-galway-ink: var(--galway-ink);
   --font-sans: var(--font-geist-sans);
@@ -37,14 +41,14 @@ body {
   --fohenagh-blue: #1c3a8f;
   --fohenagh-blue-deep: #142a68;
   --fohenagh-ink: #1c1814;
-  --fohenagh-paper: #f6f1e6;
+  --fohenagh-paper: #eef2f8;
   --galway-maroon: var(--fohenagh-blue);
   --galway-maroon-dark: var(--fohenagh-blue-deep);
   --color-galway-maroon: var(--fohenagh-blue);
   --color-galway-maroon-dark: var(--fohenagh-blue-deep);
   background:
-    radial-gradient(ellipse at 8% 0%, rgba(28, 58, 143, 0.07), transparent 46%),
-    linear-gradient(180deg, #f8f4ec 0%, var(--fohenagh-paper) 38%, #efe8da 100%);
+    radial-gradient(ellipse at 8% 0%, rgba(28, 58, 143, 0.08), transparent 46%),
+    linear-gradient(180deg, #f7f8fc 0%, var(--fohenagh-paper) 38%, #e6ebf5 100%);
   color: var(--fohenagh-ink);
   margin: 0 -0.25rem;
   padding: 2.75rem 1.35rem 3.5rem;
@@ -316,4 +320,40 @@ body {
 .fohenagh-alongside a:focus-visible {
   color: var(--fohenagh-blue);
   border-bottom-color: var(--fohenagh-blue);
+}
+
+/* Small ink at low opacity fails AA on the paper. These shades clear 4.5:1. */
+.text-galway-ink\/40,
+.text-galway-ink\/45,
+.text-galway-ink\/50,
+.text-galway-ink\/55,
+.text-galway-ink\/60 {
+  color: var(--text-muted);
+}
+
+.placeholder\:text-galway-ink\/40::placeholder {
+  color: var(--text-muted);
+  opacity: 1;
+}
+
+.pa-family {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.85rem;
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.pa-family-label {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--galway-ink);
+}
+
+.pa-family a {
+  font-weight: 700;
+  color: var(--galway-maroon);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }

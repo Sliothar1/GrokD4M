@@ -28,6 +28,36 @@ import {
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
+function ComicMark({ kind }: { kind: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5 shrink-0 text-galway-maroon"
+      aria-hidden="true"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+    >
+      {kind === "clock" ? (
+        <>
+          <circle cx="12" cy="12" r="8" />
+          <path d="M12 8v5l3 2" />
+        </>
+      ) : kind === "hurls" ? (
+        <path d="M8 20c1.5-6 2-11 1-15M16 20c-1.5-6-2-11-1-15" />
+      ) : kind === "paper" ? (
+        <>
+          <rect x="6" y="4" width="12" height="16" rx="1.5" />
+          <path d="M9 8h6M9 12h6M9 16h4" />
+        </>
+      ) : (
+        <path d="M4 16h16M6 16c1.2-4 3-7 6-7s4.8 3 6 7" />
+      )}
+    </svg>
+  );
+}
+
 /**
  * Kid-facing match page: clean header, cuttings as press cards,
  * compact facts — not the EntityView sticky-note wall.
@@ -103,9 +133,15 @@ export async function MatchView({ data }: { data: EntityPayload }) {
   return (
     <article className="space-y-8">
       <header className="space-y-3">
-        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon/80">
+        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon">
           Match
         </p>
+        {isDisplayableVal(attrs.comic_title) ? (
+          <p className="flex items-center gap-2 text-base font-semibold text-galway-ink">
+            <ComicMark kind={String(attrs.comic_mark ?? "")} />
+            {sanitizePublicText(String(attrs.comic_title))}
+          </p>
+        ) : null}
         <h1 className="text-[1.75rem] font-black leading-[1.15] tracking-tight text-galway-ink sm:text-4xl">
           {summary.title}
         </h1>
