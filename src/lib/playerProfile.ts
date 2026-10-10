@@ -34,7 +34,7 @@ export const FOHENAGH_UNDERAGE_SCHOOLS =
   "Fohenagh drew on Fohenagh, Killure and Kilgerrill national schools.";
 
 const CORRECTION_LABEL = "Suggest a correction or request removal";
-const MEMORY_LABEL = "Share a memory";
+const MEMORY_LABEL = "Share a memory or a match you remember";
 const READ_ORIGINAL = "Read the original";
 
 export type PublicGame = {
@@ -59,7 +59,7 @@ export type PublicPlayerProfile = {
   teammates: PublicTeammate[];
   correctionHref: string | null;
   correctionLabel: string;
-  memoryHref: string;
+  memoryHref: string | null;
   memoryLabel: string;
   credit: string | null;
   creditHref: string | null;
@@ -505,7 +505,9 @@ export function profileForPlayer(
     teammates,
     correctionHref: showCorrection ? `/corrections?page=${encodeURIComponent(`/player/${slug}`)}` : null,
     correctionLabel: CORRECTION_LABEL,
-    memoryHref: "/stories",
+    memoryHref: showCorrection
+      ? `/memories?page=${encodeURIComponent(`/player/${slug}`)}`
+      : null,
     memoryLabel: MEMORY_LABEL,
     credit,
     creditHref,
@@ -528,7 +530,7 @@ export function publicProfileText(profile: PublicPlayerProfile): string {
     profile.teammates.length > 0 ? "Played alongside" : null,
     ...profile.teammates.map((mate) => mate.name),
     profile.correctionHref ? profile.correctionLabel : null,
-    profile.memoryLabel,
+    profile.memoryHref ? profile.memoryLabel : null,
     profile.credit,
   ];
   return lines.filter(Boolean).join("\n");

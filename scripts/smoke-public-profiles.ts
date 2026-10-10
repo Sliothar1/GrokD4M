@@ -33,7 +33,7 @@ const SAMPLE = [
   "jason-lohan",
   "tim-sweeney-fohenagh",
   "jim-moclair-fohenagh",
-  "aaron-kirwan-ahascragh-fohenagh",
+  "jimmy-devine-fohenagh",
   "maureen-madden-fohenagh-camogie",
 ];
 

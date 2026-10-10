@@ -1,24 +1,54 @@
 import Link from "next/link";
+import { FohenaghPlayerBand } from "@/components/fohenagh/FohenaghArt";
+import { TerraceNotes } from "@/components/player/TerraceNotes";
 import type { getEntity } from "@/lib/data";
+import { getAssoc } from "@/lib/data";
+import { playerClubChips } from "@/lib/playerClubs";
 import { loadPlayerProfile, type PublicPlayerProfile } from "@/lib/playerProfile";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
+const FOHENAGH_HISTORIC = "club:fohenagh-historic";
+
 /**
  * Every player page renders this allowlist. Pipeline notes, lane tags,
  * verification badges, and ids are not passed through.
+ * Players who wore historic Fohenagh get the poster skin around the same template.
  */
 export async function PlayerView({ data }: { data: EntityPayload }) {
   const profile = await loadPlayerProfile(data.id, data.attrs);
-  return <PlayerProfileView profile={profile} />;
+  const A = await getAssoc();
+  const woreFohenagh = playerClubChips(data.id, data.attrs, data.related, A).some(
+    (club) => club.id === FOHENAGH_HISTORIC
+  );
+  const sheet = <PlayerProfileView profile={profile} poster={woreFohenagh} />;
+  if (!woreFohenagh) return sheet;
+  return (
+    <div className="fohenagh-poster fohenagh-poster-player">
+      <FohenaghPlayerBand />
+      {sheet}
+    </div>
+  );
 }
 
-export function PlayerProfileView({ profile }: { profile: PublicPlayerProfile }) {
+export function PlayerProfileView({
+  profile,
+  poster = false,
+}: {
+  profile: PublicPlayerProfile;
+  poster?: boolean;
+}) {
   return (
-    <article className="space-y-8">
-      <header className="flex min-w-0 items-start gap-4 sm:gap-5">
+    <article className={poster ? "fohenagh-sheet space-y-10" : "space-y-8"}>
+      <header className="flex min-w-0 items-start gap-5 sm:gap-6">
         {profile.photoUrl ? (
-          <div className="h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-galway-cream shadow-sm sm:h-28 sm:w-28">
+          <div
+            className={
+              poster
+                ? "h-28 w-24 shrink-0 overflow-hidden border-[3px] border-[var(--fohenagh-blue)] bg-white shadow-sm sm:h-32 sm:w-28"
+                : "h-24 w-24 shrink-0 overflow-hidden rounded-2xl border border-galway-maroon/15 bg-galway-cream shadow-sm sm:h-28 sm:w-28"
+            }
+          >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={profile.photoUrl}
@@ -27,48 +57,58 @@ export function PlayerProfileView({ profile }: { profile: PublicPlayerProfile })
             />
           </div>
         ) : null}
-        <div className="min-w-0 flex-1 space-y-2 pt-0.5">
-          <h1 className="text-[1.85rem] font-black leading-[1.1] tracking-tight text-galway-ink sm:text-5xl">
+        <div className="min-w-0 flex-1 space-y-3 pt-0.5">
+          {profile.eraLine ? (
+            <p className={poster ? "fohenagh-kicker" : "text-sm font-semibold text-stone-700"}>
+              {profile.eraLine}
+            </p>
+          ) : null}
+          <h1 className={poster ? "fohenagh-name" : "text-[1.85rem] font-black leading-[1.1] tracking-tight text-galway-ink sm:text-5xl"}>
             {profile.name}
           </h1>
           {profile.headline ? (
-            <p className="text-lg font-semibold text-galway-maroon sm:text-xl">
+            <p
+              className={
+                poster
+                  ? "fohenagh-deck"
+                  : "text-lg font-semibold text-galway-maroon sm:text-xl"
+              }
+            >
               {profile.headline}
             </p>
-          ) : null}
-          {profile.eraLine ? (
-            <p className="text-sm font-semibold text-stone-700">{profile.eraLine}</p>
           ) : null}
         </div>
       </header>
 
       {profile.summary ? (
-        <p className="max-w-3xl text-base leading-relaxed text-galway-ink">{profile.summary}</p>
+        <p className="max-w-2xl text-[1.05rem] leading-relaxed text-galway-ink">{profile.summary}</p>
       ) : null}
 
       {profile.schoolsLine ? (
-        <p className="max-w-3xl text-base leading-relaxed text-stone-700">
-          {profile.schoolsLine}
-        </p>
+        <p className="max-w-2xl text-base leading-relaxed text-stone-700">{profile.schoolsLine}</p>
       ) : null}
 
       {profile.games.length > 0 ? (
         <section>
-          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+          <h2 className={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}>
             Games
           </h2>
-          <ul className="space-y-3">
+          <ul className={poster ? "fohenagh-programme" : "space-y-3"}>
             {profile.games.map((game) => (
               <li
                 key={`${game.label}|${game.href ?? ""}`}
-                className="rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3"
+                className={
+                  poster
+                    ? undefined
+                    : "rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3"
+                }
               >
                 <p className="font-semibold text-galway-ink">{game.label}</p>
                 {game.href ? (
                   <p className="mt-1">
                     <Link
                       href={game.href}
-                      className="font-semibold text-galway-maroon underline underline-offset-2"
+                      className="font-semibold text-galway-maroon underline decoration-galway-maroon/30 underline-offset-4"
                     >
                       Read the original
                     </Link>
@@ -82,17 +122,21 @@ export function PlayerProfileView({ profile }: { profile: PublicPlayerProfile })
 
       {profile.teammates.length > 0 ? (
         <section>
-          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+          <h2 className={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}>
             Played alongside
           </h2>
-          <p className="flex flex-wrap gap-x-1 gap-y-1 text-base text-galway-ink">
+          <p className={poster ? "fohenagh-alongside" : "flex flex-wrap gap-x-1 gap-y-1 text-base text-galway-ink"}>
             {profile.teammates.map((mate, index) => (
               <span key={mate.href ?? mate.name}>
                 {index > 0 ? <span className="text-stone-400">, </span> : null}
                 {mate.href ? (
                   <Link
                     href={mate.href}
-                    className="font-semibold text-galway-maroon underline underline-offset-2"
+                    className={
+                      poster
+                        ? undefined
+                        : "font-semibold text-galway-maroon underline underline-offset-2"
+                    }
                   >
                     {mate.name}
                   </Link>
@@ -105,35 +149,39 @@ export function PlayerProfileView({ profile }: { profile: PublicPlayerProfile })
         </section>
       ) : null}
 
-      <p className="border-t border-galway-maroon/15 pt-4 text-sm text-galway-ink/70">
+      <TerraceNotes page={`/player/${profile.slug}`} />
+
+      <p className="border-t border-galway-maroon/20 pt-5 text-sm leading-relaxed text-galway-ink/65">
         {profile.correctionHref ? (
           <>
             <Link
               href={profile.correctionHref}
               rel="nofollow"
-              className="font-semibold text-galway-maroon underline underline-offset-2 hover:text-galway-maroon-dark"
+              className="underline decoration-galway-ink/25 underline-offset-4 hover:text-galway-ink"
             >
               {profile.correctionLabel}
             </Link>
-            <span aria-hidden> · </span>
+            {profile.memoryHref ? <span aria-hidden> · </span> : null}
           </>
         ) : null}
-        <Link
-          href={profile.memoryHref}
-          className="font-semibold text-galway-maroon underline underline-offset-2 hover:text-galway-maroon-dark"
-        >
-          {profile.memoryLabel}
-        </Link>
+        {profile.memoryHref ? (
+          <Link
+            href={profile.memoryHref}
+            className="underline decoration-galway-ink/25 underline-offset-4 hover:text-galway-ink"
+          >
+            {profile.memoryLabel}
+          </Link>
+        ) : null}
       </p>
 
       {profile.credit ? (
-        <p className="text-sm font-semibold text-galway-ink">
+        <p className="text-sm font-semibold tracking-wide text-galway-ink">
           {profile.creditHref ? (
             <a
               href={profile.creditHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-galway-maroon underline underline-offset-2"
+              className="text-galway-maroon underline decoration-galway-maroon/30 underline-offset-4"
             >
               {profile.credit}
             </a>

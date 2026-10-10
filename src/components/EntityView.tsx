@@ -36,6 +36,7 @@ import {
   resolveEntitySources,
   type LinkedCuttingSource,
 } from "@/lib/sources";
+import { FohenaghMarks } from "@/components/fohenagh/FohenaghArt";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
@@ -70,16 +71,34 @@ export async function EntityView({ data }: { data: EntityPayload }) {
     summary.kind === "club" ? await listClubRoster(id, A) : [];
 
   return (
-    <article className="space-y-8">
-      <header className="space-y-2">
-        <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">
-          {summary.kind.replace("_", " ")}
-        </p>
-        <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">
-          {summary.title}
-        </h1>
-        {summary.subtitle && (
-          <p className="text-xl text-galway-ink/70">{summary.subtitle}</p>
+    <article className={isHistoricFohenagh ? "fohenagh-poster space-y-12" : "space-y-8"}>
+      <header className={isHistoricFohenagh ? "space-y-8" : "space-y-2"}>
+        {isHistoricFohenagh ? (
+          <div className="fohenagh-hero-top">
+            <div className="space-y-4">
+              <p className="fohenagh-kicker">The jersey</p>
+              <h1 className="fohenagh-display">{summary.title}</h1>
+              <p className="fohenagh-deck">The players who wore it.</p>
+              {summary.subtitle ? (
+                <p className="text-sm font-semibold tracking-wide text-galway-ink/60">
+                  {summary.subtitle}
+                </p>
+              ) : null}
+            </div>
+            <FohenaghMarks />
+          </div>
+        ) : (
+          <>
+            <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">
+              {summary.kind.replace("_", " ")}
+            </p>
+            <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">
+              {summary.title}
+            </h1>
+            {summary.subtitle && (
+              <p className="text-xl text-galway-ink/70">{summary.subtitle}</p>
+            )}
+          </>
         )}
         <div className="flex flex-wrap items-center gap-2 pt-1">
           {trust && (
@@ -121,7 +140,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           </div>
         )}
 
-        {(summary.kind === "player" || summary.kind === "club") && heroCutting?.imagePath && (
+        {(summary.kind === "player" || summary.kind === "club") &&
+          heroCutting?.imagePath &&
+          !isHistoricFohenagh && (
           <div className="pt-3">
             <a href={heroCutting.href} className="block overflow-hidden rounded-2xl border-2 border-galway-maroon/20">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -138,23 +159,43 @@ export async function EntityView({ data }: { data: EntityPayload }) {
         )}
       </header>
 
-      {attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt ? (
+      {!isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
         <p className="text-lg leading-relaxed text-galway-ink">
           {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
         </p>
       ) : null}
 
-      {isHistoricFohenagh && <HistoricClubPanel showStories={false} />}
-
       {isHistoricFohenagh && summary.kind === "club" ? (
-        <ClubRoster
-          rows={clubRoster}
-          clubName={summary.title}
-          unverifiedLabel="Being verified"
-          omitAlsoClubIds={["club:ahascragh-fohenagh"]}
-          separateUnverifiedLinks
-        />
+        <div className="fohenagh-stage">
+          <ClubRoster
+            rows={clubRoster}
+            clubName={summary.title}
+            unverifiedLabel="Being verified"
+            omitAlsoClubIds={["club:ahascragh-fohenagh"]}
+            separateUnverifiedLinks
+            presentation="poster"
+          />
+          {heroCutting?.imagePath ? (
+            <figure className="fohenagh-cutting">
+              <a href={heroCutting.href}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={heroCutting.imagePath} alt={heroCutting.title} />
+              </a>
+              <figcaption>
+                From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
+              </figcaption>
+            </figure>
+          ) : null}
+        </div>
       ) : null}
+
+      {isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
+        <p className="max-w-3xl text-lg leading-relaxed text-galway-ink">
+          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
+        </p>
+      ) : null}
+
+      {isHistoricFohenagh && <HistoricClubPanel showStories={false} />}
 
       {isHistoricFohenagh && <HistoricStoryChips />}
 
