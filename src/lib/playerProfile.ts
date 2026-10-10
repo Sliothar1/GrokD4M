@@ -1133,7 +1133,7 @@ export function profileForPlayer(
   }
 
   let leadHeadline = publicHeadline;
-  let leadEra = publicEra;
+  const leadEra = publicEra;
   let leadSummary = citedSummary;
   if (id === "player:brendan-noone-fohenagh") {
     leadHeadline = "Named with the Fohenagh Minor C champions, 1996";
