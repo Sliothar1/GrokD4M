@@ -4,7 +4,7 @@ import { displayNameForRef, getAssoc, isEntityRef, isVerifiedFromCutting, linked
 import { isDisplayableVal } from "@/lib/entityDisplay";
 import { SHOW_INA_MEDIA } from "@/lib/ina-media";
 import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
-import { readArticleUploads } from "@/lib/articles";
+import { articleSameAsId, readArticleUploads } from "@/lib/articles";
 import { collectClubIdsFromAttrs } from "@/lib/playerClubs";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
 import { markCitations, splitCiteSentences } from "@/lib/citations";
@@ -143,6 +143,8 @@ export type ProfileContext = {
   nameIndex: Map<string, string[]>;
   articles: Map<string, ArticleCredit>;
   articlesByDay: Map<string, ArticleCredit[]>;
+  /** Players whose same_as points at this id. */
+  aliasesByCanonical: Map<string, string[]>;
 };
 
 const contextCache = new Map<string, Promise<ProfileContext>>();
@@ -608,13 +610,16 @@ export function profileForPlayer(
 ): PublicPlayerProfile {
   const slug = id.startsWith("player:") ? id.slice("player:".length) : id;
   let attrs = { ...passed };
-  for (const aliasId of aliasPlayerIds(slug)) {
+  const inbound = ctx.aliasesByCanonical.get(id) ?? [];
+  const aliasIds = [...new Set([...aliasPlayerIds(slug), ...inbound])];
+  for (const aliasId of aliasIds) {
+    if (aliasId === id) continue;
     attrs = mergePlayerAttrRecords(attrs, ctx.A.entityAttrs(aliasId));
   }
   const name = sanitizePublicText(String(attrs.name ?? slug)) || slug;
   const apps = [
     ...(ctx.appearancesByPlayer.get(id) ?? []),
-    ...aliasPlayerIds(slug).flatMap((aliasId) => ctx.appearancesByPlayer.get(aliasId) ?? []),
+    ...aliasIds.flatMap((aliasId) => ctx.appearancesByPlayer.get(aliasId) ?? []),
   ];
   const clubRaw = isDisplayableVal(attrs.club)
     ? String(attrs.club)
@@ -1042,7 +1047,7 @@ export function publicProfileText(profile: PublicPlayerProfile): string {
     ...profile.teammates.map((mate) => mate.name),
     profile.alsoPlayed.length > 0 ? "Also played with" : null,
     ...profile.alsoPlayed.map((club) => club.name),
-    ...profile.snippets.flatMap((snippet) => [snippet.alt, snippet.credit]),
+    ...profile.snippets.flatMap((snippet) => [snippet.alt, snippet.quote, snippet.credit]),
     profile.references.length > 0 ? "References" : null,
     ...profile.references.map((ref) => ref.title),
     profile.correctionHref ? profile.correctionLabel : null,
@@ -1103,9 +1108,24 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
     nameIndex.set(key, hits);
   }
 
+  const aliasesByCanonical = new Map<string, string[]>();
+  for (const playerId of A.entitiesOfType("player")) {
+    const same = String(A.entityAttrs(playerId).same_as ?? "");
+    if (!same.startsWith("player:") || same === playerId) continue;
+    const list = aliasesByCanonical.get(same) ?? [];
+    list.push(playerId);
+    aliasesByCanonical.set(same, list);
+  }
+
   const articles = new Map<string, ArticleCredit>();
   const articlesByDay = new Map<string, ArticleCredit[]>();
+  const aliases: { id: string; target: string }[] = [];
   for (const upload of await readArticleUploads()) {
+    const target = articleSameAsId(upload);
+    if (target) {
+      aliases.push({ id: upload.id, target });
+      continue;
+    }
     if (upload.inaMedia && !showInaMedia) continue;
     const credit: ArticleCredit = {
       id: upload.id,
@@ -1127,8 +1147,12 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
       articlesByDay.set(day[1], list);
     }
   }
+  for (const alias of aliases) {
+    const canonical = articles.get(alias.target);
+    if (canonical) articles.set(alias.id, canonical);
+  }
 
-  return { A, appearancesByPlayer, byMatch, playerName, nameIndex, articles, articlesByDay };
+  return { A, appearancesByPlayer, byMatch, playerName, nameIndex, articles, articlesByDay, aliasesByCanonical };
 }
 
 export async function loadPlayerProfile(

@@ -13,7 +13,12 @@ import {
   profileForPlayer,
   publicProfileText,
 } from "../src/lib/playerProfile";
-import { namesPersonHurt, sanitizePublicText } from "../src/lib/publicText";
+import {
+  beyondPlayingHit,
+  countPublicPlayingYearsEdits,
+  namesPersonHurt,
+  sanitizePublicText,
+} from "../src/lib/publicText";
 
 const STORY_FILES = [
   "src/components/fohenagh/Fohenagh1942Story.tsx",
@@ -25,9 +30,35 @@ function fail(errors: string[], message: string) {
   errors.push(message);
 }
 
+function assertLifeRule(errors: string[]) {
+  const stays = ["a late goal", "scored in the late 1950s", "an injury-time goal", "pointed in injury time"];
+  for (const line of stays) {
+    if (beyondPlayingHit(line)) fail(errors, `life rule false hit: ${line}`);
+  }
+  const goes = [
+    "he emigrated to America",
+    "he retired",
+    "until injured",
+    "he died",
+    "death notices",
+    "the late Frank Glynn",
+    "RIP",
+    "a car accident",
+    "a long illness",
+    "the funeral Mass",
+    "he passed away",
+  ];
+  for (const line of goes) {
+    if (!beyondPlayingHit(line)) fail(errors, `life rule missed: ${line}`);
+  }
+}
+
+const PROSE_FIELD = /^(?:note|notes|notable|book_note(?:_\d+)?)$/;
+
 async function main() {
   const errors: string[] = [];
   const root = process.cwd();
+  assertLifeRule(errors);
 
   for (const file of STORY_FILES) {
     const text = readFileSync(join(root, file), "utf8");
@@ -80,9 +111,19 @@ async function main() {
   let hurt = 0;
   let confidence = 0;
   let eraMissing = 0;
+  let beyondPlaying = 0;
+  let linesRemoved = 0;
+  let linesRewritten = 0;
 
   for (const id of A.entitiesOfType("player")) {
-    if (A.entityAttrs(id).same_as) continue;
+    const attrs = A.entityAttrs(id);
+    for (const [key, val] of Object.entries(attrs)) {
+      if (!PROSE_FIELD.test(key) || typeof val !== "string") continue;
+      const edit = countPublicPlayingYearsEdits(val);
+      linesRemoved += edit.removed;
+      linesRewritten += edit.rewritten;
+    }
+    if (attrs.same_as) continue;
     players++;
     const profile = profileForPlayer(ctx, id, A.entityAttrs(id));
     const text = publicProfileText(profile);
@@ -93,6 +134,11 @@ async function main() {
     if (/\bconfidence\b/i.test(text)) {
       confidence++;
       fail(errors, `${id} says confidence`);
+    }
+    const life = beyondPlayingHit(text);
+    if (life) {
+      beyondPlaying++;
+      fail(errors, `${id} life beyond playing (${life})`);
     }
     const years = `${text} ${JSON.stringify(A.entityAttrs(id))}`.match(/\b(?:18|19|20)\d{2}\b/);
     if (years && profile.eraLine && !/\b(?:18|19|20)\d{2}s\b/.test(profile.eraLine)) {
@@ -107,6 +153,28 @@ async function main() {
     }
   }
 
+  assert.equal(
+    A.entityAttrs("player:packie-burke-fohenagh").same_as,
+    "player:packie-burke-turloughmore"
+  );
+  assert.equal(A.entityAttrs("player:packie-burke-fohenagh").club, "club:turloughmore");
+  const packie = profileForPlayer(
+    ctx,
+    "player:packie-burke-turloughmore",
+    A.entityAttrs("player:packie-burke-turloughmore")
+  );
+  assert.match(packie.summary ?? "", /full-back/i);
+
+  assert.equal(A.entityAttrs("player:s-carrick-fohenagh").same_as, "player:sean-carrig-fohenagh");
+  const carrig = profileForPlayer(
+    ctx,
+    "player:sean-carrig-fohenagh",
+    A.entityAttrs("player:sean-carrig-fohenagh")
+  );
+  const carrigText = publicProfileText(carrig);
+  assert.match(carrigText, /Killimordaly/);
+  assert.doesNotMatch(carrigText, /substitut|\bsub\b/i);
+
   const barrett = profileForPlayer(ctx, "player:mike-barrett-fohenagh", A.entityAttrs("player:mike-barrett-fohenagh"));
   if (/assault|injured/i.test(barrett.summary ?? "")) {
     fail(errors, `mike barrett lead: ${barrett.summary}`);
@@ -119,6 +187,10 @@ async function main() {
     hurt,
     confidence,
     eraMissing,
+    beyondPlaying,
+    linesRemoved,
+    linesRewritten,
+    linesRemovedOrRewritten: linesRemoved + linesRewritten,
     errors: errors.length,
   };
   console.log(JSON.stringify(report, null, 2));

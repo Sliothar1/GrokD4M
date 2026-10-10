@@ -264774,5 +264774,100 @@
     "row": "player:alan-moclair-ahascragh-fohenagh",
     "col": "source_notes",
     "val": "https://irishnewsarchive.com/?a=d&d=TTH20050519.1.24"
+  },
+  {
+    "row": "player:sean-carrig-fohenagh",
+    "col": "alias",
+    "val": "S. Carrick, Sean Carrick"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "same_as",
+    "val": "player:packie-burke-turloughmore"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "note",
+    "val": "Same person as Packie Burke of Turloughmore. The Connacht Tribune caption of 17 August 1963 calls him Turloughmore's full-back."
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "same_as",
+    "val": "player:sean-carrig-fohenagh"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "type",
+    "val": "player"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "name",
+    "val": "Packie Burke"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "county",
+    "val": "team:galway"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "sport",
+    "val": "hurling"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "position",
+    "val": "Full-back"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "confidence",
+    "val": "medium"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "status",
+    "val": "pending_archivist"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "note",
+    "val": "Named as Packie Burke, Turloughmore's full-back, covering Bobby Madden in the Galway senior hurling final at Pearse Stadium (Connacht Tribune, 17 August 1963)."
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "cutting_cite",
+    "val": "art-ina-ctt-1963-08-17-burke-sweeney-county-final"
+  },
+  {
+    "row": "player:packie-burke-turloughmore",
+    "col": "kid_chip",
+    "val": "Named in a newspaper cutting"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "club",
+    "val": "club:turloughmore"
+  },
+  {
+    "row": "player:packie-burke-fohenagh",
+    "col": "status",
+    "val": "alias"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "status",
+    "val": "alias"
+  },
+  {
+    "row": "player:s-carrick-fohenagh",
+    "col": "note",
+    "val": "Named as S. Carrick on the Fohenagh line in the senior hurling semi-final against Killimordaly (Connacht Tribune, 3 August 1963). Same person as Sean Carrig."
   }
 ]

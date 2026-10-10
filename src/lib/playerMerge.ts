@@ -22,6 +22,8 @@ export function mergePlayerAttrRecords(
     }
     if (String(out[key]) === text) continue;
     if (/^(?:note|notes|notable|book_note)(?:_\d+)?$/.test(key) && !String(out[key]).includes(text)) {
+      const already = Object.values(out).some((existing) => String(existing).includes(text));
+      if (already) continue;
       let n = 2;
       while (out[`book_note_${n}`] != null) n += 1;
       out[`book_note_${n}`] = val;

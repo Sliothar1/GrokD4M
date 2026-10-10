@@ -1,4 +1,5 @@
 import {
+  articleSameAsId,
   articleToSummary,
   normalizeClubTags,
   readArticleUploads,
@@ -91,9 +92,16 @@ export async function resolveEntityHero(input: {
 
   const uploads = await readArticleUploads();
   const byId = new Map(uploads.map((upload) => [upload.id.toLowerCase(), upload]));
+  const resolveUpload = (id: string) => {
+    const upload = byId.get(bareId(id));
+    if (!upload) return undefined;
+    const target = articleSameAsId(upload);
+    if (!target) return upload;
+    return byId.get(target.toLowerCase()) ?? upload;
+  };
 
   const enrich = (cutting: EntitySummary): HeroCard => {
-    const upload = byId.get(bareId(cutting.id));
+    const upload = resolveUpload(cutting.id);
     const fromUpload = upload ? articleToSummary(upload) : undefined;
     return {
       ...cutting,
@@ -109,7 +117,7 @@ export async function resolveEntityHero(input: {
       const card = enrich(listed);
       return card.imagePath ? card : undefined;
     }
-    const upload = byId.get(id.toLowerCase());
+    const upload = resolveUpload(id);
     if (!upload) return undefined;
     const summary = articleToSummary(upload);
     if (!summary.imagePath) return undefined;

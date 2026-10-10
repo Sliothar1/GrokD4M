@@ -8,6 +8,28 @@ const ID_TOKEN =
 const ART_TOKEN = /\bart-[A-Za-z0-9-]+\b/gi;
 
 /**
+ * Playing years and facts only. Word-aware, so a late goal, "the late 1950s",
+ * and injury time stay. "the late " still catches an obituary name.
+ * Funeral and "passed away" sit with death: a profile does not carry them.
+ */
+export const BEYOND_PLAYING_PATTERNS: { name: string; re: RegExp }[] = [
+  { name: "emigrat", re: /\bemigrat/i },
+  { name: "America", re: /\bAmerica\b/i },
+  { name: "retired", re: /\bretired\b/i },
+  { name: "injur", re: /\binjur(?!y(?:[\s-]*time)\b)/i },
+  { name: "died", re: /\bdied\b/i },
+  { name: "death", re: /\bdeaths?\b/i },
+  { name: "the late ", re: /\bthe late (?!\d)/i },
+  { name: "RIP", re: /\bRIP\b|\bR\.I\.P\.?\b/i },
+  { name: "accident", re: /\baccidents?\b/i },
+  { name: "illness", re: /\billness(?:es)?\b/i },
+  { name: "funeral", re: /\bfuneral\b/i },
+  { name: "passed away", re: /\bpassed away\b/i },
+];
+
+const BEYOND_PLAYING_NAMES = new Set(BEYOND_PLAYING_PATTERNS.map((pattern) => pattern.name));
+
+/**
  * Strings that must never appear in public player text.
  * Word-boundary "verified" does not match inside "unverified".
  */
@@ -89,6 +111,7 @@ export const BANNED_PUBLIC_PATTERNS: { name: string; re: RegExp }[] = [
   },
   { name: "distinct from", re: /distinct from/i },
   { name: "confidence", re: /\bconfidence\b/i },
+  ...BEYOND_PLAYING_PATTERNS,
 ];
 
 /**
@@ -132,6 +155,23 @@ export function firstBannedPublicHit(text: string): string | null {
   return null;
 }
 
+/** Pipeline wording, ignoring the playing-years ban. Used to count that ban on its own. */
+export function firstPipelineHit(text: string): string | null {
+  const scanned = text.replaceAll(FOOTER_BUILT_BY, "");
+  for (const pattern of BANNED_PUBLIC_PATTERNS) {
+    if (BEYOND_PLAYING_NAMES.has(pattern.name)) continue;
+    if (pattern.re.test(scanned)) return pattern.name;
+  }
+  return null;
+}
+
+export function beyondPlayingHit(text: string): string | null {
+  for (const pattern of BEYOND_PLAYING_PATTERNS) {
+    if (pattern.re.test(text)) return pattern.name;
+  }
+  return null;
+}
+
 function stripIdTokens(input: string): string {
   return input.replace(ID_TOKEN, " ").replace(ART_TOKEN, " ");
 }
@@ -139,9 +179,11 @@ function stripIdTokens(input: string): string {
 function tidy(input: string): string {
   return input
     .replace(/\s+([,.;!?])/g, "$1")
+    .replace(/,\s*,+/g, ",")
     .replace(/\(\s*\)/g, "")
     .replace(/\s{2,}/g, " ")
     .replace(/\s+([·])/g, " $1")
+    .replace(/^\s*,\s*/, "")
     .trim();
 }
 
@@ -657,8 +699,83 @@ export function firstPublicSentence(input: string): string {
   return splitSentences(clean)[0] ?? "";
 }
 
+function exciseBeyondPlaying(sentence: string): { text: string; kind: "keep" | "rewrite" | "remove" } {
+  if (!beyondPlayingHit(sentence)) return { text: sentence, kind: "keep" };
+  let text = sentence.replace(/\((?:[^()]*)\)/g, (paren) => (beyondPlayingHit(paren) ? "" : paren));
+  text = text
+    .replace(/,?\s*until injured\b/gi, "")
+    .replace(/\s+before\s+[\w-]+\s+injury\s+sub\b/gi, "")
+    .replace(/\s+for injured\s+[A-Z][\w'.-]*(?:\s+[A-Z][\w'.-]*)?/g, "")
+    .replace(/\s+through injury\b/gi, "");
+  const pieces = text.split(/\s*;\s*/);
+  if (pieces.length > 1) {
+    const kept = pieces.filter((piece) => piece && !beyondPlayingHit(piece));
+    if (kept.length > 0 && kept.length < pieces.length) text = kept.join("; ");
+  }
+  if (beyondPlayingHit(text)) {
+    const commas = text.split(/,\s+/);
+    if (commas.length > 1) {
+      const kept = commas.filter((piece) => piece && !beyondPlayingHit(piece));
+      if (kept.length > 0 && kept.length < commas.length) text = kept.join(", ");
+    }
+  }
+  text = tidy(text.replace(/\s+([,.;])/g, "$1"));
+  if (!text || beyondPlayingHit(text)) return { text: "", kind: "remove" };
+  return { text, kind: "rewrite" };
+}
+
+/**
+ * Drop emigration, retirement, injury, illness, death, and personal-life lines.
+ * A Remembered note that touches any of those goes entirely.
+ * A cited playing fact in the same sentence stays when the banned phrase can be cut.
+ */
+export function applyPlayingYearsRule(input: string): {
+  text: string;
+  removed: number;
+  rewritten: number;
+} {
+  const sentences = splitSentences(input);
+  const joined = sentences.join(" ");
+  const rememberedLife = /\bremembered\b/i.test(joined) && Boolean(beyondPlayingHit(joined));
+  let removed = 0;
+  let rewritten = 0;
+  const kept: string[] = [];
+  for (const sentence of sentences) {
+    if (rememberedLife && (/\bremembered\b/i.test(sentence) || beyondPlayingHit(sentence))) {
+      removed += 1;
+      continue;
+    }
+    const excised = exciseBeyondPlaying(sentence);
+    if (excised.kind === "remove") {
+      removed += 1;
+      continue;
+    }
+    if (excised.kind === "rewrite") rewritten += 1;
+    if (excised.text) kept.push(excised.text);
+  }
+  return { text: tidy(kept.join(" ")), removed, rewritten };
+}
+
+/** Edits the playing-years rule makes on lines that would otherwise be public. */
+export function countPublicPlayingYearsEdits(input: string): { removed: number; rewritten: number } {
+  let removed = 0;
+  let rewritten = 0;
+  for (const sentence of splitSentences(input)) {
+    const edit = applyPlayingYearsRule(sentence);
+    if (edit.removed + edit.rewritten === 0) continue;
+    const wasPublic = !firstPipelineHit(sentence) && !namesPersonHurt(sentence);
+    const nowPublic = Boolean(edit.text) && !firstPipelineHit(edit.text) && !namesPersonHurt(edit.text);
+    if (!wasPublic && !nowPublic) continue;
+    removed += edit.removed;
+    rewritten += edit.rewritten;
+  }
+  return { removed, rewritten };
+}
+
 export function sanitizePublicText(input: string): string {
-  const stripped = tidy(stripIdTokens(normalizePublicWording(input)));
+  const prepared = tidy(stripIdTokens(normalizePublicWording(input)));
+  if (!prepared) return "";
+  const stripped = applyPlayingYearsRule(prepared).text;
   if (!stripped) return "";
   const kept: string[] = [];
   for (const rawSentence of splitSentences(stripped)) {

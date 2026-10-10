@@ -43,6 +43,10 @@ On a player page, write the way those three read: a person in a parish, told in 
 ## Care
 
 - Printed facts only. Oral notes decide which story to look up. They are not copied onto the page.
+- A profile covers playing years and facts only. Nothing about stopping, retiring, leaving, emigrating (why or where), injury, illness, death, or personal life.
+- Where a cited clipping exists, show it, with the reference. Where none exists, one dignified line about the player's time in the jersey. Top-newspaper standard: no elegy, no "Remembered" note.
+- The build lint fails if public profile text matches, case-insensitive and word-aware: emigrat, America, retired, injur, died, death, "the late ", RIP, accident, illness. The same lint also fails on funeral and "passed away". Word-aware means a late goal, "the late 1950s", and injury time are playing phrases and stay. "the late " still fails when it introduces a person.
+- A Remembered note that touches any of those subjects is removed. The cited playing fact beside it stays.
 - Do not name who was injured, or who struck whom.
 - Do not print death details, and do not open a deceased player's page with "substitute".
 - Do not print internal notes, pipeline tags, verification chips, or "clipping not added yet".
