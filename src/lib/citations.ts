@@ -33,7 +33,9 @@ export function splitCiteSentences(text: string): string[] {
       if (token.length === 1 || ABBREVIATIONS.has(token.toLowerCase())) continue;
     }
     const rest = text.slice(i + 1).trimStart();
-    if (ch === "." && /^\d/.test(rest)) continue;
+    // Keep decimals such as 3.14 together. A following sentence that
+    // starts with a year ("final. 1995") must still split.
+    if (ch === "." && /\d/.test(text[i + 1] ?? "")) continue;
     const next = text[i + 1] ?? "";
     if (next !== "" && !/\s/.test(next)) continue;
     if (rest !== "" && !/^[A-Z0-9“"']/.test(rest)) continue;
@@ -75,6 +77,7 @@ function scoreCandidate(sentence: string, candidate: CiteRef): number {
   }
   if (/roll of honour/i.test(sentence) && /roll of honour/i.test(hay)) source += 1;
   if (/turloughmore/i.test(sentence) && /turloughmore/i.test(hay)) source += 1;
+  if (/\bgaa\b/i.test(sentence) && /\bgaa\b/i.test(hay)) source += 1;
   if (source === 0) return 0;
   const years = yearsIn(sentence);
   const candidateYears = yearsIn(hay);

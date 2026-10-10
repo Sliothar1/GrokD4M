@@ -242,7 +242,9 @@ function splitSentences(text: string): string[] {
       if (token.length === 1 || ABBREVIATIONS.has(token.toLowerCase())) continue;
     }
     const rest = text.slice(i + 1).trimStart();
-    if (ch === "." && /^\d/.test(rest)) continue;
+    // Keep decimals such as 3.14 together. A following sentence that
+    // starts with a year ("final. 1995") must still split.
+    if (ch === "." && /\d/.test(text[i + 1] ?? "")) continue;
     const next = text[i + 1] ?? "";
     if (next !== "" && !/\s/.test(next)) continue;
     if (rest !== "" && !/^[A-Z0-9“"']/.test(rest)) continue;
