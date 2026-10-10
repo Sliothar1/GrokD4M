@@ -42,6 +42,7 @@ const pairs: Array<{ name: string; fg: string; bg: string; min: number }> = [
   { name: "white on navy", fg: white, bg: navy, min: 4.5 },
   { name: "white on navy deep", fg: white, bg: navyDeep, min: 4.5 },
   { name: "paper on navy", fg: paper, bg: navy, min: 4.5 },
+  { name: "navy deep on gold", fg: navyDeep, bg: gold, min: 4.5 },
 ];
 
 let failed = 0;

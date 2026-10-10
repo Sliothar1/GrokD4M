@@ -81,6 +81,17 @@ async function main() {
     const summary = profile.summary?.trim() ?? "";
     if (!summary || /not been added yet/i.test(summary)) placeholders++;
     assert.ok(summary.length > 0, `${id} empty body`);
+    const marks = [...summary.matchAll(/\[(\d+)\]/g)].map((match) => Number(match[1]));
+    if (marks.length > 0) {
+      assert.equal(profile.references.length, Math.max(...marks), `${id} cite count`);
+      for (const n of marks) assert.ok(profile.references[n - 1]?.title, `${id} cite ${n}`);
+    }
+    if (id === "player:tim-sweeney-fohenagh") {
+      assert.ok(
+        profile.references.some((ref) => /wikipedia\.org/i.test(ref.href)),
+        "Tim's Wikipedia citation opens Wikipedia"
+      );
+    }
     if (isPlainLead(profile.name, summary)) plainLines++;
     else citedLeads++;
     assert.doesNotMatch(`${profile.headline ?? ""}\n${summary}`, /\bpanels?\b/i, `${id} panel in lead`);
@@ -258,7 +269,7 @@ async function main() {
   );
   assert.match(
     mick.summary ?? "",
-    /^Started for Fohenagh in the 1963 Galway SHC final \(Turloughmore GAA archive\)\./
+    /^Started for Fohenagh in the 1963 Galway SHC final \(Turloughmore GAA archive\)(?:\[\d+\])?\./
   );
   assert.doesNotMatch(mick.credit ?? "", /Garry Lohan/i);
   assert.match(mick.credit ?? "", /Courtesy of Irish Newspaper Archives/);
@@ -271,6 +282,7 @@ async function main() {
   assert.match(tim.summary ?? "", /hurled with Fohenagh and for Galway seniors from 1949–1963/i);
   assert.match(tim.summary ?? "", /team photo/i);
   assert.match(tim.summary ?? "", /He scored 1-4/i);
+  assert.match(tim.summary ?? "", /\[\d+\]/);
   assert.match(tim.summary ?? "", /top man in Fohenagh hurling history/);
   assert.match(tim.summary ?? "", /first played for the club in 1945/);
   assert.doesNotMatch(tim.summary ?? "", /\bpanel\b/i);
@@ -288,7 +300,7 @@ async function main() {
     const profile = profileForPlayer(ctx, `player:${slug}`, A.entityAttrs(`player:${slug}`));
     assert.match(
       profile.summary ?? "",
-      /^Fohenagh Minor C hurling champion, 1996 \(Galway GAA Roll of Honour\)\./,
+      /^Fohenagh Minor C hurling champion, 1996 \(Galway GAA Roll of Honour\)(?:\[\d+\])?\./,
       slug
     );
     assert.doesNotMatch(profile.summary ?? "", /\bpanel\b/i, slug);
