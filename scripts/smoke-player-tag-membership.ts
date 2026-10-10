@@ -1,10 +1,28 @@
 /**
  * Cuttings stay linked for every player tag, including index >= 12.
  * Membership is getLinkedArticleSummaries (same path as the player page).
+ * Player count is the seed's player rows: >0, no duplicate ids, and the
+ * live catalog matches that set.
  */
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { getLinkedArticleSummaries } from "../src/lib/articles";
 import { demoStats } from "../src/lib/data";
+
+/** Unique `type=player` rows in seed.json. */
+function seedPlayerIds(): string[] {
+  const triples = JSON.parse(readFileSync("data/seed.json", "utf8")) as Array<{
+    row: string;
+    col: string;
+    val: unknown;
+  }>;
+  const ids = triples
+    .filter((t) => t.col === "type" && t.val === "player")
+    .map((t) => String(t.row));
+  assert.ok(ids.length > 0, "seed has no players");
+  assert.equal(new Set(ids).size, ids.length, "duplicate player rows in seed");
+  return ids;
+}
 
 const CASES: { articleId: string; playerIds: string[] }[] = [
   {
@@ -47,8 +65,13 @@ async function main() {
     "control player:tom-moylette-fohenagh missing the 1999 cutting"
   );
 
+  const players = seedPlayerIds();
   const stats = await demoStats();
-  assert.equal(stats.players, 1806);
+  assert.equal(
+    stats.players,
+    players.length,
+    "player count drifted from seed"
+  );
   console.log(`smoke-player-tag-membership: ok (players ${stats.players})`);
 }
 

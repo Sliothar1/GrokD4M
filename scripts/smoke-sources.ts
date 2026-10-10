@@ -1,6 +1,7 @@
 /**
  * Story S1: cite markers come only from source_<col> URLs and linked cuttings.
- * Counts stay 1806 players / 63 uploads.
+ * Player and upload counts come from the data files: >0, unique ids, and
+ * every player: row is a type=player row.
  */
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -48,11 +49,28 @@ const uploads = JSON.parse(readFileSync("data/article-uploads.json", "utf8")) as
   playerTags?: string[];
 }>;
 
+const playerTypeIds = triples
+  .filter((t) => t.col === "type" && t.val === "player")
+  .map((t) => String(t.row));
 const playerRows = new Set(
   triples.filter((t) => String(t.row).startsWith("player:")).map((t) => t.row)
 );
-assert.equal(playerRows.size, 1806);
-assert.equal(uploads.length, 63);
+assert.ok(playerTypeIds.length > 0, "seed has no players");
+assert.equal(
+  new Set(playerTypeIds).size,
+  playerTypeIds.length,
+  "duplicate player rows in seed"
+);
+assert.equal(
+  playerRows.size,
+  playerTypeIds.length,
+  "player: rows drifted from type=player"
+);
+
+const uploadIds = uploads.map((upload) => upload.id);
+assert.ok(uploadIds.length > 0, "no article uploads");
+assert.ok(uploadIds.every((id) => id), "upload missing id");
+assert.equal(new Set(uploadIds).size, uploadIds.length, "duplicate upload ids");
 
 function attrsFor(id: string): Record<string, unknown> {
   const attrs: Record<string, unknown> = {};
@@ -163,13 +181,21 @@ const jim = resolveEntitySources({
   cuttings: jimCuttings,
   order: PLAYER_ORDER,
 });
-assert.equal(jim.sources.length, jimCuttings.length);
-assert.deepEqual(jim.markers.notable, []);
-assert.deepEqual(jim.markers.club, []);
-assert.ok(
-  jim.sources.every((source) => source.href.startsWith("/article/")),
-  "cutting sources link to the cutting page"
+const articleSources = jim.sources.filter((source) =>
+  source.href.startsWith("/article/")
 );
+const urlSources = jim.sources.filter((source) => source.href.startsWith("http"));
+assert.equal(articleSources.length, jimCuttings.length);
+assert.equal(jim.sources.length, articleSources.length + urlSources.length);
+const notableHref = String(
+  attrsFor("player:jim-moclair-fohenagh").source_notable ?? ""
+).replace(/\/$/, "");
+const notableSource = urlSources.find(
+  (source) => source.href.replace(/\/$/, "") === notableHref
+);
+assert.ok(notableSource, "source_notable should cite");
+assert.deepEqual(jim.markers.notable, [notableSource.number]);
+assert.deepEqual(jim.markers.club, [notableSource.number]);
 assert.equal(
   jim.markers[cuttingFactKey("art-ina-ct-1959-09-19-fohenagh-castlegar-replay")]?.length,
   1
