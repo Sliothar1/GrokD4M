@@ -42,6 +42,8 @@ import {
   type LinkedCuttingSource,
 } from "@/lib/sources";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
+import { fohenaghRosterYears } from "@/lib/fohenaghRecord";
+import { hasPlayQualifier, publicCite, publicHeading, scrubPublicCopy } from "@/lib/publicCopy";
 import {
   listFohenaghMoreGames,
   listFohenaghNotableGames,
@@ -80,6 +82,18 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   });
   const clubRoster =
     summary.kind === "club" ? await listClubRoster(id, A) : [];
+  const rosterYears = isHistoricFohenagh
+    ? await fohenaghRosterYears(
+        clubRoster.map((row) => row.summary.id),
+        A
+      )
+    : null;
+  const fohenaghRoster = rosterYears
+    ? clubRoster.map((row) => ({
+        ...row,
+        years: rosterYears.get(row.summary.id) ?? [],
+      }))
+    : clubRoster;
   const replayPicture = isHistoricFohenagh
     ? await getArticleUpload(REPLAY_PICTURE_ID)
     : null;
@@ -105,9 +119,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               The 1959 county final replay, from the Connacht Tribune.
             </p>
             <div className="mt-4 flex flex-wrap items-center gap-3">
-              {fohenaghImage?.citeChip ? (
+              {publicCite(fohenaghImage?.citeChip) ? (
                 <span className="rounded-full border border-white/30 px-3 py-1 text-sm font-semibold">
-                  {fohenaghImage.citeChip}
+                  {publicCite(fohenaghImage?.citeChip)}
                 </span>
               ) : null}
               {fohenaghImage ? (
@@ -151,7 +165,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           )}
           {(summary.citeChip || attrs.cutting_cite) && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip || String(attrs.cutting_cite)}
+              {publicCite(summary.citeChip || String(attrs.cutting_cite))}
             </span>
           )}
           {(summary.scoreDisputed ||
@@ -190,7 +204,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               />
             </a>
             <p className="mt-2 text-sm font-semibold text-galway-maroon">
-              From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
+              From cutting{publicCite(heroCutting.citeChip) ? ` · ${publicCite(heroCutting.citeChip)}` : ""}
             </p>
           </div>
         ) : null}
@@ -206,9 +220,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       </header>
 
       {!isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
-        <p className="text-lg leading-relaxed text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
-        </p>
+        <PublicBlurb
+          text={String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
+        />
       ) : null}
 
       {isHistoricFohenagh && summary.kind === "club" ? (
@@ -218,7 +232,8 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           compact
           verifiedIds={OWNER_VERIFIED_PLAYERS}
           heading="Players who wore the jersey"
-          rows={clubRoster}
+          decades
+          rows={fohenaghRoster}
           clubName={summary.title}
         />
       ) : null}
@@ -228,9 +243,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
       {isHistoricFohenagh ? <NotableGames games={fohenaghGames} /> : null}
 
       {isHistoricFohenagh && (attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt) ? (
-        <p className="text-lg leading-relaxed text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
-        </p>
+        <PublicBlurb
+          text={String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
+        />
       ) : null}
 
       {isHistoricFohenagh ? <PhotoComingSoon note="Championship team photo" /> : null}
@@ -338,7 +353,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                           // eslint-disable-next-line @next/next/no-img-element
                           <img
                             src={r.imagePath}
-                            alt={r.title}
+                            alt="Newspaper cutting"
                             className="max-h-72 w-full object-contain bg-galway-cream"
                           />
                         ) : null}
@@ -347,14 +362,14 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                             Cutting
                           </p>
                           <h3 className="mt-1 text-lg font-bold text-galway-ink">
-                            {r.title}
+                            {publicHeading(r.title, r.citeChip || "Newspaper cutting")}
                           </h3>
                           {r.citeChip && (
                             <p className="mt-1 text-sm font-semibold text-galway-maroon">
-                              {r.citeChip}
+                              {publicCite(r.citeChip)}
                             </p>
                           )}
-                          {r.excerpt && (
+                          {r.excerpt && !hasPlayQualifier(r.excerpt) && (
                             <p className="mt-2 text-sm text-galway-ink/70">{r.excerpt}</p>
                           )}
                         </div>
@@ -506,6 +521,12 @@ function entityFactValue(
     );
   }
   return String(value);
+}
+
+function PublicBlurb({ text }: { text: string }) {
+  const clean = scrubPublicCopy(text);
+  if (!clean) return null;
+  return <p className="text-lg leading-relaxed text-galway-ink">{clean}</p>;
 }
 
 function entityRefHref(ref: string): string {

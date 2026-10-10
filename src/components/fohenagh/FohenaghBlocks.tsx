@@ -184,23 +184,23 @@ export function MoreGreatGames({ games }: { games: FohenaghMoreGame[] }) {
                 </span>
                 <span className="min-w-0">
                   <span className="block text-sm font-bold text-galway-maroon">
-                    {game.awaiting ? "To come" : game.when ?? "Date to follow"}
+                    {game.awaiting ? "Coming soon" : game.when ?? "Date to follow"}
                   </span>
                   <span className="hw-serif block text-lg leading-snug text-galway-ink">
                     {game.nickname || game.title}
                   </span>
-                  <span className="mt-0.5 block text-sm text-galway-ink/65">
-                    {game.awaiting
-                      ? game.awaiting
-                      : [
-                          game.nickname ? game.title : null,
-                          game.competition,
-                          game.opponent ? `vs ${game.opponent}` : null,
-                          game.score,
-                        ]
-                          .filter(Boolean)
-                          .join(" · ")}
-                  </span>
+                  {game.awaiting ? null : (
+                    <span className="mt-0.5 block text-sm text-galway-ink/65">
+                      {[
+                        game.nickname ? game.title : null,
+                        game.competition,
+                        game.opponent ? `vs ${game.opponent}` : null,
+                        game.score,
+                      ]
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </span>
+                  )}
                 </span>
               </>
             );

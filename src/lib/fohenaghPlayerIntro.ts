@@ -12,9 +12,9 @@ const INTROS: Record<string, string> = {
   "player:frank-madden":
     "Lined out for Fohenagh in the 1959 county final replay against Castlegar, and was named in the Connacht Tribune account of the 1960 final defence. He also appears in the paper’s photographs from the 1961 and 1963 county finals.",
   "player:pj-killalea-fohenagh":
-    "Named on Fohenagh’s fifteen for the 1959 county final replay against Castlegar, in the Connacht Tribune team panel. A different man from Tim Killalea, who scored the winning point.",
+    "Named on Fohenagh’s fifteen for the 1959 county final replay against Castlegar. A different man from Tim Killalea, who scored the winning point.",
   "player:tom-moylette-fohenagh":
-    "Lined out for Fohenagh in the 1959 county final replay against Castlegar, named as T. Moylett on the Connacht Tribune team panel, and started the 1963 county final.",
+    "Lined out for Fohenagh in the 1959 county final replay against Castlegar, named as T. Moylett in the Connacht Tribune, and started the 1963 county final.",
   "player:martin-glynn-fohenagh":
     "Scored from a 21-yard free for Fohenagh in the 1952 intermediate county final against Skehana, earning a replay, the Tuam Herald reported. He was named on the 1959 county final replay fifteen against Castlegar.",
   "player:pj-lally-fohenagh":
@@ -148,6 +148,11 @@ export function woreTheJersey(years: number[]): string {
   const last = years[years.length - 1];
   if (last - first <= 15) return `Wore the Fohenagh jersey from ${first} to ${last}.`;
   return `Wore the Fohenagh jersey in the ${decades[0]}s and the ${decades[decades.length - 1]}s.`;
+}
+
+/** Editorial sentences for this player, used when a cutting does not print a year. */
+export function editorialPlayerText(playerId: string): string | null {
+  return POLISH[playerId] ?? INTROS[playerId] ?? null;
 }
 
 /** Cited paragraph for a thin profile. Null when the seed already has a notable. */

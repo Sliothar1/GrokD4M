@@ -10,6 +10,7 @@ import {
   type CuttingCard,
 } from "@/components/player/CuttingExcerpts";
 import { playerIdsOnMatch } from "@/lib/articles";
+import { hasPlayQualifier, publicCite, publicHeading, scrubPublicCopy } from "@/lib/publicCopy";
 import {
   displayNameForRef,
   friendlyAttrLabel,
@@ -55,8 +56,8 @@ export async function MatchView({ data }: { data: EntityPayload }) {
     .map(
       (r): CuttingCard => ({
         id: r.id,
-        title: r.title,
-        excerpt: r.excerpt,
+        title: publicHeading(r.title, r.citeChip || "Newspaper cutting"),
+        excerpt: r.excerpt && !hasPlayQualifier(r.excerpt) ? r.excerpt : undefined,
         citeChip: r.citeChip,
         imagePath: r.imagePath,
         href: r.href,
@@ -125,7 +126,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           ) : null}
           {(summary.citeChip || attrs.cutting_cite) && (
             <span className="rounded-full border border-galway-maroon/25 px-2.5 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip || String(attrs.cutting_cite)}
+              {publicCite(summary.citeChip || String(attrs.cutting_cite))}
             </span>
           )}
           {(summary.scoreDisputed ||
@@ -151,20 +152,22 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           {parishReport.paragraphs.length === 0 ? (
             <p className="text-lg text-galway-ink/75">Report coming soon.</p>
           ) : (
-            parishReport.paragraphs.map((paragraph) => (
+            parishReport.paragraphs.map((paragraph) => {
+              const clean = scrubPublicCopy(paragraph);
+              if (!clean) return null;
+              return (
               <p key={paragraph} className="text-lg leading-relaxed text-galway-ink">
-                {paragraph}
+                {clean}
               </p>
-            ))
+              );
+            })
           )}
           {parishReport.cite ? (
             <p className="text-sm font-semibold text-galway-ink/60">{parishReport.cite}</p>
           ) : null}
         </section>
       ) : attrs.notable || attrs.note || attrs.excerpt ? (
-        <p className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.excerpt)}
-        </p>
+        <MatchBlurb text={String(attrs.notable ?? attrs.note ?? attrs.excerpt)} />
       ) : null}
 
       {parishReport ? (
@@ -471,7 +474,18 @@ function FactValue({
       </a>
     );
   }
-  return <>{String(value)}</>;
+  const clean = scrubPublicCopy(String(value));
+  return clean ? <>{clean}</> : null;
+}
+
+function MatchBlurb({ text }: { text: string }) {
+  const clean = scrubPublicCopy(text);
+  if (!clean) return null;
+  return (
+    <p className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink">
+      {clean}
+    </p>
+  );
 }
 
 function matchClubChips(

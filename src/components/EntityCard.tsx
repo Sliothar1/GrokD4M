@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { friendlyTrustLabel, type EntitySummary } from "@/lib/data";
+import { hasPlayQualifier, publicCite } from "@/lib/publicCopy";
 
 const kindLabel: Record<string, string> = {
   player: "Player",
@@ -11,9 +12,13 @@ const kindLabel: Record<string, string> = {
   source: "Source",
   community_story: "Story",
   article_upload: "Article",
-  appearance: "Panel",
+  appearance: "Appearance",
   unknown: "Thing",
 };
+
+function publicMark(label: string): string {
+  return hasPlayQualifier(label) ? "Appearance" : label;
+}
 
 function winKindBadge(entity: EntitySummary): string {
   if (/all-?ireland/i.test(`${entity.title} ${entity.subtitle ?? ""}`)) {
@@ -31,12 +36,15 @@ export function EntityCard({
   crestLabel?: string;
 }) {
   const trust = entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
-  const badge = entity.badge;
+  const badge = entity.badge && !hasPlayQualifier(entity.badge) ? entity.badge : undefined;
+  const title = hasPlayQualifier(entity.title)
+    ? entity.citeChip || "Newspaper cutting"
+    : entity.title;
   const typeBadge =
     entity.kind === "win"
       ? winKindBadge(entity)
       : entity.kind === "appearance"
-        ? (entity.kindLabel || entity.badge || "Panel")
+        ? publicMark(entity.kindLabel || entity.badge || "Appearance")
         : (entity.kindLabel ?? kindLabel[entity.kind] ?? entity.kind);
 
   return (
@@ -72,9 +80,9 @@ export function EntityCard({
               {badge}
             </span>
           )}
-          {entity.citeChip && (
+          {publicCite(entity.citeChip) && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-xs font-bold text-galway-maroon">
-              {entity.citeChip}
+              {publicCite(entity.citeChip)}
             </span>
           )}
           {entity.scoreDisputed && (
@@ -93,8 +101,9 @@ export function EntityCard({
             </span>
           )}
         </div>
-        <h3 className="text-xl font-bold text-galway-ink">{entity.title}</h3>
+        <h3 className="text-xl font-bold text-galway-ink">{title}</h3>
         {entity.excerpt &&
+        !hasPlayQualifier(entity.excerpt) &&
         (entity.kind === "article_upload" || entity.kind === "appearance") ? (
           <p className="mt-1 text-base text-galway-ink/70">{entity.excerpt}</p>
         ) : (

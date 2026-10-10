@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { EntityView } from "@/components/EntityView";
 import { articleMediaUrl, getArticleUpload, isHeldForReview } from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
+import { hasPlayQualifier, publicCite, publicHeading } from "@/lib/publicCopy";
 
 export const dynamic = "force-dynamic";
 
@@ -17,10 +18,10 @@ export async function generateMetadata({
   if (a && isHeldForReview(a)) return { title: "Cutting" };
   if (a) {
     return {
-      title:
-        a.caption?.slice(0, 60) ||
-        a.fetchedTitle?.slice(0, 60) ||
-        "Cutting",
+      title: publicHeading(
+        a.caption?.slice(0, 60) || a.fetchedTitle?.slice(0, 60),
+        a.citeChip || "Cutting"
+      ),
     };
   }
   const seeded = await getEntity(`article:${id}`);
@@ -42,11 +43,11 @@ export default async function ArticlePage({
   }
   const A = await getAssoc();
 
-  const title =
-    a.caption ||
-    a.fetchedTitle ||
-    (a.kind === "url" ? "Linked article" : "Article cutting");
-  const cite = a.citeChip || (a.year ? `${a.year} · Paper` : "Paper");
+  const title = publicHeading(
+    a.caption || a.fetchedTitle,
+    a.citeChip || (a.kind === "url" ? "Linked article" : "Article cutting")
+  );
+  const cite = publicCite(a.citeChip) || (a.year ? `${a.year} · Paper` : "Paper");
   const media = articleMediaUrl(a);
   const isPdf = a.kind === "pdf" || media?.toLowerCase().endsWith(".pdf");
   const showImage = Boolean(media && !isPdf);
@@ -83,7 +84,7 @@ export default async function ArticlePage({
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={media}
-            alt={title}
+            alt="Newspaper cutting"
             className="mx-auto max-h-[70vh] w-full object-contain bg-galway-cream"
           />
         </div>
@@ -117,7 +118,7 @@ export default async function ArticlePage({
         </div>
       )}
 
-      {a.excerpt && (
+      {a.excerpt && !hasPlayQualifier(a.excerpt) && (
         <section className="space-y-2 rounded-2xl border-2 border-galway-maroon/15 bg-white p-4">
           <h2 className="text-xl font-bold text-galway-maroon">Excerpt</h2>
           <p className="text-base text-galway-ink/85">{a.excerpt}</p>

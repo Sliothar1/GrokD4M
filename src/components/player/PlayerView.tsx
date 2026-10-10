@@ -9,6 +9,7 @@ import {
   type CuttingCard,
 } from "@/components/player/CuttingExcerpts";
 import { InThePapers } from "@/components/player/InThePapers";
+import { FohenaghRecordView } from "@/components/player/FohenaghRecord";
 import { NotableIntro } from "@/components/player/NotableIntro";
 import { PlayerCareer } from "@/components/player/PlayerCareer";
 import { CareerTimeline, FactBox } from "@/components/player/CitedAside";
@@ -40,11 +41,13 @@ import {
   SWEENEY_PROFILE_IDS,
   TEAM_1959,
 } from "@/lib/fohenaghShowcase";
+import { buildFohenaghRecord } from "@/lib/fohenaghRecord";
 import {
   citedPlayerYears,
   fohenaghAbout,
   woreTheJersey,
 } from "@/lib/fohenaghPlayerIntro";
+import { hasPlayQualifier, publicHeading, scrubPublicCopy } from "@/lib/publicCopy";
 import { resolvePlayerPhoto } from "@/lib/playerPhoto";
 import {
   cuttingFactKey,
@@ -93,8 +96,9 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
       .map(
         (r): CuttingCard => ({
           id: r.id,
-          title: r.title,
-          excerpt: r.excerpt,
+          title: publicHeading(r.title, r.citeChip || "Newspaper cutting"),
+          excerpt:
+            r.excerpt && !hasPlayQualifier(r.excerpt) ? r.excerpt : undefined,
           citeChip: r.citeChip,
           imagePath: r.imagePath,
           href: r.href,
@@ -165,13 +169,10 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         ])
       )
     : null;
-  const about = fohenaghAbout(id, notable, wore);
-  const era =
-    wore && about !== wore && !about?.includes("Wore the Fohenagh jersey")
-      ? wore
-      : on1959
-        ? "Fohenagh · 1959 county champions"
-        : null;
+  const aboutRaw = fohenaghAbout(id, notable, wore);
+  const about = scrubPublicCopy(aboutRaw) ?? (wore ? scrubPublicCopy(wore) : null);
+  const record = onFohenagh ? await buildFohenaghRecord(id, A) : null;
+  const era = record?.era ?? null;
   const factRows = [
     { label: "Name", value: summary.title },
     clubs.length > 0
@@ -268,56 +269,71 @@ export async function PlayerView({ data }: { data: EntityPayload }) {
         photoUrl={resolvePlayerPhoto(slug, attrs)}
         verification={profileStatus}
         clubStatus={clubs.length > 0 ? statusOf("club") : undefined}
-        clubCite={beingVerified ? undefined : citeFor("club")}
+        clubCite={onFohenagh || beingVerified ? undefined : citeFor("club")}
         clubBadge={
-          clubs.length > 0 && !beingVerified ? badgeFor("club") : undefined
+          clubs.length > 0 && !beingVerified && !onFohenagh ? badgeFor("club") : undefined
         }
         nameMark={SWEENEY_PROFILE_IDS.has(id) ? <SweeneyMark /> : undefined}
         era={era}
         beingVerified={beingVerified}
       />
 
-      <FactBox rows={factRows} />
+      {onFohenagh ? null : <FactBox rows={factRows} />}
 
       {onFohenagh ? <ParishLinks show1959={on1959} /> : null}
 
-      <NotableIntro
-        notable={about}
-        note={note}
-        notes={notes}
-        notableCite={notable && about === notable ? citeFor("notable") : undefined}
-        noteCite={citeFor("note")}
-        notesCite={citeFor("notes")}
-        notableBadge={notable && about === notable ? badgeFor("notable") : undefined}
-        noteBadge={note ? badgeFor("note") : undefined}
-        notesBadge={notes ? badgeFor("notes") : undefined}
-        notableStatus={notable && about === notable ? statusOf("notable") : undefined}
-        noteStatus={note ? statusOf("note") : undefined}
-        notesStatus={notes ? statusOf("notes") : undefined}
-      />
+      {onFohenagh && record ? (
+        <FohenaghRecordView about={about} games={record.games} teammates={record.teammates} />
+      ) : (
+        <NotableIntro
+          notable={scrubPublicCopy(notable)}
+          note={scrubPublicCopy(note)}
+          notes={scrubPublicCopy(notes)}
+          notableCite={notable ? citeFor("notable") : undefined}
+          noteCite={citeFor("note")}
+          notesCite={citeFor("notes")}
+          notableBadge={notable ? badgeFor("notable") : undefined}
+          noteBadge={note ? badgeFor("note") : undefined}
+          notesBadge={notes ? badgeFor("notes") : undefined}
+          notableStatus={notable ? statusOf("notable") : undefined}
+          noteStatus={note ? statusOf("note") : undefined}
+          notesStatus={notes ? statusOf("notes") : undefined}
+        />
+      )}
 
       <SeeAlsoCoen id={id} />
 
-      {remembered ? <RememberedNote text={remembered} /> : null}
+      {remembered && scrubPublicCopy(remembered) ? (
+        <RememberedNote text={scrubPublicCopy(remembered) ?? ""} />
+      ) : null}
 
-      <CareerTimeline items={timeline} />
+      {onFohenagh ? null : (
+        <>
+          <CareerTimeline items={timeline} />
 
-      <InThePapers lines={papers} thumbs={paperThumbs} />
+          <InThePapers
+            lines={papers.filter(
+              (line) => !hasPlayQualifier(`${line.before} ${line.linkText} ${line.after}`)
+            )}
+            thumbs={paperThumbs}
+          />
 
-      <CuttingExcerpts cuttings={citedCuttings} />
+          <CuttingExcerpts cuttings={citedCuttings} />
 
-      <PlayerCareer
-        attrs={attrs}
-        related={related}
-        assoc={A}
-        source={source}
-        kidChip={kidChip}
-        factCites={factCites}
-        factBadges={factBadges}
-        factStatuses={factStatuses}
-      />
+          <PlayerCareer
+            attrs={attrs}
+            related={related}
+            assoc={A}
+            source={source}
+            kidChip={kidChip}
+            factCites={factCites}
+            factBadges={factBadges}
+            factStatuses={factStatuses}
+          />
 
-      <SourcesPanel sources={citations.sources} legend />
+          <SourcesPanel sources={citations.sources} legend />
+        </>
+      )}
     </article>
   );
 }

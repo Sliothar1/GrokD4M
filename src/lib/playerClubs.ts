@@ -130,6 +130,8 @@ export function playerClubChips(
 export type ClubRosterRow = {
   summary: EntitySummary;
   alsoClubs: ClubChipData[];
+  /** Cited playing years, used by the Fohenagh decade filter. */
+  years?: number[];
   /** Same chip as the player profile strip: Verified or Needs check. */
   trust: string;
   /**

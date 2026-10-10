@@ -54,7 +54,7 @@ export const FOHENAGH_GAME_REPORTS: Record<string, FohenaghReport> = {
       "Fohenagh defeated Castlegar in the Galway senior hurling final replay at Athenry.",
       "The Connacht Tribune of 19 September 1959 printed the score Fohenagh 3-9, Castlegar 4-5, and described Fohenagh’s first senior title as a one-point win after a second-half rally.",
       "Tim Sweeney scored 1-4. The paper printed both fifteens.",
-      "The team panel names Tim Sweeney, Frank Madden, J. Moclair, P.J. Killalea, T. Moylett, M. Coen and M. Glynn.",
+      "The report names Tim Sweeney, Frank Madden, J. Moclair, P.J. Killalea, T. Moylett, M. Coen and M. Glynn.",
     ],
     cite: "Connacht Tribune · 19 Sep 1959",
   },

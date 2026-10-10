@@ -12,6 +12,7 @@ import {
   PLAYER_FACT_KEYS,
 } from "@/lib/entityDisplay";
 import type { AssocArray, TripleVal } from "@/lib/d4m/AssocArray";
+import { hasPlayQualifier } from "@/lib/publicCopy";
 import type { FactSourceStatus } from "@/lib/verification";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
@@ -60,7 +61,7 @@ export function PlayerCareer({
             Career
           </h2>
           <ul className="flex list-none flex-wrap gap-2">
-            {kidChip ? (
+            {kidChip && !hasPlayQualifier(kidChip) ? (
               <FactPill unverified={factStatuses?.kid_chip === "unverified"}>
                 <span
                   className={
@@ -76,6 +77,7 @@ export function PlayerCareer({
               </FactPill>
             ) : null}
             {facts.map((f) => {
+              if (!isEntityRef(f.value) && hasPlayQualifier(String(f.value))) return null;
               const unverified = factStatuses?.[f.key] === "unverified";
               return (
                 <FactPill key={f.key} unverified={unverified}>
@@ -109,16 +111,20 @@ export function PlayerCareer({
                 </FactPill>
               );
             })}
-            {appearances.map((a) => (
+            {appearances.map((a) => {
+              const label = [a.kindLabel ?? a.badge, a.seasonChip ?? a.subtitle]
+                .filter(Boolean)
+                .join(" · ");
+              if (!label || hasPlayQualifier(label)) return null;
+              return (
               <li
                 key={a.id}
                 className="rounded-full bg-galway-maroon px-3 py-1.5 text-sm font-bold text-white"
               >
-                {[a.kindLabel ?? a.badge, a.seasonChip ?? a.subtitle]
-                  .filter(Boolean)
-                  .join(" · ")}
+                {label}
               </li>
-            ))}
+              );
+            })}
           </ul>
           {source && source.startsWith("http") ? (
             <p className="mt-3 text-sm text-stone-700">

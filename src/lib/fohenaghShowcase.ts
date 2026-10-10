@@ -252,7 +252,7 @@ export const FOHENAGH_MORE_GAMES: FohenaghMoreEntry[] = [
     id: "match:fohenagh-1944",
     nickname: "The Battle of 1944",
     icon: "rifle",
-    awaiting: "Cutting to follow",
+    awaiting: "Coming soon",
   },
   { id: "match:fohenagh-cussane-north-board-junior-final-1942" },
   { id: "match:fohenagh-ahascragh-sadie-kilcommons-final" },

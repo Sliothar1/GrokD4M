@@ -14,6 +14,7 @@ export function CorrectionLink({ page }: { page: string }) {
       >
         Suggest a correction or request removal
       </Link>
+      <span className="text-galway-ink/70">Updates are reviewed and published weekly.</span>
       <WhyWrongLink />
     </p>
   );

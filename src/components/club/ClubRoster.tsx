@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { TrustChip } from "@/components/chips";
+import { DecadeRoster } from "@/components/club/DecadeRoster";
 import type { ClubRosterRow } from "@/lib/playerClubs";
 
 /** Compact jersey list — names wrap; dual-era players keep their other clubs. */
@@ -12,6 +13,8 @@ export function ClubRoster({
   id,
   alphabetical = false,
   compact = false,
+  /** 1930s–2000s chips. Uses each row’s cited years. */
+  decades = false,
   verifiedIds,
   heading = "Players who wore this jersey",
 }: {
@@ -28,6 +31,8 @@ export function ClubRoster({
   alphabetical?: boolean;
   /** Short name links in one A–Z run, without a card per letter. */
   compact?: boolean;
+  /** 1930s–2000s chips. Uses each row’s cited years. */
+  decades?: boolean;
   /** These ids show a Verified mark even when the seed confidence is still open. */
   verifiedIds?: ReadonlySet<string>;
   heading?: string;
@@ -40,7 +45,11 @@ export function ClubRoster({
   }));
   if (alphabetical) {
     return compact ? (
-      <CompactRoster id={id} heading={heading} clubName={clubName} rows={displayRows} />
+      decades ? (
+        <DecadeRoster id={id} heading={heading} clubName={clubName} rows={displayRows} />
+      ) : (
+        <CompactRoster id={id} heading={heading} clubName={clubName} rows={displayRows} />
+      )
     ) : (
       <AlphaRoster id={id} heading={heading} clubName={clubName} rows={displayRows} />
     );

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useId, useState } from "react";
 import { orderCuttingCards } from "@/lib/cuttingOrder";
+import { hasPlayQualifier, publicCite, publicHeading } from "@/lib/publicCopy";
 
 export type CuttingCard = {
   id: string;
@@ -88,7 +89,7 @@ export function CuttingExcerpts({
           className="fixed inset-0 z-50 flex items-center justify-center bg-galway-ink/85 p-4"
           role="dialog"
           aria-modal="true"
-          aria-label={lightbox.title}
+          aria-label={publicHeading(lightbox.title, lightbox.citeChip ?? "Newspaper cutting")}
           onClick={close}
         >
           <div
@@ -98,16 +99,16 @@ export function CuttingExcerpts({
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={lightbox.imagePath}
-              alt={lightbox.title}
+              alt="Newspaper cutting"
               className="mx-auto max-h-[78vh] w-full object-contain"
             />
             <div className="flex items-start justify-between gap-3 px-4 py-3">
               <div>
                 <p className="text-sm font-bold text-galway-maroon">
-                  {lightbox.citeChip ?? "From cutting"}
+                  {publicCite(lightbox.citeChip) ?? "From cutting"}
                 </p>
                 <p className="text-base font-semibold text-galway-ink">
-                  {lightbox.title}
+                  {publicHeading(lightbox.title, lightbox.citeChip ?? "Newspaper cutting")}
                 </p>
               </div>
               <div className="flex shrink-0 gap-2">
@@ -143,6 +144,9 @@ function PressCard({
   onOpen: () => void;
 }) {
   const canOpenImage = Boolean(cutting.imagePath);
+  const title = publicHeading(cutting.title, cutting.citeChip ?? "Newspaper cutting");
+  const excerpt =
+    cutting.excerpt && !hasPlayQualifier(cutting.excerpt) ? cutting.excerpt : null;
   const body = (
     <>
       <div className="h-1 bg-galway-gold" />
@@ -166,15 +170,15 @@ function PressCard({
         )}
         <div className={`min-w-0 flex-1 ${hasCite ? "pr-10" : ""}`}>
           <p className="text-[11px] font-bold uppercase tracking-[0.14em] text-galway-maroon">
-            {cutting.citeChip ?? "From cutting"}
+            {publicCite(cutting.citeChip) ?? "From cutting"}
           </p>
           <h3 className="mt-1 text-base font-black leading-snug text-galway-ink sm:text-lg">
-            {cutting.title}
+            {title}
           </h3>
           {cutting.badge ? <div className="mt-2">{cutting.badge}</div> : null}
-          {cutting.excerpt ? (
+          {excerpt ? (
             <p className="mt-2 text-[15px] leading-relaxed text-galway-ink/70">
-              {cutting.excerpt}
+              {excerpt}
             </p>
           ) : null}
           <p className="mt-2.5 text-sm font-bold text-galway-maroon">
