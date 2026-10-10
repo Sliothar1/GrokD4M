@@ -692,13 +692,7 @@ export function profileForPlayer(
   }
 
   let publicHeadline = scrubAmalgamHeader(headline);
-  let publicEra = eraLine;
-  if (id === "player:brendan-noone-fohenagh") {
-    publicHeadline = "Named with the Fohenagh Minor C champions, 1996";
-    publicEra = "Hurling, 1990s";
-    summary =
-      "Brendan Noone is named with the Fohenagh Minor C champions of 1996. A History of Fohenagh places him in the 1990 underage team photograph.";
-  }
+  const publicEra = eraLine;
   summary = shapePublicLead(summary);
   publicHeadline = shapePublicLead(publicHeadline);
 

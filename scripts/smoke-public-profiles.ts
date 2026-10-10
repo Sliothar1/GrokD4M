@@ -208,8 +208,14 @@ async function main() {
     A.entityAttrs("player:brendan-noone-fohenagh")
   );
   const brendanText = publicProfileText(brendan);
-  assert.equal(brendan.headline, "Named with the Fohenagh Minor C champions, 1996");
-  assert.match(brendan.summary ?? "", /1990 underage team photograph/);
+  assert.equal(brendan.headline, "Wore the Fohenagh jersey");
+  assert.match(
+    brendan.summary ?? "",
+    /Brendan Noone stood in the back row of the 1995 Fohenagh under-16 side that captured the Galway title \(Connacht Tribune, 8 December 1995, p\.8\)\[\d+\]\./
+  );
+  assert.match(brendan.summary ?? "", /Mountbellew Vocational School All Stars/);
+  assert.match(brendan.summary ?? "", /Fohenagh Minor C hurling champion, 1996/);
+  assert.match(brendan.summary ?? "", /Pictured with the Fohenagh underage team of 1990/);
   assert.doesNotMatch(brendanText, /substitut|\bsub\b|\bpanel\b|died|death|passed away|rising star/i);
 
   const otherClub = profileForPlayer(ctx, "player:pat-example", {
