@@ -2,6 +2,25 @@
 
 Next sprint, not tonight.
 
+## Roadmap (Garry, 10 Oct)
+
+In priority order.
+
+1. Homepage as an invitation to explore: one big search, People / Matches / Stories routes, and a featured story with a clipping.
+2. Search as the killer feature: live suggestions, filters for year, club, competition, and source, spelling and Irish-name variants, phrase and score search, and grouped results.
+3. Club page template with completeness labels: complete, in progress, awaiting sources.
+4. Standard match record: teams, date, venue, competition, round, score in GAA notation, replays, team sheets where evidenced, and explicit "date unknown" and "circa" labels.
+5. Compact source panel per claim, marking documented versus inferred.
+6. Player career timelines separating verified appearances from mentions, plus disambiguation.
+7. Decades as a visual timeline flagging archive gaps.
+8. Mobile and older-reader accessibility: WCAG 2.2 AA, big tap targets, zoomable clippings.
+9. Canonical club and player ids with aliases, and linked duplicate match records.
+10. Contribution and correction loop with review status and credits.
+
+**NEXT:** search, match and source pages, and knowledge-graph links.
+
+**Product rule:** no live scores. The differentiator is the historical record.
+
 ## Profiles with the cuttings up front
 
 Profile pages should show the actual clippings, photos and artefacts up front: a flowing narrative instead of a clipping list, and professional numbered references.
