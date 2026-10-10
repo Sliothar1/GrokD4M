@@ -39,7 +39,10 @@ const PHOTO_ADD_LABEL = "Add a photo";
 
 export type PublicGame = {
   label: string;
+  /** Clipping or book page. */
   href?: string;
+  /** Match page, when this line is a game. */
+  matchHref?: string;
 };
 
 export type PublicTeammate = {
@@ -483,10 +486,13 @@ export function profileForPlayer(
     if (!label) continue;
     const article = app.articleId ? ctx.articles.get(app.articleId) : undefined;
     const href = article && app.articleId ? `/article/${app.articleId}` : undefined;
-    const key = `${label}|${href ?? ""}`;
+    const matchHref = app.matchId?.startsWith("match:")
+      ? `/match/${app.matchId.slice("match:".length)}`
+      : undefined;
+    const key = `${label}|${matchHref ?? ""}|${href ?? ""}`;
     if (seenGames.has(key)) continue;
     seenGames.add(key);
-    games.push(href ? { label, href } : { label });
+    games.push({ label, ...(href ? { href } : {}), ...(matchHref ? { matchHref } : {}) });
     if (article && app.articleId) creditIds.add(app.articleId);
   }
   const citeId = articleIdOf(attrs.cutting_cite);

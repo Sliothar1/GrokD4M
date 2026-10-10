@@ -257,6 +257,12 @@ export async function EntityView({ data }: { data: EntityPayload }) {
             return false;
           }
           if (isHistoricFohenagh && r.id === "club:ahascragh-fohenagh") return false;
+          if (
+            isHistoricFohenagh &&
+            (r.kind === "match" || r.kind === "fixture" || r.kind === "win")
+          ) {
+            return false;
+          }
           return true;
         });
         const showCuttings =

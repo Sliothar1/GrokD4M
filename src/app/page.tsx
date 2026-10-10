@@ -47,8 +47,30 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-10">
-      <section>
+      <section className="space-y-4">
         <h1 className="sr-only">HurlingWiki</h1>
+        <div className="space-y-2">
+          <p className="text-sm font-bold uppercase tracking-[0.14em] text-galway-maroon">
+            What you can do here
+          </p>
+          <ul className="grid gap-2 sm:grid-cols-3">
+            <li>
+              <Link href="/search" className="block rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3 font-semibold text-galway-ink hover:border-galway-maroon">
+                Find a player, a game, or a clipping
+              </Link>
+            </li>
+            <li>
+              <Link href="/club/fohenagh-historic" className="block rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3 font-semibold text-galway-ink hover:border-galway-maroon">
+                Open Fohenagh
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="block rounded-2xl border border-galway-maroon/15 bg-white px-4 py-3 font-semibold text-galway-ink hover:border-galway-maroon">
+                Read how the site is built
+              </Link>
+            </li>
+          </ul>
+        </div>
         <SearchBox large />
       </section>
 

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FohenaghPlayerBand } from "@/components/fohenagh/FohenaghArt";
 import { GrokBotExtra } from "@/components/fohenagh/GrokBotExtra";
+import { PlayerGamesSelect } from "@/components/player/PlayerGamesSelect";
 import { TerraceNotes } from "@/components/player/TerraceNotes";
 import type { getEntity } from "@/lib/data";
 import { getAssoc } from "@/lib/data";
@@ -106,13 +107,18 @@ export function PlayerProfileView({
         <p className="max-w-2xl text-base leading-relaxed text-stone-700">{profile.schoolsLine}</p>
       ) : null}
 
-      {profile.games.length > 0 ? (
+      <PlayerGamesSelect games={profile.games} />
+      {profile.games.some((game) => game.matchHref) ? (
+        <p className="text-sm text-galway-ink/55">Open a game to see who else played.</p>
+      ) : null}
+
+      {profile.games.some((game) => game.href) ? (
         <section>
           <h2 className={poster ? "fohenagh-kicker mb-3" : "mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon"}>
             {profile.documentsHeading}
           </h2>
           <ul className={poster ? "fohenagh-programme" : "space-y-3"}>
-            {profile.games.map((game) => (
+            {profile.games.filter((game) => game.href).map((game) => (
               <li
                 key={`${game.label}|${game.href ?? ""}`}
                 className={

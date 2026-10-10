@@ -1,9 +1,8 @@
 import Link from "next/link";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/search", label: "Search" },
-  { href: "/stories", label: "Stories" },
+  { href: "/search", label: "Find a name" },
+  { href: "/club/fohenagh-historic", label: "Fohenagh" },
   { href: "/about", label: "About" },
 ];
 

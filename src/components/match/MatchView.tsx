@@ -20,6 +20,7 @@ import {
   isDisplayableVal,
   MATCH_FACT_KEYS,
 } from "@/lib/entityDisplay";
+import { playersInMatch } from "@/lib/matchPlayers";
 import {
   parseClubIds,
   toClubChip,
@@ -99,6 +100,7 @@ export async function MatchView({ data }: { data: EntityPayload }) {
       r.kind !== "club"
   );
   const subtitle = kidMatchSubtitle(summary.subtitle, scoreText);
+  const played = await playersInMatch(id);
 
   return (
     <article className="space-y-8">
@@ -157,6 +159,23 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           }
         />
       )}
+
+      {played.length > 0 ? (
+        <section>
+          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Who played
+          </h2>
+          <ul className="flex flex-wrap gap-x-3 gap-y-1">
+            {played.map((player) => (
+              <li key={player.id}>
+                <Link href={player.href} className="font-semibold text-galway-maroon underline underline-offset-2">
+                  {player.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       {cuttings.length > 0 ? (
         <CuttingExcerpts
