@@ -703,7 +703,7 @@ function exciseBeyondPlaying(sentence: string): { text: string; kind: "keep" | "
   if (!beyondPlayingHit(sentence)) return { text: sentence, kind: "keep" };
   let text = sentence.replace(/\((?:[^()]*)\)/g, (paren) => (beyondPlayingHit(paren) ? "" : paren));
   text = text
-    .replace(/,?\s*until injured\b/gi, "")
+    .replace(/,?\s*until injured\s*,?/gi, "")
     .replace(/\s+before\s+[\w-]+\s+injury\s+sub\b/gi, "")
     .replace(/\s+for injured\s+[A-Z][\w'.-]*(?:\s+[A-Z][\w'.-]*)?/g, "")
     .replace(/\s+through injury\b/gi, "");
