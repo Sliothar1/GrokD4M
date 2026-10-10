@@ -1,5 +1,7 @@
+import { Suspense } from "react";
 import Link from "next/link";
 import { AskForm } from "@/components/AskForm";
+import { CloseNavMenus } from "@/components/CloseNavMenus";
 import { SearchBox } from "@/components/SearchBox";
 import { PARISH_STORIES } from "@/lib/parishStories";
 
@@ -25,6 +27,9 @@ export function SiteHeader() {
           </span>
         </Link>
         <nav aria-label="Main" className="flex flex-wrap items-center gap-1">
+          <Suspense fallback={null}>
+            <CloseNavMenus />
+          </Suspense>
           <Link href="/search" className="nav-link">Find a name</Link>
           <Link href="/clubs" className="nav-link">Find a club</Link>
           <details className="nav-menu">
