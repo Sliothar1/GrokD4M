@@ -136,6 +136,8 @@ type ArticleCredit = {
   excerpt?: string;
   sourceUrl?: string;
   bookMedia?: boolean;
+  /** Year printed on the cutting as its publication date. */
+  publicationYear?: string;
 };
 
 export type ProfileContext = {
@@ -249,19 +251,119 @@ function allYears(text: string): number[] {
 const RELATIVE_CLAUSE =
   /\b(?:son|daughter|father|mother|brother|sister|grandson|granddaughter|nephew|niece|uncle|aunt|cousin|namesake|wife|husband)\s+of\b[^.]*/gi;
 
-function yearsInOwnProse(text: string): number[] {
-  const cleaned = text
-    .replace(RELATIVE_CLAUSE, " ")
-    .replace(/\((?:[^()]*\b(?:Tribune|Herald|Independent|Examiner|Times|Press|Sentinel)\b[^()]*)\)/gi, " ")
-    .replace(
-      /\b((?:18|19|20)\d{2})\s*[–—-]\s*((?:18|19|20)\d{2})\b/g,
-      (full, start: string, end: string) => (Number(end) - Number(start) >= 10 ? "" : full)
-    );
-  const years = allYears(cleaned);
-  for (const match of cleaned.matchAll(/\b(?:CTT|TTH|CSL|GLC|INA)((?:19|20)\d{2})\d{4}\b/gi)) {
-    years.push(Number(match[1]));
+const RETROSPECTIVE =
+  /\b(?:years?\s+ago|anniversary|recalled|recalls|recalling|retrospective|remembered|former)\b/i;
+
+const NEWSPAPER_PAREN =
+  /\((?:[^()]*\b(?:Tribune|Herald|Independent|Examiner|Times|Press|Sentinel)\b[^()]*)\)/gi;
+
+const CATALOGUE_RANGE =
+  /\b((?:18|19|20)\d{2})\s*[–—-]\s*((?:18|19|20)\d{2})\b/g;
+
+const PAPER_DATELINE =
+  /\b(?:\d{1,2}\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+((?:18|19|20)\d{2})\b/gi;
+
+const ARCHIVE_CODE = /\b(?:CTT|TTH|CSL|GLC|INA)((?:19|20)\d{2})\d{4}\b/gi;
+
+function keepYear(year: number): boolean {
+  return year >= 1880 && year <= 2035;
+}
+
+function publicationYearsIn(text: string): number[] {
+  const years: number[] = [];
+  for (const match of text.matchAll(PAPER_DATELINE)) {
+    const year = Number(match[1]);
+    if (keepYear(year)) years.push(year);
   }
-  return years.filter((year) => year >= 1880 && year <= 2035);
+  for (const match of text.matchAll(ARCHIVE_CODE)) {
+    const year = Number(match[1]);
+    if (keepYear(year)) years.push(year);
+  }
+  return years;
+}
+
+/**
+ * Years the sentence is about. A retrospective keeps the year it depicts.
+ * The newspaper's own date counts only when the piece is not looking back.
+ */
+function eventYearsInSentence(sentence: string): number[] {
+  const cleaned = sentence
+    .replace(RELATIVE_CLAUSE, " ")
+    .replace(NEWSPAPER_PAREN, " ")
+    .replace(CATALOGUE_RANGE, (full, start: string, end: string) =>
+      Number(end) - Number(start) >= 10 ? "" : full
+    );
+  const published = new Set(publicationYearsIn(cleaned));
+  const years = [...new Set([...allYears(cleaned), ...published].filter(keepYear))];
+  const depicted = years.filter((year) => [...published].some((pub) => year < pub));
+  if (depicted.length > 0) return depicted;
+  if (RETROSPECTIVE.test(cleaned) && published.size > 0) {
+    return years.filter((year) => !published.has(year));
+  }
+  return years;
+}
+
+function yearsInOwnProse(text: string): number[] {
+  const years: number[] = [];
+  for (const sentence of text.split(/(?<=[.!?\n])\s+/)) {
+    years.push(...eventYearsInSentence(sentence));
+  }
+  return [...new Set(years)];
+}
+
+type MentionSources = {
+  articles?: Map<string, ArticleCredit>;
+  attrsForArticle?: (id: string) => Record<string, TripleVal>;
+};
+
+function explicitPieceYear(attrs: Record<string, TripleVal> | undefined, keys: string[]): number | null {
+  if (!attrs) return null;
+  for (const key of keys) {
+    const year = yearOf(attrs[key]);
+    if (year) return year;
+  }
+  return null;
+}
+
+/** Event year for a cutting: depicted year, then match date, then season, then publication. */
+function eventYearsForArticle(
+  articleId: string,
+  sources?: MentionSources
+): number[] {
+  const art = sources?.articles?.get(articleId);
+  const piece = sources?.attrsForArticle?.(articleId) ?? {};
+  const depicted = explicitPieceYear(piece, ["depicted_year", "depictedYear", "event_year", "eventYear"]);
+  if (depicted) return [depicted];
+  const match = explicitPieceYear(piece, ["match_date", "matchDate"]);
+  if (match) return [match];
+  const season = explicitPieceYear(piece, ["season", "season_year", "seasonYear"]);
+  if (season) return [season];
+
+  const id = art?.id || articleId;
+  const dated = id.match(/((?:18|19|20)\d{2})-\d{2}-\d{2}/);
+  const idPub = dated ? Number(dated[1]) : null;
+  const fieldYear = yearOf(art?.publicationYear);
+  if (idPub && fieldYear && fieldYear < idPub) return [fieldYear];
+  const pub = fieldYear ?? idPub;
+
+  const caption = [art?.caption, art?.excerpt, piece.caption, piece.title, piece.headline, piece.name]
+    .filter((part) => isDisplayableVal(part))
+    .join(" ");
+  const slugRest = dated ? id.slice((dated.index ?? 0) + dated[0].length) : id;
+  const earlier = [
+    ...new Set(
+      [...allYears(caption), ...allYears(slugRest)].filter((year) => keepYear(year) && (pub == null || year < pub))
+    ),
+  ];
+  const marked =
+    piece.retrospective === true ||
+    String(piece.retrospective ?? "").toLowerCase() === "true" ||
+    RETROSPECTIVE.test(caption) ||
+    RETROSPECTIVE.test(slugRest.replace(/-/g, " "));
+  if (earlier.length > 0) return earlier;
+  if (marked) return [];
+  if (pub && keepYear(pub)) return [pub];
+  return allYears(caption).filter(keepYear);
 }
 
 /**
@@ -270,12 +372,29 @@ function yearsInOwnProse(text: string): number[] {
  */
 export function ownMentionYears(
   attrs: Record<string, TripleVal>,
-  apps: Array<{ year?: string; competition?: string }>
+  apps: Array<{ year?: string; competition?: string; articleId?: string }>,
+  sources?: MentionSources
 ): number[] {
   const years: number[] = [];
+  const publicationOnly: number[] = [];
   for (const app of apps) {
-    const year = yearOf(app.year) ?? yearOf(app.competition);
-    if (year) years.push(year);
+    const gameYear = yearOf(app.year) ?? yearOf(app.competition);
+    if (app.articleId && sources?.articles?.has(app.articleId)) {
+      const event = eventYearsForArticle(app.articleId, sources);
+      const published = yearOf(sources.articles.get(app.articleId)?.publicationYear);
+      const depictsEarlier = published != null && event.some((year) => year < published);
+      if (gameYear && published === gameYear && depictsEarlier) {
+        years.push(...event);
+        continue;
+      }
+      if (gameYear) {
+        years.push(gameYear);
+        continue;
+      }
+      years.push(...event);
+      continue;
+    }
+    if (gameYear) years.push(gameYear);
   }
   for (const [key, val] of Object.entries(attrs)) {
     if (
@@ -288,17 +407,18 @@ export function ownMentionYears(
       continue;
     }
     if (key.startsWith("cutting:")) {
-      const dated = key.match(/((?:18|19|20)\d{2})-\d{2}-\d{2}/);
-      if (dated) years.push(Number(dated[1]));
+      years.push(...eventYearsForArticle(key.slice("cutting:".length), sources));
       continue;
     }
     if (!isDisplayableVal(val)) continue;
     const text = String(val);
     if (/^source_/.test(key)) {
-      if (/^art-/.test(text) || text.startsWith("article:")) years.push(...allYears(text));
-      for (const match of text.matchAll(/\b(?:CTT|TTH|CSL|GLC|INA)((?:19|20)\d{2})\d{4}\b/gi)) {
-        years.push(Number(match[1]));
+      const articleId = articleIdOf(text);
+      if (articleId) {
+        years.push(...eventYearsForArticle(articleId, sources));
+        continue;
       }
+      publicationOnly.push(...eventYearsInSentence(text));
       continue;
     }
     const ownField = /^(?:note|notes|notable|cutting_cite|secondary_cite|book_cite|debut|era|book_note(?:_\d+)?)$/.test(
@@ -307,6 +427,7 @@ export function ownMentionYears(
     if (!ownField) continue;
     years.push(...yearsInOwnProse(text));
   }
+  if (years.length === 0) years.push(...publicationOnly);
   return [...new Set(years)];
 }
 
@@ -328,7 +449,21 @@ export function playingYearsFor(
     ...(ctx.appearancesByPlayer.get(id) ?? []),
     ...aliasIds.flatMap((aliasId) => ctx.appearancesByPlayer.get(aliasId) ?? []),
   ];
-  return ownMentionYears(attrs, apps);
+  return ownMentionYears(attrs, apps, {
+    articles: ctx.articles,
+    attrsForArticle: (articleId) => {
+      const keys = [
+        articleId,
+        articleId.startsWith("article:") ? articleId : `article:${articleId}`,
+        articleId.startsWith("art-") ? `article:${articleId.slice(4)}` : "",
+      ].filter(Boolean);
+      for (const key of keys) {
+        const found = ctx.A.entityAttrs(key);
+        if (Object.keys(found).length > 0) return found;
+      }
+      return {};
+    },
+  });
 }
 
 /** Every decade from the first dated mention through the last, inclusive. */
@@ -1305,6 +1440,7 @@ async function buildPlayerProfileContext(showInaMedia: boolean): Promise<Profile
       excerpt: upload.excerpt,
       sourceUrl: upload.sourceUrl,
       bookMedia: upload.bookMedia === true,
+      publicationYear: upload.year,
     };
     articles.set(upload.id, credit);
     const day = upload.id.match(/((?:18|19|20)\d{2}-\d{2}-\d{2})/);

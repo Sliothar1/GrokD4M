@@ -1,5 +1,5 @@
 import { getAssoc } from "@/lib/data";
-import { createPlayerProfileContext, decadesSpanned, ownMentionYears } from "@/lib/playerProfile";
+import { createPlayerProfileContext, decadesSpanned, playingYearsFor } from "@/lib/playerProfile";
 
 export type BrowsePlayer = {
   id: string;
@@ -21,8 +21,7 @@ export async function listBrowsePlayers(): Promise<BrowsePlayer[]> {
     if (attrs.same_as) continue;
     const name = String(attrs.name ?? "").trim();
     if (!name) continue;
-    const apps = ctx.appearancesByPlayer.get(id) ?? [];
-    const decades = decadesSpanned(ownMentionYears(attrs, apps));
+    const decades = decadesSpanned(playingYearsFor(ctx, id, attrs));
     rows.push({
       id,
       href: `/player/${id.slice("player:".length)}`,

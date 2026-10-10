@@ -296,6 +296,14 @@ async function main() {
   assert.match(patrick.eraLine ?? "", /1990s/);
   assert.match(patrick.eraLine ?? "", /2000s/);
   assert.doesNotMatch(patrick.eraLine ?? "", /1950s/);
+  const tim = profileForPlayer(
+    ctx,
+    "player:tim-sweeney-fohenagh",
+    A.entityAttrs("player:tim-sweeney-fohenagh")
+  );
+  assert.match(tim.eraLine ?? "", /1940s/);
+  assert.match(tim.eraLine ?? "", /1960s/);
+  assert.doesNotMatch(tim.eraLine ?? "", /1970s|1980s|1990s|2000s|2010s/);
 
   const barrett = profileForPlayer(ctx, "player:mike-barrett-fohenagh", A.entityAttrs("player:mike-barrett-fohenagh"));
   if (/assault|injured/i.test(barrett.summary ?? "")) {
