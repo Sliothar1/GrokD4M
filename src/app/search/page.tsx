@@ -1,11 +1,29 @@
-import { redirect } from "next/navigation";
 import { SearchBox } from "@/components/SearchBox";
 import { EntityCard } from "@/components/EntityCard";
-import { searchPrimaryEntities } from "@/lib/data";
+import { searchWiki, type EntitySummary } from "@/lib/data";
 
 export const metadata = {
   title: "Search",
 };
+
+function ResultGroup({
+  title,
+  entities,
+}: {
+  title: string;
+  entities: EntitySummary[];
+}) {
+  return (
+    <section className="space-y-3">
+      <h2 className="text-2xl font-bold text-galway-maroon">{title}</h2>
+      <div className="grid gap-3 sm:grid-cols-2">
+        {entities.map((entity) => (
+          <EntityCard key={entity.id} entity={entity} />
+        ))}
+      </div>
+    </section>
+  );
+}
 
 function EmptySearch({ title, hint }: { title: string; hint: string }) {
   return (
@@ -23,11 +41,10 @@ export default async function SearchPage({
 }) {
   const { q = "" } = await searchParams;
   const query = q.trim();
-  const entities = query ? await searchPrimaryEntities(query) : [];
-
-  if (entities.length === 1) {
-    redirect(entities[0].href);
-  }
+  const entities = query ? await searchWiki(query) : [];
+  const people = entities.filter((entity) => entity.kind === "player" || entity.kind === "club" || entity.kind === "team");
+  const games = entities.filter((entity) => entity.kind === "match");
+  const clippings = entities.filter((entity) => entity.kind === "article_upload");
 
   return (
     <div className="space-y-8">
@@ -38,33 +55,27 @@ export default async function SearchPage({
 
       {!query && (
         <EmptySearch
-          title="Search for a player or club"
-          hint="Type a name in the box above. If we know exactly who you mean, we’ll open their page."
+          title="Search the wiki"
+          hint="Type a name. Players, the games they played, and clippings that name them are listed below."
         />
       )}
 
       {query && entities.length === 0 && (
         <EmptySearch
-          title={`No player or club named “${query}”`}
-          hint="Try a person or club name — like Jason Lohan or Fohenagh."
+          title={`Nothing matched “${query}”`}
+          hint="Try a player, a club, or a game."
         />
       )}
 
-      {entities.length > 1 && (
-        <section className="space-y-3">
-          <h2 className="text-2xl font-bold text-galway-maroon">
-            Which one?
-          </h2>
-          <p className="text-lg text-galway-ink/70">
-            A few players or clubs match “{query}”. Tap a card.
-          </p>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {entities.map((entity) => (
-              <EntityCard key={entity.id} entity={entity} />
-            ))}
-          </div>
-        </section>
-      )}
+      {people.length > 0 ? (
+        <ResultGroup title="People" entities={people} />
+      ) : null}
+      {games.length > 0 ? (
+        <ResultGroup title="Games" entities={games} />
+      ) : null}
+      {clippings.length > 0 ? (
+        <ResultGroup title="Clippings" entities={clippings} />
+      ) : null}
     </div>
   );
 }

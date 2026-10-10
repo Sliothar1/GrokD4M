@@ -16,11 +16,14 @@ import {
 import seed from "../../data/seed.json";
 import type { EntitySummary } from "@/lib/data";
 import type { LinkedCuttingSource } from "@/lib/sources";
+import { SHOW_BOOK_MEDIA } from "@/lib/book-media";
+import { SHOW_INA_MEDIA } from "@/lib/ina-media";
+import { publicCuttingLabel, sanitizePublicText } from "@/lib/publicText";
 
 const execFileAsync = promisify(execFile);
 
 export type ArticleUploadStatus = "pending" | "decomposed";
-export type ArticleKind = "image" | "pdf" | "url";
+export type ArticleKind = "image" | "pdf" | "url" | "text";
 
 /**
  * Ingest Lab cuttings contract:
@@ -31,6 +34,11 @@ export type ArticleKind = "image" | "pdf" | "url";
  */
 export interface ArticleUpload {
   id: string;
+  /**
+   * Another upload this row aliases (`art-…`, or `article:art-…`).
+   * Listings skip the row. `/article/<id>` redirects to the target.
+   */
+  same_as?: string;
   kind: ArticleKind;
   filename?: string;
   /** Public asset path or Blob URL (image, PDF, or optional URL preview image) */
@@ -67,6 +75,26 @@ export interface ArticleUpload {
   derivedTriples?: Triple[];
   /** Page title fetched from URL when available */
   fetchedTitle?: string;
+  /** Irish Newspaper Archives scan. Hidden when SHOW_INA_MEDIA is off. */
+  inaMedia?: boolean;
+  /** Book scan or a clipping from the collection. Hidden when SHOW_BOOK_MEDIA is off. */
+  bookMedia?: boolean;
+  /** Printed page in the book, when this is a book scan. */
+  bookPage?: string;
+  /** Club-page feature, such as the 2021 fairytale. */
+  featuredLink?: boolean;
+  /** Byline, when the cutting names a writer. */
+  author?: string;
+  /** Extra page images, in reading order. */
+  pageImages?: string[];
+  /** Courtesy line, e.g. Irish Newspaper Archives */
+  credit?: string;
+  /** Permalink back to the archive page */
+  creditUrl?: string;
+  /** Full page image for a zoom viewer */
+  pageImage?: string;
+  /** INA classification label */
+  inaClass?: string;
 }
 
 const META_PATH = path.join(process.cwd(), "data", "article-uploads.json");
@@ -159,9 +187,50 @@ function assertWritableStorage(): void {
   }
 }
 
-/** Public media URL for cards / match clips / article page. */
+/** True when this cutting's scans must stay off the page. */
+function inaScanHidden(a: Pick<ArticleUpload, "inaMedia" | "bookMedia">): boolean {
+  if (a.inaMedia === true && !SHOW_INA_MEDIA) return true;
+  if (a.bookMedia === true && !SHOW_BOOK_MEDIA) return true;
+  return false;
+}
+
+function isRasterImageUrl(url: string): boolean {
+  const path = url.split("?")[0].split("#")[0].toLowerCase();
+  return (
+    !path.endsWith(".pdf") && !path.endsWith(".md") && !path.endsWith(".txt")
+  );
+}
+
+/**
+ * Public clip / thumb. INA scans are omitted when NEXT_PUBLIC_SHOW_INA_MEDIA
+ * is "false" — the same one-step hide as `readArticleUploads`.
+ */
 export function articleMediaUrl(a: ArticleUpload): string | undefined {
+  if (inaScanHidden(a)) return undefined;
   return a.publicUrl || a.imageUrl || a.path;
+}
+
+/** Full newspaper page for the zoom viewer. Same INA hide as `articleMediaUrl`. */
+export function articlePageImageUrl(a: ArticleUpload): string | undefined {
+  if (inaScanHidden(a)) return undefined;
+  const url = a.pageImage?.trim();
+  return url || undefined;
+}
+
+/**
+ * Kind line on the article page.
+ * Snippet-only text (kind `text`, or no raster scan) is never "Image".
+ */
+export function articleKindLabel(a: ArticleUpload): string {
+  if (a.kind === "url") return "URL source";
+  if (a.kind === "pdf") return "PDF";
+  if (a.kind === "text") return "Snippet";
+  const media = articleMediaUrl(a);
+  const page = articlePageImageUrl(a);
+  const raster = Boolean(
+    (media && isRasterImageUrl(media)) || (page && isRasterImageUrl(page))
+  );
+  return raster ? "Image" : "Snippet";
 }
 
 export function ensureUploadDir(): void {
@@ -309,22 +378,44 @@ async function storePrivateTextBlob(
   return { privateTextUrl: result.url };
 }
 
+/** Drop INA scans when NEXT_PUBLIC_SHOW_INA_MEDIA is "false". */
+function applyInaMediaVisibility(list: ArticleUpload[]): ArticleUpload[] {
+  return list.filter((a) => !inaScanHidden(a));
+}
+
 export async function readArticleUploads(): Promise<ArticleUpload[]> {
   /** Always include git-committed cuttings (public/uploads + article-uploads.json).
    *  Blob (when healthy) overlays/extends them — never hide repo cuttings if Blob is empty/suspended. */
   const fromFs = readArticleUploadsFromFs();
-  if (!isBlobStorageEnabled()) return fromFs;
+  if (!isBlobStorageEnabled()) return applyInaMediaVisibility(fromFs);
   try {
     const fromBlob = await listArticleUploadsFromBlob();
     const byId = new Map<string, ArticleUpload>();
     for (const a of fromFs) byId.set(a.id, a);
     for (const a of fromBlob) byId.set(a.id, a); // blob wins on same id
-    return Array.from(byId.values()).sort((a, b) =>
-      String(b.uploadedAt).localeCompare(String(a.uploadedAt))
+    return applyInaMediaVisibility(
+      Array.from(byId.values()).sort((a, b) =>
+        String(b.uploadedAt).localeCompare(String(a.uploadedAt))
+      )
     );
   } catch {
-    return fromFs;
+    return applyInaMediaVisibility(fromFs);
   }
+}
+
+/**
+ * Bare upload id when this row is an alias of another cutting.
+ * Accepts `art-…` or `article:art-…`, the same two shapes article pages resolve.
+ */
+export function articleSameAsId(
+  article: Pick<ArticleUpload, "id" | "same_as"> | null | undefined
+): string | null {
+  const raw = article?.same_as?.trim();
+  if (!raw) return null;
+  let id = raw;
+  if (/^article:/i.test(id)) id = id.slice("article:".length);
+  if (!id || id === article?.id) return null;
+  return id;
 }
 
 export async function getArticleUpload(
@@ -1034,28 +1125,49 @@ export function linkedCuttingFromUpload(a: ArticleUpload): LinkedCuttingSource {
   };
 }
 
-/** Catalog for cite lookup. Same list as `readArticleUploads`. */
+/**
+ * Catalog for cite lookup. An alias id resolves to the credited cutting
+ * (its image and `/article/<canonical>` href) so older source cells still open it.
+ */
 export async function loadCitationUploads(): Promise<LinkedCuttingSource[]> {
-  return (await readArticleUploads()).map(linkedCuttingFromUpload);
+  const all = await readArticleUploads();
+  const byId = new Map(all.map((article) => [article.id, article]));
+  const out: LinkedCuttingSource[] = [];
+  for (const article of all) {
+    const targetId = articleSameAsId(article);
+    const source = targetId ? byId.get(targetId) : article;
+    if (!source || articleSameAsId(source)) continue;
+    const linked = linkedCuttingFromUpload(source);
+    if (targetId) {
+      out.push({ ...linked, id: article.id, href: `/article/${source.id}` });
+    } else {
+      out.push(linked);
+    }
+  }
+  return out;
 }
 
 export function articleToSummary(a: ArticleUpload): EntitySummary {
-  const title =
+  const title = publicCuttingLabel(
     a.caption?.trim() ||
-    a.fetchedTitle?.trim() ||
-    (a.kind === "url"
-      ? a.sourceUrl || "Linked article"
-      : a.kind === "pdf"
-        ? `PDF cutting (${a.year || "undated"})`
-        : `Article photo (${a.year || "undated"})`);
-  const cite = a.citeChip || makeCiteChip(a.year);
-  const excerpt =
-    a.excerpt ||
-    makeExcerpt([a.caption, a.fetchedTitle]) ||
-    "Newspaper / article cutting";
-  const subtitle = [cite, a.playerTags?.[0], a.clubTags[0]]
-    .filter(Boolean)
-    .join(" · ");
+      a.fetchedTitle?.trim() ||
+      (a.kind === "url"
+        ? a.sourceUrl || "Linked article"
+        : a.kind === "pdf"
+          ? `PDF cutting (${a.year || "undated"})`
+          : a.kind === "text"
+            ? `Snippet (${a.year || "undated"})`
+            : `Article photo (${a.year || "undated"})`)
+  );
+  const cite = publicCuttingLabel(a.citeChip || makeCiteChip(a.year) || "");
+  const excerpt = sanitizePublicText(
+    publicCuttingLabel(
+      a.excerpt ||
+        makeExcerpt([a.caption, a.fetchedTitle]) ||
+        "Newspaper / article cutting"
+    )
+  );
+  const subtitle = cite || undefined;
   const media = articleMediaUrl(a);
   return {
     id: `article:${a.id}`,
@@ -1067,7 +1179,7 @@ export function articleToSummary(a: ArticleUpload): EntitySummary {
     trustLabel: "Verified",
     badge: "From cutting",
     imagePath:
-      media && !media.toLowerCase().endsWith(".pdf") ? media : undefined,
+      a.kind !== "text" && media && isRasterImageUrl(media) ? media : undefined,
     citeChip: cite,
     excerpt,
   };
@@ -1089,6 +1201,7 @@ export async function searchArticleUploads(
 
   const out: EntitySummary[] = [];
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     const privateText = await readPrivateText(a);
     const blob = [
       a.caption,
@@ -1119,6 +1232,7 @@ export async function searchArticleUploads(
 export async function allDerivedUploadTriples(): Promise<Triple[]> {
   const out: Triple[] = [];
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     if (a.derivedTriples?.length) out.push(...a.derivedTriples);
   }
   return out;
@@ -1154,6 +1268,7 @@ export async function getLinkedArticleSummaries(
   const seen = new Set<string>();
 
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     if (!articleLinksEntity(a, entityId)) continue;
     const summary = articleToSummary(a);
     if (seen.has(summary.id)) continue;
@@ -1171,6 +1286,7 @@ export async function linkedCuttingCountsFor(
   const counts = new Map(ids.map((id) => [id, 0]));
   if (ids.length === 0) return counts;
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     for (const id of ids) {
       if (!articleLinksEntity(a, id)) continue;
       counts.set(id, (counts.get(id) ?? 0) + 1);
@@ -1242,6 +1358,7 @@ export async function getMatchArticleClips(
       : "";
 
   for (const a of await readArticleUploads()) {
+    if (articleSameAsId(a)) continue;
     const tags = [...a.tags, ...a.clubTags, ...(a.playerTags ?? [])].map((t) =>
       t.toLowerCase()
     );
@@ -1260,10 +1377,12 @@ export async function getMatchArticleClips(
         (clubHint.includes("fohenagh") && blob.includes("fohenagh")) ||
         (clubHint.includes("ahascragh") && blob.includes("ahascragh")));
     if (!matchHit && !yearClubHit) continue;
-    // Image thumbnails only on match pages
+    // Image thumbnails only on match pages. Snippet text is not an image.
     const kind = (a as { kind?: string }).kind;
     const media = articleMediaUrl(a);
-    if (!media || kind === "url" || kind === "pdf") continue;
+    if (!media || !isRasterImageUrl(media) || kind === "url" || kind === "pdf" || kind === "text") {
+      continue;
+    }
     push({
       key: a.id,
       imageUrl: media,

@@ -4,6 +4,7 @@ import { StoryForm } from "@/components/StoryForm";
 import { ArticleUploadForm } from "@/components/ArticleUploadForm";
 import Link from "next/link";
 import { officialStories, readPendingStories } from "@/lib/data";
+import { PARISH_STORIES } from "@/lib/parishStories";
 import { articleToSummary, readArticleUploads } from "@/lib/articles";
 
 export const metadata: Metadata = {
@@ -43,6 +44,27 @@ export default async function StoriesPage({
           private; triples stay unverified until the Archivist.
         </p>
       </header>
+
+      <section className="space-y-3" id="record">
+        <h2 className="text-2xl font-bold text-galway-maroon">From the record</h2>
+        <ul className="grid gap-3 sm:grid-cols-2">
+          {PARISH_STORIES.map((story) => (
+            <li key={story.slug} className="rounded-2xl border border-galway-maroon/15 bg-white p-4">
+              <p className="text-xs font-bold uppercase tracking-wide text-galway-maroon">{story.year}</p>
+              <Link href={`/story/${story.slug}`} className="text-xl font-bold text-galway-ink underline-offset-2 hover:underline">
+                {story.title}
+              </Link>
+              {story.matchHref ? (
+                <p className="mt-1 text-sm">
+                  <Link href={story.matchHref} className="font-semibold text-galway-maroon underline underline-offset-2">
+                    {story.matchLabel}
+                  </Link>
+                </p>
+              ) : null}
+            </li>
+          ))}
+        </ul>
+      </section>
 
       <section className="space-y-3" id="upload">
         <h2 className="text-2xl font-bold text-galway-maroon">
@@ -115,7 +137,7 @@ export default async function StoriesPage({
                 key={p.id}
                 className="rounded-2xl border-2 border-dashed border-galway-gold bg-white p-4"
               >
-                <p className="text-xs font-bold uppercase text-galway-gold">
+                <p className="text-xs font-bold uppercase text-galway-gold-ink">
                   Pending
                 </p>
                 <h3 className="text-xl font-bold">{p.title}</h3>

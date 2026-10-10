@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { friendlyTrustLabel, type EntitySummary } from "@/lib/data";
+import { publicSourceCredit } from "@/lib/publicText";
 
 const kindLabel: Record<string, string> = {
   player: "Player",
@@ -12,6 +13,7 @@ const kindLabel: Record<string, string> = {
   community_story: "Story",
   article_upload: "Article",
   appearance: "Panel",
+  fixture: "Fixture",
   unknown: "Thing",
 };
 
@@ -23,7 +25,10 @@ function winKindBadge(entity: EntitySummary): string {
 }
 
 export function EntityCard({ entity }: { entity: EntitySummary }) {
-  const trust = entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
+  const trust =
+    entity.kind === "match"
+      ? undefined
+      : entity.trustLabel ?? friendlyTrustLabel(entity.confidence);
   const badge = entity.badge;
   const typeBadge =
     entity.kind === "win"
@@ -57,7 +62,7 @@ export function EntityCard({ entity }: { entity: EntitySummary }) {
           )}
           {entity.citeChip && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-xs font-bold text-galway-maroon">
-              {entity.citeChip}
+              {publicSourceCredit(entity.citeChip)}
             </span>
           )}
           {entity.scoreDisputed && (

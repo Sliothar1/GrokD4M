@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { EntityView } from "@/components/EntityView";
-import { articleMediaUrl, getArticleUpload } from "@/lib/articles";
+import { notFound, redirect } from "next/navigation";
+import { ArticleCredit } from "@/components/ArticleCredit";
+import { ZoomableImage } from "@/components/ZoomableImage";
+import {
+  articleKindLabel,
+  articleMediaUrl,
+  articlePageImageUrl,
+  articleSameAsId,
+  getArticleUpload,
+} from "@/lib/articles";
 import { displayNameForRef, getAssoc, getEntity, isEntityRef } from "@/lib/data";
+import { publicCuttingLabel, sanitizePublicText } from "@/lib/publicText";
 
 export const dynamic = "force-dynamic";
 
@@ -14,6 +22,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const a = await getArticleUpload(id);
+  const aliasOf = articleSameAsId(a);
+  if (aliasOf) {
+    const canonical = await getArticleUpload(aliasOf);
+    if (canonical) {
+      return { title: canonical.caption?.slice(0, 60) || canonical.fetchedTitle?.slice(0, 60) || "Cutting" };
+    }
+  }
   if (a) {
     return {
       title:
@@ -22,8 +37,15 @@ export async function generateMetadata({
         "Cutting",
     };
   }
-  const seeded = await getEntity(`article:${id}`);
+  const seeded = await seededArticle(id);
   return { title: seeded?.summary.title ?? "Cutting" };
+}
+
+async function seededArticle(id: string) {
+  const direct = await getEntity(`article:${id}`);
+  if (direct) return direct;
+  if (id.startsWith("art-")) return getEntity(`article:${id.slice(4)}`);
+  return null;
 }
 
 export default async function ArticlePage({
@@ -33,49 +55,54 @@ export default async function ArticlePage({
 }) {
   const { id } = await params;
   const a = await getArticleUpload(id);
+  const aliasOf = articleSameAsId(a);
+  if (aliasOf && (await getArticleUpload(aliasOf))) redirect(`/article/${aliasOf}`);
   if (!a) {
-    const seeded = await getEntity(`article:${id}`);
+    const seeded = await seededArticle(id);
     if (!seeded) notFound();
-    return <EntityView data={seeded} />;
+    const title = sanitizePublicText(String(seeded.attrs.title ?? seeded.attrs.name ?? seeded.summary.title));
+    const cite = sanitizePublicText(String(seeded.attrs.cite ?? seeded.summary.citeChip ?? ""));
+    const paper = sanitizePublicText(String(seeded.attrs.paper ?? ""));
+    return (
+      <article className="space-y-4">
+        <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">From the record</p>
+        <h1 className="text-3xl font-black text-galway-ink sm:text-4xl">{title || "Cutting"}</h1>
+        {cite ? <p className="text-lg text-galway-ink">{cite}</p> : null}
+        {paper && paper !== cite ? <p className="text-base text-galway-ink/80">{paper}</p> : null}
+      </article>
+    );
   }
   const A = await getAssoc();
 
-  const title =
+  const title = publicCuttingLabel(
     a.caption ||
-    a.fetchedTitle ||
-    (a.kind === "url" ? "Linked article" : "Article cutting");
-  const cite = a.citeChip || (a.year ? `${a.year} · Paper` : "Paper");
+      a.fetchedTitle ||
+      (a.kind === "url" ? "Linked article" : "Article cutting")
+  );
+  const cite = publicCuttingLabel(a.citeChip || (a.year ? `${a.year} · Paper` : "Paper"));
   const media = articleMediaUrl(a);
+  const pageImage = articlePageImageUrl(a);
   const isPdf = a.kind === "pdf" || media?.toLowerCase().endsWith(".pdf");
-  const showImage = Boolean(media && !isPdf);
+  const showImage = Boolean(media && !isPdf && media !== pageImage);
+  const kindLabel = articleKindLabel(a);
 
   return (
     <article className="space-y-6">
       <header className="space-y-2">
         <div className="flex flex-wrap items-center gap-2">
-          <p className="text-sm font-bold uppercase tracking-wide text-galway-gold">
+          <p className="text-sm font-bold uppercase tracking-wide text-galway-gold-ink">
             From cutting
           </p>
           <span className="rounded-full bg-galway-maroon/10 px-3 py-0.5 text-sm font-bold text-galway-maroon">
             {cite}
           </span>
-          <span className="rounded-full bg-galway-cream px-3 py-0.5 text-xs font-semibold uppercase text-galway-ink/70">
-            Unverified
-          </span>
         </div>
         <h1 className="text-3xl font-black text-galway-ink sm:text-4xl">
           {title}
         </h1>
-        <p className="text-base text-galway-ink/65">
-          {[
-            a.kind === "url" ? "URL source" : a.kind === "pdf" ? "PDF" : "Image",
-            a.status === "pending"
-              ? "Awaiting Archivist"
-              : "Indexed · triples unverified",
-          ]
-            .filter(Boolean)
-            .join(" · ")}
-        </p>
+        {kindLabel ? (
+          <p className="text-base text-galway-ink/65">{kindLabel}</p>
+        ) : null}
       </header>
 
       {showImage && (
@@ -87,6 +114,15 @@ export default async function ArticlePage({
             className="mx-auto max-h-[70vh] w-full object-contain bg-galway-cream"
           />
         </div>
+      )}
+
+      {pageImage && (
+        <ZoomableImage
+          src={pageImage}
+          alt={`Newspaper page: ${title}`}
+          credit={a.credit}
+          creditUrl={a.creditUrl}
+        />
       )}
 
       {isPdf && media && (
@@ -103,24 +139,18 @@ export default async function ArticlePage({
         </div>
       )}
 
-      {a.kind === "url" && a.sourceUrl && (
-        <div className="rounded-2xl border-2 border-galway-maroon/15 bg-white p-5 shadow-sm">
-          <p className="text-sm font-bold uppercase text-galway-gold">Source URL</p>
-          <a
-            href={a.sourceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-1 break-all text-lg font-semibold text-galway-maroon underline"
-          >
-            {a.sourceUrl}
-          </a>
-        </div>
-      )}
+      <ArticleCredit
+        credit={a.credit}
+        creditUrl={a.creditUrl}
+        sourceUrl={a.sourceUrl}
+      />
 
       {a.excerpt && (
         <section className="space-y-2 rounded-2xl border-2 border-galway-maroon/15 bg-white p-4">
           <h2 className="text-xl font-bold text-galway-maroon">Excerpt</h2>
-          <p className="text-base text-galway-ink/85">{a.excerpt}</p>
+          <p className="text-base text-galway-ink/85">
+            {sanitizePublicText(publicCuttingLabel(a.excerpt))}
+          </p>
           <p className="text-sm text-galway-ink/55">
             Full OCR / page text stays private. Public cards show only this
             excerpt, the cite chip, and linked clubs — never invented scores.
@@ -128,9 +158,7 @@ export default async function ArticlePage({
         </section>
       )}
 
-      {(a.clubTags.length > 0 ||
-        (a.playerTags?.length ?? 0) > 0 ||
-        a.tags.length > 0) && (
+      {(a.clubTags.length > 0 || (a.playerTags?.length ?? 0) > 0) && (
         <div className="flex flex-wrap gap-2">
           {(a.playerTags ?? []).map((p) => (
             <Link
@@ -157,14 +185,6 @@ export default async function ArticlePage({
             >
               {isEntityRef(c) ? displayNameForRef(c, A) : c}
             </Link>
-          ))}
-          {a.tags.map((t) => (
-            <span
-              key={t}
-              className="rounded-full bg-galway-gold/20 px-3 py-1 text-sm font-semibold"
-            >
-              #{t}
-            </span>
           ))}
         </div>
       )}

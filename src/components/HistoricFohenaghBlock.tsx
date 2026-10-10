@@ -113,32 +113,26 @@ const FOHENAGH_FINAL_CHIPS = [
   },
 ];
 
-/** Paper-cited golden-year finals only. Scores from historic-fohenagh-1959-1960.json / seed. */
-const FOHENAGH_NOTABLE_GAMES = [
-  {
-    id: "1958",
-    year: "1958",
-    title: "First county final",
-    result: "Runners-up",
-    href: "/match/fohenagh-historic-1958-galway-shc-final",
-    kidLine:
-      "Fohenagh reached the Galway senior final. Castlegar won that day.",
-    score: "Castlegar 5-9, Fohenagh 2-4",
-    venue: "Duggan Park",
-    cites: ["Galway GAA finals table"],
-  },
-  {
-    id: "1959-draw",
-    year: "1959",
-    title: "Level — they come back",
-    result: "Draw",
-    href: "/match/fohenagh-historic-1959-galway-shc-final-draw",
-    kidLine:
-      "Nobody could split them. The papers said they had to try again.",
-    score: "Fohenagh 2-8, Castlegar 1-11",
-    venue: "Pearse Stadium",
-    cites: ["1959-09-05 · Connacht Tribune", "1959-09-05 · Tuam Herald"],
-  },
+type NotableGame = {
+  id: string;
+  year: string;
+  title: string;
+  result: string;
+  href: string;
+  kidLine: string;
+  score: string;
+  venue: string | null;
+  cites: readonly string[];
+  image?: string;
+  imageAlt?: string;
+};
+
+/**
+ * Importance order: 1950s county finals, then the cup and the 1960 call-up,
+ * then the later finals, then 1940s and the 1890 game.
+ * Where sources disagree, both figures are written out.
+ */
+const FOHENAGH_NOTABLE_GAMES: NotableGame[] = [
   {
     id: "1959-replay",
     year: "1959",
@@ -149,7 +143,12 @@ const FOHENAGH_NOTABLE_GAMES = [
       "Replay day at Kenny Park. Fohenagh became county champions.",
     score: "Fohenagh 3-9, Castlegar 4-5",
     venue: "Kenny Park",
-    cites: ["1959-09-19 · Connacht Tribune"],
+    cites: [
+      "3-9 to 4-5 · Tuam Herald and Connacht Tribune, 19 Sep 1959; Connacht Tribune, 29 Jan 2021",
+      "3-9 to 2-5 · Galway GAA finals table",
+    ],
+    image: "/uploads/book/fohenagh-history/p149-1959-senior-champions.png",
+    imageAlt: "1959 Fohenagh senior champions, from A History of Fohenagh",
   },
   {
     id: "1960",
@@ -160,7 +159,45 @@ const FOHENAGH_NOTABLE_GAMES = [
     kidLine: "Fohenagh kept the cup. Two county titles in a row.",
     score: "Fohenagh 4-9, Castlegar 2-7",
     venue: "Pearse Stadium",
-    cites: ["1960-09-03 · Connacht Tribune"],
+    cites: [
+      "4-9 to 2-7 · Galway GAA; Connacht Tribune and Tuam Herald, 3 Sep 1960",
+      "5-13 to 2-4 · Connacht Tribune, 29 Jan 2021",
+    ],
+    image: "/uploads/book/fohenagh-history/p150-1960-senior-champions.png",
+    imageAlt: "1960 Fohenagh senior champions, from A History of Fohenagh",
+  },
+  {
+    id: "1959-draw",
+    year: "1959",
+    title: "Level — they come back",
+    result: "Draw",
+    href: "/match/fohenagh-historic-1959-galway-shc-final-draw",
+    kidLine: "Nobody could split them. The papers said they had to try again.",
+    score: "Fohenagh 2-8, Castlegar 1-11",
+    venue: "Pearse Stadium",
+    cites: ["1959-09-05 · Connacht Tribune", "1959-09-05 · Tuam Herald"],
+  },
+  {
+    id: "1958",
+    year: "1958",
+    title: "First county final",
+    result: "Runners-up",
+    href: "/match/fohenagh-historic-1958-galway-shc-final",
+    kidLine: "Fohenagh reached the Galway senior final. Castlegar won that day.",
+    score: "Castlegar 5-9, Fohenagh 2-4",
+    venue: "Duggan Park",
+    cites: ["Galway GAA finals table"],
+  },
+  {
+    id: "six-for-galway",
+    year: "1960",
+    title: "Six Fohenagh men picked for Galway",
+    result: "County call-up",
+    href: "/club/fohenagh-historic",
+    kidLine: "Six men from one small parish picked for Galway against Tipperary.",
+    score: "National League v Tipperary, 30 Oct 1960",
+    venue: "",
+    cites: ["1960-10-15 · Connacht Tribune"],
   },
   {
     id: "1961",
@@ -169,10 +206,10 @@ const FOHENAGH_NOTABLE_GAMES = [
     result: "Runners-up",
     href: "/match/fohenagh-historic-1961-galway-shc-final",
     kidLine:
-      "Defending champions, beaten by two points. We do not name the pitch — papers disagree.",
-    score: "Turloughmore 3-6, Fohenagh 3-4",
+      "Defending champions. The book says the margin was one point. Galway GAA prints two points, 3-6 to 3-4. We do not name the pitch — papers disagree.",
+    score: "One point (book, p.151). Two points: Turloughmore 3-6, Fohenagh 3-4 (Galway GAA).",
     venue: null,
-    cites: ["Galway GAA finals table", "1961-09-16 · Connacht Tribune"],
+    cites: ["A History of Fohenagh · p.151", "Galway GAA finals table", "1961-09-16 · Connacht Tribune"],
   },
   {
     id: "1963",
@@ -185,7 +222,88 @@ const FOHENAGH_NOTABLE_GAMES = [
     venue: "Pearse Stadium",
     cites: ["1963-08-17 · Connacht Tribune"],
   },
-] as const;
+  {
+    id: "1942-athenry",
+    year: "1942",
+    title: "Athenry",
+    result: "Called off",
+    href: "/match/fohenagh-claregalway-1941-county-semi",
+    kidLine: "",
+    score: "",
+    venue: "Athenry",
+    cites: ["Connacht Tribune, 13 June 1942", "Connacht Sentinel, 9 June 1942"],
+  },
+  {
+    id: "1942-north",
+    year: "1942",
+    title: "Cussane",
+    result: "Winners",
+    href: "/match/fohenagh-cussane-north-board-junior-final-1942",
+    kidLine: "",
+    score: "",
+    venue: "",
+    cites: [
+      "Tuam Herald, 4 April 1942, p.2",
+      "Connacht Tribune, 4 April 1942, p.9",
+      "From a club member's clipping collection",
+    ],
+  },
+  {
+    id: "1956-hospital",
+    year: "1956",
+    title: "Five men went to hospital",
+    result: "Called off",
+    href: "/match/fohenagh-tynagh-junior-abandoned-1956",
+    kidLine: "",
+    score: "",
+    venue: "Kiltormer",
+    cites: [],
+  },
+  {
+    id: "1944-final",
+    year: "1944",
+    title: "The final that waited a year",
+    result: "Runners-up",
+    href: "/match/fohenagh-cussane-1944-ina",
+    kidLine: "",
+    score: "",
+    venue: "Menlough",
+    cites: [],
+  },
+  {
+    id: "1956-hurls",
+    year: "1956",
+    title: "The burning of the hurls",
+    result: "Called off",
+    href: "/match/fohenagh-tynagh-1956-hurls",
+    kidLine: "",
+    score: "",
+    venue: "Kiltormer",
+    cites: [],
+  },
+  {
+    id: "1956-kiltormer",
+    year: "1956",
+    title: "Tynagh v Fohenagh at Kiltormer",
+    result: "Called off",
+    href: "/match/fohenagh-tynagh-junior-abandoned-1956",
+    kidLine: "The Herald, 6 October 1956: “Five men went to hospital after hurling game.”",
+    score: "",
+    venue: "Kiltormer",
+    cites: ["The Herald, 6 October 1956"],
+  },
+  {
+    id: "1942-story",
+    year: "1942",
+    title: "From the North Board to Blackguardism at Athenry",
+    result: "Story",
+    href: "/story/1942-north-board-blackguardism",
+    kidLine: "",
+    score: "",
+    venue: "Athenry",
+    cites: ["Connacht Tribune, 13 June 1942", "Connacht Sentinel, 9 June 1942"],
+  },
+];
 
 export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
   return (
@@ -280,99 +398,44 @@ export function HistoricYearChips({ compact = false }: { compact?: boolean }) {
   );
 }
 
-function resultBadgeClass(result: string) {
-  if (result === "Winners") {
-    return "bg-green-100 text-green-800";
-  }
-  if (result === "Draw") {
-    return "bg-galway-gold/35 text-galway-ink";
-  }
-  return "bg-amber-100 text-amber-900";
-}
-
-/** Historic Fohenagh club page only — golden-year finals, cited scores, no amalgam titles. */
+/** Every notable game is a dropdown entry. Choosing one opens that game page. */
 export function FohenaghNotableGamesShelf() {
+  const router = useRouter();
+
   return (
-    <section
-      aria-labelledby="fohenagh-notable-games"
-      className="space-y-4 rounded-2xl border-2 border-galway-maroon/20 bg-white p-5"
-    >
-      <div>
-        <p className="text-xs font-bold uppercase tracking-wide text-galway-ink/50">
-          Golden years · 1958–1963
-        </p>
-        <h2
-          id="fohenagh-notable-games"
-          className="mt-1 text-2xl font-bold text-galway-maroon"
-        >
+    <section aria-labelledby="fohenagh-notable-games" className="space-y-4">
+      <div className="max-w-2xl space-y-2">
+        <p className="fohenagh-kicker">1950s first</p>
+        <h2 id="fohenagh-notable-games" className="text-3xl font-black tracking-tight text-galway-ink">
           Notable games
         </h2>
-        <p className="mt-2 text-base text-galway-ink/75">
-          Six Galway senior finals from Fohenagh. Scores come from the papers
-          and the county roll. No made-up numbers.
-        </p>
       </div>
-
-      <div className="flex flex-wrap gap-2">
-        {FOHENAGH_NOTABLE_GAMES.map((game) => (
-          <a
-            key={game.id}
-            href={`#notable-${game.id}`}
-            className="rounded-full border-2 border-galway-maroon/25 bg-galway-cream/50 px-3 py-1 text-sm font-bold text-galway-maroon hover:border-galway-maroon"
-          >
-            {game.year}
-            {game.id === "1959-draw"
-              ? " draw"
-              : game.id === "1959-replay"
-                ? " replay"
-                : ""}
-          </a>
-        ))}
-      </div>
-
-      <ol className="grid gap-3 sm:grid-cols-2">
-        {FOHENAGH_NOTABLE_GAMES.map((game) => (
-          <li key={game.id} id={`notable-${game.id}`}>
-            <Link
-              href={game.href}
-              className="block h-full rounded-2xl border-2 border-galway-maroon/15 bg-galway-cream/40 p-4 transition hover:border-galway-maroon"
-            >
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="text-sm font-black text-galway-maroon">
-                  {game.year}
-                </span>
-                <span
-                  className={`rounded-full px-2 py-0.5 text-xs font-bold ${resultBadgeClass(game.result)}`}
-                >
-                  {game.result}
-                </span>
-              </div>
-              <h3 className="mt-2 text-lg font-bold text-galway-ink">
-                {game.title}
-              </h3>
-              <p className="mt-1 text-sm leading-relaxed text-galway-ink/80">
-                {game.kidLine}
-              </p>
-              <p className="mt-2 text-sm font-semibold text-galway-ink">
-                {game.score}
-                {game.venue ? ` · ${game.venue}` : ""}
-              </p>
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                {game.cites.map((cite) => (
-                  <span
-                    key={cite}
-                    className="rounded-full border border-galway-maroon/25 bg-white px-2 py-0.5 text-xs font-bold text-galway-maroon"
-                  >
-                    {cite}
-                  </span>
-                ))}
-              </div>
-            </Link>
-          </li>
-        ))}
-      </ol>
-
-      <p className="text-xs text-galway-ink/55">Pre-2002 Fohenagh only.</p>
+      <label className="block max-w-xl text-sm font-semibold text-galway-ink">
+        Games and stories
+        <select
+          className="mt-1 w-full rounded-xl border border-[var(--fohenagh-blue)]/30 bg-white px-3 py-2 text-base font-semibold text-galway-ink"
+          defaultValue=""
+          onChange={(event) => {
+            if (event.target.value) router.push(event.target.value);
+          }}
+        >
+          <option value="">Choose a game or a story</option>
+          <optgroup label="Stories">
+            <option value="/story/1942-north-board-blackguardism">
+              1942 · From the North Board to Blackguardism at Athenry
+            </option>
+          </optgroup>
+          <optgroup label="Games">
+            {FOHENAGH_NOTABLE_GAMES.filter((item) => item.id !== "1942-story").map((item) => (
+              <option key={item.id} value={item.href}>
+                {item.id === "1956-kiltormer"
+                  ? "1956 · Tynagh v Fohenagh, Kiltormer — Herald, 6 Oct 1956: “Five men went to hospital after hurling game”"
+                  : `${item.year} · ${item.title}`}
+              </option>
+            ))}
+          </optgroup>
+        </select>
+      </label>
     </section>
   );
 }
@@ -499,8 +562,8 @@ export function HistoricStoryChips() {
   return (
     <StoryChipButtons
       chips={HISTORIC_STORY_CHIPS}
-      heading="Got a Fohenagh story?"
-      sub="Anecdotes welcome. Please do not invent scores."
+      heading="Add a note"
+      sub="Do not invent scores."
     />
   );
 }

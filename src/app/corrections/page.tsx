@@ -16,10 +16,10 @@ export const metadata: Metadata = {
 export default async function CorrectionsPage({
   searchParams,
 }: {
-  searchParams: Promise<{ page?: string }>;
+  searchParams: Promise<{ page?: string; kind?: string }>;
 }) {
   if (!correctionsFormEnabled()) notFound();
-  const { page: raw } = await searchParams;
+  const { page: raw, kind: rawKind } = await searchParams;
   const page = normalisePage(raw);
 
   if (!page) {
@@ -50,10 +50,20 @@ export default async function CorrectionsPage({
           <Link href={page} className="font-semibold text-galway-maroon underline">
             {label}
           </Link>
-          , or want something taken down? Tell us here. An editor checks every request.
+          , or want something taken down? Tell us here. Your name and email are optional. An editor
+          checks every request.
         </p>
+        {rawKind === "add-photo" ? (
+          <p className="text-base text-galway-ink/70">
+            A photograph stays off the page until an editor accepts it.
+          </p>
+        ) : null}
       </header>
-      <CorrectionForm page={page} pageLabel={label} />
+      <CorrectionForm
+        page={page}
+        pageLabel={label}
+        initialKind={rawKind === "add-photo" ? "add-photo" : undefined}
+      />
     </div>
   );
 }

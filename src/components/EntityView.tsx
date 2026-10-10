@@ -4,14 +4,12 @@ import { ArticleClipSection } from "@/components/ArticleClip";
 import {
   AhascraghStoryChips,
   AhascraghTitleChips,
-  HistoricClubPanel,
+  FohenaghNotableGamesShelf,
   HistoricPredecessorChip,
-  HistoricStoryChips,
   LoughreaFinalStoryChips,
 } from "@/components/HistoricFohenaghBlock";
 import { ClubRoster } from "@/components/club/ClubRoster";
 import { DualEraStrip } from "@/components/club/DualEraStrip";
-import { DeveloperTriples } from "@/components/DeveloperTriples";
 import {
   displayNameForRef,
   friendlyAttrLabel,
@@ -36,12 +34,16 @@ import {
   resolveEntitySources,
   type LinkedCuttingSource,
 } from "@/lib/sources";
+import { FohenaghFairytale } from "@/components/fohenagh/FohenaghFairytale";
+import { FohenaghParishStory } from "@/components/fohenagh/FohenaghParishStory";
+import { FohenaghPlayerIndex } from "@/components/fohenagh/FohenaghPlayerIndex";
 import { listClubRoster, verifiedDualEraStrip } from "@/lib/playerClubs";
+import { publicSourceCredit, sanitizePublicText } from "@/lib/publicText";
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
 export async function EntityView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
   const trust =
@@ -53,10 +55,10 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   const isHistoricFohenagh = id === "club:fohenagh-historic";
   const isHistoricAhascragh = id === "club:ahascragh-historic";
   const isHistoricMatch =
-    id.startsWith("match:fohenagh-historic-") ||
-    id.startsWith("match:ahascragh-historic-") ||
-    String(attrs.tag ?? "") === "historic-predecessor" ||
-    String(attrs.tag ?? "") === "fohenagh-historic";
+    id.startsWith("match:") &&
+    (id.startsWith("match:fohenagh-historic-") ||
+      id.startsWith("match:ahascragh-historic-") ||
+      String(attrs.tag ?? "") === "historic-predecessor");
   const hideScore =
     attrs.hide_score === true || String(attrs.hide_score ?? "") === "true";
   const cuttingCards = related.filter((r) => r.kind === "article_upload");
@@ -68,18 +70,35 @@ export async function EntityView({ data }: { data: EntityPayload }) {
   });
   const clubRoster =
     summary.kind === "club" ? await listClubRoster(id, A) : [];
+  const blurb = isHistoricFohenagh ? "" : entityBlurb(attrs);
 
   return (
-    <article className="space-y-8">
-      <header className="space-y-2">
-        <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">
-          {summary.kind.replace("_", " ")}
-        </p>
-        <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">
-          {summary.title}
-        </h1>
-        {summary.subtitle && (
-          <p className="text-xl text-galway-ink/70">{summary.subtitle}</p>
+    <article className={isHistoricFohenagh ? "fohenagh-poster space-y-12" : "space-y-8"}>
+      <header className={isHistoricFohenagh ? "space-y-8" : "space-y-2"}>
+        {isHistoricFohenagh ? (
+          <div className="fohenagh-hero-top">
+            <div className="space-y-4">
+              <p className="fohenagh-kicker">The jersey</p>
+              <h1 className="fohenagh-display">{summary.title}</h1>
+              {summary.subtitle ? (
+                <p className="text-sm font-semibold tracking-wide text-white/85">
+                  {summary.subtitle}
+                </p>
+              ) : null}
+            </div>
+          </div>
+        ) : (
+          <>
+            <p className="text-sm font-bold uppercase tracking-wide text-galway-maroon">
+              {summary.kind.replace("_", " ")}
+            </p>
+            <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">
+              {summary.title}
+            </h1>
+            {summary.subtitle && (
+              <p className="text-xl text-galway-ink/70">{summary.subtitle}</p>
+            )}
+          </>
         )}
         <div className="flex flex-wrap items-center gap-2 pt-1">
           {trust && (
@@ -97,7 +116,7 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           )}
           {(summary.citeChip || attrs.cutting_cite) && (
             <span className="rounded-full border border-galway-maroon/25 px-2 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip || String(attrs.cutting_cite)}
+              {publicSourceCredit(summary.citeChip || String(attrs.cutting_cite))}
             </span>
           )}
           {(summary.scoreDisputed ||
@@ -121,7 +140,9 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           </div>
         )}
 
-        {(summary.kind === "player" || summary.kind === "club") && heroCutting?.imagePath && (
+        {(summary.kind === "player" || summary.kind === "club") &&
+          heroCutting?.imagePath &&
+          !isHistoricFohenagh && (
           <div className="pt-3">
             <a href={heroCutting.href} className="block overflow-hidden rounded-2xl border-2 border-galway-maroon/20">
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -132,31 +153,35 @@ export async function EntityView({ data }: { data: EntityPayload }) {
               />
             </a>
             <p className="mt-2 text-sm font-semibold text-galway-maroon">
-              From cutting{heroCutting.citeChip ? ` · ${heroCutting.citeChip}` : ""}
+              From cutting{heroCutting.citeChip ? ` · ${publicSourceCredit(heroCutting.citeChip)}` : ""}
             </p>
           </div>
         )}
       </header>
 
-      {attrs.notable || attrs.note || attrs.body || attrs.summary || attrs.excerpt ? (
-        <p className="text-lg leading-relaxed text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt)}
-        </p>
+      {blurb ? (
+        <p className="text-lg leading-relaxed text-galway-ink">{blurb}</p>
       ) : null}
 
-      {isHistoricFohenagh && <HistoricClubPanel showStories={false} />}
+      {isHistoricFohenagh ? <FohenaghFairytale /> : null}
+
+      {isHistoricFohenagh ? <FohenaghNotableGamesShelf /> : null}
+
+      {isHistoricFohenagh ? <FohenaghParishStory /> : null}
 
       {isHistoricFohenagh && summary.kind === "club" ? (
-        <ClubRoster
-          rows={clubRoster}
-          clubName={summary.title}
-          unverifiedLabel="Being verified"
-          omitAlsoClubIds={["club:ahascragh-fohenagh"]}
-          separateUnverifiedLinks
+        <FohenaghPlayerIndex
+          rows={clubRoster.map((row) => ({
+            id: row.summary.id,
+            name: row.summary.title,
+            href: row.summary.href,
+            years: row.years,
+            also: row.alsoClubs
+              .map((club) => club.name.replace(/\s*·\s*historic\s*$/i, ""))
+              .join(", "),
+          }))}
         />
       ) : null}
-
-      {isHistoricFohenagh && <HistoricStoryChips />}
 
       {isHistoricAhascragh && (
         <section className="space-y-4">
@@ -225,12 +250,19 @@ export async function EntityView({ data }: { data: EntityPayload }) {
             return false;
           }
           if (isHistoricFohenagh && r.id === "club:ahascragh-fohenagh") return false;
+          if (
+            isHistoricFohenagh &&
+            (r.kind === "match" || r.kind === "fixture" || r.kind === "win")
+          ) {
+            return false;
+          }
           return true;
         });
         const showCuttings =
-          cuttings.length > 0 ||
-          summary.kind === "player" ||
-          summary.kind === "club";
+          !isHistoricFohenagh &&
+          (cuttings.length > 0 ||
+            summary.kind === "player" ||
+            summary.kind === "club");
         return (
           <>
             {showCuttings && (
@@ -265,16 +297,18 @@ export async function EntityView({ data }: { data: EntityPayload }) {
                             Cutting
                           </p>
                           <h3 className="mt-1 text-lg font-bold text-galway-ink">
-                            {r.title}
+                            {sanitizePublicText(r.title) || "Cutting"}
                           </h3>
-                          {r.citeChip && (
+                          {r.citeChip && sanitizePublicText(r.citeChip) ? (
                             <p className="mt-1 text-sm font-semibold text-galway-maroon">
-                              {r.citeChip}
+                              {sanitizePublicText(r.citeChip)}
                             </p>
-                          )}
-                          {r.excerpt && (
-                            <p className="mt-2 text-sm text-galway-ink/70">{r.excerpt}</p>
-                          )}
+                          ) : null}
+                          {sanitizePublicText(r.excerpt ?? "") ? (
+                            <p className="mt-2 text-sm text-galway-ink/70">
+                              {sanitizePublicText(r.excerpt ?? "")}
+                            </p>
+                          ) : null}
                         </div>
                       </Link>
                     ))}
@@ -323,15 +357,13 @@ export async function EntityView({ data }: { data: EntityPayload }) {
           </p>
         )}
       </section>
-
-      
-
-      <DeveloperTriples
-        triples={triples}
-        hideScore={hideScore}
-        hideCols={isHistoricFohenagh ? ["successor", "note"] : []}
-      />
     </article>
+  );
+}
+
+function entityBlurb(attrs: EntityPayload["attrs"]): string {
+  return sanitizePublicText(
+    String(attrs.notable ?? attrs.note ?? attrs.body ?? attrs.summary ?? attrs.excerpt ?? "")
   );
 }
 
@@ -349,12 +381,17 @@ function EntityFacts({
   uploads: readonly LinkedCuttingSource[];
 }) {
   const columns = factColumnsFromAttrs(attrs);
-  const rows = Object.entries(attrs).filter(([key, value]) => {
-    if (isHiddenFactKey(key) || !isDisplayableVal(value)) return false;
-    if (hideScore && key === "score") return false;
-    if (entityId === "club:fohenagh-historic" && key === "successor") return false;
-    if (factKeyForSourceColumn(key, columns)) return false;
-    return true;
+  const rows = Object.entries(attrs).flatMap(([key, value]) => {
+    if (isHiddenFactKey(key) || !isDisplayableVal(value)) return [];
+    if (hideScore && key === "score") return [];
+    if (entityId === "club:fohenagh-historic" && key === "successor") return [];
+    if (factKeyForSourceColumn(key, columns)) return [];
+    if (typeof value === "string" && !value.startsWith("http") && !isEntityRef(value) && key !== "division") {
+      const clean = sanitizePublicText(value);
+      if (!clean) return [];
+      return [[key, clean] as const];
+    }
+    return [[key, value] as const];
   });
   const citations = resolveEntitySources({
     entityId,

@@ -1,19 +1,32 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { siteCredit } from "@/config/siteCredit";
+import { readArticleUploads } from "@/lib/articles";
 import { demoStats } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "About",
 };
 
+async function citedMentions(): Promise<number> {
+  const uploads = await readArticleUploads();
+  return uploads.filter((upload) =>
+    /irish newspaper archives|irishnewsarchive/i.test(
+      `${upload.credit ?? ""} ${upload.creditUrl ?? ""} ${upload.sourceUrl ?? ""} ${upload.citeChip ?? ""}`
+    )
+  ).length;
+}
+
 export default async function AboutPage() {
-  const stats = await demoStats();
+  const [stats, mentions] = await Promise.all([demoStats(), citedMentions()]);
 
   return (
     <div className="prose-like max-w-3xl space-y-6">
       <h1 className="text-4xl font-black text-galway-ink sm:text-5xl">About HurlingWiki</h1>
       <p className="text-xl leading-relaxed text-galway-ink/85">
         HurlingWiki is a Hurling Knowledge Site that shows how MIT&apos;s D4M associative
-        arrays can hold sports facts as sparse triples.
+        arrays can hold sports facts as sparse triples. The club page is the same for every
+        club. Fohenagh is the club on the site today.
       </p>
 
       <section className="space-y-3 rounded-2xl border-2 border-galway-maroon/15 bg-white p-6">
@@ -28,7 +41,8 @@ export default async function AboutPage() {
             rel="noopener noreferrer"
           >
             MIT Lincoln Laboratory
-          </a>, with foundational work by{" "}
+          </a>
+          , with foundational work by{" "}
           <a
             href="https://www.ll.mit.edu/biographies/jeremy-kepner"
             className="font-bold text-galway-maroon hover:underline"
@@ -37,9 +51,9 @@ export default async function AboutPage() {
           >
             Jeremy Kepner
           </a>{" "}
-          and collaborators. Associative arrays let you store
-          and query sparse multi-dimensional data using simple algebra-like operations —
-          perfect for linking players, clubs, and matches without a heavy schema.
+          and collaborators. Associative arrays let you store and query sparse multi-dimensional
+          data using simple algebra-like operations — perfect for linking players, clubs, and
+          matches without a heavy schema.
         </p>
         <p className="text-lg">
           Official site:{" "}
@@ -79,58 +93,72 @@ export default async function AboutPage() {
         </ul>
       </section>
 
-      <section className="space-y-2 border-t border-galway-maroon/15 pt-6">
-        <h2 className="text-xs font-bold uppercase tracking-[0.16em] text-galway-maroon/75">
-          Built by
-        </h2>
-        <p className="text-sm leading-relaxed text-galway-ink/75">
-          HurlingWiki was designed and built by Garry Lohan, on MIT&apos;s D4M data model.{" "}
-          <a
-            href="https://scholar.google.com/citations?user=9aBECzQAAAAJ&hl=en"
-            className="font-semibold text-galway-maroon underline decoration-galway-maroon/40 underline-offset-2"
-            target="_blank"
-            rel="noopener noreferrer"
+      <section className="space-y-3">
+        <h2 className="text-2xl font-bold text-galway-maroon">What this site draws on</h2>
+        <ul className="list-disc space-y-2 pl-6 text-lg leading-relaxed">
+          <li>
+            Newspaper archives, credited to Irish Newspaper Archives. {mentions.toLocaleString("en-IE")} cited
+            mentions are on the site now.
+          </li>
+          <li>A History of Fohenagh, by Tony O&apos;Gorman.</li>
+          <li>Club photos, and clipping collections kept by members.</li>
+          <li>
+            Visitor uploads. The editor approves each one before it goes up, which is how the site keeps growing.
+          </li>
+        </ul>
+      </section>
+
+      <section className="space-y-3">
+        <h2 className="text-2xl font-bold text-galway-maroon">Coming next</h2>
+        <ul className="list-disc space-y-2 pl-6 text-lg leading-relaxed">
+          <li>Ask a question about the club</li>
+          <li>More camogie and football history</li>
+          <li>Team photos</li>
+          <li>The Ahascragh and Ahascragh-Fohenagh pages</li>
+          <li>More clubs</li>
+        </ul>
+      </section>
+
+      <section className="space-y-4 border-t border-galway-maroon/15 pt-6 text-base leading-relaxed text-galway-ink">
+        <p>
+          <span
+            title={siteCredit.grok.badgeTitle}
+            className="mr-1 inline-flex h-5 w-5 items-center justify-center rounded-full bg-galway-maroon text-[11px] font-black text-white"
           >
-            Google Scholar
+            {siteCredit.grok.badge}
+          </span>
+          {siteCredit.grok.lead}{" "}
+          <a className="font-semibold text-galway-maroon underline" href={siteCredit.grok.href}>
+            {siteCredit.grok.name}
+          </a>
+          <sup title={siteCredit.grok.supTitle}>{siteCredit.grok.sup}</sup>
+          {siteCredit.grok.tail} Grok Bot is an AI assistant for research and coding. It does not
+          decide which fact goes on a page. A printed source does.
+        </p>
+        <p>
+          {siteCredit.builtBy.replace(/Garry Lohan$/, "")}
+          <Link href="/player/garry-lohan" className="font-semibold text-galway-maroon underline">
+            Garry Lohan
+          </Link>
+          {" · "}
+          <a className="font-semibold text-galway-maroon underline" href={siteCredit.scholar.href}>
+            {siteCredit.scholar.label}
           </a>
           {" · "}
-          <a
-            href="https://www.linkedin.com/in/garry-lohan-14923814"
-            className="font-semibold text-galway-maroon underline decoration-galway-maroon/40 underline-offset-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
+          <a className="font-semibold text-galway-maroon underline" href={siteCredit.linkedin.href}>
+            {siteCredit.linkedin.label}
           </a>
         </p>
-        <p className="flex items-start gap-2 text-sm leading-relaxed text-galway-ink/65">
-          <span
-            role="img"
-            title="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
-            aria-label="grok (v.): to understand so thoroughly it becomes part of you — Heinlein, 1961."
-            className="mt-0.5 inline-flex h-5 shrink-0 items-center rounded-full bg-galway-maroon px-1.5 text-[10px] font-bold leading-none tracking-wide text-galway-cream"
-          >
-            G
-          </span>
-          <span>
-            <span className="font-semibold text-galway-ink/75">How it was built. </span>
-            Built with help from{" "}
-            <a
-              href="https://x.ai"
-              className="font-bold text-galway-maroon hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Grok Bot
-            </a>
-            <sup
-              title="The answer to life, the universe and everything"
-              className="ml-px align-super text-[9px] font-medium text-galway-ink/40"
-            >
-              42
-            </sup>, an AI assistant, for research and coding — every fact is cited and checked
-            before it goes live.
-          </span>
+        <p>
+          {siteCredit.d4m.before}{" "}
+          <a className="font-semibold text-galway-maroon underline" href={siteCredit.d4m.labHref}>
+            {siteCredit.d4m.labLabel}
+          </a>
+          {" ("}
+          <a className="font-semibold text-galway-maroon underline" href={siteCredit.d4m.siteHref}>
+            {siteCredit.d4m.siteLabel}
+          </a>
+          ).
         </p>
       </section>
     </div>

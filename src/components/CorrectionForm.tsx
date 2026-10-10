@@ -4,7 +4,23 @@ import { FormEvent, useEffect, useState } from "react";
 
 const field = "w-full rounded-xl border-2 border-galway-maroon/20 px-3 py-2 text-base";
 
-export function CorrectionForm({ page, pageLabel }: { page: string; pageLabel: string }) {
+const REQUEST_OPTIONS = [
+  { value: "fix-detail", label: "Fix a detail" },
+  { value: "remove-line", label: "Remove a line" },
+  { value: "take-down-photo", label: "Take down a photo" },
+  { value: "add-photo", label: "Add a photo" },
+  { value: "other", label: "Other" },
+] as const;
+
+export function CorrectionForm({
+  page,
+  pageLabel,
+  initialKind,
+}: {
+  page: string;
+  pageLabel: string;
+  initialKind?: string;
+}) {
   const [startedAt, setStartedAt] = useState(0);
   const [status, setStatus] = useState<"idle" | "saving" | "ok" | "err">("idle");
   const [message, setMessage] = useState("");
@@ -16,9 +32,9 @@ export function CorrectionForm({ page, pageLabel }: { page: string; pageLabel: s
     const fd = new FormData(e.currentTarget);
     const body = {
       page,
+      requestKind: fd.get("requestKind"),
       whatsWrong: fd.get("whatsWrong"),
       sourceUrl: fd.get("sourceUrl"),
-      removalRequest: fd.get("removalRequest") === "on",
       name: fd.get("name"),
       email: fd.get("email"),
       website: fd.get("website"),
@@ -55,7 +71,7 @@ export function CorrectionForm({ page, pageLabel }: { page: string; pageLabel: s
   }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-5 rounded-2xl border-2 border-galway-maroon/20 bg-white p-5 shadow-sm" noValidate>
+    <form onSubmit={onSubmit} className="relative space-y-5 rounded-2xl border-2 border-galway-maroon/20 bg-white p-5 shadow-sm" noValidate>
       <div>
         <span className="mb-1 block font-semibold">Page</span>
         <p className="rounded-xl bg-galway-cream/60 px-3 py-2 text-base">
@@ -63,9 +79,33 @@ export function CorrectionForm({ page, pageLabel }: { page: string; pageLabel: s
         </p>
       </div>
 
+      <fieldset className="space-y-2">
+        <legend className="mb-2 font-semibold">
+          What should we do? <span className="text-galway-maroon">*</span>
+        </legend>
+        <div className="grid gap-2 sm:grid-cols-2">
+          {REQUEST_OPTIONS.map((option) => (
+            <label
+              key={option.value}
+              className="flex items-center gap-2 rounded-xl border border-galway-maroon/15 px-3 py-2 text-base"
+            >
+              <input
+                type="radio"
+                name="requestKind"
+                value={option.value}
+                required
+                defaultChecked={option.value === initialKind}
+                className="h-4 w-4 shrink-0"
+              />
+              {option.label}
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
       <div>
         <label htmlFor="cf-what" className="mb-1 block font-semibold">
-          What&apos;s wrong? <span className="text-galway-maroon">*</span>
+          Details <span className="text-galway-maroon">*</span>
         </label>
         <textarea id="cf-what" name="whatsWrong" required minLength={10} maxLength={4000} rows={5} className={field} />
       </div>
@@ -77,18 +117,10 @@ export function CorrectionForm({ page, pageLabel }: { page: string; pageLabel: s
         <input id="cf-src" name="sourceUrl" type="url" inputMode="url" maxLength={500} placeholder="https://" className={field} />
       </div>
 
-      <div className="flex items-start gap-3 rounded-xl border-2 border-galway-maroon/20 p-3">
-        <input id="cf-remove" name="removalRequest" type="checkbox" className="mt-1 h-5 w-5 shrink-0" />
-        <label htmlFor="cf-remove" className="text-base">
-          <span className="font-semibold">I&apos;m asking for something to be removed</span>{" "}
-          <span className="text-galway-ink/70">(removal requests are handled first)</span>
-        </label>
-      </div>
-
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
           <label htmlFor="cf-name" className="mb-1 block font-semibold">
-            Your name <span className="font-normal text-galway-ink/60">(optional)</span>
+            Your name <span className="font-normal text-galway-ink/60">(optional — you can leave this blank)</span>
           </label>
           <input id="cf-name" name="name" autoComplete="name" maxLength={100} className={field} />
         </div>

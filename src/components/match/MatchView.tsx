@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { ArticleClipSection } from "@/components/ArticleClip";
-import { ClubChip, TrustChip } from "@/components/chips";
-import { DeveloperTriples } from "@/components/DeveloperTriples";
+import { CitedText } from "@/components/CitedText";
+import { markCitations } from "@/lib/citations";
+import { storiesForMatch } from "@/lib/parishStories";
+import { ClubChip } from "@/components/chips";
 import { EntityCard } from "@/components/EntityCard";
 import { LoughreaFinalStoryChips } from "@/components/HistoricFohenaghBlock";
 import {
@@ -11,7 +13,6 @@ import {
 import {
   displayNameForRef,
   friendlyAttrLabel,
-  friendlyTrustLabel,
   getAssoc,
   isEntityRef,
   type getEntity,
@@ -20,6 +21,8 @@ import {
   isDisplayableVal,
   MATCH_FACT_KEYS,
 } from "@/lib/entityDisplay";
+import { playersInMatch } from "@/lib/matchPlayers";
+import { publicMatchBlurb, sanitizePublicText } from "@/lib/publicText";
 import {
   parseClubIds,
   toClubChip,
@@ -28,19 +31,45 @@ import {
 
 type EntityPayload = NonNullable<Awaited<ReturnType<typeof getEntity>>>;
 
+function ComicMark({ kind }: { kind: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5 shrink-0 text-galway-maroon"
+      aria-hidden="true"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+    >
+      {kind === "clock" ? (
+        <>
+          <circle cx="12" cy="12" r="8" />
+          <path d="M12 8v5l3 2" />
+        </>
+      ) : kind === "hurls" ? (
+        <path d="M8 20c1.5-6 2-11 1-15M16 20c-1.5-6-2-11-1-15" />
+      ) : kind === "paper" ? (
+        <>
+          <rect x="6" y="4" width="12" height="16" rx="1.5" />
+          <path d="M9 8h6M9 12h6M9 16h4" />
+        </>
+      ) : (
+        <path d="M4 16h16M6 16c1.2-4 3-7 6-7s4.8 3 6 7" />
+      )}
+    </svg>
+  );
+}
+
 /**
  * Kid-facing match page: clean header, cuttings as press cards,
  * compact facts — not the EntityView sticky-note wall.
  * Historic Fohenagh article clips stay.
  */
 export async function MatchView({ data }: { data: EntityPayload }) {
-  const { attrs, summary, related, triples, id } = data;
+  const { attrs, summary, related, id } = data;
   const A = await getAssoc();
   const source = attrs.source ? String(attrs.source) : null;
-  const trust =
-    summary.trustLabel ??
-    friendlyTrustLabel(summary.confidence) ??
-    (attrs.confidence ? friendlyTrustLabel(String(attrs.confidence)) : undefined);
 
   const isHistoricMatch =
     id.startsWith("match:fohenagh-historic-") ||
@@ -56,9 +85,9 @@ export async function MatchView({ data }: { data: EntityPayload }) {
     .map(
       (r): CuttingCard => ({
         id: r.id,
-        title: r.title,
-        excerpt: r.excerpt,
-        citeChip: r.citeChip,
+        title: sanitizePublicText(r.title) || "Cutting",
+        excerpt: sanitizePublicText(r.excerpt ?? ""),
+        citeChip: sanitizePublicText(r.citeChip ?? ""),
         imagePath: r.imagePath,
         href: r.href,
       })
@@ -83,14 +112,16 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         : String(attrs.away);
       if (raw.toLowerCase() === awayName.toLowerCase()) continue;
     }
-    facts.push({ key: k, label: friendlyAttrLabel(k), value: raw });
+    const value = sanitizePublicText(raw);
+    if (!value) continue;
+    facts.push({ key: k, label: friendlyAttrLabel(k), value });
   }
   const citeFacts = matchCiteFacts(attrs);
 
   const lineup =
     attrs.lineup_home && isDisplayableVal(attrs.lineup_home)
-      ? String(attrs.lineup_home)
-      : null;
+      ? sanitizePublicText(String(attrs.lineup_home))
+      : "";
 
   const otherRelated = related.filter(
     (r) =>
@@ -99,13 +130,31 @@ export async function MatchView({ data }: { data: EntityPayload }) {
       r.kind !== "club"
   );
   const subtitle = kidMatchSubtitle(summary.subtitle, scoreText);
+  const blurb = publicMatchBlurb(attrs);
+  const citedBlurb = blurb
+    ? markCitations(
+        blurb,
+        cuttings.map((cutting) => ({
+          title: cutting.citeChip || cutting.title,
+          href: cutting.href,
+        }))
+      )
+    : null;
+  const played = await playersInMatch(id);
+  const stories = storiesForMatch(`/match/${id.slice("match:".length)}`);
 
   return (
     <article className="space-y-8">
       <header className="space-y-3">
-        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon/80">
+        <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-galway-maroon">
           Match
         </p>
+        {isDisplayableVal(attrs.comic_title) ? (
+          <p className="flex items-center gap-2 text-base font-semibold text-galway-ink">
+            <ComicMark kind={String(attrs.comic_mark ?? "")} />
+            {sanitizePublicText(String(attrs.comic_title))}
+          </p>
+        ) : null}
         <h1 className="text-[1.75rem] font-black leading-[1.15] tracking-tight text-galway-ink sm:text-4xl">
           {summary.title}
         </h1>
@@ -115,17 +164,16 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           </p>
         ) : null}
         <div className="flex flex-wrap items-center gap-1.5">
-          <TrustChip label={trust} />
           {isHistoricMatch ? (
             <span className="rounded-full bg-galway-maroon px-2.5 py-0.5 text-sm font-bold text-white">
               Historic
             </span>
           ) : null}
-          {(summary.citeChip || attrs.cutting_cite) && (
+          {publicCite(summary.citeChip || attrs.cutting_cite) ? (
             <span className="rounded-full border border-galway-maroon/25 px-2.5 py-0.5 text-sm font-bold text-galway-maroon">
-              {summary.citeChip || String(attrs.cutting_cite)}
+              {publicCite(summary.citeChip || attrs.cutting_cite)}
             </span>
-          )}
+          ) : null}
           {(summary.scoreDisputed ||
             attrs.score_disputed === true ||
             String(attrs.score_disputed ?? "") === "true") && (
@@ -139,9 +187,24 @@ export async function MatchView({ data }: { data: EntityPayload }) {
         </div>
       </header>
 
-      {attrs.notable || attrs.note || attrs.excerpt ? (
-        <p className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink">
-          {String(attrs.notable ?? attrs.note ?? attrs.excerpt)}
+      {citedBlurb?.text ? (
+        <CitedText
+          text={citedBlurb.text}
+          references={citedBlurb.references}
+          className="border-l-[3px] border-galway-gold pl-4 text-lg font-medium leading-snug text-galway-ink"
+        />
+      ) : null}
+      {stories.length > 0 ? (
+        <p className="text-base">
+          {stories.map((story) => (
+            <Link
+              key={story.slug}
+              href={`/story/${story.slug}`}
+              className="mr-4 font-semibold text-galway-maroon underline underline-offset-2"
+            >
+              Story: {story.title}
+            </Link>
+          ))}
         </p>
       ) : null}
 
@@ -157,6 +220,23 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           }
         />
       )}
+
+      {played.length > 0 ? (
+        <section>
+          <h2 className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-galway-maroon">
+            Who played
+          </h2>
+          <ul className="flex flex-wrap gap-x-3 gap-y-1">
+            {played.map((player) => (
+              <li key={player.id}>
+                <Link href={player.href} className="font-semibold text-galway-maroon underline underline-offset-2">
+                  {player.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       {cuttings.length > 0 ? (
         <CuttingExcerpts
@@ -219,10 +299,13 @@ export async function MatchView({ data }: { data: EntityPayload }) {
           </div>
         </section>
       ) : null}
-
-      <DeveloperTriples triples={triples} hideScore={hideScore} />
     </article>
   );
+}
+
+function publicCite(value: unknown): string {
+  if (!isDisplayableVal(value)) return "";
+  return sanitizePublicText(String(value));
 }
 
 const MONTHS = [
@@ -316,10 +399,12 @@ function matchCiteFacts(attrs: EntityPayload["attrs"]): Array<{
     })
     .sort((a, b) => a.localeCompare(b));
 
-  return keys.map((k) => {
+  return keys.flatMap((k) => {
     const raw = String(attrs[k]);
-    const value = /^catalog_cite(_\d+)?$/.test(k) ? catalogCiteText(raw) : raw;
-    return { key: k, label: friendlyAttrLabel(k), value };
+    const shown = /^catalog_cite(_\d+)?$/.test(k) ? catalogCiteText(raw) : raw;
+    const value = shown.startsWith("http") ? shown : sanitizePublicText(shown);
+    if (!value) return [];
+    return [{ key: k, label: friendlyAttrLabel(k), value }];
   });
 }
 

@@ -1,0 +1,36 @@
+# Follow-up (after the 10 Oct 15:20 push)
+
+Must-haves for this push are the Bainisteoir fails except the navy change, the general nav and Find a club landing, Patrick Sweeney's decades, the decades rule and its build check, the Sean Carrick merge from #93, and the shorter Grok credit line. The About credit and the link to `/player/garry-lohan` are in this push. The list below is everything else.
+
+## About
+
+- The About page keeps the D4M / Jeremy Kepner / MIT Lincoln Laboratory section, the triple count, what the site draws on, and what is coming next.
+- Still open: a fuller Grok Bot explainer, any extra D4M links Garry names later, and a photo on `/player/garry-lohan`. The photo slot is the usual discreet "add a photo" link. No photograph was added.
+
+## Sitemap
+
+- `src/app/sitemap.ts` is in this push and should serve `/sitemap.xml`.
+- Confirm the preview actually returns it, and that the club, player, game, and cutting URLs in it resolve. That check did not fit before the deadline.
+
+## 78 unlinked players
+
+- A–Z and decade browse now list public players who are not only the Fohenagh roll.
+- An editor pass over the 78 previously unlinked names is still open. This push did not review them one by one.
+
+## Editor pass
+
+- `/editor` is unchanged. Queued proposals still do not rewrite `data/seed.json` on Vercel.
+- No new editor review of clippings, quotes, or roster rows in this push.
+
+## Stories, games, easter eggs
+
+- No new parish stories.
+- No new games in the Games menu.
+- No new easter eggs. The existing Grok tooltip and the 42 stay.
+- The discuss-a-game idea is not built.
+
+## Minor fails not done
+
+- `scripts/smoke-fohenagh-hero.ts` still fails on Oliver Deeley. `player:ollie-deeley` has two `notable` cells. The later one is the long Connacht Tribune paragraph, so the lead no longer starts "Won an All-Ireland hurling medal at under-14 with Galway." Append a last-wins `notable` that keeps that opening sentence and the later printed facts.
+- Club-page wording, the Athenry book sentence, Cathal Lohan's canonical slug, citation-only leads, clipping quote numbers, and Brendan Lally's 1950s era were handled in this branch. They were not re-crawled against the new preview before the deadline.
+- Tynagh appears once in the Games menu, labelled "1956 Tynagh at Kiltormer". The Cussane game is labelled "Cussane".

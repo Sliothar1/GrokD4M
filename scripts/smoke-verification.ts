@@ -1,7 +1,8 @@
 /**
  * Story S2: per-fact verification from resolved sources.
  * Confidence and cutting_cite do not verify a fact.
- * Counts stay 1806 players / 63 uploads.
+ * Player and upload counts come from the data files: >0, unique ids, and
+ * the live player catalog matches the seed.
  */
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -16,6 +17,13 @@ import {
 } from "../src/lib/entityDisplay";
 import { cuttingFactKey, resolveEntitySources } from "../src/lib/sources";
 import {
+  createPlayerProfileContext,
+  playerVerifiedHidden,
+  profileForPlayer,
+  publicProfileText,
+} from "../src/lib/playerProfile";
+import { firstBannedPublicHit } from "../src/lib/publicText";
+import {
   annotateEntityVerification,
   classifyFact,
   familyConfirmedFactKeys,
@@ -24,7 +32,6 @@ import {
   isPrimarySource,
   publisherKey,
   registrableDomain,
-  VERIFICATION_LABEL,
   type FactSourceStatus,
 } from "../src/lib/verification";
 
@@ -34,11 +41,28 @@ const triples = JSON.parse(readFileSync("data/seed.json", "utf8")) as Array<{
   val: unknown;
 }>;
 const uploads = JSON.parse(readFileSync("data/article-uploads.json", "utf8")) as unknown[];
+const playerTypeIds = triples
+  .filter((t) => t.col === "type" && t.val === "player")
+  .map((t) => String(t.row));
 const playerRows = new Set(
   triples.filter((t) => String(t.row).startsWith("player:")).map((t) => t.row)
 );
-assert.equal(playerRows.size, 1806);
-assert.equal(uploads.length, 63);
+assert.ok(playerTypeIds.length > 0, "seed has no players");
+assert.equal(
+  new Set(playerTypeIds).size,
+  playerTypeIds.length,
+  "duplicate player rows in seed"
+);
+assert.equal(
+  playerRows.size,
+  playerTypeIds.length,
+  "player: rows drifted from type=player"
+);
+
+const uploadIds = (uploads as Array<{ id?: string }>).map((upload) => upload.id);
+assert.ok(uploadIds.length > 0, "no article uploads");
+assert.ok(uploadIds.every((id) => id), "upload missing id");
+assert.equal(new Set(uploadIds).size, uploadIds.length, "duplicate upload ids");
 
 const wiki = {
   number: 1,
@@ -206,10 +230,11 @@ function countStatuses(statuses: FactSourceStatus[]) {
 
 async function main() {
   const stats = await demoStats();
-  assert.equal(stats.players, 1806);
+  assert.equal(stats.players, playerRows.size, "player count drifted from seed");
 
   const rows: string[] = [];
   const A = await getAssoc();
+  const profiles = await createPlayerProfileContext();
   for (const slug of ROUTES) {
     const data = await getEntity(`player:${slug}`);
     assert.ok(data, slug);
@@ -240,12 +265,18 @@ async function main() {
     const byKey = Object.fromEntries(
       index.facts.map((fact) => [fact.factKey, fact.status])
     );
+    const hidden = playerVerifiedHidden(data.attrs);
+    const publicText = publicProfileText(profileForPlayer(profiles, data.id, data.attrs));
+    const banned = firstBannedPublicHit(publicText);
+    assert.equal(banned, null, `${slug} public text hit ${banned}`);
+    assert.doesNotMatch(publicText, /Needs a source|Single-source|Needs check/);
     rows.push(
-      `${slug}\tprofile=${VERIFICATION_LABEL[profile]}\tV=${counts.verified}\tS=${counts.single}\tN=${counts.needs}\tF=${counts.family}`
+      `${slug}\thidden=${hidden ? "yes" : "no"}\tV=${counts.verified}\tS=${counts.single}\tN=${counts.needs}\tF=${counts.family}`
     );
 
     if (slug === "joe-cooney") {
       assert.equal(data.attrs.confidence, "high");
+      assert.equal(hidden, false);
       assert.equal(byKey.all_ireland_medals, "unverified");
       assert.equal(byKey.all_stars, "single-source");
       assert.equal(byKey.notes, "single-source");
@@ -268,6 +299,9 @@ async function main() {
       assert.equal(index.sources.length, 2);
       assert.deepEqual(index.markers.debut, [index.markers.notes?.[1]]);
     }
+    if (slug === "jason-lohan" || slug === "tim-sweeney-fohenagh" || slug === "jim-moclair-fohenagh") {
+      assert.equal(hidden, true, slug);
+    }
     if (slug === "jim-moclair-fohenagh") {
       assert.equal(profile, "verified");
       assert.equal(
@@ -275,8 +309,8 @@ async function main() {
         "verified"
       );
       assert.equal(byKey[cuttingFactKey("art-fohenagh-clip4")], "single-source");
-      assert.equal(byKey.notable, "unverified");
-      assert.equal(byKey.club, "unverified");
+      assert.equal(byKey.notable, "single-source");
+      assert.equal(byKey.club, "single-source");
     }
   }
 

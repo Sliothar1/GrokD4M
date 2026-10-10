@@ -7,14 +7,19 @@ import {
   type TripleVal,
 } from "@/lib/d4m/AssocArray";
 import seed from "../../data/seed.json";
+import panzerMatches from "../../data/panzer-matches.json";
+import { mergePlayerAttrRecords } from "@/lib/playerMerge";
 import {
   allDerivedUploadTriples,
+  articleSameAsId,
   articleToSummary,
   getArticleUpload,
   getLinkedArticleSummaries,
+  readArticleUploads,
   invalidateBlobMetaCache,
   searchArticleUploads,
 } from "@/lib/articles";
+import { firstBannedPublicHit, publicSourceCredit } from "@/lib/publicText";
 import {
   isClubAttrColumn,
   isNumberedClubCol,
@@ -41,6 +46,7 @@ export type EntityKind =
   | "community_story"
   | "article_upload"
   | "appearance"
+  | "fixture"
   | "unknown";
 
 export interface EntitySummary {
@@ -91,8 +97,9 @@ export function invalidateAssocCache(): void {
 export async function getAssoc(): Promise<AssocArray> {
   if (!cached) {
     const seedList = Array.isArray(seed) ? seed : [];
+    const panzerList = Array.isArray(panzerMatches) ? panzerMatches : [];
     const derived = await allDerivedUploadTriples();
-    cached = loadAssocFromJson([...seedList, ...derived]);
+    cached = loadAssocFromJson([...seedList, ...panzerList, ...derived]);
   }
   return cached;
 }
@@ -111,7 +118,8 @@ export function entityKind(id: string, attrs?: Record<string, TripleVal>): Entit
     t === "source" ||
     t === "community_story" ||
     t === "article_upload" ||
-    t === "appearance"
+    t === "appearance" ||
+    t === "fixture"
   ) {
     return t;
   }
@@ -493,6 +501,8 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     kindLabel = isAllIrelandWinAttrs(attrs) ? "All-Ireland" : "County title";
   } else if (kind === "appearance") {
     kindLabel = attrs.grade ? String(attrs.grade) : "Panel";
+  } else if (kind === "fixture") {
+    kindLabel = "Fixture";
   }
   const summary: EntitySummary = {
     id,
@@ -513,31 +523,36 @@ export function summarizeEntity(id: string, A: AssocArray): EntitySummary | null
     kindLabel,
   };
   if (kind === "player") {
-    if (attrs.cutting_cite) summary.citeChip = String(attrs.cutting_cite);
+    if (attrs.cutting_cite) summary.citeChip = shownCite(attrs.cutting_cite);
   }
   if (kind === "article_upload") {
     summary.badge = String(attrs.badge ?? "From cutting");
     if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);
-    if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.cite) summary.citeChip = shownCite(attrs.cite);
     if (attrs.score_disputed === true || String(attrs.score_disputed ?? "") === "true") {
       summary.scoreDisputed = true;
     }
   }
   if (kind === "appearance") {
     summary.badge = attrs.grade ? String(attrs.grade) : "Panel";
-    if (attrs.cite_chip) summary.citeChip = String(attrs.cite_chip);
-    else if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.cite_chip) summary.citeChip = shownCite(attrs.cite_chip);
+    else if (attrs.cite) summary.citeChip = shownCite(attrs.cite);
     if (attrs.excerpt) summary.excerpt = String(attrs.excerpt);
     if (attrs.year != null) summary.seasonChip = String(attrs.year);
     if (attrs.player) summary.groupKey = String(attrs.player);
     else summary.groupKey = `appearance-name:${title.toLowerCase()}`;
   }
   if (kind === "match") {
-    if (attrs.secondary_cite) summary.citeChip = String(attrs.secondary_cite);
-    else if (attrs.cite) summary.citeChip = String(attrs.cite);
+    if (attrs.secondary_cite) summary.citeChip = shownCite(attrs.secondary_cite);
+    else if (attrs.cite) summary.citeChip = shownCite(attrs.cite);
     if (attrs.season_chip) summary.seasonChip = String(attrs.season_chip);
   }
   return summary;
+}
+
+function shownCite(value: unknown): string | undefined {
+  const text = publicSourceCredit(String(value ?? "")).trim();
+  return text || undefined;
 }
 
 export async function listEntitiesByType(typePrefix: string): Promise<EntitySummary[]> {
@@ -666,7 +681,7 @@ export async function searchEntities(query: string): Promise<EntitySummary[]> {
 }
 
 /**
- * Kid-facing search: player / club / team name hits only.
+ * Name search: player / club / team hits only.
  * Cuttings, matches, and panel rows stay on entity pages — not the result list.
  * Each player id appears once (no Cathal Mannion × N appearance rows).
  */
@@ -686,6 +701,68 @@ export async function searchPrimaryEntities(query: string): Promise<EntitySummar
     out.push(summary);
   }
   return collapseToUniquePlayers(out);
+}
+
+/**
+ * Wiki search: people, the games those people played, and clippings that name them.
+ * Fada folding stays in the name match underneath.
+ */
+export async function searchWiki(query: string): Promise<EntitySummary[]> {
+  const people = await searchPrimaryEntities(query);
+  const out: EntitySummary[] = [...people];
+  const seen = new Set(out.map((item) => item.id));
+  const A = await getAssoc();
+  const playerIds = people
+    .filter((item) => item.kind === "player")
+    .slice(0, 6)
+    .map((item) => item.id);
+  const want = new Set(playerIds);
+  if (want.size > 0) {
+    const matchIds: string[] = [];
+    for (const triple of A.getcol("player")) {
+      if (!String(triple.row).startsWith("appearance:")) continue;
+      if (!want.has(String(triple.val))) continue;
+      const matchId = String(A.entityAttrs(triple.row).match ?? "");
+      if (!matchId.startsWith("match:") || seen.has(matchId) || matchIds.includes(matchId)) continue;
+      matchIds.push(matchId);
+    }
+    for (const matchId of matchIds.slice(0, 24)) {
+      const summary = summarizeEntity(matchId, A);
+      if (!summary || seen.has(summary.id)) continue;
+      seen.add(summary.id);
+      out.push(summary);
+    }
+    const tagged = (await readArticleUploads())
+      .filter((upload) => !articleSameAsId(upload) && upload.playerTags?.some((tag) => want.has(tag)))
+      .sort((a, b) => {
+        const ay = Number(String(a.year ?? "").slice(0, 4)) || 0;
+        const by = Number(String(b.year ?? "").slice(0, 4)) || 0;
+        if (ay !== by) return ay - by;
+        return a.id.localeCompare(b.id);
+      });
+    let clips = 0;
+    for (const upload of tagged) {
+      if (clips >= 24) break;
+      const summary = articleToSummary(upload);
+      if (seen.has(summary.id)) continue;
+      if (firstBannedPublicHit(summary.title)) continue;
+      seen.add(summary.id);
+      out.push(summary);
+      clips += 1;
+    }
+  }
+  if (people.length === 0) {
+    let extra = 0;
+    for (const hit of await searchEntities(query)) {
+      if (extra >= 16) break;
+      if (seen.has(hit.id)) continue;
+      if (hit.kind !== "match" && hit.kind !== "article_upload") continue;
+      seen.add(hit.id);
+      out.push(hit);
+      extra += 1;
+    }
+  }
+  return out;
 }
 
 const CITE_OVERLAY_COLS = [
@@ -712,18 +789,22 @@ export async function getEntity(id: string): Promise<{
   if (sameAs) {
     const canonical = A.entityAttrs(sameAs);
     if (Object.keys(canonical).length > 0) {
-      const overlay: Record<string, TripleVal> = { ...canonical };
-      for (const col of CITE_OVERLAY_COLS) {
-        if (overlay[col] == null && attrs[col] != null) overlay[col] = attrs[col];
+      if (id.startsWith("player:") || sameAs.startsWith("player:")) {
+        attrs = mergePlayerAttrRecords(canonical, attrs);
+      } else {
+        const overlay: Record<string, TripleVal> = { ...canonical };
+        for (const col of CITE_OVERLAY_COLS) {
+          if (overlay[col] == null && attrs[col] != null) overlay[col] = attrs[col];
+        }
+        // Alias must never supply a score onto the canonical match.
+        attrs = overlay;
       }
-      // Alias must never supply a score onto the canonical match.
-      attrs = overlay;
       canonicalId = sameAs;
     }
   }
   const summary = summarizeEntity(canonicalId, A);
   if (!summary) return null;
-  if (attrs.secondary_cite) summary.citeChip = String(attrs.secondary_cite);
+  if (attrs.secondary_cite) summary.citeChip = shownCite(attrs.secondary_cite);
   if (attrs.season_chip) summary.seasonChip = String(attrs.season_chip);
   id = canonicalId;
   const relatedIds = new Set<string>();

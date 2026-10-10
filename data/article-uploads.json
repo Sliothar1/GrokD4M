@@ -368,7 +368,7 @@
     "path": "/uploads/articles/ctt-1959-09-19-fohenagh-castlegar-rosters.png",
     "publicUrl": "/uploads/articles/ctt-1959-09-19-fohenagh-castlegar-rosters.png",
     "uploadedAt": "2026-09-19T16:25:44.737416+00:00",
-    "caption": "INA snip — Connacht Tribune 19 Sep 1959 Fohenagh 3-9 Castlegar 4-5 (SHC final replay) with both XVs",
+    "caption": "Connacht Tribune 19 Sep 1959 Fohenagh 3-9 Castlegar 4-5 (SHC final replay) with both XVs",
     "year": "1959",
     "tags": [
       "hurling",
@@ -402,7 +402,7 @@
       "player:tim-killalea"
     ],
     "excerpt": "Fohenagh’s second-half rally secured a one-point senior championship victory; Tim Sweeney scored 1-4. Both 15-man lineups are printed.",
-    "citeChip": "Connacht Tribune · 19 Sep 1959 · p.30 · INA",
+    "citeChip": "Connacht Tribune · 19 Sep 1959 · p.30 · Castlegar replay · INA",
     "status": "pending",
     "matchTags": [
       "match:fohenagh-historic-1959-galway-shc-final-replay"
@@ -506,7 +506,7 @@
     "path": "/uploads/articles/tim-sweeney-1959-fohenagh-team-caption.png",
     "publicUrl": "/uploads/articles/tim-sweeney-1959-fohenagh-team-caption.png",
     "uploadedAt": "2026-09-19T17:10:29.211953+00:00",
-    "caption": "Connacht Tribune 19 Sep 1959 — Fohenagh team panel after first Galway SHC title vs Castlegar",
+    "caption": "Connacht Tribune 19 Sep 1959 — Fohenagh team photo after first Galway SHC title vs Castlegar",
     "year": "1959",
     "tags": [
       "hurling",
@@ -533,7 +533,7 @@
     "excerpt": "Illustrated Connacht Tribune team panel after Fohenagh’s first Galway senior hurling title versus Castlegar. Named on the paper: Tim Sweeney, Frank Madden, J. Moclair, P.J. Killalea, T. Moylett, M. Coen and M. Glynn.",
     "confidence": "verified",
     "trustLabel": "Verified",
-    "citeChip": "Connacht Tribune · 19 Sep 1959 · team panel",
+    "citeChip": "Connacht Tribune · 19 Sep 1959 · champions caption · INA",
     "status": "pending",
     "matchTags": [
       "match:fohenagh-historic-1959-galway-shc-final-replay"
@@ -640,7 +640,7 @@
       "player:tim-sweeney-fohenagh",
       "player:frank-madden",
       "player:mick-moylette-fohenagh",
-      "player:packie-burke-fohenagh",
+      "player:packie-burke-turloughmore",
       "player:bobby-madden-fohenagh"
     ],
     "excerpt": "Connacht Tribune Saturday action photographs (page 14). Named on the paper: Tim Sweeney, Frank Madden, Mick Moylette, Packie Burke and Bobby Madden.",
@@ -947,6 +947,7 @@
   },
   {
     "id": "art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney",
+    "same_as": "art-ina-ctt-1963-08-17-burke-sweeney-county-final",
     "kind": "image",
     "filename": "art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney.png",
     "path": "/uploads/articles/art-ina-ct-1963-08-17-fohenagh-action-jim-sweeney.png",
@@ -957,9 +958,7 @@
     "tags": [
       "hurling",
       "fohenagh",
-      "jim-sweeney",
-      "ina",
-      "action"
+      "ina"
     ],
     "clubTags": [
       "club:fohenagh-historic"
@@ -1393,6 +1392,8 @@
     ],
     "playerTags": [
       "player:alan-madden",
+      "player:eric-lally-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh",
       "player:john-devine",
       "player:padraic-leonard",
       "player:sean-moclair"
@@ -1607,6 +1608,8 @@
       "player:garry-lohan",
       "player:alan-moclair-ahascragh-fohenagh",
       "player:john-devine",
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:raymond-higgins-fohenagh",
       "player:alan-madden",
       "player:padraic-leonard",
       "player:niall-leonard",
@@ -1710,7 +1713,7 @@
     "path": "/uploads/articles/art-ina-ct-1993-05-14-all-ireland-winners-moclair.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1993-05-14-all-ireland-winners-moclair.png",
     "uploadedAt": "2026-10-04T11:40:00.000000+00:00",
-    "caption": "INA snip — Connacht Tribune 14 May 1993: All-Ireland Winners — County Galway Senior Vocational Schools hurlers beat Tipperary in the final at Thurles; Seamus Moclair, Mountbellew Vocational School, played at corner back (print: \"comer back\"); son of Jimmy and Brid Moclair, Clonbrock Fohenagh. Seamus Moclair (print) = Séamus Moclair",
+    "caption": "Connacht Tribune 14 May 1993: All-Ireland Winners — County Galway Senior Vocational Schools hurlers beat Tipperary in the final at Thurles; Seamus Moclair, Mountbellew Vocational School, played at corner back (print: \"comer back\"); son of Jimmy and Brid Moclair, Clonbrock Fohenagh. Seamus Moclair (print) = Séamus Moclair",
     "year": "1993",
     "tags": [
       "hurling",
@@ -1726,7 +1729,7 @@
       "player:seamus-moclair"
     ],
     "excerpt": "ALL-IRELAND WINNERS The County Galway Senior Vocational Schools hurlers once again captured the title when they defeated Tipperary in the final at Thurles on Sunday last and local lads Oliver Hennelly and Seamus Moclair played their part in a great victory. They are both students at Mountbellew Vocational School. Oliver the scorer of three of the five goals is the eldest son of Paddy and Teresa Hennelly, Loughanboy, Caltra, while Seamus Moclair had a fine game at comer back is a son of Jimmy and Brid Moclair, Clonbrock Fohenagh. The weekend proved hectic for Oliver Hennelly who had played well at centre half back on the Galway minor football which had a first round Connacht championship win over Leitrim at Tuam stadium on Saturday night.",
-    "citeChip": "Connacht Tribune · 14 May 1993 · p.7 · INA",
+    "citeChip": "Connacht Tribune · 14 May 1993 · p.7 · corner final · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19930514.1.7",
     "status": "pending",
     "matchTags": []
@@ -1738,7 +1741,7 @@
     "path": "/uploads/articles/art-ina-ct-1993-05-14-galway-vocational-title.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1993-05-14-galway-vocational-title.png",
     "uploadedAt": "2026-10-04T11:40:00.000000+00:00",
-    "caption": "INA snip — Connacht Tribune 14 May 1993: Galway win Voc. title with barrage of goals — Galway 5-7 Tipperary 1-11 in the All-Ireland Vocational Schools senior hurling final at Thurles; S. Mockler in the Galway team and Seamus Mockler in the CHAMPIONS team-photo caption. Seamus Mockler (print) = Séamus Moclair",
+    "caption": "Connacht Tribune 14 May 1993: Galway win Voc. title with barrage of goals — Galway 5-7 Tipperary 1-11 in the All-Ireland Vocational Schools senior hurling final at Thurles; S. Mockler in the Galway team and Seamus Mockler in the CHAMPIONS team-photo caption. Seamus Mockler (print) = Séamus Moclair",
     "year": "1993",
     "tags": [
       "hurling",
@@ -1757,7 +1760,7 @@
       "player:seamus-moclair"
     ],
     "excerpt": "Galway win Voc. title with barrage of goals … CHALK and cheese! — the difference between them barely does justice to the staggering contrast in Galway's play during the two halves of this poor All-Ireland Vocational Schools senior hurling final at Thurles on Sunday. … Galway: L. Donoghue, R. Larkin, M. Ward, S. Mockler, N. Linnane, N. Shaughnessy (0-3, 0-2 from frees), P. Forde; M. Conroy (1-1, 0-1 from free), T. J. Hynes, D. Walsh (0-1), J. Treacy (0-1), C. Donlon, F. Healy (1-0), O. Hennelly (3-0), L. Madden (0-1). Sub; F. Gantley for Donlon. … CHAMPIONS ... The Galway Vocationals schools team which defeated Tipperary at Thurles on Sunday to capture the county's tenth All-Ireland title in the grade. Back row, left to right: Niall Linnane, Michael Ward, Oliver Hennelly, Liam Donoghue, Padraig Forde, Charlie Donnellan and James Treacy. Front row: Declan Walsh, Matthew Conroy, Liam Madden, Fergal Healy, T.J. Hynes, Nigel Shaughnessy, Seamus Mockler and Raymond Larkin.",
-    "citeChip": "Connacht Tribune · 14 May 1993 · p.11 · INA",
+    "citeChip": "Connacht Tribune · 14 May 1993 · p.11 · Vocational champions · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19930514.1.11",
     "status": "pending",
     "matchTags": []
@@ -1871,7 +1874,7 @@
     "path": "/uploads/articles/art-ina-ct-1984-11-02-fohenagh-u12c-final-st-thomas.png",
     "publicUrl": "/uploads/articles/art-ina-ct-1984-11-02-fohenagh-u12c-final-st-thomas.png",
     "uploadedAt": "2026-10-04T13:45:00.000000+00:00",
-    "caption": "INA snip — Connacht Tribune 2 Nov 1984: Vital For St. Thomas — St. Thomas 2-1 Fohenagh 1-1 in the Under-12 \"C\" final of the Coiste Iomana Tournament at Loughrea; Sean Moclair named for heroic defending and among the best for Fohenagh",
+    "caption": "Connacht Tribune 2 Nov 1984: Vital For St. Thomas — St. Thomas 2-1 Fohenagh 1-1 in the Under-12 \"C\" final of the Coiste Iomana Tournament at Loughrea; Sean Moclair named for heroic defending and among the best for Fohenagh",
     "year": "1984",
     "tags": [
       "hurling",
@@ -2110,9 +2113,11 @@
       "player:seamus-moclair",
       "player:alan-madden",
       "player:john-devine",
+      "player:gerry-madden-fohenagh",
       "player:tony-kirwan-fohenagh",
       "player:padraic-leonard",
-      "player:jimmy-devine-fohenagh"
+      "player:jimmy-devine-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh"
     ],
     "excerpt": "VANQUISHED ... the Fohenagh side which failed in their bid to win the county junior title for the first time in history when they were defeated by Athenry in the final at Ballinasloe on Sunday. Back row, left to right: Tony Kirwan, Michael Barrett, Gerry Madden, Padraig Leonard, Joe Fallon, Gerry Burke, Seamus Lohan and Padraig Daly. Front row: John Devine, Alan Madden, Colin Kirwan, Noel Higgins, Paul Kennedy, Seamus Mocklair and Michael Coen, Team mascot Daniel Lyons. … Athenry's perfect blend helps secure Junior A hurling title Athenry 1-8 Fohenagh 0-9 by John Fallon BEFORE a ball was ever pucked in this year's junior A hurling championship Athenry, with their blend of experience and youth, were installed as firm favourites for the title. They lived up to that billing at Duggan Park, Ballinasloe, on Sunday but only after they fought off a dogged battle from a Fohenagh side who refused to surrender the chance of their first smidgen of glory since their famous County Cup wins of '59 and '60. Victory would have crowned a great year for Fohenagh. They packed in training after they lost their first two games in this year's championship but got back into the title race with victory in a group play-off which saw them twice beat Salthill. The exploits of Tony Kirwan for the victorious Galway U21 side — and his subsequent elevation onto the senior side — provided a great boost to Fohenagh and they showed great spirit when lowering Castlegar in the semi-finals. But on Sunday they were beaten by the better team with Athenry's experience in crucial positions, coupled with the containment of Kirwan until the closing stages by captain Michael Higgins, proving decisive in an open game of hurling which provided plenty of entertainment for the relatively large crowd. … Fohenagh full-back Colin Kirwan led as a captain should while wing-backs Michael Coen and Gerry Madden had some great moments. Padraig Leonard and Padraig Daly hurled well around the middle of the field but they were unable to stop Declan Higgins' dominance of this area. The containment of Tony Kirwan robbed Fohenagh of their most dangerous forward and while Seamus Lohan, John Devine and Alan Madden threathened with sporadic forays, it was not with the same sort of dash that Kirwan has led the Fohenagh attack all season. … Fohenagh: N. Higgins, P. Kennedy, C. Kirwan, S. Mochlair, M. Coen, M. Barrett, G. Madden, P. Leonard, P. Daly (0-1), T. Kirwan (0-2), S. Lohan (0-1), John Devine, G. Burke, J. Fallon, A. Madden (0-5, all frees). Subs: Jimmy Devine for Fallon, 34 mins; N. Leonard for Coen, inj. 39 mins. Referee: Michael Hedderman.",
     "citeChip": "Connacht Tribune · 5 Nov 1993 · p.14 · INA",
@@ -2185,8 +2190,9 @@
       "player:raymond-higgins-fohenagh",
       "player:noel-higgins-ahascragh-fohenagh",
       "player:m-barrett-fohenagh",
-      "player:mick-coen-fohenagh",
-      "player:jimmy-devine-fohenagh"
+      "player:mike-coen-fohenagh",
+      "player:jimmy-devine-fohenagh",
+      "player:mick-coen-fohenagh"
     ],
     "excerpt": "VANQUISHED ... the disappointed Fohenagh team who lost the Junior hurling title to Sarsfields at the weekend. Back row (left to right): Tony Kirwan, Gabriel Gormally, Mike Barrett, Niall Leonard, Joe Fallon, Gerry Madden, Jimmy Devine, and Mike Coen. Front row: Paul Kennedy, John Devine, Cathal Hynes, Noel Earls, Seamus Moclair, Alan Madden, Noel Higgins, Sean Mocklair, Raymond Higgins. Team mascots Michael Lyons and Paul Burke. Madden, the Devines, and Niall Leonard tried hardest for Fohenagh.",
     "citeChip": "Connacht Tribune · 6 Dec 1996 · p.16 · INA",
@@ -2822,7 +2828,7 @@
       "player:cathal-lohan"
     ],
     "excerpt": "The following players are required for a Galway under-16 hurling match v Mid-Clare on Saturday next, March 23 in Kinvara at 12 noon sharp. Named from Fohenagh: Oliver Deeley and Cathal Lohan.",
-    "citeChip": "Connacht Tribune · 22 Mar 1996 · p.15 · INA",
+    "citeChip": "Connacht Tribune · 22 Mar 1996 · p.15 · kinvara match · INA",
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960322.1.15",
     "status": "pending",
     "matchTags": []
@@ -3117,7 +3123,7 @@
     "path": "/uploads/articles/art-ina-tth-1994-07-30-u14-challenge-clare.png",
     "publicUrl": "/uploads/articles/art-ina-tth-1994-07-30-u14-challenge-clare.png",
     "uploadedAt": "2026-10-07T12:30:00.000000+00:00",
-    "caption": "Tuam Herald — Galway under-14 hurling challenge against Clare. C. Lohan and O. Deeley (Fohenagh).",
+    "caption": "Tuam Herald — Galway under-14 hurling challenge against Clare.",
     "year": "1994",
     "tags": [
       "hurling",
@@ -3140,6 +3146,7 @@
   },
   {
     "id": "art-ina-tth-1998-05-02-st-cuans-colleges-final",
+    "same_as": "art-ina-tth-1998-05-02-st-cuans-panel-fohenagh",
     "kind": "image",
     "filename": "art-ina-tth-1998-05-02-st-cuans-colleges-final.png",
     "path": "/uploads/articles/art-ina-tth-1998-05-02-st-cuans-colleges-final.png",
@@ -3151,7 +3158,6 @@
       "hurling",
       "fohenagh",
       "colleges",
-      "all-ireland",
       "ina"
     ],
     "clubTags": [
@@ -3223,7 +3229,7 @@
       "player:paul-kennedy-fohenagh",
       "player:colm-kirwan-fohenagh",
       "player:sean-moclair",
-      "player:mick-coen-fohenagh",
+      "player:mike-coen-fohenagh",
       "player:padraic-leonard",
       "player:gerry-madden-fohenagh",
       "player:tony-kirwan-fohenagh",
@@ -3234,7 +3240,8 @@
       "player:m-barrett-fohenagh",
       "player:alan-madden",
       "player:joe-fallon-fohenagh",
-      "player:alan-moclair-ahascragh-fohenagh"
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:mick-coen-fohenagh"
     ],
     "excerpt": "In the first game of the 1996 County Junior A Championship, played in Ballymacward, Fohenagh defeated Ahascragh 1-9 to 1-7. Best for Fohenagh were Tony Kirwan, the Devine brothers, Gary Lohan, Alan Madden, Mike Coen and Ger Madden. Fohenagh: Noel Higgins, Paul Kennedy, Colm Kirwan, Sean Mockler, Mike Coen, Padraig Leonard, Gerry Madden, Tony Kirwan, Jimmy Devine, Gary Lohan, Niall Leonard, John Devine, Michael Barrett, Alan Madden, Joe Fallon. Sub: Alan Mockler.",
     "citeChip": "Connacht Tribune · 21 Jun 1996 · p.4 · INA",
@@ -3372,5 +3379,3729 @@
     "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960419.1.14",
     "status": "pending",
     "matchTags": []
+  },
+  {
+    "id": "art-ina-tth-1942-04-04-fohenagh-cussaun-north-board-jhc-final",
+    "kind": "image",
+    "filename": "art-ina-tth-1942-04-04-fohenagh-cussaun-north-board-jhc-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1942-04-04-fohenagh-cussaun-north-board-jhc-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1942-04-04-fohenagh-cussaun-north-board-jhc-final.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 4 Apr 1942: Fohenagh win the North Board junior final",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fohenagh beat Cussaun to win the North Board junior final after an hour of hard, fast hurling. Cussaun's goalie and backs kept them out for ages, and Fohenagh fluffed a few chances by dawdling in front of goal, but two late goals settled it. No score printed.",
+    "citeChip": "Tuam Herald · 4 Apr 1942 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19420404.1.2",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-cussane-north-board-junior-final-1942"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19420404.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1942-04-04-fohenagh-cussaun-north-board-jhc-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1942-04-04-p2.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1944-06-03-cussane-fohenagh-1943-final",
+    "kind": "image",
+    "filename": "art-ina-ctt-1944-06-03-cussane-fohenagh-1943-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1944-06-03-cussane-fohenagh-1943-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1944-06-03-cussane-fohenagh-1943-final.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 3 Jun 1944: Cussane beat Fohenagh in the delayed 1943 North final",
+    "year": "1944",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "The 1943 North Board junior final was finally played at Menlough in late May 1944, and Cussane won 5-3 to 2-4. The paper named 'the Barretts, Naughton and Glynn' as Fohenagh's best. Not the Claregalway county final.",
+    "citeChip": "Connacht Tribune · 3 Jun 1944 · p.10 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19440603.1.10",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-cussane-1944-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19440603.1.10",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1944-06-03-cussane-fohenagh-1943-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1944-06-03-p10.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1944-05-13-ballygar-walkover-from-fohenagh",
+    "kind": "image",
+    "filename": "art-ina-ctt-1944-05-13-ballygar-walkover-from-fohenagh.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1944-05-13-ballygar-walkover-from-fohenagh.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1944-05-13-ballygar-walkover-from-fohenagh.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 13 May 1944: Ballygar get a walk-over from Fohenagh",
+    "year": "1944",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "One line in the Tribune: Ballygar got a walk-over from Fohenagh in the junior hurling championship. No game, no score.",
+    "citeChip": "Connacht Tribune · 13 May 1944 · p.4 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19440513.1.4",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-ballygar-1944-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19440513.1.4",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1944-05-13-ballygar-walkover-from-fohenagh.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1944-05-13-p4.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1949-10-01-fohenagh-win-east-board-jh-title",
+    "kind": "image",
+    "filename": "art-ina-ctt-1949-10-01-fohenagh-win-east-board-jh-title.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1949-10-01-fohenagh-win-east-board-jh-title.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1949-10-01-fohenagh-win-east-board-jh-title.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 1 Oct 1949: Fohenagh win the East Board junior title",
+    "year": "1949",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "A big day: Fohenagh beat Lawrencetown 5-8 to 0-3 in the East Board junior final at Duggan Park, and fans ran on to chair captain 'Mickey' Glynn off the field. The presenting priest praised a clean, sporting game.",
+    "citeChip": "Connacht Tribune · 1 Oct 1949 · p.6 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19491001.1.6",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-lawrencetown-1949-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19491001.1.6",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1949-10-01-fohenagh-win-east-board-jh-title.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1949-10-01-p6.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-cch-1952-07-19-fohenagh-gort-ihc",
+    "kind": "image",
+    "filename": "art-ina-cch-1952-07-19-fohenagh-gort-ihc.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-cch-1952-07-19-fohenagh-gort-ihc.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-cch-1952-07-19-fohenagh-gort-ihc.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Clare Champion 19 Jul 1952: Fohenagh 7-5, Gort 0-3",
+    "year": "1952",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "As a curtain-raiser to a bigger match, Fohenagh completely outclassed Gort in the intermediate championship, 7-5 to 0-3. This was the re-fixed game after the June meeting was washed out.",
+    "citeChip": "Clare Champion · 19 Jul 1952 · p.10 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CCH19520719.1.10",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-gort-1952-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CCH19520719.1.10",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-cch-1952-07-19-fohenagh-gort-ihc.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/cch-1952-07-19-p10.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-tth-1952-08-30-skehana-fohenagh-ihc-replay",
+    "kind": "image",
+    "filename": "art-ina-tth-1952-08-30-skehana-fohenagh-ihc-replay.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1952-08-30-skehana-fohenagh-ihc-replay.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1952-08-30-skehana-fohenagh-ihc-replay.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 30 Aug 1952: Skehana win the 1952 replay",
+    "year": "1952",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "After Fohenagh rescued a draw with a last-minute penalty goal, the replay at Castleblakeney was level for a half before Skehana pulled away to win 3-7 to 2-1. The paper calls it a semi-final; the existing wiki row calls the drawn game a final.",
+    "citeChip": "Tuam Herald · 30 Aug 1952 · p.1 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19520830.1.1",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-skehana-1952-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19520830.1.1",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1952-08-30-skehana-fohenagh-ihc-replay.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1952-08-30-p1.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-wmi-1953-07-04-fohenagh-kilconnell-tournament",
+    "kind": "image",
+    "filename": "art-ina-wmi-1953-07-04-fohenagh-kilconnell-tournament.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-wmi-1953-07-04-fohenagh-kilconnell-tournament.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-wmi-1953-07-04-fohenagh-kilconnell-tournament.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Westmeath Independent 4 Jul 1953: Fohenagh win the 1953 Kilconnell tournament",
+    "year": "1953",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fohenagh beat a weak Ballymacward side in the semi-final and then edged Cappatagle No. 2 in a 'thrill-a-minute' final. The Sweeney trio and the Glynn brothers led the way, and a schoolboy goalkeeper named Laly was first-class. No score printed.",
+    "citeChip": "Westmeath Independent · 4 Jul 1953 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=WMI19530704.1.3",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-cappatagle-no-2-1953-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=WMI19530704.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-wmi-1953-07-04-fohenagh-kilconnell-tournament.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/wmi-1953-07-04-p3.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc",
+    "kind": "image",
+    "filename": "art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Connacht Tribune 3 Oct 1953: Fohenagh 4-7, Claregalway 4-6",
+    "year": "1953",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:c-kelly-fohenagh",
+      "player:frank-madden",
+      "player:j-fitzgerald-fohenagh",
+      "player:m-barrett-fohenagh",
+      "player:m-dooley-fohenagh",
+      "player:paddy-fitzgerald-fohenagh",
+      "player:t-clinton-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Fohenagh led 3-6 to 0-4 at the break, then had to hang on as Claregalway came storming back, and the afternoon got so lively that the Gardaí had to help out. Fohenagh squeezed through by a single point, 4-7 to 4-6, with a full team list printed.",
+    "citeChip": "Connacht Tribune · 3 Oct 1953 · p.22 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-claregalway-1953-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531003.1.22",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1953-10-03-fohenagh-claregalway-ihc.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1953-10-03-p22.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final",
+    "kind": "image",
+    "filename": "art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Connacht Sentinel 20 Oct 1953: Maree 4-2, Fohenagh 2-3: the 'travesty' at Loughrea",
+    "year": "1953",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:paddy-fitzgerald-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Fohenagh led 1-3 to 0-0 at half-time, then Maree hit three quick goals and a Fohenagh goal was ruled out. In the closing minutes the hurleys were swung more like cavemen's clubs than camáin, and the referee gave up trying to line the teams up again. Happily the paper says nobody was seriously hurt. Maree went through 4-2 to 2-3.",
+    "citeChip": "Connacht Sentinel · 20 Oct 1953 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CSL19531020.1.3",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-maree-ihc-semi-final-1953"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CSL19531020.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-csl-1953-10-20-maree-fohenagh-ihc-semi-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/csl-1953-10-20-p3.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1953-10-24-maree-fohenagh-ihc-semi-final",
+    "kind": "image",
+    "filename": "art-ina-ctt-1953-10-24-maree-fohenagh-ihc-semi-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-10-24-maree-fohenagh-ihc-semi-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-10-24-maree-fohenagh-ihc-semi-final.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 24 Oct 1953: Maree v Fohenagh report (Tribune reprint)",
+    "year": "1953",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "The Connacht Tribune ran the same 'travesty' report four days after the Sentinel. Same game, same score; second cutting for the same match.",
+    "citeChip": "Connacht Tribune · 24 Oct 1953 · p.22 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531024.1.22",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-maree-ihc-semi-final-1953"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531024.1.22",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1953-10-24-maree-fohenagh-ihc-semi-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1953-10-24-p22.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture",
+    "kind": "image",
+    "filename": "art-ina-ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 7 Mar 1942: Cussaun v Fohenagh fixed for Menlough",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: Cussaun v Fohenagh, North Board junior final, Menlough, 29 March 1942.",
+    "citeChip": "Connacht Tribune · 7 Mar 1942 · p.10 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420307.1.10",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-cussane-north-board-junior-final-1942"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420307.1.10",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1942-03-07-cussaun-v-fohenagh-north-board-jhc-final-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1942-03-07-p10.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture",
+    "kind": "image",
+    "filename": "art-ina-ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 23 May 1942: Fohenagh v Claregalway, 1941 junior semi-final, at Athenry",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: Fohenagh v Claregalway in the 1941 county junior semi-final at Athenry; the winners were to meet Eyrecourt in the final. (It ended in the row that got both teams suspended.)",
+    "citeChip": "Connacht Tribune · 23 May 1942 · p.10 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420523.1.10",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420523.1.10",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1942-05-23-p10.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture",
+    "kind": "image",
+    "filename": "art-ina-ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 12 Jun 1943: Fohenagh v Aughrim Sarsfields at Kilconnell",
+    "year": "1943",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: 'old rivals' Fohenagh and Aughrim Sarsfields meet at Kilconnell in the North junior championship.",
+    "citeChip": "Connacht Tribune · 12 Jun 1943 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19430612.1.14",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19430612.1.14",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1943-06-12-fohenagh-v-aughrim-north-jhc-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1943-06-12-p14.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-tth-1944-04-22-cussaun-to-meet-fohenagh-semi",
+    "kind": "image",
+    "filename": "art-ina-tth-1944-04-22-cussaun-to-meet-fohenagh-semi.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1944-04-22-cussaun-to-meet-fohenagh-semi.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1944-04-22-cussaun-to-meet-fohenagh-semi.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 22 Apr 1944: Cussaun qualify to meet Fohenagh",
+    "year": "1944",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Cussaun beat Killimoredaly by a point (10 points to 9) at Tiaquin and so qualified to meet Fohenagh in the North Board junior semi-final.",
+    "citeChip": "Tuam Herald · 22 Apr 1944 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19440422.1.2",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19440422.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1944-04-22-cussaun-to-meet-fohenagh-semi.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1944-04-22-p2.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture",
+    "kind": "image",
+    "filename": "art-ina-ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 29 Apr 1944: Ballygar v Fohenagh at Mountbellew",
+    "year": "1944",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: Ballygar v Fohenagh in junior hurling at Mountbellew. (Ballygar later got a walk-over.)",
+    "citeChip": "Connacht Tribune · 29 Apr 1944 · p.10 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19440429.1.10",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19440429.1.10",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1944-04-29-ballygar-v-fohenagh-jhc-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1944-04-29-p10.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture",
+    "kind": "image",
+    "filename": "art-ina-ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 6 Jul 1946: Fohenagh v Ballymacward at Kilconnell",
+    "year": "1946",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: Fohenagh v Ballymacward, junior hurling, Kilconnell, 14 July 1946.",
+    "citeChip": "Connacht Tribune · 6 Jul 1946 · p.9 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19460706.1.9",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19460706.1.9",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1946-07-06-fohenagh-v-ballymacward-jhc-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1946-07-06-p9.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-tth-1948-02-21-caltra-v-fohenagh-school-league-fixture",
+    "kind": "image",
+    "filename": "art-ina-tth-1948-02-21-caltra-v-fohenagh-school-league-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1948-02-21-caltra-v-fohenagh-school-league-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1948-02-21-caltra-v-fohenagh-school-league-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 21 Feb 1948: Caltra v Fohenagh, schools league semi-final",
+    "year": "1948",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: Caltra v Fohenagh in a schools league semi-final at Caltra; final pencilled for Galway or Fohenagh against Oranmore. Schoolchildren: no names recorded.",
+    "citeChip": "Tuam Herald · 21 Feb 1948 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19480221.1.3",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19480221.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1948-02-21-caltra-v-fohenagh-school-league-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1948-02-21-p3.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh",
+    "kind": "image",
+    "filename": "art-ina-ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 23 Jun 1951: St. Michael's v Fohenagh, Kilconnell Tournament",
+    "year": "1951",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Advert: Kilconnell Tournament final day and sale of work, 29 June 1951. Hurling draws: Killimordaly v Skehanagh 3 p.m.; St. Michael's v Fohenagh 4 p.m.; final 5.30.",
+    "citeChip": "Connacht Tribune · 23 Jun 1951 · p.19 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19510623.1.19",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19510623.1.19",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1951-06-23-kilconnell-tournament-st-michaels-v-fohenagh.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1951-06-23-p19.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1952-05-24-gort-v-fohenagh-ihc-fixture",
+    "kind": "image",
+    "filename": "art-ina-ctt-1952-05-24-gort-v-fohenagh-ihc-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1952-05-24-gort-v-fohenagh-ihc-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1952-05-24-gort-v-fohenagh-ihc-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 24 May 1952: Gort v Fohenagh at Loughrea",
+    "year": "1952",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: Gort v Fohenagh, intermediate hurling, Loughrea, 1 June 1952.",
+    "citeChip": "Connacht Tribune · 24 May 1952 · p.20 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19520524.1.20",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19520524.1.20",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1952-05-24-gort-v-fohenagh-ihc-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1952-05-24-p20.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-wmi-1953-07-18-fohenagh-killimor-ihc-final-preview",
+    "kind": "image",
+    "filename": "art-ina-wmi-1953-07-18-fohenagh-killimor-ihc-final-preview.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-wmi-1953-07-18-fohenagh-killimor-ihc-final-preview.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-wmi-1953-07-18-fohenagh-killimor-ihc-final-preview.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Westmeath Independent 18 Jul 1953: Fohenagh v Killimor preview",
+    "year": "1953",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:maureen-madden-fohenagh-camogie"
+    ],
+    "excerpt": "Preview: Fohenagh, fresh from a semi-final win over Mullagh and the Kilconnell cup, fancied their chances against Killimor at Ballinasloe. (Note: the September/October 1953 IHC quarter- and semi-finals suggest this 'final' was a separate divisional competition; flagged.)",
+    "citeChip": "Westmeath Independent · 18 Jul 1953 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=WMI19530718.1.3",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=WMI19530718.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-wmi-1953-07-18-fohenagh-killimor-ihc-final-preview.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/wmi-1953-07-18-p3.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1953-10-17-maree-v-fohenagh-semi-final-preview",
+    "kind": "image",
+    "filename": "art-ina-ctt-1953-10-17-maree-v-fohenagh-semi-final-preview.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-10-17-maree-v-fohenagh-semi-final-preview.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-10-17-maree-v-fohenagh-semi-final-preview.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 17 Oct 1953: Maree v Fohenagh semi-final preview",
+    "year": "1953",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Preview of the Maree v Fohenagh semi-final at Loughrea, the game that ended in the 'travesty'.",
+    "citeChip": "Connacht Tribune · 17 Oct 1953 · p.22 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531017.1.22",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-maree-ihc-semi-final-1953"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531017.1.22",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1953-10-17-maree-v-fohenagh-semi-final-preview.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1953-10-17-p22.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh",
+    "kind": "image",
+    "filename": "art-ina-ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 26 Jun 1954: Ballymacward v Fohenagh, Kilconnell Tournament",
+    "year": "1954",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Advert: Kilconnell tournament draws, 29 June 1954, including Ballymacward v Fohenagh at 3.30.",
+    "citeChip": "Connacht Tribune · 26 Jun 1954 · p.12 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19540626.1.12",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19540626.1.12",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1954-06-26-kilconnell-tournament-ballymacward-v-fohenagh.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1954-06-26-p12.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell",
+    "kind": "image",
+    "filename": "art-ina-ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 13 Aug 1955: Fohenagh v Kilconnell, tournament semi-final",
+    "year": "1955",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Advert: tournament semi-finals and final on 15 August 1955: Tynagh v Ballymacward 2.30; Fohenagh v Kilconnell 3.30.",
+    "citeChip": "Connacht Tribune · 13 Aug 1955 · p.26 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19550813.1.26",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19550813.1.26",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1955-08-13-kilconnell-tournament-fohenagh-v-kilconnell.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1955-08-13-p26.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla",
+    "kind": "image",
+    "filename": "art-ina-ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 8 Oct 1955: Fohenagh v Kiltulla, tournament",
+    "year": "1955",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Advert: tournament draws including Fohenagh v Kiltulla at 3 p.m.; winners get seven wrist watches, runners-up seven hurleys.",
+    "citeChip": "Connacht Tribune · 8 Oct 1955 · p.12 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19551008.1.12",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19551008.1.12",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1955-10-08-bullaun-tournament-fohenagh-v-kiltulla.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1955-10-08-p12.jpg",
+    "inaClass": "FIXTURE"
+  },
+  {
+    "id": "art-ina-ctt-1946-10-19-fohenagh-ballinasloe-camogie",
+    "kind": "image",
+    "filename": "art-ina-ctt-1946-10-19-fohenagh-ballinasloe-camogie.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1946-10-19-fohenagh-ballinasloe-camogie.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1946-10-19-fohenagh-ballinasloe-camogie.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 19 Oct 1946: Fohenagh camogie romp past Ballinasloe",
+    "year": "1946",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "A 'runaway victory' for the Fohenagh camogie team over Ballinasloe at Duggan Park. No surprise, said the paper: three of the team had just played for Galway against Antrim in Belfast. No score printed.",
+    "citeChip": "Connacht Tribune · 19 Oct 1946 · p.6 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19461019.1.6",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-ballinasloe-1946-ina"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19461019.1.6",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1946-10-19-fohenagh-ballinasloe-camogie.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1946-10-19-p6.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final",
+    "kind": "image",
+    "filename": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 2 Nov 1946: Caltra 1-0, Fohenagh nil",
+    "year": "1946",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:a-glynn-fohenagh-camogie",
+      "player:a-madden-fohenagh-camogie",
+      "player:m-barrett-fohenagh-camogie",
+      "player:m-madden-fohenagh-camogie",
+      "player:p-hopkins-fohenagh-camogie",
+      "player:rita-clinton-fohenagh-camogie"
+    ],
+    "excerpt": "A thriller at Caltra decided by one late goal. Fohenagh's 'vigorous tactics' rattled the holders, M. Barrett was a sterling full-back, but Caltra's M. A. Geraghty found the net near the end: Caltra 1-0, Fohenagh nil.",
+    "citeChip": "Connacht Tribune · 2 Nov 1946 · p.15 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-caltra-camogie-semi-final-1946"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19461026.1.15",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1946-10-26-p15.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-tth-1946-11-02-caltra-beat-fohenagh-camogie",
+    "kind": "image",
+    "filename": "art-ina-tth-1946-11-02-caltra-beat-fohenagh-camogie.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1946-11-02-caltra-beat-fohenagh-camogie.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1946-11-02-caltra-beat-fohenagh-camogie.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 2 Nov 1946: Caltra beat Fohenagh (Tuam Herald)",
+    "year": "1946",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Short Tuam Herald note on the same game: Caltra won by a goal in 'easily the best game of the County Championship'.",
+    "citeChip": "Tuam Herald · 2 Nov 1946 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19461102.1.2",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-caltra-camogie-semi-final-1946"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19461102.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1946-11-02-caltra-beat-fohenagh-camogie.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1946-11-02-p2.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-tth-1946-11-16-fohenagh-camogie-objection-withdrawn",
+    "kind": "image",
+    "filename": "art-ina-tth-1946-11-16-fohenagh-camogie-objection-withdrawn.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1946-11-16-fohenagh-camogie-objection-withdrawn.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1946-11-16-fohenagh-camogie-objection-withdrawn.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 16 Nov 1946: Fohenagh camogie objection withdrawn",
+    "year": "1946",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fohenagh objected to the semi-final being awarded to Caltra, then thought better of it and withdrew the objection.",
+    "citeChip": "Tuam Herald · 16 Nov 1946 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19461116.1.2",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19461116.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1946-11-16-fohenagh-camogie-objection-withdrawn.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1946-11-16-p2.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-tth-1946-12-14-camogie-best-teams-note",
+    "kind": "image",
+    "filename": "art-ina-tth-1946-12-14-camogie-best-teams-note.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1946-12-14-camogie-best-teams-note.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1946-12-14-camogie-best-teams-note.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 14 Dec 1946: Fohenagh among Galway's best camogie teams",
+    "year": "1946",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-other"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "End-of-year note: the best camogie teams in the county so far are Ballinasloe, Caltra, Tuam and Fohenagh.",
+    "citeChip": "Tuam Herald · 14 Dec 1946 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19461214.1.2",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19461214.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1946-12-14-camogie-best-teams-note.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1946-12-14-p2.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture",
+    "kind": "image",
+    "filename": "art-ina-tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 9 Aug 1947: Fohenagh v Ballinasloe Mental Hospital fixed",
+    "year": "1947",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: camogie semi-final at Ballinasloe on 17 August 1947; the winners to meet Erin's Hope in the county final.",
+    "citeChip": "Tuam Herald · 9 Aug 1947 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19470809.1.2",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19470809.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1947-08-09-fohenagh-v-ballinasloe-mh-camogie-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1947-08-09-p2.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-csl-1947-08-26-fohenagh-qualify-camogie-snippet",
+    "kind": "text",
+    "filename": "art-ina-csl-1947-08-26-fohenagh-qualify-camogie-snippet.md",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Sentinel 26 Aug 1947: Fohenagh qualify (Sentinel, snippet only)",
+    "year": "1947",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-report",
+      "snippet-only"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Snippet only (page PDF failed): half-time Fohenagh 2-2, Ballinasloe 1-1; K. Clinton shot wide from a 25.",
+    "citeChip": "Connacht Sentinel · 26 Aug 1947 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CSL19470826.1.3",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CSL19470826.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-csl-1947-08-26-fohenagh-qualify-camogie-snippet.md",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final",
+    "kind": "image",
+    "filename": "art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 30 Aug 1947: Fohenagh 2-3, Ballinasloe M.H. 2-2",
+    "year": "1947",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:a-glynn-fohenagh-camogie",
+      "player:a-madden-fohenagh-camogie",
+      "player:j-glynn-fohenagh-camogie",
+      "player:k-naughton-fohenagh-camogie",
+      "player:l-madden-fohenagh-camogie",
+      "player:m-barrett-fohenagh-camogie",
+      "player:m-farrell-fohenagh-camogie",
+      "player:m-glynn-fohenagh-camogie",
+      "player:m-madden-fohenagh-camogie",
+      "player:p-clinton-fohenagh-camogie",
+      "player:p-hopkins-fohenagh-camogie",
+      "player:rita-clinton-fohenagh-camogie"
+    ],
+    "excerpt": "A 'lucky' one-point win, the paper admits, with Rita Clinton the star at centrefield. Fohenagh were into their first county final.",
+    "citeChip": "Connacht Tribune · 30 Aug 1947 · p.19 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-ballinasloe-mh-camogie-semi-final-1947"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19470830.1.19",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1947-08-30-fohenagh-ballinasloe-camogie-semi-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1947-08-30-p19.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture",
+    "kind": "image",
+    "filename": "art-ina-tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 8 Nov 1947: Camogie county final fixed: Fohenagh v Erin's Hope",
+    "year": "1947",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fixture: county senior camogie final at College Park, Galway, 16 November 1947; Hopes beat Oranmore and Maree to get there, Fohenagh beat Caltra and Ballinasloe.",
+    "citeChip": "Tuam Herald · 8 Nov 1947 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19471108.1.2",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-erins-hope-camogie-final-1947"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19471108.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1947-11-08-fohenagh-v-erins-hope-camogie-final-fixture.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1947-11-08-p2.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview",
+    "kind": "image",
+    "filename": "art-ina-ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 15 Nov 1947: Preview: Fohenagh's first county camogie final",
+    "year": "1947",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:a-glynn-fohenagh-camogie",
+      "player:a-madden-fohenagh-camogie",
+      "player:b-clinton-fohenagh-camogie",
+      "player:j-glynn-fohenagh-camogie",
+      "player:k-naughton-fohenagh-camogie",
+      "player:l-madden-fohenagh-camogie",
+      "player:m-barrett-fohenagh-camogie",
+      "player:m-farrell-fohenagh-camogie",
+      "player:m-glynn-fohenagh-camogie",
+      "player:m-madden-fohenagh-camogie",
+      "player:p-hopkins-fohenagh-camogie",
+      "player:rita-clinton-fohenagh-camogie"
+    ],
+    "excerpt": "Preview of Fohenagh's first ever county camogie final, naming the expected side, with Rita Clinton the centre-field star.",
+    "citeChip": "Connacht Tribune · 15 Nov 1947 · p.20 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19471115.1.20",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-erins-hope-camogie-final-1947"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19471115.1.20",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1947-11-15-erins-hope-v-fohenagh-camogie-final-preview.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1947-11-15-p20.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title",
+    "kind": "image",
+    "filename": "art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Irish Press 17 Nov 1947: Fohenagh win the 1947 county camogie title",
+    "year": "1947",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:rita-clinton-fohenagh-camogie"
+    ],
+    "excerpt": "County champions at the first attempt! Rita Clinton scored 2-1 as Fohenagh beat Erin's Hopes 3-1 to 3-0 in the Galway senior camogie final. The best story in the batch.",
+    "citeChip": "Irish Press · 17 Nov 1947 · p.9 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=IPR19471117.1.9",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-erins-hope-camogie-final-1947"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=IPR19471117.1.9",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ipr-1947-11-17-p9.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-mex-1948-05-28-fohenagh-camogie-life-ban-note",
+    "kind": "image",
+    "filename": "art-ina-mex-1948-05-28-fohenagh-camogie-life-ban-note.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-mex-1948-05-28-fohenagh-camogie-life-ban-note.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-mex-1948-05-28-fohenagh-camogie-life-ban-note.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Munster Express 28 May 1948: Waterford paper notes the Fohenagh camogie life ban",
+    "year": "1948",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Even a Waterford columnist heard about it: after followers of the Fohenagh club attacked an umpire at a county tie with St. Grellan's, Ballinasloe, the Galway Camogie Board suspended the team for life. It was the supporters, not the players, who lost the run of themselves, though the girls paid the price.",
+    "citeChip": "Munster Express · 28 May 1948 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=MEX19480528.1.3",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=MEX19480528.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-mex-1948-05-28-fohenagh-camogie-life-ban-note.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/mex-1948-05-28-p3.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-tth-1948-08-28-fohenagh-camogie-reinstatement-refused",
+    "kind": "image",
+    "filename": "art-ina-tth-1948-08-28-fohenagh-camogie-reinstatement-refused.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1948-08-28-fohenagh-camogie-reinstatement-refused.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1948-08-28-fohenagh-camogie-reinstatement-refused.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 28 Aug 1948: Fohenagh camogie reinstatement refused",
+    "year": "1948",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina",
+      "camogie-board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Fohenagh asked to be let back in. The National Organiser backed them, but Caltra's delegate objected and the application failed. Someone at the meeting said the rule was 'very hard on the girls', and the Board agreed the trouble was the supporters' behaviour, 'not the girls fault'.",
+    "citeChip": "Tuam Herald · 28 Aug 1948 · p.2 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19480828.1.2",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19480828.1.2",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1948-08-28-fohenagh-camogie-reinstatement-refused.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1948-08-28-p2.jpg",
+    "inaClass": "CAMOGIE"
+  },
+  {
+    "id": "art-ina-csl-1942-05-12-claregalway-objection-referee-snippet",
+    "kind": "text",
+    "filename": "art-ina-csl-1942-05-12-claregalway-objection-referee-snippet.md",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Sentinel 12 May 1942: Claregalway object to the referee (Sentinel, snippet only)",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board",
+      "snippet-only"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Snippet only: the County Board meeting where Claregalway officials got 2½ years for fielding an illegal player in another game, and objected to M. Cullen refereeing their semi-final with Fohenagh.",
+    "citeChip": "Connacht Sentinel · 12 May 1942 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CSL19420512.1.3",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CSL19420512.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-csl-1942-05-12-claregalway-objection-referee-snippet.md",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-ctt-1942-05-16-claregalway-fohenagh-referee-objection",
+    "kind": "image",
+    "filename": "art-ina-ctt-1942-05-16-claregalway-fohenagh-referee-objection.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-05-16-claregalway-fohenagh-referee-objection.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-05-16-claregalway-fohenagh-referee-objection.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 16 May 1942: The referee question",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Claregalway didn't want Mr. Cullen as referee for their semi-final with Fohenagh and threatened to give Fohenagh the match and pull out. One delegate worried that if the Board gave in, 'Fohenagh can come along next week and object again'. The chairman ruled the game would go ahead the next Sunday with Mr. Cullen in charge.",
+    "citeChip": "Connacht Tribune · 16 May 1942 · p.9 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420516.1.9",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420516.1.9",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1942-05-16-claregalway-fohenagh-referee-objection.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1942-05-16-p9.jpg",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-ctt-1942-06-13-claregalway-fohenagh-suspended-1941-jhc-semi",
+    "kind": "image",
+    "filename": "art-ina-ctt-1942-06-13-claregalway-fohenagh-suspended-1941-jhc-semi.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-06-13-claregalway-fohenagh-suspended-1941-jhc-semi.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1942-06-13-claregalway-fohenagh-suspended-1941-jhc-semi.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 13 Jun 1942: Both teams suspended after Athenry",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:t-gill-fohenagh"
+    ],
+    "excerpt": "The 1941 semi-final at Athenry never finished: spectators poured on, the referee told Fohenagh to leave 'for their own safety', and captain Michael Barrett said he was hit in the mouth and kicked. After two hours of heated talk the Board suspended BOTH clubs for a year and handed the 1941 title to Eyrecourt, who must have been delighted to win a final without lifting a hurley.",
+    "citeChip": "Connacht Tribune · 13 Jun 1942 · p.11 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420613.1.11",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19420613.1.11",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1942-06-13-claregalway-fohenagh-suspended-1941-jhc-semi.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1942-06-13-p11.jpg",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-csl-1942-06-09-suspension-snippet",
+    "kind": "text",
+    "filename": "art-ina-csl-1942-06-09-suspension-snippet.md",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Sentinel 9 Jun 1942: Suspension story (Sentinel, snippet only)",
+    "year": "1942",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board",
+      "snippet-only"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Snippet only: Claregalway and Fohenagh suspended over the 1941 junior semi-final; Eyrecourt declared champions.",
+    "citeChip": "Connacht Sentinel · 9 Jun 1942 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CSL19420609.1.3",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CSL19420609.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-csl-1942-06-09-suspension-snippet.md",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-ctt-1943-06-12-fohenagh-north-board-boundary",
+    "kind": "image",
+    "filename": "art-ina-ctt-1943-06-12-fohenagh-north-board-boundary.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1943-06-12-fohenagh-north-board-boundary.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1943-06-12-fohenagh-north-board-boundary.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 12 Jun 1943: 'Fohenagh is definitely in the North Board'",
+    "year": "1943",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "At a board boundaries debate the chairman declared that Fohenagh 'is definitely in the North Board'.",
+    "citeChip": "Connacht Tribune · 12 Jun 1943 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19430612.1.14",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19430612.1.14",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1943-06-12-fohenagh-north-board-boundary.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1943-06-12-p14.jpg",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-csl-1944-12-12-claregalway-suspension-served-snippet",
+    "kind": "text",
+    "filename": "art-ina-csl-1944-12-12-claregalway-suspension-served-snippet.md",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Sentinel 12 Dec 1944: Claregalway served the full twelve months (Sentinel, snippet only)",
+    "year": "1944",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board",
+      "snippet-only"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "Snippet only: a Claregalway delegate recalled that their junior hurlers served the full twelve months' suspension after sideline trouble (the 1941 Fohenagh game).",
+    "citeChip": "Connacht Sentinel · 12 Dec 1944 · p.3 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CSL19441212.1.3",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CSL19441212.1.3",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-csl-1944-12-12-claregalway-suspension-served-snippet.md",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-ctt-1952-06-07-gort-fohenagh-washed-out",
+    "kind": "image",
+    "filename": "art-ina-ctt-1952-06-07-gort-fohenagh-washed-out.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1952-06-07-gort-fohenagh-washed-out.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1952-06-07-gort-fohenagh-washed-out.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 7 Jun 1952: Gort v Fohenagh washed out",
+    "year": "1952",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "excerpt": "The Gort v Fohenagh game at Loughrea started late (5.30) because of a hold-up and six minutes later a rain-burst washed it out. Even the weather wanted a say in Galway hurling.",
+    "citeChip": "Connacht Tribune · 7 Jun 1952 · p.9 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19520607.1.9",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19520607.1.9",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1952-06-07-gort-fohenagh-washed-out.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1952-06-07-p9.jpg",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-ctt-1953-11-28-fohenagh-lose-appeal-maree",
+    "kind": "image",
+    "filename": "art-ina-ctt-1953-11-28-fohenagh-lose-appeal-maree.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-11-28-fohenagh-lose-appeal-maree.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1953-11-28-fohenagh-lose-appeal-maree.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 28 Nov 1953: Fohenagh lose the Maree appeal",
+    "year": "1953",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:frank-madden"
+    ],
+    "excerpt": "Fohenagh argued the Loughrea game wasn't finished, but the Connacht Council voted 3-2 that it was. One senator wondered whether a replay would be 'another hammering match'; Fohenagh's delegate promised it wouldn't be.",
+    "citeChip": "Connacht Tribune · 28 Nov 1953 · p.26 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531128.1.26",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-maree-ihc-semi-final-1953"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19531128.1.26",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1953-11-28-fohenagh-lose-appeal-maree.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1953-11-28-p26.jpg",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-ina-tth-1955-09-03-tim-sweeney-galway-panel",
+    "kind": "image",
+    "filename": "art-ina-tth-1955-09-03-tim-sweeney-galway-panel.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1955-09-03-tim-sweeney-galway-panel.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1955-09-03-tim-sweeney-galway-panel.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 3 Sep 1955: Tim Sweeney (Fohenagh) in the Galway pen-pictures",
+    "year": "1955",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "Galway senior pen-pictures before a big 1955 game: Tim Sweeney (Fohenagh), 24, 5'11\", a newcomer full-forward who shone against Tipperary and Clare and 'has given great service to his junior club'.",
+    "citeChip": "Tuam Herald · 3 Sep 1955 · p.6 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19550903.1.6",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19550903.1.6",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1955-09-03-tim-sweeney-galway-panel.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1955-09-03-p6.jpg",
+    "inaClass": "BOARD/OTHER"
+  },
+  {
+    "id": "art-book-fohenagh-p142-hugh-barrett",
+    "kind": "image",
+    "filename": "p142-hugh-barrett.png",
+    "path": "/uploads/book/fohenagh-history/p142-hugh-barrett.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p142-hugh-barrett.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Hugh Barrett — book photo",
+    "year": "1931",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:hugh-barrett-ahascragh"
+    ],
+    "matchTags": [],
+    "excerpt": "Hugh Barrett, a Fohenagh man on the Ahascragh team that won the 1931 county junior title, and a regular for Galway.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.142",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "142"
+  },
+  {
+    "id": "art-book-fohenagh-p142-p-larkin",
+    "kind": "image",
+    "filename": "p142-p-larkin.png",
+    "path": "/uploads/book/fohenagh-history/p142-p-larkin.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p142-p-larkin.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "P. Larkin — book photo",
+    "year": "1931",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:p-larkin-ahascragh"
+    ],
+    "matchTags": [],
+    "excerpt": "P. Larkin, another Fohenagh man on Ahascragh's 1931 county junior winning team.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.142",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "142"
+  },
+  {
+    "id": "art-book-fohenagh-p145-tim-sweeney",
+    "kind": "image",
+    "filename": "p145-tim-sweeney.png",
+    "path": "/uploads/book/fohenagh-history/p145-tim-sweeney.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p145-tim-sweeney.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Tim Sweeney — book photo",
+    "year": "1945",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Tim Sweeney: first game for Fohenagh in 1945 aged 15, and for 25 years the team hardly ever played without him.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "145"
+  },
+  {
+    "id": "art-book-fohenagh-p145-maureen-madden",
+    "kind": "image",
+    "filename": "p145-maureen-madden.png",
+    "path": "/uploads/book/fohenagh-history/p145-maureen-madden.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p145-maureen-madden.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Maureen Madden — book photo (camogie section)",
+    "year": "1947",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player",
+      "camogie"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:maureen-madden-fohenagh-camogie"
+    ],
+    "matchTags": [],
+    "excerpt": "Maureen Madden, pictured in the book's camogie chapter on the 1940s team.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.145",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "145"
+  },
+  {
+    "id": "art-book-fohenagh-p149-1959-senior-champions",
+    "kind": "image",
+    "filename": "p149-1959-senior-champions.png",
+    "path": "/uploads/book/fohenagh-history/p149-1959-senior-champions.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p149-1959-senior-champions.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1959 Senior County Hurling Champions — Fohenagh",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tom-moylette-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tony-ogorman",
+      "player:marty-glynn-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:c-kelly-fohenagh",
+      "player:frank-madden",
+      "player:frank-bleahan-fohenagh",
+      "player:p-carroll-fohenagh",
+      "player:mick-coen-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ],
+    "excerpt": "Front row: T. Moylette, G. Sweeney, F. Glynn, A. O'Gorman, M. Glynn (captain), P. J. Lally, T. Sweeney, L. Manning. Back row: H. Pender, T. Glynn, M. Coen, J. Moclair, T. Killilea, C. Kelly, F. Madden, F. Bleahene, P. Killilea, P. Carroll, N. Farragher. (H. Pender and N. Farragher, in suits, are tagged as officials only; T./P. Killilea held.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "149"
+  },
+  {
+    "id": "art-book-fohenagh-p150-seminarians",
+    "kind": "image",
+    "filename": "p150-seminarians-devine-murray-sweeney-murray.png",
+    "path": "/uploads/book/fohenagh-history/p150-seminarians-devine-murray-sweeney-murray.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p150-seminarians-devine-murray-sweeney-murray.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fr. P Devine, Fr. Aiden Murray, Fr. G Sweeney and Fr. N Murray — book photos",
+    "year": "1959",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:p-devine-fohenagh",
+      "player:aidan-murray-fohenagh",
+      "player:nicholas-murray"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ],
+    "excerpt": "The seminarians of the 1959–60 team. 'Perhaps the seminarians were not absent after all!' (Fr. G Sweeney not tagged: link to Gerry Sweeney held.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "150"
+  },
+  {
+    "id": "art-book-fohenagh-p150-1960-senior-champions",
+    "kind": "image",
+    "filename": "p150-1960-senior-champions.png",
+    "path": "/uploads/book/fohenagh-history/p150-1960-senior-champions.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p150-1960-senior-champions.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1960 Senior Hurling Champions — Fohenagh",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tommy-glynn-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:tony-ogorman",
+      "player:jim-moclair-fohenagh",
+      "player:g-lally-fohenagh",
+      "player:albie-glynn-fohenagh",
+      "player:pj-lally-fohenagh",
+      "player:tom-moylette-fohenagh",
+      "player:aidan-murray-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:p-devine-fohenagh",
+      "player:nicholas-murray",
+      "player:frank-madden",
+      "player:tim-sweeney-fohenagh",
+      "player:gerry-sweeney-fohenagh",
+      "player:mick-coen-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1960-galway-shc-final"
+    ],
+    "excerpt": "Front row: T. Glynn, F. Glynn, M. Glynn, J. Sweeney, A. O'Gorman (captain), J. Moclair, G. Lally, J. Sweeney, A. Glynn, P. J. Lally. Back: H. Pender, T. Moylette, A. Murray, L. Manning, P. Devine, N. Murray, F. Madden, T. Sweeney, G. Sweeney, P. Killilea, M. Coen, M. Glynn, N. Farragher. (Two M. Glynns and two J. Sweeneys held; P. Killilea held; Pender and Farragher officials.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.150",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "150"
+  },
+  {
+    "id": "art-book-fohenagh-p151-cup-retained-1960",
+    "kind": "image",
+    "filename": "p151-cup-retained-1960.png",
+    "path": "/uploads/book/fohenagh-history/p151-cup-retained-1960.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p151-cup-retained-1960.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "'Cup retained 1960' — Tommy Glynn, Tony O'Gorman and Norman Farragher",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tommy-glynn-fohenagh",
+      "player:tony-ogorman"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1960-galway-shc-final"
+    ],
+    "excerpt": "Cup retained in 1960! Tommy Glynn holds it high, with Tony O'Gorman and Norman Farragher (official).",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.151",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "151"
+  },
+  {
+    "id": "art-book-fohenagh-p152-1993-junior-finalists",
+    "kind": "image",
+    "filename": "p152-1993-junior-finalists.png",
+    "path": "/uploads/book/fohenagh-history/p152-1993-junior-finalists.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p152-1993-junior-finalists.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1993 County Junior Hurling Finalists — Fohenagh",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-kirwan-fohenagh",
+      "player:gerry-madden-fohenagh",
+      "player:padraic-leonard",
+      "player:joe-fallon-fohenagh",
+      "player:gerry-burke-fohenagh",
+      "player:seamus-lohan-fohenagh",
+      "player:padraig-daly-fohenagh",
+      "player:john-devine",
+      "player:alan-madden",
+      "player:colm-kirwan-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:paul-kennedy-fohenagh",
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Back row: Tony Kirwan, Michael Barrett, Gerry Madden, Padraig Leonard, Joe Fallon, Gerry Burke, Seamus Lohan, Padraig Daly. Front row: John Devine, Alan Madden, Colm Kirwan, Noel Higgins, Paul Kennedy, Séamus Moclair and Michael Coen. Team mascot Daniel Lyons. (Michael Barrett and Michael Coen held pending a split of older ids.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.152",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "152"
+  },
+  {
+    "id": "art-book-fohenagh-p153-kirwan-hession-moclair",
+    "kind": "image",
+    "filename": "p153-kirwan-hession-moclair.png",
+    "path": "/uploads/book/fohenagh-history/p153-kirwan-hession-moclair.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p153-kirwan-hession-moclair.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Tony Kirwan, Eugene Hession and Séamus Moclair — book photos",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "player"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-kirwan-fohenagh",
+      "player:eugene-hession-fohenagh",
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Fohenagh's All-Ireland men: Tony Kirwan (U-21, 1993), Eugene Hession (U-21, 1978) and Séamus Moclair (All-Ireland Vocational Schools).",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.153",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "153"
+  },
+  {
+    "id": "art-book-fohenagh-cover-a-history-of-fohenagh",
+    "kind": "image",
+    "filename": "cover-a-history-of-fohenagh.png",
+    "path": "/uploads/book/fohenagh-history/cover-a-history-of-fohenagh.png",
+    "publicUrl": "/uploads/book/fohenagh-history/cover-a-history-of-fohenagh.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Cover — A History of Fohenagh by Tony O'Gorman",
+    "year": "",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "book-cover"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-ogorman"
+    ],
+    "matchTags": [],
+    "excerpt": "The book these stories come from: A History of Fohenagh by Tony O'Gorman.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · cover",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "cover"
+  },
+  {
+    "id": "art-book-fohenagh-story-1890-gurteen",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh v Gurteen, 1890: fifty minutes, no score",
+    "year": "1890",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-glynn-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-gurteen-tournament-1890"
+    ],
+    "excerpt": "On 15 July 1890 Fohenagh, captained by Tim Glynn, played Gurteen at a big Gaelic tournament in a field lent by the Cormican family. After fifty minutes of 'spirited stopping and blocking' the teams were called off. The score? Nothing all! Around the same time Fohenagh beat Kilconnell 2 goals 1 point to 1 goal in a Caltra football tournament, and lost 1 goal 3 points to nil at Glentane.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.139",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "139"
+  },
+  {
+    "id": "art-book-fohenagh-story-1907-reaffiliation",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1907: Fohenagh back in, with a note from the priest",
+    "year": "1907",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling",
+      "club-history"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "In 1907 the club elected its parish priest, Fr. Harney, as president, and on 21 January 1907 Fohenagh was re-affiliated to the County Board even though Ahascragh objected strongly. Fr. Harney wrote that the Fohenagh players were 'respectable men' guilty of no 'dishonourable conduct'. A few weeks later the 'Fohena Hurling Club' told the papers it would start practice the very next Sunday.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.140–141",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "140–141"
+  },
+  {
+    "id": "art-book-fohenagh-story-battle-of-athenry",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The Battle of Athenry (1942)",
+    "year": "1942",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling",
+      "rough-game"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:mike-barrett-fohenagh"
+    ],
+    "matchTags": [
+      "fixture:ctt-1942-05-23-fohenagh-v-claregalway-1941-jhc-semi-fixture"
+    ],
+    "excerpt": "Fohenagh met Claregalway in the 1941 junior county semi-final at Athenry on Sunday 24 May 1942. The match was abandoned. The County Board met on Saturday 6 June 1942. The Connacht Tribune of 13 June 1942 reported that meeting under the headline \"Blackguardism at Athenry causes heat at County Board meeting\". The Connacht Sentinel of 9 June 1942 carries the same meeting. Both teams were suspended for twelve months, and Eyrecourt were declared the 1941 champions. The printed report records illegal players and \"serious charges\". The chairman was Mr T. O'Connor of Claregalway.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.144–145",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "144–145"
+  },
+  {
+    "id": "art-book-fohenagh-story-turf-lorry-1947",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The turf lorry and the Athenry Arch (1947)",
+    "year": "1947",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "camogie",
+      "easter-egg"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-erins-hope-camogie-final-1947"
+    ],
+    "excerpt": "How do you get a camogie crowd 35 miles to Galway in 1947? In Kevin Doherty's (Woodlawn) turf lorry, 'suitably insulated'. The trip home after the county final win is local folklore: the celebrations started early in Foster Street, the driver was in no state to drive, and John Joe Kirwan took the wheel. Then the lorry got wedged in Athenry's medieval Arch! After plenty of advice, the top tier of the creel was taken off, and the lorry and its relieved passengers got home with only one stop, in Menlough.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.146",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "146"
+  },
+  {
+    "id": "art-book-fohenagh-story-tynagh-1956",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Seven points up, then the fists came out (1956)",
+    "year": "1956",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling",
+      "rough-game"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "Fohenagh led Tynagh by seven points to nil in a Junior A game at Kiltormer on 15 July 1956, until fighting on the pitch got the game called off. Both teams were suspended for twelve months. The book calls it 'a devastating blow', but the County Board still let Fohenagh into senior hurling, and three years later they were county champions.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.148",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "148"
+  },
+  {
+    "id": "art-book-fohenagh-story-1959-comeback",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1959: ten points down, county champions",
+    "year": "1959",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "hurling"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:marty-glynn-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1959-galway-shc-final-draw",
+      "match:fohenagh-historic-1959-galway-shc-final-replay"
+    ],
+    "excerpt": "Fohenagh drew the 1959 county final with Castlegar, then lost two seminarians back to their studies and two more players to injury before the replay. Castlegar led by ten points at half-time. 'Miraculously', Fohenagh won 3-9 to 4-5 and Marty Glynn lifted the County Senior Cup for the first time ever. The party went on and on in the Old School Hall, turned into a bar by Ahascragh supporters.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.149–151",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "149–151"
+  },
+  {
+    "id": "art-book-fohenagh-story-amalgamation-2002",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "From Fohenagh to Ahascragh/Fohenagh (1999–2002)",
+    "year": "2002",
+    "tags": [
+      "fohenagh",
+      "book",
+      "story",
+      "club-history"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "With fewer children around (96 on the school roll in 1988, 46 by 2000), Fohenagh joined Ahascragh at underage level in 1999, and won county U-14 B and Minor B titles straight away. On 21 January 2002 both clubs held their AGMs at the same time and disbanded, and the new club Ahascragh/Fohenagh was born. For many who remembered the 1950s glory days, losing their 112-year-old club was sad, but there was no other way.",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.156–157",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "156–157"
+  },
+  {
+    "id": "art-book-fohenagh-p154-1990-underage-a",
+    "kind": "image",
+    "filename": "p154-1990-underage-a.png",
+    "path": "/uploads/book/fohenagh-history/p154-1990-underage-a.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p154-1990-underage-a.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1990 underage team A — Fohenagh",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team",
+      "underage"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:paul-leonard-fohenagh",
+      "player:paul-obeirne-fohenagh",
+      "player:sean-moclair",
+      "player:conor-geraghty-fohenagh",
+      "player:damien-obeirne-fohenagh",
+      "player:thomas-bleahene-fohenagh",
+      "player:tony-kirwan-fohenagh",
+      "player:damien-poland-fohenagh",
+      "player:padraic-leonard",
+      "player:eric-lally-fohenagh",
+      "player:niall-leonard",
+      "player:damien-glynn-fohenagh",
+      "player:alan-madden",
+      "player:cathal-farragher-fohenagh",
+      "player:peter-madden-fohenagh",
+      "player:noel-higgins-ahascragh-fohenagh",
+      "player:john-madden-fohenagh",
+      "player:mark-leonard-fohenagh",
+      "player:paul-kennedy-fohenagh",
+      "player:john-devine"
+    ],
+    "matchTags": [],
+    "excerpt": "back row Paul Leonard, Paul O'Beirne, Sean Moclair, Conor Geraghty, Michael Kelly, Damien O'Beirne, Thomas Bleahene, Tony Kirwan, Michael Glynn, Damien Poland, Padraic Leonard, Eric Lally; front row Niall Leonard, Damien Glynn, Alan Madden, Cathal Farragher, Peter Madden, Noel Higgins, John Madden, Mark Leonard, Paul Kennedy, John Devine. (Michael Glynn and Michael Kelly not tagged: more than one possible id.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "154"
+  },
+  {
+    "id": "art-book-fohenagh-p154-1990-underage-b",
+    "kind": "image",
+    "filename": "p154-1990-underage-b.png",
+    "path": "/uploads/book/fohenagh-history/p154-1990-underage-b.png",
+    "publicUrl": "/uploads/book/fohenagh-history/p154-1990-underage-b.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "1990 underage team B — Fohenagh",
+    "year": "1990",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "book",
+      "photo",
+      "team",
+      "underage"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:francis-devine-fohenagh",
+      "player:karl-mitchell-fohenagh",
+      "player:martin-curley-fohenagh",
+      "player:enda-oconnell-fohenagh",
+      "player:richard-donelan-fohenagh",
+      "player:raymond-higgins-fohenagh",
+      "player:patrick-sweeney-fohenagh",
+      "player:garry-mitchell-fohenagh",
+      "player:phelim-oconnell-ahascragh-fohenagh",
+      "player:david-noone-ahascragh-fohenagh",
+      "player:cathal-lohan",
+      "player:niall-devine-fohenagh",
+      "player:ollie-deeley",
+      "player:colm-kennedy-fohenagh",
+      "player:owen-lynskey-ahascragh-fohenagh",
+      "player:fergus-lyons-fohenagh",
+      "player:david-faulkner-fohenagh",
+      "player:john-donelan-fohenagh",
+      "player:brian-lynskey-fohenagh",
+      "player:cyril-glennon-fohenagh",
+      "player:mark-carrick-fohenagh",
+      "player:jonathan-molloy-fohenagh",
+      "player:peter-lally-fohenagh",
+      "player:shane-glennon-fohenagh",
+      "player:shane-costello-fohenagh",
+      "player:alan-moclair-ahascragh-fohenagh",
+      "player:philip-lohan",
+      "player:brendan-noone-fohenagh",
+      "player:cormac-lyons-fohenagh",
+      "player:keith-murphy-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "front Francis Devine, Karl Mitchell, Martin Curley, Enda O'Connell, Richard Donelan, Raymond Higgins (capt.), Patrick Sweeney, Michael Glynn, Gary Mitchell; 2nd row Phelim O'Connell, David Noone, Cathal Lohan, Niall Devine, Oliver Deeley, Colm Kennedy, Owen Lynskey, Fergus Lyons, David Faulkner, John Donelan, Brian Lynskey, Cyril Glennon; 3rd row Mark Carrick, Jonathan Molloy, Peter Lally, Shane Glennon, Shane Costello, Alan Moclair, Philip Lohan, Brendan Noone, Cormac Lyons, Keith Murphy. (Michael Glynn and Michael Kelly not tagged: more than one possible id.)",
+    "citeChip": "A History of Fohenagh (Tony O'Gorman) · ch.17 · p.154",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From A History of Fohenagh by Tony O'Gorman",
+    "bookPage": "154"
+  },
+  {
+    "id": "art-feature-ctt-2021-01-29-fohenagh-1959",
+    "kind": "image",
+    "filename": "feature-ctt-2021-01-29-p82-web.jpg",
+    "path": "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+    "publicUrl": "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+    "pageImage": "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+    "pageImages": [
+      "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p82-web.jpg",
+      "/uploads/book/fohenagh-history/feature-ctt-2021-01-29-p83-web.jpg"
+    ],
+    "uploadedAt": "2026-10-10T09:10:00.000000+00:00",
+    "caption": "Fohenagh's fairytale",
+    "year": "2021",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "feature"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-ogorman"
+    ],
+    "matchTags": [],
+    "excerpt": "Stephen Glennon on the Fohenagh senior hurlers of 1959 and 1960. Connacht Tribune, Friday 29 January 2021, pages 82 and 83. The 1960 Fohenagh team which claimed back-to-back Galway senior hurling titles. Front row (left to right): Tommie Glynn, Frank Glynn, Marty Glynn, Jim Sweeney, Anthony O'Gorman (captain), Jimmy Moclair, Michael Lally, John Sweeney, Albe Glynn, PJ Lally.",
+    "citeChip": "Connacht Tribune · 29 Jan 2021 · pp.82–83 · Stephen Glennon",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20210129.1.82",
+    "status": "pending",
+    "inaMedia": true,
+    "featuredLink": true,
+    "author": "Stephen Glennon",
+    "credit": "Connacht Tribune, courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT20210129.1.82"
+  },
+  {
+    "id": "art-book-fohenagh-clip01-1993-schools",
+    "kind": "image",
+    "filename": "clip01-1993-galway-vocational-schools-panel.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The victorious 1993 Galway Vocational Schools panel",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "The victorious 1993 Galway Vocational Schools panel",
+    "citeChip": "1993",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip02-programme",
+    "kind": "image",
+    "filename": "clip02-galway-programme-seamus-mockler.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Galway matchday programme",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Galway matchday programme",
+    "citeChip": "DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Matchday programme from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip03-suspended",
+    "kind": "image",
+    "filename": "clip03-four-hurlers-suspended.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Four Hurlers Suspended",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Four Hurlers Suspended",
+    "citeChip": "1956",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip04-terrible",
+    "kind": "image",
+    "filename": "clip04-terrible-and-frightening.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Terrible and Frightening",
+    "year": "1956",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Terrible and Frightening",
+    "citeChip": "Tuam Herald · 6 Oct 1956 · p.5",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip05-kiltormer",
+    "kind": "image",
+    "filename": "clip05-sundays-gaa-fixtures-kiltormer.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Sunday's G.A.A. Fixtures",
+    "year": "1956",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Sunday's G.A.A. Fixtures",
+    "citeChip": "14 Jul 1956",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip06-big-win",
+    "kind": "image",
+    "filename": "clip06-fohenaghs-big-win.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh's Big Win",
+    "year": "1962",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Fohenagh's Big Win",
+    "citeChip": "Connacht Tribune · 17 Mar 1962 · p.14",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip07-tipperary",
+    "kind": "image",
+    "filename": "clip07-galway-team-to-meet-tipperary.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The Galway Team to Meet Tipperary",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-ogorman",
+      "player:pj-lally-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:jim-moclair-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "The Galway Team to Meet Tipperary",
+    "citeChip": "Connacht Tribune · 15 Oct 1960 · p.30",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip08-turlough",
+    "kind": "image",
+    "filename": "clip08-fohenagh-pip-turlough.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh Pip Turlough",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Fohenagh Pip Turlough",
+    "citeChip": "Connacht Tribune · 26 Mar 1960 · p.14",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-book-fohenagh-clip09-menace",
+    "kind": "image",
+    "filename": "clip09-constant-menace.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Constant Menace",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [],
+    "excerpt": "Constant Menace",
+    "citeChip": "Tuam Herald · 3 Sep 1960 · p.1",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection"
+  },
+  {
+    "id": "art-clip-glc-01-1993-galway-vocational-schools-panel",
+    "kind": "image",
+    "filename": "clip01-1993-galway-vocational-schools-panel.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip01-1993-galway-vocational-schools-panel.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The victorious 1993 Galway Vocational Schools panel",
+    "year": 1993,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "photo",
+      "team",
+      "vocational-schools"
+    ],
+    "clubTags": [],
+    "playerTags": [
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Team photo printed with the caption 'The victorious 1993 Galway Vocational Schools panel'. Séamus Moclair was on that All-Ireland-winning panel (Connacht Tribune 14 May 1993); the caption does not name players.",
+    "citeChip": "From Garry Lohan's collection · DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "From Garry Lohan's collection",
+    "dateTbd": true,
+    "dateNote": "Year from the printed caption; paper/date not found."
+  },
+  {
+    "id": "art-clip-glc-02-galway-programme-seamus-mockler",
+    "kind": "image",
+    "filename": "clip02-galway-programme-seamus-mockler.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip02-galway-programme-seamus-mockler.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Gaillimh: matchday programme team page, no. 4 Séamus Mockler (Mountbellew)",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "programme",
+      "vocational-schools"
+    ],
+    "clubTags": [],
+    "playerTags": [
+      "player:seamus-moclair"
+    ],
+    "matchTags": [],
+    "excerpt": "Galway team page from a matchday programme (Dathanna: Marún is Bán). No. 4 is printed as S. Móicléir / Séamus Mockler, Mountbellew. The other players are listed by school or club towns such as Athenry, Loughrea, Gort, New Inn and Moneenageisha, so this looks like a Vocational Schools programme. Opponent and year are not shown.",
+    "citeChip": "Matchday programme from Garry Lohan's collection · DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Matchday programme from Garry Lohan's collection",
+    "dateTbd": true
+  },
+  {
+    "id": "art-clip-glc-03-four-hurlers-suspended",
+    "kind": "image",
+    "filename": "clip03-four-hurlers-suspended.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip03-four-hurlers-suspended.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Four Hurlers Suspended",
+    "year": "DATE_TBD",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:pj-killalea-fohenagh",
+      "player:john-sweeney-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "The East Galway Board's verdict after the Fohenagh v Tynagh junior semi-final at Kiltormer on July 15th: James Killeen (Tynagh) got six months; Michael Killeen (Tynagh), P. J. Killilea and John Sweeney (Fohenagh) got two months.",
+    "citeChip": "Newspaper clipping from Garry Lohan's collection · DATE_TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": true,
+    "dateNote": "No date on the clip and the headline isn't in INA. Related: CTT 6 Oct 1956 p.14, TTH 6 Oct 1956 p.5, Westmeath Independent 8 Sep 1956 p.1 (disqualification reports, not this clip)."
+  },
+  {
+    "id": "art-clip-glc-04-terrible-and-frightening",
+    "kind": "image",
+    "filename": "clip04-terrible-and-frightening.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip04-terrible-and-frightening.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "\"Terrible and Frightening\": report on the Kiltormer game",
+    "year": 1956,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "board"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "Part of a report on the trouble: five men were brought to hospital, three of them from Tynagh, and one was kept in Portiuncula. The incidents were described as 'terrible and frightening' for those who saw them.",
+    "citeChip": "Tuam Herald · 6 Oct 1956 · p.5 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19561006.1.5",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "The clip's subhead 'Terrible and Frightening' and its wording ('both of them were strong men') match the TTH p.5 snippet.",
+    "alsoReported": "Same incident: Connacht Tribune 6 Oct 1956 p.28 (https://irishnewsarchive.com/?a=d&d=CTT19561006.1.28)"
+  },
+  {
+    "id": "art-clip-glc-05-sundays-gaa-fixtures-kiltormer",
+    "kind": "image",
+    "filename": "clip05-sundays-gaa-fixtures-kiltormer.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip05-sundays-gaa-fixtures-kiltormer.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Sunday's G.A.A. Fixtures: Tynagh v Fohenagh at Kiltormer",
+    "year": 1956,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "fixture"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [],
+    "matchTags": [
+      "match:fohenagh-tynagh-junior-abandoned-1956"
+    ],
+    "excerpt": "Fixture notice: at Kiltormer, Junior A hurling semi-final, Tynagh v Fohenagh, 3 p.m. (referee W. Creaven).",
+    "citeChip": "Fixture list · 14 Jul 1956 (date inferred) · paper TBD",
+    "sourceUrl": "",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "No INA hit; the date is inferred from the match on Sunday 15 July 1956.",
+    "dateInferred": true
+  },
+  {
+    "id": "art-clip-glc-06-fohenaghs-big-win",
+    "kind": "image",
+    "filename": "clip06-fohenaghs-big-win.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip06-fohenaghs-big-win.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh's Big Win: Fohenagh 6-7, Ballinasloe 1-3",
+    "year": 1962,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-ballinasloe-senior-league-r3-clip"
+    ],
+    "excerpt": "County Senior League, round three, at Fohenagh: the fitter, more experienced home side won 6-7 to 1-3. Moclair and Moylette were outstanding at the back; T. Sweeney and F. Glynn were among the scorers.",
+    "citeChip": "Connacht Tribune · 17 Mar 1962 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19620317.1.14",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "Exact headline is the only archive hit.",
+    "alsoReported": "Fixture: Connacht Tribune 10 Mar 1962 p.14 (https://irishnewsarchive.com/?a=d&d=CTT19620310.1.14)"
+  },
+  {
+    "id": "art-clip-glc-07-galway-team-to-meet-tipperary",
+    "kind": "image",
+    "filename": "clip07-galway-team-to-meet-tipperary.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip07-galway-team-to-meet-tipperary.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "The Galway team to meet Tipperary (1960): six Fohenagh men picked",
+    "year": 1960,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper",
+      "county",
+      "featured"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-ogorman",
+      "player:pj-lally-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:jim-moclair-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "The Galway County Board picked its team for the National League game against Tipperary on October 30th, and six Fohenagh men were on it: T. O'Gorman, P.J. Lally, T. Sweeney, J. Sweeney, F. Glynn and J. Moclair.",
+    "citeChip": "Connacht Tribune · 15 Oct 1960 · p.30 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19601015.1.30",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "The clip's list (S. Carr, T. O'Gorman, E. Derivan ... J. Sweeney, F. Glynn; Sub. J. Hegarty) matches CTT 15 Oct 1960 p.30 word for word, and L. Gardiner is in both. The 1959 KIP lineup (P. Fahy, T. Conway, J. Cahalan, M. Sweeney ...) is a different team.",
+    "alsoReported": "Headline/Gardiner note: Connacht Tribune 15 Oct 1960 p.14 (https://irishnewsarchive.com/?a=d&d=CTT19601015.1.14)"
+  },
+  {
+    "id": "art-clip-glc-08-fohenagh-pip-turlough",
+    "kind": "image",
+    "filename": "clip08-fohenagh-pip-turlough.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip08-fohenagh-pip-turlough.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "Fohenagh pip Turlough: 5-4 to 5-3",
+    "year": 1960,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:mick-moylette-fohenagh"
+    ],
+    "matchTags": [
+      "match:fohenagh-turloughmore-st-patricks-day-tournament-final-clip"
+    ],
+    "excerpt": "St Patrick's Day tournament final at Fohenagh, won by one point. T. Sweeney, J. Mockler and minor star M. Moylette were Fohenagh's best.",
+    "citeChip": "Connacht Tribune · 26 Mar 1960 · p.14 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19600326.1.14",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "Exact headline is the only archive hit; 27 March 1960 was a Sunday, which fits the Ardrahan semi-finals on the same page."
+  },
+  {
+    "id": "art-clip-glc-09-constant-menace",
+    "kind": "image",
+    "filename": "clip09-constant-menace.png",
+    "path": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "publicUrl": "/uploads/book/fohenagh-history/clips/clip09-constant-menace.png",
+    "uploadedAt": "2026-10-10T09:00:00.000000+00:00",
+    "caption": "\"Constant Menace\": 1960 county final report, Fohenagh 4-9 Castlegar 2-7",
+    "year": 1960,
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "clipping",
+      "newspaper"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:pj-lally-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:marty-glynn-fohenagh",
+      "player:john-sweeney-fohenagh",
+      "player:tony-ogorman",
+      "player:tim-sweeney-fohenagh",
+      "player:jim-sweeney"
+    ],
+    "matchTags": [
+      "match:fohenagh-historic-1960-galway-shc-final"
+    ],
+    "excerpt": "From a report on a game against Castlegar (which game is not shown). Murray's long drives were a constant menace to the Castlegar backs. Pat Joe Lally, Jim Moclair and Marty Glynn formed a strong half-back line, John Sweeney was a great full-back until he went off, Tony O'Gorman was 'coolness personified', and Tim Sweeney and Jim Sweeney were tightly marked. He proved a capable captain last Sunday in the wonderful way he marshalled his men.",
+    "citeChip": "Tuam Herald · 3 Sep 1960 · p.1 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19600903.1.1",
+    "status": "pending",
+    "bookMedia": true,
+    "credit": "Newspaper clipping from Garry Lohan's collection",
+    "dateTbd": false,
+    "matchNote": "The TTH snippet ('Possessing a great positional sense, Murray ... constant menace to the Castlegar backs ... Pat Joe Lally, although he got a knock early on; Jim') is the clip's own text.",
+    "alsoReported": "Same final: Connacht Tribune 3 Sep 1960 p.14 (https://irishnewsarchive.com/?a=d&d=CTT19600903.1.14)"
+  },
+  {
+    "id": "art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal",
+    "kind": "image",
+    "filename": "art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 23 Oct 1993: Tony Kirwan, first Fohenagh All-Ireland hurling medal",
+    "year": "1993",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report",
+      "all-ireland"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tony-kirwan"
+    ],
+    "excerpt": "Tony Kirwan of Fohenagh came on for Liam Turley in Galway's seven-point National Hurling League win over Wexford at Kenny Park and scored a point. The report calls him the first Fohenagh man to win an All-Ireland hurling medal in any grade.",
+    "citeChip": "Tuam Herald · 23 Oct 1993 · p.20 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19931023.1.20",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19931023.1.20",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1993-10-23-tony-kirwan-first-all-ireland-medal.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1993-10-23-p20.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions",
+    "kind": "image",
+    "filename": "art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 8 Dec 1995: Fohenagh under-16 hurlers, Galway champions",
+    "year": "1995",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "u16",
+      "team-photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:cyril-glennon-fohenagh",
+      "player:shane-glennon-fohenagh",
+      "player:fergus-lyons-fohenagh",
+      "player:martin-curley-fohenagh",
+      "player:brian-lynskey-fohenagh",
+      "player:peter-lally-fohenagh",
+      "player:francis-devine-fohenagh",
+      "player:brendan-noone-fohenagh",
+      "player:niall-devine-fohenagh",
+      "player:cathal-lohan",
+      "player:ollie-deeley",
+      "player:karl-mitchell-fohenagh",
+      "player:colm-kennedy-fohenagh",
+      "player:patrick-sweeney-fohenagh",
+      "player:brendan-geraghty-fohenagh"
+    ],
+    "excerpt": "Team photograph of the Fohenagh under-16 hurlers after they took the Galway title. The caption names Cyril and Shane Glennon, Oliver Deeley, Brendan Noone, Cathal Lohan, Colm Kennedy and the rest of the panel. The print spells one name Carl Mitchell.",
+    "citeChip": "Connacht Tribune · 8 Dec 1995 · p.8 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19951208.1.8",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19951208.1.8",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1995-12-08-fohenagh-u16-galway-champions.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1995-12-08-p8.jpg",
+    "inaClass": "PHOTO"
+  },
+  {
+    "id": "art-ina-tth-1998-05-02-st-cuans-panel-fohenagh",
+    "kind": "image",
+    "filename": "art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 2 May 1998: St Cuan's panel, Cathal Lohan and Colm Kennedy",
+    "year": "1998",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "colleges",
+      "all-ireland",
+      "team-photo"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:colm-kennedy-fohenagh",
+      "player:cathal-lohan",
+      "player:brian-lynskey-fohenagh",
+      "player:owen-lynskey-ahascragh-fohenagh",
+      "player:brendan-geraghty-fohenagh"
+    ],
+    "excerpt": "St Cuan's, Castleblakeney, photographed at the school before the All-Ireland Colleges Senior B hurling final against Portlaoise CBS. Fohenagh on the panel: Colm Kennedy, Cathal Lohan, Brian Lynskey, Owen Lynskey and Brendan Geraghty. The caption says they have already won the Connacht Cup. The page does not print the final result.",
+    "citeChip": "Tuam Herald · 2 May 1998 · p.24 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19980502.1.24",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19980502.1.24",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1998-05-02-st-cuans-panel-fohenagh.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1998-05-02-p24.jpg",
+    "inaClass": "PHOTO"
+  },
+  {
+    "id": "art-ina-ctt-1963-08-17-burke-sweeney-county-final",
+    "kind": "image",
+    "filename": "art-ina-ctt-1963-08-17-burke-sweeney-county-final.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-17-burke-sweeney-county-final.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-17-burke-sweeney-county-final.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 17 Aug 1963: Packie Burke and Jim Sweeney in the county final",
+    "year": "1963",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "team-photo",
+      "county-final",
+      "jim-sweeney",
+      "action"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:jim-sweeney",
+      "player:packie-burke-turloughmore",
+      "player:bobby-madden-fohenagh"
+    ],
+    "excerpt": "Action from the Galway senior hurling final at Pearse Stadium. Packie Burke, Turloughmore's full-back, covers Bobby Madden, with Jim Sweeney, Fohenagh's full-forward, close by.",
+    "citeChip": "Connacht Tribune · 17 Aug 1963 · p.31 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31",
+    "status": "pending",
+    "matchTags": [
+      "match:fohenagh-historic-1963-galway-shc-final"
+    ],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630817.1.31",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1963-08-17-burke-sweeney-county-final.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1963-08-17-p31.jpg",
+    "inaClass": "PHOTO"
+  },
+  {
+    "id": "art-ina-ctt-1963-08-03-sweeny-twelve-points",
+    "kind": "image",
+    "filename": "art-ina-ctt-1963-08-03-sweeny-twelve-points.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-03-sweeny-twelve-points.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-ctt-1963-08-03-sweeny-twelve-points.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Connacht Tribune 3 Aug 1963: Sweeny scores 12 points as Fohenagh reach the county final",
+    "year": "1963",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh",
+      "player:frank-madden",
+      "player:tom-moylette-fohenagh",
+      "player:paddy-killilea-fohenagh",
+      "player:mick-moylette-fohenagh",
+      "player:jim-sweeney",
+      "player:jim-moclair-fohenagh",
+      "player:f-moylett-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:albie-glynn-fohenagh",
+      "player:sean-carrick-fohenagh"
+    ],
+    "excerpt": "Fohenagh once again had the man of the match in Tim Sweeney who played himself to a standstill at right half-forward. His accurate shooting from play and from frees was a treat to watch. He scored six points in succession during the second half.",
+    "citeChip": "Connacht Tribune · 3 Aug 1963 · p.30 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630803.1.30",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19630803.1.30",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-ctt-1963-08-03-sweeny-twelve-points.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/ctt-1963-08-03-p30.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "id": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc",
+    "kind": "image",
+    "filename": "art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.png",
+    "path": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.png",
+    "publicUrl": "/uploads/ina/fohenagh-1930-55/clippings/art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.png",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "INA snip — Tuam Herald 15 Oct 1960: Kilconly 2-8, Fohenagh 0-4 in the junior football semi-final",
+    "year": "1960",
+    "tags": [
+      "football",
+      "fohenagh",
+      "ina",
+      "match-report"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:m-moclair-fohenagh",
+      "player:j-bleaheen-fohenagh",
+      "player:mick-coen-fohenagh",
+      "player:vincent-coughlan-fohenagh",
+      "player:tommy-glynn-fohenagh",
+      "player:jim-moclair-fohenagh",
+      "player:tim-sweeney-fohenagh",
+      "player:frank-glynn-fohenagh",
+      "player:k-donnelly-fohenagh",
+      "player:gerry-kelly-fohenagh",
+      "player:liam-manning-fohenagh",
+      "player:jim-sweeney",
+      "player:frank-madden",
+      "player:j-kelly-fohenagh",
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Kilconly beat Fohenagh 2-8 to 0-4 in the junior football semi-final at Mountbellew. The report names Liam Manning, J. Sweeney, Gerry Kelly, Frank Madden, Tim Sweeney, Jim Moclair and Tom Glynn.",
+    "citeChip": "Tuam Herald · 15 Oct 1960 · p.8 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19601015.1.8",
+    "status": "pending",
+    "matchTags": [],
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19601015.1.8",
+    "privateTextPath": "/uploads/ina/fohenagh-1930-55/texts/art-ina-tth-1960-10-15-kilconly-fohenagh-jfc.md",
+    "pageImage": "/uploads/ina/fohenagh-1930-55/pages/tth-1960-10-15-p8.jpg",
+    "inaClass": "MATCH REPORT"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T13:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ctb-1990-03-30-eric-lally-midfield",
+    "caption": "Galway City Tribune — Eric Lally named at midfield, Mountbellew V.S. and Fohenagh",
+    "year": "1990",
+    "playerTags": [
+      "player:eric-lally-fohenagh"
+    ],
+    "excerpt": "midfielders Eric Lally (Mountbellew V.S. plus Fohenagh)",
+    "citeChip": "Galway City Tribune · 30 Mar 1990 · p.18 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTB19900330.1.18",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTB19900330.1.18"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T13:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-tth-1995-12-09-raymond-higgins-captain",
+    "caption": "Tuam Herald — Raymond Higgins captained the schools cup winners",
+    "year": "1995",
+    "playerTags": [
+      "player:raymond-higgins-fohenagh"
+    ],
+    "excerpt": "their great win over New Inn V.S. in the final of the Itegan Cup. The team was captained by Raymond Higgins and was backboned by players from Ahascragh, Fohenagh and Padraig Pearse's clubs.",
+    "citeChip": "Tuam Herald · 9 Dec 1995 · p.23 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19951209.1.23",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19951209.1.23"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T13:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-1996-05-31-raymond-higgins-vocational",
+    "caption": "Connacht Tribune — Raymond Higgins led the vocational schools senior hurlers",
+    "year": "1996",
+    "playerTags": [
+      "player:raymond-higgins-fohenagh"
+    ],
+    "excerpt": "The hurlers were led by Raymond Higgins (Fohenagh)",
+    "citeChip": "Connacht Tribune · 31 May 1996 · p.5 · vocational title · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960531.1.5",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19960531.1.5"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T13:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-tth-1996-12-07-alan-madden-free",
+    "caption": "Tuam Herald — Alan Madden opens the scoring from a free",
+    "year": "1996",
+    "playerTags": [
+      "player:alan-madden"
+    ],
+    "excerpt": "Fohenagh got the first score, a point off a free by Alan Madden",
+    "citeChip": "Tuam Herald · 7 Dec 1996 · p.19 · opening score · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19961207.1.19",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19961207.1.19"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T13:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-2005-02-25-jason-lohan-midfield",
+    "caption": "Connacht Tribune — Jason Lohan did some great work at midfield",
+    "year": "2005",
+    "playerTags": [
+      "player:jason-lohan"
+    ],
+    "excerpt": "Jason Lohan did some great work at midfield",
+    "citeChip": "Connacht Tribune · 25 Feb 2005 · p.14 · midfield display · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20050225.1.14",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT20050225.1.14"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T14:30:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-tth-1996-04-13-fohenagh-ahascragh-open-draw",
+    "caption": "Tuam Herald — Fohenagh beat Ahascragh in the Junior A open draw",
+    "year": "1996",
+    "playerTags": [
+      "player:john-devine",
+      "player:alan-madden",
+      "player:noel-higgins-ahascragh-fohenagh"
+    ],
+    "excerpt": "Fohenagh came out on top by 2-5 to 1-4. Best for Fohenagh were Noel Higgins, Padraig Leonard, John Devine, John Blehean, Alan Mockler (2-0), Alan Madden (0-4)",
+    "citeChip": "Tuam Herald · 13 Apr 1996 · p.17 · county junior · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19960413.1.17",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19960413.1.17"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T14:30:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ctb-1994-02-11-tony-kirwan-senior-spurs",
+    "caption": "Galway City Tribune — Tony Kirwan billed for senior league duty at Nenagh",
+    "year": "1994",
+    "playerTags": [
+      "player:tony-kirwan-fohenagh"
+    ],
+    "excerpt": "FOHENAGH'S Tony Kirwan wins his inter-county senior spurs",
+    "citeChip": "Galway City Tribune · 11 Feb 1994 · p.17 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTB19940211.1.17",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTB19940211.1.17"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T14:30:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-tth-1996-06-01-raymond-higgins-vocational",
+    "caption": "Tuam Herald — Raymond Higgins led the vocational schools hurlers",
+    "year": "1996",
+    "playerTags": [
+      "player:raymond-higgins-fohenagh"
+    ],
+    "excerpt": "The hurlers were led by Raymond Higgins, Fohenagh",
+    "citeChip": "Tuam Herald · 1 Jun 1996 · p.11 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19960601.1.11",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19960601.1.11"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T14:30:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-tth-1999-12-04-jason-lohan-points",
+    "caption": "Tuam Herald — Jason Lohan among the point-scorers",
+    "year": "1999",
+    "playerTags": [
+      "player:jason-lohan"
+    ],
+    "excerpt": "a succession of excellent points from Micheal Reynolds, Jason Lohan, Marcus Devine",
+    "citeChip": "Tuam Herald · 4 Dec 1999 · p.39 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH19991204.1.39",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH19991204.1.39"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T14:30:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-2012-11-09-jason-lohan-possession",
+    "caption": "Connacht Tribune — Jason Lohan battles for possession",
+    "year": "2012",
+    "playerTags": [
+      "player:jason-lohan"
+    ],
+    "excerpt": "Keith Kennedy, Killimordaly, and Jason Lohan, Ahascragh Fohenagh battle for possession",
+    "citeChip": "Connacht Tribune · 9 Nov 2012 · p.55 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20121109.1.55",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT20121109.1.55"
+  },
+  {
+    "id": "art-ina-tth-2024-11-20-sarah-noone-connacht-title",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "Tuam Herald — Sarah Noone fires five points as her side win the Fr Vincent Lawless Cup",
+    "year": "2024",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:sarah-noone-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Ahascragh-Caltra 0-11 Oran 1-5 By Ivan Smyth At Fohenagh AHASCRAGH-CALTRA added to their memorable 2024 as they overcame Oran to claim the Fr. Vincent Lawless Cup Connacht Intermediate Camogie Championship title. Sarah Noone produced a ferocious second half display as she fired over five successive points to help ...... We are heading to an All-Ire",
+    "citeChip": "Tuam Herald · 20 Nov 2024 · p.56 · Lawless intermediate · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20241120.1.56",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH20241120.1.56"
+  },
+  {
+    "id": "art-ina-ct-2024-11-29-sarah-noone-senior-final",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "Connacht Tribune — Sarah Noone started an All-Ireland senior final for Galway against Cork",
+    "year": "2024",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:sarah-noone-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Sarah Noone is a survivor from 16 years ago, a year she also started an All-Ireland senior final for Galway against Cork. And the joint captain won AllIreland intermediate honours at Croke Park in ...",
+    "citeChip": "Connacht Tribune · 29 Nov 2024 · p.112 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT20241129.1.112",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT20241129.1.112"
+  },
+  {
+    "id": "art-ina-tth-2025-01-22-sarah-noone-team-of-the-year",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:30:00.000000+00:00",
+    "caption": "Tuam Herald — Sarah Noone named among Galway Intermediate Team of the Year nominations",
+    "year": "2025",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:sarah-noone-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "the Ahascragh-Caltra Camogie Team who won Nominations to the Galway Intermediate Team of the year: Aoibheann Fitzpatrick, Helen Cullinane, Sarah Noone, Denise Kelly and Aoibhe Glynn.",
+    "citeChip": "Tuam Herald · 22 Jan 2025 · p.22 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20250122.1.22",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH20250122.1.22"
+  },
+  {
+    "id": "art-ina-ct-1973-09-07-tim-sweeney-former-captain",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:40:00.000000+00:00",
+    "caption": "Connacht Tribune — Tim Sweeney, a former captain of the county senior hurling team",
+    "year": "1973",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "nephew of Mr. Tim Sweeney, Fohenagh, a former captain of the County senior hurling team.",
+    "citeChip": "Connacht Tribune · 7 Sep 1973 · p.6 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19730907.1.6",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19730907.1.6"
+  },
+  {
+    "id": "art-ina-ct-1960-11-26-sweeney-brothers",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:40:00.000000+00:00",
+    "caption": "Connacht Tribune — Tim, John and Jim Sweeney, senior county hurlers",
+    "year": "1960",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "father of Mr. Tim Sweeney, captain of the Galway senior hurling team and Messrs. John and Jim Sweeney, also senior County hurlers.",
+    "citeChip": "Connacht Tribune · 26 Nov 1960 · p.7 · senior brothers · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19601126.1.7",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19601126.1.7"
+  },
+  {
+    "id": "art-ina-tth-2024-12-11-sarah-noone-player-of-the-match",
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T12:40:00.000000+00:00",
+    "caption": "Tuam Herald — Sarah Noone, player of the match in the Connacht decider",
+    "year": "2024",
+    "tags": [
+      "camogie",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "playerTags": [
+      "player:sarah-noone-fohenagh"
+    ],
+    "matchTags": [],
+    "excerpt": "Joint captain Sarah Noone achieved All-Ireland success in Croke Park before and has been the main driving force for Ahas-cragh-Caltra’s revival. “It’s an absolutely amazing feeling,” says the centre-back from Fohenagh who was player of the match in the Connacht decider against",
+    "citeChip": "Tuam Herald · 11 Dec 2024 · p.67 · player match · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20241211.1.67",
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH20241211.1.67"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T15:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-1996-10-18-deeley-lohan-starring",
+    "caption": "Connacht Tribune — Oliver Deeley and Cathal Lohan starring",
+    "year": "1996",
+    "playerTags": [
+      "player:ollie-deeley",
+      "player:cathal-lohan"
+    ],
+    "excerpt": "starring with the side are Oliver Deeley, Pallas, Fohenagh, and Cathal Lohan, Fohenagh",
+    "citeChip": "Connacht Tribune · 18 Oct 1996 · p.4 · starring pallas · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19961018.1.4",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19961018.1.4"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T15:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-1957-08-24-tim-sweeney-impress",
+    "caption": "Connacht Tribune — Tim Sweeney among those to impress",
+    "year": "1957",
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "others to impress were Tim Sweeney (Fohenagh)",
+    "citeChip": "Connacht Tribune · 24 Aug 1957 · p.26 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19570824.1.26",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19570824.1.26"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T15:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-tth-2005-09-08-tim-sweeney-1955-all-ireland",
+    "caption": "Tuam Herald — Tim Sweeney with the 1955 All-Ireland team",
+    "year": "2005",
+    "playerTags": [
+      "player:tim-sweeney-fohenagh"
+    ],
+    "excerpt": "THE Galway team which lost to Wexford in the 1955 All-Ireland final. Standing, from left: Tim Sweeney (Fohenagh)",
+    "citeChip": "Tuam Herald · 8 Sep 2005 · p.9 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=TTH20050908.1.9",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=TTH20050908.1.9"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T15:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-1961-01-28-tony-ogorman-hurls",
+    "caption": "Connacht Tribune — Tony O'Gorman hurls with Fohenagh",
+    "year": "1961",
+    "playerTags": [
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Tony O'Gorman. who hurls with Fohenagh",
+    "citeChip": "Connacht Tribune · 28 Jan 1961 · p.7 · parish hurler · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19610128.1.7",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19610128.1.7"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T15:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-1961-05-27-tony-ogorman-fitzgibbon",
+    "caption": "Connacht Tribune — Tony O'Gorman starred in the Fitzgibbon Cup",
+    "year": "1961",
+    "playerTags": [
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Tony O'Gorman, Fohenagh, who starred in the Fitz gibbon Cup",
+    "citeChip": "Connacht Tribune · 27 May 1961 · p.14 · fitzgibbon games · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19610527.1.14",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19610527.1.14"
+  },
+  {
+    "kind": "text",
+    "filename": "",
+    "path": "",
+    "publicUrl": "",
+    "uploadedAt": "2026-10-10T15:00:00.000000+00:00",
+    "tags": [
+      "hurling",
+      "fohenagh",
+      "ina"
+    ],
+    "clubTags": [
+      "club:fohenagh-historic"
+    ],
+    "matchTags": [],
+    "status": "pending",
+    "inaMedia": true,
+    "credit": "Courtesy of Irish Newspaper Archives",
+    "id": "art-ina-ct-1984-08-17-fohenagh-jersey-distinction",
+    "caption": "Connacht Tribune — Tony O'Gorman and the Fohenagh jersey",
+    "year": "1984",
+    "playerTags": [
+      "player:tony-ogorman"
+    ],
+    "excerpt": "Tony O'Gorman, Frank Madden and players like them graced the hurling scene and wore the Fohenagh jersey with pride and distinction",
+    "citeChip": "Connacht Tribune · 17 Aug 1984 · p.27 · INA",
+    "sourceUrl": "https://irishnewsarchive.com/?a=d&d=CTT19840817.1.27",
+    "creditUrl": "https://irishnewsarchive.com/?a=d&d=CTT19840817.1.27"
   }
 ]
