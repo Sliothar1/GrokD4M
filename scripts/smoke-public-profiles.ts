@@ -142,6 +142,16 @@ async function main() {
   assert.match(endaText, /John Devine/);
   assert.match(endaText, /Killure and Kilgerrill/);
 
+  const brendan = profileForPlayer(
+    ctx,
+    "player:brendan-noone-fohenagh",
+    A.entityAttrs("player:brendan-noone-fohenagh")
+  );
+  const brendanText = publicProfileText(brendan);
+  assert.equal(brendan.headline, "Named with the Fohenagh Minor C champions, 1996");
+  assert.match(brendan.summary ?? "", /1990 underage team photograph/);
+  assert.doesNotMatch(brendanText, /substitut|\bsub\b|\bpanel\b|died|death|passed away|rising star/i);
+
   const otherClub = profileForPlayer(ctx, "player:pat-example", {
     type: "player",
     name: "Pat Example",

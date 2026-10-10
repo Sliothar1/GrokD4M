@@ -527,6 +527,15 @@ export function profileForPlayer(
     );
   }
 
+  let publicHeadline = headline;
+  let publicEra = eraLine;
+  if (id === "player:brendan-noone-fohenagh") {
+    publicHeadline = "Named with the Fohenagh Minor C champions, 1996";
+    publicEra = "Hurling, 1990s";
+    summary =
+      "Brendan Noone is named with the Fohenagh Minor C champions of 1996. A History of Fohenagh places him in the 1990 underage team photograph.";
+  }
+
   const underage = mentionsUnderage([
     gradesRaw,
     isDisplayableVal(attrs.era) ? String(attrs.era) : null,
@@ -581,8 +590,8 @@ export function profileForPlayer(
   return {
     slug,
     name,
-    headline,
-    eraLine,
+    headline: publicHeadline,
+    eraLine: publicEra,
     summary,
     schoolsLine,
     framing: isFohenagh(attrs, apps, jersey) ? CLUB_FRAMING : null,
