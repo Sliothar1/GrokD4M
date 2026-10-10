@@ -256507,11 +256507,6 @@
   },
   {
     "row": "player:rita-clinton-fohenagh-camogie",
-    "col": "note",
-    "val": "Named as R. Clinton for Fohenagh (Connacht Tribune · 2 Nov 1946 · p.15 · INA). Camogie player; tagged for the camogie lane."
-  },
-  {
-    "row": "player:rita-clinton-fohenagh-camogie",
     "col": "cutting_cite",
     "val": "art-ina-ctt-1946-11-02-caltra-fohenagh-camogie-semi-final"
   },
@@ -258024,11 +258019,6 @@
     "row": "player:p-hopkins-fohenagh-camogie",
     "col": "also_known_as",
     "val": "Pauline Hopkins"
-  },
-  {
-    "row": "player:rita-clinton-fohenagh-camogie",
-    "col": "book_note",
-    "val": "On the team that won the 1947 Galway county camogie final, Fohenagh 3-1, Erin's Hope 3-0, printed as R. Clinton. The book singles out her brilliant play in the final."
   },
   {
     "row": "player:rita-clinton-fohenagh-camogie",
@@ -264003,7 +263993,7 @@
   {
     "row": "player:rita-clinton-fohenagh-camogie",
     "col": "notable",
-    "val": "Rita Clinton was the camogie star ahead of Fohenagh's 1947 meeting with Ballinasloe Mental Hospital (Tuam Herald, 23 August 1947, p.2). Her brilliant individual play won Fohenagh the 1947 Galway senior camogie final against Erin's Hope (Irish Press, 17 November 1947, p.9)."
+    "val": "Rita Clinton was the camogie star ahead of Fohenagh's 1947 meeting with Ballinasloe Mental Hospital (Tuam Herald, 23 August 1947, p.2). The Connacht Tribune of 2 November 1946 named her as R. Clinton for Fohenagh. The Irish Press of 17 November 1947 wrote that the \"brilliant individualism of Rita Clinton and excellent understanding among the forwards\" won Fohenagh the county senior camogie final against Erin's Hope, 3-1 to 3-0."
   },
   {
     "row": "player:rita-clinton-fohenagh-camogie",
@@ -264014,6 +264004,11 @@
     "row": "player:rita-clinton-fohenagh-camogie",
     "col": "source_notable_2",
     "val": "https://irishnewsarchive.com/?a=d&d=IPR19471117.1.9"
+  },
+  {
+    "row": "player:rita-clinton-fohenagh-camogie",
+    "col": "source_notable_3",
+    "val": "art-ina-ipr-1947-11-17-fohenagh-win-galway-senior-camogie-title"
   },
   {
     "row": "player:t-clinton-fohenagh",

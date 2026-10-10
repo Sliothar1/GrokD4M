@@ -507,17 +507,24 @@ function expandCareerStub(sentence: string): string | null {
   return `${person} (${match[2]}–${match[3]}) hurled with ${club} and for ${county} seniors from ${seniorYears}, and was on the ${comp} title sides of ${titleYears} (${source}).`;
 }
 
-function toProseClause(sentence: string): string {
+export type VignettePronoun = "he" | "she";
+
+function subjectPronoun(pronoun: VignettePronoun): "He" | "She" {
+  return pronoun === "she" ? "She" : "He";
+}
+
+function toProseClause(sentence: string, pronoun: VignettePronoun = "he"): string {
   const body = sentence.replace(/[.]+$/g, "").trim();
   if (!body) return "";
+  const subject = subjectPronoun(pronoun);
   if (/^pictured\b/i.test(body)) return finishSentence(body);
   if (/^(mentioned|named|identified|selected)\b/i.test(body)) {
-    return `He was ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
+    return `${subject} was ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
   }
   if (/^(shown|called up)\b/i.test(body)) {
-    return `He is ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
+    return `${subject} is ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
   }
-  if (/^scored\b/i.test(body)) return `He ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
+  if (/^scored\b/i.test(body)) return `${subject} ${body.charAt(0).toLowerCase()}${body.slice(1)}.`;
   return finishSentence(body);
 }
 
@@ -576,7 +583,10 @@ function dedupeSentences(sentences: string[]): string[] {
  * in the order the record gives them. Tim Sweeney's cutting list is
  * the pattern this follows for every player.
  */
-export function composePlayerVignette(parts: string[]): string | null {
+export function composePlayerVignette(
+  parts: string[],
+  pronoun: VignettePronoun = "he"
+): string | null {
   const cleaned = parts.map((part) => part.trim()).filter(Boolean);
   if (cleaned.length === 0) return null;
   const shaped = shapePublicLead(cleaned.join(" "));
@@ -598,7 +608,7 @@ export function composePlayerVignette(parts: string[]): string | null {
     if (isCatalogueSentence(sentence)) {
       const asLead = !seenCatalogue && !items.some((item) => item.kind !== "career");
       seenCatalogue = true;
-      const prose = asLead ? finishSentence(sentence) : toProseClause(sentence);
+      const prose = asLead ? finishSentence(sentence) : toProseClause(sentence, pronoun);
       if (!prose) continue;
       items.push({
         text: prose,

@@ -105,12 +105,44 @@ async function main() {
     );
     const garry = garrySourceLines(profile.name, text);
     assert.deepEqual(garry, [], `${id} cites Garry Lohan\n${garry.join("\n")}`);
+    const camogieProfile =
+      /camogie/i.test(String(attrs.sport ?? "")) ||
+      /camogie/i.test(profile.eraLine ?? "") ||
+      /camogie/i.test(id);
+    if (camogieProfile) {
+      assert.doesNotMatch(text, /\b[Hh]e\b/, `${id} uses He\n${text}`);
+      assert.doesNotMatch(text, /\b[Hh]is\b/, `${id} uses his\n${text}`);
+    }
     assert.equal(
       Object.prototype.hasOwnProperty.call(profile, "verified"),
       true
     );
     assert.doesNotMatch(text, /\bverified\b/i);
   }
+
+  const rita = profileForPlayer(
+    ctx,
+    "player:rita-clinton-fohenagh-camogie",
+    A.entityAttrs("player:rita-clinton-fohenagh-camogie")
+  );
+  const ritaSummary = rita.summary ?? "";
+  assert.match(ritaSummary, /camogie star ahead of Fohenagh's 1947 meeting with Ballinasloe Mental Hospital/);
+  assert.match(ritaSummary, /named her as R\. Clinton for Fohenagh/);
+  assert.match(ritaSummary, /brilliant individualism of Rita Clinton and excellent understanding among the forwards/);
+  assert.match(ritaSummary, /3-1 to 3-0/);
+  assert.equal((ritaSummary.match(/brilliant/gi) ?? []).length, 1);
+  assert.equal((ritaSummary.match(/1947 Galway|county senior camogie final/gi) ?? []).length, 1);
+  assert.doesNotMatch(ritaSummary, /\bHe was\b|Camogie player|printed as R\. Clinton/);
+  assert.ok(
+    rita.references.some((ref) => /irish press/i.test(ref.title) && /IPR19471117|ipr-1947-11-17/i.test(ref.href)),
+    rita.references.map((ref) => `${ref.title} ${ref.href}`).join("\n")
+  );
+  assert.ok(
+    rita.references.some((ref) => /tuam herald/i.test(ref.title) && /TTH19470823/i.test(ref.href))
+  );
+  assert.ok(
+    rita.references.some((ref) => /2 Nov 1946/i.test(ref.title))
+  );
 
   const glynn = profileForPlayer(
     ctx,
