@@ -288,6 +288,7 @@ function publicationYearsIn(text: string): number[] {
  */
 function eventYearsInSentence(sentence: string): number[] {
   const cleaned = sentence
+    .replace(/\b(?:also\s+)?the\s+author of\b[^.]*/gi, " ")
     .replace(RELATIVE_CLAUSE, " ")
     .replace(NEWSPAPER_PAREN, " ")
     .replace(CATALOGUE_RANGE, (full, start: string, end: string) =>
@@ -314,7 +315,44 @@ function yearsInOwnProse(text: string): number[] {
 type MentionSources = {
   articles?: Map<string, ArticleCredit>;
   attrsForArticle?: (id: string) => Record<string, TripleVal>;
+  playerName?: string;
 };
+
+const NON_PLAYING =
+  /\bauthor of\b|\bA History of Fohenagh\s+by\b|\bgraced the hurling scene\b|\bwith pride and distinction\b/i;
+
+function foldName(value: string): string {
+  return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z\s]/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function namesMatch(captionName: string, playerName: string): boolean {
+  const caption = foldName(captionName);
+  const player = foldName(playerName);
+  if (!caption || !player) return false;
+  if (caption === player || caption.includes(player) || player.includes(caption)) return true;
+  const captionParts = caption.split(" ");
+  const playerParts = player.split(" ");
+  if (captionParts.length < 2 || playerParts.length < 2) return false;
+  if (captionParts[captionParts.length - 1] !== playerParts[playerParts.length - 1]) return false;
+  return captionParts[0][0] === playerParts[0][0];
+}
+
+/**
+ * When a caption prints a year beside a name, that year belongs to that person.
+ * Returns null when the caption does not pair names with years.
+ */
+function pairedCaptionYears(text: string, playerName: string | undefined): number[] | null {
+  const pairs: { name: string; year: number }[] = [];
+  const re = /([A-ZÀ-Ž][\p{L}'’.-]+(?:\s+[A-ZÀ-Ž][\p{L}'’.-]+)*)\s*\(([^)]+)\)/gu;
+  for (const match of text.matchAll(re)) {
+    for (const year of allYears(match[2]).filter(keepYear)) {
+      pairs.push({ name: match[1], year });
+    }
+  }
+  if (pairs.length === 0) return null;
+  if (!playerName) return [];
+  return [...new Set(pairs.filter((pair) => namesMatch(pair.name, playerName)).map((pair) => pair.year))];
+}
 
 function explicitPieceYear(attrs: Record<string, TripleVal> | undefined, keys: string[]): number | null {
   if (!attrs) return null;
@@ -349,6 +387,9 @@ function eventYearsForArticle(
   const caption = [art?.caption, art?.excerpt, piece.caption, piece.title, piece.headline, piece.name]
     .filter((part) => isDisplayableVal(part))
     .join(" ");
+  const paired = pairedCaptionYears(caption, sources?.playerName);
+  if (paired) return paired;
+  if (NON_PLAYING.test(caption)) return [];
   const slugRest = dated ? id.slice((dated.index ?? 0) + dated[0].length) : id;
   const earlier = [
     ...new Set(
@@ -451,6 +492,7 @@ export function playingYearsFor(
   ];
   return ownMentionYears(attrs, apps, {
     articles: ctx.articles,
+    playerName: String(attrs.name ?? ""),
     attrsForArticle: (articleId) => {
       const keys = [
         articleId,

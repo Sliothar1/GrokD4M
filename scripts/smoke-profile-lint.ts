@@ -304,6 +304,21 @@ async function main() {
   assert.match(tim.eraLine ?? "", /1940s/);
   assert.match(tim.eraLine ?? "", /1960s/);
   assert.doesNotMatch(tim.eraLine ?? "", /1970s|1980s|1990s|2000s|2010s/);
+  const kirwan = profileForPlayer(
+    ctx,
+    "player:tony-kirwan-fohenagh",
+    A.entityAttrs("player:tony-kirwan-fohenagh")
+  );
+  assert.match(kirwan.eraLine ?? "", /1990s/);
+  assert.doesNotMatch(kirwan.eraLine ?? "", /1970s/);
+  const seamus = profileForPlayer(ctx, "player:seamus-moclair", A.entityAttrs("player:seamus-moclair"));
+  assert.match(seamus.eraLine ?? "", /1990s/);
+  assert.match(seamus.eraLine ?? "", /2020s/);
+  assert.doesNotMatch(seamus.eraLine ?? "", /1970s/);
+  const ogorman = profileForPlayer(ctx, "player:tony-ogorman", A.entityAttrs("player:tony-ogorman"));
+  assert.match(ogorman.eraLine ?? "", /1950s/);
+  assert.match(ogorman.eraLine ?? "", /1960s/);
+  assert.doesNotMatch(ogorman.eraLine ?? "", /1970s|1980s|1990s|2000s|2010s|2020s/);
 
   const barrett = profileForPlayer(ctx, "player:mike-barrett-fohenagh", A.entityAttrs("player:mike-barrett-fohenagh"));
   if (/assault|injured/i.test(barrett.summary ?? "")) {
