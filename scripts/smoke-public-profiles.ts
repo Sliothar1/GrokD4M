@@ -269,7 +269,11 @@ async function main() {
   );
   assert.match(
     mick.summary ?? "",
-    /^Started for Fohenagh in the 1963 Galway SHC final \(Turloughmore GAA archive\)(?:\[\d+\])?\./
+    /Mick Moylette was one of the replacements who impressed in 1961, when Fohenagh played without nine of their county cup-winning side \(Westmeath Independent, 4 March 1961, p\.5\)\[\d+\]\./
+  );
+  assert.match(
+    mick.summary ?? "",
+    /Started for Fohenagh in the 1963 Galway SHC final \(Turloughmore GAA archive\)(?:\[\d+\])?\./
   );
   assert.doesNotMatch(mick.credit ?? "", /Garry Lohan/i);
   assert.match(mick.credit ?? "", /Courtesy of Irish Newspaper Archives/);
@@ -296,15 +300,31 @@ async function main() {
   assert.doesNotMatch(tim.credit ?? "", /Garry Lohan/i);
   assert.match(tim.credit ?? "", /Courtesy of Irish Newspaper Archives/);
 
-  for (const slug of ["garry-mitchell-fohenagh", "peter-lally-fohenagh"]) {
-    const profile = profileForPlayer(ctx, `player:${slug}`, A.entityAttrs(`player:${slug}`));
-    assert.match(
-      profile.summary ?? "",
-      /^Fohenagh Minor C hurling champion, 1996 \(Galway GAA Roll of Honour\)(?:\[\d+\])?\./,
-      slug
-    );
-    assert.doesNotMatch(profile.summary ?? "", /\bpanel\b/i, slug);
-  }
+  const garryMitchell = profileForPlayer(
+    ctx,
+    "player:garry-mitchell-fohenagh",
+    A.entityAttrs("player:garry-mitchell-fohenagh")
+  );
+  assert.match(
+    garryMitchell.summary ?? "",
+    /^Fohenagh Minor C hurling champion, 1996 \(Galway GAA Roll of Honour\)(?:\[\d+\])?\./
+  );
+  assert.doesNotMatch(garryMitchell.summary ?? "", /\bpanel\b/i);
+
+  const peter = profileForPlayer(
+    ctx,
+    "player:peter-lally-fohenagh",
+    A.entityAttrs("player:peter-lally-fohenagh")
+  );
+  assert.match(
+    peter.summary ?? "",
+    /Peter Lally was pictured with the Fohenagh under-16 hurlers who captured the Galway title in 1995 \(Connacht Tribune, 8 December 1995, p\.8\)\[\d+\]\./
+  );
+  assert.match(
+    peter.summary ?? "",
+    /Fohenagh Minor C hurling champion, 1996 \(Galway GAA Roll of Honour\)(?:\[\d+\])?\./
+  );
+  assert.doesNotMatch(peter.summary ?? "", /\bpanel\b/i);
 
   const alan = profileForPlayer(
     ctx,
