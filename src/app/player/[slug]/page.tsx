@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { PlayerView } from "@/components/player/PlayerView";
 import { getEntity, resolveId } from "@/lib/data";
 import { CANONICAL_PLAYER_SLUG } from "@/lib/playerSlug";
@@ -14,13 +14,7 @@ export async function generateStaticParams() {
   const slugs = new Set<string>(index.players);
   for (const record of historicalSlugRecords()) slugs.add(record.slug);
   for (const slug of Object.keys(CANONICAL_PLAYER_SLUG)) slugs.add(slug);
-  const params: { slug: string }[] = [];
-  for (const slug of slugs) {
-    const decision = resolvePlayerSlug(slug, index);
-    if (decision.status === 404) continue;
-    params.push({ slug });
-  }
-  return params;
+  return [...slugs].map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -33,7 +27,7 @@ export async function generateMetadata({
   const decision = resolvePlayerSlug(slug, index);
   const served = decision.status === 308 ? decision.target : decision.status === 200 ? decision.slug : "";
   const data = served ? await getEntity(resolveId("player", served)) : null;
-  return { title: data?.summary.title ?? "Player" };
+  return { title: data?.summary.title ?? "Search" };
 }
 
 export default async function Page({
@@ -45,7 +39,7 @@ export default async function Page({
   const index = await getPlayerRedirectIndex();
   const decision = resolvePlayerSlug(slug, index);
   if (decision.status === 308) permanentRedirect(`/player/${decision.target}`);
-  if (decision.status !== 200) notFound();
+  if (decision.status === 307) redirect(decision.target);
   const data = await getEntity(resolveId("player", decision.slug));
   if (!data) notFound();
   return <PlayerView data={data} />;

@@ -10,6 +10,13 @@ export const CANONICAL_PLAYER_SLUG: Record<string, string> = {
   "martin-glynn-fohenagh": "marty-glynn-fohenagh",
   "fr-nicholas-murray": "nicholas-murray",
   "cathal-lohan": "cathal-lohan-fohenagh",
+  "tim-sweeney": "tim-sweeney-fohenagh",
+  "jimmy-devine": "jimmy-devine-fohenagh",
+  "brendan-noone": "brendan-noone-fohenagh",
+  "sarah-noone": "sarah-noone-fohenagh",
+  // Carol Mitchell is Karl Mitchell, confirmed 7 Oct
+  "carol-mitchell": "karl-mitchell-fohenagh",
+  "carol-mitchell-fohenagh": "karl-mitchell-fohenagh",
 };
 
 export function canonicalPlayerSlug(slug: string): string | null {
